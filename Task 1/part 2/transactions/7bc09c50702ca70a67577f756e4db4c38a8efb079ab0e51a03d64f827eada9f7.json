@@ -1,0 +1,69 @@
+{
+  "raw_transaction": {
+    "txid": "7bc09c50702ca70a67577f756e4db4c38a8efb079ab0e51a03d64f827eada9f7",
+    "version": 2,
+    "locktime": 967011,
+    "vin": [
+      {
+        "txid": "c389a3c9f227100de4c8ec811ec213956f70196454e6696afa3df30dab23b50d",
+        "vout": 1,
+        "prevout": {
+          "scriptpubkey": "0014fbbc944bb6aadc7eeb774eff26d3578c5af4ec1b",
+          "scriptpubkey_asm": "OP_0 OP_PUSHBYTES_20 fbbc944bb6aadc7eeb774eff26d3578c5af4ec1b",
+          "scriptpubkey_type": "v0_p2wpkh",
+          "scriptpubkey_address": "bc1qlw7fgjak4tw8a6mhfmljd56h33d0fmqmlklf2d",
+          "value": 656900000
+        },
+        "scriptsig": "",
+        "scriptsig_asm": "",
+        "witness": [
+          "304402203baa107c32a2117c6b4af4850affb1c2cf5612e463f890e752f923fd1f791f05022014ec32eea066c2a247c5c08a521dc5f2a3b0c37f768c969dbedd8f424ad0d76c01",
+          "026b00a78d4cd7fa304f2261a1c8ee4d43ed3b1f228ddc52a4e9406d2172563fdc"
+        ],
+        "is_coinbase": false,
+        "sequence": 4294967293
+      }
+    ],
+    "vout": [
+      {
+        "scriptpubkey": "a9146d16f679343914bcc377824a835a88c21bdb496e87",
+        "scriptpubkey_asm": "OP_HASH160 OP_PUSHBYTES_20 6d16f679343914bcc377824a835a88c21bdb496e OP_EQUAL",
+        "scriptpubkey_type": "p2sh",
+        "scriptpubkey_address": "3Bdq5wDsFK6HQgtNaMYGyy3ZoEvcvTT1jS",
+        "value": 198785
+      },
+      {
+        "scriptpubkey": "0014ea2e9dd1d80e60b4e8dfb811471aca2d117f3ddf",
+        "scriptpubkey_asm": "OP_0 OP_PUSHBYTES_20 ea2e9dd1d80e60b4e8dfb811471aca2d117f3ddf",
+        "scriptpubkey_type": "v0_p2wpkh",
+        "scriptpubkey_address": "bc1qaghfm5wcpestf6xlhqg5wxk295gh70wl52nf85",
+        "value": 656572215
+      }
+    ],
+    "size": 223,
+    "weight": 565,
+    "fee": 129000,
+    "status": {
+      "confirmed": true,
+      "block_height": 967013,
+      "block_hash": "00000000000000000001d71ed1eea7516e7b15b25ffdde935e85e4130673bbcd",
+      "block_time": 1789410869
+    }
+  },
+  "analysis": {
+    "txid": "7bc09c50702ca70a67577f756e4db4c38a8efb079ab0e51a03d64f827eada9f7",
+    "is_coinbase": false,
+    "number_of_inputs": 1,
+    "number_of_outputs": 2,
+    "weight": 565,
+    "vsize": 142,
+    "input_value_sats": 656900000,
+    "input_value_btc": 6.569,
+    "output_value_sats": 656771000,
+    "output_value_btc": 6.56771,
+    "fee_sats": 129000,
+    "fee_btc": 0.00129,
+    "fee_rate_sat_vb": 908.4507042253521,
+    "fee_level": "very_high"
+  }
+}

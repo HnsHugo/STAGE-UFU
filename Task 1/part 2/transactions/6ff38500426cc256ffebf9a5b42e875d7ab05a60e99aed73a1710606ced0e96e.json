@@ -1,0 +1,69 @@
+{
+  "raw_transaction": {
+    "txid": "6ff38500426cc256ffebf9a5b42e875d7ab05a60e99aed73a1710606ced0e96e",
+    "version": 2,
+    "locktime": 0,
+    "vin": [
+      {
+        "txid": "e208cff02f936fbfaad24e1a26610aa7317560148ace65cea7932416d70b950a",
+        "vout": 1,
+        "prevout": {
+          "scriptpubkey": "00149b5141eb80e39fb9eb246eaffbd58b1ba653fc11",
+          "scriptpubkey_asm": "OP_0 OP_PUSHBYTES_20 9b5141eb80e39fb9eb246eaffbd58b1ba653fc11",
+          "scriptpubkey_type": "v0_p2wpkh",
+          "scriptpubkey_address": "bc1qndg5r6uquw0mn6eyd6hlh4vtrwn98lq39zk6hm",
+          "value": 29449
+        },
+        "scriptsig": "",
+        "scriptsig_asm": "",
+        "witness": [
+          "3044022079926c47159824bd33dfbd8b748a6f56c51acd3aaceaf72095ec93791d05b6bc022004ea92a1024b2d546187bcd0b14b3d2b0f2407f7b8f7585a7740217841ba10e401",
+          "02c79611fd4dec5c03cd4a51ac66fd6e893b3486772af98d832c6c6404b09c250f"
+        ],
+        "is_coinbase": false,
+        "sequence": 4294967295
+      }
+    ],
+    "vout": [
+      {
+        "scriptpubkey": "00149359ab8b94a989d89a2fde3ff2f106c9ab306eb5",
+        "scriptpubkey_asm": "OP_0 OP_PUSHBYTES_20 9359ab8b94a989d89a2fde3ff2f106c9ab306eb5",
+        "scriptpubkey_type": "v0_p2wpkh",
+        "scriptpubkey_address": "bc1qjdv6hzu54xya3x30mcll9ugxex4nqm44y6csyz",
+        "value": 28001
+      },
+      {
+        "scriptpubkey": "00149b5141eb80e39fb9eb246eaffbd58b1ba653fc11",
+        "scriptpubkey_asm": "OP_0 OP_PUSHBYTES_20 9b5141eb80e39fb9eb246eaffbd58b1ba653fc11",
+        "scriptpubkey_type": "v0_p2wpkh",
+        "scriptpubkey_address": "bc1qndg5r6uquw0mn6eyd6hlh4vtrwn98lq39zk6hm",
+        "value": 1307
+      }
+    ],
+    "size": 222,
+    "weight": 561,
+    "fee": 141,
+    "status": {
+      "confirmed": true,
+      "block_height": 966984,
+      "block_hash": "000000000000000000020426c6a958abcb91ddbf3877d28fc4082dbbfc5dcbcd",
+      "block_time": 1789401479
+    }
+  },
+  "analysis": {
+    "txid": "6ff38500426cc256ffebf9a5b42e875d7ab05a60e99aed73a1710606ced0e96e",
+    "is_coinbase": false,
+    "number_of_inputs": 1,
+    "number_of_outputs": 2,
+    "weight": 561,
+    "vsize": 141,
+    "input_value_sats": 29449,
+    "input_value_btc": 0.00029449,
+    "output_value_sats": 29308,
+    "output_value_btc": 0.00029308,
+    "fee_sats": 141,
+    "fee_btc": 1.41e-06,
+    "fee_rate_sat_vb": 1.0,
+    "fee_level": "low"
+  }
+}

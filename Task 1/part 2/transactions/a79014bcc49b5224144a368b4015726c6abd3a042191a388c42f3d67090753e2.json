@@ -1,0 +1,65 @@
+{
+  "raw_transaction": {
+    "txid": "a79014bcc49b5224144a368b4015726c6abd3a042191a388c42f3d67090753e2",
+    "version": 2,
+    "locktime": 0,
+    "vin": [
+      {
+        "txid": "7f3d80e72da7078ac7fb2213211fe8bd659996335e11bce8fbb4c1c519ba5cde",
+        "vout": 0,
+        "prevout": {
+          "scriptpubkey": "76a9145cdb4809cbd7ab52cc75d98009998b0223f0fd8288ac",
+          "scriptpubkey_asm": "OP_DUP OP_HASH160 OP_PUSHBYTES_20 5cdb4809cbd7ab52cc75d98009998b0223f0fd82 OP_EQUALVERIFY OP_CHECKSIG",
+          "scriptpubkey_type": "p2pkh",
+          "scriptpubkey_address": "19Tyrb48juLk4owHhDG1CoMu4V4Ai5VAn2",
+          "value": 443114
+        },
+        "scriptsig": "47304402204bcf5506cc57a93b6951983f3a5eaa79235a4e4bdff5a13438ef3a9c88d6c4ff02202987d0e487ef0ab26be17b1ae84b819d7dc9d997ec56a46e65f372f57189f93c012103d8a63907e63377d8a4dd5772977833126adb8ba285eadf8cb47e53cf43bd5adb",
+        "scriptsig_asm": "OP_PUSHBYTES_71 304402204bcf5506cc57a93b6951983f3a5eaa79235a4e4bdff5a13438ef3a9c88d6c4ff02202987d0e487ef0ab26be17b1ae84b819d7dc9d997ec56a46e65f372f57189f93c01 OP_PUSHBYTES_33 03d8a63907e63377d8a4dd5772977833126adb8ba285eadf8cb47e53cf43bd5adb",
+        "is_coinbase": false,
+        "sequence": 4294967293
+      }
+    ],
+    "vout": [
+      {
+        "scriptpubkey": "76a9145cdb4809cbd7ab52cc75d98009998b0223f0fd8288ac",
+        "scriptpubkey_asm": "OP_DUP OP_HASH160 OP_PUSHBYTES_20 5cdb4809cbd7ab52cc75d98009998b0223f0fd82 OP_EQUALVERIFY OP_CHECKSIG",
+        "scriptpubkey_type": "p2pkh",
+        "scriptpubkey_address": "19Tyrb48juLk4owHhDG1CoMu4V4Ai5VAn2",
+        "value": 216810
+      },
+      {
+        "scriptpubkey": "76a9141b951c52a168c13f7256983760d233f81a4e14c088ac",
+        "scriptpubkey_asm": "OP_DUP OP_HASH160 OP_PUSHBYTES_20 1b951c52a168c13f7256983760d233f81a4e14c0 OP_EQUALVERIFY OP_CHECKSIG",
+        "scriptpubkey_type": "p2pkh",
+        "scriptpubkey_address": "13WqsZwrMWRQVH6e2mwFUoaaRM6411KL8z",
+        "value": 209164
+      }
+    ],
+    "size": 225,
+    "weight": 900,
+    "fee": 17140,
+    "status": {
+      "confirmed": true,
+      "block_height": 967016,
+      "block_hash": "0000000000000000000188ae61d1083a502b3b30c1b885ad33dbee20265bd51c",
+      "block_time": 1789412935
+    }
+  },
+  "analysis": {
+    "txid": "a79014bcc49b5224144a368b4015726c6abd3a042191a388c42f3d67090753e2",
+    "is_coinbase": false,
+    "number_of_inputs": 1,
+    "number_of_outputs": 2,
+    "weight": 900,
+    "vsize": 225,
+    "input_value_sats": 443114,
+    "input_value_btc": 0.00443114,
+    "output_value_sats": 425974,
+    "output_value_btc": 0.00425974,
+    "fee_sats": 17140,
+    "fee_btc": 0.0001714,
+    "fee_rate_sat_vb": 76.17777777777778,
+    "fee_level": "high"
+  }
+}

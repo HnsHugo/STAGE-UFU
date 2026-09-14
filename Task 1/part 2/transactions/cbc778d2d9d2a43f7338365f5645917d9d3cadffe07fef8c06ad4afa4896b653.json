@@ -1,0 +1,59 @@
+{
+  "raw_transaction": {
+    "txid": "cbc778d2d9d2a43f7338365f5645917d9d3cadffe07fef8c06ad4afa4896b653",
+    "version": 2,
+    "locktime": 967012,
+    "vin": [
+      {
+        "txid": "0000000000000000000000000000000000000000000000000000000000000000",
+        "vout": 4294967295,
+        "prevout": null,
+        "scriptsig": "0365c10e04d384083e2f466f756e6472792055534120506f6f6c202364726f70676f6c642f4c7e24fb6516000000000000",
+        "scriptsig_asm": "OP_PUSHBYTES_3 65c10e OP_PUSHBYTES_4 d384083e OP_PUSHBYTES_47 <push past end>",
+        "witness": [
+          "0000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "is_coinbase": true,
+        "sequence": 4294967294
+      }
+    ],
+    "vout": [
+      {
+        "scriptpubkey": "00207086320071974eef5e72eaa01dd9096e10c0383483855ea6b344259c244f73c2",
+        "scriptpubkey_asm": "OP_0 OP_PUSHBYTES_32 7086320071974eef5e72eaa01dd9096e10c0383483855ea6b344259c244f73c2",
+        "scriptpubkey_type": "v0_p2wsh",
+        "scriptpubkey_address": "bc1qwzrryqr3ja8w7hnja2spmkgfdcgvqwp5swz4af4ngsjecfz0w0pqud7k38",
+        "value": 313370766
+      },
+      {
+        "scriptpubkey": "6a24aa21a9edced941e3b0a5c854950ebb17038490dc15f721ec68c778e5ab6bcec45e83c152",
+        "scriptpubkey_asm": "OP_RETURN OP_PUSHBYTES_36 aa21a9edced941e3b0a5c854950ebb17038490dc15f721ec68c778e5ab6bcec45e83c152",
+        "scriptpubkey_type": "op_return",
+        "value": 0
+      }
+    ],
+    "size": 226,
+    "weight": 796,
+    "fee": 0,
+    "status": {
+      "confirmed": true,
+      "block_height": 967013,
+      "block_hash": "00000000000000000001d71ed1eea7516e7b15b25ffdde935e85e4130673bbcd",
+      "block_time": 1789410869
+    }
+  },
+  "analysis": {
+    "txid": "cbc778d2d9d2a43f7338365f5645917d9d3cadffe07fef8c06ad4afa4896b653",
+    "is_coinbase": true,
+    "number_of_inputs": 1,
+    "number_of_outputs": 2,
+    "weight": 796,
+    "vsize": 199,
+    "output_value_sats": 313370766,
+    "output_value_btc": 3.13370766,
+    "fee_sats": null,
+    "fee_btc": null,
+    "fee_rate_sat_vb": null,
+    "fee_level": "coinbase"
+  }
+}
