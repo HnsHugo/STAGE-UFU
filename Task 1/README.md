@@ -987,31 +987,549 @@ Completed:
 
 ---
 
-# Next Step
+# Part 3 - Large-Scale Bitcoin Analysis with Google BigQuery
 
-## Part 3 - Google BigQuery
+## Objective
 
-The next objective is to move from analyzing individual transactions to analyzing large amounts of Bitcoin blockchain data.
+The objective of this part is to move from the analysis of individual Bitcoin transactions to the analysis of millions of transactions using **Google BigQuery** and the Bitcoin public dataset.
 
-Google BigQuery will make it possible to query structured blockchain datasets using SQL.
-
-The goal will be to retrieve and analyze:
-
-- large numbers of Bitcoin transactions
-- transaction values
-- fees
-- addresses
-- block information
-- transaction activity over time
-
-This transitions the project from:
+The dataset used is:
 
 ```text
-Single transaction analysis
-```
+bigquery-public-data.crypto_bitcoin
 
-to:
+The main table used is:
 
-```text
-Large-scale blockchain analysis
-```
+bigquery-public-data.crypto_bitcoin.transactions
+
+BigQuery makes it possible to perform large-scale blockchain analysis directly with SQL without downloading and storing the complete Bitcoin blockchain locally.
+
+The general workflow is:
+
+Bitcoin blockchain
+        ↓
+Google public dataset
+        ↓
+BigQuery SQL queries
+        ↓
+Filtered / aggregated results
+        ↓
+CSV export
+        ↓
+Further analysis
+1. BigQuery Transaction Schema
+
+The transactions table contains information such as:
+
+hash
+size
+virtual_size
+version
+lock_time
+block_hash
+block_number
+block_timestamp
+block_timestamp_month
+input_count
+output_count
+input_value
+output_value
+is_coinbase
+fee
+inputs
+outputs
+
+The inputs and outputs fields are nested structures containing more detailed transaction information.
+
+This dataset therefore provides both high-level transaction features and detailed input/output data.
+
+2. Partitioning and Query Cost
+
+The Bitcoin transaction table contains a very large amount of data.
+
+A first query using:
+
+SELECT *
+FROM `bigquery-public-data.crypto_bitcoin.transactions`
+LIMIT 10;
+
+would have processed approximately:
+
+2.33 TB
+
+This happens because LIMIT only limits the number of returned rows. It does not necessarily reduce the amount of data BigQuery must scan.
+
+Therefore, queries should:
+
+select only useful columns
+use the partition column
+avoid SELECT *
+avoid reading large nested fields unnecessarily
+
+The dataset is partitioned using:
+
+block_timestamp_month
+
+For example:
+
+WHERE block_timestamp_month = DATE('2026-09-01')
+
+allows BigQuery to scan only the September 2026 partition instead of the complete Bitcoin dataset.
+
+This substantially reduces query cost.
+
+3. Time Representation
+
+The block_timestamp field uses UTC.
+
+Therefore:
+
+DATE(block_timestamp)
+
+groups transactions according to UTC days.
+
+For example, in Uberlândia:
+
+12:00 local time (UTC-3)
+=
+15:00 UTC
+
+This is important when analyzing an incomplete current day.
+
+The most recent day in a query may contain only partial data and should therefore not be directly compared with complete previous days.
+
+BigQuery Experiments
+
+Each SQL query is stored separately and associated with a CSV result.
+
+Project structure:
+
+part3/
+├── queries/
+│   ├── q01_sample_transactions.sql
+│   ├── q02_highest_fee_rates.sql
+│   ├── q03_fee_statistics.sql
+│   ├── q04_transactions_per_day.sql
+│   ├── q05_daily_transaction_statistics.sql
+│   └── q06_largest_transactions.sql
+│
+└── results/
+    ├── q01_sample_transactions.csv
+    ├── q02_highest_fee_rates.csv
+    ├── q03_fee_statistics.csv
+    ├── q04_transactions_per_day.csv
+    ├── q05_daily_transaction_statistics.csv
+    └── q06_largest_transactions.csv
+
+The same query number is used for the SQL file and its corresponding result.
+
+Example:
+
+q03_fee_statistics.sql
+        ↕
+q03_fee_statistics.csv
+4. Q01 - Sample Transactions
+
+The first query retrieves a small sample of transactions from September 2026.
+
+SELECT
+  `hash` AS txid,
+  block_timestamp,
+  block_number,
+  input_count,
+  output_count,
+  input_value,
+  output_value,
+  fee,
+  size,
+  virtual_size,
+  is_coinbase
+FROM `bigquery-public-data.crypto_bitcoin.transactions`
+WHERE block_timestamp_month = DATE('2026-09-01')
+LIMIT 10;
+Purpose
+
+This query was used to:
+
+understand the table structure
+inspect real transaction values
+verify available columns
+compare BigQuery data with the transaction analysis performed in Part 2
+
+The query processed approximately:
+
+1.26 GB
+
+instead of several terabytes after filtering the partition and selecting only useful columns.
+
+5. Q02 - Transactions with the Highest Fee Rates
+
+The second query searches for transactions with the highest fee rate.
+
+SELECT
+  `hash` AS txid,
+  block_timestamp,
+  block_number,
+  input_count,
+  output_count,
+  input_value,
+  output_value,
+  fee,
+  virtual_size,
+  SAFE_DIVIDE(fee, virtual_size) AS fee_rate_sat_vb
+FROM `bigquery-public-data.crypto_bitcoin.transactions`
+WHERE block_timestamp_month = DATE('2026-09-01')
+  AND is_coinbase = FALSE
+  AND virtual_size > 0
+ORDER BY fee_rate_sat_vb DESC
+LIMIT 20;
+
+The fee rate is calculated using:
+
+fee_rate = fee / virtual_size
+Observation
+
+Several extremely high fee-rate transactions were found.
+
+The highest observed transaction had a fee rate of approximately:
+
+22,172 sat/vB
+
+One example contained approximately:
+
+Input value:
+2,567,346 sats
+
+Output value:
+128,354 sats
+
+Fee:
+2,438,992 sats
+
+This means that approximately 95% of the input value was used as transaction fees.
+
+Inspection with mempool.space showed a fee rate above:
+
+22,000 sat/vB
+
+and confirmation within only a few seconds.
+
+Such transactions may result from:
+
+manual fee configuration
+wallet misconfiguration
+automated systems
+unusual transaction behavior
+fee bumping mechanisms
+RBF
+CPFP
+
+A very high fee rate does not automatically mean that an error occurred, but it can be considered an interesting anomaly for further investigation.
+
+6. Q03 - Fee-Rate Statistics
+
+Instead of analyzing only extreme transactions, statistics were calculated for all normal Bitcoin transactions in the September partition.
+
+WITH tx AS (
+  SELECT
+    fee,
+    virtual_size,
+    SAFE_DIVIDE(fee, virtual_size) AS fee_rate_sat_vb
+  FROM `bigquery-public-data.crypto_bitcoin.transactions`
+  WHERE block_timestamp_month = DATE('2026-09-01')
+    AND is_coinbase = FALSE
+    AND virtual_size > 0
+)
+
+SELECT
+  COUNT(*) AS transaction_count,
+  AVG(fee_rate_sat_vb) AS avg_fee_rate_sat_vb,
+  MIN(fee_rate_sat_vb) AS min_fee_rate_sat_vb,
+  MAX(fee_rate_sat_vb) AS max_fee_rate_sat_vb,
+
+  APPROX_QUANTILES(fee_rate_sat_vb, 100)[OFFSET(50)]
+    AS median_fee_rate_sat_vb,
+
+  APPROX_QUANTILES(fee_rate_sat_vb, 100)[OFFSET(90)]
+    AS p90_fee_rate_sat_vb,
+
+  APPROX_QUANTILES(fee_rate_sat_vb, 100)[OFFSET(95)]
+    AS p95_fee_rate_sat_vb,
+
+  APPROX_QUANTILES(fee_rate_sat_vb, 100)[OFFSET(99)]
+    AS p99_fee_rate_sat_vb
+
+FROM tx;
+Results
+
+Approximately:
+
+7,938,849 transactions
+
+were included in the analysis.
+
+The fee-rate distribution was approximately:
+
+Average:  1.60 sat/vB
+Median:   0.35 sat/vB
+P90:      3.92 sat/vB
+P95:      5.00 sat/vB
+P99:     12.15 sat/vB
+Maximum: ~22,172.65 sat/vB
+Interpretation
+
+The distribution is strongly skewed.
+
+The median transaction paid only approximately:
+
+0.35 sat/vB
+
+while the maximum was above:
+
+22,000 sat/vB
+
+The highest transaction was therefore approximately:
+
+~1,800 × P99
+
+and tens of thousands of times larger than the median fee rate.
+
+This confirms that the highest-fee transactions are statistical outliers rather than simply normal high-fee transactions.
+
+However, fee analysis was not pursued further because the main objective of Task 1 is data acquisition and exploration rather than a complete study of Bitcoin transaction fees.
+
+7. Q04 - Transactions per Day
+
+The fourth query aggregates transaction activity by day.
+
+SELECT
+  DATE(block_timestamp) AS day,
+  COUNT(*) AS transaction_count
+FROM `bigquery-public-data.crypto_bitcoin.transactions`
+WHERE block_timestamp_month = DATE('2026-09-01')
+GROUP BY day
+ORDER BY day;
+Purpose
+
+This query demonstrates how BigQuery can aggregate millions of Bitcoin transactions using a simple SQL query.
+
+It also provides an overview of Bitcoin network activity over time.
+
+Daily transaction volumes were generally in the range of several hundred thousand transactions.
+
+A peak of close to:
+
+900,000 transactions/day
+
+was observed during the studied period.
+
+The most recent day contained partial data because the query was executed before the end of the UTC day.
+
+8. Q05 - Daily Transaction Statistics
+
+The fifth query computes daily transaction statistics.
+
+SELECT
+  DATE(block_timestamp) AS day,
+  COUNT(*) AS transaction_count,
+  AVG(input_value) AS avg_input_value_sats,
+  AVG(output_value) AS avg_output_value_sats,
+  AVG(fee) AS avg_fee_sats,
+  AVG(SAFE_DIVIDE(fee, virtual_size)) AS avg_fee_rate_sat_vb
+FROM `bigquery-public-data.crypto_bitcoin.transactions`
+WHERE block_timestamp_month = DATE('2026-09-01')
+  AND is_coinbase = FALSE
+  AND virtual_size > 0
+GROUP BY day
+ORDER BY day;
+Observation
+
+Daily transaction volume and daily fee rates do not necessarily move together.
+
+A day with a very large number of transactions can still have relatively low average fee rates.
+
+Therefore:
+
+More transactions
+≠
+Automatically higher fees
+
+Fees depend more directly on competition for block space and transaction characteristics than on the raw number of transactions alone.
+
+Average input and output values also vary significantly between days.
+
+However, a high average transaction value should not automatically be interpreted as greater economic activity because Bitcoin transactions may represent:
+
+internal wallet movements
+exchange transfers
+UTXO consolidation
+change outputs
+wallet restructuring
+9. Q06 - Largest Transactions
+
+The sixth query searches for transactions with the largest total input values.
+
+SELECT
+  `hash` AS txid,
+  block_timestamp,
+  block_number,
+  input_count,
+  output_count,
+  input_value,
+  output_value,
+  fee,
+  virtual_size,
+  SAFE_DIVIDE(fee, virtual_size) AS fee_rate_sat_vb
+FROM `bigquery-public-data.crypto_bitcoin.transactions`
+WHERE block_timestamp_month = DATE('2026-09-01')
+  AND is_coinbase = FALSE
+ORDER BY input_value DESC
+LIMIT 20;
+Observation
+
+Transactions with total input values close to:
+
+50,000 BTC
+
+were observed.
+
+One transaction contained approximately:
+
+49,670 BTC
+
+in total input value.
+
+Inspection with mempool.space showed that this value came from several input UTXOs.
+
+The transaction then created an output of approximately:
+
+49,410 BTC
+
+which was spent again only a few blocks later.
+
+The transaction fee was only a few thousand satoshis.
+
+This behavior strongly suggests that very large transaction values do not necessarily correspond to payments between two different users.
+
+They may represent:
+
+exchange wallet management
+internal fund transfers
+UTXO consolidation
+wallet sweeps
+cold-storage movements
+address restructuring
+
+Therefore:
+
+High on-chain transaction value
+≠
+High economic payment
+
+This is an important limitation when interpreting blockchain data.
+
+The blockchain shows how coins move between scripts and addresses, but it does not directly reveal the real-world economic intent behind those movements.
+
+10. BigQuery Query Cost
+
+During experimentation, some queries required large scans.
+
+Examples included queries processing:
+
+~100 GB
+~200 GB
+
+More complex queries involving nested inputs and outputs could require several hundred gigabytes.
+
+This illustrates an important BigQuery concept:
+
+Query cost depends mainly on data scanned
+
+and not on the number of rows returned.
+
+For example:
+
+LIMIT 20
+
+does not mean BigQuery reads only 20 rows if it must first scan and sort millions of transactions.
+
+Therefore, efficient BigQuery usage requires:
+
+partition filtering
+selecting only necessary columns
+avoiding unnecessary nested fields
+avoiding SELECT *
+checking the estimated processed data before execution
+11. From Individual Transactions to Large-Scale Analysis
+
+Part 2 analyzed individual transactions using the Blockstream API.
+
+Part 3 applies similar concepts to millions of transactions.
+
+The progression can be summarized as:
+
+Part 2
+
+TXID
+ ↓
+API
+ ↓
+One transaction
+ ↓
+Python analysis
+
+versus:
+
+Part 3
+
+Bitcoin public dataset
+ ↓
+SQL
+ ↓
+Millions of transactions
+ ↓
+Aggregation / filtering
+ ↓
+Statistical analysis
+
+This demonstrates the difference between transaction-level investigation and large-scale blockchain analytics.
+
+12. Main Lessons from Part 3
+
+The main concepts learned are:
+
+how to access Bitcoin public data using BigQuery
+how to inspect a large blockchain dataset schema
+how to query millions of Bitcoin transactions with SQL
+how to use partition filters to reduce data scanning
+how to calculate fee rates directly in SQL
+how to calculate statistical distributions and quantiles
+how to aggregate transaction activity by day
+how to identify extreme transactions
+how to inspect very large value transfers
+why large on-chain values do not necessarily represent economic payments
+why transaction interpretation requires contextual analysis
+how BigQuery query cost depends on scanned data rather than returned rows
+how to export query results to CSV for reproducibility
+13. Part 3 Files
+
+The work produced during this part is organized as:
+
+part3/
+├── queries/
+│   ├── q01_sample_transactions.sql
+│   ├── q02_highest_fee_rates.sql
+│   ├── q03_fee_statistics.sql
+│   ├── q04_transactions_per_day.sql
+│   ├── q05_daily_transaction_statistics.sql
+│   └── q06_largest_transactions.sql
+│
+└── results/
+    ├── q01_sample_transactions.csv
+    ├── q02_highest_fee_rates.csv
+    ├── q03_fee_statistics.csv
+    ├── q04_transactions_per_day.csv
+    ├── q05_daily_transaction_statistics.csv
+    └── q06_largest_transactions.csv
+
+Each result can therefore be traced directly to the SQL query that generated it.
