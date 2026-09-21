@@ -1,75 +1,113 @@
 import os
 import pandas as pd
+import networkx as nx
 
 DATA_DIR = "data/elliptic_bitcoin_dataset"
-RESULTS_DIR = "results"
 
-os.makedirs(RESULTS_DIR, exist_ok=True)
+# 1. Charger les données AVANT d'appeler analyze_graph
+classes = pd.read_csv(
+    f"{DATA_DIR}/elliptic_txs_classes.csv"
+)
 
-# Load datasets
-classes = pd.read_csv(f"{DATA_DIR}/elliptic_txs_classes.csv")
-edges = pd.read_csv(f"{DATA_DIR}/elliptic_txs_edgelist.csv")
+edges = pd.read_csv(
+    f"{DATA_DIR}/elliptic_txs_edgelist.csv"
+)
+
 features = pd.read_csv(
     f"{DATA_DIR}/elliptic_txs_features.csv",
     header=None
 )
 
-# Basic statistics
-total = len(classes)
+# 2. Définir la fonction
+def analyze_graph(edges, classes, results_path="results/summary.txt"):
 
-unknown = (classes["class"] == "unknown").sum()
-licit = (classes["class"] == "2").sum()
-illicit = (classes["class"] == "1").sum()
+    print("\n=== Building graph ===")
 
-labeled = licit + illicit
+    G = nx.from_pandas_edgelist(
+        edges,
+        source="txId1",
+        target="txId2",
+        create_using=nx.DiGraph()
+    )
 
-time_min = features[1].min()
-time_max = features[1].max()
-time_count = features[1].nunique()
+    nodes_count = G.number_of_nodes()
+    edges_count = G.number_of_edges()
 
-# Build summary
-summary = f"""
-=== Elliptic Dataset Summary ===
+    in_degrees = [degree for _, degree in G.in_degree()]
+    out_degrees = [degree for _, degree in G.out_degree()]
 
-Dataset shapes:
-Classes: {classes.shape}
-Edges: {edges.shape}
-Features: {features.shape}
+    avg_in_degree = sum(in_degrees) / len(in_degrees)
+    avg_out_degree = sum(out_degrees) / len(out_degrees)
 
-Transactions:
-Total: {total}
+    max_in_degree = max(in_degrees)
+    max_out_degree = max(out_degrees)
 
-Labels:
-Unknown: {unknown} ({unknown / total * 100:.2f}%)
-Licit: {licit} ({licit / total * 100:.2f}%)
-Illicit: {illicit} ({illicit / total * 100:.2f}%)
+    print("Nodes:", nodes_count)
+    print("Edges:", edges_count)
+    print("Average in-degree:", avg_in_degree)
+    print("Average out-degree:", avg_out_degree)
+    print("Maximum in-degree:", max_in_degree)
+    print("Maximum out-degree:", max_out_degree)
 
-Among labeled transactions:
-Licit: {licit / labeled * 100:.2f}%
-Illicit: {illicit / labeled * 100:.2f}%
+    # Add labels
+    label_map = dict(
+        zip(classes["txId"], classes["class"])
+    )
 
-Graph:
-Transactions / nodes: {len(features)}
-Edges: {len(edges)}
+    nx.set_node_attributes(
+        G,
+        label_map,
+        "class"
+    )
 
-Features:
-Number of features: {features.shape[1] - 1}
+    graph_licit = 0
+    graph_illicit = 0
+    graph_unknown = 0
 
-Time steps:
-Minimum: {time_min}
-Maximum: {time_max}
-Number of time steps: {time_count}
+    for node in G.nodes:
+        label = G.nodes[node].get("class", "unknown")
 
-Label mapping:
-1 = illicit
-2 = licit
-unknown = unlabeled
+        if label == "1":
+            graph_illicit += 1
+        elif label == "2":
+            graph_licit += 1
+        else:
+            graph_unknown += 1
+
+    print("\n=== Graph labels ===")
+    print("Licit nodes:", graph_licit)
+    print("Illicit nodes:", graph_illicit)
+    print("Unknown nodes:", graph_unknown)
+
+    graph_summary = f"""
+
+=== Graph Analysis ===
+
+Nodes: {nodes_count}
+Edges: {edges_count}
+
+Average in-degree: {avg_in_degree:.4f}
+Average out-degree: {avg_out_degree:.4f}
+
+Maximum in-degree: {max_in_degree}
+Maximum out-degree: {max_out_degree}
+
+Graph labels:
+Licit: {graph_licit}
+Illicit: {graph_illicit}
+Unknown: {graph_unknown}
 """
 
-print(summary)
+    with open(results_path, "a", encoding="utf-8") as f:
+        f.write(graph_summary)
 
-# Save summary
-with open(f"{RESULTS_DIR}/summary.txt", "w") as f:
-    f.write(summary)
+    print(f"\nGraph results saved to {results_path}")
 
-print("Summary saved to results/summary.txt")
+    return G
+
+
+# 3. Appeler la fonction EN DERNIER
+G = analyze_graph(
+    edges,
+    classes
+)
