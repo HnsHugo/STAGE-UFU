@@ -1,0 +1,36 @@
+
+=== Elliptic Dataset Summary ===
+
+Dataset shapes:
+Classes: (203769, 2)
+Edges: (234355, 2)
+Features: (203769, 167)
+
+Transactions:
+Total: 203769
+
+Labels:
+Unknown: 157205 (77.15%)
+Licit: 42019 (20.62%)
+Illicit: 4545 (2.23%)
+
+Among labeled transactions:
+Licit: 90.24%
+Illicit: 9.76%
+
+Graph:
+Transactions / nodes: 203769
+Edges: 234355
+
+Features:
+Number of features: 166
+
+Time steps:
+Minimum: 1
+Maximum: 49
+Number of time steps: 49
+
+Label mapping:
+1 = illicit
+2 = licit
+unknown = unlabeled
