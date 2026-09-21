@@ -1,53 +1,55 @@
-
 === Elliptic Dataset Summary ===
 
-Dataset shapes:
-Classes: (203769, 2)
-Edges: (234355, 2)
-Features: (203769, 167)
+Transactions: 203769
+Edges: 234355
+Feature columns: 167
+Number of features per transaction: 166
 
-Transactions:
-Total: 203769
+=== Class Distribution ===
 
-Labels:
-Unknown: 157205 (77.15%)
-Licit: 42019 (20.62%)
-Illicit: 4545 (2.23%)
+Unknown: 157205
+Licit: 42019
+Illicit: 4545
+
+Unknown percentage: 77.15%
+Licit percentage: 20.62%
+Illicit percentage: 2.23%
 
 Among labeled transactions:
 Licit: 90.24%
 Illicit: 9.76%
 
-Graph:
-Transactions / nodes: 203769
-Edges: 234355
-
-Features:
-Number of features: 166
-
-Time steps:
-Minimum: 1
-Maximum: 49
-Number of time steps: 49
-
-Label mapping:
-1 = illicit
-2 = licit
-unknown = unlabeled
-
-
 === Graph Analysis ===
 
 Nodes: 203769
 Edges: 234355
-
 Average in-degree: 1.1501
 Average out-degree: 1.1501
-
 Maximum in-degree: 284
 Maximum out-degree: 472
 
-Graph labels:
-Licit: 42019
-Illicit: 4545
-Unknown: 157205
+=== Licit vs Illicit Graph Comparison ===
+
+Licit transactions:
+Count: 42019
+Average in-degree: 1.9094
+Average out-degree: 1.1858
+
+Illicit transactions:
+Count: 4545
+Average in-degree: 1.2700
+Average out-degree: 0.7417
+
+=== Degree Distribution Comparison ===
+
+Licit transactions:
+
+In-degree: mean=1.9094, median=1.0000, p90=3.0000, max=284
+Out-degree: mean=1.1858, median=1.0000, p90=2.0000, max=472
+Total degree: mean=3.0952, median=2.0000, p90=4.0000, max=473
+
+Illicit transactions:
+
+In-degree: mean=1.2700, median=1.0000, p90=1.0000, max=177
+Out-degree: mean=0.7417, median=1.0000, p90=1.0000, max=3
+Total degree: mean=2.0117, median=1.0000, p90=2.0000, max=177

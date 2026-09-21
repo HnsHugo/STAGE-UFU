@@ -1258,20 +1258,100 @@ Millions of transactions
 
 ---
 
-## Next Step - Part 4
+## Part 4 - Elliptic Bitcoin Dataset
 
-The next part will use the **Elliptic Bitcoin Dataset**.
+### Objective
 
-Elliptic provides a prepared transaction graph with:
+The objective of this part was to explore the Elliptic Bitcoin Dataset and perform an initial graph-based analysis of Bitcoin transactions.
 
-```text
-transactions
-+
-edges between transactions
-+
-features
-+
-licit / illicit / unknown labels
-```
+The dataset was downloaded from Kaggle and contains transaction features, transaction labels and transaction relationships.
 
-This will introduce graph analysis and prepare the project for later machine-learning tasks.
+### Dataset
+
+The Elliptic dataset contains:
+
+- 203,769 transactions
+- 234,355 directed edges
+- 166 features per transaction
+- 49 time steps
+
+Transaction labels are defined as:
+
+- `1` - illicit
+- `2` - licit
+- `unknown` - unlabeled transaction
+
+The class distribution is highly imbalanced:
+
+- Unknown: 157,205 transactions
+- Licit: 42,019 transactions
+- Illicit: 4,545 transactions
+
+Among labeled transactions, approximately 90% are licit and 10% are illicit.
+
+### Graph Construction
+
+A directed transaction graph was constructed using NetworkX.
+
+Each node represents a Bitcoin transaction and each directed edge represents a flow between two transactions.
+
+The transaction labels were added as node attributes in order to compare the graph characteristics of licit and illicit transactions.
+
+### Graph Analysis
+
+Basic graph statistics were computed, including:
+
+- number of nodes
+- number of edges
+- average in-degree
+- average out-degree
+- maximum in-degree
+- maximum out-degree
+
+The average degree values show differences between licit and illicit transactions.
+
+Licit transactions:
+
+- Average in-degree: 1.9094
+- Average out-degree: 1.1858
+
+Illicit transactions:
+
+- Average in-degree: 1.2700
+- Average out-degree: 0.7417
+
+### Degree Distribution
+
+The degree distributions were also compared using the mean, median, 90th percentile and maximum values.
+
+For licit transactions:
+
+- Total degree mean: 3.0952
+- Median: 2
+- 90th percentile: 4
+- Maximum: 473
+
+For illicit transactions:
+
+- Total degree mean: 2.0117
+- Median: 1
+- 90th percentile: 2
+- Maximum: 177
+
+The results show that, in this dataset, labeled licit transactions tend to be more connected than labeled illicit transactions.
+
+However, these observations are specific to the Elliptic dataset and should not be interpreted as a general property of illicit Bitcoin transactions.
+
+### Conclusion
+
+This part provided a first practical introduction to blockchain graph analysis.
+
+The main steps were:
+
+1. Load the Elliptic dataset
+2. Analyze the class distribution
+3. Construct the Bitcoin transaction graph
+4. Associate transaction labels with graph nodes
+5. Compare graph properties of licit and illicit transactions
+
+This analysis provides the foundation for future work involving machine learning, Graph Neural Networks and anomaly detection.
