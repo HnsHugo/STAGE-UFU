@@ -51,7 +51,7 @@ cold storage or illicit activity.
 The first version deliberately fetches one lookup, not all cluster addresses.
 The input table is now defined in `data/seed_addresses.csv`; see `data/README.md`
 for column definitions and evidence rules. It currently contains one API smoke-test
-address. CSV ingestion is not implemented yet. Next: validate input rows, collect
+address. CSV ingestion and validation are implemented. Next: collect
 bounded address samples and preserve pagination/provenance before adding features. No completeness claim
 should be made about a cluster from a partial address page.
 
@@ -59,3 +59,33 @@ should be made about a cluster from a partial address page.
 
 - API and response contract: https://www.walletexplorer.com/api
 - Clustering, labels and refresh limitations: https://www.walletexplorer.com/info
+
+## Collect the input table
+
+From the repo root:
+
+```bash
+python "Task 2/part 1/collect_addresses.py" --input "Task 2/part 1/data/seed_addresses.csv" --output-dir "Task 2/part 1/results/my_collection" --validate-only
+python "Task 2/part 1/collect_addresses.py" --input "Task 2/part 1/data/seed_addresses.csv" --output-dir "Task 2/part 1/results/my_collection"
+```
+
+Validation checks all 14 columns, enums, UTC review dates, required source URLs,
+duplicate addresses and basic address shape before any network request. It does
+not validate Bitcoin address checksums or verify the truth of a cited claim.
+
+Each run directory contains a copy of the input CSV, one dated JSON observation
+per successfully queried address, and a manifest with found/not_found/error counts.
+The manifest identifies the input by SHA-256. Reusing a run directory with changed
+input is rejected: use a new directory when changing the table or refreshing data.
+Run only one collector per output directory.
+
+Rerunning the same input/output reuses consistent saved responses, including
+not_found, and retries failed lookups. Therefore cached not_found results are not
+fresh lookups. A new directory is required for a refresh. Requests are sequential,
+with at least one second delay after a lookup and the existing bounded retries.
+Partial failures produce exit code 1. A negative lookup remains separate from a
+network/API error. Ctrl+C can interrupt a run; rerun to recover completed snapshots.
+Filesystem errors stop the run rather than being disguised as API failures.
+
+The committed `results/seed_collection_20261005/` is a real one-address smoke test.
+It does not establish clustering accuracy, storage classification or illicit links.
