@@ -50,8 +50,7 @@ cold storage or illicit activity.
 
 The first version deliberately fetches one lookup, not all cluster addresses.
 The input table is now defined in `data/seed_addresses.csv`; see `data/README.md`
-for column definitions and evidence rules. It currently contains one API smoke-test
-address. CSV ingestion and validation are implemented. Next: collect
+for column definitions and evidence rules. It contains one API smoke-test address and seven sourced research addresses. CSV ingestion and validation are implemented. Next: collect
 bounded address samples and preserve pagination/provenance before adding features. No completeness claim
 should be made about a cluster from a partial address page.
 
@@ -87,7 +86,9 @@ Partial failures produce exit code 1. A negative lookup remains separate from a
 network/API error. Ctrl+C can interrupt a run; rerun to recover completed snapshots.
 Filesystem errors stop the run rather than being disguised as API failures.
 
-The committed `results/seed_collection_20261005/` is a real one-address smoke test.
+The committed `results/seed_collection_20261005/` is the original one-address smoke test.
+Its saved input belongs to that earlier experiment. The expanded collection is
+`results/research_seeds_20261005/`; see `data/research_sources_20261005.md` for sources.
 It does not establish clustering accuracy, storage classification or illicit links.
 
 ## Combined results table
@@ -107,3 +108,12 @@ fields, have blank provider fields and include an error message. On resume the t
 is rebuilt from validated cached observations and retried errors.
 
 Example: `results/seed_collection_20261005/results.csv`.
+
+## First research collection
+
+The new combined table contains eight rows: one smoke test and seven research
+addresses. All eight lookups succeeded. The seven research addresses have cluster
+IDs but no provider service labels. Input entity attribution and published
+Bitfinex hot/cold labels are retained independently. Found means indexed; it does
+not confirm the input ownership or storage claim. Four Binance attributions are
+historical (2022 snapshot), with unknown storage and unverified current ownership.
