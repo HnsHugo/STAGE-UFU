@@ -1,0 +1,53 @@
+[
+  {
+    "address": "3M219KR5vEneNb47ewrPfWyb5jQ2DjxRP6",
+    "entity": "Binance",
+    "published_storage": "unknown",
+    "coverage": "count_consistent_full_history",
+    "metrics": {
+      "transaction_count": 10,
+      "transactions_per_day": 0.3333333333333333,
+      "active_utc_days": 9,
+      "received_sat": 2049449903073,
+      "spent_sat": 2482850612726,
+      "spending_transaction_count": 2,
+      "receive_only_transaction_count": 8,
+      "median_spending_fee_rate_sat_vb": 3.0021603456553048
+    },
+    "error": ""
+  },
+  {
+    "address": "bc1qgdjqv0av3q56jvd82tkdjpy7gdp9ut8tlqmgrpmv24sq90ecnvqqjwvw97",
+    "entity": "Bitfinex",
+    "published_storage": "cold",
+    "coverage": "count_consistent_full_history",
+    "metrics": {
+      "transaction_count": 0,
+      "transactions_per_day": 0.0,
+      "active_utc_days": 0,
+      "received_sat": 0,
+      "spent_sat": 0,
+      "spending_transaction_count": 0,
+      "receive_only_transaction_count": 0,
+      "median_spending_fee_rate_sat_vb": null
+    },
+    "error": ""
+  },
+  {
+    "address": "3LYJfcfHPXYJreMsASk2jkn69LWEYKzexb",
+    "entity": "Binance",
+    "published_storage": "unknown",
+    "coverage": "count_consistent_full_history",
+    "metrics": {
+      "transaction_count": 0,
+      "transactions_per_day": 0.0,
+      "active_utc_days": 0,
+      "received_sat": 0,
+      "spent_sat": 0,
+      "spending_transaction_count": 0,
+      "receive_only_transaction_count": 0,
+      "median_spending_fee_rate_sat_vb": null
+    },
+    "error": ""
+  }
+]
