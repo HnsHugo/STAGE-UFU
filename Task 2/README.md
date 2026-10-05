@@ -21,6 +21,10 @@ storage classification and illicit labels as separate fields with separate sourc
 
 Part 1 contains single-address and CSV collection CLIs, sourced input records,
 real API snapshots and offline tests for validation, error handling and resume.
+The seed table now includes seven first-party research addresses: three Bitfinex
+addresses with published hot/cold labels and four historical Binance reserve
+addresses with unknown storage. WalletExplorer found all seven but supplied no
+service names. These are collection results, not illicit-correlation findings.
 It queries an existing clustering service; it does not implement clustering itself.
 No hardware/cold classification, CPFP detection or illicit classifier exists yet.
 
