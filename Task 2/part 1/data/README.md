@@ -2,8 +2,10 @@
 
 `seed_addresses.csv` is the input list for future collection. One row represents
 one public Bitcoin mainnet address, not a wallet, person or transaction.
-Current state: one API smoke-test address, zero independently verified storage or
-illicit labels. `collect_addresses.py` validates and reads this CSV.
+Current state: one API smoke-test address and seven research addresses. Bitfinex
+publishes two cold and one hot label; four Binance reserve addresses have unknown
+storage. Hardware and illicit labels remain unknown for all rows. See
+`research_sources_20261005.md` for evidence dates and scope. `collect_addresses.py` validates and reads this CSV.
 
 ## Columns
 
