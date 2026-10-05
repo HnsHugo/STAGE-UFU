@@ -1,0 +1,28 @@
+[
+  {
+    "case": "before_only",
+    "url": "https://api.blockcypher.com/v1/btc/main/addrs/1Kr6QSydW9bFQG1mXiPNNu6WpJGmUa9i1g?before=960100&limit=10&confirmations=1",
+    "retrieved_at_utc": "2026-10-05T06:49:59.018883+00:00",
+    "http_status": 200,
+    "response_sha256": "83c8869ff008c35d515af974d9ebce970129803bcfdf369ab03e19a337605d85",
+    "references": 12,
+    "has_more": true,
+    "min_height": 969962,
+    "max_height": 969971,
+    "out_of_bounds_references": 12,
+    "filter_observation": "violated"
+  },
+  {
+    "case": "height_interval",
+    "url": "https://api.blockcypher.com/v1/btc/main/addrs/1Kr6QSydW9bFQG1mXiPNNu6WpJGmUa9i1g?before=960100&after=960000&limit=10&confirmations=1",
+    "retrieved_at_utc": "2026-10-05T06:50:05.319906+00:00",
+    "http_status": 200,
+    "response_sha256": "83c8869ff008c35d515af974d9ebce970129803bcfdf369ab03e19a337605d85",
+    "references": 12,
+    "has_more": true,
+    "min_height": 969962,
+    "max_height": 969971,
+    "out_of_bounds_references": 12,
+    "filter_observation": "violated"
+  }
+]
