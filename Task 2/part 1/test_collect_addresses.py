@@ -67,6 +67,30 @@ class CollectionTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'changed'):
             collect(self.input, out)
 
+    def test_combined_csv_keeps_sources_and_unknowns_on_success_and_error(self):
+        self.row.update(storage_type='cold', storage_source_url='https://example.test/evidence',
+                        notes='Example, with comma and "quotes"')
+        self.write([self.row])
+        out = self.root / 'out'
+        def fail(_):
+            raise URLError('offline')
+        collect(self.input, out, requester=fail, sleeper=lambda _: None)
+        with (out / 'results.csv').open(newline='') as handle:
+            result = list(csv.DictReader(handle))[0]
+        self.assertEqual(result['lookup_status'], 'error')
+        self.assertEqual(result['wallet_id'], '')
+        self.assertEqual(result['hardware_wallet'], 'unknown')
+        self.assertEqual(result['storage_type'], 'cold')
+        self.assertEqual(result['notes'], self.row['notes'])
+        collect(self.input, out, requester=lambda _: ('https://example.test/api', {'found': True, 'wallet_id': 'abc', 'label': 'Service'}), sleeper=lambda _: None)
+        with (out / 'results.csv').open(newline='') as handle:
+            result = list(csv.DictReader(handle))[0]
+        self.assertEqual(result['error'], '')
+        self.assertEqual(result['wallet_id'], 'abc')
+        self.assertEqual(result['entity_name'], 'unknown')
+        self.assertEqual(result['service_label'], 'Service')
+        self.assertEqual(result['storage_source_url'], self.row['storage_source_url'])
+
 
 if __name__ == '__main__':
     unittest.main()
