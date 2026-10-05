@@ -1,0 +1,138 @@
+{
+  "seed": {
+    "address": "bc1q43krjn8qvfydqs9lq8crg26er4c26hkpd2mpw7",
+    "network": "bitcoin_mainnet",
+    "purpose": "research_sample",
+    "entity_name": "Change",
+    "entity_source_url": "https://www.changeinvest.com/blog/change-proof-of-reserves-2025-update",
+    "entity_evidence": "first_party_publication",
+    "storage_type": "cold",
+    "storage_source_url": "https://www.changeinvest.com/blog/change-proof-of-reserves-2025-update",
+    "hardware_wallet": "unknown",
+    "hardware_source_url": "",
+    "illicit_label": "unknown",
+    "illicit_source_url": "",
+    "reviewed_at_utc": "2026-10-05T04:42:49+00:00",
+    "notes": "Cold-storage snapshot 2025-03-31T23:59:00Z; published 2025-04-21; first three BTC rows selected in source order; report mentions Ledger at storage-system level but no address-specific device/model; current storage/control unverified."
+  },
+  "storage_prediction": "unknown",
+  "storage_label_window_validity": "unverified",
+  "history": {
+    "schema_version": 1,
+    "source": "Blockstream Esplora",
+    "address": "bc1q43krjn8qvfydqs9lq8crg26er4c26hkpd2mpw7",
+    "max_pages": 1,
+    "requests": [
+      {
+        "url": "https://blockstream.info/api/address/bc1q43krjn8qvfydqs9lq8crg26er4c26hkpd2mpw7",
+        "retrieved_at_utc": "2026-10-05T06:00:44.512163+00:00",
+        "response_sha256": "a2d746b60386d0fec2319a72e32021e0a6afa1762107931c548c95d6817dba3e"
+      },
+      {
+        "url": "https://blockstream.info/api/address/bc1q43krjn8qvfydqs9lq8crg26er4c26hkpd2mpw7/txs/chain",
+        "retrieved_at_utc": "2026-10-05T06:00:54.840615+00:00",
+        "response_sha256": "6bb50d8767ca21a1040f2320b36eda81d371125933f02afddbff85a670e7b07b"
+      },
+      {
+        "url": "https://blockstream.info/api/address/bc1q43krjn8qvfydqs9lq8crg26er4c26hkpd2mpw7",
+        "retrieved_at_utc": "2026-10-05T06:01:07.474552+00:00",
+        "response_sha256": "a2d746b60386d0fec2319a72e32021e0a6afa1762107931c548c95d6817dba3e"
+      }
+    ],
+    "address_stats_before": {
+      "address": "bc1q43krjn8qvfydqs9lq8crg26er4c26hkpd2mpw7",
+      "chain_stats": {
+        "funded_txo_count": 1,
+        "funded_txo_sum": 457067,
+        "spent_txo_count": 1,
+        "spent_txo_sum": 457067,
+        "tx_count": 2
+      },
+      "mempool_stats": {
+        "funded_txo_count": 0,
+        "funded_txo_sum": 0,
+        "spent_txo_count": 0,
+        "spent_txo_sum": 0,
+        "tx_count": 0
+      }
+    },
+    "address_stats_after": {
+      "address": "bc1q43krjn8qvfydqs9lq8crg26er4c26hkpd2mpw7",
+      "chain_stats": {
+        "funded_txo_count": 1,
+        "funded_txo_sum": 457067,
+        "spent_txo_count": 1,
+        "spent_txo_sum": 457067,
+        "tx_count": 2
+      },
+      "mempool_stats": {
+        "funded_txo_count": 0,
+        "funded_txo_sum": 0,
+        "spent_txo_count": 0,
+        "spent_txo_sum": 0,
+        "tx_count": 0
+      }
+    },
+    "transactions": [
+      {
+        "address": "bc1q43krjn8qvfydqs9lq8crg26er4c26hkpd2mpw7",
+        "txid": "937edbadf19d20c4ecd9e6c2f0e7a8f2acd3edd0c12d7fe63476951e4432faf7",
+        "block_height": 914024,
+        "block_time_utc": "2025-09-10T07:04:54+00:00",
+        "address_received_sat": 0,
+        "address_spent_sat": 457067,
+        "address_net_sat": -457067,
+        "transaction_fee_sat": 347,
+        "vsize_vb": 346,
+        "fee_rate_sat_vb": 1.0028901734104045,
+        "input_count": 4,
+        "output_count": 2
+      },
+      {
+        "address": "bc1q43krjn8qvfydqs9lq8crg26er4c26hkpd2mpw7",
+        "txid": "8af5d9c41a6d113c49a656df98aba02ad15586a8dfd4c61e4802d323fd12ba55",
+        "block_height": 879520,
+        "block_time_utc": "2025-01-16T17:00:16+00:00",
+        "address_received_sat": 457067,
+        "address_spent_sat": 0,
+        "address_net_sat": 457067,
+        "transaction_fee_sat": 3481,
+        "vsize_vb": 685,
+        "fee_rate_sat_vb": 5.081751824817518,
+        "input_count": 9,
+        "output_count": 2
+      }
+    ],
+    "summary": {
+      "collection_status": "ok",
+      "chain_tx_count_before": 2,
+      "chain_tx_count_after": 2,
+      "confirmed_balance_sat_before": 0,
+      "observed_tx_count": 2,
+      "coverage": "count_matches_stable_stats",
+      "stop_reason": "endpoint_exhausted",
+      "oldest_observed_utc": "2025-01-16T17:00:16+00:00",
+      "newest_observed_utc": "2025-09-10T07:04:54+00:00",
+      "observed_received_sat": 457067,
+      "observed_spent_sat": 457067,
+      "error": ""
+    }
+  },
+  "window": {
+    "start_utc_inclusive": "2026-09-01T00:00:00+00:00",
+    "end_utc_exclusive": "2026-10-01T00:00:00+00:00",
+    "window_coverage": "count_consistent_full_history",
+    "observed_window_transaction_count": 0,
+    "metrics": {
+      "transaction_count": 0,
+      "transactions_per_day": 0.0,
+      "active_utc_days": 0,
+      "received_sat": 0,
+      "spent_sat": 0,
+      "spending_transaction_count": 0,
+      "receive_only_transaction_count": 0,
+      "median_spending_fee_rate_sat_vb": null
+    },
+    "transactions": []
+  }
+}
