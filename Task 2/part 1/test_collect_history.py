@@ -1,5 +1,10 @@
+import csv
+from pathlib import Path
+import tempfile
 import unittest
-from collect_history import sample, transaction_row
+from urllib.error import URLError
+from collect_history import sample, transaction_row, run
+from collect_addresses import FIELDS
 
 A = 'test-address'
 
@@ -59,6 +64,40 @@ class HistoryTests(unittest.TestCase):
         t['vin'] = [{'is_coinbase': True}]
         t['fee'] = 0
         self.assertEqual(transaction_row(A, t)['address_spent_sat'], 0)
+
+    def test_run_preserves_input_on_error_and_resumes_without_network(self):
+        address = '16SbwNa22nBwhLtg6HzWVYFQiUxtNzAUpt'
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            seed = {key: '' for key in FIELDS}
+            seed.update(address=address, network='bitcoin_mainnet', purpose='research_sample',
+                        entity_name='unknown', entity_evidence='unknown', storage_type='cold',
+                        storage_source_url='https://example.test/evidence', hardware_wallet='unknown',
+                        illicit_label='unknown', reviewed_at_utc='2026-10-05T00:00:00+00:00')
+            input_path = root / 'input.csv'
+            with input_path.open('w', newline='') as handle:
+                writer = csv.DictWriter(handle, fieldnames=FIELDS)
+                writer.writeheader()
+                writer.writerow(seed)
+            def failure(_):
+                raise URLError('offline')
+            out = root / 'out'
+            run(input_path, out, getter=failure, sleeper=lambda _: None)
+            with (out / 'address_summary.csv').open() as handle:
+                result = list(csv.DictReader(handle))[0]
+            self.assertEqual(result['collection_status'], 'error')
+            self.assertEqual(result['storage_type'], 'cold')
+            self.assertEqual(result['observed_tx_count'], '')
+            s = {**stats(0), 'address': address}
+            run(input_path, out, getter=self.getter([s, [], s]), sleeper=lambda _: None)
+            saved = (out / (address + '.json')).read_bytes()
+            records = run(input_path, out, getter=lambda _: self.fail('Cached request repeated'))
+            self.assertTrue(records[0]['cached'])
+            self.assertEqual(saved, (out / (address + '.json')).read_bytes())
+            with (out / 'address_summary.csv').open() as handle:
+                result = list(csv.DictReader(handle))[0]
+            self.assertEqual(result['hardware_wallet'], 'unknown')
+            self.assertEqual(result['collection_status'], 'ok')
 
 
 if __name__ == '__main__':

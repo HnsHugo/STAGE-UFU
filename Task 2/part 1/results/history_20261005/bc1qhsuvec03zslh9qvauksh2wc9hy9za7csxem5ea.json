@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "source": "Blockstream Esplora",
+  "address": "bc1qhsuvec03zslh9qvauksh2wc9hy9za7csxem5ea",
+  "max_pages": 1,
+  "requests": [
+    {
+      "url": "https://blockstream.info/api/address/bc1qhsuvec03zslh9qvauksh2wc9hy9za7csxem5ea",
+      "retrieved_at_utc": "2026-10-05T04:57:30.809729+00:00",
+      "response_sha256": "093624464653b22c3cd485859afbdf4b49143b74587b516c1cfd883c53876711"
+    },
+    {
+      "url": "https://blockstream.info/api/address/bc1qhsuvec03zslh9qvauksh2wc9hy9za7csxem5ea/txs/chain",
+      "retrieved_at_utc": "2026-10-05T04:57:36.781444+00:00",
+      "response_sha256": "6e241d83db0d2bb0390172f8b27aec3de568dc2c06545ba9143214e69b7ec97f"
+    },
+    {
+      "url": "https://blockstream.info/api/address/bc1qhsuvec03zslh9qvauksh2wc9hy9za7csxem5ea",
+      "retrieved_at_utc": "2026-10-05T04:57:44.131794+00:00",
+      "response_sha256": "093624464653b22c3cd485859afbdf4b49143b74587b516c1cfd883c53876711"
+    }
+  ],
+  "address_stats_before": {
+    "address": "bc1qhsuvec03zslh9qvauksh2wc9hy9za7csxem5ea",
+    "chain_stats": {
+      "funded_txo_count": 1,
+      "funded_txo_sum": 89999708,
+      "spent_txo_count": 1,
+      "spent_txo_sum": 89999708,
+      "tx_count": 2
+    },
+    "mempool_stats": {
+      "funded_txo_count": 0,
+      "funded_txo_sum": 0,
+      "spent_txo_count": 0,
+      "spent_txo_sum": 0,
+      "tx_count": 0
+    }
+  },
+  "address_stats_after": {
+    "address": "bc1qhsuvec03zslh9qvauksh2wc9hy9za7csxem5ea",
+    "chain_stats": {
+      "funded_txo_count": 1,
+      "funded_txo_sum": 89999708,
+      "spent_txo_count": 1,
+      "spent_txo_sum": 89999708,
+      "tx_count": 2
+    },
+    "mempool_stats": {
+      "funded_txo_count": 0,
+      "funded_txo_sum": 0,
+      "spent_txo_count": 0,
+      "spent_txo_sum": 0,
+      "tx_count": 0
+    }
+  },
+  "transactions": [
+    {
+      "address": "bc1qhsuvec03zslh9qvauksh2wc9hy9za7csxem5ea",
+      "txid": "6f8b7cd0ce94c94fdabd7b75f6647401f07d458c9852ba6d1c4f1969a42d13b9",
+      "block_height": 894622,
+      "block_time_utc": "2025-04-30T15:01:00+00:00",
+      "address_received_sat": 0,
+      "address_spent_sat": 89999708,
+      "address_net_sat": -89999708,
+      "transaction_fee_sat": 300,
+      "vsize_vb": 141,
+      "fee_rate_sat_vb": 2.127659574468085,
+      "input_count": 1,
+      "output_count": 2
+    },
+    {
+      "address": "bc1qhsuvec03zslh9qvauksh2wc9hy9za7csxem5ea",
+      "txid": "637a53f110f340f8964e6f5f254731b7ee9018c0914da9e0bd1173efc10c389d",
+      "block_height": 886268,
+      "block_time_utc": "2025-03-04T10:47:33+00:00",
+      "address_received_sat": 89999708,
+      "address_spent_sat": 0,
+      "address_net_sat": 89999708,
+      "transaction_fee_sat": 292,
+      "vsize_vb": 141,
+      "fee_rate_sat_vb": 2.0709219858156027,
+      "input_count": 1,
+      "output_count": 2
+    }
+  ],
+  "summary": {
+    "collection_status": "ok",
+    "chain_tx_count_before": 2,
+    "chain_tx_count_after": 2,
+    "confirmed_balance_sat_before": 0,
+    "observed_tx_count": 2,
+    "coverage": "count_matches_stable_stats",
+    "stop_reason": "endpoint_exhausted",
+    "oldest_observed_utc": "2025-03-04T10:47:33+00:00",
+    "newest_observed_utc": "2025-04-30T15:01:00+00:00",
+    "observed_received_sat": 89999708,
+    "observed_spent_sat": 89999708,
+    "error": ""
+  }
+}

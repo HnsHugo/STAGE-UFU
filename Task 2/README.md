@@ -47,3 +47,14 @@ address is available. Change's storage claim applies to a 2025-03-31 snapshot,
 and does not establish an address-specific hardware model. All 11 lookups were
 found, but none of the 10 research addresses received a provider service label.
 Earlier dated result directories preserve earlier samples.
+
+## First on-chain history collection
+
+Part 1 now includes `collect_history.py`, using at most 25 recent confirmed
+transactions per address in the initial run. All 11 addresses succeeded, yielding
+206 address/transaction observations. Labels and provenance remain in
+address_summary.csv, while transactions.csv supplies dated flows and transaction
+fees. See Part 1/HISTORY.md for count-based coverage and non-atomic snapshot limits.
+The 14 offline tests cover ingestion, response validation, pagination, amount
+attribution, coverage changes and resumable collection. CPFP, holding-time and
+illicit inference remain unimplemented.

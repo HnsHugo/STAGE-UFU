@@ -132,3 +132,16 @@ Historical storage claims must not be applied to all transaction history. The
 sample also has only one hot address, so entity and selection effects preclude a
 reliable hot-versus-cold comparison. Next: acquire bounded dated on-chain data,
 report coverage and distinguish descriptive activity from validated storage claims.
+
+## Confirmed on-chain history
+
+`collect_history.py` retrieves bounded confirmed history from Blockstream Esplora.
+See [HISTORY.md](HISTORY.md) for commands, units, coverage and limits.
+The first run is in `results/history_20261005/`: address_summary.csv preserves
+all storage/hardware/illicit evidence alongside observed activity;
+transactions.csv contains address-specific flows and whole-transaction fees.
+
+The run processed 11 addresses without errors and produced 206
+address/transaction rows (201 distinct transactions).
+Do not interpret sample date ranges as lifetime activity or apply historical
+storage labels to recent transactions without checking the evidence periods.
