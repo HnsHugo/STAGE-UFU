@@ -89,3 +89,21 @@ Filesystem errors stop the run rather than being disguised as API failures.
 
 The committed `results/seed_collection_20261005/` is a real one-address smoke test.
 It does not establish clustering accuracy, storage classification or illicit links.
+
+## Combined results table
+
+Open `results.csv` inside a collection directory to see the input evidence and
+WalletExplorer observations side by side. The original 14 columns are preserved;
+8 columns are appended: lookup_status, wallet_id, service_label, updated_to_block,
+retrieved_at_utc, source_url, cached and error.
+
+Input unknown values remain unknown. Empty provider fields mean unavailable data,
+not a negative storage/hardware/illicit classification. Entity_name is the input
+attribution; service_label is the provider response. Neither overwrites the other.
+
+The CSV is updated atomically after each processed address and contains the processed
+portion of the input during an interrupted run. Rows with API errors retain all input
+fields, have blank provider fields and include an error message. On resume the table
+is rebuilt from validated cached observations and retried errors.
+
+Example: `results/seed_collection_20261005/results.csv`.
