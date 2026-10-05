@@ -3,7 +3,7 @@
 `seed_addresses.csv` is the input list for future collection. One row represents
 one public Bitcoin mainnet address, not a wallet, person or transaction.
 Current state: one API smoke-test address, zero independently verified storage or
-illicit labels. The single-address CLI does not read this CSV yet.
+illicit labels. `collect_addresses.py` validates and reads this CSV.
 
 ## Columns
 
@@ -54,7 +54,7 @@ unknown. This record tests the collection workflow only.
 
 ## Next collection step
 
-Implement CSV ingestion and validation, then query WalletExplorer for each unique
+CSV ingestion and validation are implemented. Query WalletExplorer for each unique
 address with bounded requests. Keep provider outputs in dated results rather than
 overwriting the input evidence. Add independent research addresses after reviewing
 first-party publications or a documented controlled experiment.
