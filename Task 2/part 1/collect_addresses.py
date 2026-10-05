@@ -13,6 +13,17 @@ from urllib.parse import urlparse
 from lookup_address import fetch, normalize
 
 FIELDS = 'address network purpose entity_name entity_source_url entity_evidence storage_type storage_source_url hardware_wallet hardware_source_url illicit_label illicit_source_url reviewed_at_utc notes'.split()
+RESULT_FIELDS = FIELDS + ['lookup_status', 'wallet_id', 'service_label', 'updated_to_block',
+                         'retrieved_at_utc', 'source_url', 'cached', 'error']
+
+
+def write_results(path, rows):
+    temporary = path.with_suffix('.tmp')
+    with temporary.open('w', encoding='utf-8', newline='') as handle:
+        writer = csv.DictWriter(handle, fieldnames=RESULT_FIELDS)
+        writer.writeheader()
+        writer.writerows(rows)
+    temporary.replace(path)
 
 
 def load_seeds(path):
@@ -90,8 +101,10 @@ def collect(input_path, output_dir, delay=1.0, requester=fetch, sleeper=time.sle
         write_json(manifest_path, manifest)
     (output_dir / 'input.csv').write_bytes(input_path.read_bytes())
     records = []
+    combined = []
     failed = False
     for row in rows:
+        snapshot = None
         address = row['address']
         destination = output_dir / (address + '.json')
         if destination.exists():
@@ -119,6 +132,13 @@ def collect(input_path, output_dir, delay=1.0, requester=fetch, sleeper=time.sle
                 record = {'address': address, 'status': normalized['lookup_status'], 'cached': False, 'snapshot': destination.name}
             sleeper(delay)
         records.append(record)
+        combined_row = {**row, 'lookup_status': record['status'],
+                        'cached': record['cached'], 'error': record.get('error', '')}
+        for field in ['wallet_id', 'service_label', 'updated_to_block', 'retrieved_at_utc', 'source_url']:
+            value = snapshot.get(field) if snapshot else None
+            combined_row[field] = value if value is not None else ''
+        combined.append(combined_row)
+        write_results(output_dir / 'results.csv', combined)
         manifest['records'] = records
         manifest['updated_at_utc'] = datetime.now(timezone.utc).isoformat()
         write_json(manifest_path, manifest)
