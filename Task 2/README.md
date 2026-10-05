@@ -37,3 +37,13 @@ Use Elliptic separately for graph/ML baselines and investigate a labeled on-chai
 dataset for the new feature hypotheses before promising a correlation analysis.
 
 Source: https://www.kaggle.com/datasets/ellipticco/elliptic-data-set
+
+## Expanded sample
+
+The latest collection is Part 1/results/research_expanded_20261005/results.csv.
+There are now 10 research addresses across Bitfinex, Binance and Change, plus one
+smoke-test address. Five published cold labels span two entities; only one hot
+address is available. Change's storage claim applies to a 2025-03-31 snapshot,
+and does not establish an address-specific hardware model. All 11 lookups were
+found, but none of the 10 research addresses received a provider service label.
+Earlier dated result directories preserve earlier samples.
