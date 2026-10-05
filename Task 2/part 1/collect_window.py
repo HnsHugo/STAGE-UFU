@@ -6,7 +6,54 @@ import json
 from pathlib import Path
 from statistics import median
 from collect_addresses import load_seeds, write_json
-from collect_history import sample
+from collect_history import sample, get_json
+
+
+def checkpoint_getter(address, path, getter=get_json):
+    """Reuse history pages only while live chain statistics match the anchor."""
+    cache = json.loads(path.read_text()) if path.exists() else {
+        'schema_version': 1, 'address': address, 'chain_stats': None, 'pages': {}}
+    if cache.get('schema_version') != 1 or cache.get('address') != address:
+        raise ValueError('Checkpoint mismatch')
+    prefix = '/address/' + address
+
+    def get(url):
+        if url == prefix:
+            data, evidence = getter(url)
+            if data.get('address') != address:
+                raise ValueError('Address stats response mismatch')
+            if cache['chain_stats'] is None:
+                cache['chain_stats'] = data['chain_stats']
+                write_json(path, cache)
+            elif cache['chain_stats'] != data['chain_stats']:
+                raise ValueError('Chain stats changed since checkpoint; use a new output directory')
+            return data, evidence
+        if not url.startswith(prefix + '/txs/chain'):
+            raise ValueError('Unexpected checkpoint request')
+        if url in cache['pages']:
+            page = cache['pages'][url]
+            return page['data'], page['evidence']
+        data, evidence = getter(url)
+        cache['pages'][url] = {'data': data, 'evidence': evidence}
+        write_json(path, cache)
+        return data, evidence
+    return get
+
+
+def prepare_output(input_path, output, start, end):
+    expected = {'schema_version': 2,
+                'input_sha256': hashlib.sha256(input_path.read_bytes()).hexdigest(),
+                'start_utc_inclusive': start.isoformat(), 'end_utc_exclusive': end.isoformat()}
+    output.mkdir(parents=True, exist_ok=True)
+    path = output / 'manifest.json'
+    if path.exists():
+        if json.loads(path.read_text()) != expected:
+            raise ValueError('Input, dates or collector version changed; use a new output directory')
+    else:
+        if any(output.iterdir()):
+            raise ValueError('Nonempty output without manifest')
+        write_json(path, expected)
+        (output / 'input.csv').write_bytes(input_path.read_bytes())
 
 
 def parse_utc(value):
@@ -59,17 +106,13 @@ def main():
         if not 1 <= args.max_pages <= 100:
             raise ValueError('max-pages must be in 1..100')
         seeds = load_seeds(args.input)
-        # Fresh directory protects dated results and avoids mixing parameters.
-        args.output_dir.mkdir(parents=True, exist_ok=False)
-        write_json(args.output_dir / 'manifest.json', {
-            'schema_version': 1, 'input_sha256': hashlib.sha256(args.input.read_bytes()).hexdigest(),
-            'start_utc_inclusive': start.isoformat(), 'end_utc_exclusive': end.isoformat(),
-            'max_pages': args.max_pages})
-        (args.output_dir / 'input.csv').write_bytes(args.input.read_bytes())
+        prepare_output(args.input, args.output_dir, start, end)
         errors = 0
         for seed in seeds:
             try:
-                observation = sample(seed['address'], args.max_pages)
+                getter = checkpoint_getter(seed['address'],
+                    args.output_dir / (seed['address'] + '.pages.json'))
+                observation = sample(seed['address'], args.max_pages, getter=getter)
                 result = {'seed': seed, 'storage_prediction': 'unknown',
                           'storage_label_window_validity': 'unverified',
                           'history': observation, 'window': measure(observation, start, end)}
