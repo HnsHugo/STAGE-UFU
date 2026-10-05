@@ -19,7 +19,8 @@ storage classification and illicit labels as separate fields with separate sourc
 
 ## Current progress
 
-Part 1 contains a CLI, a real API snapshot and offline response-validation tests.
+Part 1 contains single-address and CSV collection CLIs, sourced input records,
+real API snapshots and offline tests for validation, error handling and resume.
 It queries an existing clustering service; it does not implement clustering itself.
 No hardware/cold classification, CPFP detection or illicit classifier exists yet.
 
