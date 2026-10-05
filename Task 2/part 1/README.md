@@ -49,8 +49,10 @@ Neither a cluster ID nor a service name establishes Ledger/Trezor hardware usage
 cold storage or illicit activity.
 
 The first version deliberately fetches one lookup, not all cluster addresses.
-Next: define a sourced input table, collect bounded address samples and preserve
-pagination/provenance before adding behavioural features. No completeness claim
+The input table is now defined in `data/seed_addresses.csv`; see `data/README.md`
+for column definitions and evidence rules. It currently contains one API smoke-test
+address. CSV ingestion is not implemented yet. Next: validate input rows, collect
+bounded address samples and preserve pagination/provenance before adding features. No completeness claim
 should be made about a cluster from a partial address page.
 
 ## Sources checked on 2026-10-05
