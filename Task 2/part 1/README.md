@@ -50,7 +50,7 @@ cold storage or illicit activity.
 
 The first version deliberately fetches one lookup, not all cluster addresses.
 The input table is now defined in `data/seed_addresses.csv`; see `data/README.md`
-for column definitions and evidence rules. It contains one API smoke-test address and seven sourced research addresses. CSV ingestion and validation are implemented. Next: collect
+for column definitions and evidence rules. It contains one API smoke-test address and ten sourced research addresses. CSV ingestion and validation are implemented. Next: collect
 bounded address samples and preserve pagination/provenance before adding features. No completeness claim
 should be made about a cluster from a partial address page.
 
@@ -117,3 +117,18 @@ IDs but no provider service labels. Input entity attribution and published
 Bitfinex hot/cold labels are retained independently. Found means indexed; it does
 not confirm the input ownership or storage claim. Four Binance attributions are
 historical (2022 snapshot), with unknown storage and unverified current ownership.
+
+## Expanded cold-storage collection
+
+The latest table is `results/research_expanded_20261005/results.csv`.
+It contains 11 addresses: 10 research seeds and one smoke test. Three new Change
+addresses are explicitly published as cold at a 2025-03-31 snapshot; see
+`data/change_sources_20261005.md`. Across the input there are five cold labels
+(two Bitfinex, three Change), one hot (Bitfinex) and five unknown storage values.
+All 11 provider lookups succeeded; the ten research seeds remain unnamed by the
+provider. No hardware models or illicit labels were established.
+
+Historical storage claims must not be applied to all transaction history. The
+sample also has only one hot address, so entity and selection effects preclude a
+reliable hot-versus-cold comparison. Next: acquire bounded dated on-chain data,
+report coverage and distinguish descriptive activity from validated storage claims.
