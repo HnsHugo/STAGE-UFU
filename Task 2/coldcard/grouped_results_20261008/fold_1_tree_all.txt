@@ -1,0 +1,19 @@
+|--- fee_rate_sat_vb <= 4.95867
+|   |--- fee_sat <= 5.00000
+|   |   |--- class: 0
+|   |--- fee_sat >  5.00000
+|   |   |--- class: 0
+|--- fee_rate_sat_vb >  4.95867
+|   |--- output_count <= 1.50000
+|   |   |--- version <= 1.50000
+|   |   |   |--- class: 0
+|   |   |--- version >  1.50000
+|   |   |   |--- lock_time <= 422813.50000
+|   |   |   |   |--- class: 1
+|   |   |   |--- lock_time >  422813.50000
+|   |   |   |   |--- class: 0
+|   |--- output_count >  1.50000
+|   |   |--- fee_sat <= 694.50000
+|   |   |   |--- class: 0
+|   |   |--- fee_sat >  694.50000
+|   |   |   |--- class: 0

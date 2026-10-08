@@ -1,0 +1,22 @@
+|--- min_output_sat <= 10819247.50000
+|   |--- output_count <= 1.50000
+|   |   |--- vsize_vb <= 121.50000
+|   |   |   |--- class: 0
+|   |   |--- vsize_vb >  121.50000
+|   |   |   |--- vsize_vb <= 122.50000
+|   |   |   |   |--- class: 1
+|   |   |   |--- vsize_vb >  122.50000
+|   |   |   |   |--- class: 0
+|   |--- output_count >  1.50000
+|   |   |--- class: 0
+|--- min_output_sat >  10819247.50000
+|   |--- distinct_input_addresses <= 1.50000
+|   |   |--- lock_time <= 49999.50000
+|   |   |   |--- output_count <= 1.50000
+|   |   |   |   |--- class: 1
+|   |   |   |--- output_count >  1.50000
+|   |   |   |   |--- class: 0
+|   |   |--- lock_time >  49999.50000
+|   |   |   |--- class: 0
+|   |--- distinct_input_addresses >  1.50000
+|   |   |--- class: 0

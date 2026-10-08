@@ -1,0 +1,20 @@
+{
+  "status": "consistent",
+  "rows": 493571,
+  "unique_txids": 493571,
+  "coinbase_rows": 98,
+  "block_heights": 98,
+  "relation_counts": {
+    "unattributed": 492496,
+    "direct_parent_candidate": 1070,
+    "source_attributed": 5
+  },
+  "group_counts": {
+    "14edd9ee8445793c320e92e3b50365a0e18b8b25f424044bce337463f007fdd2": 491,
+    "0c6bf853a645b699a3b2cd6d8e3c44cf1a02a16f538df08212a44753f75d9d01": 341,
+    "4b50d61a3d6e54c62ee0be13d7e9a8b69bffe7fc2b2cab4e14da56e4e20440d2": 204,
+    "38b6dc366fcac50e2fe4a7fa901bfea957361c51157ad037d46e0febf89187de": 34
+  },
+  "warning": "Internal feature consistency does not independently authenticate chain data or source labels.",
+  "features_sha256": "158788226288dce22bfd5ea20deab1b72551c5d0c32bdb547e113c83273841b4"
+}

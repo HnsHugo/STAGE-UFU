@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "source": "https://bitquery.io/investigations/coldcard-wallet-hack",
+  "parent_report_sha256": "9e47396449d8ba65d7d6978c9e979bdfc3a4c47b3f3dfcb399fb535982c1d779",
+  "warning": "Relations are not theft/hardware labels. Unattributed is not legitimate.",
+  "model_exclusions": [
+    "txid",
+    "block_height",
+    "relation"
+  ],
+  "feature_timing": "Confirmed transaction properties; no future spent-status features.",
+  "transaction_count": 493571,
+  "relation_counts": {
+    "unattributed": 492496,
+    "direct_parent_candidate": 1070,
+    "source_attributed": 5
+  }
+}

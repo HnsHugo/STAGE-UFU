@@ -1,0 +1,34 @@
+|--- fee_rate_sat_vb <= 29.99545
+|   |--- fee_rate_sat_vb <= 4.95867
+|   |   |--- input_total_sat <= 250.50000
+|   |   |   |--- class: 0
+|   |   |--- input_total_sat >  250.50000
+|   |   |   |--- class: 0
+|   |--- fee_rate_sat_vb >  4.95867
+|   |   |--- fee_rate_sat_vb <= 4.95910
+|   |   |   |--- output_total_sat <= 54979.00000
+|   |   |   |   |--- class: 1
+|   |   |   |--- output_total_sat >  54979.00000
+|   |   |   |   |--- class: 1
+|   |   |--- fee_rate_sat_vb >  4.95910
+|   |   |   |--- fee_rate_sat_vb <= 5.02513
+|   |   |   |   |--- class: 0
+|   |   |   |--- fee_rate_sat_vb >  5.02513
+|   |   |   |   |--- class: 0
+|--- fee_rate_sat_vb >  29.99545
+|   |--- fee_rate_sat_vb <= 30.27846
+|   |   |--- output_count <= 1.50000
+|   |   |   |--- input_total_sat <= 25499170.00000
+|   |   |   |   |--- class: 1
+|   |   |   |--- input_total_sat >  25499170.00000
+|   |   |   |   |--- class: 1
+|   |   |--- output_count >  1.50000
+|   |   |   |--- max_output_sat <= 272330.00000
+|   |   |   |   |--- class: 0
+|   |   |   |--- max_output_sat >  272330.00000
+|   |   |   |   |--- class: 0
+|   |--- fee_rate_sat_vb >  30.27846
+|   |   |--- vsize_vb <= 110.50000
+|   |   |   |--- class: 0
+|   |   |--- vsize_vb >  110.50000
+|   |   |   |--- class: 0

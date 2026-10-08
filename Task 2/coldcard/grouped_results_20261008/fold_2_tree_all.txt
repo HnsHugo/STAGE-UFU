@@ -1,0 +1,13 @@
+|--- fee_rate_sat_vb <= 29.99545
+|   |--- class: 0
+|--- fee_rate_sat_vb >  29.99545
+|   |--- fee_rate_sat_vb <= 30.32029
+|   |   |--- output_count <= 1.50000
+|   |   |   |--- min_output_sat <= 25495870.00000
+|   |   |   |   |--- class: 1
+|   |   |   |--- min_output_sat >  25495870.00000
+|   |   |   |   |--- class: 1
+|   |   |--- output_count >  1.50000
+|   |   |   |--- class: 0
+|   |--- fee_rate_sat_vb >  30.32029
+|   |   |--- class: 0
