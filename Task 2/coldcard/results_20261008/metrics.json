@@ -1,0 +1,164 @@
+{
+  "target": "direct parent relation versus unattributed background",
+  "warning": "Proxy labels; not theft/hardware ground truth. No collector independence is established.",
+  "dataset_sha256": "158788226288dce22bfd5ea20deab1b72551c5d0c32bdb547e113c83273841b4",
+  "versions": {
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5"
+  },
+  "settings": {
+    "max_depth": 4,
+    "min_samples_leaf": 20,
+    "class_weight": "balanced",
+    "random_state": 42
+  },
+  "excluded": [
+    "txid",
+    "block_height",
+    "relation",
+    "is_coinbase"
+  ],
+  "eligible_rows": 493468,
+  "candidate_rows": 1070,
+  "splits": {
+    "random_reference_related_leakage_possible": {
+      "train_count": 370101,
+      "test_count": 123367,
+      "train_candidates": 803,
+      "test_candidates": 267,
+      "train_height_min": 960179,
+      "train_height_max": 960802,
+      "test_height_min": 960179,
+      "test_height_max": 960802,
+      "models": {
+        "always_background": {
+          "precision_proxy": 0.0,
+          "recall_proxy": 0.0,
+          "f1_proxy": 0.0,
+          "true_negative_proxy": 123100,
+          "false_positive_proxy": 0,
+          "false_negative_proxy": 267,
+          "true_positive_proxy": 0,
+          "average_precision_proxy": null,
+          "background_alert_rate": 0.0
+        },
+        "previously_observed_rule": {
+          "precision_proxy": 0.12929782082324456,
+          "recall_proxy": 1.0,
+          "f1_proxy": 0.22898799313893653,
+          "true_negative_proxy": 121302,
+          "false_positive_proxy": 1798,
+          "false_negative_proxy": 0,
+          "true_positive_proxy": 267,
+          "average_precision_proxy": null,
+          "background_alert_rate": 0.014606011372867588
+        },
+        "tree_all": {
+          "precision_proxy": 0.8338557993730408,
+          "recall_proxy": 0.9962546816479401,
+          "f1_proxy": 0.9078498293515358,
+          "true_negative_proxy": 123047,
+          "false_positive_proxy": 53,
+          "false_negative_proxy": 1,
+          "true_positive_proxy": 266,
+          "average_precision_proxy": 0.9316394236719998,
+          "background_alert_rate": 0.0004305442729488221,
+          "feature_importances": {
+            "output_count": 0.0003961828303059385,
+            "fee_rate_sat_vb": 0.9996018401230877,
+            "max_output_sat": 1.9770466063712683e-06
+          }
+        },
+        "tree_without_fees": {
+          "precision_proxy": 0.04228028503562945,
+          "recall_proxy": 1.0,
+          "f1_proxy": 0.08113035551504102,
+          "true_negative_proxy": 117052,
+          "false_positive_proxy": 6048,
+          "false_negative_proxy": 0,
+          "true_positive_proxy": 267,
+          "average_precision_proxy": 0.1179902421177386,
+          "background_alert_rate": 0.049130787977254266,
+          "feature_importances": {
+            "output_count": 0.862799623967523,
+            "input_total_sat": 0.02178544735756569,
+            "version": 0.0763041808059115,
+            "lock_time": 0.03911074786899983
+          }
+        }
+      }
+    },
+    "chronological_block_960377": {
+      "train_count": 163328,
+      "test_count": 330140,
+      "train_candidates": 1036,
+      "test_candidates": 34,
+      "train_height_min": 960179,
+      "train_height_max": 960376,
+      "test_height_min": 960377,
+      "test_height_max": 960802,
+      "models": {
+        "always_background": {
+          "precision_proxy": 0.0,
+          "recall_proxy": 0.0,
+          "f1_proxy": 0.0,
+          "true_negative_proxy": 330106,
+          "false_positive_proxy": 0,
+          "false_negative_proxy": 34,
+          "true_positive_proxy": 0,
+          "average_precision_proxy": null,
+          "background_alert_rate": 0.0
+        },
+        "previously_observed_rule": {
+          "precision_proxy": 0.005678971104058794,
+          "recall_proxy": 1.0,
+          "f1_proxy": 0.01129380501577811,
+          "true_negative_proxy": 324153,
+          "false_positive_proxy": 5953,
+          "false_negative_proxy": 0,
+          "true_positive_proxy": 34,
+          "average_precision_proxy": null,
+          "background_alert_rate": 0.01803360132805826
+        },
+        "tree_all": {
+          "precision_proxy": 0.0,
+          "recall_proxy": 0.0,
+          "f1_proxy": 0.0,
+          "true_negative_proxy": 329967,
+          "false_positive_proxy": 139,
+          "false_negative_proxy": 34,
+          "true_positive_proxy": 0,
+          "average_precision_proxy": 0.00010298661174047374,
+          "background_alert_rate": 0.00042107686621872977,
+          "feature_importances": {
+            "input_total_sat": 1.2315303773686583e-09,
+            "output_total_sat": 3.3671992614079886e-06,
+            "fee_sat": 1.792579335417682e-11,
+            "fee_rate_sat_vb": 0.9999856480806778,
+            "max_output_sat": 1.0983470604585438e-05
+          }
+        },
+        "tree_without_fees": {
+          "precision_proxy": 0.0021445691938942854,
+          "recall_proxy": 1.0,
+          "f1_proxy": 0.0042799597180261835,
+          "true_negative_proxy": 314286,
+          "false_positive_proxy": 15820,
+          "false_negative_proxy": 0,
+          "true_positive_proxy": 34,
+          "average_precision_proxy": 0.0021445691938942854,
+          "background_alert_rate": 0.04792400016964248,
+          "feature_importances": {
+            "output_count": 0.9323709377203508,
+            "input_total_sat": 0.01090216126610969,
+            "version": 0.04534922238574439,
+            "lock_time": 0.011377678608751161,
+            "max_output_sat": 1.904398995409638e-11
+          }
+        }
+      }
+    }
+  }
+}

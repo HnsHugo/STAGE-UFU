@@ -1,0 +1,19 @@
+|--- fee_rate_sat_vb <= 29.64689
+|   |--- fee_sat <= 10.50000
+|   |   |--- class: 0
+|   |--- fee_sat >  10.50000
+|   |   |--- class: 0
+|--- fee_rate_sat_vb >  29.64689
+|   |--- fee_rate_sat_vb <= 30.39767
+|   |   |--- output_total_sat <= 25495870.00000
+|   |   |   |--- max_output_sat <= 24980983.00000
+|   |   |   |   |--- class: 1
+|   |   |   |--- max_output_sat >  24980983.00000
+|   |   |   |   |--- class: 1
+|   |   |--- output_total_sat >  25495870.00000
+|   |   |   |--- input_total_sat <= 359751984.00000
+|   |   |   |   |--- class: 1
+|   |   |   |--- input_total_sat >  359751984.00000
+|   |   |   |   |--- class: 1
+|   |--- fee_rate_sat_vb >  30.39767
+|   |   |--- class: 0
