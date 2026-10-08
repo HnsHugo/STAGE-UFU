@@ -1,11 +1,13 @@
 """Audit direct parents of externally attributed Coldcard transactions.
 No parent transaction is automatically labelled stolen.
 Usage: python audit_coldcard_parents.py blocos.tgz > parents.json
-Requires the complete archive previously inspected (207436070 bytes).
+Accepts the complete original archive or a directory of 98 block JSON files.
 """
 import collections
 import json
 import os
+import re
+from pathlib import Path
 import sys
 import tarfile
 
@@ -19,6 +21,19 @@ ba119968ec4b82c28f557dfc6cbb2c1834d55145e5a352872c533296d19d3082
 SOURCE = "https://bitquery.io/investigations/coldcard-wallet-hack"
 
 def transactions(path):
+    if os.path.isdir(path):
+        files = sorted(p for p in Path(path).iterdir()
+                       if p.is_file() and re.fullmatch(r"[0-9a-f]{64}", p.name))
+        if len(files) != 98:
+            raise ValueError(f"Expected 98 block files named by hash; found {len(files)}.")
+        for filename in files:
+            with filename.open() as stream:
+                block = json.load(stream)
+            if block["hash"] != filename.name or block["n_tx"] != len(block["tx"]):
+                raise ValueError(f"Block metadata mismatch: {filename.name}")
+            for tx in block["tx"]:
+                yield block["height"], tx
+        return
     with tarfile.open(path, "r|gz") as archive:
         for member in archive:
             if member.isfile():
@@ -66,10 +81,10 @@ def audit(path):
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         sys.exit("Usage: python audit_coldcard_parents.py blocos.tgz")
-    if os.path.getsize(sys.argv[1]) != 207436070:
+    if not os.path.isdir(sys.argv[1]) and os.path.getsize(sys.argv[1]) != 207436070:
         sys.exit("Archive size differs from inspected upload; obtain the complete original file.")
     try:
         result = audit(sys.argv[1])
-    except (tarfile.TarError, EOFError, json.JSONDecodeError, KeyError) as error:
+    except (tarfile.TarError, EOFError, json.JSONDecodeError, KeyError, ValueError, OSError) as error:
         sys.exit("Audit failed; no complete report generated: " + str(error))
     print(json.dumps(result, indent=2))
