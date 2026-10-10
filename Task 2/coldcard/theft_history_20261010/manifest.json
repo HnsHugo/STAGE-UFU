@@ -1,0 +1,127 @@
+{
+  "status": "complete",
+  "registry_sha256": "849eb500915386eea760e47251cb49d0fedbbc151fa4adffd0445de30ed20d14",
+  "provider": "https://blockstream.info/api",
+  "results": [
+    {
+      "address": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 5,
+          "funded_txo_count": 3,
+          "spent_txo_count": 3,
+          "funded_txo_sum": 29699999137,
+          "spent_txo_sum": 29699999137
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "first_confirmed_at": "2023-08-22T08:41:44+00:00",
+      "last_confirmed_at": "2024-06-04T11:56:03+00:00",
+      "file": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG.json",
+      "sha256": "238d0dd176f240410a75d8980d64ec7c232f09e70d59b1bde3fd9d6605bb6d21"
+    },
+    {
+      "address": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 4,
+          "funded_txo_count": 2,
+          "spent_txo_count": 2,
+          "funded_txo_sum": 10988318933,
+          "spent_txo_sum": 10988318933
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "first_confirmed_at": "2023-08-22T11:10:14+00:00",
+      "last_confirmed_at": "2024-04-16T11:34:19+00:00",
+      "file": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu.json",
+      "sha256": "cbe4afe71db7580c04497f7ad494ea38d101be820ee94b2ba76c9b50513cebb0"
+    },
+    {
+      "address": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 3,
+          "funded_txo_count": 2,
+          "spent_txo_count": 1,
+          "funded_txo_sum": 29808285628,
+          "spent_txo_sum": 29808275628
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "first_confirmed_at": "2023-08-22T10:33:56+00:00",
+      "last_confirmed_at": "2024-06-14T17:19:19+00:00",
+      "file": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk.json",
+      "sha256": "99032116680eea6cc03b9242ffb122dc03083da26e07b0dd72ede0624afff1fe"
+    },
+    {
+      "address": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 4,
+          "funded_txo_count": 2,
+          "spent_txo_count": 2,
+          "funded_txo_sum": 27799993140,
+          "spent_txo_sum": 27799993140
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "first_confirmed_at": "2023-08-22T05:53:30+00:00",
+      "last_confirmed_at": "2024-04-16T11:34:19+00:00",
+      "file": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc.json",
+      "sha256": "f862bd60aef9a96621201f25db2dbb17d2a08570d6fd718420a57b5becef2c7a"
+    },
+    {
+      "address": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 3,
+          "funded_txo_count": 2,
+          "spent_txo_count": 2,
+          "funded_txo_sum": 35917947190,
+          "spent_txo_sum": 35917947190
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "first_confirmed_at": "2023-08-22T12:09:13+00:00",
+      "last_confirmed_at": "2024-10-28T00:45:54+00:00",
+      "file": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB.json",
+      "sha256": "f5ff55cbbc7cc80702ecace0c032f94cc19ce0d78d548e251b6ccc64e869708b"
+    },
+    {
+      "address": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 3,
+          "funded_txo_count": 2,
+          "spent_txo_count": 2,
+          "funded_txo_sum": 23913352900,
+          "spent_txo_sum": 23913352900
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "first_confirmed_at": "2023-08-22T12:58:28+00:00",
+      "last_confirmed_at": "2024-10-28T01:38:10+00:00",
+      "file": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL.json",
+      "sha256": "19b613463e93f8ef3bad1890225935c65b638d7ccc374524dcb12175b13e545e"
+    }
+  ]
+}
