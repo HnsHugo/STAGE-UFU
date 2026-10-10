@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-10",
+  "status": "seed_registry_not_training_dataset",
+  "scope": "Bitcoin addresses associated with stolen funds; separate from victim and hardware-wallet identification",
+  "coldcard_review": {
+    "vendor_source": "https://coldcard.com/security/status",
+    "vendor_supports": "July 2026 seed-generation incident at product level; does not determine individual reported losses",
+    "investigation_source": "https://bitquery.io/investigations/coldcard-wallet-hack",
+    "limitations": [
+      "Victim addresses explicitly withheld by investigation",
+      "Address attribution and wave grouping are heuristic inferences",
+      "Existing 1070 parent candidates retain unknown theft status",
+      "Do not infer hardware control for individual addresses from incident name"
+    ]
+  },
+  "records": [
+    {
+      "address": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "chain": "bitcoin",
+      "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+      "role": "reported_stolen_funds_holder",
+      "evidence_level": "official_public_attribution",
+      "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+      "source_published_on": "2023-08-22",
+      "attribution_as_of": "2023-08-22",
+      "hardware_control": "unknown",
+      "specific_originating_heist": "unknown",
+      "onchain_history_collected": false
+    },
+    {
+      "address": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "chain": "bitcoin",
+      "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+      "role": "reported_stolen_funds_holder",
+      "evidence_level": "official_public_attribution",
+      "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+      "source_published_on": "2023-08-22",
+      "attribution_as_of": "2023-08-22",
+      "hardware_control": "unknown",
+      "specific_originating_heist": "unknown",
+      "onchain_history_collected": false
+    },
+    {
+      "address": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "chain": "bitcoin",
+      "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+      "role": "reported_stolen_funds_holder",
+      "evidence_level": "official_public_attribution",
+      "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+      "source_published_on": "2023-08-22",
+      "attribution_as_of": "2023-08-22",
+      "hardware_control": "unknown",
+      "specific_originating_heist": "unknown",
+      "onchain_history_collected": false
+    },
+    {
+      "address": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "chain": "bitcoin",
+      "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+      "role": "reported_stolen_funds_holder",
+      "evidence_level": "official_public_attribution",
+      "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+      "source_published_on": "2023-08-22",
+      "attribution_as_of": "2023-08-22",
+      "hardware_control": "unknown",
+      "specific_originating_heist": "unknown",
+      "onchain_history_collected": false
+    },
+    {
+      "address": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "chain": "bitcoin",
+      "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+      "role": "reported_stolen_funds_holder",
+      "evidence_level": "official_public_attribution",
+      "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+      "source_published_on": "2023-08-22",
+      "attribution_as_of": "2023-08-22",
+      "hardware_control": "unknown",
+      "specific_originating_heist": "unknown",
+      "onchain_history_collected": false
+    },
+    {
+      "address": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "chain": "bitcoin",
+      "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+      "role": "reported_stolen_funds_holder",
+      "evidence_level": "official_public_attribution",
+      "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+      "source_published_on": "2023-08-22",
+      "attribution_as_of": "2023-08-22",
+      "hardware_control": "unknown",
+      "specific_originating_heist": "unknown",
+      "onchain_history_collected": false
+    }
+  ],
+  "collection_rules": [
+    "Keep all six addresses in the same validation group; source aggregates multiple heists",
+    "Do not label all historical transactions illicit from address attribution alone",
+    "Preserve source dates and evaluate transactions in a documented event window",
+    "No report or missing label means unknown, not legitimate",
+    "Require additional independent case groups before claiming cross-case validation"
+  ],
+  "next_steps": [
+    "Validate address checksums",
+    "Collect block-anchored histories and record coverage",
+    "Identify attributable incident windows and fund-flow transactions",
+    "Add independent cases with documented evidence",
+    "Build address features separately from transaction proxy features"
+  ]
+}
