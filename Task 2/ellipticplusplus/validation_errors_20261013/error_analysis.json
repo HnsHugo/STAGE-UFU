@@ -1,0 +1,1667 @@
+{
+  "scope": "Descriptive errors on reused validation; offline illicit/licit profiles, not theft diagnosis",
+  "model": {
+    "depth": 8,
+    "min_samples_leaf": 20,
+    "class_weight": {
+      "0": 1,
+      "1": 3
+    },
+    "threshold": 0.75,
+    "operator": ">"
+  },
+  "metrics": {
+    "precision": 0.8088445078459344,
+    "recall": 0.5962145110410094,
+    "f1": 0.6864406779661016,
+    "average_precision": 0.6562113401930917,
+    "true_negative": 49816,
+    "false_positive": 402,
+    "false_negative": 1152,
+    "true_positive": 1701
+  },
+  "groups": {
+    "TP": {
+      "count": 1701,
+      "score_quantiles": {
+        "0": 0.7608695652173914,
+        "0.25": 0.9081201887260988,
+        "0.5": 0.9540337711069419,
+        "0.75": 0.9540337711069419,
+        "1": 1.0
+      },
+      "feature_quantiles": {
+        "num_txs_as_sender": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "num_txs_as receiver": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "lifetime_in_blocks": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 3.0
+        },
+        "total_txs": {
+          "0.25": 2.0,
+          "0.5": 2.0,
+          "0.75": 2.0
+        },
+        "num_timesteps_appeared_in": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "btc_transacted_total": {
+          "0.25": 0.0058,
+          "0.5": 0.0164,
+          "0.75": 0.08253588
+        },
+        "btc_transacted_min": {
+          "0.25": 0.0033,
+          "0.5": 0.0078,
+          "0.75": 0.03218529
+        },
+        "btc_transacted_max": {
+          "0.25": 0.0035,
+          "0.5": 0.0084,
+          "0.75": 0.04929168
+        },
+        "btc_transacted_mean": {
+          "0.25": 0.0035,
+          "0.5": 0.0084,
+          "0.75": 0.04470626
+        },
+        "btc_transacted_median": {
+          "0.25": 0.0034679,
+          "0.5": 0.0084,
+          "0.75": 0.04352
+        },
+        "btc_sent_total": {
+          "0.25": 0.0029,
+          "0.5": 0.00757577,
+          "0.75": 0.03613126
+        },
+        "btc_sent_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "btc_sent_max": {
+          "0.25": 0.0029,
+          "0.5": 0.0074,
+          "0.75": 0.03540408
+        },
+        "btc_sent_mean": {
+          "0.25": 0.00165,
+          "0.5": 0.00399889,
+          "0.75": 0.02162837
+        },
+        "btc_sent_median": {
+          "0.25": 0.00135,
+          "0.5": 0.0035,
+          "0.75": 0.015885
+        },
+        "btc_received_total": {
+          "0.25": 0.0018,
+          "0.5": 0.0066,
+          "0.75": 0.02778277
+        },
+        "btc_received_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "btc_received_max": {
+          "0.25": 0.0018,
+          "0.5": 0.0066,
+          "0.75": 0.0269
+        },
+        "btc_received_mean": {
+          "0.25": 0.0009,
+          "0.5": 0.0033,
+          "0.75": 0.0134
+        },
+        "btc_received_median": {
+          "0.25": 0.0009,
+          "0.5": 0.0033,
+          "0.75": 0.012636135
+        },
+        "fees_total": {
+          "0.25": 0.00139368,
+          "0.5": 0.0228328,
+          "0.75": 0.04545899
+        },
+        "fees_min": {
+          "0.25": 0.0002,
+          "0.5": 0.00047068,
+          "0.75": 0.00166594
+        },
+        "fees_max": {
+          "0.25": 0.0005876,
+          "0.5": 0.0223518,
+          "0.75": 0.044661
+        },
+        "fees_mean": {
+          "0.25": 0.000428545,
+          "0.5": 0.0114164,
+          "0.75": 0.02276469
+        },
+        "fees_median": {
+          "0.25": 0.00038625,
+          "0.5": 0.011398815,
+          "0.75": 0.02276469
+        },
+        "fees_as_share_total": {
+          "0.25": 7.29402049317358e-05,
+          "0.5": 0.0002,
+          "0.75": 0.0003760625318
+        },
+        "fees_as_share_min": {
+          "0.25": 3.33078897632266e-06,
+          "0.5": 1.9183972173913e-05,
+          "0.75": 0.0001252446268002
+        },
+        "fees_as_share_max": {
+          "0.25": 6.361170316e-05,
+          "0.5": 0.0001872,
+          "0.75": 0.0002925341032
+        },
+        "fees_as_share_mean": {
+          "0.25": 3.71786361247089e-05,
+          "0.5": 0.0001077729183,
+          "0.75": 0.000201117052
+        },
+        "fees_as_share_median": {
+          "0.25": 3.65394786936343e-05,
+          "0.5": 0.0001074668752439,
+          "0.75": 0.0002
+        },
+        "blocks_btwn_txs_total": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 3.0
+        },
+        "blocks_btwn_txs_min": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 3.0
+        },
+        "blocks_btwn_txs_max": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 3.0
+        },
+        "blocks_btwn_txs_mean": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 3.0
+        },
+        "blocks_btwn_txs_median": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 3.0
+        },
+        "blocks_btwn_input_txs_total": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_max": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_mean": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_median": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_total": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_max": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_mean": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_median": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "num_addr_transacted_multiple": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "transacted_w_address_total": {
+          "0.25": 2.0,
+          "0.5": 2.0,
+          "0.75": 3.0
+        },
+        "transacted_w_address_min": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "transacted_w_address_max": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "transacted_w_address_mean": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "transacted_w_address_median": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        }
+      }
+    },
+    "FP": {
+      "count": 402,
+      "score_quantiles": {
+        "0": 0.7608695652173914,
+        "0.25": 0.9081201887260988,
+        "0.5": 0.9081201887260988,
+        "0.75": 0.9540337711069419,
+        "1": 0.986737400530504
+      },
+      "feature_quantiles": {
+        "num_txs_as_sender": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "num_txs_as receiver": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "lifetime_in_blocks": {
+          "0.25": 1.0,
+          "0.5": 2.0,
+          "0.75": 4.0
+        },
+        "total_txs": {
+          "0.25": 2.0,
+          "0.5": 2.0,
+          "0.75": 2.0
+        },
+        "num_timesteps_appeared_in": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "btc_transacted_total": {
+          "0.25": 0.01722567,
+          "0.5": 0.050068885,
+          "0.75": 0.23212438999999999
+        },
+        "btc_transacted_min": {
+          "0.25": 0.00570691,
+          "0.5": 0.02,
+          "0.75": 0.0998
+        },
+        "btc_transacted_max": {
+          "0.25": 0.0085879275,
+          "0.5": 0.026340045,
+          "0.75": 0.13140645750000002
+        },
+        "btc_transacted_mean": {
+          "0.25": 0.008247805,
+          "0.5": 0.02524633840499995,
+          "0.75": 0.11869244
+        },
+        "btc_transacted_median": {
+          "0.25": 0.008015297499999999,
+          "0.5": 0.024142255,
+          "0.75": 0.1129021375
+        },
+        "btc_sent_total": {
+          "0.25": 0.00488039,
+          "0.5": 0.022189175,
+          "0.75": 0.109736185
+        },
+        "btc_sent_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "btc_sent_max": {
+          "0.25": 0.00468947,
+          "0.5": 0.022067715,
+          "0.75": 0.10905719500000001
+        },
+        "btc_sent_mean": {
+          "0.25": 0.00347297,
+          "0.5": 0.0110945875,
+          "0.75": 0.059882978749999996
+        },
+        "btc_sent_median": {
+          "0.25": 0.00230938625,
+          "0.5": 0.00934989,
+          "0.75": 0.049687765
+        },
+        "btc_received_total": {
+          "0.25": 0.00352384,
+          "0.5": 0.019741,
+          "0.75": 0.110561185
+        },
+        "btc_received_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "btc_received_max": {
+          "0.25": 0.00352384,
+          "0.5": 0.019043065,
+          "0.75": 0.1
+        },
+        "btc_received_mean": {
+          "0.25": 0.00170508625,
+          "0.5": 0.0096529375,
+          "0.75": 0.04991576125
+        },
+        "btc_received_median": {
+          "0.25": 0.0014828175,
+          "0.5": 0.008247815,
+          "0.75": 0.04168920625
+        },
+        "fees_total": {
+          "0.25": 0.0035286,
+          "0.5": 0.026658815000000002,
+          "0.75": 0.0399495675
+        },
+        "fees_min": {
+          "0.25": 0.00030609500000000004,
+          "0.5": 0.00070573,
+          "0.75": 0.00180109
+        },
+        "fees_max": {
+          "0.25": 0.0027833099999999998,
+          "0.5": 0.02424766,
+          "0.75": 0.0385387
+        },
+        "fees_mean": {
+          "0.25": 0.00137365416666665,
+          "0.5": 0.013236435000000001,
+          "0.75": 0.02129950875
+        },
+        "fees_median": {
+          "0.25": 0.00113622,
+          "0.5": 0.0130154175,
+          "0.75": 0.02122705
+        },
+        "fees_as_share_total": {
+          "0.25": 7.511744954713238e-05,
+          "0.5": 0.00020277771984765,
+          "0.75": 0.000556349443979925
+        },
+        "fees_as_share_min": {
+          "0.25": 2.52476467325e-06,
+          "0.5": 1.306907278476065e-05,
+          "0.75": 7.408304038517796e-05
+        },
+        "fees_as_share_max": {
+          "0.25": 6.45828956833702e-05,
+          "0.5": 0.00019189551645065002,
+          "0.75": 0.00040644373441462496
+        },
+        "fees_as_share_mean": {
+          "0.25": 3.9420006167499995e-05,
+          "0.5": 0.00010962926971515,
+          "0.75": 0.00024565110739895003
+        },
+        "fees_as_share_median": {
+          "0.25": 3.492306145693248e-05,
+          "0.5": 0.00010643084440069999,
+          "0.75": 0.000236735507590975
+        },
+        "blocks_btwn_txs_total": {
+          "0.25": 1.0,
+          "0.5": 2.0,
+          "0.75": 4.0
+        },
+        "blocks_btwn_txs_min": {
+          "0.25": 1.0,
+          "0.5": 2.0,
+          "0.75": 3.0
+        },
+        "blocks_btwn_txs_max": {
+          "0.25": 1.0,
+          "0.5": 2.0,
+          "0.75": 3.75
+        },
+        "blocks_btwn_txs_mean": {
+          "0.25": 1.0,
+          "0.5": 2.0,
+          "0.75": 3.0
+        },
+        "blocks_btwn_txs_median": {
+          "0.25": 1.0,
+          "0.5": 2.0,
+          "0.75": 3.0
+        },
+        "blocks_btwn_input_txs_total": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_max": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_mean": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_median": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_total": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_max": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_mean": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_median": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "num_addr_transacted_multiple": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "transacted_w_address_total": {
+          "0.25": 2.0,
+          "0.5": 2.0,
+          "0.75": 4.0
+        },
+        "transacted_w_address_min": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "transacted_w_address_max": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "transacted_w_address_mean": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "transacted_w_address_median": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        }
+      }
+    },
+    "FN": {
+      "count": 1152,
+      "score_quantiles": {
+        "0": 0.0,
+        "0.25": 0.10340314136125654,
+        "0.5": 0.23194303153611392,
+        "0.75": 0.32804294550122537,
+        "1": 0.7149532710280374
+      },
+      "feature_quantiles": {
+        "num_txs_as_sender": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "num_txs_as receiver": {
+          "0.25": 0.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "lifetime_in_blocks": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 1.0
+        },
+        "total_txs": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 2.0
+        },
+        "num_timesteps_appeared_in": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "btc_transacted_total": {
+          "0.25": 0.01,
+          "0.5": 0.035092255,
+          "0.75": 0.22117755
+        },
+        "btc_transacted_min": {
+          "0.25": 0.007794354999999999,
+          "0.5": 0.02296928,
+          "0.75": 0.14608118
+        },
+        "btc_transacted_max": {
+          "0.25": 0.008944745,
+          "0.5": 0.028,
+          "0.75": 0.1702115575
+        },
+        "btc_transacted_mean": {
+          "0.25": 0.00886125999999995,
+          "0.5": 0.02595537,
+          "0.75": 0.161370295
+        },
+        "btc_transacted_median": {
+          "0.25": 0.0087481725,
+          "0.5": 0.025731579999999997,
+          "0.75": 0.15341516
+        },
+        "btc_sent_total": {
+          "0.25": 0.001,
+          "0.5": 0.01143462,
+          "0.75": 0.09086145500000001
+        },
+        "btc_sent_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.01011203
+        },
+        "btc_sent_max": {
+          "0.25": 0.001,
+          "0.5": 0.011288340000000001,
+          "0.75": 0.0898015025
+        },
+        "btc_sent_mean": {
+          "0.25": 0.00063017916666665,
+          "0.5": 0.0095778875,
+          "0.75": 0.05948421375
+        },
+        "btc_sent_median": {
+          "0.25": 0.0,
+          "0.5": 0.008746645,
+          "0.75": 0.056040993750000004
+        },
+        "btc_received_total": {
+          "0.25": 0.0,
+          "0.5": 0.00683987,
+          "0.75": 0.06625
+        },
+        "btc_received_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "btc_received_max": {
+          "0.25": 0.0,
+          "0.5": 0.006656815,
+          "0.75": 0.06267313
+        },
+        "btc_received_mean": {
+          "0.25": 0.0,
+          "0.5": 0.0035390425,
+          "0.75": 0.0402887875
+        },
+        "btc_received_median": {
+          "0.25": 0.0,
+          "0.5": 0.0033408250000000004,
+          "0.75": 0.03772320125
+        },
+        "fees_total": {
+          "0.25": 0.0004,
+          "0.5": 0.001,
+          "0.75": 0.00333963
+        },
+        "fees_min": {
+          "0.25": 0.000215955,
+          "0.5": 0.00050547,
+          "0.75": 0.00131681
+        },
+        "fees_max": {
+          "0.25": 0.000346,
+          "0.5": 0.00094641,
+          "0.75": 0.0029762
+        },
+        "fees_mean": {
+          "0.25": 0.000327255,
+          "0.5": 0.00079392,
+          "0.75": 0.00257539
+        },
+        "fees_median": {
+          "0.25": 0.0003253075,
+          "0.5": 0.00076154,
+          "0.75": 0.00233255
+        },
+        "fees_as_share_total": {
+          "0.25": 6.973267391e-05,
+          "0.5": 0.0001997172024654,
+          "0.75": 0.00041455942795
+        },
+        "fees_as_share_min": {
+          "0.25": 2.266441992e-05,
+          "0.5": 9.683827172496025e-05,
+          "0.75": 0.00020407163765
+        },
+        "fees_as_share_max": {
+          "0.25": 6.25310382419909e-05,
+          "0.5": 0.00018727540341004998,
+          "0.75": 0.000343480285
+        },
+        "fees_as_share_mean": {
+          "0.25": 5.458788223107662e-05,
+          "0.5": 0.00015206187292855,
+          "0.75": 0.000287656374374475
+        },
+        "fees_as_share_median": {
+          "0.25": 5.4299153909378246e-05,
+          "0.5": 0.0001509202836859,
+          "0.75": 0.000286138362275
+        },
+        "blocks_btwn_txs_total": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 1.0
+        },
+        "blocks_btwn_txs_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 1.0
+        },
+        "blocks_btwn_txs_max": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 1.0
+        },
+        "blocks_btwn_txs_mean": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 1.0
+        },
+        "blocks_btwn_txs_median": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 1.0
+        },
+        "blocks_btwn_input_txs_total": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_max": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_mean": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_median": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_total": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_max": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_mean": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_median": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "num_addr_transacted_multiple": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "transacted_w_address_total": {
+          "0.25": 2.0,
+          "0.5": 2.0,
+          "0.75": 3.0
+        },
+        "transacted_w_address_min": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "transacted_w_address_max": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "transacted_w_address_mean": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "transacted_w_address_median": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        }
+      }
+    },
+    "TN": {
+      "count": 49816,
+      "score_quantiles": {
+        "0": 0.0,
+        "0.25": 0.002923790758278777,
+        "0.5": 0.006506180871828237,
+        "0.75": 0.03542642924086223,
+        "1": 0.7149532710280374
+      },
+      "feature_quantiles": {
+        "num_txs_as_sender": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 1.0
+        },
+        "num_txs_as receiver": {
+          "0.25": 0.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "lifetime_in_blocks": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "total_txs": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "num_timesteps_appeared_in": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "btc_transacted_total": {
+          "0.25": 0.000692635,
+          "0.5": 0.01040064,
+          "0.75": 0.0999
+        },
+        "btc_transacted_min": {
+          "0.25": 0.0005689149999999999,
+          "0.5": 0.0099,
+          "0.75": 0.0740394075
+        },
+        "btc_transacted_max": {
+          "0.25": 0.0006473525000000001,
+          "0.5": 0.010001,
+          "0.75": 0.0876236075
+        },
+        "btc_transacted_mean": {
+          "0.25": 0.0006155225,
+          "0.5": 0.01000009,
+          "0.75": 0.081871235
+        },
+        "btc_transacted_median": {
+          "0.25": 0.0006086037499999999,
+          "0.5": 0.01000001,
+          "0.75": 0.08072530750000001
+        },
+        "btc_sent_total": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0129
+        },
+        "btc_sent_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.003157
+        },
+        "btc_sent_max": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0125220625
+        },
+        "btc_sent_mean": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.01023132
+        },
+        "btc_sent_median": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0100020525
+        },
+        "btc_received_total": {
+          "0.25": 0.0,
+          "0.5": 0.000288075,
+          "0.75": 0.0181093925
+        },
+        "btc_received_min": {
+          "0.25": 0.0,
+          "0.5": 0.0001315,
+          "0.75": 0.005175845
+        },
+        "btc_received_max": {
+          "0.25": 0.0,
+          "0.5": 0.00027024000000000004,
+          "0.75": 0.016843280000000002
+        },
+        "btc_received_mean": {
+          "0.25": 0.0,
+          "0.5": 0.00025958999999999997,
+          "0.75": 0.0141942875
+        },
+        "btc_received_median": {
+          "0.25": 0.0,
+          "0.5": 0.00024475,
+          "0.75": 0.01321686125
+        },
+        "fees_total": {
+          "0.25": 0.0005984425,
+          "0.5": 0.00192039,
+          "0.75": 0.010323675000000001
+        },
+        "fees_min": {
+          "0.25": 0.0004,
+          "0.5": 0.00173066,
+          "0.75": 0.007062
+        },
+        "fees_max": {
+          "0.25": 0.0005314925,
+          "0.5": 0.00188943,
+          "0.75": 0.01
+        },
+        "fees_mean": {
+          "0.25": 0.0005,
+          "0.5": 0.0018642049999999999,
+          "0.75": 0.00887073
+        },
+        "fees_median": {
+          "0.25": 0.0005,
+          "0.5": 0.00184491,
+          "0.75": 0.00854653
+        },
+        "fees_as_share_total": {
+          "0.25": 2.8498276700000004e-06,
+          "0.5": 1.606872223654975e-05,
+          "0.75": 0.0001537392798137
+        },
+        "fees_as_share_min": {
+          "0.25": 2.2105635658942105e-06,
+          "0.5": 1.0001738065e-05,
+          "0.75": 9.875503543565455e-05
+        },
+        "fees_as_share_max": {
+          "0.25": 2.8311200156085175e-06,
+          "0.5": 1.548190302099475e-05,
+          "0.75": 0.000140441158123125
+        },
+        "fees_as_share_mean": {
+          "0.25": 2.7814363109492e-06,
+          "0.5": 1.441846182114635e-05,
+          "0.75": 0.0001252593379213
+        },
+        "fees_as_share_median": {
+          "0.25": 2.6911460829585377e-06,
+          "0.5": 1.36243993574763e-05,
+          "0.75": 0.00012344173184125
+        },
+        "blocks_btwn_txs_total": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_txs_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_txs_max": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_txs_mean": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_txs_median": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_total": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_max": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_mean": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_input_txs_median": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_total": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_min": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_max": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_mean": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "blocks_btwn_output_txs_median": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "num_addr_transacted_multiple": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "0.75": 0.0
+        },
+        "transacted_w_address_total": {
+          "0.25": 1.0,
+          "0.5": 2.0,
+          "0.75": 7.0
+        },
+        "transacted_w_address_min": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "transacted_w_address_max": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "transacted_w_address_mean": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        },
+        "transacted_w_address_median": {
+          "0.25": 1.0,
+          "0.5": 1.0,
+          "0.75": 1.0
+        }
+      }
+    }
+  },
+  "top_false_positive_leaves": [
+    {
+      "leaf": 119,
+      "validation_count": 1037,
+      "counts": {
+        "TP": 878,
+        "FP": 159,
+        "FN": 0,
+        "TN": 0
+      },
+      "score": 0.9540337711069419,
+      "training_count": 3104,
+      "training_illicit_count": 2712,
+      "training_illicit_fraction": 0.8737113402061856,
+      "conditions": [
+        {
+          "feature": "lifetime_in_blocks",
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "transacted_w_address_total",
+          "operator": "<=",
+          "threshold": 2.5
+        },
+        {
+          "feature": "fees_as_share_total",
+          "operator": ">",
+          "threshold": 8.434649771515979e-06
+        },
+        {
+          "feature": "fees_min",
+          "operator": "<=",
+          "threshold": 0.0038725800113752484
+        },
+        {
+          "feature": "fees_min",
+          "operator": ">",
+          "threshold": 4.999999873689376e-06
+        },
+        {
+          "feature": "btc_sent_max",
+          "operator": ">",
+          "threshold": 0.0005498450191225857
+        },
+        {
+          "feature": "fees_max",
+          "operator": ">",
+          "threshold": 0.00012015000174869783
+        },
+        {
+          "feature": "btc_sent_median",
+          "operator": "<=",
+          "threshold": 0.9854672253131866
+        }
+      ]
+    },
+    {
+      "leaf": 149,
+      "validation_count": 549,
+      "counts": {
+        "TP": 407,
+        "FP": 142,
+        "FN": 0,
+        "TN": 0
+      },
+      "score": 0.9081201887260988,
+      "training_count": 1589,
+      "training_illicit_count": 1219,
+      "training_illicit_fraction": 0.7671491504090623,
+      "conditions": [
+        {
+          "feature": "lifetime_in_blocks",
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "transacted_w_address_total",
+          "operator": ">",
+          "threshold": 2.5
+        },
+        {
+          "feature": "blocks_btwn_txs_mean",
+          "operator": "<=",
+          "threshold": 48.636905670166016
+        },
+        {
+          "feature": "transacted_w_address_total",
+          "operator": "<=",
+          "threshold": 11.5
+        },
+        {
+          "feature": "fees_max",
+          "operator": ">",
+          "threshold": 0.017355204559862614
+        },
+        {
+          "feature": "btc_sent_total",
+          "operator": "<=",
+          "threshold": 0.03529663011431694
+        },
+        {
+          "feature": "btc_received_max",
+          "operator": ">",
+          "threshold": 0.0007352500106208026
+        },
+        {
+          "feature": "fees_as_share_max",
+          "operator": ">",
+          "threshold": 8.930741842050338e-06
+        }
+      ]
+    },
+    {
+      "leaf": 141,
+      "validation_count": 121,
+      "counts": {
+        "TP": 87,
+        "FP": 34,
+        "FN": 0,
+        "TN": 0
+      },
+      "score": 0.8870558375634517,
+      "training_count": 322,
+      "training_illicit_count": 233,
+      "training_illicit_fraction": 0.7236024844720497,
+      "conditions": [
+        {
+          "feature": "lifetime_in_blocks",
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "transacted_w_address_total",
+          "operator": ">",
+          "threshold": 2.5
+        },
+        {
+          "feature": "blocks_btwn_txs_mean",
+          "operator": "<=",
+          "threshold": 48.636905670166016
+        },
+        {
+          "feature": "transacted_w_address_total",
+          "operator": "<=",
+          "threshold": 11.5
+        },
+        {
+          "feature": "fees_max",
+          "operator": "<=",
+          "threshold": 0.017355204559862614
+        },
+        {
+          "feature": "num_txs_as receiver",
+          "operator": ">",
+          "threshold": 1.5
+        },
+        {
+          "feature": "fees_as_share_max",
+          "operator": ">",
+          "threshold": 0.00016739282727940008
+        },
+        {
+          "feature": "total_txs",
+          "operator": ">",
+          "threshold": 2.5
+        }
+      ]
+    },
+    {
+      "leaf": 81,
+      "validation_count": 39,
+      "counts": {
+        "TP": 23,
+        "FP": 16,
+        "FN": 0,
+        "TN": 0
+      },
+      "score": 0.8076923076923077,
+      "training_count": 96,
+      "training_illicit_count": 56,
+      "training_illicit_fraction": 0.5833333333333334,
+      "conditions": [
+        {
+          "feature": "lifetime_in_blocks",
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "fees_median",
+          "operator": "<=",
+          "threshold": 0.2771596312522888
+        },
+        {
+          "feature": "btc_sent_min",
+          "operator": ">",
+          "threshold": 0.00336772995069623
+        },
+        {
+          "feature": "fees_max",
+          "operator": ">",
+          "threshold": 0.003593224915675819
+        },
+        {
+          "feature": "btc_transacted_total",
+          "operator": "<=",
+          "threshold": 0.0041001299396157265
+        },
+        {
+          "feature": "fees_as_share_min",
+          "operator": ">",
+          "threshold": 4.9997601308859885e-05
+        },
+        {
+          "feature": "fees_as_share_max",
+          "operator": "<=",
+          "threshold": 0.00015251553850248456
+        },
+        {
+          "feature": "fees_min",
+          "operator": "<=",
+          "threshold": 0.05093654990196228
+        }
+      ]
+    },
+    {
+      "leaf": 56,
+      "validation_count": 42,
+      "counts": {
+        "TP": 28,
+        "FP": 14,
+        "FN": 0,
+        "TN": 0
+      },
+      "score": 0.8669201520912547,
+      "training_count": 111,
+      "training_illicit_count": 76,
+      "training_illicit_fraction": 0.6846846846846847,
+      "conditions": [
+        {
+          "feature": "lifetime_in_blocks",
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "fees_median",
+          "operator": "<=",
+          "threshold": 0.2771596312522888
+        },
+        {
+          "feature": "btc_sent_min",
+          "operator": ">",
+          "threshold": 0.00336772995069623
+        },
+        {
+          "feature": "fees_max",
+          "operator": "<=",
+          "threshold": 0.003593224915675819
+        },
+        {
+          "feature": "transacted_w_address_total",
+          "operator": "<=",
+          "threshold": 1.5
+        },
+        {
+          "feature": "fees_as_share_mean",
+          "operator": ">",
+          "threshold": 0.00015895140677457675
+        },
+        {
+          "feature": "fees_total",
+          "operator": "<=",
+          "threshold": 0.00039662000199314207
+        },
+        {
+          "feature": "fees_as_share_max",
+          "operator": "<=",
+          "threshold": 0.00019985799008281901
+        }
+      ]
+    }
+  ],
+  "top_false_negative_leaves": [
+    {
+      "leaf": 134,
+      "validation_count": 2265,
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 291,
+        "TN": 1974
+      },
+      "score": 0.32804294550122537,
+      "training_count": 6695,
+      "training_illicit_count": 937,
+      "training_illicit_fraction": 0.13995519044062735,
+      "conditions": [
+        {
+          "feature": "lifetime_in_blocks",
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "transacted_w_address_total",
+          "operator": ">",
+          "threshold": 2.5
+        },
+        {
+          "feature": "blocks_btwn_txs_mean",
+          "operator": "<=",
+          "threshold": 48.636905670166016
+        },
+        {
+          "feature": "transacted_w_address_total",
+          "operator": "<=",
+          "threshold": 11.5
+        },
+        {
+          "feature": "fees_max",
+          "operator": "<=",
+          "threshold": 0.017355204559862614
+        },
+        {
+          "feature": "num_txs_as receiver",
+          "operator": "<=",
+          "threshold": 1.5
+        },
+        {
+          "feature": "btc_received_mean",
+          "operator": ">",
+          "threshold": 0.0006128849927335978
+        },
+        {
+          "feature": "fees_min",
+          "operator": ">",
+          "threshold": 0.00010543999815126881
+        }
+      ]
+    },
+    {
+      "leaf": 68,
+      "validation_count": 1891,
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 200,
+        "TN": 1691
+      },
+      "score": 0.2233435717419921,
+      "training_count": 5819,
+      "training_illicit_count": 509,
+      "training_illicit_fraction": 0.08747207423956006,
+      "conditions": [
+        {
+          "feature": "lifetime_in_blocks",
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "fees_median",
+          "operator": "<=",
+          "threshold": 0.2771596312522888
+        },
+        {
+          "feature": "btc_sent_min",
+          "operator": ">",
+          "threshold": 0.00336772995069623
+        },
+        {
+          "feature": "fees_max",
+          "operator": "<=",
+          "threshold": 0.003593224915675819
+        },
+        {
+          "feature": "transacted_w_address_total",
+          "operator": ">",
+          "threshold": 1.5
+        },
+        {
+          "feature": "transacted_w_address_total",
+          "operator": "<=",
+          "threshold": 2.5
+        },
+        {
+          "feature": "fees_as_share_mean",
+          "operator": ">",
+          "threshold": 5.0240609198226593e-05
+        },
+        {
+          "feature": "btc_transacted_mean",
+          "operator": ">",
+          "threshold": 0.009469225071370602
+        }
+      ]
+    },
+    {
+      "leaf": 15,
+      "validation_count": 1670,
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 159,
+        "TN": 1511
+      },
+      "score": 0.23194303153611392,
+      "training_count": 4986,
+      "training_illicit_count": 456,
+      "training_illicit_fraction": 0.0914560770156438,
+      "conditions": [
+        {
+          "feature": "lifetime_in_blocks",
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "fees_median",
+          "operator": "<=",
+          "threshold": 0.2771596312522888
+        },
+        {
+          "feature": "btc_sent_min",
+          "operator": "<=",
+          "threshold": 0.00336772995069623
+        },
+        {
+          "feature": "num_txs_as receiver",
+          "operator": "<=",
+          "threshold": 1.5
+        },
+        {
+          "feature": "fees_min",
+          "operator": "<=",
+          "threshold": 0.0008734900038689375
+        },
+        {
+          "feature": "fees_max",
+          "operator": ">",
+          "threshold": 0.00015988499944796786
+        },
+        {
+          "feature": "transacted_w_address_total",
+          "operator": "<=",
+          "threshold": 1.5
+        },
+        {
+          "feature": "fees_median",
+          "operator": "<=",
+          "threshold": 0.0004155649949098006
+        }
+      ]
+    },
+    {
+      "leaf": 88,
+      "validation_count": 2424,
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 71,
+        "TN": 2353
+      },
+      "score": 0.07632700503680744,
+      "training_count": 7349,
+      "training_illicit_count": 197,
+      "training_illicit_fraction": 0.026806368213362363,
+      "conditions": [
+        {
+          "feature": "lifetime_in_blocks",
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "fees_median",
+          "operator": "<=",
+          "threshold": 0.2771596312522888
+        },
+        {
+          "feature": "btc_sent_min",
+          "operator": ">",
+          "threshold": 0.00336772995069623
+        },
+        {
+          "feature": "fees_max",
+          "operator": ">",
+          "threshold": 0.003593224915675819
+        },
+        {
+          "feature": "btc_transacted_total",
+          "operator": ">",
+          "threshold": 0.0041001299396157265
+        },
+        {
+          "feature": "fees_total",
+          "operator": "<=",
+          "threshold": 0.04341328516602516
+        },
+        {
+          "feature": "fees_min",
+          "operator": "<=",
+          "threshold": 0.043043190613389015
+        },
+        {
+          "feature": "fees_as_share_min",
+          "operator": ">",
+          "threshold": 3.911329804395791e-05
+        }
+      ]
+    },
+    {
+      "leaf": 67,
+      "validation_count": 230,
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 58,
+        "TN": 172
+      },
+      "score": 0.5164948453608248,
+      "training_count": 636,
+      "training_illicit_count": 167,
+      "training_illicit_fraction": 0.26257861635220126,
+      "conditions": [
+        {
+          "feature": "lifetime_in_blocks",
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "fees_median",
+          "operator": "<=",
+          "threshold": 0.2771596312522888
+        },
+        {
+          "feature": "btc_sent_min",
+          "operator": ">",
+          "threshold": 0.00336772995069623
+        },
+        {
+          "feature": "fees_max",
+          "operator": "<=",
+          "threshold": 0.003593224915675819
+        },
+        {
+          "feature": "transacted_w_address_total",
+          "operator": ">",
+          "threshold": 1.5
+        },
+        {
+          "feature": "transacted_w_address_total",
+          "operator": "<=",
+          "threshold": 2.5
+        },
+        {
+          "feature": "fees_as_share_mean",
+          "operator": ">",
+          "threshold": 5.0240609198226593e-05
+        },
+        {
+          "feature": "btc_transacted_mean",
+          "operator": "<=",
+          "threshold": 0.009469225071370602
+        }
+      ]
+    }
+  ],
+  "near_threshold_counts": {
+    "TP": 39,
+    "FP": 27,
+    "FN": 24,
+    "TN": 66
+  },
+  "source_sha256": {
+    "wallets_classes.csv": "4e5132c99f941666bf1fefd4100a1428d339c9252ec6987909e1adf8eac902f9",
+    "wallets_features.csv": "317daca2810c355ddfdb8c0dab34cf11d1aa90567fe975090c7e5a901386eb77"
+  }
+}
