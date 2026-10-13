@@ -1,0 +1,44 @@
+{
+  "configuration": {
+    "n_estimators": 100,
+    "max_depth": 20,
+    "min_samples_leaf": 20,
+    "max_features": "sqrt",
+    "class_weight": {
+      "0": 1,
+      "1": 3
+    },
+    "bootstrap": true,
+    "random_state": 42,
+    "n_jobs": 2
+  },
+  "threshold": 0.55,
+  "threshold_operator": ">",
+  "source_sha256": {
+    "wallets_classes.csv": "4e5132c99f941666bf1fefd4100a1428d339c9252ec6987909e1adf8eac902f9",
+    "wallets_features.csv": "317daca2810c355ddfdb8c0dab34cf11d1aa90567fe975090c7e5a901386eb77"
+  },
+  "training_addresses": 159212,
+  "test_addresses": 53071,
+  "test_illicit": 2853,
+  "test_licit": 50218,
+  "metrics": {
+    "precision": 0.8876651982378855,
+    "recall": 0.7062740974412899,
+    "f1": 0.7866484481748975,
+    "average_precision": 0.8690023814626074,
+    "true_negative": 49963,
+    "false_positive": 255,
+    "false_negative": 838,
+    "true_positive": 2015
+  },
+  "scope": "Held-out address-profile test, not independent-case or real-time validation",
+  "limitations": [
+    "Original test previously inspected for the baseline tree; not pristine after research history",
+    "Forest settings selected on validation only; test not used for fitting or adjustment",
+    "No refit with validation; same training-only forest as development comparison",
+    "Related entities/cases may occur across splits",
+    "Original offline licit/illicit labels do not mean stolen funds",
+    "No independent external dataset evaluated"
+  ]
+}
