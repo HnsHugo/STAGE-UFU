@@ -1,0 +1,24 @@
+{
+  "raw_rows": 1268260,
+  "unique_addresses": 822942,
+  "exact_duplicate_rows": 347569,
+  "duplicate_address_time_rows": 347569,
+  "original_class_counts": {
+    "3": 557588,
+    "2": 251088,
+    "1": 14266
+  },
+  "missing_feature_cells": 0,
+  "source_sha256": {
+    "wallets_classes.csv": "4e5132c99f941666bf1fefd4100a1428d339c9252ec6987909e1adf8eac902f9",
+    "wallets_features.csv": "317daca2810c355ddfdb8c0dab34cf11d1aa90567fe975090c7e5a901386eb77"
+  },
+  "time_steps": [
+    1,
+    49
+  ],
+  "eligible_addresses": 265354,
+  "collapsed_non_temporal_profiles": true,
+  "address_feature_conflicts": 0,
+  "unknown_addresses_excluded": 557588
+}

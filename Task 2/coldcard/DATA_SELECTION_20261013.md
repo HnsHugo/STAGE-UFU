@@ -28,7 +28,7 @@ Original files:
 - `wallets_classes.csv`: 30 421 134 bytes, SHA-256 `4e5132c99f941666bf1fefd4100a1428d339c9252ec6987909e1adf8eac902f9`.
 - `wallets_features.csv`: 606 463 522 bytes reported by the Git LFS pointer, expected SHA-256 `317daca2810c355ddfdb8c0dab34cf11d1aa90567fe975090c7e5a901386eb77`.
 
-The feature header was actually read: address, time step, sending/receiving activity, amounts, fees, block intervals, etc. The complete feature file has not yet been downloaded or audited. Row counts, missing values and repeated temporal observations must be checked. The repository provides educational classification and visualization notebooks.
+The feature header was actually read: address, time step, sending/receiving activity, amounts, fees, block intervals, etc. At the time of the initial source selection, the complete feature file had not yet been downloaded or audited. The subsequent completed audit and benchmark are documented in [../ellipticplusplus/README.md](../ellipticplusplus/README.md). The repository provides educational classification and visualization notebooks.
 
 Reproducible download with checksum verification:
 
@@ -49,7 +49,7 @@ To be confirmed after auditing the feature file:
 - A separate temporal test is useful only after checking that features do not summarize future events; total-lifetime and last-appearance columns need particular attention.
 - Do not directly compare benchmark scores with Coldcard proxy scores: the target and observation unit change.
 
-No train/test sets have yet been materialized: features must first be audited.
+This was the proposed protocol at source-selection time. Address-disjoint training/validation/test sets have since been materialized and evaluated; see [the completed benchmark](../ellipticplusplus/README.md) for the actual protocol and results.
 
 ## Theft corpus: external references
 

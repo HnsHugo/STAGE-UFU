@@ -1,0 +1,43 @@
+|--- total_txs <= 1.50000
+|   |--- btc_sent_mean <= 0.00160
+|   |   |--- fees_max <= 0.00109
+|   |   |   |--- fees_total <= 0.00012
+|   |   |   |   |--- class: 0
+|   |   |   |--- fees_total >  0.00012
+|   |   |   |   |--- class: 0
+|   |   |--- fees_max >  0.00109
+|   |   |   |--- fees_as_share_min <= 0.00096
+|   |   |   |   |--- class: 0
+|   |   |   |--- fees_as_share_min >  0.00096
+|   |   |   |   |--- class: 0
+|   |--- btc_sent_mean >  0.00160
+|   |   |--- transacted_w_address_total <= 3.50000
+|   |   |   |--- fees_as_share_mean <= 0.00011
+|   |   |   |   |--- class: 0
+|   |   |   |--- fees_as_share_mean >  0.00011
+|   |   |   |   |--- class: 1
+|   |   |--- transacted_w_address_total >  3.50000
+|   |   |   |--- class: 0
+|--- total_txs >  1.50000
+|   |--- blocks_btwn_txs_mean <= 48.63691
+|   |   |--- btc_received_max <= 0.00077
+|   |   |   |--- fees_min <= 0.00086
+|   |   |   |   |--- class: 0
+|   |   |   |--- fees_min >  0.00086
+|   |   |   |   |--- class: 0
+|   |   |--- btc_received_max >  0.00077
+|   |   |   |--- transacted_w_address_total <= 11.50000
+|   |   |   |   |--- class: 1
+|   |   |   |--- transacted_w_address_total >  11.50000
+|   |   |   |   |--- class: 0
+|   |--- blocks_btwn_txs_mean >  48.63691
+|   |   |--- fees_min <= 0.00008
+|   |   |   |--- fees_as_share_median <= 0.00020
+|   |   |   |   |--- class: 0
+|   |   |   |--- fees_as_share_median >  0.00020
+|   |   |   |   |--- class: 0
+|   |   |--- fees_min >  0.00008
+|   |   |   |--- fees_min <= 0.00043
+|   |   |   |   |--- class: 1
+|   |   |   |--- fees_min >  0.00043
+|   |   |   |   |--- class: 0

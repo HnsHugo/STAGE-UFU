@@ -1,0 +1,217 @@
+{
+  "target": "Original Elliptic++ illicit (class 1) versus licit (class 2) address profiles",
+  "scope": "Offline historical-profile benchmark; not real-time, hardware-wallet or stolen-fund detection",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0"
+  },
+  "source_sha256": {
+    "wallets_classes.csv": "4e5132c99f941666bf1fefd4100a1428d339c9252ec6987909e1adf8eac902f9",
+    "wallets_features.csv": "317daca2810c355ddfdb8c0dab34cf11d1aa90567fe975090c7e5a901386eb77"
+  },
+  "splits": {
+    "train": {
+      "addresses": 159212,
+      "illicit": 8560,
+      "licit": 150652
+    },
+    "validation": {
+      "addresses": 53071,
+      "illicit": 2853,
+      "licit": 50218
+    },
+    "test": {
+      "addresses": 53071,
+      "illicit": 2853,
+      "licit": 50218
+    }
+  },
+  "split_policy": "Sorted unique addresses; stratified 60/20/20; random states 42 and 43",
+  "excluded_features": [
+    "address",
+    "Time step",
+    "first_block_appeared_in",
+    "last_block_appeared_in",
+    "first_sent_block",
+    "first_received_block",
+    "class"
+  ],
+  "candidates": [
+    {
+      "name": "all_profile_features_depth_4",
+      "max_depth": 4,
+      "feature_count": 51,
+      "validation": {
+        "precision": 0.22892048868415782,
+        "recall": 0.8012618296529969,
+        "f1": 0.35610250019471923,
+        "average_precision": 0.26628517797313145,
+        "true_negative": 42518,
+        "false_positive": 7700,
+        "false_negative": 567,
+        "true_positive": 2286
+      }
+    },
+    {
+      "name": "all_profile_features_depth_8",
+      "max_depth": 8,
+      "feature_count": 51,
+      "validation": {
+        "precision": 0.3028152069297401,
+        "recall": 0.882229232386961,
+        "f1": 0.4508732646663681,
+        "average_precision": 0.5921432600031291,
+        "true_negative": 44423,
+        "false_positive": 5795,
+        "false_negative": 336,
+        "true_positive": 2517
+      }
+    },
+    {
+      "name": "without_fee_features_depth_4",
+      "max_depth": 4,
+      "feature_count": 41,
+      "validation": {
+        "precision": 0.23601727766087052,
+        "recall": 0.7469330529267437,
+        "f1": 0.3586938225887898,
+        "average_precision": 0.2632220426246758,
+        "true_negative": 43320,
+        "false_positive": 6898,
+        "false_negative": 722,
+        "true_positive": 2131
+      }
+    },
+    {
+      "name": "without_fee_features_depth_8",
+      "max_depth": 8,
+      "feature_count": 41,
+      "validation": {
+        "precision": 0.25514822357999545,
+        "recall": 0.7903960743077463,
+        "f1": 0.38576682918484306,
+        "average_precision": 0.5023084838815698,
+        "true_negative": 43635,
+        "false_positive": 6583,
+        "false_negative": 598,
+        "true_positive": 2255
+      }
+    }
+  ],
+  "selected_model": "all_profile_features_depth_8",
+  "selection_rule": "Maximum validation F1; threshold fixed by classifier; no test tuning",
+  "selected_model_test": {
+    "precision": 0.30736457699330494,
+    "recall": 0.8850332982825097,
+    "f1": 0.456270328876039,
+    "average_precision": 0.6202444851865034,
+    "true_negative": 44528,
+    "false_positive": 5690,
+    "false_negative": 328,
+    "true_positive": 2525
+  },
+  "always_licit_test": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "average_precision": 0.053758173013510206,
+    "true_negative": 50218,
+    "false_positive": 0,
+    "false_negative": 2853,
+    "true_positive": 0
+  },
+  "features": [
+    "num_txs_as_sender",
+    "num_txs_as receiver",
+    "lifetime_in_blocks",
+    "total_txs",
+    "num_timesteps_appeared_in",
+    "btc_transacted_total",
+    "btc_transacted_min",
+    "btc_transacted_max",
+    "btc_transacted_mean",
+    "btc_transacted_median",
+    "btc_sent_total",
+    "btc_sent_min",
+    "btc_sent_max",
+    "btc_sent_mean",
+    "btc_sent_median",
+    "btc_received_total",
+    "btc_received_min",
+    "btc_received_max",
+    "btc_received_mean",
+    "btc_received_median",
+    "fees_total",
+    "fees_min",
+    "fees_max",
+    "fees_mean",
+    "fees_median",
+    "fees_as_share_total",
+    "fees_as_share_min",
+    "fees_as_share_max",
+    "fees_as_share_mean",
+    "fees_as_share_median",
+    "blocks_btwn_txs_total",
+    "blocks_btwn_txs_min",
+    "blocks_btwn_txs_max",
+    "blocks_btwn_txs_mean",
+    "blocks_btwn_txs_median",
+    "blocks_btwn_input_txs_total",
+    "blocks_btwn_input_txs_min",
+    "blocks_btwn_input_txs_max",
+    "blocks_btwn_input_txs_mean",
+    "blocks_btwn_input_txs_median",
+    "blocks_btwn_output_txs_total",
+    "blocks_btwn_output_txs_min",
+    "blocks_btwn_output_txs_max",
+    "blocks_btwn_output_txs_mean",
+    "blocks_btwn_output_txs_median",
+    "num_addr_transacted_multiple",
+    "transacted_w_address_total",
+    "transacted_w_address_min",
+    "transacted_w_address_max",
+    "transacted_w_address_mean",
+    "transacted_w_address_median"
+  ],
+  "feature_importances": {
+    "total_txs": 0.35741770955520946,
+    "btc_transacted_total": 0.0008570847313056724,
+    "btc_transacted_min": 0.001167947102779742,
+    "btc_transacted_max": 0.007215045700543626,
+    "btc_transacted_mean": 0.0007622047890774928,
+    "btc_transacted_median": 0.0019025564219076366,
+    "btc_sent_total": 0.00010898697046210817,
+    "btc_sent_min": 0.004901154831220389,
+    "btc_sent_max": 0.009545105898053404,
+    "btc_sent_mean": 0.08102894360118092,
+    "btc_sent_median": 0.00040193623077070944,
+    "btc_received_total": 0.01650728047547697,
+    "btc_received_max": 0.034870014301970655,
+    "btc_received_mean": 0.015172509593647106,
+    "btc_received_median": 0.003872017482991043,
+    "fees_total": 0.05551153980368189,
+    "fees_min": 0.03095422674268856,
+    "fees_max": 0.08973448649072771,
+    "fees_mean": 0.02612934451156816,
+    "fees_median": 0.0065516339853496945,
+    "fees_as_share_total": 0.01758782737766788,
+    "fees_as_share_min": 0.004464188014048765,
+    "fees_as_share_max": 0.004354411822711387,
+    "fees_as_share_mean": 0.04477891021008522,
+    "fees_as_share_median": 0.003924627350994507,
+    "blocks_btwn_txs_min": 0.00013566662148469452,
+    "blocks_btwn_txs_mean": 0.07257205541222914,
+    "blocks_btwn_input_txs_min": 2.522594509230404e-05,
+    "blocks_btwn_input_txs_mean": 0.000227254597626438,
+    "transacted_w_address_total": 0.10731810342744676
+  },
+  "limitations": [
+    "Address separation does not establish entity or case independence",
+    "Full-history aggregate features may include events later than their Time step",
+    "No causal temporal evaluation or theft-case external validation",
+    "Class-weighted scores are not calibrated illicitness probabilities",
+    "Unknown labels excluded; no claim of coverage/performance on unknown addresses"
+  ]
+}

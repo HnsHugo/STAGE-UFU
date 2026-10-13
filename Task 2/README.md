@@ -1,6 +1,14 @@
 # Task 2 — Wallet and transaction behaviour
 
-## Research direction (provisional)
+## Latest experiments — 13 October 2026
+
+- [Coldcard transaction proxy](coldcard/README.md): extracted block features, decision trees and grouped validation; labels remain indirect case relationships.
+- [Elliptic++ address benchmark](ellipticplusplus/README.md): verified original features, unique-address splits, four candidate trees, validation selection and held-out test results.
+- [Sourced theft references](coldcard/THEFT_COLLECTION.md): FBI address histories and a Binance transaction reference; no validated cross-case theft classifier yet.
+
+The Elliptic++ model classifies offline illicit/licit historical address profiles. It does not establish real-time theft detection, hardware-wallet identification or CPFP detection. The sections below retain the original wallet-collection pilot's scope and progress.
+
+## Original research direction (provisional)
 
 The supervisor's remembered keywords are WalletExplorer, hardware-wallet-related
 addresses and CPFP flags. The exact scope and the intended meaning of cold vs
@@ -17,7 +25,7 @@ A hardware wallet is a signing device; cold storage is an operational practice.
 An address format does not establish either property. Keep service attribution,
 storage classification and illicit labels as separate fields with separate sources.
 
-## Current progress
+## Original wallet-pilot progress
 
 Part 1 contains single-address and CSV collection CLIs, sourced input records,
 real API snapshots and offline tests for validation, error handling and resume.
@@ -26,7 +34,7 @@ addresses with published hot/cold labels and four historical Binance reserve
 addresses with unknown storage. WalletExplorer found all seven but supplied no
 service names. These are collection results, not illicit-correlation findings.
 It queries an existing clustering service; it does not implement clustering itself.
-No hardware/cold classification, CPFP detection or illicit classifier exists yet.
+The wallet-collection pilot implements no hardware/cold classification, CPFP detection or illicit classifier.
 
 ## Validation constraint
 

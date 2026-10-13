@@ -1,0 +1,43 @@
+|--- total_txs <= 1.50000
+|   |--- btc_sent_median <= 0.00160
+|   |   |--- btc_transacted_total <= 0.00100
+|   |   |   |--- transacted_w_address_total <= 2.50000
+|   |   |   |   |--- class: 0
+|   |   |   |--- transacted_w_address_total >  2.50000
+|   |   |   |   |--- class: 0
+|   |   |--- btc_transacted_total >  0.00100
+|   |   |   |--- transacted_w_address_total <= 1.50000
+|   |   |   |   |--- class: 0
+|   |   |   |--- transacted_w_address_total >  1.50000
+|   |   |   |   |--- class: 0
+|   |--- btc_sent_median >  0.00160
+|   |   |--- transacted_w_address_total <= 3.50000
+|   |   |   |--- transacted_w_address_total <= 1.50000
+|   |   |   |   |--- class: 1
+|   |   |   |--- transacted_w_address_total >  1.50000
+|   |   |   |   |--- class: 0
+|   |   |--- transacted_w_address_total >  3.50000
+|   |   |   |--- class: 0
+|--- total_txs >  1.50000
+|   |--- blocks_btwn_txs_mean <= 48.63691
+|   |   |--- btc_received_max <= 0.00077
+|   |   |   |--- transacted_w_address_total <= 4.50000
+|   |   |   |   |--- class: 0
+|   |   |   |--- transacted_w_address_total >  4.50000
+|   |   |   |   |--- class: 0
+|   |   |--- btc_received_max >  0.00077
+|   |   |   |--- transacted_w_address_total <= 11.50000
+|   |   |   |   |--- class: 1
+|   |   |   |--- transacted_w_address_total >  11.50000
+|   |   |   |   |--- class: 0
+|   |--- blocks_btwn_txs_mean >  48.63691
+|   |   |--- transacted_w_address_mean <= 1.00990
+|   |   |   |--- btc_received_max <= 0.00170
+|   |   |   |   |--- class: 0
+|   |   |   |--- btc_received_max >  0.00170
+|   |   |   |   |--- class: 1
+|   |   |--- transacted_w_address_mean >  1.00990
+|   |   |   |--- blocks_btwn_output_txs_median <= 10079.25000
+|   |   |   |   |--- class: 0
+|   |   |   |--- blocks_btwn_output_txs_median >  10079.25000
+|   |   |   |   |--- class: 0
