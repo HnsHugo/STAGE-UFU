@@ -1,0 +1,26 @@
+{
+  "address": "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+  "case_group": "binance_2019",
+  "role": "research_attributed_attacker_recipient",
+  "evidence_level": "research_attribution_resolved_by_unique_prefix_suffix_amount_match",
+  "asof_exclusive_utc": "2019-05-08T02:17:18+00:00",
+  "cutoff_policy": "Nine hours after first observed confirmed receipt; retrospective",
+  "features": {
+    "window_days": 7,
+    "transaction_count": 1,
+    "receiving_transaction_count": 1,
+    "spending_transaction_count": 0,
+    "received_sat": 56799700000,
+    "spent_input_sat": 0,
+    "net_flow_sat": 56799700000,
+    "balance_before_cutoff_sat": 56799700000,
+    "mean_receipt_sat": 56799700000,
+    "max_receipt_sat": 56799700000,
+    "mean_spent_input_sat": null,
+    "active_utc_days": 1,
+    "transactions_per_day": 0.14285714285714285,
+    "median_outgoing_transaction_fee_rate": null
+  },
+  "label_available_at": null,
+  "warning": "Research label not demonstrated available at historical cutoff; not harmonized with FBI snapshot maturity"
+}

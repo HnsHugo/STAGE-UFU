@@ -3,7 +3,7 @@
 ## Current deliverables
 
 - fbi_asof_20230823.json: six historical address profiles with source roles and a shared cutoff.
-- binance_output_candidates.json: 44 outputs from the transaction published by Binance; output roles and training labels remain unknown.
+- binance_output_candidates.json: 44 outputs from the transaction published by Binance; one role is research-attributed through a unique match, and 43 remain unknown. See BINANCE_EVIDENCE.md.
 - extract_asof_features.py: reproducible cutoff/window feature extraction from audited provider histories.
 - Four tests cover future-spending exclusion, window boundaries, incoming-fee separation and pre-window balance.
 
@@ -24,7 +24,7 @@ The feature schema differs from Elliptic++'s aggregate profiles. No forest score
 
 Source: https://www.binance.com/en/support/announcement/detail/360028031711
 The published transaction is e8b406091959700dbffcff30a60b190133721e5c39e89bb5fe23c5a554ab05ea.
-Its saved API response has 71 inputs and 44 outputs. Each output is stored as a candidate with its index, address and amount. The incident-level statement does not establish each output's role. No output is labeled stolen or legitimate solely because it appears in this transaction. Candidate output histories have not yet been collected.
+Its saved API response has 71 inputs and 44 outputs. Each output is stored as a candidate with its index, address and amount. The incident-level statement does not establish each output's role. No output is labeled stolen or legitimate solely because it appears in this transaction. One candidate history has since been collected and checked; see BINANCE_EVIDENCE.md.
 
 ## Reproduction
 
@@ -37,7 +37,7 @@ python -m unittest discover -p 'test_*.py' -v
 
 ## Remaining data requirements
 
-These are six source-attributed positive-role examples in one group, not a supervised train/test dataset. There are no documented negative controls in this corpus. Candidate Binance outputs are unresolved. Additional independent cases, exact address-role evidence, label availability dates and matched comparison observations are required before theft-specific fitting or evaluation.
+The initial snapshot has six source-attributed positive-role examples in one group. The subsequent Binance evidence adds one research-attributed address in a second incident group; this remains insufficient for a supervised train/test dataset. There are no documented negative controls in this corpus. One Binance output is research-attributed; the other 43 remain unresolved. Additional independent cases, exact address-role evidence, label availability dates and matched comparison observations are required before theft-specific fitting or evaluation.
 
 DMM and Bitfinex incident sources were screened, but the inspected material did not establish an importable complete-address list with sufficiently specific roles. No addresses were inferred from shortened prefixes, diagrams or incident amounts alone.
 

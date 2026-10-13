@@ -1,0 +1,24 @@
+{
+  "record": {
+    "address": "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+    "case_group": "binance_2019",
+    "role": "research_attributed_attacker_recipient",
+    "evidence_level": "research_attribution_resolved_by_unique_prefix_suffix_amount_match",
+    "source_url": "https://yong-wang.org/publication/23-SMC-Intention-Discovery.pdf",
+    "source_section": "Section VII.F, page 6; abbreviated bc1q***v3wm and 567.997 BTC",
+    "incident_source": "https://www.binance.com/en/support/announcement/detail/360028031711",
+    "source_published_on": null,
+    "source_available_at": null,
+    "hardware_control": "unknown",
+    "matched_transaction": "e8b406091959700dbffcff30a60b190133721e5c39e89bb5fe23c5a554ab05ea",
+    "matched_output_index": 6,
+    "caveats": [
+      "Complete address resolved from on-chain output, not fully printed in the paper",
+      "Paper introduction says 2017 while case section specifies 7 May 2019",
+      "No verified ownership or independent incident-role corroboration",
+      "Other transaction outputs remain unresolved"
+    ]
+  },
+  "history_sha256": "66031fe316c134b58b10eb5321cf9ccbfe56ad0f266ba4b41d44c392890bb2cd",
+  "transaction_sha256": "53ebf40c02396aa3b35018cb36226d216087b4caa890e82395890e8dcfe9694b"
+}
