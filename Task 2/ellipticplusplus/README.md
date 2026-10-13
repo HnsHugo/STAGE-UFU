@@ -80,3 +80,7 @@ Large raw inputs, split_assignments.csv.gz and test_predictions.csv.gz are not c
 Address separation does not prove entity or case independence. Related addresses may occur across sets. Aggregates span complete address histories and may include events after the Time step value: this experiment is not a causal temporal test or real-time detection system. A chronological split over these unmodified aggregates would not resolve that issue.
 
 The FBI/Binance theft references use different roles and feature definitions. No external theft score is reported, and this tree must not be applied directly to the existing transaction proxy CSV. Next work is to reconstruct features available at a specified decision date, expand sourced theft cases and controls, and test case-level generalization. Further parameter or threshold development must use training/validation; this test has now been inspected and must not be repeatedly used for tuning.
+
+## Validation-only development follow-up
+
+See [VALIDATION_TUNING.md](VALIDATION_TUNING.md) for weight/threshold comparisons on validation. No new held-out test score is reported; the original test results above remain unchanged.
