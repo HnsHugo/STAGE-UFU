@@ -1,19 +1,19 @@
-# Audit des parents — 8 octobre 2026
+# Parent audit — 8 October 2026
 
-Résultat fourni par Hugo depuis Codespaces : les cinq transactions attribuées par Bitquery ont été retrouvées. Sur 2 349 indices de transactions parentes recherchés, 1 070 ont été retrouvés et 1 279 manquent dans les blocs fournis. Tous les parents retrouvés ont une sortie ; 934 ont une entrée, soit 87,29 %.
+Results provided by Hugo from Codespaces: all five transactions attributed by Bitquery were found. Of 2,349 parent transaction indices searched for, 1,070 were found and 1,279 are missing from the supplied blocks. All recovered parents have one output; 934 have one input, or 87.29%.
 
-Les liens ne prouvent ni le vol, ni le contrôle par un hardware wallet. Les parents restent des candidats avec label inconnu. Les autres transactions ne sont pas des négatifs légitimes certifiés. Les données fournies couvrent 98 blocs sélectionnés, pas un historique complet.
+The relationships establish neither theft nor hardware-wallet control. Parents remain candidates with unknown labels. Other transactions are not certified legitimate negatives. The supplied data cover 98 selected blocks, not a complete history.
 
-## Extraction dans Codespaces
+## Extraction in Codespaces
 
-Depuis `Task 2/coldcard`, après `git pull` :
+From `Task 2/coldcard`, after `git pull`:
 
 ```bash
 python extract_features.py blocks parents.json features_output
 ```
 
-Le dossier de sortie doit être nouveau. Vérifier `manifest.json` : statut `complete`, 493571 transactions, 5 `source_attributed`, 1070 `direct_parent_candidate`, 492496 `unattributed`. Transmettre `transactions.csv.gz` et `manifest.json` pour poursuivre l'analyse.
+The output directory must be new. Check `manifest.json`: status `complete`, 493571 transactions, 5 `source_attributed`, 1070 `direct_parent_candidate`, 492496 `unattributed`. Share `transactions.csv.gz` and `manifest.json` to continue the analysis.
 
-Les identifiants, la hauteur du bloc et la relation ne doivent pas être utilisés comme variables du modèle. La relation est une provenance, pas une vérité terrain de vol. Le script extrait des propriétés des transactions confirmées, sans statut de dépense futur. Les valeurs de vsize sont arrondies au supérieur depuis le poids. La coinbase est explicitement distinguée.
+Identifiers, block height and relation must not be used as model features. Relation records provenance, not theft ground truth. The script extracts confirmed transaction properties without future spending status. Virtual size is rounded up from weight. Coinbase transactions are explicitly distinguished.
 
-L'entraînement attend une stratégie de labels documentée et une séparation des groupes liés entre entraînement et test. Aucune performance de détection n'est encore démontrée.
+Training requires a documented labeling strategy and separation of related groups between training and test. No detection performance has yet been demonstrated at this stage.

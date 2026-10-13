@@ -1,40 +1,40 @@
-# Task 2 — étude du cas Coldcard et première expérience ML
+# Task 2 — Coldcard case study and first ML experiment
 
-Ce dossier contient un pipeline reproductible d'analyse des blocs fournis par le professeur. Le premier objectif est une expérience explicable avec un arbre de décision ; la détection générale de vols et l'identification du matériel ne sont pas encore démontrées.
+This directory contains a reproducible pipeline for analysing the blocks provided by the professor. The initial objective is an interpretable decision-tree experiment; general theft detection and hardware identification have not yet been demonstrated.
 
-## État actuel
+## Current status
 
-- 98 blocs JSON sélectionnés, 493571 transactions uniques ; 98 coinbase.
-- 5 transactions présentes attribuées au cas par une enquête externe.
-- 1070 parents directs retrouvés sur 2349 recherchés ; les autres restent hors couverture.
-- 4 groupes de parents observés : 491, 341, 204 et 34.
-- Caractéristiques extraites et contrôlées ; expériences aléatoire, chronologique et par groupe exécutées.
-- 19 tests sur les séparations, les métriques, la fusion des groupes et la provenance.
+- 98 selected JSON blocks, 493571 unique transactions; 98 coinbase transactions.
+- 5 transactions present in the data are attributed to the case by an external investigation.
+- 1070 direct parents found out of 2349 searched for; the others remain outside coverage.
+- 4 observed parent groups: 491, 341, 204 and 34.
+- Features extracted and checked; random, chronological and grouped experiments completed.
+- 19 tests covering splits, metrics, group merging and provenance.
 
-Les mots « candidate » et « attribuée par la source » décrivent la provenance. Ils ne remplacent pas une vérification indépendante d'un vol ou d'un hardware wallet. Les transactions sans attribution restent inconnues.
+The terms “candidate” and “source-attributed” describe provenance. They do not replace independent verification of theft or hardware-wallet control. Unattributed transactions remain unknown.
 
-## Lire les résultats
+## Reading the results
 
-- PARENT_AUDIT.md : couverture des liens de financement.
-- FEATURE_ANALYSIS.md : contrôles et différences descriptives.
-- EXPERIMENT.md : le score aléatoire élevé et l'échec sur les candidates plus tardives.
-- GROUPED_EXPERIMENT.md : évaluation avec chaque groupe candidat tenu hors entraînement.
-- TRANSITION.md : clôture du pilote précédent et nouvelle priorité.
-- LABEL_PROTOCOL.md : règles pour constituer les labels du prochain dataset.
+- PARENT_AUDIT.md: coverage of funding relationships.
+- FEATURE_ANALYSIS.md: integrity checks and descriptive differences.
+- EXPERIMENT.md: the high random-split score and failure on later candidates.
+- GROUPED_EXPERIMENT.md: evaluation with each candidate group held out of training.
+- TRANSITION.md: closure of the previous pilot and the new priority.
+- LABEL_PROTOCOL.md: rules for constructing labels for the next dataset.
 
 ## Installation
 
-Utiliser Python 3.12 et installer les dépendances depuis ce dossier :
+Use Python 3.12 and install the dependencies from this directory:
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-Garder les blocs bruts hors Git, dans blocks/ ; conserver une copie de l'archive originale. L'extracteur accepte les 98 fichiers sans extension, nommés par hash. L'archive originale est également acceptée par l'audit.
+Keep raw blocks outside Git, in blocks/; retain a copy of the original archive. The extractor accepts the 98 extensionless files named by their hashes. The audit also accepts the original archive.
 
-## Pipeline complet
+## Complete pipeline
 
-Les commandes suivantes sont à lancer depuis Task 2/coldcard. Choisir de nouveaux noms de sortie si une extraction ou expérience a déjà été lancée : les scripts refusent les dossiers de sortie existants.
+Run the following commands from Task 2/coldcard. Choose new output names if an extraction or experiment has already been run: the scripts reject existing output directories.
 
 ```bash
 python audit_coldcard_parents.py blocks > parents.json
@@ -46,22 +46,22 @@ python train_grouped.py features_output/transactions.csv.gz candidate_groups.jso
 python -m unittest discover -p 'test_*.py' -v
 ```
 
-Vérifier status complete dans features_output/manifest.json avant entraînement. Les entraîneurs reproduisent cette version exacte du pilote et contrôlent le SHA256 du CSV compressé ; un nouveau dataset nécessite une nouvelle version documentée du protocole et de son empreinte.
+Check for status complete in features_output/manifest.json before training. The training scripts reproduce this exact pilot version and verify the compressed CSV's SHA256; a new dataset requires a new documented version of the protocol and its checksum.
 
-Les arbres sont exportés en texte pour inspection et les métriques en JSON. Aucun modèle de production ni probabilité de vol calibrée n'est publié.
+Trees are exported as text for inspection, and metrics as JSON. No production model or calibrated theft probability is published.
 
-## Résultat à retenir
+## Main finding
 
-L'arbre complet retrouve 874/1070 candidates cumulées en validation par groupe et produit 1072 alertes sur le fond. Il échoue entièrement sur un groupe et ne retrouve que 43/204 dans un autre. Son rappel moyen par groupe est 55,20 %. Ce résultat justifie un travail sur la diversité des cas et les labels avant d'introduire un modèle plus complexe.
+The full tree recovers 874/1070 candidates across grouped validation and produces 1072 background alerts. It fails completely on one group and recovers only 43/204 in another. Its mean recall across groups is 55.20%. This supports improving case diversity and labels before introducing a more complex model.
 
-## Modèle de recherche exporté
+## Exported research model
 
-Un arbre final, entraîné sur toutes les observations éligibles après les expériences, est disponible dans grouped_results_20261008/research_proxy_model.json. Ce fichier JSON ne contient pas de code exécutable ni de pickle. Ses scores sont des proportions pondérées de feuille, pas des probabilités calibrées de vol. Il n'a pas de score de validation propre : les métriques des arbres par pli ne sont pas celles de cet artefact final.
+A final tree, fitted to all eligible observations after the experiments, is available in grouped_results_20261008/research_proxy_model.json. This JSON file contains no executable code or pickle. Its scores are weighted leaf proportions, not calibrated theft probabilities. It has no separate validation score: the fold-specific tree metrics do not evaluate this final artifact.
 
-Pour l'appliquer à un autre CSV ayant les mêmes caractéristiques et des TXID :
+To apply it to another CSV with the same features and TXIDs:
 
 ```bash
-python proxy_model.py score grouped_results_20261008/research_proxy_model.json autres_caracteristiques.csv.gz scores_recherche.csv.gz
+python proxy_model.py score grouped_results_20261008/research_proxy_model.json other_features.csv.gz research_scores.csv.gz
 ```
 
-La sortie emploie research_candidate_score et research_candidate_like, avec la mention similar_to_training_candidates_not_confirmed_theft. Ne pas utiliser cette sortie comme liste de criminels ou preuve de contrôle matériel. Les données hors distribution nécessitent une validation externe.
+The output uses research_candidate_score and research_candidate_like, with the interpretation similar_to_training_candidates_not_confirmed_theft. Do not use this output as a list of criminals or as evidence of hardware control. Out-of-distribution data require external validation.

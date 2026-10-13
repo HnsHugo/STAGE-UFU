@@ -1,9 +1,9 @@
-# Transition depuis la collecte de wallets vers le cas Coldcard
+# Transition from wallet collection to the Coldcard case
 
-La collecte précédente (Task 2/part 1) constitue un pilote réutilisable : recherche d'entités, provenance des labels, historiques confirmés, couverture et métriques sur une fenêtre fixe. Elle n'a produit ni prédiction de stockage ni score d'illicéité. Les historiques incomplets restent explicitement signalés ; ils ne doivent pas être transformés en observations nulles.
+The previous collection (Task 2/part 1) is a reusable pilot: entity lookup, label provenance, confirmed histories, coverage and fixed-window metrics. It produced neither storage predictions nor illicitness scores. Incomplete histories remain explicitly flagged; they must not be converted into zero-valued observations.
 
-Pour les nouvelles directives, la priorité devient le dataset local de blocs et un arbre de décision explicable. Les labels de stockage cold/hot du pilote restent séparés des labels relatifs au vol et au hardware wallet. Les résultats de septembre et le cas de juillet/août ne sont pas joints sans justification temporelle.
+Under the new instructions, the priority is the local block dataset and an interpretable decision tree. The pilot's cold/hot storage labels remain separate from theft and hardware-wallet labels. September results and the July/August case are not joined without temporal justification.
 
-Le GNN/GCN, SHAP et le PoC d'analyse d'adresses restent des objectifs ultérieurs. La première expérience Coldcard sert à éprouver les labels, les variables et la validation avant d'introduire un modèle plus complexe. L'échec chronologique de l'arbre complet est un résultat expérimental à conserver, pas à masquer par une sélection de scores favorables.
+GNN/GCN, SHAP and the address-analysis PoC remain later objectives. The initial Coldcard experiment tests labels, features and validation before introducing a more complex model. The full tree's chronological failure is an experimental result to retain, not to hide by selecting favourable scores.
 
-À ce stade : cinq consolidations attribuées par une source externe, 1070 parents candidats retrouvés, caractéristiques extraites pour 493571 transactions, première expérience d'arbre réalisée. Les candidates ne sont pas des vols confirmés et les observations sans attribution ne sont pas des témoins légitimes certifiés.
+At this stage: five consolidations attributed by an external source, 1070 parent candidates recovered, features extracted for 493571 transactions, and the first tree experiment completed. Candidates are not confirmed thefts, and unattributed observations are not certified legitimate controls.

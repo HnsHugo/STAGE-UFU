@@ -1,36 +1,36 @@
-# Première expérience avec un arbre de décision
+# First decision-tree experiment
 
-## Ce qui est réellement testé
+## What is actually being tested
 
-La cible est « parent direct candidat d'une consolidation attribuée au cas » contre « transaction sans attribution ». Ce n'est pas une vérité terrain de vol ou de contrôle par hardware wallet. Les cinq consolidations et les 98 coinbase sont exclues : 493 468 transactions, dont 1 070 candidates.
+The target is “direct parent candidate of a consolidation attributed to the case” versus “unattributed transaction.” This is not ground truth for theft or hardware-wallet control. The five consolidations and 98 coinbase transactions are excluded: 493,468 transactions, including 1,070 candidates.
 
-L'arbre utilise 16 propriétés numériques des transactions. TXID, hauteur, provenance et indicateur coinbase sont exclus. Les réglages sont fixés avant l'entraînement : profondeur 4, minimum 20 observations par feuille, poids de classes équilibrés, random_state 42. Aucun réglage n'a été choisi sur les résultats des tests. La règle de comparaison, elle, avait déjà été observée sur tout le dataset ; elle reste une référence descriptive.
+The tree uses 16 numerical transaction properties. TXID, height, provenance and the coinbase indicator are excluded. Settings are fixed before training: depth 4, at least 20 observations per leaf, balanced class weights, random_state 42. No setting was selected from test results. The comparison rule, however, had already been observed on the full dataset; it remains a descriptive reference.
 
-## Résultats calculés le 8 octobre 2026
+## Results computed on 8 October 2026
 
-| Partage | Modèle | Candidates retrouvées | Alertes dans le fond sans attribution | Précision proxy | Rappel proxy |
+| Split | Model | Candidates recovered | Alerts in unattributed background | Proxy precision | Proxy recall |
 |---|---|---:|---:|---:|---:|
-| Aléatoire, référence avec risque de fuite | Arbre complet | 266 / 267 | 53 | 83,39 % | 99,63 % |
-| Aléatoire, référence avec risque de fuite | Arbre sans frais | 267 / 267 | 6048 | 4,23 % | 100 % |
-| Chronologique | Arbre complet | 0 / 34 | 139 | 0 % | 0 % |
-| Chronologique | Arbre sans frais | 34 / 34 | 15820 | 0,21 % | 100 % |
-| Chronologique | Une sortie et frais >=4,95 sat/vB | 34 / 34 | 5953 | 0,57 % | 100 % |
+| Random, reference with leakage risk | Full tree | 266 / 267 | 53 | 83.39% | 99.63% |
+| Random, reference with leakage risk | Tree without fees | 267 / 267 | 6048 | 4.23% | 100% |
+| Chronological | Full tree | 0 / 34 | 139 | 0% | 0% |
+| Chronological | Tree without fees | 34 / 34 | 15820 | 0.21% | 100% |
+| Chronological | One output and fee rate >=4.95 sat/vB | 34 / 34 | 5953 | 0.57% | 100% |
 
-Ces « alertes dans le fond » ne sont pas des vols nouvellement détectés, ni des faux positifs légalement établis. Les métriques portent uniquement sur la cible proxy.
+These background alerts are neither newly detected thefts nor legally established false positives. Metrics refer only to the proxy target.
 
-Partage aléatoire stratifié : 370101 observations d'entraînement (803 candidates), 123367 de test (267 candidates). Ce partage peut disperser les membres d'un même collecteur dans les deux ensembles ; son résultat ne doit pas être présenté comme une validation indépendante.
+Stratified random split: 370101 training observations (803 candidates), 123367 test observations (267 candidates). This split may place members of the same collector in both sets; its result must not be presented as independent validation.
 
-Partage chronologique : entraînement sur hauteurs <960377 (163328 observations, 1036 candidates), test sur hauteurs >=960377 (330140 observations, 34 candidates). Les blocs des deux ensembles ne se recouvrent pas. Il n'est pas établi que les entités ou collecteurs soient indépendants ; ce test ne couvre qu'un petit groupe tardif de candidates et un seul incident.
+Chronological split: training at heights <960377 (163328 observations, 1036 candidates), test at heights >=960377 (330140 observations, 34 candidates). Blocks do not overlap between sets. Entity or collector independence is not established; this test covers only a small late candidate group and a single incident.
 
-## Pourquoi le score aléatoire est trompeur
+## Why the random-split score is misleading
 
-Les 1036 candidates anciennes, sur cinq blocs, ont des frais médians de 30 sat/vB. Les 34 candidates du bloc 960733 ont une médiane de 4,9590 sat/vB. L'arbre chronologique complet sépare principalement les frais autour de 30 : il manque donc toutes les candidates tardives. Ce résultat montre une dépendance à une signature de frais spécifique au premier groupe, sans démontrer une règle générale des vols.
+The 1036 earlier candidates, across five blocks, have a median fee rate of 30 sat/vB. The 34 candidates in block 960733 have a median of 4.9590 sat/vB. The full chronological tree mainly splits on fees around 30, so it misses all later candidates. This shows dependence on a fee signature specific to the earlier group, without demonstrating a general theft rule.
 
-Sans frais, la forme et les montants retrouvent le petit groupe tardif, mais les alertes augmentent à 15820 sur 330106 observations du fond (4,79 %). La généralisation n'est pas établie.
+Without fees, transaction shape and amounts recover the small late group, but alerts rise to 15820 out of 330106 background observations (4.79%). Generalization is not established.
 
-## Reproduire
+## Reproduction
 
-Depuis Task 2/coldcard, avec les caractéristiques déjà extraites :
+From Task 2/coldcard, with features already extracted:
 
 ```bash
 python -m pip install -r requirements.txt
@@ -38,21 +38,21 @@ python train_exploratory.py features_output/transactions.csv.gz experiment_outpu
 python -m unittest discover -p test_experiment.py -v
 ```
 
-Les versions utilisées sont consignées dans metrics.json. Le script vérifie le SHA256 exact du fichier reçu. Le dossier de sortie doit être nouveau. Les arbres exportés en texte décrivent les modèles de chaque partage ; leurs poids ne sont pas des probabilités de vol calibrées. Aucun modèle de production n'est fourni.
+Versions are recorded in metrics.json. The script verifies the received file's exact SHA256. The output directory must be new. Text exports describe the models for each split; their weights are not calibrated theft probabilities. No production model is supplied.
 
-## Étape suivante
+## Next step
 
 ```bash
 python extract_candidate_groups.py blocks parents.json candidate_groups.json
 ```
 
-Ce script regroupe les candidates par consolidation descendante, fusionne les groupes partageant des adresses de collecte et ceux partageant un parent. Il vérifie la couverture contre parents.json. Les adresses servent uniquement au regroupement et ne sont pas publiées dans le résultat. L'extraction doit être exécutée dans Codespaces, où les blocs complets existent.
+This script groups candidates by descendant consolidation, merges groups sharing collection addresses and groups sharing a parent, and checks coverage against parents.json. Addresses are used only for grouping and are not published in the output. Extraction must run in Codespaces, where the complete blocks are available.
 
-Les groupes restent incomplets vis-à-vis des blocs absents et des liens avec le fond. Une validation par groupes, puis des cas externes documentés et des témoins sourcés, seront nécessaires avant de parler de détection de vols.
+Groups remain incomplete with respect to missing blocks and background relationships. Grouped validation, followed by documented external cases and sourced controls, is necessary before claiming theft detection.
 
-## Sources méthodologiques
+## Methodological sources
 
 - https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
 - https://scikit-learn.org/stable/modules/cross_validation.html
 - https://scikit-learn.org/stable/common_pitfalls.html
-- Attribution initiale : https://bitquery.io/investigations/coldcard-wallet-hack
+- Initial attribution: https://bitquery.io/investigations/coldcard-wallet-hack

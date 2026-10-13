@@ -1,27 +1,18 @@
-# Préparer une comparaison hot / cold
+# Preparing a hot / cold comparison
 
-Audit du 5 octobre 2026. Données examinées : [address_summary.csv](results/history_20261005/address_summary.csv), version [d8cff427](https://github.com/HnsHugo/STAGE-UFU/commit/d8cff427001d21c0fbe07efd97bf944c8cebe4c7).
+Audit dated 5 October 2026. Data examined: [address_summary.csv](results/history_20261005/address_summary.csv), version [d8cff427](https://github.com/HnsHugo/STAGE-UFU/commit/d8cff427001d21c0fbe07efd97bf944c8cebe4c7).
 
-## Résultat
+## Finding
 
-La collecte est utilisable pour décrire les transactions observées. Elle ne permet
-pas encore une comparaison validée du comportement hot / cold sur une période
-commune : les historiques sont tronqués différemment et aucun intervalle commun
-de validité des labels n'est établi.
+The collection can describe observed transactions. It does not yet support a validated comparison of hot / cold behaviour over a shared period: histories are truncated differently and no shared interval of label validity has been established.
 
-Les 25 transactions Bitfinex hot s'étendent sur 9,73 heures. Les 25 transactions
-de ses deux adresses cold s'étendent respectivement sur 55,01 et 251,01 jours.
-Ces durées mesurent l'écart entre les dates extrêmes de l'échantillon, pas une
-fenêtre d'observation complète. Diviser 25 par ces durées ne donne pas une
-fréquence comparable : les fenêtres ont été choisies par le nombre d'événements.
+The 25 Bitfinex hot transactions span 9.73 hours. The 25 transactions for its two cold addresses span 55.01 and 251.01 days respectively. These durations measure the distance between the sample's earliest and latest dates, not a complete observation window. Dividing 25 by these durations does not give a comparable frequency: windows were selected by event count.
 
-## Couverture par adresse
+## Coverage by address
 
-Dates et durées en UTC. Durée = (newest_observed_utc - oldest_observed_utc) / 86400,
-arrondie à deux décimales en jours. Les dates affichées omettent l'heure ;
-les durées utilisent les timestamps complets du CSV.
+Dates and durations are in UTC. Duration = (newest_observed_utc - oldest_observed_utc) / 86400, rounded to two decimal places in days. Displayed dates omit the time; durations use the CSV's complete timestamps.
 
-| Entité | Adresse | Label publié | Transactions observées | Dates extrêmes | Écart (jours) | Couverture |
+| Entity | Address | Published label | Observed transactions | Earliest / latest dates | Span (days) | Coverage |
 | --- | --- | --- | --- | --- | --- | --- |
 | BTC-e.com | `16SbwNa22nBwhLtg6HzWVYFQiUxtNzAUpt` | unknown | 25 | 2016-04-03 → 2016-04-25 | 21.93 | partial |
 | Bitfinex | `1Kr6QSydW9bFQG1mXiPNNu6WpJGmUa9i1g` | hot | 25 | 2026-10-04 → 2026-10-05 | 0.41 | partial |
@@ -35,70 +26,40 @@ les durées utilisent les timestamps complets du CSV.
 | Change | `bc1qhsuvec03zslh9qvauksh2wc9hy9za7csxem5ea` | cold | 2 | 2025-03-04 → 2025-04-30 | 57.18 | count_matches_stable_stats |
 | Change | `bc1q9rqfux88j6az0wl957u2jdykgw5m5r72hcaclu` | cold | 2 | 2025-03-10 → 2025-05-15 | 65.55 | count_matches_stable_stats |
 
-Les huit historiques partial ne suffisent pas à affirmer qu'une transaction
-absente de l'échantillon n'existe pas. Les trois historiques Change ont des
-comptages cohérents avec les statistiques stables du fournisseur, ce qui reste
-une vérification de cohérence et non un instantané atomique garanti.
+The eight partial histories are insufficient to establish that a transaction absent from the sample does not exist. The three Change histories have counts consistent with stable provider statistics; this remains a consistency check, not a guaranteed atomic snapshot.
 
-## Dates des preuves
+## Evidence dates
 
-| Groupe | Preuve disponible | Usage pour la comparaison |
+| Group | Available evidence | Use in the comparison |
 | --- | --- | --- |
-| Bitfinex : 1 hot, 2 cold | Liste officielle versionnée ; intervalle opérationnel non spécifié | Conserver les labels publiés, mais leur application aux transactions de 2026 reste non vérifiée |
-| Change : 3 cold | Instantané au 31 mars 2025 à 23:59 UTC | Le label est attesté à cet instant ; sa continuité avant ou après n'est pas établie |
-| Binance : 4 unknown | Réserves au 10 novembre 2022 ; absence de label par adresse | Exclure des groupes hot/cold ; ne pas déduire le stockage de l'activité |
-| BTC-e : test API | Attribution WalletExplorer, stockage inconnu | Exclure de l'échantillon de recherche |
+| Bitfinex: 1 hot, 2 cold | Versioned official list; operational interval unspecified | Retain published labels, but their applicability to 2026 transactions remains unverified |
+| Change: 3 cold | Snapshot at 31 March 2025, 23:59 UTC | The label is supported at that instant; continuity before or after is not established |
+| Binance: 4 unknown | Reserves at 10 November 2022; no per-address label | Exclude from hot/cold groups; do not infer storage from activity |
+| BTC-e: API test | WalletExplorer attribution, unknown storage | Exclude from the research sample |
 
-Sources et limites : [Bitfinex et Binance](data/research_sources_20261005.md),
-[Change](data/change_sources_20261005.md), [méthode de collecte](HISTORY.md).
-La date reviewed_at_utc est la date de lecture de la source, pas le début de
-validité du label. Aucune période calendaire n'est donc sélectionnée comme
-« validée hot/cold » dans cet audit.
+Sources and limitations: [Bitfinex and Binance](data/research_sources_20261005.md), [Change](data/change_sources_20261005.md), [collection method](HISTORY.md). reviewed_at_utc is the date the source was read, not the beginning of label validity. Therefore, this audit selects no calendar period as “validated hot/cold.”
 
-## Protocole de la prochaine collecte
+## Protocol for the next collection
 
-1. Établir des dates de validité des preuves pour des adresses hot et cold.
-   Enregistrer séparément la date du snapshot, l'intervalle attesté s'il existe,
-   et les hypothèses. Un snapshot seul ne justifie pas une durée de 30 jours.
-2. Fixer une fenêtre commune [début UTC inclus, fin UTC exclue] avant de regarder
-   les résultats. Une durée de 30 jours est une proposition exploratoire, à
-   adapter aux preuves ; elle n'est pas une période validée à ce stade.
-3. Collecter jusqu'à couvrir le début de cette fenêtre ou épuiser l'historique,
-   avec un plafond explicite de requêtes. Si le plafond est atteint avant la
-   couverture, marquer la fenêtre incomplète et laisser les métriques complètes
-   indisponibles. Le collecteur actuel est limité par pages et ne met pas encore
-   en œuvre cette collecte par fenêtre.
-4. Vérifier les frontières par hauteurs de blocs et dédupliquer les TXID.
-   Les timestamps de blocs peuvent être non monotones : un seul timestamp
-   ancien rencontré pendant la pagination ne prouve pas à lui seul la couverture.
-   Documenter les changements de chaîne entre requêtes.
-5. Calculer uniquement pour les fenêtres couvertes les métriques ci-dessous.
-   Garder les résultats exploratoires utilisant des labels historiques
-   explicitement identifiés comme tels.
+1. Establish evidence-validity dates for hot and cold addresses. Record the snapshot date, supported interval if available, and assumptions separately. A snapshot alone does not justify a 30-day interval.
+2. Fix a shared window [inclusive UTC start, exclusive UTC end] before inspecting results. A 30-day duration is an exploratory proposal to adapt to the evidence; it is not a validated period at this stage.
+3. Collect until the window's start is covered or the history is exhausted, with an explicit request cap. If the cap is reached before coverage, mark the window incomplete and leave complete metrics unavailable. The current collector is page-limited and does not yet implement this window-based collection.
+4. Check boundaries using block heights and deduplicate TXIDs. Block timestamps can be non-monotonic: a single old timestamp encountered during pagination does not by itself prove coverage. Document chain changes between requests.
+5. Compute the metrics below only for covered windows. Explicitly identify exploratory results that use historical labels.
 
-| Mesure prévue | Définition |
+| Planned measure | Definition |
 | --- | --- |
-| Nombre de transactions | TXID distincts impliquant l'adresse dans la fenêtre |
-| Fréquence quotidienne | Nombre / durée fixe de la fenêtre en jours, y compris les jours sans transaction |
-| Entrées / sorties | Somme des valeurs attribuées à cette adresse, en satoshis ; retours inclus |
-| Jours actifs | Nombre de dates UTC avec au moins une transaction confirmée |
-| Frais médians | Médiane en sat/vB des transactions qui dépensent des fonds de l'adresse ; frais de la transaction entière, pas frais imputés à l'adresse |
-| Réceptions seules | Décompte séparé ; leurs frais sont choisis par l'émetteur et ne décrivent pas la politique du destinataire |
+| Transaction count | Distinct TXIDs involving the address within the window |
+| Daily frequency | Count / fixed window duration in days, including days without transactions |
+| Inflows / outflows | Sum of values attributed to this address, in satoshis; returns included |
+| Active days | Number of UTC dates with at least one confirmed transaction |
+| Median fee rate | Median sat/vB of transactions spending funds from the address; whole-transaction fees, not fees allocated to the address |
+| Receive-only transactions | Separate count; their fees are selected by the sender and do not describe the recipient's policy |
 
-Un zéro nécessite une fenêtre couverte : absence d'observation dans un historique
-tronqué signifie « indisponible », pas zéro. Une adresse représente seulement
-une partie éventuelle d'un wallet. Les petites réceptions non sollicitées
-peuvent gonfler l'activité sans traduire une décision de son propriétaire.
+Zero requires a covered window: no observation in a truncated history means “unavailable,” not zero. An address may represent only part of a wallet. Small unsolicited receipts may inflate activity without reflecting a decision by its owner.
 
-## Portée des conclusions
+## Scope of conclusions
 
-L'échantillon contient dix adresses de recherche : cinq cold, une hot et quatre
-unknown. Les trois entités ne constituent pas une population représentative.
-La seule adresse hot appartient à Bitfinex ; l'entité et le type de stockage
-peuvent donc être confondus. Plusieurs adresses d'une même entité ne sont pas
-des observations indépendantes. Présenter d'abord les résultats par adresse et
-par entité ; élargir les deux groupes avant toute généralisation.
+The sample contains ten research addresses: five cold, one hot and four unknown. The three entities are not a representative population. The only hot address belongs to Bitfinex, so entity and storage type may be confounded. Multiple addresses from one entity are not independent observations. Present results by address and entity first; expand both groups before generalizing.
 
-Tous les labels hardware et illicit restent unknown. Cet audit ne calcule
-ni score illicite, ni CPFP, ni durée de détention UTXO. Ces deux dernières
-analyses nécessitent des données supplémentaires sur les entrées et sorties.
+All hardware and illicit labels remain unknown. This audit computes neither an illicitness score, CPFP nor UTXO holding duration. The latter two analyses require additional input/output data.

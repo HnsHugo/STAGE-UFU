@@ -1,31 +1,31 @@
-# Analyse des caractéristiques — 8 octobre 2026
+# Feature analysis — 8 October 2026
 
 ## Validation
 
-Extraction fournie par Hugo depuis Codespaces. Manifest complete : 493 571 observations et 493 571 TXID uniques, aucun doublon. Les 98 coinbase sont distinguées. Pour toutes les autres transactions, somme des entrées − somme des sorties = frais annoncés.
+Extraction provided by Hugo from Codespaces. Manifest status complete: 493,571 observations and 493,571 unique TXIDs, with no duplicates. The 98 coinbase transactions are distinguished. For every other transaction, total input value minus total output value equals the reported fee.
 
-SHA256 de transactions.csv.gz : `158788226288dce22bfd5ea20deab1b72551c5d0c32bdb547e113c83273841b4`.
+SHA256 of transactions.csv.gz: `158788226288dce22bfd5ea20deab1b72551c5d0c32bdb547e113c83273841b4`.
 
-| Groupe de provenance | Nombre | Médiane des sorties | Frais médians sat/vB |
+| Provenance group | Count | Median output count | Median fee rate, sat/vB |
 |---|---:|---:|---:|
-| Attribuées par la source | 5 | 1 | 5,0092 |
-| Parents directs candidats | 1070 | 1 | 30 |
-| Sans attribution | 492496 | 2 | 0,4429 |
+| Source-attributed | 5 | 1 | 5.0092 |
+| Direct parent candidates | 1070 | 1 | 30 |
+| Unattributed | 492496 | 2 | 0.4429 |
 
-Les frais médians excluent les coinbase. Les candidats ne sont pas des vols confirmés ; les sans attribution ne sont pas des transactions légitimes certifiées.
+Median fee rates exclude coinbase transactions. Candidates are not confirmed thefts; unattributed transactions are not certified legitimate transactions.
 
-## Concentration et règles descriptives
+## Concentration and descriptive rules
 
-Les candidats occupent six blocs : 960183 (204), 960185 (491), 960188 (63), 960189 (110), 960190 (168), 960733 (34). Ils ne constituent pas 1070 cas indépendants.
+Candidates occur in six blocks: 960183 (204), 960185 (491), 960188 (63), 960189 (110), 960190 (168), 960733 (34). They do not constitute 1070 independent cases.
 
-Toutes les candidates ont une sortie ; 934 ont une entrée et une sortie. Le groupe sans attribution contient également 54 510 transactions à une sortie, dont 39 493 avec une entrée. Cette forme est insuffisante pour conclure à un vol.
+All candidates have one output; 934 have one input and one output. The unattributed group also contains 54,510 one-output transactions, including 39,493 with one input. This shape is insufficient to establish theft.
 
-La règle descriptive « une sortie et frais >= 4,95 sat/vB » sélectionne 1070 candidates, mais aussi 7231 transactions sans attribution et 3 des 5 consolidations attribuées. Le seuil a été choisi après observation : ces nombres sont descriptifs, pas une évaluation hors échantillon. Les 7231 ne peuvent être déclarées ni faux positifs certains, ni nouveaux vols.
+The descriptive rule “one output and fee rate >= 4.95 sat/vB” selects 1070 candidates, but also 7231 unattributed transactions and 3 of the 5 attributed consolidations. The threshold was selected after inspection: these counts are descriptive, not an out-of-sample evaluation. The 7231 transactions cannot be declared confirmed false positives or newly discovered thefts.
 
-## Protocole pour l'arbre de décision
+## Decision-tree protocol
 
-Un premier arbre pourra chercher à distinguer les parents candidats du fond sans attribution : sa cible devra être explicitement nommée relation au cas, pas vol confirmé ou hardware wallet. Les cinq consolidations constituent un rôle distinct, à ne pas mélanger automatiquement aux transactions de collecte.
+An initial tree may distinguish parent candidates from the unattributed background: its target must explicitly be named relation to the case, not confirmed theft or hardware-wallet control. The five consolidations represent a separate role and must not automatically be mixed with collection transactions.
 
-Avant de présenter une performance : compléter les groupes de provenance (consolidation descendante, collecteur, composante liée), garder les groupes liés hors des deux ensembles simultanément, réserver le test avant de régler les hyperparamètres, exclure TXID/hauteur/relation des variables prédictives et rapporter précision/rappel/F1 comme métriques de la cible proxy. Le regroupement par bloc seul ne garantit pas l'indépendance des collecteurs.
+Before reporting performance: complete provenance groups (descendant consolidation, collector, connected component), prevent related groups from appearing in both training and test, reserve the test set before tuning hyperparameters, exclude TXID/height/relation from predictive features, and report precision/recall/F1 as proxy-target metrics. Grouping by block alone does not guarantee collector independence.
 
-Un arbre qui reproduit ce cas ne prouve pas la détection de nouveaux vols. Une validation externe avec des cas documentés et des témoins sourcés restera nécessaire. Aucune performance de modèle entraîné n'est annoncée dans ce rapport.
+A tree that reproduces this case does not demonstrate detection of new thefts. External validation with documented cases and sourced controls remains necessary. This report does not claim trained-model performance.

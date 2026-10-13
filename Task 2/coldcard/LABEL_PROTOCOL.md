@@ -1,37 +1,37 @@
-# Protocole de constitution du dataset sourcé
+# Protocol for constructing a sourced dataset
 
-## Unités et objectifs séparés
+## Separate units and objectives
 
-Le pilote actuel travaille sur des transactions. Le futur dataset d'adresses doit définir une période d'observation et une date de disponibilité des labels. Ne pas joindre directement les txIds anonymes d'Elliptic à des TXID de chaîne réels.
+The current pilot operates on transactions. The future address dataset must define an observation period and a label-availability date. Do not directly join Elliptic's anonymous txIds to actual on-chain TXIDs.
 
-Trois questions restent distinctes : une transaction est-elle liée à un cas documenté ; quel rôle joue une adresse dans le cas ; existe-t-il une preuve de contrôle par hardware wallet ? Une victime d'un vol n'est pas une adresse illicite. Un destinataire ultérieur n'est pas automatiquement un auteur conscient du vol.
+Three questions remain distinct: is a transaction related to a documented case; what role does an address play in that case; is there evidence of hardware-wallet control? A theft victim is not an illicit address. A later recipient is not automatically a party knowingly involved in theft.
 
-## Registre proposé
+## Proposed registry
 
-Un enregistrement associe network, subject_type (address/transaction), subject_id, case_id, role (victim/collection/consolidation/onward/unknown), case_relation (source_attributed/graph_candidate/independently_verified/unknown), source_url, evidence_description, source_published_at, observed_from/to, label_available_at, reviewed_at et hardware_control (supported/unknown) avec sa source séparée.
+A record associates network, subject_type (address/transaction), subject_id, case_id, role (victim/collection/consolidation/onward/unknown), case_relation (source_attributed/graph_candidate/independently_verified/unknown), source_url, evidence_description, source_published_at, observed_from/to, label_available_at, reviewed_at and hardware_control (supported/unknown), with a separate source for the latter.
 
-Conserver les observations brutes et les assertions de source séparément. La conformité de format d'un TXID ou d'une adresse ne vérifie pas la véracité d'un label.
+Keep raw observations and source assertions separate. Valid TXID or address formatting does not verify a label's truth.
 
-## Niveaux d'évidence
+## Evidence levels
 
-1. Référence externe avec TXID/adresse explicitement publié : source_attributed. Conserver les divergences entre texte et données.
-2. Lien de financement ou heuristique de regroupement : graph_candidate. Aucun transfert automatique du label matériel ou illicite.
-3. Confirmation indépendante du cas et du rôle : independently_verified, en conservant les sources et la justification.
-4. Absence de signalement ou manque de source : unknown, jamais négatif certifié.
+1. External reference explicitly publishing a TXID/address: source_attributed. Retain discrepancies between the text and the data.
+2. Funding relationship or grouping heuristic: graph_candidate. Do not automatically transfer hardware or illicit labels.
+3. Independent confirmation of the case and role: independently_verified, retaining sources and justification.
+4. No report or missing source: unknown, never a certified negative.
 
-Les positifs d'un dataset supervisé doivent correspondre à la cible précise retenue. Les négatifs nécessitent une politique documentée de témoins ; le fond inconnu peut servir à une expérience proxy, mais pas à démontrer une précision sur des vols confirmés.
+Positives in a supervised dataset must match the precise target selected. Negatives require a documented control-selection policy; unknown background can support a proxy experiment, but cannot demonstrate precision on confirmed thefts.
 
-## Chainabuse et ressources du professeur
+## Chainabuse and the professor's resources
 
-Chainabuse peut fournir des signalements structurés et des indicateurs de vérification/contributeur de confiance. Préserver catégorie, date du signalement, date de l'événement si connue et rôle exact de l'adresse. La documentation distingue les rapports vérifiés et les rapports non vérifiés. L'accès standard annoncé est limité ; ne pas considérer l'API comme une exportation exhaustive.
+Chainabuse can supply structured reports and verified/trusted-contributor indicators. Preserve category, report date, event date if known, and the address's exact role. Documentation distinguishes verified from unverified reports. Advertised standard access is limited; do not treat the API as an exhaustive export.
 
-Les datasets Haslhofer de ransomware et sextorsion sont des catégories différentes du vol de portefeuille. Les conserver comme cas/catégories distincts, vérifier licence et schéma avant ingestion, puis définir un protocole temporel commun. Ne pas renommer tous ces exemples « bitcoins volés ».
+Haslhofer's ransomware and sextortion datasets concern categories distinct from wallet theft. Keep them as separate cases/categories, check their licenses and schemas before ingestion, and then define a shared temporal protocol. Do not rename all these examples “stolen bitcoin.”
 
-## Évaluation
+## Evaluation
 
-Réserver des cas/groupes complets hors entraînement. Éviter que victimes, collecteurs et consolidations du même cas se dispersent entre les ensembles. Rapporter la couverture manquante, les métriques par cas et les métriques cumulées. Réserver une évaluation temporelle et des cas externes avant toute conclusion de généralisation.
+Hold complete cases/groups out of training. Prevent victims, collectors and consolidations from the same case from being scattered across sets. Report missing coverage, per-case metrics and pooled metrics. Reserve temporal evaluation and external cases before claiming generalization.
 
-Les caractéristiques doivent être disponibles au moment où l'outil est supposé décider : exclure les informations de dépenses futures et les signalements ultérieurs des variables prédictives. Les adresses, TXID, case_id et groupes restent des identifiants de provenance/séparation.
+Features must be available when the tool is supposed to decide: exclude future spending information and later reports from predictive variables. Addresses, TXIDs, case_id and groups remain provenance/split identifiers.
 
 ## Sources
 
