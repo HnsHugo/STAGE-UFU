@@ -1,0 +1,462 @@
+{
+  "address": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+  "source_record": {
+    "address": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+    "source_role": "research_attributed_collector",
+    "source_id": "btcpay_research",
+    "case_group": "btcpay_lnd_20260807",
+    "source_url": "https://github.com/somaxbt/btcpay-lnd-drain-2026-08",
+    "source_label": "reported_collector",
+    "label_available_at": null
+  },
+  "provider": "https://blockstream.info/api",
+  "collected_at": "2026-10-13T19:51:23.265169+00:00",
+  "before": {
+    "address": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+    "chain_stats": {
+      "funded_txo_count": 1,
+      "funded_txo_sum": 46608022,
+      "spent_txo_count": 1,
+      "spent_txo_sum": 46608022,
+      "tx_count": 2
+    },
+    "mempool_stats": {
+      "funded_txo_count": 0,
+      "funded_txo_sum": 0,
+      "spent_txo_count": 0,
+      "spent_txo_sum": 0,
+      "tx_count": 0
+    }
+  },
+  "after": {
+    "address": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+    "chain_stats": {
+      "funded_txo_count": 1,
+      "funded_txo_sum": 46608022,
+      "spent_txo_count": 1,
+      "spent_txo_sum": 46608022,
+      "tx_count": 2
+    },
+    "mempool_stats": {
+      "funded_txo_count": 0,
+      "funded_txo_sum": 0,
+      "spent_txo_count": 0,
+      "spent_txo_sum": 0,
+      "tx_count": 0
+    }
+  },
+  "audit": {
+    "coverage_complete_by_provider_counters": true,
+    "observed": {
+      "tx_count": 2,
+      "funded_txo_count": 1,
+      "spent_txo_count": 1,
+      "funded_txo_sum": 46608022,
+      "spent_txo_sum": 46608022
+    },
+    "counters_stable": true,
+    "pagination_exhausted": true,
+    "cryptographic_inclusion_verified": false
+  },
+  "transactions": [
+    {
+      "txid": "b873dc8f338eec872564a770ad1ea75f009dfbfa5d0927c6378b08a1658cab96",
+      "version": 2,
+      "locktime": 961919,
+      "vin": [
+        {
+          "txid": "7029f7ff0bdd859e075287d9b7fb61ba38ed63d7ba19dedae6c73047554998c0",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+            "value": 46608022
+          },
+          "is_coinbase": false
+        }
+      ],
+      "vout": [
+        {
+          "scriptpubkey_address": "1Jf9beYB5H2ndXoU7PHpXTjT9zD1CY5NSg",
+          "value": 16606900
+        },
+        {
+          "scriptpubkey_address": "bc1q8xtm22e7zplmpemg7nfr9fc589aupf9ydu9ta8",
+          "value": 30000000
+        }
+      ],
+      "size": 222,
+      "weight": 888,
+      "fee": 1122,
+      "status": {
+        "confirmed": true,
+        "block_height": 961920,
+        "block_hash": "0000000000000000000001ba2a5ba27a160a04f55bb96f177f08265c0eed912a",
+        "block_time": 1786396301
+      }
+    },
+    {
+      "txid": "7029f7ff0bdd859e075287d9b7fb61ba38ed63d7ba19dedae6c73047554998c0",
+      "version": 1,
+      "locktime": 0,
+      "vin": [
+        {
+          "txid": "7abbe8b0bf0f2d23b6991cbea3b3b1c022ae6b82ccfba7b368c4aba9a70c0123",
+          "vout": 1,
+          "prevout": {
+            "scriptpubkey_address": "bc1pt2up47eaggl4w9eu2m4xsrs3g8n6sgx0qmy4vyfvw2d97g53ncpqds888z",
+            "value": 9879953
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "b290ab38822109969b2a65c4504e4551cd145d893330e86c7ac83a9d4a0a71c9",
+          "vout": 1,
+          "prevout": {
+            "scriptpubkey_address": "bc1p7vzfhtq4w4daerpth3kd3scrc2jzvml4j64agzmwung3p5lmnw8qytw3n5",
+            "value": 6209359
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "e860ec75f6c4e26e774bfe0afacd14747796ce95d8ff19aecf6fcfde19458284",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1pe7ww3afw33xfkxqpzfdap2jzxwqke5n00mpdvzaedra385txudnsq8vnyg",
+            "value": 4861683
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "38df97c94c8b4b6b6cb607f056aae1a994e5cb4af57c31476e1acb16191e05a1",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1p0znk674wqve6hhus4d8yh3zx33ew9jnwsgzt6s4hd70qkavfsppqw26xvs",
+            "value": 2951781
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "a242b1215ed0496e0ff0e83ae73937f04974b69abaa205f3f9bf5ad5f0246db8",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1pupn6krvz6usdmheurznr4dd03nrvc26sygml7akar3tdp73dcsequx8l46",
+            "value": 2878110
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "25eb5c786982f6d4c8a3b116ab488a86c7c47af37ca2263aaa2dc8cc2909de13",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1px42qxjsmsr2a8dzq2g7m3flu8ar83qwqpf33wfhngyav4n85l4pqk6c2xz",
+            "value": 2392953
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "366f79dfbba20ea87478e1bd90b29bffd2bf6d9f099500d73d218845eeb97bf6",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1prxm2cwa73rdx3ll9krntvekrxtzkncz0w6ygftn73qv4y55t28nq8809vl",
+            "value": 2245921
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "aea1e1a3e8234ea431ae8c491f64f37b7c69844ae304d4c2e2ae9faed9cd39bd",
+          "vout": 1,
+          "prevout": {
+            "scriptpubkey_address": "bc1p5aeaye7p820037vw39x7wqm6slz6y63an9w8d2l2qgscsze4ftzsffmvfu",
+            "value": 2099182
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "1f1d1a2c29b8c53c73a8fe54c741cdbebac770cd261eb0bf89dc5cf0485db36a",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1pexwg0tsspekw33lhrwd9uty209dvh97unm5tqg4jaua5ueyma4fsn8avmt",
+            "value": 2075351
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "3c70b9006100a07dd67f505b9a438e123997b059fbf1135f3509137425d6aa32",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1pp0xnpcu8mx7zs3xjxtsa2n3qlt2x2087rtxql7u4tmgg4s0kuljq4m2v9a",
+            "value": 2044887
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "7b841e0199d7d1fc28437f477a989229525a742308a57c5c581a37253f203823",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1p68zlt5k88q8gk090gtpzlhjxqufucauxvea6r3hru7f8w8t582sqr4k266",
+            "value": 1730784
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "8fde6ba3bdd65423d97fca494dcacf8061bd5f05500ee3d3a8b50e79595bc510",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1pl42mtteulz408a3d4dv9yamqzsnpm4g9m025ttm0dt8hda2xl50snvarrx",
+            "value": 1376468
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "a55df492606adf20b0b8bdfac5d740f334a75d3de6c5b8ba56006524c1401166",
+          "vout": 1,
+          "prevout": {
+            "scriptpubkey_address": "bc1p64rfthgu8kyn2yj3703zrtuy3gzdslenf9ll7fkkz7lfsgnwme2sjxm6sg",
+            "value": 1040006
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "cea0a63053c71f30ee0d9264cfb3e4e7a4c724956fec50aec25077a939568b8a",
+          "vout": 1,
+          "prevout": {
+            "scriptpubkey_address": "bc1pr26vt5zfe5ngacyvt50av3vnul29qlutp833w4kzg3v3tykmrzcq7cdw3p",
+            "value": 986770
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "9d57c81c8d674a46d54cd07ef3d77f2d6a9de767f18e8abf8cf4fa84ff4c33c8",
+          "vout": 231,
+          "prevout": {
+            "scriptpubkey_address": "bc1pujvmedt5vr2keek57pf0zjlelgngwh66d48vf024v4e95te5rz4q9hs5pc",
+            "value": 643182
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "e59128423e64452fd6a8344f5df892d4d3a58ba39f3162332b62d2eb223c5d80",
+          "vout": 212,
+          "prevout": {
+            "scriptpubkey_address": "bc1pujvmedt5vr2keek57pf0zjlelgngwh66d48vf024v4e95te5rz4q9hs5pc",
+            "value": 642622
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "0207cb3ad6d237d33b80148307c8deb8a004706861a898965f046ac50eb7231e",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1pde0emh2fjrdaf634tk2pvv0z69pw7ujanvwlvrgla6966xqngfdqrmtwj4",
+            "value": 389734
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "3c95c20404b426aaf1c747fd9bbe031d803bb713d6ddfb61cb7f3de15654c5e5",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1prxg6qmgw53v9wx9fuj5estt7gshrcvwleqzxhggkhp225nug0m4syrqerc",
+            "value": 212576
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "8efbbbb393f79f91d9271a5fc7219b923c9cddd8cbc514563eaac2f7cdda2b1f",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1pw2n6pl587542qkypyr2pvjxzlyv8zgpe5dav8d9jmts9q66j4pmsxxqvwm",
+            "value": 182919
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "9a082a9aa826b4e34e11052621689ad5159a5c6b18a541f5d92373ddb6487d3f",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1pgkfxh90ws6zr4wrtjg4urlf9ckkskvhukvhjgew75s7d3rrzz89smxlk0n",
+            "value": 180001
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "21887738138ac8f882789f39e07d1c9edaf7fec47519e0a8cf38e92c8af6e9dd",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1pzvxndmnfgzlrc89rcevrnz09k8xgavvrr6r7ugs98pjgfz5t080q33fvc0",
+            "value": 163484
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "06b416df4892dee888cf9c70e5d6ab93ad943ad6a415357d629ab9771f6d1422",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1pyza6clptg0fae0n302c2lywv3c7tq2mtpeujt9khhar8xmyw9ssq4ax3wh",
+            "value": 118545
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "a8457128b8ca830c0d3b2c22ca68850fc68612126c0ad70c89ddb11022068e68",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1p8tts606jl5f9urrhty42ja7cul5rkqn08v772kudcvcffq587xwslfaeke",
+            "value": 116009
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "dec9609924c11ddaa1db2bdca0909bdc61866c0afcd7c22dc9b4dfad3696283e",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1p7wvrn9vd74jslhd7w7h5sh6uuymngt2gm803h8z7fwjd7vspxvwshsw6xf",
+            "value": 110291
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "a4da2d4eaa794c77b5c2ec254e2e17127bd3cc64470090ed378bc4f04f2a993d",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1pqehphv45p603er836sju4rtjscqu6s5c4nncjqql6ysq4s06pdwqdl0np0",
+            "value": 108371
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "5470b286e5cc22a16f689ec989ee0900222eb97a83708e2887fcee9c1ef888ae",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1p0pctek3wnd8vp4z0snvm5ny3khhxdcqre0uhzdnzvpft445m47pqy0jggn",
+            "value": 106994
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "d3fe3d7524aaf049ac36399d3a87a1d301c48df346aa7e58f8e09073f382ce6f",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1pt9uhx5v5lq8aj7226p6augxa5jxks7ecm53z27752kzdp5pk66pshqpxdk",
+            "value": 106808
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "0da1921210835d722270bda8a40039ae6f9fcbd0bc2b629706761de635c16200",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1p7zhsznn3fanmhe3w2xk0l8qzmyz4pzw6edqcp8t2z59svkfsw03sqxxa56",
+            "value": 106763
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "b70bc6a7d0ec823d6c01b463c9c0434edd1130cf0f52cddf7dbbcd22e5126268",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1plz5yt5cs3nsqmuxec4ssyrhd39e693k34fxmt9n5nxqvz2q2trkq7slwwz",
+            "value": 106004
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "b413ebdb2c323364ff2744b9276803757c66f499cfa5eb00051a26f71076cc46",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1p36kjzlasn79x6cq7k29gnp2zv6vvkk9wzvlrl2dvps4t7fpw2wvsqfn26k",
+            "value": 105860
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "d171a26cf0e5c6b3016f873dd381ef8d683950b8ec44e304d14a7cb3092437a1",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1p0l9a8mmyjuccz8h5a6w6vq5ejknjthf9defejm3mclnjyp0ljfzq5hxjyg",
+            "value": 105172
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "bb98b8023b33ae1f1362c96ef6bd8844462d99e44f9d91e729ed7a7ffa93e285",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1p8nfzxllecxz06x7lvc89gp2l3sy6avee9rjsjkk6znjj678gc6eqze33g4",
+            "value": 100022
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "f46ee678753df514606f9cec16b5a4523fbf8258e3fc3d59c20e62e3b5723d3d",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1pswsuyrx552lw3kcymyhc5qq7zwdcswf7crakdcxwqvs4jg7pqenqy6kpgw",
+            "value": 95101
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "163dcc8bdd4a8d572edba357dbe9fe9af89de77f979d31d6858eeefe9a16380b",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1plvhlrn3suz08au8x55fre3pfzchd9mu8t0whlauqnk466guyux4qhsr52c",
+            "value": 86746
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "0b445e7bce818081300dc5f4be09ef3e9e74774bfaf0960ed2bdb6602de5918c",
+          "vout": 0,
+          "prevout": {
+            "scriptpubkey_address": "bc1pelhqkdq8jggg539nygxkglgnmt9gs2mxjcat2a2k5kwfrxvgrxgskxsw8x",
+            "value": 73413
+          },
+          "is_coinbase": false
+        }
+      ],
+      "vout": [
+        {
+          "scriptpubkey_address": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+          "value": 46608022
+        },
+        {
+          "scriptpubkey_address": "bc1ppx9gqn9k4h7a7r3jhn6vucf73uhhmdskcryx6hn965lullrlly2sf4lkpm",
+          "value": 15258
+        }
+      ],
+      "size": 3834,
+      "weight": 8400,
+      "fee": 10545,
+      "status": {
+        "confirmed": true,
+        "block_height": 961359,
+        "block_hash": "00000000000000000000c32cb4fa67e281daefb6b7124ce6114ce93c3c34d4ef",
+        "block_time": 1786065450
+      }
+    }
+  ],
+  "snapshot": {
+    "asof_exclusive_utc": "2026-08-08T01:17:30+00:00",
+    "features": {
+      "window_days": 7,
+      "transaction_count": 1,
+      "receiving_transaction_count": 1,
+      "spending_transaction_count": 0,
+      "received_sat": 46608022,
+      "spent_input_sat": 0,
+      "net_flow_sat": 46608022,
+      "balance_before_cutoff_sat": 46608022,
+      "mean_receipt_sat": 46608022,
+      "max_receipt_sat": 46608022,
+      "mean_spent_input_sat": null,
+      "active_utc_days": 1,
+      "transactions_per_day": 0.14285714285714285,
+      "median_outgoing_transaction_fee_rate": null
+    },
+    "label_available_at": null,
+    "training_label": "pending_evidence_review"
+  },
+  "normalization": "Input/output script bodies omitted; addresses, values, outpoint references, confirmation status, fees and weights retained.",
+  "original_history_sha256": "7acffc931dfa57b1f0f1f38bb47f65a087fea5952264ffd8b3eaaef43b66ffb2"
+}

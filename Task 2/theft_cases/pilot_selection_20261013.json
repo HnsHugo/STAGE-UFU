@@ -1,0 +1,99 @@
+{
+  "status": "collection_pilot_not_supervised_training_set",
+  "selection": "Both BTCPay collectors; one Hack, one Theft and two benign Real-CATS addresses. Real-CATS source count 1..10, then ascending SHA256(address). Feasibility selection, not representative.",
+  "records": [
+    {
+      "address": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "source_role": "research_attributed_collector",
+      "source_id": "btcpay_research",
+      "case_group": "btcpay_lnd_20260807",
+      "source_url": "https://github.com/somaxbt/btcpay-lnd-drain-2026-08",
+      "source_label": "reported_collector",
+      "label_available_at": null
+    },
+    {
+      "address": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "source_role": "research_attributed_collector",
+      "source_id": "btcpay_research",
+      "case_group": "btcpay_lnd_20260807",
+      "source_url": "https://github.com/somaxbt/btcpay-lnd-drain-2026-08",
+      "source_label": "reported_collector",
+      "label_available_at": null
+    },
+    {
+      "address": "bc1q82uhgm8wrsthy4dx5zuy30h9fvs5aflfkj00ce",
+      "source_role": "unknown",
+      "source_id": "real_cats",
+      "case_group": null,
+      "source_url": "https://raw.githubusercontent.com/sjdseu/Real-CATS/054c659412a07d1dac596f625d02a84039f22a9b/CB.tsv",
+      "source_label": "Hack",
+      "label_available_at": null,
+      "source_reported_transaction_count": 5,
+      "source_first_time": "2024/2/19 17:35",
+      "source_last_time": "2024/4/29 15:42"
+    },
+    {
+      "address": "1AczDh2hqt61RpkeXvSSm7VU5NwxrQxtq9",
+      "source_role": "unknown",
+      "source_id": "real_cats",
+      "case_group": null,
+      "source_url": "https://raw.githubusercontent.com/sjdseu/Real-CATS/054c659412a07d1dac596f625d02a84039f22a9b/CB.tsv",
+      "source_label": "Theft",
+      "label_available_at": null,
+      "source_reported_transaction_count": 2,
+      "source_first_time": "2020/12/20 22:04",
+      "source_last_time": "2020/12/20 22:04"
+    },
+    {
+      "address": "33TBbDxeysZMBwAS4nyTYuP4PB3uLRCDde",
+      "source_role": "unknown",
+      "source_id": "real_cats",
+      "case_group": null,
+      "source_url": "https://raw.githubusercontent.com/sjdseu/Real-CATS/054c659412a07d1dac596f625d02a84039f22a9b/BB.tsv",
+      "source_label": "benign",
+      "label_available_at": null,
+      "source_reported_transaction_count": 2,
+      "source_first_time": "2024/1/7 15:56",
+      "source_last_time": "2024/1/27 16:26"
+    },
+    {
+      "address": "1Kg4FMpFFvaiBrumByyCUywS5XNuAUBa2E",
+      "source_role": "unknown",
+      "source_id": "real_cats",
+      "case_group": null,
+      "source_url": "https://raw.githubusercontent.com/sjdseu/Real-CATS/054c659412a07d1dac596f625d02a84039f22a9b/BB.tsv",
+      "source_label": "benign",
+      "label_available_at": null,
+      "source_reported_transaction_count": 6,
+      "source_first_time": "2021/4/20 17:05",
+      "source_last_time": "2024/3/24 4:09"
+    }
+  ],
+  "source_overlaps": {
+    "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH": {
+      "BB.tsv": false,
+      "CB.tsv": false
+    },
+    "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF": {
+      "BB.tsv": false,
+      "CB.tsv": false
+    },
+    "bc1q82uhgm8wrsthy4dx5zuy30h9fvs5aflfkj00ce": {
+      "BB.tsv": false,
+      "CB.tsv": true
+    },
+    "1AczDh2hqt61RpkeXvSSm7VU5NwxrQxtq9": {
+      "BB.tsv": false,
+      "CB.tsv": true
+    },
+    "33TBbDxeysZMBwAS4nyTYuP4PB3uLRCDde": {
+      "BB.tsv": true,
+      "CB.tsv": false
+    },
+    "1Kg4FMpFFvaiBrumByyCUywS5XNuAUBa2E": {
+      "BB.tsv": true,
+      "CB.tsv": false
+    }
+  },
+  "observation_policy": "Full provider-audited histories; snapshot 24 hours after first observed confirmed receipt, seven-day lookback. Labels retrospective, not proven available then."
+}

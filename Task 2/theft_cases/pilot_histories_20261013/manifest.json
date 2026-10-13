@@ -1,0 +1,250 @@
+{
+  "status": "complete",
+  "selection_sha256": "8830cfbbd283ad73d3e32a59ea7b0b26e8200eb28f13b7d88bca49edd9a7cce1",
+  "max_pages_per_address": 6,
+  "workers": 2,
+  "results": [
+    {
+      "address": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "file": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF.json",
+      "sha256": "76f550d7917d0ba0d9b2f487f62f92a76e14591a31fd957555484a6de21254ee",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 2,
+          "funded_txo_count": 1,
+          "spent_txo_count": 1,
+          "funded_txo_sum": 46608022,
+          "spent_txo_sum": 46608022
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "snapshot": {
+        "asof_exclusive_utc": "2026-08-08T01:17:30+00:00",
+        "features": {
+          "window_days": 7,
+          "transaction_count": 1,
+          "receiving_transaction_count": 1,
+          "spending_transaction_count": 0,
+          "received_sat": 46608022,
+          "spent_input_sat": 0,
+          "net_flow_sat": 46608022,
+          "balance_before_cutoff_sat": 46608022,
+          "mean_receipt_sat": 46608022,
+          "max_receipt_sat": 46608022,
+          "mean_spent_input_sat": null,
+          "active_utc_days": 1,
+          "transactions_per_day": 0.14285714285714285,
+          "median_outgoing_transaction_fee_rate": null
+        },
+        "label_available_at": null,
+        "training_label": "pending_evidence_review"
+      },
+      "original_history_sha256": "7acffc931dfa57b1f0f1f38bb47f65a087fea5952264ffd8b3eaaef43b66ffb2"
+    },
+    {
+      "address": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "file": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH.json",
+      "sha256": "5965b85530435dfcf1356ca2593908f98846ec6779255fc9bc1e2fa6ef982b6d",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 72,
+          "funded_txo_count": 71,
+          "spent_txo_count": 71,
+          "funded_txo_sum": 174760889,
+          "spent_txo_sum": 174760889
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "snapshot": {
+        "asof_exclusive_utc": "2026-08-08T13:27:00+00:00",
+        "features": {
+          "window_days": 7,
+          "transaction_count": 71,
+          "receiving_transaction_count": 71,
+          "spending_transaction_count": 0,
+          "received_sat": 174760889,
+          "spent_input_sat": 0,
+          "net_flow_sat": 174760889,
+          "balance_before_cutoff_sat": 174760889,
+          "mean_receipt_sat": 2461420.971830986,
+          "max_receipt_sat": 26405507,
+          "mean_spent_input_sat": null,
+          "active_utc_days": 1,
+          "transactions_per_day": 10.142857142857142,
+          "median_outgoing_transaction_fee_rate": null
+        },
+        "label_available_at": null,
+        "training_label": "pending_evidence_review"
+      },
+      "original_history_sha256": "1c97cb859afc4e7550765e4826567fd10d3d614bf9ba3f841c002d02db5dc788"
+    },
+    {
+      "address": "1AczDh2hqt61RpkeXvSSm7VU5NwxrQxtq9",
+      "file": "1AczDh2hqt61RpkeXvSSm7VU5NwxrQxtq9.json",
+      "sha256": "4bb9bcd8d1ce161f6406038595346d9d3d75c2584e93f7eef22e87b12790462f",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 2,
+          "funded_txo_count": 1,
+          "spent_txo_count": 1,
+          "funded_txo_sum": 4902803,
+          "spent_txo_sum": 4902803
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "snapshot": {
+        "asof_exclusive_utc": "2020-12-21T22:04:00+00:00",
+        "features": {
+          "window_days": 7,
+          "transaction_count": 2,
+          "receiving_transaction_count": 1,
+          "spending_transaction_count": 1,
+          "received_sat": 4902803,
+          "spent_input_sat": 4902803,
+          "net_flow_sat": 0,
+          "balance_before_cutoff_sat": 0,
+          "mean_receipt_sat": 4902803,
+          "max_receipt_sat": 4902803,
+          "mean_spent_input_sat": 4902803,
+          "active_utc_days": 1,
+          "transactions_per_day": 0.2857142857142857,
+          "median_outgoing_transaction_fee_rate": 121.14226804123712
+        },
+        "label_available_at": null,
+        "training_label": "pending_evidence_review"
+      },
+      "original_history_sha256": "78ed7d44e459ec45683fecafe62bc08564b8f202ea609e470bf8181701e3c13b"
+    },
+    {
+      "address": "1Kg4FMpFFvaiBrumByyCUywS5XNuAUBa2E",
+      "file": "1Kg4FMpFFvaiBrumByyCUywS5XNuAUBa2E.json",
+      "sha256": "5094b8b039f1d8ab8e2ffb8ecb0fab2ad707b0d73164990ec7b59f736dff77dd",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 6,
+          "funded_txo_count": 3,
+          "spent_txo_count": 3,
+          "funded_txo_sum": 11909754,
+          "spent_txo_sum": 11909754
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "snapshot": {
+        "asof_exclusive_utc": "2021-04-21T17:05:23+00:00",
+        "features": {
+          "window_days": 7,
+          "transaction_count": 2,
+          "receiving_transaction_count": 1,
+          "spending_transaction_count": 1,
+          "received_sat": 11704280,
+          "spent_input_sat": 11704280,
+          "net_flow_sat": 0,
+          "balance_before_cutoff_sat": 0,
+          "mean_receipt_sat": 11704280,
+          "max_receipt_sat": 11704280,
+          "mean_spent_input_sat": 11704280,
+          "active_utc_days": 1,
+          "transactions_per_day": 0.2857142857142857,
+          "median_outgoing_transaction_fee_rate": 256.41039197812216
+        },
+        "label_available_at": null,
+        "training_label": "pending_evidence_review"
+      },
+      "original_history_sha256": "96e34bb6c13adf710e50c01a19f93d09c10609a6e792310ec3e952c2309facbe"
+    },
+    {
+      "address": "33TBbDxeysZMBwAS4nyTYuP4PB3uLRCDde",
+      "file": "33TBbDxeysZMBwAS4nyTYuP4PB3uLRCDde.json",
+      "sha256": "02589f0fe0dd157a2fe7ce3fcdc5e085e8d43cecd8fee88e66e5e413e51cbb04",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 2,
+          "funded_txo_count": 1,
+          "spent_txo_count": 1,
+          "funded_txo_sum": 106855,
+          "spent_txo_sum": 106855
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "snapshot": {
+        "asof_exclusive_utc": "2024-01-08T15:56:33+00:00",
+        "features": {
+          "window_days": 7,
+          "transaction_count": 1,
+          "receiving_transaction_count": 1,
+          "spending_transaction_count": 0,
+          "received_sat": 106855,
+          "spent_input_sat": 0,
+          "net_flow_sat": 106855,
+          "balance_before_cutoff_sat": 106855,
+          "mean_receipt_sat": 106855,
+          "max_receipt_sat": 106855,
+          "mean_spent_input_sat": null,
+          "active_utc_days": 1,
+          "transactions_per_day": 0.14285714285714285,
+          "median_outgoing_transaction_fee_rate": null
+        },
+        "label_available_at": null,
+        "training_label": "pending_evidence_review"
+      },
+      "original_history_sha256": "6750a65b85db6057e05d20406595625a2e9d4c3806195844ec1c14d7a2670610"
+    },
+    {
+      "address": "bc1q82uhgm8wrsthy4dx5zuy30h9fvs5aflfkj00ce",
+      "file": "bc1q82uhgm8wrsthy4dx5zuy30h9fvs5aflfkj00ce.json",
+      "sha256": "c023a13ecee43c4443cd97592ff206aae657c83649e6c942d9633090d88bc697",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 5,
+          "funded_txo_count": 4,
+          "spent_txo_count": 2,
+          "funded_txo_sum": 1048567304,
+          "spent_txo_sum": 1048562282
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "snapshot": {
+        "asof_exclusive_utc": "2024-02-20T17:35:45+00:00",
+        "features": {
+          "window_days": 7,
+          "transaction_count": 2,
+          "receiving_transaction_count": 2,
+          "spending_transaction_count": 0,
+          "received_sat": 1048562282,
+          "spent_input_sat": 0,
+          "net_flow_sat": 1048562282,
+          "balance_before_cutoff_sat": 1048562282,
+          "mean_receipt_sat": 524281141,
+          "max_receipt_sat": 1029112857,
+          "mean_spent_input_sat": null,
+          "active_utc_days": 1,
+          "transactions_per_day": 0.2857142857142857,
+          "median_outgoing_transaction_fee_rate": null
+        },
+        "label_available_at": null,
+        "training_label": "pending_evidence_review"
+      },
+      "original_history_sha256": "fb6c61867e31cdd68fa1dd953cd7af6075f4d521032476550e784d66544b7206"
+    }
+  ],
+  "shared_transactions_between_selected_addresses": [],
+  "history_representation": "Normalized observations; original retrieval hashes retained separately"
+}

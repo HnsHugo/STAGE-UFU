@@ -1,0 +1,229 @@
+{
+  "address": "1AczDh2hqt61RpkeXvSSm7VU5NwxrQxtq9",
+  "source_record": {
+    "address": "1AczDh2hqt61RpkeXvSSm7VU5NwxrQxtq9",
+    "source_role": "unknown",
+    "source_id": "real_cats",
+    "case_group": null,
+    "source_url": "https://raw.githubusercontent.com/sjdseu/Real-CATS/054c659412a07d1dac596f625d02a84039f22a9b/CB.tsv",
+    "source_label": "Theft",
+    "label_available_at": null,
+    "source_reported_transaction_count": 2,
+    "source_first_time": "2020/12/20 22:04",
+    "source_last_time": "2020/12/20 22:04"
+  },
+  "provider": "https://blockstream.info/api",
+  "collected_at": "2026-10-13T19:51:56.965240+00:00",
+  "before": {
+    "address": "1AczDh2hqt61RpkeXvSSm7VU5NwxrQxtq9",
+    "chain_stats": {
+      "funded_txo_count": 1,
+      "funded_txo_sum": 4902803,
+      "spent_txo_count": 1,
+      "spent_txo_sum": 4902803,
+      "tx_count": 2
+    },
+    "mempool_stats": {
+      "funded_txo_count": 0,
+      "funded_txo_sum": 0,
+      "spent_txo_count": 0,
+      "spent_txo_sum": 0,
+      "tx_count": 0
+    }
+  },
+  "after": {
+    "address": "1AczDh2hqt61RpkeXvSSm7VU5NwxrQxtq9",
+    "chain_stats": {
+      "funded_txo_count": 1,
+      "funded_txo_sum": 4902803,
+      "spent_txo_count": 1,
+      "spent_txo_sum": 4902803,
+      "tx_count": 2
+    },
+    "mempool_stats": {
+      "funded_txo_count": 0,
+      "funded_txo_sum": 0,
+      "spent_txo_count": 0,
+      "spent_txo_sum": 0,
+      "tx_count": 0
+    }
+  },
+  "audit": {
+    "coverage_complete_by_provider_counters": true,
+    "observed": {
+      "tx_count": 2,
+      "funded_txo_count": 1,
+      "spent_txo_count": 1,
+      "funded_txo_sum": 4902803,
+      "spent_txo_sum": 4902803
+    },
+    "counters_stable": true,
+    "pagination_exhausted": true,
+    "cryptographic_inclusion_verified": false
+  },
+  "transactions": [
+    {
+      "txid": "e3271344710a7700805e1c9ea17f3e654ec31c7533744c6dd432dcea5f4535fc",
+      "version": 1,
+      "locktime": 0,
+      "vin": [
+        {
+          "txid": "7252fa1f90d63f29a1d18df3bf4326e48928a4daa7e101f8697cb342b782241c",
+          "vout": 13,
+          "prevout": {
+            "scriptpubkey_address": "17ns5oTcZNvir8Dr6MwD5NQondrmwk2eD",
+            "value": 83547
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "ab43301a136e169b441c65c1f52a85ab3e7c1f40664dafba9518fc97123dd6c4",
+          "vout": 4,
+          "prevout": {
+            "scriptpubkey_address": "1FZPd6vNGF5nxyVLmGSJc5zJJ1S2u9HyAx",
+            "value": 23404
+          },
+          "is_coinbase": false
+        },
+        {
+          "txid": "aeee709cf8425073e1b85df680ca88a6a61fd4fa6e5e57bf6c1e736f415888c0",
+          "vout": 11,
+          "prevout": {
+            "scriptpubkey_address": "1AczDh2hqt61RpkeXvSSm7VU5NwxrQxtq9",
+            "value": 4902803
+          },
+          "is_coinbase": false
+        }
+      ],
+      "vout": [
+        {
+          "scriptpubkey_address": "3MeDbXKnUFUZCZavQkbXsueGMSUSWpBH58",
+          "value": 4951000
+        }
+      ],
+      "size": 485,
+      "weight": 1940,
+      "fee": 58754,
+      "status": {
+        "confirmed": true,
+        "block_height": 662261,
+        "block_hash": "0000000000000000000a670588093470a8ec2a9f2e373fb7463fce91ded13eb2",
+        "block_time": 1608501840
+      }
+    },
+    {
+      "txid": "aeee709cf8425073e1b85df680ca88a6a61fd4fa6e5e57bf6c1e736f415888c0",
+      "version": 2,
+      "locktime": 662259,
+      "vin": [
+        {
+          "txid": "dbef797ae63b36f3668084d2eb9f7b1c0e396e4f98aef68531805f0c07abcbe4",
+          "vout": 3,
+          "prevout": {
+            "scriptpubkey_address": "bc1qt82c8y90nf2mfccyzfftmz62qvv6p8tztn04k8",
+            "value": 834044860
+          },
+          "is_coinbase": false
+        }
+      ],
+      "vout": [
+        {
+          "scriptpubkey_address": "3LLyzRHHJh2AbzoPfNCpmJPfTnd8sHoRqJ",
+          "value": 214910
+        },
+        {
+          "scriptpubkey_address": "1DsQLVbNubMSPyENMkDJf75pCbUbY6Zu5f",
+          "value": 1362735
+        },
+        {
+          "scriptpubkey_address": "137J8x3shGZmwoTBCBT3PgqrWDfuXB9j7e",
+          "value": 909039
+        },
+        {
+          "scriptpubkey_address": "1A75tKbBNq2EMcXe6LPwFTtNh6KfmeVUeD",
+          "value": 99739
+        },
+        {
+          "scriptpubkey_address": "3MwvajMxe7C6usRjXWtpAehMqm3xk8C9sP",
+          "value": 223423
+        },
+        {
+          "scriptpubkey_address": "3HWs4gZWG4eAeuKWMLRn8KQHqoq1JrGeXg",
+          "value": 4042146
+        },
+        {
+          "scriptpubkey_address": "3HjS5TENpYSuhmrqJiu1tBhuAGdGgco2Cx",
+          "value": 25379
+        },
+        {
+          "scriptpubkey_address": "3QVmZRRen6MkqQCA7n4HhBJVuHxdkQaACv",
+          "value": 786494718
+        },
+        {
+          "scriptpubkey_address": "16rsPXjj9GQLTUkscyG9aaK3q6wrJitjj9",
+          "value": 400000
+        },
+        {
+          "scriptpubkey_address": "1G7XTrdNu4b8RgcghpGUgGEkD1BNUhAzhE",
+          "value": 4000000
+        },
+        {
+          "scriptpubkey_address": "3KRFtnTu6Ppgrn1T2wWBGvqfwfhk8W2CuP",
+          "value": 52223
+        },
+        {
+          "scriptpubkey_address": "1AczDh2hqt61RpkeXvSSm7VU5NwxrQxtq9",
+          "value": 4902803
+        },
+        {
+          "scriptpubkey_address": "3QZoYoygGBDSxqbHE6x84sBDFjsybXExnV",
+          "value": 30408363
+        },
+        {
+          "scriptpubkey_address": "1DsfxJVREAppCR26C6hgcsqYuRR9CYjiUQ",
+          "value": 198373
+        },
+        {
+          "scriptpubkey_address": "3LJapVwsESamYZoGhLPeZGtZ7tB7VPJA5e",
+          "value": 126906
+        },
+        {
+          "scriptpubkey_address": "352Rn41kbjU63iikgFaXqLPSHQH9hhPTDi",
+          "value": 505329
+        }
+      ],
+      "size": 686,
+      "weight": 2417,
+      "fee": 78774,
+      "status": {
+        "confirmed": true,
+        "block_height": 662261,
+        "block_hash": "0000000000000000000a670588093470a8ec2a9f2e373fb7463fce91ded13eb2",
+        "block_time": 1608501840
+      }
+    }
+  ],
+  "snapshot": {
+    "asof_exclusive_utc": "2020-12-21T22:04:00+00:00",
+    "features": {
+      "window_days": 7,
+      "transaction_count": 2,
+      "receiving_transaction_count": 1,
+      "spending_transaction_count": 1,
+      "received_sat": 4902803,
+      "spent_input_sat": 4902803,
+      "net_flow_sat": 0,
+      "balance_before_cutoff_sat": 0,
+      "mean_receipt_sat": 4902803,
+      "max_receipt_sat": 4902803,
+      "mean_spent_input_sat": 4902803,
+      "active_utc_days": 1,
+      "transactions_per_day": 0.2857142857142857,
+      "median_outgoing_transaction_fee_rate": 121.14226804123712
+    },
+    "label_available_at": null,
+    "training_label": "pending_evidence_review"
+  },
+  "normalization": "Input/output script bodies omitted; addresses, values, outpoint references, confirmation status, fees and weights retained.",
+  "original_history_sha256": "78ed7d44e459ec45683fecafe62bc08564b8f202ea609e470bf8181701e3c13b"
+}
