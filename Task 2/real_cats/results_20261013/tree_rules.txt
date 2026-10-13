@@ -1,0 +1,307 @@
+|--- min_sent_amount <= 13123500.00000
+|   |--- min_sent_amount <= 18843.50000
+|   |   |--- transaction_fee_Variance <= 14593099.00000
+|   |   |   |--- sent_Variance_BTC <= 2585000021065728.00000
+|   |   |   |   |--- sent_Variance_BTC <= 40992047104.00000
+|   |   |   |   |   |--- min_received_amount <= 17380.00000
+|   |   |   |   |   |   |--- sent_counters <= 5.50000
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- sent_counters >  5.50000
+|   |   |   |   |   |   |   |--- transaction_fee_Variance <= 88312.52734
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- transaction_fee_Variance >  88312.52734
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- min_received_amount >  17380.00000
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- sent_Variance_BTC >  40992047104.00000
+|   |   |   |   |   |--- transaction_fee_Variance <= 984152.28125
+|   |   |   |   |   |   |--- total_input_slots <= 238.50000
+|   |   |   |   |   |   |   |--- received_Variance_BTC <= 160000000000.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- received_Variance_BTC >  160000000000.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- total_input_slots >  238.50000
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- transaction_fee_Variance >  984152.28125
+|   |   |   |   |   |   |--- received_counters <= 35.50000
+|   |   |   |   |   |   |   |--- transaction_number <= 18.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- transaction_number >  18.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- received_counters >  35.50000
+|   |   |   |   |   |   |   |--- activity_d <= 93.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- activity_d >  93.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- sent_Variance_BTC >  2585000021065728.00000
+|   |   |   |   |--- lifetime <= 29851882.00000
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- lifetime >  29851882.00000
+|   |   |   |   |   |--- class: 0
+|   |   |--- transaction_fee_Variance >  14593099.00000
+|   |   |   |--- received_counters <= 170.50000
+|   |   |   |   |--- transaction_fee <= 682553.28125
+|   |   |   |   |   |--- balance <= 9291815.50000
+|   |   |   |   |   |   |--- lifetime <= 16430424.00000
+|   |   |   |   |   |   |   |--- min_received_amount <= 12549.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- min_received_amount >  12549.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- lifetime >  16430424.00000
+|   |   |   |   |   |   |   |--- transaction_fee_Variance <= 60579500.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- transaction_fee_Variance >  60579500.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- balance >  9291815.50000
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- transaction_fee >  682553.28125
+|   |   |   |   |   |--- lifetime <= 125611136.00000
+|   |   |   |   |   |   |--- payment_transactions <= 46.00000
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- payment_transactions >  46.00000
+|   |   |   |   |   |   |   |--- received_Variance_BTC <= 15000000266240.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- received_Variance_BTC >  15000000266240.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- lifetime >  125611136.00000
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- received_counters >  170.50000
+|   |   |   |   |--- transaction_fee_Variance <= 100457276.00000
+|   |   |   |   |   |--- transaction_number <= 517.00000
+|   |   |   |   |   |   |--- transaction_fee_Variance <= 19712085.00000
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- transaction_fee_Variance >  19712085.00000
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- transaction_number >  517.00000
+|   |   |   |   |   |   |--- min_received_amount <= 548.50000
+|   |   |   |   |   |   |   |--- max_received_amount <= 144269000.00000
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- max_received_amount >  144269000.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- min_received_amount >  548.50000
+|   |   |   |   |   |   |   |--- transaction_fee <= 2213648.87500
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- transaction_fee >  2213648.87500
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- transaction_fee_Variance >  100457276.00000
+|   |   |   |   |   |--- transaction_fee <= 201603560.00000
+|   |   |   |   |   |   |--- sent_counters <= 12520.50000
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- sent_counters >  12520.50000
+|   |   |   |   |   |   |   |--- transaction_fee <= 70578228.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- transaction_fee >  70578228.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- transaction_fee >  201603560.00000
+|   |   |   |   |   |   |--- received_counters <= 185390.50000
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- received_counters >  185390.50000
+|   |   |   |   |   |   |   |--- class: 0
+|   |--- min_sent_amount >  18843.50000
+|   |   |--- min_received_amount <= 306652336.00000
+|   |   |   |--- transaction_fee <= 15215.19336
+|   |   |   |   |--- sent_counters <= 4.50000
+|   |   |   |   |   |--- total_sent_BTC <= 103166.50000
+|   |   |   |   |   |   |--- min_received_amount <= 142859240.00000
+|   |   |   |   |   |   |   |--- max_sent_amount <= 47391.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- max_sent_amount >  47391.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- min_received_amount >  142859240.00000
+|   |   |   |   |   |   |   |--- total_received_BTC <= 200016832.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- total_received_BTC >  200016832.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- total_sent_BTC >  103166.50000
+|   |   |   |   |   |   |--- transaction_fee <= 991.10001
+|   |   |   |   |   |   |   |--- total_received_BTC <= 118629.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- total_received_BTC >  118629.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- transaction_fee >  991.10001
+|   |   |   |   |   |   |   |--- lifetime <= 1039478.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- lifetime >  1039478.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- sent_counters >  4.50000
+|   |   |   |   |   |--- min_received_amount <= 1795.00000
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- min_received_amount >  1795.00000
+|   |   |   |   |   |   |--- lifetime <= 3588186.00000
+|   |   |   |   |   |   |   |--- total_sent_BTC <= 50488766.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- total_sent_BTC >  50488766.00000
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- lifetime >  3588186.00000
+|   |   |   |   |   |   |   |--- max_sent_amount <= 1036774.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- max_sent_amount >  1036774.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- transaction_fee >  15215.19336
+|   |   |   |   |--- received_counters <= 2.50000
+|   |   |   |   |   |--- transaction_fee <= 44391.37891
+|   |   |   |   |   |   |--- lifetime <= 760.00000
+|   |   |   |   |   |   |   |--- min_received_amount <= 1207253.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- min_received_amount >  1207253.50000
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- lifetime >  760.00000
+|   |   |   |   |   |   |   |--- lifetime <= 1630078.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- lifetime >  1630078.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- transaction_fee >  44391.37891
+|   |   |   |   |   |   |--- lifetime <= 1384917.00000
+|   |   |   |   |   |   |   |--- transaction_fee <= 67999.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- transaction_fee >  67999.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- lifetime >  1384917.00000
+|   |   |   |   |   |   |   |--- min_received_amount <= 6262474.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- min_received_amount >  6262474.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- received_counters >  2.50000
+|   |   |   |   |   |--- lifetime <= 19462897.00000
+|   |   |   |   |   |   |--- sent_Variance_BTC <= 8525000055193600.00000
+|   |   |   |   |   |   |   |--- receipt_transactions <= 4.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- receipt_transactions >  4.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- sent_Variance_BTC >  8525000055193600.00000
+|   |   |   |   |   |   |   |--- transaction_fee_Variance <= 15177139.50000
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- transaction_fee_Variance >  15177139.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- lifetime >  19462897.00000
+|   |   |   |   |   |   |--- min_received_amount <= 71126.00000
+|   |   |   |   |   |   |   |--- min_received_amount <= 70205.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- min_received_amount >  70205.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- min_received_amount >  71126.00000
+|   |   |   |   |   |   |   |--- received_Variance_BTC <= 4574999988332920832.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- received_Variance_BTC >  4574999988332920832.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |--- min_received_amount >  306652336.00000
+|   |   |   |--- class: 1
+|--- min_sent_amount >  13123500.00000
+|   |--- received_counters <= 5.50000
+|   |   |--- transaction_fee <= 43192.50000
+|   |   |   |--- sent_counters <= 2.50000
+|   |   |   |   |--- min_received_amount <= 271207264.00000
+|   |   |   |   |   |--- lifetime <= 19.00000
+|   |   |   |   |   |   |--- transaction_fee <= 5875.00000
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- transaction_fee >  5875.00000
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- lifetime >  19.00000
+|   |   |   |   |   |   |--- transaction_fee <= 1145.00000
+|   |   |   |   |   |   |   |--- lifetime <= 891161.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- lifetime >  891161.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- transaction_fee >  1145.00000
+|   |   |   |   |   |   |   |--- min_received_amount <= 43909700.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- min_received_amount >  43909700.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- min_received_amount >  271207264.00000
+|   |   |   |   |   |--- lifetime <= 56695.00000
+|   |   |   |   |   |   |--- max_sent_amount <= 496255440.00000
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- max_sent_amount >  496255440.00000
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- lifetime >  56695.00000
+|   |   |   |   |   |   |--- min_sent_amount <= 781045632.00000
+|   |   |   |   |   |   |   |--- lifetime <= 1756044.00000
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- lifetime >  1756044.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- min_sent_amount >  781045632.00000
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- sent_counters >  2.50000
+|   |   |   |   |--- min_received_amount <= 78990048.00000
+|   |   |   |   |   |--- lifetime <= 83294.00000
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- lifetime >  83294.00000
+|   |   |   |   |   |   |--- activity_w <= 1.50000
+|   |   |   |   |   |   |   |--- total_sent_BTC <= 54821360.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- total_sent_BTC >  54821360.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- activity_w >  1.50000
+|   |   |   |   |   |   |   |--- total_received_BTC <= 47247980.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- total_received_BTC >  47247980.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- min_received_amount >  78990048.00000
+|   |   |   |   |   |--- received_counters <= 2.50000
+|   |   |   |   |   |   |--- sent_counters <= 4.50000
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- sent_counters >  4.50000
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- received_counters >  2.50000
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- transaction_fee >  43192.50000
+|   |   |   |--- transaction_fee <= 67868.14062
+|   |   |   |   |--- transaction_fee <= 66933.33203
+|   |   |   |   |   |--- transaction_fee <= 56308.00000
+|   |   |   |   |   |   |--- activity_w <= 1.50000
+|   |   |   |   |   |   |   |--- lifetime <= 5973.50000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- lifetime >  5973.50000
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- activity_w >  1.50000
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- transaction_fee >  56308.00000
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- transaction_fee >  66933.33203
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- transaction_fee >  67868.14062
+|   |   |   |   |--- min_received_amount <= 27692016.00000
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- min_received_amount >  27692016.00000
+|   |   |   |   |   |--- class: 0
+|   |--- received_counters >  5.50000
+|   |   |--- sent_Variance_BTC <= 2150000017799118848.00000
+|   |   |   |--- received_counters <= 9.50000
+|   |   |   |   |--- total_input_slots <= 4.50000
+|   |   |   |   |   |--- min_received_amount <= 47644030.00000
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- min_received_amount >  47644030.00000
+|   |   |   |   |   |   |--- transaction_fee <= 32455.25000
+|   |   |   |   |   |   |   |--- transaction_fee <= 10077.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- transaction_fee >  10077.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- transaction_fee >  32455.25000
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- total_input_slots >  4.50000
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- received_counters >  9.50000
+|   |   |   |   |--- sent_counters <= 25.50000
+|   |   |   |   |   |--- total_input_slots <= 9.50000
+|   |   |   |   |   |   |--- transaction_fee <= 2486.79321
+|   |   |   |   |   |   |   |--- min_sent_amount <= 47028956.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- min_sent_amount >  47028956.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- transaction_fee >  2486.79321
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- total_input_slots >  9.50000
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- sent_counters >  25.50000
+|   |   |   |   |   |--- transaction_fee <= 59347.47461
+|   |   |   |   |   |   |--- total_sent_BTC <= 416589328.00000
+|   |   |   |   |   |   |   |--- max_received_amount <= 77595940.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- max_received_amount >  77595940.00000
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- total_sent_BTC >  416589328.00000
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- transaction_fee >  59347.47461
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- sent_Variance_BTC >  2150000017799118848.00000
+|   |   |   |--- class: 0
