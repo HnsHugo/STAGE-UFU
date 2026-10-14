@@ -52,7 +52,7 @@ def run(source,paths,output):
         x=pd.DataFrame([{c:values[c] for c in columns}],columns=columns).astype(float)
         score=float(model.predict_proba(imputer.transform(x))[0,1]);threshold=.15
         rows.append(dict(address=address,history_file=path.name,history_sha256=digest,collected_at=h['collected_at'],
-                         source_record=h['source_record'],features=values,source_category_score=score,
+                         source_record=h.get('source_record',h.get('record')),features=values,source_category_score=score,
                          above_fixed_threshold=score>threshold,threshold=threshold,
                          missing_features=[c for c in columns if pd.isna(x.iloc[0][c])],
                          outside_training_minmax=[c for c in columns if pd.notna(x.iloc[0][c]) and (x.iloc[0][c]<xt[c].min() or x.iloc[0][c]>xt[c].max())]))
@@ -62,7 +62,7 @@ def run(source,paths,output):
                 observation_policy='Complete confirmed provider histories at individual saved collection times; no 24-hour snapshot scoring',
                 results=rows,limitations=['Scores are not calibrated probabilities of theft or illegality',
                 'Training target is retrospective Real-CATS Hack/Theft versus assumed benign, not verified stolen-fund recipients',
-                'Three addresses from one reported theft case and one donation entity cannot establish precision/recall',
+                'Small grouped address pilot cannot establish precision/recall; attribution confidence varies',
                 '19-feature conventions reconciled only on seven training development addresses; unresolved edge cases remain',
                 'External observation calendars and collection dates differ; domain shift is uncontrolled',
                 'No external labels used for fitting; no validation or reserved-test prediction in this scoring script'])
