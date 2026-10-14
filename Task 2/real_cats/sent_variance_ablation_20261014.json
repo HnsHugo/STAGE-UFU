@@ -1,0 +1,704 @@
+{
+  "status": "Exploratory validation ablation; not independent confirmation",
+  "reserved_test_count": 17579,
+  "test_predicted": false,
+  "source_sha256": {
+    "BB.tsv": "3bfe26f493e5767737c9ecf4c654009067c162dc7fa6fec68b0ab8234d4431e9",
+    "CB.tsv": "faf3978f5c9ce3b1257af72ac01975d657ab7529f66faf1a66f1f22f99fbb1ec"
+  },
+  "candidates": [
+    {
+      "omit_sent_variance": false,
+      "features": [
+        "balance",
+        "total_received_BTC",
+        "total_sent_BTC",
+        "transaction_fee",
+        "transaction_fee_Variance",
+        "transaction_number",
+        "payment_transactions",
+        "receipt_transactions",
+        "lifetime",
+        "total_output_slots",
+        "total_input_slots",
+        "activity_w",
+        "activity_d",
+        "activity_time",
+        "max_sent_amount",
+        "min_sent_amount",
+        "max_received_amount",
+        "min_received_amount",
+        "received_Variance_BTC",
+        "sent_Variance_BTC",
+        "sent_counters",
+        "received_counters"
+      ],
+      "grid": [
+        {
+          "threshold": 0.05,
+          "precision": 0.1270718232044199,
+          "recall": 0.6145038167938931,
+          "f1": 0.210595160235448,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 16211,
+          "false_positive": 1106,
+          "false_negative": 101,
+          "true_positive": 161,
+          "category_recall": {
+            "Hack": 0.5422535211267606,
+            "Theft": 0.7
+          }
+        },
+        {
+          "threshold": 0.1,
+          "precision": 0.23922413793103448,
+          "recall": 0.42366412213740456,
+          "f1": 0.30578512396694213,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 16964,
+          "false_positive": 353,
+          "false_negative": 151,
+          "true_positive": 111,
+          "category_recall": {
+            "Hack": 0.34507042253521125,
+            "Theft": 0.5166666666666667
+          }
+        },
+        {
+          "threshold": 0.15,
+          "precision": 0.35526315789473684,
+          "recall": 0.30916030534351147,
+          "f1": 0.3306122448979592,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17170,
+          "false_positive": 147,
+          "false_negative": 181,
+          "true_positive": 81,
+          "category_recall": {
+            "Hack": 0.23943661971830985,
+            "Theft": 0.39166666666666666
+          }
+        },
+        {
+          "threshold": 0.2,
+          "precision": 0.44680851063829785,
+          "recall": 0.16030534351145037,
+          "f1": 0.23595505617977527,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17265,
+          "false_positive": 52,
+          "false_negative": 220,
+          "true_positive": 42,
+          "category_recall": {
+            "Hack": 0.15492957746478872,
+            "Theft": 0.16666666666666666
+          }
+        },
+        {
+          "threshold": 0.25,
+          "precision": 0.6470588235294118,
+          "recall": 0.08396946564885496,
+          "f1": 0.14864864864864866,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17305,
+          "false_positive": 12,
+          "false_negative": 240,
+          "true_positive": 22,
+          "category_recall": {
+            "Hack": 0.09154929577464789,
+            "Theft": 0.075
+          }
+        },
+        {
+          "threshold": 0.3,
+          "precision": 0.5454545454545454,
+          "recall": 0.022900763358778626,
+          "f1": 0.04395604395604396,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17312,
+          "false_positive": 5,
+          "false_negative": 256,
+          "true_positive": 6,
+          "category_recall": {
+            "Hack": 0.035211267605633804,
+            "Theft": 0.008333333333333333
+          }
+        },
+        {
+          "threshold": 0.35,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17316,
+          "false_positive": 1,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.6,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.7,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.75,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.85,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.95,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2430661594078542,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        }
+      ],
+      "best_validation": {
+        "threshold": 0.15,
+        "precision": 0.35526315789473684,
+        "recall": 0.30916030534351147,
+        "f1": 0.3306122448979592,
+        "average_precision": 0.2430661594078542,
+        "true_negative": 17170,
+        "false_positive": 147,
+        "false_negative": 181,
+        "true_positive": 81,
+        "category_recall": {
+          "Hack": 0.23943661971830985,
+          "Theft": 0.39166666666666666
+        }
+      },
+      "at_frozen_threshold": {
+        "threshold": 0.15,
+        "precision": 0.35526315789473684,
+        "recall": 0.30916030534351147,
+        "f1": 0.3306122448979592,
+        "average_precision": 0.2430661594078542,
+        "true_negative": 17170,
+        "false_positive": 147,
+        "false_negative": 181,
+        "true_positive": 81,
+        "category_recall": {
+          "Hack": 0.23943661971830985,
+          "Theft": 0.39166666666666666
+        }
+      }
+    },
+    {
+      "omit_sent_variance": true,
+      "features": [
+        "balance",
+        "total_received_BTC",
+        "total_sent_BTC",
+        "transaction_fee",
+        "transaction_fee_Variance",
+        "transaction_number",
+        "payment_transactions",
+        "receipt_transactions",
+        "lifetime",
+        "total_output_slots",
+        "total_input_slots",
+        "activity_w",
+        "activity_d",
+        "activity_time",
+        "max_sent_amount",
+        "min_sent_amount",
+        "max_received_amount",
+        "min_received_amount",
+        "received_Variance_BTC",
+        "sent_counters",
+        "received_counters"
+      ],
+      "grid": [
+        {
+          "threshold": 0.05,
+          "precision": 0.12537993920972645,
+          "recall": 0.6297709923664122,
+          "f1": 0.20912547528517111,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 16166,
+          "false_positive": 1151,
+          "false_negative": 97,
+          "true_positive": 165,
+          "category_recall": {
+            "Hack": 0.5352112676056338,
+            "Theft": 0.7416666666666667
+          }
+        },
+        {
+          "threshold": 0.1,
+          "precision": 0.24597701149425288,
+          "recall": 0.4083969465648855,
+          "f1": 0.30703012912482064,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 16989,
+          "false_positive": 328,
+          "false_negative": 155,
+          "true_positive": 107,
+          "category_recall": {
+            "Hack": 0.323943661971831,
+            "Theft": 0.5083333333333333
+          }
+        },
+        {
+          "threshold": 0.15,
+          "precision": 0.33962264150943394,
+          "recall": 0.2748091603053435,
+          "f1": 0.3037974683544304,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17177,
+          "false_positive": 140,
+          "false_negative": 190,
+          "true_positive": 72,
+          "category_recall": {
+            "Hack": 0.23943661971830985,
+            "Theft": 0.31666666666666665
+          }
+        },
+        {
+          "threshold": 0.2,
+          "precision": 0.4742268041237113,
+          "recall": 0.17557251908396945,
+          "f1": 0.2562674094707521,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17266,
+          "false_positive": 51,
+          "false_negative": 216,
+          "true_positive": 46,
+          "category_recall": {
+            "Hack": 0.14788732394366197,
+            "Theft": 0.20833333333333334
+          }
+        },
+        {
+          "threshold": 0.25,
+          "precision": 0.6875,
+          "recall": 0.08396946564885496,
+          "f1": 0.14965986394557823,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17307,
+          "false_positive": 10,
+          "false_negative": 240,
+          "true_positive": 22,
+          "category_recall": {
+            "Hack": 0.08450704225352113,
+            "Theft": 0.08333333333333333
+          }
+        },
+        {
+          "threshold": 0.3,
+          "precision": 0.6470588235294118,
+          "recall": 0.04198473282442748,
+          "f1": 0.07885304659498207,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17311,
+          "false_positive": 6,
+          "false_negative": 251,
+          "true_positive": 11,
+          "category_recall": {
+            "Hack": 0.056338028169014086,
+            "Theft": 0.025
+          }
+        },
+        {
+          "threshold": 0.35,
+          "precision": 0.5,
+          "recall": 0.003816793893129771,
+          "f1": 0.007575757575757576,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17316,
+          "false_positive": 1,
+          "false_negative": 261,
+          "true_positive": 1,
+          "category_recall": {
+            "Hack": 0.007042253521126761,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.6,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.7,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.75,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.85,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        },
+        {
+          "threshold": 0.95,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2505829169675352,
+          "true_negative": 17317,
+          "false_positive": 0,
+          "false_negative": 262,
+          "true_positive": 0,
+          "category_recall": {
+            "Hack": 0.0,
+            "Theft": 0.0
+          }
+        }
+      ],
+      "best_validation": {
+        "threshold": 0.1,
+        "precision": 0.24597701149425288,
+        "recall": 0.4083969465648855,
+        "f1": 0.30703012912482064,
+        "average_precision": 0.2505829169675352,
+        "true_negative": 16989,
+        "false_positive": 328,
+        "false_negative": 155,
+        "true_positive": 107,
+        "category_recall": {
+          "Hack": 0.323943661971831,
+          "Theft": 0.5083333333333333
+        }
+      },
+      "at_frozen_threshold": {
+        "threshold": 0.15,
+        "precision": 0.33962264150943394,
+        "recall": 0.2748091603053435,
+        "f1": 0.3037974683544304,
+        "average_precision": 0.2505829169675352,
+        "true_negative": 17177,
+        "false_positive": 140,
+        "false_negative": 190,
+        "true_positive": 72,
+        "category_recall": {
+          "Hack": 0.23943661971830985,
+          "Theft": 0.31666666666666665
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Validation reused for development",
+    "Dropping one feature changes sqrt feature sampling and tree construction",
+    "Other extraction edge cases still unresolved",
+    "No external model prediction or verified theft-label evaluation"
+  ]
+}

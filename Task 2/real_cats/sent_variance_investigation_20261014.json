@@ -1,0 +1,86 @@
+{
+  "checked_on": "2026-10-14",
+  "repository": "sjdseu/Real-CATS",
+  "tree_sha": "054c659412a07d1dac596f625d02a84039f22a9b",
+  "truncated": false,
+  "paths": [
+    "BB.tsv",
+    "BE.tsv",
+    "CB.tsv",
+    "CE.tsv",
+    "Identifier.tsv",
+    "LICENSE",
+    "README.md",
+    "Sup-CATS.tsv",
+    "TI_B.tsv",
+    "TI_M.tsv"
+  ],
+  "extractor_found_in_tree": false,
+  "checks": [
+    {
+      "address": "15aj53m57C4pcMZ8uZA4hEJQq2MzqS3Zu8",
+      "split": "train",
+      "input_slot_sat": [
+        5831772,
+        404922,
+        115899,
+        1555040
+      ],
+      "outgoing_transaction_sat": [
+        6236694,
+        1670939
+      ],
+      "source_expected": 5550000000000.0,
+      "variance_candidates": {
+        "input_slot_population": {
+          "value": 5243110887549.1875,
+          "matches_rounded_source": false
+        },
+        "input_slot_sample": {
+          "value": 6990814516732.25,
+          "matches_rounded_source": false
+        },
+        "outgoing_transaction_population": {
+          "value": 5211529680006.25,
+          "matches_rounded_source": false
+        },
+        "outgoing_transaction_sample": {
+          "value": 10423059360012.5,
+          "matches_rounded_source": false
+        }
+      }
+    },
+    {
+      "address": "bc1qcv5jxxd6nc2rv46gmledz855rjdxadg5e6vz8c",
+      "split": "train",
+      "input_slot_sat": [
+        94198638,
+        76653383,
+        26232151
+      ],
+      "outgoing_transaction_sat": [
+        197084172
+      ],
+      "source_expected": 5270000000000000.0,
+      "variance_candidates": {
+        "input_slot_population": {
+          "value": 829953329392668.6,
+          "matches_rounded_source": false
+        },
+        "input_slot_sample": {
+          "value": 1244929994089003.0,
+          "matches_rounded_source": false
+        },
+        "outgoing_transaction_population": {
+          "value": 0.0,
+          "matches_rounded_source": false
+        },
+        "outgoing_transaction_sample": {
+          "value": 0,
+          "matches_rounded_source": false
+        }
+      }
+    }
+  ],
+  "conclusion": "Neither standard variance convention explains both discrepancies; source implementation remains unknown"
+}
