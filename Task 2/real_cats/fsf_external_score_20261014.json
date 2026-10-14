@@ -1,0 +1,114 @@
+{
+  "status": "Descriptive external pilot; no ground-truth performance evaluation",
+  "source_sha256": {
+    "BB.tsv": "3bfe26f493e5767737c9ecf4c654009067c162dc7fa6fec68b0ab8234d4431e9",
+    "CB.tsv": "faf3978f5c9ce3b1257af72ac01975d657ab7529f66faf1a66f1f22f99fbb1ec"
+  },
+  "training_addresses": 52736,
+  "base_features": [
+    "balance",
+    "total_received_BTC",
+    "total_sent_BTC",
+    "transaction_fee",
+    "transaction_number",
+    "payment_transactions",
+    "receipt_transactions",
+    "lifetime",
+    "total_output_slots",
+    "total_input_slots",
+    "activity_w",
+    "activity_d",
+    "activity_time",
+    "max_sent_amount",
+    "min_sent_amount",
+    "max_received_amount",
+    "min_received_amount",
+    "sent_counters",
+    "received_counters"
+  ],
+  "transformed_features": [
+    "balance",
+    "total_received_BTC",
+    "total_sent_BTC",
+    "transaction_fee",
+    "transaction_number",
+    "payment_transactions",
+    "receipt_transactions",
+    "lifetime",
+    "total_output_slots",
+    "total_input_slots",
+    "activity_w",
+    "activity_d",
+    "activity_time",
+    "max_sent_amount",
+    "min_sent_amount",
+    "max_received_amount",
+    "min_received_amount",
+    "sent_counters",
+    "received_counters",
+    "missingindicator_max_sent_amount",
+    "missingindicator_min_sent_amount"
+  ],
+  "fixed_model": {
+    "n_estimators": 100,
+    "max_depth": 20,
+    "min_samples_leaf": 20,
+    "max_features": "sqrt",
+    "class_weight": 1,
+    "random_state": 42,
+    "threshold": 0.15
+  },
+  "observation_policy": "Complete confirmed provider histories at individual saved collection times; no 24-hour snapshot scoring",
+  "results": [
+    {
+      "address": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "history_file": "fsf_history_20261014.json.gz",
+      "history_sha256": "133144439843f6407c4e797b79db4c12205bbcb3c6fd510c2ca778e9aa64eae9",
+      "collected_at": "2026-10-14T20:55:24.711108+00:00",
+      "source_record": {
+        "address": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+        "source_id": "fsf_official_donation",
+        "source_url": "https://www.fsf.org/about/ways-to-donate",
+        "label_available_at": null,
+        "training_label": "comparison_purpose_only",
+        "case_group": "FSF"
+      },
+      "features": {
+        "balance": 400025504,
+        "total_received_BTC": 113022243778,
+        "total_sent_BTC": 112622218274,
+        "transaction_fee": 29662516.32865522,
+        "transaction_number": 2593,
+        "payment_transactions": 126,
+        "receipt_transactions": 2468,
+        "lifetime": 486956586,
+        "total_output_slots": 2469,
+        "total_input_slots": 2465,
+        "activity_w": 1731,
+        "activity_d": 101,
+        "activity_time": 1780,
+        "max_sent_amount": 15000000000,
+        "min_sent_amount": 1,
+        "max_received_amount": 15000000000,
+        "min_received_amount": 1,
+        "sent_counters": 4132,
+        "received_counters": 3518
+      },
+      "source_category_score": 0.020963927926037452,
+      "above_fixed_threshold": false,
+      "threshold": 0.15,
+      "missing_features": [],
+      "outside_training_minmax": [
+        "lifetime"
+      ]
+    }
+  ],
+  "limitations": [
+    "Scores are not calibrated probabilities of theft or illegality",
+    "Training target is retrospective Real-CATS Hack/Theft versus assumed benign, not verified stolen-fund recipients",
+    "Small grouped address pilot cannot establish precision/recall; attribution confidence varies",
+    "19-feature conventions reconciled only on seven training development addresses; unresolved edge cases remain",
+    "External observation calendars and collection dates differ; domain shift is uncontrolled",
+    "No external labels used for fitting; no validation or reserved-test prediction in this scoring script"
+  ]
+}
