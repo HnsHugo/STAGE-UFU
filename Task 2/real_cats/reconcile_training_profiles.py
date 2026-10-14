@@ -16,12 +16,13 @@ def probes(address, transactions):
     incoming=[];outgoing=[];fees=[];rec_days=set();pay_days=set();all_days=set();sent_counter=received_counter=0
     receipt_count=payment_count=0
     for tx in transactions:
-        ins=[v['prevout']['value'] for v in tx['vin'] if v.get('prevout',{}).get('scriptpubkey_address')==address]
+        ins=[v['prevout']['value'] for v in tx['vin'] if (v.get('prevout') or {}).get('scriptpubkey_address')==address]
         outs=[v['value'] for v in tx['vout'] if v.get('scriptpubkey_address')==address]
         day=datetime.fromtimestamp(tx['status']['block_time'],timezone.utc).date().isoformat();all_days.add(day)
         if outs:
             incoming.extend(outs);receipt_count+=1;rec_days.add(day)
-            sent_counter+=sum(v.get('prevout',{}).get('scriptpubkey_address')!=address for v in tx['vin'])
+            # Coinbase has no previous output or sending counterparty.
+            sent_counter+=sum(not v.get('is_coinbase',False) and (v.get('prevout') or {}).get('scriptpubkey_address')!=address for v in tx['vin'])
         if ins:
             outgoing.extend(ins);payment_count+=1;pay_days.add(day)
             fees.append(tx['fee']*len(ins)/len(tx['vin']))
@@ -37,7 +38,7 @@ def probes(address, transactions):
                 received_Variance_BTC=float(np.var(incoming)) if incoming else 0,
                 sent_Variance_BTC=float(np.var(outgoing)) if outgoing else 0,sent_counters=sent_counter,received_counters=received_counter)
     alternatives=dict(activity_w_receipt_days=len(rec_days),activity_d_spending_days=len(pay_days),
-                      fee_whole_outgoing_sum=sum(t['fee'] for t in transactions if any(v.get('prevout',{}).get('scriptpubkey_address')==address for v in t['vin'])),
+                      fee_whole_outgoing_sum=sum(t['fee'] for t in transactions if any((v.get('prevout') or {}).get('scriptpubkey_address')==address for v in t['vin'])),
                       fee_sample_variance=float(np.var(fees,ddof=1)) if len(fees)>1 else 0,
                       received_sample_variance=float(np.var(incoming,ddof=1)) if len(incoming)>1 else 0,
                       sent_sample_variance=float(np.var(outgoing,ddof=1)) if len(outgoing)>1 else 0)
