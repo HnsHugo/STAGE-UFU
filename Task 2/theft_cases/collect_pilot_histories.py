@@ -9,13 +9,13 @@ from collect_binance_research_seed import helper
 from extract_asof_features import features_asof
 
 
-def collect(record):
+def collect(record, max_pages=6):
     h=helper();address=record['address'];base='https://blockstream.info/api'
     if not address.startswith('bc1'):h.validate_address(address)
     before=h.get(f'{base}/address/{address}')
     if before['address']!=address:raise ValueError('Provider address mismatch')
     transactions=[];cursor='';exhausted=False
-    for _ in range(6):
+    for _ in range(max_pages):
         page=h.get(f'{base}/address/{address}/txs/chain'+(f'/{cursor}' if cursor else ''))
         if not page:exhausted=True;break
         transactions.extend(page);cursor=page[-1]['txid']
@@ -33,11 +33,12 @@ def collect(record):
                 before=before,after=after,audit=audit,transactions=transactions,snapshot=snapshot)
 
 
-def run(selection,output):
+def run(selection,output,max_pages=6):
+    if max_pages < 1:raise ValueError("max_pages must be positive")
     output.mkdir(parents=True,exist_ok=False)
     records=json.loads(selection.read_text())['records'];results=[]
     with ThreadPoolExecutor(max_workers=2) as pool:
-        futures={pool.submit(collect,r):r for r in records}
+        futures={pool.submit(collect,r,max_pages):r for r in records}
         for future in as_completed(futures):
             record=futures[future]
             try:
@@ -48,11 +49,12 @@ def run(selection,output):
             results.append(result)
             complete=len(results)==len(records) and all(x.get('audit',{}).get('coverage_complete_by_provider_counters') and x.get('snapshot') for x in results)
             report=dict(status='complete' if complete else 'incomplete',selection_sha256=hashlib.sha256(selection.read_bytes()).hexdigest(),
-                        max_pages_per_address=6,workers=2,results=sorted(results,key=lambda r:r['address']))
+                        max_pages_per_address=max_pages,workers=2,results=sorted(results,key=lambda r:r['address']))
             (output/'manifest.json').write_text(json.dumps(report,indent=2)+'\n')
             print(json.dumps(result),flush=True)
 
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('selection',type=Path);p.add_argument('output',type=Path)
-    a=p.parse_args();run(a.selection,a.output)
+    p.add_argument('--max-pages',type=int,default=6)
+    a=p.parse_args();run(a.selection,a.output,a.max_pages)
