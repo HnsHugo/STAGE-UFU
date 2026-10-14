@@ -1,0 +1,58 @@
+{
+  "status": "No independent labeled evaluation set established",
+  "registry_sha256": "7200f3cf77bda7ff606cd6a9335fd9411f21193bcf1a6bbb56347bcb8824c892",
+  "source_sha256": {
+    "BB.tsv": "3bfe26f493e5767737c9ecf4c654009067c162dc7fa6fec68b0ab8234d4431e9",
+    "CB.tsv": "faf3978f5c9ce3b1257af72ac01975d657ab7529f66faf1a66f1f22f99fbb1ec"
+  },
+  "sources": {
+    "btcpay_research": {
+      "assertions": 2,
+      "unique_addresses": 2,
+      "split_overlap": {},
+      "overlap_any_real_cats": 0,
+      "absent_from_real_cats": 2,
+      "training_label_counts": {
+        "pending_review": 2
+      },
+      "known_split_groups": [
+        "btcpay_lnd_20260807"
+      ]
+    },
+    "coldcard_research": {
+      "assertions": 597,
+      "unique_addresses": 597,
+      "split_overlap": {},
+      "overlap_any_real_cats": 0,
+      "absent_from_real_cats": 597,
+      "training_label_counts": {
+        "pending_review": 597
+      },
+      "known_split_groups": [
+        "coldcard_2026_all_waves"
+      ]
+    },
+    "real_cats": {
+      "assertions": 1361,
+      "unique_addresses": 1361,
+      "split_overlap": {
+        "reserved_test": 274,
+        "validation": 269,
+        "train": 818
+      },
+      "overlap_any_real_cats": 1361,
+      "absent_from_real_cats": 0,
+      "training_label_counts": {
+        "pending_provenance_review": 1311,
+        "pending_comparison_policy_review": 50
+      },
+      "known_split_groups": []
+    }
+  },
+  "operation": "Address membership audit only; no test features or predictions",
+  "cautions": [
+    "Address non-overlap does not prove incident/entity independence",
+    "Pending-review assertions cannot establish positive or negative ground truth",
+    "External histories need an explicitly compatible feature extraction schema"
+  ]
+}
