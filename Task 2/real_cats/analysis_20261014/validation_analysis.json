@@ -1,0 +1,296 @@
+{
+  "scope": "Fixed-model descriptive validation diagnostics; no test evaluation or new threshold selection",
+  "baseline_validation": {
+    "precision": 0.34951456310679613,
+    "recall": 0.2748091603053435,
+    "f1": 0.3076923076923077,
+    "average_precision": 0.24692452610579427,
+    "true_negative": 17183,
+    "false_positive": 134,
+    "false_negative": 190,
+    "true_positive": 72
+  },
+  "categories": {
+    "Hack": {
+      "count": 142,
+      "alerted": 33,
+      "not_alerted": 109,
+      "alert_rate": 0.2323943661971831,
+      "score_quantiles": {
+        "0": 0.0035782742155524177,
+        "0.25": 0.0545416230873581,
+        "0.5": 0.1143747073035896,
+        "0.75": 0.27896407532770584,
+        "1": 0.5901512093013035
+      },
+      "rows_with_missing": 1,
+      "missing_by_feature": {
+        "max_sent_amount": 1,
+        "min_sent_amount": 1
+      }
+    },
+    "Theft": {
+      "count": 120,
+      "alerted": 39,
+      "not_alerted": 81,
+      "alert_rate": 0.325,
+      "score_quantiles": {
+        "0": 0.0036995223621363437,
+        "0.25": 0.11039667687467608,
+        "0.5": 0.20965927568022805,
+        "0.75": 0.32802220754978373,
+        "1": 0.5539462443510658
+      },
+      "rows_with_missing": 2,
+      "missing_by_feature": {
+        "max_sent_amount": 2,
+        "min_sent_amount": 2
+      }
+    },
+    "benign": {
+      "count": 17317,
+      "alerted": 134,
+      "not_alerted": 17183,
+      "alert_rate": 0.007738060865045909,
+      "score_quantiles": {
+        "0": 0.0,
+        "0.25": 0.0027192982456140345,
+        "0.5": 0.010716337236037756,
+        "0.75": 0.034213717719583606,
+        "1": 0.5923380617865847
+      },
+      "rows_with_missing": 2816,
+      "missing_by_feature": {
+        "max_sent_amount": 2816,
+        "min_sent_amount": 2816
+      }
+    }
+  },
+  "error_groups": {
+    "TP": {
+      "count": 72,
+      "rows_with_missing": 0,
+      "missing_by_feature": {},
+      "score_quantiles": {
+        "0": 0.3062001509095347,
+        "0.25": 0.3567025407116366,
+        "0.5": 0.40929306476838256,
+        "0.75": 0.47834088717816614,
+        "1": 0.5901512093013035
+      },
+      "raw_feature_medians": {
+        "balance": 0.0,
+        "total_received_BTC": 111016400.0,
+        "total_sent_BTC": 111016400.0,
+        "transaction_fee": 44479.91216,
+        "transaction_fee_Variance": 0.0,
+        "transaction_number": 2.0,
+        "payment_transactions": 1.0,
+        "receipt_transactions": 1.0,
+        "lifetime": 200845.0,
+        "total_output_slots": 1.0,
+        "total_input_slots": 1.0,
+        "activity_w": 1.0,
+        "activity_d": 1.0,
+        "activity_time": 2.0,
+        "max_sent_amount": 99459104.5,
+        "min_sent_amount": 29860748.0,
+        "max_received_amount": 99459104.5,
+        "min_received_amount": 29860748.0,
+        "received_Variance_BTC": 0.0,
+        "sent_Variance_BTC": 0.0,
+        "sent_counters": 3.5,
+        "received_counters": 2.0
+      }
+    },
+    "FP": {
+      "count": 134,
+      "rows_with_missing": 3,
+      "missing_by_feature": {
+        "max_sent_amount": 3,
+        "min_sent_amount": 3
+      },
+      "score_quantiles": {
+        "0": 0.3000377176822988,
+        "0.25": 0.33506802937668867,
+        "0.5": 0.36374930008554895,
+        "0.75": 0.40267632718354673,
+        "1": 0.5923380617865847
+      },
+      "raw_feature_medians": {
+        "balance": 0.0,
+        "total_received_BTC": 96517033.5,
+        "total_sent_BTC": 84765079.0,
+        "transaction_fee": 30627.0,
+        "transaction_fee_Variance": 0.0,
+        "transaction_number": 2.0,
+        "payment_transactions": 1.0,
+        "receipt_transactions": 1.0,
+        "lifetime": 132030.0,
+        "total_output_slots": 1.0,
+        "total_input_slots": 1.0,
+        "activity_w": 1.0,
+        "activity_d": 1.0,
+        "activity_time": 2.0,
+        "max_sent_amount": 83894803.0,
+        "min_sent_amount": 50000000.0,
+        "max_received_amount": 84204725.0,
+        "min_received_amount": 57176001.5,
+        "received_Variance_BTC": 0.0,
+        "sent_Variance_BTC": 0.0,
+        "sent_counters": 1.0,
+        "received_counters": 2.0
+      }
+    },
+    "FN": {
+      "count": 190,
+      "rows_with_missing": 3,
+      "missing_by_feature": {
+        "max_sent_amount": 3,
+        "min_sent_amount": 3
+      },
+      "score_quantiles": {
+        "0": 0.0035782742155524177,
+        "0.25": 0.05067629263371485,
+        "0.5": 0.10317039995732244,
+        "0.75": 0.1873137538860943,
+        "1": 0.29910991794421066
+      },
+      "raw_feature_medians": {
+        "balance": 0.0,
+        "total_received_BTC": 12945767.0,
+        "total_sent_BTC": 11211237.5,
+        "transaction_fee": 20691.75,
+        "transaction_fee_Variance": 0.0,
+        "transaction_number": 2.0,
+        "payment_transactions": 1.0,
+        "receipt_transactions": 1.0,
+        "lifetime": 514907.0,
+        "total_output_slots": 1.0,
+        "total_input_slots": 1.0,
+        "activity_w": 1.0,
+        "activity_d": 1.0,
+        "activity_time": 2.0,
+        "max_sent_amount": 5501200.0,
+        "min_sent_amount": 516500.0,
+        "max_received_amount": 6191300.0,
+        "min_received_amount": 508250.0,
+        "received_Variance_BTC": 0.0,
+        "sent_Variance_BTC": 0.0,
+        "sent_counters": 2.0,
+        "received_counters": 2.0
+      }
+    },
+    "TN": {
+      "count": 17183,
+      "rows_with_missing": 2813,
+      "missing_by_feature": {
+        "max_sent_amount": 2813,
+        "min_sent_amount": 2813
+      },
+      "score_quantiles": {
+        "0": 0.0,
+        "0.25": 0.0026666666666666666,
+        "0.5": 0.010529730330970054,
+        "0.75": 0.03323999494234746,
+        "1": 0.2989906316991863
+      },
+      "raw_feature_medians": {
+        "balance": 0.0,
+        "total_received_BTC": 4979306.0,
+        "total_sent_BTC": 3205429.0,
+        "transaction_fee": 9042.3,
+        "transaction_fee_Variance": 0.0,
+        "transaction_number": 2.0,
+        "payment_transactions": 1.0,
+        "receipt_transactions": 1.0,
+        "lifetime": 1110381.0,
+        "total_output_slots": 1.0,
+        "total_input_slots": 1.0,
+        "activity_w": 1.0,
+        "activity_d": 1.0,
+        "activity_time": 2.0,
+        "max_sent_amount": 4210950.5,
+        "min_sent_amount": 654753.0,
+        "max_received_amount": 3574656.0,
+        "min_received_amount": 651664.0,
+        "received_Variance_BTC": 0.0,
+        "sent_Variance_BTC": 0.0,
+        "sent_counters": 1.0,
+        "received_counters": 3.0
+      }
+    }
+  },
+  "training_missing_cells": 16818,
+  "validation_missing_cells": 5638,
+  "training_imputation_medians": {
+    "balance": 0.0,
+    "total_received_BTC": 5049957.0,
+    "total_sent_BTC": 3264019.5,
+    "transaction_fee": 9149.927536,
+    "transaction_fee_Variance": 0.0,
+    "transaction_number": 2.0,
+    "payment_transactions": 1.0,
+    "receipt_transactions": 1.0,
+    "lifetime": 926743.0,
+    "total_output_slots": 1.0,
+    "total_input_slots": 1.0,
+    "activity_w": 1.0,
+    "activity_d": 1.0,
+    "activity_time": 2.0,
+    "max_sent_amount": 4234225.0,
+    "min_sent_amount": 652894.0,
+    "max_received_amount": 3641964.5,
+    "min_received_amount": 646370.5,
+    "received_Variance_BTC": 0.0,
+    "sent_Variance_BTC": 0.0,
+    "sent_counters": 1.0,
+    "received_counters": 2.0
+  },
+  "false_negative_scores_below_005": 47,
+  "near_threshold_counts": {
+    "TP": 34,
+    "FP": 100,
+    "FN": 43,
+    "TN": 260
+  },
+  "feature_importances": {
+    "balance": 0.011786380570842123,
+    "total_received_BTC": 0.044241919009869596,
+    "total_sent_BTC": 0.0490174754942495,
+    "transaction_fee": 0.1518918961994442,
+    "transaction_fee_Variance": 0.04665505925253179,
+    "transaction_number": 0.016933052274445297,
+    "payment_transactions": 0.017528100669112773,
+    "receipt_transactions": 0.01671603485078465,
+    "lifetime": 0.10925192106243471,
+    "total_output_slots": 0.015445260034613969,
+    "total_input_slots": 0.018126427880309253,
+    "activity_w": 0.012829616874396854,
+    "activity_d": 0.01649676339193383,
+    "activity_time": 0.021943258756409095,
+    "max_sent_amount": 0.04383569630322242,
+    "min_sent_amount": 0.06708357041482152,
+    "max_received_amount": 0.04806293594115494,
+    "min_received_amount": 0.06698078530949353,
+    "received_Variance_BTC": 0.019789430256548668,
+    "sent_Variance_BTC": 0.027378641176495563,
+    "sent_counters": 0.05775158652535937,
+    "received_counters": 0.12025418775152641
+  },
+  "source_sha256": {
+    "BB.tsv": "3bfe26f493e5767737c9ecf4c654009067c162dc7fa6fec68b0ab8234d4431e9",
+    "CB.tsv": "faf3978f5c9ce3b1257af72ac01975d657ab7529f66faf1a66f1f22f99fbb1ec"
+  },
+  "reference_metrics_sha256": "6ae89fbfd8a7376756b536284e8a19546fccf31bc5464cb09b777a340b3d6442",
+  "limitations": [
+    "Source categories, not independently established theft roles",
+    "Missingness associations do not establish that imputation caused errors",
+    "Repeated use of validation is development, not independent confirmation",
+    "Full-history aggregate features; no case/entity-disjoint or causal temporal test"
+  ],
+  "missing_sent_amount_diagnostic": {
+    "rows": 2819,
+    "rows_with_zero_payment_transactions": 2819
+  }
+}
