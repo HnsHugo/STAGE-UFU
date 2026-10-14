@@ -1,0 +1,631 @@
+{
+  "status": "Convention probes; adapter not certified",
+  "source_sha256": {
+    "BB.tsv": "3bfe26f493e5767737c9ecf4c654009067c162dc7fa6fec68b0ab8234d4431e9",
+    "CB.tsv": "faf3978f5c9ce3b1257af72ac01975d657ab7529f66faf1a66f1f22f99fbb1ec"
+  },
+  "references": [
+    {
+      "address": "1AczDh2hqt61RpkeXvSSm7VU5NwxrQxtq9",
+      "split": "train",
+      "source_label": "Theft",
+      "history_sha256": "4bb9bcd8d1ce161f6406038595346d9d3d75c2584e93f7eef22e87b12790462f",
+      "comparisons": {
+        "balance": {
+          "expected": 0.0,
+          "extracted": 0,
+          "match": true
+        },
+        "total_received_BTC": {
+          "expected": 4902803.0,
+          "extracted": 4902803,
+          "match": true
+        },
+        "total_sent_BTC": {
+          "expected": 4902803.0,
+          "extracted": 4902803,
+          "match": true
+        },
+        "transaction_fee": {
+          "expected": 19584.66667,
+          "extracted": 19584.666666666668,
+          "match": true
+        },
+        "transaction_fee_Variance": {
+          "expected": 0.0,
+          "extracted": 0.0,
+          "match": true
+        },
+        "transaction_number": {
+          "expected": 2.0,
+          "extracted": 2,
+          "match": true
+        },
+        "payment_transactions": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "receipt_transactions": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "lifetime": {
+          "expected": 0.0,
+          "extracted": 0,
+          "match": true
+        },
+        "total_output_slots": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "total_input_slots": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "activity_w": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "activity_d": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "activity_time": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "max_sent_amount": {
+          "expected": 4902803.0,
+          "extracted": 4902803,
+          "match": true
+        },
+        "min_sent_amount": {
+          "expected": 4902803.0,
+          "extracted": 4902803,
+          "match": true
+        },
+        "max_received_amount": {
+          "expected": 4902803.0,
+          "extracted": 4902803,
+          "match": true
+        },
+        "min_received_amount": {
+          "expected": 4902803.0,
+          "extracted": 4902803,
+          "match": true
+        },
+        "received_Variance_BTC": {
+          "expected": 0.0,
+          "extracted": 0.0,
+          "match": true
+        },
+        "sent_Variance_BTC": {
+          "expected": 0.0,
+          "extracted": 0.0,
+          "match": true
+        },
+        "sent_counters": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "received_counters": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        }
+      },
+      "alternatives": {
+        "activity_w_receipt_days": 1,
+        "activity_d_spending_days": 1,
+        "fee_whole_outgoing_sum": 58754,
+        "fee_sample_variance": 0,
+        "received_sample_variance": 0,
+        "sent_sample_variance": 0
+      },
+      "reference_cutoff_exclusive_utc": "2020-12-20T22:05:00+00:00",
+      "excluded_later_transactions": 0
+    },
+    {
+      "address": "33TBbDxeysZMBwAS4nyTYuP4PB3uLRCDde",
+      "split": "train",
+      "source_label": "benign",
+      "history_sha256": "02589f0fe0dd157a2fe7ce3fcdc5e085e8d43cecd8fee88e66e5e413e51cbb04",
+      "comparisons": {
+        "balance": {
+          "expected": 0.0,
+          "extracted": 0,
+          "match": true
+        },
+        "total_received_BTC": {
+          "expected": 106855.0,
+          "extracted": 106855,
+          "match": true
+        },
+        "total_sent_BTC": {
+          "expected": 106855.0,
+          "extracted": 106855,
+          "match": true
+        },
+        "transaction_fee": {
+          "expected": 4002.622951,
+          "extracted": 4002.622950819672,
+          "match": true
+        },
+        "transaction_fee_Variance": {
+          "expected": 0.0,
+          "extracted": 0.0,
+          "match": true
+        },
+        "transaction_number": {
+          "expected": 2.0,
+          "extracted": 2,
+          "match": true
+        },
+        "payment_transactions": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "receipt_transactions": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "lifetime": {
+          "expected": 1729776.0,
+          "extracted": 1729776,
+          "match": true
+        },
+        "total_output_slots": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "total_input_slots": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "activity_w": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "activity_d": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "activity_time": {
+          "expected": 2.0,
+          "extracted": 2,
+          "match": true
+        },
+        "max_sent_amount": {
+          "expected": 106855.0,
+          "extracted": 106855,
+          "match": true
+        },
+        "min_sent_amount": {
+          "expected": 106855.0,
+          "extracted": 106855,
+          "match": true
+        },
+        "max_received_amount": {
+          "expected": 106855.0,
+          "extracted": 106855,
+          "match": true
+        },
+        "min_received_amount": {
+          "expected": 106855.0,
+          "extracted": 106855,
+          "match": true
+        },
+        "received_Variance_BTC": {
+          "expected": 0.0,
+          "extracted": 0.0,
+          "match": true
+        },
+        "sent_Variance_BTC": {
+          "expected": 0.0,
+          "extracted": 0.0,
+          "match": true
+        },
+        "sent_counters": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "received_counters": {
+          "expected": 8.0,
+          "extracted": 8,
+          "match": true
+        }
+      },
+      "alternatives": {
+        "activity_w_receipt_days": 1,
+        "activity_d_spending_days": 1,
+        "fee_whole_outgoing_sum": 244160,
+        "fee_sample_variance": 0,
+        "received_sample_variance": 0,
+        "sent_sample_variance": 0
+      },
+      "reference_cutoff_exclusive_utc": "2024-01-27T16:27:00+00:00",
+      "excluded_later_transactions": 0
+    },
+    {
+      "address": "15aj53m57C4pcMZ8uZA4hEJQq2MzqS3Zu8",
+      "split": "train",
+      "source_label": "benign",
+      "history_sha256": "6b73347d4726820b892ff3b1963bd22c5e0b7d5a8f2af7da771973021e531706",
+      "comparisons": {
+        "balance": {
+          "expected": 0.0,
+          "extracted": 0,
+          "match": true
+        },
+        "total_received_BTC": {
+          "expected": 7907633.0,
+          "extracted": 7907633,
+          "match": true
+        },
+        "total_sent_BTC": {
+          "expected": 7907633.0,
+          "extracted": 7907633,
+          "match": true
+        },
+        "transaction_fee": {
+          "expected": 13600.0,
+          "extracted": 13600.0,
+          "match": true
+        },
+        "transaction_fee_Variance": {
+          "expected": 0.0,
+          "extracted": 0.0,
+          "match": true
+        },
+        "transaction_number": {
+          "expected": 6.0,
+          "extracted": 6,
+          "match": true
+        },
+        "payment_transactions": {
+          "expected": 2.0,
+          "extracted": 2,
+          "match": true
+        },
+        "receipt_transactions": {
+          "expected": 4.0,
+          "extracted": 4,
+          "match": true
+        },
+        "lifetime": {
+          "expected": 429365.0,
+          "extracted": 429365,
+          "match": true
+        },
+        "total_output_slots": {
+          "expected": 4.0,
+          "extracted": 4,
+          "match": true
+        },
+        "total_input_slots": {
+          "expected": 4.0,
+          "extracted": 4,
+          "match": true
+        },
+        "activity_w": {
+          "expected": 3.0,
+          "extracted": 3,
+          "match": true
+        },
+        "activity_d": {
+          "expected": 2.0,
+          "extracted": 2,
+          "match": true
+        },
+        "activity_time": {
+          "expected": 4.0,
+          "extracted": 4,
+          "match": true
+        },
+        "max_sent_amount": {
+          "expected": 5831772.0,
+          "extracted": 5831772,
+          "match": true
+        },
+        "min_sent_amount": {
+          "expected": 115899.0,
+          "extracted": 115899,
+          "match": true
+        },
+        "max_received_amount": {
+          "expected": 5831772.0,
+          "extracted": 5831772,
+          "match": true
+        },
+        "min_received_amount": {
+          "expected": 115899.0,
+          "extracted": 115899,
+          "match": true
+        },
+        "received_Variance_BTC": {
+          "expected": 5240000000000.0,
+          "extracted": 5243110887549.1875,
+          "match": true
+        },
+        "sent_Variance_BTC": {
+          "expected": 5550000000000.0,
+          "extracted": 5243110887549.1875,
+          "match": false
+        },
+        "sent_counters": {
+          "expected": 39.0,
+          "extracted": 39,
+          "match": true
+        },
+        "received_counters": {
+          "expected": 4.0,
+          "extracted": 4,
+          "match": true
+        }
+      },
+      "alternatives": {
+        "activity_w_receipt_days": 3,
+        "activity_d_spending_days": 2,
+        "fee_whole_outgoing_sum": 13600,
+        "fee_sample_variance": 0.0,
+        "received_sample_variance": 6990814516732.25,
+        "sent_sample_variance": 6990814516732.25
+      },
+      "reference_cutoff_exclusive_utc": "2024-05-27T14:31:00+00:00",
+      "excluded_later_transactions": 11
+    },
+    {
+      "address": "bc1qcv5jxxd6nc2rv46gmledz855rjdxadg5e6vz8c",
+      "split": "train",
+      "source_label": "Theft",
+      "history_sha256": "e5c18f1d0d05ea553ee998b788a1e30de8a87625628f224cba683e2c27e8521e",
+      "comparisons": {
+        "balance": {
+          "expected": 0.0,
+          "extracted": 0,
+          "match": true
+        },
+        "total_received_BTC": {
+          "expected": 197084172.0,
+          "extracted": 197084172,
+          "match": true
+        },
+        "total_sent_BTC": {
+          "expected": 197084172.0,
+          "extracted": 197084172,
+          "match": true
+        },
+        "transaction_fee": {
+          "expected": 6829.5,
+          "extracted": 6829.5,
+          "match": true
+        },
+        "transaction_fee_Variance": {
+          "expected": 0.0,
+          "extracted": 0.0,
+          "match": true
+        },
+        "transaction_number": {
+          "expected": 4.0,
+          "extracted": 4,
+          "match": true
+        },
+        "payment_transactions": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "receipt_transactions": {
+          "expected": 3.0,
+          "extracted": 3,
+          "match": true
+        },
+        "lifetime": {
+          "expected": 38426051.0,
+          "extracted": 38426051,
+          "match": true
+        },
+        "total_output_slots": {
+          "expected": 3.0,
+          "extracted": 3,
+          "match": true
+        },
+        "total_input_slots": {
+          "expected": 3.0,
+          "extracted": 3,
+          "match": true
+        },
+        "activity_w": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "activity_d": {
+          "expected": 1.0,
+          "extracted": 1,
+          "match": true
+        },
+        "activity_time": {
+          "expected": 2.0,
+          "extracted": 2,
+          "match": true
+        },
+        "max_sent_amount": {
+          "expected": 94198638.0,
+          "extracted": 94198638,
+          "match": true
+        },
+        "min_sent_amount": {
+          "expected": 26232151.0,
+          "extracted": 26232151,
+          "match": true
+        },
+        "max_received_amount": {
+          "expected": 94198638.0,
+          "extracted": 94198638,
+          "match": true
+        },
+        "min_received_amount": {
+          "expected": 26232151.0,
+          "extracted": 26232151,
+          "match": true
+        },
+        "received_Variance_BTC": {
+          "expected": 830000000000000.0,
+          "extracted": 829953329392668.6,
+          "match": true
+        },
+        "sent_Variance_BTC": {
+          "expected": 5270000000000000.0,
+          "extracted": 829953329392668.6,
+          "match": false
+        },
+        "sent_counters": {
+          "expected": 3.0,
+          "extracted": 3,
+          "match": true
+        },
+        "received_counters": {
+          "expected": 3.0,
+          "extracted": 3,
+          "match": true
+        }
+      },
+      "alternatives": {
+        "activity_w_receipt_days": 1,
+        "activity_d_spending_days": 1,
+        "fee_whole_outgoing_sum": 9106,
+        "fee_sample_variance": 0,
+        "received_sample_variance": 1244929994089003.0,
+        "sent_sample_variance": 1244929994089003.0
+      },
+      "reference_cutoff_exclusive_utc": "2022-03-02T13:23:00+00:00",
+      "excluded_later_transactions": 0
+    }
+  ],
+  "skipped": [
+    {
+      "address": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "reason": "Not a training reference"
+    },
+    {
+      "address": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "reason": "Not a training reference"
+    },
+    {
+      "address": "1Kg4FMpFFvaiBrumByyCUywS5XNuAUBa2E",
+      "reason": "Not a training reference"
+    },
+    {
+      "address": "bc1q82uhgm8wrsthy4dx5zuy30h9fvs5aflfkj00ce",
+      "reason": "Not a training reference"
+    }
+  ],
+  "tolerance": "rtol 0.005, atol 0.000001 to accommodate rounded TSV values",
+  "per_feature_matches": {
+    "balance": {
+      "matches": 4,
+      "references": 4
+    },
+    "total_received_BTC": {
+      "matches": 4,
+      "references": 4
+    },
+    "total_sent_BTC": {
+      "matches": 4,
+      "references": 4
+    },
+    "transaction_fee": {
+      "matches": 4,
+      "references": 4
+    },
+    "transaction_fee_Variance": {
+      "matches": 4,
+      "references": 4
+    },
+    "transaction_number": {
+      "matches": 4,
+      "references": 4
+    },
+    "payment_transactions": {
+      "matches": 4,
+      "references": 4
+    },
+    "receipt_transactions": {
+      "matches": 4,
+      "references": 4
+    },
+    "lifetime": {
+      "matches": 4,
+      "references": 4
+    },
+    "total_output_slots": {
+      "matches": 4,
+      "references": 4
+    },
+    "total_input_slots": {
+      "matches": 4,
+      "references": 4
+    },
+    "activity_w": {
+      "matches": 4,
+      "references": 4
+    },
+    "activity_d": {
+      "matches": 4,
+      "references": 4
+    },
+    "activity_time": {
+      "matches": 4,
+      "references": 4
+    },
+    "max_sent_amount": {
+      "matches": 4,
+      "references": 4
+    },
+    "min_sent_amount": {
+      "matches": 4,
+      "references": 4
+    },
+    "max_received_amount": {
+      "matches": 4,
+      "references": 4
+    },
+    "min_received_amount": {
+      "matches": 4,
+      "references": 4
+    },
+    "received_Variance_BTC": {
+      "matches": 4,
+      "references": 4
+    },
+    "sent_Variance_BTC": {
+      "matches": 2,
+      "references": 4
+    },
+    "sent_counters": {
+      "matches": 4,
+      "references": 4
+    },
+    "received_counters": {
+      "matches": 4,
+      "references": 4
+    }
+  },
+  "rule": "No validation or reserved-test profile used to tune extraction; no model predictions"
+}

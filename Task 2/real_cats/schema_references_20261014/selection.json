@@ -1,0 +1,21 @@
+{
+  "status": "training_only_schema_references",
+  "records": [
+    {
+      "address": "15aj53m57C4pcMZ8uZA4hEJQq2MzqS3Zu8",
+      "source_id": "real_cats_training_reference",
+      "source_label": "benign",
+      "label_available_at": null,
+      "training_label": "source_category_only",
+      "case_group": null
+    },
+    {
+      "address": "bc1qcv5jxxd6nc2rv46gmledz855rjdxadg5e6vz8c",
+      "source_id": "real_cats_training_reference",
+      "source_label": "Theft",
+      "label_available_at": null,
+      "training_label": "source_category_only",
+      "case_group": null
+    }
+  ]
+}
