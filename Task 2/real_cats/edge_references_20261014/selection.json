@@ -1,0 +1,51 @@
+{
+  "status": "Training-only schema development references",
+  "source_sha256": {
+    "BB.tsv": "3bfe26f493e5767737c9ecf4c654009067c162dc7fa6fec68b0ab8234d4431e9",
+    "CB.tsv": "faf3978f5c9ce3b1257af72ac01975d657ab7529f66faf1a66f1f22f99fbb1ec"
+  },
+  "selection": "SHA256(address) ascending within four predefined source-feature strata; not performance sampling",
+  "records": [
+    {
+      "address": "bc1q8xekklc4ul3vsufy804ecyxu563rac4ynd4rsh",
+      "source_id": "real_cats_training_edge_reference",
+      "source_label": "benign",
+      "case_group": null,
+      "label_available_at": null,
+      "training_label": "source_category_only",
+      "selection_case": "nonconstant_allocated_fees",
+      "source_transaction_count": 6
+    },
+    {
+      "address": "bc1qc28yut4rnvyrsjr9l7htj2fj8w8j7l2ra6ftwy",
+      "source_id": "real_cats_training_edge_reference",
+      "source_label": "benign",
+      "case_group": null,
+      "label_available_at": null,
+      "training_label": "source_category_only",
+      "selection_case": "no_spending_direction",
+      "source_transaction_count": 9
+    },
+    {
+      "address": "15aj53m57C4pcMZ8uZA4hEJQq2MzqS3Zu8",
+      "source_id": "real_cats_training_edge_reference",
+      "source_label": "benign",
+      "case_group": null,
+      "label_available_at": null,
+      "training_label": "source_category_only",
+      "selection_case": "multiple_own_inputs",
+      "source_transaction_count": 6
+    },
+    {
+      "address": "bc1q75d40tjx3mh3ax3jkjh3cu3cfncj3paln2wwv0",
+      "source_id": "real_cats_training_edge_reference",
+      "source_label": "benign",
+      "case_group": null,
+      "label_available_at": null,
+      "training_label": "source_category_only",
+      "selection_case": "same_transaction_receipt_and_spend",
+      "source_transaction_count": 10
+    }
+  ],
+  "unavailable_strata": []
+}

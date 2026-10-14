@@ -1,0 +1,37 @@
+{
+  "status": "Provisional extraction contract; original 22-feature model cannot be externally scored",
+  "matched_on_four_edge_references": [
+    "balance",
+    "total_received_BTC",
+    "total_sent_BTC",
+    "transaction_fee",
+    "transaction_number",
+    "payment_transactions",
+    "receipt_transactions",
+    "lifetime",
+    "total_output_slots",
+    "total_input_slots",
+    "activity_w",
+    "activity_d",
+    "activity_time",
+    "max_sent_amount",
+    "min_sent_amount",
+    "max_received_amount",
+    "min_received_amount",
+    "sent_counters",
+    "received_counters"
+  ],
+  "unreconciled": [
+    "transaction_fee_Variance",
+    "received_Variance_BTC",
+    "sent_Variance_BTC"
+  ],
+  "precision": "rtol 0.005, atol 0.000001",
+  "external_scoring_ready": false,
+  "limitations": [
+    "Seven unique development addresses across original and edge checks, not independent adapter validation",
+    "Variance discrepancies do not prove source code error",
+    "A 19-feature model would require separate fitting and validation, not dropping columns at prediction time",
+    "Reference cutoff uses end of source last-time minute interpreted as UTC"
+  ]
+}

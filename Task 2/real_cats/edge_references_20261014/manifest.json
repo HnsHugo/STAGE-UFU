@@ -1,0 +1,168 @@
+{
+  "status": "complete",
+  "selection_sha256": "d379e99a600855a19d5ab5b77a2697cedb70c438e43e6e5187616babeb72f0a8",
+  "max_pages_per_address": 12,
+  "workers": 2,
+  "results": [
+    {
+      "address": "15aj53m57C4pcMZ8uZA4hEJQq2MzqS3Zu8",
+      "file": "15aj53m57C4pcMZ8uZA4hEJQq2MzqS3Zu8.json",
+      "sha256": "57a5287bea67c277981ab2c90436dcef2f3a2836866c75bf4ac59f2773dc61cc",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 17,
+          "funded_txo_count": 13,
+          "spent_txo_count": 13,
+          "funded_txo_sum": 14295668,
+          "spent_txo_sum": 14295668
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "snapshot": {
+        "asof_exclusive_utc": "2024-05-23T15:14:46+00:00",
+        "features": {
+          "window_days": 7,
+          "transaction_count": 1,
+          "receiving_transaction_count": 1,
+          "spending_transaction_count": 0,
+          "received_sat": 115899,
+          "spent_input_sat": 0,
+          "net_flow_sat": 115899,
+          "balance_before_cutoff_sat": 115899,
+          "mean_receipt_sat": 115899,
+          "max_receipt_sat": 115899,
+          "mean_spent_input_sat": null,
+          "active_utc_days": 1,
+          "transactions_per_day": 0.14285714285714285,
+          "median_outgoing_transaction_fee_rate": null
+        },
+        "label_available_at": null,
+        "training_label": "pending_evidence_review"
+      },
+      "original_history_sha256": "6e9632b7883e2215e1ac6add40296bf4df008e32e979087c85842254b01100f4"
+    },
+    {
+      "address": "bc1q75d40tjx3mh3ax3jkjh3cu3cfncj3paln2wwv0",
+      "file": "bc1q75d40tjx3mh3ax3jkjh3cu3cfncj3paln2wwv0.json",
+      "sha256": "02bf5b5f1ea1da2962f6ae8654efeda9e09afb6ba5af43bcd888db9e6a906d2c",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 14,
+          "funded_txo_count": 11,
+          "spent_txo_count": 11,
+          "funded_txo_sum": 474837775,
+          "spent_txo_sum": 474837775
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "snapshot": {
+        "asof_exclusive_utc": "2022-07-07T13:06:20+00:00",
+        "features": {
+          "window_days": 7,
+          "transaction_count": 2,
+          "receiving_transaction_count": 1,
+          "spending_transaction_count": 1,
+          "received_sat": 480000,
+          "spent_input_sat": 480000,
+          "net_flow_sat": 0,
+          "balance_before_cutoff_sat": 0,
+          "mean_receipt_sat": 480000,
+          "max_receipt_sat": 480000,
+          "mean_spent_input_sat": 480000,
+          "active_utc_days": 1,
+          "transactions_per_day": 0.2857142857142857,
+          "median_outgoing_transaction_fee_rate": 25.21818181818182
+        },
+        "label_available_at": null,
+        "training_label": "pending_evidence_review"
+      },
+      "original_history_sha256": "be4ae7a4e23e20da1595f75283e53d0ab6a248351e470403bc4a53c7f00ddb3c"
+    },
+    {
+      "address": "bc1q8xekklc4ul3vsufy804ecyxu563rac4ynd4rsh",
+      "file": "bc1q8xekklc4ul3vsufy804ecyxu563rac4ynd4rsh.json",
+      "sha256": "ff17b48953453ab5a7035f03928a29367c2f849b51c12f3e4b5e63fb8b641af3",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 9,
+          "funded_txo_count": 8,
+          "spent_txo_count": 6,
+          "funded_txo_sum": 1570162,
+          "spent_txo_sum": 1274173
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "snapshot": {
+        "asof_exclusive_utc": "2023-04-08T19:06:51+00:00",
+        "features": {
+          "window_days": 7,
+          "transaction_count": 2,
+          "receiving_transaction_count": 2,
+          "spending_transaction_count": 0,
+          "received_sat": 431792,
+          "spent_input_sat": 0,
+          "net_flow_sat": 431792,
+          "balance_before_cutoff_sat": 431792,
+          "mean_receipt_sat": 215896,
+          "max_receipt_sat": 318460,
+          "mean_spent_input_sat": null,
+          "active_utc_days": 2,
+          "transactions_per_day": 0.2857142857142857,
+          "median_outgoing_transaction_fee_rate": null
+        },
+        "label_available_at": null,
+        "training_label": "pending_evidence_review"
+      },
+      "original_history_sha256": "265f3c47b894a0ef9718d589773b6489738cba5002257302d7673aed7b7e10a8"
+    },
+    {
+      "address": "bc1qc28yut4rnvyrsjr9l7htj2fj8w8j7l2ra6ftwy",
+      "file": "bc1qc28yut4rnvyrsjr9l7htj2fj8w8j7l2ra6ftwy.json",
+      "sha256": "fdfe353822e82ef0eb869d4a393f7616543e6a5d1f00fe578d263f182feb95e1",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 10,
+          "funded_txo_count": 10,
+          "spent_txo_count": 0,
+          "funded_txo_sum": 143641853,
+          "spent_txo_sum": 0
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "snapshot": {
+        "asof_exclusive_utc": "2024-03-29T17:09:45+00:00",
+        "features": {
+          "window_days": 7,
+          "transaction_count": 2,
+          "receiving_transaction_count": 2,
+          "spending_transaction_count": 0,
+          "received_sat": 17650515,
+          "spent_input_sat": 0,
+          "net_flow_sat": 17650515,
+          "balance_before_cutoff_sat": 17650515,
+          "mean_receipt_sat": 8825257.5,
+          "max_receipt_sat": 16850515,
+          "mean_spent_input_sat": null,
+          "active_utc_days": 1,
+          "transactions_per_day": 0.2857142857142857,
+          "median_outgoing_transaction_fee_rate": null
+        },
+        "label_available_at": null,
+        "training_label": "pending_evidence_review"
+      },
+      "original_history_sha256": "e12ddccfddd807fdaeacba1f4dc8ccf23102679f2e5ff60010041351d6d0dcf1"
+    }
+  ]
+}
