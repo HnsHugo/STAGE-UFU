@@ -1,0 +1,927 @@
+{
+  "method": "Mean tree-path changes in positive-class leaf proportion; exact additive accounting, not SHAP",
+  "input_report_sha256": "a9830ee4b6bd9b13ad4de4eecca6ea7df72c1cccc7fcb2a93644029560b9c052",
+  "fixed_threshold": 0.15,
+  "results": [
+    {
+      "address": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "features": {
+        "balance": 0,
+        "total_received_BTC": 29699999137,
+        "total_sent_BTC": 29699999137,
+        "transaction_fee": 53648.0,
+        "transaction_number": 5,
+        "payment_transactions": 2,
+        "receipt_transactions": 3,
+        "lifetime": 24808459,
+        "total_output_slots": 3,
+        "total_input_slots": 3,
+        "activity_w": 2,
+        "activity_d": 2,
+        "activity_time": 4,
+        "max_sent_amount": 29699984050,
+        "min_sent_amount": 5087,
+        "max_received_amount": 29699984050,
+        "min_received_amount": 5087,
+        "sent_counters": 6,
+        "received_counters": 4
+      },
+      "score": 0.11875303766764059,
+      "above_threshold": false,
+      "distance_to_threshold": -0.031246962332359407,
+      "baseline": 0.014907273968446594,
+      "contributions": [
+        {
+          "feature": "payment_transactions",
+          "contribution": 0.015999376024759846
+        },
+        {
+          "feature": "min_sent_amount",
+          "contribution": 0.01431475023368081
+        },
+        {
+          "feature": "received_counters",
+          "contribution": 0.013425264784922775
+        },
+        {
+          "feature": "min_received_amount",
+          "contribution": 0.012710040783259054
+        },
+        {
+          "feature": "max_sent_amount",
+          "contribution": 0.012311869985316805
+        },
+        {
+          "feature": "max_received_amount",
+          "contribution": 0.011078962890659712
+        },
+        {
+          "feature": "total_sent_BTC",
+          "contribution": 0.010448746485359643
+        },
+        {
+          "feature": "total_received_BTC",
+          "contribution": 0.010362434184246993
+        },
+        {
+          "feature": "activity_d",
+          "contribution": 0.006028080026324665
+        },
+        {
+          "feature": "receipt_transactions",
+          "contribution": -0.004862581390167464
+        },
+        {
+          "feature": "lifetime",
+          "contribution": -0.0036359819525844765
+        },
+        {
+          "feature": "transaction_fee",
+          "contribution": 0.003071830898566422
+        },
+        {
+          "feature": "activity_time",
+          "contribution": 0.0023533915003307207
+        },
+        {
+          "feature": "sent_counters",
+          "contribution": 0.001870570632521888
+        },
+        {
+          "feature": "total_output_slots",
+          "contribution": -0.0018054542477425979
+        },
+        {
+          "feature": "transaction_number",
+          "contribution": 0.0009411187595348951
+        },
+        {
+          "feature": "total_input_slots",
+          "contribution": -0.0008340406043537403
+        },
+        {
+          "feature": "activity_w",
+          "contribution": -0.0006051654196523181
+        },
+        {
+          "feature": "balance",
+          "contribution": 0.0005604332811755654
+        },
+        {
+          "feature": "missingindicator_min_sent_amount",
+          "contribution": 6.603457126426644e-05
+        },
+        {
+          "feature": "missingindicator_max_sent_amount",
+          "contribution": 4.60822717705542e-05
+        }
+      ]
+    },
+    {
+      "address": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "features": {
+        "balance": 0,
+        "total_received_BTC": 23913352900,
+        "total_sent_BTC": 23913352900,
+        "transaction_fee": 67200.0,
+        "transaction_number": 3,
+        "payment_transactions": 1,
+        "receipt_transactions": 2,
+        "lifetime": 37370382,
+        "total_output_slots": 2,
+        "total_input_slots": 2,
+        "activity_w": 1,
+        "activity_d": 1,
+        "activity_time": 2,
+        "max_sent_amount": 23913342900,
+        "min_sent_amount": 10000,
+        "max_received_amount": 23913342900,
+        "min_received_amount": 10000,
+        "sent_counters": 6,
+        "received_counters": 2
+      },
+      "score": 0.2338411208857334,
+      "above_threshold": true,
+      "distance_to_threshold": 0.0838411208857334,
+      "baseline": 0.014907273968446594,
+      "contributions": [
+        {
+          "feature": "max_received_amount",
+          "contribution": 0.037655990658242974
+        },
+        {
+          "feature": "received_counters",
+          "contribution": 0.02938293115513292
+        },
+        {
+          "feature": "total_received_BTC",
+          "contribution": 0.02280984104381383
+        },
+        {
+          "feature": "total_sent_BTC",
+          "contribution": 0.02223231220632588
+        },
+        {
+          "feature": "max_sent_amount",
+          "contribution": 0.021503921271490315
+        },
+        {
+          "feature": "sent_counters",
+          "contribution": 0.02060350208149399
+        },
+        {
+          "feature": "payment_transactions",
+          "contribution": 0.018468798938815784
+        },
+        {
+          "feature": "transaction_fee",
+          "contribution": 0.011594113146894363
+        },
+        {
+          "feature": "activity_d",
+          "contribution": 0.008726237175909394
+        },
+        {
+          "feature": "activity_w",
+          "contribution": 0.008152728303973799
+        },
+        {
+          "feature": "activity_time",
+          "contribution": 0.005821796924578169
+        },
+        {
+          "feature": "min_sent_amount",
+          "contribution": 0.0030837924733692207
+        },
+        {
+          "feature": "balance",
+          "contribution": 0.00294528464069912
+        },
+        {
+          "feature": "transaction_number",
+          "contribution": 0.002740275817703511
+        },
+        {
+          "feature": "receipt_transactions",
+          "contribution": 0.0024256705114208523
+        },
+        {
+          "feature": "total_output_slots",
+          "contribution": -0.002364855527969157
+        },
+        {
+          "feature": "lifetime",
+          "contribution": 0.002123549783519153
+        },
+        {
+          "feature": "min_received_amount",
+          "contribution": 0.0017997650447751658
+        },
+        {
+          "feature": "total_input_slots",
+          "contribution": -0.0011653319842745724
+        },
+        {
+          "feature": "missingindicator_min_sent_amount",
+          "contribution": 0.00034744097960158623
+        },
+        {
+          "feature": "missingindicator_max_sent_amount",
+          "contribution": 4.60822717705542e-05
+        }
+      ]
+    },
+    {
+      "address": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "features": {
+        "balance": 10000,
+        "total_received_BTC": 29808285628,
+        "total_sent_BTC": 29808275628,
+        "transaction_fee": 19647.0,
+        "transaction_number": 3,
+        "payment_transactions": 1,
+        "receipt_transactions": 2,
+        "lifetime": 25685123,
+        "total_output_slots": 2,
+        "total_input_slots": 1,
+        "activity_w": 1,
+        "activity_d": 1,
+        "activity_time": 2,
+        "max_sent_amount": 29808275628,
+        "min_sent_amount": 29808275628,
+        "max_received_amount": 29808275628,
+        "min_received_amount": 10000,
+        "sent_counters": 4,
+        "received_counters": 2
+      },
+      "score": 0.23650283689523335,
+      "above_threshold": true,
+      "distance_to_threshold": 0.08650283689523336,
+      "baseline": 0.014907273968446594,
+      "contributions": [
+        {
+          "feature": "received_counters",
+          "contribution": 0.03901455558965163
+        },
+        {
+          "feature": "max_received_amount",
+          "contribution": 0.033706371558196765
+        },
+        {
+          "feature": "total_received_BTC",
+          "contribution": 0.028975240293541524
+        },
+        {
+          "feature": "min_sent_amount",
+          "contribution": 0.027852426938130833
+        },
+        {
+          "feature": "max_sent_amount",
+          "contribution": 0.02596563029872174
+        },
+        {
+          "feature": "total_sent_BTC",
+          "contribution": 0.019143367340271496
+        },
+        {
+          "feature": "sent_counters",
+          "contribution": 0.012312055220145019
+        },
+        {
+          "feature": "lifetime",
+          "contribution": 0.0117735203347135
+        },
+        {
+          "feature": "activity_d",
+          "contribution": 0.00731003242946524
+        },
+        {
+          "feature": "payment_transactions",
+          "contribution": 0.007211551199944193
+        },
+        {
+          "feature": "activity_time",
+          "contribution": 0.006886122424932839
+        },
+        {
+          "feature": "activity_w",
+          "contribution": 0.006403550555860282
+        },
+        {
+          "feature": "transaction_fee",
+          "contribution": -0.0036135459888286814
+        },
+        {
+          "feature": "transaction_number",
+          "contribution": 0.002489436211255679
+        },
+        {
+          "feature": "balance",
+          "contribution": -0.0022016815592388415
+        },
+        {
+          "feature": "receipt_transactions",
+          "contribution": -0.0018879380287476306
+        },
+        {
+          "feature": "total_output_slots",
+          "contribution": 0.0007954555930180726
+        },
+        {
+          "feature": "total_input_slots",
+          "contribution": -0.00048209456466653014
+        },
+        {
+          "feature": "min_received_amount",
+          "contribution": -0.00045201617095251155
+        },
+        {
+          "feature": "missingindicator_min_sent_amount",
+          "contribution": 0.00034744097960158623
+        },
+        {
+          "feature": "missingindicator_max_sent_amount",
+          "contribution": 4.60822717705542e-05
+        }
+      ]
+    },
+    {
+      "address": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "features": {
+        "balance": 0,
+        "total_received_BTC": 35917947190,
+        "total_sent_BTC": 35917947190,
+        "transaction_fee": 76890.0,
+        "transaction_number": 3,
+        "payment_transactions": 1,
+        "receipt_transactions": 2,
+        "lifetime": 37370201,
+        "total_output_slots": 2,
+        "total_input_slots": 2,
+        "activity_w": 1,
+        "activity_d": 1,
+        "activity_time": 2,
+        "max_sent_amount": 35917937190,
+        "min_sent_amount": 10000,
+        "max_received_amount": 35917937190,
+        "min_received_amount": 10000,
+        "sent_counters": 6,
+        "received_counters": 4
+      },
+      "score": 0.22512407038229795,
+      "above_threshold": true,
+      "distance_to_threshold": 0.07512407038229796,
+      "baseline": 0.014907273968446594,
+      "contributions": [
+        {
+          "feature": "max_received_amount",
+          "contribution": 0.038892344403403986
+        },
+        {
+          "feature": "max_sent_amount",
+          "contribution": 0.02280593408351937
+        },
+        {
+          "feature": "total_received_BTC",
+          "contribution": 0.022143196126826865
+        },
+        {
+          "feature": "total_sent_BTC",
+          "contribution": 0.021319724505675923
+        },
+        {
+          "feature": "payment_transactions",
+          "contribution": 0.020025542617805467
+        },
+        {
+          "feature": "sent_counters",
+          "contribution": 0.015839847723893085
+        },
+        {
+          "feature": "received_counters",
+          "contribution": 0.014611868531926777
+        },
+        {
+          "feature": "activity_d",
+          "contribution": 0.009113711480836782
+        },
+        {
+          "feature": "activity_w",
+          "contribution": 0.008703160877196126
+        },
+        {
+          "feature": "transaction_fee",
+          "contribution": 0.008113567045159068
+        },
+        {
+          "feature": "min_sent_amount",
+          "contribution": 0.007810879595616713
+        },
+        {
+          "feature": "min_received_amount",
+          "contribution": 0.007029704051540091
+        },
+        {
+          "feature": "activity_time",
+          "contribution": 0.005985644184933676
+        },
+        {
+          "feature": "balance",
+          "contribution": 0.0031565795878994982
+        },
+        {
+          "feature": "transaction_number",
+          "contribution": 0.002196677467963214
+        },
+        {
+          "feature": "lifetime",
+          "contribution": 0.0018590881936645714
+        },
+        {
+          "feature": "receipt_transactions",
+          "contribution": 0.001083346789360871
+        },
+        {
+          "feature": "total_input_slots",
+          "contribution": -0.0005694095651883302
+        },
+        {
+          "feature": "missingindicator_min_sent_amount",
+          "contribution": 0.00034744097960158623
+        },
+        {
+          "feature": "total_output_slots",
+          "contribution": -0.00029813453955453986
+        },
+        {
+          "feature": "missingindicator_max_sent_amount",
+          "contribution": 4.60822717705542e-05
+        }
+      ]
+    },
+    {
+      "address": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "features": {
+        "balance": 0,
+        "total_received_BTC": 27799993140,
+        "total_sent_BTC": 27799993140,
+        "transaction_fee": 51282.0,
+        "transaction_number": 4,
+        "payment_transactions": 2,
+        "receipt_transactions": 2,
+        "lifetime": 20583649,
+        "total_output_slots": 2,
+        "total_input_slots": 2,
+        "activity_w": 1,
+        "activity_d": 2,
+        "activity_time": 3,
+        "max_sent_amount": 27799983140,
+        "min_sent_amount": 10000,
+        "max_received_amount": 27799983140,
+        "min_received_amount": 10000,
+        "sent_counters": 6,
+        "received_counters": 3
+      },
+      "score": 0.14806711994396832,
+      "above_threshold": false,
+      "distance_to_threshold": -0.0019328800560316772,
+      "baseline": 0.014907273968446594,
+      "contributions": [
+        {
+          "feature": "max_received_amount",
+          "contribution": 0.01842232291746514
+        },
+        {
+          "feature": "total_received_BTC",
+          "contribution": 0.017628203588751584
+        },
+        {
+          "feature": "received_counters",
+          "contribution": 0.017234595014069223
+        },
+        {
+          "feature": "max_sent_amount",
+          "contribution": 0.014143371527160425
+        },
+        {
+          "feature": "min_received_amount",
+          "contribution": 0.012721858209657868
+        },
+        {
+          "feature": "total_sent_BTC",
+          "contribution": 0.009937702411796704
+        },
+        {
+          "feature": "min_sent_amount",
+          "contribution": 0.009055064013295496
+        },
+        {
+          "feature": "payment_transactions",
+          "contribution": 0.008541874780508949
+        },
+        {
+          "feature": "activity_w",
+          "contribution": 0.00815601656684141
+        },
+        {
+          "feature": "sent_counters",
+          "contribution": 0.0055247930565330665
+        },
+        {
+          "feature": "activity_d",
+          "contribution": 0.005441801982115436
+        },
+        {
+          "feature": "lifetime",
+          "contribution": 0.004063556107367289
+        },
+        {
+          "feature": "activity_time",
+          "contribution": 0.0030990438521301816
+        },
+        {
+          "feature": "transaction_fee",
+          "contribution": 0.003082697648173861
+        },
+        {
+          "feature": "receipt_transactions",
+          "contribution": -0.0029908509049736474
+        },
+        {
+          "feature": "balance",
+          "contribution": 0.0005695056282486912
+        },
+        {
+          "feature": "total_input_slots",
+          "contribution": -0.0005593116732330157
+        },
+        {
+          "feature": "transaction_number",
+          "contribution": -0.0005507409289153857
+        },
+        {
+          "feature": "total_output_slots",
+          "contribution": -0.00047377466450638015
+        },
+        {
+          "feature": "missingindicator_min_sent_amount",
+          "contribution": 6.603457126426644e-05
+        },
+        {
+          "feature": "missingindicator_max_sent_amount",
+          "contribution": 4.60822717705542e-05
+        }
+      ]
+    },
+    {
+      "address": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "features": {
+        "balance": 0,
+        "total_received_BTC": 10988318933,
+        "total_sent_BTC": 10988318933,
+        "transaction_fee": 30600.0,
+        "transaction_number": 4,
+        "payment_transactions": 2,
+        "receipt_transactions": 2,
+        "lifetime": 20564645,
+        "total_output_slots": 2,
+        "total_input_slots": 2,
+        "activity_w": 1,
+        "activity_d": 2,
+        "activity_time": 3,
+        "max_sent_amount": 10988308933,
+        "min_sent_amount": 10000,
+        "max_received_amount": 10988308933,
+        "min_received_amount": 10000,
+        "sent_counters": 5,
+        "received_counters": 3
+      },
+      "score": 0.14306370346540315,
+      "above_threshold": false,
+      "distance_to_threshold": -0.0069362965345968475,
+      "baseline": 0.014907273968446594,
+      "contributions": [
+        {
+          "feature": "max_received_amount",
+          "contribution": 0.018614234586329766
+        },
+        {
+          "feature": "total_received_BTC",
+          "contribution": 0.017941462809256327
+        },
+        {
+          "feature": "received_counters",
+          "contribution": 0.017234595014069223
+        },
+        {
+          "feature": "max_sent_amount",
+          "contribution": 0.014143371527160425
+        },
+        {
+          "feature": "min_received_amount",
+          "contribution": 0.012906012857178704
+        },
+        {
+          "feature": "total_sent_BTC",
+          "contribution": 0.010998828203551412
+        },
+        {
+          "feature": "min_sent_amount",
+          "contribution": 0.008632008479888004
+        },
+        {
+          "feature": "payment_transactions",
+          "contribution": 0.007605602410364906
+        },
+        {
+          "feature": "activity_d",
+          "contribution": 0.005160257911025287
+        },
+        {
+          "feature": "activity_w",
+          "contribution": 0.004646537293796224
+        },
+        {
+          "feature": "sent_counters",
+          "contribution": 0.00422448880109168
+        },
+        {
+          "feature": "lifetime",
+          "contribution": 0.0037183172462365538
+        },
+        {
+          "feature": "activity_time",
+          "contribution": 0.0030599813521301816
+        },
+        {
+          "feature": "receipt_transactions",
+          "contribution": -0.0029908509049736474
+        },
+        {
+          "feature": "transaction_fee",
+          "contribution": 0.0018513141481046852
+        },
+        {
+          "feature": "total_input_slots",
+          "contribution": 0.0006882468949204714
+        },
+        {
+          "feature": "balance",
+          "contribution": 0.0005695056282486912
+        },
+        {
+          "feature": "transaction_number",
+          "contribution": -0.0004858269399507638
+        },
+        {
+          "feature": "total_output_slots",
+          "contribution": -0.00047377466450638015
+        },
+        {
+          "feature": "missingindicator_min_sent_amount",
+          "contribution": 6.603457126426644e-05
+        },
+        {
+          "feature": "missingindicator_max_sent_amount",
+          "contribution": 4.60822717705542e-05
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Contributions depend on split order and correlated predictors",
+    "Not causal effects or independent evidence of criminality",
+    "No threshold changes or external fitting",
+    "Full-history profiles, not early detection snapshots"
+  ],
+  "group_feature_comparison": {
+    "balance": {
+      "above_values": [
+        0,
+        10000,
+        0
+      ],
+      "below_values": [
+        0,
+        0,
+        0
+      ]
+    },
+    "total_received_BTC": {
+      "above_values": [
+        23913352900,
+        29808285628,
+        35917947190
+      ],
+      "below_values": [
+        29699999137,
+        27799993140,
+        10988318933
+      ]
+    },
+    "total_sent_BTC": {
+      "above_values": [
+        23913352900,
+        29808275628,
+        35917947190
+      ],
+      "below_values": [
+        29699999137,
+        27799993140,
+        10988318933
+      ]
+    },
+    "transaction_fee": {
+      "above_values": [
+        67200.0,
+        19647.0,
+        76890.0
+      ],
+      "below_values": [
+        53648.0,
+        51282.0,
+        30600.0
+      ]
+    },
+    "transaction_number": {
+      "above_values": [
+        3,
+        3,
+        3
+      ],
+      "below_values": [
+        5,
+        4,
+        4
+      ]
+    },
+    "payment_transactions": {
+      "above_values": [
+        1,
+        1,
+        1
+      ],
+      "below_values": [
+        2,
+        2,
+        2
+      ]
+    },
+    "receipt_transactions": {
+      "above_values": [
+        2,
+        2,
+        2
+      ],
+      "below_values": [
+        3,
+        2,
+        2
+      ]
+    },
+    "lifetime": {
+      "above_values": [
+        37370382,
+        25685123,
+        37370201
+      ],
+      "below_values": [
+        24808459,
+        20583649,
+        20564645
+      ]
+    },
+    "total_output_slots": {
+      "above_values": [
+        2,
+        2,
+        2
+      ],
+      "below_values": [
+        3,
+        2,
+        2
+      ]
+    },
+    "total_input_slots": {
+      "above_values": [
+        2,
+        1,
+        2
+      ],
+      "below_values": [
+        3,
+        2,
+        2
+      ]
+    },
+    "activity_w": {
+      "above_values": [
+        1,
+        1,
+        1
+      ],
+      "below_values": [
+        2,
+        1,
+        1
+      ]
+    },
+    "activity_d": {
+      "above_values": [
+        1,
+        1,
+        1
+      ],
+      "below_values": [
+        2,
+        2,
+        2
+      ]
+    },
+    "activity_time": {
+      "above_values": [
+        2,
+        2,
+        2
+      ],
+      "below_values": [
+        4,
+        3,
+        3
+      ]
+    },
+    "max_sent_amount": {
+      "above_values": [
+        23913342900,
+        29808275628,
+        35917937190
+      ],
+      "below_values": [
+        29699984050,
+        27799983140,
+        10988308933
+      ]
+    },
+    "min_sent_amount": {
+      "above_values": [
+        10000,
+        29808275628,
+        10000
+      ],
+      "below_values": [
+        5087,
+        10000,
+        10000
+      ]
+    },
+    "max_received_amount": {
+      "above_values": [
+        23913342900,
+        29808275628,
+        35917937190
+      ],
+      "below_values": [
+        29699984050,
+        27799983140,
+        10988308933
+      ]
+    },
+    "min_received_amount": {
+      "above_values": [
+        10000,
+        10000,
+        10000
+      ],
+      "below_values": [
+        5087,
+        10000,
+        10000
+      ]
+    },
+    "sent_counters": {
+      "above_values": [
+        6,
+        4,
+        6
+      ],
+      "below_values": [
+        6,
+        6,
+        5
+      ]
+    },
+    "received_counters": {
+      "above_values": [
+        2,
+        2,
+        4
+      ],
+      "below_values": [
+        4,
+        3,
+        3
+      ]
+    }
+  }
+}
