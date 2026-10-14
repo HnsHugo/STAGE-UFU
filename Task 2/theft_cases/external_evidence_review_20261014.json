@@ -1,0 +1,149 @@
+{
+  "reviewed_at": "2026-10-14T18:22:39.336819+00:00",
+  "status": "Evidence-reviewed pilot; not a labeled evaluation dataset",
+  "operator_report_url": "https://cafe.tollbooth-dpyc.com/blogs/our-value/anatomy-of-a-lightning-theft-no-balances-lost",
+  "operator_transaction_reconciliation": {
+    "txid": "10f219c427635e50dc374af6aa601e6f412ac0dccc7c545932afba5f818808f0",
+    "input_count": 4,
+    "output_count": 1,
+    "input_sat": 578705,
+    "outputs": [
+      {
+        "address": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+        "value_sat": 576777
+      }
+    ],
+    "fee_sat": 1928,
+    "status": {
+      "confirmed": true,
+      "block_height": 961466,
+      "block_hash": "00000000000000000000551149c85fdb3d16c0a00dd19df608042be258307513",
+      "block_time": 1786123219
+    }
+  },
+  "saved_history_sha256": {
+    "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH.json": "5965b85530435dfcf1356ca2593908f98846ec6779255fc9bc1e2fa6ef982b6d",
+    "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF.json": "76f550d7917d0ba0d9b2f487f62f92a76e14591a31fd957555484a6de21254ee"
+  },
+  "collector_A_evidence": "Direct operator theft testimony; transaction facts agree with saved provider observations; testimony is not independently authenticated",
+  "collector_B_evidence": "Research attribution with reconciled transaction dependency; no direct operator testimony found for B",
+  "cross_collector_transaction_dependencies": [
+    {
+      "parent_txid": "7029f7ff0bdd859e075287d9b7fb61ba38ed63d7ba19dedae6c73047554998c0",
+      "parent_output": 1,
+      "child_txid": "054f3a8e1bb6856017db024eb675091f458d9ecc82bfb45bcffa19013a631a80",
+      "value_sat": 15258
+    }
+  ],
+  "dependency_interpretation": "An output of a transaction paying B is later consumed by a transaction paying A; this alone does not prove both destination private keys share an owner",
+  "controls": [
+    {
+      "entity_group": "internet_archive",
+      "address": "1Archive1n2C579dMsAu3iC6tWzuQJz8dN",
+      "source_url": "https://archive.org/donate/cryptocurrency",
+      "role": "officially_published_donation_recipient",
+      "training_label": "pending_comparison_policy",
+      "label_available_at": null,
+      "history_complete": false,
+      "page_sha256": "6e74e5881a3c1a9064b8aa6db6564a69a66ed8c7b69db316799552cc81e23fa1",
+      "address_found_in_official_html": true,
+      "provider": "https://blockstream.info/api",
+      "provider_response_sha256": "942f41a04e6f06616478efdb3e6f6d545c504219bdb41c2d9e05b2d3d338f18a",
+      "provider_counters": {
+        "address": "1Archive1n2C579dMsAu3iC6tWzuQJz8dN",
+        "chain_stats": {
+          "funded_txo_count": 6875,
+          "funded_txo_sum": 110664539304,
+          "spent_txo_count": 5541,
+          "spent_txo_sum": 110225595629,
+          "tx_count": 7029
+        },
+        "mempool_stats": {
+          "funded_txo_count": 0,
+          "funded_txo_sum": 0,
+          "spent_txo_count": 0,
+          "spent_txo_sum": 0,
+          "tx_count": 0
+        }
+      },
+      "real_cats_overlap": {
+        "BB": false,
+        "CB": false
+      }
+    },
+    {
+      "entity_group": "eff",
+      "address": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "source_url": "https://www.eff.org/pages/other-ways-give-and-donor-support",
+      "role": "officially_published_donation_recipient",
+      "training_label": "pending_comparison_policy",
+      "label_available_at": null,
+      "history_complete": false,
+      "page_sha256": "120375f79f40250f22dfe3c3f26990183b1660cf3edb61ac1f8b423481663c52",
+      "address_found_in_official_html": true,
+      "provider": "https://blockstream.info/api",
+      "provider_response_sha256": "a8d40dab1a5f32450940658fe012ecd0c195b5e8f17c1ee5766ac53f56b1d336",
+      "provider_counters": {
+        "address": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+        "chain_stats": {
+          "funded_txo_count": 97,
+          "funded_txo_sum": 1108591222,
+          "spent_txo_count": 97,
+          "spent_txo_sum": 1108591222,
+          "tx_count": 191
+        },
+        "mempool_stats": {
+          "funded_txo_count": 0,
+          "funded_txo_sum": 0,
+          "spent_txo_count": 0,
+          "spent_txo_sum": 0,
+          "tx_count": 0
+        }
+      },
+      "real_cats_overlap": {
+        "BB": false,
+        "CB": false
+      }
+    },
+    {
+      "entity_group": "fsf",
+      "address": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "source_url": "https://www.fsf.org/about/ways-to-donate",
+      "role": "officially_published_donation_recipient",
+      "training_label": "pending_comparison_policy",
+      "label_available_at": null,
+      "history_complete": false,
+      "page_sha256": "a2d53121fac81a267e6d9f50b59f5d7098bc0d344c39096a5aa18dd92fa64542",
+      "address_found_in_official_html": true,
+      "provider": "https://blockstream.info/api",
+      "provider_response_sha256": "e9ed16685ae2beba2bf392e452be624663734b7849a7554968cd87350b0778d7",
+      "provider_counters": {
+        "address": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+        "chain_stats": {
+          "funded_txo_count": 2469,
+          "funded_txo_sum": 113022243778,
+          "spent_txo_count": 2465,
+          "spent_txo_sum": 112622218274,
+          "tx_count": 2593
+        },
+        "mempool_stats": {
+          "funded_txo_count": 0,
+          "funded_txo_sum": 0,
+          "spent_txo_count": 0,
+          "spent_txo_sum": 0,
+          "tx_count": 0
+        }
+      },
+      "real_cats_overlap": {
+        "BB": false,
+        "CB": false
+      }
+    }
+  ],
+  "limitations": [
+    "Official donation purpose is supported; incoming fund legitimacy is not established",
+    "Three entities are a convenience comparison pilot, not representative benign ground truth",
+    "Provider counters are current observations, not full historical features",
+    "Source labels are retrospective; no model fitting or predictions performed"
+  ]
+}

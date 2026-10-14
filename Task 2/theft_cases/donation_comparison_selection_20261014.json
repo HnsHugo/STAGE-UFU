@@ -1,0 +1,45 @@
+{
+  "status": "documented_donation_comparison_pilot_not_verified_benign_ground_truth",
+  "selection_policy": "Three distinct organizations with exact Bitcoin donation addresses on first-party pages; chosen before model scoring, convenience selection, not representative or maturity matched",
+  "records": [
+    {
+      "address": "1Archive1n2C579dMsAu3iC6tWzuQJz8dN",
+      "entity_group": "internet_archive",
+      "source_url": "https://archive.org/donate/cryptocurrency",
+      "source_role": "officially_published_donation_recipient",
+      "source_label": "official_donation_recipient",
+      "label_available_at": null,
+      "training_label": "pending_comparison_policy",
+      "real_cats_overlap": {
+        "BB": false,
+        "CB": false
+      }
+    },
+    {
+      "address": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "entity_group": "eff",
+      "source_url": "https://www.eff.org/pages/other-ways-give-and-donor-support",
+      "source_role": "officially_published_donation_recipient",
+      "source_label": "official_donation_recipient",
+      "label_available_at": null,
+      "training_label": "pending_comparison_policy",
+      "real_cats_overlap": {
+        "BB": false,
+        "CB": false
+      }
+    },
+    {
+      "address": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "entity_group": "fsf",
+      "source_url": "https://www.fsf.org/about/ways-to-donate",
+      "source_role": "officially_published_donation_recipient",
+      "source_label": "official_donation_recipient",
+      "label_available_at": null,
+      "training_label": "pending_comparison_policy",
+      "real_cats_overlap": {
+        "BB": false,
+        "CB": false
+      }
+    }
+  ]
+}
