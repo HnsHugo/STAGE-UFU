@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "entity": "Bitfinex",
+  "pinned_commit": "83d06bdb5f5a2ce05d5ba2db5a426dd44c9f5128",
+  "history_query_url": "https://api.github.com/repos/bitfinexcom/pub/commits?path=wallets.txt&sha=83d06bdb5f5a2ce05d5ba2db5a426dd44c9f5128&per_page=100",
+  "retrieved_history": [
+    {
+      "sha": "83d06bdb5f5a2ce05d5ba2db5a426dd44c9f5128",
+      "commit_date_utc": "2022-12-12T22:24:41Z",
+      "message": "Updated BSV cold wallet",
+      "url": "https://github.com/bitfinexcom/pub/commit/83d06bdb5f5a2ce05d5ba2db5a426dd44c9f5128"
+    },
+    {
+      "sha": "e72eec303c93396bdbc7c4fce6cd99f8e1307551",
+      "commit_date_utc": "2022-11-11T18:59:13Z",
+      "message": "Create wallets.txt",
+      "url": "https://github.com/bitfinexcom/pub/commit/e72eec303c93396bdbc7c4fce6cd99f8e1307551"
+    }
+  ],
+  "retrieved_btc_extracts": [
+    {
+      "url": "https://raw.githubusercontent.com/bitfinexcom/pub/e72eec303c93396bdbc7c4fce6cd99f8e1307551/wallets.txt",
+      "btc_lines": [
+        "1Kr6QSydW9bFQG1mXiPNNu6WpJGmUa9i1g - BTC hot wallet",
+        "3JZq4atUahhuA9rLhXLMhhTo133J9rF97j - BTC cold wallet",
+        "bc1qgdjqv0av3q56jvd82tkdjpy7gdp9ut8tlqmgrpmv24sq90ecnvqqjwvw97 - BTC cold wallet"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/bitfinexcom/pub/83d06bdb5f5a2ce05d5ba2db5a426dd44c9f5128/wallets.txt",
+      "btc_lines": [
+        "1Kr6QSydW9bFQG1mXiPNNu6WpJGmUa9i1g - BTC hot wallet",
+        "3JZq4atUahhuA9rLhXLMhhTo133J9rF97j - BTC cold wallet",
+        "bc1qgdjqv0av3q56jvd82tkdjpy7gdp9ut8tlqmgrpmv24sq90ecnvqqjwvw97 - BTC cold wallet"
+      ]
+    }
+  ],
+  "conclusion": "Same three BTC label assertions in both retrieved revisions; no verified operating interval.",
+  "valid_from_utc": null,
+  "valid_until_utc_exclusive": null,
+  "verified_publication_time_utc": null,
+  "september_2026_eligible": false,
+  "limitations": [
+    "Git author/committer dates are recorded metadata, not independently timestamped public availability.",
+    "Unchanged versions do not prove continuous operational use between or after revisions.",
+    "GitHub commit verification is not proof of address ownership, key storage or on-chain inclusion."
+  ],
+  "independent_source_screen": [
+    {
+      "entity": "BitMEX",
+      "urls": [
+        "https://www.bitmex.com/blog/reissuing-btc-wallet-addresses",
+        "https://www.bitmex.com/blog/bitmex-bitcoin-proof-of-reserve-proof-of-liability-snapshot"
+      ],
+      "observed_result": "Both direct page opens returned 404 in this session. Search snippets were not accepted as label evidence.",
+      "accepted_labels": 0
+    }
+  ],
+  "reviewed_on_date": "2026-10-16"
+}

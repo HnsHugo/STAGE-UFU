@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "mode": "retrospective_snapshot_not_training",
+  "snapshot_utc": "2025-03-31T23:59:00+00:00",
+  "label_available_by_snapshot": false,
+  "addresses": [
+    {
+      "address": "bc1q43krjn8qvfydqs9lq8crg26er4c26hkpd2mpw7",
+      "entity": "Change",
+      "published_storage": "cold",
+      "source_url": "https://www.changeinvest.com/blog/change-proof-of-reserves-2025-update",
+      "input_path": "Task 2/part 1/results/window_september2026/bc1q43krjn8qvfydqs9lq8crg26er4c26hkpd2mpw7.json",
+      "input_sha256": "5fde99a05dff1ac035d068f6023b29e97432bd6842a55825f1230c9e7722adce",
+      "features": {
+        "transaction_count": 1,
+        "received_sat": 457067,
+        "spent_sat": 0,
+        "balance_sat": 457067,
+        "days_since_last_observed_transaction": 74.29078703703703
+      }
+    },
+    {
+      "address": "bc1qhsuvec03zslh9qvauksh2wc9hy9za7csxem5ea",
+      "entity": "Change",
+      "published_storage": "cold",
+      "source_url": "https://www.changeinvest.com/blog/change-proof-of-reserves-2025-update",
+      "input_path": "Task 2/part 1/results/window_september2026/bc1qhsuvec03zslh9qvauksh2wc9hy9za7csxem5ea.json",
+      "input_sha256": "f2383ab65457889a2b2fc073160a434bbad561a8d916f61d10bb235b916b2328",
+      "features": {
+        "transaction_count": 1,
+        "received_sat": 89999708,
+        "spent_sat": 0,
+        "balance_sat": 89999708,
+        "days_since_last_observed_transaction": 27.549618055555555
+      }
+    },
+    {
+      "address": "bc1q9rqfux88j6az0wl957u2jdykgw5m5r72hcaclu",
+      "entity": "Change",
+      "published_storage": "cold",
+      "source_url": "https://www.changeinvest.com/blog/change-proof-of-reserves-2025-update",
+      "input_path": "Task 2/part 1/results/window_september2026/bc1q9rqfux88j6az0wl957u2jdykgw5m5r72hcaclu.json",
+      "input_sha256": "5eee91c6aa09b7442d85ee19d5e7c98edf18ac15a28efa3f6c42eb9085eb0fb9",
+      "features": {
+        "transaction_count": 1,
+        "received_sat": 2999999395,
+        "spent_sat": 0,
+        "balance_sat": 2999999395,
+        "days_since_last_observed_transaction": 21.292685185185185
+      }
+    }
+  ],
+  "limitations": [
+    "Snapshot and publication are supplied from reviewed source claims, not authenticated by this script.",
+    "History completeness uses later provider counts; this is retrospective reconstruction, not an as-observed deployment replay.",
+    "No later transaction contributes to the returned features; current provider balance is never used.",
+    "Block timestamps are confirmation metadata, not precise receipt or key-use times.",
+    "Elapsed time since a transaction is not UTXO holding time or proof of cold storage.",
+    "Three addresses from one source entity are not independent entities. No model is fitted."
+  ],
+  "label_publication_date": "2025-04-21",
+  "label_publication_time_utc": null
+}

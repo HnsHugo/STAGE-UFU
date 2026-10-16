@@ -37,3 +37,7 @@ Le résultat réel est `results/storage_readiness_20261016.json`. Les 28 tests d
 ## Prochaine unité
 
 Établir des preuves datées de hot et cold pour plusieurs entités avant de fixer une nouvelle fenêtre. Vérifier en priorité si la publication Bitfinex épinglée fournit une date et une période opérationnelle réellement défendables ; une date de commit seule ne prouve pas la continuité d'usage. Sans preuve suffisante, conserver le blocage et chercher une source indépendante précise. Ne pas entraîner sur septembre avec les labels historiques actuels.
+
+## Suite exécutée le 16 octobre
+
+La [vérification temporelle Bitfinex et les profils ponctuels Change](TEMPORAL_LABELS_20261016.md) précisent les dates Git retrouvées, les limites et le travail rétrospectif réalisé. Aucune éligibilité de septembre n’a été ajoutée.
