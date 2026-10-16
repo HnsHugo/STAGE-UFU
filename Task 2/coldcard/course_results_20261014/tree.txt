@@ -1,0 +1,7 @@
+|--- fee_sat <= 2815.00000
+|   |--- output_std_sat <= 80.25000
+|   |   |--- class: 0
+|   |--- output_std_sat >  80.25000
+|   |   |--- class: 0
+|--- fee_sat >  2815.00000
+|   |--- class: 1

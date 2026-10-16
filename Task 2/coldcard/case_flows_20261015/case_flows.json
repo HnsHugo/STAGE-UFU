@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "course_address": "bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0",
+  "provenance": {
+    "source_attribution_url": "https://bitquery.io/investigations/coldcard-wallet-hack",
+    "original_task": "aula4.pdf, course address and questions, pages 97 and 99",
+    "labels": "Graph roles only; theft and hardware control unknown"
+  },
+  "archive": {
+    "file": "blocos(1).tgz",
+    "sha256": "679fe208f9a807fdd38e9d64948c73581af3e99ca52fb707ce06937e67bc536d",
+    "block_count": 98,
+    "transaction_count": 493571,
+    "block_confirmation_span": {
+      "first_utc": "2026-07-30T00:39:11+00:00",
+      "last_utc": "2026-08-03T01:46:10+00:00",
+      "seconds": 349619
+    },
+    "coverage": "Selected blocks; not complete address history"
+  },
+  "source_attributed_seed_count": 5,
+  "missing_seed_txids": [],
+  "source_attributed_seeds": [
+    {
+      "txid": "0c6bf853a645b699a3b2cd6d8e3c44cf1a02a16f538df08212a44753f75d9d01",
+      "block_height": 960191,
+      "confirmed_utc": "2026-07-30T01:51:26+00:00",
+      "provider_transaction_utc": "2026-07-30T01:51:20+00:00",
+      "input_sat": 56202666941,
+      "output_sat": 56201962301,
+      "fee_sat": 704640,
+      "parent_output_count": 341,
+      "distinct_parent_transactions_requested": 341,
+      "parent_transactions_recovered": 341,
+      "parent_transactions_missing": 0,
+      "recovered_parent_output_sat": 56202666941,
+      "missing_parent_output_sat": 0,
+      "recovered_funding_distinct_input_addresses": 341,
+      "recovered_funding_missing_input_address_slots": 0,
+      "collectors": [
+        {
+          "address": "bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0",
+          "input_output_count": 341,
+          "input_value_sat": 56202666941,
+          "recovered_parent_count": 341
+        }
+      ],
+      "recovered_funding_confirmation_span": {
+        "first_utc": "2026-07-30T01:36:08+00:00",
+        "last_utc": "2026-07-30T01:43:00+00:00",
+        "seconds": 412
+      },
+      "recovered_funding_provider_time_span": {
+        "first_utc": "2026-07-30T01:35:33+00:00",
+        "last_utc": "2026-07-30T01:40:30+00:00",
+        "seconds": 297
+      },
+      "first_recovered_funding_to_seed_provider_seconds": 947,
+      "outputs": [
+        {
+          "index": 0,
+          "address": "bc1qq85v2c926eg6pgxhwp6q7lf6cnsz80qs3fcu9r",
+          "value_sat": 56201962301,
+          "archival_spent_flag": false
+        }
+      ]
+    },
+    {
+      "txid": "14edd9ee8445793c320e92e3b50365a0e18b8b25f424044bce337463f007fdd2",
+      "block_height": 960190,
+      "confirmed_utc": "2026-07-30T01:43:00+00:00",
+      "provider_transaction_utc": "2026-07-30T01:41:24+00:00",
+      "input_sat": 39848587857,
+      "output_sat": 39847573857,
+      "fee_sat": 1014000,
+      "parent_output_count": 491,
+      "distinct_parent_transactions_requested": 491,
+      "parent_transactions_recovered": 491,
+      "parent_transactions_missing": 0,
+      "recovered_parent_output_sat": 39848587857,
+      "missing_parent_output_sat": 0,
+      "recovered_funding_distinct_input_addresses": 491,
+      "recovered_funding_missing_input_address_slots": 0,
+      "collectors": [
+        {
+          "address": "bc1qc779m8gec84k3t0ffvu0pps94zheht7lr7ueyn",
+          "input_output_count": 491,
+          "input_value_sat": 39848587857,
+          "recovered_parent_count": 491
+        }
+      ],
+      "recovered_funding_confirmation_span": {
+        "first_utc": "2026-07-30T01:32:48+00:00",
+        "last_utc": "2026-07-30T01:32:48+00:00",
+        "seconds": 0
+      },
+      "recovered_funding_provider_time_span": {
+        "first_utc": "2026-07-30T01:28:06+00:00",
+        "last_utc": "2026-07-30T01:30:57+00:00",
+        "seconds": 171
+      },
+      "first_recovered_funding_to_seed_provider_seconds": 798,
+      "outputs": [
+        {
+          "index": 0,
+          "address": "bc1qx76cae2706qd5q576feh7xq8rfcsjpf2htfhe3",
+          "value_sat": 39847573857,
+          "archival_spent_flag": false
+        }
+      ]
+    },
+    {
+      "txid": "38b6dc366fcac50e2fe4a7fa901bfea957361c51157ad037d46e0febf89187de",
+      "block_height": 960736,
+      "confirmed_utc": "2026-08-02T13:59:04+00:00",
+      "provider_transaction_utc": "2026-08-02T13:56:08+00:00",
+      "input_sat": 3601595685,
+      "output_sat": 3601585057,
+      "fee_sat": 10628,
+      "parent_output_count": 101,
+      "distinct_parent_transactions_requested": 101,
+      "parent_transactions_recovered": 34,
+      "parent_transactions_missing": 67,
+      "recovered_parent_output_sat": 208009168,
+      "missing_parent_output_sat": 3393586517,
+      "recovered_funding_distinct_input_addresses": 34,
+      "recovered_funding_missing_input_address_slots": 0,
+      "collectors": [
+        {
+          "address": "bc1ptd5x926gkxdu0p8a2rufr7u8lklrfqapucj8yha7vjqh5z6md9kqf53nap",
+          "input_output_count": 101,
+          "input_value_sat": 3601595685,
+          "recovered_parent_count": 34
+        }
+      ],
+      "recovered_funding_confirmation_span": {
+        "first_utc": "2026-08-02T13:43:46+00:00",
+        "last_utc": "2026-08-02T13:43:46+00:00",
+        "seconds": 0
+      },
+      "recovered_funding_provider_time_span": {
+        "first_utc": "2026-08-02T12:54:15+00:00",
+        "last_utc": "2026-08-02T13:43:46+00:00",
+        "seconds": 2971
+      },
+      "first_recovered_funding_to_seed_provider_seconds": 3713,
+      "outputs": [
+        {
+          "index": 0,
+          "address": "bc1pdl33jtqnausmx2d4r4c6wpnk5are8jz046y3yjkw8fryjel02p7sluu9ce",
+          "value_sat": 3601585057,
+          "archival_spent_flag": false
+        }
+      ]
+    },
+    {
+      "txid": "4b50d61a3d6e54c62ee0be13d7e9a8b69bffe7fc2b2cab4e14da56e4e20440d2",
+      "block_height": 960190,
+      "confirmed_utc": "2026-07-30T01:43:00+00:00",
+      "provider_transaction_utc": "2026-07-30T01:40:46+00:00",
+      "input_sat": 8962370091,
+      "output_sat": 8962327890,
+      "fee_sat": 42201,
+      "parent_output_count": 204,
+      "distinct_parent_transactions_requested": 204,
+      "parent_transactions_recovered": 204,
+      "parent_transactions_missing": 0,
+      "recovered_parent_output_sat": 8962370091,
+      "missing_parent_output_sat": 0,
+      "recovered_funding_distinct_input_addresses": 204,
+      "recovered_funding_missing_input_address_slots": 0,
+      "collectors": [
+        {
+          "address": "bc1qdaarag7729c2n4l2wnyt3hkhfpcs66n98z7uuh",
+          "input_output_count": 100,
+          "input_value_sat": 8885045709,
+          "recovered_parent_count": 100
+        },
+        {
+          "address": "bc1qh0l7q0mca3ln7wsl9luwns0jc9jhgrtft025l4",
+          "input_output_count": 104,
+          "input_value_sat": 77324382,
+          "recovered_parent_count": 104
+        }
+      ],
+      "recovered_funding_confirmation_span": {
+        "first_utc": "2026-07-30T01:10:20+00:00",
+        "last_utc": "2026-07-30T01:10:20+00:00",
+        "seconds": 0
+      },
+      "recovered_funding_provider_time_span": {
+        "first_utc": "2026-07-30T01:01:37+00:00",
+        "last_utc": "2026-07-30T01:04:43+00:00",
+        "seconds": 186
+      },
+      "first_recovered_funding_to_seed_provider_seconds": 2349,
+      "outputs": [
+        {
+          "index": 0,
+          "address": "bc1q8jy96fe5lf8vfugydnte3cguk92gpev7kwtp3q",
+          "value_sat": 8962327890,
+          "archival_spent_flag": false
+        }
+      ]
+    },
+    {
+      "txid": "ba119968ec4b82c28f557dfc6cbb2c1834d55145e5a352872c533296d19d3082",
+      "block_height": 960377,
+      "confirmed_utc": "2026-07-31T09:22:57+00:00",
+      "provider_transaction_utc": "2026-07-31T09:13:05+00:00",
+      "input_sat": 4590664294,
+      "output_sat": 4590251994,
+      "fee_sat": 412300,
+      "parent_output_count": 1212,
+      "distinct_parent_transactions_requested": 1212,
+      "parent_transactions_recovered": 0,
+      "parent_transactions_missing": 1212,
+      "recovered_parent_output_sat": 0,
+      "missing_parent_output_sat": 4590664294,
+      "recovered_funding_distinct_input_addresses": 0,
+      "recovered_funding_missing_input_address_slots": 0,
+      "collectors": [
+        {
+          "address": "bc1qsjrf5ze5tmulz7y2x4pc7qaex2a35sanp3rqlx",
+          "input_output_count": 1212,
+          "input_value_sat": 4590664294,
+          "recovered_parent_count": 0
+        }
+      ],
+      "recovered_funding_confirmation_span": null,
+      "recovered_funding_provider_time_span": null,
+      "first_recovered_funding_to_seed_provider_seconds": null,
+      "outputs": [
+        {
+          "index": 0,
+          "address": "bc1qtfrwa4j6rmj9rsgspv6a0yjumkg39js2numu75",
+          "value_sat": 4590251994,
+          "archival_spent_flag": false
+        }
+      ]
+    }
+  ],
+  "unique_parent_transactions_requested": 2349,
+  "unique_parent_transactions_recovered": 1070,
+  "selected_seed_output_sum_sat": 113203701099,
+  "selected_seed_fee_sum_sat": 2183769,
+  "observed_seed_output_spends_in_selected_blocks": [],
+  "course_address_in_selected_blocks": {
+    "address": "bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0",
+    "receipt_transaction_count": 504,
+    "received_output_count": 504,
+    "received_sat": 59447725695,
+    "spending_transaction_count": 1,
+    "spent_output_count": 341,
+    "spent_input_sat": 56202666941,
+    "observed_receipts_minus_spent_sat": 3245058754,
+    "funding_transaction_distinct_input_addresses": 504,
+    "funding_transaction_missing_input_address_slots": 0,
+    "self_receipt_output_count": 0,
+    "receipt_confirmation_span": {
+      "first_utc": "2026-07-30T01:36:08+00:00",
+      "last_utc": "2026-08-03T00:44:15+00:00",
+      "seconds": 342487
+    },
+    "spending_transactions": [
+      {
+        "txid": "0c6bf853a645b699a3b2cd6d8e3c44cf1a02a16f538df08212a44753f75d9d01",
+        "block_time": 1785376286,
+        "consumed_output_count": 341,
+        "consumed_sat": 56202666941,
+        "all_inputs_from_address": true,
+        "outputs": [
+          {
+            "index": 0,
+            "address": "bc1qq85v2c926eg6pgxhwp6q7lf6cnsz80qs3fcu9r",
+            "value_sat": 56201962301
+          }
+        ]
+      }
+    ]
+  },
+  "prior_parent_audit_reconciliation": {
+    "file": "parents.json",
+    "sha256": "9e47396449d8ba65d7d6978c9e979bdfc3a4c47b3f3dfcb399fb535982c1d779",
+    "rows_reconciled": 1070,
+    "source": "https://bitquery.io/investigations/coldcard-wallet-hack",
+    "source_attributed_seeds_found": [
+      "0c6bf853a645b699a3b2cd6d8e3c44cf1a02a16f538df08212a44753f75d9d01",
+      "14edd9ee8445793c320e92e3b50365a0e18b8b25f424044bce337463f007fdd2",
+      "38b6dc366fcac50e2fe4a7fa901bfea957361c51157ad037d46e0febf89187de",
+      "4b50d61a3d6e54c62ee0be13d7e9a8b69bffe7fc2b2cab4e14da56e4e20440d2",
+      "ba119968ec4b82c28f557dfc6cbb2c1834d55145e5a352872c533296d19d3082"
+    ],
+    "source_attributed_seeds_missing": [],
+    "distinct_parent_indices_requested": 2349,
+    "parent_transactions_found": 1070,
+    "parent_transactions_missing": 1279
+  },
+  "complete_course_history": {
+    "file": "coldcard_target_history_20261014.json.gz",
+    "sha256": "ee785d7c6116c33cc1578a3dd09722f68f49a2dc295f983fbeb710d93bc11950",
+    "provider": "https://blockstream.info/api",
+    "collected_at": "2026-10-14T23:02:05.172535+00:00",
+    "audit": {
+      "coverage_complete_by_provider_counters": true,
+      "observed": {
+        "tx_count": 507,
+        "funded_txo_count": 506,
+        "spent_txo_count": 341,
+        "funded_txo_sum": 59447728031,
+        "spent_txo_sum": 56202666941
+      },
+      "counters_stable": true,
+      "pagination_exhausted": true,
+      "cryptographic_inclusion_verified": false
+    },
+    "summary": {
+      "address": "bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0",
+      "receipt_transaction_count": 506,
+      "received_output_count": 506,
+      "received_sat": 59447728031,
+      "spending_transaction_count": 1,
+      "spent_output_count": 341,
+      "spent_input_sat": 56202666941,
+      "observed_receipts_minus_spent_sat": 3245061090,
+      "funding_transaction_distinct_input_addresses": 505,
+      "funding_transaction_missing_input_address_slots": 0,
+      "self_receipt_output_count": 0,
+      "receipt_confirmation_span": {
+        "first_utc": "2026-07-30T01:36:08+00:00",
+        "last_utc": "2026-08-19T03:21:08+00:00",
+        "seconds": 1734300
+      },
+      "spending_transactions": [
+        {
+          "txid": "0c6bf853a645b699a3b2cd6d8e3c44cf1a02a16f538df08212a44753f75d9d01",
+          "block_time": 1785376286,
+          "consumed_output_count": 341,
+          "consumed_sat": 56202666941,
+          "all_inputs_from_address": true,
+          "outputs": [
+            {
+              "index": 0,
+              "address": "bc1qq85v2c926eg6pgxhwp6q7lf6cnsz80qs3fcu9r",
+              "value_sat": 56201962301
+            }
+          ]
+        }
+      ]
+    },
+    "extra_txids_outside_archive": [
+      "5c9a49333f0fcae8dbfc43968d11e6e51712e973c192f993f53ba63e40980b9d",
+      "d4aea2c249e6570c418a19bafab67b8b6438c3bd22533ed5d39882ea92a2013b"
+    ],
+    "shared_transaction_outputs_reconciled": 505,
+    "shared_transaction_block_anchors_reconciled": 505,
+    "received_prevouts_reconciliation": {
+      "consumed_outpoints_reconciled": 341,
+      "consumed_sat": 56202666941,
+      "cryptographic_inclusion_verified": false
+    }
+  },
+  "current_seed_outspends": {
+    "file": "coldcard_seed_outspends_20261014.json",
+    "sha256": "db00c8767d7842573883a088d4e42ea6035f568f14bba5e0374772ccc7bd6ff0",
+    "provider": "https://blockstream.info/api",
+    "queries": [
+      {
+        "txid": "ba119968ec4b82c28f557dfc6cbb2c1834d55145e5a352872c533296d19d3082",
+        "vout": 0,
+        "address": "bc1qtfrwa4j6rmj9rsgspv6a0yjumkg39js2numu75",
+        "endpoint": "https://blockstream.info/api/tx/ba119968ec4b82c28f557dfc6cbb2c1834d55145e5a352872c533296d19d3082/outspend/0",
+        "collected_at": "2026-10-14T23:00:59.584495+00:00",
+        "response": {
+          "spent": false
+        }
+      },
+      {
+        "txid": "0c6bf853a645b699a3b2cd6d8e3c44cf1a02a16f538df08212a44753f75d9d01",
+        "vout": 0,
+        "address": "bc1qq85v2c926eg6pgxhwp6q7lf6cnsz80qs3fcu9r",
+        "endpoint": "https://blockstream.info/api/tx/0c6bf853a645b699a3b2cd6d8e3c44cf1a02a16f538df08212a44753f75d9d01/outspend/0",
+        "collected_at": "2026-10-14T23:00:59.584979+00:00",
+        "response": {
+          "spent": false
+        }
+      },
+      {
+        "txid": "14edd9ee8445793c320e92e3b50365a0e18b8b25f424044bce337463f007fdd2",
+        "vout": 0,
+        "address": "bc1qx76cae2706qd5q576feh7xq8rfcsjpf2htfhe3",
+        "endpoint": "https://blockstream.info/api/tx/14edd9ee8445793c320e92e3b50365a0e18b8b25f424044bce337463f007fdd2/outspend/0",
+        "collected_at": "2026-10-14T23:01:05.051972+00:00",
+        "response": {
+          "spent": false
+        }
+      },
+      {
+        "txid": "4b50d61a3d6e54c62ee0be13d7e9a8b69bffe7fc2b2cab4e14da56e4e20440d2",
+        "vout": 0,
+        "address": "bc1q8jy96fe5lf8vfugydnte3cguk92gpev7kwtp3q",
+        "endpoint": "https://blockstream.info/api/tx/4b50d61a3d6e54c62ee0be13d7e9a8b69bffe7fc2b2cab4e14da56e4e20440d2/outspend/0",
+        "collected_at": "2026-10-14T23:01:05.118901+00:00",
+        "response": {
+          "spent": false
+        }
+      },
+      {
+        "txid": "38b6dc366fcac50e2fe4a7fa901bfea957361c51157ad037d46e0febf89187de",
+        "vout": 0,
+        "address": "bc1pdl33jtqnausmx2d4r4c6wpnk5are8jz046y3yjkw8fryjel02p7sluu9ce",
+        "endpoint": "https://blockstream.info/api/tx/38b6dc366fcac50e2fe4a7fa901bfea957361c51157ad037d46e0febf89187de/outspend/0",
+        "collected_at": "2026-10-14T23:01:08.149557+00:00",
+        "response": {
+          "spent": false
+        }
+      }
+    ],
+    "cryptographic_inclusion_verified": false
+  },
+  "limitations": [
+    "A graph relation or textbook selection is not verified theft or hardware-wallet control.",
+    "Distinct funding input addresses are not distinct people, victims, or independent cases.",
+    "Lifetime gross receipts can include unrelated later deposits and self-change.",
+    "Selected-block parent coverage is incomplete; missing source addresses cannot be counted.",
+    "Block timestamps date confirmations approximately; provider transaction times are not exact attack times.",
+    "Spent flags and Esplora counters are provider observations, not verified cryptographic proofs.",
+    "Destination addresses are structural candidates only; neither owner nor intent is established."
+  ]
+}

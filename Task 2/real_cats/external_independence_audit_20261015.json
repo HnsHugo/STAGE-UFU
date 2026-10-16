@@ -1,0 +1,2195 @@
+{
+  "status": "Executed descriptive independence audit; no independent labeled evaluation established",
+  "executed_at": "2026-10-15T18:12:47.665207+00:00",
+  "operation": "Read saved scores and source identity/extrema metadata; no model fitting, retuning or predictions",
+  "score_reports": [
+    {
+      "file": "expanded_external_scores_20261014.json",
+      "sha256": "a9830ee4b6bd9b13ad4de4eecca6ea7df72c1cccc7fcb2a93644029560b9c052"
+    },
+    {
+      "file": "fsf_external_score_20261014.json",
+      "sha256": "1dcf892f4be4133e4ff5317628b48d9f3b51cb6cecf5eff340a13ddaa0a6df7d"
+    }
+  ],
+  "source_sha256": {
+    "BB.tsv": "3bfe26f493e5767737c9ecf4c654009067c162dc7fa6fec68b0ab8234d4431e9",
+    "CB.tsv": "faf3978f5c9ce3b1257af72ac01975d657ab7529f66faf1a66f1f22f99fbb1ec"
+  },
+  "audit_script_sha256": "29e5fcc6d646a99e1523d4b92815a00ef1ba41290fbb7e201cf40103e5e3efdb",
+  "split_code_sha256": "85e767355477c61c0b03750fe5634d6bc8de81ce55b67c49876d9ce17a34c523",
+  "runtime": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.8.0"
+  },
+  "fixed_model": {
+    "n_estimators": 100,
+    "max_depth": 20,
+    "min_samples_leaf": 20,
+    "max_features": "sqrt",
+    "class_weight": 1,
+    "random_state": 42,
+    "threshold": 0.15
+  },
+  "split_membership_counts": {
+    "train": 52736,
+    "validation": 17579,
+    "reserved_test": 17579
+  },
+  "split_membership_sha256": "5ab00753b4c427720db548d9603f2f6628f0c7a076d2ca149b26db312b300593",
+  "scope": {
+    "addresses": 11,
+    "evidence_groups": 5,
+    "confirmed_transactions_sum": 2883,
+    "distinct_confirmed_transactions": 2883,
+    "pairwise_comparisons": 55,
+    "full_histories_available_for_source_addresses": false,
+    "source_transaction_columns": [
+      "max_sent_transaction_id",
+      "min_sent_transaction_id",
+      "max_received_transaction_id",
+      "min_received_transaction_id"
+    ]
+  },
+  "profiles": [
+    {
+      "address": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "evidence_group": "eff",
+      "source_record": {
+        "address": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+        "entity_group": "eff",
+        "source_url": "https://www.eff.org/pages/other-ways-give-and-donor-support",
+        "source_role": "officially_published_donation_recipient",
+        "source_label": "official_donation_recipient",
+        "label_available_at": null,
+        "training_label": "pending_comparison_policy",
+        "real_cats_overlap": {
+          "BB": false,
+          "CB": false
+        }
+      },
+      "history_file": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so.json.gz",
+      "history_sha256": "f39cfc9b882006263cba68a38d450b4843d8359fef045a588a958fdea35b51e4",
+      "collected_at": "2026-10-14T18:38:13.488720+00:00",
+      "provider": "https://blockstream.info/api",
+      "recomputed_provider_counters": {
+        "tx_count": 191,
+        "funded_txo_count": 97,
+        "spent_txo_count": 97,
+        "funded_txo_sum": 1108591222,
+        "spent_txo_sum": 1108591222
+      },
+      "coinbase_inputs": 0,
+      "inputs_without_decoded_address": 0,
+      "outputs_without_decoded_address": 1,
+      "decoded_coaddress_count": 16749,
+      "source_category_score": 0.04517278244326829,
+      "above_fixed_threshold": false,
+      "outside_training_minmax": []
+    },
+    {
+      "address": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "evidence_group": "btcpay_lnd_20260807",
+      "source_record": {
+        "address": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+        "source_role": "research_attributed_collector",
+        "source_id": "btcpay_research",
+        "case_group": "btcpay_lnd_20260807",
+        "source_url": "https://github.com/somaxbt/btcpay-lnd-drain-2026-08",
+        "source_label": "reported_collector",
+        "label_available_at": null
+      },
+      "history_file": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH.json",
+      "history_sha256": "5965b85530435dfcf1356ca2593908f98846ec6779255fc9bc1e2fa6ef982b6d",
+      "collected_at": "2026-10-13T19:51:34.738491+00:00",
+      "provider": "https://blockstream.info/api",
+      "recomputed_provider_counters": {
+        "tx_count": 72,
+        "funded_txo_count": 71,
+        "spent_txo_count": 71,
+        "funded_txo_sum": 174760889,
+        "spent_txo_sum": 174760889
+      },
+      "coinbase_inputs": 0,
+      "inputs_without_decoded_address": 0,
+      "outputs_without_decoded_address": 0,
+      "decoded_coaddress_count": 538,
+      "source_category_score": 0.2719380143135616,
+      "above_fixed_threshold": true,
+      "outside_training_minmax": []
+    },
+    {
+      "address": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "evidence_group": "btcpay_lnd_20260807",
+      "source_record": {
+        "address": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+        "source_role": "research_attributed_collector",
+        "source_id": "btcpay_research",
+        "case_group": "btcpay_lnd_20260807",
+        "source_url": "https://github.com/somaxbt/btcpay-lnd-drain-2026-08",
+        "source_label": "reported_collector",
+        "label_available_at": null
+      },
+      "history_file": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF.json",
+      "history_sha256": "76f550d7917d0ba0d9b2f487f62f92a76e14591a31fd957555484a6de21254ee",
+      "collected_at": "2026-10-13T19:51:23.265169+00:00",
+      "provider": "https://blockstream.info/api",
+      "recomputed_provider_counters": {
+        "tx_count": 2,
+        "funded_txo_count": 1,
+        "spent_txo_count": 1,
+        "funded_txo_sum": 46608022,
+        "spent_txo_sum": 46608022
+      },
+      "coinbase_inputs": 0,
+      "inputs_without_decoded_address": 0,
+      "outputs_without_decoded_address": 0,
+      "decoded_coaddress_count": 37,
+      "source_category_score": 0.2106263247342827,
+      "above_fixed_threshold": true,
+      "outside_training_minmax": []
+    },
+    {
+      "address": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "evidence_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+      "source_record": {
+        "address": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+        "chain": "bitcoin",
+        "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+        "role": "reported_stolen_funds_holder",
+        "evidence_level": "official_public_attribution",
+        "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+        "source_published_on": "2023-08-22",
+        "attribution_as_of": "2023-08-22",
+        "hardware_control": "unknown",
+        "specific_originating_heist": "unknown",
+        "onchain_history_collected": false
+      },
+      "history_file": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG.json",
+      "history_sha256": "238d0dd176f240410a75d8980d64ec7c232f09e70d59b1bde3fd9d6605bb6d21",
+      "collected_at": "2026-10-10T00:54:39.166660+00:00",
+      "provider": "https://blockstream.info/api",
+      "recomputed_provider_counters": {
+        "tx_count": 5,
+        "funded_txo_count": 3,
+        "spent_txo_count": 3,
+        "funded_txo_sum": 29699999137,
+        "spent_txo_sum": 29699999137
+      },
+      "coinbase_inputs": 0,
+      "inputs_without_decoded_address": 0,
+      "outputs_without_decoded_address": 0,
+      "decoded_coaddress_count": 6,
+      "source_category_score": 0.11875303766764059,
+      "above_fixed_threshold": false,
+      "outside_training_minmax": []
+    },
+    {
+      "address": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "evidence_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+      "source_record": {
+        "address": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+        "chain": "bitcoin",
+        "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+        "role": "reported_stolen_funds_holder",
+        "evidence_level": "official_public_attribution",
+        "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+        "source_published_on": "2023-08-22",
+        "attribution_as_of": "2023-08-22",
+        "hardware_control": "unknown",
+        "specific_originating_heist": "unknown",
+        "onchain_history_collected": false
+      },
+      "history_file": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL.json",
+      "history_sha256": "19b613463e93f8ef3bad1890225935c65b638d7ccc374524dcb12175b13e545e",
+      "collected_at": "2026-10-10T00:56:24.568046+00:00",
+      "provider": "https://blockstream.info/api",
+      "recomputed_provider_counters": {
+        "tx_count": 3,
+        "funded_txo_count": 2,
+        "spent_txo_count": 2,
+        "funded_txo_sum": 23913352900,
+        "spent_txo_sum": 23913352900
+      },
+      "coinbase_inputs": 0,
+      "inputs_without_decoded_address": 0,
+      "outputs_without_decoded_address": 0,
+      "decoded_coaddress_count": 4,
+      "source_category_score": 0.23384112088573336,
+      "above_fixed_threshold": true,
+      "outside_training_minmax": []
+    },
+    {
+      "address": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "evidence_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+      "source_record": {
+        "address": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+        "chain": "bitcoin",
+        "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+        "role": "reported_stolen_funds_holder",
+        "evidence_level": "official_public_attribution",
+        "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+        "source_published_on": "2023-08-22",
+        "attribution_as_of": "2023-08-22",
+        "hardware_control": "unknown",
+        "specific_originating_heist": "unknown",
+        "onchain_history_collected": false
+      },
+      "history_file": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk.json",
+      "history_sha256": "99032116680eea6cc03b9242ffb122dc03083da26e07b0dd72ede0624afff1fe",
+      "collected_at": "2026-10-10T00:55:22.689861+00:00",
+      "provider": "https://blockstream.info/api",
+      "recomputed_provider_counters": {
+        "tx_count": 3,
+        "funded_txo_count": 2,
+        "spent_txo_count": 1,
+        "funded_txo_sum": 29808285628,
+        "spent_txo_sum": 29808275628
+      },
+      "coinbase_inputs": 0,
+      "inputs_without_decoded_address": 0,
+      "outputs_without_decoded_address": 0,
+      "decoded_coaddress_count": 4,
+      "source_category_score": 0.23650283689523338,
+      "above_fixed_threshold": true,
+      "outside_training_minmax": []
+    },
+    {
+      "address": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "evidence_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+      "source_record": {
+        "address": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+        "chain": "bitcoin",
+        "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+        "role": "reported_stolen_funds_holder",
+        "evidence_level": "official_public_attribution",
+        "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+        "source_published_on": "2023-08-22",
+        "attribution_as_of": "2023-08-22",
+        "hardware_control": "unknown",
+        "specific_originating_heist": "unknown",
+        "onchain_history_collected": false
+      },
+      "history_file": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB.json",
+      "history_sha256": "f5ff55cbbc7cc80702ecace0c032f94cc19ce0d78d548e251b6ccc64e869708b",
+      "collected_at": "2026-10-10T00:56:03.701962+00:00",
+      "provider": "https://blockstream.info/api",
+      "recomputed_provider_counters": {
+        "tx_count": 3,
+        "funded_txo_count": 2,
+        "spent_txo_count": 2,
+        "funded_txo_sum": 35917947190,
+        "spent_txo_sum": 35917947190
+      },
+      "coinbase_inputs": 0,
+      "inputs_without_decoded_address": 0,
+      "outputs_without_decoded_address": 0,
+      "decoded_coaddress_count": 4,
+      "source_category_score": 0.22512407038229795,
+      "above_fixed_threshold": true,
+      "outside_training_minmax": []
+    },
+    {
+      "address": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "evidence_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+      "source_record": {
+        "address": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+        "chain": "bitcoin",
+        "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+        "role": "reported_stolen_funds_holder",
+        "evidence_level": "official_public_attribution",
+        "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+        "source_published_on": "2023-08-22",
+        "attribution_as_of": "2023-08-22",
+        "hardware_control": "unknown",
+        "specific_originating_heist": "unknown",
+        "onchain_history_collected": false
+      },
+      "history_file": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc.json",
+      "history_sha256": "f862bd60aef9a96621201f25db2dbb17d2a08570d6fd718420a57b5becef2c7a",
+      "collected_at": "2026-10-10T00:55:43.054909+00:00",
+      "provider": "https://blockstream.info/api",
+      "recomputed_provider_counters": {
+        "tx_count": 4,
+        "funded_txo_count": 2,
+        "spent_txo_count": 2,
+        "funded_txo_sum": 27799993140,
+        "spent_txo_sum": 27799993140
+      },
+      "coinbase_inputs": 0,
+      "inputs_without_decoded_address": 0,
+      "outputs_without_decoded_address": 0,
+      "decoded_coaddress_count": 5,
+      "source_category_score": 0.1480671199439683,
+      "above_fixed_threshold": false,
+      "outside_training_minmax": []
+    },
+    {
+      "address": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "evidence_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+      "source_record": {
+        "address": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+        "chain": "bitcoin",
+        "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+        "role": "reported_stolen_funds_holder",
+        "evidence_level": "official_public_attribution",
+        "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+        "source_published_on": "2023-08-22",
+        "attribution_as_of": "2023-08-22",
+        "hardware_control": "unknown",
+        "specific_originating_heist": "unknown",
+        "onchain_history_collected": false
+      },
+      "history_file": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu.json",
+      "history_sha256": "cbe4afe71db7580c04497f7ad494ea38d101be820ee94b2ba76c9b50513cebb0",
+      "collected_at": "2026-10-10T00:55:01.850401+00:00",
+      "provider": "https://blockstream.info/api",
+      "recomputed_provider_counters": {
+        "tx_count": 4,
+        "funded_txo_count": 2,
+        "spent_txo_count": 2,
+        "funded_txo_sum": 10988318933,
+        "spent_txo_sum": 10988318933
+      },
+      "coinbase_inputs": 0,
+      "inputs_without_decoded_address": 0,
+      "outputs_without_decoded_address": 0,
+      "decoded_coaddress_count": 9,
+      "source_category_score": 0.14306370346540315,
+      "above_fixed_threshold": false,
+      "outside_training_minmax": []
+    },
+    {
+      "address": "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+      "evidence_group": "binance_2019",
+      "source_record": {
+        "address": "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+        "case_group": "binance_2019",
+        "role": "research_attributed_attacker_recipient",
+        "evidence_level": "research_attribution_resolved_by_unique_prefix_suffix_amount_match",
+        "source_url": "https://yong-wang.org/publication/23-SMC-Intention-Discovery.pdf",
+        "source_section": "Section VII.F, page 6; abbreviated bc1q***v3wm and 567.997 BTC",
+        "incident_source": "https://www.binance.com/en/support/announcement/detail/360028031711",
+        "source_published_on": null,
+        "source_available_at": null,
+        "hardware_control": "unknown",
+        "matched_transaction": "e8b406091959700dbffcff30a60b190133721e5c39e89bb5fe23c5a554ab05ea",
+        "matched_output_index": 6,
+        "caveats": [
+          "Complete address resolved from on-chain output, not fully printed in the paper",
+          "Paper introduction says 2017 while case section specifies 7 May 2019",
+          "No verified ownership or independent incident-role corroboration",
+          "Other transaction outputs remain unresolved"
+        ]
+      },
+      "history_file": "history.json",
+      "history_sha256": "66031fe316c134b58b10eb5321cf9ccbfe56ad0f266ba4b41d44c392890bb2cd",
+      "collected_at": "2026-10-13T19:39:20.817025+00:00",
+      "provider": "https://blockstream.info/api",
+      "recomputed_provider_counters": {
+        "tx_count": 3,
+        "funded_txo_count": 2,
+        "spent_txo_count": 2,
+        "funded_txo_sum": 56799708642,
+        "spent_txo_sum": 56799708642
+      },
+      "coinbase_inputs": 0,
+      "inputs_without_decoded_address": 0,
+      "outputs_without_decoded_address": 0,
+      "decoded_coaddress_count": 50,
+      "source_category_score": 0.27511564575207553,
+      "above_fixed_threshold": true,
+      "outside_training_minmax": []
+    },
+    {
+      "address": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "evidence_group": "fsf",
+      "source_record": {
+        "address": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+        "source_id": "fsf_official_donation",
+        "source_url": "https://www.fsf.org/about/ways-to-donate",
+        "label_available_at": null,
+        "training_label": "comparison_purpose_only",
+        "case_group": "FSF"
+      },
+      "history_file": "fsf_history_20261014.json.gz",
+      "history_sha256": "133144439843f6407c4e797b79db4c12205bbcb3c6fd510c2ca778e9aa64eae9",
+      "collected_at": "2026-10-14T20:55:24.711108+00:00",
+      "provider": "https://blockstream.info/api",
+      "recomputed_provider_counters": {
+        "tx_count": 2593,
+        "funded_txo_count": 2469,
+        "spent_txo_count": 2465,
+        "funded_txo_sum": 113022243778,
+        "spent_txo_sum": 112622218274
+      },
+      "coinbase_inputs": 2,
+      "inputs_without_decoded_address": 4,
+      "outputs_without_decoded_address": 25,
+      "decoded_coaddress_count": 49979,
+      "source_category_score": 0.020963927926037452,
+      "above_fixed_threshold": false,
+      "outside_training_minmax": [
+        "lifetime"
+      ]
+    }
+  ],
+  "descriptive_evidence_groups": [
+    {
+      "evidence_group": "binance_2019",
+      "addresses": 1,
+      "above_fixed_threshold": 1,
+      "score_min": 0.27511564575207553,
+      "score_median": 0.27511564575207553,
+      "score_max": 0.27511564575207553,
+      "source_urls": [
+        "https://yong-wang.org/publication/23-SMC-Intention-Discovery.pdf"
+      ],
+      "member_addresses": [
+        "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm"
+      ]
+    },
+    {
+      "evidence_group": "btcpay_lnd_20260807",
+      "addresses": 2,
+      "above_fixed_threshold": 2,
+      "score_min": 0.2106263247342827,
+      "score_median": 0.24128216952392217,
+      "score_max": 0.2719380143135616,
+      "source_urls": [
+        "https://github.com/somaxbt/btcpay-lnd-drain-2026-08"
+      ],
+      "member_addresses": [
+        "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+        "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH"
+      ]
+    },
+    {
+      "evidence_group": "eff",
+      "addresses": 1,
+      "above_fixed_threshold": 0,
+      "score_min": 0.04517278244326829,
+      "score_median": 0.04517278244326829,
+      "score_max": 0.04517278244326829,
+      "source_urls": [
+        "https://www.eff.org/pages/other-ways-give-and-donor-support"
+      ],
+      "member_addresses": [
+        "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so"
+      ]
+    },
+    {
+      "evidence_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+      "addresses": 6,
+      "above_fixed_threshold": 3,
+      "score_min": 0.11875303766764059,
+      "score_median": 0.18659559516313312,
+      "score_max": 0.23650283689523338,
+      "source_urls": [
+        "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk"
+      ],
+      "member_addresses": [
+        "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+        "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+        "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+        "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+        "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+        "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc"
+      ]
+    },
+    {
+      "evidence_group": "fsf",
+      "addresses": 1,
+      "above_fixed_threshold": 0,
+      "score_min": 0.020963927926037452,
+      "score_median": 0.020963927926037452,
+      "score_max": 0.020963927926037452,
+      "source_urls": [
+        "https://www.fsf.org/about/ways-to-donate"
+      ],
+      "member_addresses": [
+        "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN"
+      ]
+    }
+  ],
+  "pairwise_overlaps": [
+    {
+      "address_a": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "address_b": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "address_b": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "address_b": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "address_b": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "address_b": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "address_b": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "address_b": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "address_b": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "address_b": "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "address_b": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 8,
+      "shared_coaddresses": [
+        "1Archive1n2C579dMsAu3iC6tWzuQJz8dN",
+        "34kwsubU6ExhXJdTfdNN1CHYyPvfHajFnX",
+        "3AJYfVhRiCQtiB5kANg1XnFrRWBJw3m6DF",
+        "3DSz18xqMv7o6G7NicpDKxNbYRmiuNY9dL",
+        "bc1q44j0fjm2d4rp49l3wk6n6teshvztftl2qxuk44",
+        "bc1q5mtttrekmt2lc92q7059kgy9krah7xa7dfrdvj",
+        "bc1qp3f7vnmuj4pjxpfvkvf7yznac9h9r5arlv4fpv",
+        "bc1qtt04zfgjxg7lpqhk9vk8hnmnwf88ucwww5arsd"
+      ],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "address_b": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "same_evidence_group": true,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 1,
+      "shared_coaddresses": [
+        "bc1ppx9gqn9k4h7a7r3jhn6vucf73uhhmdskcryx6hn965lullrlly2sf4lkpm"
+      ],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "address_b": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "address_b": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "address_b": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "address_b": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "address_b": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "address_b": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "address_b": "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "address_b": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "address_b": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "address_b": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "address_b": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "address_b": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "address_b": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "address_b": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "address_b": "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "address_b": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "address_b": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "same_evidence_group": true,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "address_b": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "same_evidence_group": true,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "address_b": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "same_evidence_group": true,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "address_b": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "same_evidence_group": true,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "address_b": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "same_evidence_group": true,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "address_b": "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "address_b": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "address_b": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "same_evidence_group": true,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "address_b": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "same_evidence_group": true,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "address_b": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "same_evidence_group": true,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "address_b": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "same_evidence_group": true,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "address_b": "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "address_b": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "address_b": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "same_evidence_group": true,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "address_b": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "same_evidence_group": true,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "address_b": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "same_evidence_group": true,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "address_b": "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "address_b": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "address_b": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "same_evidence_group": true,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "address_b": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "same_evidence_group": true,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "address_b": "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "address_b": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "address_b": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "same_evidence_group": true,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 1,
+      "shared_coaddresses": [
+        "bc1qdd8xczhvzqtdywyxs5ywz6hsgqlurr6flpprwt"
+      ],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "address_b": "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "address_b": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "address_b": "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "address_b": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 0,
+      "shared_coaddresses": [],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    },
+    {
+      "address_a": "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+      "address_b": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "same_evidence_group": false,
+      "shared_transaction_count": 0,
+      "shared_txids": [],
+      "shared_coaddress_count": 1,
+      "shared_coaddresses": [
+        "1NDyJtNTjmwk5xPNhjgAMu4HDHigtobu1s"
+      ],
+      "focal_a_in_b_coaddresses": false,
+      "focal_b_in_a_coaddresses": false
+    }
+  ],
+  "cross_history_transaction_dependencies": [
+    {
+      "parent_txid": "7029f7ff0bdd859e075287d9b7fb61ba38ed63d7ba19dedae6c73047554998c0",
+      "parent_output": 1,
+      "child_txid": "054f3a8e1bb6856017db024eb675091f458d9ecc82bfb45bcffa19013a631a80",
+      "child_input": 4,
+      "value_sat": 15258,
+      "spending_address": "bc1ppx9gqn9k4h7a7r3jhn6vucf73uhhmdskcryx6hn965lullrlly2sf4lkpm",
+      "history_pairs": [
+        {
+          "parent_history": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+          "child_history": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH"
+        }
+      ]
+    }
+  ],
+  "source_overlap": {
+    "BB.tsv": {
+      "source_address_rows": 90164,
+      "source_rows_by_benchmark_split": {
+        "excluded_from_benchmark": 3581,
+        "reserved_test": 17317,
+        "train": 51949,
+        "validation": 17317
+      },
+      "source_rows_with_any_extrema": 86583,
+      "nonempty_extrema_by_column": {
+        "max_sent_transaction_id": 72598,
+        "min_sent_transaction_id": 72598,
+        "max_received_transaction_id": 86583,
+        "min_received_transaction_id": 86583
+      },
+      "distinct_nonempty_extrema_txids": 170077,
+      "profiles": {
+        "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so": {
+          "focal_address_present": false,
+          "coaddress_match_count": 49,
+          "coaddress_matches": [
+            {
+              "address": "17hdKJGhya5Lsb5suhLEYPXsagBpudZigD",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "1BPpCkHiNDCvR4LBcRi2xuBWdsKV1evymM",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "1MrR2JAebmAenfnbGdnH8xYSHQKwu8uM3n",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "31yuSoYmpkV5TDxuMh2GUfchJFef4kHyus",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "32w1eQogtUwKMHLrnjtQSMaqqxeVye25hA",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "339HoypF1E1HX7LnL1igZb5h5cNDpz1iUk",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "33M9rSRDoriYhFfEEUixsNL1XWBrGdu5u5",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "33RmKtuc3haLmBjx248TxMX7TZa567QTi3",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "34XMxmELaDfXqevFWAM444WiCjrvA9sQXi",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "34uFMVniqn14s7Sm1Zkf596w9dpgAGxaov",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "357a3So9CbsNfBBgFYACGvxxS6tMaDoa1P",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "35DaBn7XxtoMQxE8dnPzCAnqwH2TmL82qH",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "35KDzFMATdwj91YvcNAfhp3SBoK8o9mYaZ",
+              "source_label": "benign",
+              "benchmark_split": "reserved_test"
+            },
+            {
+              "address": "35ssqjGvfyxndv5C2zMpU8Tns66Pqdmexf",
+              "source_label": "benign",
+              "benchmark_split": "reserved_test"
+            },
+            {
+              "address": "35uR5adixViWWH1ZsZmK83A5zjgHjkFVw5",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "35v1MWL2oxRJSm9zBWLvkEphScNUnATHFb",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "37FJT8yh5eEaP814nDhPPiGvCwnwTjSRhz",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "37FyDxxq232QHUiqif79WALPbNYpXUVQfs",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "37hLEYKUdQSMigjHAPwyuKB75aTY8zXFu7",
+              "source_label": "benign",
+              "benchmark_split": "reserved_test"
+            },
+            {
+              "address": "37nrHatHStdPhQLcvtrYcK98rbhcWLaYa2",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "38dYcenHZJ6RyrNUm75TpexSfJq53K9WaP",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "39CUhAzYGvXhfeJy2ku6WfJMzaS5QFnwrB",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "39W4sHABDjJFRn1BNqrWFsH81CLsaRLB7o",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "39pq1M3Fy4Vi8AaZq4fBta2bwMmrdCp7iw",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "39v7utgLsa9YU88i4duaDU24eMAm3YDDpr",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3A1o2spfUATGqEZgZoG3cWTy4yToRjNk4r",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3AjqB35acR4DEy9VcR1s2SKuWqd4ZshUDh",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "3BPnbKDiv6VDoJUDykUrv53fen7YFgEFMZ",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3DmLBWL8FaZNHAoDo3YoXV2HhYfZi9wTni",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "3DxhkUyB1iAmf68xFdu4MX1X1DyWvU7hKT",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3E2EMPLVq4MyLuW5vcRjVeYYKp2sqfhMiz",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3E5PqW1YAFALCrw3YPtEVW9xbmrux9q7Hs",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "3EZew3cAgVUrKKFeg6wg135eTSxFPs8XwD",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3Hue3XNtDs4QY6crcQKjYKkYXm9GTaVrsh",
+              "source_label": "benign",
+              "benchmark_split": "reserved_test"
+            },
+            {
+              "address": "3J81fCufeV9bKHcEZUC9ytdCfmqGdQFzZQ",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3Jtnvsif4S7zr4MtM8dtzbYDL8jVHCkqdT",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3JwfJs8dQVk2gbjF9S8P756bg8WMhfR7KA",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3K1zpwZLGHsa17SRJhwQvTKVGYHCkK2At3",
+              "source_label": "benign",
+              "benchmark_split": "reserved_test"
+            },
+            {
+              "address": "3K4jnxpm225Yk64QBEHZ4A1sRXVfaaQKA6",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "3LGufETRcUUhqXy1tWupnkqRpmQZDx8T7w",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "3Lb1bmLmgDdafiGG6QZGUF1HyNFzPeR7re",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3LoTzQoRFY8XoH2U221LChKDjsmbywp28Y",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3MVwh5PnCav4DS9wsBmMsJFNL78YenVEqZ",
+              "source_label": "benign",
+              "benchmark_split": "reserved_test"
+            },
+            {
+              "address": "3Mu3ECeaTorbjrFo9P43RgsDMXqgcVjqNk",
+              "source_label": "benign",
+              "benchmark_split": "reserved_test"
+            },
+            {
+              "address": "3P6jfDKtXLbF3GozcNaDPAWY7RmWV5RhAj",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3PXTJPNc3DK81bTrf1Qq14sQdSEhdxCnwP",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3PhLo7ZXquK3UCPWRuNsEx5ai1LbAPzxyp",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "3QAFHhtsGSBCavAR6GWUuj49c2dmRdmh7J",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "bc1qp3f7vnmuj4pjxpfvkvf7yznac9h9r5arlv4fpv",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            }
+          ],
+          "coaddress_matches_by_split": {
+            "reserved_test": 7,
+            "train": 30,
+            "validation": 12
+          },
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN": {
+          "focal_address_present": false,
+          "coaddress_match_count": 30,
+          "coaddress_matches": [
+            {
+              "address": "16EFGkAsqgH8nbU8TJKNV8gSNSrgBSe5Nw",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "1D6oLynDVN9itMDNjMPoqrQioqMXZpi1Qa",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "1DMURstdD2AEtti954yhv3je4zCeWT4TZh",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "1FWQvu6yst32SZ5tYvWnmEXLf7rh6KzQk1",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "1LhbySTJBJXzgCboFovpzWFwueP2JtRTkM",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "1PEmiYJaS1gcbCopwvurQ1q6u7wz6karKK",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "34YgAjpPVH4z5xSR4ew7ekwMKZjXCY6NKw",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "372Giz2jpDnm6vFhSQNPweSqGphzuUVcXz",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "38hKmVCwzmMUHNfXXT6bD6xrVhNWtNiurC",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "39JYpxkEJwkfvSLSjDxmAjkrN26e8ghWx1",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3AAZD2ZpyPM2ZMbmcgYHyj5gJAVhHVm1pb",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "3BDmMnwyqG6Mf48Nsw8ZyfnZRd5jjQ4Lg6",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3BySsmwAB7txnwGTFwMSGn6xZKGRNcgG4K",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3DueDdhcR8p3SZ4J8PWB5Egopv6f4JdgbC",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3E8pBrw369Ly2xq88QnRiWUcfrQDaJxksp",
+              "source_label": "benign",
+              "benchmark_split": "reserved_test"
+            },
+            {
+              "address": "3FZ4YzmmKn3kFhV8gx65PbTigw9d1APK4g",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3Hc4UkbsGGh74VzBZ77UQ1fhSHapzdQNiT",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3MDoyzd2xLopTudjRGgR5DFBjYvvhPbhMt",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3MufL2HXHQS1sgobdgk9DFyygJ9EqYyThN",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "3QogWtCFqrE21Zi37H5MtgYsCc1Rq67oqL",
+              "source_label": "benign",
+              "benchmark_split": "reserved_test"
+            },
+            {
+              "address": "bc1q8pmuc2v0cku2ty0rfxp2jyvrhv6lpsjzq9y6s8",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "bc1qamgjuxaywqls56h7rg7afga3m6rgqwfkew688k",
+              "source_label": "benign",
+              "benchmark_split": "reserved_test"
+            },
+            {
+              "address": "bc1qel7tps3wu6zqztaanczvt76hffwh7k06jd8r9xh2v3ztpa5ty5dsz358ys",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "bc1qp3f7vnmuj4pjxpfvkvf7yznac9h9r5arlv4fpv",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "bc1qpk94448yqkuaa8ljzg6jdvz22t5a9yhqx0vewh",
+              "source_label": "benign",
+              "benchmark_split": "validation"
+            },
+            {
+              "address": "bc1qprdf80adfz7aekh5nejjfrp3jksc8r929svpxk",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "bc1qq904ynep5mvwpjxdlyecgeupg22dm8am6cfvgq",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            },
+            {
+              "address": "bc1qw8wrek2m7nlqldll66ajnwr9mh64syvkt67zlu",
+              "source_label": "benign",
+              "benchmark_split": "reserved_test"
+            },
+            {
+              "address": "bc1qxeghe5ywhdu7rtw8e0gtk6duwxj4m5nyc9sxkc",
+              "source_label": "benign",
+              "benchmark_split": "train"
+            }
+          ],
+          "coaddress_matches_by_split": {
+            "reserved_test": 4,
+            "train": 20,
+            "validation": 6
+          },
+          "extrema_transaction_match_count": 2,
+          "extrema_transaction_matches": [
+            {
+              "txid": "c1f33d23fa3fec1e1902823b327cf5f1e92246ce1e77f44df2598e2ba03aa194",
+              "input_count": 1,
+              "output_count": 556,
+              "focal_observed_roles": {
+                "input_count": 0,
+                "input_value_sat": 0,
+                "output_count": 1,
+                "output_value_sat": 547
+              },
+              "source_records": [
+                {
+                  "address": "3Hc4UkbsGGh74VzBZ77UQ1fhSHapzdQNiT",
+                  "source_label": "benign",
+                  "benchmark_split": "train",
+                  "source_field": "min_received_transaction_id",
+                  "observed_roles": {
+                    "input_count": 0,
+                    "input_value_sat": 0,
+                    "output_count": 1,
+                    "output_value_sat": 547
+                  },
+                  "observed_on_expected_side": true
+                }
+              ]
+            },
+            {
+              "txid": "ee4a3120532cc18c2ad763c51f113aaf7fb25a7488b6b2d7896741a120b2dd89",
+              "input_count": 1,
+              "output_count": 2801,
+              "focal_observed_roles": {
+                "input_count": 0,
+                "input_value_sat": 0,
+                "output_count": 1,
+                "output_value_sat": 546
+              },
+              "source_records": [
+                {
+                  "address": "38hKmVCwzmMUHNfXXT6bD6xrVhNWtNiurC",
+                  "source_label": "benign",
+                  "benchmark_split": "train",
+                  "source_field": "min_received_transaction_id",
+                  "observed_roles": {
+                    "input_count": 0,
+                    "input_value_sat": 0,
+                    "output_count": 1,
+                    "output_value_sat": 546
+                  },
+                  "observed_on_expected_side": true
+                }
+              ]
+            }
+          ],
+          "matched_source_address_count": 2
+        }
+      }
+    },
+    "CB.tsv": {
+      "source_address_rows": 90597,
+      "source_rows_by_benchmark_split": {
+        "excluded_from_benchmark": 89286,
+        "reserved_test": 262,
+        "train": 787,
+        "validation": 262
+      },
+      "source_rows_with_any_extrema": 40028,
+      "nonempty_extrema_by_column": {
+        "max_sent_transaction_id": 39246,
+        "min_sent_transaction_id": 39246,
+        "max_received_transaction_id": 40028,
+        "min_received_transaction_id": 40028
+      },
+      "distinct_nonempty_extrema_txids": 108200,
+      "profiles": {
+        "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so": {
+          "focal_address_present": false,
+          "coaddress_match_count": 1,
+          "coaddress_matches": [
+            {
+              "address": "bc1qtt04zfgjxg7lpqhk9vk8hnmnwf88ucwww5arsd",
+              "source_label": "Ransomware",
+              "benchmark_split": "excluded_from_benchmark"
+            }
+          ],
+          "coaddress_matches_by_split": {
+            "excluded_from_benchmark": 1
+          },
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu": {
+          "focal_address_present": false,
+          "coaddress_match_count": 0,
+          "coaddress_matches": [],
+          "coaddress_matches_by_split": {},
+          "extrema_transaction_match_count": 0,
+          "extrema_transaction_matches": [],
+          "matched_source_address_count": 0
+        },
+        "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm": {
+          "focal_address_present": false,
+          "coaddress_match_count": 2,
+          "coaddress_matches": [
+            {
+              "address": "3PFgaikRuFXTKNNC42b3hyXxdKg7HRHA41",
+              "source_label": "Other",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "bc1q2rdpyt8ed9pm56u9t0zjf94zrdu6gufa47pf62",
+              "source_label": "Other",
+              "benchmark_split": "excluded_from_benchmark"
+            }
+          ],
+          "coaddress_matches_by_split": {
+            "excluded_from_benchmark": 2
+          },
+          "extrema_transaction_match_count": 2,
+          "extrema_transaction_matches": [
+            {
+              "txid": "90ae2064c51de2293e0d7590532e4a9c81d00bcfec4ba51ae859c8f5e4c14c80",
+              "input_count": 4,
+              "output_count": 2,
+              "focal_observed_roles": {
+                "input_count": 2,
+                "input_value_sat": 56799708642,
+                "output_count": 0,
+                "output_value_sat": 0
+              },
+              "source_records": [
+                {
+                  "address": "bc1q2rdpyt8ed9pm56u9t0zjf94zrdu6gufa47pf62",
+                  "source_label": "Other",
+                  "benchmark_split": "excluded_from_benchmark",
+                  "source_field": "max_received_transaction_id",
+                  "observed_roles": {
+                    "input_count": 0,
+                    "input_value_sat": 0,
+                    "output_count": 1,
+                    "output_value_sat": 106064460000
+                  },
+                  "observed_on_expected_side": true
+                }
+              ]
+            },
+            {
+              "txid": "e8b406091959700dbffcff30a60b190133721e5c39e89bb5fe23c5a554ab05ea",
+              "input_count": 71,
+              "output_count": 44,
+              "focal_observed_roles": {
+                "input_count": 0,
+                "input_value_sat": 0,
+                "output_count": 1,
+                "output_value_sat": 56799700000
+              },
+              "source_records": [
+                {
+                  "address": "3PFgaikRuFXTKNNC42b3hyXxdKg7HRHA41",
+                  "source_label": "Other",
+                  "benchmark_split": "excluded_from_benchmark",
+                  "source_field": "min_received_transaction_id",
+                  "observed_roles": {
+                    "input_count": 0,
+                    "input_value_sat": 0,
+                    "output_count": 1,
+                    "output_value_sat": 3010804
+                  },
+                  "observed_on_expected_side": true
+                }
+              ]
+            }
+          ],
+          "matched_source_address_count": 2
+        },
+        "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN": {
+          "focal_address_present": false,
+          "coaddress_match_count": 35,
+          "coaddress_matches": [
+            {
+              "address": "12FWXstdRQ4xukYhnVSVgaerG1vuZCNM6F",
+              "source_label": "Darknet Market",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "14JLSAk9TKR6hVFswC6oRPoeAcydSecLFX",
+              "source_label": "Blackmail Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "159AUSeRR4A2HS7HCyetG86gB6z9PLyW4h",
+              "source_label": "Blackmail Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "16XtUcBo9UX7RPkpaSeyT7uWr6Nu4k65FZ",
+              "source_label": "Investment Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+              "source_label": "Airdrop Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1A3Ro4MitVXfCRq38p5VjULoWJaJ26Usyf",
+              "source_label": "Blackmail Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1AC4fMwgY8j9onSbXEWeH6Zan8QGMSdmtA",
+              "source_label": "Bitcoin Tumbler",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1AuXbXYsB6HQLpiEhFr2EYp3DDioJDv46H",
+              "source_label": "Blackmail Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1BgVsrMKSRuviX5TVyzXviupMcqMT44zWm",
+              "source_label": "Sextortion Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1ES14c7qLb5CYhLMUekctxLgc1FV2Ti9DA",
+              "source_label": "Blackmail Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1EjRZnZ6VMEPypgjxEDP4DnCULPKLfxzGN",
+              "source_label": "Other",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF",
+              "source_label": "Other",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1FoWyxwPXuj4C6abqwhjDWdz6D4PZgYRjA",
+              "source_label": "Bitcoin Tumbler",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1JR1whUa3G24wXpDyqMKpieckMGGW2u2VX",
+              "source_label": "Other",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1Lets1xxxx1use1xxxxxxxxxxxy2EaMkJ",
+              "source_label": "Phishing Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1N2v6NMGdfKut9UF2EXXtk83rdUE6Tv7fF",
+              "source_label": "Investment Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1PBL2XsqnSzeNVVjf73xSeNKk2kqLKdKMd",
+              "source_label": "Darknet Market",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1PSmWYsUCgeFkgcyDUvbuTfbWa3cVS3gSw",
+              "source_label": "Darknet Market",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1See1xxxx1memo1xxxxxxxxxxxxxBuhPF",
+              "source_label": "Phishing Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1aXzEKiDJKzkPxTZy9zGc3y1nCDwDPub2",
+              "source_label": "Other",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1dot1xxxxx1sv1xxxxxxxxxxxxxwYqEEt",
+              "source_label": "Phishing Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1fuLL1xxxx1power1xxxxxxxxxxzatvCK",
+              "source_label": "Phishing Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1of1xxxxx1anonymity1xxxxxxxz9JzFN",
+              "source_label": "Phishing Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1topic1xxx1hmwyda1xxxxxxxxxvo8wMn",
+              "source_label": "Phishing Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "1xxxxxxxxxxxxxxxxxxxxxxxxxy1kmdGr",
+              "source_label": "Phishing Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "37p7nhMrWdCfEJBJmAHZKPpYSG93FRZxwa",
+              "source_label": "Child Abuse and Exploitation",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "3AiXw56yCWMen8ST8bK6ucmKi3FpgxQWXE",
+              "source_label": "Darknet Market",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "3AnqLYizB9R9gyrzYps8yC7CJUk3ALWrZk",
+              "source_label": "Bitcoin Tumbler",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "3E8ociqZa9mZUSwGdSmAEMAoAxBK3FNDcd",
+              "source_label": "Ransomware",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "3P3QsMVK89JBNqZQv5zMAKG8FK3kJM4rjt",
+              "source_label": "Other",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "3QoN5gV6Pwrzz8QoJ7NyWseStgtLbi77Gp",
+              "source_label": "Investment Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "bc1q2967w8aevnkjyalcu2hf252aljuk64ysas7les",
+              "source_label": "Bitcoin Tumbler",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "bc1qa5wkgaew2dkv56kfvj49j0av5nml45x9ek9hz6",
+              "source_label": "Other",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "bc1qar9qknwsr6qx7mzr6z93u0z98w3dmwg5uc9qg9",
+              "source_label": "Blackmail Scam",
+              "benchmark_split": "excluded_from_benchmark"
+            },
+            {
+              "address": "bc1qtt04zfgjxg7lpqhk9vk8hnmnwf88ucwww5arsd",
+              "source_label": "Ransomware",
+              "benchmark_split": "excluded_from_benchmark"
+            }
+          ],
+          "coaddress_matches_by_split": {
+            "excluded_from_benchmark": 35
+          },
+          "extrema_transaction_match_count": 2,
+          "extrema_transaction_matches": [
+            {
+              "txid": "0556e5e4206759d0114151c27b67ffb593b0c05ea25a2a5f0d52b161687a4061",
+              "input_count": 1,
+              "output_count": 1,
+              "focal_observed_roles": {
+                "input_count": 0,
+                "input_value_sat": 0,
+                "output_count": 1,
+                "output_value_sat": 38739
+              },
+              "source_records": [
+                {
+                  "address": "1ES14c7qLb5CYhLMUekctxLgc1FV2Ti9DA",
+                  "source_label": "Blackmail Scam",
+                  "benchmark_split": "excluded_from_benchmark",
+                  "source_field": "max_sent_transaction_id",
+                  "observed_roles": {
+                    "input_count": 1,
+                    "input_value_sat": 52525,
+                    "output_count": 0,
+                    "output_value_sat": 0
+                  },
+                  "observed_on_expected_side": true
+                }
+              ]
+            },
+            {
+              "txid": "ee4a3120532cc18c2ad763c51f113aaf7fb25a7488b6b2d7896741a120b2dd89",
+              "input_count": 1,
+              "output_count": 2801,
+              "focal_observed_roles": {
+                "input_count": 0,
+                "input_value_sat": 0,
+                "output_count": 1,
+                "output_value_sat": 546
+              },
+              "source_records": [
+                {
+                  "address": "1A3Ro4MitVXfCRq38p5VjULoWJaJ26Usyf",
+                  "source_label": "Blackmail Scam",
+                  "benchmark_split": "excluded_from_benchmark",
+                  "source_field": "min_received_transaction_id",
+                  "observed_roles": {
+                    "input_count": 0,
+                    "input_value_sat": 0,
+                    "output_count": 1,
+                    "output_value_sat": 546
+                  },
+                  "observed_on_expected_side": true
+                },
+                {
+                  "address": "1AuXbXYsB6HQLpiEhFr2EYp3DDioJDv46H",
+                  "source_label": "Blackmail Scam",
+                  "benchmark_split": "excluded_from_benchmark",
+                  "source_field": "min_received_transaction_id",
+                  "observed_roles": {
+                    "input_count": 0,
+                    "input_value_sat": 0,
+                    "output_count": 1,
+                    "output_value_sat": 546
+                  },
+                  "observed_on_expected_side": true
+                },
+                {
+                  "address": "1N2v6NMGdfKut9UF2EXXtk83rdUE6Tv7fF",
+                  "source_label": "Investment Scam",
+                  "benchmark_split": "excluded_from_benchmark",
+                  "source_field": "min_received_transaction_id",
+                  "observed_roles": {
+                    "input_count": 0,
+                    "input_value_sat": 0,
+                    "output_count": 1,
+                    "output_value_sat": 546
+                  },
+                  "observed_on_expected_side": true
+                }
+              ]
+            }
+          ],
+          "matched_source_address_count": 4
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Matching file hashes establishes saved-byte identity, not source authenticity or blockchain inclusion.",
+    "Provider counters reconcile all supplied saved histories; cryptographic inclusion is not verified.",
+    "Source transaction identifiers cover four extrema only; missing matches cannot prove complete transaction disjointness.",
+    "Decoded co-addresses include inputs, change and batched outputs; shared co-addresses do not establish shared ownership.",
+    "Exact address disjointness is not transaction disjointness; overlapping transactions can be multi-recipient payments.",
+    "Evidence groups are conservative attribution/comparison groups, not verified mutually independent entities or incidents.",
+    "The FBI source groups several heists without mapping each address to an originating incident.",
+    "Donation purpose does not certify every received coin as benign; source crime labels do not transfer through transaction links.",
+    "Source tables lack complete incident/entity identifiers; full entity and incident independence remains unverified.",
+    "Saved histories use individual collection dates and later activity; this audit does not evaluate detection at attribution time.",
+    "Pilot scores were already inspected; these cases are a descriptive development/stress-test set, not a new untouched evaluation.",
+    "No precision, recall, F1, false-positive rate, calibrated probability or population performance is estimated."
+  ]
+}

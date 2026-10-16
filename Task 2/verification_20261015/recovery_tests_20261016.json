@@ -1,0 +1,115 @@
+{
+  "checked_at_utc": "2026-10-16T00:35:29.682697+00:00",
+  "purpose": "Recovery checkpoint: existing automated tests only; no new experiment",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "results": [
+    {
+      "suite": "wallet_collection",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "Task 2/part 1",
+        "-p",
+        "test*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.12,
+      "stdout": "",
+      "stderr": "test_changed_input_and_broken_cache_rejected (test_collect_addresses.CollectionTests.test_changed_input_and_broken_cache_rejected) ... ok\ntest_combined_csv_keeps_sources_and_unknowns_on_success_and_error (test_collect_addresses.CollectionTests.test_combined_csv_keeps_sources_and_unknowns_on_success_and_error) ... ok\ntest_duplicate_and_unsourced_claim_rejected_before_network (test_collect_addresses.CollectionTests.test_duplicate_and_unsourced_claim_rejected_before_network) ... ok\ntest_failure_is_retried_and_success_cached (test_collect_addresses.CollectionTests.test_failure_is_retried_and_success_cached) ... ok\ntest_not_found_is_distinct_and_cached (test_collect_addresses.CollectionTests.test_not_found_is_distinct_and_cached) ... ok\ntest_amounts_are_address_specific_but_fee_is_transaction_wide (test_collect_history.HistoryTests.test_amounts_are_address_specific_but_fee_is_transaction_wide) ... ok\ntest_duplicate_and_unconfirmed_transactions_rejected (test_collect_history.HistoryTests.test_duplicate_and_unconfirmed_transactions_rejected) ... ok\ntest_pagination_cursor_and_change_detection (test_collect_history.HistoryTests.test_pagination_cursor_and_change_detection) ... ok\ntest_run_preserves_input_on_error_and_resumes_without_network (test_collect_history.HistoryTests.test_run_preserves_input_on_error_and_resumes_without_network) ... ok\ntest_short_page_is_not_complete_if_count_disagrees (test_collect_history.HistoryTests.test_short_page_is_not_complete_if_count_disagrees) ... ok\ntest_zero_history_and_coinbase (test_collect_history.HistoryTests.test_zero_history_and_coinbase) ... ok\ntest_boundaries_and_sender_fees (test_collect_window.WindowTests.test_boundaries_and_sender_fees) ... ok\ntest_explicit_utc_required (test_collect_window.WindowTests.test_explicit_utc_required) ... ok\ntest_missing_is_not_zero (test_collect_window.WindowTests.test_missing_is_not_zero) ... ok\ntest_errors_and_malformed_responses_are_rejected (test_lookup_address.LookupTests.test_errors_and_malformed_responses_are_rejected) ... ok\ntest_unknown_address_is_not_an_error_or_label (test_lookup_address.LookupTests.test_unknown_address_is_not_an_error_or_label) ... ok\ntest_unnamed_cluster_is_found (test_lookup_address.LookupTests.test_unnamed_cluster_is_found) ... ok\ntest_strict_height_bounds_and_empty_not_proof (test_provider_probe.ProbeTests.test_strict_height_bounds_and_empty_not_proof) ... ok\ntest_changed_stats_at_end_rejects_mixed_snapshot (test_window_resume.ResumeTests.test_changed_stats_at_end_rejects_mixed_snapshot) ... ok\ntest_interruption_reuses_pages_and_live_stats_are_checked (test_window_resume.ResumeTests.test_interruption_reuses_pages_and_live_stats_are_checked) ... ok\ntest_manifest_pins_input_and_dates (test_window_resume.ResumeTests.test_manifest_pins_input_and_dates) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 0.032s\n\nOK\n"
+    },
+    {
+      "suite": "coldcard",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "Task 2/coldcard",
+        "-p",
+        "test*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 2.191,
+      "stdout": "",
+      "stderr": "test_coinbase_null_prevout_does_not_crash_or_claim_source_address (test_case_flows.CaseFlowsTests.test_coinbase_null_prevout_does_not_crash_or_claim_source_address) ... ok\ntest_collector_matches_file_encoding_and_refuses_overwrite (test_case_flows.CaseFlowsTests.test_collector_matches_file_encoding_and_refuses_overwrite) ... ok\ntest_double_spent_prevout_rejected (test_case_flows.CaseFlowsTests.test_double_spent_prevout_rejected) ... ok\ntest_duplicate_history_transactions_rejected (test_case_flows.CaseFlowsTests.test_duplicate_history_transactions_rejected) ... ok\ntest_invalid_fee_accounting_rejected (test_case_flows.CaseFlowsTests.test_invalid_fee_accounting_rejected) ... ok\ntest_multiple_seed_inputs_from_same_parent_count_parent_once (test_case_flows.CaseFlowsTests.test_multiple_seed_inputs_from_same_parent_count_parent_once) ... ok\ntest_outspend_collector_preserves_failed_queries_as_unknown (test_case_flows.CaseFlowsTests.test_outspend_collector_preserves_failed_queries_as_unknown) ... ok\ntest_parent_prevout_disagreement_is_not_silently_accepted (test_case_flows.CaseFlowsTests.test_parent_prevout_disagreement_is_not_silently_accepted) ... ok\ntest_parent_report_rejects_promoting_unknown_label_to_theft (test_case_flows.CaseFlowsTests.test_parent_report_rejects_promoting_unknown_label_to_theft) ... ok\ntest_parent_report_rows_are_reconstructed_not_just_counted (test_case_flows.CaseFlowsTests.test_parent_report_rows_are_reconstructed_not_just_counted) ... ok\ntest_prevout_corruption_rejected_even_when_aggregate_counter_could_match (test_case_flows.CaseFlowsTests.test_prevout_corruption_rejected_even_when_aggregate_counter_could_match) ... ok\ntest_receipts_count_outputs_and_sources_without_duplicating_addresses (test_case_flows.CaseFlowsTests.test_receipts_count_outputs_and_sources_without_duplicating_addresses) ... ok\ntest_signed_satoshi_format_is_exact (test_case_flows.CaseFlowsTests.test_signed_satoshi_format_is_exact) ... ok\ntest_specific_prevout_value_not_total_parent_value_and_missing_coverage (test_case_flows.CaseFlowsTests.test_specific_prevout_value_not_total_parent_value_and_missing_coverage) ... ok\ntest_spent_prevouts_match_actual_received_outputs (test_case_flows.CaseFlowsTests.test_spent_prevouts_match_actual_received_outputs) ... ok\ntest_cohort_matches_blocks_and_is_independent_of_stream_order (test_course_baseline.CourseBaselineTests.test_cohort_matches_blocks_and_is_independent_of_stream_order) ... ok\ntest_exact_course_features_use_output_values_and_population_std (test_course_baseline.CourseBaselineTests.test_exact_course_features_use_output_values_and_population_std) ... ok\ntest_insufficient_matched_background_is_rejected (test_course_baseline.CourseBaselineTests.test_insufficient_matched_background_is_rejected) ... ok\ntest_balance_error_refused (test_dataset.DatasetTests.test_balance_error_refused) ... ok\ntest_consistent_fixture (test_dataset.DatasetTests.test_consistent_fixture) ... ok\ntest_incomplete_manifest_refused (test_dataset.DatasetTests.test_incomplete_manifest_refused) ... ok\ntest_rate_error_refused (test_dataset.DatasetTests.test_rate_error_refused) ... ok\ntest_chronological_split_separates_heights_and_keeps_classes (test_experiment.ExperimentTests.test_chronological_split_separates_heights_and_keeps_classes) ... ok\ntest_group_coverage_mismatch_refused (test_experiment.ExperimentTests.test_group_coverage_mismatch_refused) ... ok\ntest_metrics_expose_missed_positives (test_experiment.ExperimentTests.test_metrics_expose_missed_positives) ... ok\ntest_shared_collector_merges_candidate_groups (test_experiment.ExperimentTests.test_shared_collector_merges_candidate_groups) ... ok\ntest_shared_parent_merges_seeds_without_shared_collector (test_experiment.ExperimentTests.test_shared_parent_merges_seeds_without_shared_collector) ... ok\ntest_deterministic_background_assignment (test_grouped.GroupTests.test_deterministic_background_assignment) ... ok\ntest_duplicate_candidate_refused (test_grouped.GroupTests.test_duplicate_candidate_refused) ... ok\ntest_false_counts_refused (test_grouped.GroupTests.test_false_counts_refused) ... ok\ntest_group_members_always_share_fold (test_grouped.GroupTests.test_group_members_always_share_fold) ... ok\ntest_missing_candidate_refused (test_grouped.GroupTests.test_missing_candidate_refused) ... ok\ntest_stale_provenance_refused (test_grouped.GroupTests.test_stale_provenance_refused) ... ok\ntest_json_scores_match_sklearn_at_boundaries (test_proxy_model.ProxyTests.test_json_scores_match_sklearn_at_boundaries) ... ok\ntest_large_satoshi_values_match_float32_tree_semantics (test_proxy_model.ProxyTests.test_large_satoshi_values_match_float32_tree_semantics) ... ok\ntest_missing_features_refused (test_proxy_model.ProxyTests.test_missing_features_refused) ... ok\ntest_nonfinite_values_refused (test_proxy_model.ProxyTests.test_nonfinite_values_refused) ... ok\ntest_changed_provider_counters_are_incomplete (test_theft_collection.CollectionTests.test_changed_provider_counters_are_incomplete) ... ok\ntest_checksum_rejects_transcription_error (test_theft_collection.CollectionTests.test_checksum_rejects_transcription_error) ... ok\ntest_complete_requires_exhaustion_and_matching_amounts (test_theft_collection.CollectionTests.test_complete_requires_exhaustion_and_matching_amounts) ... ok\ntest_duplicates_and_unrelated_transactions_rejected (test_theft_collection.CollectionTests.test_duplicates_and_unrelated_transactions_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 41 tests in 0.024s\n\nOK\n"
+    },
+    {
+      "suite": "ellipticplusplus",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "Task 2/ellipticplusplus",
+        "-p",
+        "test*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 2.224,
+      "stdout": "",
+      "stderr": "test_inconsistent_profiles_are_rejected (test_benchmark.BenchmarkTests.test_inconsistent_profiles_are_rejected) ... ok\ntest_metrics_count_both_types_of_errors (test_benchmark.BenchmarkTests.test_metrics_count_both_types_of_errors) ... ok\ntest_missing_coverage_and_duplicate_labels_are_rejected (test_benchmark.BenchmarkTests.test_missing_coverage_and_duplicate_labels_are_rejected) ... ok\ntest_repeated_profiles_collapse_and_unknowns_are_excluded (test_benchmark.BenchmarkTests.test_repeated_profiles_collapse_and_unknowns_are_excluded) ... ok\ntest_splits_are_disjoint_exhaustive_and_reproducible (test_benchmark.BenchmarkTests.test_splits_are_disjoint_exhaustive_and_reproducible) ... ok\ntest_half_score_tie_is_licit (test_thresholds.ThresholdTests.test_half_score_tie_is_licit) ... ok\ntest_higher_threshold_reduces_alerts (test_thresholds.ThresholdTests.test_higher_threshold_reduces_alerts) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.084s\n\nOK\n"
+    },
+    {
+      "suite": "theft_cases",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "Task 2/theft_cases",
+        "-p",
+        "test*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.065,
+      "stdout": "",
+      "stderr": "test_cutoff_is_exclusive_and_window_start_inclusive (test_asof_features.SnapshotTests.test_cutoff_is_exclusive_and_window_start_inclusive) ... ok\ntest_future_spending_does_not_change_snapshot (test_asof_features.SnapshotTests.test_future_spending_does_not_change_snapshot) ... ok\ntest_pre_window_receipts_count_in_balance_only (test_asof_features.SnapshotTests.test_pre_window_receipts_count_in_balance_only) ... ok\ntest_receiver_fees_not_used_as_outgoing_policy (test_asof_features.SnapshotTests.test_receiver_fees_not_used_as_outgoing_policy) ... ok\ntest_ambiguous_match_is_rejected (test_binance_evidence.EvidenceTests.test_ambiguous_match_is_rejected) ... ok\ntest_matching_identifier_alone_is_insufficient (test_binance_evidence.EvidenceTests.test_matching_identifier_alone_is_insufficient) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n"
+    },
+    {
+      "suite": "real_cats",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "Task 2/real_cats",
+        "-p",
+        "test*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 2.273,
+      "stdout": "",
+      "stderr": "test_coinbase_receipt_has_no_sender_or_fee (test_coinbase_profiles.CoinbaseProfileTests.test_coinbase_receipt_has_no_sender_or_fee) ... ok\ntest_coinbase_then_spend (test_coinbase_profiles.CoinbaseProfileTests.test_coinbase_then_spend) ... ok\ntest_batch_corecipient_overlap_preserves_roles_and_coverage (test_external_overlap.ExternalOverlapTests.test_batch_corecipient_overlap_preserves_roles_and_coverage) ... ok\ntest_changed_bytes_rejected_before_interpreting_file (test_external_overlap.ExternalOverlapTests.test_changed_bytes_rejected_before_interpreting_file) ... ok\ntest_coinbase_is_not_a_missing_sender_and_threshold_is_strict (test_external_overlap.ExternalOverlapTests.test_coinbase_is_not_a_missing_sender_and_threshold_is_strict) ... ok\ntest_common_transaction_detected_without_common_ownership_claim (test_external_overlap.ExternalOverlapTests.test_common_transaction_detected_without_common_ownership_claim) ... ok\ntest_conflicting_shared_transaction_address_rejected (test_external_overlap.ExternalOverlapTests.test_conflicting_shared_transaction_address_rejected) ... ok\ntest_duplicate_transactions_rejected_even_with_matching_counters (test_external_overlap.ExternalOverlapTests.test_duplicate_transactions_rejected_even_with_matching_counters) ... ok\ntest_group_counts_do_not_turn_six_addresses_into_six_incidents (test_external_overlap.ExternalOverlapTests.test_group_counts_do_not_turn_six_addresses_into_six_incidents) ... ok\ntest_missing_noncoinbase_prevout_rejected (test_external_overlap.ExternalOverlapTests.test_missing_noncoinbase_prevout_rejected) ... ok\ntest_parent_child_dependency_even_when_no_shared_txid (test_external_overlap.ExternalOverlapTests.test_parent_child_dependency_even_when_no_shared_txid) ... ok\ntest_provider_counter_drift_rejected (test_external_overlap.ExternalOverlapTests.test_provider_counter_drift_rejected) ... ok\ntest_rendered_report_computes_findings_for_other_inputs (test_external_overlap.ExternalOverlapTests.test_rendered_report_computes_findings_for_other_inputs) ... ok\ntest_shared_counterparty_does_not_merge_evidence_groups (test_external_overlap.ExternalOverlapTests.test_shared_counterparty_does_not_merge_evidence_groups) ... ok\ntest_source_extrema_overlap_without_focal_address_overlap (test_external_overlap.ExternalOverlapTests.test_source_extrema_overlap_without_focal_address_overlap) ... ok\ntest_threshold_equal_is_not_an_alert (test_external_overlap.ExternalOverlapTests.test_threshold_equal_is_not_an_alert) ... ok\ntest_unconfirmed_history_rejected (test_external_overlap.ExternalOverlapTests.test_unconfirmed_history_rejected) ... ok\ntest_unrelated_transaction_rejected (test_external_overlap.ExternalOverlapTests.test_unrelated_transaction_rejected) ... ok\ntest_wrong_focal_identity_rejected (test_external_overlap.ExternalOverlapTests.test_wrong_focal_identity_rejected) ... ok\ntest_conflicting_source_labels_rejected (test_source_categories.SourceCategoryTests.test_conflicting_source_labels_rejected) ... ok\ntest_other_categories_and_inactive_rows_are_excluded (test_source_categories.SourceCategoryTests.test_other_categories_and_inactive_rows_are_excluded) ... ok\ntest_three_way_split_is_disjoint_and_exhaustive (test_source_categories.SourceCategoryTests.test_three_way_split_is_disjoint_and_exhaustive) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.014s\n\nOK\n"
+    },
+    {
+      "suite": "demo",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "Task 2",
+        "-p",
+        "test_demo.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 2.288,
+      "stdout": "",
+      "stderr": "test_checksum_mismatch_cannot_be_reported_as_verified (test_demo.DemoTests.test_checksum_mismatch_cannot_be_reported_as_verified) ... ok\ntest_coinbase_history_has_no_spending_input_and_reconciles (test_demo.DemoTests.test_coinbase_history_has_no_spending_input_and_reconciles) ... ok\ntest_existing_report_is_never_overwritten (test_demo.DemoTests.test_existing_report_is_never_overwritten) ... ok\ntest_external_alert_uses_strict_greater_than_not_greater_equal (test_demo.DemoTests.test_external_alert_uses_strict_greater_than_not_greater_equal) ... ok\ntest_external_model_changes_and_duplicate_addresses_are_refused (test_demo.DemoTests.test_external_model_changes_and_duplicate_addresses_are_refused) ... ok\ntest_minimal_demo_is_offline_and_marks_absent_data_and_inference (test_demo.DemoTests.test_minimal_demo_is_offline_and_marks_absent_data_and_inference) ... ok\ntest_model_cycle_and_unreachable_nodes_are_rejected (test_demo.DemoTests.test_model_cycle_and_unreachable_nodes_are_rejected) ... ok\ntest_nonfinite_features_are_refused (test_demo.DemoTests.test_nonfinite_features_are_refused) ... ok\ntest_tree_uses_sklearn_float32_rounding_at_large_integer_boundary (test_demo.DemoTests.test_tree_uses_sklearn_float32_rounding_at_large_integer_boundary) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 1.964s\n\nOK\n"
+    }
+  ]
+}

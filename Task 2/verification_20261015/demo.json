@@ -1,0 +1,1225 @@
+{
+  "schema_version": 1,
+  "execution_status": "completed",
+  "status_counts": {
+    "verified": 38,
+    "unchecked": 2
+  },
+  "checks": [
+    {
+      "check": "coldcard_saved_model",
+      "status": "verified",
+      "details": {
+        "model": {
+          "features": [
+            "input_count",
+            "output_count",
+            "distinct_input_addresses",
+            "distinct_output_addresses",
+            "input_address_missing_count",
+            "output_address_missing_count",
+            "input_total_sat",
+            "output_total_sat",
+            "fee_sat",
+            "vsize_vb",
+            "fee_rate_sat_vb",
+            "version",
+            "lock_time",
+            "min_output_sat",
+            "max_output_sat",
+            "zero_value_outputs"
+          ],
+          "children_left": [
+            1,
+            2,
+            3,
+            -1,
+            -1,
+            6,
+            7,
+            -1,
+            -1,
+            10,
+            -1,
+            -1,
+            13,
+            14,
+            15,
+            -1,
+            -1,
+            18,
+            -1,
+            -1,
+            21,
+            -1,
+            -1
+          ],
+          "children_right": [
+            12,
+            5,
+            4,
+            -1,
+            -1,
+            9,
+            8,
+            -1,
+            -1,
+            11,
+            -1,
+            -1,
+            20,
+            17,
+            16,
+            -1,
+            -1,
+            19,
+            -1,
+            -1,
+            22,
+            -1,
+            -1
+          ],
+          "feature": [
+            10,
+            10,
+            6,
+            -2,
+            -2,
+            10,
+            7,
+            -2,
+            -2,
+            10,
+            -2,
+            -2,
+            10,
+            1,
+            13,
+            -2,
+            -2,
+            14,
+            -2,
+            -2,
+            9,
+            -2,
+            -2
+          ],
+          "threshold": [
+            29.995454788208008,
+            4.958674907684326,
+            250.5,
+            -2.0,
+            -2.0,
+            4.959100008010864,
+            58436.0,
+            -2.0,
+            -2.0,
+            5.025126218795776,
+            -2.0,
+            -2.0,
+            30.32028865814209,
+            1.5,
+            25495870.0,
+            -2.0,
+            -2.0,
+            129460.0,
+            -2.0,
+            -2.0,
+            110.5,
+            -2.0,
+            -2.0
+          ],
+          "candidate_score": [
+            0.49999999999919126,
+            0.03090391748866383,
+            0.0,
+            0.0,
+            0.0,
+            0.3929521814384202,
+            0.9967183217141475,
+            0.9794261329882034,
+            0.998481183095507,
+            0.018721027723197572,
+            0.1151272811614201,
+            0.0,
+            0.996330257654928,
+            0.9993941816811347,
+            0.9996058201976383,
+            0.9990547386783963,
+            0.9999789029802084,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "target": "direct_parent_candidate relation",
+          "warning": "Research-only proxy labels. Weighted score is not a calibrated theft or hardware probability.",
+          "training_sha256": "158788226288dce22bfd5ea20deab1b72551c5d0c32bdb547e113c83273841b4",
+          "training_rows": 493468,
+          "candidate_rows": 1070,
+          "evaluation": "See GROUPED_EXPERIMENT.md. This final tree uses all eligible data; no held-out performance is claimed for this fitted artifact."
+        }
+      }
+    },
+    {
+      "check": "coldcard_tree_structure",
+      "status": "verified",
+      "details": {
+        "nodes": 23,
+        "leaves": 12,
+        "depth": 4
+      }
+    },
+    {
+      "check": "coldcard_data_replay",
+      "status": "verified",
+      "details": {
+        "sha256": "158788226288dce22bfd5ea20deab1b72551c5d0c32bdb547e113c83273841b4",
+        "rows": 493571,
+        "coinbase_rows": 98,
+        "scored_rows": 493468,
+        "excluded_source_attributed": 5,
+        "relation_counts": {
+          "unattributed": 492496,
+          "direct_parent_candidate": 1070,
+          "source_attributed": 5
+        },
+        "candidate_like_rows_at_0_5": 1307,
+        "leaf_counts": {
+          "10": 3538,
+          "11": 20584,
+          "15": 600,
+          "16": 624,
+          "18": 20,
+          "19": 81,
+          "21": 274,
+          "22": 1193,
+          "3": 2254,
+          "4": 464217,
+          "7": 32,
+          "8": 51
+        },
+        "examples": [
+          {
+            "txid": "dd7fc0d46a8f8623434ee29cabc6493199a1ff270c8505a552c92732e42b150a",
+            "relation": "unattributed",
+            "research_candidate_score": 0.0,
+            "leaf": 22,
+            "decisions": [
+              {
+                "feature": "fee_rate_sat_vb",
+                "input_float32": 709.2198486328125,
+                "threshold": 29.995454788208008,
+                "branch": "right"
+              },
+              {
+                "feature": "fee_rate_sat_vb",
+                "input_float32": 709.2198486328125,
+                "threshold": 30.32028865814209,
+                "branch": "right"
+              },
+              {
+                "feature": "vsize_vb",
+                "input_float32": 141.0,
+                "threshold": 110.5,
+                "branch": "right"
+              }
+            ]
+          },
+          {
+            "txid": "4d37a68c344c95fefe88ff0d075a0b5cdc438227f86e11fa6cfbdf507e226801",
+            "relation": "unattributed",
+            "research_candidate_score": 0.0,
+            "leaf": 22,
+            "decisions": [
+              {
+                "feature": "fee_rate_sat_vb",
+                "input_float32": 140.0,
+                "threshold": 29.995454788208008,
+                "branch": "right"
+              },
+              {
+                "feature": "fee_rate_sat_vb",
+                "input_float32": 140.0,
+                "threshold": 30.32028865814209,
+                "branch": "right"
+              },
+              {
+                "feature": "vsize_vb",
+                "input_float32": 165.0,
+                "threshold": 110.5,
+                "branch": "right"
+              }
+            ]
+          },
+          {
+            "txid": "1f5898affa2474cfac3c5930ee620fab21ba05ab488a5fb2d6078d6b63b9e017",
+            "relation": "direct_parent_candidate",
+            "research_candidate_score": 0.9990547386783963,
+            "leaf": 15,
+            "decisions": [
+              {
+                "feature": "fee_rate_sat_vb",
+                "input_float32": 30.27522850036621,
+                "threshold": 29.995454788208008,
+                "branch": "right"
+              },
+              {
+                "feature": "fee_rate_sat_vb",
+                "input_float32": 30.27522850036621,
+                "threshold": 30.32028865814209,
+                "branch": "left"
+              },
+              {
+                "feature": "output_count",
+                "input_float32": 1.0,
+                "threshold": 1.5,
+                "branch": "left"
+              },
+              {
+                "feature": "min_output_sat",
+                "input_float32": 24621084.0,
+                "threshold": 25495870.0,
+                "branch": "left"
+              }
+            ]
+          },
+          {
+            "txid": "91146accc59f1b5bfabccc70c0a7c181de9454b9f1c2fa69a0bf0f7c7bbc3048",
+            "relation": "direct_parent_candidate",
+            "research_candidate_score": 0.9999789029802084,
+            "leaf": 16,
+            "decisions": [
+              {
+                "feature": "fee_rate_sat_vb",
+                "input_float32": 30.27522850036621,
+                "threshold": 29.995454788208008,
+                "branch": "right"
+              },
+              {
+                "feature": "fee_rate_sat_vb",
+                "input_float32": 30.27522850036621,
+                "threshold": 30.32028865814209,
+                "branch": "left"
+              },
+              {
+                "feature": "output_count",
+                "input_float32": 1.0,
+                "threshold": 1.5,
+                "branch": "left"
+              },
+              {
+                "feature": "min_output_sat",
+                "input_float32": 173054688.0,
+                "threshold": 25495870.0,
+                "branch": "right"
+              }
+            ]
+          }
+        ],
+        "interpretation": "Replay on the fitted artifact's own training data; no performance estimate."
+      }
+    },
+    {
+      "check": "external_saved_reports",
+      "status": "verified",
+      "details": {
+        "rows": [
+          {
+            "address": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+            "history_file": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so.json.gz",
+            "history_sha256": "f39cfc9b882006263cba68a38d450b4843d8359fef045a588a958fdea35b51e4",
+            "collected_at": "2026-10-14T18:38:13.488720+00:00",
+            "source_record": {
+              "address": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+              "entity_group": "eff",
+              "source_url": "https://www.eff.org/pages/other-ways-give-and-donor-support",
+              "source_role": "officially_published_donation_recipient",
+              "source_label": "official_donation_recipient",
+              "label_available_at": null,
+              "training_label": "pending_comparison_policy",
+              "real_cats_overlap": {
+                "BB": false,
+                "CB": false
+              }
+            },
+            "features": {
+              "balance": 0,
+              "total_received_BTC": 1108591222,
+              "total_sent_BTC": 1108591222,
+              "transaction_fee": 38197.46622409454,
+              "transaction_number": 191,
+              "payment_transactions": 94,
+              "receipt_transactions": 97,
+              "lifetime": 66918507,
+              "total_output_slots": 97,
+              "total_input_slots": 97,
+              "activity_w": 85,
+              "activity_d": 84,
+              "activity_time": 88,
+              "max_sent_amount": 1000000000,
+              "min_sent_amount": 540,
+              "max_received_amount": 1000000000,
+              "min_received_amount": 540,
+              "sent_counters": 284,
+              "received_counters": 120
+            },
+            "source_category_score": 0.04517278244326829,
+            "above_fixed_threshold": false,
+            "threshold": 0.15,
+            "missing_features": [],
+            "outside_training_minmax": []
+          },
+          {
+            "address": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+            "history_file": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH.json",
+            "history_sha256": "5965b85530435dfcf1356ca2593908f98846ec6779255fc9bc1e2fa6ef982b6d",
+            "collected_at": "2026-10-13T19:51:34.738491+00:00",
+            "source_record": {
+              "address": "19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+              "source_role": "research_attributed_collector",
+              "source_id": "btcpay_research",
+              "case_group": "btcpay_lnd_20260807",
+              "source_url": "https://github.com/somaxbt/btcpay-lnd-drain-2026-08",
+              "source_label": "reported_collector",
+              "label_available_at": null
+            },
+            "features": {
+              "balance": 0,
+              "total_received_BTC": 174760889,
+              "total_sent_BTC": 174760889,
+              "transaction_fee": 52989.0,
+              "transaction_number": 72,
+              "payment_transactions": 1,
+              "receipt_transactions": 71,
+              "lifetime": 212880,
+              "total_output_slots": 71,
+              "total_input_slots": 71,
+              "activity_w": 1,
+              "activity_d": 1,
+              "activity_time": 2,
+              "max_sent_amount": 26405507,
+              "min_sent_amount": 661,
+              "max_received_amount": 26405507,
+              "min_received_amount": 661,
+              "sent_counters": 524,
+              "received_counters": 142
+            },
+            "source_category_score": 0.2719380143135616,
+            "above_fixed_threshold": true,
+            "threshold": 0.15,
+            "missing_features": [],
+            "outside_training_minmax": []
+          },
+          {
+            "address": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+            "history_file": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF.json",
+            "history_sha256": "76f550d7917d0ba0d9b2f487f62f92a76e14591a31fd957555484a6de21254ee",
+            "collected_at": "2026-10-13T19:51:23.265169+00:00",
+            "source_record": {
+              "address": "17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+              "source_role": "research_attributed_collector",
+              "source_id": "btcpay_research",
+              "case_group": "btcpay_lnd_20260807",
+              "source_url": "https://github.com/somaxbt/btcpay-lnd-drain-2026-08",
+              "source_label": "reported_collector",
+              "label_available_at": null
+            },
+            "features": {
+              "balance": 0,
+              "total_received_BTC": 46608022,
+              "total_sent_BTC": 46608022,
+              "transaction_fee": 1122.0,
+              "transaction_number": 2,
+              "payment_transactions": 1,
+              "receipt_transactions": 1,
+              "lifetime": 330851,
+              "total_output_slots": 1,
+              "total_input_slots": 1,
+              "activity_w": 1,
+              "activity_d": 1,
+              "activity_time": 2,
+              "max_sent_amount": 46608022,
+              "min_sent_amount": 46608022,
+              "max_received_amount": 46608022,
+              "min_received_amount": 46608022,
+              "sent_counters": 35,
+              "received_counters": 2
+            },
+            "source_category_score": 0.2106263247342827,
+            "above_fixed_threshold": true,
+            "threshold": 0.15,
+            "missing_features": [],
+            "outside_training_minmax": []
+          },
+          {
+            "address": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+            "history_file": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG.json",
+            "history_sha256": "238d0dd176f240410a75d8980d64ec7c232f09e70d59b1bde3fd9d6605bb6d21",
+            "collected_at": "2026-10-10T00:54:39.166660+00:00",
+            "source_record": {
+              "address": "3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+              "chain": "bitcoin",
+              "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+              "role": "reported_stolen_funds_holder",
+              "evidence_level": "official_public_attribution",
+              "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+              "source_published_on": "2023-08-22",
+              "attribution_as_of": "2023-08-22",
+              "hardware_control": "unknown",
+              "specific_originating_heist": "unknown",
+              "onchain_history_collected": false
+            },
+            "features": {
+              "balance": 0,
+              "total_received_BTC": 29699999137,
+              "total_sent_BTC": 29699999137,
+              "transaction_fee": 53648.0,
+              "transaction_number": 5,
+              "payment_transactions": 2,
+              "receipt_transactions": 3,
+              "lifetime": 24808459,
+              "total_output_slots": 3,
+              "total_input_slots": 3,
+              "activity_w": 2,
+              "activity_d": 2,
+              "activity_time": 4,
+              "max_sent_amount": 29699984050,
+              "min_sent_amount": 5087,
+              "max_received_amount": 29699984050,
+              "min_received_amount": 5087,
+              "sent_counters": 6,
+              "received_counters": 4
+            },
+            "source_category_score": 0.11875303766764059,
+            "above_fixed_threshold": false,
+            "threshold": 0.15,
+            "missing_features": [],
+            "outside_training_minmax": []
+          },
+          {
+            "address": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+            "history_file": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL.json",
+            "history_sha256": "19b613463e93f8ef3bad1890225935c65b638d7ccc374524dcb12175b13e545e",
+            "collected_at": "2026-10-10T00:56:24.568046+00:00",
+            "source_record": {
+              "address": "34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+              "chain": "bitcoin",
+              "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+              "role": "reported_stolen_funds_holder",
+              "evidence_level": "official_public_attribution",
+              "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+              "source_published_on": "2023-08-22",
+              "attribution_as_of": "2023-08-22",
+              "hardware_control": "unknown",
+              "specific_originating_heist": "unknown",
+              "onchain_history_collected": false
+            },
+            "features": {
+              "balance": 0,
+              "total_received_BTC": 23913352900,
+              "total_sent_BTC": 23913352900,
+              "transaction_fee": 67200.0,
+              "transaction_number": 3,
+              "payment_transactions": 1,
+              "receipt_transactions": 2,
+              "lifetime": 37370382,
+              "total_output_slots": 2,
+              "total_input_slots": 2,
+              "activity_w": 1,
+              "activity_d": 1,
+              "activity_time": 2,
+              "max_sent_amount": 23913342900,
+              "min_sent_amount": 10000,
+              "max_received_amount": 23913342900,
+              "min_received_amount": 10000,
+              "sent_counters": 6,
+              "received_counters": 2
+            },
+            "source_category_score": 0.23384112088573336,
+            "above_fixed_threshold": true,
+            "threshold": 0.15,
+            "missing_features": [],
+            "outside_training_minmax": []
+          },
+          {
+            "address": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+            "history_file": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk.json",
+            "history_sha256": "99032116680eea6cc03b9242ffb122dc03083da26e07b0dd72ede0624afff1fe",
+            "collected_at": "2026-10-10T00:55:22.689861+00:00",
+            "source_record": {
+              "address": "3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+              "chain": "bitcoin",
+              "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+              "role": "reported_stolen_funds_holder",
+              "evidence_level": "official_public_attribution",
+              "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+              "source_published_on": "2023-08-22",
+              "attribution_as_of": "2023-08-22",
+              "hardware_control": "unknown",
+              "specific_originating_heist": "unknown",
+              "onchain_history_collected": false
+            },
+            "features": {
+              "balance": 10000,
+              "total_received_BTC": 29808285628,
+              "total_sent_BTC": 29808275628,
+              "transaction_fee": 19647.0,
+              "transaction_number": 3,
+              "payment_transactions": 1,
+              "receipt_transactions": 2,
+              "lifetime": 25685123,
+              "total_output_slots": 2,
+              "total_input_slots": 1,
+              "activity_w": 1,
+              "activity_d": 1,
+              "activity_time": 2,
+              "max_sent_amount": 29808275628,
+              "min_sent_amount": 29808275628,
+              "max_received_amount": 29808275628,
+              "min_received_amount": 10000,
+              "sent_counters": 4,
+              "received_counters": 2
+            },
+            "source_category_score": 0.23650283689523338,
+            "above_fixed_threshold": true,
+            "threshold": 0.15,
+            "missing_features": [],
+            "outside_training_minmax": []
+          },
+          {
+            "address": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+            "history_file": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB.json",
+            "history_sha256": "f5ff55cbbc7cc80702ecace0c032f94cc19ce0d78d548e251b6ccc64e869708b",
+            "collected_at": "2026-10-10T00:56:03.701962+00:00",
+            "source_record": {
+              "address": "3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+              "chain": "bitcoin",
+              "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+              "role": "reported_stolen_funds_holder",
+              "evidence_level": "official_public_attribution",
+              "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+              "source_published_on": "2023-08-22",
+              "attribution_as_of": "2023-08-22",
+              "hardware_control": "unknown",
+              "specific_originating_heist": "unknown",
+              "onchain_history_collected": false
+            },
+            "features": {
+              "balance": 0,
+              "total_received_BTC": 35917947190,
+              "total_sent_BTC": 35917947190,
+              "transaction_fee": 76890.0,
+              "transaction_number": 3,
+              "payment_transactions": 1,
+              "receipt_transactions": 2,
+              "lifetime": 37370201,
+              "total_output_slots": 2,
+              "total_input_slots": 2,
+              "activity_w": 1,
+              "activity_d": 1,
+              "activity_time": 2,
+              "max_sent_amount": 35917937190,
+              "min_sent_amount": 10000,
+              "max_received_amount": 35917937190,
+              "min_received_amount": 10000,
+              "sent_counters": 6,
+              "received_counters": 4
+            },
+            "source_category_score": 0.22512407038229795,
+            "above_fixed_threshold": true,
+            "threshold": 0.15,
+            "missing_features": [],
+            "outside_training_minmax": []
+          },
+          {
+            "address": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+            "history_file": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc.json",
+            "history_sha256": "f862bd60aef9a96621201f25db2dbb17d2a08570d6fd718420a57b5becef2c7a",
+            "collected_at": "2026-10-10T00:55:43.054909+00:00",
+            "source_record": {
+              "address": "3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+              "chain": "bitcoin",
+              "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+              "role": "reported_stolen_funds_holder",
+              "evidence_level": "official_public_attribution",
+              "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+              "source_published_on": "2023-08-22",
+              "attribution_as_of": "2023-08-22",
+              "hardware_control": "unknown",
+              "specific_originating_heist": "unknown",
+              "onchain_history_collected": false
+            },
+            "features": {
+              "balance": 0,
+              "total_received_BTC": 27799993140,
+              "total_sent_BTC": 27799993140,
+              "transaction_fee": 51282.0,
+              "transaction_number": 4,
+              "payment_transactions": 2,
+              "receipt_transactions": 2,
+              "lifetime": 20583649,
+              "total_output_slots": 2,
+              "total_input_slots": 2,
+              "activity_w": 1,
+              "activity_d": 2,
+              "activity_time": 3,
+              "max_sent_amount": 27799983140,
+              "min_sent_amount": 10000,
+              "max_received_amount": 27799983140,
+              "min_received_amount": 10000,
+              "sent_counters": 6,
+              "received_counters": 3
+            },
+            "source_category_score": 0.1480671199439683,
+            "above_fixed_threshold": false,
+            "threshold": 0.15,
+            "missing_features": [],
+            "outside_training_minmax": []
+          },
+          {
+            "address": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+            "history_file": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu.json",
+            "history_sha256": "cbe4afe71db7580c04497f7ad494ea38d101be820ee94b2ba76c9b50513cebb0",
+            "collected_at": "2026-10-10T00:55:01.850401+00:00",
+            "source_record": {
+              "address": "39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+              "chain": "bitcoin",
+              "case_group": "fbi_tradertraitor_2023_08_22_multiple_heists",
+              "role": "reported_stolen_funds_holder",
+              "evidence_level": "official_public_attribution",
+              "source_url": "https://www.fbi.gov/news/press-releases/fbi-identifies-cryptocurrency-funds-stolen-by-dprk",
+              "source_published_on": "2023-08-22",
+              "attribution_as_of": "2023-08-22",
+              "hardware_control": "unknown",
+              "specific_originating_heist": "unknown",
+              "onchain_history_collected": false
+            },
+            "features": {
+              "balance": 0,
+              "total_received_BTC": 10988318933,
+              "total_sent_BTC": 10988318933,
+              "transaction_fee": 30600.0,
+              "transaction_number": 4,
+              "payment_transactions": 2,
+              "receipt_transactions": 2,
+              "lifetime": 20564645,
+              "total_output_slots": 2,
+              "total_input_slots": 2,
+              "activity_w": 1,
+              "activity_d": 2,
+              "activity_time": 3,
+              "max_sent_amount": 10988308933,
+              "min_sent_amount": 10000,
+              "max_received_amount": 10988308933,
+              "min_received_amount": 10000,
+              "sent_counters": 5,
+              "received_counters": 3
+            },
+            "source_category_score": 0.14306370346540315,
+            "above_fixed_threshold": false,
+            "threshold": 0.15,
+            "missing_features": [],
+            "outside_training_minmax": []
+          },
+          {
+            "address": "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+            "history_file": "history.json",
+            "history_sha256": "66031fe316c134b58b10eb5321cf9ccbfe56ad0f266ba4b41d44c392890bb2cd",
+            "collected_at": "2026-10-13T19:39:20.817025+00:00",
+            "source_record": {
+              "address": "bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+              "case_group": "binance_2019",
+              "role": "research_attributed_attacker_recipient",
+              "evidence_level": "research_attribution_resolved_by_unique_prefix_suffix_amount_match",
+              "source_url": "https://yong-wang.org/publication/23-SMC-Intention-Discovery.pdf",
+              "source_section": "Section VII.F, page 6; abbreviated bc1q***v3wm and 567.997 BTC",
+              "incident_source": "https://www.binance.com/en/support/announcement/detail/360028031711",
+              "source_published_on": null,
+              "source_available_at": null,
+              "hardware_control": "unknown",
+              "matched_transaction": "e8b406091959700dbffcff30a60b190133721e5c39e89bb5fe23c5a554ab05ea",
+              "matched_output_index": 6,
+              "caveats": [
+                "Complete address resolved from on-chain output, not fully printed in the paper",
+                "Paper introduction says 2017 while case section specifies 7 May 2019",
+                "No verified ownership or independent incident-role corroboration",
+                "Other transaction outputs remain unresolved"
+              ]
+            },
+            "features": {
+              "balance": 0,
+              "total_received_BTC": 56799708642,
+              "total_sent_BTC": 56799708642,
+              "transaction_fee": 11747.0,
+              "transaction_number": 3,
+              "payment_transactions": 1,
+              "receipt_transactions": 2,
+              "lifetime": 76695,
+              "total_output_slots": 2,
+              "total_input_slots": 2,
+              "activity_w": 2,
+              "activity_d": 1,
+              "activity_time": 2,
+              "max_sent_amount": 56799700000,
+              "min_sent_amount": 8642,
+              "max_received_amount": 56799700000,
+              "min_received_amount": 8642,
+              "sent_counters": 72,
+              "received_counters": 4
+            },
+            "source_category_score": 0.27511564575207553,
+            "above_fixed_threshold": true,
+            "threshold": 0.15,
+            "missing_features": [],
+            "outside_training_minmax": []
+          },
+          {
+            "address": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+            "history_file": "fsf_history_20261014.json.gz",
+            "history_sha256": "133144439843f6407c4e797b79db4c12205bbcb3c6fd510c2ca778e9aa64eae9",
+            "collected_at": "2026-10-14T20:55:24.711108+00:00",
+            "source_record": {
+              "address": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+              "source_id": "fsf_official_donation",
+              "source_url": "https://www.fsf.org/about/ways-to-donate",
+              "label_available_at": null,
+              "training_label": "comparison_purpose_only",
+              "case_group": "FSF"
+            },
+            "features": {
+              "balance": 400025504,
+              "total_received_BTC": 113022243778,
+              "total_sent_BTC": 112622218274,
+              "transaction_fee": 29662516.32865522,
+              "transaction_number": 2593,
+              "payment_transactions": 126,
+              "receipt_transactions": 2468,
+              "lifetime": 486956586,
+              "total_output_slots": 2469,
+              "total_input_slots": 2465,
+              "activity_w": 1731,
+              "activity_d": 101,
+              "activity_time": 1780,
+              "max_sent_amount": 15000000000,
+              "min_sent_amount": 1,
+              "max_received_amount": 15000000000,
+              "min_received_amount": 1,
+              "sent_counters": 4132,
+              "received_counters": 3518
+            },
+            "source_category_score": 0.020963927926037452,
+            "above_fixed_threshold": false,
+            "threshold": 0.15,
+            "missing_features": [],
+            "outside_training_minmax": [
+              "lifetime"
+            ]
+          }
+        ],
+        "fixed_model": {
+          "n_estimators": 100,
+          "max_depth": 20,
+          "min_samples_leaf": 20,
+          "max_features": "sqrt",
+          "class_weight": 1,
+          "random_state": 42,
+          "threshold": 0.15
+        },
+        "strict_threshold": "score > 0.15",
+        "interpretation": "Saved scores/configuration are consistent; forest inference is not rerun."
+      }
+    },
+    {
+      "check": "history_location:3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "status": "verified",
+      "details": {
+        "path": "/workspace/scratch/d51926f4d082/STAGE-UFU/Task 2/theft_cases/eff_history_20261014/3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so.json.gz"
+      }
+    },
+    {
+      "check": "history_integrity:3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "status": "verified",
+      "details": {
+        "sha256": "f39cfc9b882006263cba68a38d450b4843d8359fef045a588a958fdea35b51e4",
+        "transactions": 191,
+        "coinbase_transactions": 0,
+        "provider_counter_reconciliation": {
+          "tx_count": 191,
+          "funded_txo_count": 97,
+          "spent_txo_count": 97,
+          "funded_txo_sum": 1108591222,
+          "spent_txo_sum": 1108591222
+        },
+        "interpretation": "Agreement with saved provider counters, not cryptographic inclusion verification."
+      }
+    },
+    {
+      "check": "history_features:3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "status": "verified",
+      "details": {
+        "features_recomputed": 19,
+        "tolerance": "rtol=1e-12, atol=1e-6",
+        "interpretation": "Replays the same extractor; does not independently certify its conventions."
+      }
+    },
+    {
+      "check": "history_location:19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "status": "verified",
+      "details": {
+        "path": "/workspace/scratch/d51926f4d082/STAGE-UFU/Task 2/theft_cases/pilot_histories_20261013/19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH.json"
+      }
+    },
+    {
+      "check": "history_integrity:19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "status": "verified",
+      "details": {
+        "sha256": "5965b85530435dfcf1356ca2593908f98846ec6779255fc9bc1e2fa6ef982b6d",
+        "transactions": 72,
+        "coinbase_transactions": 0,
+        "provider_counter_reconciliation": {
+          "tx_count": 72,
+          "funded_txo_count": 71,
+          "spent_txo_count": 71,
+          "funded_txo_sum": 174760889,
+          "spent_txo_sum": 174760889
+        },
+        "interpretation": "Agreement with saved provider counters, not cryptographic inclusion verification."
+      }
+    },
+    {
+      "check": "history_features:19jSfadPiKa4aCefj4F7uEYbhMEt2L8SCH",
+      "status": "verified",
+      "details": {
+        "features_recomputed": 19,
+        "tolerance": "rtol=1e-12, atol=1e-6",
+        "interpretation": "Replays the same extractor; does not independently certify its conventions."
+      }
+    },
+    {
+      "check": "history_location:17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "status": "verified",
+      "details": {
+        "path": "/workspace/scratch/d51926f4d082/STAGE-UFU/Task 2/theft_cases/pilot_histories_20261013/17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF.json"
+      }
+    },
+    {
+      "check": "history_integrity:17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "status": "verified",
+      "details": {
+        "sha256": "76f550d7917d0ba0d9b2f487f62f92a76e14591a31fd957555484a6de21254ee",
+        "transactions": 2,
+        "coinbase_transactions": 0,
+        "provider_counter_reconciliation": {
+          "tx_count": 2,
+          "funded_txo_count": 1,
+          "spent_txo_count": 1,
+          "funded_txo_sum": 46608022,
+          "spent_txo_sum": 46608022
+        },
+        "interpretation": "Agreement with saved provider counters, not cryptographic inclusion verification."
+      }
+    },
+    {
+      "check": "history_features:17C7EZC1VTrXzSQneiaJv2W6tQh1vCRSnF",
+      "status": "verified",
+      "details": {
+        "features_recomputed": 19,
+        "tolerance": "rtol=1e-12, atol=1e-6",
+        "interpretation": "Replays the same extractor; does not independently certify its conventions."
+      }
+    },
+    {
+      "check": "history_location:3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "status": "verified",
+      "details": {
+        "path": "/workspace/scratch/d51926f4d082/STAGE-UFU/Task 2/coldcard/theft_history_20261010/3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG.json"
+      }
+    },
+    {
+      "check": "history_integrity:3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "status": "verified",
+      "details": {
+        "sha256": "238d0dd176f240410a75d8980d64ec7c232f09e70d59b1bde3fd9d6605bb6d21",
+        "transactions": 5,
+        "coinbase_transactions": 0,
+        "provider_counter_reconciliation": {
+          "tx_count": 5,
+          "funded_txo_count": 3,
+          "spent_txo_count": 3,
+          "funded_txo_sum": 29699999137,
+          "spent_txo_sum": 29699999137
+        },
+        "interpretation": "Agreement with saved provider counters, not cryptographic inclusion verification."
+      }
+    },
+    {
+      "check": "history_features:3LU8wRu4ZnXP4UM8Yo6kkTiGHM9BubgyiG",
+      "status": "verified",
+      "details": {
+        "features_recomputed": 19,
+        "tolerance": "rtol=1e-12, atol=1e-6",
+        "interpretation": "Replays the same extractor; does not independently certify its conventions."
+      }
+    },
+    {
+      "check": "history_location:34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "status": "verified",
+      "details": {
+        "path": "/workspace/scratch/d51926f4d082/STAGE-UFU/Task 2/coldcard/theft_history_20261010/34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL.json"
+      }
+    },
+    {
+      "check": "history_integrity:34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "status": "verified",
+      "details": {
+        "sha256": "19b613463e93f8ef3bad1890225935c65b638d7ccc374524dcb12175b13e545e",
+        "transactions": 3,
+        "coinbase_transactions": 0,
+        "provider_counter_reconciliation": {
+          "tx_count": 3,
+          "funded_txo_count": 2,
+          "spent_txo_count": 2,
+          "funded_txo_sum": 23913352900,
+          "spent_txo_sum": 23913352900
+        },
+        "interpretation": "Agreement with saved provider counters, not cryptographic inclusion verification."
+      }
+    },
+    {
+      "check": "history_features:34VXKa5upLWVYMXmgid6bFM4BaQXHxSUoL",
+      "status": "verified",
+      "details": {
+        "features_recomputed": 19,
+        "tolerance": "rtol=1e-12, atol=1e-6",
+        "interpretation": "Replays the same extractor; does not independently certify its conventions."
+      }
+    },
+    {
+      "check": "history_location:3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "status": "verified",
+      "details": {
+        "path": "/workspace/scratch/d51926f4d082/STAGE-UFU/Task 2/coldcard/theft_history_20261010/3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk.json"
+      }
+    },
+    {
+      "check": "history_integrity:3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "status": "verified",
+      "details": {
+        "sha256": "99032116680eea6cc03b9242ffb122dc03083da26e07b0dd72ede0624afff1fe",
+        "transactions": 3,
+        "coinbase_transactions": 0,
+        "provider_counter_reconciliation": {
+          "tx_count": 3,
+          "funded_txo_count": 2,
+          "spent_txo_count": 1,
+          "funded_txo_sum": 29808285628,
+          "spent_txo_sum": 29808275628
+        },
+        "interpretation": "Agreement with saved provider counters, not cryptographic inclusion verification."
+      }
+    },
+    {
+      "check": "history_features:3AAUBbKJorvNhEUFhKnep9YTwmZECxE4Nk",
+      "status": "verified",
+      "details": {
+        "features_recomputed": 19,
+        "tolerance": "rtol=1e-12, atol=1e-6",
+        "interpretation": "Replays the same extractor; does not independently certify its conventions."
+      }
+    },
+    {
+      "check": "history_location:3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "status": "verified",
+      "details": {
+        "path": "/workspace/scratch/d51926f4d082/STAGE-UFU/Task 2/coldcard/theft_history_20261010/3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB.json"
+      }
+    },
+    {
+      "check": "history_integrity:3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "status": "verified",
+      "details": {
+        "sha256": "f5ff55cbbc7cc80702ecace0c032f94cc19ce0d78d548e251b6ccc64e869708b",
+        "transactions": 3,
+        "coinbase_transactions": 0,
+        "provider_counter_reconciliation": {
+          "tx_count": 3,
+          "funded_txo_count": 2,
+          "spent_txo_count": 2,
+          "funded_txo_sum": 35917947190,
+          "spent_txo_sum": 35917947190
+        },
+        "interpretation": "Agreement with saved provider counters, not cryptographic inclusion verification."
+      }
+    },
+    {
+      "check": "history_features:3NbdrezMzAVVfXv5MTQJn4hWqKhYCTCJoB",
+      "status": "verified",
+      "details": {
+        "features_recomputed": 19,
+        "tolerance": "rtol=1e-12, atol=1e-6",
+        "interpretation": "Replays the same extractor; does not independently certify its conventions."
+      }
+    },
+    {
+      "check": "history_location:3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "status": "verified",
+      "details": {
+        "path": "/workspace/scratch/d51926f4d082/STAGE-UFU/Task 2/coldcard/theft_history_20261010/3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc.json"
+      }
+    },
+    {
+      "check": "history_integrity:3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "status": "verified",
+      "details": {
+        "sha256": "f862bd60aef9a96621201f25db2dbb17d2a08570d6fd718420a57b5becef2c7a",
+        "transactions": 4,
+        "coinbase_transactions": 0,
+        "provider_counter_reconciliation": {
+          "tx_count": 4,
+          "funded_txo_count": 2,
+          "spent_txo_count": 2,
+          "funded_txo_sum": 27799993140,
+          "spent_txo_sum": 27799993140
+        },
+        "interpretation": "Agreement with saved provider counters, not cryptographic inclusion verification."
+      }
+    },
+    {
+      "check": "history_features:3PjNaSeP8GzLjGeu51JR19Q2Lu8W2Te9oc",
+      "status": "verified",
+      "details": {
+        "features_recomputed": 19,
+        "tolerance": "rtol=1e-12, atol=1e-6",
+        "interpretation": "Replays the same extractor; does not independently certify its conventions."
+      }
+    },
+    {
+      "check": "history_location:39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "status": "verified",
+      "details": {
+        "path": "/workspace/scratch/d51926f4d082/STAGE-UFU/Task 2/coldcard/theft_history_20261010/39idqitN9tYNmq3wYanwg3MitFB5TZCjWu.json"
+      }
+    },
+    {
+      "check": "history_integrity:39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "status": "verified",
+      "details": {
+        "sha256": "cbe4afe71db7580c04497f7ad494ea38d101be820ee94b2ba76c9b50513cebb0",
+        "transactions": 4,
+        "coinbase_transactions": 0,
+        "provider_counter_reconciliation": {
+          "tx_count": 4,
+          "funded_txo_count": 2,
+          "spent_txo_count": 2,
+          "funded_txo_sum": 10988318933,
+          "spent_txo_sum": 10988318933
+        },
+        "interpretation": "Agreement with saved provider counters, not cryptographic inclusion verification."
+      }
+    },
+    {
+      "check": "history_features:39idqitN9tYNmq3wYanwg3MitFB5TZCjWu",
+      "status": "verified",
+      "details": {
+        "features_recomputed": 19,
+        "tolerance": "rtol=1e-12, atol=1e-6",
+        "interpretation": "Replays the same extractor; does not independently certify its conventions."
+      }
+    },
+    {
+      "check": "history_location:bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+      "status": "verified",
+      "details": {
+        "path": "/workspace/scratch/d51926f4d082/STAGE-UFU/Task 2/theft_cases/binance_seed_20261013/history.json"
+      }
+    },
+    {
+      "check": "history_integrity:bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+      "status": "verified",
+      "details": {
+        "sha256": "66031fe316c134b58b10eb5321cf9ccbfe56ad0f266ba4b41d44c392890bb2cd",
+        "transactions": 3,
+        "coinbase_transactions": 0,
+        "provider_counter_reconciliation": {
+          "tx_count": 3,
+          "funded_txo_count": 2,
+          "spent_txo_count": 2,
+          "funded_txo_sum": 56799708642,
+          "spent_txo_sum": 56799708642
+        },
+        "interpretation": "Agreement with saved provider counters, not cryptographic inclusion verification."
+      }
+    },
+    {
+      "check": "history_features:bc1q8m9h3atn4cqeqhu3ekswdqxchp3g7d4v3qv3wm",
+      "status": "verified",
+      "details": {
+        "features_recomputed": 19,
+        "tolerance": "rtol=1e-12, atol=1e-6",
+        "interpretation": "Replays the same extractor; does not independently certify its conventions."
+      }
+    },
+    {
+      "check": "history_location:1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "status": "verified",
+      "details": {
+        "path": "/workspace/scratch/d51926f4d082/fsf_history_20261014.json.gz"
+      }
+    },
+    {
+      "check": "history_integrity:1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "status": "verified",
+      "details": {
+        "sha256": "133144439843f6407c4e797b79db4c12205bbcb3c6fd510c2ca778e9aa64eae9",
+        "transactions": 2593,
+        "coinbase_transactions": 2,
+        "provider_counter_reconciliation": {
+          "tx_count": 2593,
+          "funded_txo_count": 2469,
+          "spent_txo_count": 2465,
+          "funded_txo_sum": 113022243778,
+          "spent_txo_sum": 112622218274
+        },
+        "interpretation": "Agreement with saved provider counters, not cryptographic inclusion verification."
+      }
+    },
+    {
+      "check": "history_features:1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "status": "verified",
+      "details": {
+        "features_recomputed": 19,
+        "tolerance": "rtol=1e-12, atol=1e-6",
+        "interpretation": "Replays the same extractor; does not independently certify its conventions."
+      }
+    },
+    {
+      "check": "real_cats_exact_address_overlap",
+      "status": "verified",
+      "details": {
+        "sha256": {
+          "BB.tsv": "3bfe26f493e5767737c9ecf4c654009067c162dc7fa6fec68b0ab8234d4431e9",
+          "CB.tsv": "faf3978f5c9ce3b1257af72ac01975d657ab7529f66faf1a66f1f22f99fbb1ec"
+        },
+        "exact_address_overlaps": {
+          "BB.tsv": [],
+          "CB.tsv": []
+        },
+        "interpretation": "Exact-address check only; entity and incident independence remain unverified."
+      }
+    },
+    {
+      "check": "external_forest_inference",
+      "status": "unchecked",
+      "reason": "No fitted forest was committed. Demo never retrains or evaluates reserved sets."
+    },
+    {
+      "check": "attribution_and_generalization",
+      "status": "unchecked",
+      "reason": "No independent ground-truth, entity independence or prospective performance is certified."
+    }
+  ],
+  "meaning": "Verified applies only to the named check. Missing and unchecked checks remain open; saved scores are not calibrated probabilities of theft or hardware control."
+}

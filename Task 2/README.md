@@ -1,12 +1,26 @@
-# Task 2 — Wallet and transaction behaviour
+# Task 2 — Analyse de transactions et d'adresses Bitcoin
 
-## Latest experiments — 13 October 2026
+## État vérifié au 15 octobre 2026
 
-- [Coldcard transaction proxy](coldcard/README.md): extracted block features, decision trees and grouped validation; labels remain indirect case relationships.
-- [Elliptic++ address benchmark](ellipticplusplus/README.md): verified original features, unique-address splits, four candidate trees, validation selection and held-out test results.
-- [Sourced theft references](coldcard/THEFT_COLLECTION.md): FBI address histories and a Binance transaction reference; no validated cross-case theft classifier yet.
+La branche contient les expériences du cas Coldcard, les benchmarks d'adresses et un pilote externe descriptif. Les consignes du support d'Ivan ont été retrouvées : l'exercice 100 + 100 et les questions de flux ont maintenant des scripts, des résultats et des limites explicites.
 
-The Elliptic++ model classifies offline illicit/licit historical address profiles. It does not establish real-time theft detection, hardware-wallet identification or CPFP detection. The sections below retain the original wallet-collection pilot's scope and progress.
+- [Exigences retrouvées : réalisé, partiel, bloqué](REQUIREMENTS_AUDIT.md)
+- [Bilan français pour Ivan](BILAN_FR.md)
+- [Démonstration hors ligne et reproduction](DEMO.md)
+- [Exercice exact du cours et recherche de candidats](coldcard/COURSE_EXERCISE.md)
+- [Flux de l'adresse étudiée et des cinq consolidations](coldcard/case_flows_20261015/CASE_FLOWS_FR.md)
+- [Validation groupée du modèle de transactions](coldcard/GROUPED_EXPERIMENT.md)
+- [Benchmark Elliptic++](ellipticplusplus/README.md)
+- [Benchmark Real-CATS et limites de provenance](real_cats/README.md)
+- [Audit des dépendances du pilote externe](real_cats/EXTERNAL_INDEPENDENCE_AUDIT.md)
+
+Le corpus Coldcard compte 493 571 transactions uniques. La reproduction complète des résultats groupés retrouve exactement les métriques sauvegardées. Les onze scores du pilote externe et leurs caractéristiques ont également été reproduits à l'identique, sans modification de la forêt à 19 variables ni du seuil strict de 0,15.
+
+L'exercice de 200 transactions obtient 60/60 sur son petit test lié à la même adresse, mais génère 8 158 alertes sur 492 135 transactions non attribuées inutilisées. Ce résultat illustre la différence entre reconnaître un échantillon et détecter de nouveaux incidents. Les pistes de destinations ne sont pas des vols confirmés.
+
+Les hypothèses de cold storage, d'appareil matériel et d'activité illicite restent distinctes. L'absence de chevauchement d'adresse exacte n'établit pas l'indépendance des transactions ou des entités ; le nouvel audit externe précise les relations observables. Aucun résultat n'est présenté comme une probabilité calibrée de vol.
+
+Les sections suivantes conservent l'historique du premier pilote ; leurs formulations au présent décrivent l'état de cette étape initiale, pas celui de toute la branche actuelle.
 
 ## Original research direction (provisional)
 

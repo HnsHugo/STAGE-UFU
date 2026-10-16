@@ -2,6 +2,15 @@
 
 This directory contains a reproducible pipeline for analysing the blocks provided by the professor. The initial objective is an interpretable decision-tree experiment; general theft detection and hardware identification have not yet been demonstrated.
 
+
+## Compléments vérifiés le 15 octobre 2026
+
+- [Exercice du support : 100 paiements + 100 comparaisons](COURSE_EXERCISE.md), avec dix caractéristiques, arbre lisible et recherche de destinations à examiner.
+- [Analyse des flux et des cinq consolidations](case_flows_20261015/CASE_FLOWS_FR.md), avec montants, adresses observées, durées et état daté des sorties.
+- [Démonstration hors ligne](../DEMO.md) et [audit des exigences](../REQUIREMENTS_AUDIT.md).
+
+Les métriques groupées ci-dessous ont été reproduites à l'identique depuis le CSV vérifié. Le nouvel exercice pédagogique est distinct : son score parfait sur un petit test lié à la même adresse ne remplace pas la validation groupée.
+
 ## Current status
 
 - 98 selected JSON blocks, 493571 unique transactions; 98 coinbase transactions.

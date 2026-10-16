@@ -1,0 +1,278 @@
+{
+  "status": "executed_classroom_proxy_exercise",
+  "source": "aula4.pdf, 24 September 2026, pages 97 and 99",
+  "course_address": "bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0",
+  "archive_sha256": "679fe208f9a807fdd38e9d64948c73581af3e99ca52fb707ce06937e67bc536d",
+  "parents_sha256": "9e47396449d8ba65d7d6978c9e979bdfc3a4c47b3f3dfcb399fb535982c1d779",
+  "archive_transaction_count": 493571,
+  "course_address_payment_count": 504,
+  "features": [
+    "size_bytes",
+    "weight_wu",
+    "fee_sat",
+    "output_sum_sat",
+    "output_min_sat",
+    "output_max_sat",
+    "output_mean_sat",
+    "output_std_sat",
+    "input_count",
+    "output_count"
+  ],
+  "output_std_definition": "population standard deviation, ddof=0",
+  "sampling": "100 payments ranked by SHA256(42:txid), 100 unattributed rows matched by block",
+  "train_count": 140,
+  "test_count": 60,
+  "train_positive_count": 70,
+  "test_positive_count": 30,
+  "settings": {
+    "max_depth": 4,
+    "min_samples_leaf": 5,
+    "random_state": 42
+  },
+  "sklearn_version": "1.8.0",
+  "held_out_sample_proxy_metrics": {
+    "true_negative": 30,
+    "false_positive": 0,
+    "false_negative": 0,
+    "true_positive": 30,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "review_scan": {
+    "unused_unattributed_transactions": 492135,
+    "flagged_transactions": 8158,
+    "distinct_output_addresses": 79413,
+    "top_destinations": [
+      {
+        "address": "bc1qq9qx0jj6glxe7dcgj98uke8yr4ze7sadt2qjgj",
+        "flagged_transaction_count": 307,
+        "gross_outputs_sat": 16912287,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "d0c58589accac80b01ff487c4449efb711b4077edece51409c3001b3054dfc8e",
+          "6ddc9ad1aec8c6b65591f305aad1fb386a511e218c07add650e7232969e52457",
+          "589c966ff68ad549306a8f72118ddbca4c216e2277997fcbc9bb1df90f6e9b51"
+        ]
+      },
+      {
+        "address": "bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h",
+        "flagged_transaction_count": 231,
+        "gross_outputs_sat": 256907430802,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "cea4ce5e5c144e667afd231c46a769ef9f13a0556ea1d595824b6a4f23fd4277",
+          "475ba0f96972e838c8772b2b9ad5ef65b69a21ba922227107fc9920ccb73462a",
+          "5c032e282002ebcda342c8e6dbdc7284f73324ae0ee893ce5fb555e18fabd738"
+        ]
+      },
+      {
+        "address": "3KMmeqPeQcngyTehdfSwsGqvxfU7J7qtc8",
+        "flagged_transaction_count": 214,
+        "gross_outputs_sat": 2061684067,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "89ba03fdc66047d751a8ed68454e247fc8ce6561eb617dc7dc286ccaad01da93",
+          "75ecdb8bb275aa44c7aab9d1a956e92c0839fa0c5bfb6a0fd5c003b593a151eb",
+          "cc5e4631644b64a5c75832343a65c2bda399f88527e5dad1ff6195aa440fe330"
+        ]
+      },
+      {
+        "address": "bc1qmcvv20xmujhhelyas5r59gkgvl92dhdwr9v4t4",
+        "flagged_transaction_count": 145,
+        "gross_outputs_sat": 14160687,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "c35809a2ddd21e31ee07422a6145c24eeb35c8d4cf2bdd53282786273df3c9a6",
+          "464169230993d7018924b12f619183c58a4d7559e8d84acb60e2508983184c22",
+          "c9501d8cddbc334f3fdcc44537b4f04f3dd4b4e730965652a2a1faa0c33a40f3"
+        ]
+      },
+      {
+        "address": "bc1quhruqrghgcca950rvhtrg7cpd7u8k6svpzgzmrjy8xyukacl5lkq0r8l2d",
+        "flagged_transaction_count": 108,
+        "gross_outputs_sat": 52298556767,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "ae33fa60129ba6fd75e247652f5ba0c2546166ff3ee95587b2181ce6ff0f1477",
+          "8723f22849fb26f6a9f88602334347c32dc253a15fd01847ea10ce75b1729335",
+          "03a4addb799091fb236087758d15d8f88e3e21ef4adcf85c75c80337461c9a0d"
+        ]
+      },
+      {
+        "address": "bc1q2kv27d25vmfku6n8zd62hwetwhh5w72kxpw8cd",
+        "flagged_transaction_count": 106,
+        "gross_outputs_sat": 712627,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "09713d4448dc342ed17358203ed76c750809db0a0b89887c8f2a1c0d6a70c113",
+          "227b75559188262190885ee6a5ff927464800861e6aacc1518c5fe35d08fe421",
+          "971df7d13a8b377dadf7c19ad80f4523ce98a99ccb6f34c1c0801f34307ff577"
+        ]
+      },
+      {
+        "address": "bc1q3zcdunpmqgn8enyxa3smu7fwrfvya35dz3uvjy",
+        "flagged_transaction_count": 94,
+        "gross_outputs_sat": 529912,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "6f3a3c9a8e5e08455774dd65b2efb3572d575949230e030a73723e2045132144",
+          "82dd070afeaac7cebad93bbd8d7a7d2a5214bbdf0891e214f4e2708b7bfba337",
+          "ea1219ced71344b32e7b36c21c4bf8f7687bde0cb81ad59e0a76e8d2c005864e"
+        ]
+      },
+      {
+        "address": "35C2L1pCgwzBHNcDcVL1a5RuoefeWqyjAR",
+        "flagged_transaction_count": 84,
+        "gross_outputs_sat": 34576077,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "7db0061ff25116956c7d90975dba77cc0707b87b7e2fd69d27eabbf930c00197",
+          "ad6ffcb4c50b7914df6f234e95a1f9e7fc022253006fb36fee137f22403d1e3e",
+          "cd5ddc1131702592d5efc841687b9a1515882fdac657f6775cc1d1448c464b49"
+        ]
+      },
+      {
+        "address": "bc1qgzrva028eym96uax90j28qj3aqhh3dy8gk6qvp",
+        "flagged_transaction_count": 84,
+        "gross_outputs_sat": 925886804,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "b7a9b8c512e657acd64d7972a2c66b7298be5c18886b21a790a6976cd273309a",
+          "3ab8f1a7954741c13e94083c83484e6d49ac088caf4dc3251d90165c4f5de495",
+          "88585a3aef523e1c0274d6a4d6b3d9f18dc52f739f5f68456f1e2ff70b3b6e19"
+        ]
+      },
+      {
+        "address": "bc1qltwkhj543n09sm5j9hjhmdjcapxgv2n2azuxjh",
+        "flagged_transaction_count": 78,
+        "gross_outputs_sat": 44439779,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "a206b596ee8f0628ce9dc54cb4c05538df823b0baeea756921001c4f8abee286",
+          "e8f5f32ea1fef322caacc2e70ffc7be0163b8db527475ca43d2a4be9df066195",
+          "6af19a68c55975814919b473f30ee53a017bfc59d06881a6032689ab875469d9"
+        ]
+      },
+      {
+        "address": "bc1qw8wrek2m7nlqldll66ajnwr9mh64syvkt67zlu",
+        "flagged_transaction_count": 76,
+        "gross_outputs_sat": 7555578076,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "384f8aa76e9f5d5cc8fc5478472bb4183b0ae381858b4559fee37390c6eabf43",
+          "2d92648a2fc14d3f32af4e41dfc64894feacf1fa005ece0206d866f9cb58d7dd",
+          "d37c271781e62827f41a82aed7b6bfbd797d5a8b1c395dcb71972faf29bf2879"
+        ]
+      },
+      {
+        "address": "bc1qryhgpmfv03qjhhp2dj8nw8g4ewg08jzmgy3cyx",
+        "flagged_transaction_count": 75,
+        "gross_outputs_sat": 33590529841,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "2b160a0c00c30e34f14ecbcc69c766ef2917e74e1f354a127cfee932ccedbb40",
+          "3256e4530be5a35797224769eb2414bc0125c171930aa256fab4059a031019da",
+          "90a0afc3f193a244301d8ec84a6a15c44b37d256498826ab381565b701fb1138"
+        ]
+      },
+      {
+        "address": "bc1q5ns2qck7xeyggadp25wkaw0mjltktju93cjdjx",
+        "flagged_transaction_count": 72,
+        "gross_outputs_sat": 3437083,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "abbe9d800b69202bac6beb0f64fc72caa8f4291ae9d155158948fabab7804a18",
+          "c5f8e43ce230bb2b6be4012b14e6923c37bb64e1055c4163b8f45ebb05e89c2c",
+          "01172db1a58f037078b99a318878cef34a22361d0751dbcffaf6be6da6d9ad21"
+        ]
+      },
+      {
+        "address": "bc1qeandws6k5jqxsjn7dw08pfkgnd64l4sw6uv49u",
+        "flagged_transaction_count": 68,
+        "gross_outputs_sat": 2718903,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "d899b840b430625b6f2aff044f35fca45a6bf6732b593325dd25185a5a822ee9",
+          "c2cc2b84fe629cb2c4fedc1f1e1a3ddf03b2ae10432df7fb59fae206b466f14d",
+          "3f401991f9ba0954c8d865f342f6e8cbf83b801e863743fb62150b64a9c0a551"
+        ]
+      },
+      {
+        "address": "bc1qtpzaa6qtp09gvvepklkd64s364yls5hc7rprlu",
+        "flagged_transaction_count": 63,
+        "gross_outputs_sat": 4932388,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "370e1b6725a25a93380790f03f517849e7dd8745f1359041f3ed86f3f7886241",
+          "96fb6be50f1ab818b0595a0d39138701277f6781c4613e854d39982102c3bc77",
+          "58e91c56a971458d54908e38d3788d4c5ce879a75fbd764ae5afcbd0630a5a7c"
+        ]
+      },
+      {
+        "address": "bc1q7t4vyehjsexdme84qhdgd4dawcn54djh0m78fz",
+        "flagged_transaction_count": 57,
+        "gross_outputs_sat": 20804456928,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "850f2c135352e39c431e2836eab53e33bbfe2e72e6db76c1e2f5740022ec1147",
+          "8c1841c6c3e5395493ce52cccf61966c460306eea9ceb13e8d272d567c4d3de8",
+          "12627b94f036aa6d0d5a36d73d4de4e69bc00e01e866810c251ff3342233ab30"
+        ]
+      },
+      {
+        "address": "bc1q5x9p784q6jkj4w3cw56h8vejz326yrf6u4tuksgg8kjnfkpg7l5qe8kpz6",
+        "flagged_transaction_count": 55,
+        "gross_outputs_sat": 2994672009,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "2a5a82375bd9314276fac1a731547ce285f597ea0d700f319e544c3529a0d64d",
+          "3fae0b038d4566dd486ec5b6ddff3bf364324161ed159cfa971aca772e47122a",
+          "1449623ef8e55bc510c487858b9de1f26a1cf93764d9e6a0310343a47c204475"
+        ]
+      },
+      {
+        "address": "bc1p6qt06jgqvsncsdy64hmu28uskznr7h2w45hchgu8ed4g85fm59lqrwa6p5",
+        "flagged_transaction_count": 45,
+        "gross_outputs_sat": 708733,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "64407cb92daba7521d4b7f81ce86fcdcb03bbb9e2013de5dd9c22dcf3a58ec44",
+          "9d902a89affc5f0aa6e164dccc535c383b5962eae6ef7c07df6582ae18675220",
+          "5f513249d48523734cc7433a7f50c43346ce42376d4ba7087adc8a83166cbe52"
+        ]
+      },
+      {
+        "address": "bc1qactqjuk4kghfgaqqt454hzzzs5lsaysunf80gh",
+        "flagged_transaction_count": 32,
+        "gross_outputs_sat": 139956838021,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "ded0b7a6e6c20b501975485ad038738e082f2e39e725f0051565f7956b4601b8",
+          "f5c7a00c9a3504ad1e34f2324e6cf0b0509cd83178f99abce1aefb198d4146bd",
+          "ab46f8e47ce7f03e2ff22a03573852c7d63cb313beb5cf8599d8fe0745892783"
+        ]
+      },
+      {
+        "address": "bc1qwqdg6squsna38e46795at95yu9atm8azzmyvckulcc7kytlcckxswvvzej",
+        "flagged_transaction_count": 32,
+        "gross_outputs_sat": 2164718142,
+        "max_classroom_leaf_fraction": 1.0,
+        "example_txids": [
+          "c3c6c4583989a6d5263bebd4f90a426a2cf9c936e558c807b8814ebe5acddb58",
+          "67333a2b3e51ade40f12de402239691e1176d41b3ac0a930569f5ef7892934f9",
+          "231195d599fbb7bf5b0e3dcae5aab5852afc522b3d85facba1d27d25bb8644a0"
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "Training and sample test share one address, incident and blocks; no independent case validation",
+    "Balanced classroom prevalence cannot estimate deployment precision",
+    "Background is unattributed, not verified legitimate",
+    "Features v are interpreted as output values; the course slide does not explicitly define v",
+    "Tree hyperparameters are fixed implementation choices, not specified in the slide",
+    "Review leads are gross outputs of flagged transactions, not stolen balances or actor identities",
+    "Leaf fractions are not calibrated theft probabilities; no external evidence confirms review leads"
+  ]
+}

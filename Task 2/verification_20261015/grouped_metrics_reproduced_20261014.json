@@ -1,0 +1,367 @@
+{
+  "target": "direct parent candidate versus unattributed background",
+  "warning": "Candidate groups held apart. Background entity links and missing-block relationships remain unknown. Not external theft validation.",
+  "dataset_sha256": "158788226288dce22bfd5ea20deab1b72551c5d0c32bdb547e113c83273841b4",
+  "groups_sha256": "5111785870d5265365f3d1034ee77befbf140a3d7b394ef6bc55aeb3783a8e3f",
+  "versions": {
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5"
+  },
+  "settings": {
+    "max_depth": 4,
+    "min_samples_leaf": 20,
+    "class_weight": "balanced",
+    "random_state": 42
+  },
+  "background_split": "SHA256(TXID) first 16 hex digits modulo number of candidate groups; not entity-level split",
+  "candidate_group_count": 4,
+  "candidate_group_counts": {
+    "14edd9ee8445793c320e92e3b50365a0e18b8b25f424044bce337463f007fdd2": 491,
+    "0c6bf853a645b699a3b2cd6d8e3c44cf1a02a16f538df08212a44753f75d9d01": 341,
+    "4b50d61a3d6e54c62ee0be13d7e9a8b69bffe7fc2b2cab4e14da56e4e20440d2": 204,
+    "38b6dc366fcac50e2fe4a7fa901bfea957361c51157ad037d46e0febf89187de": 34
+  },
+  "eligible_rows": 493468,
+  "folds": [
+    {
+      "held_out_group": "0c6bf853a645b699a3b2cd6d8e3c44cf1a02a16f538df08212a44753f75d9d01",
+      "train_rows": 370533,
+      "test_rows": 122935,
+      "train_candidates": 729,
+      "test_candidates": 341,
+      "models": {
+        "always_background": {
+          "precision_proxy": 0.0,
+          "recall_proxy": 0.0,
+          "f1_proxy": 0.0,
+          "true_negative_proxy": 122594,
+          "false_positive_proxy": 0,
+          "false_negative_proxy": 341,
+          "true_positive_proxy": 0,
+          "average_precision_proxy": null,
+          "background_alert_rate": 0.0
+        },
+        "previously_observed_rule": {
+          "precision_proxy": 0.1626132570338579,
+          "recall_proxy": 1.0,
+          "f1_proxy": 0.2797374897456932,
+          "true_negative_proxy": 120838,
+          "false_positive_proxy": 1756,
+          "false_negative_proxy": 0,
+          "true_positive_proxy": 341,
+          "average_precision_proxy": null,
+          "background_alert_rate": 0.01432370262818735
+        },
+        "tree_all": {
+          "precision_proxy": 0.8831168831168831,
+          "recall_proxy": 0.9970674486803519,
+          "f1_proxy": 0.9366391184573003,
+          "true_negative_proxy": 122549,
+          "false_positive_proxy": 45,
+          "false_negative_proxy": 1,
+          "true_positive_proxy": 340,
+          "average_precision_proxy": 0.994151631597903,
+          "background_alert_rate": 0.0003670652723624321,
+          "feature_importances": {
+            "output_count": 0.00040111647093957,
+            "input_total_sat": 1.9529573143689587e-07,
+            "output_total_sat": 1.338540390611113e-06,
+            "vsize_vb": 4.7761541800053475e-14,
+            "fee_rate_sat_vb": 0.9995973496928864,
+            "max_output_sat": 4.2485102554475745e-15
+          }
+        },
+        "tree_without_fees": {
+          "precision_proxy": 0.06608527131782946,
+          "recall_proxy": 1.0,
+          "f1_proxy": 0.12397745864388293,
+          "true_negative_proxy": 117775,
+          "false_positive_proxy": 4819,
+          "false_negative_proxy": 0,
+          "true_positive_proxy": 341,
+          "average_precision_proxy": 0.06608527131782946,
+          "background_alert_rate": 0.03930861216699023,
+          "feature_importances": {
+            "output_count": 0.8664598999527003,
+            "input_total_sat": 0.01857415178472252,
+            "output_total_sat": 4.708444765800932e-13,
+            "version": 0.07638387949419187,
+            "lock_time": 0.038582068767914444
+          }
+        }
+      }
+    },
+    {
+      "held_out_group": "14edd9ee8445793c320e92e3b50365a0e18b8b25f424044bce337463f007fdd2",
+      "train_rows": 370085,
+      "test_rows": 123383,
+      "train_candidates": 579,
+      "test_candidates": 491,
+      "models": {
+        "always_background": {
+          "precision_proxy": 0.0,
+          "recall_proxy": 0.0,
+          "f1_proxy": 0.0,
+          "true_negative_proxy": 122892,
+          "false_positive_proxy": 0,
+          "false_negative_proxy": 491,
+          "true_positive_proxy": 0,
+          "average_precision_proxy": null,
+          "background_alert_rate": 0.0
+        },
+        "previously_observed_rule": {
+          "precision_proxy": 0.21018835616438356,
+          "recall_proxy": 1.0,
+          "f1_proxy": 0.3473646975592501,
+          "true_negative_proxy": 121047,
+          "false_positive_proxy": 1845,
+          "false_negative_proxy": 0,
+          "true_positive_proxy": 491,
+          "average_precision_proxy": null,
+          "background_alert_rate": 0.01501318230641539
+        },
+        "tree_all": {
+          "precision_proxy": 0.35021398002853066,
+          "recall_proxy": 1.0,
+          "f1_proxy": 0.5187533016376122,
+          "true_negative_proxy": 121981,
+          "false_positive_proxy": 911,
+          "false_negative_proxy": 0,
+          "true_positive_proxy": 491,
+          "average_precision_proxy": 0.35021398002853066,
+          "background_alert_rate": 0.007413013052110796,
+          "feature_importances": {
+            "output_count": 0.07219613127127167,
+            "fee_sat": 2.293883018474743e-11,
+            "fee_rate_sat_vb": 0.913347623174373,
+            "version": 0.00971489396321293,
+            "lock_time": 0.004741351568203517
+          }
+        },
+        "tree_without_fees": {
+          "precision_proxy": 0.09201649175412294,
+          "recall_proxy": 1.0,
+          "f1_proxy": 0.16852582804187405,
+          "true_negative_proxy": 118047,
+          "false_positive_proxy": 4845,
+          "false_negative_proxy": 0,
+          "true_positive_proxy": 491,
+          "average_precision_proxy": 0.09201649175412294,
+          "background_alert_rate": 0.03942486085343228,
+          "feature_importances": {
+            "output_count": 0.8658899852323783,
+            "input_total_sat": 0.018828511679954706,
+            "output_total_sat": 7.931776620434486e-13,
+            "version": 0.076314630725623,
+            "lock_time": 0.03896687236125088
+          }
+        }
+      }
+    },
+    {
+      "held_out_group": "38b6dc366fcac50e2fe4a7fa901bfea957361c51157ad037d46e0febf89187de",
+      "train_rows": 369968,
+      "test_rows": 123500,
+      "train_candidates": 1036,
+      "test_candidates": 34,
+      "models": {
+        "always_background": {
+          "precision_proxy": 0.0,
+          "recall_proxy": 0.0,
+          "f1_proxy": 0.0,
+          "true_negative_proxy": 123466,
+          "false_positive_proxy": 0,
+          "false_negative_proxy": 34,
+          "true_positive_proxy": 0,
+          "average_precision_proxy": null,
+          "background_alert_rate": 0.0
+        },
+        "previously_observed_rule": {
+          "precision_proxy": 0.018753447324875896,
+          "recall_proxy": 1.0,
+          "f1_proxy": 0.036816459122902004,
+          "true_negative_proxy": 121687,
+          "false_positive_proxy": 1779,
+          "false_negative_proxy": 0,
+          "true_positive_proxy": 34,
+          "average_precision_proxy": null,
+          "background_alert_rate": 0.014408825101647416
+        },
+        "tree_all": {
+          "precision_proxy": 0.0,
+          "recall_proxy": 0.0,
+          "f1_proxy": 0.0,
+          "true_negative_proxy": 123419,
+          "false_positive_proxy": 47,
+          "false_negative_proxy": 34,
+          "true_positive_proxy": 0,
+          "average_precision_proxy": 0.00027530364372469634,
+          "background_alert_rate": 0.0003806716018984984,
+          "feature_importances": {
+            "output_count": 0.00042817144361531113,
+            "fee_rate_sat_vb": 0.9995714271365815,
+            "min_output_sat": 4.014198031004342e-07
+          }
+        },
+        "tree_without_fees": {
+          "precision_proxy": 0.0056808688387635755,
+          "recall_proxy": 1.0,
+          "f1_proxy": 0.011297557733842832,
+          "true_negative_proxy": 117515,
+          "false_positive_proxy": 5951,
+          "false_negative_proxy": 0,
+          "true_positive_proxy": 34,
+          "average_precision_proxy": 0.00819764671696291,
+          "background_alert_rate": 0.048199504316977955,
+          "feature_importances": {
+            "output_count": 0.8601543014330865,
+            "input_total_sat": 0.0250470569417545,
+            "version": 0.07593701440052689,
+            "lock_time": 0.038861627224632114
+          }
+        }
+      }
+    },
+    {
+      "held_out_group": "4b50d61a3d6e54c62ee0be13d7e9a8b69bffe7fc2b2cab4e14da56e4e20440d2",
+      "train_rows": 369818,
+      "test_rows": 123650,
+      "train_candidates": 866,
+      "test_candidates": 204,
+      "models": {
+        "always_background": {
+          "precision_proxy": 0.0,
+          "recall_proxy": 0.0,
+          "f1_proxy": 0.0,
+          "true_negative_proxy": 123446,
+          "false_positive_proxy": 0,
+          "false_negative_proxy": 204,
+          "true_positive_proxy": 0,
+          "average_precision_proxy": null,
+          "background_alert_rate": 0.0
+        },
+        "previously_observed_rule": {
+          "precision_proxy": 0.09927007299270073,
+          "recall_proxy": 1.0,
+          "f1_proxy": 0.1806108897742364,
+          "true_negative_proxy": 121595,
+          "false_positive_proxy": 1851,
+          "false_negative_proxy": 0,
+          "true_positive_proxy": 204,
+          "average_precision_proxy": null,
+          "background_alert_rate": 0.014994410511478703
+        },
+        "tree_all": {
+          "precision_proxy": 0.38392857142857145,
+          "recall_proxy": 0.2107843137254902,
+          "f1_proxy": 0.2721518987341772,
+          "true_negative_proxy": 123377,
+          "false_positive_proxy": 69,
+          "false_negative_proxy": 161,
+          "true_positive_proxy": 43,
+          "average_precision_proxy": 0.17917871671999516,
+          "background_alert_rate": 0.0005589488521296761,
+          "feature_importances": {
+            "fee_rate_sat_vb": 0.9995740656497673,
+            "min_output_sat": 0.0004236490760492981,
+            "max_output_sat": 2.2852741834220782e-06
+          }
+        },
+        "tree_without_fees": {
+          "precision_proxy": 0.04788418708240535,
+          "recall_proxy": 0.2107843137254902,
+          "f1_proxy": 0.0780399274047187,
+          "true_negative_proxy": 122591,
+          "false_positive_proxy": 855,
+          "false_negative_proxy": 161,
+          "true_positive_proxy": 43,
+          "average_precision_proxy": 0.01634091713942302,
+          "background_alert_rate": 0.006926105341606857,
+          "feature_importances": {
+            "output_count": 0.02265677571846071,
+            "distinct_input_addresses": 0.017780032853728475,
+            "vsize_vb": 0.04543648763973261,
+            "lock_time": 0.009450236851190699,
+            "min_output_sat": 0.9046764669368874
+          }
+        }
+      }
+    }
+  ],
+  "pooled_out_of_fold": {
+    "always_background": {
+      "precision_proxy": 0.0,
+      "recall_proxy": 0.0,
+      "f1_proxy": 0.0,
+      "true_negative_proxy": 492398,
+      "false_positive_proxy": 0,
+      "false_negative_proxy": 1070,
+      "true_positive_proxy": 0,
+      "average_precision_proxy": null,
+      "background_alert_rate": 0.0
+    },
+    "previously_observed_rule": {
+      "precision_proxy": 0.1289001325141549,
+      "recall_proxy": 1.0,
+      "f1_proxy": 0.22836410201686053,
+      "true_negative_proxy": 485167,
+      "false_positive_proxy": 7231,
+      "false_negative_proxy": 0,
+      "true_positive_proxy": 1070,
+      "average_precision_proxy": null,
+      "background_alert_rate": 0.014685274919881884
+    },
+    "tree_all": {
+      "precision_proxy": 0.44912641315519014,
+      "recall_proxy": 0.8168224299065421,
+      "f1_proxy": 0.5795755968169761,
+      "true_negative_proxy": 491326,
+      "false_positive_proxy": 1072,
+      "false_negative_proxy": 196,
+      "true_positive_proxy": 874,
+      "average_precision_proxy": 0.5590707599158513,
+      "background_alert_rate": 0.002177100638101698
+    },
+    "tree_without_fees": {
+      "precision_proxy": 0.0523045054375971,
+      "recall_proxy": 0.8495327102803738,
+      "f1_proxy": 0.09854192639167435,
+      "true_negative_proxy": 475928,
+      "false_positive_proxy": 16470,
+      "false_negative_proxy": 161,
+      "true_positive_proxy": 909,
+      "average_precision_proxy": 0.059845228646241685,
+      "background_alert_rate": 0.03344855178128262
+    }
+  },
+  "macro_fold": {
+    "always_background": {
+      "precision_proxy": 0.0,
+      "recall_proxy": 0.0,
+      "f1_proxy": 0.0
+    },
+    "previously_observed_rule": {
+      "precision_proxy": 0.12270628337895452,
+      "recall_proxy": 1.0,
+      "f1_proxy": 0.21113238405052043
+    },
+    "tree_all": {
+      "precision_proxy": 0.4043148586434963,
+      "recall_proxy": 0.5519629406014606,
+      "f1_proxy": 0.43188607970727244
+    },
+    "tree_without_fees": {
+      "precision_proxy": 0.05291670474828033,
+      "recall_proxy": 0.8026960784313726,
+      "f1_proxy": 0.09546019295607963
+    }
+  },
+  "candidate_misses_by_model": {
+    "always_background": 1070,
+    "previously_observed_rule": 0,
+    "tree_all": 196,
+    "tree_without_fees": 161
+  }
+}
