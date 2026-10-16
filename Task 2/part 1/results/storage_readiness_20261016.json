@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "status": "not_ready",
+  "window": [
+    "2026-09-01T00:00:00+00:00",
+    "2026-10-01T00:00:00+00:00"
+  ],
+  "input_sha256": {
+    "Task 2/part 1/results/window_september2026/manifest.json": "3f84e3ef3d6958d8dc2d0d5736ff1bbf0c5f81246a09589595b99a9ed4d7758c",
+    "Task 2/part 1/results/window_september2026/input.csv": "4c3801acde4fec801e56df4f7c444ab5f231bd771010d6ee7319c164e15208e9",
+    "Task 2/part 1/results/window_september2026/16SbwNa22nBwhLtg6HzWVYFQiUxtNzAUpt.json": "af9a888e5db0da79cabc6209f63cabca29c892527e113a50f3bef2e6597738e5",
+    "Task 2/part 1/results/window_september2026/1Kr6QSydW9bFQG1mXiPNNu6WpJGmUa9i1g.json": "1bc2ee01302075902eb380550472fe59f2ebaf0d118e1dc4689e0870da3e1d30",
+    "Task 2/part 1/results/window_september2026/3JZq4atUahhuA9rLhXLMhhTo133J9rF97j.json": "bdac44b7c6b8636c7b8ca6b0fc45a75bb85504eb2ed979a13907c23c7a555082",
+    "Task 2/part 1/results/window_september2026/bc1qgdjqv0av3q56jvd82tkdjpy7gdp9ut8tlqmgrpmv24sq90ecnvqqjwvw97.json": "0c700c49f2333ca8b803becc2474631e5383307b5c5a003d7b028fcf96868afe",
+    "Task 2/part 1/results/window_september2026/34xp4vRoCGJym3xR7yCVPFHoCNxv4Twseo.json": "6d309aabf855024d029cd49af806a8deb41341a6e4fbc32cd753908da4df6019",
+    "Task 2/part 1/results/window_september2026/3LYJfcfHPXYJreMsASk2jkn69LWEYKzexb.json": "19bb011e937ddd7b30fe97d1c34496cd97b044b38db0357ce07106255ee0254c",
+    "Task 2/part 1/results/window_september2026/3M219KR5vEneNb47ewrPfWyb5jQ2DjxRP6.json": "b91d92b6dc3e118eefb6e957b379a120cfe9852ec9e78839e02aaaf06a986fff",
+    "Task 2/part 1/results/window_september2026/bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h.json": "04fbe8bfe95f6ef94fb8f15bf21bee3c45542b11b9aa0170359abd7aee6124ee",
+    "Task 2/part 1/results/window_september2026/bc1q43krjn8qvfydqs9lq8crg26er4c26hkpd2mpw7.json": "5fde99a05dff1ac035d068f6023b29e97432bd6842a55825f1230c9e7722adce",
+    "Task 2/part 1/results/window_september2026/bc1qhsuvec03zslh9qvauksh2wc9hy9za7csxem5ea.json": "f2383ab65457889a2b2fc073160a434bbad561a8d916f61d10bb235b916b2328",
+    "Task 2/part 1/results/window_september2026/bc1q9rqfux88j6az0wl957u2jdykgw5m5r72hcaclu.json": "5eee91c6aa09b7442d85ee19d5e7c98edf18ac15a28efa3f6c42eb9085eb0fb9",
+    "Task 2/part 1/results/window_september2026_extended/manifest.json": "e10471b2a566bf05257b5acf3ff2a0deca52a11341551b02688276f56849a898",
+    "Task 2/part 1/results/window_september2026_extended/input.csv": "02303471aa8e784d43284e2c00669aab2e621152824dfb5667ad9f02846be4c0",
+    "Task 2/part 1/results/window_september2026_extended/bc1qgdjqv0av3q56jvd82tkdjpy7gdp9ut8tlqmgrpmv24sq90ecnvqqjwvw97.json": "15b5f22579053018552f3e0ba7aac7f9a5403db3d013e4ba97cb3a5e0645cc38",
+    "Task 2/part 1/results/window_september2026_extended/3LYJfcfHPXYJreMsASk2jkn69LWEYKzexb.json": "191e8ec644c5fb6c757cc29e806554535d2844e990f332c15a118af2264ef8ef",
+    "Task 2/part 1/results/window_september2026_extended/3M219KR5vEneNb47ewrPfWyb5jQ2DjxRP6.json": "4c189ef117046e73bbf587c308a8b5f3cb141f4eb120d63ffa0e1d9d39074143"
+  },
+  "input_identity_checks": [
+    {
+      "path": "Task 2/part 1/results/window_september2026/input.csv",
+      "manifest_sha256": "4c3801acde4fec801e56df4f7c444ab5f231bd771010d6ee7319c164e15208e9",
+      "match": "exact_bytes"
+    },
+    {
+      "path": "Task 2/part 1/results/window_september2026_extended/input.csv",
+      "manifest_sha256": "cc5d8e30aba3bf60637f0999ab739165312f9ac8e8b0d5190d7d43ec57f5c2b9",
+      "match": "matches_only_after_LF_to_CRLF_reconstruction"
+    }
+  ],
+  "counts": {
+    "all_addresses": 11,
+    "research_addresses": 10,
+    "research_complete_windows": 6,
+    "published_storage": {
+      "hot": 1,
+      "unknown": 4,
+      "cold": 5
+    },
+    "eligible_addresses": 0,
+    "eligible_entities_by_class": {
+      "hot": [],
+      "cold": []
+    }
+  },
+  "addresses": [
+    {
+      "address": "16SbwNa22nBwhLtg6HzWVYFQiUxtNzAUpt",
+      "entity": "BTC-e.com",
+      "published_storage": "unknown",
+      "coverage_complete": false,
+      "window_transaction_count": null,
+      "eligible": false,
+      "exclusion_reasons": [
+        "not_research_sample",
+        "unknown_storage",
+        "incomplete_window",
+        "label_interval_or_availability_unverified"
+      ],
+      "selected_observation": "Task 2/part 1/results/window_september2026/16SbwNa22nBwhLtg6HzWVYFQiUxtNzAUpt.json"
+    },
+    {
+      "address": "1Kr6QSydW9bFQG1mXiPNNu6WpJGmUa9i1g",
+      "entity": "Bitfinex",
+      "published_storage": "hot",
+      "coverage_complete": false,
+      "window_transaction_count": null,
+      "eligible": false,
+      "exclusion_reasons": [
+        "incomplete_window",
+        "label_interval_or_availability_unverified"
+      ],
+      "selected_observation": "Task 2/part 1/results/window_september2026/1Kr6QSydW9bFQG1mXiPNNu6WpJGmUa9i1g.json"
+    },
+    {
+      "address": "34xp4vRoCGJym3xR7yCVPFHoCNxv4Twseo",
+      "entity": "Binance",
+      "published_storage": "unknown",
+      "coverage_complete": false,
+      "window_transaction_count": null,
+      "eligible": false,
+      "exclusion_reasons": [
+        "unknown_storage",
+        "incomplete_window",
+        "label_interval_or_availability_unverified"
+      ],
+      "selected_observation": "Task 2/part 1/results/window_september2026/34xp4vRoCGJym3xR7yCVPFHoCNxv4Twseo.json"
+    },
+    {
+      "address": "3JZq4atUahhuA9rLhXLMhhTo133J9rF97j",
+      "entity": "Bitfinex",
+      "published_storage": "cold",
+      "coverage_complete": false,
+      "window_transaction_count": null,
+      "eligible": false,
+      "exclusion_reasons": [
+        "incomplete_window",
+        "label_interval_or_availability_unverified"
+      ],
+      "selected_observation": "Task 2/part 1/results/window_september2026/3JZq4atUahhuA9rLhXLMhhTo133J9rF97j.json"
+    },
+    {
+      "address": "3LYJfcfHPXYJreMsASk2jkn69LWEYKzexb",
+      "entity": "Binance",
+      "published_storage": "unknown",
+      "coverage_complete": true,
+      "window_transaction_count": 0,
+      "eligible": false,
+      "exclusion_reasons": [
+        "unknown_storage",
+        "label_interval_or_availability_unverified"
+      ],
+      "selected_observation": "Task 2/part 1/results/window_september2026_extended/3LYJfcfHPXYJreMsASk2jkn69LWEYKzexb.json"
+    },
+    {
+      "address": "3M219KR5vEneNb47ewrPfWyb5jQ2DjxRP6",
+      "entity": "Binance",
+      "published_storage": "unknown",
+      "coverage_complete": true,
+      "window_transaction_count": 10,
+      "eligible": false,
+      "exclusion_reasons": [
+        "unknown_storage",
+        "label_interval_or_availability_unverified"
+      ],
+      "selected_observation": "Task 2/part 1/results/window_september2026_extended/3M219KR5vEneNb47ewrPfWyb5jQ2DjxRP6.json"
+    },
+    {
+      "address": "bc1q43krjn8qvfydqs9lq8crg26er4c26hkpd2mpw7",
+      "entity": "Change",
+      "published_storage": "cold",
+      "coverage_complete": true,
+      "window_transaction_count": 0,
+      "eligible": false,
+      "exclusion_reasons": [
+        "label_interval_or_availability_unverified"
+      ],
+      "selected_observation": "Task 2/part 1/results/window_september2026/bc1q43krjn8qvfydqs9lq8crg26er4c26hkpd2mpw7.json"
+    },
+    {
+      "address": "bc1q9rqfux88j6az0wl957u2jdykgw5m5r72hcaclu",
+      "entity": "Change",
+      "published_storage": "cold",
+      "coverage_complete": true,
+      "window_transaction_count": 0,
+      "eligible": false,
+      "exclusion_reasons": [
+        "label_interval_or_availability_unverified"
+      ],
+      "selected_observation": "Task 2/part 1/results/window_september2026/bc1q9rqfux88j6az0wl957u2jdykgw5m5r72hcaclu.json"
+    },
+    {
+      "address": "bc1qgdjqv0av3q56jvd82tkdjpy7gdp9ut8tlqmgrpmv24sq90ecnvqqjwvw97",
+      "entity": "Bitfinex",
+      "published_storage": "cold",
+      "coverage_complete": true,
+      "window_transaction_count": 0,
+      "eligible": false,
+      "exclusion_reasons": [
+        "label_interval_or_availability_unverified"
+      ],
+      "selected_observation": "Task 2/part 1/results/window_september2026_extended/bc1qgdjqv0av3q56jvd82tkdjpy7gdp9ut8tlqmgrpmv24sq90ecnvqqjwvw97.json"
+    },
+    {
+      "address": "bc1qhsuvec03zslh9qvauksh2wc9hy9za7csxem5ea",
+      "entity": "Change",
+      "published_storage": "cold",
+      "coverage_complete": true,
+      "window_transaction_count": 0,
+      "eligible": false,
+      "exclusion_reasons": [
+        "label_interval_or_availability_unverified"
+      ],
+      "selected_observation": "Task 2/part 1/results/window_september2026/bc1qhsuvec03zslh9qvauksh2wc9hy9za7csxem5ea.json"
+    },
+    {
+      "address": "bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h",
+      "entity": "Binance",
+      "published_storage": "unknown",
+      "coverage_complete": false,
+      "window_transaction_count": null,
+      "eligible": false,
+      "exclusion_reasons": [
+        "unknown_storage",
+        "incomplete_window",
+        "label_interval_or_availability_unverified"
+      ],
+      "selected_observation": "Task 2/part 1/results/window_september2026/bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h.json"
+    }
+  ],
+  "limitations": [
+    "Provider count consistency is not cryptographic completeness.",
+    "Published storage labels do not establish validity across a later window.",
+    "Review dates are not evidence publication or validity dates.",
+    "Entity names are source attributions, not independently verified ownership groups.",
+    "Eligibility is only an input check; disjoint entity/incident and temporal splits still require review.",
+    "No model, performance estimate, hardware label or illicitness label is produced."
+  ]
+}

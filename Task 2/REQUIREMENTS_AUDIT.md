@@ -15,7 +15,7 @@ Les messages rapportés du 8 octobre ajoutent une priorité d'entraînement/vali
 | P.99 : comment les fonds sont-ils dépensés ? | Dépense de la collectrice, cinq consolidations, contrôles datés des sorties | Réalisé au premier niveau observable ; cinq sorties indiquées non dépensées lors du relevé |
 | P.99 : le classifieur est-il bon ? | Exercice simple, expériences aléatoire/chronologique et validation par groupe ; anciens résultats reproduits | Réalisé ; score simple trop favorable, forte dépendance aux frais, échec sur un groupe |
 | P.99 : trouver d'autres destinations et vérifier leur qualité | Application de l'arbre simple à 492 135 transactions inutilisées, 8 158 alertes, vingt destinations à examiner ; suivi des consolidations | Recherche exécutée ; aucune nouvelle destination confirmée comme liée à un vol |
-| P.99 : dataset d'adresses cold et classifieur | Pilote de collecte avec provenance hot/cold conservé dans `part 1` | Partiel : trop peu d'entités/contre-exemples fiables ; cold storage et appareil hardware restent distincts |
+| P.99 : dataset d'adresses cold et classifieur | Pilote de collecte et [contrôle d’éligibilité daté](part%201/STORAGE_READINESS.md) : six fenêtres complètes, zéro adresse éligible | Partiel : trop peu d'entités/contre-exemples fiables ; cold storage et appareil hardware restent distincts |
 | Suite rapportée : modèle sur adresses liées à des vols | Benchmarks Elliptic++ et Real-CATS ; pilote externe FBI/Binance/BTCPay/EFF/FSF | Benchmarks et scores descriptifs exécutés ; validation indépendante de détection de vol encore insuffisante |
 
 ## Vérification de l'indépendance

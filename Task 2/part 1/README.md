@@ -145,3 +145,7 @@ The run processed 11 addresses without errors and produced 206
 address/transaction rows (201 distinct transactions).
 Do not interpret sample date ranges as lifetime activity or apply historical
 storage labels to recent transactions without checking the evidence periods.
+
+## Éligibilité hot/cold — 16 octobre 2026
+
+Le [contrôle reproductible des fenêtres et labels](STORAGE_READINESS.md) consolide les deux collections existantes : six fenêtres de recherche complètes, zéro adresse éligible à une comparaison hot/cold datée. Il documente aussi la différence LF/CRLF du CSV étendu sans modifier les données historiques.
