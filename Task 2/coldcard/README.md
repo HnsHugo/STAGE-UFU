@@ -74,3 +74,7 @@ python proxy_model.py score grouped_results_20261008/research_proxy_model.json o
 ```
 
 The output uses research_candidate_score and research_candidate_like, with the interpretation similar_to_training_candidates_not_confirmed_theft. Do not use this output as a list of criminals or as evidence of hardware control. Out-of-distribution data require external validation.
+
+## Comparaison ML du 16 octobre 2026
+
+Les [baselines univariées par groupe](GROUPED_BASELINES_20261016.md) quantifient le compromis rappel/alertes par rapport à l’arbre historique, sans le réentraîner. Les trois nouvelles baselines et leurs règles par pli sont sauvegardées séparément.
