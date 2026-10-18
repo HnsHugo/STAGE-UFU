@@ -71,3 +71,7 @@ Three tests cover exclusion of other categories/inactive addresses, conflicting-
 ## Diagnostic de validation du 18 octobre 2026
 
 Le [diagnostic par catégorie et valeurs manquantes](VALIDATION_ERRORS_20261018.md) reproduit les métriques du benchmark à 22 caractéristiques. Sur 190 omissions de validation, 187 concernent des profils complets. Le test réservé et la forêt externe figée ne sont pas évalués par ce diagnostic.
+
+## Baselines de manque seul du 18 octobre 2026
+
+La [comparaison des indicateurs de manque seuls](MISSINGNESS_BASELINES_20261018.md) obtient une average precision de 1,75 %, contre 1,49 % pour le score constant et 24,69 % pour la forêt numérique historique. Elle reste un diagnostic sur validation, sans évaluation du test réservé.

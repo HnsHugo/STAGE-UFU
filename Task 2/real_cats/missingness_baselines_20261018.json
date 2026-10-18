@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "experiment": "missingness_only_validation_baselines_20261018",
+  "diagnostic_sha256": "2aeacee2713961522675accbf7e2e22dc7774263c703119b639fe5ffecf9e72e",
+  "source_sha256": {
+    "BB.tsv": "3bfe26f493e5767737c9ecf4c654009067c162dc7fa6fec68b0ab8234d4431e9",
+    "CB.tsv": "faf3978f5c9ce3b1257af72ac01975d657ab7529f66faf1a66f1f22f99fbb1ec"
+  },
+  "membership_sha256": {
+    "train": "c795ee8776b917c7416ffb51c25bf1cd8a13eac4e7a850385db32df20ce4f4c2",
+    "validation": "16d56ad3aff64145faafb0990e6fca66a654b40458e26cf81bac9161143ac2e0"
+  },
+  "original_features": [
+    "balance",
+    "total_received_BTC",
+    "total_sent_BTC",
+    "transaction_fee",
+    "transaction_fee_Variance",
+    "transaction_number",
+    "payment_transactions",
+    "receipt_transactions",
+    "lifetime",
+    "total_output_slots",
+    "total_input_slots",
+    "activity_w",
+    "activity_d",
+    "activity_time",
+    "max_sent_amount",
+    "min_sent_amount",
+    "max_received_amount",
+    "min_received_amount",
+    "received_Variance_BTC",
+    "sent_Variance_BTC",
+    "sent_counters",
+    "received_counters"
+  ],
+  "feature_definition": "1 iff numeric value is missing, nonnumeric or nonfinite; otherwise 0. No actual values supplied.",
+  "settings": {
+    "max_depth": 2,
+    "min_samples_leaf": 20,
+    "random_state": 42
+  },
+  "threshold_strictly_greater_than": 0.5,
+  "train_rows": 52736,
+  "validation_rows": 17579,
+  "training_positive_prevalence": 0.014923391990291262,
+  "validation_positive_prevalence": 0.014904146993571876,
+  "missingness_patterns": {
+    "train": 2,
+    "validation": 2,
+    "validation_rows_with_unseen_pattern": 0
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0"
+  },
+  "reserved_test_scored": false,
+  "models": {
+    "constant_training_prevalence": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "average_precision": 0.014904146993571876,
+      "true_negative": 17317,
+      "false_positive": 0,
+      "false_negative": 262,
+      "true_positive": 0,
+      "alert_count": 0
+    },
+    "missingness_tree_unweighted": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "average_precision": 0.017517158926766006,
+      "true_negative": 17317,
+      "false_positive": 0,
+      "false_negative": 262,
+      "true_positive": 0,
+      "alert_count": 0,
+      "per_category": {
+        "benign": {
+          "count": 17317,
+          "alerts": 0
+        },
+        "Hack": {
+          "count": 142,
+          "alerts": 0
+        },
+        "Theft": {
+          "count": 120,
+          "alerts": 0
+        }
+      }
+    },
+    "missingness_tree_balanced": {
+      "precision": 0.01754742547425474,
+      "recall": 0.9885496183206107,
+      "f1": 0.034482758620689655,
+      "average_precision": 0.017517158926766006,
+      "true_negative": 2816,
+      "false_positive": 14501,
+      "false_negative": 3,
+      "true_positive": 259,
+      "alert_count": 14760,
+      "per_category": {
+        "benign": {
+          "count": 17317,
+          "alerts": 14501
+        },
+        "Hack": {
+          "count": 142,
+          "alerts": 141
+        },
+        "Theft": {
+          "count": 120,
+          "alerts": 118
+        }
+      }
+    }
+  },
+  "rules": {
+    "missingness_tree_unweighted": "|--- missing__max_sent_amount <= 0.500000\n|   |--- class: 0\n|--- missing__max_sent_amount >  0.500000\n|   |--- class: 0\n",
+    "missingness_tree_balanced": "|--- missing__max_sent_amount <= 0.500000\n|   |--- class: 1\n|--- missing__max_sent_amount >  0.500000\n|   |--- class: 0\n"
+  },
+  "historical_numeric_forest_validation_no_refit": {
+    "precision": 0.34951456310679613,
+    "recall": 0.2748091603053435,
+    "f1": 0.3076923076923077,
+    "average_precision": 0.24692452610579427,
+    "true_negative": 17183,
+    "false_positive": 134,
+    "false_negative": 190,
+    "true_positive": 72
+  },
+  "limitations": [
+    "Development diagnostic prompted by previously inspected validation; not independent evaluation.",
+    "Two fixed weighting variants and threshold 0.5; no model, threshold or hyperparameter selection.",
+    "Historical numeric forest used a previously selected threshold 0.3; compare ranking AP separately from operating-point metrics.",
+    "Missingness associations may reflect source selection, behavior or feature definitions; no causal source-bias conclusion.",
+    "Source labels do not independently verify attacker/victim roles; entity and incident independence unknown.",
+    "Lifetime features and retrospective split do not establish decision-time detection.",
+    "External 19-feature model and its threshold remain untouched; leaf scores are not calibrated theft probabilities."
+  ]
+}
