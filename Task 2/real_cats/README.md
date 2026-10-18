@@ -83,3 +83,7 @@ La [permutation groupée sur validation](GROUPED_PERMUTATION_20261018.md) reprod
 ## Ablation des montants du 18 octobre 2026
 
 La [variante réentraînée sans la famille des montants](MONETARY_ABLATION_20261018.md) obtient une AP de validation de 25,04 %, contre 24,69 % pour la forêt complète. Au seuil fixe, elle produit davantage d’alertes sur benign (164 contre 134), sans augmenter le total des détections (72). Aucun meilleur modèle n’est sélectionné.
+
+## Stabilité sur trois graines du 18 octobre 2026
+
+La [comparaison des graines 42, 43 et 44](SEED_STABILITY_20261018.md) donne une AP moyenne de 24,42 % pour la forêt complète et 25,21 % sans montants. Le delta change de signe selon la graine, tandis que le F1 sans montants reste inférieur sur les trois graines. Aucun modèle ou graine gagnante n’est sélectionné.

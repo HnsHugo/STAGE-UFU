@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "experiment": "fixed_split_seed_stability_20261018",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "settings_except_seed": {
+    "n_estimators": 100,
+    "max_depth": 20,
+    "min_samples_leaf": 20,
+    "max_features": "sqrt",
+    "class_weight": {
+      "0": 1,
+      "1": 3
+    },
+    "n_jobs": 2
+  },
+  "threshold_strictly_greater_than": 0.3,
+  "features": {
+    "full": [
+      "balance",
+      "total_received_BTC",
+      "total_sent_BTC",
+      "transaction_fee",
+      "transaction_fee_Variance",
+      "transaction_number",
+      "payment_transactions",
+      "receipt_transactions",
+      "lifetime",
+      "total_output_slots",
+      "total_input_slots",
+      "activity_w",
+      "activity_d",
+      "activity_time",
+      "max_sent_amount",
+      "min_sent_amount",
+      "max_received_amount",
+      "min_received_amount",
+      "received_Variance_BTC",
+      "sent_Variance_BTC",
+      "sent_counters",
+      "received_counters"
+    ],
+    "without_monetary": [
+      "transaction_fee",
+      "transaction_fee_Variance",
+      "transaction_number",
+      "payment_transactions",
+      "receipt_transactions",
+      "lifetime",
+      "total_output_slots",
+      "total_input_slots",
+      "activity_w",
+      "activity_d",
+      "activity_time",
+      "sent_counters",
+      "received_counters"
+    ]
+  },
+  "versions": {
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "source_sha256": {
+    "BB.tsv": "3bfe26f493e5767737c9ecf4c654009067c162dc7fa6fec68b0ab8234d4431e9",
+    "CB.tsv": "faf3978f5c9ce3b1257af72ac01975d657ab7529f66faf1a66f1f22f99fbb1ec"
+  },
+  "membership_sha256": {
+    "train": "c795ee8776b917c7416ffb51c25bf1cd8a13eac4e7a850385db32df20ce4f4c2",
+    "validation": "16d56ad3aff64145faafb0990e6fca66a654b40458e26cf81bac9161143ac2e0"
+  },
+  "cache_sha256": {
+    "Task 2/real_cats/validation_errors_20261018.json": "2aeacee2713961522675accbf7e2e22dc7774263c703119b639fe5ffecf9e72e",
+    "Task 2/real_cats/monetary_ablation_20261018.json": "a2bc57a4ed9b7df0b124101a2ba9cf2c870dcba9a2edcfe7f111fb0763e37f43"
+  },
+  "train_rows": 52736,
+  "validation_rows": 17579,
+  "reserved_test_scored": false,
+  "rows": [
+    {
+      "seed": 42,
+      "origin": "reused_verified_cached_metrics",
+      "models": {
+        "full": {
+          "metrics": {
+            "precision": 0.34951456310679613,
+            "recall": 0.2748091603053435,
+            "f1": 0.3076923076923077,
+            "average_precision": 0.24692452610579427,
+            "true_negative": 17183,
+            "false_positive": 134,
+            "false_negative": 190,
+            "true_positive": 72
+          },
+          "per_source_category": {
+            "benign": {
+              "count": 17317,
+              "alerts": 134
+            },
+            "Hack": {
+              "count": 142,
+              "alerts": 33
+            },
+            "Theft": {
+              "count": 120,
+              "alerts": 39
+            }
+          }
+        },
+        "without_monetary": {
+          "metrics": {
+            "precision": 0.3050847457627119,
+            "recall": 0.2748091603053435,
+            "f1": 0.2891566265060241,
+            "average_precision": 0.25040578197318236,
+            "true_negative": 17153,
+            "false_positive": 164,
+            "false_negative": 190,
+            "true_positive": 72
+          },
+          "per_source_category": {
+            "benign": {
+              "count": 17317,
+              "alerts": 164
+            },
+            "Hack": {
+              "count": 142,
+              "alerts": 24
+            },
+            "Theft": {
+              "count": 120,
+              "alerts": 48
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 43,
+      "origin": "new_fit_training_only",
+      "models": {
+        "full": {
+          "metrics": {
+            "precision": 0.3173913043478261,
+            "recall": 0.2786259541984733,
+            "f1": 0.2967479674796748,
+            "average_precision": 0.25043540988129,
+            "true_negative": 17160,
+            "false_positive": 157,
+            "false_negative": 189,
+            "true_positive": 73
+          },
+          "per_source_category": {
+            "benign": {
+              "count": 17317,
+              "alerts": 157
+            },
+            "Hack": {
+              "count": 142,
+              "alerts": 35
+            },
+            "Theft": {
+              "count": 120,
+              "alerts": 38
+            }
+          }
+        },
+        "without_monetary": {
+          "metrics": {
+            "precision": 0.3113207547169811,
+            "recall": 0.25190839694656486,
+            "f1": 0.27848101265822783,
+            "average_precision": 0.24861222030946278,
+            "true_negative": 17171,
+            "false_positive": 146,
+            "false_negative": 196,
+            "true_positive": 66
+          },
+          "per_source_category": {
+            "benign": {
+              "count": 17317,
+              "alerts": 146
+            },
+            "Hack": {
+              "count": 142,
+              "alerts": 22
+            },
+            "Theft": {
+              "count": 120,
+              "alerts": 44
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 44,
+      "origin": "new_fit_training_only",
+      "models": {
+        "full": {
+          "metrics": {
+            "precision": 0.32432432432432434,
+            "recall": 0.2748091603053435,
+            "f1": 0.2975206611570248,
+            "average_precision": 0.2352239601430911,
+            "true_negative": 17167,
+            "false_positive": 150,
+            "false_negative": 190,
+            "true_positive": 72
+          },
+          "per_source_category": {
+            "benign": {
+              "count": 17317,
+              "alerts": 150
+            },
+            "Hack": {
+              "count": 142,
+              "alerts": 31
+            },
+            "Theft": {
+              "count": 120,
+              "alerts": 41
+            }
+          }
+        },
+        "without_monetary": {
+          "metrics": {
+            "precision": 0.3094170403587444,
+            "recall": 0.2633587786259542,
+            "f1": 0.2845360824742268,
+            "average_precision": 0.2573653515545567,
+            "true_negative": 17163,
+            "false_positive": 154,
+            "false_negative": 193,
+            "true_positive": 69
+          },
+          "per_source_category": {
+            "benign": {
+              "count": 17317,
+              "alerts": 154
+            },
+            "Hack": {
+              "count": 142,
+              "alerts": 23
+            },
+            "Theft": {
+              "count": 120,
+              "alerts": 46
+            }
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "average_precision": {
+      "full": {
+        "mean": 0.24419463204339178,
+        "std_ddof0": 0.006503142418779449,
+        "min": 0.2352239601430911,
+        "max": 0.25043540988129
+      },
+      "without_monetary": {
+        "mean": 0.2521277846124006,
+        "std_ddof0": 0.0037752082914338033,
+        "min": 0.24861222030946278,
+        "max": 0.2573653515545567
+      },
+      "paired_delta_without_minus_full": {
+        "mean": 0.00793315256900883,
+        "std_ddof0": 0.01027747775827078,
+        "min": -0.0018231895718271995,
+        "max": 0.022141391411465594
+      }
+    },
+    "precision": {
+      "full": {
+        "mean": 0.3304100639263155,
+        "std_ddof0": 0.01380224880714176,
+        "min": 0.3173913043478261,
+        "max": 0.34951456310679613
+      },
+      "without_monetary": {
+        "mean": 0.30860751361281247,
+        "std_ddof0": 0.002609399941712765,
+        "min": 0.3050847457627119,
+        "max": 0.3113207547169811
+      },
+      "paired_delta_without_minus_full": {
+        "mean": -0.02180255031350305,
+        "std_ddof0": 0.016401562494278626,
+        "min": -0.044429817344084244,
+        "max": -0.006070549630844968
+      }
+    },
+    "recall": {
+      "full": {
+        "mean": 0.27608142493638677,
+        "std_ddof0": 0.001799253896148979,
+        "min": 0.2748091603053435,
+        "max": 0.2786259541984733
+      },
+      "without_monetary": {
+        "mean": 0.2633587786259542,
+        "std_ddof0": 0.009349197491538863,
+        "min": 0.25190839694656486,
+        "max": 0.2748091603053435
+      },
+      "paired_delta_without_minus_full": {
+        "mean": -0.012722646310432592,
+        "std_ddof0": 0.010944434181988092,
+        "min": -0.02671755725190844,
+        "max": 0.0
+      }
+    },
+    "f1": {
+      "full": {
+        "mean": 0.30065364544300244,
+        "std_ddof0": 0.0049870725263492025,
+        "min": 0.2967479674796748,
+        "max": 0.3076923076923077
+      },
+      "without_monetary": {
+        "mean": 0.28405790721282625,
+        "std_ddof0": 0.004371397293183373,
+        "min": 0.27848101265822783,
+        "max": 0.2891566265060241
+      },
+      "paired_delta_without_minus_full": {
+        "mean": -0.0165957382301762,
+        "std_ddof0": 0.002555831035397956,
+        "min": -0.018535681186283626,
+        "max": -0.01298457868279801
+      }
+    },
+    "true_positive": {
+      "full": {
+        "mean": 72.33333333333333,
+        "std_ddof0": 0.4714045207910317,
+        "min": 72.0,
+        "max": 73.0
+      },
+      "without_monetary": {
+        "mean": 69.0,
+        "std_ddof0": 2.449489742783178,
+        "min": 66.0,
+        "max": 72.0
+      },
+      "paired_delta_without_minus_full": {
+        "mean": -3.3333333333333335,
+        "std_ddof0": 2.8674417556808756,
+        "min": -7.0,
+        "max": 0.0
+      }
+    },
+    "false_positive": {
+      "full": {
+        "mean": 147.0,
+        "std_ddof0": 9.626352718795768,
+        "min": 134.0,
+        "max": 157.0
+      },
+      "without_monetary": {
+        "mean": 154.66666666666666,
+        "std_ddof0": 7.363574011458174,
+        "min": 146.0,
+        "max": 164.0
+      },
+      "paired_delta_without_minus_full": {
+        "mean": 7.666666666666667,
+        "std_ddof0": 16.937794687883333,
+        "min": -11.0,
+        "max": 30.0
+      }
+    }
+  },
+  "limitations": [
+    "Three predeclared seeds vary forest randomness only; the data split stays fixed.",
+    "No winning seed or model is selected; this is a development diagnostic on inspected validation.",
+    "Standard deviations/ranges are descriptive algorithmic variability, not confidence intervals or significance tests.",
+    "max_features=sqrt changes effective candidate count with feature count; ablation is not causal attribution.",
+    "Source role labels, unknown entity/incident groups and retrospective profiles retain their limitations.",
+    "No reserved-test scoring or modification of the frozen external 19-feature model."
+  ]
+}
