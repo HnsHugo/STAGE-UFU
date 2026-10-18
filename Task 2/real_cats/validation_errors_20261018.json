@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "experiment": "historical_validation_error_diagnostic_20261018",
+  "reference_sha256": "6ae89fbfd8a7376756b536284e8a19546fccf31bc5464cb09b777a340b3d6442",
+  "source_sha256": {
+    "BB.tsv": "3bfe26f493e5767737c9ecf4c654009067c162dc7fa6fec68b0ab8234d4431e9",
+    "CB.tsv": "faf3978f5c9ce3b1257af72ac01975d657ab7529f66faf1a66f1f22f99fbb1ec"
+  },
+  "features": [
+    "balance",
+    "total_received_BTC",
+    "total_sent_BTC",
+    "transaction_fee",
+    "transaction_fee_Variance",
+    "transaction_number",
+    "payment_transactions",
+    "receipt_transactions",
+    "lifetime",
+    "total_output_slots",
+    "total_input_slots",
+    "activity_w",
+    "activity_d",
+    "activity_time",
+    "max_sent_amount",
+    "min_sent_amount",
+    "max_received_amount",
+    "min_received_amount",
+    "received_Variance_BTC",
+    "sent_Variance_BTC",
+    "sent_counters",
+    "received_counters"
+  ],
+  "settings": {
+    "n_estimators": 100,
+    "max_depth": 20,
+    "min_samples_leaf": 20,
+    "max_features": "sqrt",
+    "class_weight": {
+      "0": 1,
+      "1": 3
+    },
+    "random_state": 42,
+    "n_jobs": 2
+  },
+  "threshold_strictly_greater_than": 0.3,
+  "versions": {
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "train_rows": 52736,
+  "validation_rows": 17579,
+  "reserved_test_scored": false,
+  "membership_sha256": {
+    "train": "c795ee8776b917c7416ffb51c25bf1cd8a13eac4e7a850385db32df20ce4f4c2",
+    "validation": "16d56ad3aff64145faafb0990e6fca66a654b40458e26cf81bac9161143ac2e0"
+  },
+  "historical_validation_reproduced": true,
+  "validation_metrics": {
+    "precision": 0.34951456310679613,
+    "recall": 0.2748091603053435,
+    "f1": 0.3076923076923077,
+    "average_precision": 0.24692452610579427,
+    "true_negative": 17183,
+    "false_positive": 134,
+    "false_negative": 190,
+    "true_positive": 72
+  },
+  "diagnostic": {
+    "strata": [
+      {
+        "source_category": "benign",
+        "missingness": "all",
+        "count": 17317,
+        "alerts": 134,
+        "alert_rate": 0.007738060865045909,
+        "outcomes": {
+          "TP": 0,
+          "FN": 0,
+          "FP": 134,
+          "TN": 17183
+        }
+      },
+      {
+        "source_category": "benign",
+        "missingness": "no_missing",
+        "count": 14501,
+        "alerts": 131,
+        "alert_rate": 0.009033859733811461,
+        "outcomes": {
+          "TP": 0,
+          "FN": 0,
+          "FP": 131,
+          "TN": 14370
+        }
+      },
+      {
+        "source_category": "benign",
+        "missingness": "any_missing",
+        "count": 2816,
+        "alerts": 3,
+        "alert_rate": 0.001065340909090909,
+        "outcomes": {
+          "TP": 0,
+          "FN": 0,
+          "FP": 3,
+          "TN": 2813
+        }
+      },
+      {
+        "source_category": "Hack",
+        "missingness": "all",
+        "count": 142,
+        "alerts": 33,
+        "alert_rate": 0.2323943661971831,
+        "outcomes": {
+          "TP": 33,
+          "FN": 109,
+          "FP": 0,
+          "TN": 0
+        }
+      },
+      {
+        "source_category": "Hack",
+        "missingness": "no_missing",
+        "count": 141,
+        "alerts": 33,
+        "alert_rate": 0.23404255319148937,
+        "outcomes": {
+          "TP": 33,
+          "FN": 108,
+          "FP": 0,
+          "TN": 0
+        }
+      },
+      {
+        "source_category": "Hack",
+        "missingness": "any_missing",
+        "count": 1,
+        "alerts": 0,
+        "alert_rate": 0.0,
+        "outcomes": {
+          "TP": 0,
+          "FN": 1,
+          "FP": 0,
+          "TN": 0
+        }
+      },
+      {
+        "source_category": "Theft",
+        "missingness": "all",
+        "count": 120,
+        "alerts": 39,
+        "alert_rate": 0.325,
+        "outcomes": {
+          "TP": 39,
+          "FN": 81,
+          "FP": 0,
+          "TN": 0
+        }
+      },
+      {
+        "source_category": "Theft",
+        "missingness": "no_missing",
+        "count": 118,
+        "alerts": 39,
+        "alert_rate": 0.3305084745762712,
+        "outcomes": {
+          "TP": 39,
+          "FN": 79,
+          "FP": 0,
+          "TN": 0
+        }
+      },
+      {
+        "source_category": "Theft",
+        "missingness": "any_missing",
+        "count": 2,
+        "alerts": 0,
+        "alert_rate": 0.0,
+        "outcomes": {
+          "TP": 0,
+          "FN": 2,
+          "FP": 0,
+          "TN": 0
+        }
+      }
+    ],
+    "outcomes": {
+      "TP": 72,
+      "FN": 190,
+      "FP": 134,
+      "TN": 17183
+    },
+    "missing_by_outcome": {
+      "TP": {
+        "count": 72,
+        "rows_with_missing": 0,
+        "missing_cells_by_feature": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "FN": {
+        "count": 190,
+        "rows_with_missing": 3,
+        "missing_cells_by_feature": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "FP": {
+        "count": 134,
+        "rows_with_missing": 3,
+        "missing_cells_by_feature": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "TN": {
+        "count": 17183,
+        "rows_with_missing": 2813,
+        "missing_cells_by_feature": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2813,
+          2813,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "limitations": [
+    "22-feature historical source-category benchmark, not the frozen external 19-feature model.",
+    "Validation previously selected the model/threshold and is not independent external evaluation.",
+    "Associations with missingness are descriptive, not causal explanations or feature attributions.",
+    "Small strata have unstable rates; no significance or population performance is inferred.",
+    "Source benign/crime categories are not independently verified roles; entity/incident independence unknown.",
+    "Lifetime profiles are retrospective, not decision-time data. No hyperparameter or threshold is selected here."
+  ]
+}

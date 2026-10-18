@@ -67,3 +67,7 @@ python -m unittest discover -p 'test_*.py' -v
 Download BB.tsv and CB.tsv from the pinned source URLs in ../theft_cases/research_download_manifest.json. The output directory must be new. Committed results contain metrics.json, status.json and readable decision-tree rules. The script also writes split_assignments.csv.gz locally, omitted from Git; logical assignments are reproducible while gzip byte hashes may depend on timestamps. No fitted production model is exported.
 
 Three tests cover exclusion of other categories/inactive addresses, conflicting-label rejection and disjoint/exhaustive three-way splitting. The real run's split counts and confusion totals were independently checked.
+
+## Diagnostic de validation du 18 octobre 2026
+
+Le [diagnostic par catégorie et valeurs manquantes](VALIDATION_ERRORS_20261018.md) reproduit les métriques du benchmark à 22 caractéristiques. Sur 190 omissions de validation, 187 concernent des profils complets. Le test réservé et la forêt externe figée ne sont pas évalués par ce diagnostic.
