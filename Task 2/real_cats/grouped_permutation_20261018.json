@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "experiment": "grouped_validation_permutation_20261018",
+  "reference_sha256": "2aeacee2713961522675accbf7e2e22dc7774263c703119b639fe5ffecf9e72e",
+  "source_sha256": {
+    "BB.tsv": "3bfe26f493e5767737c9ecf4c654009067c162dc7fa6fec68b0ab8234d4431e9",
+    "CB.tsv": "faf3978f5c9ce3b1257af72ac01975d657ab7529f66faf1a66f1f22f99fbb1ec"
+  },
+  "membership_sha256": {
+    "train": "c795ee8776b917c7416ffb51c25bf1cd8a13eac4e7a850385db32df20ce4f4c2",
+    "validation": "16d56ad3aff64145faafb0990e6fca66a654b40458e26cf81bac9161143ac2e0"
+  },
+  "model_settings": {
+    "n_estimators": 100,
+    "max_depth": 20,
+    "min_samples_leaf": 20,
+    "max_features": "sqrt",
+    "class_weight": {
+      "0": 1,
+      "1": 3
+    },
+    "random_state": 42,
+    "n_jobs": 2
+  },
+  "features": [
+    "balance",
+    "total_received_BTC",
+    "total_sent_BTC",
+    "transaction_fee",
+    "transaction_fee_Variance",
+    "transaction_number",
+    "payment_transactions",
+    "receipt_transactions",
+    "lifetime",
+    "total_output_slots",
+    "total_input_slots",
+    "activity_w",
+    "activity_d",
+    "activity_time",
+    "max_sent_amount",
+    "min_sent_amount",
+    "max_received_amount",
+    "min_received_amount",
+    "received_Variance_BTC",
+    "sent_Variance_BTC",
+    "sent_counters",
+    "received_counters"
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0"
+  },
+  "baseline_validation_ap": 0.24692452610579427,
+  "validation_positive_prevalence": 0.014904146993571876,
+  "repeats": 5,
+  "seed": 42,
+  "train_rows": 52736,
+  "validation_rows": 17579,
+  "permutation_membership_sha256": [
+    "94b0303547fc0e59ac5420fc728cf4be17c5cd946bec8c245a7093b325b0f402",
+    "f3adad6be9cff081ffb4e581e84210e19aa3e15403530876b6e8430a55b77b4d",
+    "e5b4fcb78420f9e20ad6565661a6f5f72878afa5754d90531a61933be840dfc0",
+    "73ec90ecfb23c35bac0caca5aa505122d879696d9d80673ba48710c95a4b1ffc",
+    "b1d98f522d9518c07010e5ec9fa85b6ea1a48ab50a499a0920b3b84d6452bc99"
+  ],
+  "permutation_protocol": "Same 5 row permutations for all families; columns within each family move jointly after train-fitted imputation.",
+  "reserved_test_scored": false,
+  "families": {
+    "monetary": {
+      "features": [
+        "balance",
+        "total_received_BTC",
+        "total_sent_BTC",
+        "max_sent_amount",
+        "min_sent_amount",
+        "max_received_amount",
+        "min_received_amount",
+        "received_Variance_BTC",
+        "sent_Variance_BTC"
+      ],
+      "permuted_ap": [
+        0.04595293247063427,
+        0.04278787620547964,
+        0.038254504595896466,
+        0.037184582736592246,
+        0.04991566010582325
+      ],
+      "ap_drop": [
+        0.20097159363515998,
+        0.20413664990031463,
+        0.2086700215098978,
+        0.20973994336920201,
+        0.19700886599997103
+      ],
+      "mean_ap_drop": 0.20410541488290906,
+      "std_ap_drop_ddof0": 0.00474902857875337,
+      "mean_permuted_ap": 0.042819111222885176
+    },
+    "activity_counts": {
+      "features": [
+        "transaction_number",
+        "payment_transactions",
+        "receipt_transactions",
+        "total_output_slots",
+        "total_input_slots",
+        "sent_counters",
+        "received_counters"
+      ],
+      "permuted_ap": [
+        0.07244466824446869,
+        0.08716480191361262,
+        0.08581223154996845,
+        0.08117329297296111,
+        0.06719373801189028
+      ],
+      "ap_drop": [
+        0.17447985786132558,
+        0.15975972419218165,
+        0.16111229455582582,
+        0.16575123313283316,
+        0.17973078809390397
+      ],
+      "mean_ap_drop": 0.16816677956721404,
+      "std_ap_drop_ddof0": 0.0077441649541361395,
+      "mean_permuted_ap": 0.07875774653858023
+    },
+    "time_activity": {
+      "features": [
+        "lifetime",
+        "activity_w",
+        "activity_d",
+        "activity_time"
+      ],
+      "permuted_ap": [
+        0.11226343865911531,
+        0.11711386325976846,
+        0.11679165264890859,
+        0.10021617952588821,
+        0.11093585409166529
+      ],
+      "ap_drop": [
+        0.13466108744667896,
+        0.12981066284602583,
+        0.13013287345688568,
+        0.14670834657990606,
+        0.13598867201412898
+      ],
+      "mean_ap_drop": 0.1354603284687251,
+      "std_ap_drop_ddof0": 0.006127582608080108,
+      "mean_permuted_ap": 0.11146419763706919
+    },
+    "fees": {
+      "features": [
+        "transaction_fee",
+        "transaction_fee_Variance"
+      ],
+      "permuted_ap": [
+        0.13725240752228124,
+        0.11245357267506688,
+        0.129749481315953,
+        0.1307335266312772,
+        0.11771917291882594
+      ],
+      "ap_drop": [
+        0.10967211858351303,
+        0.1344709534307274,
+        0.11717504478984125,
+        0.11619099947451705,
+        0.12920535318696832
+      ],
+      "mean_ap_drop": 0.12134289389311341,
+      "std_ap_drop_ddof0": 0.009102573174062946,
+      "mean_permuted_ap": 0.12558163221268087
+    },
+    "all_features_control": {
+      "features": [
+        "balance",
+        "total_received_BTC",
+        "total_sent_BTC",
+        "transaction_fee",
+        "transaction_fee_Variance",
+        "transaction_number",
+        "payment_transactions",
+        "receipt_transactions",
+        "lifetime",
+        "total_output_slots",
+        "total_input_slots",
+        "activity_w",
+        "activity_d",
+        "activity_time",
+        "max_sent_amount",
+        "min_sent_amount",
+        "max_received_amount",
+        "min_received_amount",
+        "received_Variance_BTC",
+        "sent_Variance_BTC",
+        "sent_counters",
+        "received_counters"
+      ],
+      "permuted_ap": [
+        0.015164027497480512,
+        0.018282503021201706,
+        0.014583034519223836,
+        0.01584058036141721,
+        0.018021478827878683
+      ],
+      "ap_drop": [
+        0.23176049860831377,
+        0.22864202308459255,
+        0.23234149158657044,
+        0.23108394574437707,
+        0.22890304727791558
+      ],
+      "mean_ap_drop": 0.2305462012603539,
+      "std_ap_drop_ddof0": 0.001504167814428639,
+      "mean_permuted_ap": 0.01637832484544039
+    }
+  },
+  "limitations": [
+    "Previously inspected model-selection validation; development diagnostic, not independent evaluation.",
+    "Standard deviation describes permutation randomness, not a confidence interval for population performance.",
+    "Within-family dependencies are preserved; cross-family algebraic and behavioral dependencies may be broken.",
+    "Importance reflects model reliance under this perturbation, not causal relevance or a unique contribution.",
+    "Row permutations do not account for unknown entity/incident clusters.",
+    "Full-history profiles are retrospective; source labels are not independently verified theft roles.",
+    "No threshold, model or hyperparameter selection; external 19-feature model remains unchanged."
+  ]
+}

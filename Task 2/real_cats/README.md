@@ -75,3 +75,7 @@ Le [diagnostic par catégorie et valeurs manquantes](VALIDATION_ERRORS_20261018.
 ## Baselines de manque seul du 18 octobre 2026
 
 La [comparaison des indicateurs de manque seuls](MISSINGNESS_BASELINES_20261018.md) obtient une average precision de 1,75 %, contre 1,49 % pour le score constant et 24,69 % pour la forêt numérique historique. Elle reste un diagnostic sur validation, sans évaluation du test réservé.
+
+## Importance par familles du 18 octobre 2026
+
+La [permutation groupée sur validation](GROUPED_PERMUTATION_20261018.md) reproduit l’AP de référence de 24,69 %. Elle descend en moyenne à 4,28 % après permutation des montants et à 7,88 % après permutation des compteurs d’activité. Ces dépendances ne sont ni causales ni additionnables.
