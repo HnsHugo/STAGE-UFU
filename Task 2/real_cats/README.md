@@ -79,3 +79,7 @@ La [comparaison des indicateurs de manque seuls](MISSINGNESS_BASELINES_20261018.
 ## Importance par familles du 18 octobre 2026
 
 La [permutation groupée sur validation](GROUPED_PERMUTATION_20261018.md) reproduit l’AP de référence de 24,69 %. Elle descend en moyenne à 4,28 % après permutation des montants et à 7,88 % après permutation des compteurs d’activité. Ces dépendances ne sont ni causales ni additionnables.
+
+## Ablation des montants du 18 octobre 2026
+
+La [variante réentraînée sans la famille des montants](MONETARY_ABLATION_20261018.md) obtient une AP de validation de 25,04 %, contre 24,69 % pour la forêt complète. Au seuil fixe, elle produit davantage d’alertes sur benign (164 contre 134), sans augmenter le total des détections (72). Aucun meilleur modèle n’est sélectionné.
