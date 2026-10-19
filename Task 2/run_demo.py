@@ -18,10 +18,10 @@ import sys
 
 
 ROOT = Path(__file__).resolve().parent
-MODEL_PATH = 'coldcard/grouped_results_20261008/research_proxy_model.json'
-SCORE_PATHS = ('real_cats/expanded_external_scores_20261014.json',
-               'real_cats/fsf_external_score_20261014.json')
-EARLY_SCORE_PATH = 'real_cats/external_scores_20261014.json'
+MODEL_PATH = 'research/coldcard/grouped_results_20261008/research_proxy_model.json'
+SCORE_PATHS = ('supplementary/real_cats/expanded_external_scores_20261014.json',
+               'supplementary/real_cats/fsf_external_score_20261014.json')
+EARLY_SCORE_PATH = 'supplementary/real_cats/external_scores_20261014.json'
 PINNED = {
     MODEL_PATH: 'd56c28539e65bb34a8b607b6a18dc372bfa812c9d0045f5f532dd7df7a292926',
     SCORE_PATHS[0]: 'a9830ee4b6bd9b13ad4de4eecca6ea7df72c1cccc7fcb2a93644029560b9c052',
@@ -47,8 +47,8 @@ EXTERNAL_FEATURES = [
 ]
 FIXED_MODEL = dict(n_estimators=100, max_depth=20, min_samples_leaf=20,
                    max_features='sqrt', class_weight=1, random_state=42, threshold=0.15)
-HISTORY_DIRS = ('theft_cases/eff_history_20261014', 'theft_cases/pilot_histories_20261013',
-                'coldcard/theft_history_20261010', 'theft_cases/binance_seed_20261013')
+HISTORY_DIRS = ('research/external_cases/eff_history_20261014', 'research/external_cases/pilot_histories_20261013',
+                'research/coldcard/theft_history_20261010', 'research/external_cases/binance_seed_20261013')
 
 
 def require(condition, message):
@@ -242,7 +242,7 @@ def audit_history(path, row):
 
 def replay_external_features(path, row):
     # Reuse the research extractor; no forest is fitted or scored here.
-    folder = str(ROOT / 'real_cats')
+    folder = str(ROOT / 'supplementary/real_cats')
     if folder not in sys.path:
         sys.path.insert(0, folder)
     module = importlib.import_module('score_external_histories')
@@ -301,7 +301,7 @@ def run(root=ROOT, data_dir=None, source=None, history_dirs=()):
                                reason='Supply --data-dir containing transactions.csv.gz.'))
         elif checks[-1]['status'] == 'verified':
             check('coldcard_data_replay', lambda: replay_coldcard(data_dir / 'transactions.csv.gz', model,
-                  read_json(root / 'coldcard/inputs_20261008/manifest.json')))
+                  read_json(root / 'research/coldcard/inputs_20261008/manifest.json')))
 
     def saved_external():
         documents = [pinned_json(p) for p in SCORE_PATHS]

@@ -1,82 +1,54 @@
-# Task 2 — Analyse de transactions et d'adresses Bitcoin
+# Task 2 — Hardware-wallet case studies and Bitcoin transaction analysis
 
-## État vérifié au 15 octobre 2026
+**Start with Parts 1–4.** They explain the Coldcard coursework in order. Part 5 describes the next cross-case work. The supplementary benchmarks are preserved but are currently paused.
 
-La branche contient les expériences du cas Coldcard, les benchmarks d'adresses et un pilote externe descriptif. Les consignes du support d'Ivan ont été retrouvées : l'exercice 100 + 100 et les questions de flux ont maintenant des scripts, des résultats et des limites explicites.
+## The main learning path
 
-- [Exigences retrouvées : réalisé, partiel, bloqué](REQUIREMENTS_AUDIT.md)
-- [Bilan français pour Ivan](BILAN_FR.md)
-- [Démonstration hors ligne et reproduction](DEMO.md)
-- [Exercice exact du cours et recherche de candidats](coldcard/COURSE_EXERCISE.md)
-- [Flux de l'adresse étudiée et des cinq consolidations](coldcard/case_flows_20261015/CASE_FLOWS_FR.md)
-- [Validation groupée du modèle de transactions](coldcard/GROUPED_EXPERIMENT.md)
-- [Benchmark Elliptic++](ellipticplusplus/README.md)
-- [Benchmark Real-CATS et limites de provenance](real_cats/README.md)
-- [Audit des dépendances du pilote externe](real_cats/EXTERNAL_INDEPENDENCE_AUDIT.md)
+| Part | Question | What to open |
+| --- | --- | --- |
+| [Part 1 — Case study and fund flows](part_1_case_study/README.md) | What happened in the observed transactions, and where did the funds go? | Financial report and parent coverage |
+| [Part 2 — Dataset and features](part_2_dataset/README.md) | What data did we collect, and what does each variable mean? | Feature definitions, labels and integrity checks |
+| [Part 3 — The classroom classifier](part_3_classifier/README.md) | Can an interpretable tree recognize payments to the course address? | The 100 + 100 exercise and readable tree |
+| [Part 4 — Validation and limitations](part_4_validation/README.md) | Does the result hold when related groups are kept apart? | Grouped results and simple baselines |
+| [Part 5 — Additional cases and generalization](part_5_cross_case/README.md) | How should another hardware-wallet-related case be added? | Evidence requirements and work still pending |
 
-Le corpus Coldcard compte 493 571 transactions uniques. La reproduction complète des résultats groupés retrouve exactement les métriques sauvegardées. Les onze scores du pilote externe et leurs caractéristiques ont également été reproduits à l'identique, sans modification de la forêt à 19 variables ni du seuil strict de 0,15.
+The target address is `bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0`. A relationship to this case is not proof of theft or hardware-wallet use. Cold storage, hardware signing and illicit activity are different properties.
 
-L'exercice de 200 transactions obtient 60/60 sur son petit test lié à la même adresse, mais génère 8 158 alertes sur 492 135 transactions non attribuées inutilisées. Ce résultat illustre la différence entre reconnaître un échantillon et détecter de nouveaux incidents. Les pistes de destinations ne sont pas des vols confirmés.
+## Three results to understand first
 
-Les hypothèses de cold storage, d'appareil matériel et d'activité illicite restent distinctes. L'absence de chevauchement d'adresse exacte n'établit pas l'indépendance des transactions ou des entités ; le nouvel audit externe précise les relations observables. Aucun résultat n'est présenté comme une probabilité calibrée de vol.
+1. [Financial analysis](research/coldcard/case_flows_20261015/CASE_FLOWS.md): observed receipts and spending, not a certified stolen total.
+2. [Classroom exercise](research/coldcard/COURSE_EXERCISE.md): 60/60 on the small same-address sample test; this does not establish cross-case generalization.
+3. [Grouped validation](research/coldcard/GROUPED_EXPERIMENT.md): 874/1,070 candidate relations recovered, 1,072 alerts on unattributed background, and substantial variation across groups.
 
-Les sections suivantes conservent l'historique du premier pilote ; leurs formulations au présent décrivent l'état de cette étape initiale, pas celui de toute la branche actuelle.
+These are different experiments with different targets and protocols. Their scores should not be combined.
 
-## Original research direction (provisional)
+## Where things live
 
-The supervisor's remembered keywords are WalletExplorer, hardware-wallet-related
-addresses and CPFP flags. The exact scope and the intended meaning of cold vs
-hardware wallets still need confirmation. This is a working plan, not an official
-assignment or a claim that these behaviours identify illicit activity.
+| Directory or document | Purpose |
+| --- | --- |
+| `part_1_*` to `part_5_*` | Short explanations in the order to learn and present the project |
+| [research/](research/README.md) | Working scripts, case evidence and saved Coldcard results |
+| [supplementary/](supplementary/README.md) | Real-CATS, Elliptic++ and the earlier wallet-storage pilot; outside the current main path |
+| [verification/](verification/README.md) | Historical execution evidence and reorganization checks |
+| [Project status](PROJECT_STATUS.md) | Completed, partial and blocked work |
+| [Requirements](REQUIREMENTS.md) | Original course requirements and later research notes |
+| [Reproducibility](REPRODUCIBILITY.md) | Commands, dependencies and the offline demonstration |
+| [Data access](DATA_ACCESS.md) | Files committed to Git versus separately supplied datasets |
+| [Migration guide](docs/MIGRATION.md) | Where the old folders moved |
 
-1. Address-to-cluster observations with WalletExplorer (first implementation).
-2. Build a sourced cold/hardware-wallet dataset with explicit evidence levels.
-3. Extract behavioural features and document competing explanations.
-4. Investigate CPFP candidates and fees relative to contemporaneous conditions.
-5. Test hypotheses against independently sourced licit/illicit labels.
+Read a report before opening its code. `.md` files explain the work, `.py` files run it, `test_*.py` files verify it, `.json` files retain detailed results, and `tree.txt` files show readable rules. Dated result files are historical records, not separate projects.
 
-A hardware wallet is a signing device; cold storage is an operational practice.
-An address format does not establish either property. Keep service attribution,
-storage classification and illicit labels as separate fields with separate sources.
+Need help with the terminology? Start with [Which model is which?](docs/MODEL_GUIDE.md) and the [plain-English glossary](docs/GLOSSARY.md).
 
-## Original wallet-pilot progress
+## Quick checks
 
-Part 1 contains single-address and CSV collection CLIs, sourced input records,
-real API snapshots and offline tests for validation, error handling and resume.
-The seed table now includes seven first-party research addresses: three Bitfinex
-addresses with published hot/cold labels and four historical Binance reserve
-addresses with unknown storage. WalletExplorer found all seven but supplied no
-service names. These are collection results, not illicit-correlation findings.
-It queries an existing clustering service; it does not implement clustering itself.
-The wallet-collection pilot implements no hardware/cold classification, CPFP detection or illicit classifier.
+Run from the repository root:
 
-## Validation constraint
+```bash
+python "Task 2/check_repository.py"
+python "Task 2/run_demo.py"
+```
 
-Task 1 uses the original anonymized Elliptic dataset. Its txId values are dataset
-identifiers, not a supplied mapping to on-chain transaction hashes. We cannot join
-new on-chain fee/CPFP measurements to those labels without a verified mapping.
-Use Elliptic separately for graph/ML baselines and investigate a labeled on-chain
-dataset for the new feature hypotheses before promising a correlation analysis.
+The first command checks local documentation links, Python syntax and unchanged saved artifacts. The demo reports missing external inputs explicitly; it does not retrain a model. See [Reproducibility](REPRODUCIBILITY.md) for all test suites.
 
-Source: https://www.kaggle.com/datasets/ellipticco/elliptic-data-set
-
-## Expanded sample
-
-The latest collection is Part 1/results/research_expanded_20261005/results.csv.
-There are now 10 research addresses across Bitfinex, Binance and Change, plus one
-smoke-test address. Five published cold labels span two entities; only one hot
-address is available. Change's storage claim applies to a 2025-03-31 snapshot,
-and does not establish an address-specific hardware model. All 11 lookups were
-found, but none of the 10 research addresses received a provider service label.
-Earlier dated result directories preserve earlier samples.
-
-## First on-chain history collection
-
-Part 1 now includes `collect_history.py`, using at most 25 recent confirmed
-transactions per address in the initial run. All 11 addresses succeeded, yielding
-206 address/transaction observations. Labels and provenance remain in
-address_summary.csv, while transactions.csv supplies dated flows and transaction
-fees. See Part 1/HISTORY.md for count-based coverage and non-atomic snapshot limits.
-The 14 offline tests cover ingestion, response validation, pagination, amount
-attribution, coverage changes and resumable collection. CPFP, holding-time and
-illicit inference remain unimplemented.
+**Current direction:** clarify the additional case referenced in Overleaf and reproduce Ivan's code when supplied. No specific Ledger incident or new hardware-wallet label is assumed from the meeting keywords alone.
