@@ -6,6 +6,7 @@ The main path is the Coldcard coursework, address tracing and carefully sourced 
 
 ## Completed work
 
+- [Collection-pattern pilot](research/external_cases/COLLECTION_PATTERNS.md): focused hardware-related source screening, two provisional recipients, 129 confirmed transactions collected and 122 receipts retained before the historical cutoff. Source assertions and hardware control remain distinct; no classifier is trained.
 - The course exercise: ten transaction features, 100 payments to the course address and 100 same-block unattributed comparisons, a decision tree and saved results.
 - Observed case flows, parent coverage, timestamps, fees and dated spending observations for five source-attributed consolidations.
 - Integrity checks for 493,571 unique transactions in 98 selected blocks, with 1,070 recovered candidate parents out of 2,349 requested.
@@ -41,4 +42,4 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Read Parts 1–4 in order, inspect the Overleaf references and clarify the classification target. Add a second case only after its source, dates, address roles and group identity are documented. Preserve case IDs so that mixing datasets does not silently mix related transactions between training and evaluation.
+Apply the new collection-pattern extractor to Coldcard and documented comparison recipients under matched observation windows. Keep the provisional CryptoBilis case separate; the professor's exact reference and code remain pending. Preserve case IDs so that mixing datasets does not silently mix related transactions between training and evaluation.

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "registry_sha256": "2bedc3b7bbcdca26594c2f7758d2b846ba3499b795393be0879d68661ca28c78",
+  "cutoff_exclusive_utc": "2026-10-10T00:00:00Z",
+  "rows": [
+    {
+      "address": "bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl",
+      "case_group": "cryptobilis_2026_10_provisional",
+      "role": "collection",
+      "evidence_level": "source_attributed",
+      "hardware_control": "unknown",
+      "file": "bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+      "history_sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0",
+      "provider": "https://blockstream.info/api",
+      "collected_at": "2026-10-19T20:21:03.457586+00:00",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 83,
+          "funded_txo_count": 83,
+          "spent_txo_count": 0,
+          "funded_txo_sum": 9250624783,
+          "spent_txo_sum": 0
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "features": {
+        "receipt_transaction_count": 76,
+        "spending_transaction_count": 0,
+        "received_sat": 9250620930,
+        "spent_input_sat": 0,
+        "observed_balance_sat": 9250620930,
+        "funding_transaction_distinct_input_addresses": 76,
+        "funding_transaction_missing_input_address_slots": 0,
+        "single_output_external_funding_transaction_count": 76,
+        "receipt_confirmation_span_seconds": 1285,
+        "receipt_top_block_transaction_share": 0.8552631578947368,
+        "incoming_transaction_median_fee_rate_sat_vbyte": 198.1818181818182,
+        "spending_transaction_distinct_other_output_addresses": 0
+      }
+    },
+    {
+      "address": "bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9",
+      "case_group": "cryptobilis_2026_10_provisional",
+      "role": "collection",
+      "evidence_level": "source_attributed",
+      "hardware_control": "unknown",
+      "file": "bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+      "history_sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9",
+      "provider": "https://blockstream.info/api",
+      "collected_at": "2026-10-19T20:21:10.733496+00:00",
+      "audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 46,
+          "funded_txo_count": 46,
+          "spent_txo_count": 0,
+          "funded_txo_sum": 11128199071,
+          "spent_txo_sum": 0
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "features": {
+        "receipt_transaction_count": 46,
+        "spending_transaction_count": 0,
+        "received_sat": 11128199071,
+        "spent_input_sat": 0,
+        "observed_balance_sat": 11128199071,
+        "funding_transaction_distinct_input_addresses": 46,
+        "funding_transaction_missing_input_address_slots": 0,
+        "single_output_external_funding_transaction_count": 46,
+        "receipt_confirmation_span_seconds": 0,
+        "receipt_top_block_transaction_share": 1.0,
+        "incoming_transaction_median_fee_rate_sat_vbyte": 208.0909090909091,
+        "spending_transaction_distinct_other_output_addresses": 0
+      }
+    }
+  ],
+  "scope": "Retrospective descriptive pilot; no trained model or independent accuracy estimate",
+  "limits": [
+    "Case attribution is a source assertion, not independently confirmed by this analysis",
+    "No source-address hardware, ownership, victim or illicit labels are propagated",
+    "Block timestamps are not transaction arrival times",
+    "All pilot addresses share one incident group",
+    "Co-occurring transaction inputs do not allocate value to individual outputs",
+    "Single-output transactions do not prove complete source-address balance depletion",
+    "Incoming transaction fee rates do not measure receiver fee policy",
+    "Historical prefix lacks verified label availability at the cutoff"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "internal_links_checked": 136,
+  "python_files_parsed": 80,
+  "preserved_artifacts_checked": 185,
+  "errors": [],
+  "test_suites": [
+    {
+      "suite": "coldcard",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/workspace/scratch/d51926f4d082/STAGE-UFU/Task 2/research/coldcard",
+        "-p",
+        "test*.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".............................................\n----------------------------------------------------------------------\nRan 45 tests in 0.058s\n\nOK\n"
+    },
+    {
+      "suite": "external_cases",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/workspace/scratch/d51926f4d082/STAGE-UFU/Task 2/research/external_cases",
+        "-p",
+        "test*.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "..................\n----------------------------------------------------------------------\nRan 18 tests in 0.007s\n\nOK\n"
+    },
+    {
+      "suite": "wallet_storage",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/workspace/scratch/d51926f4d082/STAGE-UFU/Task 2/supplementary/wallet_storage",
+        "-p",
+        "test*.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "................................\n----------------------------------------------------------------------\nRan 32 tests in 0.033s\n\nOK\n"
+    },
+    {
+      "suite": "ellipticplusplus",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/workspace/scratch/d51926f4d082/STAGE-UFU/Task 2/supplementary/ellipticplusplus",
+        "-p",
+        "test*.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.084s\n\nOK\n"
+    },
+    {
+      "suite": "real_cats",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/workspace/scratch/d51926f4d082/STAGE-UFU/Task 2/supplementary/real_cats",
+        "-p",
+        "test*.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".......................................\n----------------------------------------------------------------------\nRan 39 tests in 0.030s\n\nOK\n"
+    },
+    {
+      "suite": "demo",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/workspace/scratch/d51926f4d082/STAGE-UFU/Task 2",
+        "-p",
+        "test_demo.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 1.332s\n\nOK\n"
+    }
+  ],
+  "status": "passed"
+}

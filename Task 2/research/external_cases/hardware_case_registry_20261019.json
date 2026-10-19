@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "scope": "Provisional research lead; not confirmed as Ivan's intended Ledger case",
+  "source_retrieval": {
+    "url": "https://bitquery.io/investigations/ledger-cryptobilis-hack",
+    "sha256": "3c508e50b2f89b4e50171e20ce4c35db2df7ed2c3080f71e3733d30158ec25c8",
+    "bytes": 381894,
+    "representation": "Downloaded HTML; hash does not establish authenticity or label truth; raw copyrighted page not republished"
+  },
+  "records": [
+    {
+      "network": "bitcoin",
+      "subject_type": "address",
+      "case_group": "cryptobilis_2026_10_provisional",
+      "evidence_level": "source_attributed",
+      "source_url": "https://bitquery.io/investigations/ledger-cryptobilis-hack",
+      "source_published_on": "2026-10-09",
+      "source_revision_on": "2026-10-16",
+      "reviewed_on": "2026-10-19",
+      "label_available_at": null,
+      "hardware_control": "unknown",
+      "hardware_evidence_scope": "Incident-level attribution only; no address-to-device mapping verified",
+      "training_label": "pending_review",
+      "professor_reference_confirmed": false,
+      "address": "bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl",
+      "role": "collection",
+      "include_in_pilot": true,
+      "evidence_description": "Bitcoin collection address in source methodology table"
+    },
+    {
+      "network": "bitcoin",
+      "subject_type": "address",
+      "case_group": "cryptobilis_2026_10_provisional",
+      "evidence_level": "source_attributed",
+      "source_url": "https://bitquery.io/investigations/ledger-cryptobilis-hack",
+      "source_published_on": "2026-10-09",
+      "source_revision_on": "2026-10-16",
+      "reviewed_on": "2026-10-19",
+      "label_available_at": null,
+      "hardware_control": "unknown",
+      "hardware_evidence_scope": "Incident-level attribution only; no address-to-device mapping verified",
+      "training_label": "pending_review",
+      "professor_reference_confirmed": false,
+      "address": "bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9",
+      "role": "collection",
+      "include_in_pilot": true,
+      "evidence_description": "Bitcoin collection address in source methodology table"
+    },
+    {
+      "network": "bitcoin",
+      "subject_type": "address",
+      "case_group": "cryptobilis_2026_10_provisional",
+      "evidence_level": "source_attributed",
+      "source_url": "https://bitquery.io/investigations/ledger-cryptobilis-hack",
+      "source_published_on": "2026-10-09",
+      "source_revision_on": "2026-10-16",
+      "reviewed_on": "2026-10-19",
+      "label_available_at": null,
+      "hardware_control": "unknown",
+      "hardware_evidence_scope": "Incident-level attribution only; no address-to-device mapping verified",
+      "training_label": "pending_review",
+      "professor_reference_confirmed": false,
+      "address": "bc1qgqheemzla77pesl227hdtgf5ykz62d0zvld26n",
+      "role": "unknown",
+      "include_in_pilot": false,
+      "evidence_description": "Source treats this public-list address as likely separate; excluded pending evidence"
+    }
+  ]
+}
