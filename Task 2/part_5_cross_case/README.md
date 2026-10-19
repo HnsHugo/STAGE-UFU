@@ -14,6 +14,7 @@ Preserve case and entity identifiers. A proposed extension should keep complete 
 
 ## Existing work that can help
 
+- [Equal-duration temporal comparison](../research/external_cases/TEMPORAL_COLLECTION_COMPARISON.md): the same feature extractor on Coldcard, the provisional case and a documented donation recipient, including counterexamples and observation limits.
 - [New collection-pattern pilot](../research/external_cases/COLLECTION_PATTERNS.md): two provisional recipients, cutoff-safe measurements and reproducible public observations. This is not confirmed as Ivan's intended Ledger case or an evaluated hardware classifier.
 - [Label protocol](../research/coldcard/LABEL_PROTOCOL.md).
 - [External evidence and collection tools](../research/external_cases/README.md).

@@ -25,6 +25,29 @@ class PatternTests(unittest.TestCase):
         self.assertEqual(describe('collector', [receipt], 200),
                          describe('collector', [receipt, future], 200))
 
+    def test_window_keeps_prior_funding_in_balance_but_not_activity(self):
+        spend = tx('b', when=150, source='collector', target='elsewhere', value=900)
+        result = describe('collector', [tx('a', when=50), spend], 200, start=100)
+        self.assertEqual(result['received_sat'], 0)
+        self.assertEqual(result['receipt_transaction_count'], 0)
+        self.assertEqual(result['spending_transaction_count'], 1)
+        self.assertEqual(result['observed_balance_sat'], 0)
+
+    def test_window_start_inclusive_and_cutoff_exclusive(self):
+        result = describe('collector', [tx('a', when=100), tx('b', when=200)], 200, start=100)
+        self.assertEqual(result['receipt_transaction_count'], 1)
+        self.assertEqual(result['received_sat'], 1000)
+
+    def test_empty_activity_keeps_missing_ratios_and_existing_balance(self):
+        result = describe('collector', [tx('a', when=50)], 200, start=100)
+        self.assertIsNone(result['receipt_top_block_transaction_share'])
+        self.assertIsNone(result['incoming_transaction_median_fee_rate_sat_vbyte'])
+        self.assertEqual(result['observed_balance_sat'], 1000)
+
+    def test_invalid_window_rejected(self):
+        with self.assertRaises(ValueError):
+            describe('collector', [], 100, start=100)
+
     def test_coinbase_prevout_null_and_fee_policy(self):
         receipt = tx('a')
         receipt['vin'] = [dict(is_coinbase=True, prevout=None)]

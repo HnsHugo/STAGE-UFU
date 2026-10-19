@@ -6,6 +6,7 @@ The main path is the Coldcard coursework, address tracing and carefully sourced 
 
 ## Completed work
 
+- [Equal-duration collection comparison](research/external_cases/TEMPORAL_COLLECTION_COMPARISON.md): Coldcard, two provisional CryptoBilis recipients and one documented EFF recipient in 24-hour windows. One-output/same-block properties also occur in an EFF observation; no standalone discriminator or accuracy claim follows. Historical models remain unchanged.
 - [Collection-pattern pilot](research/external_cases/COLLECTION_PATTERNS.md): focused hardware-related source screening, two provisional recipients, 129 confirmed transactions collected and 122 receipts retained before the historical cutoff. Source assertions and hardware control remain distinct; no classifier is trained.
 - The course exercise: ten transaction features, 100 payments to the course address and 100 same-block unattributed comparisons, a decision tree and saved results.
 - Observed case flows, parent coverage, timestamps, fees and dated spending observations for five source-attributed consolidations.
@@ -42,4 +43,4 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Apply the new collection-pattern extractor to Coldcard and documented comparison recipients under matched observation windows. Keep the provisional CryptoBilis case separate; the professor's exact reference and code remain pending. Preserve case IDs so that mixing datasets does not silently mix related transactions between training and evaluation.
+Expand documented comparison entities and collection contexts beyond one low-activity donation address; prespecify calendar/volume/maturity controls before evaluating discrimination. Keep the provisional CryptoBilis case separate; the professor's exact reference and code remain pending. Preserve case IDs so that mixing datasets does not silently mix related transactions between training and evaluation.

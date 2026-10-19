@@ -59,17 +59,19 @@ def collect(address, output, base, max_pages=20):
             'bytes': len(raw), 'audit': audit}
 
 
-def describe(address, transactions, cutoff):
+def describe(address, transactions, cutoff, start=None):
     """Use confirmed block timestamps strictly before cutoff, not current UTXOs.
 
-    This describes an entire observed prefix, not a fixed-duration window. A
-    single-output receipt is not proof that all source-address UTXOs were spent.
+    With start, activity uses [start, cutoff), while balance includes earlier
+    transactions. A single-output receipt does not prove full source depletion.
     """
+    if start is not None and start >= cutoff:
+        raise ValueError('Window start must precede cutoff')
     seen, consumed = set(), set()
     inputs_seen, destinations = set(), set()
     receipts, spends, rates = [], [], []
     blocks = Counter()
-    received = spent = single_output = missing_addresses = 0
+    received = spent = single_output = missing_addresses = balance = 0
     for tx in transactions:
         tid = tx['txid']
         if tid in seen:
@@ -95,6 +97,9 @@ def describe(address, transactions, cutoff):
             if outpoint in consumed:
                 raise ValueError('Repeated consumed outpoint')
             consumed.add(outpoint)
+        balance += incoming - outgoing
+        if start is not None and when < start:
+            continue
         received += incoming
         spent += outgoing
         if incoming:
@@ -112,10 +117,10 @@ def describe(address, transactions, cutoff):
             spends.append(when)
             destinations.update(o['scriptpubkey_address'] for o in tx['vout']
                                 if o.get('scriptpubkey_address') and o['scriptpubkey_address'] != address)
-    if received - spent < 0:
+    if balance < 0:
         raise ValueError('Negative observed balance; incomplete or inconsistent prefix')
     return dict(receipt_transaction_count=len(receipts), spending_transaction_count=len(spends),
-                received_sat=received, spent_input_sat=spent, observed_balance_sat=received-spent,
+                received_sat=received, spent_input_sat=spent, observed_balance_sat=balance,
                 funding_transaction_distinct_input_addresses=len(inputs_seen),
                 funding_transaction_missing_input_address_slots=missing_addresses,
                 single_output_external_funding_transaction_count=single_output,

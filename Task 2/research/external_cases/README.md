@@ -2,6 +2,7 @@
 
 ## Current deliverables
 
+- [Equal-duration comparison](TEMPORAL_COLLECTION_COMPARISON.md): six 24-hour observations across two incident groups and one comparison entity, with pinned histories, boundary tests and overlap checks.
 - [Collection-pattern pilot](COLLECTION_PATTERNS.md): reusable address-history extractor, source screening and two provisional Bitcoin recipients with offline reproducible observations. No device identification or new model training is claimed.
 - fbi_asof_20230823.json: six historical address profiles with source roles and a shared cutoff.
 - binance_output_candidates.json: 44 outputs from the transaction published by Binance; one role is research-attributed through a unique match, and 43 remain unknown. See BINANCE_EVIDENCE.md.
