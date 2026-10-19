@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-19",
+  "origin": "References supplied by Hugo from the professor/Overleaf context in the current conversation",
+  "case_selection": {
+    "confirmed_case": "CryptoBilis",
+    "historical_group_id": "cryptobilis_2026_10_provisional",
+    "professor_case_reference_supplied": true,
+    "confirmation_scope": "Incident selection only; address-specific hardware control and exact ML target remain unresolved",
+    "professor_code_available": false
+  },
+  "source_fetches": [
+    {
+      "id": "coldcard_coindesk",
+      "url": "https://www.coindesk.com/pt-br/tech/2026/07/31/major-bitcoin-wallet-flaw-drains-594-btc-in-25-minute-sweep",
+      "retrieved_at": "2026-10-19T20:45:59.873675+00:00",
+      "http_status": 200,
+      "bytes": 536569,
+      "sha256": "7a7bb90c56b869722b3a0e59e03b49e20bdfc1943e210d1db3f3b1eefcbffd70",
+      "readable_text_characters": 8811,
+      "web_reader_status": "article_read"
+    },
+    {
+      "id": "coldcard_block",
+      "url": "https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware",
+      "retrieved_at": "2026-10-19T20:45:59.874320+00:00",
+      "http_status": 200,
+      "bytes": 110618,
+      "sha256": "bb3cc3afe78cd09350ae3541c357245e65c27064f7ffdb5b3e48afed26cb1acf",
+      "readable_text_characters": 20657,
+      "web_reader_status": "article_read"
+    },
+    {
+      "id": "coldcard_kucoin",
+      "url": "https://www.kucoin.com/news/flash/coldcard-wallet-entropy-flaw-leads-to-38m-bitcoin-theft",
+      "retrieved_at": "2026-10-19T20:45:59.874845+00:00",
+      "http_status": 200,
+      "bytes": 195,
+      "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7",
+      "readable_text_characters": 61,
+      "web_reader_status": "article_read",
+      "direct_fetch_interpretation": "Short response is not an article snapshot; web reader supplied reviewed text"
+    },
+    {
+      "id": "coldcard_bitcoinmagazine",
+      "url": "https://bitcoinmagazine.com/news/coldcard-security-risk-immediate-action-required",
+      "retrieved_at": "2026-10-19T20:45:59.875359+00:00",
+      "fetch_error": "HTTP Error 403: Forbidden",
+      "web_reader_status": "unavailable_http_403"
+    },
+    {
+      "id": "coldcard_lookonchain",
+      "url": "https://www.lookonchain.com/feeds/66268",
+      "retrieved_at": "2026-10-19T20:45:59.875896+00:00",
+      "http_status": 200,
+      "bytes": 40154,
+      "sha256": "dbcdbc8f352f9f5bc87ab1229d74ce7d67075fa64cae1263e1cc993302b54f1c",
+      "readable_text_characters": 8502,
+      "web_reader_status": "article_read"
+    },
+    {
+      "id": "cryptobilis_coindesk",
+      "url": "https://www.coindesk.com/tech/2026/10/12/ledger-claims-cryptobilis-cases-are-limited-as-up-to-usd93m-is-traced-usd10m-frozen",
+      "retrieved_at": "2026-10-19T20:45:59.876793+00:00",
+      "http_status": 200,
+      "bytes": 511434,
+      "sha256": "ac4b5730dee87d4a709ba2b72d56710915d571e03272e1f438a942d638fdbbbf",
+      "readable_text_characters": 7628,
+      "web_reader_status": "article_read"
+    },
+    {
+      "id": "cryptobilis_hackernews",
+      "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+      "retrieved_at": "2026-10-19T20:45:59.878937+00:00",
+      "http_status": 200,
+      "bytes": 172445,
+      "sha256": "568ce6816e1c471ea838c472474b1e25a7fc0844b899eef578aa228a19f723b4",
+      "readable_text_characters": 11289,
+      "web_reader_status": "article_read"
+    },
+    {
+      "id": "cryptobilis_exame",
+      "url": "https://exame.com/future-of-money/golpista-perde-r-24-milhoes-apos-sofrer-ataque-hacker-na-sua-carteira-cripto/",
+      "retrieved_at": "2026-10-19T20:45:59.879675+00:00",
+      "http_status": 200,
+      "bytes": 55468,
+      "sha256": "3108fb45a5fbecca9b01bf64d79e0ee7380de318fe4456aa474f9a0d960b2c0c",
+      "readable_text_characters": 39611,
+      "web_reader_status": "article_read"
+    }
+  ],
+  "additional_primary_source": "https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/",
+  "participant_example": {
+    "source_id": "cryptobilis_exame",
+    "group_id": "cryptobilis_2026_10_provisional",
+    "reported_source_address_count": 3,
+    "reported_common_recipient_count": 1,
+    "source_event_dates": [
+      "2026-09-22",
+      "2026-10-09"
+    ],
+    "interpretation": "Reported theft participant also alleged to have prior task-scam activity; these are separate roles",
+    "exact_addresses": [],
+    "exact_txids": [],
+    "training_ready": false,
+    "blocker": "No exact participant identifiers verified; linked primary post could not be inspected directly"
+  },
+  "historical_preservation": {
+    "registry": "hardware_case_registry_20261019.json",
+    "original_registry_sha256": "2bedc3b7bbcdca26594c2f7758d2b846ba3499b795393be0879d68661ca28c78",
+    "policy": "Original provisional flags and pinned experiment files stay unchanged; this review updates only current case-selection knowledge"
+  },
+  "new_training_performed": false,
+  "frozen_external_model_changed": false
+}

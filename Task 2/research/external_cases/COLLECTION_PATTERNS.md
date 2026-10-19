@@ -6,13 +6,15 @@ Can an address-level, temporal description capture many sources converging on a
 small set of recipients, without calling that pattern a hardware fingerprint?
 The new extractor works with any compatible Bitcoin address history. It does
 not change or retrain any historical classifier, including the frozen 19-feature
-external model. The professor's exact Ledger reference and code are still pending.
+external model. The professor's code remains pending. A subsequent
+[reference review](PROFESSOR_REFERENCES.md) establishes CryptoBilis as the intended
+second incident without changing the original evidence flags or numerical results.
 
 ## Focused source screening
 
 | Candidate | Primary source | Decision |
 | --- | --- | --- |
-| CryptoBilis, October 2026 | [Bitquery investigation](https://bitquery.io/investigations/ledger-cryptobilis-hack) | Two complete Bitcoin collection addresses are published. Provisional descriptive pilot; not confirmed as Ivan's intended case. A third listed address is treated as likely separate and excluded. |
+| CryptoBilis, October 2026 | [Bitquery investigation](https://bitquery.io/investigations/ledger-cryptobilis-hack) | Two complete Bitcoin collection addresses are published. The professor-supplied references now establish the intended case; per-address device evidence remains unverified. A third listed address is treated as likely separate and excluded. |
 | Ledger Connect Kit, December 2023 | [Ledger incident report](https://www.ledger.com/blog/security-incident-report) | Malicious JavaScript affecting EVM DApps; not a Bitcoin hardware-device training case. |
 | Counterfeit Trezor, reported May 2023 | [Kaspersky device investigation](https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/) | Historical supply-chain example, not a new 2026 incident. No exact address/TXID established in the inspected article text; not imported. |
 

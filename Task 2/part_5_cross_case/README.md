@@ -4,7 +4,7 @@
 
 ## Goal and current status
 
-Extend the case study with sourced examples and evaluate on a case kept outside training. Hugo's meeting notes mention Ledger, address tracking and combining another case with Coldcard. **The exact incident reference and Ivan's code are still pending.** No Ledger dataset or hardware-wallet classifier is claimed to be completed.
+Extend the case study with sourced examples and evaluate on a case kept outside training. **The supplied professor references now identify CryptoBilis as the intended second incident.** Read the [reference review](../research/external_cases/PROFESSOR_REFERENCES.md). Ivan's code, exact participant/device mappings and the final prediction target remain pending; no validated hardware-wallet classifier is claimed.
 
 ## Before adding addresses
 
@@ -15,7 +15,7 @@ Preserve case and entity identifiers. A proposed extension should keep complete 
 ## Existing work that can help
 
 - [Equal-duration temporal comparison](../research/external_cases/TEMPORAL_COLLECTION_COMPARISON.md): the same feature extractor on Coldcard, the provisional case and a documented donation recipient, including counterexamples and observation limits.
-- [New collection-pattern pilot](../research/external_cases/COLLECTION_PATTERNS.md): two provisional recipients, cutoff-safe measurements and reproducible public observations. This is not confirmed as Ivan's intended Ledger case or an evaluated hardware classifier.
+- [New collection-pattern pilot](../research/external_cases/COLLECTION_PATTERNS.md): two source-attributed recipients, cutoff-safe measurements and reproducible public observations. The case selection is now resolved; address-specific hardware labels and classifier validation remain unresolved.
 - [Label protocol](../research/coldcard/LABEL_PROTOCOL.md).
 - [External evidence and collection tools](../research/external_cases/README.md).
 - [External evidence review](../research/external_cases/EXTERNAL_EVIDENCE_REVIEW.md).
@@ -25,7 +25,7 @@ FBI, Binance, donation addresses and the other saved pilots are different eviden
 
 ## Proposed next steps, not executed experiments
 
-1. Read the actual case references and annotations in Overleaf; the main LaTeX file alone does not include their contents.
+1. Use the supplied incident references and retain unresolved address roles; other Overleaf sections have not all been supplied.
 2. Reproduce Ivan's code with its original dataset, target and split when provided.
 3. Compare those definitions with Parts 2–4 before changing the model.
 4. Construct a separately versioned case registry and dataset.

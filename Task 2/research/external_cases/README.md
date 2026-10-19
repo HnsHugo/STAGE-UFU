@@ -2,6 +2,7 @@
 
 ## Current deliverables
 
+- [Professor-supplied references](PROFESSOR_REFERENCES.md): CryptoBilis case selection resolved, technical-source discrepancies recorded, and the reported three-address participant retained in the same incident group without guessing identifiers.
 - [Equal-duration comparison](TEMPORAL_COLLECTION_COMPARISON.md): six 24-hour observations across two incident groups and one comparison entity, with pinned histories, boundary tests and overlap checks.
 - [Collection-pattern pilot](COLLECTION_PATTERNS.md): reusable address-history extractor, source screening and two provisional Bitcoin recipients with offline reproducible observations. No device identification or new model training is claimed.
 - fbi_asof_20230823.json: six historical address profiles with source roles and a shared cutoff.

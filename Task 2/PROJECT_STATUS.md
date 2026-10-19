@@ -2,7 +2,7 @@
 
 ## Current priority
 
-The main path is the Coldcard coursework, address tracing and carefully sourced hardware-wallet-related case studies. Hugo's meeting notes mention another case related to Ledger and combining it with Coldcard. Its exact reference, address roles and the professor's code have not yet been supplied in this repository. Those details remain pending.
+The main path is the Coldcard coursework, address tracing and carefully sourced hardware-wallet-related case studies. The [professor-supplied references](research/external_cases/PROFESSOR_REFERENCES.md) now identify CryptoBilis as the intended second incident. Exact participant-address/device mappings, the final classification target and the professor's code remain unresolved.
 
 ## Completed work
 
@@ -35,7 +35,7 @@ FSF shares two multi-recipient transactions with training addresses. This is obs
 - Hardware-wallet identification: no validated address-to-device ground truth has been established.
 - Cross-case/incident generalization: independent roles, entity groups and time-valid labels remain insufficient.
 - GNN/GCN or other graph models: no completed Task 2 experiment. The article outline proposes exploration, not a settled architecture.
-- Ledger extension and reproduction of Ivan's experiment: await the exact case reference and code.
+- Ledger extension: CryptoBilis case selection is established; exact participant identifiers, hardware-control labels and reproduction of Ivan's code remain pending.
 
 ## What changed in this reorganization
 
@@ -43,4 +43,4 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Expand documented comparison entities and collection contexts beyond one low-activity donation address; prespecify calendar/volume/maturity controls before evaluating discrimination. Keep the provisional CryptoBilis case separate; the professor's exact reference and code remain pending. Preserve case IDs so that mixing datasets does not silently mix related transactions between training and evaluation.
+Expand documented active comparison entities and collection contexts. CryptoBilis is the professor-selected second case; keep its participant examples in that same group and resolve exact role/device evidence before supervised fitting. The professor's code remains pending. Preserve complete case/entity groups and time-valid feature/label availability.

@@ -1,6 +1,6 @@
 # How the current work maps to the Overleaf outline
 
-The outline shared by Ivan is a proposed research article, not a completed paper. The main LaTeX source includes separate files whose contents have not been supplied here. Do not infer their references or annotations from the main file alone.
+The outline shared by Ivan is a proposed research article, not a completed paper. The outline and an incident-reference excerpt have been supplied; the remaining included files are not all available here. The [reference review](../research/external_cases/PROFESSOR_REFERENCES.md) records what the excerpt establishes.
 
 | Article section | Existing material | Remaining work |
 | --- | --- | --- |
@@ -13,4 +13,4 @@ The outline shared by Ivan is a proposed research article, not a completed paper
 | Results | Parts 1, 3 and 4 | More developed topology, cross-case and other-period evaluations |
 | Conclusions | Current positive results and explicit failures | Write conclusions proportional to independent evidence |
 
-A GCN is a type of graph neural network; SHAP explains predictions rather than replacing a classifier. The outline leaves the architecture open. The meeting keywords mentioning Ledger do not yet identify a specific incident or the address roles to label.
+A GCN is a type of graph neural network; SHAP explains predictions rather than replacing a classifier. The outline leaves the architecture open. The supplied references identify CryptoBilis as the second incident, while exact participant roles, hardware mappings and the final prediction target still need definition.

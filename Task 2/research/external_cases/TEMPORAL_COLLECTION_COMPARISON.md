@@ -7,6 +7,10 @@ CryptoBilis observations, and how do they compare with a documented donation
 recipient? This extends the address-tracing work without choosing a hardware
 classifier or fitting on unresolved labels.
 
+Subsequent [professor-supplied references](PROFESSOR_REFERENCES.md) confirm the
+choice of CryptoBilis as the second incident. Historical result identifiers and
+provisional address-evidence fields remain unchanged.
+
 ## Data and selection
 
 - Coldcard: a new public history of the course address, collected separately from
@@ -107,6 +111,6 @@ observed in these selected windows; this does not prove entity independence.
 
 Expand documented comparison entities and collection contexts before evaluating
 discrimination. Preserve complete incident/entity groups across any future
-training/validation/test split. Obtain the professor's exact target and case
-reference before constructing hardware-related training labels. A graph or
-temporal collection detector remains a different target from device identification.
+training/validation/test split. Define the final prediction target and obtain
+participant/device evidence before constructing hardware-related training labels.
+A graph or temporal collection detector remains a different target from device identification.
