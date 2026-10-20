@@ -14,6 +14,7 @@ Preserve case and entity identifiers. A proposed extension should keep complete 
 
 ## Existing work that can help
 
+- **Start here:** [Central complete-block ranking experiment](../CENTRAL_EXPERIMENT.md), with all eligible recipients, three fixed baselines and actual Coldcard/CryptoBilis reference ranks.
 - [Expanded comparison](../research/external_cases/EXPANDED_COLLECTION_COMPARISON.md): EFF plus FSF, with two purpose-documented entities and an explicit 2011/2026 temporal mismatch; the original observations remain unchanged.
 - [Equal-duration temporal comparison](../research/external_cases/TEMPORAL_COLLECTION_COMPARISON.md): the same feature extractor on Coldcard, the provisional case and a documented donation recipient, including counterexamples and observation limits.
 - [New collection-pattern pilot](../research/external_cases/COLLECTION_PATTERNS.md): two source-attributed recipients, cutoff-safe measurements and reproducible public observations. The case selection is now resolved; address-specific hardware labels and classifier validation remain unresolved.

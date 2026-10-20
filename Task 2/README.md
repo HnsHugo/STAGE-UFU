@@ -2,6 +2,11 @@
 
 **Start with Parts 1–4.** They explain the Coldcard coursework in order. Part 5 describes the next cross-case work. The supplementary benchmarks are preserved but are currently paused.
 
+**Current central result:** [Complete-block collector ranking](CENTRAL_EXPERIMENT.md).
+Across 30,938 transactions, a simple external one-output funding count ranks the
+Coldcard reference first and the two CryptoBilis references second and fourth.
+Read this report for the shared experiment, controls, reproduction and limits.
+
 ## The main learning path
 
 | Part | Question | What to open |
@@ -51,4 +56,4 @@ python "Task 2/run_demo.py"
 
 The first command checks local documentation links, Python syntax and unchanged saved artifacts. The demo reports missing external inputs explicitly; it does not retrain a model. See [Reproducibility](REPRODUCIBILITY.md) for all test suites.
 
-**Current direction:** clarify the additional case referenced in Overleaf and reproduce Ivan's code when supplied. No specific Ledger incident or new hardware-wallet label is assumed from the meeting keywords alone.
+**Current direction:** keep the Coldcard/CryptoBilis collector-ranking experiment central. Extend and challenge its fixed baseline before adding other models. CryptoBilis is confirmed as the professor-selected case; exact hardware labels and Ivan's code remain separate unresolved inputs.

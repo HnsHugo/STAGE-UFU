@@ -1,0 +1,407 @@
+{
+  "scope": "Anonymous cumulative score counts; no full address list",
+  "groups": [
+    {
+      "case_group": "coldcard_2026",
+      "recipient_count": 6426,
+      "features": [
+        {
+          "feature": "receipt_transaction_count",
+          "points": [
+            {
+              "score": 449,
+              "less_count": 6416,
+              "equal_count": 1,
+              "greater_count": 9
+            },
+            {
+              "score": 500,
+              "less_count": 6417,
+              "equal_count": 1,
+              "greater_count": 8
+            },
+            {
+              "score": 901,
+              "less_count": 6418,
+              "equal_count": 1,
+              "greater_count": 7
+            },
+            {
+              "score": 921,
+              "less_count": 6419,
+              "equal_count": 1,
+              "greater_count": 6
+            },
+            {
+              "score": 950,
+              "less_count": 6420,
+              "equal_count": 1,
+              "greater_count": 5
+            },
+            {
+              "score": 1000,
+              "less_count": 6421,
+              "equal_count": 1,
+              "greater_count": 4
+            },
+            {
+              "score": 1080,
+              "less_count": 6422,
+              "equal_count": 1,
+              "greater_count": 3
+            },
+            {
+              "score": 1250,
+              "less_count": 6423,
+              "equal_count": 1,
+              "greater_count": 2
+            },
+            {
+              "score": 2625,
+              "less_count": 6424,
+              "equal_count": 1,
+              "greater_count": 1
+            },
+            {
+              "score": 6142,
+              "less_count": 6425,
+              "equal_count": 1,
+              "greater_count": 0
+            }
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "points": [
+            {
+              "score": 4,
+              "less_count": 6413,
+              "equal_count": 4,
+              "greater_count": 9
+            },
+            {
+              "score": 5,
+              "less_count": 6417,
+              "equal_count": 1,
+              "greater_count": 8
+            },
+            {
+              "score": 7,
+              "less_count": 6418,
+              "equal_count": 3,
+              "greater_count": 5
+            },
+            {
+              "score": 12,
+              "less_count": 6421,
+              "equal_count": 1,
+              "greater_count": 4
+            },
+            {
+              "score": 19,
+              "less_count": 6422,
+              "equal_count": 1,
+              "greater_count": 3
+            },
+            {
+              "score": 33,
+              "less_count": 6423,
+              "equal_count": 1,
+              "greater_count": 2
+            },
+            {
+              "score": 45,
+              "less_count": 6424,
+              "equal_count": 1,
+              "greater_count": 1
+            },
+            {
+              "score": 500,
+              "less_count": 6425,
+              "equal_count": 1,
+              "greater_count": 0
+            }
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "points": [
+            {
+              "score": 17906717826,
+              "less_count": 6416,
+              "equal_count": 1,
+              "greater_count": 9
+            },
+            {
+              "score": 19558775000,
+              "less_count": 6417,
+              "equal_count": 1,
+              "greater_count": 8
+            },
+            {
+              "score": 19747709798,
+              "less_count": 6418,
+              "equal_count": 1,
+              "greater_count": 7
+            },
+            {
+              "score": 25069390271,
+              "less_count": 6419,
+              "equal_count": 1,
+              "greater_count": 6
+            },
+            {
+              "score": 33111950093,
+              "less_count": 6420,
+              "equal_count": 1,
+              "greater_count": 5
+            },
+            {
+              "score": 39847573857,
+              "less_count": 6421,
+              "equal_count": 1,
+              "greater_count": 4
+            },
+            {
+              "score": 56201962301,
+              "less_count": 6422,
+              "equal_count": 1,
+              "greater_count": 3
+            },
+            {
+              "score": 59447722484,
+              "less_count": 6423,
+              "equal_count": 1,
+              "greater_count": 2
+            },
+            {
+              "score": 127639429990,
+              "less_count": 6424,
+              "equal_count": 1,
+              "greater_count": 1
+            },
+            {
+              "score": 184458629311,
+              "less_count": 6425,
+              "equal_count": 1,
+              "greater_count": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_group": "cryptobilis_2026",
+      "recipient_count": 13264,
+      "features": [
+        {
+          "feature": "receipt_transaction_count",
+          "points": [
+            {
+              "score": 46,
+              "less_count": 13246,
+              "equal_count": 1,
+              "greater_count": 17
+            },
+            {
+              "score": 76,
+              "less_count": 13253,
+              "equal_count": 1,
+              "greater_count": 10
+            },
+            {
+              "score": 96,
+              "less_count": 13254,
+              "equal_count": 2,
+              "greater_count": 8
+            },
+            {
+              "score": 105,
+              "less_count": 13256,
+              "equal_count": 1,
+              "greater_count": 7
+            },
+            {
+              "score": 122,
+              "less_count": 13257,
+              "equal_count": 1,
+              "greater_count": 6
+            },
+            {
+              "score": 150,
+              "less_count": 13258,
+              "equal_count": 2,
+              "greater_count": 4
+            },
+            {
+              "score": 198,
+              "less_count": 13260,
+              "equal_count": 1,
+              "greater_count": 3
+            },
+            {
+              "score": 360,
+              "less_count": 13261,
+              "equal_count": 1,
+              "greater_count": 2
+            },
+            {
+              "score": 400,
+              "less_count": 13262,
+              "equal_count": 1,
+              "greater_count": 1
+            },
+            {
+              "score": 458,
+              "less_count": 13263,
+              "equal_count": 1,
+              "greater_count": 0
+            }
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "points": [
+            {
+              "score": 6,
+              "less_count": 13253,
+              "equal_count": 2,
+              "greater_count": 9
+            },
+            {
+              "score": 10,
+              "less_count": 13255,
+              "equal_count": 1,
+              "greater_count": 8
+            },
+            {
+              "score": 12,
+              "less_count": 13256,
+              "equal_count": 1,
+              "greater_count": 7
+            },
+            {
+              "score": 14,
+              "less_count": 13257,
+              "equal_count": 1,
+              "greater_count": 6
+            },
+            {
+              "score": 18,
+              "less_count": 13258,
+              "equal_count": 1,
+              "greater_count": 5
+            },
+            {
+              "score": 21,
+              "less_count": 13259,
+              "equal_count": 1,
+              "greater_count": 4
+            },
+            {
+              "score": 46,
+              "less_count": 13260,
+              "equal_count": 1,
+              "greater_count": 3
+            },
+            {
+              "score": 55,
+              "less_count": 13261,
+              "equal_count": 1,
+              "greater_count": 2
+            },
+            {
+              "score": 76,
+              "less_count": 13262,
+              "equal_count": 1,
+              "greater_count": 1
+            },
+            {
+              "score": 99,
+              "less_count": 13263,
+              "equal_count": 1,
+              "greater_count": 0
+            }
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "points": [
+            {
+              "score": 9250620930,
+              "less_count": 13245,
+              "equal_count": 1,
+              "greater_count": 18
+            },
+            {
+              "score": 11128199071,
+              "less_count": 13249,
+              "equal_count": 1,
+              "greater_count": 14
+            },
+            {
+              "score": 19140658662,
+              "less_count": 13254,
+              "equal_count": 1,
+              "greater_count": 9
+            },
+            {
+              "score": 23061897071,
+              "less_count": 13255,
+              "equal_count": 1,
+              "greater_count": 8
+            },
+            {
+              "score": 25000000000,
+              "less_count": 13256,
+              "equal_count": 1,
+              "greater_count": 7
+            },
+            {
+              "score": 55466140805,
+              "less_count": 13257,
+              "equal_count": 1,
+              "greater_count": 6
+            },
+            {
+              "score": 60137756548,
+              "less_count": 13258,
+              "equal_count": 1,
+              "greater_count": 5
+            },
+            {
+              "score": 74078002015,
+              "less_count": 13259,
+              "equal_count": 1,
+              "greater_count": 4
+            },
+            {
+              "score": 81359624663,
+              "less_count": 13260,
+              "equal_count": 1,
+              "greater_count": 3
+            },
+            {
+              "score": 128928380073,
+              "less_count": 13261,
+              "equal_count": 1,
+              "greater_count": 2
+            },
+            {
+              "score": 248643578847,
+              "less_count": 13262,
+              "equal_count": 1,
+              "greater_count": 1
+            },
+            {
+              "score": 308700669510,
+              "less_count": 13263,
+              "equal_count": 1,
+              "greater_count": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

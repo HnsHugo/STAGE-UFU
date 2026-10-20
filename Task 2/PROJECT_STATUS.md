@@ -1,11 +1,12 @@
-# Project status — 19 October 2026
+# Project status — 20 October 2026
 
 ## Current priority
 
-The main path is the Coldcard coursework, address tracing and carefully sourced hardware-wallet-related case studies. The [professor-supplied references](research/external_cases/PROFESSOR_REFERENCES.md) now identify CryptoBilis as the intended second incident. Exact participant-address/device mappings, the final classification target and the professor's code remain unresolved.
+The [central experiment](CENTRAL_EXPERIMENT.md) now ranks all recipients in six complete Coldcard/CryptoBilis incident blocks. A fixed external one-output funding count places the three supplied references at ranks 1, 2 and 4; simple receipt-count and amount baselines do worse. Extend this shared experiment before starting unrelated models. Exact participant/device mappings and Ivan's code remain unresolved; no hardware classifier is claimed.
 
 ## Completed work
 
+- [Central complete-block ranking](CENTRAL_EXPERIMENT.md): 30,938 transactions, two incident groups, full recipient populations and three label-blind baselines. Anonymous offline rank evidence, prefix ranks, cross-provider receipt agreement and tie-aware reference coverage are saved; complete address cohorts remain local.
 - [Expanded collection comparison](research/external_cases/EXPANDED_COLLECTION_COMPARISON.md): the original FSF history was recovered with its expected hash. Nine 24-hour windows now cover two incident groups and two comparison organizations. FSF's retrospective stress day has 25 receipts, but dates/fees are not matched to the incidents; no model fitting or accuracy claim follows.
 - [Equal-duration collection comparison](research/external_cases/TEMPORAL_COLLECTION_COMPARISON.md): Coldcard, two provisional CryptoBilis recipients and one documented EFF recipient in 24-hour windows. One-output/same-block properties also occur in an EFF observation; no standalone discriminator or accuracy claim follows. Historical models remain unchanged.
 - [Collection-pattern pilot](research/external_cases/COLLECTION_PATTERNS.md): focused hardware-related source screening, two provisional recipients, 129 confirmed transactions collected and 122 receipts retained before the historical cutoff. Source assertions and hardware control remain distinct; no classifier is trained.
@@ -44,4 +45,4 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Expand documented active comparison entities and collection contexts. CryptoBilis is the professor-selected second case; keep its participant examples in that same group and resolve exact role/device evidence before supervised fitting. The professor's code remains pending. Preserve complete case/entity groups and time-valid feature/label availability.
+Keep the central scores fixed and extend their scan to prespecified neighboring blocks. Examine recurring high-ranked recipients without labeling unknowns legitimate or criminal. Compare any later model with this saved baseline on the same populations; preserve case/entity groups and time-valid observations.

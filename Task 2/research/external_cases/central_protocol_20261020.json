@@ -1,0 +1,77 @@
+{
+  "created_before_full_block_ranking": true,
+  "scope": "Retrospective complete incident-block recipient retrieval; no classifier fitting",
+  "baselines": [
+    "receipt_transaction_count",
+    "single_output_external_funding_transaction_count",
+    "received_sat"
+  ],
+  "selection": "All blocks containing a known collector receipt on its incident UTC day; block selection is conditioned on known cases",
+  "tie_policy": "Report best=1+strictly_greater and worst=greater+equal scores; no address-based rank advantage",
+  "include": "Positive-value decoded-address outputs of non-coinbase transactions; include change, exclude zero-value outputs",
+  "unknown_policy": "All non-reference recipients remain unattributed, not certified legitimate",
+  "blocks": [
+    {
+      "height": 960188,
+      "hash": "0000000000000000000186e53ea105d0d9b8453d14666b2bee16b68510544fe4",
+      "time": 1785375368,
+      "case_group": "coldcard_2026"
+    },
+    {
+      "height": 960189,
+      "hash": "000000000000000000013f7dbd45306e3c040eaa1c727cc48e69fb6cb182f7dd",
+      "time": 1785375441,
+      "case_group": "coldcard_2026"
+    },
+    {
+      "height": 960190,
+      "hash": "000000000000000000005cd3ef8a8583807efa1cd1566a6608b16ca297fb0f8e",
+      "time": 1785375780,
+      "case_group": "coldcard_2026"
+    },
+    {
+      "height": 960191,
+      "hash": "000000000000000000003094b4c6bfd6caa47f12985b8b78a54c7524dd1bc606",
+      "time": 1785376286,
+      "case_group": "coldcard_2026"
+    },
+    {
+      "height": 970590,
+      "hash": "00000000000000000001f9ba8dc91bdcde0c423ceea3173ce95c9fa018146c33",
+      "time": 1791525260,
+      "case_group": "cryptobilis_2026"
+    },
+    {
+      "height": 970591,
+      "hash": "00000000000000000000e3e95db5d7be9a0ae5ac50d3cdc04ae5b2921ac4e9c0",
+      "time": 1791526545,
+      "case_group": "cryptobilis_2026"
+    }
+  ],
+  "references": [
+    {
+      "case_group": "coldcard_2026",
+      "address": "bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0",
+      "history_file": "collection_comparison_20261019/bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0.json.gz",
+      "history_sha256": "955ac9ecd6a88dc40121f46aee02841aa9facdb1969c3fb2215657eaeb9af535",
+      "role": "source_attributed_collection",
+      "hardware_control": "unknown"
+    },
+    {
+      "case_group": "cryptobilis_2026",
+      "address": "bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl",
+      "history_file": "collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+      "history_sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0",
+      "role": "source_attributed_collection",
+      "hardware_control": "unknown"
+    },
+    {
+      "case_group": "cryptobilis_2026",
+      "address": "bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9",
+      "history_file": "collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+      "history_sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9",
+      "role": "source_attributed_collection",
+      "hardware_control": "unknown"
+    }
+  ]
+}
