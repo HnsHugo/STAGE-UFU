@@ -8,6 +8,31 @@ from test_collection_patterns import tx
 
 
 class ComparisonTests(unittest.TestCase):
+    def test_schema2_rejects_incident_and_comparison_in_same_split_group(self):
+        root = Path(__file__).resolve().parent/'collection_comparison_20261019'
+        registry = json.loads((root/'registry.json').read_text())
+        registry['schema_version'] = 2
+        for record in registry['records']:
+            record['history_file'] = str((root/record['history_file']).resolve())
+        registry['records'][-1]['group'] = registry['records'][0]['group']
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory)/'registry.json'
+            path.write_text(json.dumps(registry))
+            with self.assertRaisesRegex(ValueError, 'both an incident and comparison'):
+                compare(path)
+
+    @unittest.skipUnless((Path(__file__).resolve().parent/'fsf_history_20261014.json.gz').exists(),
+                         'Separately supplied FSF history required for expanded-cohort reproduction')
+    def test_expanded_pinned_cohort_reproduces_without_changing_previous_rows(self):
+        root = Path(__file__).resolve().parent
+        old = json.loads((root/'collection_comparison_20261019/comparison.json').read_text())
+        expected = json.loads((root/'collection_expanded_20261020/comparison.json').read_text())
+        actual = compare(root/'collection_expanded_20261020/registry.json')
+        self.assertEqual(actual, expected)
+        self.assertEqual(actual['rows'][:len(old['rows'])], old['rows'])
+        self.assertEqual(actual['group_summary'], dict(incident_groups=2, comparison_entities=2,
+                                                     address_count=5, observation_windows=9))
+
     def test_stress_window_ties_choose_earliest_day_not_input_order(self):
         recent = tx('a', when=day_start('2026-10-09'))
         early = tx('b', when=day_start('2026-07-30'))

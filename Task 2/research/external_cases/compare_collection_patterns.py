@@ -69,7 +69,7 @@ def compare(registry_path):
                      shared_transactions=len(tx_sets[i] & tx_sets[j]),
                      shared_input_addresses=len(input_sets[i] & input_sets[j]))
                 for i in range(len(rows)) for j in range(i+1, len(rows))]
-    return dict(schema_version=1, registry_sha256=hashlib.sha256(registry_path.read_bytes()).hexdigest(),
+    report = dict(schema_version=1, registry_sha256=hashlib.sha256(registry_path.read_bytes()).hexdigest(),
                 scope='Retrospective descriptive comparison; no classifier or independent accuracy estimate',
                 independent_sample_policy='Two source-attributed incident groups and one comparison entity; windows are not independent cases',
                 rows=rows, overlap_checks=overlaps,
@@ -81,6 +81,22 @@ def compare(registry_path):
                         'Same-block confirmation timestamps do not establish simultaneous broadcast',
                         'Single-output funding does not establish complete source-address depletion',
                         'Exact non-overlap does not establish independence of entities or incidents'])
+    if registry.get('schema_version', 1) >= 2:
+        # New cohorts have explicit counts; schema-1 reports stay reproducible.
+        incidents = {r['group'] for r in rows if r['context'] == 'incident'}
+        comparisons = {r['group'] for r in rows if r['context'] == 'documented_donation_comparison'}
+        if incidents & comparisons:
+            raise ValueError('A split group cannot be both an incident and comparison entity')
+        report['schema_version'] = 2
+        report['group_summary'] = dict(incident_groups=len(incidents), comparison_entities=len(comparisons),
+                                     address_count=len({r['address'] for r in rows}), observation_windows=len(rows))
+        report['independent_sample_policy'] = (
+            f'{len(incidents)} source-attributed incident groups and {len(comparisons)} '
+            'documented comparison entities; windows are repeated observations, not independent cases')
+        report['limits'][1:3] = [
+            'Donation-purpose evidence does not certify every received fund as legitimate',
+            'A small convenience comparison cohort cannot establish specificity or precision']
+    return report
 
 
 def main():

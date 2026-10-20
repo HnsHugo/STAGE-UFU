@@ -1,0 +1,80 @@
+{
+  "schema_version": 2,
+  "selection_policy": "Case calendar days and documented comparison entity; EFF stress window maximizes receipt count before fixed cutoff with earliest tie-break, not model scores; add the previously selected FSF official donation recipient using the same calendar/stress-day policy; no model score or threshold is used for selection",
+  "records": [
+    {
+      "name": "Coldcard course collector",
+      "address": "bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0",
+      "history_file": "../collection_comparison_20261019/bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0.json.gz",
+      "history_sha256": "955ac9ecd6a88dc40121f46aee02841aa9facdb1969c3fb2215657eaeb9af535",
+      "group": "coldcard_2026_shared",
+      "context": "incident",
+      "source_url": "https://bitquery.io/investigations/coldcard-wallet-hack",
+      "calendar_days": [
+        "2026-07-30"
+      ],
+      "label_available_at": null,
+      "hardware_control": "unknown"
+    },
+    {
+      "name": "Provisional CryptoBilis 1",
+      "address": "bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl",
+      "history_file": "../collection_comparison_20261019/../collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+      "history_sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0",
+      "group": "cryptobilis_2026_10_provisional",
+      "context": "incident",
+      "source_url": "https://bitquery.io/investigations/ledger-cryptobilis-hack",
+      "calendar_days": [
+        "2026-10-09"
+      ],
+      "label_available_at": null,
+      "hardware_control": "unknown"
+    },
+    {
+      "name": "Provisional CryptoBilis 2",
+      "address": "bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9",
+      "history_file": "../collection_comparison_20261019/../collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+      "history_sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9",
+      "group": "cryptobilis_2026_10_provisional",
+      "context": "incident",
+      "source_url": "https://bitquery.io/investigations/ledger-cryptobilis-hack",
+      "calendar_days": [
+        "2026-10-09"
+      ],
+      "label_available_at": null,
+      "hardware_control": "unknown"
+    },
+    {
+      "name": "EFF donation recipient",
+      "address": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "history_file": "../collection_comparison_20261019/../eff_history_20261014/3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so.json.gz",
+      "history_sha256": "f39cfc9b882006263cba68a38d450b4843d8359fef045a588a958fdea35b51e4",
+      "group": "eff",
+      "context": "documented_donation_comparison",
+      "source_url": "https://www.eff.org/pages/other-ways-give-and-donor-support",
+      "calendar_days": [
+        "2026-07-30",
+        "2026-10-09"
+      ],
+      "label_available_at": null,
+      "hardware_control": "unknown",
+      "stress_selection_before": "2026-10-10"
+    },
+    {
+      "name": "FSF donation recipient",
+      "address": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "history_file": "../fsf_history_20261014.json.gz",
+      "history_sha256": "133144439843f6407c4e797b79db4c12205bbcb3c6fd510c2ca778e9aa64eae9",
+      "group": "fsf",
+      "context": "documented_donation_comparison",
+      "source_url": "https://www.fsf.org/about/ways-to-donate",
+      "calendar_days": [
+        "2026-07-30",
+        "2026-10-09"
+      ],
+      "stress_selection_before": "2026-10-10",
+      "label_available_at": null,
+      "hardware_control": "unknown"
+    }
+  ]
+}

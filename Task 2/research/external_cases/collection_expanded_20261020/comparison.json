@@ -1,0 +1,683 @@
+{
+  "schema_version": 2,
+  "registry_sha256": "cdc0a00b132249551847dda8f94c52bdd057ba6f4bd99911d9cd03129a83e45b",
+  "scope": "Retrospective descriptive comparison; no classifier or independent accuracy estimate",
+  "independent_sample_policy": "2 source-attributed incident groups and 2 documented comparison entities; windows are repeated observations, not independent cases",
+  "rows": [
+    {
+      "name": "Coldcard course collector",
+      "address": "bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0",
+      "group": "coldcard_2026_shared",
+      "context": "incident",
+      "source_url": "https://bitquery.io/investigations/coldcard-wallet-hack",
+      "label_available_at": null,
+      "hardware_control": "unknown",
+      "history_sha256": "955ac9ecd6a88dc40121f46aee02841aa9facdb1969c3fb2215657eaeb9af535",
+      "provider_audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 507,
+          "funded_txo_count": 506,
+          "spent_txo_count": 341,
+          "funded_txo_sum": 59447728031,
+          "spent_txo_sum": 56202666941
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "day_utc": "2026-07-30",
+      "selection_policy": "incident_calendar_day",
+      "window_seconds": 86400,
+      "features": {
+        "receipt_transaction_count": 500,
+        "spending_transaction_count": 1,
+        "received_sat": 59447722484,
+        "spent_input_sat": 56202666941,
+        "observed_balance_sat": 3245055543,
+        "funding_transaction_distinct_input_addresses": 500,
+        "funding_transaction_missing_input_address_slots": 0,
+        "single_output_external_funding_transaction_count": 500,
+        "receipt_confirmation_span_seconds": 918,
+        "receipt_top_block_transaction_share": 0.336,
+        "incoming_transaction_median_fee_rate_sat_vbyte": 30.0,
+        "spending_transaction_distinct_other_output_addresses": 1,
+        "single_output_external_funding_share": 1.0
+      }
+    },
+    {
+      "name": "Provisional CryptoBilis 1",
+      "address": "bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl",
+      "group": "cryptobilis_2026_10_provisional",
+      "context": "incident",
+      "source_url": "https://bitquery.io/investigations/ledger-cryptobilis-hack",
+      "label_available_at": null,
+      "hardware_control": "unknown",
+      "history_sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0",
+      "provider_audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 83,
+          "funded_txo_count": 83,
+          "spent_txo_count": 0,
+          "funded_txo_sum": 9250624783,
+          "spent_txo_sum": 0
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "day_utc": "2026-10-09",
+      "selection_policy": "incident_calendar_day",
+      "window_seconds": 86400,
+      "features": {
+        "receipt_transaction_count": 76,
+        "spending_transaction_count": 0,
+        "received_sat": 9250620930,
+        "spent_input_sat": 0,
+        "observed_balance_sat": 9250620930,
+        "funding_transaction_distinct_input_addresses": 76,
+        "funding_transaction_missing_input_address_slots": 0,
+        "single_output_external_funding_transaction_count": 76,
+        "receipt_confirmation_span_seconds": 1285,
+        "receipt_top_block_transaction_share": 0.8552631578947368,
+        "incoming_transaction_median_fee_rate_sat_vbyte": 198.1818181818182,
+        "spending_transaction_distinct_other_output_addresses": 0,
+        "single_output_external_funding_share": 1.0
+      }
+    },
+    {
+      "name": "Provisional CryptoBilis 2",
+      "address": "bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9",
+      "group": "cryptobilis_2026_10_provisional",
+      "context": "incident",
+      "source_url": "https://bitquery.io/investigations/ledger-cryptobilis-hack",
+      "label_available_at": null,
+      "hardware_control": "unknown",
+      "history_sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9",
+      "provider_audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 46,
+          "funded_txo_count": 46,
+          "spent_txo_count": 0,
+          "funded_txo_sum": 11128199071,
+          "spent_txo_sum": 0
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "day_utc": "2026-10-09",
+      "selection_policy": "incident_calendar_day",
+      "window_seconds": 86400,
+      "features": {
+        "receipt_transaction_count": 46,
+        "spending_transaction_count": 0,
+        "received_sat": 11128199071,
+        "spent_input_sat": 0,
+        "observed_balance_sat": 11128199071,
+        "funding_transaction_distinct_input_addresses": 46,
+        "funding_transaction_missing_input_address_slots": 0,
+        "single_output_external_funding_transaction_count": 46,
+        "receipt_confirmation_span_seconds": 0,
+        "receipt_top_block_transaction_share": 1.0,
+        "incoming_transaction_median_fee_rate_sat_vbyte": 208.0909090909091,
+        "spending_transaction_distinct_other_output_addresses": 0,
+        "single_output_external_funding_share": 1.0
+      }
+    },
+    {
+      "name": "EFF donation recipient",
+      "address": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "group": "eff",
+      "context": "documented_donation_comparison",
+      "source_url": "https://www.eff.org/pages/other-ways-give-and-donor-support",
+      "label_available_at": null,
+      "hardware_control": "unknown",
+      "history_sha256": "f39cfc9b882006263cba68a38d450b4843d8359fef045a588a958fdea35b51e4",
+      "provider_audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 191,
+          "funded_txo_count": 97,
+          "spent_txo_count": 97,
+          "funded_txo_sum": 1108591222,
+          "spent_txo_sum": 1108591222
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "day_utc": "2026-07-30",
+      "selection_policy": "incident_calendar_day",
+      "window_seconds": 86400,
+      "features": {
+        "receipt_transaction_count": 1,
+        "spending_transaction_count": 1,
+        "received_sat": 3416,
+        "spent_input_sat": 3416,
+        "observed_balance_sat": 0,
+        "funding_transaction_distinct_input_addresses": 1,
+        "funding_transaction_missing_input_address_slots": 0,
+        "single_output_external_funding_transaction_count": 1,
+        "receipt_confirmation_span_seconds": 0,
+        "receipt_top_block_transaction_share": 1.0,
+        "incoming_transaction_median_fee_rate_sat_vbyte": 2.0,
+        "spending_transaction_distinct_other_output_addresses": 1,
+        "single_output_external_funding_share": 1.0
+      }
+    },
+    {
+      "name": "EFF donation recipient",
+      "address": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "group": "eff",
+      "context": "documented_donation_comparison",
+      "source_url": "https://www.eff.org/pages/other-ways-give-and-donor-support",
+      "label_available_at": null,
+      "hardware_control": "unknown",
+      "history_sha256": "f39cfc9b882006263cba68a38d450b4843d8359fef045a588a958fdea35b51e4",
+      "provider_audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 191,
+          "funded_txo_count": 97,
+          "spent_txo_count": 97,
+          "funded_txo_sum": 1108591222,
+          "spent_txo_sum": 1108591222
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "day_utc": "2026-10-09",
+      "selection_policy": "incident_calendar_day",
+      "window_seconds": 86400,
+      "features": {
+        "receipt_transaction_count": 0,
+        "spending_transaction_count": 0,
+        "received_sat": 0,
+        "spent_input_sat": 0,
+        "observed_balance_sat": 0,
+        "funding_transaction_distinct_input_addresses": 0,
+        "funding_transaction_missing_input_address_slots": 0,
+        "single_output_external_funding_transaction_count": 0,
+        "receipt_confirmation_span_seconds": null,
+        "receipt_top_block_transaction_share": null,
+        "incoming_transaction_median_fee_rate_sat_vbyte": null,
+        "spending_transaction_distinct_other_output_addresses": 0,
+        "single_output_external_funding_share": null
+      }
+    },
+    {
+      "name": "EFF donation recipient",
+      "address": "3LTu6uavQ4A3kgDauZipyGqcHQEUSVe2so",
+      "group": "eff",
+      "context": "documented_donation_comparison",
+      "source_url": "https://www.eff.org/pages/other-ways-give-and-donor-support",
+      "label_available_at": null,
+      "hardware_control": "unknown",
+      "history_sha256": "f39cfc9b882006263cba68a38d450b4843d8359fef045a588a958fdea35b51e4",
+      "provider_audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 191,
+          "funded_txo_count": 97,
+          "spent_txo_count": 97,
+          "funded_txo_sum": 1108591222,
+          "spent_txo_sum": 1108591222
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "day_utc": "2024-12-06",
+      "selection_policy": "retrospective_busiest_receipt_day",
+      "window_seconds": 86400,
+      "features": {
+        "receipt_transaction_count": 2,
+        "spending_transaction_count": 1,
+        "received_sat": 407592,
+        "spent_input_sat": 407592,
+        "observed_balance_sat": 0,
+        "funding_transaction_distinct_input_addresses": 2,
+        "funding_transaction_missing_input_address_slots": 0,
+        "single_output_external_funding_transaction_count": 0,
+        "receipt_confirmation_span_seconds": 4672,
+        "receipt_top_block_transaction_share": 0.5,
+        "incoming_transaction_median_fee_rate_sat_vbyte": 5.0038167938931295,
+        "spending_transaction_distinct_other_output_addresses": 1,
+        "single_output_external_funding_share": 0.0
+      }
+    },
+    {
+      "name": "FSF donation recipient",
+      "address": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "group": "fsf",
+      "context": "documented_donation_comparison",
+      "source_url": "https://www.fsf.org/about/ways-to-donate",
+      "label_available_at": null,
+      "hardware_control": "unknown",
+      "history_sha256": "133144439843f6407c4e797b79db4c12205bbcb3c6fd510c2ca778e9aa64eae9",
+      "provider_audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 2593,
+          "funded_txo_count": 2469,
+          "spent_txo_count": 2465,
+          "funded_txo_sum": 113022243778,
+          "spent_txo_sum": 112622218274
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "day_utc": "2026-07-30",
+      "selection_policy": "incident_calendar_day",
+      "window_seconds": 86400,
+      "features": {
+        "receipt_transaction_count": 0,
+        "spending_transaction_count": 0,
+        "received_sat": 0,
+        "spent_input_sat": 0,
+        "observed_balance_sat": 1805302353,
+        "funding_transaction_distinct_input_addresses": 0,
+        "funding_transaction_missing_input_address_slots": 0,
+        "single_output_external_funding_transaction_count": 0,
+        "receipt_confirmation_span_seconds": null,
+        "receipt_top_block_transaction_share": null,
+        "incoming_transaction_median_fee_rate_sat_vbyte": null,
+        "spending_transaction_distinct_other_output_addresses": 0,
+        "single_output_external_funding_share": null
+      }
+    },
+    {
+      "name": "FSF donation recipient",
+      "address": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "group": "fsf",
+      "context": "documented_donation_comparison",
+      "source_url": "https://www.fsf.org/about/ways-to-donate",
+      "label_available_at": null,
+      "hardware_control": "unknown",
+      "history_sha256": "133144439843f6407c4e797b79db4c12205bbcb3c6fd510c2ca778e9aa64eae9",
+      "provider_audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 2593,
+          "funded_txo_count": 2469,
+          "spent_txo_count": 2465,
+          "funded_txo_sum": 113022243778,
+          "spent_txo_sum": 112622218274
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "day_utc": "2026-10-09",
+      "selection_policy": "incident_calendar_day",
+      "window_seconds": 86400,
+      "features": {
+        "receipt_transaction_count": 1,
+        "spending_transaction_count": 0,
+        "received_sat": 400000000,
+        "spent_input_sat": 0,
+        "observed_balance_sat": 400025504,
+        "funding_transaction_distinct_input_addresses": 1,
+        "funding_transaction_missing_input_address_slots": 0,
+        "single_output_external_funding_transaction_count": 0,
+        "receipt_confirmation_span_seconds": 0,
+        "receipt_top_block_transaction_share": 1.0,
+        "incoming_transaction_median_fee_rate_sat_vbyte": 1.0,
+        "spending_transaction_distinct_other_output_addresses": 0,
+        "single_output_external_funding_share": 0.0
+      }
+    },
+    {
+      "name": "FSF donation recipient",
+      "address": "1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN",
+      "group": "fsf",
+      "context": "documented_donation_comparison",
+      "source_url": "https://www.fsf.org/about/ways-to-donate",
+      "label_available_at": null,
+      "hardware_control": "unknown",
+      "history_sha256": "133144439843f6407c4e797b79db4c12205bbcb3c6fd510c2ca778e9aa64eae9",
+      "provider_audit": {
+        "coverage_complete_by_provider_counters": true,
+        "observed": {
+          "tx_count": 2593,
+          "funded_txo_count": 2469,
+          "spent_txo_count": 2465,
+          "funded_txo_sum": 113022243778,
+          "spent_txo_sum": 112622218274
+        },
+        "counters_stable": true,
+        "pagination_exhausted": true,
+        "cryptographic_inclusion_verified": false
+      },
+      "day_utc": "2011-05-06",
+      "selection_policy": "retrospective_busiest_receipt_day",
+      "window_seconds": 86400,
+      "features": {
+        "receipt_transaction_count": 25,
+        "spending_transaction_count": 1,
+        "received_sat": 23720737514,
+        "spent_input_sat": 7001000000,
+        "observed_balance_sat": 17280737514,
+        "funding_transaction_distinct_input_addresses": 34,
+        "funding_transaction_missing_input_address_slots": 0,
+        "single_output_external_funding_transaction_count": 6,
+        "receipt_confirmation_span_seconds": 81291,
+        "receipt_top_block_transaction_share": 0.08,
+        "incoming_transaction_median_fee_rate_sat_vbyte": 0.0,
+        "spending_transaction_distinct_other_output_addresses": 2,
+        "single_output_external_funding_share": 0.24
+      }
+    }
+  ],
+  "overlap_checks": [
+    {
+      "row_a": 0,
+      "row_b": 1,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 0,
+      "row_b": 2,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 0,
+      "row_b": 3,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 0,
+      "row_b": 4,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 0,
+      "row_b": 5,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 0,
+      "row_b": 6,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 0,
+      "row_b": 7,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 0,
+      "row_b": 8,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 1,
+      "row_b": 2,
+      "same_group": true,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 1,
+      "row_b": 3,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 1,
+      "row_b": 4,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 1,
+      "row_b": 5,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 1,
+      "row_b": 6,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 1,
+      "row_b": 7,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 1,
+      "row_b": 8,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 2,
+      "row_b": 3,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 2,
+      "row_b": 4,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 2,
+      "row_b": 5,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 2,
+      "row_b": 6,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 2,
+      "row_b": 7,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 2,
+      "row_b": 8,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 3,
+      "row_b": 4,
+      "same_group": true,
+      "same_address": true,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 3,
+      "row_b": 5,
+      "same_group": true,
+      "same_address": true,
+      "shared_transactions": 0,
+      "shared_input_addresses": 1
+    },
+    {
+      "row_a": 3,
+      "row_b": 6,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 3,
+      "row_b": 7,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 3,
+      "row_b": 8,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 4,
+      "row_b": 5,
+      "same_group": true,
+      "same_address": true,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 4,
+      "row_b": 6,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 4,
+      "row_b": 7,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 4,
+      "row_b": 8,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 5,
+      "row_b": 6,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 5,
+      "row_b": 7,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 5,
+      "row_b": 8,
+      "same_group": false,
+      "same_address": false,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 6,
+      "row_b": 7,
+      "same_group": true,
+      "same_address": true,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 6,
+      "row_b": 8,
+      "same_group": true,
+      "same_address": true,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    },
+    {
+      "row_a": 7,
+      "row_b": 8,
+      "same_group": true,
+      "same_address": true,
+      "shared_transactions": 0,
+      "shared_input_addresses": 0
+    }
+  ],
+  "limits": [
+    "Matched duration does not match address age, fee market, volume or observation date",
+    "Donation-purpose evidence does not certify every received fund as legitimate",
+    "A small convenience comparison cohort cannot establish specificity or precision",
+    "Source-to-hardware mapping and historical label availability remain unverified",
+    "Busiest-day selection is retrospective and cannot support prospective detection claims",
+    "Same-block confirmation timestamps do not establish simultaneous broadcast",
+    "Single-output funding does not establish complete source-address depletion",
+    "Exact non-overlap does not establish independence of entities or incidents"
+  ],
+  "group_summary": {
+    "incident_groups": 2,
+    "comparison_entities": 2,
+    "address_count": 5,
+    "observation_windows": 9
+  }
+}
