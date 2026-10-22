@@ -2,7 +2,7 @@
 
 ## Current priority
 
-The [central experiment](CENTRAL_EXPERIMENT.md) now ranks all recipients in six complete Coldcard/CryptoBilis incident blocks. A fixed external one-output funding count places the three supplied references at ranks 1, 2 and 4; simple receipt-count and amount baselines do worse. The one-block neighboring extension now covers 53,526 transactions in ten blocks and preserves ranks 1, 2 and 4. Explain competing top-ranked patterns within this experiment before starting unrelated models. Exact participant/device mappings and Ivan's code remain unresolved; no hardware classifier is claimed.
+The [central experiment](CENTRAL_EXPERIMENT.md) now ranks all recipients in six complete Coldcard/CryptoBilis incident blocks. A fixed external one-output funding count places the three supplied references at ranks 1, 2 and 4; simple receipt-count and amount baselines do worse. The one-block neighboring extension now covers 53,526 transactions in ten blocks and preserves ranks 1, 2 and 4. The top-10 profile review is complete: 9 of 17 unattributed recipients also have a 100% external one-output fraction. This fraction alone does not identify theft. Independent incident/role evidence or Ivan's code is the next priority. Exact participant/device mappings and Ivan's code remain unresolved; no hardware classifier is claimed.
 
 ## Completed work
 
@@ -45,4 +45,4 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Keep the central scores fixed; the immediate neighboring-block check is complete. Review competing top-ranked collection patterns locally without labeling unknowns legitimate or criminal. Compare any later model with this saved baseline on the same populations; preserve case/entity groups and time-valid observations.
+Keep the central scores fixed; the immediate neighboring-block check is complete. The 20 top-ranked profiles are described without assigning unknown labels. Obtain independent incident/role evidence or Ivan's code and dataset assumptions before changing models or claiming generalization. Compare any later model with this saved baseline on the same populations; preserve case/entity groups and time-valid observations.

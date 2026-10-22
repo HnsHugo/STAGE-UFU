@@ -1,0 +1,710 @@
+{
+  "protocol_sha256": "f34678f7020bec6498dd8cfbf85808eb24f57f2157f0ba49f5afedb1ba54ddac",
+  "ranking_summary_sha256": "e4f3165a7ebe025e9d5defb816442898b4c24ff058360b0865d076d8202d4dbe",
+  "groups": [
+    {
+      "case_group": "coldcard_2026",
+      "recipient_count": 8078,
+      "review_budget": 10,
+      "selected_with_boundary_ties": 10,
+      "profiles": [
+        {
+          "candidate_id": "candidate_1",
+          "reference_id": "reference_1",
+          "rank": {
+            "observed": true,
+            "score": 500,
+            "rank_best": 1,
+            "rank_worst": 1
+          },
+          "receipt_transactions": 500,
+          "single_output_transactions": 500,
+          "external_single_output_transactions": 500,
+          "external_single_output_fraction": 1.0,
+          "receipts_with_self_input": 0,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 81,
+          "distinct_decoded_input_addresses": 500,
+          "distinct_qualifying_input_addresses": 500,
+          "receipt_value_sat": {
+            "min": 14994300,
+            "median": 40902636.5,
+            "max": 2989245121,
+            "total": 59447722484
+          },
+          "receipt_counts_by_height": {
+            "960188": 63,
+            "960189": 110,
+            "960190": 168,
+            "960191": 159
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_2",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 71,
+            "rank_best": 2,
+            "rank_worst": 2
+          },
+          "receipt_transactions": 81,
+          "single_output_transactions": 71,
+          "external_single_output_transactions": 71,
+          "external_single_output_fraction": 0.8765432098765432,
+          "receipts_with_self_input": 10,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 13,
+          "distinct_decoded_input_addresses": 69,
+          "distinct_qualifying_input_addresses": 68,
+          "receipt_value_sat": {
+            "min": 8608,
+            "median": 109378,
+            "max": 1458079,
+            "total": 14434125
+          },
+          "receipt_counts_by_height": {
+            "960187": 13,
+            "960188": 14,
+            "960189": 7,
+            "960190": 3,
+            "960191": 18,
+            "960192": 26
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_3",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 45,
+            "rank_best": 3,
+            "rank_worst": 3
+          },
+          "receipt_transactions": 45,
+          "single_output_transactions": 45,
+          "external_single_output_transactions": 45,
+          "external_single_output_fraction": 1.0,
+          "receipts_with_self_input": 0,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 45,
+          "distinct_decoded_input_addresses": 45,
+          "distinct_qualifying_input_addresses": 45,
+          "receipt_value_sat": {
+            "min": 1304,
+            "median": 3208,
+            "max": 6339,
+            "total": 136290
+          },
+          "receipt_counts_by_height": {
+            "960188": 5,
+            "960189": 15,
+            "960190": 25
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_4",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 19,
+            "rank_best": 4,
+            "rank_worst": 4
+          },
+          "receipt_transactions": 21,
+          "single_output_transactions": 19,
+          "external_single_output_transactions": 19,
+          "external_single_output_fraction": 0.9047619047619048,
+          "receipts_with_self_input": 1,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 0,
+          "distinct_decoded_input_addresses": 2,
+          "distinct_qualifying_input_addresses": 1,
+          "receipt_value_sat": {
+            "min": 330,
+            "median": 330,
+            "max": 6199,
+            "total": 12799
+          },
+          "receipt_counts_by_height": {
+            "960189": 21
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_5",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 16,
+            "rank_best": 5,
+            "rank_worst": 5
+          },
+          "receipt_transactions": 18,
+          "single_output_transactions": 16,
+          "external_single_output_transactions": 16,
+          "external_single_output_fraction": 0.8888888888888888,
+          "receipts_with_self_input": 2,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 6,
+          "distinct_decoded_input_addresses": 16,
+          "distinct_qualifying_input_addresses": 15,
+          "receipt_value_sat": {
+            "min": 271082,
+            "median": 422663.5,
+            "max": 356548626,
+            "total": 383111786
+          },
+          "receipt_counts_by_height": {
+            "960188": 5,
+            "960189": 1,
+            "960190": 1,
+            "960191": 7,
+            "960192": 4
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_6",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 10,
+            "rank_best": 6,
+            "rank_worst": 6
+          },
+          "receipt_transactions": 10,
+          "single_output_transactions": 10,
+          "external_single_output_transactions": 10,
+          "external_single_output_fraction": 1.0,
+          "receipts_with_self_input": 0,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 0,
+          "distinct_decoded_input_addresses": 10,
+          "distinct_qualifying_input_addresses": 10,
+          "receipt_value_sat": {
+            "min": 40742,
+            "median": 112431.5,
+            "max": 879778,
+            "total": 1996368
+          },
+          "receipt_counts_by_height": {
+            "960187": 1,
+            "960188": 2,
+            "960189": 2,
+            "960190": 2,
+            "960191": 1,
+            "960192": 2
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_7",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 8,
+            "rank_best": 7,
+            "rank_worst": 8
+          },
+          "receipt_transactions": 8,
+          "single_output_transactions": 8,
+          "external_single_output_transactions": 8,
+          "external_single_output_fraction": 1.0,
+          "receipts_with_self_input": 0,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 2,
+          "distinct_decoded_input_addresses": 11,
+          "distinct_qualifying_input_addresses": 11,
+          "receipt_value_sat": {
+            "min": 38033,
+            "median": 85600.0,
+            "max": 626225,
+            "total": 1685533
+          },
+          "receipt_counts_by_height": {
+            "960188": 1,
+            "960189": 1,
+            "960190": 4,
+            "960191": 1,
+            "960192": 1
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_8",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 8,
+            "rank_best": 7,
+            "rank_worst": 8
+          },
+          "receipt_transactions": 18,
+          "single_output_transactions": 8,
+          "external_single_output_transactions": 8,
+          "external_single_output_fraction": 0.4444444444444444,
+          "receipts_with_self_input": 10,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 12,
+          "distinct_decoded_input_addresses": 85,
+          "distinct_qualifying_input_addresses": 84,
+          "receipt_value_sat": {
+            "min": 853,
+            "median": 399615.0,
+            "max": 16669883,
+            "total": 37442006
+          },
+          "receipt_counts_by_height": {
+            "960187": 1,
+            "960189": 1,
+            "960190": 9,
+            "960191": 5,
+            "960192": 2
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_9",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 7,
+            "rank_best": 9,
+            "rank_worst": 9
+          },
+          "receipt_transactions": 7,
+          "single_output_transactions": 7,
+          "external_single_output_transactions": 7,
+          "external_single_output_fraction": 1.0,
+          "receipts_with_self_input": 0,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 1,
+          "distinct_decoded_input_addresses": 7,
+          "distinct_qualifying_input_addresses": 7,
+          "receipt_value_sat": {
+            "min": 131868,
+            "median": 369099,
+            "max": 7222572,
+            "total": 12898232
+          },
+          "receipt_counts_by_height": {
+            "960191": 3,
+            "960192": 4
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_10",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 6,
+            "rank_best": 10,
+            "rank_worst": 10
+          },
+          "receipt_transactions": 6,
+          "single_output_transactions": 6,
+          "external_single_output_transactions": 6,
+          "external_single_output_fraction": 1.0,
+          "receipts_with_self_input": 0,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 0,
+          "distinct_decoded_input_addresses": 6,
+          "distinct_qualifying_input_addresses": 6,
+          "receipt_value_sat": {
+            "min": 1171,
+            "median": 154515.5,
+            "max": 8029205,
+            "total": 8741380
+          },
+          "receipt_counts_by_height": {
+            "960191": 4,
+            "960192": 2
+          },
+          "has_p2a_anchor_output": false
+        }
+      ],
+      "receipt_count_leader": {
+        "reference_id": null,
+        "collection_rank": {
+          "observed": true,
+          "score": 0,
+          "rank_best": 897,
+          "rank_worst": 8078
+        },
+        "receipt_transactions": 6142,
+        "single_output_transactions": 0,
+        "external_single_output_transactions": 0,
+        "external_single_output_fraction": 0.0,
+        "receipts_with_self_input": 6142,
+        "receipts_with_unknown_input": 0,
+        "receipts_with_multiple_inputs": 0,
+        "distinct_decoded_input_addresses": 1,
+        "distinct_qualifying_input_addresses": 0,
+        "receipt_value_sat": {
+          "min": 348,
+          "median": 7548.0,
+          "max": 18513,
+          "total": 56328670
+        },
+        "receipt_counts_by_height": {
+          "960188": 5276,
+          "960189": 866
+        },
+        "has_p2a_anchor_output": false
+      }
+    },
+    {
+      "case_group": "cryptobilis_2026",
+      "recipient_count": 22157,
+      "review_budget": 10,
+      "selected_with_boundary_ties": 10,
+      "profiles": [
+        {
+          "candidate_id": "candidate_1",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 126,
+            "rank_best": 1,
+            "rank_worst": 1
+          },
+          "receipt_transactions": 155,
+          "single_output_transactions": 126,
+          "external_single_output_transactions": 126,
+          "external_single_output_fraction": 0.8129032258064516,
+          "receipts_with_self_input": 29,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 13,
+          "distinct_decoded_input_addresses": 114,
+          "distinct_qualifying_input_addresses": 113,
+          "receipt_value_sat": {
+            "min": 5255,
+            "median": 109356,
+            "max": 68521170,
+            "total": 1212955165
+          },
+          "receipt_counts_by_height": {
+            "970589": 9,
+            "970590": 64,
+            "970591": 58,
+            "970592": 24
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_2",
+          "reference_id": "reference_2",
+          "rank": {
+            "observed": true,
+            "score": 76,
+            "rank_best": 2,
+            "rank_worst": 2
+          },
+          "receipt_transactions": 76,
+          "single_output_transactions": 76,
+          "external_single_output_transactions": 76,
+          "external_single_output_fraction": 1.0,
+          "receipts_with_self_input": 0,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 11,
+          "distinct_decoded_input_addresses": 76,
+          "distinct_qualifying_input_addresses": 76,
+          "receipt_value_sat": {
+            "min": 2300,
+            "median": 9495744.0,
+            "max": 1999964600,
+            "total": 9250620930
+          },
+          "receipt_counts_by_height": {
+            "970590": 65,
+            "970591": 11
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_3",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 55,
+            "rank_best": 3,
+            "rank_worst": 3
+          },
+          "receipt_transactions": 56,
+          "single_output_transactions": 55,
+          "external_single_output_transactions": 55,
+          "external_single_output_fraction": 0.9821428571428571,
+          "receipts_with_self_input": 1,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 54,
+          "distinct_decoded_input_addresses": 56,
+          "distinct_qualifying_input_addresses": 55,
+          "receipt_value_sat": {
+            "min": 193488,
+            "median": 438825.5,
+            "max": 991639,
+            "total": 26262094
+          },
+          "receipt_counts_by_height": {
+            "970590": 55,
+            "970591": 1
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_4",
+          "reference_id": "reference_3",
+          "rank": {
+            "observed": true,
+            "score": 46,
+            "rank_best": 4,
+            "rank_worst": 4
+          },
+          "receipt_transactions": 46,
+          "single_output_transactions": 46,
+          "external_single_output_transactions": 46,
+          "external_single_output_fraction": 1.0,
+          "receipts_with_self_input": 0,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 1,
+          "distinct_decoded_input_addresses": 46,
+          "distinct_qualifying_input_addresses": 46,
+          "receipt_value_sat": {
+            "min": 475110,
+            "median": 23998158.0,
+            "max": 7999977110,
+            "total": 11128199071
+          },
+          "receipt_counts_by_height": {
+            "970590": 46
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_5",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 38,
+            "rank_best": 5,
+            "rank_worst": 5
+          },
+          "receipt_transactions": 38,
+          "single_output_transactions": 38,
+          "external_single_output_transactions": 38,
+          "external_single_output_fraction": 1.0,
+          "receipts_with_self_input": 0,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 0,
+          "distinct_decoded_input_addresses": 38,
+          "distinct_qualifying_input_addresses": 38,
+          "receipt_value_sat": {
+            "min": 1481,
+            "median": 3354.0,
+            "max": 5227,
+            "total": 127452
+          },
+          "receipt_counts_by_height": {
+            "970592": 38
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_6",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 22,
+            "rank_best": 6,
+            "rank_worst": 6
+          },
+          "receipt_transactions": 36,
+          "single_output_transactions": 22,
+          "external_single_output_transactions": 22,
+          "external_single_output_fraction": 0.6111111111111112,
+          "receipts_with_self_input": 14,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 8,
+          "distinct_decoded_input_addresses": 21,
+          "distinct_qualifying_input_addresses": 20,
+          "receipt_value_sat": {
+            "min": 283883,
+            "median": 960421.5,
+            "max": 553384602,
+            "total": 1397068301
+          },
+          "receipt_counts_by_height": {
+            "970589": 9,
+            "970590": 16,
+            "970591": 10,
+            "970592": 1
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_7",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 21,
+            "rank_best": 7,
+            "rank_worst": 7
+          },
+          "receipt_transactions": 21,
+          "single_output_transactions": 21,
+          "external_single_output_transactions": 21,
+          "external_single_output_fraction": 1.0,
+          "receipts_with_self_input": 0,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 5,
+          "distinct_decoded_input_addresses": 28,
+          "distinct_qualifying_input_addresses": 28,
+          "receipt_value_sat": {
+            "min": 2089,
+            "median": 9881,
+            "max": 656415,
+            "total": 1482412
+          },
+          "receipt_counts_by_height": {
+            "970590": 21
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_8",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 15,
+            "rank_best": 8,
+            "rank_worst": 8
+          },
+          "receipt_transactions": 15,
+          "single_output_transactions": 15,
+          "external_single_output_transactions": 15,
+          "external_single_output_fraction": 1.0,
+          "receipts_with_self_input": 0,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 0,
+          "distinct_decoded_input_addresses": 15,
+          "distinct_qualifying_input_addresses": 15,
+          "receipt_value_sat": {
+            "min": 453643,
+            "median": 647343,
+            "max": 653743,
+            "total": 9529017
+          },
+          "receipt_counts_by_height": {
+            "970590": 6,
+            "970591": 8,
+            "970592": 1
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_9",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 13,
+            "rank_best": 9,
+            "rank_worst": 9
+          },
+          "receipt_transactions": 38,
+          "single_output_transactions": 13,
+          "external_single_output_transactions": 13,
+          "external_single_output_fraction": 0.34210526315789475,
+          "receipts_with_self_input": 25,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 21,
+          "distinct_decoded_input_addresses": 124,
+          "distinct_qualifying_input_addresses": 123,
+          "receipt_value_sat": {
+            "min": 757,
+            "median": 622198.5,
+            "max": 11685020,
+            "total": 74011972
+          },
+          "receipt_counts_by_height": {
+            "970589": 11,
+            "970590": 14,
+            "970591": 13
+          },
+          "has_p2a_anchor_output": false
+        },
+        {
+          "candidate_id": "candidate_10",
+          "reference_id": null,
+          "rank": {
+            "observed": true,
+            "score": 12,
+            "rank_best": 10,
+            "rank_worst": 10
+          },
+          "receipt_transactions": 12,
+          "single_output_transactions": 12,
+          "external_single_output_transactions": 12,
+          "external_single_output_fraction": 1.0,
+          "receipts_with_self_input": 0,
+          "receipts_with_unknown_input": 0,
+          "receipts_with_multiple_inputs": 0,
+          "distinct_decoded_input_addresses": 12,
+          "distinct_qualifying_input_addresses": 12,
+          "receipt_value_sat": {
+            "min": 210806,
+            "median": 283026.5,
+            "max": 583424,
+            "total": 4025928
+          },
+          "receipt_counts_by_height": {
+            "970591": 12
+          },
+          "has_p2a_anchor_output": false
+        }
+      ],
+      "receipt_count_leader": {
+        "reference_id": null,
+        "collection_rank": {
+          "observed": true,
+          "score": 0,
+          "rank_best": 2559,
+          "rank_worst": 22157
+        },
+        "receipt_transactions": 1818,
+        "single_output_transactions": 0,
+        "external_single_output_transactions": 0,
+        "external_single_output_fraction": 0.0,
+        "receipts_with_self_input": 1685,
+        "receipts_with_unknown_input": 0,
+        "receipts_with_multiple_inputs": 91,
+        "distinct_decoded_input_addresses": 7,
+        "distinct_qualifying_input_addresses": 0,
+        "receipt_value_sat": {
+          "min": 240,
+          "median": 290.0,
+          "max": 420,
+          "total": 549525
+        },
+        "receipt_counts_by_height": {
+          "970589": 363,
+          "970591": 458,
+          "970592": 997
+        },
+        "has_p2a_anchor_output": true
+      }
+    }
+  ],
+  "scope": "Descriptive profiles of all fixed top-10 ranks including boundary ties; no labels assigned",
+  "limits": [
+    "Anonymous IDs are local to each case, not entities or ownership clusters",
+    "Input addresses count decoded strings, not victims, people or hardware devices",
+    "Unknown recipients are neither confirmed false positives nor confirmed criminals",
+    "Input amounts, future spending and external identity labels are not used",
+    "Repeated receipts within the same incident are not independent incidents"
+  ]
+}

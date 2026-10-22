@@ -207,10 +207,77 @@ suite passes **47 tests**; all six offline suites pass **179 tests** in total.
 The full repository check is recorded in the
 [extension verification log](verification/neighbor_experiment_20261022.json).
 
+## Competing top-ranked patterns — 22 October 2026
+
+A descriptive follow-up profiles **all top-10 ranks** on the expanded windows,
+including any ties at the review boundary. There are ten selected recipients per
+incident: three supplied references and **17 unattributed recipients** in total.
+The baseline and candidate population remain unchanged. Candidate IDs are local
+to a case and do not identify entities. Source addresses count decoded strings,
+not victims, people, keys or hardware devices. No new labels or model are fitted.
+
+| Case / profile | Fixed score | Receipt transactions | Distinct input addresses in qualifying transactions | Receipts with a self-input |
+| --- | ---: | ---: | ---: | ---: |
+| Coldcard reference 1 | 500 | 500 | 500 | 0 |
+| Coldcard strongest competitor / candidate 2 | 71 | 81 | 68 | 10 |
+| Coldcard candidate 3 | 45 | 45 | 45 | 0 |
+| Coldcard candidate 4 | 19 | 21 | 1 | 1 |
+| CryptoBilis strongest competitor / candidate 1 | 126 | 155 | 113 | 29 |
+| CryptoBilis reference 2 | 76 | 76 | 76 | 0 |
+| CryptoBilis candidate 3 | 55 | 56 | 55 | 1 |
+| CryptoBilis reference 3 | 46 | 46 | 46 | 0 |
+
+Nine unattributed recipients (five Coldcard, four CryptoBilis) have an external
+one-output fraction of **100%**, as do the three references. The fraction alone
+therefore does not separate the supplied references from other selected
+candidates. These are **not confirmed false positives**: the other recipients
+have no verified labels. Repeated transfers can also originate from the same
+source address: Coldcard candidate 4 has 19 qualifying transactions but only
+one distinct qualifying input address. Transaction counts cannot be reported
+as victim counts. Forty-five receipts to Coldcard candidate 3 all have multiple
+inputs, showing that the one-output rule does not require a single input.
+
+The strongest CryptoBilis competitor spans all four blocks (9/64/58/24 receipts)
+and has 29 self-input receipts excluded from its score. The two CryptoBilis
+references have no receipts in the added neighboring blocks. This descriptive
+timing difference is post-hoc; it is not a tuned filter or a validated classifier.
+
+**Why receipt counts alone can mislead:** the Coldcard receipt-count leader has
+6,142 receipts, all with its address also present in the input, and no one-output
+receipts. Its collection score is zero. The CryptoBilis count leader has 1,818
+receipts, 1,685 with a self-input, and no one-output receipts; its score is also
+zero. Its matching output script is the P2A anchor template. These observations
+explain some ranking differences without identifying the operators or alleging
+illicit activity. They do not exclude other collection mechanisms.
+
+The [anonymous profiles](research/external_cases/neighbor_results_20261022/competitor_profiles_20261022.json)
+include all 20 selected candidates, receipt amounts in satoshis, per-block counts,
+missing-input observations and exact rank intervals. The extractor checks the
+saved protocol and raw-block SHA256 values, validates each block and recomputes
+the recipient population and each selected baseline score. Future spending
+metadata is not used. No full addresses or transaction identifiers are published
+in the profile artifact.
+
+From `Task 2/research/external_cases`, with the original matching block cache:
+
+```bash
+python profile_ranked_recipients.py neighbor_protocol_20261022.json \
+  neighbor_results_20261022/summary.json /tmp/ufu-central-blocks /tmp/ufu-profiles-new.json
+python -m unittest discover -p 'test_profile_ranked_recipients.py' -v
+```
+
+If a fresh provider response has different mutable raw bytes, regenerate the
+expanded ranking and use its matching summary/cache instead of bypassing the
+checksum check. Five new tests cover review-boundary ties, repeated outputs,
+self/unknown inputs, repeated input addresses, protocol tampering and exclusion
+of future spending metadata. All six offline suites pass **184 tests**; the
+20 saved profiles reproduce exactly from the ten pinned cached blocks. See the
+[profile verification log](verification/competitor_profiles_20261022.json).
+
 ## Next step within this experiment
 
-Keep these scores unchanged. Before expanding the scan further, review the
-non-reference top-ranked patterns locally to explain competing collection
-behaviors, keeping unknowns unlabeled. Additional models must be compared
-against this saved baseline on the same candidate populations. Independent
-incident validation still requires a separately sourced incident.
+Keep the three baselines unchanged. The candidate-profile review is complete;
+no source labels support a precision/F1 claim for the other recipients. The next
+scientific gain requires independent incident/role evidence or Ivan's code and
+its dataset assumptions, followed by comparison against this saved baseline.
+Avoid filtering the competing patterns merely to improve these known-case ranks.
