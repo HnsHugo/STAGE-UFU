@@ -1,0 +1,425 @@
+{
+  "scope": "Anonymous cumulative score counts; no full address list",
+  "groups": [
+    {
+      "case_group": "coldcard_2026",
+      "recipient_count": 8078,
+      "features": [
+        {
+          "feature": "receipt_transaction_count",
+          "points": [
+            {
+              "score": 500,
+              "less_count": 8068,
+              "equal_count": 1,
+              "greater_count": 9
+            },
+            {
+              "score": 1500,
+              "less_count": 8069,
+              "equal_count": 1,
+              "greater_count": 8
+            },
+            {
+              "score": 1950,
+              "less_count": 8070,
+              "equal_count": 1,
+              "greater_count": 7
+            },
+            {
+              "score": 1975,
+              "less_count": 8071,
+              "equal_count": 1,
+              "greater_count": 6
+            },
+            {
+              "score": 2040,
+              "less_count": 8072,
+              "equal_count": 1,
+              "greater_count": 5
+            },
+            {
+              "score": 2402,
+              "less_count": 8073,
+              "equal_count": 1,
+              "greater_count": 4
+            },
+            {
+              "score": 2461,
+              "less_count": 8074,
+              "equal_count": 1,
+              "greater_count": 3
+            },
+            {
+              "score": 2700,
+              "less_count": 8075,
+              "equal_count": 1,
+              "greater_count": 2
+            },
+            {
+              "score": 2875,
+              "less_count": 8076,
+              "equal_count": 1,
+              "greater_count": 1
+            },
+            {
+              "score": 6142,
+              "less_count": 8077,
+              "equal_count": 1,
+              "greater_count": 0
+            }
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "points": [
+            {
+              "score": 6,
+              "less_count": 8068,
+              "equal_count": 1,
+              "greater_count": 9
+            },
+            {
+              "score": 7,
+              "less_count": 8069,
+              "equal_count": 1,
+              "greater_count": 8
+            },
+            {
+              "score": 8,
+              "less_count": 8070,
+              "equal_count": 2,
+              "greater_count": 6
+            },
+            {
+              "score": 10,
+              "less_count": 8072,
+              "equal_count": 1,
+              "greater_count": 5
+            },
+            {
+              "score": 16,
+              "less_count": 8073,
+              "equal_count": 1,
+              "greater_count": 4
+            },
+            {
+              "score": 19,
+              "less_count": 8074,
+              "equal_count": 1,
+              "greater_count": 3
+            },
+            {
+              "score": 45,
+              "less_count": 8075,
+              "equal_count": 1,
+              "greater_count": 2
+            },
+            {
+              "score": 71,
+              "less_count": 8076,
+              "equal_count": 1,
+              "greater_count": 1
+            },
+            {
+              "score": 500,
+              "less_count": 8077,
+              "equal_count": 1,
+              "greater_count": 0
+            }
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "points": [
+            {
+              "score": 17906717826,
+              "less_count": 8068,
+              "equal_count": 1,
+              "greater_count": 9
+            },
+            {
+              "score": 19558775000,
+              "less_count": 8069,
+              "equal_count": 1,
+              "greater_count": 8
+            },
+            {
+              "score": 19935724109,
+              "less_count": 8070,
+              "equal_count": 1,
+              "greater_count": 7
+            },
+            {
+              "score": 30124267875,
+              "less_count": 8071,
+              "equal_count": 1,
+              "greater_count": 6
+            },
+            {
+              "score": 33111950093,
+              "less_count": 8072,
+              "equal_count": 1,
+              "greater_count": 5
+            },
+            {
+              "score": 39847573857,
+              "less_count": 8073,
+              "equal_count": 1,
+              "greater_count": 4
+            },
+            {
+              "score": 56201962301,
+              "less_count": 8074,
+              "equal_count": 1,
+              "greater_count": 3
+            },
+            {
+              "score": 59447722484,
+              "less_count": 8075,
+              "equal_count": 1,
+              "greater_count": 2
+            },
+            {
+              "score": 184458629311,
+              "less_count": 8076,
+              "equal_count": 1,
+              "greater_count": 1
+            },
+            {
+              "score": 253095239279,
+              "less_count": 8077,
+              "equal_count": 1,
+              "greater_count": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_group": "cryptobilis_2026",
+      "recipient_count": 22157,
+      "features": [
+        {
+          "feature": "receipt_transaction_count",
+          "points": [
+            {
+              "score": 46,
+              "less_count": 22128,
+              "equal_count": 2,
+              "greater_count": 27
+            },
+            {
+              "score": 76,
+              "less_count": 22141,
+              "equal_count": 1,
+              "greater_count": 15
+            },
+            {
+              "score": 231,
+              "less_count": 22147,
+              "equal_count": 1,
+              "greater_count": 9
+            },
+            {
+              "score": 298,
+              "less_count": 22148,
+              "equal_count": 1,
+              "greater_count": 8
+            },
+            {
+              "score": 384,
+              "less_count": 22149,
+              "equal_count": 1,
+              "greater_count": 7
+            },
+            {
+              "score": 427,
+              "less_count": 22150,
+              "equal_count": 1,
+              "greater_count": 6
+            },
+            {
+              "score": 450,
+              "less_count": 22151,
+              "equal_count": 1,
+              "greater_count": 5
+            },
+            {
+              "score": 511,
+              "less_count": 22152,
+              "equal_count": 1,
+              "greater_count": 4
+            },
+            {
+              "score": 575,
+              "less_count": 22153,
+              "equal_count": 1,
+              "greater_count": 3
+            },
+            {
+              "score": 600,
+              "less_count": 22154,
+              "equal_count": 1,
+              "greater_count": 2
+            },
+            {
+              "score": 975,
+              "less_count": 22155,
+              "equal_count": 1,
+              "greater_count": 1
+            },
+            {
+              "score": 1818,
+              "less_count": 22156,
+              "equal_count": 1,
+              "greater_count": 0
+            }
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "points": [
+            {
+              "score": 12,
+              "less_count": 22147,
+              "equal_count": 1,
+              "greater_count": 9
+            },
+            {
+              "score": 13,
+              "less_count": 22148,
+              "equal_count": 1,
+              "greater_count": 8
+            },
+            {
+              "score": 15,
+              "less_count": 22149,
+              "equal_count": 1,
+              "greater_count": 7
+            },
+            {
+              "score": 21,
+              "less_count": 22150,
+              "equal_count": 1,
+              "greater_count": 6
+            },
+            {
+              "score": 22,
+              "less_count": 22151,
+              "equal_count": 1,
+              "greater_count": 5
+            },
+            {
+              "score": 38,
+              "less_count": 22152,
+              "equal_count": 1,
+              "greater_count": 4
+            },
+            {
+              "score": 46,
+              "less_count": 22153,
+              "equal_count": 1,
+              "greater_count": 3
+            },
+            {
+              "score": 55,
+              "less_count": 22154,
+              "equal_count": 1,
+              "greater_count": 2
+            },
+            {
+              "score": 76,
+              "less_count": 22155,
+              "equal_count": 1,
+              "greater_count": 1
+            },
+            {
+              "score": 126,
+              "less_count": 22156,
+              "equal_count": 1,
+              "greater_count": 0
+            }
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "points": [
+            {
+              "score": 9250620930,
+              "less_count": 22126,
+              "equal_count": 1,
+              "greater_count": 30
+            },
+            {
+              "score": 11128199071,
+              "less_count": 22129,
+              "equal_count": 1,
+              "greater_count": 27
+            },
+            {
+              "score": 34150567530,
+              "less_count": 22147,
+              "equal_count": 1,
+              "greater_count": 9
+            },
+            {
+              "score": 74024009138,
+              "less_count": 22148,
+              "equal_count": 1,
+              "greater_count": 8
+            },
+            {
+              "score": 81570508147,
+              "less_count": 22149,
+              "equal_count": 1,
+              "greater_count": 7
+            },
+            {
+              "score": 99554295953,
+              "less_count": 22150,
+              "equal_count": 1,
+              "greater_count": 6
+            },
+            {
+              "score": 103173911667,
+              "less_count": 22151,
+              "equal_count": 1,
+              "greater_count": 5
+            },
+            {
+              "score": 106760952651,
+              "less_count": 22152,
+              "equal_count": 1,
+              "greater_count": 4
+            },
+            {
+              "score": 121009214066,
+              "less_count": 22153,
+              "equal_count": 1,
+              "greater_count": 3
+            },
+            {
+              "score": 201510249696,
+              "less_count": 22154,
+              "equal_count": 1,
+              "greater_count": 2
+            },
+            {
+              "score": 308700669510,
+              "less_count": 22155,
+              "equal_count": 1,
+              "greater_count": 1
+            },
+            {
+              "score": 745915292804,
+              "less_count": 22156,
+              "equal_count": 1,
+              "greater_count": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

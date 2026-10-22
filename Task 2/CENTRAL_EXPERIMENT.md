@@ -150,9 +150,67 @@ works on successive block prefixes. This supports a concrete collection-pattern
 hypothesis worth testing beyond the selected incidents; it does not identify a
 hardware brand or establish a general theft detector.
 
+## Neighboring-block robustness check — 22 October 2026
+
+The extension adds exactly one block immediately before and after each original
+window: Coldcard 960187–960192 and CryptoBilis 970589–970592. The
+[selection manifest](research/external_cases/neighbor_selection_20261022.json)
+was saved before fetching or ranking those four additional blocks. Their hashes
+were obtained from the previously saved boundary blocks. Predecessor links,
+heights and the original integrity checks are verified. All three original
+scores and the top-10 review budget are unchanged. This is a planned robustness
+extension of known cases, not a preregistered independent test.
+
+The enlarged population contains **53,526 transactions in ten blocks**:
+22,588 additional transactions, with ten coinbases excluded from features.
+
+| Reference | Expanded recipient population | Receipt count rank | External one-output rank | Gross amount rank |
+| --- | ---: | ---: | ---: | ---: |
+| Coldcard / reference 1 | 8,078 | 10 | **1** | 3 |
+| CryptoBilis / reference 2 | 22,157 | 16 | **2** | 31 |
+| CryptoBilis / reference 3 | 22,157 | 28–29 | **4** | 28 |
+
+The external one-output ranks remain **1, 2 and 4**, with scores unchanged at
+500, 76 and 46. No reference receives funds in its preceding block; each remains
+unobserved rather than receiving an artificial zero-score rank. The successor
+blocks add background recipients without adding reference receipts. Thus the
+check tests dilution by nearby activity, not discovery of additional thefts.
+Simple receipt-count ranks deteriorate, especially for the two CryptoBilis
+references. The top-10 coverage comparison still favors the second baseline.
+
+The expanded populations share 253 recipient addresses, no reference addresses
+and no TXIDs. Shared recipients do not establish common ownership. There are
+still only **two incident groups**. The small neighboring interval cannot
+establish long-term stability, a false-positive rate or hardware attribution.
+Full address tables and detailed rankings remain local; the published
+[aggregate results](research/external_cases/neighbor_results_20261022/summary.json)
+and [anonymous score counts](research/external_cases/neighbor_results_20261022/score_summary.json)
+support the same offline reference-score/rank reproduction as the first run.
+Raw-block URLs, hashes, byte counts and cohort hashes are recorded there.
+
+From `Task 2/research/external_cases`:
+
+```bash
+python rank_block_recipients.py reproduce neighbor_results_20261022 neighbor_protocol_20261022.json
+python -m unittest discover -p 'test_*.py' -v
+# First obtain the original six blocks with the original collect command above.
+# Choose new protocol/output paths; protocol must stay beside reference histories.
+python extend_central_window.py neighbor_selection_20261022.json /tmp/ufu-central-blocks \
+  neighbor_protocol_new.json /tmp/ufu-neighbor-new-results
+```
+
+The generated protocol records the selection-manifest and original-protocol
+checksums. Histories and baseline definitions are reused without modification.
+Four added tests cover fixed symmetric selection, skipped/duplicate neighbors,
+incorrect chain links and offline expanded-rank reproduction. The external-case
+suite passes **47 tests**; all six offline suites pass **179 tests** in total.
+The full repository check is recorded in the
+[extension verification log](verification/neighbor_experiment_20261022.json).
+
 ## Next step within this experiment
 
-Keep these scores unchanged and extend the scan to prespecified neighboring
-blocks. Review recurring high-ranked recipients and measure ranking stability
-without turning unknown addresses into negative labels. Additional models must
-be compared against this saved baseline on the same candidate populations.
+Keep these scores unchanged. Before expanding the scan further, review the
+non-reference top-ranked patterns locally to explain competing collection
+behaviors, keeping unknowns unlabeled. Additional models must be compared
+against this saved baseline on the same candidate populations. Independent
+incident validation still requires a separately sourced incident.

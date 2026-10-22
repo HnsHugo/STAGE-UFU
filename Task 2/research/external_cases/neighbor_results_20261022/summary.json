@@ -1,0 +1,1394 @@
+{
+  "schema_version": 1,
+  "protocol_sha256": "f34678f7020bec6498dd8cfbf85808eb24f57f2157f0ba49f5afedb1ba54ddac",
+  "analyzed_at": "2026-10-22T20:29:54.137250+00:00",
+  "scope": "Retrospective retrieval baseline on complete selected blocks; not a hardware classifier",
+  "blocks": [
+    {
+      "case_group": "coldcard_2026",
+      "height": 960187,
+      "hash": "00000000000000000001e866bee768b72c49bec3cfd8d22a21aac0a956fb5c38",
+      "time": 1785375268,
+      "raw_json_sha256": "c3d4f2cc7e27953d9028f86ac4544e5ea7287baa222f1a9dd0abf65454609464",
+      "raw_bytes": 8646347,
+      "provider_url": "https://blockchain.info/rawblock/00000000000000000001e866bee768b72c49bec3cfd8d22a21aac0a956fb5c38?format=json",
+      "transaction_count": 6497,
+      "non_coinbase_transactions": 6496,
+      "decoded_recipient_count": 555,
+      "receipt_agreement": [
+        {
+          "receipt_outpoints": 0,
+          "received_sat": 0,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_1"
+        }
+      ],
+      "p2a_anchor_output_count": 508
+    },
+    {
+      "height": 960188,
+      "hash": "0000000000000000000186e53ea105d0d9b8453d14666b2bee16b68510544fe4",
+      "time": 1785375368,
+      "case_group": "coldcard_2026",
+      "raw_json_sha256": "08583e0d200e05cf838ceacf85d299f01a109696c027c66b4aad6226e1aa0703",
+      "raw_bytes": 8627476,
+      "provider_url": "https://blockchain.info/rawblock/0000000000000000000186e53ea105d0d9b8453d14666b2bee16b68510544fe4?format=json",
+      "transaction_count": 6601,
+      "non_coinbase_transactions": 6600,
+      "decoded_recipient_count": 748,
+      "receipt_agreement": [
+        {
+          "receipt_outpoints": 63,
+          "received_sat": 37781216065,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_1"
+        }
+      ],
+      "p2a_anchor_output_count": 16
+    },
+    {
+      "height": 960189,
+      "hash": "000000000000000000013f7dbd45306e3c040eaa1c727cc48e69fb6cb182f7dd",
+      "time": 1785375441,
+      "case_group": "coldcard_2026",
+      "raw_json_sha256": "392ef8f756ca934432bc2a75f85fb55d04278df021784fb1e016ea063c678ba3",
+      "raw_bytes": 8616847,
+      "provider_url": "https://blockchain.info/rawblock/000000000000000000013f7dbd45306e3c040eaa1c727cc48e69fb6cb182f7dd?format=json",
+      "transaction_count": 5514,
+      "non_coinbase_transactions": 5513,
+      "decoded_recipient_count": 609,
+      "receipt_agreement": [
+        {
+          "receipt_outpoints": 110,
+          "received_sat": 11636465759,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_1"
+        }
+      ],
+      "p2a_anchor_output_count": 112
+    },
+    {
+      "height": 960190,
+      "hash": "000000000000000000005cd3ef8a8583807efa1cd1566a6608b16ca297fb0f8e",
+      "time": 1785375780,
+      "case_group": "coldcard_2026",
+      "raw_json_sha256": "00396ac932980ff50d44c53408738f4409e7b87b26289696850fe23e08e29b23",
+      "raw_bytes": 8054718,
+      "provider_url": "https://blockchain.info/rawblock/000000000000000000005cd3ef8a8583807efa1cd1566a6608b16ca297fb0f8e?format=json",
+      "transaction_count": 5076,
+      "non_coinbase_transactions": 5075,
+      "decoded_recipient_count": 2375,
+      "receipt_agreement": [
+        {
+          "receipt_outpoints": 168,
+          "received_sat": 6784985117,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_1"
+        }
+      ],
+      "p2a_anchor_output_count": 0
+    },
+    {
+      "height": 960191,
+      "hash": "000000000000000000003094b4c6bfd6caa47f12985b8b78a54c7524dd1bc606",
+      "time": 1785376286,
+      "case_group": "coldcard_2026",
+      "raw_json_sha256": "c0b4c318314b96efc9a82a509bd579bec71394e6536413e3a7378cc0eec2fb14",
+      "raw_bytes": 8487688,
+      "provider_url": "https://blockchain.info/rawblock/000000000000000000003094b4c6bfd6caa47f12985b8b78a54c7524dd1bc606?format=json",
+      "transaction_count": 5803,
+      "non_coinbase_transactions": 5802,
+      "decoded_recipient_count": 3083,
+      "receipt_agreement": [
+        {
+          "receipt_outpoints": 159,
+          "received_sat": 3245055543,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_1"
+        }
+      ],
+      "p2a_anchor_output_count": 155
+    },
+    {
+      "case_group": "coldcard_2026",
+      "height": 960192,
+      "hash": "0000000000000000000083bbe72bedbfaf4d82928258ba5282b8de94d9fea5cd",
+      "time": 1785376547,
+      "raw_json_sha256": "8095d9fe0159dedc4c7b5f537ce6959ec7be8b7157704bb0dd0dc2b433fd84bd",
+      "raw_bytes": 8589697,
+      "provider_url": "https://blockchain.info/rawblock/0000000000000000000083bbe72bedbfaf4d82928258ba5282b8de94d9fea5cd?format=json",
+      "transaction_count": 6859,
+      "non_coinbase_transactions": 6858,
+      "decoded_recipient_count": 1428,
+      "receipt_agreement": [
+        {
+          "receipt_outpoints": 0,
+          "received_sat": 0,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_1"
+        }
+      ],
+      "p2a_anchor_output_count": 1184
+    },
+    {
+      "case_group": "cryptobilis_2026",
+      "height": 970589,
+      "hash": "0000000000000000000011729a61b0e9d6767dfd53d8ef78836a8fcadcfc6682",
+      "time": 1791523427,
+      "raw_json_sha256": "a2639b691ebc70b21ec34a30dfcb3ff4f63643760c0704788d038fd97c86ba00",
+      "raw_bytes": 8000993,
+      "provider_url": "https://blockchain.info/rawblock/0000000000000000000011729a61b0e9d6767dfd53d8ef78836a8fcadcfc6682?format=json",
+      "transaction_count": 3749,
+      "non_coinbase_transactions": 3748,
+      "decoded_recipient_count": 6853,
+      "receipt_agreement": [
+        {
+          "receipt_outpoints": 0,
+          "received_sat": 0,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_2"
+        },
+        {
+          "receipt_outpoints": 0,
+          "received_sat": 0,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_3"
+        }
+      ],
+      "p2a_anchor_output_count": 380
+    },
+    {
+      "height": 970590,
+      "hash": "00000000000000000001f9ba8dc91bdcde0c423ceea3173ce95c9fa018146c33",
+      "time": 1791525260,
+      "case_group": "cryptobilis_2026",
+      "raw_json_sha256": "60f8478ae56bd4e9a66e8eb0665af10ccf37531a5a0cc33f65f6b89b393d7683",
+      "raw_bytes": 7779449,
+      "provider_url": "https://blockchain.info/rawblock/00000000000000000001f9ba8dc91bdcde0c423ceea3173ce95c9fa018146c33?format=json",
+      "transaction_count": 4032,
+      "non_coinbase_transactions": 4031,
+      "decoded_recipient_count": 7603,
+      "receipt_agreement": [
+        {
+          "receipt_outpoints": 65,
+          "received_sat": 9197475361,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_2"
+        },
+        {
+          "receipt_outpoints": 46,
+          "received_sat": 11128199071,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_3"
+        }
+      ],
+      "p2a_anchor_output_count": 0
+    },
+    {
+      "height": 970591,
+      "hash": "00000000000000000000e3e95db5d7be9a0ae5ac50d3cdc04ae5b2921ac4e9c0",
+      "time": 1791526545,
+      "case_group": "cryptobilis_2026",
+      "raw_json_sha256": "b60f4b01cf1d3861e5a21d0a42b37cb64f0a2f9702aeb0d36ff13ff1e9340c2d",
+      "raw_bytes": 8013076,
+      "provider_url": "https://blockchain.info/rawblock/00000000000000000000e3e95db5d7be9a0ae5ac50d3cdc04ae5b2921ac4e9c0?format=json",
+      "transaction_count": 3912,
+      "non_coinbase_transactions": 3911,
+      "decoded_recipient_count": 6111,
+      "receipt_agreement": [
+        {
+          "receipt_outpoints": 11,
+          "received_sat": 53145569,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_2"
+        },
+        {
+          "receipt_outpoints": 0,
+          "received_sat": 0,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_3"
+        }
+      ],
+      "p2a_anchor_output_count": 458
+    },
+    {
+      "case_group": "cryptobilis_2026",
+      "height": 970592,
+      "hash": "000000000000000000011878bc158f06f31208acbb607670eabd7a496d389daa",
+      "time": 1791526668,
+      "raw_json_sha256": "35e9764213ad3f88ed54babc5473da9bdd13dbba81d3f714188bad10e25d75bd",
+      "raw_bytes": 8379230,
+      "provider_url": "https://blockchain.info/rawblock/000000000000000000011878bc158f06f31208acbb607670eabd7a496d389daa?format=json",
+      "transaction_count": 5483,
+      "non_coinbase_transactions": 5482,
+      "decoded_recipient_count": 2921,
+      "receipt_agreement": [
+        {
+          "receipt_outpoints": 0,
+          "received_sat": 0,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_2"
+        },
+        {
+          "receipt_outpoints": 0,
+          "received_sat": 0,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_3"
+        }
+      ],
+      "p2a_anchor_output_count": 997
+    }
+  ],
+  "transaction_count": 53526,
+  "prefix_results": [
+    {
+      "case_group": "coldcard_2026",
+      "through_height": 960187,
+      "recipient_count": 555,
+      "baselines": [
+        {
+          "feature": "receipt_transaction_count",
+          "targets": [
+            {
+              "observed": false,
+              "score": null,
+              "rank_best": null,
+              "rank_worst": null,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            920,
+            881,
+            800,
+            508,
+            500,
+            480,
+            326,
+            270,
+            150,
+            125
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "targets": [
+            {
+              "observed": false,
+              "score": null,
+              "rank_best": null,
+              "rank_worst": null,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            13,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "targets": [
+            {
+              "observed": false,
+              "score": null,
+              "rank_best": null,
+              "rank_worst": null,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            62733625483,
+            870854414,
+            700000786,
+            458989567,
+            269250470,
+            231926340,
+            178542962,
+            107756509,
+            100000000,
+            99221136
+          ]
+        }
+      ]
+    },
+    {
+      "case_group": "coldcard_2026",
+      "through_height": 960188,
+      "recipient_count": 1269,
+      "baselines": [
+        {
+          "feature": "receipt_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 63,
+              "rank_best": 20,
+              "rank_worst": 20,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            5276,
+            920,
+            881,
+            800,
+            524,
+            506,
+            480,
+            326,
+            270,
+            266
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 63,
+              "rank_best": 1,
+              "rank_worst": 1,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            63,
+            24,
+            5,
+            5,
+            4,
+            3,
+            3,
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "targets": [
+            {
+              "observed": true,
+              "score": 37781216065,
+              "rank_best": 2,
+              "rank_worst": 2,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            62733625483,
+            37781216065,
+            29613659335,
+            19558775000,
+            13412722822,
+            5017487295,
+            4497145128,
+            3176514536,
+            1362485939,
+            983707290
+          ]
+        }
+      ]
+    },
+    {
+      "case_group": "coldcard_2026",
+      "through_height": 960189,
+      "recipient_count": 1756,
+      "baselines": [
+        {
+          "feature": "receipt_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 173,
+              "rank_best": 16,
+              "rank_worst": 16,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            6142,
+            1136,
+            961,
+            921,
+            800,
+            737,
+            636,
+            600,
+            449,
+            448
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 173,
+              "rank_best": 1,
+              "rank_worst": 1,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            173,
+            30,
+            20,
+            19,
+            6,
+            5,
+            5,
+            4,
+            3,
+            3
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "targets": [
+            {
+              "observed": true,
+              "score": 49417681824,
+              "rank_best": 3,
+              "rank_worst": 3,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            62733625483,
+            59166300382,
+            49417681824,
+            19558775000,
+            13412722822,
+            13412570734,
+            9819847621,
+            5017487295,
+            4497145128,
+            3844667432
+          ]
+        }
+      ]
+    },
+    {
+      "case_group": "coldcard_2026",
+      "through_height": 960190,
+      "recipient_count": 4015,
+      "baselines": [
+        {
+          "feature": "receipt_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 341,
+              "rank_best": 13,
+              "rank_worst": 13,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            6142,
+            1875,
+            1461,
+            1425,
+            1401,
+            1080,
+            1078,
+            636,
+            625,
+            449
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 341,
+              "rank_best": 1,
+              "rank_worst": 1,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            341,
+            45,
+            32,
+            19,
+            7,
+            6,
+            6,
+            5,
+            5,
+            4
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "targets": [
+            {
+              "observed": true,
+              "score": 56202666941,
+              "rank_best": 3,
+              "rank_worst": 3,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            127647341595,
+            108343842074,
+            56202666941,
+            39847573857,
+            19558775000,
+            15053630159,
+            13412722822,
+            13412570734,
+            13411730562,
+            9819847621
+          ]
+        }
+      ]
+    },
+    {
+      "case_group": "coldcard_2026",
+      "through_height": 960191,
+      "recipient_count": 6858,
+      "baselines": [
+        {
+          "feature": "receipt_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 500,
+              "rank_best": 10,
+              "rank_worst": 10,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            6142,
+            2775,
+            2050,
+            1821,
+            1802,
+            1560,
+            1450,
+            1125,
+            791,
+            500
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 500,
+              "rank_best": 1,
+              "rank_worst": 1,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            500,
+            46,
+            45,
+            19,
+            12,
+            8,
+            7,
+            7,
+            5,
+            5
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "targets": [
+            {
+              "observed": true,
+              "score": 59447722484,
+              "rank_best": 3,
+              "rank_worst": 3,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            190373055473,
+            184458629311,
+            59447722484,
+            56201962301,
+            39847573857,
+            33111950093,
+            25069390271,
+            19747709798,
+            19558775000,
+            17906717826
+          ]
+        }
+      ]
+    },
+    {
+      "case_group": "coldcard_2026",
+      "through_height": 960192,
+      "recipient_count": 8078,
+      "baselines": [
+        {
+          "feature": "receipt_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 500,
+              "rank_best": 10,
+              "rank_worst": 10,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            6142,
+            2875,
+            2700,
+            2461,
+            2402,
+            2040,
+            1975,
+            1950,
+            1500,
+            500
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 500,
+              "rank_best": 1,
+              "rank_worst": 1,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            500,
+            71,
+            45,
+            19,
+            16,
+            10,
+            8,
+            8,
+            7,
+            6
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "targets": [
+            {
+              "observed": true,
+              "score": 59447722484,
+              "rank_best": 3,
+              "rank_worst": 3,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            253095239279,
+            184458629311,
+            59447722484,
+            56201962301,
+            39847573857,
+            33111950093,
+            30124267875,
+            19935724109,
+            19558775000,
+            17906717826
+          ]
+        }
+      ]
+    },
+    {
+      "case_group": "cryptobilis_2026",
+      "through_height": 970589,
+      "recipient_count": 6853,
+      "baselines": [
+        {
+          "feature": "receipt_transaction_count",
+          "targets": [
+            {
+              "observed": false,
+              "score": null,
+              "rank_best": null,
+              "rank_worst": null,
+              "reference_id": "reference_2"
+            },
+            {
+              "observed": false,
+              "score": null,
+              "rank_best": null,
+              "rank_worst": null,
+              "reference_id": "reference_3"
+            }
+          ],
+          "top10_scores": [
+            363,
+            200,
+            117,
+            100,
+            75,
+            52,
+            48,
+            48,
+            36,
+            25
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "targets": [
+            {
+              "observed": false,
+              "score": null,
+              "rank_best": null,
+              "rank_worst": null,
+              "reference_id": "reference_2"
+            },
+            {
+              "observed": false,
+              "score": null,
+              "rank_best": null,
+              "rank_worst": null,
+              "reference_id": "reference_3"
+            }
+          ],
+          "top10_scores": [
+            8,
+            7,
+            5,
+            4,
+            4,
+            4,
+            4,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "targets": [
+            {
+              "observed": false,
+              "score": null,
+              "rank_best": null,
+              "rank_worst": null,
+              "reference_id": "reference_2"
+            },
+            {
+              "observed": false,
+              "score": null,
+              "rank_best": null,
+              "rank_worst": null,
+              "reference_id": "reference_3"
+            }
+          ],
+          "top10_scores": [
+            248627556289,
+            113960840482,
+            106760952651,
+            63260520371,
+            35664359396,
+            29095909652,
+            23562724211,
+            19839647082,
+            18557868333,
+            17244344069
+          ]
+        }
+      ]
+    },
+    {
+      "case_group": "cryptobilis_2026",
+      "through_height": 970590,
+      "recipient_count": 14038,
+      "baselines": [
+        {
+          "feature": "receipt_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 65,
+              "rank_best": 11,
+              "rank_worst": 11,
+              "reference_id": "reference_2"
+            },
+            {
+              "observed": true,
+              "score": 46,
+              "rank_best": 15,
+              "rank_worst": 15,
+              "reference_id": "reference_3"
+            }
+          ],
+          "top10_scores": [
+            400,
+            363,
+            361,
+            182,
+            150,
+            150,
+            96,
+            96,
+            91,
+            73
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 65,
+              "rank_best": 1,
+              "rank_worst": 1,
+              "reference_id": "reference_2"
+            },
+            {
+              "observed": true,
+              "score": 46,
+              "rank_best": 4,
+              "rank_worst": 4,
+              "reference_id": "reference_3"
+            }
+          ],
+          "top10_scores": [
+            65,
+            55,
+            51,
+            46,
+            21,
+            14,
+            8,
+            8,
+            7,
+            6
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "targets": [
+            {
+              "observed": true,
+              "score": 9197475361,
+              "rank_best": 25,
+              "rank_worst": 25,
+              "reference_id": "reference_2"
+            },
+            {
+              "observed": true,
+              "score": 11128199071,
+              "rank_best": 22,
+              "rank_worst": 22,
+              "reference_id": "reference_3"
+            }
+          ],
+          "top10_scores": [
+            308700669510,
+            248627556289,
+            137749069173,
+            113960840482,
+            106760952651,
+            71320511214,
+            67731694442,
+            55669067436,
+            35085110040,
+            25000000000
+          ]
+        }
+      ]
+    },
+    {
+      "case_group": "cryptobilis_2026",
+      "through_height": 970591,
+      "recipient_count": 19540,
+      "baselines": [
+        {
+          "feature": "receipt_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 76,
+              "rank_best": 11,
+              "rank_worst": 11,
+              "reference_id": "reference_2"
+            },
+            {
+              "observed": true,
+              "score": 46,
+              "rank_best": 22,
+              "rank_worst": 23,
+              "reference_id": "reference_3"
+            }
+          ],
+          "top10_scores": [
+            821,
+            600,
+            396,
+            315,
+            250,
+            225,
+            157,
+            144,
+            144,
+            131
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 76,
+              "rank_best": 2,
+              "rank_worst": 2,
+              "reference_id": "reference_2"
+            },
+            {
+              "observed": true,
+              "score": 46,
+              "rank_best": 4,
+              "rank_worst": 4,
+              "reference_id": "reference_3"
+            }
+          ],
+          "top10_scores": [
+            102,
+            76,
+            55,
+            46,
+            22,
+            21,
+            14,
+            13,
+            12,
+            10
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "targets": [
+            {
+              "observed": true,
+              "score": 9250620930,
+              "rank_best": 30,
+              "rank_worst": 30,
+              "reference_id": "reference_2"
+            },
+            {
+              "observed": true,
+              "score": 11128199071,
+              "rank_best": 27,
+              "rank_worst": 27,
+              "reference_id": "reference_3"
+            }
+          ],
+          "top10_scores": [
+            497271135136,
+            308700669510,
+            192188900444,
+            121009214066,
+            106760952651,
+            103173911667,
+            95802115944,
+            81570508147,
+            74024009138,
+            34150567530
+          ]
+        }
+      ]
+    },
+    {
+      "case_group": "cryptobilis_2026",
+      "through_height": 970592,
+      "recipient_count": 22157,
+      "baselines": [
+        {
+          "feature": "receipt_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 76,
+              "rank_best": 16,
+              "rank_worst": 16,
+              "reference_id": "reference_2"
+            },
+            {
+              "observed": true,
+              "score": 46,
+              "rank_best": 28,
+              "rank_worst": 29,
+              "reference_id": "reference_3"
+            }
+          ],
+          "top10_scores": [
+            1818,
+            975,
+            600,
+            575,
+            511,
+            450,
+            427,
+            384,
+            298,
+            231
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 76,
+              "rank_best": 2,
+              "rank_worst": 2,
+              "reference_id": "reference_2"
+            },
+            {
+              "observed": true,
+              "score": 46,
+              "rank_best": 4,
+              "rank_worst": 4,
+              "reference_id": "reference_3"
+            }
+          ],
+          "top10_scores": [
+            126,
+            76,
+            55,
+            46,
+            38,
+            22,
+            21,
+            15,
+            13,
+            12
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "targets": [
+            {
+              "observed": true,
+              "score": 9250620930,
+              "rank_best": 31,
+              "rank_worst": 31,
+              "reference_id": "reference_2"
+            },
+            {
+              "observed": true,
+              "score": 11128199071,
+              "rank_best": 28,
+              "rank_worst": 28,
+              "reference_id": "reference_3"
+            }
+          ],
+          "top10_scores": [
+            745915292804,
+            308700669510,
+            201510249696,
+            121009214066,
+            106760952651,
+            103173911667,
+            99554295953,
+            81570508147,
+            74024009138,
+            34150567530
+          ]
+        }
+      ]
+    }
+  ],
+  "pooled_results": [
+    {
+      "case_group": "coldcard_2026",
+      "recipient_count": 8078,
+      "baselines": [
+        {
+          "feature": "receipt_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 500,
+              "rank_best": 10,
+              "rank_worst": 10,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            6142,
+            2875,
+            2700,
+            2461,
+            2402,
+            2040,
+            1975,
+            1950,
+            1500,
+            500
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 500,
+              "rank_best": 1,
+              "rank_worst": 1,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            500,
+            71,
+            45,
+            19,
+            16,
+            10,
+            8,
+            8,
+            7,
+            6
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "targets": [
+            {
+              "observed": true,
+              "score": 59447722484,
+              "rank_best": 3,
+              "rank_worst": 3,
+              "reference_id": "reference_1"
+            }
+          ],
+          "top10_scores": [
+            253095239279,
+            184458629311,
+            59447722484,
+            56201962301,
+            39847573857,
+            33111950093,
+            30124267875,
+            19935724109,
+            19558775000,
+            17906717826
+          ]
+        }
+      ]
+    },
+    {
+      "case_group": "cryptobilis_2026",
+      "recipient_count": 22157,
+      "baselines": [
+        {
+          "feature": "receipt_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 76,
+              "rank_best": 16,
+              "rank_worst": 16,
+              "reference_id": "reference_2"
+            },
+            {
+              "observed": true,
+              "score": 46,
+              "rank_best": 28,
+              "rank_worst": 29,
+              "reference_id": "reference_3"
+            }
+          ],
+          "top10_scores": [
+            1818,
+            975,
+            600,
+            575,
+            511,
+            450,
+            427,
+            384,
+            298,
+            231
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 76,
+              "rank_best": 2,
+              "rank_worst": 2,
+              "reference_id": "reference_2"
+            },
+            {
+              "observed": true,
+              "score": 46,
+              "rank_best": 4,
+              "rank_worst": 4,
+              "reference_id": "reference_3"
+            }
+          ],
+          "top10_scores": [
+            126,
+            76,
+            55,
+            46,
+            38,
+            22,
+            21,
+            15,
+            13,
+            12
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "targets": [
+            {
+              "observed": true,
+              "score": 9250620930,
+              "rank_best": 31,
+              "rank_worst": 31,
+              "reference_id": "reference_2"
+            },
+            {
+              "observed": true,
+              "score": 11128199071,
+              "rank_best": 28,
+              "rank_worst": 28,
+              "reference_id": "reference_3"
+            }
+          ],
+          "top10_scores": [
+            745915292804,
+            308700669510,
+            201510249696,
+            121009214066,
+            106760952651,
+            103173911667,
+            99554295953,
+            81570508147,
+            74024009138,
+            34150567530
+          ]
+        }
+      ]
+    }
+  ],
+  "cohorts": [
+    {
+      "case_group": "coldcard_2026",
+      "file": "coldcard_2026_recipients.csv.gz",
+      "sha256": "cb3c790b6d8f4fc18fb3031397d86ae86a7455c50066f2ee32b2f95e5f56b3d5",
+      "bytes": 263525,
+      "rows": 8078
+    },
+    {
+      "case_group": "cryptobilis_2026",
+      "file": "cryptobilis_2026_recipients.csv.gz",
+      "sha256": "92f3745d7b255ce290d9c70480fbfaa519f86c327deb273ef80227f97303ce4f",
+      "bytes": 719295,
+      "rows": 22157
+    }
+  ],
+  "reference_coverage_at_10": [
+    {
+      "feature": "receipt_transaction_count",
+      "by_case": [
+        {
+          "case_group": "coldcard_2026",
+          "reference_count": 1,
+          "guaranteed_top10": 1,
+          "possible_top10": 1
+        },
+        {
+          "case_group": "cryptobilis_2026",
+          "reference_count": 2,
+          "guaranteed_top10": 0,
+          "possible_top10": 0
+        }
+      ],
+      "interpretation": "Coverage of supplied references, not sensitivity or precision over all thefts"
+    },
+    {
+      "feature": "single_output_external_funding_transaction_count",
+      "by_case": [
+        {
+          "case_group": "coldcard_2026",
+          "reference_count": 1,
+          "guaranteed_top10": 1,
+          "possible_top10": 1
+        },
+        {
+          "case_group": "cryptobilis_2026",
+          "reference_count": 2,
+          "guaranteed_top10": 2,
+          "possible_top10": 2
+        }
+      ],
+      "interpretation": "Coverage of supplied references, not sensitivity or precision over all thefts"
+    },
+    {
+      "feature": "received_sat",
+      "by_case": [
+        {
+          "case_group": "coldcard_2026",
+          "reference_count": 1,
+          "guaranteed_top10": 1,
+          "possible_top10": 1
+        },
+        {
+          "case_group": "cryptobilis_2026",
+          "reference_count": 2,
+          "guaranteed_top10": 0,
+          "possible_top10": 0
+        }
+      ],
+      "interpretation": "Coverage of supplied references, not sensitivity or precision over all thefts"
+    }
+  ],
+  "cohort_address_overlap": [
+    {
+      "case_a": "coldcard_2026",
+      "case_b": "cryptobilis_2026",
+      "shared_recipient_addresses": 253,
+      "shared_reference_addresses": 0
+    }
+  ],
+  "score_summary": {
+    "file": "score_summary.json",
+    "sha256": "9f74a19ca7259a77c4be9074c20d3ec47b963a0bbc6b7abfa54fc11d5315ed5a",
+    "bytes": 10992
+  },
+  "publication": "Anonymous aggregate ranks; full detailed rankings and recipient CSVs remain local",
+  "limits": [
+    "Block selection uses known incident receipts; not a blockchain-wide blind search",
+    "Baseline choice was informed by earlier case descriptions; no untouched external test is claimed",
+    "Reference set is incomplete; other recipients are not certified negatives",
+    "Two case groups, not three independent collector observations",
+    "Gross receipts include change and internal transfers; values are not stolen totals",
+    "Provider anchors/counts and receipt agreement are not cryptographic block-inclusion proof",
+    "No address-to-device ground truth, calibrated probability, precision or F1 is estimated",
+    "Prefix ranking uses only complete blocks through that height, never later spending"
+  ]
+}

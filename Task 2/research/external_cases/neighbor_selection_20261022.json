@@ -1,0 +1,13 @@
+{
+  "scope": "Retrospective neighboring-block robustness check; not independent incident validation",
+  "base_protocol": "central_protocol_20261020.json",
+  "selection_rule": "Exactly one immediately preceding and one immediately following block per original incident window; no expansion based on observed ranks",
+  "baselines": "Reuse all three original scores without fitting, filtering or threshold changes",
+  "review_budget": 10,
+  "neighbors": [
+    {"case_group": "coldcard_2026", "height": 960187, "hash": "00000000000000000001e866bee768b72c49bec3cfd8d22a21aac0a956fb5c38", "boundary_height": 960188, "side": "before"},
+    {"case_group": "coldcard_2026", "height": 960192, "hash": "0000000000000000000083bbe72bedbfaf4d82928258ba5282b8de94d9fea5cd", "boundary_height": 960191, "side": "after"},
+    {"case_group": "cryptobilis_2026", "height": 970589, "hash": "0000000000000000000011729a61b0e9d6767dfd53d8ef78836a8fcadcfc6682", "boundary_height": 970590, "side": "before"},
+    {"case_group": "cryptobilis_2026", "height": 970592, "hash": "000000000000000000011878bc158f06f31208acbb607670eabd7a496d389daa", "boundary_height": 970591, "side": "after"}
+  ]
+}
