@@ -1,0 +1,194 @@
+{
+  "scope": "Anonymous cumulative score counts; no full address list",
+  "groups": [
+    {
+      "case_group": "btcpay_lnd_20260807",
+      "recipient_count": 11110,
+      "features": [
+        {
+          "feature": "receipt_transaction_count",
+          "points": [
+            {
+              "score": 1,
+              "less_count": 0,
+              "equal_count": 10649,
+              "greater_count": 461
+            },
+            {
+              "score": 40,
+              "less_count": 11100,
+              "equal_count": 1,
+              "greater_count": 9
+            },
+            {
+              "score": 45,
+              "less_count": 11101,
+              "equal_count": 1,
+              "greater_count": 8
+            },
+            {
+              "score": 50,
+              "less_count": 11102,
+              "equal_count": 2,
+              "greater_count": 6
+            },
+            {
+              "score": 52,
+              "less_count": 11104,
+              "equal_count": 1,
+              "greater_count": 5
+            },
+            {
+              "score": 75,
+              "less_count": 11105,
+              "equal_count": 1,
+              "greater_count": 4
+            },
+            {
+              "score": 80,
+              "less_count": 11106,
+              "equal_count": 2,
+              "greater_count": 2
+            },
+            {
+              "score": 96,
+              "less_count": 11108,
+              "equal_count": 1,
+              "greater_count": 1
+            },
+            {
+              "score": 139,
+              "less_count": 11109,
+              "equal_count": 1,
+              "greater_count": 0
+            }
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "points": [
+            {
+              "score": 0,
+              "less_count": 0,
+              "equal_count": 9972,
+              "greater_count": 1138
+            },
+            {
+              "score": 1,
+              "less_count": 9972,
+              "equal_count": 1108,
+              "greater_count": 30
+            },
+            {
+              "score": 3,
+              "less_count": 11100,
+              "equal_count": 5,
+              "greater_count": 5
+            },
+            {
+              "score": 4,
+              "less_count": 11105,
+              "equal_count": 2,
+              "greater_count": 3
+            },
+            {
+              "score": 6,
+              "less_count": 11107,
+              "equal_count": 1,
+              "greater_count": 2
+            },
+            {
+              "score": 27,
+              "less_count": 11108,
+              "equal_count": 1,
+              "greater_count": 1
+            },
+            {
+              "score": 40,
+              "less_count": 11109,
+              "equal_count": 1,
+              "greater_count": 0
+            }
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "points": [
+            {
+              "score": 1137349,
+              "less_count": 8687,
+              "equal_count": 1,
+              "greater_count": 2422
+            },
+            {
+              "score": 46608022,
+              "less_count": 10668,
+              "equal_count": 1,
+              "greater_count": 441
+            },
+            {
+              "score": 43104184086,
+              "less_count": 11100,
+              "equal_count": 1,
+              "greater_count": 9
+            },
+            {
+              "score": 48170000000,
+              "less_count": 11101,
+              "equal_count": 1,
+              "greater_count": 8
+            },
+            {
+              "score": 50064994000,
+              "less_count": 11102,
+              "equal_count": 1,
+              "greater_count": 7
+            },
+            {
+              "score": 55707391067,
+              "less_count": 11103,
+              "equal_count": 1,
+              "greater_count": 6
+            },
+            {
+              "score": 62055648905,
+              "less_count": 11104,
+              "equal_count": 1,
+              "greater_count": 5
+            },
+            {
+              "score": 62863307246,
+              "less_count": 11105,
+              "equal_count": 1,
+              "greater_count": 4
+            },
+            {
+              "score": 64968006271,
+              "less_count": 11106,
+              "equal_count": 1,
+              "greater_count": 3
+            },
+            {
+              "score": 96123866318,
+              "less_count": 11107,
+              "equal_count": 1,
+              "greater_count": 2
+            },
+            {
+              "score": 143194769864,
+              "less_count": 11108,
+              "equal_count": 1,
+              "greater_count": 1
+            },
+            {
+              "score": 190500041509,
+              "less_count": 11109,
+              "equal_count": 1,
+              "greater_count": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

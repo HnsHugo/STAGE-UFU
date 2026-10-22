@@ -274,10 +274,86 @@ of future spending metadata. All six offline suites pass **184 tests**; the
 20 saved profiles reproduce exactly from the ten pinned cached blocks. See the
 [profile verification log](verification/competitor_profiles_20261022.json).
 
+## Separate collection-pattern transfer check — 22 October 2026
+
+A bounded follow-up uses the two BTCPay/LND collectors already recorded in the
+project. This is a **software-incident transfer diagnostic**, kept separate from
+the Coldcard/CryptoBilis hardware-related dataset. The
+[research source](https://github.com/somaxbt/btcpay-lnd-drain-2026-08) attributes
+the recipients to an August 2026 incident; attribution to the exploit is based
+on reported victim testimony. We do not independently verify device control or
+victim identity. The source is the same research author used for some Coldcard
+evidence, so it does not provide independent-source corroboration. No third
+hardware-wallet incident is claimed. The inspected [counterfeit-Trezor report](https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/)
+has device evidence but no exact exploitable Bitcoin collector/TXID in the
+retrieved article text; it cannot supply an on-chain test without that missing link.
+
+The [fixed protocol](research/external_cases/btcpay_transfer_protocol_20261022.json)
+selects exactly the **earliest confirmed positive receipt block of each published
+collector**, before downloading or ranking the full blocks. This bounds acquisition
+to heights 961359 and 961438: **5,117 transactions and 11,110 candidate recipients**.
+It is a sparse early-receipt snapshot conditioned on known addresses, **not the
+full BTCPay incident window or a directly comparable full-window benchmark**.
+The three original baseline definitions and top-10 budget are unchanged.
+
+| Local reference | Receipt-count score / rank interval | External one-output score / rank interval | Gross amount rank |
+| --- | --- | --- | ---: |
+| BTCPay reference 1 / collector A | 1 / 462–11,110 | 1 / **31–1,138** | 2,423 |
+| BTCPay reference 2 / collector B | 1 / 462–11,110 | 0 / **1,139–11,110** | 442 |
+
+**No reference enters the top 10 under any baseline.** The first collector has
+only one qualifying receipt in these selected blocks. The second receives a
+transaction with **35 inputs and two positive outputs: 46,608,022 and 15,258
+satoshis**, so the strict one-output count is zero. Both providers agree exactly
+on the receipt outpoint/value; the pinned history also contains two outputs.
+The other output's role is not established and is not discarded. The inspected
+research narrative describes the collectors as receiving only single-output
+transactions; that description is insufficient to override the observed structure.
+The source-attributed collector role and transaction-shape assertion must be
+assessed separately. This mismatch is retained in the
+[receipt diagnostics](research/external_cases/btcpay_transfer_results_20261022/receipt_diagnostics.json).
+
+This failure shows that the fixed score does not reliably retrieve a collector
+at its first observed funding, and that not all source-attributed collection
+transactions meet its strict output-shape condition. It does **not** establish
+full-incident failure or a false-negative rate. The two collectors are one source
+incident group. Their addresses do not overlap the three central references;
+entity/operator independence remains unknown. Future spending is not a feature;
+source labels were learned retrospectively, not available at the receipt time.
+No F1, calibrated probability or hardware classification result is added.
+
+[Aggregate ranks](research/external_cases/btcpay_transfer_results_20261022/summary.json)
+and [anonymous cumulative counts](research/external_cases/btcpay_transfer_results_20261022/score_summary.json)
+are saved. The public protocol resolves the two references from the existing checksummed
+research registry, avoiding a repeated address list. Its original pre-extraction
+manifest hash is retained; this publication reduction changes no scores or blocks.
+The original JSON histories are reused with their SHA256 values;
+the loader now accepts both pinned plain JSON and existing gzip histories.
+Historical results remain intact. Full blocks and full recipient tables stay local.
+
+From `Task 2/research/external_cases`:
+
+```bash
+python rank_block_recipients.py reproduce btcpay_transfer_results_20261022 btcpay_transfer_protocol_20261022.json
+python rank_block_recipients.py collect btcpay_transfer_protocol_20261022.json /tmp/ufu-btcpay-blocks
+python rank_block_recipients.py analyze btcpay_transfer_protocol_20261022.json /tmp/ufu-btcpay-blocks /tmp/ufu-btcpay-new-results
+python diagnose_transfer_receipts.py btcpay_transfer_protocol_20261022.json \
+  btcpay_transfer_results_20261022/summary.json /tmp/ufu-btcpay-blocks \
+  central_protocol_20261020.json /tmp/ufu-btcpay-diagnostics-new.json
+```
+
+Diagnostics require the raw bytes matching the saved ranking summary; if provider
+metadata changes, use the regenerated ranking summary with its corresponding cache.
+Four new tests verify pinned plain JSON/hash rejection, earliest-receipt selection,
+retention of the second positive output and offline rank reproduction. All six
+offline suites pass **188 tests**; 185 protected historical artifacts retain their
+hashes. Full results are in the
+[transfer verification log](verification/btcpay_transfer_20261022.json).
+
 ## Next step within this experiment
 
-Keep the three baselines unchanged. The candidate-profile review is complete;
-no source labels support a precision/F1 claim for the other recipients. The next
-scientific gain requires independent incident/role evidence or Ivan's code and
-its dataset assumptions, followed by comparison against this saved baseline.
-Avoid filtering the competing patterns merely to improve these known-case ranks.
+Keep the three original baselines unchanged. The bounded transfer diagnostic
+shows first-receipt and output-shape limitations; do not tune them away on these
+known examples. Before another collection or model extension, reconcile this
+transaction-shape discrepancy with the source evidence and Ivan's dataset/code.
+Hardware generalization remains limited to the two original incident groups.

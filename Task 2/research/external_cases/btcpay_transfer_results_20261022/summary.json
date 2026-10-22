@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "protocol_sha256": "83dec124abe485b2131f34ce6aaeafc24d38bd96de7188611afc7ba2d77c2226",
+  "analyzed_at": "2026-10-22T22:46:24.831598+00:00",
+  "scope": "Retrospective retrieval baseline on complete selected blocks; not a hardware classifier",
+  "blocks": [
+    {
+      "height": 961359,
+      "hash": "00000000000000000000c32cb4fa67e281daefb6b7124ce6114ce93c3c34d4ef",
+      "time": 1786065450,
+      "case_group": "btcpay_lnd_20260807",
+      "raw_json_sha256": "55b60d11a42f69c1ee4735b4f81f0e97216f493421dbeec32ef1bef878d0afa7",
+      "raw_bytes": 1566068,
+      "provider_url": "https://blockchain.info/rawblock/00000000000000000000c32cb4fa67e281daefb6b7124ce6114ce93c3c34d4ef?format=json",
+      "transaction_count": 665,
+      "non_coinbase_transactions": 664,
+      "decoded_recipient_count": 1475,
+      "receipt_agreement": [
+        {
+          "receipt_outpoints": 0,
+          "received_sat": 0,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_1"
+        },
+        {
+          "receipt_outpoints": 1,
+          "received_sat": 46608022,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_2"
+        }
+      ],
+      "p2a_anchor_output_count": 0
+    },
+    {
+      "height": 961438,
+      "hash": "000000000000000000012c670ac5eddb478ecc58de98d9c28bfbd42e7291e3cb",
+      "time": 1786109220,
+      "case_group": "btcpay_lnd_20260807",
+      "raw_json_sha256": "0c3de710dc8a94bf25fa8bf365d666b8b80e6c79cb5b1f701e7c2278c7f0d0d1",
+      "raw_bytes": 8242109,
+      "provider_url": "https://blockchain.info/rawblock/000000000000000000012c670ac5eddb478ecc58de98d9c28bfbd42e7291e3cb?format=json",
+      "transaction_count": 4452,
+      "non_coinbase_transactions": 4451,
+      "decoded_recipient_count": 9699,
+      "receipt_agreement": [
+        {
+          "receipt_outpoints": 1,
+          "received_sat": 1137349,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_1"
+        },
+        {
+          "receipt_outpoints": 0,
+          "received_sat": 0,
+          "agreement": "Exact receipt TXID, output index and value; not cryptographic verification",
+          "reference_id": "reference_2"
+        }
+      ],
+      "p2a_anchor_output_count": 96
+    }
+  ],
+  "transaction_count": 5117,
+  "prefix_results": [
+    {
+      "case_group": "btcpay_lnd_20260807",
+      "through_height": 961359,
+      "recipient_count": 1475,
+      "baselines": [
+        {
+          "feature": "receipt_transaction_count",
+          "targets": [
+            {
+              "observed": false,
+              "score": null,
+              "rank_best": null,
+              "rank_worst": null,
+              "reference_id": "reference_1"
+            },
+            {
+              "observed": true,
+              "score": 1,
+              "rank_best": 35,
+              "rank_worst": 1475,
+              "reference_id": "reference_2"
+            }
+          ],
+          "top10_scores": [
+            75,
+            25,
+            25,
+            21,
+            11,
+            6,
+            4,
+            4,
+            4,
+            3
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "targets": [
+            {
+              "observed": false,
+              "score": null,
+              "rank_best": null,
+              "rank_worst": null,
+              "reference_id": "reference_1"
+            },
+            {
+              "observed": true,
+              "score": 0,
+              "rank_best": 186,
+              "rank_worst": 1475,
+              "reference_id": "reference_2"
+            }
+          ],
+          "top10_scores": [
+            13,
+            10,
+            3,
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "targets": [
+            {
+              "observed": false,
+              "score": null,
+              "rank_best": null,
+              "rank_worst": null,
+              "reference_id": "reference_1"
+            },
+            {
+              "observed": true,
+              "score": 46608022,
+              "rank_best": 57,
+              "rank_worst": 57,
+              "reference_id": "reference_2"
+            }
+          ],
+          "top10_scores": [
+            31650791566,
+            6335004251,
+            1457674029,
+            1429307933,
+            1347795209,
+            1320929065,
+            1255823067,
+            1252891331,
+            610232681,
+            500000000
+          ]
+        }
+      ]
+    },
+    {
+      "case_group": "btcpay_lnd_20260807",
+      "through_height": 961438,
+      "recipient_count": 11110,
+      "baselines": [
+        {
+          "feature": "receipt_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 1,
+              "rank_best": 462,
+              "rank_worst": 11110,
+              "reference_id": "reference_1"
+            },
+            {
+              "observed": true,
+              "score": 1,
+              "rank_best": 462,
+              "rank_worst": 11110,
+              "reference_id": "reference_2"
+            }
+          ],
+          "top10_scores": [
+            139,
+            96,
+            80,
+            80,
+            75,
+            52,
+            50,
+            50,
+            45,
+            40
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 1,
+              "rank_best": 31,
+              "rank_worst": 1138,
+              "reference_id": "reference_1"
+            },
+            {
+              "observed": true,
+              "score": 0,
+              "rank_best": 1139,
+              "rank_worst": 11110,
+              "reference_id": "reference_2"
+            }
+          ],
+          "top10_scores": [
+            40,
+            27,
+            6,
+            4,
+            4,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "targets": [
+            {
+              "observed": true,
+              "score": 1137349,
+              "rank_best": 2423,
+              "rank_worst": 2423,
+              "reference_id": "reference_1"
+            },
+            {
+              "observed": true,
+              "score": 46608022,
+              "rank_best": 442,
+              "rank_worst": 442,
+              "reference_id": "reference_2"
+            }
+          ],
+          "top10_scores": [
+            190500041509,
+            143194769864,
+            96123866318,
+            64968006271,
+            62863307246,
+            62055648905,
+            55707391067,
+            50064994000,
+            48170000000,
+            43104184086
+          ]
+        }
+      ]
+    }
+  ],
+  "pooled_results": [
+    {
+      "case_group": "btcpay_lnd_20260807",
+      "recipient_count": 11110,
+      "baselines": [
+        {
+          "feature": "receipt_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 1,
+              "rank_best": 462,
+              "rank_worst": 11110,
+              "reference_id": "reference_1"
+            },
+            {
+              "observed": true,
+              "score": 1,
+              "rank_best": 462,
+              "rank_worst": 11110,
+              "reference_id": "reference_2"
+            }
+          ],
+          "top10_scores": [
+            139,
+            96,
+            80,
+            80,
+            75,
+            52,
+            50,
+            50,
+            45,
+            40
+          ]
+        },
+        {
+          "feature": "single_output_external_funding_transaction_count",
+          "targets": [
+            {
+              "observed": true,
+              "score": 1,
+              "rank_best": 31,
+              "rank_worst": 1138,
+              "reference_id": "reference_1"
+            },
+            {
+              "observed": true,
+              "score": 0,
+              "rank_best": 1139,
+              "rank_worst": 11110,
+              "reference_id": "reference_2"
+            }
+          ],
+          "top10_scores": [
+            40,
+            27,
+            6,
+            4,
+            4,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "feature": "received_sat",
+          "targets": [
+            {
+              "observed": true,
+              "score": 1137349,
+              "rank_best": 2423,
+              "rank_worst": 2423,
+              "reference_id": "reference_1"
+            },
+            {
+              "observed": true,
+              "score": 46608022,
+              "rank_best": 442,
+              "rank_worst": 442,
+              "reference_id": "reference_2"
+            }
+          ],
+          "top10_scores": [
+            190500041509,
+            143194769864,
+            96123866318,
+            64968006271,
+            62863307246,
+            62055648905,
+            55707391067,
+            50064994000,
+            48170000000,
+            43104184086
+          ]
+        }
+      ]
+    }
+  ],
+  "cohorts": [
+    {
+      "case_group": "btcpay_lnd_20260807",
+      "file": "btcpay_lnd_20260807_recipients.csv.gz",
+      "sha256": "260308514c839697d4233598314cb2281e649d82e7c84bf582882d560ad742a8",
+      "bytes": 356594,
+      "rows": 11110
+    }
+  ],
+  "reference_coverage_at_10": [
+    {
+      "feature": "receipt_transaction_count",
+      "by_case": [
+        {
+          "case_group": "btcpay_lnd_20260807",
+          "reference_count": 2,
+          "guaranteed_top10": 0,
+          "possible_top10": 0
+        }
+      ],
+      "interpretation": "Coverage of supplied references, not sensitivity or precision over all thefts"
+    },
+    {
+      "feature": "single_output_external_funding_transaction_count",
+      "by_case": [
+        {
+          "case_group": "btcpay_lnd_20260807",
+          "reference_count": 2,
+          "guaranteed_top10": 0,
+          "possible_top10": 0
+        }
+      ],
+      "interpretation": "Coverage of supplied references, not sensitivity or precision over all thefts"
+    },
+    {
+      "feature": "received_sat",
+      "by_case": [
+        {
+          "case_group": "btcpay_lnd_20260807",
+          "reference_count": 2,
+          "guaranteed_top10": 0,
+          "possible_top10": 0
+        }
+      ],
+      "interpretation": "Coverage of supplied references, not sensitivity or precision over all thefts"
+    }
+  ],
+  "cohort_address_overlap": [],
+  "score_summary": {
+    "file": "score_summary.json",
+    "sha256": "1d8ef31108a2175cccf23f8262c292fb06f40b8b212b936e7ffcc4d67820dc96",
+    "bytes": 5005
+  },
+  "publication": "Anonymous aggregate ranks; full detailed rankings and recipient CSVs remain local",
+  "limits": [
+    "Block selection uses known incident receipts; not a blockchain-wide blind search",
+    "Baseline choice was informed by earlier case descriptions; no untouched external test is claimed",
+    "Reference set is incomplete; other recipients are not certified negatives",
+    "1 incident groups; collector addresses are not independent incident observations",
+    "Gross receipts include change and internal transfers; values are not stolen totals",
+    "Provider anchors/counts and receipt agreement are not cryptographic block-inclusion proof",
+    "No address-to-device ground truth, calibrated probability, precision or F1 is estimated",
+    "Prefix ranking uses only complete blocks through that height, never later spending"
+  ]
+}

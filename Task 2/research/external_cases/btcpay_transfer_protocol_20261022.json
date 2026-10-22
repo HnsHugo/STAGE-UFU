@@ -1,0 +1,57 @@
+{
+  "scope": "Separate software-incident collection-pattern transfer diagnostic; not hardware-wallet validation",
+  "created_before_full_block_ranking": true,
+  "baselines": [
+    "receipt_transaction_count",
+    "single_output_external_funding_transaction_count",
+    "received_sat"
+  ],
+  "selection": "Exactly the earliest confirmed positive receipt block of each of the two published collectors, pooled once; fixed before full-block retrieval. Sparse case-conditioned snapshot, not the full incident window.",
+  "tie_policy": "Report best=1+strictly_greater and worst=greater+equal scores; no address-based rank advantage",
+  "include": "Positive-value decoded-address outputs of non-coinbase transactions; include change, exclude zero-value outputs",
+  "unknown_policy": "All non-reference recipients remain unattributed, not certified legitimate",
+  "incident_source": {
+    "url": "https://github.com/somaxbt/btcpay-lnd-drain-2026-08",
+    "commit": "2f62ebd642966f14ec0d49e743e70a1b5a716e4f",
+    "collectors_csv_sha256": "581bab6f9e3bc303618537dc6d39f2c08eddf239d9c91460c78e1106e9b5b71e",
+    "evidence": "Research attribution, not independently verified device or owner control; reported victim corroboration does not label every source address"
+  },
+  "blocks": [
+    {
+      "height": 961359,
+      "hash": "00000000000000000000c32cb4fa67e281daefb6b7124ce6114ce93c3c34d4ef",
+      "time": 1786065450,
+      "case_group": "btcpay_lnd_20260807"
+    },
+    {
+      "height": 961438,
+      "hash": "000000000000000000012c670ac5eddb478ecc58de98d9c28bfbd42e7291e3cb",
+      "time": 1786109220,
+      "case_group": "btcpay_lnd_20260807"
+    }
+  ],
+  "references": [
+    {
+      "case_group": "btcpay_lnd_20260807",
+      "history_sha256": "5965b85530435dfcf1356ca2593908f98846ec6779255fc9bc1e2fa6ef982b6d",
+      "role": "source_attributed_collection",
+      "hardware_control": "not_established",
+      "source_reference_index": 0
+    },
+    {
+      "case_group": "btcpay_lnd_20260807",
+      "history_sha256": "76f550d7917d0ba0d9b2f487f62f92a76e14591a31fd957555484a6de21254ee",
+      "role": "source_attributed_collection",
+      "hardware_control": "not_established",
+      "source_reference_index": 1
+    }
+  ],
+  "reference_registry": {
+    "file": "research_candidates_20261013.json",
+    "sha256": "7200f3cf77bda7ff606cd6a9335fd9411f21193bcf1a6bbb56347bcb8824c892",
+    "source_id": "btcpay_research",
+    "history_directory": "pilot_histories_20261013"
+  },
+  "original_selection_manifest_sha256": "00819ebf76dad44975507cfe9ce3266ce33eb94c43785b1b72b2f8daf9eb5a2e",
+  "public_manifest_note": "Public reduction after extraction: reference addresses resolve from the pre-existing checksummed registry; block selection and scores remain unchanged"
+}

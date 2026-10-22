@@ -1,0 +1,41 @@
+{
+  "protocol_sha256": "83dec124abe485b2131f34ce6aaeafc24d38bd96de7188611afc7ba2d77c2226",
+  "receipts": [
+    {
+      "reference_id": "reference_1",
+      "receipts": [
+        {
+          "height": 961438,
+          "input_count": 6,
+          "output_count": 1,
+          "output_values_sat": [
+            1137349
+          ],
+          "receipt_value_sat": 1137349
+        }
+      ]
+    },
+    {
+      "reference_id": "reference_2",
+      "receipts": [
+        {
+          "height": 961359,
+          "input_count": 35,
+          "output_count": 2,
+          "output_values_sat": [
+            46608022,
+            15258
+          ],
+          "receipt_value_sat": 46608022
+        }
+      ]
+    }
+  ],
+  "reference_address_overlap_with_central": 0,
+  "limits": [
+    "Only exact reference-address overlap is checked, not entity independence",
+    "Provider receipt agreement is not cryptographic block inclusion proof",
+    "Second-output role remains unknown; no output is removed to improve ranking",
+    "This is a separate software-incident diagnostic, not hardware-device ground truth"
+  ]
+}

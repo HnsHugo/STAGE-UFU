@@ -155,6 +155,24 @@ def collect(protocol, cache):
         print('Collected block',entry['height'],flush=True)
 
 
+def load_protocol(path):
+    """Resolve optional source references from an existing checksummed registry."""
+    protocol=json.loads(path.read_text())
+    registry=protocol.get('reference_registry')
+    if registry:
+        raw=(path.parent/registry['file']).read_bytes()
+        if digest(raw)!=registry['sha256']:
+            raise ValueError('Reference registry checksum mismatch')
+        candidates=[r for r in json.loads(raw)['records'] if r['source_id']==registry['source_id']]
+        for ref in protocol['references']:
+            record=candidates[ref['source_reference_index']]
+            if record['conservative_split_group']!=ref['case_group']:
+                raise ValueError('Reference incident group mismatch')
+            ref['address']=record['address']
+            ref['history_file']=str(Path(registry['history_directory'])/(record['address']+'.json'))
+    return protocol
+
+
 def load_references(protocol, base):
     histories = {}
     for ref in protocol['references']:
@@ -162,7 +180,7 @@ def load_references(protocol, base):
         raw = path.read_bytes()
         if digest(raw) != ref['history_sha256']:
             raise ValueError('Reference history checksum mismatch')
-        history = json.loads(gzip.decompress(raw))
+        history = json.loads(gzip.decompress(raw) if raw.startswith(b"\x1f\x8b") else raw)
         if history['address'] != ref['address']:
             raise ValueError('Reference address mismatch')
         histories[ref['address']] = history
@@ -170,7 +188,7 @@ def load_references(protocol, base):
 
 
 def analyze(protocol_path, cache, destination):
-    protocol = json.loads(protocol_path.read_text())
+    protocol = load_protocol(protocol_path)
     if protocol['baselines'] != list(FEATURES):
         raise ValueError('Protocol baseline mismatch')
     if destination.exists():
@@ -245,7 +263,7 @@ def analyze(protocol_path, cache, destination):
                   limits=['Block selection uses known incident receipts; not a blockchain-wide blind search',
                           'Baseline choice was informed by earlier case descriptions; no untouched external test is claimed',
                           'Reference set is incomplete; other recipients are not certified negatives',
-                          'Two case groups, not three independent collector observations',
+                          f'{len(pooled)} incident groups; collector addresses are not independent incident observations',
                           'Gross receipts include change and internal transfers; values are not stolen totals',
                           'Provider anchors/counts and receipt agreement are not cryptographic block-inclusion proof',
                           'No address-to-device ground truth, calibrated probability, precision or F1 is estimated',
@@ -269,7 +287,7 @@ def analyze(protocol_path, cache, destination):
 
 def reproduce(result_dir, protocol_path):
     report = json.loads((result_dir/'summary.json').read_text())
-    protocol = json.loads(protocol_path.read_text())
+    protocol = load_protocol(protocol_path)
     if digest(protocol_path.read_bytes()) != report['protocol_sha256']:
         raise ValueError('Protocol checksum mismatch')
     raw = (result_dir/report['score_summary']['file']).read_bytes()
