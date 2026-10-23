@@ -2,10 +2,12 @@
 
 **Start with Parts 1–4.** They explain the Coldcard coursework in order. Part 5 describes the next cross-case work. The supplementary benchmarks are preserved but are currently paused.
 
-**Current central result:** [Complete-block collector ranking](CENTRAL_EXPERIMENT.md).
-Across 30,938 transactions, a simple external one-output funding count ranks the
-Coldcard reference first and the two CryptoBilis references second and fourth.
-Read this report for the shared experiment, controls, reproduction and limits.
+**Current central result:** [Frozen classroom classifier and collector ranking](CENTRAL_EXPERIMENT.md).
+On the ten saved central blocks (53,526 transactions), the original classroom
+fee rule alerts 122/122 payments to the two supplied CryptoBilis collectors.
+Aggregating its alerts ranks them first and second; the fixed one-output count
+ranks them second and fourth. These are retrospective reference-coverage results,
+not hardware accuracy or theft F1. Read the report for controls and reproduction.
 
 ## The main learning path
 

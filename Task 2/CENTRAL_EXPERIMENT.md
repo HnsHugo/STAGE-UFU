@@ -1,5 +1,10 @@
 # Central experiment — Retrieve known collectors from complete Bitcoin blocks
 
+**Latest result:** the final classroom-replay section applies Ivan's saved tree
+without refitting to the same ten expanded blocks. It alerts all 122 supplied
+CryptoBilis reference payments and ranks the two collectors first and second.
+The original collection-count results below remain preserved for comparison.
+
 ## Question and answer
 
 **Can simple, label-blind recipient rankings bring the known Coldcard and
@@ -350,10 +355,80 @@ offline suites pass **188 tests**; 185 protected historical artifacts retain the
 hashes. Full results are in the
 [transfer verification log](verification/btcpay_transfer_20261022.json).
 
+## Replay of Ivan's classroom classifier on the central cases — 22 October 2026
+
+This experiment returns directly to the course requirement to apply the
+classifier to other destinations/periods. The saved classroom tree predicts class
+1 exactly when **fee > 2,815 integer satoshis**. Its lower-fee standard-deviation
+split has two class-0 leaves, so reducing its **class decisions** to this rule is
+exact. The saved tree text must match this structure; a changed leaf is rejected.
+No model is fitted, threshold changed, or leaf-probability interpretation replayed.
+The original 60-row sample confusion matrix reproduces exactly: 30/30 payments
+and 30/30 selected comparisons classified correctly.
+
+The fixed rule is now applied to the **same ten complete central blocks**, with
+all 53,516 non-coinbase transactions retained. Each transaction alert contributes
+once to each positive-value decoded recipient, even if the transaction has
+multiple matching outputs. All original candidate recipients remain in the
+population, including those receiving zero alerts. This explicit aggregation
+converts a transaction rule into an address-review ranking; it does not convert
+its output to a theft or hardware label.
+
+| Reference | Payments alerted / observed | Rank by frozen classroom alerts | Original external one-output rank |
+| --- | ---: | ---: | ---: |
+| Coldcard reference 1 | 500 / 500 | **1** | 1 |
+| CryptoBilis reference 2 | 76 / 76 | **1** | 2 |
+| CryptoBilis reference 3 | 46 / 46 | **2** | 4 |
+
+Coldcard receipt fees range from 3,300 to 409,260 satoshis (median 3,300).
+CryptoBilis reference 2 ranges from 21,800 to 62,600 (median 21,800), and reference
+3 from 22,890 to 94,290 (median 22,890). All exceed the original classroom
+threshold; **122/122 supplied-reference CryptoBilis payments are alerted**.
+This explains the replay outcome without claiming that fees identify a device.
+
+The Coldcard blocks contain 138 training-cohort and 60 test-cohort transactions;
+99 of the 500 reference payments are in the original 200-row cohort. The remaining
+401/401 reference payments are alerted too, but they still belong to the same
+training incident. No independent Coldcard validation is claimed. CryptoBilis
+has **zero exact transaction overlap** with the original cohort. It is a later
+source-attributed incident, but it has already informed this research and is not
+an untouched holdout. Different TXIDs do not prove entity independence.
+
+Across the full populations, the classroom rule flags 653/36,344 Coldcard
+transactions and 475/17,172 CryptoBilis transactions, reaching 2,899 and 3,703
+recipient addresses respectively. Those other recipients remain unknown;
+**these are not false-positive counts**. Neither precision nor F1 for theft or
+hardware identification can be computed from the available labels. Likewise,
+122/122 is coverage of supplied-reference payments, not an independently labeled
+incident-wide recall estimate. The original tree and its training artifacts are
+not changed. Historical Real-CATS/Elliptic results answer different label tasks
+and are not comparable F1 measurements of this experiment.
+
+The [saved replay](research/external_cases/neighbor_results_20261022/classroom_replay_20261022.json)
+records the original tree/cohort/report hashes, exact cohort overlaps, fee ranges,
+coverage and rank intervals. Cached raw-block hashes are checked against the
+central summary. For every non-coinbase transaction, integer provider fees are
+also reconciled with input minus output values; this is record reconciliation,
+not cryptographic verification. Five new tests guard the strict boundary,
+changed tree leaves, invalid fees, protocol tampering and artifact provenance.
+All six offline suites pass **193 tests**, and 185 protected historical artifacts
+retain their hashes. The [verification log](verification/classroom_replay_20261022.json)
+records the full checks.
+
+From `Task 2/research/external_cases`, using the matching central block cache:
+
+```bash
+python replay_classroom_rule.py neighbor_protocol_20261022.json \
+  neighbor_results_20261022/summary.json /tmp/ufu-central-blocks \
+  ../coldcard/course_results_20261014 /tmp/ufu-classroom-replay-new.json
+python -m unittest discover -p 'test_replay_classroom_rule.py' -v
+```
+
 ## Next step within this experiment
 
-Keep the three original baselines unchanged. The bounded transfer diagnostic
-shows first-receipt and output-shape limitations; do not tune them away on these
-known examples. Before another collection or model extension, reconcile this
-transaction-shape discrepancy with the source evidence and Ivan's dataset/code.
-Hardware generalization remains limited to the two original incident groups.
+Use the saved side-by-side classroom/collection replay as the main result to
+discuss with Ivan. The concrete open question is the intended prediction target:
+payment to a known collection address, collection-pattern ranking, or externally
+verified hardware use. Obtain his promised code/dataset assumptions to compare
+like-for-like; do not add another dataset or tune the fee/output thresholds to
+these known cases. Independent labels remain necessary for theft precision/F1.

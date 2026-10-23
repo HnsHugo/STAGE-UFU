@@ -1,0 +1,135 @@
+{
+  "method": "Exact class-decision equivalent of the saved tree, aggregated by distinct (TXID, recipient)",
+  "fee_threshold_sat": 2815.0,
+  "strict_greater_than": true,
+  "classroom_test_confusion_reproduced": {
+    "true_negative": 30,
+    "false_positive": 0,
+    "false_negative": 0,
+    "true_positive": 30
+  },
+  "hashes": {
+    "protocol": "f34678f7020bec6498dd8cfbf85808eb24f57f2157f0ba49f5afedb1ba54ddac",
+    "central_summary": "e4f3165a7ebe025e9d5defb816442898b4c24ff058360b0865d076d8202d4dbe",
+    "tree": "a032bcaf4f7d3a6849f5a46434dbd5053f6c9348192df3290e542b758badad80",
+    "cohort": "5a33708b876fd483490f4a5c1694bad1827e7256737b3a3cfd70a007c69561e5",
+    "report": "89d81dd72d1374ed185a45d8be09fac15b00ff80a63f8419352f85e358eeab16"
+  },
+  "groups": [
+    {
+      "case_group": "coldcard_2026",
+      "non_coinbase_transactions": 36344,
+      "transaction_alerts": 653,
+      "transaction_alert_fraction": 0.01796720228923619,
+      "recipient_count": 8078,
+      "recipients_with_any_alert": 2899,
+      "classroom_cohort_transaction_overlap": {
+        "train": 138,
+        "test": 60
+      },
+      "references": [
+        {
+          "reference_id": "reference_1",
+          "receipt_coverage": {
+            "receipts": 500,
+            "flagged": 500,
+            "receipts_outside_cohort": 401,
+            "flagged_outside_cohort": 401
+          },
+          "fee_sat": {
+            "min": 3300,
+            "median": 3300.0,
+            "max": 409260
+          },
+          "frozen_classroom_rank": {
+            "observed": true,
+            "score": 500,
+            "rank_best": 1,
+            "rank_worst": 1
+          },
+          "fixed_collection_rank": {
+            "observed": true,
+            "score": 500,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "reference_id": "reference_1"
+          }
+        }
+      ]
+    },
+    {
+      "case_group": "cryptobilis_2026",
+      "non_coinbase_transactions": 17172,
+      "transaction_alerts": 475,
+      "transaction_alert_fraction": 0.027661309107849988,
+      "recipient_count": 22157,
+      "recipients_with_any_alert": 3703,
+      "classroom_cohort_transaction_overlap": {},
+      "references": [
+        {
+          "reference_id": "reference_2",
+          "receipt_coverage": {
+            "receipts": 76,
+            "flagged": 76,
+            "receipts_outside_cohort": 76,
+            "flagged_outside_cohort": 76
+          },
+          "fee_sat": {
+            "min": 21800,
+            "median": 21800.0,
+            "max": 62600
+          },
+          "frozen_classroom_rank": {
+            "observed": true,
+            "score": 76,
+            "rank_best": 1,
+            "rank_worst": 1
+          },
+          "fixed_collection_rank": {
+            "observed": true,
+            "score": 76,
+            "rank_best": 2,
+            "rank_worst": 2,
+            "reference_id": "reference_2"
+          }
+        },
+        {
+          "reference_id": "reference_3",
+          "receipt_coverage": {
+            "receipts": 46,
+            "flagged": 46,
+            "receipts_outside_cohort": 46,
+            "flagged_outside_cohort": 46
+          },
+          "fee_sat": {
+            "min": 22890,
+            "median": 22890.0,
+            "max": 94290
+          },
+          "frozen_classroom_rank": {
+            "observed": true,
+            "score": 46,
+            "rank_best": 2,
+            "rank_worst": 2
+          },
+          "fixed_collection_rank": {
+            "observed": true,
+            "score": 46,
+            "rank_best": 4,
+            "rank_worst": 4,
+            "reference_id": "reference_3"
+          }
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "No fitting or threshold selection; tree class decisions only, not leaf probabilities",
+    "Classroom labels mean payments to one address versus unattributed comparison rows",
+    "Address alert counts are not hardware or theft labels; other outputs of flagged transactions remain unknown",
+    "Coldcard is the training incident even after removing individual cohort transactions",
+    "CryptoBilis has already informed other research; this is not an untouched prospective holdout",
+    "Reference coverage and candidate ranks do not establish precision, F1 or calibrated probabilities",
+    "Integer input/output/provider reconciliation is not cryptographic transaction verification"
+  ]
+}

@@ -2,7 +2,14 @@
 
 ## Current priority
 
-The [central experiment](CENTRAL_EXPERIMENT.md) now ranks all recipients in six complete Coldcard/CryptoBilis incident blocks. A fixed external one-output funding count places the three supplied references at ranks 1, 2 and 4; simple receipt-count and amount baselines do worse. The one-block neighboring extension now covers 53,526 transactions in ten blocks and preserves ranks 1, 2 and 4. The top-10 profile review is complete: 9 of 17 unattributed recipients also have a 100% external one-output fraction. This fraction alone does not identify theft. A separate two-block BTCPay software-incident snapshot retrieves neither reference in the top 10; it is not a third hardware case. First-receipt and strict-output-shape limitations are documented. Exact participant/device mappings and Ivan's code remain unresolved; no hardware classifier is claimed.
+The [central experiment](CENTRAL_EXPERIMENT.md) now includes an exact replay of
+the saved classroom tree's class decisions on the ten Coldcard/CryptoBilis blocks.
+Its frozen fee > 2,815 satoshi rule alerts all 122 supplied-reference CryptoBilis
+payments; recipient alert-count ranks are 1 and 2, compared with 2 and 4 for the
+fixed one-output collection score. No fitting or threshold tuning was performed.
+Coldcard remains the training incident; unknown recipients prevent theft F1 or
+hardware accuracy claims. Keep this side-by-side result as the main discussion
+with Ivan rather than adding datasets. His promised code remains unavailable.
 
 ## Completed work
 
@@ -45,4 +52,7 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Keep the central scores fixed; the immediate neighboring-block check is complete. The 20 top-ranked profiles are described without assigning unknown labels. Reconcile the BTCPay two-output transaction with the source narrative and Ivan's dataset/code assumptions before changing models or claiming hardware generalization. Compare any later model with this saved baseline on the same populations; preserve case/entity groups and time-valid observations.
+Discuss the exact saved classroom/collection replay with Ivan and resolve the
+intended prediction target and his code/dataset assumptions. Preserve the frozen
+models, unknown roles and incident groups. No new data collection is needed to
+reproduce this result from the matching saved central block cache.
