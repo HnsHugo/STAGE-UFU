@@ -4,7 +4,13 @@
 
 ## Goal and current status
 
-Extend the case study with sourced examples and evaluate on a case kept outside training. **The supplied professor references now identify CryptoBilis as the intended second incident.** Read the [reference review](../research/external_cases/PROFESSOR_REFERENCES.md). Ivan's code, exact participant/device mappings and the final prediction target remain pending; no validated hardware-wallet classifier is claimed.
+Extend the **source-address** dataset with sourced examples and evaluate transfer
+across cases. **CryptoBilis is the intended second incident.** The Teams objective
+is now explicit: after the transaction exercise, build the dataset and model of
+robbed source addresses, with hardware evidence kept separate. Read
+[Alignment](../ALIGNMENT.md). Ivan's code and exact source/device mappings remain
+pending; no validated hardware-wallet classifier is claimed. CryptoBilis has
+already been explored and is not an untouched final test case.
 
 ## Before adding addresses
 
@@ -14,7 +20,8 @@ Preserve case and entity identifiers. A proposed extension should keep complete 
 
 ## Existing work that can help
 
-- **Start here:** [Central complete-block ranking experiment](../CENTRAL_EXPERIMENT.md), with all eligible recipients, three fixed baselines and actual Coldcard/CryptoBilis reference ranks.
+- **Start here:** [Source-first alignment and next unit](../ALIGNMENT.md).
+- [Historical complete-block recipient ranking](../CENTRAL_EXPERIMENT.md): supporting destination results, not a source-address classifier.
 - [Expanded comparison](../research/external_cases/EXPANDED_COLLECTION_COMPARISON.md): EFF plus FSF, with two purpose-documented entities and an explicit 2011/2026 temporal mismatch; the original observations remain unchanged.
 - [Equal-duration temporal comparison](../research/external_cases/TEMPORAL_COLLECTION_COMPARISON.md): the same feature extractor on Coldcard, the provisional case and a documented donation recipient, including counterexamples and observation limits.
 - [New collection-pattern pilot](../research/external_cases/COLLECTION_PATTERNS.md): two source-attributed recipients, cutoff-safe measurements and reproducible public observations. The case selection is now resolved; address-specific hardware labels and classifier validation remain unresolved.
@@ -27,10 +34,14 @@ FBI, Binance, donation addresses and the other saved pilots are different eviden
 
 ## Proposed next steps, not executed experiments
 
-1. Use the supplied incident references and retain unresolved address roles; other Overleaf sections have not all been supplied.
-2. Reproduce Ivan's code with its original dataset, target and split when provided.
-3. Compare those definitions with Parts 2–4 before changing the model.
-4. Construct a separately versioned case registry and dataset.
-5. Prespecify a case-held-out evaluation and any graph-based hypotheses.
+1. Build the Coldcard source-address evidence registry from existing artifacts.
+2. Recover source-supported CryptoBilis identifiers and record unresolved roles
+   and hardware evidence rather than transferring the collectors' labels.
+3. Define compatible address features, prediction cutoffs and incident/entity
+   groups; assess whether labels support supervised training.
+4. Prespecify interpretable baselines and an honest case/temporal transfer
+   evaluation; justify graph-model hypotheses from related work.
+5. Reproduce and compare Ivan's code when supplied. Its absence does not block
+   the registry or source reconstruction.
 
 See the [article map](../docs/ARTICLE_MAP.md) for the Overleaf sections supported by current work. A GNN remains an option to investigate, not an architecture whose success has been demonstrated.

@@ -1,15 +1,14 @@
-# Project status — 22 October 2026
+# Project status — 27 October 2026
 
 ## Current priority
 
-The [central experiment](CENTRAL_EXPERIMENT.md) now includes an exact replay of
-the saved classroom tree's class decisions on the ten Coldcard/CryptoBilis blocks.
-Its frozen fee > 2,815 satoshi rule alerts all 122 supplied-reference CryptoBilis
-payments; recipient alert-count ranks are 1 and 2, compared with 2 and 4 for the
-fixed one-output collection score. No fitting or threshold tuning was performed.
-Coldcard remains the training incident; unknown recipients prevent theft F1 or
-hardware accuracy claims. Keep this side-by-side result as the main discussion
-with Ivan rather than adding datasets. His promised code remains unavailable.
+The original Teams instructions, meeting notes and Overleaf files now establish
+the missing second stage: **the dataset and classifier of robbed source
+addresses**, expected to relate to hardware wallets. Read the reconciled
+[alignment reference](ALIGNMENT.md). The next unit is an auditable Coldcard
+source-address registry using existing transaction evidence. Collector rankings
+and their classroom replay are preserved supporting results, not this target.
+No new experiment was run during the alignment review.
 
 ## Completed work
 
@@ -40,10 +39,21 @@ FSF shares two multi-recipient transactions with training addresses. This is obs
 
 ## Partial or blocked
 
+- Robbed source-address dataset/model: input addresses have been counted, but
+  counts and funding relations do not establish verified compromise/device
+  labels or complete the requested address-level classifier. Source reconstruction
+  is actionable now; training eligibility must be reported separately.
+- Network-relative fees, CPFP and RBF: the Teams request for a focused literature
+  review of preprocessing is explicit; completion of that synthesis and a
+  justified experiment is not evidenced by the reviewed main-path material.
+- Source-side topology/H1 and the finished paper/presentation remain to develop;
+  graph heuristics must not be treated as proven ownership.
 - Hot/cold training for September 2026: six research windows have count-consistent coverage, but no address has verified label validity for the full window. No training is authorized by those old labels.
 - Hardware-wallet identification: no validated address-to-device ground truth has been established.
 - Cross-case/incident generalization: independent roles, entity groups and time-valid labels remain insufficient.
-- GNN/GCN or other graph models: no completed Task 2 experiment. The article outline proposes exploration, not a settled architecture.
+- GNN/GCN or other graph models: no completed Task 2 experiment. Teams requests
+  evaluation; the article introduction proposes a GNN while the main outline
+  leaves its suitability open. Related work and dataset design must justify it.
 - Ledger extension: CryptoBilis case selection is established; exact participant identifiers, hardware-control labels and reproduction of Ivan's code remain pending.
 
 ## What changed in this reorganization
@@ -52,7 +62,8 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Discuss the exact saved classroom/collection replay with Ivan and resolve the
-intended prediction target and his code/dataset assumptions. Preserve the frozen
-models, unknown roles and incident groups. No new data collection is needed to
-reproduce this result from the matching saved central block cache.
+Build the Coldcard source-address evidence registry specified in
+[ALIGNMENT.md](ALIGNMENT.md): exact input/outpoint links, incident interval,
+roles, confidence, label dates and separate hardware evidence. Reconcile coverage
+and test source/collector separation. This is specified but not executed in the
+alignment session. Do not wait for Ivan's code or start another recipient ranking.

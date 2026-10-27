@@ -1,8 +1,20 @@
 # Requirements and evidence of completion
 
-Updated for navigation on 19 October 2026. The primary course source reviewed earlier is `aula4.pdf`, Ivan Sendin, FACOM/UFU, dated 24 September 2026, 99 pages, supplied by Hugo. Pages 97 and 99 define the Coldcard exercise. The original support is retained separately; it is not republished here.
+Updated on 27 October 2026 with the original Teams screenshots, meeting notes
+and Overleaf files now supplied by Hugo. Read [ALIGNMENT.md](ALIGNMENT.md) for
+the source-by-source reconciliation and current source-address priority.
 
-The reported 8 October instructions prioritized training/validation on the supplied blocks and then an address dataset related to thefts. No separate signed specification establishing minimum performance, architecture or deadline was found. Assistant proposals are not professor requirements.
+The primary course source reviewed earlier is `aula4.pdf`, Ivan Sendin,
+FACOM/UFU, dated 24 September 2026, 99 pages, supplied by Hugo. Pages 97 and 99
+define the classroom exercise. It was not reread in this alignment session.
+The original support is retained separately; it is not republished here.
+
+The supplied Teams Coldcard post explicitly prioritizes transaction training and
+validation on the supplied blocks, **then a dataset of robbed source addresses
+and a model to detect those addresses**, expected to relate to hardware wallets.
+Its post date is cropped and must not be inferred from a reply. No minimum
+performance, final architecture or deadline is established by the supplied
+instructions. Assistant proposals are not professor requirements.
 
 ## Original course requirements
 
@@ -18,13 +30,36 @@ The reported 8 October instructions prioritized training/validation on the suppl
 | P.99: is the classifier good? | Classroom, random, chronological, grouped and baseline experiments | Completed analysis; clear failures and limitations retained |
 | P.99: find other destinations and check their quality | 8,158 alerts from 492,135 unused transactions, 20 review leads | Search executed; no newly confirmed theft destination |
 | P.99: cold-address dataset and classifier | [Storage pilot and eligibility check](supplementary/wallet_storage/STORAGE_READINESS.md) | Partial: insufficient independent entities and time-valid labels; no September hot/cold training |
-| Reported follow-up: theft-related address model | Elliptic++, Real-CATS and descriptive external pilot | Supplementary benchmarks completed; independent theft detection not demonstrated |
+| Explicit Teams follow-up: robbed source-address dataset and model | Source-input counts, recovered funding parents and label protocol | Partial: no completed validated compromised-source/hardware-address model; Elliptic++, Real-CATS and recipient rankings do not complete this requirement |
+
+## Additional explicit Teams instructions
+
+- The 24 September fee discussion requests a literature review of network-relative
+  fees, CPFP and RBF, and whether they are used before training a classifier.
+  An accuracy benefit from filtering is a hypothesis to investigate, not a
+  demonstrated result or a blanket filtering rule.
+- The 9 September work plan assigns Hugo evaluation of GNN/GCN/SHAP and their
+  scope for anomaly detection. Rayene's separate darkweb brief is not
+  automatically Hugo's deliverable. Shared background includes H1/change
+  heuristics and temporal, value and network features.
 
 ## Later article and meeting direction
 
-The shared Overleaf outline requests related work, hardware-wallet background, useful transaction information, an initial-dataset description, financial/topological results, model explanations and application to other blockchain periods. It explicitly leaves GNN and alternatives open. See the [article map](docs/ARTICLE_MAP.md).
+The shared Overleaf outline requests related work, hardware-wallet background,
+useful transaction information, an initial-dataset description,
+financial/topological/H1 results, model explanations and application to other
+blockchain periods. The introduction proposes a GNN but the main outline asks
+whether GNN is the right/only solution and requests alternatives. Model choice
+needs justification; the drafts do not establish a final architecture. See the
+[article map](docs/ARTICLE_MAP.md).
 
-Hugo's 19 October meeting notes mention tracking addresses, finding hardware wallets, recent hacks, Ledger and combining another case with Coldcard. These are provisional notes, not an exact incident specification. The relevant Overleaf files/references and Ivan's promised code are not supplied here. [Part 5](part_5_cross_case/README.md) records what must be established before extending labels.
+Hugo's meeting notes mention tracking addresses, finding hardware wallets,
+recent hacks, Ledger and combining another case with Coldcard. The original
+Overleaf files were supplied on 27 October and name CryptoBilis. Exact source
+identifiers/device mappings and Ivan's promised code remain unresolved. The notes
+also mention a final paper/tool/results, GitHub and an INSA presentation. Five
+versus six cases and the shorthand `bmppl`/`M` remain ambiguous; do not invent
+their meaning. [Part 5](part_5_cross_case/README.md) records the extension policy.
 
 ## Scientific requirements that remain in force
 
@@ -35,6 +70,10 @@ Hugo's 19 October meeting notes mention tracking addresses, finding hardware wal
 - The frozen external 19-feature forest and strict threshold 0.15 must not be tuned to external examples.
 - New experiments need separate outputs, explicit provenance and justified splits.
 
-CPFP and WalletExplorer were part of the earlier provisional pilot; the course pages reviewed do not establish CPFP as a mandatory result. GNN/GCN, SHAP and a broader tool remain research options, not completed deliverables or automatic prerequisites.
+WalletExplorer and CPFP occur in the meeting notes; the additional Teams evidence
+establishes the fee/CPFP/RBF literature question explicitly. Hardware background
+and graph-method exploration are requested work, not completed deliverables.
+Neither hardware attribution from transaction shape nor a successful GNN result
+can be assumed in advance.
 
 For the current reading order, use [Parts 1–5](README.md). For completed, partial and blocked work, use [Project status](PROJECT_STATUS.md).

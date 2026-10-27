@@ -2,12 +2,12 @@
 
 **Start with Parts 1–4.** They explain the Coldcard coursework in order. Part 5 describes the next cross-case work. The supplementary benchmarks are preserved but are currently paused.
 
-**Current central result:** [Frozen classroom classifier and collector ranking](CENTRAL_EXPERIMENT.md).
-On the ten saved central blocks (53,526 transactions), the original classroom
-fee rule alerts 122/122 payments to the two supplied CryptoBilis collectors.
-Aggregating its alerts ranks them first and second; the fixed one-output count
-ranks them second and fourth. These are retrospective reference-coverage results,
-not hardware accuracy or theft F1. Read the report for controls and reproduction.
+**Current alignment:** [Professor instructions, verified progress and next task](ALIGNMENT.md).
+The transaction exercise is completed. The next unit is the Coldcard dataset of
+source addresses whose funds were reportedly stolen, with auditable role and
+hardware evidence, followed by an address-level model when labels permit.
+Collector ranking remains a preserved supporting experiment, not the central
+objective or a substitute for that address dataset.
 
 ## The main learning path
 
@@ -38,6 +38,7 @@ These are different experiments with different targets and protocols. Their scor
 | [supplementary/](supplementary/README.md) | Real-CATS, Elliptic++ and the earlier wallet-storage pilot; outside the current main path |
 | [verification/](verification/README.md) | Historical execution evidence and reorganization checks |
 | [Project status](PROJECT_STATUS.md) | Completed, partial and blocked work |
+| [Alignment](ALIGNMENT.md) | Reconciled Teams, Overleaf and meeting requirements; current source-first priority |
 | [Requirements](REQUIREMENTS.md) | Original course requirements and later research notes |
 | [Reproducibility](REPRODUCIBILITY.md) | Commands, dependencies and the offline demonstration |
 | [Data access](DATA_ACCESS.md) | Files committed to Git versus separately supplied datasets |
@@ -58,4 +59,7 @@ python "Task 2/run_demo.py"
 
 The first command checks local documentation links, Python syntax and unchanged saved artifacts. The demo reports missing external inputs explicitly; it does not retrain a model. See [Reproducibility](REPRODUCIBILITY.md) for all test suites.
 
-**Current direction:** keep the Coldcard/CryptoBilis collector-ranking experiment central. Extend and challenge its fixed baseline before adding other models. CryptoBilis is confirmed as the professor-selected case; exact hardware labels and Ivan's code remain separate unresolved inputs.
+**Current direction:** reconstruct and document Coldcard source addresses first,
+then develop the address classifier and compatible CryptoBilis extension.
+Destination tracing supports this sequence. Keep historical models and results
+unchanged; Ivan's missing code does not prevent building the source registry.

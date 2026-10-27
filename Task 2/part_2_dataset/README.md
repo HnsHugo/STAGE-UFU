@@ -6,6 +6,11 @@
 
 Know what one row represents, where labels come from and which features a classifier receives.
 
+**Next dataset stage:** the transaction corpus below supports the completed
+classroom exercise. It is not yet the professor-requested dataset of robbed
+source addresses. Build that registry next, keeping source roles, compromise
+evidence and hardware association separate; see [Alignment](../ALIGNMENT.md).
+
 ## Inputs and coverage
 
 The supplied corpus contains 98 selected blocks and 493,571 unique transactions. It is not the entire blockchain or the entire history of every address. The saved feature CSV is supplied separately and identified by SHA256; [Data access](../DATA_ACCESS.md) lists the required inputs.

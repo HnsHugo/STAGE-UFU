@@ -1,5 +1,11 @@
 # Central experiment — Retrieve known collectors from complete Bitcoin blocks
 
+**Scope update, 27 October:** this report retains its historical name and results.
+The [current alignment](ALIGNMENT.md) prioritizes compromised **source-address**
+reconstruction and classification. Recipient retrieval is a supporting experiment
+and does not complete that second-stage requirement. Recommendations below reflect
+their recorded experiment stage, not the current default next task.
+
 **Latest result:** the final classroom-replay section applies Ivan's saved tree
 without refitting to the same ten expanded blocks. It alerts all 122 supplied
 CryptoBilis reference payments and ranks the two collectors first and second.
