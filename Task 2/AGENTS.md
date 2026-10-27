@@ -8,8 +8,11 @@ plans and older report recommendations.
 - Work only on `task-2-wallet-analysis`. Never merge into main, rewrite history,
   delete original evidence, incur costs or contact people.
 - The Coldcard **source-address evidence registry** is now built; see
-  `research/coldcard/source_registry_20261027/README.md`. Next: a deterministic
-  pilot of pre-payment address-history features with strict per-source cutoffs.
+  `research/coldcard/source_registry_20261027/README.md`. The pre-payment pilot
+  also ran: eight complete source histories, fourteen features, strict prior-block
+  cutoff; see `research/coldcard/prepayment_pilot_20261027/README.md`.
+  Next: a small prespecified deterministic multi-input source-history subset,
+  using the fixed extractor and a bounded collection budget.
   The registry has graph candidates, not verified compromised/device labels.
   The address dataset/model is not replaced by collector ranking or benchmarks.
 - Keep the existing numbered-part structure. Write repository content in English;

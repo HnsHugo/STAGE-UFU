@@ -110,8 +110,12 @@ is reconciled; no on-chain relationship automatically becomes a victim or device
 label. If labels remain insufficient, deliver the candidate registry and exact
 eligibility gap rather than switching silently to another ML task.
 
-**Next unit:** a small deterministic pre-payment address-history feature pilot.
-Define address features with explicit units and a prediction cutoff. Decide
+The [pre-payment pilot](research/coldcard/prepayment_pilot_20261027/README.md)
+is now executed: eight complete source histories, fourteen prior-block features,
+no earlier spending in this sample, and published offline prefix evidence.
+**Next unit:** a bounded deterministic subset of the multi-input candidate
+sources absent from that first pilot. Keep the feature definitions and strict
+prior-block cutoff fixed. Decide
 whether the experiment is retrospective reconstruction or pre-event detection;
 these use different permissible features. Do not encode a known destination or
 later label as a shortcut to claim general hardware identification. A clearly

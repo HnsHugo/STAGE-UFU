@@ -5,8 +5,10 @@
 **Current alignment:** [Professor instructions, verified progress and next task](ALIGNMENT.md).
 The transaction exercise is completed. The [source-address evidence registry](research/coldcard/source_registry_20261027/README.md)
 now separates 500 candidate-day addresses from five later sources, with exact
-outpoint links and unknown compromise/device labels. Next: cutoff-safe
-pre-payment address-history features, followed by a model when labels permit.
+outpoint links and unknown compromise/device labels. The
+[pre-payment pilot](research/coldcard/prepayment_pilot_20261027/README.md) has
+computed fourteen prior-block features on eight complete source histories.
+Next: a bounded multi-input source subset, followed by a model when labels permit.
 Collector ranking remains a preserved supporting experiment, not the central
 objective or a substitute for that address dataset.
 

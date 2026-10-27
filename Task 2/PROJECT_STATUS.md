@@ -7,12 +7,22 @@ the missing second stage: **the dataset and classifier of robbed source
 addresses**, expected to relate to hardware wallets. Read the reconciled
 [alignment reference](ALIGNMENT.md). The [Coldcard source registry](research/coldcard/source_registry_20261027/README.md)
 has now been executed: 500 candidate-day addresses / 1,324 inputs, with five later
-addresses kept separate. Next is a small deterministic pre-payment history/feature
-pilot. Collector rankings remain supporting results, not this target. No model
-was fitted in the registry unit; all compromise/device labels remain unknown.
+addresses kept separate. The [pre-payment pilot](research/coldcard/prepayment_pilot_20261027/README.md)
+has now collected eight complete source histories and computed fourteen strictly
+prior-block features for each. All eight have one earlier receipt and no earlier
+spending; nine columns are constant and the spending-fee column is missing.
+Next: a small deterministic multi-input source subset. Collector rankings remain
+supporting results. No model was fitted; compromise/device labels remain unknown.
 
 ## Completed work
 
+- [Pre-payment source feature pilot](research/coldcard/prepayment_pilot_20261027/README.md):
+  eight fixed SHA256-selected sources, eight complete two-transaction histories,
+  prior-block UTXO reconstruction and fourteen feature definitions. Published
+  prefix-only evidence reproduces the feature rows offline; raw snapshots have
+  pinned hashes. Future/same-block activity and current spent flags are excluded.
+  This small sample contains only single-input reference payments and is not
+  representative of the 81 multi-input sources or an independent test set.
 - [Coldcard source-address evidence registry](research/coldcard/source_registry_20261027/README.md):
   pinned complete history reused; 505 address records and 1,331 exact input/outpoint
   evidence records generated locally, with a committed reproducible protocol and
@@ -47,8 +57,10 @@ FSF shares two multi-recipient transactions with training addresses. This is obs
 ## Partial or blocked
 
 - Robbed source-address dataset/model: graph-evidence registry completed, but
-  per-address compromise/device labels, complete source histories and documented
-  controls are missing. The requested supervised classifier is not completed.
+  per-address compromise/device labels, source-history coverage beyond the eight
+  pilot addresses and documented controls are missing. The supervised classifier
+  is not completed. Historical spending-fee features cannot be inferred from the
+  reference payment when no prior source spending exists.
 - Network-relative fees, CPFP and RBF: the Teams request for a focused literature
   review of preprocessing is explicit; completion of that synthesis and a
   justified experiment is not evidenced by the reviewed main-path material.
@@ -68,8 +80,8 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Build a small deterministic pilot of source-address histories/features, with each
-observation cut off before its source's payment. Start with the completed
-[registry](research/coldcard/source_registry_20261027/README.md), document coverage
-and distinguish graph-candidate features from verified compromise/hardware
-labels. Do not restart the completed registry or another recipient ranking.
+Extend the fixed pre-payment extractor to a small prespecified deterministic
+subset of the 81 multi-input candidate sources. Bound pagination, retain missing
+coverage and do not replace failures. Keep the same strict prior-block cutoffs
+and unknown labels. Do not repeat the completed eight-source pilot or return to
+recipient ranking.

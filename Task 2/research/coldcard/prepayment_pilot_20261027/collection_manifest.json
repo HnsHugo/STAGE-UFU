@@ -1,0 +1,194 @@
+{
+  "population_size": 500,
+  "protocol_sha256": "483f965b0adbac0ed1528ee397ea0be6c840734ea4d75ca8acd7a9935d0d0495",
+  "provider": "https://blockstream.info/api",
+  "results": [
+    {
+      "address_sha256": "70885bd16e41da31c6722cf5b751daea46aee6d37b1226bb2b4236f1c557e39b",
+      "bytes": 2374,
+      "collected_at": "2026-10-27T22:19:46.778671+00:00",
+      "cutoff_height": 960190,
+      "file": "raw/source_01.json.gz",
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 50000000,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 50000000,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "pilot_id": "source_01",
+      "registry_input_slots": 1,
+      "sha256": "08288db69c3fe83da988d9d363217c1db3f06ee33c66a533b46f3363da05a463"
+    },
+    {
+      "address_sha256": "68add7b49641d89ea5a444610ce4221a70e94d7ef1d0accc1aca283989542e78",
+      "bytes": 1346,
+      "collected_at": "2026-10-27T22:19:46.777155+00:00",
+      "cutoff_height": 960189,
+      "file": "raw/source_02.json.gz",
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 134377744,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 134377744,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "pilot_id": "source_02",
+      "registry_input_slots": 1,
+      "sha256": "db32459bb9bb2d04fdb512bb2f94476cf2eb1d48ab3f1ee10044baaca951689e"
+    },
+    {
+      "address_sha256": "0a04ca76cd967aef2ec856a6b0cc72e7d21ee10866c63ff74830b866abedcd42",
+      "bytes": 2470,
+      "collected_at": "2026-10-27T22:20:04.654758+00:00",
+      "cutoff_height": 960189,
+      "file": "raw/source_03.json.gz",
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 97968637,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 97968637,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "pilot_id": "source_03",
+      "registry_input_slots": 1,
+      "sha256": "04bc2ecdbf5baf121e819d61f8ffb9ac528fdf2afa7548e55eb404c001bb2c3a"
+    },
+    {
+      "address_sha256": "fcc4c21091acd7c0d1a9f3eca31b74b8c9d07052e280144a1eb692752ede08ca",
+      "bytes": 1513,
+      "collected_at": "2026-10-27T22:20:04.657436+00:00",
+      "cutoff_height": 960190,
+      "file": "raw/source_04.json.gz",
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 37276426,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 37276426,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "pilot_id": "source_04",
+      "registry_input_slots": 1,
+      "sha256": "da014891671ee509dfe0645db2b416177ab805077806266b5a1facc47e683b4c"
+    },
+    {
+      "address_sha256": "397010694856d21ddea3f4718e1b03f80d0b33d9d1cf51c9efb2480ed8de0f72",
+      "bytes": 3579,
+      "collected_at": "2026-10-27T22:20:21.881667+00:00",
+      "cutoff_height": 960189,
+      "file": "raw/source_05.json.gz",
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 100000000,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 100000000,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "pilot_id": "source_05",
+      "registry_input_slots": 1,
+      "sha256": "29cd2ee65af4d8f611efb0b1adf59f1f4d93c6d0577c9021eabad6d3cd7fe928"
+    },
+    {
+      "address_sha256": "e70e118e49ef1aabad8426d554a0a20b88fe1acbed464dd13e43c7d0194feb1d",
+      "bytes": 3541,
+      "collected_at": "2026-10-27T22:20:21.925260+00:00",
+      "cutoff_height": 960189,
+      "file": "raw/source_06.json.gz",
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 100659000,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 100659000,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "pilot_id": "source_06",
+      "registry_input_slots": 1,
+      "sha256": "278a2fcd21ab62c44c99dc2d3a64ec55746c0a4651f99170f241be704621570e"
+    },
+    {
+      "address_sha256": "79a4711c744a0b582cc7e9aaa9c2c271bb000f5b677e383d67f3ff0435320b6e",
+      "bytes": 2206,
+      "collected_at": "2026-10-27T22:20:39.985566+00:00",
+      "cutoff_height": 960191,
+      "file": "raw/source_07.json.gz",
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 21450000,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 21450000,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "pilot_id": "source_07",
+      "registry_input_slots": 1,
+      "sha256": "715e04cabc6d31f5acc67c14a7aaab7cfdf65e30e252ebb2586abdbea7c9300b"
+    },
+    {
+      "address_sha256": "4338535b9b4e10e4fbe49823871a0232ad1182fde35497b30b04f3662272a659",
+      "bytes": 2530,
+      "collected_at": "2026-10-27T22:20:40.023610+00:00",
+      "cutoff_height": 960190,
+      "file": "raw/source_08.json.gz",
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 35287891,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 35287891,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "pilot_id": "source_08",
+      "registry_input_slots": 1,
+      "sha256": "a88f0a25f94b9e6f8819d1c09caa3f2e9428326d66762a9ec24ae586a037a047"
+    }
+  ],
+  "sample_size": 8,
+  "schema_version": 1,
+  "selection_sha256": "7b9c199195c8f4a58ffa697bc99c9140d2a86e4f2bfb6cd1378f2d899c31c0f5"
+}

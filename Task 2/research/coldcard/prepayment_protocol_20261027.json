@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "case_id": "coldcard_2026",
+  "registry_protocol_file": "source_registry_protocol_20261027.json",
+  "registry_protocol_sha256": "75abe6458bc7bda64b0fd6c94a7c145f352dc60050c367ae5b6ca1a5bee31f47",
+  "registry_address_table_sha256": "b4661f15fd9e9f7c69b52cd9fd90ed46bf9cd41035449364f8e1847161cd2824",
+  "population_scope": "candidate_window",
+  "sample_size": 8,
+  "sampling_prefix": "coldcard-prepayment-pilot-v1:42:",
+  "sampling": "Select the eight smallest SHA256(prefix + address) values among the 500 candidate-day sources; no replacement after failures or inspection of histories.",
+  "cutoff": "Include confirmed transactions only at block_height strictly below the source's known collector-payment block; exclude the entire payment block, regardless of block timestamps.",
+  "provider": "https://blockstream.info/api",
+  "max_pages_per_address": 4,
+  "timeout_seconds": 8,
+  "workers": 2,
+  "target": "Descriptive pre-payment source-address feature pilot, not a theft/hardware classifier",
+  "evaluation": "No training or train/test split. All sources remain in one incident group; compromise and hardware labels remain unknown.",
+  "coverage_policy": "Features require complete stable provider history and matching payment block anchor. Retain failures without replacement; incomplete history must not produce zero-valued features.",
+  "publication": "Commit prefix-only normalized evidence, feature rows, aggregate results and raw snapshot hashes. Keep full address histories locally under ignored raw/; hashed identifiers are references, not a guarantee of anonymity."
+}

@@ -1,0 +1,121 @@
+{
+  "all_missing_features": [
+    "median_spending_tx_fee_rate_sat_vb"
+  ],
+  "case_id": "coldcard_2026",
+  "collection_manifest_sha256": "991d287db97de5325d1945909a4a83647f566aa0947ce4ecf38e40458c7b282b",
+  "computed_sources": 8,
+  "constant_nonmissing_features": [
+    "confirmed_tx_count",
+    "receipt_tx_count",
+    "spending_tx_count",
+    "received_output_count",
+    "spent_output_count",
+    "spent_sat",
+    "unspent_output_count",
+    "active_block_count",
+    "activity_span_blocks"
+  ],
+  "duplicate_variable_feature_pairs": [
+    [
+      "received_sat",
+      "balance_sat"
+    ],
+    [
+      "blocks_since_first_activity",
+      "blocks_since_last_activity"
+    ]
+  ],
+  "feature_count": 14,
+  "feature_ranges": {
+    "active_block_count": {
+      "max": 1,
+      "min": 1,
+      "nonmissing": 8
+    },
+    "activity_span_blocks": {
+      "max": 0,
+      "min": 0,
+      "nonmissing": 8
+    },
+    "balance_sat": {
+      "max": 134377744,
+      "min": 21450000,
+      "nonmissing": 8
+    },
+    "blocks_since_first_activity": {
+      "max": 268153,
+      "min": 22671,
+      "nonmissing": 8
+    },
+    "blocks_since_last_activity": {
+      "max": 268153,
+      "min": 22671,
+      "nonmissing": 8
+    },
+    "confirmed_tx_count": {
+      "max": 1,
+      "min": 1,
+      "nonmissing": 8
+    },
+    "median_spending_tx_fee_rate_sat_vb": {
+      "max": null,
+      "min": null,
+      "nonmissing": 0
+    },
+    "receipt_tx_count": {
+      "max": 1,
+      "min": 1,
+      "nonmissing": 8
+    },
+    "received_output_count": {
+      "max": 1,
+      "min": 1,
+      "nonmissing": 8
+    },
+    "received_sat": {
+      "max": 134377744,
+      "min": 21450000,
+      "nonmissing": 8
+    },
+    "spending_tx_count": {
+      "max": 0,
+      "min": 0,
+      "nonmissing": 8
+    },
+    "spent_output_count": {
+      "max": 0,
+      "min": 0,
+      "nonmissing": 8
+    },
+    "spent_sat": {
+      "max": 0,
+      "min": 0,
+      "nonmissing": 8
+    },
+    "unspent_output_count": {
+      "max": 1,
+      "min": 1,
+      "nonmissing": 8
+    }
+  },
+  "generator_script_sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701",
+  "incident_groups": 1,
+  "limitations": [
+    "Retrospective case-conditioned sample, not prospective detection or an independent test",
+    "All compromise/hardware labels remain unknown; no legitimate controls",
+    "Entire payment block excluded; intra-block prior activity is deliberately omitted",
+    "Sample is small and not representative; collection failures are not replaced",
+    "Complete provider counters do not prove cryptographic inclusion or historical API availability",
+    "Address history is not a complete wallet/entity history; fee features concern spending transactions, not proven device policy"
+  ],
+  "prior_transaction_count": 8,
+  "protocol_sha256": "483f965b0adbac0ed1528ee397ea0be6c840734ea4d75ca8acd7a9935d0d0495",
+  "sample_sources_with_multiple_payment_inputs": 0,
+  "schema_version": 1,
+  "selected_sources": 8,
+  "sources_with_prior_spending": 0,
+  "status": "complete",
+  "training_performed": false,
+  "unavailable_sources": 0
+}

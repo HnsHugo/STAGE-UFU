@@ -10,7 +10,9 @@ Know what one row represents, where labels come from and which features a classi
 is now built: 500 candidate-day source addresses / 1,324 input observations, plus
 five later addresses retained separately. All compromise/hardware labels remain
 unknown; the transaction corpus below still describes a different observation
-unit. Next are cutoff-safe source-history features; see [Alignment](../ALIGNMENT.md).
+unit. The [pre-payment pilot](../research/coldcard/prepayment_pilot_20261027/README.md)
+now supplies fourteen cutoff-safe features for eight complete source histories;
+the next subset covers multi-input sources. See [Alignment](../ALIGNMENT.md).
 
 ## Inputs and coverage
 
