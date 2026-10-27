@@ -3,9 +3,10 @@
 **Start with Parts 1–4.** They explain the Coldcard coursework in order. Part 5 describes the next cross-case work. The supplementary benchmarks are preserved but are currently paused.
 
 **Current alignment:** [Professor instructions, verified progress and next task](ALIGNMENT.md).
-The transaction exercise is completed. The next unit is the Coldcard dataset of
-source addresses whose funds were reportedly stolen, with auditable role and
-hardware evidence, followed by an address-level model when labels permit.
+The transaction exercise is completed. The [source-address evidence registry](research/coldcard/source_registry_20261027/README.md)
+now separates 500 candidate-day addresses from five later sources, with exact
+outpoint links and unknown compromise/device labels. Next: cutoff-safe
+pre-payment address-history features, followed by a model when labels permit.
 Collector ranking remains a preserved supporting experiment, not the central
 objective or a substitute for that address dataset.
 
@@ -59,7 +60,7 @@ python "Task 2/run_demo.py"
 
 The first command checks local documentation links, Python syntax and unchanged saved artifacts. The demo reports missing external inputs explicitly; it does not retrain a model. See [Reproducibility](REPRODUCIBILITY.md) for all test suites.
 
-**Current direction:** reconstruct and document Coldcard source addresses first,
-then develop the address classifier and compatible CryptoBilis extension.
+**Current direction:** develop the Coldcard source-address dataset from the
+completed graph registry, then the classifier and compatible CryptoBilis extension.
 Destination tracing supports this sequence. Keep historical models and results
 unchanged; Ivan's missing code does not prevent building the source registry.

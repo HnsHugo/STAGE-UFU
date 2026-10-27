@@ -30,7 +30,7 @@ instructions. Assistant proposals are not professor requirements.
 | P.99: is the classifier good? | Classroom, random, chronological, grouped and baseline experiments | Completed analysis; clear failures and limitations retained |
 | P.99: find other destinations and check their quality | 8,158 alerts from 492,135 unused transactions, 20 review leads | Search executed; no newly confirmed theft destination |
 | P.99: cold-address dataset and classifier | [Storage pilot and eligibility check](supplementary/wallet_storage/STORAGE_READINESS.md) | Partial: insufficient independent entities and time-valid labels; no September hot/cold training |
-| Explicit Teams follow-up: robbed source-address dataset and model | Source-input counts, recovered funding parents and label protocol | Partial: no completed validated compromised-source/hardware-address model; Elliptic++, Real-CATS and recipient rankings do not complete this requirement |
+| Explicit Teams follow-up: robbed source-address dataset and model | [Executed source registry](research/coldcard/source_registry_20261027/README.md): 500 candidate-day addresses / 1,324 inputs; five later sources separate, with exact evidence and unknown labels | Graph registry completed; verified compromise/device labels and address classifier remain incomplete. Elliptic++, Real-CATS and recipient rankings do not complete this requirement |
 
 ## Additional explicit Teams instructions
 

@@ -1,0 +1,142 @@
+{
+  "blockers": [
+    "No address-specific verified compromise or hardware labels in supplied evidence",
+    "No documented legitimate control cohort or independent incident split",
+    "Complete source-address histories and prior-output inclusion not verified"
+  ],
+  "case_id": "coldcard_2026",
+  "collector_spent_output_reconciliation": {
+    "consumed_outpoints_reconciled": 341,
+    "consumed_sat": 56202666941,
+    "cryptographic_inclusion_verified": false
+  },
+  "generated_local_artifacts": {
+    "addresses.json": {
+      "bytes": 879363,
+      "sha256": "b4661f15fd9e9f7c69b52cd9fd90ed46bf9cd41035449364f8e1847161cd2824"
+    },
+    "input_evidence.jsonl": {
+      "bytes": 1678229,
+      "sha256": "58bc0af54c22398bdeed408f14f3f02bccea04fa11449104643a06323fab92cc"
+    }
+  },
+  "groups": {
+    "candidate_window": {
+      "coinbase_inputs": 0,
+      "distinct_source_addresses": 500,
+      "fees_sat": 3656700,
+      "input_slots": 1324,
+      "input_value_sat": 59451379184,
+      "inputs_per_transaction": {
+        "1": 419,
+        "2": 32,
+        "3": 18,
+        "4": 8,
+        "5": 1,
+        "6": 1,
+        "7": 2,
+        "10": 2,
+        "11": 2,
+        "13": 2,
+        "14": 2,
+        "16": 1,
+        "19": 1,
+        "23": 1,
+        "27": 1,
+        "33": 1,
+        "39": 1,
+        "41": 1,
+        "60": 1,
+        "71": 1,
+        "105": 1,
+        "200": 1
+      },
+      "missing_input_addresses": 0,
+      "missing_prevouts": 0,
+      "multi_source_address_transactions": 0,
+      "outputs_per_transaction": {
+        "1": 500
+      },
+      "receipt_confirmation_span": {
+        "first_utc": "2026-07-30T01:36:08+00:00",
+        "last_utc": "2026-07-30T01:51:26+00:00",
+        "seconds": 918
+      },
+      "receipts": 500,
+      "received_outputs_later_consumed": 341,
+      "received_sat": 59447722484,
+      "self_input_slots": 0,
+      "value_unreconciled_transactions": 0
+    },
+    "outside_candidate_window": {
+      "coinbase_inputs": 0,
+      "distinct_source_addresses": 5,
+      "fees_sat": 4263,
+      "input_slots": 7,
+      "input_value_sat": 352581,
+      "inputs_per_transaction": {
+        "1": 5,
+        "2": 1
+      },
+      "missing_input_addresses": 0,
+      "missing_prevouts": 0,
+      "multi_source_address_transactions": 0,
+      "outputs_per_transaction": {
+        "1": 1,
+        "2": 1,
+        "3": 3,
+        "4": 1
+      },
+      "receipt_confirmation_span": {
+        "first_utc": "2026-07-31T09:44:17+00:00",
+        "last_utc": "2026-08-19T03:21:08+00:00",
+        "seconds": 1618611
+      },
+      "receipts": 6,
+      "received_outputs_later_consumed": 0,
+      "received_sat": 5547,
+      "self_input_slots": 0,
+      "value_unreconciled_transactions": 0
+    }
+  },
+  "history_audit": {
+    "counters_stable": true,
+    "coverage_complete_by_provider_counters": true,
+    "cryptographic_inclusion_verified": false,
+    "observed": {
+      "funded_txo_count": 506,
+      "funded_txo_sum": 59447728031,
+      "spent_txo_count": 341,
+      "spent_txo_sum": 56202666941,
+      "tx_count": 507
+    },
+    "pagination_exhausted": true
+  },
+  "history_collected_at": "2026-10-19T20:32:00.657673+00:00",
+  "incident_group_count": 1,
+  "input_evidence_count": 1331,
+  "inputs": {
+    "history_file": "../external_cases/collection_comparison_20261019/bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0.json.gz",
+    "history_sha256": "955ac9ecd6a88dc40121f46aee02841aa9facdb1969c3fb2215657eaeb9af535",
+    "protocol_sha256": "75abe6458bc7bda64b0fd6c94a7c145f352dc60050c367ae5b6ca1a5bee31f47",
+    "script_sha256": "5149239fa7f540445662d621a069289c8734c7ec81fde1c5b3f4a80313867005"
+  },
+  "limitations": [
+    "Candidate UTC day is not an independently verified exact theft interval",
+    "Input addresses and UTXOs are not people, victims, devices or independent cases",
+    "Spent input sums and gross receipts are not certified stolen amounts",
+    "Later collector spending is retrospective evidence, not a pre-event feature",
+    "Unknown outside-window sources are not legitimate controls",
+    "Counter/outpoint reconciliation is not cryptographic inclusion verification"
+  ],
+  "model_training_performed": false,
+  "observation_unit": "Source address, linked to each observed payment input and previous outpoint",
+  "reviewed_on": "2026-10-27",
+  "schema_version": 1,
+  "source_address_count": 505,
+  "source_addresses_shared_across_windows": 0,
+  "status": "executed_graph_evidence_registry",
+  "supervised_training_ready": false,
+  "verified_compromised_source_labels": 0,
+  "verified_hardware_source_labels": 0
+}

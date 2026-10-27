@@ -5,13 +5,20 @@
 The original Teams instructions, meeting notes and Overleaf files now establish
 the missing second stage: **the dataset and classifier of robbed source
 addresses**, expected to relate to hardware wallets. Read the reconciled
-[alignment reference](ALIGNMENT.md). The next unit is an auditable Coldcard
-source-address registry using existing transaction evidence. Collector rankings
-and their classroom replay are preserved supporting results, not this target.
-No new experiment was run during the alignment review.
+[alignment reference](ALIGNMENT.md). The [Coldcard source registry](research/coldcard/source_registry_20261027/README.md)
+has now been executed: 500 candidate-day addresses / 1,324 inputs, with five later
+addresses kept separate. Next is a small deterministic pre-payment history/feature
+pilot. Collector rankings remain supporting results, not this target. No model
+was fitted in the registry unit; all compromise/device labels remain unknown.
 
 ## Completed work
 
+- [Coldcard source-address evidence registry](research/coldcard/source_registry_20261027/README.md):
+  pinned complete history reused; 505 address records and 1,331 exact input/outpoint
+  evidence records generated locally, with a committed reproducible protocol and
+  aggregate summary. Candidate-day and later receipts remain separate; role,
+  confidence, collection/review dates and unknown compromise/hardware labels are
+  explicit. Nine focused tests and the execution log document verification.
 - [Central complete-block ranking](CENTRAL_EXPERIMENT.md): 30,938 transactions, two incident groups, full recipient populations and three label-blind baselines. Anonymous offline rank evidence, prefix ranks, cross-provider receipt agreement and tie-aware reference coverage are saved; complete address cohorts remain local.
 - [Expanded collection comparison](research/external_cases/EXPANDED_COLLECTION_COMPARISON.md): the original FSF history was recovered with its expected hash. Nine 24-hour windows now cover two incident groups and two comparison organizations. FSF's retrospective stress day has 25 receipts, but dates/fees are not matched to the incidents; no model fitting or accuracy claim follows.
 - [Equal-duration collection comparison](research/external_cases/TEMPORAL_COLLECTION_COMPARISON.md): Coldcard, two provisional CryptoBilis recipients and one documented EFF recipient in 24-hour windows. One-output/same-block properties also occur in an EFF observation; no standalone discriminator or accuracy claim follows. Historical models remain unchanged.
@@ -39,10 +46,9 @@ FSF shares two multi-recipient transactions with training addresses. This is obs
 
 ## Partial or blocked
 
-- Robbed source-address dataset/model: input addresses have been counted, but
-  counts and funding relations do not establish verified compromise/device
-  labels or complete the requested address-level classifier. Source reconstruction
-  is actionable now; training eligibility must be reported separately.
+- Robbed source-address dataset/model: graph-evidence registry completed, but
+  per-address compromise/device labels, complete source histories and documented
+  controls are missing. The requested supervised classifier is not completed.
 - Network-relative fees, CPFP and RBF: the Teams request for a focused literature
   review of preprocessing is explicit; completion of that synthesis and a
   justified experiment is not evidenced by the reviewed main-path material.
@@ -62,8 +68,8 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Build the Coldcard source-address evidence registry specified in
-[ALIGNMENT.md](ALIGNMENT.md): exact input/outpoint links, incident interval,
-roles, confidence, label dates and separate hardware evidence. Reconcile coverage
-and test source/collector separation. This is specified but not executed in the
-alignment session. Do not wait for Ivan's code or start another recipient ranking.
+Build a small deterministic pilot of source-address histories/features, with each
+observation cut off before its source's payment. Start with the completed
+[registry](research/coldcard/source_registry_20261027/README.md), document coverage
+and distinguish graph-candidate features from verified compromise/hardware
+labels. Do not restart the completed registry or another recipient ranking.

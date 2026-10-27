@@ -7,7 +7,7 @@ meeting notes and original Overleaf files supplied by Hugo on 27 October.
 It corrects earlier assistant priorities; it does not replace Ivan's instructions
 or change any historical experiment, metric or label.
 
-**The next research unit concerns the source addresses whose funds were reportedly
+**The research priority concerns the source addresses whose funds were reportedly
 stolen, starting with Coldcard. Collector detection and onward tracing support
 that work but do not substitute for it.** The supplied Teams message establishes
 two stages: train/validate a transaction model on the supplied blocks, then obtain
@@ -43,7 +43,7 @@ Status means the evidence available now, not an invented completion percentage.
 | --- | --- | --- |
 | Supplied-block transaction exercise | 98 blocks, 493,571 unique transactions; ten features; 100+100 sample; saved tree and 60/60 sample-test decisions | Preserve this completed exercise and explain its narrow target |
 | Financial case reconstruction and address tracking | 504 payments in the block corpus; complete saved collector history has 506 incoming and one outgoing transaction; flows, fees, timestamps and parent coverage documented | Separate the suspected incident window from later activity; develop source-side reconstruction without calling all inputs victims |
-| Dataset of robbed source addresses | Input addresses are already observed/countable: 505 distinct inputs across incoming history and 341 in the selected consolidation's recovered funding parents | Produce an auditable address-level registry with transaction/outpoint evidence, role, period, confidence and independent hardware evidence; counts alone are not that dataset |
+| Dataset of robbed source addresses | [Graph-evidence registry executed](research/coldcard/source_registry_20261027/README.md): 500 candidate-day addresses / 1,324 input records; five additional later addresses kept separate; exact outpoints, roles, dates and confidence retained | Compromise/device labels remain unverified; build cutoff-safe address features and assess supervised-label eligibility |
 | Address classifier for the requested target | Transaction baselines and supplementary address-category benchmarks exist | No validated compromised-source/hardware-address classifier has been established; define the address target and eligible labels before training |
 | Fees, CPFP and RBF literature/preprocessing | Fee and fee-rate measurements and historical exploratory material exist | A focused literature synthesis answering Ivan's three questions and a justified, separately tested preprocessing experiment are not evidenced as complete in the reviewed main-path material |
 | Financial, topological and H1 analysis of hardware-related sources | Financial flows and transaction/group analyses exist | A source-address graph, explicit H1 assumptions, CoinJoin/change limitations and interpretable topology remain to consolidate |
@@ -79,11 +79,14 @@ Thus high early F1 and weaker later results are not directly comparable:
 the unit, label definition, background, prevalence and split changed. The main
 gap is the requested address-level dataset/model, not merely a lower metric.
 
-## Next unit: Coldcard source-address evidence registry
+## Executed unit: Coldcard source-address evidence registry
 
-This is the next task, **specified here but not executed in this alignment
-session**. Reuse the existing history, block archive, recovered parents and
-[flow report](research/coldcard/case_flows_20261015/CASE_FLOWS.md).
+The following specification was executed after the alignment session; see the
+[registry report](research/coldcard/source_registry_20261027/README.md).
+The complete pinned 19 October history was reused without API collection or
+model fitting. The graph registry is complete for that history, while verified
+compromise/device labels remain absent. The steps below describe its acceptance
+criteria rather than an instruction to repeat the build.
 
 1. Fix a source-supported incident interval and distinguish it from the full
    collector activity period. Retain outside-window observations separately.
@@ -107,7 +110,8 @@ is reconciled; no on-chain relationship automatically becomes a victim or device
 label. If labels remain insufficient, deliver the candidate registry and exact
 eligibility gap rather than switching silently to another ML task.
 
-Then define address features with explicit units and a prediction cutoff. Decide
+**Next unit:** a small deterministic pre-payment address-history feature pilot.
+Define address features with explicit units and a prediction cutoff. Decide
 whether the experiment is retrospective reconstruction or pre-event detection;
 these use different permissible features. Do not encode a known destination or
 later label as a shortcut to claim general hardware identification. A clearly

@@ -34,7 +34,8 @@ FBI, Binance, donation addresses and the other saved pilots are different eviden
 
 ## Proposed next steps, not executed experiments
 
-1. Build the Coldcard source-address evidence registry from existing artifacts.
+1. Use the completed [Coldcard source registry](../research/coldcard/source_registry_20261027/README.md)
+   and build cutoff-safe source-history features; do not repeat the registry.
 2. Recover source-supported CryptoBilis identifiers and record unresolved roles
    and hardware evidence rather than transferring the collectors' labels.
 3. Define compatible address features, prediction cutoffs and incident/entity

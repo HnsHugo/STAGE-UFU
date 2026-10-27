@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "case_id": "coldcard_2026",
+  "network": "bitcoin-mainnet",
+  "reviewed_on": "2026-10-27",
+  "collector_address": "bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0",
+  "history_file": "../external_cases/collection_comparison_20261019/bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0.json.gz",
+  "history_sha256": "955ac9ecd6a88dc40121f46aee02841aa9facdb1969c3fb2215657eaeb9af535",
+  "candidate_window": {
+    "start_utc": "2026-07-30T00:00:00+00:00",
+    "end_exclusive_utc": "2026-07-31T00:00:00+00:00",
+    "selection": "The incident UTC day used in the existing central_protocol_20261020.json; retain all other receipts separately, without classifying them as legitimate.",
+    "interpretation": "Retrospective date-based candidate interval, not verified attack start/end or proof of compromise of every input address. Confirmation times are not broadcast times."
+  },
+  "case_context_sources": [
+    {
+      "url": "https://bitquery.io/investigations/coldcard-wallet-hack",
+      "role": "Existing case/collector attribution; not an address-specific source or device label",
+      "published_at": null
+    },
+    {
+      "url": "https://www.coindesk.com/pt-br/tech/2026/07/31/major-bitcoin-wallet-flaw-drains-594-btc-in-25-minute-sweep",
+      "role": "Professor-supplied incident reporting; not a verified per-address list",
+      "published_on": "2026-07-31"
+    },
+    {
+      "url": "https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware",
+      "role": "Professor-supplied technical context; does not identify the device behind each source address",
+      "published_at": null
+    }
+  ],
+  "address_specific_compromise_evidence": [],
+  "address_specific_hardware_evidence": [],
+  "label_policy": "Record observed input relationships only. Compromise, hardware control, entity identity and supervised labels stay unknown/null. No negative class is inferred from later receipts.",
+  "evaluation_policy": "Dataset construction only; no fitting or train/test split. All records retain the single incident group. Define a new protocol before a predictive experiment.",
+  "publication_policy": "Commit the protocol, aggregate summary, code and checks. Generate the exact address/outpoint registry locally from the already committed pinned history; do not publish a new bulk list of alleged victims."
+}

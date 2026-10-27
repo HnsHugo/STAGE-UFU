@@ -6,10 +6,11 @@
 
 Know what one row represents, where labels come from and which features a classifier receives.
 
-**Next dataset stage:** the transaction corpus below supports the completed
-classroom exercise. It is not yet the professor-requested dataset of robbed
-source addresses. Build that registry next, keeping source roles, compromise
-evidence and hardware association separate; see [Alignment](../ALIGNMENT.md).
+**Address dataset stage:** the [source registry](../research/coldcard/source_registry_20261027/README.md)
+is now built: 500 candidate-day source addresses / 1,324 input observations, plus
+five later addresses retained separately. All compromise/hardware labels remain
+unknown; the transaction corpus below still describes a different observation
+unit. Next are cutoff-safe source-history features; see [Alignment](../ALIGNMENT.md).
 
 ## Inputs and coverage
 

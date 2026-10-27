@@ -7,9 +7,11 @@ plans and older report recommendations.
 
 - Work only on `task-2-wallet-analysis`. Never merge into main, rewrite history,
   delete original evidence, incur costs or contact people.
-- Current next task: the Coldcard **source-address evidence registry** described
-  in ALIGNMENT.md. The transaction exercise is completed; the robbed-address
-  dataset/model is not replaced by collector ranking or unrelated benchmarks.
+- The Coldcard **source-address evidence registry** is now built; see
+  `research/coldcard/source_registry_20261027/README.md`. Next: a deterministic
+  pilot of pre-payment address-history features with strict per-source cutoffs.
+  The registry has graph candidates, not verified compromised/device labels.
+  The address dataset/model is not replaced by collector ranking or benchmarks.
 - Keep the existing numbered-part structure. Write repository content in English;
   give Hugo short French updates. Avoid creating competing plans/reorganizations.
 - Before an experiment, state the requirement, unit, target/label meaning,

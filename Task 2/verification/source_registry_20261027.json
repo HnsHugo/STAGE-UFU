@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "executed_on": "2026-10-27",
+  "checks": [
+    {
+      "check": "coldcard_tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "Task 2/research/coldcard",
+        "-p",
+        "test*.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "......................................................\n----------------------------------------------------------------------\nRan 54 tests in 0.043s\n\nOK\n",
+      "tests_run": 54
+    },
+    {
+      "check": "registry_byte_reproduction",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/research/coldcard/build_source_registry.py",
+        "verify",
+        "Task 2/research/coldcard/source_registry_protocol_20261027.json",
+        "Task 2/research/coldcard/source_registry_20261027"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"command\": \"verify\",\n  \"source_addresses\": 505,\n  \"input_evidence\": 1331,\n  \"groups\": {\n    \"candidate_window\": {\n      \"receipts\": 500,\n      \"received_sat\": 59447722484,\n      \"input_slots\": 1324,\n      \"input_value_sat\": 59451379184,\n      \"fees_sat\": 3656700,\n      \"missing_prevouts\": 0,\n      \"missing_input_addresses\": 0,\n      \"coinbase_inputs\": 0,\n      \"self_input_slots\": 0,\n      \"value_unreconciled_transactions\": 0,\n      \"multi_source_address_transactions\": 0,\n      \"received_outputs_later_consumed\": 341,\n      \"inputs_per_transaction\": {\n        \"1\": 419,\n        \"2\": 32,\n        \"3\": 18,\n        \"4\": 8,\n        \"5\": 1,\n        \"6\": 1,\n        \"7\": 2,\n        \"10\": 2,\n        \"11\": 2,\n        \"13\": 2,\n        \"14\": 2,\n        \"16\": 1,\n        \"19\": 1,\n        \"23\": 1,\n        \"27\": 1,\n        \"33\": 1,\n        \"39\": 1,\n        \"41\": 1,\n        \"60\": 1,\n        \"71\": 1,\n        \"105\": 1,\n        \"200\": 1\n      },\n      \"outputs_per_transaction\": {\n        \"1\": 500\n      },\n      \"distinct_source_addresses\": 500,\n      \"receipt_confirmation_span\": {\n        \"first_utc\": \"2026-07-30T01:36:08+00:00\",\n        \"last_utc\": \"2026-07-30T01:51:26+00:00\",\n        \"seconds\": 918\n      }\n    },\n    \"outside_candidate_window\": {\n      \"receipts\": 6,\n      \"received_sat\": 5547,\n      \"input_slots\": 7,\n      \"input_value_sat\": 352581,\n      \"fees_sat\": 4263,\n      \"missing_prevouts\": 0,\n      \"missing_input_addresses\": 0,\n      \"coinbase_inputs\": 0,\n      \"self_input_slots\": 0,\n      \"value_unreconciled_transactions\": 0,\n      \"multi_source_address_transactions\": 0,\n      \"received_outputs_later_consumed\": 0,\n      \"inputs_per_transaction\": {\n        \"1\": 5,\n        \"2\": 1\n      },\n      \"outputs_per_transaction\": {\n        \"1\": 1,\n        \"2\": 1,\n        \"3\": 3,\n        \"4\": 1\n      },\n      \"distinct_source_addresses\": 5,\n      \"receipt_confirmation_span\": {\n        \"first_utc\": \"2026-07-31T09:44:17+00:00\",\n        \"last_utc\": \"2026-08-19T03:21:08+00:00\",\n        \"seconds\": 1618611\n      }\n    }\n  },\n  \"supervised_training_ready\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "check": "repository_integrity",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/check_repository.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"internal_links_checked\": 203,\n  \"python_files_parsed\": 94,\n  \"preserved_artifacts_checked\": 185,\n  \"errors\": [],\n  \"status\": \"passed\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "existing_output_refused_without_modification": true,
+  "detailed_tables_ignored_by_git": true,
+  "all_505_compromise_and_hardware_labels_remain_null": true,
+  "model_training_performed": false,
+  "historical_results_changed": false
+}

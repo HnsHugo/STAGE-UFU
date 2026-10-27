@@ -6,3 +6,7 @@ __pycache__/
 /Task 2/research/external_cases/fsf_history_20261014.json.gz
 /Task 2/research/external_cases/central_results_20261020/*_recipients.csv.gz
 /Task 2/research/external_cases/central_results_20261020/results.json
+# Regenerate detailed source-address evidence from the pinned committed history.
+# Commit only the protocol, aggregate summary and verification, not bulk victim claims.
+/Task 2/research/coldcard/source_registry_*/addresses.json
+/Task 2/research/coldcard/source_registry_*/input_evidence.jsonl
