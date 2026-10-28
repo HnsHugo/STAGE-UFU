@@ -8,7 +8,9 @@ now separates 500 candidate-day addresses from five later sources, with exact
 outpoint links and unknown compromise/device labels. The
 [pre-payment pilot](research/coldcard/prepayment_pilot_20261027/README.md) has
 computed fourteen prior-block features on eight complete source histories.
-Next: a bounded multi-input source subset, followed by a model when labels permit.
+The [multi-input extension](research/coldcard/multiinput_pilot_20261028/README.md)
+adds four sources with the same extractor. Next: resumable cohort collection in
+short batches, followed by a model when labels permit.
 Collector ranking remains a preserved supporting experiment, not the central
 objective or a substitute for that address dataset.
 

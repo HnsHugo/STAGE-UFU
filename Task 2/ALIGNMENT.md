@@ -113,9 +113,13 @@ eligibility gap rather than switching silently to another ML task.
 The [pre-payment pilot](research/coldcard/prepayment_pilot_20261027/README.md)
 is now executed: eight complete source histories, fourteen prior-block features,
 no earlier spending in this sample, and published offline prefix evidence.
-**Next unit:** a bounded deterministic subset of the multi-input candidate
-sources absent from that first pilot. Keep the feature definitions and strict
-prior-block cutoff fixed. Decide
+The [multi-input extension](research/coldcard/multiinput_pilot_20261028/README.md)
+is also executed: four complete histories among 81 eligible sources, unchanged
+feature extraction and no prior spending. Twelve distinct source histories are
+now available, but no individual compromise/device labels are established.
+**Next unit:** resumable cohort collection, reusing existing snapshots and
+processing one short fixed batch at a time. Keep feature definitions and the
+strict prior-block cutoff fixed. Decide
 whether the experiment is retrospective reconstruction or pre-event detection;
 these use different permissible features. Do not encode a known destination or
 later label as a shortcut to claim general hardware identification. A clearly

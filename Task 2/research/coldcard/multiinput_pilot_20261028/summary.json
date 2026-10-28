@@ -1,0 +1,184 @@
+{
+  "case_id": "coldcard_2026",
+  "collection_manifest_sha256": "7463ef9b99b482d34ea823f55dc1944f5bfebf87a743f20fc9aec4daf0e0c28b",
+  "comparison_feature_sha256": "6685a8d313bb2214481bc565588b44eb2f98f2d3b308969dcf549e867a96942b",
+  "driver_sha256": "4bca0c087a6a31d7eb11ee51951b29f1a62603c2ecffb9be67cf0595c5fc07c9",
+  "eligible_population": 81,
+  "feature_count": 14,
+  "feature_extractor_sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701",
+  "incident_groups": 1,
+  "limitations": [
+    "Small selected subsets; not independent incidents or a population estimate",
+    "Retrospective case-conditioned cohort; hardware/compromise labels remain unknown",
+    "Whole reference-payment block excluded; prior activity in that block is omitted",
+    "Incomplete histories cannot produce zero-valued features; failures are not replaced",
+    "No legitimate controls, model fitting, performance metric or cryptographic inclusion proof"
+  ],
+  "multi_input": {
+    "computed": 4,
+    "prior_transactions": 9,
+    "ranges": {
+      "active_block_count": {
+        "max": 3,
+        "min": 2,
+        "nonmissing": 4
+      },
+      "activity_span_blocks": {
+        "max": 241566,
+        "min": 1,
+        "nonmissing": 4
+      },
+      "balance_sat": {
+        "max": 1000000624,
+        "min": 39146846,
+        "nonmissing": 4
+      },
+      "blocks_since_first_activity": {
+        "max": 261231,
+        "min": 62293,
+        "nonmissing": 4
+      },
+      "blocks_since_last_activity": {
+        "max": 245366,
+        "min": 8722,
+        "nonmissing": 4
+      },
+      "confirmed_tx_count": {
+        "max": 3,
+        "min": 2,
+        "nonmissing": 4
+      },
+      "median_spending_tx_fee_rate_sat_vb": {
+        "max": null,
+        "min": null,
+        "nonmissing": 0
+      },
+      "receipt_tx_count": {
+        "max": 3,
+        "min": 2,
+        "nonmissing": 4
+      },
+      "received_output_count": {
+        "max": 3,
+        "min": 2,
+        "nonmissing": 4
+      },
+      "received_sat": {
+        "max": 1000000624,
+        "min": 39146846,
+        "nonmissing": 4
+      },
+      "spending_tx_count": {
+        "max": 0,
+        "min": 0,
+        "nonmissing": 4
+      },
+      "spent_output_count": {
+        "max": 0,
+        "min": 0,
+        "nonmissing": 4
+      },
+      "spent_sat": {
+        "max": 0,
+        "min": 0,
+        "nonmissing": 4
+      },
+      "unspent_output_count": {
+        "max": 3,
+        "min": 2,
+        "nonmissing": 4
+      }
+    },
+    "selected": 4,
+    "sources_with_prior_spending": 0
+  },
+  "previous_eight": {
+    "computed": 8,
+    "prior_transactions": 8,
+    "ranges": {
+      "active_block_count": {
+        "max": 1,
+        "min": 1,
+        "nonmissing": 8
+      },
+      "activity_span_blocks": {
+        "max": 0,
+        "min": 0,
+        "nonmissing": 8
+      },
+      "balance_sat": {
+        "max": 134377744,
+        "min": 21450000,
+        "nonmissing": 8
+      },
+      "blocks_since_first_activity": {
+        "max": 268153,
+        "min": 22671,
+        "nonmissing": 8
+      },
+      "blocks_since_last_activity": {
+        "max": 268153,
+        "min": 22671,
+        "nonmissing": 8
+      },
+      "confirmed_tx_count": {
+        "max": 1,
+        "min": 1,
+        "nonmissing": 8
+      },
+      "median_spending_tx_fee_rate_sat_vb": {
+        "max": null,
+        "min": null,
+        "nonmissing": 0
+      },
+      "receipt_tx_count": {
+        "max": 1,
+        "min": 1,
+        "nonmissing": 8
+      },
+      "received_output_count": {
+        "max": 1,
+        "min": 1,
+        "nonmissing": 8
+      },
+      "received_sat": {
+        "max": 134377744,
+        "min": 21450000,
+        "nonmissing": 8
+      },
+      "spending_tx_count": {
+        "max": 0,
+        "min": 0,
+        "nonmissing": 8
+      },
+      "spent_output_count": {
+        "max": 0,
+        "min": 0,
+        "nonmissing": 8
+      },
+      "spent_sat": {
+        "max": 0,
+        "min": 0,
+        "nonmissing": 8
+      },
+      "unspent_output_count": {
+        "max": 1,
+        "min": 1,
+        "nonmissing": 8
+      }
+    },
+    "selected": 8,
+    "sources_with_prior_spending": 0
+  },
+  "protocol_sha256": "3d3b55aa4e17f21813eb6ba104023a7a16ad855f46834714ea35470c69aec86b",
+  "selected_payment_input_counts": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "status": "complete",
+  "training_performed": false,
+  "verified_compromise_labels": 0,
+  "verified_hardware_labels": 0
+}

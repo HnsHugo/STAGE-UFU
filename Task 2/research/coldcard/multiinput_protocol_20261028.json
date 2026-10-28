@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "case_id": "coldcard_2026",
+  "registry_protocol_file": "source_registry_protocol_20261027.json",
+  "registry_protocol_sha256": "75abe6458bc7bda64b0fd6c94a7c145f352dc60050c367ae5b6ca1a5bee31f47",
+  "registry_address_table_sha256": "b4661f15fd9e9f7c69b52cd9fd90ed46bf9cd41035449364f8e1847161cd2824",
+  "feature_extractor_sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701",
+  "comparison_feature_file": "prepayment_pilot_20261027/features.json",
+  "comparison_feature_sha256": "6685a8d313bb2214481bc565588b44eb2f98f2d3b308969dcf549e867a96942b",
+  "population_scope": "candidate_window",
+  "min_payment_inputs": 2,
+  "sample_size": 4,
+  "sampling_prefix": "coldcard-multi-input-pilot-v1:42:",
+  "sampling": "Four smallest SHA256(prefix + address) values among the 81 candidate sources with at least two inputs in their unique collector payment; fixed before API requests, without replacing failures.",
+  "provider": "https://blockstream.info/api",
+  "max_pages_per_address": 12,
+  "timeout_seconds": 8,
+  "workers": 2,
+  "cutoff": "Unchanged extractor: only confirmed transactions at heights strictly below each reference-payment block; exclude that entire block and later activity.",
+  "evaluation": "Descriptive extension only, no training/test split. One incident group, unknown compromise/hardware labels, no legitimate controls. Compare to the existing eight-source pilot without recollecting or altering it.",
+  "publication": "Prefix-only evidence, feature vectors, collection/selection hashes and aggregate comparison; raw address histories remain local under ignored raw/."
+}

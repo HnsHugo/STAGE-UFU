@@ -12,7 +12,9 @@ five later addresses retained separately. All compromise/hardware labels remain
 unknown; the transaction corpus below still describes a different observation
 unit. The [pre-payment pilot](../research/coldcard/prepayment_pilot_20261027/README.md)
 now supplies fourteen cutoff-safe features for eight complete source histories;
-the next subset covers multi-input sources. See [Alignment](../ALIGNMENT.md).
+the [multi-input extension](../research/coldcard/multiinput_pilot_20261028/README.md)
+adds four more complete histories with unchanged definitions. Next is resumable
+cohort collection. See [Alignment](../ALIGNMENT.md).
 
 ## Inputs and coverage
 

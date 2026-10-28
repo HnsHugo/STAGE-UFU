@@ -1,4 +1,4 @@
-# Project status — 27 October 2026
+# Project status — 28 October 2026
 
 ## Current priority
 
@@ -11,11 +11,21 @@ addresses kept separate. The [pre-payment pilot](research/coldcard/prepayment_pi
 has now collected eight complete source histories and computed fourteen strictly
 prior-block features for each. All eight have one earlier receipt and no earlier
 spending; nine columns are constant and the spending-fee column is missing.
-Next: a small deterministic multi-input source subset. Collector rankings remain
-supporting results. No model was fitted; compromise/device labels remain unknown.
+The [multi-input extension](research/coldcard/multiinput_pilot_20261028/README.md)
+adds four complete histories and the same fourteen features. They have two or
+three prior receipts and no prior spending. There are now twelve distinct source
+histories; all remain in one incident group with unknown compromise/device labels.
+Next: resumable collection for the candidate cohort, one short batch at a time.
+Collector rankings remain supporting results. No model was fitted.
 
 ## Completed work
 
+- [Multi-input source pilot](research/coldcard/multiinput_pilot_20261028/README.md):
+  four deterministically selected sources among 81 eligible candidates, complete
+  bounded collection and an unchanged feature extractor. Nine prior transaction
+  IDs are distinct and do not overlap the first pilot. Four small received
+  outputs (294, 294, 294 and 330 satoshis) were retained. Labels remain unknown;
+  neither 4/4 data coverage nor the twelve-source combined set is model accuracy.
 - [Pre-payment source feature pilot](research/coldcard/prepayment_pilot_20261027/README.md):
   eight fixed SHA256-selected sources, eight complete two-transaction histories,
   prior-block UTXO reconstruction and fourteen feature definitions. Published
@@ -57,7 +67,7 @@ FSF shares two multi-recipient transactions with training addresses. This is obs
 ## Partial or blocked
 
 - Robbed source-address dataset/model: graph-evidence registry completed, but
-  per-address compromise/device labels, source-history coverage beyond the eight
+  per-address compromise/device labels, source-history coverage beyond the twelve
   pilot addresses and documented controls are missing. The supervised classifier
   is not completed. Historical spending-fee features cannot be inferred from the
   reference payment when no prior source spending exists.
@@ -80,8 +90,8 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Extend the fixed pre-payment extractor to a small prespecified deterministic
-subset of the 81 multi-input candidate sources. Bound pagination, retain missing
-coverage and do not replace failures. Keep the same strict prior-block cutoffs
-and unknown labels. Do not repeat the completed eight-source pilot or return to
-recipient ranking.
+Build resumable collection over the 500 candidate sources, reuse the twelve
+existing source snapshots and process one short fixed batch. Keep bounded API
+requests, coverage reporting and the frozen fourteen-feature extractor with
+strict prior-block cutoffs. Do not repeat the two pilots, replace missing records
+with convenient examples or return to recipient ranking.

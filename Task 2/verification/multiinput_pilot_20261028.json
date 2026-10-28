@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "executed_on": "2026-10-28",
+  "checks": [
+    {
+      "check": "coldcard_tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "Task 2/research/coldcard",
+        "-p",
+        "test*.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "....................................................................\n----------------------------------------------------------------------\nRan 68 tests in 0.044s\n\nOK\n",
+      "tests_run": 68
+    },
+    {
+      "check": "multiinput_raw_reproduction",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/research/coldcard/multiinput_pilot.py",
+        "reproduce",
+        "Task 2/research/coldcard/multiinput_protocol_20261028.json",
+        "Task 2/research/coldcard/multiinput_pilot_20261028"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"case_id\": \"coldcard_2026\",\n  \"collection_manifest_sha256\": \"7463ef9b99b482d34ea823f55dc1944f5bfebf87a743f20fc9aec4daf0e0c28b\",\n  \"comparison_feature_sha256\": \"6685a8d313bb2214481bc565588b44eb2f98f2d3b308969dcf549e867a96942b\",\n  \"driver_sha256\": \"4bca0c087a6a31d7eb11ee51951b29f1a62603c2ecffb9be67cf0595c5fc07c9\",\n  \"eligible_population\": 81,\n  \"feature_count\": 14,\n  \"feature_extractor_sha256\": \"b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701\",\n  \"incident_groups\": 1,\n  \"limitations\": [\n    \"Small selected subsets; not independent incidents or a population estimate\",\n    \"Retrospective case-conditioned cohort; hardware/compromise labels remain unknown\",\n    \"Whole reference-payment block excluded; prior activity in that block is omitted\",\n    \"Incomplete histories cannot produce zero-valued features; failures are not replaced\",\n    \"No legitimate controls, model fitting, performance metric or cryptographic inclusion proof\"\n  ],\n  \"multi_input\": {\n    \"computed\": 4,\n    \"prior_transactions\": 9,\n    \"ranges\": {\n      \"active_block_count\": {\n        \"max\": 3,\n        \"min\": 2,\n        \"nonmissing\": 4\n      },\n      \"activity_span_blocks\": {\n        \"max\": 241566,\n        \"min\": 1,\n        \"nonmissing\": 4\n      },\n      \"balance_sat\": {\n        \"max\": 1000000624,\n        \"min\": 39146846,\n        \"nonmissing\": 4\n      },\n      \"blocks_since_first_activity\": {\n        \"max\": 261231,\n        \"min\": 62293,\n        \"nonmissing\": 4\n      },\n      \"blocks_since_last_activity\": {\n        \"max\": 245366,\n        \"min\": 8722,\n        \"nonmissing\": 4\n      },\n      \"confirmed_tx_count\": {\n        \"max\": 3,\n        \"min\": 2,\n        \"nonmissing\": 4\n      },\n      \"median_spending_tx_fee_rate_sat_vb\": {\n        \"max\": null,\n        \"min\": null,\n        \"nonmissing\": 0\n      },\n      \"receipt_tx_count\": {\n        \"max\": 3,\n        \"min\": 2,\n        \"nonmissing\": 4\n      },\n      \"received_output_count\": {\n        \"max\": 3,\n        \"min\": 2,\n        \"nonmissing\": 4\n      },\n      \"received_sat\": {\n        \"max\": 1000000624,\n        \"min\": 39146846,\n        \"nonmissing\": 4\n      },\n      \"spending_tx_count\": {\n        \"max\": 0,\n        \"min\": 0,\n        \"nonmissing\": 4\n      },\n      \"spent_output_count\": {\n        \"max\": 0,\n        \"min\": 0,\n        \"nonmissing\": 4\n      },\n      \"spent_sat\": {\n        \"max\": 0,\n        \"min\": 0,\n        \"nonmissing\": 4\n      },\n      \"unspent_output_count\": {\n        \"max\": 3,\n        \"min\": 2,\n        \"nonmissing\": 4\n      }\n    },\n    \"selected\": 4,\n    \"sources_with_prior_spending\": 0\n  },\n  \"previous_eight\": {\n    \"computed\": 8,\n    \"prior_transactions\": 8,\n    \"ranges\": {\n      \"active_block_count\": {\n        \"max\": 1,\n        \"min\": 1,\n        \"nonmissing\": 8\n      },\n      \"activity_span_blocks\": {\n        \"max\": 0,\n        \"min\": 0,\n        \"nonmissing\": 8\n      },\n      \"balance_sat\": {\n        \"max\": 134377744,\n        \"min\": 21450000,\n        \"nonmissing\": 8\n      },\n      \"blocks_since_first_activity\": {\n        \"max\": 268153,\n        \"min\": 22671,\n        \"nonmissing\": 8\n      },\n      \"blocks_since_last_activity\": {\n        \"max\": 268153,\n        \"min\": 22671,\n        \"nonmissing\": 8\n      },\n      \"confirmed_tx_count\": {\n        \"max\": 1,\n        \"min\": 1,\n        \"nonmissing\": 8\n      },\n      \"median_spending_tx_fee_rate_sat_vb\": {\n        \"max\": null,\n        \"min\": null,\n        \"nonmissing\": 0\n      },\n      \"receipt_tx_count\": {\n        \"max\": 1,\n        \"min\": 1,\n        \"nonmissing\": 8\n      },\n      \"received_output_count\": {\n        \"max\": 1,\n        \"min\": 1,\n        \"nonmissing\": 8\n      },\n      \"received_sat\": {\n        \"max\": 134377744,\n        \"min\": 21450000,\n        \"nonmissing\": 8\n      },\n      \"spending_tx_count\": {\n        \"max\": 0,\n        \"min\": 0,\n        \"nonmissing\": 8\n      },\n      \"spent_output_count\": {\n        \"max\": 0,\n        \"min\": 0,\n        \"nonmissing\": 8\n      },\n      \"spent_sat\": {\n        \"max\": 0,\n        \"min\": 0,\n        \"nonmissing\": 8\n      },\n      \"unspent_output_count\": {\n        \"max\": 1,\n        \"min\": 1,\n        \"nonmissing\": 8\n      }\n    },\n    \"selected\": 8,\n    \"sources_with_prior_spending\": 0\n  },\n  \"protocol_sha256\": \"3d3b55aa4e17f21813eb6ba104023a7a16ad855f46834714ea35470c69aec86b\",\n  \"selected_payment_input_counts\": [\n    3,\n    2,\n    2,\n    2\n  ],\n  \"status\": \"complete\",\n  \"training_performed\": false,\n  \"verified_compromise_labels\": 0,\n  \"verified_hardware_labels\": 0\n}\n\n",
+      "stderr": ""
+    },
+    {
+      "check": "multiinput_offline_reproduction",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/research/coldcard/multiinput_pilot.py",
+        "verify",
+        "Task 2/research/coldcard/multiinput_protocol_20261028.json",
+        "Task 2/research/coldcard/multiinput_pilot_20261028"
+      ],
+      "exit_code": 0,
+      "stdout": "Offline evidence reproduces 4 multi-input source vectors\n",
+      "stderr": ""
+    },
+    {
+      "check": "first_pilot_preservation",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/research/coldcard/prepayment_pilot.py",
+        "reproduce",
+        "Task 2/research/coldcard/prepayment_protocol_20261027.json",
+        "Task 2/research/coldcard/prepayment_pilot_20261027"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"all_missing_features\": [\n    \"median_spending_tx_fee_rate_sat_vb\"\n  ],\n  \"case_id\": \"coldcard_2026\",\n  \"collection_manifest_sha256\": \"991d287db97de5325d1945909a4a83647f566aa0947ce4ecf38e40458c7b282b\",\n  \"computed_sources\": 8,\n  \"constant_nonmissing_features\": [\n    \"confirmed_tx_count\",\n    \"receipt_tx_count\",\n    \"spending_tx_count\",\n    \"received_output_count\",\n    \"spent_output_count\",\n    \"spent_sat\",\n    \"unspent_output_count\",\n    \"active_block_count\",\n    \"activity_span_blocks\"\n  ],\n  \"duplicate_variable_feature_pairs\": [\n    [\n      \"received_sat\",\n      \"balance_sat\"\n    ],\n    [\n      \"blocks_since_first_activity\",\n      \"blocks_since_last_activity\"\n    ]\n  ],\n  \"feature_count\": 14,\n  \"feature_ranges\": {\n    \"active_block_count\": {\n      \"max\": 1,\n      \"min\": 1,\n      \"nonmissing\": 8\n    },\n    \"activity_span_blocks\": {\n      \"max\": 0,\n      \"min\": 0,\n      \"nonmissing\": 8\n    },\n    \"balance_sat\": {\n      \"max\": 134377744,\n      \"min\": 21450000,\n      \"nonmissing\": 8\n    },\n    \"blocks_since_first_activity\": {\n      \"max\": 268153,\n      \"min\": 22671,\n      \"nonmissing\": 8\n    },\n    \"blocks_since_last_activity\": {\n      \"max\": 268153,\n      \"min\": 22671,\n      \"nonmissing\": 8\n    },\n    \"confirmed_tx_count\": {\n      \"max\": 1,\n      \"min\": 1,\n      \"nonmissing\": 8\n    },\n    \"median_spending_tx_fee_rate_sat_vb\": {\n      \"max\": null,\n      \"min\": null,\n      \"nonmissing\": 0\n    },\n    \"receipt_tx_count\": {\n      \"max\": 1,\n      \"min\": 1,\n      \"nonmissing\": 8\n    },\n    \"received_output_count\": {\n      \"max\": 1,\n      \"min\": 1,\n      \"nonmissing\": 8\n    },\n    \"received_sat\": {\n      \"max\": 134377744,\n      \"min\": 21450000,\n      \"nonmissing\": 8\n    },\n    \"spending_tx_count\": {\n      \"max\": 0,\n      \"min\": 0,\n      \"nonmissing\": 8\n    },\n    \"spent_output_count\": {\n      \"max\": 0,\n      \"min\": 0,\n      \"nonmissing\": 8\n    },\n    \"spent_sat\": {\n      \"max\": 0,\n      \"min\": 0,\n      \"nonmissing\": 8\n    },\n    \"unspent_output_count\": {\n      \"max\": 1,\n      \"min\": 1,\n      \"nonmissing\": 8\n    }\n  },\n  \"generator_script_sha256\": \"b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701\",\n  \"incident_groups\": 1,\n  \"limitations\": [\n    \"Retrospective case-conditioned sample, not prospective detection or an independent test\",\n    \"All compromise/hardware labels remain unknown; no legitimate controls\",\n    \"Entire payment block excluded; intra-block prior activity is deliberately omitted\",\n    \"Sample is small and not representative; collection failures are not replaced\",\n    \"Complete provider counters do not prove cryptographic inclusion or historical API availability\",\n    \"Address history is not a complete wallet/entity history; fee features concern spending transactions, not proven device policy\"\n  ],\n  \"prior_transaction_count\": 8,\n  \"protocol_sha256\": \"483f965b0adbac0ed1528ee397ea0be6c840734ea4d75ca8acd7a9935d0d0495\",\n  \"sample_sources_with_multiple_payment_inputs\": 0,\n  \"schema_version\": 1,\n  \"selected_sources\": 8,\n  \"sources_with_prior_spending\": 0,\n  \"status\": \"complete\",\n  \"training_performed\": false,\n  \"unavailable_sources\": 0\n}\n\n",
+      "stderr": ""
+    },
+    {
+      "check": "repository_integrity",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/check_repository.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"internal_links_checked\": 226,\n  \"python_files_parsed\": 98,\n  \"preserved_artifacts_checked\": 185,\n  \"errors\": [],\n  \"status\": \"passed\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "offline_verification_requires_no_network": true,
+  "altered_cutoff_rejected": true,
+  "raw_histories_ignored_by_git": true,
+  "source_hash_overlap_with_first_pilot": 0,
+  "multi_prior_transaction_observations": 9,
+  "multi_unique_prior_transactions": 9,
+  "multi_transactions_shared_between_sources": 0,
+  "prior_transaction_overlap_with_first_pilot": 0,
+  "incident_groups": 1,
+  "training_performed": false
+}

@@ -11,8 +11,10 @@ plans and older report recommendations.
   `research/coldcard/source_registry_20261027/README.md`. The pre-payment pilot
   also ran: eight complete source histories, fourteen features, strict prior-block
   cutoff; see `research/coldcard/prepayment_pilot_20261027/README.md`.
-  Next: a small prespecified deterministic multi-input source-history subset,
-  using the fixed extractor and a bounded collection budget.
+  The multi-input extension also ran: four complete source histories and the
+  same fourteen features; see `research/coldcard/multiinput_pilot_20261028/README.md`.
+  Next: resumable collection over the 500 candidate sources, reusing the twelve
+  available histories and processing one short fixed batch per unit.
   The registry has graph candidates, not verified compromised/device labels.
   The address dataset/model is not replaced by collector ranking or benchmarks.
 - Keep the existing numbered-part structure. Write repository content in English;
