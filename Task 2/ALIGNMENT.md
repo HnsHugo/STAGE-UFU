@@ -117,9 +117,12 @@ The [multi-input extension](research/coldcard/multiinput_pilot_20261028/README.m
 is also executed: four complete histories among 81 eligible sources, unchanged
 feature extraction and no prior spending. Twelve distinct source histories are
 now available, but no individual compromise/device labels are established.
-**Next unit:** resumable cohort collection, reusing existing snapshots and
-processing one short fixed batch at a time. Keep feature definitions and the
-strict prior-block cutoff fixed. Decide
+The [resumable cohort pipeline](research/coldcard/source_cohort_20261028/README.md)
+is executed through batch 1: 30 complete histories, two timeouts and 468 pending
+sources. Its checkpoint can restore feature-complete records without raw files.
+**Next unit:** one further fixed batch of at most twenty pending sources, verify
+and publish `batch_0002`. Keep feature definitions and the strict prior-block
+cutoff fixed. Decide
 whether the experiment is retrospective reconstruction or pre-event detection;
 these use different permissible features. Do not encode a known destination or
 later label as a shortcut to claim general hardware identification. A clearly

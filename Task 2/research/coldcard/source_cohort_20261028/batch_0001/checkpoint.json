@@ -1,0 +1,1941 @@
+{
+  "batches": [
+    {
+      "batch_id": 1,
+      "source_ids": [
+        "cohort_0001",
+        "cohort_0002",
+        "cohort_0003",
+        "cohort_0004",
+        "cohort_0005",
+        "cohort_0006",
+        "cohort_0007",
+        "cohort_0008",
+        "cohort_0009",
+        "cohort_0010",
+        "cohort_0011",
+        "cohort_0012",
+        "cohort_0013",
+        "cohort_0014",
+        "cohort_0015",
+        "cohort_0016",
+        "cohort_0017",
+        "cohort_0018",
+        "cohort_0019",
+        "cohort_0020"
+      ],
+      "status": "completed"
+    }
+  ],
+  "entries": {
+    "cohort_0001": {
+      "address_sha256": "7b3f4c1341fc6312178f58f2c4ac64febab7a2cae1b864e64c1e8149814a79a5",
+      "collected_at": "2026-10-28T18:58:51.431443+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960190,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 48000000,
+        "blocks_since_first_activity": 224789,
+        "blocks_since_last_activity": 224789,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 48000000,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 48000000,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 48000000,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 735401,
+          "received": [
+            {
+              "outpoint_id": "88e30f2b5bc7401186efe045b49220a9652d85acbe2705d556f30b9e46593209",
+              "value_sat": 48000000
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "23b36f02f4a2b8519692f1b4cd78e0351ba9a457ec879c5098fc8e60aa3c3951"
+        }
+      ],
+      "raw_bytes": 5363,
+      "raw_file": "raw/cohort_0001.json.gz",
+      "raw_sha256": "26095ea268038dcfb9b21a8f7451916cf4db3fcd0d6b0e13c7c91b048bf1314f",
+      "source_id": "cohort_0001",
+      "status": "complete"
+    },
+    "cohort_0002": {
+      "address_sha256": "e41e67283ad83c0f976de61d1c459b2603f68d4c994807a0cb5fbf408021ea49",
+      "collected_at": "2026-10-28T18:58:51.429537+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960189,
+      "features": {
+        "active_block_count": 5,
+        "activity_span_blocks": 37921,
+        "balance_sat": 78962661,
+        "blocks_since_first_activity": 71540,
+        "blocks_since_last_activity": 33619,
+        "confirmed_tx_count": 5,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 5,
+        "received_output_count": 5,
+        "received_sat": 78962661,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 5
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 5,
+          "funded_txo_sum": 78962661,
+          "spent_txo_count": 5,
+          "spent_txo_sum": 78962661,
+          "tx_count": 6
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 888649,
+          "received": [
+            {
+              "outpoint_id": "7060d5d2010ae927a2dffc019d19239c8d3c32645a032c753ce61715a49c0fbc",
+              "value_sat": 10000
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "9f796d6b1af56c5de4c2bd44a11f594d0d30e4af1d9a6a33a8d430b385a1f970"
+        },
+        {
+          "height": 888802,
+          "received": [
+            {
+              "outpoint_id": "1508aa99356fbae4d7c198bde8f0d72356032625e32838ace75cfb8d5b8c0044",
+              "value_sat": 65032514
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "384515d87abf9924be298a5ce5ff5b079b5f42666cda97e7a9bf0fcdc72a9b1f"
+        },
+        {
+          "height": 925608,
+          "received": [
+            {
+              "outpoint_id": "f1618dc1141717275f24d7d8e272a575545967b611c63fcaa3e91e3df65e0f40",
+              "value_sat": 6833661
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "2483f392c1897523ea2581681c6966f9aaa52241a9d684aadb8e5ce876e20487"
+        },
+        {
+          "height": 926045,
+          "received": [
+            {
+              "outpoint_id": "0c59ac1e4be0abe76ec5f44d0fdbb153d3d83384940f14c1d7aeff428d6691bc",
+              "value_sat": 1643251
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "58b86db99a011523fa4bff4a1e365c67fed88fec018cc9854716493cf1fbf395"
+        },
+        {
+          "height": 926570,
+          "received": [
+            {
+              "outpoint_id": "ed69019bc6a0186b58d75d1eadeee845e7b08dd6a9b370a61ef449a6593bcda7",
+              "value_sat": 5443235
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "0b980c6f7f20a1792c14cc2ba1f1fbb511888da24338af744a7c73690e747de2"
+        }
+      ],
+      "raw_bytes": 15518,
+      "raw_file": "raw/cohort_0002.json.gz",
+      "raw_sha256": "a51f93fdb33cdca0e654759051f57c8f1aba4c224133d660b83ec859d6e02cb4",
+      "source_id": "cohort_0002",
+      "status": "complete"
+    },
+    "cohort_0003": {
+      "address_sha256": "ab2eae427ae7e678c86523b1b598942ecf843e09535d01b1f1bd3313bfc5b49c",
+      "collected_at": "2026-10-28T18:59:11.112401+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960191,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 15000000,
+        "blocks_since_first_activity": 238399,
+        "blocks_since_last_activity": 238399,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 15000000,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 15000000,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 15000000,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 721792,
+          "received": [
+            {
+              "outpoint_id": "4382cbc65446ef8429aedbac87d63bdb0b497f87e0e11d786b88e019b49898fc",
+              "value_sat": 15000000
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "ad383f84c24faab0174c49a08e4f2f6fed8579ae8881f75578bebd3bc58a3f9a"
+        }
+      ],
+      "raw_bytes": 1985,
+      "raw_file": "raw/cohort_0003.json.gz",
+      "raw_sha256": "efa54f80e65db1e7fe002a1265f6297146c5df9f4684104279397340797d304c",
+      "source_id": "cohort_0003",
+      "status": "complete"
+    },
+    "cohort_0004": {
+      "address_sha256": "eaede081a1d99a7c6a888f2789d3e28fcaeed9bf6da59f81b34a0452b75c13b1",
+      "collected_at": "2026-10-28T18:59:11.112898+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960191,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 18797132,
+        "blocks_since_first_activity": 264901,
+        "blocks_since_last_activity": 264901,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 18797132,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 18797132,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 18797132,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 695290,
+          "received": [
+            {
+              "outpoint_id": "ae626e1ac50113c3167e8a3ee0977d22033be8588cd6f5c974a748cb4640b005",
+              "value_sat": 18797132
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "26428bffda6587d86f7abdc40d3e73c46fd6d4ff34ba28f84a85a1d1ff6b3a35"
+        }
+      ],
+      "raw_bytes": 5714,
+      "raw_file": "raw/cohort_0004.json.gz",
+      "raw_sha256": "3f49fe1321a1eafe14882814b998ad49fd3c58a60c414202044de2ee9ce5dbd4",
+      "source_id": "cohort_0004",
+      "status": "complete"
+    },
+    "cohort_0005": {
+      "address_sha256": "5433e4d34d503ff4d4165382e65d5f96e01a5b1c78a51c7548fa5edce304c81a",
+      "collected_at": "2026-10-28T18:59:30.974403+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960190,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 50000000,
+        "blocks_since_first_activity": 72683,
+        "blocks_since_last_activity": 72683,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 50000000,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 50000000,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 50000000,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 887507,
+          "received": [
+            {
+              "outpoint_id": "951397f7fafcac43be93b2c14b333cf1b0a3807ad09b90a5240e9fbe55c3c28b",
+              "value_sat": 50000000
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "4081ff3ad15d71391898d9906adc31bef3c7653908907660935858056401ad0a"
+        }
+      ],
+      "raw_bytes": 1759,
+      "raw_file": "raw/cohort_0005.json.gz",
+      "raw_sha256": "c66fa7583199829bac37dbd71edfbc5e47e3b5feaf44fff2040e1a9cb2f9a151",
+      "source_id": "cohort_0005",
+      "status": "complete"
+    },
+    "cohort_0006": {
+      "address_sha256": "4d6f14cb91f3c270536b203dccad8c4ca4f129bc2c9ecf68d9b57af6cbafd6a7",
+      "collected_at": "2026-10-28T18:59:30.977479+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960189,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 113994145,
+        "blocks_since_first_activity": 248068,
+        "blocks_since_last_activity": 248068,
+        "confirmed_tx_count": 2,
+        "median_spending_tx_fee_rate_sat_vb": 17.0,
+        "receipt_tx_count": 2,
+        "received_output_count": 2,
+        "received_sat": 227990160,
+        "spending_tx_count": 1,
+        "spent_output_count": 1,
+        "spent_sat": 113996015,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 2,
+          "funded_txo_sum": 227990160,
+          "spent_txo_count": 2,
+          "spent_txo_sum": 227990160,
+          "tx_count": 3
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 712121,
+          "received": [
+            {
+              "outpoint_id": "51ac372e9f4b6889d3abf22ee04c48c1b4a6c6c4f471497a34b029075560c5dc",
+              "value_sat": 113996015
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "cc8a467717757dbca417c634c2747ef0e3056dc90e2ea83f51456d769ceced88"
+        },
+        {
+          "height": 712121,
+          "received": [
+            {
+              "outpoint_id": "95bcd2fd50d2ba3ed2005e6b386a330278a6da94145afb2afe87544017c23566",
+              "value_sat": 113994145
+            }
+          ],
+          "spending_tx_fee_sat": 1870,
+          "spending_tx_vsize_vb": 110,
+          "spent": [
+            {
+              "outpoint_id": "51ac372e9f4b6889d3abf22ee04c48c1b4a6c6c4f471497a34b029075560c5dc",
+              "value_sat": 113996015
+            }
+          ],
+          "transaction_id": "fa949394e5588215522f920dc26f249e102e0f7779575e3d76d4cbf49b55061f"
+        }
+      ],
+      "raw_bytes": 1503,
+      "raw_file": "raw/cohort_0006.json.gz",
+      "raw_sha256": "097e32fd456fc4919ed04eafc05cc5f78376a885d539e6be9e92a13f152db589",
+      "source_id": "cohort_0006",
+      "status": "complete"
+    },
+    "cohort_0007": {
+      "address_sha256": "b662bf7464f5264817a615e7219f88f61031b74387d463584b69ecdb524a6271",
+      "collected_at": "2026-10-28T18:59:50.545589+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960191,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 19998000,
+        "blocks_since_first_activity": 235958,
+        "blocks_since_last_activity": 235958,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 19998000,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 19998000,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 19998000,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 724233,
+          "received": [
+            {
+              "outpoint_id": "e7e7687ed9923be492661a8b24ce2a90279dc67a2db60e95ecb5cc251dadd1d2",
+              "value_sat": 19998000
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "5c5734f2f74b3f1691318e29e4fc04715ab2192c60d6b39363302fa67b81ace4"
+        }
+      ],
+      "raw_bytes": 3509,
+      "raw_file": "raw/cohort_0007.json.gz",
+      "raw_sha256": "dc89ece3bb84cbb6c83c273c73e35398e76850315c70fba7d16605d44e5cbf3a",
+      "source_id": "cohort_0007",
+      "status": "complete"
+    },
+    "cohort_0008": {
+      "address_sha256": "35c9c4203ae9b7c1af580a51095e6d06c52691d8a83bcee15f07455744cb337c",
+      "collected_at": "2026-10-28T18:59:50.539976+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960190,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 26278792,
+        "blocks_since_first_activity": 115882,
+        "blocks_since_last_activity": 115882,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 26278792,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 26278792,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 26278792,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 844308,
+          "received": [
+            {
+              "outpoint_id": "4cd660c70e7191397d6a6db6b88b42b0679f04358d0dc34429e2f4473cfaa6d9",
+              "value_sat": 26278792
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "89e0de73c6d9096ad50f80cb184c8a9510b6571213328c317106159a385165fe"
+        }
+      ],
+      "raw_bytes": 1380,
+      "raw_file": "raw/cohort_0008.json.gz",
+      "raw_sha256": "fe164b05d33f70a0557a3a39ca02e5fad98f68818cae83e9d406d3f28c5c840d",
+      "source_id": "cohort_0008",
+      "status": "complete"
+    },
+    "cohort_0009": {
+      "address_sha256": "4aa485a60ae3f3faf24372d443830363b30eee33b9087794d754928c0187d05e",
+      "collected_at": "2026-10-28T19:00:15.979048+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960189,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 123578491,
+        "blocks_since_first_activity": 87512,
+        "blocks_since_last_activity": 87512,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 123578491,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 123578491,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 123578491,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 872677,
+          "received": [
+            {
+              "outpoint_id": "42ddf51b576a6c236894d26351227874c67d1bed9bae3a4d9cebd895fad791c6",
+              "value_sat": 123578491
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "8bbf811e8d3c3ccb9259315c136a1e9016c580855c92ab2f8a50a9eb2d2dabba"
+        }
+      ],
+      "raw_bytes": 2740,
+      "raw_file": "raw/cohort_0009.json.gz",
+      "raw_sha256": "5c656461cd3ca3b68341686f28f886a62838be5888ab1c5ecaa856727fb31285",
+      "source_id": "cohort_0009",
+      "status": "complete"
+    },
+    "cohort_0010": {
+      "address_sha256": "db07cc0d179659c59beacf40452ddda574cc819044957f7511000555c63c213c",
+      "collected_at": "2026-10-28T19:00:15.977415+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960191,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 24000000,
+        "blocks_since_first_activity": 261874,
+        "blocks_since_last_activity": 261874,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 24000000,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 24000000,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 24000000,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 698317,
+          "received": [
+            {
+              "outpoint_id": "3557093a461e4dc958e515a0df438c6eb573801c2e5d8a4baa80a8875788595d",
+              "value_sat": 24000000
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "8ac76cbe8d0361db74f5e1ce793bdc110eb6d3929e46e4cbad2a5657028d6684"
+        }
+      ],
+      "raw_bytes": 6794,
+      "raw_file": "raw/cohort_0010.json.gz",
+      "raw_sha256": "40a57ecbffc6de409207a89863018777aed9679f27d862accbc7826931ea4c2c",
+      "source_id": "cohort_0010",
+      "status": "complete"
+    },
+    "cohort_0011": {
+      "address_sha256": "b550449c65f1e743372a5923003c7501697dce1b3cc3f76ffeadc27ecbbfdaa0",
+      "collected_at": "2026-10-28T19:00:36.405326+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960191,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 22813071,
+        "blocks_since_first_activity": 235898,
+        "blocks_since_last_activity": 235898,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 22813071,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 22813071,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 22813071,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 724293,
+          "received": [
+            {
+              "outpoint_id": "ab008e1a446c8dd0e7a10d1fc9ee8d53ae3b34536cce03de2345686e04731b60",
+              "value_sat": 22813071
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "a7b499f04a0530eb5777ba3784dd776b5b05e79049c592dda25bb153792984f3"
+        }
+      ],
+      "raw_bytes": 3050,
+      "raw_file": "raw/cohort_0011.json.gz",
+      "raw_sha256": "e6e6611eaa7bf2a89426e8c724c133de4edc407f6b4546496498e7a5322ffdd3",
+      "source_id": "cohort_0011",
+      "status": "complete"
+    },
+    "cohort_0012": {
+      "address_sha256": "483b244a994d0d5c4876fc13f6d80c9b1f13f7af25598191b7eda84cfa3a43cd",
+      "collected_at": "2026-10-28T19:00:36.407444+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960188,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 500000000,
+        "blocks_since_first_activity": 35525,
+        "blocks_since_last_activity": 35525,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 500000000,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 500000000,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 500000000,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 924663,
+          "received": [
+            {
+              "outpoint_id": "752f47288f32e84c2749cf4fc2ec8fe370063af321014b8e2fa81cd4de128f51",
+              "value_sat": 500000000
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "d665a676cf94c7255ee137ea4ff070be376354afb6e487a0515b82a4cd1d7f78"
+        }
+      ],
+      "raw_bytes": 2085,
+      "raw_file": "raw/cohort_0012.json.gz",
+      "raw_sha256": "0f1e5d0c4bf2b807195e8e6ea60f4468547ff8d119d08e6fa80355541eb45931",
+      "source_id": "cohort_0012",
+      "status": "complete"
+    },
+    "cohort_0013": {
+      "address_sha256": "846562a7b450b5a88b7fc6d7cabadb5a4728e9318063b28ba2c3194afbddd51e",
+      "collected_at": "2026-10-28T19:01:00.403373+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960188,
+      "features": {
+        "active_block_count": 2,
+        "activity_span_blocks": 245195,
+        "balance_sat": 500499854,
+        "blocks_since_first_activity": 260743,
+        "blocks_since_last_activity": 15548,
+        "confirmed_tx_count": 2,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 2,
+        "received_output_count": 2,
+        "received_sat": 500499854,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 2
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 2,
+          "funded_txo_sum": 500499854,
+          "spent_txo_count": 2,
+          "spent_txo_sum": 500499854,
+          "tx_count": 3
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 699445,
+          "received": [
+            {
+              "outpoint_id": "4c30f1629ea6f26a6d4116d184a33bbe6f88721a7937e6d5a52b5570caf673ce",
+              "value_sat": 500499560
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "acfaef7121c235c2ceca67123e97a05fe1048658eb3971a5f4b128a8a1061a57"
+        },
+        {
+          "height": 944640,
+          "received": [
+            {
+              "outpoint_id": "547cf0924d7fc783c5197bef0764b9229494b09dfb97f402f1ba0f5981b533d6",
+              "value_sat": 294
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "76bb296e27c950d8788c67bec4c104349404287986c9c6c9929637122c77ee11"
+        }
+      ],
+      "raw_bytes": 2212,
+      "raw_file": "raw/cohort_0013.json.gz",
+      "raw_sha256": "d261665312054f8deba5235d60edd5ffde35b2b4e3406de038aa282a783e7ab5",
+      "source_id": "cohort_0013",
+      "status": "complete"
+    },
+    "cohort_0014": {
+      "address_sha256": "81939f574a027622f80a0a3fbcddacf51d7993f7b36bc987e7a001618633346f",
+      "collected_at": "2026-10-28T19:01:00.407615+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960190,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 31401470,
+        "blocks_since_first_activity": 256057,
+        "blocks_since_last_activity": 256057,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 31401470,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 31401470,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 31401470,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 704133,
+          "received": [
+            {
+              "outpoint_id": "1e3d89ad851cf2b11d5f8c5d02d2868f407298768a90296d8f83638496db33c0",
+              "value_sat": 31401470
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "f764dd2267e28f508ecb63cef7ba9e3e58f2fab6dc5ad071895a97dd8b3e3f45"
+        }
+      ],
+      "raw_bytes": 4110,
+      "raw_file": "raw/cohort_0014.json.gz",
+      "raw_sha256": "31f0f729268f43bfa9302cf709896be365db511739f764ad7e7404f09a459c1d",
+      "source_id": "cohort_0014",
+      "status": "complete"
+    },
+    "cohort_0015": {
+      "address_sha256": "4476fe3e3051616ca6d87ef209415523ba2c68d6484dee4f4e7ce8e2c0ee5a23",
+      "collected_at": "2026-10-28T19:01:21.136185+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960190,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 27937000,
+        "blocks_since_first_activity": 200965,
+        "blocks_since_last_activity": 200965,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 27937000,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 27937000,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 27937000,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 759225,
+          "received": [
+            {
+              "outpoint_id": "a75ec9c6ddbb85f87ee0a43f80f26575f178438a12f7e399b1710ce1ccf600f7",
+              "value_sat": 27937000
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "995c69081333fc37f75b3861e9037dbcac826eb1006989e62ec30238bb702e7e"
+        }
+      ],
+      "raw_bytes": 3873,
+      "raw_file": "raw/cohort_0015.json.gz",
+      "raw_sha256": "2381d0fc4867b2119c7dcc4a1dec3f91910bfd0cb9f81ae57bf3209515692046",
+      "source_id": "cohort_0015",
+      "status": "complete"
+    },
+    "cohort_0016": {
+      "address_sha256": "fd47acfcb533117f12bceb8de897ca5e92c0537175ed2f8863e164921fce951a",
+      "collected_at": "2026-10-28T19:01:21.138642+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960191,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 25382527,
+        "blocks_since_first_activity": 120304,
+        "blocks_since_last_activity": 120304,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 25382527,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 25382527,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 25382527,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 839887,
+          "received": [
+            {
+              "outpoint_id": "7423dfd1df901228fb63d189126f70a6c587836aec5626ad189fcf032a433faf",
+              "value_sat": 25382527
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "152f40d5a7ad39c7dedc23582f17c53be22f09e18710e246874f5548231c5bb4"
+        }
+      ],
+      "raw_bytes": 2116,
+      "raw_file": "raw/cohort_0016.json.gz",
+      "raw_sha256": "6d3b24ef77e34a8add8cfea82851feb89efc58e5d41ef45d0c31f5805af1ba8a",
+      "source_id": "cohort_0016",
+      "status": "complete"
+    },
+    "cohort_0017": {
+      "address_sha256": "a1685c308a908140e32118bd4033d249363bde8e839cc6145778105ced5564b1",
+      "collected_at": "2026-10-28T19:01:43.785987+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960190,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 29120000,
+        "blocks_since_first_activity": 204298,
+        "blocks_since_last_activity": 204298,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 29120000,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 29120000,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 29120000,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 755892,
+          "received": [
+            {
+              "outpoint_id": "1b5f19ffbe6d1f0a92d2bcd1cf360799611ecda381ac7bf2ccabac67537f29dc",
+              "value_sat": 29120000
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "36d17726dec21ab2d74f046b7b6efd87ae33d2038eb32079a72f61c1171a9c51"
+        }
+      ],
+      "raw_bytes": 3176,
+      "raw_file": "raw/cohort_0017.json.gz",
+      "raw_sha256": "a4689ad597581a67ddfbb8535ede63149b00ee1ae277dd5bb1a69dd27ec971c4",
+      "source_id": "cohort_0017",
+      "status": "complete"
+    },
+    "cohort_0018": {
+      "address_sha256": "faebe5423d37000990fab02cb39bd72fa6c25fbe1df2bcad5b1b5d9f9d4fce4e",
+      "collected_at": "2026-10-28T19:01:43.777592+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960191,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 21549127,
+        "blocks_since_first_activity": 235682,
+        "blocks_since_last_activity": 235682,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 21549127,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 21549127,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 21549127,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "network",
+      "prefix": [
+        {
+          "height": 724509,
+          "received": [
+            {
+              "outpoint_id": "f0201881737c4cf37ad4f2713f98a6b0225d766c9f6640bc5974d3e86c0b266d",
+              "value_sat": 21549127
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "7591890c967b2f2e8e37a220294d2d889c90968292170e3ea3427150e95445ea"
+        }
+      ],
+      "raw_bytes": 1622,
+      "raw_file": "raw/cohort_0018.json.gz",
+      "raw_sha256": "4f59dfdbfbc5b4fb9d4d0364513641d876b0fcde79b4f9223a484152a37a8c6a",
+      "source_id": "cohort_0018",
+      "status": "complete"
+    },
+    "cohort_0019": {
+      "address_sha256": "9806e8ef5c9dace06f063936241d8cb4d4a0e0014e63cff98e9df5fe59c02297",
+      "compromise_label": null,
+      "cutoff_height": 960190,
+      "features": null,
+      "hardware_label": null,
+      "origin": "network",
+      "prefix": null,
+      "reason": "URLError: <urlopen error timed out>",
+      "source_id": "cohort_0019",
+      "status": "error"
+    },
+    "cohort_0020": {
+      "address_sha256": "b3fc98d2b245a6ac53e267e993f22bbeb9697b0c2e67458a2199a472f4c7c967",
+      "compromise_label": null,
+      "cutoff_height": 960191,
+      "features": null,
+      "hardware_label": null,
+      "origin": "network",
+      "prefix": null,
+      "reason": "URLError: <urlopen error timed out>",
+      "source_id": "cohort_0020",
+      "status": "error"
+    },
+    "cohort_0025": {
+      "address_sha256": "0a04ca76cd967aef2ec856a6b0cc72e7d21ee10866c63ff74830b866abedcd42",
+      "collected_at": "2026-10-27T22:20:04.654758+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960189,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 97968637,
+        "blocks_since_first_activity": 264050,
+        "blocks_since_last_activity": 264050,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 97968637,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 97968637,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 97968637,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "reuse",
+      "prefix": [
+        {
+          "height": 696139,
+          "received": [
+            {
+              "outpoint_id": "b9e38bac713d6698e892b2e6857cb31a15b3a144a888b3a5d3e74b50a7b80422",
+              "value_sat": 97968637
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "81f537cfc173dff6b3f1823c35dec0891c34a8fa92f33133f77daaec8d84a6c1"
+        }
+      ],
+      "raw_bytes": 2470,
+      "raw_file": "raw/cohort_0025.json.gz",
+      "raw_sha256": "04bc2ecdbf5baf121e819d61f8ffb9ac528fdf2afa7548e55eb404c001bb2c3a",
+      "reused_manifest": "prepayment_pilot_20261027/collection_manifest.json",
+      "reused_manifest_sha256": "991d287db97de5325d1945909a4a83647f566aa0947ce4ecf38e40458c7b282b",
+      "source_id": "cohort_0025",
+      "status": "complete"
+    },
+    "cohort_0106": {
+      "address_sha256": "4338535b9b4e10e4fbe49823871a0232ad1182fde35497b30b04f3662272a659",
+      "collected_at": "2026-10-27T22:20:40.023610+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960190,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 35287891,
+        "blocks_since_first_activity": 206754,
+        "blocks_since_last_activity": 206754,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 35287891,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 35287891,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 35287891,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "reuse",
+      "prefix": [
+        {
+          "height": 753436,
+          "received": [
+            {
+              "outpoint_id": "35a46e6977332374e8cb12c9011d3321d9167f38253b22a9a8061bb9a361e171",
+              "value_sat": 35287891
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "bbeacf7fec10af5b15dc634f3b2c19d51060a3b0308d61db35a76db40a8d1412"
+        }
+      ],
+      "raw_bytes": 2530,
+      "raw_file": "raw/cohort_0106.json.gz",
+      "raw_sha256": "a88f0a25f94b9e6f8819d1c09caa3f2e9428326d66762a9ec24ae586a037a047",
+      "reused_manifest": "prepayment_pilot_20261027/collection_manifest.json",
+      "reused_manifest_sha256": "991d287db97de5325d1945909a4a83647f566aa0947ce4ecf38e40458c7b282b",
+      "source_id": "cohort_0106",
+      "status": "complete"
+    },
+    "cohort_0170": {
+      "address_sha256": "26f84b9d95e2944eeae3f931bb909b6a3b420b751bf8b2ecc602120bbe6db815",
+      "collected_at": "2026-10-28T18:45:24.108664+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960188,
+      "features": {
+        "active_block_count": 2,
+        "activity_span_blocks": 203824,
+        "balance_sat": 690361718,
+        "blocks_since_first_activity": 224236,
+        "blocks_since_last_activity": 20412,
+        "confirmed_tx_count": 2,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 2,
+        "received_output_count": 2,
+        "received_sat": 690361718,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 2
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 2,
+          "funded_txo_sum": 690361718,
+          "spent_txo_count": 2,
+          "spent_txo_sum": 690361718,
+          "tx_count": 3
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "reuse",
+      "prefix": [
+        {
+          "height": 735952,
+          "received": [
+            {
+              "outpoint_id": "d17d899532ceddad5451147d825ff0537ea056704206c17184ec61375d75fccd",
+              "value_sat": 690361424
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "cd300a73ab2896650891c59bf6ea92824b4cb686a83cf2582a1345cb907831fd"
+        },
+        {
+          "height": 939776,
+          "received": [
+            {
+              "outpoint_id": "6337c9a487a3630acfd3874cddfb6d7af91d12d4ace62ca1d150ea52c7391514",
+              "value_sat": 294
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "e7b693cd2f6761669db0b3b26ccb6a971ab3a0744eeadc05073eff1a1381545e"
+        }
+      ],
+      "raw_bytes": 1917,
+      "raw_file": "raw/cohort_0170.json.gz",
+      "raw_sha256": "8d3d3bdc4555c793270365a715ed1b0af5f014ec600031ec38e624b392f63b6c",
+      "reused_manifest": "multiinput_pilot_20261028/collection_manifest.json",
+      "reused_manifest_sha256": "7463ef9b99b482d34ea823f55dc1944f5bfebf87a743f20fc9aec4daf0e0c28b",
+      "source_id": "cohort_0170",
+      "status": "complete"
+    },
+    "cohort_0180": {
+      "address_sha256": "e1943870c9518caf34c10b4c8d2ca4560cb970b573a149906e4cfe75ee6e1203",
+      "collected_at": "2026-10-28T18:45:43.948907+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960188,
+      "features": {
+        "active_block_count": 2,
+        "activity_span_blocks": 241566,
+        "balance_sat": 631804269,
+        "blocks_since_first_activity": 261231,
+        "blocks_since_last_activity": 19665,
+        "confirmed_tx_count": 2,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 2,
+        "received_output_count": 2,
+        "received_sat": 631804269,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 2
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 2,
+          "funded_txo_sum": 631804269,
+          "spent_txo_count": 2,
+          "spent_txo_sum": 631804269,
+          "tx_count": 3
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "reuse",
+      "prefix": [
+        {
+          "height": 698957,
+          "received": [
+            {
+              "outpoint_id": "25507af40fe792e7011b2453958a98a2ffba3aebbff2486449a4907ab99f82e9",
+              "value_sat": 631803975
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "161dcf7026276a7f50455a67e9f2579969bb492fb8d4663ac40cda006bba9f46"
+        },
+        {
+          "height": 940523,
+          "received": [
+            {
+              "outpoint_id": "5265c0e703b49ed2058116ad02dcd5898618f77181526542f8423a1eb577f99a",
+              "value_sat": 294
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "222fd4c4a88e91d5977f17d2fcb25d64b5812bed5be71a608675b2d39347dc62"
+        }
+      ],
+      "raw_bytes": 2397,
+      "raw_file": "raw/cohort_0180.json.gz",
+      "raw_sha256": "65fa2fa3eefa63ee0e36eae25e89352c2cf6d58a4c6f04ee0b558c9a1aeb8f2f",
+      "reused_manifest": "multiinput_pilot_20261028/collection_manifest.json",
+      "reused_manifest_sha256": "7463ef9b99b482d34ea823f55dc1944f5bfebf87a743f20fc9aec4daf0e0c28b",
+      "source_id": "cohort_0180",
+      "status": "complete"
+    },
+    "cohort_0189": {
+      "address_sha256": "e70e118e49ef1aabad8426d554a0a20b88fe1acbed464dd13e43c7d0194feb1d",
+      "collected_at": "2026-10-27T22:20:21.925260+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960189,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 100659000,
+        "blocks_since_first_activity": 268153,
+        "blocks_since_last_activity": 268153,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 100659000,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 100659000,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 100659000,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "reuse",
+      "prefix": [
+        {
+          "height": 692036,
+          "received": [
+            {
+              "outpoint_id": "542f43dfcc7da3ac690f2020b8954e376cd9369c2289cf31bfd6577c6d19fdf8",
+              "value_sat": 100659000
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "e267cb8739f464e121a19b65851e2a73f3677b84fbed02db6d955f343a681298"
+        }
+      ],
+      "raw_bytes": 3541,
+      "raw_file": "raw/cohort_0189.json.gz",
+      "raw_sha256": "278a2fcd21ab62c44c99dc2d3a64ec55746c0a4651f99170f241be704621570e",
+      "reused_manifest": "prepayment_pilot_20261027/collection_manifest.json",
+      "reused_manifest_sha256": "991d287db97de5325d1945909a4a83647f566aa0947ce4ecf38e40458c7b282b",
+      "source_id": "cohort_0189",
+      "status": "complete"
+    },
+    "cohort_0243": {
+      "address_sha256": "fcc4c21091acd7c0d1a9f3eca31b74b8c9d07052e280144a1eb692752ede08ca",
+      "collected_at": "2026-10-27T22:20:04.657436+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960190,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 37276426,
+        "blocks_since_first_activity": 22671,
+        "blocks_since_last_activity": 22671,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 37276426,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 37276426,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 37276426,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "reuse",
+      "prefix": [
+        {
+          "height": 937519,
+          "received": [
+            {
+              "outpoint_id": "72b538208f8a34bc3a4cc33b6ed2d90532f2a9813bb96dd35b4967b983613d57",
+              "value_sat": 37276426
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "4c108644efb45830729fbdb5f1e3aec7156adf50e15f01e06ec0189101ab198c"
+        }
+      ],
+      "raw_bytes": 1513,
+      "raw_file": "raw/cohort_0243.json.gz",
+      "raw_sha256": "da014891671ee509dfe0645db2b416177ab805077806266b5a1facc47e683b4c",
+      "reused_manifest": "prepayment_pilot_20261027/collection_manifest.json",
+      "reused_manifest_sha256": "991d287db97de5325d1945909a4a83647f566aa0947ce4ecf38e40458c7b282b",
+      "source_id": "cohort_0243",
+      "status": "complete"
+    },
+    "cohort_0264": {
+      "address_sha256": "70885bd16e41da31c6722cf5b751daea46aee6d37b1226bb2b4236f1c557e39b",
+      "collected_at": "2026-10-27T22:19:46.778671+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960190,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 50000000,
+        "blocks_since_first_activity": 197754,
+        "blocks_since_last_activity": 197754,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 50000000,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 50000000,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 50000000,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "reuse",
+      "prefix": [
+        {
+          "height": 762436,
+          "received": [
+            {
+              "outpoint_id": "39178d97896e5c8493f34f0360cc8b659a2b96e8c32bd51d8e6538dc888cc7fc",
+              "value_sat": 50000000
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "cc2807fb828010be4c7bac1eaddd868f6831ded15f2c9ca8dcdc0cbcb24c4a87"
+        }
+      ],
+      "raw_bytes": 2374,
+      "raw_file": "raw/cohort_0264.json.gz",
+      "raw_sha256": "08288db69c3fe83da988d9d363217c1db3f06ee33c66a533b46f3363da05a463",
+      "reused_manifest": "prepayment_pilot_20261027/collection_manifest.json",
+      "reused_manifest_sha256": "991d287db97de5325d1945909a4a83647f566aa0947ce4ecf38e40458c7b282b",
+      "source_id": "cohort_0264",
+      "status": "complete"
+    },
+    "cohort_0333": {
+      "address_sha256": "79a4711c744a0b582cc7e9aaa9c2c271bb000f5b677e383d67f3ff0435320b6e",
+      "collected_at": "2026-10-27T22:20:39.985566+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960191,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 21450000,
+        "blocks_since_first_activity": 219259,
+        "blocks_since_last_activity": 219259,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 21450000,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 21450000,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 21450000,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "reuse",
+      "prefix": [
+        {
+          "height": 740932,
+          "received": [
+            {
+              "outpoint_id": "e3f215cbcb120fee45505cf457be12bfda784f48ed7055fbe4281886e3b829ee",
+              "value_sat": 21450000
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "e98b078fcf55f12bc101023b65e6a1fb55586c6d41d90ba3a998ce8270a961f1"
+        }
+      ],
+      "raw_bytes": 2206,
+      "raw_file": "raw/cohort_0333.json.gz",
+      "raw_sha256": "715e04cabc6d31f5acc67c14a7aaab7cfdf65e30e252ebb2586abdbea7c9300b",
+      "reused_manifest": "prepayment_pilot_20261027/collection_manifest.json",
+      "reused_manifest_sha256": "991d287db97de5325d1945909a4a83647f566aa0947ce4ecf38e40458c7b282b",
+      "source_id": "cohort_0333",
+      "status": "complete"
+    },
+    "cohort_0349": {
+      "address_sha256": "ce71ab286d5451d673560f29c4961e36e78b5f1b3cec8a4a465d4f13b8c5b9db",
+      "collected_at": "2026-10-28T18:45:24.111894+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960188,
+      "features": {
+        "active_block_count": 3,
+        "activity_span_blocks": 53571,
+        "balance_sat": 1000000624,
+        "blocks_since_first_activity": 62293,
+        "blocks_since_last_activity": 8722,
+        "confirmed_tx_count": 3,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 3,
+        "received_output_count": 3,
+        "received_sat": 1000000624,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 3
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 3,
+          "funded_txo_sum": 1000000624,
+          "spent_txo_count": 3,
+          "spent_txo_sum": 1000000624,
+          "tx_count": 4
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "reuse",
+      "prefix": [
+        {
+          "height": 897895,
+          "received": [
+            {
+              "outpoint_id": "827c3d02739799776fbbd7f090c6a195c39236fedbf695118909448b11133b30",
+              "value_sat": 1000000000
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "4ee18f1296f4083c4e5f9e63405bd389cb073faa921f89ab68a629d3670b73c8"
+        },
+        {
+          "height": 934408,
+          "received": [
+            {
+              "outpoint_id": "f4497b9c2286a78fc14e0aa8a6daf1d91e0080b4b4c2c7b6b9f82152dd9427e4",
+              "value_sat": 330
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "78f5530025713b444e82b6e56981efba50f14f36c15dbeaeb8fa06fceb1f75e2"
+        },
+        {
+          "height": 951466,
+          "received": [
+            {
+              "outpoint_id": "4aa98d71b1f3cea04bda8e76f8e15af8ec00d9d93b9cce32898a5a4855e0929b",
+              "value_sat": 294
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "928ba8db7aed3d4831a3b1d0f5745c8cde833e2d64f6610658bc6a06ade0a010"
+        }
+      ],
+      "raw_bytes": 2795,
+      "raw_file": "raw/cohort_0349.json.gz",
+      "raw_sha256": "d78f6c6a059e4dbbda1f474fb2aec88f7fecc2ac90fdc3f808f286a981e32745",
+      "reused_manifest": "multiinput_pilot_20261028/collection_manifest.json",
+      "reused_manifest_sha256": "7463ef9b99b482d34ea823f55dc1944f5bfebf87a743f20fc9aec4daf0e0c28b",
+      "source_id": "cohort_0349",
+      "status": "complete"
+    },
+    "cohort_0350": {
+      "address_sha256": "68add7b49641d89ea5a444610ce4221a70e94d7ef1d0accc1aca283989542e78",
+      "collected_at": "2026-10-27T22:19:46.777155+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960189,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 134377744,
+        "blocks_since_first_activity": 246904,
+        "blocks_since_last_activity": 246904,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 134377744,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 134377744,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 134377744,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "reuse",
+      "prefix": [
+        {
+          "height": 713285,
+          "received": [
+            {
+              "outpoint_id": "8b385bbc0576855402d6d14a7326ff3cab612e0bf681cf62bbada39a62bb7f00",
+              "value_sat": 134377744
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "b822dd5b78cb7eff179aa4097b94dc893fe63977e302b255e2493ef47efb7b82"
+        }
+      ],
+      "raw_bytes": 1346,
+      "raw_file": "raw/cohort_0350.json.gz",
+      "raw_sha256": "db32459bb9bb2d04fdb512bb2f94476cf2eb1d48ab3f1ee10044baaca951689e",
+      "reused_manifest": "prepayment_pilot_20261027/collection_manifest.json",
+      "reused_manifest_sha256": "991d287db97de5325d1945909a4a83647f566aa0947ce4ecf38e40458c7b282b",
+      "source_id": "cohort_0350",
+      "status": "complete"
+    },
+    "cohort_0413": {
+      "address_sha256": "397010694856d21ddea3f4718e1b03f80d0b33d9d1cf51c9efb2480ed8de0f72",
+      "collected_at": "2026-10-27T22:20:21.881667+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960189,
+      "features": {
+        "active_block_count": 1,
+        "activity_span_blocks": 0,
+        "balance_sat": 100000000,
+        "blocks_since_first_activity": 169021,
+        "blocks_since_last_activity": 169021,
+        "confirmed_tx_count": 1,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 1,
+        "received_output_count": 1,
+        "received_sat": 100000000,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 1
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 1,
+          "funded_txo_sum": 100000000,
+          "spent_txo_count": 1,
+          "spent_txo_sum": 100000000,
+          "tx_count": 2
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "reuse",
+      "prefix": [
+        {
+          "height": 791168,
+          "received": [
+            {
+              "outpoint_id": "a02d5e2b599e26ac304e697b3be4d541c696a50a0a5e9505f2859255bd58da1c",
+              "value_sat": 100000000
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "fe9600dc266b5ce37bfa6266dc5ff8fec3555e0dcdde328d3c3a3174c685cc51"
+        }
+      ],
+      "raw_bytes": 3579,
+      "raw_file": "raw/cohort_0413.json.gz",
+      "raw_sha256": "29cd2ee65af4d8f611efb0b1adf59f1f4d93c6d0577c9021eabad6d3cd7fe928",
+      "reused_manifest": "prepayment_pilot_20261027/collection_manifest.json",
+      "reused_manifest_sha256": "991d287db97de5325d1945909a4a83647f566aa0947ce4ecf38e40458c7b282b",
+      "source_id": "cohort_0413",
+      "status": "complete"
+    },
+    "cohort_0451": {
+      "address_sha256": "28067b972e2a4cdd840dac6cfada45aa4f596b55872445cc6b74a5127d8df665",
+      "collected_at": "2026-10-28T18:45:43.954864+00:00",
+      "compromise_label": null,
+      "cutoff_height": 960190,
+      "features": {
+        "active_block_count": 2,
+        "activity_span_blocks": 1,
+        "balance_sat": 39146846,
+        "blocks_since_first_activity": 245367,
+        "blocks_since_last_activity": 245366,
+        "confirmed_tx_count": 2,
+        "median_spending_tx_fee_rate_sat_vb": null,
+        "receipt_tx_count": 2,
+        "received_output_count": 2,
+        "received_sat": 39146846,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 2
+      },
+      "hardware_label": null,
+      "history_audit": {
+        "counters_stable": true,
+        "coverage_complete_by_provider_counters": true,
+        "cryptographic_inclusion_verified": false,
+        "observed": {
+          "funded_txo_count": 2,
+          "funded_txo_sum": 39146846,
+          "spent_txo_count": 2,
+          "spent_txo_sum": 39146846,
+          "tx_count": 3
+        },
+        "pagination_exhausted": true
+      },
+      "origin": "reuse",
+      "prefix": [
+        {
+          "height": 714823,
+          "received": [
+            {
+              "outpoint_id": "499dd312873b5853c9a301dfce8d790017d412376b59cb16f223a7ce6137b35a",
+              "value_sat": 25000000
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "c4d9684e910ecaa84fee194ee6e3920b3d0050d6f3b38aeab33de7d28086080e"
+        },
+        {
+          "height": 714824,
+          "received": [
+            {
+              "outpoint_id": "706717d8406467b693175c0b8932c652ee9f117bc013799353b1f47a12553b6f",
+              "value_sat": 14146846
+            }
+          ],
+          "spending_tx_fee_sat": null,
+          "spending_tx_vsize_vb": null,
+          "spent": [],
+          "transaction_id": "c8072728dfc4de954004731a5df8d73b347955919218df215263e547efd8537d"
+        }
+      ],
+      "raw_bytes": 3942,
+      "raw_file": "raw/cohort_0451.json.gz",
+      "raw_sha256": "bd550b78be2f0a443322e32d2414501474833fa1d6b1837c535bbcfe69ce57bb",
+      "reused_manifest": "multiinput_pilot_20261028/collection_manifest.json",
+      "reused_manifest_sha256": "7463ef9b99b482d34ea823f55dc1944f5bfebf87a743f20fc9aec4daf0e0c28b",
+      "source_id": "cohort_0451",
+      "status": "complete"
+    }
+  },
+  "plan_sha256": "b4d531949db09bbf26d2cb357fe16781c68985c70a2824cce5e19f17d0e2c03a",
+  "protocol_sha256": "47fdc53c71a3e642694710865ad8e0f3b6b1db2b2240ec40e878bd12daaab7cd",
+  "schema_version": 1
+}

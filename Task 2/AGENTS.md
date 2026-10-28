@@ -13,8 +13,13 @@ plans and older report recommendations.
   cutoff; see `research/coldcard/prepayment_pilot_20261027/README.md`.
   The multi-input extension also ran: four complete source histories and the
   same fourteen features; see `research/coldcard/multiinput_pilot_20261028/README.md`.
-  Next: resumable collection over the 500 candidate sources, reusing the twelve
-  available histories and processing one short fixed batch per unit.
+  Resumable collection is now implemented: `source_cohort.py`, protocol
+  `source_cohort_protocol_20261028.json`, saved state
+  `research/coldcard/source_cohort_20261028/batch_0001/checkpoint.json`.
+  Coverage: 30 complete (12 reused + 18 new), two network errors, 468 pending.
+  Next: run one fixed batch of at most 20 pending sources, preserve failures,
+  export/verify `batch_0002` and commit. Restore the latest checkpoint if the
+  ignored working state is missing; do not recollect completed sources.
   The registry has graph candidates, not verified compromised/device labels.
   The address dataset/model is not replaced by collector ranking or benchmarks.
 - Keep the existing numbered-part structure. Write repository content in English;

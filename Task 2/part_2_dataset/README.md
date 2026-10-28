@@ -13,8 +13,10 @@ unknown; the transaction corpus below still describes a different observation
 unit. The [pre-payment pilot](../research/coldcard/prepayment_pilot_20261027/README.md)
 now supplies fourteen cutoff-safe features for eight complete source histories;
 the [multi-input extension](../research/coldcard/multiinput_pilot_20261028/README.md)
-adds four more complete histories with unchanged definitions. Next is resumable
-cohort collection. See [Alignment](../ALIGNMENT.md).
+adds four more complete histories with unchanged definitions. The
+[resumable cohort](../research/coldcard/source_cohort_20261028/README.md) now covers
+30 complete sources, with two timeouts and 468 pending. Next is the next fixed
+batch. See [Alignment](../ALIGNMENT.md).
 
 ## Inputs and coverage
 

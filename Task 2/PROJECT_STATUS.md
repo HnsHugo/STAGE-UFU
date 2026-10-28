@@ -15,11 +15,22 @@ The [multi-input extension](research/coldcard/multiinput_pilot_20261028/README.m
 adds four complete histories and the same fourteen features. They have two or
 three prior receipts and no prior spending. There are now twelve distinct source
 histories; all remain in one incident group with unknown compromise/device labels.
-Next: resumable collection for the candidate cohort, one short batch at a time.
+The [resumable cohort pipeline](research/coldcard/source_cohort_20261028/README.md)
+has now reused the twelve histories and attempted a fixed batch of twenty new
+sources: eighteen complete, two network timeouts. Current coverage is **30/500
+complete, two errors and 468 pending**, with one source showing prior spending.
+Next: one further fixed batch, restoring the latest checkpoint if necessary.
 Collector rankings remain supporting results. No model was fitted.
 
 ## Completed work
 
+- [Resumable source cohort, batch 1](research/coldcard/source_cohort_20261028/README.md):
+  fixed 500-source plan, twelve cached histories reused, twenty new attempts,
+  thirty complete vectors overall and two retained timeouts. Atomic checkpoints,
+  unfinished-batch recovery, raw-orphan recovery, offline restoration and
+  immutable snapshots are implemented and tested. Forty-one prior transaction
+  observations and one prior-spending source are available; unknown labels and
+  the single incident group remain unchanged.
 - [Multi-input source pilot](research/coldcard/multiinput_pilot_20261028/README.md):
   four deterministically selected sources among 81 eligible candidates, complete
   bounded collection and an unchanged feature extractor. Nine prior transaction
@@ -67,8 +78,9 @@ FSF shares two multi-recipient transactions with training addresses. This is obs
 ## Partial or blocked
 
 - Robbed source-address dataset/model: graph-evidence registry completed, but
-  per-address compromise/device labels, source-history coverage beyond the twelve
-  pilot addresses and documented controls are missing. The supervised classifier
+  per-address compromise/device labels, source-history coverage beyond thirty
+  complete addresses and documented controls are missing; two timed-out sources
+  are retained separately. The supervised classifier
   is not completed. Historical spending-fee features cannot be inferred from the
   reference payment when no prior source spending exists.
 - Network-relative fees, CPFP and RBF: the Teams request for a focused literature
@@ -90,8 +102,8 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Build resumable collection over the 500 candidate sources, reuse the twelve
-existing source snapshots and process one short fixed batch. Keep bounded API
-requests, coverage reporting and the frozen fourteen-feature extractor with
-strict prior-block cutoffs. Do not repeat the two pilots, replace missing records
-with convenient examples or return to recipient ranking.
+Run the next fixed batch of at most twenty pending sources using the existing
+working state, or restore
+`research/coldcard/source_cohort_20261028/batch_0001/checkpoint.json` if it is missing.
+Export and verify `batch_0002`, then commit. Preserve both errors, unknown labels,
+the fixed extractor and strict prior-block cutoffs. Do not repeat completed work.

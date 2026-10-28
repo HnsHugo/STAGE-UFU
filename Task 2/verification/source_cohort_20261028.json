@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "executed_on": "2026-10-28",
+  "checks": [
+    {
+      "check": "coldcard_tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "Task 2/research/coldcard",
+        "-p",
+        "test*.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "...........................................................................\n----------------------------------------------------------------------\nRan 75 tests in 0.309s\n\nOK\n",
+      "tests_run": 75
+    },
+    {
+      "check": "published_checkpoint_reproduction",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/research/coldcard/source_cohort.py",
+        "verify",
+        "Task 2/research/coldcard/source_cohort_protocol_20261028.json",
+        "Task 2/research/coldcard/source_cohort_20261028/batch_0001"
+      ],
+      "exit_code": 0,
+      "stdout": "Offline checkpoint and feature reproduction passed\n",
+      "stderr": ""
+    },
+    {
+      "check": "repository_integrity",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/check_repository.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"internal_links_checked\": 236,\n  \"python_files_parsed\": 100,\n  \"preserved_artifacts_checked\": 185,\n  \"errors\": [],\n  \"status\": \"passed\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "raw_histories_reextracted": 30,
+  "offline_verification_without_network": true,
+  "exact_state_restoration_without_raw_files_or_requests": true,
+  "fixed_batch_attempts": 20,
+  "retained_null_feature_errors": 2,
+  "reused_histories": 12,
+  "working_state_ignored_by_git": true,
+  "prior_transaction_observations": 41,
+  "unique_prior_transactions": 41,
+  "shared_prior_transactions": 0,
+  "training_performed": false,
+  "incident_groups": 1
+}

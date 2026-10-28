@@ -1,0 +1,118 @@
+# Resumable Coldcard source cohort — 28 October 2026
+
+## Current saved state: batch 1
+
+This is the collection pipeline for all **500 candidate source addresses** in
+the registry, rather than another pilot. It reuses the unchanged fourteen-feature
+extractor and includes only blocks strictly before each reference-payment block.
+It does not fit a classifier or establish hardware/compromise ground truth.
+
+| Source coverage | Actual count |
+| --- | ---: |
+| Fixed candidate cohort | 500 |
+| Earlier histories reused without API requests | 12 |
+| New addresses in fixed batch 1 | 20 |
+| New histories complete and eligible | 18 |
+| Network timeouts retained as errors | 2 |
+| Total complete source histories / vectors | **30** |
+| Histories incomplete because of pagination/counters | 0 |
+| Sources not yet attempted | **468** |
+
+The two errors are `cohort_0019` and `cohort_0020`, both reported as
+`URLError: <urlopen error timed out>`. They were not replaced or retried to make
+the batch look complete. The denominator remains 500, and their feature vectors
+remain null. There are 32 recorded sources: 30 complete and two errors.
+
+Thirty eligible sources contain **41 prior address/transaction observations**.
+One source has prior spending, unlike the first twelve-source pilots. Its
+historical spending-transaction fee rate is 17 sat/vbyte; the others have no
+historical spending-fee observations. This is an observed transaction property,
+not a hardware signing-device or owner-policy attribution.
+
+That source's gross receipts and reconstructed balance differ, illustrating why
+these fields cannot be interchanged. The extractor reconstructs earlier UTXOs
+from receipts and consumed outpoints; it does not use current spent flags or the
+later collector-payment fee. All labels remain unknown, all records belong to
+one incident group, and data coverage is not classification accuracy.
+
+## Recovery and collection behavior
+
+- The complete cohort and its SHA256 order are fixed by the
+  [protocol](../source_cohort_protocol_20261028.json). Sources are not selected by
+  outcomes, feature values or collection success.
+- A batch contains at most **20 pending addresses**, selected and saved before
+  requests. An interrupted batch keeps the same remaining source IDs on resume.
+  A failed source occupies its original slot; no replacement is added.
+- API use is bounded to two workers, four pages per source and eight seconds per
+  request. With before/after counters this is at most 120 requests per new batch,
+  and may be fewer after early errors. Large histories may remain incomplete.
+- Each complete response is stored atomically, then the state is stored atomically
+  after that source. A response saved just before an interrupted state write is
+  recovered from the raw cache without downloading it again.
+- Complete records are skipped on later runs. Errors/incomplete records are
+  retained and are not retried automatically. A separate retry stage remains to
+  be designed if needed; they must not silently become negatives or disappear.
+- The old twelve records are imported with pinned manifest, feature and proof
+  hashes. Their raw files are copied when locally available. Published prefix
+  evidence also permits reuse when an old raw file is absent.
+- A published checkpoint contains source metadata, audits, unknown labels,
+  prefix evidence and features. It can restore working state even without raw
+  files; raw byte-level reconstruction then requires the separately retained
+  originals. Offline feature verification needs no network access.
+
+Working state is mutable and ignored by Git under `source_cohort_work_20261028/`.
+Published batch directories are immutable; the exporter refuses to overwrite
+one. No original raw input or earlier result is changed.
+
+## Saved artifacts and verification
+
+- [Batch 1 checkpoint](batch_0001/checkpoint.json): complete resumable state,
+  source fingerprints, raw snapshot hashes/dates, failure reasons and prefix proofs.
+- [Feature table](batch_0001/features.json): the 32 recorded sources, with 30
+  vectors and two explicitly unavailable vectors; cutoff/group metadata and null
+  labels are separate from the predictors.
+- [Coverage summary](batch_0001/progress.json): exact coverage, provenance and limits.
+- [Execution record](../../../verification/source_cohort_20261028.json): tests,
+  offline reproduction, prefix-only restoration and historical-artifact checks.
+
+Full raw address histories stay local in the ignored working directory. The
+checkpoint includes normalized prior-block evidence, not new full address lists.
+Hashed references do not guarantee anonymity. Provider-counter consistency is
+not cryptographic inclusion verification or proof of independence/ownership.
+
+Run from the repository root to verify the saved checkpoint offline:
+
+```bash
+python "Task 2/research/coldcard/source_cohort.py" verify \
+  "Task 2/research/coldcard/source_cohort_protocol_20261028.json" \
+  "Task 2/research/coldcard/source_cohort_20261028/batch_0001"
+```
+
+To process the **next** batch using existing working state:
+
+```bash
+python "Task 2/research/coldcard/source_cohort.py" run \
+  "Task 2/research/coldcard/source_cohort_protocol_20261028.json" \
+  "Task 2/research/coldcard/source_cohort_work_20261028" --limit 20
+
+python "Task 2/research/coldcard/source_cohort.py" snapshot \
+  "Task 2/research/coldcard/source_cohort_protocol_20261028.json" \
+  "Task 2/research/coldcard/source_cohort_work_20261028" \
+  --output "Task 2/research/coldcard/source_cohort_20261028/batch_0002"
+```
+
+If working state is missing, add
+`--restore "Task 2/research/coldcard/source_cohort_20261028/batch_0001/checkpoint.json"`
+to the `run` command. Use the latest checkpoint, not a stale one. `--limit 0`
+restores/imports/validates state without requesting new histories. An existing
+working state takes precedence over `--restore` and is never rolled back.
+
+Seven added tests simulate interruption, an orphan response, terminal failure,
+duplicate-request prevention, restored state without raw data, integrity failures,
+non-overwriting exports and reuse of all twelve prior records without a network.
+
+## One next unit
+
+Run the next fixed batch of at most twenty pending sources, verify the new
+snapshot and publish it. Reuse the current checkpoint; do not rebuild or repeat
+the pilots, replace the two errors, or change the frozen feature definitions.

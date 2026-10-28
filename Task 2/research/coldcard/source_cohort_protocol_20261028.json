@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "case_id": "coldcard_2026",
+  "registry_protocol_file": "source_registry_protocol_20261027.json",
+  "registry_protocol_sha256": "75abe6458bc7bda64b0fd6c94a7c145f352dc60050c367ae5b6ca1a5bee31f47",
+  "registry_address_table_sha256": "b4661f15fd9e9f7c69b52cd9fd90ed46bf9cd41035449364f8e1847161cd2824",
+  "feature_extractor_sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701",
+  "comparison_feature_file": "prepayment_pilot_20261027/features.json",
+  "comparison_feature_sha256": "6685a8d313bb2214481bc565588b44eb2f98f2d3b308969dcf549e867a96942b",
+  "population_scope": "candidate_window",
+  "min_payment_inputs": 1,
+  "sample_size": 500,
+  "sampling_prefix": "coldcard-source-cohort-v1:42:",
+  "sampling": "Fixed SHA256 order of all 500 candidate sources; cached sources stay in the cohort; choose the first 20 pending records as a batch before requests, without replacing failures.",
+  "provider": "https://blockstream.info/api",
+  "max_pages_per_address": 4,
+  "timeout_seconds": 8,
+  "workers": 2,
+  "cutoff": "Unchanged extractor: only confirmed transactions at heights strictly below each reference-payment block; exclude that entire block and later activity.",
+  "evaluation": "Source feature dataset construction only. One incident, unknown compromise/hardware labels, no legitimate controls or fitting.",
+  "publication": "Prefix-only evidence, feature vectors, collection/selection hashes and aggregate comparison; raw address histories remain local under ignored raw/.",
+  "default_batch_size": 20,
+  "reuse_sources": [
+    {
+      "manifest_file": "prepayment_pilot_20261027/collection_manifest.json",
+      "manifest_sha256": "991d287db97de5325d1945909a4a83647f566aa0947ce4ecf38e40458c7b282b",
+      "features_file": "prepayment_pilot_20261027/features.json",
+      "features_sha256": "6685a8d313bb2214481bc565588b44eb2f98f2d3b308969dcf549e867a96942b",
+      "proof_file": "prepayment_pilot_20261027/prefix_evidence.json",
+      "proof_sha256": "f452040077ccde859920fde5792b27971363567fe3c1ce51470bd83406eee8ff"
+    },
+    {
+      "manifest_file": "multiinput_pilot_20261028/collection_manifest.json",
+      "manifest_sha256": "7463ef9b99b482d34ea823f55dc1944f5bfebf87a743f20fc9aec4daf0e0c28b",
+      "features_file": "multiinput_pilot_20261028/features.json",
+      "features_sha256": "5d55f99863f501fe46b4f6c47c0e3f01a06fa2701bc59bf6743452fb4c9e8265",
+      "proof_file": "multiinput_pilot_20261028/prefix_evidence.json",
+      "proof_sha256": "6bd1046dc86370ef81f2d0ce81cd64b4df64b0d1ced5915643c59261760687f8"
+    }
+  ],
+  "checkpoint_policy": "Atomic state after every result; preserve unfinished batch on resume; terminal errors/incomplete histories are retained and not retried automatically."
+}
