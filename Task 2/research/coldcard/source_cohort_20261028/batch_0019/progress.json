@@ -1,0 +1,25 @@
+{
+  "checkpoint_sha256": "3a3c0f60d453494d97014cb0bdee4aa03528961874dc58e16c3f23e1bd90170f",
+  "complete_sources": 369,
+  "error_sources": 22,
+  "feature_count": 14,
+  "feature_extractor_sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701",
+  "incident_groups": 1,
+  "incomplete_sources": 1,
+  "limitations": [
+    "Coverage, not classifier accuracy; one case and unknown compromise/hardware labels",
+    "Fixed pending order and fixed batch before requests; errors are not replaced or retried automatically",
+    "All predictor evidence precedes the reference-payment block; no current spent flags",
+    "Raw API histories are local; published checkpoints contain the normalized prefix evidence",
+    "Complete stable provider counters are not cryptographic inclusion proofs"
+  ],
+  "pending_sources": 108,
+  "population_sources": 500,
+  "prior_transaction_observations": 757,
+  "protocol_sha256": "47fdc53c71a3e642694710865ad8e0f3b6b1db2b2240ec40e878bd12daaab7cd",
+  "reused_sources": 12,
+  "sources_with_prior_spending": 11,
+  "training_performed": false,
+  "verified_compromise_labels": 0,
+  "verified_hardware_labels": 0
+}
