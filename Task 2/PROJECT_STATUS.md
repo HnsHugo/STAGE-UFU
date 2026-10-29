@@ -16,15 +16,21 @@ adds four complete histories and the same fourteen features. They have two or
 three prior receipts and no prior spending. Those two pilots provided twelve distinct source
 histories; all remain in one incident group with unknown compromise/device labels.
 The [resumable cohort pipeline](research/coldcard/source_cohort_20261028/README.md)
-has reused the twelve histories and attempted two fixed twenty-source batches.
-Batch 2 collected 20 complete histories, 0 errors and 0 incomplete histories.
-Current coverage is **50/500 complete, 2 retained errors, 0 incomplete and
-448 pending**, with 2 sources showing prior spending.
-Next: batch 3, restoring the latest checkpoint if necessary.
+has reused the twelve histories and attempted three fixed twenty-source batches.
+Batch 3 collected 16 complete histories, 4 errors and 0 incomplete histories.
+Current coverage is **66/500 complete, 6 retained errors, 0 incomplete and
+428 pending**, with 2 sources showing prior spending.
+Next: batch 4, restoring the latest checkpoint if necessary.
 Collector rankings remain supporting results. No model was fitted.
 
 ## Completed work
 
+- [Source cohort batch 3](research/coldcard/source_cohort_20261028/README.md):
+  twenty fixed attempts, 16 new complete histories and all 52 earlier records unchanged.
+  Cumulative coverage is 66 complete, 6 errors, 0 incomplete and 428 pending;
+  100 prior observations, 99 distinct transaction references and 2 prior-spending sources.
+  Seven regression tests, raw re-extraction and offline restore/reproduction
+  checks passed. No new labels, independent incident groups or fitted models.
 - [Source cohort batch 2](research/coldcard/source_cohort_20261028/README.md):
   twenty fixed attempts, 20 new complete histories and no prior-record changes.
   Cumulative coverage is 50 complete, 2 errors, 0 incomplete and 448 pending;
@@ -85,8 +91,8 @@ FSF shares two multi-recipient transactions with training addresses. This is obs
 ## Partial or blocked
 
 - Robbed source-address dataset/model: graph-evidence registry completed, but
-  per-address compromise/device labels, source-history coverage beyond 50
-  complete addresses and documented controls are missing; two timed-out sources
+  per-address compromise/device labels, source-history coverage beyond 66
+  complete addresses and documented controls are missing; 6 collection failures
   are retained separately. The supervised classifier
   is not completed. Historical spending-fee features cannot be inferred from the
   reference payment when no prior source spending exists.
@@ -111,6 +117,6 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 Run the next fixed batch of at most twenty pending sources using the existing
 working state, or restore
-`research/coldcard/source_cohort_20261028/batch_0002/checkpoint.json` if it is missing.
-Export and verify `batch_0003`, then commit. Preserve both errors, unknown labels,
+`research/coldcard/source_cohort_20261028/batch_0003/checkpoint.json` if it is missing.
+Export and verify `batch_0004`, then commit. Preserve all recorded errors, unknown labels,
 the fixed extractor and strict prior-block cutoffs. Do not repeat completed work.

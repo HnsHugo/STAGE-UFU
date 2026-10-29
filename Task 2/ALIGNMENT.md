@@ -118,10 +118,10 @@ is also executed: four complete histories among 81 eligible sources, unchanged
 feature extraction and no prior spending. The two pilots provided twelve distinct
 source histories, but no individual compromise/device labels were established.
 The [resumable cohort pipeline](research/coldcard/source_cohort_20261028/README.md)
-is executed through batch 2: 50 complete histories, 2 retained errors, 0 incomplete histories and 448 pending sources.
+is executed through batch 3: 66 complete histories, 6 retained errors, 0 incomplete histories and 428 pending sources.
 Its checkpoint can restore feature-complete records without raw files.
 **Next unit:** one further fixed batch of at most twenty pending sources, verify
-and publish `batch_0003`. Keep feature definitions and the strict prior-block
+and publish `batch_0004`. Keep feature definitions and the strict prior-block
 cutoff fixed. Decide
 whether the experiment is retrospective reconstruction or pre-event detection;
 these use different permissible features. Do not encode a known destination or

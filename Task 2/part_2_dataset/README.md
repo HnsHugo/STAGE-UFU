@@ -15,7 +15,7 @@ now supplies fourteen cutoff-safe features for eight complete source histories;
 the [multi-input extension](../research/coldcard/multiinput_pilot_20261028/README.md)
 adds four more complete histories with unchanged definitions. The
 [resumable cohort](../research/coldcard/source_cohort_20261028/README.md) now covers
-50 complete histories, 2 retained errors, 0 incomplete histories and 448 pending sources. Next: one fixed batch of at most twenty pending sources. See [Alignment](../ALIGNMENT.md).
+66 complete histories, 6 retained errors, 0 incomplete histories and 428 pending sources. Next: one fixed batch of at most twenty pending sources. See [Alignment](../ALIGNMENT.md).
 
 ## Inputs and coverage
 

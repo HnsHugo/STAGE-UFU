@@ -1,36 +1,50 @@
 # Resumable Coldcard source cohort — updated 29 October 2026
 
-## Current saved state: batch 2
+## Current saved state: batch 3
 
-The unchanged, prespecified next batch attempted **20 pending sources** on
-29 October: **20 complete**, 0 errors and 0 incomplete.
-No earlier record was recollected, replaced or modified. Both original timeouts
-remain explicit unavailable records, with null feature vectors.
+The next fixed batch attempted **20 pending sources** on 29 October 2026:
+**16 complete**, 4 errors and 0 incomplete histories.
+All 52 previously recorded sources, including both original timeouts, remain
+identical. No earlier address was recollected, replaced or automatically retried.
+The protocol, fourteen feature definitions and strict prior-block cutoff are
+unchanged; there is no classifier fitting or model selection.
 
 | Cumulative source coverage | Actual count |
 | --- | ---: |
 | Fixed candidate cohort | 500 |
 | Earlier histories reused | 12 |
-| Complete histories / fourteen-feature vectors | **50** |
-| Retained collection errors | 2 |
+| Complete histories / fourteen-feature vectors | **66** |
+| Retained collection errors | 6 |
 | Incomplete histories | 0 |
-| Sources not yet attempted | **448** |
+| Sources not yet attempted | **428** |
 
-The complete prefixes contain **63 prior source/transaction observations**,
-63 distinct transaction references and
-0 repeated transaction observations across source prefixes.
+The complete prefixes contain **100 prior source/transaction observations**:
+99 distinct transaction references and
+one repeated observation across source prefixes.
+The shared transaction occurs in `cohort_0041` and `cohort_0047`; the execution record
+retains its hashed reference and block height. These two prefixes are not
+transaction-disjoint; common ownership is not established.
 There are 2 sources with prior spending. These are descriptive data
-properties, not model scores or evidence of distinct owners. All sources remain
-in one incident group; individual compromise/device labels remain unknown.
-No classifier was fitted and the feature extractor/protocol are unchanged.
+properties, not evidence of independent owners or hardware use. Individual
+compromise/device labels remain unknown; all sources share one incident group.
+Provider-counter reconciliation is not cryptographic inclusion verification.
 
-Saved results: [checkpoint](batch_0002/checkpoint.json),
-[features](batch_0002/features.json), [coverage](batch_0002/progress.json) and
-[execution checks](../../../verification/source_cohort_batch2_20261029.json).
-The checks re-extracted 50 raw histories,
-reproduced the export offline, restored its state without raw files or network,
-and confirmed that all 32 previous records remained identical. The first batch
-below is preserved as historical context, not the current coverage.
+Saved results: [checkpoint](batch_0003/checkpoint.json),
+[features](batch_0003/features.json), [coverage](batch_0003/progress.json) and
+[execution checks](../../../verification/source_cohort_batch3_20261029.json).
+The checks re-extracted 66 raw histories,
+reproduced the export offline, restored its exact state without raw files or
+network, and confirmed that all 52 previous records remained identical.
+
+## Saved batches
+
+Counts below are cumulative snapshots; earlier artifacts are unchanged.
+
+| Snapshot | Complete | Errors | Incomplete | Pending |
+| --- | ---: | ---: | ---: | ---: |
+| [Batch 1](batch_0001/progress.json) | 30 | 2 | 0 | 468 |
+| [Batch 2](batch_0002/progress.json) | 50 | 2 | 0 | 448 |
+| [Batch 3](batch_0003/progress.json) | 66 | 6 | 0 | 428 |
 
 ## Historical first batch: 28 October 2026
 
@@ -117,7 +131,7 @@ Run from the repository root to verify the saved checkpoint offline:
 ```bash
 python "Task 2/research/coldcard/source_cohort.py" verify \
   "Task 2/research/coldcard/source_cohort_protocol_20261028.json" \
-  "Task 2/research/coldcard/source_cohort_20261028/batch_0002"
+  "Task 2/research/coldcard/source_cohort_20261028/batch_0003"
 ```
 
 To process the **next** batch using existing working state:
@@ -130,11 +144,11 @@ python "Task 2/research/coldcard/source_cohort.py" run \
 python "Task 2/research/coldcard/source_cohort.py" snapshot \
   "Task 2/research/coldcard/source_cohort_protocol_20261028.json" \
   "Task 2/research/coldcard/source_cohort_work_20261028" \
-  --output "Task 2/research/coldcard/source_cohort_20261028/batch_0003"
+  --output "Task 2/research/coldcard/source_cohort_20261028/batch_0004"
 ```
 
 If working state is missing, add
-`--restore "Task 2/research/coldcard/source_cohort_20261028/batch_0002/checkpoint.json"`
+`--restore "Task 2/research/coldcard/source_cohort_20261028/batch_0003/checkpoint.json"`
 to the `run` command. Use the latest checkpoint, not a stale one. `--limit 0`
 restores/imports/validates state without requesting new histories. An existing
 working state takes precedence over `--restore` and is never rolled back.
@@ -146,5 +160,5 @@ non-overwriting exports and reuse of all twelve prior records without a network.
 ## One next unit
 
 Run the next fixed batch of at most twenty pending sources, export/verify
-`batch_0003` and publish it. Reuse the current checkpoint; do not rebuild or repeat
-the pilots, replace the two errors, or change the frozen feature definitions.
+`batch_0004` and publish it. Reuse the current checkpoint; do not rebuild or repeat
+the pilots, replace failed sources, or change the frozen feature definitions.
