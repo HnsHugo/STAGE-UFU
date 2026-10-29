@@ -1,4 +1,4 @@
-# Project status — 28 October 2026
+# Project status — 29 October 2026
 
 ## Current priority
 
@@ -13,18 +13,25 @@ prior-block features for each. All eight have one earlier receipt and no earlier
 spending; nine columns are constant and the spending-fee column is missing.
 The [multi-input extension](research/coldcard/multiinput_pilot_20261028/README.md)
 adds four complete histories and the same fourteen features. They have two or
-three prior receipts and no prior spending. There are now twelve distinct source
+three prior receipts and no prior spending. Those two pilots provided twelve distinct source
 histories; all remain in one incident group with unknown compromise/device labels.
 The [resumable cohort pipeline](research/coldcard/source_cohort_20261028/README.md)
-has now reused the twelve histories and attempted a fixed batch of twenty new
-sources: eighteen complete, two network timeouts. Current coverage is **30/500
-complete, two errors and 468 pending**, with one source showing prior spending.
-Next: one further fixed batch, restoring the latest checkpoint if necessary.
+has reused the twelve histories and attempted two fixed twenty-source batches.
+Batch 2 collected 20 complete histories, 0 errors and 0 incomplete histories.
+Current coverage is **50/500 complete, 2 retained errors, 0 incomplete and
+448 pending**, with 2 sources showing prior spending.
+Next: batch 3, restoring the latest checkpoint if necessary.
 Collector rankings remain supporting results. No model was fitted.
 
 ## Completed work
 
-- [Resumable source cohort, batch 1](research/coldcard/source_cohort_20261028/README.md):
+- [Source cohort batch 2](research/coldcard/source_cohort_20261028/README.md):
+  twenty fixed attempts, 20 new complete histories and no prior-record changes.
+  Cumulative coverage is 50 complete, 2 errors, 0 incomplete and 448 pending;
+  63 prior observations, 63 distinct transaction references and 2 prior-spending sources.
+  Seven regression tests, raw re-extraction and offline restore/reproduction
+  checks passed. One incident, unknown labels and no classifier fitting remain.
+- [Resumable source cohort, historical batch 1](research/coldcard/source_cohort_20261028/README.md):
   fixed 500-source plan, twelve cached histories reused, twenty new attempts,
   thirty complete vectors overall and two retained timeouts. Atomic checkpoints,
   unfinished-batch recovery, raw-orphan recovery, offline restoration and
@@ -78,7 +85,7 @@ FSF shares two multi-recipient transactions with training addresses. This is obs
 ## Partial or blocked
 
 - Robbed source-address dataset/model: graph-evidence registry completed, but
-  per-address compromise/device labels, source-history coverage beyond thirty
+  per-address compromise/device labels, source-history coverage beyond 50
   complete addresses and documented controls are missing; two timed-out sources
   are retained separately. The supervised classifier
   is not completed. Historical spending-fee features cannot be inferred from the
@@ -104,6 +111,6 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 Run the next fixed batch of at most twenty pending sources using the existing
 working state, or restore
-`research/coldcard/source_cohort_20261028/batch_0001/checkpoint.json` if it is missing.
-Export and verify `batch_0002`, then commit. Preserve both errors, unknown labels,
+`research/coldcard/source_cohort_20261028/batch_0002/checkpoint.json` if it is missing.
+Export and verify `batch_0003`, then commit. Preserve both errors, unknown labels,
 the fixed extractor and strict prior-block cutoffs. Do not repeat completed work.

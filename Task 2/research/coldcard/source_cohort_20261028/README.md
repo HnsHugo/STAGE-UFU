@@ -1,6 +1,38 @@
-# Resumable Coldcard source cohort — 28 October 2026
+# Resumable Coldcard source cohort — updated 29 October 2026
 
-## Current saved state: batch 1
+## Current saved state: batch 2
+
+The unchanged, prespecified next batch attempted **20 pending sources** on
+29 October: **20 complete**, 0 errors and 0 incomplete.
+No earlier record was recollected, replaced or modified. Both original timeouts
+remain explicit unavailable records, with null feature vectors.
+
+| Cumulative source coverage | Actual count |
+| --- | ---: |
+| Fixed candidate cohort | 500 |
+| Earlier histories reused | 12 |
+| Complete histories / fourteen-feature vectors | **50** |
+| Retained collection errors | 2 |
+| Incomplete histories | 0 |
+| Sources not yet attempted | **448** |
+
+The complete prefixes contain **63 prior source/transaction observations**,
+63 distinct transaction references and
+0 repeated transaction observations across source prefixes.
+There are 2 sources with prior spending. These are descriptive data
+properties, not model scores or evidence of distinct owners. All sources remain
+in one incident group; individual compromise/device labels remain unknown.
+No classifier was fitted and the feature extractor/protocol are unchanged.
+
+Saved results: [checkpoint](batch_0002/checkpoint.json),
+[features](batch_0002/features.json), [coverage](batch_0002/progress.json) and
+[execution checks](../../../verification/source_cohort_batch2_20261029.json).
+The checks re-extracted 50 raw histories,
+reproduced the export offline, restored its state without raw files or network,
+and confirmed that all 32 previous records remained identical. The first batch
+below is preserved as historical context, not the current coverage.
+
+## Historical first batch: 28 October 2026
 
 This is the collection pipeline for all **500 candidate source addresses** in
 the registry, rather than another pilot. It reuses the unchanged fourteen-feature
@@ -64,7 +96,7 @@ Working state is mutable and ignored by Git under `source_cohort_work_20261028/`
 Published batch directories are immutable; the exporter refuses to overwrite
 one. No original raw input or earlier result is changed.
 
-## Saved artifacts and verification
+## First-batch artifacts and verification
 
 - [Batch 1 checkpoint](batch_0001/checkpoint.json): complete resumable state,
   source fingerprints, raw snapshot hashes/dates, failure reasons and prefix proofs.
@@ -85,7 +117,7 @@ Run from the repository root to verify the saved checkpoint offline:
 ```bash
 python "Task 2/research/coldcard/source_cohort.py" verify \
   "Task 2/research/coldcard/source_cohort_protocol_20261028.json" \
-  "Task 2/research/coldcard/source_cohort_20261028/batch_0001"
+  "Task 2/research/coldcard/source_cohort_20261028/batch_0002"
 ```
 
 To process the **next** batch using existing working state:
@@ -98,11 +130,11 @@ python "Task 2/research/coldcard/source_cohort.py" run \
 python "Task 2/research/coldcard/source_cohort.py" snapshot \
   "Task 2/research/coldcard/source_cohort_protocol_20261028.json" \
   "Task 2/research/coldcard/source_cohort_work_20261028" \
-  --output "Task 2/research/coldcard/source_cohort_20261028/batch_0002"
+  --output "Task 2/research/coldcard/source_cohort_20261028/batch_0003"
 ```
 
 If working state is missing, add
-`--restore "Task 2/research/coldcard/source_cohort_20261028/batch_0001/checkpoint.json"`
+`--restore "Task 2/research/coldcard/source_cohort_20261028/batch_0002/checkpoint.json"`
 to the `run` command. Use the latest checkpoint, not a stale one. `--limit 0`
 restores/imports/validates state without requesting new histories. An existing
 working state takes precedence over `--restore` and is never rolled back.
@@ -113,6 +145,6 @@ non-overwriting exports and reuse of all twelve prior records without a network.
 
 ## One next unit
 
-Run the next fixed batch of at most twenty pending sources, verify the new
-snapshot and publish it. Reuse the current checkpoint; do not rebuild or repeat
+Run the next fixed batch of at most twenty pending sources, export/verify
+`batch_0003` and publish it. Reuse the current checkpoint; do not rebuild or repeat
 the pilots, replace the two errors, or change the frozen feature definitions.
