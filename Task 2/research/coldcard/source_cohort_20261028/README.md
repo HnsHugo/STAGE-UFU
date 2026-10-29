@@ -1,34 +1,27 @@
 # Resumable Coldcard source cohort — updated 29 October 2026
 
-## Current saved state: batch 16
+## Current saved state: batch 17
 
-Automatic continuation executed batches 14–16 on 29 October 2026:
-**60 fixed source attempts**, **58 complete histories**,
-2 errors and 0 incomplete histories. Each completed
+Automatic continuation executed batch 17 on 29 October 2026:
+**20 fixed source attempts**, **20 complete histories**,
+0 errors and 0 incomplete histories. Each completed
 batch was exported and verified before continuation. The runner stopped with
-reason `max_batches` after 737.916 seconds; its soft
-1800-second budget is checked between batches, so an in-flight batch finishes.
-All 272 earlier records, including earlier errors and incomplete histories, remained identical.
+reason `max_batches` after 235.09 seconds; its soft
+300-second budget is checked between batches, so an in-flight batch finishes.
+All 332 earlier records, including earlier errors and incomplete histories, remained identical.
 Two workers, the protocol, fourteen features and strict prior-block cutoff are
 unchanged. No classifier was fitted, and failures were not retried or replaced.
 Cohort membership is retrospective, based on the collector relationship; no
 prospective detection performance or device attribution is established.
 
-This completes Hugo's requested **100-source continuation**, batches 12–16:
-**98 complete histories**, 2 errors and 0 incomplete histories
-among exactly 100 new source attempts. All 232 original records are unchanged.
-The [first forty attempts](../../../verification/source_cohort_automatic_from12_20261029.json)
-were committed separately as `40b825f`; the remaining sixty are in this unit.
-This is data coverage within one incident, not model accuracy or hardware proof.
-
 | Cumulative source coverage | Actual count |
 | --- | ---: |
 | Fixed candidate cohort | 500 |
 | Earlier histories reused | 12 |
-| Complete histories / fourteen-feature vectors | **315** |
+| Complete histories / fourteen-feature vectors | **335** |
 | Retained collection errors | 16 |
 | Incomplete histories | 1 |
-| Sources not yet attempted | **168** |
+| Sources not yet attempted | **148** |
 
 Incomplete coverage is explicit; these sources receive no feature vector.
 The original four-page bound remains unchanged.
@@ -39,22 +32,27 @@ The original four-page bound remains unchanged.
 
 Completing these histories requires a documented follow-up collection.
 
-The prefixes contain **619 prior source/transaction observations** and
-**613 distinct transaction references**.
-There are 6 repeated observations
-across source prefixes and 10 sources with prior spending. Shared
+The prefixes contain **695 prior source/transaction observations** and
+**688 distinct transaction references**.
+There are 7 repeated observations
+across source prefixes and 11 sources with prior spending. Shared
 references and source IDs are retained in the execution record. This overlap
 does not establish ownership; histories cannot be assumed independent.
 Feature summaries cover complete histories only; collection failures are not
 assumed random. Compromise/device labels remain unknown, all sources share one incident group,
 and provider-counter reconciliation is not cryptographic inclusion verification.
 
-Saved results: [checkpoint](batch_0016/checkpoint.json),
-[features](batch_0016/features.json), [coverage](batch_0016/progress.json) and
-[execution checks](../../../verification/source_cohort_automatic_from14_20261029.json).
-The checks re-extracted 315 raw histories,
+Saved results: [checkpoint](batch_0017/checkpoint.json),
+[features](batch_0017/features.json), [coverage](batch_0017/progress.json) and
+[execution checks](../../../verification/source_cohort_automatic_from17_20261029.json).
+The checks re-extracted 335 raw histories,
 reproduced each new export offline, restored the exact latest state without raw
-files or network, and verified preservation of all 272 earlier records.
+files or network, and verified preservation of all 332 earlier records.
+
+The earlier hundred-source continuation (batches 12–16) remains saved:
+100 attempts, 98 complete histories and two errors, with all 232 original
+records unchanged. See the [first forty attempts](../../../verification/source_cohort_automatic_from12_20261029.json)
+and [remaining sixty / aggregate checks](../../../verification/source_cohort_automatic_from14_20261029.json).
 
 ## Saved batches
 
@@ -78,6 +76,7 @@ Counts below are cumulative snapshots; earlier artifacts are unchanged.
 | [Batch 14](batch_0014/progress.json) | 277 | 14 | 1 | 208 |
 | [Batch 15](batch_0015/progress.json) | 295 | 16 | 1 | 188 |
 | [Batch 16](batch_0016/progress.json) | 315 | 16 | 1 | 168 |
+| [Batch 17](batch_0017/progress.json) | 335 | 16 | 1 | 148 |
 
 ## Automatic continuation
 
@@ -93,7 +92,7 @@ python "Task 2/research/coldcard/source_cohort.py" run-many \
   "Task 2/research/coldcard/source_cohort_protocol_20261028.json" \
   "Task 2/research/coldcard/source_cohort_work_20261028" \
   --output "Task 2/research/coldcard/source_cohort_20261028" \
-  --restore "Task 2/research/coldcard/source_cohort_20261028/batch_0016/checkpoint.json" \
+  --restore "Task 2/research/coldcard/source_cohort_20261028/batch_0017/checkpoint.json" \
   --max-batches 25 --max-seconds 300
 ```
 
@@ -191,7 +190,7 @@ Run from the repository root to verify the saved checkpoint offline:
 ```bash
 python "Task 2/research/coldcard/source_cohort.py" verify \
   "Task 2/research/coldcard/source_cohort_protocol_20261028.json" \
-  "Task 2/research/coldcard/source_cohort_20261028/batch_0016"
+  "Task 2/research/coldcard/source_cohort_20261028/batch_0017"
 ```
 
 To process the **next** batch using existing working state:
@@ -204,11 +203,11 @@ python "Task 2/research/coldcard/source_cohort.py" run \
 python "Task 2/research/coldcard/source_cohort.py" snapshot \
   "Task 2/research/coldcard/source_cohort_protocol_20261028.json" \
   "Task 2/research/coldcard/source_cohort_work_20261028" \
-  --output "Task 2/research/coldcard/source_cohort_20261028/batch_0017"
+  --output "Task 2/research/coldcard/source_cohort_20261028/batch_0018"
 ```
 
 If working state is missing, add
-`--restore "Task 2/research/coldcard/source_cohort_20261028/batch_0016/checkpoint.json"`
+`--restore "Task 2/research/coldcard/source_cohort_20261028/batch_0017/checkpoint.json"`
 to the `run` command. Use the latest checkpoint, not a stale one. `--limit 0`
 restores/imports/validates state without requesting new histories. An existing
 working state takes precedence over `--restore` and is never rolled back.
@@ -219,6 +218,6 @@ non-overwriting exports and reuse of all twelve prior records without a network.
 
 ## One next unit
 
-Use `run-many` to continue from `batch_0017` within an explicit soft
+Use `run-many` to continue from `batch_0018` within an explicit soft
 time/batch budget, then publish the completed unit. Reuse current state or the
 latest checkpoint; preserve failures, frozen features and incident/label limits.

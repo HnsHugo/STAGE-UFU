@@ -16,20 +16,22 @@ adds four complete histories and the same fourteen features. They have two or
 three prior receipts and no prior spending. Those two pilots provided twelve distinct source
 histories; all remain in one incident group with unknown compromise/device labels.
 The [resumable cohort pipeline](research/coldcard/source_cohort_20261028/README.md)
-has reused the twelve histories and attempted 16 fixed twenty-source batches.
-The latest automatic run executed batches 14–16: 60 fixed attempts,
-58 complete histories, 2 errors and 0 incomplete histories.
-Current coverage is **315/500 complete, 16 retained errors, 1 incomplete and
-168 pending**, with 10 sources showing prior spending.
-Next: automatic continuation from batch 17, restoring the latest checkpoint if necessary.
-The requested hundred-source continuation is now executed across batches 12–16:
-100 new attempts, 98 complete histories, 2 errors and 0 incomplete histories;
-all 232 original records remain unchanged. Its first forty attempts were
-committed separately before the remaining sixty were collected.
+has reused the twelve histories and attempted 17 fixed twenty-source batches.
+The latest automatic run executed batch 17: 20 fixed attempts,
+20 complete histories, 0 errors and 0 incomplete histories.
+Current coverage is **335/500 complete, 16 retained errors, 1 incomplete and
+148 pending**, with 11 sources showing prior spending.
+Next: automatic continuation from batch 18, restoring the latest checkpoint if necessary.
 Collector rankings remain supporting results. No model was fitted.
 
 ## Completed work
 
+- [Automatic source collection, batch 17](research/coldcard/source_cohort_20261028/README.md):
+  20 fixed attempts, 20 complete histories, 0 errors and 0 incomplete histories.
+  All 332 earlier records are identical; completed snapshots were verified before
+  continuation. Cumulative coverage: 335 complete, 16 errors, 1 incomplete,
+  148 pending; 695 prior observations and 688 distinct transaction references.
+  Raw re-extraction, offline reproduction/restore and source-selection checks passed.
 - [Automatic source collection, batches 14–16](research/coldcard/source_cohort_20261028/README.md):
   60 fixed attempts, 58 complete histories, 2 errors and 0 incomplete histories.
   All 272 earlier records are identical; completed snapshots were verified before
@@ -136,7 +138,7 @@ FSF shares two multi-recipient transactions with training addresses. This is obs
 ## Partial or blocked
 
 - Robbed source-address dataset/model: graph-evidence registry completed, but
-  per-address compromise/device labels, source-history coverage beyond 315
+  per-address compromise/device labels, source-history coverage beyond 335
   complete addresses and documented controls are missing; 16 collection failures
   are retained separately. Source `cohort_0191` is also incomplete (100/110
   transactions within the four-page cap), with no feature vector. The supervised classifier
@@ -162,8 +164,8 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 ## Next action
 
 Use `source_cohort.py run-many` to chain fixed twenty-source batches within an
-explicit soft time/batch budget, starting at `batch_0017`. Use existing working
-state or restore `research/coldcard/source_cohort_20261028/batch_0016/checkpoint.json`
+explicit soft time/batch budget, starting at `batch_0018`. Use existing working
+state or restore `research/coldcard/source_cohort_20261028/batch_0017/checkpoint.json`
 if missing. Each batch is exported and verified automatically; publish the
 completed unit before starting another. Preserve all recorded errors, unknown labels,
 the fixed extractor and strict prior-block cutoffs. Do not repeat completed work.
