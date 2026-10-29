@@ -20,11 +20,15 @@ has reused the twelve histories and attempted three fixed twenty-source batches.
 Batch 3 collected 16 complete histories, 4 errors and 0 incomplete histories.
 Current coverage is **66/500 complete, 6 retained errors, 0 incomplete and
 428 pending**, with 2 sources showing prior spending.
-Next: batch 4, restoring the latest checkpoint if necessary.
+Next: automatic continuation from batch 4, restoring the latest checkpoint if necessary.
 Collector rankings remain supporting results. No model was fitted.
 
 ## Completed work
 
+- Automatic continuation: `source_cohort.py run-many` chains the original fixed
+  batches, exports/verifies each result, recovers a missing export and checks a
+  soft budget between batches. Two workers, terminal failures and frozen features
+  are unchanged. Six new regression tests cover the orchestration.
 - [Source cohort batch 3](research/coldcard/source_cohort_20261028/README.md):
   twenty fixed attempts, 16 new complete histories and all 52 earlier records unchanged.
   Cumulative coverage is 66 complete, 6 errors, 0 incomplete and 428 pending;
@@ -115,8 +119,9 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Run the next fixed batch of at most twenty pending sources using the existing
-working state, or restore
-`research/coldcard/source_cohort_20261028/batch_0003/checkpoint.json` if it is missing.
-Export and verify `batch_0004`, then commit. Preserve all recorded errors, unknown labels,
+Use `source_cohort.py run-many` to chain fixed twenty-source batches within an
+explicit soft time/batch budget, starting at `batch_0004`. Use existing working
+state or restore `research/coldcard/source_cohort_20261028/batch_0003/checkpoint.json`
+if missing. Each batch is exported and verified automatically; publish the
+completed unit before starting another. Preserve all recorded errors, unknown labels,
 the fixed extractor and strict prior-block cutoffs. Do not repeat completed work.

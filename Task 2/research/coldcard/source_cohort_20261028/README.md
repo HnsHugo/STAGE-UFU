@@ -46,6 +46,33 @@ Counts below are cumulative snapshots; earlier artifacts are unchanged.
 | [Batch 2](batch_0002/progress.json) | 50 | 2 | 0 | 448 |
 | [Batch 3](batch_0003/progress.json) | 66 | 6 | 0 | 428 |
 
+## Automatic continuation
+
+The user requested faster progress on 29 October. The twenty-source unit is a
+checkpoint boundary, not a scientific requirement to stop for another message.
+`run-many` chains these original fixed batches in a single foreground command,
+exports and verifies each completed batch, and preserves every source-level
+atomic save. Concurrency stays at two workers; pagination, timeouts, ordering,
+feature definitions and terminal-error handling stay unchanged.
+
+```bash
+python "Task 2/research/coldcard/source_cohort.py" run-many \
+  "Task 2/research/coldcard/source_cohort_protocol_20261028.json" \
+  "Task 2/research/coldcard/source_cohort_work_20261028" \
+  --output "Task 2/research/coldcard/source_cohort_20261028" \
+  --restore "Task 2/research/coldcard/source_cohort_20261028/batch_0003/checkpoint.json" \
+  --max-batches 25 --max-seconds 300
+```
+
+The time budget is soft and checked between batches. An already started batch
+finishes, so elapsed time can exceed the requested budget. Existing working state
+wins over `--restore`. Completed exports are verified, never overwritten. An
+interrupted export is recovered before the next batch. Errors stay terminal;
+there is no automatic retry or reassignment. Use only one collector per working
+directory. This command writes local checkpoints; Git publication remains a
+separate verified operation, and no process is promised after a chat response.
+See the [runner verification](../../../verification/source_cohort_runner_20261029.json).
+
 ## Historical first batch: 28 October 2026
 
 This is the collection pipeline for all **500 candidate source addresses** in

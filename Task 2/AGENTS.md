@@ -17,8 +17,11 @@ plans and older report recommendations.
   `source_cohort_protocol_20261028.json`, saved state
   `research/coldcard/source_cohort_20261028/batch_0003/checkpoint.json`.
   Coverage: 66 complete (12 reused), 6 retained errors, 0 incomplete, 428 pending.
-  Next: run one fixed batch of at most 20 pending sources, preserve failures,
-  export/verify `batch_0004` and commit. Restore the latest checkpoint if the
+  User requested faster collection: use `run-many` to chain fixed 20-source
+  batches without another message per batch, preserving per-source saves and
+  verifying/exporting each batch. Keep two workers and the original protocol.
+  Set a soft time/batch budget, then commit and publish the completed unit.
+  Next starts at `batch_0004`. Restore the latest checkpoint if the
   ignored working state is missing; do not recollect completed sources.
   The registry has graph candidates, not verified compromised/device labels.
   The address dataset/model is not replaced by collector ranking or benchmarks.

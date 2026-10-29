@@ -4,9 +4,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 import gzip
 import json
+import math
 import os
 from pathlib import Path
 import tempfile
+import time
 
 from build_source_registry import digest, json_bytes
 import multiinput_pilot as helper
@@ -228,15 +230,69 @@ def verify(protocol_path,output):
     print("Offline checkpoint and feature reproduction passed")
 
 
+def run_many(protocol_path,work,output,max_batches=2,max_seconds=180,restore=None,clock=None):
+    """Chain the original fixed batches; check a soft budget between batches.
+
+    Source-level atomic writes remain in run(). Each completed batch is exported
+    and verified before another starts. No concurrency, retry or feature change.
+    Run only one collector per working directory.
+    """
+    if type(max_batches) is not int or max_batches<1:
+        raise ValueError("max_batches must be a positive integer")
+    if not math.isfinite(max_seconds) or max_seconds<=0:
+        raise ValueError("max_seconds must be positive and finite")
+    clock=clock or time.monotonic
+    started=clock()
+    protocol,records=plan(protocol_path)
+    state=run(protocol_path,work,0,restore)
+    initial=set(state["entries"])
+    completed=[]
+
+    def save_current():
+        if not state["batches"] or state["batches"][-1]["status"]!="completed":return
+        destination=output/f"batch_{state['batches'][-1]['batch_id']:04d}"
+        if destination.exists():
+            for name,raw in exports(state,protocol_path,records).items():
+                if (destination/name).read_bytes()!=raw:
+                    raise ValueError("Existing batch export differs from working state")
+        else:
+            snapshot(protocol_path,work,destination)
+        verify(protocol_path,destination)
+
+    # Recover an export interrupted after the last source-level checkpoint.
+    save_current()
+    while True:
+        if len(state["entries"])==len(records):reason="population_exhausted";break
+        if len(completed)>=max_batches:reason="max_batches";break
+        if clock()-started>=max_seconds:reason="time_budget";break
+        before=set(state["entries"])
+        state=run(protocol_path,work,protocol["default_batch_size"])
+        if set(state["entries"])==before:raise ValueError("Collection made no progress")
+        if state["batches"][-1]["status"]!="completed":raise ValueError("Batch remains unfinished")
+        save_current()
+        completed.append(state["batches"][-1]["batch_id"])
+    summary=dict(completed_batch_ids=completed,new_source_attempts=len(set(state["entries"])-initial),
+                 stop_reason=reason,elapsed_seconds=round(clock()-started,3),
+                 budget_semantics="Soft budget checked between batches; an in-flight batch finishes",
+                 coverage=counts(state,len(records)))
+    print(json.dumps(summary,indent=2),flush=True)
+    return summary
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command",choices=("run","snapshot","verify"))
+    parser.add_argument("command",choices=("run","run-many","snapshot","verify"))
     parser.add_argument("protocol",type=Path);parser.add_argument("path",type=Path)
     parser.add_argument("--limit",type=int,default=20)
     parser.add_argument("--restore",type=Path)
     parser.add_argument("--output",type=Path)
+    parser.add_argument("--max-batches",type=int,default=2)
+    parser.add_argument("--max-seconds",type=float,default=180)
     args=parser.parse_args()
     if args.command=="run":run(args.protocol,args.path,args.limit,args.restore)
+    elif args.command=="run-many":
+        if args.output is None:parser.error("run-many requires an output directory")
+        run_many(args.protocol,args.path,args.output,args.max_batches,args.max_seconds,args.restore)
     elif args.command=="verify":verify(args.protocol,args.path)
     else:
         if args.output is None:parser.error("snapshot requires --output")

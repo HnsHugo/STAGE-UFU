@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "executed_on": "2026-10-29",
+  "tests_run": 81,
+  "new_orchestration_tests": 6,
+  "checks": [
+    {
+      "check": "coldcard_regression_tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "Task 2/research/coldcard",
+        "-p",
+        "test*.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".................................................................................\n----------------------------------------------------------------------\nRan 81 tests in 0.440s\n\nOK\n"
+    },
+    {
+      "check": "historical_checkpoint_1_reproduction",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/research/coldcard/source_cohort.py",
+        "verify",
+        "Task 2/research/coldcard/source_cohort_protocol_20261028.json",
+        "Task 2/research/coldcard/source_cohort_20261028/batch_0001"
+      ],
+      "exit_code": 0,
+      "stdout": "Offline checkpoint and feature reproduction passed\n",
+      "stderr": ""
+    },
+    {
+      "check": "historical_checkpoint_2_reproduction",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/research/coldcard/source_cohort.py",
+        "verify",
+        "Task 2/research/coldcard/source_cohort_protocol_20261028.json",
+        "Task 2/research/coldcard/source_cohort_20261028/batch_0002"
+      ],
+      "exit_code": 0,
+      "stdout": "Offline checkpoint and feature reproduction passed\n",
+      "stderr": ""
+    },
+    {
+      "check": "historical_checkpoint_3_reproduction",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/research/coldcard/source_cohort.py",
+        "verify",
+        "Task 2/research/coldcard/source_cohort_protocol_20261028.json",
+        "Task 2/research/coldcard/source_cohort_20261028/batch_0003"
+      ],
+      "exit_code": 0,
+      "stdout": "Offline checkpoint and feature reproduction passed\n",
+      "stderr": ""
+    },
+    {
+      "check": "repository_integrity",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/check_repository.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"internal_links_checked\": 246,\n  \"python_files_parsed\": 101,\n  \"preserved_artifacts_checked\": 185,\n  \"errors\": [],\n  \"status\": \"passed\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "live_collection_performed": false,
+  "coverage_unchanged": {
+    "complete": 66,
+    "errors": 6,
+    "pending": 428
+  },
+  "frozen_feature_extractor_and_protocol_unchanged": true,
+  "request_workers": 2,
+  "budget": "Soft; checked between original fixed batches",
+  "training_performed": false
+}
