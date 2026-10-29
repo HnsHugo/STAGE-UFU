@@ -118,9 +118,9 @@ is also executed: four complete histories among 81 eligible sources, unchanged
 feature extraction and no prior spending. The two pilots provided twelve distinct
 source histories, but no individual compromise/device labels were established.
 The [resumable cohort pipeline](research/coldcard/source_cohort_20261028/README.md)
-is executed through batch 11: 217 complete histories, 14 retained errors, 1 incomplete history and 268 pending sources.
+is executed through batch 13: 257 complete histories, 14 retained errors, 1 incomplete history and 228 pending sources.
 Its checkpoint can restore feature-complete records without raw files.
-**Next unit:** use the tested `run-many` runner to continue from `batch_0012`
+**Next unit:** use the tested `run-many` runner to continue from `batch_0014`
 within an explicit soft budget, verifying/exporting each original twenty-source
 batch and publishing the completed unit. Hugo requested this workflow acceleration
 on 29 October; neither the scientific protocol nor the request concurrency changes. Keep feature definitions and the strict prior-block
