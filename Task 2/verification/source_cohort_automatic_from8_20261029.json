@@ -1,0 +1,198 @@
+{
+  "automatic_run_summary": {
+    "budget_semantics": "Soft budget checked between batches; an in-flight batch finishes",
+    "completed_batch_ids": [
+      8,
+      9
+    ],
+    "coverage": {
+      "complete_sources": 178,
+      "error_sources": 14,
+      "incident_groups": 1,
+      "incomplete_sources": 0,
+      "pending_sources": 308,
+      "population_sources": 500,
+      "prior_transaction_observations": 401,
+      "reused_sources": 12,
+      "sources_with_prior_spending": 6,
+      "training_performed": false
+    },
+    "elapsed_seconds": 403.662,
+    "new_source_attempts": 40,
+    "stop_reason": "time_budget"
+  },
+  "checks": [
+    {
+      "check": "batch_8_offline_reproduction",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/research/coldcard/source_cohort.py",
+        "verify",
+        "Task 2/research/coldcard/source_cohort_protocol_20261028.json",
+        "Task 2/research/coldcard/source_cohort_20261028/batch_0008"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Offline checkpoint and feature reproduction passed\n"
+    },
+    {
+      "check": "batch_9_offline_reproduction",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/research/coldcard/source_cohort.py",
+        "verify",
+        "Task 2/research/coldcard/source_cohort_protocol_20261028.json",
+        "Task 2/research/coldcard/source_cohort_20261028/batch_0009"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Offline checkpoint and feature reproduction passed\n"
+    },
+    {
+      "check": "repository_integrity",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/check_repository.py"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\n  \"internal_links_checked\": 255,\n  \"python_files_parsed\": 101,\n  \"preserved_artifacts_checked\": 185,\n  \"errors\": [],\n  \"status\": \"passed\"\n}\n"
+    }
+  ],
+  "collection_missingness_limit": "Feature summaries condition on complete histories; collection failures are not assumed random and never receive zero-filled feature vectors or negative labels.",
+  "coverage": {
+    "checkpoint_sha256": "f8bf6e4cafeadfb715134289041471d5563a9910144a17a985ba50e98647b7b9",
+    "complete_sources": 178,
+    "error_sources": 14,
+    "feature_count": 14,
+    "feature_extractor_sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701",
+    "incident_groups": 1,
+    "incomplete_sources": 0,
+    "limitations": [
+      "Coverage, not classifier accuracy; one case and unknown compromise/hardware labels",
+      "Fixed pending order and fixed batch before requests; errors are not replaced or retried automatically",
+      "All predictor evidence precedes the reference-payment block; no current spent flags",
+      "Raw API histories are local; published checkpoints contain the normalized prefix evidence",
+      "Complete stable provider counters are not cryptographic inclusion proofs"
+    ],
+    "pending_sources": 308,
+    "population_sources": 500,
+    "prior_transaction_observations": 401,
+    "protocol_sha256": "47fdc53c71a3e642694710865ad8e0f3b6b1db2b2240ec40e878bd12daaab7cd",
+    "reused_sources": 12,
+    "sources_with_prior_spending": 6,
+    "training_performed": false,
+    "verified_compromise_labels": 0,
+    "verified_hardware_labels": 0
+  },
+  "equivalent_cli_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "Task 2/research/coldcard/source_cohort.py",
+    "run-many",
+    "Task 2/research/coldcard/source_cohort_protocol_20261028.json",
+    "Task 2/research/coldcard/source_cohort_work_20261028",
+    "--output",
+    "Task 2/research/coldcard/source_cohort_20261028",
+    "--restore",
+    "Task 2/research/coldcard/source_cohort_20261028/batch_0007/checkpoint.json",
+    "--max-batches",
+    "25",
+    "--max-seconds",
+    "300"
+  ],
+  "exact_state_restoration_without_raw_files_or_requests": true,
+  "executed_on": "2026-10-29",
+  "incident_groups": 1,
+  "new_results": {
+    "complete": 32,
+    "error": 8,
+    "incomplete": 0
+  },
+  "null_feature_failures": {
+    "cohort_0019": "URLError: <urlopen error timed out>",
+    "cohort_0020": "URLError: <urlopen error timed out>",
+    "cohort_0052": "URLError: <urlopen error timed out>",
+    "cohort_0053": "URLError: <urlopen error timed out>",
+    "cohort_0058": "URLError: <urlopen error timed out>",
+    "cohort_0059": "URLError: <urlopen error timed out>",
+    "cohort_0147": "URLError: <urlopen error timed out>",
+    "cohort_0148": "URLError: <urlopen error timed out>",
+    "cohort_0159": "URLError: <urlopen error timed out>",
+    "cohort_0160": "URLError: <urlopen error timed out>",
+    "cohort_0175": "URLError: <urlopen error timed out>",
+    "cohort_0176": "URLError: <urlopen error timed out>",
+    "cohort_0182": "URLError: <urlopen error timed out>",
+    "cohort_0183": "URLError: <urlopen error timed out>"
+  },
+  "offline_verification_without_network": true,
+  "previous_checkpoint_sha256": "6b2e5ebaa88e5eb039842a29a082fcc6351b95b2ded2d338612d6294339ec9c5",
+  "previous_entries_preserved": 152,
+  "raw_histories_reextracted": 178,
+  "run_configuration": {
+    "function": "source_cohort.run_many",
+    "max_batches": 25,
+    "max_seconds": 300,
+    "request_workers": 2,
+    "restore": "source_cohort_20261028/batch_0007/checkpoint.json"
+  },
+  "shared_prior_transaction_observations": 4,
+  "shared_prior_transactions": [
+    {
+      "observations": [
+        {
+          "height": 745712,
+          "source_id": "cohort_0041"
+        },
+        {
+          "height": 745712,
+          "source_id": "cohort_0047"
+        },
+        {
+          "height": 745712,
+          "source_id": "cohort_0072"
+        }
+      ],
+      "transaction_reference_sha256": "1d5772d67faef4966b9d33c8adb2173f8157e7e295054ea59bb131f57e30d1b6"
+    },
+    {
+      "observations": [
+        {
+          "height": 844369,
+          "source_id": "cohort_0036"
+        },
+        {
+          "height": 844369,
+          "source_id": "cohort_0164"
+        }
+      ],
+      "transaction_reference_sha256": "50c7f250f61ca25998e9712997da96e8ee6541e3deeb9b908f3b4d2f6ce420b9"
+    },
+    {
+      "observations": [
+        {
+          "height": 881967,
+          "source_id": "cohort_0065"
+        },
+        {
+          "height": 881967,
+          "source_id": "cohort_0140"
+        }
+      ],
+      "transaction_reference_sha256": "5c930dee9b62f77605c5fc6691e72c6624974236742205775e92eaa4c210627a"
+    }
+  ],
+  "shared_transaction_interpretation": "Observed overlap only; no inference of common ownership, victim status, compromise or hardware use.",
+  "snapshot_sha256": {
+    "batch_0008/checkpoint.json": "c4fcbb038ced55db64b4e3684cdc9496ceb7cb5f77e53b9e1f092bcbbb249278",
+    "batch_0008/features.json": "454d73f897dae6c9a14b9faa753b9b5e3771e130f33ca63f0400a48b17e99787",
+    "batch_0008/progress.json": "b67bf9d3d30c9e10bc579be1a7c30dd22125c7d76e1b7d55ffec704b449368a9",
+    "batch_0009/checkpoint.json": "f8bf6e4cafeadfb715134289041471d5563a9910144a17a985ba50e98647b7b9",
+    "batch_0009/features.json": "4138262daf1a1d2d50f5b667e67ad5936b0ad16d4ee8d47816fa60db07168998",
+    "batch_0009/progress.json": "597d1f46b289caefe335b388dca29d10391f0cd7da659aae1cf337510fd23a8c"
+  },
+  "status": "passed",
+  "training_performed": false,
+  "unique_prior_transactions": 397,
+  "workflow_test_report": "source_cohort_runner_20261029.json",
+  "working_state_ignored_by_git": true
+}
