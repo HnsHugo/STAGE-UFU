@@ -11,8 +11,8 @@ computed fourteen prior-block features on eight complete source histories.
 The [multi-input extension](research/coldcard/multiinput_pilot_20261028/README.md)
 adds four sources with the same extractor. The
 [resumable cohort](research/coldcard/source_cohort_20261028/README.md) now has
-407 complete histories, 24 retained errors, 1 incomplete history and 68 pending sources. Next:
-automatic continuation of fixed batches, followed by a model when labels permit.
+473 complete histories, 24 retained errors, 3 incomplete histories and 0 pending sources. All 500 sources have been attempted. Next:
+review retained collection gaps and label eligibility under a follow-up protocol.
 Collector ranking remains a preserved supporting experiment, not the central
 objective or a substitute for that address dataset.
 

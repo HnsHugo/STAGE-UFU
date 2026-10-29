@@ -1,53 +1,60 @@
 # Resumable Coldcard source cohort — updated 29 October 2026
 
-## Current saved state: batch 21
+## Current saved state: batch 25 — no pending sources
 
-Automatic continuation executed batches 20–21 on 29 October 2026:
-**40 fixed source attempts**, **38 complete histories**,
-2 errors and 0 incomplete histories. Each completed
-batch was exported and verified before continuation. The runner stopped with
-reason `max_batches` after 463.242 seconds; its soft
-1200-second budget is checked between batches, so an in-flight batch finishes.
-All 392 earlier records, including earlier errors and incomplete histories, remained identical.
-Two workers, the protocol, fourteen features and strict prior-block cutoff are
-unchanged. No classifier was fitted, and failures were not retried or replaced.
-Cohort membership is retrospective, based on the collector relationship; no
-prospective detection performance or device attribution is established.
+The final continuation executed batches 22–25 on 29 October 2026:
+**68 fixed source attempts** in batches of **20/20/20/8**,
+**66 complete histories**, 0 errors and 2 incomplete histories.
+Each batch was exported and verified before continuation. The runner stopped
+with `population_exhausted` after 819.056 seconds under a soft
+2400-second budget. All 432 earlier records, including terminal failures, and
+the earlier 21 batch plans remain identical. No earlier source was recollected.
+Two workers, the protocol, fourteen features and strict prior-block cutoffs
+remain unchanged. No classifier was fitted; compromise/device labels remain
+unknown, and all sources retain the single incident group.
 
 | Cumulative source coverage | Actual count |
 | --- | ---: |
 | Fixed candidate cohort | 500 |
 | Earlier histories reused | 12 |
-| Complete histories / fourteen-feature vectors | **407** |
+| Complete histories / fourteen-feature vectors | **473** |
 | Retained collection errors | 24 |
-| Incomplete histories | 1 |
-| Sources not yet attempted | **68** |
+| Incomplete histories | 3 |
+| Sources not yet attempted | **0** |
 
-Incomplete coverage is explicit; these sources receive no feature vector.
-The original four-page bound remains unchanged.
+All 500 candidates have been attempted. This is collection coverage, not
+validated theft/hardware identification or classifier performance. Unavailable
+histories receive no feature vector or inferred negative label; missingness is
+not assumed random. The original four-page bound remains unchanged.
 
 | Source | Transactions collected | Provider count before/after |
 | --- | ---: | ---: |
 | `cohort_0191` | 100 | 110/110 |
+| `cohort_0432` | 92 | 92/92 |
+| `cohort_0435` | 100 | 227/227 |
 
-Completing these histories requires a documented follow-up collection.
+Completeness also requires an empty terminal page under the frozen protocol.
+Even equal observed/provider counts remain incomplete if that terminal page was
+not reached within four requests; such records are not promoted retrospectively.
+Resolving collection gaps requires an explicit follow-up protocol and separate
+outputs; do not overwrite earlier errors or automatically retry sources.
 
-The prefixes contain **817 prior source/transaction observations** and
-**808 distinct transaction references**.
-There are 9 repeated observations
-across source prefixes and 12 sources with prior spending. Shared
-references and source IDs are retained in the execution record. This overlap
-does not establish ownership; histories cannot be assumed independent.
-Feature summaries cover complete histories only; collection failures are not
-assumed random. Compromise/device labels remain unknown, all sources share one incident group,
-and provider-counter reconciliation is not cryptographic inclusion verification.
+The prefixes contain **997 prior source/transaction observations** and
+**986 distinct transaction references**. There are
+11 repeated observations across source prefixes and
+17 sources with prior spending. Shared references are observed
+overlap only; they do not establish common ownership or independent cases.
+Features exclude the entire reference-payment block and all later activity.
+Provider-counter reconciliation is not a cryptographic inclusion proof.
 
-Saved results: [checkpoint](batch_0021/checkpoint.json),
-[features](batch_0021/features.json), [coverage](batch_0021/progress.json) and
-[execution checks](../../../verification/source_cohort_automatic_from20_20261029.json).
-The checks re-extracted 407 raw histories,
-reproduced each new export offline, restored the exact latest state without raw
-files or network, and verified preservation of all 392 earlier records.
+Saved results: [checkpoint](batch_0025/checkpoint.json),
+[features](batch_0025/features.json), [coverage](batch_0025/progress.json) and
+[execution checks](../../../verification/source_cohort_remaining68_20261029.json).
+Checks re-extracted 68 newly collected raw histories, reproduced all four
+new exports offline and restored the exact final state without raw files or
+network requests. Earlier raw histories are excluded from Git and unavailable
+in this fresh checkout; their 432 normalized entries were preserved exactly,
+and complete vectors reproduced from their saved prefix evidence offline.
 
 ## Saved batches
 
@@ -76,6 +83,10 @@ Counts below are cumulative snapshots; earlier artifacts are unchanged.
 | [Batch 19](batch_0019/progress.json) | 369 | 22 | 1 | 108 |
 | [Batch 20](batch_0020/progress.json) | 389 | 22 | 1 | 88 |
 | [Batch 21](batch_0021/progress.json) | 407 | 24 | 1 | 68 |
+| [Batch 22](batch_0022/progress.json) | 425 | 24 | 3 | 48 |
+| [Batch 23](batch_0023/progress.json) | 445 | 24 | 3 | 28 |
+| [Batch 24](batch_0024/progress.json) | 465 | 24 | 3 | 8 |
+| [Batch 25](batch_0025/progress.json) | 473 | 24 | 3 | 0 |
 
 ## Automatic continuation
 
@@ -91,7 +102,7 @@ python "Task 2/research/coldcard/source_cohort.py" run-many \
   "Task 2/research/coldcard/source_cohort_protocol_20261028.json" \
   "Task 2/research/coldcard/source_cohort_work_20261028" \
   --output "Task 2/research/coldcard/source_cohort_20261028" \
-  --restore "Task 2/research/coldcard/source_cohort_20261028/batch_0021/checkpoint.json" \
+  --restore "Task 2/research/coldcard/source_cohort_20261028/batch_0025/checkpoint.json" \
   --max-batches 25 --max-seconds 300
 ```
 
@@ -189,24 +200,21 @@ Run from the repository root to verify the saved checkpoint offline:
 ```bash
 python "Task 2/research/coldcard/source_cohort.py" verify \
   "Task 2/research/coldcard/source_cohort_protocol_20261028.json" \
-  "Task 2/research/coldcard/source_cohort_20261028/batch_0021"
+  "Task 2/research/coldcard/source_cohort_20261028/batch_0025"
 ```
 
-To process the **next** batch using existing working state:
+To restore/validate the final state without requesting any source again:
 
 ```bash
 python "Task 2/research/coldcard/source_cohort.py" run \
   "Task 2/research/coldcard/source_cohort_protocol_20261028.json" \
-  "Task 2/research/coldcard/source_cohort_work_20261028" --limit 20
-
-python "Task 2/research/coldcard/source_cohort.py" snapshot \
-  "Task 2/research/coldcard/source_cohort_protocol_20261028.json" \
   "Task 2/research/coldcard/source_cohort_work_20261028" \
-  --output "Task 2/research/coldcard/source_cohort_20261028/batch_0022"
+  --limit 0 \
+  --restore "Task 2/research/coldcard/source_cohort_20261028/batch_0025/checkpoint.json"
 ```
 
 If working state is missing, add
-`--restore "Task 2/research/coldcard/source_cohort_20261028/batch_0021/checkpoint.json"`
+`--restore "Task 2/research/coldcard/source_cohort_20261028/batch_0025/checkpoint.json"`
 to the `run` command. Use the latest checkpoint, not a stale one. `--limit 0`
 restores/imports/validates state without requesting new histories. An existing
 working state takes precedence over `--restore` and is never rolled back.
@@ -217,6 +225,9 @@ non-overwriting exports and reuse of all twelve prior records without a network.
 
 ## One next unit
 
-Use `run-many` to continue from `batch_0022` within an explicit soft
-time/batch budget, then publish the completed unit. Reuse current state or the
-latest checkpoint; preserve failures, frozen features and incident/label limits.
+All 500 original sources have been attempted. Review retained collection gaps
+and address-label eligibility under an explicit follow-up protocol. A recovery
+with different pagination bounds must be separately documented and exported;
+do not overwrite terminal failures or restart the exhausted original collection.
+Verified compromise/device labels and suitable controls remain prerequisites
+for fitting the requested source-address classifier.

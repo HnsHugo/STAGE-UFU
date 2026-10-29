@@ -16,16 +16,27 @@ adds four complete histories and the same fourteen features. They have two or
 three prior receipts and no prior spending. Those two pilots provided twelve distinct source
 histories; all remain in one incident group with unknown compromise/device labels.
 The [resumable cohort pipeline](research/coldcard/source_cohort_20261028/README.md)
-has reused the twelve histories and attempted 21 fixed twenty-source batches.
-The latest automatic run executed batches 20–21: 40 fixed attempts,
-38 complete histories, 2 errors and 0 incomplete histories.
-Current coverage is **407/500 complete, 24 retained errors, 1 incomplete and
-68 pending**, with 12 sources showing prior spending.
-Next: automatic continuation from batch 22, restoring the latest checkpoint if necessary.
+has reused the twelve histories and finished all 25 fixed batches.
+The final run executed batches 22–25: **68 fixed attempts**,
+**66 complete histories**, 0 errors and 2 incomplete histories.
+Current coverage is **473/500 complete, 24 retained errors, 3 incomplete and
+0 pending**, with 17 sources showing prior spending.
+All 432 earlier entries are unchanged; collection of the original candidate
+population has no pending sources. Next: review retained gaps and label eligibility
+under an explicit follow-up protocol, without automatic retries.
 Collector rankings remain supporting results. No model was fitted.
 
 ## Completed work
 
+- [Final source collection, batches 22–25](research/coldcard/source_cohort_20261028/README.md):
+  68 fixed attempts (20/20/20/8), 66 new complete histories,
+  0 errors and 2 incomplete histories. All 432 earlier records remain
+  identical. Cumulative coverage: 473 complete, 24 errors, 3 incomplete,
+  0 pending; 997 prior observations and 986 distinct transaction references.
+  All four exports reproduce offline; 68 new raw histories were re-extracted,
+  and the final checkpoint restores exactly without raw files or requests.
+  Earlier raw histories were unavailable in this fresh checkout; their preserved
+  normalized evidence and complete feature vectors were verified offline.
 - [Automatic source collection, batches 20–21](research/coldcard/source_cohort_20261028/README.md):
   40 fixed attempts, 38 complete histories, 2 errors and 0 incomplete histories.
   All 392 earlier records are identical; completed snapshots were verified before
@@ -149,12 +160,12 @@ FSF shares two multi-recipient transactions with training addresses. This is obs
 
 ## Partial or blocked
 
-- Robbed source-address dataset/model: graph-evidence registry completed, but
-  per-address compromise/device labels, source-history coverage beyond 407
-  complete addresses and documented controls are missing; 24 collection failures
-  are retained separately. Source `cohort_0191` is also incomplete (100/110
-  transactions within the four-page cap), with no feature vector. The supervised classifier
-  is not completed. Historical spending-fee features cannot be inferred from the
+- Robbed source-address dataset/model: all 500 sources have been attempted,
+  with 473 complete histories, 24 retained errors and 3 incomplete histories.
+  Per-address compromise/device labels and documented controls are still missing.
+  Unavailable histories have no feature vector. See the current cohort report
+  for per-source coverage gaps. The supervised classifier is not completed.
+  Historical spending-fee features cannot be inferred from the
   reference payment when no prior source spending exists.
 - Network-relative fees, CPFP and RBF: the Teams request for a focused literature
   review of preprocessing is explicit; completion of that synthesis and a
@@ -175,9 +186,9 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Use `source_cohort.py run-many` to chain fixed twenty-source batches within an
-explicit soft time/batch budget, starting at `batch_0022`. Use existing working
-state or restore `research/coldcard/source_cohort_20261028/batch_0021/checkpoint.json`
-if missing. Each batch is exported and verified automatically; publish the
-completed unit before starting another. Preserve all recorded errors, unknown labels,
-the fixed extractor and strict prior-block cutoffs. Do not repeat completed work.
+The original 500-source collection is exhausted; no pending source remains.
+Review retained collection gaps and source-label eligibility under an explicit
+follow-up protocol. Any recovery with larger bounds must use a distinct output;
+do not overwrite the existing failures, retry automatically, change the frozen
+extractor or relax strict prior-block cutoffs. Verified compromise/device labels
+and suitable controls are still required before fitting the requested classifier.

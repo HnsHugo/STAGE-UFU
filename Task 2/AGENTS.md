@@ -15,16 +15,16 @@ plans and older report recommendations.
   same fourteen features; see `research/coldcard/multiinput_pilot_20261028/README.md`.
   Resumable collection is now implemented: `source_cohort.py`, protocol
   `source_cohort_protocol_20261028.json`, saved state
-  `research/coldcard/source_cohort_20261028/batch_0021/checkpoint.json`.
-  Coverage: 407 complete (12 reused), 24 retained errors, 1 incomplete, 68 pending.
-  Incomplete source `cohort_0191`: 100/110 provider transactions under the four-page
-  cap, with null features; its raw history/audit is retained. No automatic retry.
-  User requested faster collection: use `run-many` to chain fixed 20-source
-  batches without another message per batch, preserving per-source saves and
-  verifying/exporting each batch. Keep two workers and the original protocol.
-  Set a soft time/batch budget, then commit and publish the completed unit.
-  Next starts at `batch_0022`. Restore the latest checkpoint if the
-  ignored working state is missing; do not recollect completed sources.
+  `research/coldcard/source_cohort_20261028/batch_0025/checkpoint.json`.
+  Coverage: 473 complete (12 reused), 24 retained errors, 3 incomplete,
+  0 pending. The final 68 fixed attempts ran in batches 22–25 (20/20/20/8),
+  with each export verified before continuation. All 432 earlier entries are
+  unchanged. See `verification/source_cohort_remaining68_20261029.json`.
+  There are no unattempted sources left. Do not rerun collection or retry
+  terminal failures automatically. Next: review retained collection gaps and
+  source-label eligibility under an explicit follow-up protocol; preserve the
+  original four-page bound and errors in all historical outputs. Any supplemental
+  recovery must use a separate output and report its changed collection bounds.
   The registry has graph candidates, not verified compromised/device labels.
   The address dataset/model is not replaced by collector ranking or benchmarks.
 - Keep the existing numbered-part structure. Write repository content in English;

@@ -118,14 +118,17 @@ is also executed: four complete histories among 81 eligible sources, unchanged
 feature extraction and no prior spending. The two pilots provided twelve distinct
 source histories, but no individual compromise/device labels were established.
 The [resumable cohort pipeline](research/coldcard/source_cohort_20261028/README.md)
-is executed through batch 21: 407 complete histories, 24 retained errors, 1 incomplete history and 68 pending sources.
+is executed through batch 25: 473 complete histories, 24 retained errors, 3 incomplete histories and 0 pending sources.
+The final 68 attempts preserved all 432 earlier entries and used fixed batches
+of 20/20/20/8; no terminal failure was retried or replaced. See the
+[execution checks](verification/source_cohort_remaining68_20261029.json).
 Its checkpoint can restore feature-complete records without raw files.
-**Next unit:** use the tested `run-many` runner to continue from `batch_0022`
-within an explicit soft budget, verifying/exporting each original twenty-source
-batch and publishing the completed unit. Hugo requested this workflow acceleration
-on 29 October; neither the scientific protocol nor the request concurrency changes. Keep feature definitions and the strict prior-block
-cutoff fixed. The current cohort is retrospective and case-derived, with
-prior-block predictors. A future prospective evaluation requires separate
+**Next unit:** review the retained collection gaps and address-label eligibility
+under an explicit follow-up protocol. No source remains unattempted; do not
+restart `run-many` or overwrite historical errors. Any supplementary collection
+must have a separate output with documented limits. Preserve the frozen features
+and strict prior-block cutoff. The current cohort is retrospective and case-derived,
+with prior-block predictors. A future prospective evaluation requires separate
 cohort-eligibility and label-availability rules. Do not encode a known destination or
 later label as a shortcut to claim general hardware identification. A clearly
 named relation/proxy baseline can be useful, but must not be reported as the
