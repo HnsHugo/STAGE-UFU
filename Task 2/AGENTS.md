@@ -29,9 +29,17 @@ plans and older report recommendations.
   keep the original result separate. Do not restart exhausted original/recovery
   collection or silently repeat failed attempts. Read the per-source label
   eligibility and `research/coldcard/source_label_review_20261029.json`.
-  Next: adjudicate exact dated address/payment evidence for compromise and
-  device targets. Labels remain unknown, controls absent and incident groups one;
-  no supervised hardware/theft fitting is justified yet.
+  Validation on 30 October reconfirmed all 500 histories and 18 regression tests;
+  the recovery is published as `b755a9829bdf7a449935045e267c7612d4203822`.
+  The first five fixed sources have also undergone ten exact address/TXID
+  searches: `research/coldcard/source_label_adjudication_20261030/README.md`.
+  Explorer matches supplied no qualifying individual role/device assertion in
+  that bounded review; 495 sources were not individually searched. Do not
+  repeat those searches without new evidence. Next: prioritize a public owner
+  or research incident report with an exact source/payment identifier and explicit
+  role, then adjudicate its dates, independence and separate device claims.
+  Labels remain unknown, controls absent and incident groups one; no supervised
+  hardware/theft fitting is justified yet.
   The registry has graph candidates, not verified compromised/device labels.
   The address dataset/model is not replaced by collector ranking or benchmarks.
 - Keep the existing numbered-part structure. Write repository content in English;

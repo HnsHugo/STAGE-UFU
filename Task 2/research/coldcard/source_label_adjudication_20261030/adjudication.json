@@ -1,0 +1,232 @@
+{
+  "checkpoint_sha256": "a78ad7367c43102fd5b4d80d9fc8f1d8300ea205f520f59f2847029d7cced944",
+  "labels_promoted": false,
+  "protocol_sha256": "9f92dd5b9eb53045797511caaadd683bb3148185e771ea0bfcd3713d67528326",
+  "raw_evidence_sha256": "a2d53d0783a5cc1b56c960de151aeadadd82e01d431a2d178fb6120c171081ca",
+  "retrieval_scope": "Three search batches, exact quoted addresses and payment TXIDs. Generic address-lookup tools were rejected as non-matches. Search snippets establish discovery only; opened readable explorer pages provide transaction observations, not independent ownership/device assertions.",
+  "reviewed_on": "2026-10-30",
+  "rows": [
+    {
+      "address_sha256": "7b3f4c1341fc6312178f58f2c4ac64febab7a2cae1b864e64c1e8149814a79a5",
+      "compromise_label": null,
+      "cutoff_height": 960190,
+      "decision": "No qualifying exact-identifier role/device assertion found in this bounded review; all targets remain unknown.",
+      "hardware_seed_origin_label": null,
+      "hardware_signing_at_event_label": null,
+      "incident_group": "coldcard_2026",
+      "missing_evidence": [
+        "Dated independent assertion tying this address/outpoint/payment to unauthorized taking",
+        "Separate device/seed-origin or event-signing mapping with relevant time validity"
+      ],
+      "observed_role": "source_input_to_case_collector",
+      "payment_txid_sha256": "c869e01c3964bf59ae60da75aae3c2dbfdb386104740d7816daa3fca5da510e1",
+      "query_hashes": [
+        {
+          "kind": "address",
+          "sha256": "d988bc39d7b57cede2cf26a06ce0d4bc9d23b41e338f53a192125a88494f99f2"
+        },
+        {
+          "kind": "payment_txid",
+          "sha256": "870371f07f028fbc679dcf70f75a82d9d472d4e05200c2e9c06230f09b770dfb"
+        }
+      ],
+      "review_limit": "Search results are incomplete and time-dependent; this is not evidence that no qualifying report exists.",
+      "reviewed_evidence": [
+        {
+          "evidence_kind": "blockchain_explorer",
+          "exact_identifier_seen_in_search_result": true,
+          "independent_compromise_assertion_found": false,
+          "independent_hardware_assertion_found": false,
+          "label_available_at": null,
+          "readable_page_review": "Full readable block page for height 960191; mempool pages returned no readable lines and their search snippets were reviewed.",
+          "source_published_at": null,
+          "url": "https://mempool.space/block/960190"
+        }
+      ],
+      "reviewed_on": "2026-10-30",
+      "role_basis": "Pinned source registry and transaction evidence; no victim/device inference.",
+      "source_id": "cohort_0001",
+      "supervised_training_eligible": false
+    },
+    {
+      "address_sha256": "e41e67283ad83c0f976de61d1c459b2603f68d4c994807a0cb5fbf408021ea49",
+      "compromise_label": null,
+      "cutoff_height": 960189,
+      "decision": "No qualifying exact-identifier role/device assertion found in this bounded review; all targets remain unknown.",
+      "hardware_seed_origin_label": null,
+      "hardware_signing_at_event_label": null,
+      "incident_group": "coldcard_2026",
+      "missing_evidence": [
+        "Dated independent assertion tying this address/outpoint/payment to unauthorized taking",
+        "Separate device/seed-origin or event-signing mapping with relevant time validity"
+      ],
+      "observed_role": "source_input_to_case_collector",
+      "payment_txid_sha256": "6dd0980fc38085964ca78bde99fd13372fd558a3442180ca87bd8034c308e1f6",
+      "query_hashes": [
+        {
+          "kind": "address",
+          "sha256": "424a2e93e79696b6998e39b8c923f30e202ea2e573e2fd1b5f7a91805b39f16a"
+        },
+        {
+          "kind": "payment_txid",
+          "sha256": "8af238c25ea3fd8872fa436946cb9e2963fc9723b96edcb0fabc7ac15771b420"
+        }
+      ],
+      "review_limit": "Search results are incomplete and time-dependent; this is not evidence that no qualifying report exists.",
+      "reviewed_evidence": [
+        {
+          "evidence_kind": "blockchain_explorer",
+          "exact_identifier_seen_in_search_result": true,
+          "independent_compromise_assertion_found": false,
+          "independent_hardware_assertion_found": false,
+          "label_available_at": null,
+          "readable_page_review": "Full readable block page for height 960191; mempool pages returned no readable lines and their search snippets were reviewed.",
+          "source_published_at": null,
+          "url": "https://mempool.space/tx/2fe075cf0ec799f3529ed6a28e0a08b45fe1fc9bd93c3f33bdbc42d5bff4f736"
+        }
+      ],
+      "reviewed_on": "2026-10-30",
+      "role_basis": "Pinned source registry and transaction evidence; no victim/device inference.",
+      "source_id": "cohort_0002",
+      "supervised_training_eligible": false
+    },
+    {
+      "address_sha256": "ab2eae427ae7e678c86523b1b598942ecf843e09535d01b1f1bd3313bfc5b49c",
+      "compromise_label": null,
+      "cutoff_height": 960191,
+      "decision": "No qualifying exact-identifier role/device assertion found in this bounded review; all targets remain unknown.",
+      "hardware_seed_origin_label": null,
+      "hardware_signing_at_event_label": null,
+      "incident_group": "coldcard_2026",
+      "missing_evidence": [
+        "Dated independent assertion tying this address/outpoint/payment to unauthorized taking",
+        "Separate device/seed-origin or event-signing mapping with relevant time validity"
+      ],
+      "observed_role": "source_input_to_case_collector",
+      "payment_txid_sha256": "1e777d547d4059211ef0b14574574bf887de2db1a78956e89967f8c67f23feab",
+      "query_hashes": [
+        {
+          "kind": "address",
+          "sha256": "319efc681449fd2e51f8084c3eb33c9773a9464033ebf97fc932257cca9d2ac9"
+        },
+        {
+          "kind": "payment_txid",
+          "sha256": "eb07b7c42e6398aa229a044670c60daaeeb562f4d7045ecaa1e7a340a4a369d2"
+        }
+      ],
+      "review_limit": "Search results are incomplete and time-dependent; this is not evidence that no qualifying report exists.",
+      "reviewed_evidence": [
+        {
+          "evidence_kind": "blockchain_explorer",
+          "exact_identifier_seen_in_search_result": true,
+          "independent_compromise_assertion_found": false,
+          "independent_hardware_assertion_found": false,
+          "label_available_at": null,
+          "readable_page_review": "Full readable block page for height 960191; mempool pages returned no readable lines and their search snippets were reviewed.",
+          "source_published_at": null,
+          "url": "https://btcfees.org/block/000000000000000000003094b4c6bfd6caa47f12985b8b78a54c7524dd1bc606"
+        }
+      ],
+      "reviewed_on": "2026-10-30",
+      "role_basis": "Pinned source registry and transaction evidence; no victim/device inference.",
+      "source_id": "cohort_0003",
+      "supervised_training_eligible": false
+    },
+    {
+      "address_sha256": "eaede081a1d99a7c6a888f2789d3e28fcaeed9bf6da59f81b34a0452b75c13b1",
+      "compromise_label": null,
+      "cutoff_height": 960191,
+      "decision": "No qualifying exact-identifier role/device assertion found in this bounded review; all targets remain unknown.",
+      "hardware_seed_origin_label": null,
+      "hardware_signing_at_event_label": null,
+      "incident_group": "coldcard_2026",
+      "missing_evidence": [
+        "Dated independent assertion tying this address/outpoint/payment to unauthorized taking",
+        "Separate device/seed-origin or event-signing mapping with relevant time validity"
+      ],
+      "observed_role": "source_input_to_case_collector",
+      "payment_txid_sha256": "d153e88d0720fb9556ea244e1072d4010a2c4d47d7805ec28535f84afef3ba46",
+      "query_hashes": [
+        {
+          "kind": "address",
+          "sha256": "45a2e089979f3f1ad98578814862d4a4989c513d421cdd39cb7bfc8014431201"
+        },
+        {
+          "kind": "payment_txid",
+          "sha256": "c9aa74b52e06e985cc2b4224b2c8e650ec09542b55028bcdf1a6c0c5c4ccdb63"
+        }
+      ],
+      "review_limit": "Search results are incomplete and time-dependent; this is not evidence that no qualifying report exists.",
+      "reviewed_evidence": [
+        {
+          "evidence_kind": "blockchain_explorer",
+          "exact_identifier_seen_in_search_result": true,
+          "independent_compromise_assertion_found": false,
+          "independent_hardware_assertion_found": false,
+          "label_available_at": null,
+          "readable_page_review": "Full readable block page for height 960191; mempool pages returned no readable lines and their search snippets were reviewed.",
+          "source_published_at": null,
+          "url": "https://btcfees.org/block/000000000000000000003094b4c6bfd6caa47f12985b8b78a54c7524dd1bc606"
+        }
+      ],
+      "reviewed_on": "2026-10-30",
+      "role_basis": "Pinned source registry and transaction evidence; no victim/device inference.",
+      "source_id": "cohort_0004",
+      "supervised_training_eligible": false
+    },
+    {
+      "address_sha256": "5433e4d34d503ff4d4165382e65d5f96e01a5b1c78a51c7548fa5edce304c81a",
+      "compromise_label": null,
+      "cutoff_height": 960190,
+      "decision": "No qualifying exact-identifier role/device assertion found in this bounded review; all targets remain unknown.",
+      "hardware_seed_origin_label": null,
+      "hardware_signing_at_event_label": null,
+      "incident_group": "coldcard_2026",
+      "missing_evidence": [
+        "Dated independent assertion tying this address/outpoint/payment to unauthorized taking",
+        "Separate device/seed-origin or event-signing mapping with relevant time validity"
+      ],
+      "observed_role": "source_input_to_case_collector",
+      "payment_txid_sha256": "fe60e702a534dc062472e0a28938aba947efdf52d0f7405b71ed82048a473ed1",
+      "query_hashes": [
+        {
+          "kind": "address",
+          "sha256": "9a678e9e2e126dafeade9ddf4f400de2526b2e77aea3f5b412b3806c8a1f900a"
+        },
+        {
+          "kind": "payment_txid",
+          "sha256": "913c8b78bbcaaaf667b0184b3891bd1e0de5e930cd9add279961aa8b1e8ae0c0"
+        }
+      ],
+      "review_limit": "Search results are incomplete and time-dependent; this is not evidence that no qualifying report exists.",
+      "reviewed_evidence": [
+        {
+          "evidence_kind": "blockchain_explorer",
+          "exact_identifier_seen_in_search_result": true,
+          "independent_compromise_assertion_found": false,
+          "independent_hardware_assertion_found": false,
+          "label_available_at": null,
+          "readable_page_review": "Full readable block page for height 960191; mempool pages returned no readable lines and their search snippets were reviewed.",
+          "source_published_at": null,
+          "url": "https://mempool.space/block/960190"
+        }
+      ],
+      "reviewed_on": "2026-10-30",
+      "role_basis": "Pinned source registry and transaction evidence; no victim/device inference.",
+      "source_id": "cohort_0005",
+      "supervised_training_eligible": false
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "exact_identifier_explorer_matches": 5,
+    "fixed_sources_reviewed": 5,
+    "new_supervised_eligible_sources": 0,
+    "other_cohort_sources_not_individually_searched": 495,
+    "planned_queries_executed": 10,
+    "qualifying_compromise_assertions": 0,
+    "qualifying_hardware_seed_origin_assertions": 0,
+    "qualifying_hardware_signing_assertions": 0,
+    "training_performed": false
+  }
+}

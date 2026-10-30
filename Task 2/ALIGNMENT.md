@@ -129,8 +129,13 @@ the original four-page result and 473 complete entries. Combined coverage:
 **500 complete, 0 errors, 0 incomplete and 0 pending**. The [label review](research/coldcard/source_label_review_20261029.json)
 and per-source eligibility retain unknown labels: no individual source/device
 assertion or documented negative control was established in this focused review.
-**Next unit:** adjudicate exact dated address/payment assertions for the chosen
-target before supervised fitting. Seed origin, compromised control and signing
+The [fixed five-source adjudication](research/coldcard/source_label_adjudication_20261030/README.md)
+now records ten exact address/TXID searches with no qualifying individual
+assertions found in that bounded review. Labels remain unknown; this does not
+establish that no report exists or assess the other 495 sources.
+**Next unit:** prioritize a public incident report publishing an exact source or
+payment identifier and explicit role, then adjudicate its dates, independence
+and device claims before supervised fitting. Seed origin, compromised control and signing
 device at the event remain separate. Do not restart exhausted collection or
 rewrite the original failures. The current cohort is retrospective and case-derived,
 with prior-block predictors. A future prospective evaluation requires separate

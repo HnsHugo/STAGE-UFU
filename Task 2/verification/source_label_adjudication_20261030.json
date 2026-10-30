@@ -1,0 +1,22 @@
+{
+  "adjudication_sha256": "f5dcb7cd5827a22d8ddc72cf415c668397996d1fc6988aaca4373d9ad85d4e96",
+  "cohort_checkpoint_unchanged": true,
+  "protocol_sha256": "9f92dd5b9eb53045797511caaadd683bb3148185e771ea0bfcd3713d67528326",
+  "query_count": 10,
+  "query_hashes_verified": true,
+  "raw_search_evidence_sha256": "a2d53d0783a5cc1b56c960de151aeadadd82e01d431a2d178fb6120c171081ca",
+  "repository_integrity": {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "Task 2/check_repository.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"internal_links_checked\": 307,\n  \"python_files_parsed\": 103,\n  \"preserved_artifacts_checked\": 185,\n  \"errors\": [],\n  \"status\": \"passed\"\n}\n"
+  },
+  "selection_matches_prespecified_plan": true,
+  "source_count": 5,
+  "status": "passed",
+  "training_performed": false,
+  "unknown_labels_preserved": true,
+  "validated_on": "2026-10-30"
+}

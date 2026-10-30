@@ -1,0 +1,47 @@
+{
+  "checkpoint_sha256": "a78ad7367c43102fd5b4d80d9fc8f1d8300ea205f520f59f2847029d7cced944",
+  "cohort_protocol_sha256": "ab0152508aafdfe004fc541466c46b3a16dc420e33c2160b1ac47126d4f0f37e",
+  "evidence_policy": "Only exact identifiers with dated role assertions can support an address label. Explorer records are transaction evidence, not independent victim/device evidence. No-result searches and provider failures leave labels unknown.",
+  "population": 500,
+  "publication": "Cohort IDs, identifier hashes, query hashes, evidence URLs and adjudication only. Raw queries/response evidence stay local; no new bulk list of alleged victims.",
+  "query_budget": 10,
+  "query_templates": [
+    "\"{address}\"",
+    "\"{payment_txid}\""
+  ],
+  "requirement": "Address-level adjudication of compromise, hardware seed origin and event signing, after complete source-history recovery.",
+  "reviewed_on": "2026-10-30",
+  "schema_version": 1,
+  "search_engine": "system1_search_query",
+  "selection": "The first five records in the already frozen SHA256 cohort order; fixed before public searches, without replacing unsuccessful searches.",
+  "selection_records": [
+    {
+      "address_sha256": "7b3f4c1341fc6312178f58f2c4ac64febab7a2cae1b864e64c1e8149814a79a5",
+      "cutoff_height": 960190,
+      "pilot_id": "cohort_0001"
+    },
+    {
+      "address_sha256": "e41e67283ad83c0f976de61d1c459b2603f68d4c994807a0cb5fbf408021ea49",
+      "cutoff_height": 960189,
+      "pilot_id": "cohort_0002"
+    },
+    {
+      "address_sha256": "ab2eae427ae7e678c86523b1b598942ecf843e09535d01b1f1bd3313bfc5b49c",
+      "cutoff_height": 960191,
+      "pilot_id": "cohort_0003"
+    },
+    {
+      "address_sha256": "eaede081a1d99a7c6a888f2789d3e28fcaeed9bf6da59f81b34a0452b75c13b1",
+      "cutoff_height": 960191,
+      "pilot_id": "cohort_0004"
+    },
+    {
+      "address_sha256": "5433e4d34d503ff4d4165382e65d5f96e01a5b1c78a51c7548fa5edce304c81a",
+      "cutoff_height": 960190,
+      "pilot_id": "cohort_0005"
+    }
+  ],
+  "split_policy": "No training or test split; one incident; source-report dates must be recorded separately from transaction cutoffs.",
+  "target_policy": "Compromise, hardware seed origin and signing-device use are distinct. No negative controls or classifier fitting are introduced.",
+  "unit": "Source address"
+}

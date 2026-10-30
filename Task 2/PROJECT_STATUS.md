@@ -1,4 +1,4 @@
-# Project status — 29 October 2026
+# Project status — 30 October 2026
 
 ## Current priority
 
@@ -28,12 +28,25 @@ complete, 0 errors and 0 incomplete histories. Combined feature coverage is
 **500 complete, 0 errors, 0 incomplete and 0 pending**; original outputs and all 473 complete entries are preserved.
 The [focused label review](research/coldcard/source_label_review_20261029.json)
 and per-source eligibility still have zero verified compromise/device labels,
-zero documented negative controls and one incident group. Next: exact dated
-source-label adjudication, not another history collection or ungrounded model fit.
+zero documented negative controls and one incident group. A
+[five-source exact-identifier pilot](research/coldcard/source_label_adjudication_20261030/README.md)
+has now executed ten fixed address/TXID searches. It found explorer observations,
+but no qualifying individual compromise/device assertion in that bounded review;
+all labels remain unknown. The other 495 sources were not individually searched.
+Next: prioritize a public incident report with an exact source/payment identifier
+and explicit role rather than further generic explorer retrieval.
 Collector rankings remain supporting results. No model was fitted.
 
 ## Completed work
 
+- [30 October validation](verification/source_cohort_validation_20261030.json):
+  500 complete histories, 27 raw recoveries re-extracted, 473 inherited entries
+  unchanged, exact offline restoration and 18 passing regressions. The recovery
+  was published as commit `b755a9829bdf7a449935045e267c7612d4203822`.
+- [Five-source label adjudication](research/coldcard/source_label_adjudication_20261030/README.md):
+  ten prespecified exact-identifier searches; explorer matches for all five,
+  zero qualifying individual labels and no label promotion. Query/retrieval
+  hashes, source-specific decisions, scope limits and missing proof are saved.
 - [Supplemental recovery and label eligibility](research/coldcard/source_cohort_recovery_20261029/README.md):
   one fixed 27-source pass, 27 recovered complete histories, 0 errors,
   0 incomplete, combined 500/500 complete. All 473 earlier complete records
