@@ -13,6 +13,21 @@ contains only hashed identifiers, cutoffs and reference-input accounting. Privat
 addresses can be reconstructed from the four-block cache and checked against
 those hashes before requests.
 
+## Executed first batch
+
+Batch 1 is saved and verified: 20 fixed attempts, 14 complete histories, six
+incomplete histories, zero request errors and 980 pending sources. All twenty
+raw responses were re-extracted without changing the 500 original case features.
+See [the first-batch audit](first_batch_audit.json). These are coverage counts,
+not model performance.
+
+From batch 2, the [capacity precheck](capacity_optimization.json) retains
+addresses with more than 400 provider-reported confirmed transactions as
+incomplete without fetching history pages that cannot exhaust the sixteen-page
+bound. Both counter reads are saved; no zero feature vector is created. The
+first batch remains unchanged. This affects request effort, not complete-history
+eligibility or the frozen feature extractor. Seventy-two source-path tests pass.
+
 ## Bounds and durable evidence
 
 Use Blockstream, two workers, at most sixteen pages per address, fifteen seconds

@@ -1,0 +1,143 @@
+{
+  "audited_on": "2026-10-30",
+  "by_reference_block": [
+    {
+      "case_complete": 63,
+      "case_selected": 63,
+      "comparison": {
+        "complete": 14,
+        "errors": 0,
+        "height": 960188,
+        "incomplete": 6,
+        "pending": 106,
+        "selected": 126
+      },
+      "comparison_completion_fraction": 0.1111111111111111,
+      "height": 960188
+    },
+    {
+      "case_complete": 110,
+      "case_selected": 110,
+      "comparison": {
+        "complete": 0,
+        "errors": 0,
+        "height": 960189,
+        "incomplete": 0,
+        "pending": 220,
+        "selected": 220
+      },
+      "comparison_completion_fraction": 0.0,
+      "height": 960189
+    },
+    {
+      "case_complete": 168,
+      "case_selected": 168,
+      "comparison": {
+        "complete": 0,
+        "errors": 0,
+        "height": 960190,
+        "incomplete": 0,
+        "pending": 336,
+        "selected": 336
+      },
+      "comparison_completion_fraction": 0.0,
+      "height": 960190
+    },
+    {
+      "case_complete": 159,
+      "case_selected": 159,
+      "comparison": {
+        "complete": 0,
+        "errors": 0,
+        "height": 960191,
+        "incomplete": 0,
+        "pending": 318,
+        "selected": 318
+      },
+      "comparison_completion_fraction": 0.0,
+      "height": 960191
+    }
+  ],
+  "case_complete": 500,
+  "case_selected": 500,
+  "checkpoint_sha256": "7826d3d741f94effe754feff1d05acea0e914eaa391ae35d28d144475778397f",
+  "collection_modes": {
+    "original_bounded_pagination": 20
+  },
+  "comparison_completion_fraction": 0.014,
+  "comparison_rows_with_full_feature_vector_identical_to_a_case_row": 0,
+  "comparison_sources_sharing_prior_transaction_with_case": 0,
+  "coverage": {
+    "attempted_sources": 20,
+    "by_reference_block": [
+      {
+        "complete": 14,
+        "errors": 0,
+        "height": 960188,
+        "incomplete": 6,
+        "pending": 106,
+        "selected": 126
+      },
+      {
+        "complete": 0,
+        "errors": 0,
+        "height": 960189,
+        "incomplete": 0,
+        "pending": 220,
+        "selected": 220
+      },
+      {
+        "complete": 0,
+        "errors": 0,
+        "height": 960190,
+        "incomplete": 0,
+        "pending": 336,
+        "selected": 336
+      },
+      {
+        "complete": 0,
+        "errors": 0,
+        "height": 960191,
+        "incomplete": 0,
+        "pending": 318,
+        "selected": 318
+      }
+    ],
+    "comparison_compromise_hardware_labels": "unknown",
+    "complete_sources": 14,
+    "error_sources": 0,
+    "error_types": {},
+    "feature_count": 14,
+    "incomplete_sources": 6,
+    "pending_sources": 980,
+    "prior_transaction_observations": 699,
+    "selected_sources": 1000,
+    "sources_with_prior_spending": 9,
+    "training_performed": false
+  },
+  "distinct_comparison_prior_transaction_references": 697,
+  "error_types": {},
+  "limitations": [
+    "Fixed sample selected before history collection; complete-case population is censored by current full-history coverage bounds",
+    "Case coverage used the original collection plus supplemental recovery; comparison collection is a single bounded pass with a capacity precheck from batch 2",
+    "Unknown comparison compromise/device status is not a verified negative class",
+    "Shared transactions and identical features are overlap diagnostics, not ownership proof; preserve connected components before any exploratory split",
+    "One previously inspected incident does not supply independent-incident or prospective detection validation"
+  ],
+  "local_raw_histories_reextracted": 20,
+  "missing_historical_spending_fee_rates": 5,
+  "observed_full_history_tx_count_max": 1371876,
+  "observed_full_history_tx_count_min": 2,
+  "original_case_checkpoint_and_features_preserved": true,
+  "protocol_sha256": "3b903654be6d84d4cf159c8ecfa8209ab65af7e50004d22034b22872a101407b",
+  "published_raw_fingerprints_without_local_bytes": 0,
+  "raw_statuses": {
+    "complete": 14,
+    "incomplete": 6
+  },
+  "replacement_or_retry_performed": false,
+  "schema_version": 1,
+  "shared_prior_transaction_references_between_case_and_comparisons": 0,
+  "split_created": false,
+  "training_performed": false
+}
