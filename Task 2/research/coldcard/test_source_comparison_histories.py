@@ -135,6 +135,19 @@ class ComparisonHistoryTests(unittest.TestCase):
             self.assertEqual(result['error_sources'],get.call_count)
             self.assertEqual(result['pending_sources'],4-get.call_count)
 
+    def test_retry_after_is_saved_and_future_cooldown_starts_no_http(self):
+        def denied(record,protocol):
+            raise urllib.error.HTTPError('fixture',429,'rate limited',{'Retry-After':'900'},None)
+        with tempfile.TemporaryDirectory() as folder:
+            f=self.fixture(folder);root,path,protocol,_,_=f
+            with self.mocked(f,denied):collect.run_many(path,root/'work',root/'out',1)
+            state=json.loads((root/'work/state.json').read_bytes())
+            self.assertTrue(all(e['retry_after']=='900' for e in state['entries'].values()))
+            protocol['rate_limit_recovery']=dict(not_before='2099-01-01T00:00:00+00:00')
+            with self.mocked(f) as get,self.assertRaises(ValueError):
+                collect.run_many(path,root/'later_work',root/'later_out',1)
+            get.assert_not_called()
+
     def test_https_tunnel_denial_stops_and_a_resume_does_not_issue_new_requests(self):
         def denied(record,protocol):
             raise urllib.error.URLError('Tunnel connection failed: 403 Forbidden')
@@ -183,6 +196,27 @@ class ComparisonHistoryTests(unittest.TestCase):
             path.write_bytes(json_bytes(changed))
             with self.assertRaises(ValueError):collect.load(path)
             changed=deepcopy(protocol);changed['inputs']['access_check']['sha256']='0'*64
+            path.write_bytes(json_bytes(changed))
+            with self.assertRaises(ValueError):collect.load(path)
+
+    def test_cooldown_continuation_excludes_every_completed_or_bounded_source(self):
+        path=Path(__file__).parent/'source_comparison_rate_limit_continuation_protocol_20261030.json'
+        protocol,public=collect.load(path);latest=collect.baseline_entries(path,protocol)
+        self.assertEqual([r['pilot_id'] for r in public],[f'comparison_{i:04d}' for i in range(348,1001)])
+        self.assertTrue(all(latest.get(r['pilot_id'],{}).get('status','pending') in ('error','pending') for r in public))
+        self.assertEqual(sum(e['status']=='complete' for e in latest.values()),273)
+        self.assertEqual(sum(e['status']=='incomplete' for e in latest.values()),74)
+
+    def test_cooldown_continuation_rejects_a_short_wait_or_unreduced_rate(self):
+        root=Path(__file__).parent
+        protocol=json.loads((root/'source_comparison_rate_limit_continuation_protocol_20261030.json').read_bytes())
+        with tempfile.NamedTemporaryFile(dir=root,suffix='.json') as handle:
+            path=Path(handle.name);changed=deepcopy(protocol)
+            changed['http_transport']['requests_per_second']=2
+            path.write_bytes(json_bytes(changed))
+            with self.assertRaises(ValueError):collect.load(path)
+            changed=deepcopy(protocol)
+            changed['rate_limit_recovery']['not_before']='2026-10-30T16:48:09+00:00'
             path.write_bytes(json_bytes(changed))
             with self.assertRaises(ValueError):collect.load(path)
 

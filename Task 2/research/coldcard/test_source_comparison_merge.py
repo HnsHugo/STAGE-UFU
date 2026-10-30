@@ -3,7 +3,7 @@ from copy import deepcopy
 import unittest
 
 from prepayment_pilot import FEATURE_NAMES
-from combine_comparison_histories import merge
+from combine_comparison_histories import merge,merge_passes
 
 
 class ComparisonMergeTests(unittest.TestCase):
@@ -44,6 +44,21 @@ class ComparisonMergeTests(unittest.TestCase):
             with self.assertRaises(ValueError):merge(selection,old,new,allowed)
         selection,old,new,allowed=self.fixture();new['comparison_0003']['features']={}
         with self.assertRaises(ValueError):merge(selection,old,new,allowed)
+
+    def test_three_pass_history_retains_errors_and_original_complete_features(self):
+        selection,old,new,allowed=self.fixture();first=deepcopy(new)
+        first['comparison_0002']=dict(new['comparison_0002'],status='error',features=None)
+        second={'comparison_0002':new['comparison_0002']}
+        before=deepcopy((old,first,second))
+        rows=merge_passes(selection,old,[('first',first,allowed),('cooldown',second,{'comparison_0002'})])
+        self.assertEqual((old,first,second),before)
+        self.assertEqual(rows[0]['features'],old['comparison_0001']['features'])
+        self.assertEqual(rows[1]['history_provenance']['chosen_pass'],'cooldown')
+        self.assertEqual([p['status'] for p in rows[1]['history_provenance']['recovery_passes']],['error','complete'])
+        self.assertEqual(rows[1]['history_provenance']['initial_status'],'error')
+        self.assertEqual(rows[2]['history_status'],'incomplete')
+        with self.assertRaises(ValueError):
+            merge_passes(selection,old,[('first',new,allowed),('cooldown',second,{'comparison_0002'})])
 
 
 if __name__=='__main__':unittest.main()

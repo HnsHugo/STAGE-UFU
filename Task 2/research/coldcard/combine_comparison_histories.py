@@ -1,4 +1,4 @@
-"""Create a provenance-preserving address view from the two comparison passes."""
+"""Create a provenance-preserving address view from recorded comparison passes."""
 import argparse
 from collections import Counter
 from copy import deepcopy
@@ -45,6 +45,27 @@ def merge(selection,original,recovered,allowed):
     return rows
 
 
+def merge_passes(selection,original,passes):
+    """Retain every pass outcome while refusing to replace a complete history."""
+    latest=deepcopy(original)
+    for name,entries,allowed in passes:
+        rows=merge(selection,latest,entries,set(allowed))
+        latest.update(deepcopy(entries))
+    for row in rows:
+        key=row['source_id'];old=original.get(key)
+        history=[];chosen='initial' if old is not None else None
+        for name,entries,allowed in passes:
+            e=entries.get(key)
+            history.append(dict(pass_name=name,status=e['status'] if e else
+                'pending' if key in allowed else 'excluded_previous_result_retained',
+                raw_sha256=e.get('raw_sha256') if e else None))
+            if e is not None:chosen=name
+        row['history_provenance']=dict(chosen_pass=chosen,
+            initial_status=old['status'] if old else 'pending',
+            initial_raw_sha256=old.get('raw_sha256') if old else None,recovery_passes=history)
+    return rows
+
+
 def build(protocol_path,output):
     protocol,public=collect.load(protocol_path);root=protocol_path.parent
     if 'network_recovery' not in protocol:raise ValueError('A distinct recovery protocol is required')
@@ -56,7 +77,14 @@ def build(protocol_path,output):
     collect.verify(initial_protocol,initial_path.parent)
     selection=json.loads((root/protocol['inputs']['selection']['file']).read_bytes())['rows']
     allowed=set(protocol['network_recovery']['source_ids'])
-    comparisons=merge(selection,original['entries'],state['entries'],allowed)
+    prior=collect.previous_recovery(protocol_path,protocol)
+    if prior:
+        previous_protocol,previous_checkpoint,previous,previous_state=prior
+        collect.verify(previous_protocol,previous_checkpoint.parent)
+        comparisons=merge_passes(selection,original['entries'],[
+            ('network_recovery',previous_state['entries'],set(previous['network_recovery']['source_ids'])),
+            ('rate_limit_continuation',state['entries'],allowed)])
+    else:comparisons=merge(selection,original['entries'],state['entries'],allowed)
     design=json.loads((root/protocol['inputs']['design']['file']).read_bytes())
     case_pin=design['inputs']['source_view'];case_raw=(root/case_pin['file']).read_bytes()
     if digest(case_raw)!=case_pin['sha256']:raise ValueError('Original case view changed')
@@ -73,6 +101,9 @@ def build(protocol_path,output):
     inputs=dict(case_view_sha256=digest(case_raw),initial_checkpoint_sha256=digest(initial_path.read_bytes()),
                 recovery_checkpoint_sha256=digest((output/'checkpoint.json.gz').read_bytes()),
                 recovery_protocol_sha256=digest(protocol_path.read_bytes()))
+    if prior:
+        inputs.update(previous_recovery_checkpoint_sha256=digest(previous_checkpoint.read_bytes()),
+                      previous_recovery_protocol_sha256=digest(previous_protocol.read_bytes()))
     view=dict(schema_version=1,created_on='2026-10-30',inputs=inputs,
               target='known_coldcard_core_membership; retrospective exploratory membership, not independently verified theft or device identity',
               predictor_allowlist=list(FEATURE_NAMES),

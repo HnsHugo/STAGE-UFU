@@ -59,9 +59,9 @@ def load(protocol_path):
     selected=json.loads((root/protocol['inputs']['selection']['file']).read_bytes())['rows']
     if 'network_recovery' in protocol:
         recovery=protocol['network_recovery']
-        base=json.loads(gzip.decompress((root/protocol['inputs']['baseline_checkpoint']['file']).read_bytes()))
-        expected=[r['source_id'] for r in selected if r['source_id'] not in base['entries']
-                  or base['entries'][r['source_id']]['status']=='error']
+        latest=baseline_entries(protocol_path,protocol)
+        expected=[r['source_id'] for r in selected if r['source_id'] not in latest
+                  or latest[r['source_id']]['status']=='error']
         if expected!=recovery['source_ids']:
             raise ValueError('Recovery changed the fixed network-gap selection')
         selected=[r for r in selected if r['source_id'] in set(expected)]
@@ -89,6 +89,52 @@ def load(protocol_path):
             or not 0<transport.get('requests_per_second',0)<=3):
         raise ValueError('Persistent transport exceeded collection limits')
     return protocol,public
+
+
+def previous_recovery(protocol_path,protocol):
+    """A single cooldown continuation may pin the preserved stopped recovery."""
+    prior=protocol.get('network_recovery',{}).get('prior_recovery')
+    if prior is None:return None
+    root=protocol_path.parent;inputs=protocol['inputs']
+    previous_protocol=root/inputs[prior['protocol_input']]['file']
+    previous_checkpoint=root/inputs[prior['checkpoint_input']]['file']
+    old,public=load(previous_protocol)
+    if ('network_recovery' not in old or old['network_recovery'].get('prior_recovery')
+            or any(old['inputs'][k]!=inputs[k] for k in ('baseline_protocol','baseline_checkpoint','selection'))):
+        raise ValueError('Continuation changed the original comparison lineage')
+    state=json.loads(gzip.decompress(previous_checkpoint.read_bytes()))
+    validate(state,previous_protocol,public)
+    stop=json.loads((root/inputs[prior['stop_input']]['file']).read_bytes())
+    errors=[e for e in state['entries'].values() if provider_denied(e)]
+    if (not errors or any(e.get('http_status')!=429 for e in errors)
+            or stop.get('http_statuses')!=[429]
+            or stop.get('checkpoint_sha256')!=digest(previous_checkpoint.read_bytes())):
+        raise ValueError('Cooldown continuation is restricted to saved HTTP 429 rate limits')
+    last=max(datetime.fromisoformat(e['request_finished_at']) for e in errors)
+    cooldown=protocol.get('rate_limit_recovery',{})
+    earliest=datetime.fromisoformat(cooldown['not_before'])
+    if ((earliest-last).total_seconds()<900 or
+            not 0<protocol.get('http_transport',{}).get('requests_per_second',0)<=1):
+        raise ValueError('Continuation requires fifteen-minute cooldown and at most one request/second')
+    return previous_protocol,previous_checkpoint,old,state
+
+
+def baseline_entries(protocol_path,protocol):
+    root=protocol_path.parent
+    initial=json.loads(gzip.decompress((root/protocol['inputs']['baseline_checkpoint']['file']).read_bytes()))
+    latest=deepcopy(initial['entries']);prior=previous_recovery(protocol_path,protocol)
+    if prior:
+        for key,e in prior[3]['entries'].items():
+            if key in latest and latest[key]['status']!='error':
+                raise ValueError('A previous pass overwrote a complete/incomplete result')
+            latest[key]=deepcopy(e)
+    return latest
+
+
+def check_cooldown(protocol):
+    if 'rate_limit_recovery' in protocol:
+        if datetime.now(timezone.utc)<datetime.fromisoformat(protocol['rate_limit_recovery']['not_before']):
+            raise ValueError('Rate-limit cooldown has not elapsed; no request started')
 
 
 def private_plan(protocol_path,work,cache):
@@ -212,7 +258,10 @@ def fetch_one(record,protocol,work,get_json=None,stop=None):
         marker.update(finished_at=now(),raw_sha256=digest(raw))
     except Exception as error:
         marker.update(finished_at=now(),error_type=type(error).__name__,reason=type(error).__name__+': '+str(error))
-        if isinstance(error,urllib.error.HTTPError):marker['http_status']=error.code
+        if isinstance(error,urllib.error.HTTPError):
+            marker['http_status']=error.code
+            if error.headers and error.headers.get('Retry-After'):
+                marker['retry_after']=str(error.headers['Retry-After'])[:256]
         if stop is not None and provider_denied(marker):stop.set()
     saved.atomic_write(marker_path,json_bytes(marker))
     return record['pilot_id']
@@ -235,6 +284,7 @@ def recover_entry(record,work):
     e.update(reason=marker.get('reason','InterruptedAttempt: no complete raw response saved; not retried'),
              error_type=marker.get('error_type','InterruptedAttempt'))
     if 'http_status' in marker:e['http_status']=marker['http_status']
+    if 'retry_after' in marker:e['retry_after']=marker['retry_after']
     return e
 
 
@@ -333,6 +383,7 @@ def run_many(protocol_path,work,output,max_batches=50,cache=None,restore=None):
     with (work/'collector.lock').open('a+') as lock:
         fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
         protocol,public,private=private_plan(protocol_path,work,cache)
+        check_cooldown(protocol)
         if protocol.get('http_transport',{}).get('keepalive'):
             from comparison_http import PersistentHTTP
             with PersistentHTTP(protocol['http_transport']['requests_per_second']) as http:

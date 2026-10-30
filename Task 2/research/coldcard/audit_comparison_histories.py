@@ -82,6 +82,8 @@ def audit(protocol_path,output,work=None):
         result.update(replacement_or_retry_performed=True,replacement_performed=False,
                       automatic_retry_within_pass=False,explicit_separate_network_recovery=True)
         result['limitations'][1]='This is a separately recorded one-pass recovery of original network errors and pending sources; original complete/incomplete results remain in their original pass'
+        if protocol['network_recovery'].get('prior_recovery'):
+            result['limitations'][1]='This separately recorded HTTP 429 cooldown continuation excludes every complete/incomplete result from both earlier passes; all earlier outcomes remain preserved'
     return result
 
 
