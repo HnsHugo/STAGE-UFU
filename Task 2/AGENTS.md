@@ -51,8 +51,18 @@ plans and older report recommendations.
   reference payments consume all known prior-block UTXOs. `cohort_0435` consumes
   200 of 225 known UTXOs; retain that partial outcome. Seven new tests bring the
   source-path total to 49. The event outcomes and evidence remain outside predictors.
-  Next: specify the address model target and comparison/evaluation design using
-  this pinned view, before sampling comparisons or fitting. See the
+  The explicit exploratory comparison target/design is now frozen:
+  `research/coldcard/source_comparison_design_20261030/README.md`. Operational
+  `known_coldcard_core_membership` is distinct from theft/device targets. Its
+  selector has now run against four newly retrieved complete blocks:
+  `research/coldcard/source_comparison_selection_20261030/README.md`.
+  All 500 case sources reconcile; 1,000 fixed comparisons were selected from
+  5,025 eligible input sources, with no shortfall. A public redacted census
+  reproduces the sample without raw cache files. Sixty source-path tests pass.
+  Comparison features are all pending, not complete or certified legitimate.
+  Next: implement bounded resumable histories for these fixed 1,000 sources,
+  reusing the existing collector/fourteen-feature extractor; preserve failures
+  without replacements and audit completion before fitting. See the
   30 October priority review in ALIGNMENT.md. Further public reports are bounded
   enrichment, not a requirement to obtain 500 personal testimonies. Preserve
   author/incident groups and unknown dates; keep reported positives separate from verified labels and

@@ -5,6 +5,12 @@ selection and evaluation rules before comparison sampling or fitting. It serves
 [the address-model objective](../../../ALIGNMENT.md) using the
 [500-source feature/evidence view](../source_dataset_20261030/README.md).
 
+The subsequent [selection execution](../source_comparison_selection_20261030/README.md)
+has now recovered the four blocks, reconciled all 500 case sources and selected
+1,000 comparisons from 5,025 eligible sources. The initial readiness audit below
+is preserved as the pre-collection state. Comparison histories and fitting remain
+pending.
+
 ## Target and its meaning
 
 `known_coldcard_core_membership` is 1 for the fixed 500 corroborated source records.

@@ -147,9 +147,15 @@ are now executed: 500 unchanged feature vectors, 411 sources with one prior
 transaction, 482 without prior spending and 499 reference payments consuming
 all known prior-block UTXOs. `cohort_0435` retains a partial reference spend
 (200 of 225 known UTXOs). These event outcomes are separate from predictors.
-**Next unit:** specify the intended address-model target and a compatible
-comparison/evaluation protocol using this pinned view, before comparison sampling
-or fitting. Additional exact public reports are supporting enrichment, not
+The [comparison design](research/coldcard/source_comparison_design_20261030/README.md)
+now defines an explicit exploratory core-membership proxy, separate from the
+ultimate theft/device objective. The [selection execution](research/coldcard/source_comparison_selection_20261030/README.md)
+reconciles all 500 case sources and selects 1,000 same-block input-source
+comparisons from 5,025 eligible addresses. Their compromise/device status is
+unknown and their feature vectors are pending. **Next unit:** implement bounded,
+resumable histories for this frozen comparison sample with unchanged prior-block
+features, then audit completion before fitting under the fixed exploratory design.
+Additional exact public reports are supporting enrichment, not
 the default critical path. Seed origin, compromised control and signing
 device at the event remain separate. Do not restart exhausted collection or
 rewrite the original failures. The current cohort is retrospective and case-derived,

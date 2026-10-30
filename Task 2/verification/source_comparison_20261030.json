@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-10-30",
+  "design_protocol_sha256": "53fe2b2ecefaa90f9a9820f735c2e40318d2abb836cbf7f84734fb10e227e1f8",
+  "driver_sha256": "4b91c0a233d1e5458fb2770523ee8915697419929af6b7f6ae5fc4b30bf3f3ea",
+  "design_published_commit": "b3ac33d9ca661e604741ab08a59944a297344291",
+  "outputs": {
+    "selection.json": {
+      "bytes": 531399,
+      "sha256": "611570b92038092ca8be8fbf327a86a0ad04a4f5fedcdfe489fcf47ef88c7334"
+    },
+    "census.json.gz": {
+      "bytes": 627211,
+      "sha256": "90e5bc6392191bf3165d4eb43677f91c8767bdc345cb2d9edf10b2fca159d0fd"
+    },
+    "block_collection.json": {
+      "bytes": 1784,
+      "sha256": "07a94dc274e91e346267628df9abae7c5f8086ad1b66afa61858db9a5045a09e"
+    },
+    "README.md": {
+      "bytes": 3939,
+      "sha256": "c9113ca708489834a23410052a98f1940f33ced679fc99c65707df4a812f0be8"
+    }
+  },
+  "case_sources_reconciled": 500,
+  "blocks_retrieved": 4,
+  "new_provider_snapshot": true,
+  "historical_raw_bytes_reproduced": false,
+  "source_census": 5526,
+  "eligible_comparison_sources": 5025,
+  "selected_comparison_sources": 1000,
+  "quota_shortfall": 0,
+  "source_path_tests": {
+    "tests_run": 60,
+    "failures": 0,
+    "errors": 0
+  },
+  "raw_cache_selection_reproduction": true,
+  "public_redacted_census_replay": true,
+  "independent_full_input_census_and_minimum_reference_check": true,
+  "independent_hash_order_check": true,
+  "all_selected_roles_are_input_sources": true,
+  "no_repeated_selected_addresses": true,
+  "known_related_addresses_excluded": true,
+  "actual_compromise_hardware_labels_all_unknown": true,
+  "selection_features_all_pending": true,
+  "comparison_history_requests": 0,
+  "split_created": false,
+  "training_performed": false,
+  "cryptographic_block_inclusion_verified": false,
+  "original_case_features_or_models_changed": false,
+  "limits": [
+    "Membership zero means outside the pinned case core, not legitimate or unrobbed",
+    "This is retrospective and one incident; the case distribution was previously inspected",
+    "Normalized census replay reproduces selection but does not independently validate the raw blocks"
+  ]
+}

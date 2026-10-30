@@ -6,7 +6,7 @@ import tempfile
 import unittest
 
 from build_source_registry import digest
-from source_comparison_design import audit, census, check_case_anchors, choose, load_design
+from source_comparison_design import audit, census, check_case_anchors, choose, load_design, replay
 
 
 ROOT=Path(__file__).resolve().parent
@@ -103,6 +103,23 @@ class SourceComparisonTests(unittest.TestCase):
             changed=deepcopy(protocol);changed['comparison_selection']['quotas'][0]['comparison_quota']+=1
             path.write_text(json.dumps(changed))
             with self.assertRaises(ValueError):load_design(path)
+
+    def test_public_census_replays_selection_without_raw_cache(self):
+        out=ROOT/'source_comparison_selection_20261030'
+        actual=replay(PROTOCOL,out/'census.json.gz')
+        self.assertEqual(actual,json.loads((out/'selection.json').read_bytes()))
+        self.assertEqual(len(actual['rows']),1000)
+        self.assertTrue(all(r['features'] is None and r['compromise_label'] is None
+                            and r['hardware_label'] is None for r in actual['rows']))
+
+    def test_redacted_exclusion_tampering_is_rejected(self):
+        import gzip
+        out=ROOT/'source_comparison_selection_20261030'
+        normalized=json.loads(gzip.decompress((out/'census.json.gz').read_bytes()))
+        normalized['sources'][0]['excluded_known_related']=not normalized['sources'][0]['excluded_known_related']
+        with tempfile.TemporaryDirectory() as folder:
+            path=Path(folder)/'census.json.gz';path.write_bytes(gzip.compress(json.dumps(normalized).encode()))
+            with self.assertRaises(ValueError):replay(PROTOCOL,path)
 
 
 if __name__=='__main__':unittest.main()

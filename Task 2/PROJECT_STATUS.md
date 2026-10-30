@@ -47,13 +47,25 @@ firmware or signing-device proof was established. The other 499 records and
 original labels are unchanged. The 30 October alignment review corrects the
 priority: the existing 500-source feature/evidence view and source description
 are now [consolidated](research/coldcard/source_dataset_20261030/README.md).
-Next: specify target-matched comparisons and evaluation. Further public reports
+The [comparison protocol](research/coldcard/source_comparison_design_20261030/README.md)
+now states a narrow exploratory core-membership target and evaluation. Its
+[same-block selector](research/coldcard/source_comparison_selection_20261030/README.md)
+has retained 1,000 fixed comparisons from 5,025 eligible sources; histories remain
+pending. Next: bounded resumable history/feature collection for this fixed sample.
+Further public reports
 are bounded enrichment; obtaining individual testimony for every address was not
 a documented professor requirement.
 Collector rankings remain supporting results. No model was fitted.
 
 ## Completed work
 
+- [Comparison design and actual source selection](research/coldcard/source_comparison_selection_20261030/README.md):
+  target, same-period input-source universe, quotas, failures and exploratory
+  grouped evaluation are frozen. Four complete new provider snapshots reconcile
+  all 500 case sources; 5,526 unique source addresses before exclusions, 5,025
+  eligible comparisons and 1,000 selected with zero quota shortfall. Raw-cache
+  reproduction and public redacted-census replay agree exactly. Eleven focused
+  tests bring the source-path total to 60. No comparison histories, split or model.
 - [Consolidated source dataset and descriptive analysis](research/coldcard/source_dataset_20261030/README.md):
   500 rows with fourteen unchanged prior-block predictors, separate case/owner
   evidence, source provenance and an explicit predictor allowlist. 411 sources
@@ -247,12 +259,16 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-History collection and its explicit supplemental pass are exhausted. Use the
-consolidated source dataset and its descriptive findings to specify the intended
-address-model target and a comparison/evaluation protocol before sampling or fitting.
-Define comparison eligibility, observation period, history coverage, evidence and
-entity/incident grouping; uncertain background remains unlabeled. Preserve the
-frozen fourteen features and the new view's predictor allowlist.
+The original 500-source history collection and supplemental recovery are exhausted.
+The comparison/evaluation protocol and actual 1,000-source selection are now saved.
+Implement a bounded resumable collector for that fixed comparison plan, reusing
+the existing history collector and frozen fourteen-feature extractor. Reconstruct
+exact comparison addresses from the saved block cache; cross-check all public
+identifier hashes before requests. Use the protocol's 16-page/15-second limits,
+two workers and batches of twenty. Retain failed/incomplete rows without replacement.
+Audit attrition by membership and block before any grouped exploratory fit.
+Uncertain background is not a legitimate/theft-negative class; only operational
+core membership has a zero target. Preserve the explicit predictor allowlist.
 Do not use known collectors, later evidence or case labels as prior-block
 predictors. Additional exact reports enrich this view when a concrete lead exists;
 they are not the sole next action. Keep seed origin separate from signing-device

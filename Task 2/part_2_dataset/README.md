@@ -39,6 +39,12 @@ features and separate evidence/outcome fields. Its report describes distribution
 missingness and the one partial reference spend. Use only `features` as predictors;
 identifiers, case evidence, owner reports and reference-payment outcomes are excluded.
 
+The [same-block comparison selection](../research/coldcard/source_comparison_selection_20261030/README.md)
+now fixes 1,000 additional source identifiers for the exploratory core-membership
+study. These are selected input addresses, not recipient controls or certified
+legitimate addresses. All comparison feature vectors remain pending; the 500
+case records remain the complete feature cohort at this stage.
+
 ## Inputs and coverage
 
 The supplied corpus contains 98 selected blocks and 493,571 unique transactions. It is not the entire blockchain or the entire history of every address. The saved feature CSV is supplied separately and identified by SHA256; [Data access](../DATA_ACCESS.md) lists the required inputs.

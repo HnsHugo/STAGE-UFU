@@ -146,7 +146,7 @@ def audit(path, cache):
                 next_action='Recover or acquire the four anchored complete blocks, then run select. Hash and validate each snapshot; do not substitute output-recipient tables or create synthetic controls.')
 
 
-def select(path, cache):
+def select(path, cache, include_census=False):
     protocol, loaded, records, excluded = load_design(path)
     blocks, snapshots = [], []
     historical = {b['height']:b for b in loaded['block_summary']['blocks']}
@@ -164,26 +164,73 @@ def select(path, cache):
                  cutoff_height=r['cutoff_height'],cutoff_block_hash=r['cutoff_block_hash'],
                  known_coldcard_core_membership=0,compromise_label=None,hardware_label=None,
                  features=None,history_status='pending') for i,r in enumerate(chosen,1)]
-    return dict(schema_version=1,protocol_sha256=digest(path.read_bytes()),snapshots=snapshots,
+    result = dict(schema_version=1,protocol_sha256=digest(path.read_bytes()),snapshots=snapshots,
                 census=stats,strata=strata,case_sources_reconciled=len(records),rows=rows,
                 source_address_count_before_exclusions=len(first),selected_comparison_sources=len(rows),
                 unknown_is_legitimate=False,history_collection_performed=False,training_performed=False)
+    if not include_census:
+        return result
+    public = [dict(address_sha256=digest(address.encode()),
+                   payment_txid_sha256=digest(row['reference_txid'].encode()),
+                   cutoff_height=row['cutoff_height'],cutoff_block_hash=row['cutoff_block_hash'],
+                   selection_key=digest((protocol['comparison_selection']['hash_prefix']+address).encode()),
+                   excluded_known_related=address in excluded) for address,row in first.items()]
+    public.sort(key=lambda r:r['address_sha256'])
+    if len({r['selection_key'] for r in public})!=len(public):
+        raise ValueError('Hash tie requires explicit raw-address tie audit')
+    normalized = dict(schema_version=1,protocol_sha256=result['protocol_sha256'],
+                      basis={k:v for k,v in result.items() if k!='rows'},sources=public,
+                      limitation='Redacted provider-derived census reproduces selection; it is not independent block inclusion or owner/device verification.')
+    return result, normalized
+
+
+def replay(path, census_file):
+    protocol, _, _, excluded = load_design(path)
+    normalized=json.loads(gzip.decompress(census_file.read_bytes()))
+    if normalized['protocol_sha256']!=digest(path.read_bytes()):
+        raise ValueError('Redacted census protocol mismatch')
+    public=normalized['sources']
+    if len({r['address_sha256'] for r in public})!=len(public) or len({r['selection_key'] for r in public})!=len(public):
+        raise ValueError('Duplicate redacted source/key')
+    excluded_hashes={digest(a.encode()) for a in excluded}
+    for r in public:
+        if r['excluded_known_related'] != (r['address_sha256'] in excluded_hashes):
+            raise ValueError('Redacted exclusion flag mismatch')
+    result=dict(normalized['basis'])
+    selected,strata=[],[]
+    for quota in protocol['comparison_selection']['quotas']:
+        pool=sorted((r for r in public if not r['excluded_known_related'] and r['cutoff_height']==quota['height']),
+                    key=lambda r:r['selection_key'])
+        take=pool[:quota['comparison_quota']]
+        selected.extend(take)
+        strata.append(dict(height=quota['height'],eligible_sources=len(pool),quota=quota['comparison_quota'],
+                           selected_sources=len(take),shortfall=max(0,quota['comparison_quota']-len(take))))
+    result['rows']=[dict(source_id=f'comparison_{i:04d}',
+                        **{k:r[k] for k in ('address_sha256','payment_txid_sha256','cutoff_height','cutoff_block_hash')},
+                        known_coldcard_core_membership=0,compromise_label=None,hardware_label=None,
+                        features=None,history_status='pending') for i,r in enumerate(selected,1)]
+    result.update(strata=strata,source_address_count_before_exclusions=len(public),selected_comparison_sources=len(selected))
+    return result
 
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command',choices=('audit','select','verify'))
+    parser.add_argument('command',choices=('audit','select','verify','census','replay'))
     parser.add_argument('protocol',type=Path)
     parser.add_argument('cache',type=Path)
     parser.add_argument('output',type=Path)
     args=parser.parse_args()
-    result=audit(args.protocol,args.cache) if args.command=='audit' else select(args.protocol,args.cache)
+    if args.command=='audit':result=audit(args.protocol,args.cache)
+    elif args.command=='census':_,result=select(args.protocol,args.cache,include_census=True)
+    elif args.command=='replay':result=replay(args.protocol,args.cache)
+    else:result=select(args.protocol,args.cache)
     raw=json_bytes(result)
-    if args.command=='verify':
+    if args.command=='census':raw=gzip.compress(raw,mtime=0)
+    if args.command in ('verify','replay'):
         if args.output.read_bytes()!=raw:raise ValueError('Selection reproduction mismatch')
     else:
         with args.output.open('xb') as stream:stream.write(raw)
-    print(json.dumps({k:v for k,v in result.items() if k!='rows'},indent=2))
+    print(json.dumps({k:v for k,v in result.items() if k not in ('rows','sources','basis')},indent=2))
 
 
 if __name__=='__main__':main()
