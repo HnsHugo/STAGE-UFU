@@ -1,0 +1,18 @@
+{
+  "attempted": 297,
+  "automatic_retry_within_pass": false,
+  "checkpoint_sha256": "05c63262b171f32e042f7de371ecc160b5fa6136e9b42d68a5788a47f34165ec",
+  "complete": 233,
+  "conservative_continuation_not_before": "2026-10-30T17:03:08.092760+00:00",
+  "continuation_policy": "One separately recorded pass for the 653 latest errors/pending only, after at least fifteen minutes cooldown and at most one global request start per second; original route/TLS, no fallback, stop again on first denial.",
+  "errors": 2,
+  "http_statuses": [
+    429
+  ],
+  "incomplete": 62,
+  "last_denial_finished_at": "2026-10-30T16:48:08.092760+00:00",
+  "pending": 651,
+  "reason": "HTTP 429 rate limit; stopped on first observed denial, with two already-started attempts retained",
+  "retry_after_header_saved": false,
+  "schema_version": 1
+}

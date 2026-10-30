@@ -45,3 +45,20 @@ no model is fitted in this collection step.
 First executed recovery batch: twenty sources attempted, nineteen complete, one
 incomplete and zero request errors. All twenty raw responses reproduce; see
 [first-batch audit](first_batch_audit.json). The original pass is unchanged.
+
+Final saved recovery result: **297 attempts, 233 complete, 62 incomplete, two
+HTTP 429 errors and 651 pending**. The stop guard retained the other three
+unstarted IDs in the last planned batch as pending. All 295 successful raw
+responses reproduce; see [collection audit](collection_audit.json) and
+[stop record](collection_stop.json). The first two reference blocks now have
+complete comparison histories.
+
+The [combined view](address_dataset.json.gz) retains all 1,500 selected sources:
+500 complete cases plus 1,000 comparisons. At this snapshot, comparisons have
+273 complete, 74 incomplete, 373 latest known errors and 280 never attempted.
+Of the current recovery's 651 pending IDs, 371 retain original errors and 280
+retain their never-attempted status; no old error is silently recoded as pending.
+See [combined summary](combined_summary.json) for provenance and per-block counts.
+A subsequent rate-limit continuation must be a distinct pinned pass, preserve
+this stopped checkpoint, wait at least fifteen minutes and reduce the global
+request rate to one per second. Neither a split nor a model has been created.

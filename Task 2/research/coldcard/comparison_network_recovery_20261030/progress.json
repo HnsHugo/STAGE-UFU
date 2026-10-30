@@ -1,28 +1,28 @@
 {
-  "attempted_sources": 20,
+  "attempted_sources": 297,
   "by_reference_block": [
     {
-      "complete": 19,
+      "complete": 59,
       "errors": 0,
       "height": 960188,
-      "incomplete": 1,
-      "pending": 54,
+      "incomplete": 15,
+      "pending": 0,
       "selected": 74
     },
     {
-      "complete": 0,
+      "complete": 174,
       "errors": 0,
       "height": 960189,
-      "incomplete": 0,
-      "pending": 220,
+      "incomplete": 46,
+      "pending": 0,
       "selected": 220
     },
     {
       "complete": 0,
-      "errors": 0,
+      "errors": 2,
       "height": 960190,
-      "incomplete": 0,
-      "pending": 336,
+      "incomplete": 1,
+      "pending": 333,
       "selected": 336
     },
     {
@@ -35,14 +35,16 @@
     }
   ],
   "comparison_compromise_hardware_labels": "unknown",
-  "complete_sources": 19,
-  "error_sources": 0,
-  "error_types": {},
+  "complete_sources": 233,
+  "error_sources": 2,
+  "error_types": {
+    "HTTPError": 2
+  },
   "feature_count": 14,
-  "incomplete_sources": 1,
-  "pending_sources": 928,
-  "prior_transaction_observations": 751,
+  "incomplete_sources": 62,
+  "pending_sources": 651,
+  "prior_transaction_observations": 6200,
   "selected_sources": 948,
-  "sources_with_prior_spending": 6,
+  "sources_with_prior_spending": 103,
   "training_performed": false
 }

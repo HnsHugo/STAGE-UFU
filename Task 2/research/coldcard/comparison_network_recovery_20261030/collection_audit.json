@@ -1,0 +1,152 @@
+{
+  "audited_on": "2026-10-30",
+  "automatic_retry_within_pass": false,
+  "by_reference_block": [
+    {
+      "case_complete": 63,
+      "case_selected": 63,
+      "comparison": {
+        "complete": 59,
+        "errors": 0,
+        "height": 960188,
+        "incomplete": 15,
+        "pending": 0,
+        "selected": 74
+      },
+      "comparison_completion_fraction": 0.7972972972972973,
+      "height": 960188
+    },
+    {
+      "case_complete": 110,
+      "case_selected": 110,
+      "comparison": {
+        "complete": 174,
+        "errors": 0,
+        "height": 960189,
+        "incomplete": 46,
+        "pending": 0,
+        "selected": 220
+      },
+      "comparison_completion_fraction": 0.7909090909090909,
+      "height": 960189
+    },
+    {
+      "case_complete": 168,
+      "case_selected": 168,
+      "comparison": {
+        "complete": 0,
+        "errors": 2,
+        "height": 960190,
+        "incomplete": 1,
+        "pending": 333,
+        "selected": 336
+      },
+      "comparison_completion_fraction": 0.0,
+      "height": 960190
+    },
+    {
+      "case_complete": 159,
+      "case_selected": 159,
+      "comparison": {
+        "complete": 0,
+        "errors": 0,
+        "height": 960191,
+        "incomplete": 0,
+        "pending": 318,
+        "selected": 318
+      },
+      "comparison_completion_fraction": 0.0,
+      "height": 960191
+    }
+  ],
+  "case_complete": 500,
+  "case_selected": 500,
+  "checkpoint_sha256": "05c63262b171f32e042f7de371ecc160b5fa6136e9b42d68a5788a47f34165ec",
+  "collection_modes": {
+    "bounded_pagination": 234,
+    "counter_capacity_precheck": 61,
+    "request_error_no_raw_response": 2
+  },
+  "comparison_completion_fraction": 0.24578059071729957,
+  "comparison_rows_with_full_feature_vector_identical_to_a_case_row": 0,
+  "comparison_sources_sharing_prior_transaction_with_case": 0,
+  "coverage": {
+    "attempted_sources": 297,
+    "by_reference_block": [
+      {
+        "complete": 59,
+        "errors": 0,
+        "height": 960188,
+        "incomplete": 15,
+        "pending": 0,
+        "selected": 74
+      },
+      {
+        "complete": 174,
+        "errors": 0,
+        "height": 960189,
+        "incomplete": 46,
+        "pending": 0,
+        "selected": 220
+      },
+      {
+        "complete": 0,
+        "errors": 2,
+        "height": 960190,
+        "incomplete": 1,
+        "pending": 333,
+        "selected": 336
+      },
+      {
+        "complete": 0,
+        "errors": 0,
+        "height": 960191,
+        "incomplete": 0,
+        "pending": 318,
+        "selected": 318
+      }
+    ],
+    "comparison_compromise_hardware_labels": "unknown",
+    "complete_sources": 233,
+    "error_sources": 2,
+    "error_types": {
+      "HTTPError": 2
+    },
+    "feature_count": 14,
+    "incomplete_sources": 62,
+    "pending_sources": 651,
+    "prior_transaction_observations": 6200,
+    "selected_sources": 948,
+    "sources_with_prior_spending": 103,
+    "training_performed": false
+  },
+  "distinct_comparison_prior_transaction_references": 6057,
+  "error_types": {
+    "HTTPError": 2
+  },
+  "explicit_separate_network_recovery": true,
+  "limitations": [
+    "Fixed sample selected before history collection; complete-case population is censored by current full-history coverage bounds",
+    "This is a separately recorded one-pass recovery of original network errors and pending sources; original complete/incomplete results remain in their original pass",
+    "Unknown comparison compromise/device status is not a verified negative class",
+    "Shared transactions and identical features are overlap diagnostics, not ownership proof; preserve connected components before any exploratory split",
+    "One previously inspected incident does not supply independent-incident or prospective detection validation"
+  ],
+  "local_raw_histories_reextracted": 295,
+  "missing_historical_spending_fee_rates": 130,
+  "observed_full_history_tx_count_max": 5945884,
+  "observed_full_history_tx_count_min": 2,
+  "original_case_checkpoint_and_features_preserved": true,
+  "protocol_sha256": "5c45bd4651b6fb3dfb4dd1f739b18113e04b2d0463ae34e2696eec2f297b8f3f",
+  "published_raw_fingerprints_without_local_bytes": 0,
+  "raw_statuses": {
+    "complete": 233,
+    "incomplete": 62
+  },
+  "replacement_or_retry_performed": true,
+  "replacement_performed": false,
+  "schema_version": 1,
+  "shared_prior_transaction_references_between_case_and_comparisons": 0,
+  "split_created": false,
+  "training_performed": false
+}
