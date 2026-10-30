@@ -9,6 +9,14 @@
   "automation_title": "Relances collecte Coldcard",
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
+  "collector_lease": {
+    "expires_at": "2026-10-30T21:44:15.719446+00:00",
+    "policy": "Before any HTTP, skip while this published lease is running and unexpired, even if a separate execution environment cannot observe the local OS lock. Final stop/completion clears the lease; an expired lease requires checkpoint reconciliation before any new attempt.",
+    "protocol": "source_comparison_retry_protocol_20261030_1841.json",
+    "protocol_sha256": "91d860f179e285aa277e902e4625b1dced5f832d5ea1932e81bf0753f4d45019",
+    "started_at": "2026-10-30T18:44:15.719446+00:00",
+    "state": "running"
+  },
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "first_429_backoff_seconds": 7200,
   "latest_output": "comparison_retry_20261030_1841",

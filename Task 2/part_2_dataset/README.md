@@ -51,8 +51,14 @@ view retains all 1,500 selected rows: 500 complete cases, 273 complete compariso
 never attempted. Of the stopped continuation's 651 pending IDs, 371 retain old
 errors and 280 are never attempted. Unknown features remain null. The 773 complete
 vectors contain only fourteen prior-block predictors. All original case and
-comparison evidence is preserved. The comparison set remains incomplete and the
-planned fit has not run.
+comparison evidence is preserved. Those are historical stopped-pass counts.
+The [new preserved retry](../research/coldcard/comparison_retry_20261030_1841/README.md)
+started after a same-route HTTP 200 check; its
+[first-four-batch milestone](../research/coldcard/comparison_retry_20261030_1841/milestone_batch_0004/README.md)
+has 80 attempts, 70 new complete and ten incomplete histories, without errors.
+That immutable combined snapshot has 843 complete vectors: 500 cases and 343
+comparisons. The active collector continued afterward. The comparison set remains
+incomplete and the planned fit has not run.
 
 ## Inputs and coverage
 

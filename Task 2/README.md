@@ -27,9 +27,16 @@ added 233 complete and 62 incomplete histories before HTTP 429. A
 also met HTTP 429 and stopped after two attempts. The combined 1,500-row view has
 500 complete cases and 273 complete comparisons; 74 comparisons are incomplete,
 373 retain latest errors and 280 have never been attempted. There are 651 IDs
-pending in the stopped continuation. All original results are retained; 85
-source-path tests pass. Compromise/device status remains unknown and no address
-model has been fitted or split created. Collection is stopped, with the rate limit unresolved.
+pending in that stopped continuation. Those figures are a preserved historical
+snapshot. After Hugo requested continued spaced retries, a same-route source
+counter returned HTTP 200 at 18:41 UTC and the
+[new 653-source retry](research/coldcard/comparison_retry_20261030_1841/README.md)
+started at one request/second. Its [first-four-batch milestone](research/coldcard/comparison_retry_20261030_1841/milestone_batch_0004/README.md)
+has 70 new complete histories and zero errors; the saved combined snapshot has
+343 complete comparisons plus the 500 unchanged cases. Collection continued
+beyond that milestone. An hourly retry task is enabled with backoff and a shared
+lease preventing concurrent collection. All 86 source-path tests pass. Labels
+remain unknown and no address model or split has been created.
 The [external corroboration](research/coldcard/source_corroboration_20261030/README.md)
 now provides a source-attributed case layer for all 500 addresses, with exact
 agreement against two published reconstructions. Individual victim/device

@@ -17,3 +17,8 @@ record the 233 newly complete histories, raw re-extraction, preservation of the
 original results, the persistent HTTP 429 after cooldown and the combined
 1,500-row snapshot. Collection is stopped; this is not a completed comparison
 dataset or a model validation result.
+
+The [later retry milestone](comparison_retry_milestone_20261030.json) records
+original-route access restored, 70 further complete histories in the first four
+batches, unchanged earlier snapshots and 86 passing source-path regressions.
+The collector continued beyond that historical milestone.

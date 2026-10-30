@@ -216,6 +216,21 @@ Independent incident evaluation remains a separate unresolved requirement for
 such a generalization claim. Further testimony search is bounded enrichment
 when a concrete new lead exists. Historical protocols and outputs stay intact.
 
+## Subsequent user-authorized resumption — 30 October 2026
+
+Hugo requested continued spaced retries, superseding the earlier one-cooldown
+assistant restriction. A source-counter check returned HTTP 200 on the original
+route at 18:41 UTC, after over ninety minutes since the previous 429. The
+[distinct retry](research/coldcard/comparison_retry_20261030_1841/README.md)
+pins every predecessor, excludes every earlier complete/incomplete result and
+uses the unchanged cutoff/features/labels with one global request per second.
+Its [first-four-batch milestone](research/coldcard/comparison_retry_20261030_1841/milestone_batch_0004/README.md)
+retains 80 attempts, 70 complete, ten incomplete and no errors. The saved combined
+view has 500 complete cases and 343 complete comparisons. Collection continued
+beyond the milestone. An enabled hourly task observes increasing 429 backoff,
+Retry-After, the published running lease and local lock; no alternate route or
+provider. Unknown labels remain unknown and no model/split is created.
+
 ## Boundaries that prevent another scope drift
 
 - No further collector-ranking, donation-control, Real-CATS or hot/cold extension

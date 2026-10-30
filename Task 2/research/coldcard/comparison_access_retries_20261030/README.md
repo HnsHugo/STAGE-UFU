@@ -22,3 +22,8 @@ one cooldown continuation. Every additional pass remains explicit, pinned and
 separate; earlier results are never overwritten. The scheduling tool confirmed the enabled hourly task at 18:47 UTC. The public
 policy records its title, schedule and activation time; private control identifiers
 are not needed to reproduce collection.
+
+The published `collector_lease` in the policy also blocks a scheduled execution
+in another environment that cannot observe the local OS lock. A running, unexpired
+lease means no HTTP and no second collector. Completion/stop clears it; an expired
+lease requires checkpoint reconciliation before another attempt.

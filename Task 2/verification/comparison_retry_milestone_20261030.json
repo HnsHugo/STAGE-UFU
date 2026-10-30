@@ -1,0 +1,184 @@
+{
+  "all_earlier_combined_snapshots_reproduce_byte_for_byte": true,
+  "collector_continued_after_milestone": true,
+  "combined_summary": {
+    "address_dataset_sha256": "b79fe925184ba73f7fcb3069b6c2e2f92c1f73fbddad8a6b440095a323009bca",
+    "by_reference_block": [
+      {
+        "case_selected": 63,
+        "comparison_statuses": {
+          "complete": 99,
+          "incomplete": 27
+        },
+        "height": 960188
+      },
+      {
+        "case_selected": 110,
+        "comparison_statuses": {
+          "complete": 174,
+          "incomplete": 46
+        },
+        "height": 960189
+      },
+      {
+        "case_selected": 168,
+        "comparison_statuses": {
+          "complete": 70,
+          "error": 255,
+          "incomplete": 11
+        },
+        "height": 960190
+      },
+      {
+        "case_selected": 159,
+        "comparison_statuses": {
+          "error": 38,
+          "pending": 280
+        },
+        "height": 960191
+      }
+    ],
+    "combined_complete_sources": 843,
+    "combined_selected_sources": 1500,
+    "comparison_statuses": {
+      "complete": 343,
+      "error": 293,
+      "incomplete": 84,
+      "pending": 280
+    },
+    "complete_case_sources": 500,
+    "independently_verified_compromise_labels": 0,
+    "independently_verified_device_labels": 0,
+    "inputs": {
+      "case_view_sha256": "ceceab50d0242e5ba0195d7d2f456cbfb77173cb262460e441a41776d5215d9d",
+      "earlier_recovery_chain": [
+        {
+          "checkpoint_sha256": "05c63262b171f32e042f7de371ecc160b5fa6136e9b42d68a5788a47f34165ec",
+          "protocol_sha256": "5c45bd4651b6fb3dfb4dd1f739b18113e04b2d0463ae34e2696eec2f297b8f3f"
+        },
+        {
+          "checkpoint_sha256": "19150af7885b169a801e4b019ec4e51186d38220ae73d7c7e8937e29eb97292d",
+          "protocol_sha256": "411fb6bf63c1a496439761d90a147cc88d8e7557aca7a6d4e00a7f77ed478006"
+        }
+      ],
+      "initial_checkpoint_sha256": "ff6cfc70756486bbd2546cf23395ebc0402f8ac9998ce904a5befbc8867f3c44",
+      "previous_recovery_checkpoint_sha256": "19150af7885b169a801e4b019ec4e51186d38220ae73d7c7e8937e29eb97292d",
+      "previous_recovery_protocol_sha256": "411fb6bf63c1a496439761d90a147cc88d8e7557aca7a6d4e00a7f77ed478006",
+      "recovery_checkpoint_sha256": "589c17df5ae9b42af0e5756743d186ed53f5be16cdb5c1320c6c87008aede294",
+      "recovery_protocol_sha256": "91d860f179e285aa277e902e4625b1dced5f832d5ea1932e81bf0753f4d45019"
+    },
+    "limitations": [
+      "Only complete rows have fourteen predictors; unavailable features stay null",
+      "History completeness depends on full-history bounds; inspect completion by class/block before an exploratory fit",
+      "Comparison membership zero is not legitimate/theft-negative/hardware-negative ground truth",
+      "One previously inspected incident does not provide independent-incident or prospective validation"
+    ],
+    "model_fitted": false,
+    "original_complete_comparisons_preserved": 40,
+    "original_files_overwritten": false,
+    "original_incomplete_comparisons_preserved": 12,
+    "recovery_pending_sources": 573,
+    "schema_version": 1,
+    "selected_case_sources": 500,
+    "selected_comparison_sources": 1000,
+    "source_reported_loss_labels": 1,
+    "split_created": false
+  },
+  "hourly_automation_confirmed_enabled": true,
+  "milestone_coverage": {
+    "attempted_sources": 80,
+    "by_reference_block": [
+      {
+        "complete": 70,
+        "errors": 0,
+        "height": 960190,
+        "incomplete": 10,
+        "pending": 255,
+        "selected": 335
+      },
+      {
+        "complete": 0,
+        "errors": 0,
+        "height": 960191,
+        "incomplete": 0,
+        "pending": 318,
+        "selected": 318
+      }
+    ],
+    "comparison_compromise_hardware_labels": "unknown",
+    "complete_sources": 70,
+    "error_sources": 0,
+    "error_types": {},
+    "feature_count": 14,
+    "incomplete_sources": 10,
+    "pending_sources": 573,
+    "prior_transaction_observations": 3320,
+    "selected_sources": 653,
+    "sources_with_prior_spending": 40,
+    "training_performed": false
+  },
+  "original_provider_route_tls_preserved": true,
+  "outputs": {
+    "README.md": {
+      "bytes": 1096,
+      "sha256": "78c7e736569fc62e78f7eecd508b9b3ab08d9b0c96b562cb1530a83300c8b68a"
+    },
+    "address_dataset.json.gz": {
+      "bytes": 173816,
+      "sha256": "b79fe925184ba73f7fcb3069b6c2e2f92c1f73fbddad8a6b440095a323009bca"
+    },
+    "batch_0001.json.gz": {
+      "bytes": 72859,
+      "sha256": "f4aa917cafb470e79f036f4d734136ab95362e7e3c6f9135a07db58f428fa963"
+    },
+    "batch_0002.json.gz": {
+      "bytes": 89107,
+      "sha256": "48709a377969ace49838811a65128045da7eabfe74ca0a28de779015ce9a9cc1"
+    },
+    "batch_0003.json.gz": {
+      "bytes": 44087,
+      "sha256": "8f2ad340729b8291af4a8c1bc70b4b9060cf570caf9869ade1b92f3e6972f43f"
+    },
+    "batch_0004.json.gz": {
+      "bytes": 91721,
+      "sha256": "c80a292e46c3442c9cc980037df0a0f655a1d10e5756e54bc77a93ea64838c8b"
+    },
+    "batches.json": {
+      "bytes": 743,
+      "sha256": "ca9b105c34073b38df9a913e6fa823c66e90220c47a3c66365423db6eec916a5"
+    },
+    "checkpoint.json.gz": {
+      "bytes": 294977,
+      "sha256": "589c17df5ae9b42af0e5756743d186ed53f5be16cdb5c1320c6c87008aede294"
+    },
+    "collection_audit.json": {
+      "bytes": 3413,
+      "sha256": "00af535846b995c65034ec049bc075dae875d6b22cbc7bbc7205084a8e54a1b4"
+    },
+    "combined_summary.json": {
+      "bytes": 2940,
+      "sha256": "6538fb8cc9d8b0609fd0a88e44cc0fcb98fd2c197134772b4810628ac63ff4a0"
+    },
+    "features.json.gz": {
+      "bytes": 50573,
+      "sha256": "54de596cba8d115abdc80af9103040e4df3c97f931d756a6cba8f3459972cab6"
+    },
+    "progress.json": {
+      "bytes": 687,
+      "sha256": "3f3cc1587d171e6865f147509ea1536bcf895cd874910dcae16722fab4af05a3"
+    }
+  },
+  "protocol_sha256": "91d860f179e285aa277e902e4625b1dced5f832d5ea1932e81bf0753f4d45019",
+  "raw_histories_reextracted": 80,
+  "schema_version": 1,
+  "shared_collector_lease_prevents_cross_environment_overlap": true,
+  "source_path_tests": {
+    "errors": 0,
+    "failures": 0,
+    "tests_run": 86
+  },
+  "split_created": false,
+  "status": "active_retry_milestone_not_final_coverage",
+  "training_performed": false,
+  "verified_on": "2026-10-30"
+}

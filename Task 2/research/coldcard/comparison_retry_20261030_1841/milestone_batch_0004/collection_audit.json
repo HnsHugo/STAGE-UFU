@@ -1,0 +1,103 @@
+{
+  "audited_on": "2026-10-30",
+  "automatic_retry_within_pass": false,
+  "by_reference_block": [
+    {
+      "case_complete": 168,
+      "case_selected": 168,
+      "comparison": {
+        "complete": 70,
+        "errors": 0,
+        "height": 960190,
+        "incomplete": 10,
+        "pending": 255,
+        "selected": 335
+      },
+      "comparison_completion_fraction": 0.208955223880597,
+      "height": 960190
+    },
+    {
+      "case_complete": 159,
+      "case_selected": 159,
+      "comparison": {
+        "complete": 0,
+        "errors": 0,
+        "height": 960191,
+        "incomplete": 0,
+        "pending": 318,
+        "selected": 318
+      },
+      "comparison_completion_fraction": 0.0,
+      "height": 960191
+    }
+  ],
+  "case_complete": 500,
+  "case_selected": 500,
+  "checkpoint_sha256": "589c17df5ae9b42af0e5756743d186ed53f5be16cdb5c1320c6c87008aede294",
+  "collection_modes": {
+    "bounded_pagination": 70,
+    "counter_capacity_precheck": 10
+  },
+  "comparison_completion_fraction": 0.10719754977029096,
+  "comparison_rows_with_full_feature_vector_identical_to_a_case_row": 0,
+  "comparison_sources_sharing_prior_transaction_with_case": 0,
+  "coverage": {
+    "attempted_sources": 80,
+    "by_reference_block": [
+      {
+        "complete": 70,
+        "errors": 0,
+        "height": 960190,
+        "incomplete": 10,
+        "pending": 255,
+        "selected": 335
+      },
+      {
+        "complete": 0,
+        "errors": 0,
+        "height": 960191,
+        "incomplete": 0,
+        "pending": 318,
+        "selected": 318
+      }
+    ],
+    "comparison_compromise_hardware_labels": "unknown",
+    "complete_sources": 70,
+    "error_sources": 0,
+    "error_types": {},
+    "feature_count": 14,
+    "incomplete_sources": 10,
+    "pending_sources": 573,
+    "prior_transaction_observations": 3320,
+    "selected_sources": 653,
+    "sources_with_prior_spending": 40,
+    "training_performed": false
+  },
+  "distinct_comparison_prior_transaction_references": 3315,
+  "error_types": {},
+  "explicit_separate_network_recovery": true,
+  "limitations": [
+    "Fixed sample selected before history collection; complete-case population is censored by current full-history coverage bounds",
+    "This separately recorded HTTP 429 cooldown continuation excludes every complete/incomplete result from both earlier passes; all earlier outcomes remain preserved",
+    "Unknown comparison compromise/device status is not a verified negative class",
+    "Shared transactions and identical features are overlap diagnostics, not ownership proof; preserve connected components before any exploratory split",
+    "One previously inspected incident does not supply independent-incident or prospective detection validation"
+  ],
+  "local_raw_histories_reextracted": 80,
+  "missing_historical_spending_fee_rates": 30,
+  "observed_full_history_tx_count_max": 79150,
+  "observed_full_history_tx_count_min": 2,
+  "original_case_checkpoint_and_features_preserved": true,
+  "protocol_sha256": "91d860f179e285aa277e902e4625b1dced5f832d5ea1932e81bf0753f4d45019",
+  "published_raw_fingerprints_without_local_bytes": 0,
+  "raw_statuses": {
+    "complete": 70,
+    "incomplete": 10
+  },
+  "replacement_or_retry_performed": true,
+  "replacement_performed": false,
+  "schema_version": 1,
+  "shared_prior_transaction_references_between_case_and_comparisons": 0,
+  "split_created": false,
+  "training_performed": false
+}

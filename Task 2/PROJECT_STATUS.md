@@ -2,6 +2,20 @@
 
 ## Current priority
 
+**Latest resumption update:** Hugo explicitly requested continued spaced retries.
+A same-route source-counter check returned HTTP 200 at 18:41 UTC, after over
+ninety minutes since the previous 429. A distinct
+[653-source retry](research/coldcard/comparison_retry_20261030_1841/README.md)
+is running at one global request/second. Its immutable
+[first-four-batch milestone](research/coldcard/comparison_retry_20261030_1841/milestone_batch_0004/README.md)
+records 80 attempts, 70 complete, ten incomplete and no errors; the combined
+snapshot has 500 unchanged complete cases and 343 complete comparisons.
+The milestone is historical, not the live counter. The confirmed hourly retry
+policy, backoff and published running lease are in
+[retry control](research/coldcard/comparison_access_retries_20261030/README.md).
+Scheduled runs skip a held lock or an unexpired running lease. Earlier blocked
+snapshots below remain preserved; they are no longer the current access state.
+
 The original Teams instructions, meeting notes and Overleaf files now establish
 the missing second stage: **the dataset and classifier of robbed source
 addresses**, expected to relate to hardware wallets. Read the reconciled
@@ -288,18 +302,13 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Collection is stopped at a persistent provider HTTP 429 rate limit. A fifteen-minute
-cooldown and a threefold lower request rate did not clear it; no Retry-After value
-was supplied in the saved continuation responses. Do not keep probing, route
-around the restriction, or silently restart either stopped pass. Preserve the
-273 complete and 74 bounded-incomplete comparison outcomes, all original case
-records and every earlier error. The remaining network-gap IDs are
-`comparison_0348`–`comparison_1000`: two latest 429 errors and 651 pending in the
-stopped continuation. Reassess permitted provider access after a longer cooldown
-before preparing any additional distinct pass; none is running or scheduled.
-The 74 bounded-incomplete histories require a separate coverage decision, not a
-network retry. Audit attrition and connected-component group gates before any
-exploratory fit; blocks 960190/960191 currently have no complete comparisons.
-Uncertain background is not a legitimate/theft-negative class. Keep the predictor
-allowlist and separate operational core membership from compromise/device claims.
-Further exact reports are bounded enrichment when a concrete new lead exists.
+Continue and verify the active fixed 653-source retry, preserving all earlier
+histories and pass outcomes. Read its latest checkpoint and immutable batch deltas;
+the first-four-batch milestone is only a saved progress point. No model or split
+is fitted. When the active pass stops or completes, save an audited combined view,
+update the actual coverage and clear the published running lease. The confirmed
+hourly task skips active work; after a new 429 it observes at least two hours,
+increasing backoff and any longer Retry-After. A 403 pauses the task without
+changing route/provider. If no network gaps remain, pause the automation; remaining
+bounded-incomplete histories need a separate coverage decision. Keep operational
+core membership and unknown compromise/device labels distinct.

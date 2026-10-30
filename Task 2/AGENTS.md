@@ -7,6 +7,21 @@ plans and older report recommendations.
 
 - Work only on `task-2-wallet-analysis`. Never merge into main, rewrite history,
   delete original evidence, incur costs or contact people.
+- Current 30 October user direction: **continue spaced retries while preserving all
+  prior results**. This overrides the older one-cooldown assistant restriction
+  below. A source-counter HTTP 200 at 18:41 UTC allowed the distinct
+  `source_comparison_retry_protocol_20261030_1841.json` pass over 653 remaining
+  network gaps. The first four batches are saved in
+  `comparison_retry_20261030_1841/milestone_batch_0004/`: 80 attempts, 70 complete,
+  10 incomplete and zero errors. That historical milestone has 500 complete
+  cases plus 343 complete comparisons; the root collector continued afterward.
+  The confirmed hourly automation and its increasing 429 backoff are recorded in
+  `comparison_access_retries_20261030/retry_policy.json`. Before any network call,
+  inspect its published collector lease as well as the local OS lock. An unexpired
+  running lease skips the entire scheduled iteration, even in another environment.
+  Do not start concurrent collectors. New 403s pause the task; no route/provider
+  fallback. Started attempts remain single-use within a pass. Preserve the full
+  predecessor chain for each distinct retry and exclude completed/incomplete IDs.
 - The Coldcard **source-address evidence registry** is now built; see
   `research/coldcard/source_registry_20261027/README.md`. The pre-payment pilot
   also ran: eight complete source histories, fourteen features, strict prior-block
