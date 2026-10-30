@@ -1,0 +1,70 @@
+{
+  "checkpoint_sha256": "ff6cfc70756486bbd2546cf23395ebc0402f8ac9998ce904a5befbc8867f3c44",
+  "coverage": {
+    "attempted_sources": 720,
+    "by_reference_block": [
+      {
+        "complete": 40,
+        "errors": 74,
+        "height": 960188,
+        "incomplete": 12,
+        "pending": 0,
+        "selected": 126
+      },
+      {
+        "complete": 0,
+        "errors": 220,
+        "height": 960189,
+        "incomplete": 0,
+        "pending": 0,
+        "selected": 220
+      },
+      {
+        "complete": 0,
+        "errors": 336,
+        "height": 960190,
+        "incomplete": 0,
+        "pending": 0,
+        "selected": 336
+      },
+      {
+        "complete": 0,
+        "errors": 38,
+        "height": 960191,
+        "incomplete": 0,
+        "pending": 280,
+        "selected": 318
+      }
+    ],
+    "comparison_compromise_hardware_labels": "unknown",
+    "complete_sources": 40,
+    "error_sources": 668,
+    "error_types": {
+      "URLError": 668
+    },
+    "feature_count": 14,
+    "incomplete_sources": 12,
+    "pending_sources": 280,
+    "prior_transaction_observations": 1403,
+    "selected_sources": 1000,
+    "sources_with_prior_spending": 22,
+    "training_performed": false
+  },
+  "denial_guard_fixed": true,
+  "first_denial_started_at": "2026-10-30T15:30:30.201394+00:00",
+  "first_denied_source_id": "comparison_0059",
+  "guard_defect": "The original batch guard recognized direct HTTPError 403/429 but not urllib URLError reporting an HTTPS CONNECT denial. This allowed later fixed-source attempts to be recorded as errors before the process interruption.",
+  "last_denied_source_id": "comparison_0720",
+  "local_recovered_results": 15,
+  "next_requirement": "An authorized restoration of access is needed before pending collection. Retrying failed/incomplete rows requires a separately recorded recovery pass; do not erase this original pass.",
+  "no_http_on_blocked_resume_verified": true,
+  "other_timeout_sources": 6,
+  "preservation": "All attempted results, failures, selected IDs and original 500 case features are preserved. No failed addresses were replaced or silently retried.",
+  "recorded_on": "2026-10-30",
+  "recovery_http_requests": 0,
+  "remaining_pending_sources": 280,
+  "schema_version": 1,
+  "status": "blocked_by_https_tunnel_403",
+  "tunnel_denial_sources": 662,
+  "unfinished_started_attempts": 0
+}

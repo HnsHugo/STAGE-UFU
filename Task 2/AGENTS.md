@@ -59,10 +59,21 @@ plans and older report recommendations.
   All 500 case sources reconcile; 1,000 fixed comparisons were selected from
   5,025 eligible input sources, with no shortfall. A public redacted census
   reproduces the sample without raw cache files. Sixty source-path tests pass.
-  Comparison features are all pending, not complete or certified legitimate.
-  Next: implement bounded resumable histories for these fixed 1,000 sources,
-  reusing the existing collector/fourteen-feature extractor; preserve failures
-  without replacements and audit completion before fitting. See the
+  Comparison collection is now executed but blocked:
+  `research/coldcard/comparison_histories_20261030/README.md`. 720 fixed attempts:
+  40 complete, 12 incomplete, 668 errors (662 HTTPS-tunnel 403 refusals, six
+  timeouts), and 280 pending. Thirty-six batch deltas and the normalized checkpoint
+  are saved; all 52 raw responses were re-extracted. The original 500 case vectors
+  are unchanged. A capacity precheck starts at batch 2 without changing eligibility.
+  The guard originally missed URLError tunnel refusals; this is fixed and blocked
+  resume issues no HTTP. Seventy-three source-path tests pass. Fifteen finished
+  markers were recovered without requests after the execution session interrupted.
+  Next: resolve the actual network refusal through authorized access restoration
+  before collecting the 280 pending IDs. Do not repeatedly probe the denied API,
+  route around the refusal, or automatically retry the 668 errors/twelve incomplete
+  rows. Any recovery needs a distinct recorded pass retaining the original results.
+  All forty complete comparisons are in the first block; this attrition and the
+  incomplete collection block the planned exploratory fit. See the
   30 October priority review in ALIGNMENT.md. Further public reports are bounded
   enrichment, not a requirement to obtain 500 personal testimonies. Preserve
   author/incident groups and unknown dates; keep reported positives separate from verified labels and

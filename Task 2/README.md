@@ -19,8 +19,10 @@ The [consolidated source view](research/coldcard/source_dataset_20261030/README.
 now joins all 500 unchanged fourteen-feature records and their distinct evidence
 tiers, with descriptive findings. The [comparison design and selection](research/coldcard/source_comparison_selection_20261030/README.md)
 now add a frozen sample of 1,000 same-block input sources for an explicit
-exploratory core-membership study. Their histories/features remain pending and
-their compromise/device status unknown. Next: bounded resumable feature collection.
+exploratory core-membership study. Their [bounded collection](research/coldcard/comparison_histories_20261030/README.md)
+is blocked by a network tunnel 403: 40 complete, twelve incomplete, 668 errors
+and 280 pending. The stop guard is corrected; 73 source-path tests pass. Their
+compromise/device status remains unknown and no address model is fitted.
 The [external corroboration](research/coldcard/source_corroboration_20261030/README.md)
 now provides a source-attributed case layer for all 500 addresses, with exact
 agreement against two published reconstructions. Individual victim/device

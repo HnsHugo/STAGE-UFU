@@ -152,9 +152,15 @@ now defines an explicit exploratory core-membership proxy, separate from the
 ultimate theft/device objective. The [selection execution](research/coldcard/source_comparison_selection_20261030/README.md)
 reconciles all 500 case sources and selects 1,000 same-block input-source
 comparisons from 5,025 eligible addresses. Their compromise/device status is
-unknown and their feature vectors are pending. **Next unit:** implement bounded,
-resumable histories for this frozen comparison sample with unchanged prior-block
-features, then audit completion before fitting under the fixed exploratory design.
+unknown. The [bounded history collection](research/coldcard/comparison_histories_20261030/README.md)
+has now made 720 fixed attempts: 40 complete, twelve incomplete, 668 errors and
+280 pending. A network tunnel 403 refusal accounts for 662 errors; the original
+stop guard missed this urllib error form and is now fixed. All 52 saved responses
+re-extract, and all 500 case features remain unchanged. **Next unit:** restore
+authorized network access before pending collection; a distinct recovery pass is
+needed for terminal errors/incomplete histories. Preserve every original outcome.
+The forty complete comparisons are all in the first block, so the current
+attrition prevents the planned exploratory fit.
 Additional exact public reports are supporting enrichment, not
 the default critical path. Seed origin, compromised control and signing
 device at the event remain separate. Do not restart exhausted collection or

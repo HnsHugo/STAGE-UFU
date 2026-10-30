@@ -224,6 +224,19 @@ def counts(state,public):
                 feature_count=14,comparison_compromise_hardware_labels='unknown',training_performed=False)
 
 
+def provider_denied(entry):
+    if entry.get('http_status') in (403,429):return True
+    # urllib reports a refused HTTPS CONNECT as URLError, not HTTPError.
+    reason=entry.get('reason','')
+    return entry.get('error_type')=='URLError' and any(
+        f'Tunnel connection failed: {code}' in reason for code in (403,429))
+
+
+def denied_batch(state,batch):
+    return bool(batch['source_ids']) and all(provider_denied(state['entries'].get(key,{}))
+                                            for key in batch['source_ids'])
+
+
 def batch_bytes(state,batch):
     return gzip.compress(json_bytes(dict(batch=batch,entries={k:state['entries'][k] for k in batch['source_ids']})),mtime=0)
 
@@ -304,6 +317,8 @@ def run_many(protocol_path,work,output,max_batches=50,cache=None,restore=None):
         while True:
             active=next((b for b in state['batches'] if b['status']=='running'),None)
             if active is None:
+                if state['batches'] and denied_batch(state,state['batches'][-1]):
+                    print('Stopped: last batch was denied; no new requests on resume',flush=True);break
                 if len(state['entries'])==len(public) or done>=max_batches:break
                 ids=[r['pilot_id'] for r in public if r['pilot_id'] not in state['entries']][:protocol['default_batch_size']]
                 active=dict(batch_id=len(state['batches'])+1,source_ids=ids,status='running',
@@ -330,7 +345,7 @@ def run_many(protocol_path,work,output,max_batches=50,cache=None,restore=None):
             done+=1
             print(json.dumps(dict(batch=active['batch_id'],elapsed_seconds=round(time.monotonic()-started,1),
                                   coverage=counts(state,public))),flush=True)
-            if all(state['entries'][key].get('http_status') in (403,429) for key in active['source_ids']):
+            if denied_batch(state,active):
                 print('Stopped: provider denied the entire batch; pending sources retained',flush=True);break
         export_latest(protocol_path,state,public,output)
         return verify(protocol_path,output)

@@ -50,8 +50,12 @@ are now [consolidated](research/coldcard/source_dataset_20261030/README.md).
 The [comparison protocol](research/coldcard/source_comparison_design_20261030/README.md)
 now states a narrow exploratory core-membership target and evaluation. Its
 [same-block selector](research/coldcard/source_comparison_selection_20261030/README.md)
-has retained 1,000 fixed comparisons from 5,025 eligible sources; histories remain
-pending. Next: bounded resumable history/feature collection for this fixed sample.
+has retained 1,000 fixed comparisons from 5,025 eligible sources. Their
+[history collection](research/coldcard/comparison_histories_20261030/README.md)
+now has 40 complete, twelve incomplete, 668 errors and 280 pending after 720
+attempts. An HTTPS-tunnel 403 block caused 662 errors; six are timeouts. The
+missed tunnel-denial form in the stop guard is fixed. Next: authorized network
+restoration before pending collection, then a separately recorded recovery policy.
 Further public reports
 are bounded enrichment; obtaining individual testimony for every address was not
 a documented professor requirement.
@@ -59,6 +63,14 @@ Collector rankings remain supporting results. No model was fitted.
 
 ## Completed work
 
+- [Comparison collection and blocked-network recovery](research/coldcard/comparison_histories_20261030/README.md):
+  36 fixed batches / 720 attempts, 40 complete, twelve incomplete, 668 errors and
+  280 pending. All 52 raw histories were re-extracted and fifteen finished attempt
+  markers recovered without HTTP. The 500 case vectors are unchanged. A defect
+  in recognizing URLError tunnel 403 refusals allowed excess failed attempts;
+  corrected denied-batch/resume checks and 73 passing source-path tests are saved.
+  Collection is incomplete, network blocked, and all complete comparisons fall
+  in the first reference block. No split or model.
 - [Comparison design and actual source selection](research/coldcard/source_comparison_selection_20261030/README.md):
   target, same-period input-source universe, quotas, failures and exploratory
   grouped evaluation are frozen. Four complete new provider snapshots reconcile
@@ -261,12 +273,15 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 The original 500-source history collection and supplemental recovery are exhausted.
 The comparison/evaluation protocol and actual 1,000-source selection are now saved.
-Implement a bounded resumable collector for that fixed comparison plan, reusing
-the existing history collector and frozen fourteen-feature extractor. Reconstruct
-exact comparison addresses from the saved block cache; cross-check all public
-identifier hashes before requests. Use the protocol's 16-page/15-second limits,
-two workers and batches of twenty. Retain failed/incomplete rows without replacement.
-Audit attrition by membership and block before any grouped exploratory fit.
+Its bounded collector has now saved 720 attempts: 40 complete, twelve incomplete,
+668 errors and 280 pending. The current blocker is an HTTPS CONNECT tunnel 403
+refusal, now recognized by the stop guard. Resolve that refusal through authorized
+access restoration before pending collection; do not route around it or keep
+probing the API. The corrected blocked checkpoint performs no new requests.
+Preserve this initial pass; any error/incomplete retry requires a distinct
+recorded recovery pass. The 280 pending IDs are `comparison_0721`–`comparison_1000`.
+Current complete comparisons are confined to the first block, preventing the
+planned experiment. No fitting until collection, attrition and group gates permit it.
 Uncertain background is not a legitimate/theft-negative class; only operational
 core membership has a zero target. Preserve the explicit predictor allowlist.
 Do not use known collectors, later evidence or case labels as prior-block

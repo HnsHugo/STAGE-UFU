@@ -1,6 +1,6 @@
 """Audit coverage and unchanged source evidence after comparison collection."""
 import argparse
-from collections import Counter,defaultdict
+from collections import Counter
 import gzip
 import json
 from pathlib import Path
@@ -17,7 +17,8 @@ def audit(protocol_path,output,work=None):
     raw_checked=0;raw_status=Counter();modes=Counter();missing_raw=0
     observed_full_counts=[]
     for key,entry in state['entries'].items():
-        modes[entry.get('collection_mode','original_bounded_pagination')]+=1
+        mode=entry.get('collection_mode','original_bounded_pagination') if entry.get('raw_file') else 'request_error_no_raw_response'
+        modes[mode]+=1
         if not entry.get('raw_file'):continue
         path=work/entry['raw_file'] if work else None
         if path is None or not path.exists():missing_raw+=1;continue

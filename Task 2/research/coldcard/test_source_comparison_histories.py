@@ -133,6 +133,18 @@ class ComparisonHistoryTests(unittest.TestCase):
             self.assertEqual(get.call_count,2)
             self.assertEqual((result['error_sources'],result['pending_sources']),(2,2))
 
+    def test_https_tunnel_denial_stops_and_a_resume_does_not_issue_new_requests(self):
+        def denied(record,protocol):
+            raise urllib.error.URLError('Tunnel connection failed: 403 Forbidden')
+        with tempfile.TemporaryDirectory() as folder:
+            f=self.fixture(folder);root,path,_,_,_=f
+            with self.mocked(f,denied) as get:
+                result=collect.run_many(path,root/'work',root/'out',2)
+                again=collect.run_many(path,root/'work',root/'out',2)
+            self.assertEqual(get.call_count,2)
+            self.assertEqual(result,again)
+            self.assertEqual((result['error_sources'],result['pending_sources']),(2,2))
+
     def test_real_public_plan_is_fixed_and_contains_no_raw_identifiers(self):
         path=Path(__file__).parent/'source_comparison_collection_protocol_20261030.json'
         _,public=collect.load(path)
