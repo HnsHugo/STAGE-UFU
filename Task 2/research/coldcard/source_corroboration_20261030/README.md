@@ -99,6 +99,10 @@ requires the pinned external snapshots; the ignored local copies are not in Git.
 
 ## Next aligned unit
 
+A subsequent [first-person review](../owner_report_adjudication_20261030/README.md)
+has now mapped one public loss/Coldcard declaration to `cohort_0002`; it is a
+separate reported-evidence tier and does not change this comparison or its labels.
+
 Review the public owner-confirmed/report-based records identified by the new
 sources and test whether exact identifiers overlap this fixed cohort. Preserve
 their distinct incident/wave and evidential status. A reported case relationship

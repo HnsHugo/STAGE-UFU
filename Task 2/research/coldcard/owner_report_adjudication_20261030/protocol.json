@@ -1,0 +1,20 @@
+{
+  "checkpoint_file": "source_cohort_recovery_20261029/batch_0002/checkpoint.json",
+  "checkpoint_sha256": "a78ad7367c43102fd5b4d80d9fc8f1d8300ea205f520f59f2847029d7cced944",
+  "cohort_protocol_file": "source_cohort_recovery_protocol_20261029.json",
+  "cohort_protocol_sha256": "ab0152508aafdfe004fc541466c46b3a16dc420e33c2160b1ac47126d4f0f37e",
+  "cutoff_split": "Retain unchanged pre-payment predictors and the single incident group. No model, control cohort or train/test split.",
+  "dates": "Public page extraction exposes relative posting times only; JSON metadata was inaccessible. Publication and original label-availability timestamps remain unknown. Reviewed/observed-by-project date is 2026-10-30.",
+  "evidence_policy": "Require an author-explicit source/wallet address plus payment TXID and a matching observed input role. A receiving collector, consolidation, third-party summary, or similarity alone cannot create an owner label.",
+  "input_snapshot_file": "curated_assertions.json",
+  "input_snapshot_sha256": "767ade8c2f752c31866983bf01f850ba60431a07b6c221288ef3213e2b177c7c",
+  "publication": "Publish cohort IDs, hashes, source permalinks and narrowly scoped decisions. Keep raw address/assertion extracts local; omit unnecessary personal financial details.",
+  "requirement": "Follow public owner/report-based leads from the external reconstructions; map exact identifiers to the fixed 500-source cohort.",
+  "reviewed_on": "2026-10-30",
+  "schema_version": 1,
+  "selection": "Lead-driven review of the Alvaro P. source registry, the owner-report statement in SomaxBT, and Coldcard Watch report documentation. Not a random sample or exhaustive victim search.",
+  "source_registry_protocol_file": "source_registry_protocol_20261027.json",
+  "source_registry_protocol_sha256": "75abe6458bc7bda64b0fd6c94a7c145f352dc60050c367ae5b6ca1a5bee31f47",
+  "target_policy": "Record first-person reported loss and declared hardware association separately from verified control, seed origin, firmware causation and signing device. No promotion of existing supervised labels.",
+  "unit": "Publicly asserted source address linked to an exact reference payment; deduplicate reports by author and transaction."
+}

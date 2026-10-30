@@ -39,12 +39,23 @@ two public reconstructions. Address/value/count and 1,324 input-value observatio
 agree with SomaxBT; payment anchors, counts, amounts and fees agree with Alvaro P.
 The new case-relation layer is `source_attributed`; individually verified
 compromise/device labels remain unknown. Original predictors and reports are
-unchanged. Next: inspect owner-confirmed/report-based records referenced by these
-sources and test exact overlap without importing their graph heuristics as ground truth.
+unchanged. The [first-person report review](research/coldcard/owner_report_adjudication_20261030/README.md)
+now maps one public author's loss/device account exactly to `cohort_0002`, its
+reference payment and five spent UTXOs. A separate evidence tier records one
+owner-reported loss and Coldcard association; no independent identity/control,
+firmware or signing-device proof was established. The other 499 records and
+original labels are unchanged. Next: extend attributable public-report coverage
+without propagating one account's assertions to the full incident.
 Collector rankings remain supporting results. No model was fitted.
 
 ## Completed work
 
+- [First-person owner-report adjudication](research/coldcard/owner_report_adjudication_20261030/README.md):
+  one account maps exactly to `cohort_0002`; the original post, payment comment
+  and follow-up timeline are one report. Five input outpoints match the known
+  prior-block holdings. Reported loss/Coldcard association is kept separate from
+  verified compromise, seed origin and signing-device labels. Eight new tests
+  and 42 passing source-path regressions protect roles, deduplication and unknowns.
 - [External case-source corroboration](research/coldcard/source_corroboration_20261030/README.md):
   500/500 exact source/payment comparisons agree with both pinned reconstructions;
   1,324 input-value observations reconcile. Hashes, byte-preserved snapshots,
@@ -201,8 +212,8 @@ FSF shares two multi-recipient transactions with training addresses. This is obs
 
 - Robbed source-address dataset/model: original collection ended at 473 complete,
   24 errors and 3 incomplete; separate supplemental recovery now yields
-  500 complete, 0 errors, 0 incomplete and 0 pending. Per-address compromise/device labels and documented
-  controls remain absent. The supervised classifier is not completed.
+  500 complete, 0 errors, 0 incomplete and 0 pending. Independently verified per-address compromise/device labels and documented
+  controls remain absent; the new separate owner-report tier has one sourced account. The supervised classifier is not completed.
   Historical spending-fee features cannot be inferred from the
   reference payment when no prior source spending exists.
 - Network-relative fees, CPFP and RBF: the Teams request for a focused literature

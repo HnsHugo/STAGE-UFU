@@ -14,12 +14,15 @@ adds four sources with the same extractor. The
 473 complete histories, 24 retained errors, 3 incomplete histories and 0 pending sources. All 500 sources were attempted under that original protocol.
 The separate [supplemental recovery](research/coldcard/source_cohort_recovery_20261029/README.md)
 now provides **500 complete, 0 errors, 0 incomplete and 0 pending**, preserving the original result.
-Per-source compromise/device labels and target-matched controls remain absent;
+Independently verified compromise/device labels and target-matched controls remain absent;
 next: exact dated source-label adjudication before supervised fitting.
 The [external corroboration](research/coldcard/source_corroboration_20261030/README.md)
 now provides a source-attributed case layer for all 500 addresses, with exact
 agreement against two published reconstructions. Individual victim/device
 confirmation remains distinct from that case association.
+The [first-person report review](research/coldcard/owner_report_adjudication_20261030/README.md)
+adds one exact owner-reported loss/Coldcard association for `cohort_0002`, kept
+separate from verified labels and the unchanged other 499 sources.
 Collector ranking remains a preserved supporting experiment, not the central
 objective or a substitute for that address dataset.
 

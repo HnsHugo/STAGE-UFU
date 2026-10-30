@@ -19,7 +19,7 @@ adds four more complete histories with unchanged definitions. The
 
 The separate [supplemental recovery](../research/coldcard/source_cohort_recovery_20261029/README.md)
 now provides **500 complete, 0 errors, 0 incomplete and 0 pending** under documented larger bounds.
-The original protocol result remains unchanged. Individual labels and suitable
+The original protocol result remains unchanged. Independently verified labels and suitable
 controls remain missing; see the recovery's per-source eligibility and evidence review.
 
 
@@ -27,6 +27,11 @@ The [external case corroboration](../research/coldcard/source_corroboration_2026
 provides a new `source_attributed` relationship layer for all 500 sources, with
 matching payments and input amounts. This layer is retrospective evidence;
 keep it separate from pre-payment predictors and verified compromise/device labels.
+
+
+The [first-person report layer](../research/coldcard/owner_report_adjudication_20261030/README.md)
+adds one sourced loss/Coldcard declaration for `cohort_0002`. Reported positives,
+verified labels, device origin and signing-device identity remain distinct.
 
 ## Inputs and coverage
 

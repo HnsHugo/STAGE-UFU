@@ -1,0 +1,106 @@
+{
+  "assertion_snapshot_sha256": "767ade8c2f752c31866983bf01f850ba60431a07b6c221288ef3213e2b177c7c",
+  "checkpoint_sha256": "a78ad7367c43102fd5b4d80d9fc8f1d8300ea205f520f59f2847029d7cced944",
+  "lead_outcomes": [
+    {
+      "lead": "Alvaro P. public-source registry",
+      "status": "Mapped to one exact cohort source via the linked Reddit thread and follow-up."
+    },
+    {
+      "lead": "SomaxBT wave-4 owner-confirmed statement",
+      "status": "No exact owner-report URL in the reviewed README; do not map that statement to the July 30 cohort."
+    },
+    {
+      "lead": "Coldcard Watch public owner-report workflow",
+      "status": "Methodology describes report processing; the reviewed GitHub issue API returned zero public issues, and no individual report dataset was supplied."
+    },
+    {
+      "lead": "Coldcard Entropy address directory",
+      "status": "Direct public retrieval failed (502/timeout); no CSV or historical-report record ingested."
+    },
+    {
+      "lead": "KLoaec and Rob1Ham X posts",
+      "status": "Primary page access returned 403; no owner labels inferred from inaccessible posts."
+    }
+  ],
+  "limitations": [
+    "First-person reports are sourced assertions; account identity/control and device origin are not independently verified",
+    "Duplicate posts by the same account are not independent confirmations",
+    "Publication and original label-availability timestamps remain unknown; do not backdate labels from transaction time",
+    "Spending known prior-block UTXOs does not establish depletion of an entire multi-address wallet or unauthorized intent",
+    "A matched report does not transfer its hardware/loss assertion to the other 499 sources"
+  ],
+  "protocol_sha256": "7568e82eb71759609210769cc1557e2b6ca1af80e8c97ff037b0f331abcd6c3b",
+  "reviewed_on": "2026-10-30",
+  "rows": [
+    {
+      "address_sha256": "e41e67283ad83c0f976de61d1c459b2603f68d4c994807a0cb5fbf408021ea49",
+      "caveats": [
+        "Two posts and one comment by one account are one report, not independent victims or confirmations.",
+        "Earlier comments suggested restoration in January 2025; the dedicated timeline distinguishes 2025 purchase from January 2026 restoration. Both accounts are declarative.",
+        "The author speculates about restoration as the failure point; no firmware diagnosis or exact signing device is established.",
+        "Reported wallet setup age is not the first-funding age of this particular address."
+      ],
+      "consumes_all_known_prior_block_utxos": true,
+      "cutoff_height": 960189,
+      "declared_firmware_version": null,
+      "declared_hardware_models": [
+        "Coldcard Mk3",
+        "Coldcard Mk4"
+      ],
+      "declared_restore_period": "2026-01",
+      "declared_setup_period": "2021-05",
+      "event_confirmed_utc": "2026-07-30T01:37:21+00:00",
+      "evidence_grade": "first_person_report_with_exact_chain_match",
+      "hardware_signing_at_event_label": null,
+      "incident_group": "coldcard_2026",
+      "independently_verified_compromise_label": null,
+      "independently_verified_seed_origin_label": null,
+      "known_prior_block_utxo_count": 5,
+      "known_prior_block_utxos_consumed": 5,
+      "label_available_at": null,
+      "matched_input_count": 5,
+      "observed_by_project_on": "2026-10-30",
+      "observed_spent_input_sat": 78962661,
+      "owner_identity_independently_verified": false,
+      "payment_txid_sha256": "6dd0980fc38085964ca78bde99fd13372fd558a3442180ca87bd8034c308e1f6",
+      "proof_of_control_verified": false,
+      "reference_payment_fee_sat": 11460,
+      "report_id": "owner_report_0001",
+      "reported_hardware_association_label": "Coldcard",
+      "reported_loss_label": 1,
+      "reporter_id_sha256": "8a837b69245a7f76762b764b179b68623c5fc5cd422acf7b6d2fc72f43fd6655",
+      "source_id": "cohort_0002",
+      "source_published_at": null,
+      "sources": [
+        {
+          "role": "First-person loss report",
+          "url": "https://www.reddit.com/r/Bitcoin/comments/1vatgl4/full_panic_one_of_my_wallets_was_drained/"
+        },
+        {
+          "role": "Same-author explicit reference-payment TXID",
+          "url": "https://www.reddit.com/r/Bitcoin/comments/1vatgl4/comment/p0peuvv/"
+        },
+        {
+          "role": "Same-author explicit wallet address, payment and hardware timeline",
+          "url": "https://www.reddit.com/r/Bitcoin/comments/1vb6teq/wallet_drained_timeline/"
+        }
+      ],
+      "status": "mapped_first_person_report",
+      "verified_target_training_eligible": false
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "distinct_reports_reviewed": 1,
+    "duplicate_reports_collapsed": 0,
+    "exact_cohort_source_matches": 1,
+    "independently_verified_compromise_sources": 0,
+    "independently_verified_device_sources": 0,
+    "original_features_or_labels_changed": false,
+    "owner_reported_coldcard_sources": 1,
+    "owner_reported_loss_sources": 1,
+    "training_performed": false,
+    "unchanged_other_cohort_sources": 499
+  }
+}

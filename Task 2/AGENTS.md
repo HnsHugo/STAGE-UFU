@@ -39,11 +39,16 @@ plans and older report recommendations.
   reconstructions, including 1,324 input-value observations. The separate new
   case-relation layer is `source_attributed`, not independently verified victim
   or hardware ground truth. Original feature/label snapshots are unchanged.
-  Do not repeat generic exact-address searches or original collection. Next:
-  inspect owner-confirmed/report-based records referenced by the new sources and
-  check exact cohort overlap with dates and role/device evidence. One incident,
-  missing target-matched controls and unknown individual device/compromise labels
-  still preclude a validated supervised hardware/theft detector.
+  A first public owner-report now maps exactly to `cohort_0002` and its payment:
+  `research/coldcard/owner_report_adjudication_20261030/README.md`. One account's
+  loss and Mk3/Mk4 history are sourced declarations; identity/control, firmware
+  and signing device are not independently verified. Two posts are one account,
+  not two confirmations. The other 499 records are unchanged; 42 tests pass.
+  Do not repeat original collection or the reviewed threads without new evidence.
+  Next: extend exact public-report coverage, preserving author/incident groups
+  and unknown dates. Keep reported positives separate from verified labels and
+  do not generalize one owner's device assertion to all 500 sources. Missing
+  controls and independent incident evaluation still block a validated detector.
   The registry has graph candidates, not verified compromised/device labels.
   The address dataset/model is not replaced by collector ranking or benchmarks.
 - Keep the existing numbered-part structure. Write repository content in English;

@@ -1,0 +1,71 @@
+{
+  "adjudication_sha256": "ab00e127b196ce61c71cb3b77523905618ea31bc4fed14dffa0f47c7f308057a",
+  "checks": [
+    {
+      "check": "source_path_regressions",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "Task 2/research/coldcard",
+        "-p",
+        "test_source_*.py"
+      ],
+      "execution_record": "Executed: Ran 42 tests in 1.118s; OK.",
+      "exit_code": 0,
+      "tests_passed": 42
+    },
+    {
+      "check": "owner_report_reproduction",
+      "command": [
+        "python",
+        "Task 2/research/coldcard/adjudicate_owner_reports.py",
+        "verify",
+        "Task 2/research/coldcard/owner_report_adjudication_20261030/protocol.json",
+        "Task 2/research/coldcard/source_cohort_work_owner_reports_20261030"
+      ],
+      "execution_record": "Executed verify command reproduced adjudication.json and pinned local input hashes.",
+      "exit_code": 0
+    },
+    {
+      "check": "redacted_input_reproduction",
+      "execution_record": "Executed build against an empty temporary input directory; reconstructed assertions and adjudication matched their pinned bytes.",
+      "exit_code": 0
+    },
+    {
+      "check": "repository_integrity",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/check_repository.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"internal_links_checked\": 326,\n  \"python_files_parsed\": 107,\n  \"preserved_artifacts_checked\": 185,\n  \"errors\": [],\n  \"status\": \"passed\"\n}\n"
+    }
+  ],
+  "curated_assertions_sha256": "767ade8c2f752c31866983bf01f850ba60431a07b6c221288ef3213e2b177c7c",
+  "driver_sha256": "12ee4f302926fb942d21bead7b273ffa2870b5471feb06c91fe547fcd58f817c",
+  "exact_known_prior_block_outpoints_consumed": 5,
+  "original_checkpoint_unchanged": true,
+  "primary_excerpt_sha256": "caee91d1b256542a63b9422a18dab346e1b4cafb3a2c65e6015c37f9bcef1e0a",
+  "protocol_sha256": "7568e82eb71759609210769cc1557e2b6ca1af80e8c97ff037b0f331abcd6c3b",
+  "public_redacted_input_reproduction_without_private_cache": true,
+  "redacted_assertions_sha256": "79865a58ecc2f43a5777c2fd7149afc9496196a20ef41c9cd3b102d25e7b0dda",
+  "status": "passed",
+  "summary": {
+    "distinct_reports_reviewed": 1,
+    "duplicate_reports_collapsed": 0,
+    "exact_cohort_source_matches": 1,
+    "independently_verified_compromise_sources": 0,
+    "independently_verified_device_sources": 0,
+    "original_features_or_labels_changed": false,
+    "owner_reported_coldcard_sources": 1,
+    "owner_reported_loss_sources": 1,
+    "training_performed": false,
+    "unchanged_other_cohort_sources": 499
+  },
+  "training_performed": false,
+  "unknown_verified_labels_preserved": true,
+  "validated_on": "2026-10-30"
+}

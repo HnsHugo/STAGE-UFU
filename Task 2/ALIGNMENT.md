@@ -138,9 +138,13 @@ now matches all 500 source addresses/reference payments against two pinned publi
 reconstructions, with exact value/count/anchor agreement. This establishes
 `source_attributed` case relation, not independent owner/device confirmation;
 original labels and fourteen predictors remain unchanged.
-**Next unit:** inspect owner-confirmed/report-based records referenced by these
-sources, test exact overlap, and adjudicate dates and distinct role/device claims
-before supervised fitting. Seed origin, compromised control and signing
+The [first-person report layer](research/coldcard/owner_report_adjudication_20261030/README.md)
+now ties one public loss/device declaration exactly to `cohort_0002`. Reported
+Coldcard use is not independent seed-origin or theft-signing device proof, and
+no assertion transfers to the other 499 sources. Original labels remain intact.
+**Next unit:** extend attributable public-report coverage with exact identifiers,
+author/incident grouping, dates and distinct role/device claims before supervised
+fitting. Seed origin, compromised control and signing
 device at the event remain separate. Do not restart exhausted collection or
 rewrite the original failures. The current cohort is retrospective and case-derived,
 with prior-block predictors. A future prospective evaluation requires separate
