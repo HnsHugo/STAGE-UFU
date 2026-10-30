@@ -7,6 +7,18 @@ plans and older report recommendations.
 
 - Work only on `task-2-wallet-analysis`. Never merge into main, rewrite history,
   delete original evidence, incur costs or contact people.
+- Latest 30 October resumption repair: the configured 18:08 São Paulo task had
+  no recorded scheduled execution at 21:29 UTC. Its requested immediate run failed
+  at 21:30 UTC without a detailed reason/result. Do not equate enabled configuration
+  with working execution. A foreground source-counter check returned HTTP 200 at
+  21:33 UTC after the saved cooldown. The distinct successor
+  `source_comparison_retry_protocol_20261030_2133.json` selects the 381 remaining
+  gaps, excluding all 506 complete and 113 bounded-incomplete comparisons. Its
+  prepared output/work pointers and running lease are in the retry policy. Collect
+  one bounded foreground unit, verify/publish it and inspect actual automation
+  execution before claiming background resumption works. The task prompt was
+  simplified; a controlled run must skip all HTTP under the published running
+  lease. All historical bytes and unknown labels remain preserved.
 - Current 30 October user direction: **continue spaced retries while preserving all
   prior results**. This overrides the older one-cooldown assistant restriction
   below. After source-counter HTTP 200 at 18:41 UTC, the distinct

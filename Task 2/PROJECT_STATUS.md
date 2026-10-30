@@ -2,21 +2,18 @@
 
 ## Current priority
 
-**Latest resumption update:** Hugo requested continued spaced retries. After
-same-route source-counter HTTP 200, the distinct
-[653-source retry](research/coldcard/comparison_retry_20261030_1841/README.md)
-attempted 274 addresses: **233 complete, 39 incomplete, two HTTP 429 errors and
-379 pending**. All 272 raw responses re-extract. The first-denial guard stopped
-scheduling at 19:07 UTC; the collector is no longer active. The immutable 80/200
-milestones and every earlier pass remain intact. The latest combined 1,500-row
-view has **500 complete cases, 506 complete comparisons, 113 incomplete
-comparisons, 101 latest known errors and 280 never attempted**. Thus 1,006
-rows have the fourteen predictors; 381 comparison network gaps remain.
-[Hourly retry control](research/coldcard/comparison_access_retries_20261030/README.md)
-is confirmed enabled. The published lease is cleared. No request is eligible
-before 21:07:49 UTC (two hours after the last 429); subsequent 429s increase
-backoff and a longer Retry-After prevails. No collector/model/split is active.
-All 86 source-path tests pass. Earlier blocked counts below are historical.
+**Current repair:** the hourly task was enabled but had no recorded scheduled
+execution at the promised 18:08 São Paulo check. A requested immediate run failed
+at 21:30 UTC with no detailed reason/result; successful configuration is not proof
+of working execution. After a normal source-counter HTTP 200 at 21:33 UTC, the
+[foreground successor](research/coldcard/comparison_retry_20261030_2133/README.md)
+was prepared for the 381 remaining network gaps. It excludes the 506 complete and
+113 bounded-incomplete earlier comparisons and pins every predecessor. The retry
+policy records the running lease and actual automation failure. The unchanged
+latest completed dataset still has 500 complete cases, 506 complete comparisons,
+113 incomplete comparisons, 101 latest known errors and 280 never attempted.
+No new completion is claimed from the prepared plan. The automation prompt was
+simplified; execution must be observed before claiming the repair works.
 
 The original Teams instructions, meeting notes and Overleaf files now establish
 the missing second stage: **the dataset and classifier of robbed source
@@ -304,16 +301,14 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-The stopped retry retains 381 network gaps: two latest 429 errors and 379 pending
-IDs (99 retaining prior errors and 280 never attempted). The confirmed hourly task
-will skip requests until the saved two-hour delay or any longer Retry-After has
-elapsed, then make one normal source-counter check on the original route. After
-200, create a distinct pinned successor pass; never silently restart the denied
-pass. Scheduled iterations collect at most five fixed batches, verify/export
-before continuing, preserve all earlier results and publish the actual outcomes.
-An active lease/OS lock skips a concurrent run; a new 403 pauses the task without
-route/provider changes. Pause automation once no network gaps remain.
-The 113 bounded-incomplete histories require a separate coverage decision.
-No complete comparisons exist in block 960191; audit class/block attrition and
-connected-component group gates before any exploratory fit. Operational membership
-zero and unknown compromise/device labels remain distinct. No model is fitted.
+Execute and verify a bounded foreground unit of the new 381-source successor,
+preserve all prior outcomes and publish actual checkpoints. The API counter now
+responded 200 after the saved cooldown, but no history is complete merely because
+a retry protocol exists. Do not run a concurrent collector. Test the simplified
+automation while the published running lease requires zero HTTP; inspect the
+actual run record/result. If execution still fails, explain the observed service
+limitation rather than promising background collection. Keep the original provider,
+route/TLS, two workers, one request/second, sixteen-page/15-second bounds and stop
+on first 403/429. No model, split, replacement or label promotion. Once no network
+gaps remain, audit/save and pause automation; bounded-incomplete coverage remains
+separate work.
