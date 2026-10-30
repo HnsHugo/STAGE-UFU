@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-30",
+  "applies_from_batch": 2,
+  "applies_from_source": "comparison_0021",
+  "collection_protocol_sha256": "3b903654be6d84d4cf159c8ecfa8209ab65af7e50004d22034b22872a101407b",
+  "original_collector_sha256": "f4b3f6b99cea9943fe4baad418f55a6b6eebb4000693f9a5a3b69b68221895d5",
+  "optimized_collector_sha256": "c61a9b5c26bcb4091752a408ad14d3c5f75ea3fe7a1db950d148ba676a48f617",
+  "requirement": "Avoid pagination that cannot exhaust a full history under the already fixed page bound.",
+  "capacity_rule": "If the initial confirmed tx_count exceeds 16*25=400, save before/after counters with zero fetched pages, pagination_exhausted=false, status=incomplete and no feature vector. Otherwise retain bounded pagination and the original counter audit.",
+  "api_source": "https://github.com/Blockstream/esplora/blob/master/API.md",
+  "api_fact": "The documented confirmed address-history endpoint returns 25 transactions per page.",
+  "unchanged": [
+    "Selected addresses and order",
+    "Two workers, 16-page limit, 15-second timeout",
+    "Strict prior-block features and exact reference checks",
+    "Complete status requires exhausted pagination and stable matching counters",
+    "No replacement, retries, supervised labels or model fitting"
+  ],
+  "original_batch_results_preserved": true,
+  "source_path_tests_passed": 72
+}

@@ -129,10 +129,42 @@ def from_raw(record,raw,marker):
                     sum(i['prevout']['value'] for i in inputs)!=record['reference_input_value_sat']):
                 raise ValueError('History reference source input count/value differs from block evidence')
         entry.update(converted)
+        entry['collection_mode']=history.get('collection_mode','original_bounded_pagination')
     except Exception as error:
         entry.update(status='error',features=None,prefix=None,reason=type(error).__name__+': '+str(error),
                      error_type=type(error).__name__)
     return entry
+
+
+def bounded_collect_one(record,protocol):
+    """Skip provably insufficient pagination without changing completeness rules.
+
+    Esplora /txs/chain pages contain at most 25 confirmed transactions. If the
+    initial count exceeds 16*25, this bound cannot exhaust the history. Preserve
+    both counter responses and an explicitly incomplete empty evidence list.
+    """
+    address=record['address'];base=protocol['provider']
+    def get(endpoint):return fixed.get_json(base+endpoint,protocol['timeout_seconds'])
+    before=get('/address/'+address)
+    count=before['chain_stats']['tx_count']
+    if type(count) is not int or count<0:raise ValueError('Invalid provider transaction counter')
+    transactions=[];exhausted=False;cursor='';pages=0
+    over_capacity=count>25*protocol['max_pages_per_address']
+    if not over_capacity:
+        for _ in range(protocol['max_pages_per_address']):
+            page=get('/address/'+address+'/txs/chain'+('/'+cursor if cursor else ''))
+            pages+=1
+            if not page:exhausted=True;break
+            if len(page)>25:raise ValueError('Provider exceeded documented pagination capacity')
+            transactions.extend(page);cursor=page[-1]['txid']
+    after=get('/address/'+address)
+    if before.get('address')!=address or after.get('address')!=address:
+        raise ValueError('Provider address mismatch')
+    audit=fixed.check_history(address,transactions,before,after,exhausted)
+    return dict(address=address,provider=base,before=before,after=after,audit=audit,
+                transactions=transactions,collected_at=now(),pages_fetched=pages,
+                collection_mode='counter_capacity_precheck' if over_capacity else 'bounded_pagination',
+                page_capacity=25*protocol['max_pages_per_address'])
 
 
 def fetch_one(record,protocol,work):
@@ -142,7 +174,7 @@ def fetch_one(record,protocol,work):
     # Persist before HTTP: interrupted attempts cannot be silently retried.
     with marker_path.open('xb') as stream:stream.write(json_bytes(marker))
     try:
-        history=fixed.collect_one(record,protocol)
+        history=bounded_collect_one(record,protocol)
         raw=gzip.compress(json_bytes(history),mtime=0)
         path=work/'raw'/f"{record['pilot_id']}.json.gz"
         if path.exists():raise FileExistsError('Raw evidence already exists')
@@ -274,7 +306,8 @@ def run_many(protocol_path,work,output,max_batches=50,cache=None,restore=None):
             if active is None:
                 if len(state['entries'])==len(public) or done>=max_batches:break
                 ids=[r['pilot_id'] for r in public if r['pilot_id'] not in state['entries']][:protocol['default_batch_size']]
-                active=dict(batch_id=len(state['batches'])+1,source_ids=ids,status='running')
+                active=dict(batch_id=len(state['batches'])+1,source_ids=ids,status='running',
+                            collector_sha256=digest(Path(__file__).read_bytes()))
                 state['batches'].append(active);saved.atomic_write(state_path,json_bytes(state))
             # Complete raw orphans; consume interrupted started attempts without HTTP retry.
             for key in active['source_ids']:

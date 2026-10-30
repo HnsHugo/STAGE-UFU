@@ -32,7 +32,7 @@ class ComparisonHistoryTests(unittest.TestCase):
         root,path,protocol,public,private=fixture
         with patch.object(collect,'private_plan',return_value=(protocol,public,private)),\
              patch.object(collect,'load',return_value=(protocol,public)),\
-             patch.object(collect.fixed,'collect_one',side_effect=fetch) as get,\
+             patch.object(collect,'bounded_collect_one',side_effect=fetch) as get,\
              contextlib.redirect_stdout(io.StringIO()):yield get
 
     def test_fixed_batches_resume_without_repeating_sources_and_keep_unknown_labels(self):
@@ -138,6 +138,33 @@ class ComparisonHistoryTests(unittest.TestCase):
         _,public=collect.load(path)
         self.assertEqual(len(public),1000)
         self.assertTrue(all('address' not in r and 'payment_txid' not in r for r in public))
+
+    def test_capacity_precheck_avoids_pages_but_never_creates_complete_or_zero_features(self):
+        record=dict(address='source',pilot_id='comparison_0001',address_sha256=digest(b'source'),
+                    payment_txid='c'*64,payment_txid_sha256=digest(('c'*64).encode()),
+                    cutoff_height=20,cutoff_block_hash='f'*64,registry_input_slots=1,reference_input_value_sat=60)
+        counters=dict(tx_count=401,funded_txo_count=1,spent_txo_count=1,funded_txo_sum=60,spent_txo_sum=60)
+        response=dict(address='source',chain_stats=counters)
+        with patch.object(collect.fixed,'get_json',side_effect=[response,deepcopy(response)]) as get:
+            data=collect.bounded_collect_one(record,dict(provider='fixture',timeout_seconds=15,max_pages_per_address=16))
+        self.assertEqual(get.call_count,2)
+        self.assertTrue(all('/txs/' not in c.args[0] for c in get.call_args_list))
+        self.assertEqual(data['pages_fetched'],0)
+        self.assertFalse(data['audit']['coverage_complete_by_provider_counters'])
+        e=collect.from_raw(record,gzip.compress(json_bytes(data)),dict(started_at='start'))
+        self.assertEqual(e['status'],'incomplete');self.assertIsNone(e['features'])
+
+    def test_small_history_pagination_uses_same_audit_and_extractor_as_original_collector(self):
+        record=records(1)[0];record.update(registry_input_slots=1,reference_input_value_sat=60,
+                                         payment_txid_sha256=digest(record['payment_txid'].encode()))
+        original=history(record)
+        responses=[original['before'],original['transactions'],[],original['after']]
+        with patch.object(collect.fixed,'get_json',side_effect=responses):
+            data=collect.bounded_collect_one(record,dict(provider='fixture',timeout_seconds=15,max_pages_per_address=16))
+        self.assertEqual(data['audit'],original['audit'])
+        before=collect.from_raw(record,gzip.compress(json_bytes(original)),dict(started_at='start'))
+        after=collect.from_raw(record,gzip.compress(json_bytes(data)),dict(started_at='start'))
+        self.assertEqual(before['features'],after['features'])
 
 
 if __name__=='__main__':unittest.main()
