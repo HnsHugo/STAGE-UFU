@@ -77,13 +77,17 @@ def build(protocol_path,output):
     collect.verify(initial_protocol,initial_path.parent)
     selection=json.loads((root/protocol['inputs']['selection']['file']).read_bytes())['rows']
     allowed=set(protocol['network_recovery']['source_ids'])
-    prior=collect.previous_recovery(protocol_path,protocol)
+    lineage=collect.recovery_lineage(protocol_path,protocol)
+    prior=lineage[-1] if lineage else None
     if prior:
         previous_protocol,previous_checkpoint,previous,previous_state=prior
-        collect.verify(previous_protocol,previous_checkpoint.parent)
-        comparisons=merge_passes(selection,original['entries'],[
-            ('network_recovery',previous_state['entries'],set(previous['network_recovery']['source_ids'])),
-            ('rate_limit_continuation',state['entries'],allowed)])
+        passes=[]
+        for path,checkpoint,old,old_state in lineage:
+            collect.verify(path,checkpoint.parent)
+            name=old.get('pass_name','rate_limit_continuation' if old['network_recovery'].get('prior_recovery') else 'network_recovery')
+            passes.append((name,old_state['entries'],set(old['network_recovery']['source_ids'])))
+        passes.append((protocol.get('pass_name','rate_limit_continuation'),state['entries'],allowed))
+        comparisons=merge_passes(selection,original['entries'],passes)
     else:comparisons=merge(selection,original['entries'],state['entries'],allowed)
     design=json.loads((root/protocol['inputs']['design']['file']).read_bytes())
     case_pin=design['inputs']['source_view'];case_raw=(root/case_pin['file']).read_bytes()
@@ -104,6 +108,9 @@ def build(protocol_path,output):
     if prior:
         inputs.update(previous_recovery_checkpoint_sha256=digest(previous_checkpoint.read_bytes()),
                       previous_recovery_protocol_sha256=digest(previous_protocol.read_bytes()))
+        if len(lineage)>1:
+            inputs['earlier_recovery_chain']=[dict(protocol_sha256=digest(path.read_bytes()),
+                checkpoint_sha256=digest(checkpoint.read_bytes())) for path,checkpoint,_,_ in lineage]
     view=dict(schema_version=1,created_on='2026-10-30',inputs=inputs,
               target='known_coldcard_core_membership; retrospective exploratory membership, not independently verified theft or device identity',
               predictor_allowlist=list(FEATURE_NAMES),

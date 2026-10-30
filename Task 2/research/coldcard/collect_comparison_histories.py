@@ -48,7 +48,13 @@ def make_plan(design_path, selection_path, cache):
     return records,public
 
 
-def load(protocol_path):
+def load(protocol_path,_cache=None):
+    cache={} if _cache is None else _cache
+    key=('loaded',str(protocol_path.resolve()))
+    if key in cache:
+        if cache[key] is None:raise ValueError('Circular recovery lineage')
+        return cache[key]
+    cache[key]=None
     protocol=json.loads(protocol_path.read_bytes());root=protocol_path.parent
     for name,pin in protocol['inputs'].items():
         if digest((root/pin['file']).read_bytes())!=pin['sha256']:
@@ -59,7 +65,7 @@ def load(protocol_path):
     selected=json.loads((root/protocol['inputs']['selection']['file']).read_bytes())['rows']
     if 'network_recovery' in protocol:
         recovery=protocol['network_recovery']
-        latest=baseline_entries(protocol_path,protocol)
+        latest=baseline_entries(protocol_path,protocol,cache)
         expected=[r['source_id'] for r in selected if r['source_id'] not in latest
                   or latest[r['source_id']]['status']=='error']
         if expected!=recovery['source_ids']:
@@ -88,18 +94,19 @@ def load(protocol_path):
     if transport.get('keepalive') and (transport.get('connections')!=2
             or not 0<transport.get('requests_per_second',0)<=3):
         raise ValueError('Persistent transport exceeded collection limits')
-    return protocol,public
+    cache[key]=(protocol,public)
+    return cache[key]
 
 
-def previous_recovery(protocol_path,protocol):
-    """A single cooldown continuation may pin the preserved stopped recovery."""
+def previous_recovery(protocol_path,protocol,_cache=None):
+    """Each distinct authorized cooldown pass pins its preserved predecessor."""
     prior=protocol.get('network_recovery',{}).get('prior_recovery')
     if prior is None:return None
     root=protocol_path.parent;inputs=protocol['inputs']
     previous_protocol=root/inputs[prior['protocol_input']]['file']
     previous_checkpoint=root/inputs[prior['checkpoint_input']]['file']
-    old,public=load(previous_protocol)
-    if ('network_recovery' not in old or old['network_recovery'].get('prior_recovery')
+    old,public=load(previous_protocol,_cache)
+    if ('network_recovery' not in old
             or any(old['inputs'][k]!=inputs[k] for k in ('baseline_protocol','baseline_checkpoint','selection'))):
         raise ValueError('Continuation changed the original comparison lineage')
     state=json.loads(gzip.decompress(previous_checkpoint.read_bytes()))
@@ -119,15 +126,26 @@ def previous_recovery(protocol_path,protocol):
     return previous_protocol,previous_checkpoint,old,state
 
 
-def baseline_entries(protocol_path,protocol):
+def recovery_lineage(protocol_path,protocol,_cache=None):
+    cache={} if _cache is None else _cache
+    prior=previous_recovery(protocol_path,protocol,cache)
+    return recovery_lineage(prior[0],prior[2],cache)+[prior] if prior else []
+
+
+def baseline_entries(protocol_path,protocol,_cache=None):
+    cache={} if _cache is None else _cache
+    key=('baseline',str(protocol_path.resolve()))
+    if key in cache:return cache[key]
     root=protocol_path.parent
     initial=json.loads(gzip.decompress((root/protocol['inputs']['baseline_checkpoint']['file']).read_bytes()))
-    latest=deepcopy(initial['entries']);prior=previous_recovery(protocol_path,protocol)
+    latest=deepcopy(initial['entries']);prior=previous_recovery(protocol_path,protocol,cache)
     if prior:
+        latest=deepcopy(baseline_entries(prior[0],prior[2],cache))
         for key,e in prior[3]['entries'].items():
             if key in latest and latest[key]['status']!='error':
                 raise ValueError('A previous pass overwrote a complete/incomplete result')
             latest[key]=deepcopy(e)
+    cache[('baseline',str(protocol_path.resolve()))]=latest
     return latest
 
 

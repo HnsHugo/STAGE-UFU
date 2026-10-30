@@ -220,6 +220,18 @@ class ComparisonHistoryTests(unittest.TestCase):
             path.write_bytes(json_bytes(changed))
             with self.assertRaises(ValueError):collect.load(path)
 
+    def test_repeated_retry_retains_both_prior_passes_and_all_finished_histories(self):
+        path=Path(__file__).parent/'source_comparison_retry_protocol_20261030_1841.json'
+        protocol,public=collect.load(path)
+        chain=collect.recovery_lineage(path,protocol)
+        self.assertEqual(len(chain),2)
+        self.assertEqual([len(item[3]['entries']) for item in chain],[297,2])
+        latest=collect.baseline_entries(path,protocol)
+        self.assertEqual(sum(e['status']=='complete' for e in latest.values()),273)
+        self.assertEqual(sum(e['status']=='incomplete' for e in latest.values()),74)
+        self.assertTrue(all(latest.get(r['pilot_id'],{}).get('status','pending') in ('error','pending') for r in public))
+        self.assertEqual(latest['comparison_0348']['request_started_at'],chain[-1][3]['entries']['comparison_0348']['request_started_at'])
+
     def test_real_public_plan_is_fixed_and_contains_no_raw_identifiers(self):
         path=Path(__file__).parent/'source_comparison_collection_protocol_20261030.json'
         _,public=collect.load(path)
