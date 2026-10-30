@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-10-30",
+  "requirement": "Specify an executable same-period source-address comparison and a narrow exploratory address-model evaluation.",
+  "unit": "Unique decoded Bitcoin input source address; one frozen reference transaction and prior-block feature cutoff per address.",
+  "primary_target": {
+    "name": "known_coldcard_core_membership",
+    "positive": "One of the fixed 500 exact source/payment records in the pinned case view.",
+    "comparison": "A selected source address outside the 505 saved case-related sources and collector, active as an input in the same four blocks. Operational membership target=0; compromise and device status remain unknown.",
+    "scope": "Retrospective within-window exploratory case association. Not a theft, device-brand or prospective detector.",
+    "labels_available_at_event": false
+  },
+  "inputs": {
+    "source_view": {
+      "file": "source_dataset_20261030/view.json.gz",
+      "sha256": "ceceab50d0242e5ba0195d7d2f456cbfb77173cb262460e441a41776d5215d9d"
+    },
+    "source_view_protocol": {
+      "file": "source_dataset_20261030/protocol.json",
+      "sha256": "922c3de80381effa0363c15624ecf02ae80c706024f3a9cccacdcc504eb39422"
+    },
+    "checkpoint": {
+      "file": "source_cohort_recovery_20261029/batch_0002/checkpoint.json",
+      "sha256": "a78ad7367c43102fd5b4d80d9fc8f1d8300ea205f520f59f2847029d7cced944"
+    },
+    "cohort_protocol": {
+      "file": "source_cohort_recovery_protocol_20261029.json",
+      "sha256": "ab0152508aafdfe004fc541466c46b3a16dc420e33c2160b1ac47126d4f0f37e"
+    },
+    "registry_protocol": {
+      "file": "source_registry_protocol_20261027.json",
+      "sha256": "75abe6458bc7bda64b0fd6c94a7c145f352dc60050c367ae5b6ca1a5bee31f47"
+    },
+    "block_protocol": {
+      "file": "../external_cases/central_protocol_20261020.json",
+      "sha256": "c1e9bc565e6a05701a7807eb2e9c30ebb762a87b932ce8a4a8b7b45fa54997db"
+    },
+    "block_summary": {
+      "file": "../external_cases/central_results_20261020/summary.json",
+      "sha256": "ac868ebd3754454b3fcbc4b96b313768083427e2decb00c0ecedd970c58f166e"
+    },
+    "block_validator": {
+      "file": "../external_cases/rank_block_recipients.py",
+      "sha256": "784dc1f3a7cc0b87a972ad6082509b6d06ca394cb16633bb5b632583e08321f3"
+    }
+  },
+  "incident_group": "coldcard_2026",
+  "blocks": [
+    {
+      "height": 960188,
+      "hash": "0000000000000000000186e53ea105d0d9b8453d14666b2bee16b68510544fe4",
+      "time": 1785375368,
+      "case_group": "coldcard_2026"
+    },
+    {
+      "height": 960189,
+      "hash": "000000000000000000013f7dbd45306e3c040eaa1c727cc48e69fb6cb182f7dd",
+      "time": 1785375441,
+      "case_group": "coldcard_2026"
+    },
+    {
+      "height": 960190,
+      "hash": "000000000000000000005cd3ef8a8583807efa1cd1566a6608b16ca297fb0f8e",
+      "time": 1785375780,
+      "case_group": "coldcard_2026"
+    },
+    {
+      "height": 960191,
+      "hash": "000000000000000000003094b4c6bfd6caa47f12985b8b78a54c7524dd1bc606",
+      "time": 1785376286,
+      "case_group": "coldcard_2026"
+    }
+  ],
+  "case_source_count": 500,
+  "comparison_selection": {
+    "maximum_sources": 1000,
+    "ratio_per_case": 2,
+    "quotas": [
+      {
+        "height": 960188,
+        "case_sources": 63,
+        "comparison_quota": 126
+      },
+      {
+        "height": 960189,
+        "case_sources": 110,
+        "comparison_quota": 220
+      },
+      {
+        "height": 960190,
+        "case_sources": 168,
+        "comparison_quota": 336
+      },
+      {
+        "height": 960191,
+        "case_sources": 159,
+        "comparison_quota": 318
+      }
+    ],
+    "universe": "All unique nonempty decoded prevout source addresses of positive-valued inputs of non-coinbase transactions in the four anchored complete blocks; not output recipients.",
+    "reference": "First occurrence ordered by block height then lexical TXID. The cutoff is the block height, so within-block TXID tie-breaking does not affect predictor inclusion.",
+    "exclusions": "All 505 registry source addresses and the known collector; unresolved input scripts remain counted as unresolved, never assigned an address or benign label.",
+    "hash_prefix": "coldcard-source-comparison-v1:42:",
+    "ranking": "Within the first-occurrence block, ascending SHA256(hash_prefix + address), then address for an exact hash tie; no balance/age/fee/model-score filtering.",
+    "shortfalls": "Take all available sources in a short stratum; report underfill. No borrowing across blocks or replacement after history failures.",
+    "publication": "Commit hashed source/payment records and aggregate audits. Reconstruct exact selected identifiers locally from the block cache."
+  },
+  "history_collection": {
+    "provider": "https://blockstream.info/api",
+    "max_pages_per_address": 16,
+    "timeout_seconds": 15,
+    "workers": 2,
+    "batch_size": 20,
+    "attempts_per_source": 1,
+    "cutoff": "Confirmed history heights strictly less than reference block; omit entire reference block and future.",
+    "coverage": "Exhausted pagination with stable matching provider counters; reuse pinned exact raw histories when available. No cryptographic inclusion claim.",
+    "failure_policy": "Retain errors/incomplete histories, null features and selected identifiers; do not replace or silently retry. Compare completion and page-limit attrition by membership and stratum before fitting."
+  },
+  "predictors": [
+    "confirmed_tx_count",
+    "receipt_tx_count",
+    "spending_tx_count",
+    "received_output_count",
+    "spent_output_count",
+    "received_sat",
+    "spent_sat",
+    "balance_sat",
+    "unspent_output_count",
+    "active_block_count",
+    "activity_span_blocks",
+    "blocks_since_first_activity",
+    "blocks_since_last_activity",
+    "median_spending_tx_fee_rate_sat_vb"
+  ],
+  "predictor_exclusions": "Everything outside features, especially reference-payment inputs/fees/recipient/UTXO depletion, block height/time, raw identifiers, case/device/report labels and collection artifacts.",
+  "evaluation": {
+    "design": "Exploratory within-window grouped development only; current case profiles were already inspected. Not an untouched or independent-incident test.",
+    "groups": "Connected components across repeated source addresses, shared prior-transaction references, common reference TXID and identical full fourteen-feature vectors. These groups prevent measured overlap; they are not ownership claims. Preserve the incident metadata separately.",
+    "partition": "After all selected histories and attrition audit, assign each component by SHA256(coldcard-source-split-v1:42: + lexical minimum address_sha256 in component) modulo 10: residues 0-6 train, 7 validation, 8-9 test. Freeze once; no seed/group rerolls or splitting large components.",
+    "gates": [
+      "Complete input census and all 500 positive source/payment anchors agree before sampling",
+      "Comparison histories exist and all completed vectors reproduce with the unchanged extractor",
+      "Report fixed-selection attrition by membership/block; retain incomplete rows outside fitting",
+      "At least 20 rows of each membership class in each partition and no component/shared prior reference/reference TXID/full feature vector crossing partitions; otherwise report infeasibility without resampling",
+      "Preprocessing fit only on train; validation/test frozen; no tuning on test"
+    ],
+    "preprocessing": "Training medians per feature, zero fallback only for an all-missing training column, plus one fixed missingness indicator per original feature. Never replace undefined fee rates with reference-payment fees.",
+    "learned_baseline": {
+      "model": "DecisionTreeClassifier",
+      "parameters": {
+        "criterion": "gini",
+        "splitter": "best",
+        "max_depth": 3,
+        "min_samples_split": 2,
+        "min_samples_leaf": 20,
+        "max_features": null,
+        "class_weight": "balanced",
+        "random_state": 42,
+        "ccp_alpha": 0.0
+      },
+      "selection": "One prespecified tree, no parameter search. Shallow tree for transparent rules on fourteen tabular features; no graph features yet justify a GNN."
+    },
+    "comparators": [
+      "Constant training membership prevalence",
+      "Descending blocks_since_last_activity",
+      "Descending balance_sat"
+    ],
+    "metrics": "Report sampled-cohort membership prevalence, AP and ROC-AUC; membership precision/recall/F1 at fixed tree score >=0.5 with explicit membership name. These are not theft/device precision, F1 or calibrated probabilities. Constant and univariate comparators use ranking metrics only; tree ties include equality at threshold.",
+    "interpretation": "Complete-case, selected-population exploratory results. The 2:1 comparison design sets sampling prevalence; do not infer prevalence/calibration for the blockchain. One Coldcard incident cannot evaluate independent-incident transfer.",
+    "model_outputs": "case_membership_score, not theft_probability; include rules, support counts, errors and missingness reliance. Original external 19-feature forest remains frozen."
+  },
+  "method_sources": [
+    {
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "purpose": "Training-only preprocessing and leakage safeguards",
+      "reviewed_on": "2026-10-30"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "purpose": "Grouped evaluation motivation",
+      "reviewed_on": "2026-10-30"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html",
+      "purpose": "Shallow-tree parameter meanings; exact values are our design choices",
+      "reviewed_on": "2026-10-30"
+    }
+  ],
+  "execution_scope": "This unit validates the design and implements the selector. No real comparison sample, history requests, split or fitted model is claimed without its own saved execution.",
+  "default_cache_directory": "source_cohort_work_comparison_20261030/blocks"
+}

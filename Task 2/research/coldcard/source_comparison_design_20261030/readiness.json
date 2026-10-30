@@ -1,0 +1,64 @@
+{
+  "available_block_files": 0,
+  "case_sources": 500,
+  "case_sources_and_comparison_quotas": [
+    {
+      "case_sources": 63,
+      "comparison_quota": 126,
+      "height": 960188
+    },
+    {
+      "case_sources": 110,
+      "comparison_quota": 220,
+      "height": 960189
+    },
+    {
+      "case_sources": 168,
+      "comparison_quota": 336,
+      "height": 960190
+    },
+    {
+      "case_sources": 159,
+      "comparison_quota": 318,
+      "height": 960191
+    }
+  ],
+  "comparison_histories_collected": false,
+  "comparison_population_size": null,
+  "comparisons_selected": false,
+  "complete_input_census_performed": false,
+  "design_valid": true,
+  "excluded_known_related_addresses": 506,
+  "model_fitted": false,
+  "next_action": "Recover or acquire the four anchored complete blocks, then run select. Hash and validate each snapshot; do not substitute output-recipient tables or create synthetic controls.",
+  "predictor_count": 14,
+  "protocol_sha256": "53fe2b2ecefaa90f9a9820f735c2e40318d2abb836cbf7f84734fb10e227e1f8",
+  "required_block_cache": [
+    {
+      "file": "960188.json",
+      "height": 960188,
+      "historical_raw_sha256": "08583e0d200e05cf838ceacf85d299f01a109696c027c66b4aad6226e1aa0703",
+      "present": false
+    },
+    {
+      "file": "960189.json",
+      "height": 960189,
+      "historical_raw_sha256": "392ef8f756ca934432bc2a75f85fb55d04278df021784fb1e016ea063c678ba3",
+      "present": false
+    },
+    {
+      "file": "960190.json",
+      "height": 960190,
+      "historical_raw_sha256": "00396ac932980ff50d44c53408738f4409e7b87b26289696850fe23e08e29b23",
+      "present": false
+    },
+    {
+      "file": "960191.json",
+      "height": 960191,
+      "historical_raw_sha256": "c0b4c318314b96efc9a82a509bd579bec71394e6536413e3a7378cc0eec2fb14",
+      "present": false
+    }
+  ],
+  "schema_version": 1,
+  "split_created": false
+}
