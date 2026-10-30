@@ -92,8 +92,10 @@ python "Task 2/research/coldcard/adjudicate_owner_reports.py" verify \
 
 ## Next aligned unit
 
-Find further attributable public reports with explicit source/payment identifiers
-and record their declared device history and availability dates. Keep authors,
-addresses, wallets and incident groups distinct. A future study of reported
-case association needs a separately stated target and suitable controls; this
-single account cannot validate a general theft or hardware-wallet classifier.
+The [30 October alignment review](../../../ALIGNMENT.md#priority-review--30-october-2026)
+supersedes further report search as the default priority. Consolidate the existing
+500-source feature/evidence view and descriptive analysis, then specify the model
+target and comparison/evaluation design. Further attributable reports remain
+bounded enrichment with exact identifiers, device claims and availability dates.
+Keep authors, addresses, wallets and incident groups distinct. This single
+account cannot validate a general theft or hardware-wallet classifier.

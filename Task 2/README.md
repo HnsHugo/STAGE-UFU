@@ -15,7 +15,8 @@ adds four sources with the same extractor. The
 The separate [supplemental recovery](research/coldcard/source_cohort_recovery_20261029/README.md)
 now provides **500 complete, 0 errors, 0 incomplete and 0 pending**, preserving the original result.
 Independently verified compromise/device labels and target-matched controls remain absent;
-next: exact dated source-label adjudication before supervised fitting.
+next: consolidate the 500-source feature/evidence view and descriptive analysis,
+then specify a target-matched comparison and evaluation design before fitting.
 The [external corroboration](research/coldcard/source_corroboration_20261030/README.md)
 now provides a source-attributed case layer for all 500 addresses, with exact
 agreement against two published reconstructions. Individual victim/device

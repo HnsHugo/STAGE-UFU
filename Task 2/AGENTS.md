@@ -45,8 +45,11 @@ plans and older report recommendations.
   and signing device are not independently verified. Two posts are one account,
   not two confirmations. The other 499 records are unchanged; 42 tests pass.
   Do not repeat original collection or the reviewed threads without new evidence.
-  Next: extend exact public-report coverage, preserving author/incident groups
-  and unknown dates. Keep reported positives separate from verified labels and
+  Next: consolidate the 500-source feature/evidence view and descriptive source
+  analysis, then specify a target-matched comparison/evaluation design. See the
+  30 October priority review in ALIGNMENT.md. Further public reports are bounded
+  enrichment, not a requirement to obtain 500 personal testimonies. Preserve
+  author/incident groups and unknown dates; keep reported positives separate from verified labels and
   do not generalize one owner's device assertion to all 500 sources. Missing
   controls and independent incident evaluation still block a validated detector.
   The registry has graph candidates, not verified compromised/device labels.

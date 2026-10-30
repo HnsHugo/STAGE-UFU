@@ -142,9 +142,12 @@ The [first-person report layer](research/coldcard/owner_report_adjudication_2026
 now ties one public loss/device declaration exactly to `cohort_0002`. Reported
 Coldcard use is not independent seed-origin or theft-signing device proof, and
 no assertion transfers to the other 499 sources. Original labels remain intact.
-**Next unit:** extend attributable public-report coverage with exact identifiers,
-author/incident grouping, dates and distinct role/device claims before supervised
-fitting. Seed origin, compromised control and signing
+**Next unit:** consolidate the fixed 500-source cohort's fourteen prior-block
+features and separate evidence layers into one reproducible address-level view,
+then describe source behaviour, variation, missingness and grouping limits.
+Specify the intended model target and a compatible comparison/evaluation design
+before fitting. Additional exact public reports are supporting enrichment, not
+the default critical path. Seed origin, compromised control and signing
 device at the event remain separate. Do not restart exhausted collection or
 rewrite the original failures. The current cohort is retrospective and case-derived,
 with prior-block predictors. A future prospective evaluation requires separate
@@ -154,6 +157,39 @@ named relation/proxy baseline can be useful, but must not be reported as the
 requested ground-truth detector. With adequate labels, start with interpretable
 baselines and prespecified grouped/temporal evaluation, then test CryptoBilis
 transfer. That case has already been explored; it is not an untouched final test.
+
+## Priority review — 30 October 2026
+
+Hugo requested a fresh alignment check after the first owner-report review.
+This check reread the repository's 27 October reconciliation of the supplied
+Teams screenshots, meeting notes and Overleaf files, the current evidence
+artifacts and the recovered conversation context. The private original files
+were not available for a fresh inspection; this is not a new primary-source audit.
+
+The requested outcome is the source-address dataset and an address model for
+finding further relevant addresses on-chain. Requiring independently verified
+testimony for every address was not a documented instruction from Ivan. The
+strict verified-label rules are research safeguards introduced in our protocol;
+they must not silently become a requirement to find 500 personal testimonies
+before any source analysis. Conversely, this correction does not turn case
+membership into independently verified theft or hardware identity.
+
+Current evidence supports a useful retrospective, case-attributed cohort:
+500 complete feature records, two concordant chain reconstructions and one
+exact owner-reported loss/device association. Two reconstructions of the same
+chain are corroboration, not independent incidents. One account is not a
+representative validation sample, and absent reports are not negative controls.
+
+The next deliverable should join the existing pinned feature and evidence
+layers by cohort identifier, preserving their distinct meanings and provenance,
+and summarize the actual feature distribution without new collection or fitting.
+It should expose what is available for the requested address model and what a
+comparison cohort would need to match (unit, observation period, history coverage
+and selection policy). A case-association experiment, if chosen later, needs an
+explicit target; its metrics would not validate a general theft/device detector.
+Independent incident evaluation remains a separate unresolved requirement for
+such a generalization claim. Further testimony search is bounded enrichment
+when a concrete new lead exists. Historical protocols and outputs stay intact.
 
 ## Boundaries that prevent another scope drift
 

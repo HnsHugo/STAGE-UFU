@@ -44,8 +44,11 @@ now maps one public author's loss/device account exactly to `cohort_0002`, its
 reference payment and five spent UTXOs. A separate evidence tier records one
 owner-reported loss and Coldcard association; no independent identity/control,
 firmware or signing-device proof was established. The other 499 records and
-original labels are unchanged. Next: extend attributable public-report coverage
-without propagating one account's assertions to the full incident.
+original labels are unchanged. The 30 October alignment review corrects the
+next priority: consolidate the existing 500-source feature/evidence view and
+describe the source population, then specify target-matched comparisons and
+evaluation. Further public reports are bounded enrichment; obtaining individual
+testimony for every address was not a documented professor requirement.
 Collector rankings remain supporting results. No model was fitted.
 
 ## Completed work
@@ -235,11 +238,14 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-History collection and its explicit supplemental pass are exhausted. Use the
-combined feature checkpoint and per-source eligibility. Adjudicate exact dated
-address/outpoint/payment assertions under the evidence fields and target
-definitions in `research/coldcard/source_label_review_20261029.json`. Keep seed
-origin separate from signing-device use. Establish target-matched controls and
+History collection and its explicit supplemental pass are exhausted. Consolidate
+the combined 500-source feature checkpoint, source-attribution comparisons and
+owner-report tier into one reproducible address-level view with provenance.
+Describe feature variation, missingness and source behaviour without fitting.
+Do not use known collectors, later evidence or case labels as prior-block
+predictors. Additional exact reports enrich this view when a concrete lead exists;
+they are not the sole next action. Keep seed origin separate from signing-device
+use. Specify the intended model target, target-matched comparisons and
 an independent group/temporal evaluation design before supervised fitting; an
 explicit proxy study would require its own target and limitations. Do not
 silently transfer case-level reporting into individual ground truth.
