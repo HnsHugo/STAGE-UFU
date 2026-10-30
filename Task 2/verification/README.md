@@ -27,3 +27,8 @@ The [200-source retry milestone](comparison_retry_200_20261030.json) records
 ten verified batches, 174 newly complete histories and 447 complete comparisons
 overall. All 200 raw responses re-extract; this is a historical progress point
 inside an ongoing collection, not a final coverage claim.
+
+The [final stopped retry checks](comparison_retry_stopped_20261030.json) record
+274 attempts, 233 newly complete histories, 272 raw re-extractions, independent
+raw accounting, preservation of every earlier result and zero HTTP on a denied
+resume. The confirmed hourly automation remains enabled with backoff.

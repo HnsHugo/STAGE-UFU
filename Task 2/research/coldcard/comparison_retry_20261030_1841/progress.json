@@ -1,0 +1,34 @@
+{
+  "attempted_sources": 274,
+  "by_reference_block": [
+    {
+      "complete": 233,
+      "errors": 2,
+      "height": 960190,
+      "incomplete": 39,
+      "pending": 61,
+      "selected": 335
+    },
+    {
+      "complete": 0,
+      "errors": 0,
+      "height": 960191,
+      "incomplete": 0,
+      "pending": 318,
+      "selected": 318
+    }
+  ],
+  "comparison_compromise_hardware_labels": "unknown",
+  "complete_sources": 233,
+  "error_sources": 2,
+  "error_types": {
+    "HTTPError": 2
+  },
+  "feature_count": 14,
+  "incomplete_sources": 39,
+  "pending_sources": 379,
+  "prior_transaction_observations": 7698,
+  "selected_sources": 653,
+  "sources_with_prior_spending": 105,
+  "training_performed": false
+}

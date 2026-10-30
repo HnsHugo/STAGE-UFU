@@ -2,20 +2,21 @@
 
 ## Current priority
 
-**Latest resumption update:** Hugo explicitly requested continued spaced retries.
-A same-route source-counter check returned HTTP 200 at 18:41 UTC, after over
-ninety minutes since the previous 429. A distinct
+**Latest resumption update:** Hugo requested continued spaced retries. After
+same-route source-counter HTTP 200, the distinct
 [653-source retry](research/coldcard/comparison_retry_20261030_1841/README.md)
-is running at one global request/second. Its immutable
-[ten-batch milestone](research/coldcard/comparison_retry_20261030_1841/milestone_batch_0010/README.md)
-records 200 attempts, 174 complete, 26 incomplete and no errors; the combined
-snapshot has 500 unchanged complete cases and 447 complete comparisons.
-The earlier 80-source milestone remains intact.
-The milestone is historical, not the live counter. The confirmed hourly retry
-policy, backoff and published running lease are in
-[retry control](research/coldcard/comparison_access_retries_20261030/README.md).
-Scheduled runs skip a held lock or an unexpired running lease. Earlier blocked
-snapshots below remain preserved; they are no longer the current access state.
+attempted 274 addresses: **233 complete, 39 incomplete, two HTTP 429 errors and
+379 pending**. All 272 raw responses re-extract. The first-denial guard stopped
+scheduling at 19:07 UTC; the collector is no longer active. The immutable 80/200
+milestones and every earlier pass remain intact. The latest combined 1,500-row
+view has **500 complete cases, 506 complete comparisons, 113 incomplete
+comparisons, 101 latest known errors and 280 never attempted**. Thus 1,006
+rows have the fourteen predictors; 381 comparison network gaps remain.
+[Hourly retry control](research/coldcard/comparison_access_retries_20261030/README.md)
+is confirmed enabled. The published lease is cleared. No request is eligible
+before 21:07:49 UTC (two hours after the last 429); subsequent 429s increase
+backoff and a longer Retry-After prevails. No collector/model/split is active.
+All 86 source-path tests pass. Earlier blocked counts below are historical.
 
 The original Teams instructions, meeting notes and Overleaf files now establish
 the missing second stage: **the dataset and classifier of robbed source
@@ -303,13 +304,16 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Continue and verify the active fixed 653-source retry, preserving all earlier
-histories and pass outcomes. Read its latest checkpoint and immutable batch deltas;
-the first-four-batch milestone is only a saved progress point. No model or split
-is fitted. When the active pass stops or completes, save an audited combined view,
-update the actual coverage and clear the published running lease. The confirmed
-hourly task skips active work; after a new 429 it observes at least two hours,
-increasing backoff and any longer Retry-After. A 403 pauses the task without
-changing route/provider. If no network gaps remain, pause the automation; remaining
-bounded-incomplete histories need a separate coverage decision. Keep operational
-core membership and unknown compromise/device labels distinct.
+The stopped retry retains 381 network gaps: two latest 429 errors and 379 pending
+IDs (99 retaining prior errors and 280 never attempted). The confirmed hourly task
+will skip requests until the saved two-hour delay or any longer Retry-After has
+elapsed, then make one normal source-counter check on the original route. After
+200, create a distinct pinned successor pass; never silently restart the denied
+pass. Scheduled iterations collect at most five fixed batches, verify/export
+before continuing, preserve all earlier results and publish the actual outcomes.
+An active lease/OS lock skips a concurrent run; a new 403 pauses the task without
+route/provider changes. Pause automation once no network gaps remain.
+The 113 bounded-incomplete histories require a separate coverage decision.
+No complete comparisons exist in block 960191; audit class/block attrition and
+connected-component group gates before any exploratory fit. Operational membership
+zero and unknown compromise/device labels remain distinct. No model is fitted.

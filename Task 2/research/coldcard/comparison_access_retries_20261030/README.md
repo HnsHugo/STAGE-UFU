@@ -27,3 +27,10 @@ The published `collector_lease` in the policy also blocks a scheduled execution
 in another environment that cannot observe the local OS lock. A running, unexpired
 lease means no HTTP and no second collector. Completion/stop clears it; an expired
 lease requires checkpoint reconciliation before another attempt.
+
+Latest outcome: the resumed collection added 233 complete histories before another
+HTTP 429 at 19:07 UTC. The collector is stopped and its lease cleared. The enabled
+hourly task must make no request before the saved 21:07:49 UTC minimum (or any
+longer Retry-After). There are 381 remaining network gaps. The policy points to
+the stopped pass and its exact next eligible timestamp; existing histories and
+all failed attempts are retained.

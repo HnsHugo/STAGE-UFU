@@ -1,0 +1,25 @@
+{
+  "all_previous_results_preserved": true,
+  "attempted_sources": 274,
+  "automatic_retry_within_pass": false,
+  "checkpoint_sha256": "0b5c056660999d137a4986a9f39f522d3876c7915ffcb3fbf59e804f83b7e705",
+  "collector_active": false,
+  "complete_sources": 233,
+  "error_source_ids": [
+    "comparison_0619",
+    "comparison_0621"
+  ],
+  "error_sources": 2,
+  "http_statuses": [
+    429
+  ],
+  "incomplete_sources": 39,
+  "last_denial_finished_at": "2026-10-30T19:07:49.616734+00:00",
+  "minimum_retry_delay_seconds": 7200,
+  "next_network_attempt_not_before": "2026-10-30T21:07:49.616734+00:00",
+  "pending_sources": 379,
+  "reason": "HTTP 429 after 274 fixed source attempts at one global request/second; first-denial guard preserved the remaining sources.",
+  "retry_after_header_supplied": false,
+  "scheduled_hourly_checks_enabled": true,
+  "schema_version": 1
+}

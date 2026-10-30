@@ -43,24 +43,17 @@ The [same-block comparison selection](../research/coldcard/source_comparison_sel
 now fixes 1,000 additional source identifiers for the exploratory core-membership
 study. These are selected input addresses, not recipient controls or certified
 legitimate addresses. The [initial collection](../research/coldcard/comparison_histories_20261030/README.md)
-is preserved. A [separate recovery](../research/coldcard/comparison_network_recovery_20261030/README.md)
-added 233 complete histories; the [cooldown continuation](../research/coldcard/comparison_rate_limit_continuation_20261030/README.md)
-records a persistent HTTP 429 limit after reduced-rate resumption. Its combined
-view retains all 1,500 selected rows: 500 complete cases, 273 complete comparisons,
-74 incomplete comparisons, 373 comparisons with latest known errors and 280
-never attempted. Of the stopped continuation's 651 pending IDs, 371 retain old
-errors and 280 are never attempted. Unknown features remain null. The 773 complete
-vectors contain only fourteen prior-block predictors. All original case and
-comparison evidence is preserved. Those are historical stopped-pass counts.
-The [new preserved retry](../research/coldcard/comparison_retry_20261030_1841/README.md)
-started after a same-route HTTP 200 check; its
-[first-four-batch milestone](../research/coldcard/comparison_retry_20261030_1841/milestone_batch_0004/README.md)
-has 80 attempts, 70 new complete and ten incomplete histories, without errors.
-That immutable combined snapshot has 843 complete vectors: 500 cases and 343
-comparisons. The later [200-source milestone](../research/coldcard/comparison_retry_20261030_1841/milestone_batch_0010/README.md)
-has 947 complete vectors: 500 cases and 447 comparisons. The active collector
-continued afterward. The comparison set remains incomplete and the planned fit
-has not run.
+and both earlier recovery passes are preserved. The latest
+[653-source retry](../research/coldcard/comparison_retry_20261030_1841/README.md)
+attempted 274 sources: 233 complete, 39 incomplete and two 429 errors, leaving
+379 pending. The combined view retains all 1,500 selected rows: 500 complete
+cases, 506 complete comparisons, 113 incomplete comparisons, 101 latest known
+errors and 280 never attempted. Exactly 1,006 rows have the fourteen strictly
+prior-block predictors; all unavailable vectors stay null. No earlier feature or
+label was overwritten. All 272 new raw responses re-extract. The stopped pass
+has 381 remaining network gaps: two latest errors plus 379 pending; 99 pending
+retain an older error and 280 were never attempted. Hourly checks remain enabled
+with increasing backoff and no concurrent collection. No model or split was fitted.
 
 ## Inputs and coverage
 

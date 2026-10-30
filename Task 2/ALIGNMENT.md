@@ -219,17 +219,21 @@ when a concrete new lead exists. Historical protocols and outputs stay intact.
 ## Subsequent user-authorized resumption — 30 October 2026
 
 Hugo requested continued spaced retries, superseding the earlier one-cooldown
-assistant restriction. A source-counter check returned HTTP 200 on the original
-route at 18:41 UTC, after over ninety minutes since the previous 429. The
-[distinct retry](research/coldcard/comparison_retry_20261030_1841/README.md)
-pins every predecessor, excludes every earlier complete/incomplete result and
-uses the unchanged cutoff/features/labels with one global request per second.
-Its [first-four-batch milestone](research/coldcard/comparison_retry_20261030_1841/milestone_batch_0004/README.md)
-retains 80 attempts, 70 complete, ten incomplete and no errors. The saved combined
-view has 500 complete cases and 343 complete comparisons. Collection continued
-beyond the milestone. An enabled hourly task observes increasing 429 backoff,
-Retry-After, the published running lease and local lock; no alternate route or
-provider. Unknown labels remain unknown and no model/split is created.
+assistant restriction. Original-route source-counter HTTP 200 at 18:41 UTC
+allowed a [distinct retry](research/coldcard/comparison_retry_20261030_1841/README.md)
+of 653 remaining network gaps. It retained all predecessors and the unchanged
+cutoff/features/labels, with one global request per second. After 274 attempts,
+233 complete and 39 incomplete histories were saved, two started requests returned
+429 and 379 remained pending. All 272 raw responses re-extract. The 80/200-source
+milestones remain immutable. The combined view has 500 unchanged complete cases,
+506 complete comparisons, 113 incomplete comparisons, 101 latest known errors
+and 280 never attempted; no complete comparison exists in the last reference block.
+No model/split or collector is active. The confirmed hourly task observes the
+saved two-hour minimum after the latest 429, increasing backoff, a longer
+Retry-After and both the published lease and OS lock. No alternate route/provider
+is used. A new 403 pauses the task. Further collection requires a distinct pinned
+successor after the saved delay; unknown labels and every earlier outcome remain
+intact. Network gaps and bounded-incomplete coverage remain separate problems.
 
 ## Boundaries that prevent another scope drift
 

@@ -9,20 +9,25 @@ plans and older report recommendations.
   delete original evidence, incur costs or contact people.
 - Current 30 October user direction: **continue spaced retries while preserving all
   prior results**. This overrides the older one-cooldown assistant restriction
-  below. A source-counter HTTP 200 at 18:41 UTC allowed the distinct
-  `source_comparison_retry_protocol_20261030_1841.json` pass over 653 remaining
-  network gaps. The first ten batches are saved in
-  `comparison_retry_20261030_1841/milestone_batch_0010/`: 200 attempts, 174 complete,
-  26 incomplete and zero errors. That historical milestone has 500 complete
-  cases plus 447 complete comparisons; the earlier 80-source milestone is intact
-  and the root collector continued afterward.
-  The confirmed hourly automation and its increasing 429 backoff are recorded in
-  `comparison_access_retries_20261030/retry_policy.json`. Before any network call,
-  inspect its published collector lease as well as the local OS lock. An unexpired
-  running lease skips the entire scheduled iteration, even in another environment.
-  Do not start concurrent collectors. New 403s pause the task; no route/provider
-  fallback. Started attempts remain single-use within a pass. Preserve the full
-  predecessor chain for each distinct retry and exclude completed/incomplete IDs.
+  below. After source-counter HTTP 200 at 18:41 UTC, the distinct
+  `source_comparison_retry_protocol_20261030_1841.json` pass attempted 274 of 653
+  gaps: 233 complete, 39 incomplete, two HTTP 429 errors and 379 pending. All 272
+  raw responses re-extract. It stopped at 19:07 UTC; its final checkpoint and the
+  earlier 80/200-source milestones are preserved in `comparison_retry_20261030_1841/`.
+  The combined view retains 500 unchanged complete cases and 506 complete
+  comparisons, with 113 incomplete comparisons, 101 latest known errors and 280
+  never attempted. All prior pass outcomes remain explicit. The 381 network gaps
+  are two current 429s plus 379 pending in the stopped pass. No collector is active.
+  The confirmed hourly automation remains enabled. Its policy, latest stop and
+  next eligible request time are in `comparison_access_retries_20261030/retry_policy.json`:
+  no request before 21:07:49 UTC (at least two hours after the last 429), increasing
+  backoff on subsequent 429s and full respect for a longer Retry-After. The running
+  lease is cleared. Check both any new published lease and the local OS lock before
+  HTTP; never run concurrent collectors. New 403s pause the task, with no route or
+  provider fallback. A distinct next pass must pin this stopped predecessor and
+  exclude every earlier complete/incomplete result. Do not resume the denied pass.
+  All 86 source-path tests pass; no model or split has been created. Block 960191
+  still has no complete comparison, so the planned exploratory fit remains blocked.
 - The Coldcard **source-address evidence registry** is now built; see
   `research/coldcard/source_registry_20261027/README.md`. The pre-payment pilot
   also ran: eight complete source histories, fourteen features, strict prior-block

@@ -1,0 +1,261 @@
+{
+  "all_273_prior_complete_and_74_prior_incomplete_comparisons_preserved": true,
+  "all_500_original_case_features_and_labels_preserved": true,
+  "all_original_comparison_exports_and_prior_recovery_snapshots_preserved": true,
+  "automatic_retry_within_pass": false,
+  "blocked_resume_http_requests": 0,
+  "blocked_resume_output_bytes_unchanged": true,
+  "collector_active": false,
+  "collector_lock_observed_free": true,
+  "combined_summary": {
+    "address_dataset_sha256": "ead8e030d342aeedcd4c8019474e1a55158e55f523a8fecab91e3e0eefc6fa88",
+    "by_reference_block": [
+      {
+        "case_selected": 63,
+        "comparison_statuses": {
+          "complete": 99,
+          "incomplete": 27
+        },
+        "height": 960188
+      },
+      {
+        "case_selected": 110,
+        "comparison_statuses": {
+          "complete": 174,
+          "incomplete": 46
+        },
+        "height": 960189
+      },
+      {
+        "case_selected": 168,
+        "comparison_statuses": {
+          "complete": 233,
+          "error": 63,
+          "incomplete": 40
+        },
+        "height": 960190
+      },
+      {
+        "case_selected": 159,
+        "comparison_statuses": {
+          "error": 38,
+          "pending": 280
+        },
+        "height": 960191
+      }
+    ],
+    "combined_complete_sources": 1006,
+    "combined_selected_sources": 1500,
+    "comparison_statuses": {
+      "complete": 506,
+      "error": 101,
+      "incomplete": 113,
+      "pending": 280
+    },
+    "complete_case_sources": 500,
+    "independently_verified_compromise_labels": 0,
+    "independently_verified_device_labels": 0,
+    "inputs": {
+      "case_view_sha256": "ceceab50d0242e5ba0195d7d2f456cbfb77173cb262460e441a41776d5215d9d",
+      "earlier_recovery_chain": [
+        {
+          "checkpoint_sha256": "05c63262b171f32e042f7de371ecc160b5fa6136e9b42d68a5788a47f34165ec",
+          "protocol_sha256": "5c45bd4651b6fb3dfb4dd1f739b18113e04b2d0463ae34e2696eec2f297b8f3f"
+        },
+        {
+          "checkpoint_sha256": "19150af7885b169a801e4b019ec4e51186d38220ae73d7c7e8937e29eb97292d",
+          "protocol_sha256": "411fb6bf63c1a496439761d90a147cc88d8e7557aca7a6d4e00a7f77ed478006"
+        }
+      ],
+      "initial_checkpoint_sha256": "ff6cfc70756486bbd2546cf23395ebc0402f8ac9998ce904a5befbc8867f3c44",
+      "previous_recovery_checkpoint_sha256": "19150af7885b169a801e4b019ec4e51186d38220ae73d7c7e8937e29eb97292d",
+      "previous_recovery_protocol_sha256": "411fb6bf63c1a496439761d90a147cc88d8e7557aca7a6d4e00a7f77ed478006",
+      "recovery_checkpoint_sha256": "0b5c056660999d137a4986a9f39f522d3876c7915ffcb3fbf59e804f83b7e705",
+      "recovery_protocol_sha256": "91d860f179e285aa277e902e4625b1dced5f832d5ea1932e81bf0753f4d45019"
+    },
+    "limitations": [
+      "Only complete rows have fourteen predictors; unavailable features stay null",
+      "History completeness depends on full-history bounds; inspect completion by class/block before an exploratory fit",
+      "Comparison membership zero is not legitimate/theft-negative/hardware-negative ground truth",
+      "One previously inspected incident does not provide independent-incident or prospective validation"
+    ],
+    "model_fitted": false,
+    "original_complete_comparisons_preserved": 40,
+    "original_files_overwritten": false,
+    "original_incomplete_comparisons_preserved": 12,
+    "recovery_pending_sources": 379,
+    "schema_version": 1,
+    "selected_case_sources": 500,
+    "selected_comparison_sources": 1000,
+    "source_reported_loss_labels": 1,
+    "split_created": false
+  },
+  "coverage": {
+    "attempted_sources": 274,
+    "by_reference_block": [
+      {
+        "complete": 233,
+        "errors": 2,
+        "height": 960190,
+        "incomplete": 39,
+        "pending": 61,
+        "selected": 335
+      },
+      {
+        "complete": 0,
+        "errors": 0,
+        "height": 960191,
+        "incomplete": 0,
+        "pending": 318,
+        "selected": 318
+      }
+    ],
+    "comparison_compromise_hardware_labels": "unknown",
+    "complete_sources": 233,
+    "error_sources": 2,
+    "error_types": {
+      "HTTPError": 2
+    },
+    "feature_count": 14,
+    "incomplete_sources": 39,
+    "pending_sources": 379,
+    "prior_transaction_observations": 7698,
+    "selected_sources": 653,
+    "sources_with_prior_spending": 105,
+    "training_performed": false
+  },
+  "current_code_hashes": {
+    "audit_comparison_histories.py": "0852a4147bff779c67d841574eb25e4c5bfbbd5dcf74ab4755b370f8e4fe8bd9",
+    "collect_comparison_histories.py": "722acb046c1c762f8987571a8215b5a486e60ee2a3d43a9f990e2e13232a553d",
+    "combine_comparison_histories.py": "bb4b9d06e6fb77702d361f56a9c11fcee29100871bab94d1daa2d6812df0b557",
+    "comparison_http.py": "79793179e8c1bb153ade9a7fa742ed7a4a766bb6e039c791d880d24d5a484915"
+  },
+  "earlier_80_and_200_source_milestones_preserved": true,
+  "hourly_automation_confirmed_enabled": true,
+  "independent_recount_method": "Direct pre-cutoff raw transaction/input/output counts and integer values, outpoint set difference, distinct heights, block ages and spending fee-rate medians; no production prefix/feature function called.",
+  "limitations": [
+    "381 network gaps and 113 bounded-incomplete comparison histories remain",
+    "No complete comparison in reference block 960191; the planned exploratory fit remains blocked",
+    "Operational core membership zero is not a verified legitimate/theft-negative/device-negative label",
+    "A single case-derived cohort does not establish independent-incident or prospective validation"
+  ],
+  "new_complete_vectors_independently_recounted_from_raw": 233,
+  "new_raw_histories_reextracted": 272,
+  "next_network_attempt_not_before": "2026-10-30T21:07:49.616734+00:00",
+  "next_scheduled_check_local": "2026-10-30T18:08:00-03:00",
+  "offline_checkpoint_batch_feature_audit_and_combined_view_reproduction": true,
+  "old_combined_views_reproduce_byte_for_byte": true,
+  "original_provider_route_tls_preserved": true,
+  "outputs": {
+    "README.md": {
+      "bytes": 4537,
+      "sha256": "35b0c51b97ae74db57bf2a84031212df2a6858a4fe6d32c44e365d1e8166aea0"
+    },
+    "address_dataset.json.gz": {
+      "bytes": 188060,
+      "sha256": "ead8e030d342aeedcd4c8019474e1a55158e55f523a8fecab91e3e0eefc6fa88"
+    },
+    "batch_0001.json.gz": {
+      "bytes": 72859,
+      "sha256": "f4aa917cafb470e79f036f4d734136ab95362e7e3c6f9135a07db58f428fa963"
+    },
+    "batch_0002.json.gz": {
+      "bytes": 89107,
+      "sha256": "48709a377969ace49838811a65128045da7eabfe74ca0a28de779015ce9a9cc1"
+    },
+    "batch_0003.json.gz": {
+      "bytes": 44087,
+      "sha256": "8f2ad340729b8291af4a8c1bc70b4b9060cf570caf9869ade1b92f3e6972f43f"
+    },
+    "batch_0004.json.gz": {
+      "bytes": 91721,
+      "sha256": "c80a292e46c3442c9cc980037df0a0f655a1d10e5756e54bc77a93ea64838c8b"
+    },
+    "batch_0005.json.gz": {
+      "bytes": 31314,
+      "sha256": "6ea5a78102800f569b4462bd55e8421f976929e02bc9f790ba08f3f7382f3eeb"
+    },
+    "batch_0006.json.gz": {
+      "bytes": 38832,
+      "sha256": "bc3036b93e2b9131b6f54de625748c4ac83a1dc058339af11e59864c22ccfaf7"
+    },
+    "batch_0007.json.gz": {
+      "bytes": 34812,
+      "sha256": "2a9ef3dbea2c3e2fae68809e1f672d7221104adb428594a8c7c8c37b9550015c"
+    },
+    "batch_0008.json.gz": {
+      "bytes": 39389,
+      "sha256": "2bddc9cb509c72e7400043e3d9217b5f594c2998186920eb1b33196497924266"
+    },
+    "batch_0009.json.gz": {
+      "bytes": 49074,
+      "sha256": "2ae3d89008f451a38fed1bfcd98c0c74b5055f29551b0884d6a1a09bc89ce0a5"
+    },
+    "batch_0010.json.gz": {
+      "bytes": 44070,
+      "sha256": "73ecea729d956cdb02f09299e62fde46af613923cba93d9b2ae9fa0ed412e840"
+    },
+    "batch_0011.json.gz": {
+      "bytes": 34223,
+      "sha256": "15e55e624cf88e5dcf9dfd785d1984ad1967017b323837e07a9ded91bc6298fe"
+    },
+    "batch_0012.json.gz": {
+      "bytes": 63134,
+      "sha256": "7143d6903de4120a645f0ff11cdf013ac159c6b2be3b47243a1c27dda88dc556"
+    },
+    "batch_0013.json.gz": {
+      "bytes": 65959,
+      "sha256": "af6fac94d1a8f6b9290e8c7e7fe06af5c3c71c5a7909ff6ed3e1a18dc1f2cc53"
+    },
+    "batch_0014.json.gz": {
+      "bytes": 14233,
+      "sha256": "63045d09a119742683fee481d9469e512de2dde6b6dee9613f4e0ba1ab36513d"
+    },
+    "batches.json": {
+      "bytes": 2323,
+      "sha256": "9cf4b2ea72cd3ebe63af2800e7c6d3dcb1b1dbaf2564254aa9f70b1ecdac87d1"
+    },
+    "checkpoint.json.gz": {
+      "bytes": 701892,
+      "sha256": "0b5c056660999d137a4986a9f39f522d3876c7915ffcb3fbf59e804f83b7e705"
+    },
+    "collection_audit.json": {
+      "bytes": 3510,
+      "sha256": "d6fd19d699abe6f23348fb81dbbb7c74113d4a04706048c21563d444596d2738"
+    },
+    "collection_stop.json": {
+      "bytes": 865,
+      "sha256": "44e912d4bdd288ef7f2032b708377efe82960986984a31ec861f6cbb0ec6ca12"
+    },
+    "combined_summary.json": {
+      "bytes": 2942,
+      "sha256": "62a8379dbe0f4166494eff00b7f2678ad91a1cb7aa58299f2ad06acc572879e2"
+    },
+    "features.json.gz": {
+      "bytes": 56427,
+      "sha256": "154b716574178f1cc54f1b405cfe2354e6e4194e1f8ba23f591e835774f9dac1"
+    },
+    "plan.json.gz": {
+      "bytes": 50594,
+      "sha256": "9c817e976565437bbeea1622cfedfd20eb4f2e778d841d469c110a155dfff145"
+    },
+    "progress.json": {
+      "bytes": 712,
+      "sha256": "f593cb5207f3e7bceac83e22ea0fedcd4c597f2390fcfcf08f624cea357f9ebf"
+    }
+  },
+  "protocol_sha256": "91d860f179e285aa277e902e4625b1dced5f832d5ea1932e81bf0753f4d45019",
+  "retry_policy_sha256": "caf35656814c91be2aba3cb5b13adc8983e8bd30e16d5192f31f9387e469fc54",
+  "schema_version": 1,
+  "shared_lease_cleared": true,
+  "source_path_tests": {
+    "command": "python -m unittest discover -s \"Task 2/research/coldcard\" -p \"test_source_*.py\"",
+    "errors": 0,
+    "failures": 0,
+    "tests_run": 86
+  },
+  "split_created": false,
+  "status": "preserved_retry_stopped_http_429_hourly_automation_enabled",
+  "training_performed": false,
+  "verified_on": "2026-10-30"
+}
