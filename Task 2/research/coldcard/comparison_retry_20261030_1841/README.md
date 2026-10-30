@@ -20,3 +20,9 @@ advance beyond that saved point. The [retry policy](../comparison_access_retries
 records the confirmed hourly task and the active collector lease; scheduled checks
 skip this running collection. All 86 source-path tests pass, and both older
 combined views still reproduce byte for byte after lineage support was extended.
+
+A later [200-source milestone](milestone_batch_0010/README.md) retains ten batches:
+174 complete, 26 incomplete and zero errors, with all 200 raw responses
+re-extracted. The combined snapshot has 500 unchanged cases and 447 complete
+comparisons. Every earlier milestone remains intact. Collection continued beyond
+this point; no model or split was created.

@@ -22,3 +22,8 @@ The [later retry milestone](comparison_retry_milestone_20261030.json) records
 original-route access restored, 70 further complete histories in the first four
 batches, unchanged earlier snapshots and 86 passing source-path regressions.
 The collector continued beyond that historical milestone.
+
+The [200-source retry milestone](comparison_retry_200_20261030.json) records
+ten verified batches, 174 newly complete histories and 447 complete comparisons
+overall. All 200 raw responses re-extract; this is a historical progress point
+inside an ongoing collection, not a final coverage claim.

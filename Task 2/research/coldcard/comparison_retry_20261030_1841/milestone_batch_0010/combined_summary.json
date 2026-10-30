@@ -1,0 +1,83 @@
+{
+  "address_dataset_sha256": "a9d91bb833ecb88512f65a8857dfe33f9e4d02384595d83f8dd7e5e46cdf0f7f",
+  "by_reference_block": [
+    {
+      "case_selected": 63,
+      "comparison_statuses": {
+        "complete": 99,
+        "incomplete": 27
+      },
+      "height": 960188
+    },
+    {
+      "case_selected": 110,
+      "comparison_statuses": {
+        "complete": 174,
+        "incomplete": 46
+      },
+      "height": 960189
+    },
+    {
+      "case_selected": 168,
+      "comparison_statuses": {
+        "complete": 174,
+        "error": 135,
+        "incomplete": 27
+      },
+      "height": 960190
+    },
+    {
+      "case_selected": 159,
+      "comparison_statuses": {
+        "error": 38,
+        "pending": 280
+      },
+      "height": 960191
+    }
+  ],
+  "combined_complete_sources": 947,
+  "combined_selected_sources": 1500,
+  "comparison_statuses": {
+    "complete": 447,
+    "error": 173,
+    "incomplete": 100,
+    "pending": 280
+  },
+  "complete_case_sources": 500,
+  "independently_verified_compromise_labels": 0,
+  "independently_verified_device_labels": 0,
+  "inputs": {
+    "case_view_sha256": "ceceab50d0242e5ba0195d7d2f456cbfb77173cb262460e441a41776d5215d9d",
+    "earlier_recovery_chain": [
+      {
+        "checkpoint_sha256": "05c63262b171f32e042f7de371ecc160b5fa6136e9b42d68a5788a47f34165ec",
+        "protocol_sha256": "5c45bd4651b6fb3dfb4dd1f739b18113e04b2d0463ae34e2696eec2f297b8f3f"
+      },
+      {
+        "checkpoint_sha256": "19150af7885b169a801e4b019ec4e51186d38220ae73d7c7e8937e29eb97292d",
+        "protocol_sha256": "411fb6bf63c1a496439761d90a147cc88d8e7557aca7a6d4e00a7f77ed478006"
+      }
+    ],
+    "initial_checkpoint_sha256": "ff6cfc70756486bbd2546cf23395ebc0402f8ac9998ce904a5befbc8867f3c44",
+    "previous_recovery_checkpoint_sha256": "19150af7885b169a801e4b019ec4e51186d38220ae73d7c7e8937e29eb97292d",
+    "previous_recovery_protocol_sha256": "411fb6bf63c1a496439761d90a147cc88d8e7557aca7a6d4e00a7f77ed478006",
+    "recovery_checkpoint_sha256": "1c4e4c29fd2f21dc65f592c3022d318b5e8cde87318b9840d499624771b07955",
+    "recovery_protocol_sha256": "91d860f179e285aa277e902e4625b1dced5f832d5ea1932e81bf0753f4d45019"
+  },
+  "limitations": [
+    "Only complete rows have fourteen predictors; unavailable features stay null",
+    "History completeness depends on full-history bounds; inspect completion by class/block before an exploratory fit",
+    "Comparison membership zero is not legitimate/theft-negative/hardware-negative ground truth",
+    "One previously inspected incident does not provide independent-incident or prospective validation"
+  ],
+  "model_fitted": false,
+  "original_complete_comparisons_preserved": 40,
+  "original_files_overwritten": false,
+  "original_incomplete_comparisons_preserved": 12,
+  "recovery_pending_sources": 453,
+  "schema_version": 1,
+  "selected_case_sources": 500,
+  "selected_comparison_sources": 1000,
+  "source_reported_loss_labels": 1,
+  "split_created": false
+}

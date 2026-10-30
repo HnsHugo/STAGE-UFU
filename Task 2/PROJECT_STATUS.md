@@ -7,9 +7,10 @@ A same-route source-counter check returned HTTP 200 at 18:41 UTC, after over
 ninety minutes since the previous 429. A distinct
 [653-source retry](research/coldcard/comparison_retry_20261030_1841/README.md)
 is running at one global request/second. Its immutable
-[first-four-batch milestone](research/coldcard/comparison_retry_20261030_1841/milestone_batch_0004/README.md)
-records 80 attempts, 70 complete, ten incomplete and no errors; the combined
-snapshot has 500 unchanged complete cases and 343 complete comparisons.
+[ten-batch milestone](research/coldcard/comparison_retry_20261030_1841/milestone_batch_0010/README.md)
+records 200 attempts, 174 complete, 26 incomplete and no errors; the combined
+snapshot has 500 unchanged complete cases and 447 complete comparisons.
+The earlier 80-source milestone remains intact.
 The milestone is historical, not the live counter. The confirmed hourly retry
 policy, backoff and published running lease are in
 [retry control](research/coldcard/comparison_access_retries_20261030/README.md).

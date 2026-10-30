@@ -57,8 +57,10 @@ started after a same-route HTTP 200 check; its
 [first-four-batch milestone](../research/coldcard/comparison_retry_20261030_1841/milestone_batch_0004/README.md)
 has 80 attempts, 70 new complete and ten incomplete histories, without errors.
 That immutable combined snapshot has 843 complete vectors: 500 cases and 343
-comparisons. The active collector continued afterward. The comparison set remains
-incomplete and the planned fit has not run.
+comparisons. The later [200-source milestone](../research/coldcard/comparison_retry_20261030_1841/milestone_batch_0010/README.md)
+has 947 complete vectors: 500 cases and 447 comparisons. The active collector
+continued afterward. The comparison set remains incomplete and the planned fit
+has not run.
 
 ## Inputs and coverage
 

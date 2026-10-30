@@ -11,10 +11,11 @@ plans and older report recommendations.
   prior results**. This overrides the older one-cooldown assistant restriction
   below. A source-counter HTTP 200 at 18:41 UTC allowed the distinct
   `source_comparison_retry_protocol_20261030_1841.json` pass over 653 remaining
-  network gaps. The first four batches are saved in
-  `comparison_retry_20261030_1841/milestone_batch_0004/`: 80 attempts, 70 complete,
-  10 incomplete and zero errors. That historical milestone has 500 complete
-  cases plus 343 complete comparisons; the root collector continued afterward.
+  network gaps. The first ten batches are saved in
+  `comparison_retry_20261030_1841/milestone_batch_0010/`: 200 attempts, 174 complete,
+  26 incomplete and zero errors. That historical milestone has 500 complete
+  cases plus 447 complete comparisons; the earlier 80-source milestone is intact
+  and the root collector continued afterward.
   The confirmed hourly automation and its increasing 429 backoff are recorded in
   `comparison_access_retries_20261030/retry_policy.json`. Before any network call,
   inspect its published collector lease as well as the local OS lock. An unexpired

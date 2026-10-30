@@ -33,8 +33,10 @@ counter returned HTTP 200 at 18:41 UTC and the
 [new 653-source retry](research/coldcard/comparison_retry_20261030_1841/README.md)
 started at one request/second. Its [first-four-batch milestone](research/coldcard/comparison_retry_20261030_1841/milestone_batch_0004/README.md)
 has 70 new complete histories and zero errors; the saved combined snapshot has
-343 complete comparisons plus the 500 unchanged cases. Collection continued
-beyond that milestone. An hourly retry task is enabled with backoff and a shared
+343 complete comparisons plus the 500 unchanged cases. A later
+[200-source milestone](research/coldcard/comparison_retry_20261030_1841/milestone_batch_0010/README.md)
+has 174 newly complete histories and 447 complete comparisons overall.
+Collection continued beyond both milestones. An hourly retry task is enabled with backoff and a shared
 lease preventing concurrent collection. All 86 source-path tests pass. Labels
 remain unknown and no address model or split has been created.
 The [external corroboration](research/coldcard/source_corroboration_20261030/README.md)
