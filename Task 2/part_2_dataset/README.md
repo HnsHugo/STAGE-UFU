@@ -8,7 +8,7 @@ Know what one row represents, where labels come from and which features a classi
 
 **Address dataset stage:** the [source registry](../research/coldcard/source_registry_20261027/README.md)
 is now built: 500 candidate-day source addresses / 1,324 input observations, plus
-five later addresses retained separately. All compromise/hardware labels remain
+five later addresses retained separately. Independently verified compromise/hardware labels remain
 unknown; the transaction corpus below still describes a different observation
 unit. The [pre-payment pilot](../research/coldcard/prepayment_pilot_20261027/README.md)
 now supplies fourteen cutoff-safe features for eight complete source histories;
@@ -33,6 +33,12 @@ The [first-person report layer](../research/coldcard/owner_report_adjudication_2
 adds one sourced loss/Coldcard declaration for `cohort_0002`. Reported positives,
 verified labels, device origin and signing-device identity remain distinct.
 
+The [consolidated source view](../research/coldcard/source_dataset_20261030/README.md)
+now provides one pinned, reproducible 500-row dataset with all fourteen prior-block
+features and separate evidence/outcome fields. Its report describes distributions,
+missingness and the one partial reference spend. Use only `features` as predictors;
+identifiers, case evidence, owner reports and reference-payment outcomes are excluded.
+
 ## Inputs and coverage
 
 The supplied corpus contains 98 selected blocks and 493,571 unique transactions. It is not the entire blockchain or the entire history of every address. The saved feature CSV is supplied separately and identified by SHA256; [Data access](../DATA_ACCESS.md) lists the required inputs.
@@ -45,8 +51,9 @@ The supplied corpus contains 98 selected blocks and 493,571 unique transactions.
 
 There are 98 coinbase transactions. The grouped classifier excludes coinbase and the five consolidations, leaving 493,468 rows. The course exercise uses a different, smaller sample and a different payment-to-address target.
 
-## Two feature sets — keep them separate
+## Three main-path feature sets — keep their units separate
 
+- **Source-address dataset, 14 features:** prior-block transaction/receipt/spend counts, output counts, integer amounts, balance, active blocks, activity spans/ages and median historical spending fee rate. One row is an address; this is the current address-model input view.
 - **Course exercise, 10 features:** size (bytes), weight (weight units), fee (satoshis), output sum/minimum/maximum/mean/population standard deviation (satoshis), input count and output count. The course slide's `v` is interpreted as output values; this interpretation is documented.
 - **Extended Coldcard experiment, 16 features:** counts, address-count/missingness fields, input/output totals, fee, virtual size, fee rate, version, lock time and output statistics. These are transaction features, not the 22-feature Real-CATS address profiles.
 

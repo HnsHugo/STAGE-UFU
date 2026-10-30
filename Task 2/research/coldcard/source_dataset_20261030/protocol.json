@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "built_on": "2026-10-30",
+  "requirement": "Consolidate the source-address dataset and characterize prior-block behaviour for the requested address-model stage.",
+  "observation_unit": "One fixed candidate-day source address; addresses are not people, devices or independent incidents.",
+  "expected_source_count": 500,
+  "incident_group": "coldcard_2026",
+  "target": "Descriptive construction of a retrospective case-attributed cohort; reported loss/hardware and verified targets remain distinct.",
+  "cutoff": "Confirmed transaction heights strictly below each reference-payment block; entire reference block and future excluded from features.",
+  "evaluation": "No fitting, control sampling or train/test split in this unit; retain the single incident group and unknown entity groups.",
+  "publication": "Hashed source/payment identifiers and pinned provenance; no new bulk list of alleged victims.",
+  "inputs": {
+    "cohort_protocol": {
+      "file": "source_cohort_recovery_protocol_20261029.json",
+      "sha256": "ab0152508aafdfe004fc541466c46b3a16dc420e33c2160b1ac47126d4f0f37e"
+    },
+    "checkpoint": {
+      "file": "source_cohort_recovery_20261029/batch_0002/checkpoint.json",
+      "sha256": "a78ad7367c43102fd5b4d80d9fc8f1d8300ea205f520f59f2847029d7cced944"
+    },
+    "corroboration": {
+      "file": "source_corroboration_20261030/comparison.json",
+      "sha256": "8f1cec76971487b1adc2edf0dfd5b4f4e21a5e6a28ac13c6e6db068aadee19c0"
+    },
+    "owner_reports": {
+      "file": "owner_report_adjudication_20261030/adjudication.json",
+      "sha256": "ab00e127b196ce61c71cb3b77523905618ea31bc4fed14dffa0f47c7f308057a"
+    },
+    "registry_protocol": {
+      "file": "source_registry_protocol_20261027.json",
+      "sha256": "75abe6458bc7bda64b0fd6c94a7c145f352dc60050c367ae5b6ca1a5bee31f47"
+    },
+    "feature_extractor": {
+      "file": "prepayment_pilot.py",
+      "sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701"
+    }
+  }
+}

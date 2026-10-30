@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-10-30",
+  "requirement": "Consolidated source-address view and descriptive analysis after alignment review",
+  "driver_file": "research/coldcard/consolidate_source_dataset.py",
+  "driver_sha256": "b8424e29ef7ebc6d90da0d3b5c628736fbcdd24d03c8a8452bd459f6915121bb",
+  "outputs": {
+    "protocol.json": {
+      "bytes": 2001,
+      "sha256": "922c3de80381effa0363c15624ecf02ae80c706024f3a9cccacdcc504eb39422"
+    },
+    "view.json.gz": {
+      "bytes": 114595,
+      "sha256": "ceceab50d0242e5ba0195d7d2f456cbfb77173cb262460e441a41776d5215d9d"
+    },
+    "summary.json": {
+      "bytes": 5566,
+      "sha256": "571e07d047ce2ce68ac54adb0d5d85ecf22e87efdbd8d3dbf19ba46fe4fa3b31"
+    },
+    "README.md": {
+      "bytes": 10003,
+      "sha256": "e58f089839cb9efc31fe0dcb21fef7101fb8558cfdffd87b607796e1efb16b82"
+    }
+  },
+  "source_count": 500,
+  "feature_count": 14,
+  "source_path_tests": {
+    "command": "python -m unittest discover -s \"Task 2/research/coldcard\" -p \"test_source_*.py\"",
+    "tests_run": 49,
+    "failures": 0,
+    "errors": 0
+  },
+  "offline_exact_reproduction": true,
+  "private_raw_caches_required": false,
+  "independent_checks": {
+    "feature_vectors_equal_pinned_checkpoint": true,
+    "every_prefix_height_strictly_below_reference_block": true,
+    "reference_txid_vout_hash_and_value_accounting": true,
+    "reported_label_stays_on_only_cohort_0002": true,
+    "unknown_verified_labels_preserved": true,
+    "reference_outcomes_excluded_from_predictors": true
+  },
+  "original_checkpoint_sha256": "a78ad7367c43102fd5b4d80d9fc8f1d8300ea205f520f59f2847029d7cced944",
+  "original_data_or_features_changed": false,
+  "new_collection": false,
+  "training_performed": false
+}

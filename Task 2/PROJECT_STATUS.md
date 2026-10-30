@@ -45,14 +45,23 @@ reference payment and five spent UTXOs. A separate evidence tier records one
 owner-reported loss and Coldcard association; no independent identity/control,
 firmware or signing-device proof was established. The other 499 records and
 original labels are unchanged. The 30 October alignment review corrects the
-next priority: consolidate the existing 500-source feature/evidence view and
-describe the source population, then specify target-matched comparisons and
-evaluation. Further public reports are bounded enrichment; obtaining individual
-testimony for every address was not a documented professor requirement.
+priority: the existing 500-source feature/evidence view and source description
+are now [consolidated](research/coldcard/source_dataset_20261030/README.md).
+Next: specify target-matched comparisons and evaluation. Further public reports
+are bounded enrichment; obtaining individual testimony for every address was not
+a documented professor requirement.
 Collector rankings remain supporting results. No model was fitted.
 
 ## Completed work
 
+- [Consolidated source dataset and descriptive analysis](research/coldcard/source_dataset_20261030/README.md):
+  500 rows with fourteen unchanged prior-block predictors, separate case/owner
+  evidence, source provenance and an explicit predictor allowlist. 411 sources
+  have exactly one prior transaction and 482 no prior spending. Reference payments
+  consume all known prior-block UTXOs for 499 sources; `cohort_0435` consumes
+  200 of 225, leaving 25 known outputs outside that payment. Seven new focused
+  tests and 49 passing source-path tests; exact offline reproduction and independent
+  feature/cutoff/outpoint accounting checks. No new collection or fitting.
 - [First-person owner-report adjudication](research/coldcard/owner_report_adjudication_20261030/README.md):
   one account maps exactly to `cohort_0002`; the original post, payment comment
   and follow-up timeline are one report. Five input outpoints match the known
@@ -238,10 +247,12 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-History collection and its explicit supplemental pass are exhausted. Consolidate
-the combined 500-source feature checkpoint, source-attribution comparisons and
-owner-report tier into one reproducible address-level view with provenance.
-Describe feature variation, missingness and source behaviour without fitting.
+History collection and its explicit supplemental pass are exhausted. Use the
+consolidated source dataset and its descriptive findings to specify the intended
+address-model target and a comparison/evaluation protocol before sampling or fitting.
+Define comparison eligibility, observation period, history coverage, evidence and
+entity/incident grouping; uncertain background remains unlabeled. Preserve the
+frozen fourteen features and the new view's predictor allowlist.
 Do not use known collectors, later evidence or case labels as prior-block
 predictors. Additional exact reports enrich this view when a concrete lead exists;
 they are not the sole next action. Keep seed origin separate from signing-device

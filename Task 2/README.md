@@ -14,9 +14,11 @@ adds four sources with the same extractor. The
 473 complete histories, 24 retained errors, 3 incomplete histories and 0 pending sources. All 500 sources were attempted under that original protocol.
 The separate [supplemental recovery](research/coldcard/source_cohort_recovery_20261029/README.md)
 now provides **500 complete, 0 errors, 0 incomplete and 0 pending**, preserving the original result.
-Independently verified compromise/device labels and target-matched controls remain absent;
-next: consolidate the 500-source feature/evidence view and descriptive analysis,
-then specify a target-matched comparison and evaluation design before fitting.
+Independently verified compromise/device labels and target-matched controls remain absent.
+The [consolidated source view](research/coldcard/source_dataset_20261030/README.md)
+now joins all 500 unchanged fourteen-feature records and their distinct evidence
+tiers, with descriptive findings. Next: specify a target-matched comparison and
+evaluation design before sampling or fitting.
 The [external corroboration](research/coldcard/source_corroboration_20261030/README.md)
 now provides a source-attributed case layer for all 500 addresses, with exact
 agreement against two published reconstructions. Individual victim/device

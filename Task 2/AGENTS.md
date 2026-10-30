@@ -45,8 +45,14 @@ plans and older report recommendations.
   and signing device are not independently verified. Two posts are one account,
   not two confirmations. The other 499 records are unchanged; 42 tests pass.
   Do not repeat original collection or the reviewed threads without new evidence.
-  Next: consolidate the 500-source feature/evidence view and descriptive source
-  analysis, then specify a target-matched comparison/evaluation design. See the
+  The consolidated 500-source view and descriptive analysis are now executed:
+  `research/coldcard/source_dataset_20261030/README.md`. Features are unchanged;
+  411 sources have one prior transaction, 482 have no prior spending, and 499
+  reference payments consume all known prior-block UTXOs. `cohort_0435` consumes
+  200 of 225 known UTXOs; retain that partial outcome. Seven new tests bring the
+  source-path total to 49. The event outcomes and evidence remain outside predictors.
+  Next: specify the address model target and comparison/evaluation design using
+  this pinned view, before sampling comparisons or fitting. See the
   30 October priority review in ALIGNMENT.md. Further public reports are bounded
   enrichment, not a requirement to obtain 500 personal testimonies. Preserve
   author/incident groups and unknown dates; keep reported positives separate from verified labels and

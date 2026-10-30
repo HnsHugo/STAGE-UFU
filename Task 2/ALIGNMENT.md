@@ -43,7 +43,7 @@ Status means the evidence available now, not an invented completion percentage.
 | --- | --- | --- |
 | Supplied-block transaction exercise | 98 blocks, 493,571 unique transactions; ten features; 100+100 sample; saved tree and 60/60 sample-test decisions | Preserve this completed exercise and explain its narrow target |
 | Financial case reconstruction and address tracking | 504 payments in the block corpus; complete saved collector history has 506 incoming and one outgoing transaction; flows, fees, timestamps and parent coverage documented | Separate the suspected incident window from later activity; develop source-side reconstruction without calling all inputs victims |
-| Dataset of robbed source addresses | [Graph-evidence registry executed](research/coldcard/source_registry_20261027/README.md): 500 candidate-day addresses / 1,324 input records; five additional later addresses kept separate; exact outpoints, roles, dates and confidence retained | Compromise/device labels remain unverified; build cutoff-safe address features and assess supervised-label eligibility |
+| Dataset of robbed source addresses | [Consolidated source view](research/coldcard/source_dataset_20261030/README.md): 500 complete fourteen-feature records, exact prior-block cutoff, separate source attribution and one owner-report tier; five later sources excluded | Define target-matched comparisons and evaluation; independently verified compromise/device targets remain unknown |
 | Address classifier for the requested target | Transaction baselines and supplementary address-category benchmarks exist | No validated compromised-source/hardware-address classifier has been established; define the address target and eligible labels before training |
 | Fees, CPFP and RBF literature/preprocessing | Fee and fee-rate measurements and historical exploratory material exist | A focused literature synthesis answering Ivan's three questions and a justified, separately tested preprocessing experiment are not evidenced as complete in the reviewed main-path material |
 | Financial, topological and H1 analysis of hardware-related sources | Financial flows and transaction/group analyses exist | A source-address graph, explicit H1 assumptions, CoinJoin/change limitations and interpretable topology remain to consolidate |
@@ -142,11 +142,14 @@ The [first-person report layer](research/coldcard/owner_report_adjudication_2026
 now ties one public loss/device declaration exactly to `cohort_0002`. Reported
 Coldcard use is not independent seed-origin or theft-signing device proof, and
 no assertion transfers to the other 499 sources. Original labels remain intact.
-**Next unit:** consolidate the fixed 500-source cohort's fourteen prior-block
-features and separate evidence layers into one reproducible address-level view,
-then describe source behaviour, variation, missingness and grouping limits.
-Specify the intended model target and a compatible comparison/evaluation design
-before fitting. Additional exact public reports are supporting enrichment, not
+The [consolidated source view and descriptive analysis](research/coldcard/source_dataset_20261030/README.md)
+are now executed: 500 unchanged feature vectors, 411 sources with one prior
+transaction, 482 without prior spending and 499 reference payments consuming
+all known prior-block UTXOs. `cohort_0435` retains a partial reference spend
+(200 of 225 known UTXOs). These event outcomes are separate from predictors.
+**Next unit:** specify the intended address-model target and a compatible
+comparison/evaluation protocol using this pinned view, before comparison sampling
+or fitting. Additional exact public reports are supporting enrichment, not
 the default critical path. Seed origin, compromised control and signing
 device at the event remain separate. Do not restart exhausted collection or
 rewrite the original failures. The current cohort is retrospective and case-derived,
