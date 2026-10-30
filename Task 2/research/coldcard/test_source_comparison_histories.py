@@ -6,6 +6,7 @@ import io
 import json
 from pathlib import Path
 import tempfile
+from threading import Barrier
 import unittest
 from unittest.mock import patch
 import urllib.error
@@ -130,8 +131,9 @@ class ComparisonHistoryTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             f=self.fixture(folder);root,path,_,_,_=f
             with self.mocked(f,denied) as get:result=collect.run_many(path,root/'work',root/'out',2)
-            self.assertEqual(get.call_count,2)
-            self.assertEqual((result['error_sources'],result['pending_sources']),(2,2))
+            self.assertTrue(1<=get.call_count<=2)
+            self.assertEqual(result['error_sources'],get.call_count)
+            self.assertEqual(result['pending_sources'],4-get.call_count)
 
     def test_https_tunnel_denial_stops_and_a_resume_does_not_issue_new_requests(self):
         def denied(record,protocol):
@@ -141,9 +143,48 @@ class ComparisonHistoryTests(unittest.TestCase):
             with self.mocked(f,denied) as get:
                 result=collect.run_many(path,root/'work',root/'out',2)
                 again=collect.run_many(path,root/'work',root/'out',2)
-            self.assertEqual(get.call_count,2)
+            self.assertTrue(1<=get.call_count<=2)
             self.assertEqual(result,again)
-            self.assertEqual((result['error_sources'],result['pending_sources']),(2,2))
+            self.assertEqual(result['error_sources'],get.call_count)
+            self.assertEqual(result['pending_sources'],4-get.call_count)
+
+    def test_denial_does_not_start_the_rest_of_a_planned_batch(self):
+        gate=Barrier(2)
+        def fetch(record,protocol):
+            gate.wait(timeout=5)
+            if record['pilot_id']=='comparison_0001':
+                raise urllib.error.URLError('Tunnel connection failed: 403 Forbidden')
+            return history(record)
+        with tempfile.TemporaryDirectory() as folder:
+            f=self.fixture(folder);root,path,protocol,public,_=f;protocol['default_batch_size']=4
+            with self.mocked(f,fetch) as get:result=collect.run_many(path,root/'work',root/'out',2)
+            self.assertEqual(get.call_count,2)
+            self.assertEqual(result['attempted_sources'],2)
+            self.assertEqual(result['pending_sources'],2)
+            state=json.loads((root/'work/state.json').read_bytes())
+            self.assertEqual(state['batches'][0]['planned_source_ids'],[r['pilot_id'] for r in public])
+            self.assertEqual(state['batches'][0]['source_ids'],[r['pilot_id'] for r in public[:2]])
+            self.assertFalse((root/'work/attempts/comparison_0003.json').exists())
+
+    def test_recovery_selects_only_original_errors_and_unattempted_sources(self):
+        path=Path(__file__).parent/'source_comparison_network_recovery_protocol_20261030.json'
+        protocol,public=collect.load(path)
+        self.assertEqual(len(public),948)
+        base=json.loads(gzip.decompress((path.parent/protocol['inputs']['baseline_checkpoint']['file']).read_bytes()))
+        for r in public:
+            old=base['entries'].get(r['pilot_id'])
+            self.assertTrue(old is None or old['status']=='error')
+
+    def test_recovery_cannot_include_a_complete_source_or_ignore_the_access_check(self):
+        root=Path(__file__).parent;protocol=json.loads((root/'source_comparison_network_recovery_protocol_20261030.json').read_bytes())
+        with tempfile.NamedTemporaryFile(dir=root,suffix='.json') as handle:
+            path=Path(handle.name);changed=deepcopy(protocol)
+            changed['network_recovery']['source_ids'][0]='comparison_0003'
+            path.write_bytes(json_bytes(changed))
+            with self.assertRaises(ValueError):collect.load(path)
+            changed=deepcopy(protocol);changed['inputs']['access_check']['sha256']='0'*64
+            path.write_bytes(json_bytes(changed))
+            with self.assertRaises(ValueError):collect.load(path)
 
     def test_real_public_plan_is_fixed_and_contains_no_raw_identifiers(self):
         path=Path(__file__).parent/'source_comparison_collection_protocol_20261030.json'

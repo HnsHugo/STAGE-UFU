@@ -9,6 +9,7 @@ import gzip
 import json
 from pathlib import Path
 import time
+from threading import Event
 import urllib.error
 
 from build_source_registry import digest, json_bytes
@@ -56,8 +57,22 @@ def load(protocol_path):
     if digest(json_bytes(public))!=protocol['public_plan_sha256']:
         raise ValueError('Public plan fingerprint mismatch')
     selected=json.loads((root/protocol['inputs']['selection']['file']).read_bytes())['rows']
-    if len(public)!=1000 or len({r['pilot_id'] for r in public})!=1000:
-        raise ValueError('Expected the fixed 1000-source sample')
+    if 'network_recovery' in protocol:
+        recovery=protocol['network_recovery']
+        base=json.loads(gzip.decompress((root/protocol['inputs']['baseline_checkpoint']['file']).read_bytes()))
+        expected=[r['source_id'] for r in selected if r['source_id'] not in base['entries']
+                  or base['entries'][r['source_id']]['status']=='error']
+        if expected!=recovery['source_ids']:
+            raise ValueError('Recovery changed the fixed network-gap selection')
+        selected=[r for r in selected if r['source_id'] in set(expected)]
+        check=json.loads((root/protocol['inputs']['access_check']['file']).read_bytes())
+        if (check.get('accessible') is not True or check.get('http_status')!=200
+                or check.get('url')!='https://blockstream.info/api/blocks/tip/height'
+                or check.get('route')!='original_default_network_route'):
+            raise ValueError('Recovery requires a successful original-route access check')
+    expected_count=protocol.get('expected_source_count',1000)
+    if len(public)!=expected_count or len({r['pilot_id'] for r in public})!=expected_count:
+        raise ValueError('Unexpected fixed collection sample size')
     if [r['pilot_id'] for r in public]!=[r['source_id'] for r in selected]:
         raise ValueError('Collection source order changed')
     for r,s in zip(public,selected):
@@ -69,6 +84,10 @@ def load(protocol_path):
             or protocol['max_pages_per_address']!=16 or protocol['timeout_seconds']!=15
             or protocol['default_batch_size']!=20 or protocol['attempts_per_source']!=1):
         raise ValueError('Frozen collection bounds changed')
+    transport=protocol.get('http_transport',{})
+    if transport.get('keepalive') and (transport.get('connections')!=2
+            or not 0<transport.get('requests_per_second',0)<=3):
+        raise ValueError('Persistent transport exceeded collection limits')
     return protocol,public
 
 
@@ -81,6 +100,10 @@ def private_plan(protocol_path,work,cache):
         root=protocol_path.parent
         records,regenerated=make_plan(root/protocol['inputs']['design']['file'],
                                      root/protocol['inputs']['selection']['file'],cache)
+        if 'network_recovery' in protocol:
+            allowed=set(protocol['network_recovery']['source_ids'])
+            records=[r for r in records if r['pilot_id'] in allowed]
+            regenerated=[r for r in regenerated if r['pilot_id'] in allowed]
         if regenerated!=public:raise ValueError('Reconstructed public plan changed')
         saved.atomic_write(path,json_bytes(records))
     if digest(json_bytes(records))!=protocol['private_plan_sha256']:
@@ -100,6 +123,12 @@ def validate(state,protocol_path,public,work=None):
     if assigned!=[r['pilot_id'] for r in public][:len(assigned)]:
         raise ValueError('Collection changed fixed batch order')
     if not set(state['entries'])<=set(assigned):raise ValueError('Unassigned collection result')
+    offset=0;order=[r['pilot_id'] for r in public]
+    for batch in state['batches']:
+        planned=batch.get('planned_source_ids',batch['source_ids'])
+        if planned!=order[offset:offset+len(planned)] or batch['source_ids']!=planned[:len(batch['source_ids'])]:
+            raise ValueError('Partial batch altered the original planned order')
+        offset+=len(batch['source_ids'])
     for key,e in state['entries'].items():
         r=expected[key]
         if (e['known_coldcard_core_membership']!=0 or e['attempt_count']!=1
@@ -136,7 +165,7 @@ def from_raw(record,raw,marker):
     return entry
 
 
-def bounded_collect_one(record,protocol):
+def bounded_collect_one(record,protocol,get_json=None):
     """Skip provably insufficient pagination without changing completeness rules.
 
     Esplora /txs/chain pages contain at most 25 confirmed transactions. If the
@@ -144,7 +173,7 @@ def bounded_collect_one(record,protocol):
     both counter responses and an explicitly incomplete empty evidence list.
     """
     address=record['address'];base=protocol['provider']
-    def get(endpoint):return fixed.get_json(base+endpoint,protocol['timeout_seconds'])
+    def get(endpoint):return (get_json or fixed.get_json)(base+endpoint,protocol['timeout_seconds'])
     before=get('/address/'+address)
     count=before['chain_stats']['tx_count']
     if type(count) is not int or count<0:raise ValueError('Invalid provider transaction counter')
@@ -167,14 +196,15 @@ def bounded_collect_one(record,protocol):
                 page_capacity=25*protocol['max_pages_per_address'])
 
 
-def fetch_one(record,protocol,work):
+def fetch_one(record,protocol,work,get_json=None,stop=None):
+    if stop is not None and stop.is_set():return None
     marker_path=work/'attempts'/f"{record['pilot_id']}.json"
     marker=dict(source_id=record['pilot_id'],started_at=now())
     marker_path.parent.mkdir(parents=True,exist_ok=True)
     # Persist before HTTP: interrupted attempts cannot be silently retried.
     with marker_path.open('xb') as stream:stream.write(json_bytes(marker))
     try:
-        history=bounded_collect_one(record,protocol)
+        history=bounded_collect_one(record,protocol,get_json) if get_json else bounded_collect_one(record,protocol)
         raw=gzip.compress(json_bytes(history),mtime=0)
         path=work/'raw'/f"{record['pilot_id']}.json.gz"
         if path.exists():raise FileExistsError('Raw evidence already exists')
@@ -183,6 +213,7 @@ def fetch_one(record,protocol,work):
     except Exception as error:
         marker.update(finished_at=now(),error_type=type(error).__name__,reason=type(error).__name__+': '+str(error))
         if isinstance(error,urllib.error.HTTPError):marker['http_status']=error.code
+        if stop is not None and provider_denied(marker):stop.set()
     saved.atomic_write(marker_path,json_bytes(marker))
     return record['pilot_id']
 
@@ -233,7 +264,7 @@ def provider_denied(entry):
 
 
 def denied_batch(state,batch):
-    return bool(batch['source_ids']) and all(provider_denied(state['entries'].get(key,{}))
+    return bool(batch['source_ids']) and any(provider_denied(state['entries'].get(key,{}))
                                             for key in batch['source_ids'])
 
 
@@ -302,53 +333,71 @@ def run_many(protocol_path,work,output,max_batches=50,cache=None,restore=None):
     with (work/'collector.lock').open('a+') as lock:
         fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
         protocol,public,private=private_plan(protocol_path,work,cache)
-        state_path=work/'state.json'
-        if state_path.exists():state=json.loads(state_path.read_bytes())
-        elif restore is not None:state=json.loads(gzip.decompress(restore.read_bytes()))
-        else:state=saved.empty_state(protocol_path,public)
-        validate(state,protocol_path,public,work)
-        # Repair a completed export before allowing any next-batch HTTP requests.
-        completed=deepcopy(state)
-        completed['batches']=[b for b in state['batches'] if b['status']=='completed']
-        finished={key for b in completed['batches'] for key in b['source_ids']}
-        completed['entries']={k:e for k,e in state['entries'].items() if k in finished}
-        export_latest(protocol_path,completed,public,output);verify(protocol_path,output)
-        started=time.monotonic();done=0
-        while True:
-            active=next((b for b in state['batches'] if b['status']=='running'),None)
-            if active is None:
-                if state['batches'] and denied_batch(state,state['batches'][-1]):
-                    print('Stopped: last batch was denied; no new requests on resume',flush=True);break
-                if len(state['entries'])==len(public) or done>=max_batches:break
-                ids=[r['pilot_id'] for r in public if r['pilot_id'] not in state['entries']][:protocol['default_batch_size']]
-                active=dict(batch_id=len(state['batches'])+1,source_ids=ids,status='running',
-                            collector_sha256=digest(Path(__file__).read_bytes()))
-                state['batches'].append(active);saved.atomic_write(state_path,json_bytes(state))
-            # Complete raw orphans; consume interrupted started attempts without HTTP retry.
-            for key in active['source_ids']:
-                if key not in state['entries']:
-                    recovered=recover_entry(private[key],work)
-                    if recovered is not None:
-                        state['entries'][key]=recovered;saved.atomic_write(state_path,json_bytes(state))
-            selected=[key for key in active['source_ids'] if key not in state['entries']]
-            with ThreadPoolExecutor(max_workers=protocol['workers']) as pool:
-                pending={pool.submit(fetch_one,private[key],protocol,work):key for key in selected}
-                for future in as_completed(pending):
-                    key=pending[future];future.result()
-                    state['entries'][key]=recover_entry(private[key],work)
-                    saved.atomic_write(state_path,json_bytes(state))
-                    print(key+': '+state['entries'][key]['status'],flush=True)
-            active['status']='completed';validate(state,protocol_path,public,work)
-            saved.atomic_write(state_path,json_bytes(state))
-            export_latest(protocol_path,state,public,output)
-            verify(protocol_path,output)
-            done+=1
-            print(json.dumps(dict(batch=active['batch_id'],elapsed_seconds=round(time.monotonic()-started,1),
-                                  coverage=counts(state,public))),flush=True)
-            if denied_batch(state,active):
-                print('Stopped: provider denied the entire batch; pending sources retained',flush=True);break
+        if protocol.get('http_transport',{}).get('keepalive'):
+            from comparison_http import PersistentHTTP
+            with PersistentHTTP(protocol['http_transport']['requests_per_second']) as http:
+                return run_locked(protocol_path,work,output,max_batches,restore,protocol,public,private,http.get_json)
+        return run_locked(protocol_path,work,output,max_batches,restore,protocol,public,private)
+
+
+def run_locked(protocol_path,work,output,max_batches,restore,protocol,public,private,get_json=None):
+    state_path=work/'state.json'
+    if state_path.exists():state=json.loads(state_path.read_bytes())
+    elif restore is not None:state=json.loads(gzip.decompress(restore.read_bytes()))
+    else:state=saved.empty_state(protocol_path,public)
+    validate(state,protocol_path,public,work)
+    # Repair a completed export before allowing any next-batch HTTP requests.
+    completed=deepcopy(state)
+    completed['batches']=[b for b in state['batches'] if b['status']=='completed']
+    finished={key for b in completed['batches'] for key in b['source_ids']}
+    completed['entries']={k:e for k,e in state['entries'].items() if k in finished}
+    export_latest(protocol_path,completed,public,output);verify(protocol_path,output)
+    started=time.monotonic();done=0
+    while True:
+        active=next((b for b in state['batches'] if b['status']=='running'),None)
+        if active is None:
+            if state['batches'] and denied_batch(state,state['batches'][-1]):
+                print('Stopped: last batch was denied; no new requests on resume',flush=True);break
+            if len(state['entries'])==len(public) or done>=max_batches:break
+            ids=[r['pilot_id'] for r in public if r['pilot_id'] not in state['entries']][:protocol['default_batch_size']]
+            active=dict(batch_id=len(state['batches'])+1,source_ids=ids,status='running',
+                        collector_sha256=digest(Path(__file__).read_bytes()))
+            state['batches'].append(active);saved.atomic_write(state_path,json_bytes(state))
+        # Complete raw orphans; consume interrupted started attempts without HTTP retry.
+        for key in active['source_ids']:
+            if key not in state['entries']:
+                recovered=recover_entry(private[key],work)
+                if recovered is not None:
+                    state['entries'][key]=recovered;saved.atomic_write(state_path,json_bytes(state))
+        stop=Event()
+        if any(provider_denied(state['entries'].get(key,{})) for key in active['source_ids']):stop.set()
+        selected=[key for key in active['source_ids'] if key not in state['entries']]
+        with ThreadPoolExecutor(max_workers=protocol['workers']) as pool:
+            pending={pool.submit(fetch_one,private[key],protocol,work,get_json,stop):key for key in selected}
+            for future in as_completed(pending):
+                key=pending[future];future.result()
+                entry=recover_entry(private[key],work)
+                if entry is None:continue
+                state['entries'][key]=entry
+                saved.atomic_write(state_path,json_bytes(state))
+                print(key+': '+entry['status'],flush=True)
+        if stop.is_set():
+            planned=list(active['source_ids'])
+            attempted=[key for key in planned if key in state['entries']]
+            if attempted!=planned[:len(attempted)] or not attempted:
+                raise ValueError('Denied batch has a non-prefix attempt set')
+            active.update(planned_source_ids=planned,source_ids=attempted,stopped_due_to_denial=True)
+        active['status']='completed';validate(state,protocol_path,public,work)
+        saved.atomic_write(state_path,json_bytes(state))
         export_latest(protocol_path,state,public,output)
-        return verify(protocol_path,output)
+        verify(protocol_path,output)
+        done+=1
+        print(json.dumps(dict(batch=active['batch_id'],elapsed_seconds=round(time.monotonic()-started,1),
+                              coverage=counts(state,public))),flush=True)
+        if denied_batch(state,active):
+            print('Stopped: network access denied; unstarted sources remain pending',flush=True);break
+    export_latest(protocol_path,state,public,output)
+    return verify(protocol_path,output)
 
 
 def main():
