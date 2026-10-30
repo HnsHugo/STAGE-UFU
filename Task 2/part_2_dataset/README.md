@@ -42,18 +42,17 @@ identifiers, case evidence, owner reports and reference-payment outcomes are exc
 The [same-block comparison selection](../research/coldcard/source_comparison_selection_20261030/README.md)
 now fixes 1,000 additional source identifiers for the exploratory core-membership
 study. These are selected input addresses, not recipient controls or certified
-legitimate addresses. The [initial collection](../research/coldcard/comparison_histories_20261030/README.md)
-and both earlier recovery passes are preserved. The latest
-[653-source retry](../research/coldcard/comparison_retry_20261030_1841/README.md)
-attempted 274 sources: 233 complete, 39 incomplete and two 429 errors, leaving
-379 pending. The combined view retains all 1,500 selected rows: 500 complete
-cases, 506 complete comparisons, 113 incomplete comparisons, 101 latest known
-errors and 280 never attempted. Exactly 1,006 rows have the fourteen strictly
-prior-block predictors; all unavailable vectors stay null. No earlier feature or
-label was overwritten. All 272 new raw responses re-extract. The stopped pass
-has 381 remaining network gaps: two latest errors plus 379 pending; 99 pending
-retain an older error and 280 were never attempted. Hourly checks remain enabled
-with increasing backoff and no concurrent collection. No model or split was fitted.
+legitimate addresses. All earlier collection and recovery snapshots are preserved.
+After the configured background task failed to execute successfully, the
+[foreground successor](../research/coldcard/comparison_retry_20261030_2133/README.md)
+retrieved its [first 100 sources](../research/coldcard/comparison_retry_20261030_2133/milestone_batch_0005/README.md):
+85 complete, 15 incomplete, zero errors. All 100 raw responses re-extract.
+The saved combined view retains 500 unchanged complete cases, 591 complete
+comparisons, 128 incomplete comparisons, one latest known error and 280 never
+attempted. Exactly 1,091 rows have fourteen strictly prior-block predictors;
+unavailable vectors stay null. Every earlier vector, outcome and unknown label
+is preserved. The remaining 281 sources are continued directly. Background
+execution is not verified and no model/split is fitted.
 
 ## Inputs and coverage
 

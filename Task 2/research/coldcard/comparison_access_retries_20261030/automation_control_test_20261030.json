@@ -1,0 +1,19 @@
+{
+  "background_execution_verified": false,
+  "completed_at": "2026-10-30T21:40:57.126123Z",
+  "detailed_cause_provided": false,
+  "foreground_first_100": {
+    "complete": 85,
+    "errors": 0,
+    "incomplete": 15
+  },
+  "interpretation": "Configuration and an accepted run request do not establish completed execution; the API did not supply a cause for this failed run. Foreground collection is the confirmed working path.",
+  "observed_at": "2026-10-30T21:47:30.112797+00:00",
+  "official_documentation_checked": "https://learn.chatgpt.com/docs/automations",
+  "recorded_status": "failed",
+  "result_provided": false,
+  "scheduled_for": "2026-10-30T21:37:25.948486Z",
+  "schema_version": 1,
+  "started_at": "2026-10-30T21:40:52.349352Z",
+  "test": "Immediate control run after simplifying the task prompt; a published running lease required zero HTTP"
+}

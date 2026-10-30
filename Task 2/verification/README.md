@@ -32,3 +32,7 @@ The [final stopped retry checks](comparison_retry_stopped_20261030.json) record
 274 attempts, 233 newly complete histories, 272 raw re-extractions, independent
 raw accounting, preservation of every earlier result and zero HTTP on a denied
 resume. The confirmed hourly automation remains enabled with backoff.
+
+The [foreground automation repair](foreground_repair_100_20261030.json) records
+failed background execution, real collection of the next 100 sources (85 complete),
+preservation of all previous outcomes and 591 complete comparisons overall.

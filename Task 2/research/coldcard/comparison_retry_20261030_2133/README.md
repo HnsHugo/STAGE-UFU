@@ -15,3 +15,10 @@ labels are unchanged. The same provider/route/TLS, two workers, one global
 request per second, sixteen pages and fifteen-second timeouts remain. The first
 403/429 stops scheduling and preserves started attempts. No internal retry,
 replacement, split or model. Actual results come from saved checkpoints.
+
+The [first-100-source milestone](milestone_batch_0005/README.md) records five
+verified batches: 85 complete, 15 incomplete and no errors; all 100 raw responses
+re-extract. The combined view now has 591 complete comparisons and 500 unchanged
+cases. Foreground collection continues the remaining 281 identifiers. The second
+automation control test also failed without a detailed cause/result, so working
+background execution is not claimed.

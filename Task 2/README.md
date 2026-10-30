@@ -19,18 +19,18 @@ The [consolidated source view](research/coldcard/source_dataset_20261030/README.
 now joins all 500 unchanged fourteen-feature records and their distinct evidence
 tiers, with descriptive findings. The [comparison design and selection](research/coldcard/source_comparison_selection_20261030/README.md)
 now add a frozen sample of 1,000 same-block input sources for an explicit
-exploratory core-membership study. The [initial pass](research/coldcard/comparison_histories_20261030/README.md),
-[network recovery](research/coldcard/comparison_network_recovery_20261030/README.md)
-and [first cooldown continuation](research/coldcard/comparison_rate_limit_continuation_20261030/README.md)
-are preserved. The latest [653-source retry](research/coldcard/comparison_retry_20261030_1841/README.md)
-added 233 complete histories before HTTP 429 stopped it after 274 attempts.
-The combined view retains all 1,500 selected addresses: **500 complete cases,
-506 complete comparisons, 113 incomplete comparisons, 101 latest known errors
-and 280 never attempted**. All 272 new raw responses re-extract and all earlier
-vectors/outcomes are unchanged. The hourly task remains enabled with a two-hour
-minimum after this new 429, increasing backoff, Retry-After and lease/lock guards.
-No collector is active. All 86 source-path tests pass. Labels remain unknown and
-no address model or split has been created.
+exploratory core-membership study. Every earlier collection/recovery is preserved.
+The configured hourly task had no recorded scheduled execution; immediate/control
+attempts failed without a detailed cause. The
+[foreground successor](research/coldcard/comparison_retry_20261030_2133/README.md)
+actually resumed collection after a normal HTTP 200 check. Its
+[first-100 milestone](research/coldcard/comparison_retry_20261030_2133/milestone_batch_0005/README.md)
+has 85 new complete histories and zero errors. The saved 1,500-row view retains
+500 unchanged complete cases, 591 complete comparisons, 128 incomplete
+comparisons, one latest known error and 280 never attempted. The remaining 281
+sources are continued directly under the shared lease. Background execution
+remains unverified; no model/split or label promotion. All 86 source-path tests
+previously passed against the unchanged collector/extractor.
 The [external corroboration](research/coldcard/source_corroboration_20261030/README.md)
 now provides a source-attributed case layer for all 500 addresses, with exact
 agreement against two published reconstructions. Individual victim/device

@@ -16,9 +16,15 @@ plans and older report recommendations.
   gaps, excluding all 506 complete and 113 bounded-incomplete comparisons. Its
   prepared output/work pointers and running lease are in the retry policy. Collect
   one bounded foreground unit, verify/publish it and inspect actual automation
-  execution before claiming background resumption works. The task prompt was
-  simplified; a controlled run must skip all HTTP under the published running
-  lease. All historical bytes and unknown labels remain preserved.
+  execution before claiming background resumption works. The first 100 sources
+  yielded 85 complete, 15 incomplete and zero errors; all 100 raw responses
+  re-extract in `comparison_retry_20261030_2133/milestone_batch_0005/`. The combined
+  view has 500 complete cases and 591 complete comparisons, 128 incomplete,
+  one latest known error and 280 never attempted. All four reference blocks now
+  have complete comparisons. Continue the remaining 281 sources in the same
+  non-denied pass. The simplified control task also failed without a detailed
+  cause/result; background execution is not verified. Keep the published running
+  lease for foreground continuation. All historical bytes and labels are preserved.
 - Current 30 October user direction: **continue spaced retries while preserving all
   prior results**. This overrides the older one-cooldown assistant restriction
   below. After source-counter HTTP 200 at 18:41 UTC, the distinct

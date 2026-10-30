@@ -3,17 +3,20 @@
 ## Current priority
 
 **Current repair:** the hourly task was enabled but had no recorded scheduled
-execution at the promised 18:08 São Paulo check. A requested immediate run failed
-at 21:30 UTC with no detailed reason/result; successful configuration is not proof
-of working execution. After a normal source-counter HTTP 200 at 21:33 UTC, the
+execution at the promised 18:08 São Paulo check. The immediate run and a later
+simplified control test were observed in failed state with no detailed cause or
+result. The configuration is not proof of working background execution.
+After a normal source-counter HTTP 200 at 21:33 UTC, a distinct
 [foreground successor](research/coldcard/comparison_retry_20261030_2133/README.md)
-was prepared for the 381 remaining network gaps. It excludes the 506 complete and
-113 bounded-incomplete earlier comparisons and pins every predecessor. The retry
-policy records the running lease and actual automation failure. The unchanged
-latest completed dataset still has 500 complete cases, 506 complete comparisons,
-113 incomplete comparisons, 101 latest known errors and 280 never attempted.
-No new completion is claimed from the prepared plan. The automation prompt was
-simplified; execution must be observed before claiming the repair works.
+was prepared for the 381 remaining gaps. Its
+[first-100-source milestone](research/coldcard/comparison_retry_20261030_2133/milestone_batch_0005/README.md)
+now records 85 complete, 15 incomplete and zero errors, with all 100 raw responses
+re-extracted. The saved combined view has **500 complete cases, 591 complete
+comparisons, 128 incomplete comparisons, one latest known error and 280 never
+attempted**. Complete comparisons now cover all four reference blocks (99, 174,
+286 and 32). Continue the remaining 281 sources directly while preserving the
+running lease. No model/split or label promotion. The older units below remain
+historical; the current action/status is this foreground repair.
 
 The original Teams instructions, meeting notes and Overleaf files now establish
 the missing second stage: **the dataset and classifier of robbed source
@@ -301,14 +304,12 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Execute and verify a bounded foreground unit of the new 381-source successor,
-preserve all prior outcomes and publish actual checkpoints. The API counter now
-responded 200 after the saved cooldown, but no history is complete merely because
-a retry protocol exists. Do not run a concurrent collector. Test the simplified
-automation while the published running lease requires zero HTTP; inspect the
-actual run record/result. If execution still fails, explain the observed service
-limitation rather than promising background collection. Keep the original provider,
-route/TLS, two workers, one request/second, sixteen-page/15-second bounds and stop
-on first 403/429. No model, split, replacement or label promotion. Once no network
-gaps remain, audit/save and pause automation; bounded-incomplete coverage remains
-separate work.
+Publish the verified first-100-source checkpoint and continue the remaining 281
+sources in the same non-denied foreground pass. Every batch is saved/verified
+before continuation, without retrying consumed markers. Preserve all prior
+complete/incomplete outcomes, references, cutoff and labels. The source-counter
+and foreground collection work, but both background tests are still marked failed
+without a detailed cause. Do not promise automatic execution from enabled status.
+Keep the running lease/OS lock protection. If another 403/429 occurs, stop, audit
+and save the actual state; otherwise finish the fixed eligible cohort. Pause the
+configured task after no network gaps remain. No model or split is fitted.
