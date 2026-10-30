@@ -57,7 +57,7 @@ def audit(protocol_path,output,work=None):
         case_n=sum(r['cutoff_height']==block['height'] for r in case)
         strata.append(dict(height=block['height'],case_selected=case_n,case_complete=case_n,
                            comparison=block,comparison_completion_fraction=block['complete']/block['selected']))
-    return dict(schema_version=1,audited_on='2026-10-30',
+    result=dict(schema_version=1,audited_on='2026-10-30',
         protocol_sha256=digest(protocol_path.read_bytes()),checkpoint_sha256=digest((output/'checkpoint.json.gz').read_bytes()),
         coverage=coverage,case_selected=500,case_complete=500,
         comparison_completion_fraction=coverage['complete_sources']/len(public),by_reference_block=strata,
@@ -78,6 +78,11 @@ def audit(protocol_path,output,work=None):
                     'Unknown comparison compromise/device status is not a verified negative class',
                     'Shared transactions and identical features are overlap diagnostics, not ownership proof; preserve connected components before any exploratory split',
                     'One previously inspected incident does not supply independent-incident or prospective detection validation'])
+    if 'network_recovery' in protocol:
+        result.update(replacement_or_retry_performed=True,replacement_performed=False,
+                      automatic_retry_within_pass=False,explicit_separate_network_recovery=True)
+        result['limitations'][1]='This is a separately recorded one-pass recovery of original network errors and pending sources; original complete/incomplete results remain in their original pass'
+    return result
 
 
 def main():

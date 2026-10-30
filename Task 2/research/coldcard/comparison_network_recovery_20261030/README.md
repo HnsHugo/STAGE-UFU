@@ -41,3 +41,7 @@ histories and exact identifiers stay local; normalized prior-block evidence and
 hashes are published. Results will be reported from actual checkpoints, never
 inferred from the prepared plan. Compromise/device labels remain unknown and
 no model is fitted in this collection step.
+
+First executed recovery batch: twenty sources attempted, nineteen complete, one
+incomplete and zero request errors. All twenty raw responses reproduce; see
+[first-batch audit](first_batch_audit.json). The original pass is unchanged.
