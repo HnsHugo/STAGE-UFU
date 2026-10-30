@@ -1,0 +1,320 @@
+"""One-pass resumable histories for the frozen same-block comparison sample."""
+import argparse
+from collections import Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from copy import deepcopy
+from datetime import datetime, timezone
+import fcntl
+import gzip
+import json
+from pathlib import Path
+import time
+import urllib.error
+
+from build_source_registry import digest, json_bytes
+import prepayment_pilot as fixed
+import source_cohort as saved
+import source_comparison_design as design
+
+
+def now():
+    return datetime.now(timezone.utc).isoformat()
+
+
+def make_plan(design_path, selection_path, cache):
+    selected=json.loads(selection_path.read_bytes())
+    regenerated=design.select(design_path,cache)
+    if any(regenerated[k]!=selected[k] for k in selected if k!='snapshots'):
+        raise ValueError('Block contents do not reproduce the frozen selection')
+    protocol,_,_,_=design.load_design(design_path)
+    blocks=[json.loads((cache/(str(b['height'])+'.json')).read_bytes()) for b in protocol['blocks']]
+    first,transactions,_=design.census(blocks,protocol['blocks'])
+    by_hash={digest(a.encode()):r for a,r in first.items()}
+    if len(by_hash)!=len(first):raise ValueError('Ambiguous source hash')
+    records=[]
+    for row in selected['rows']:
+        raw=by_hash[row['address_sha256']]
+        tx=transactions[raw['reference_txid']][1]
+        inputs=[i['prev_out'] for i in tx['inputs'] if (i.get('prev_out') or {}).get('addr')==raw['address']]
+        record=dict(pilot_id=row['source_id'],address=raw['address'],address_sha256=row['address_sha256'],
+                    payment_txid=raw['reference_txid'],payment_txid_sha256=digest(raw['reference_txid'].encode()),
+                    cutoff_height=raw['cutoff_height'],cutoff_block_hash=raw['cutoff_block_hash'],
+                    registry_input_slots=len(inputs),reference_input_value_sat=sum(i['value'] for i in inputs))
+        if any(record[k]!=row[k] for k in ('payment_txid_sha256','cutoff_height','cutoff_block_hash')):
+            raise ValueError('Reference identity mismatch during plan reconstruction')
+        records.append(record)
+    public=[{k:v for k,v in r.items() if k not in ('address','payment_txid')} for r in records]
+    return records,public
+
+
+def load(protocol_path):
+    protocol=json.loads(protocol_path.read_bytes());root=protocol_path.parent
+    for name,pin in protocol['inputs'].items():
+        if digest((root/pin['file']).read_bytes())!=pin['sha256']:
+            raise ValueError('Pinned collection input changed: '+name)
+    public=json.loads(gzip.decompress((root/protocol['public_plan_file']).read_bytes()))
+    if digest(json_bytes(public))!=protocol['public_plan_sha256']:
+        raise ValueError('Public plan fingerprint mismatch')
+    selected=json.loads((root/protocol['inputs']['selection']['file']).read_bytes())['rows']
+    if len(public)!=1000 or len({r['pilot_id'] for r in public})!=1000:
+        raise ValueError('Expected the fixed 1000-source sample')
+    if [r['pilot_id'] for r in public]!=[r['source_id'] for r in selected]:
+        raise ValueError('Collection source order changed')
+    for r,s in zip(public,selected):
+        if (any(r[k]!=s[k] for k in ('address_sha256','payment_txid_sha256','cutoff_height','cutoff_block_hash'))
+                or s['known_coldcard_core_membership']!=0
+                or s['compromise_label'] is not None or s['hardware_label'] is not None):
+            raise ValueError('Collection source/label mismatch')
+    if (protocol['provider']!='https://blockstream.info/api' or protocol['workers']!=2
+            or protocol['max_pages_per_address']!=16 or protocol['timeout_seconds']!=15
+            or protocol['default_batch_size']!=20 or protocol['attempts_per_source']!=1):
+        raise ValueError('Frozen collection bounds changed')
+    return protocol,public
+
+
+def private_plan(protocol_path,work,cache):
+    protocol,public=load(protocol_path)
+    path=work/'plan.json'
+    if path.exists():records=json.loads(path.read_bytes())
+    else:
+        if cache is None:raise ValueError('Reconstruction needs the four-block cache')
+        root=protocol_path.parent
+        records,regenerated=make_plan(root/protocol['inputs']['design']['file'],
+                                     root/protocol['inputs']['selection']['file'],cache)
+        if regenerated!=public:raise ValueError('Reconstructed public plan changed')
+        saved.atomic_write(path,json_bytes(records))
+    if digest(json_bytes(records))!=protocol['private_plan_sha256']:
+        raise ValueError('Private plan fingerprint mismatch')
+    if [{k:v for k,v in r.items() if k not in ('address','payment_txid')} for r in records]!=public:
+        raise ValueError('Private/public plan mismatch')
+    for r in records:
+        if digest(r['address'].encode())!=r['address_sha256'] or digest(r['payment_txid'].encode())!=r['payment_txid_sha256']:
+            raise ValueError('Private identifier hash mismatch')
+    return protocol,public,{r['pilot_id']:r for r in records}
+
+
+def validate(state,protocol_path,public,work=None):
+    saved.validate(state,protocol_path,public,work)
+    expected={r['pilot_id']:r for r in public}
+    assigned=[key for b in state['batches'] for key in b['source_ids']]
+    if assigned!=[r['pilot_id'] for r in public][:len(assigned)]:
+        raise ValueError('Collection changed fixed batch order')
+    if not set(state['entries'])<=set(assigned):raise ValueError('Unassigned collection result')
+    for key,e in state['entries'].items():
+        r=expected[key]
+        if (e['known_coldcard_core_membership']!=0 or e['attempt_count']!=1
+                or e['payment_txid_sha256']!=r['payment_txid_sha256']
+                or e['cutoff_block_hash']!=r['cutoff_block_hash']):
+            raise ValueError('Checkpoint target/reference/attempt changed')
+
+
+def entry_base(record,marker):
+    entry=saved.base_entry(record,'network')
+    entry.update(known_coldcard_core_membership=0,payment_txid_sha256=record['payment_txid_sha256'],
+                 cutoff_block_hash=record['cutoff_block_hash'],attempt_count=1,
+                 request_started_at=marker['started_at'],request_finished_at=marker.get('finished_at'))
+    return entry
+
+
+def from_raw(record,raw,marker):
+    history=json.loads(gzip.decompress(raw))
+    entry=entry_base(record,marker)
+    entry.update(raw_file=f"raw/{record['pilot_id']}.json.gz",raw_sha256=digest(raw),raw_bytes=len(raw))
+    try:
+        converted=saved.from_history(record,history,raw,'network')
+        if converted['status']=='complete':
+            tx=next(t for t in history['transactions'] if t['txid']==record['payment_txid'])
+            inputs=[i for i in tx['vin'] if (i.get('prevout') or {}).get('scriptpubkey_address')==record['address']]
+            if (len(inputs)!=record['registry_input_slots'] or
+                    sum(i['prevout']['value'] for i in inputs)!=record['reference_input_value_sat']):
+                raise ValueError('History reference source input count/value differs from block evidence')
+        entry.update(converted)
+    except Exception as error:
+        entry.update(status='error',features=None,prefix=None,reason=type(error).__name__+': '+str(error),
+                     error_type=type(error).__name__)
+    return entry
+
+
+def fetch_one(record,protocol,work):
+    marker_path=work/'attempts'/f"{record['pilot_id']}.json"
+    marker=dict(source_id=record['pilot_id'],started_at=now())
+    marker_path.parent.mkdir(parents=True,exist_ok=True)
+    # Persist before HTTP: interrupted attempts cannot be silently retried.
+    with marker_path.open('xb') as stream:stream.write(json_bytes(marker))
+    try:
+        history=fixed.collect_one(record,protocol)
+        raw=gzip.compress(json_bytes(history),mtime=0)
+        path=work/'raw'/f"{record['pilot_id']}.json.gz"
+        if path.exists():raise FileExistsError('Raw evidence already exists')
+        saved.atomic_write(path,raw)
+        marker.update(finished_at=now(),raw_sha256=digest(raw))
+    except Exception as error:
+        marker.update(finished_at=now(),error_type=type(error).__name__,reason=type(error).__name__+': '+str(error))
+        if isinstance(error,urllib.error.HTTPError):marker['http_status']=error.code
+    saved.atomic_write(marker_path,json_bytes(marker))
+    return record['pilot_id']
+
+
+def recover_entry(record,work):
+    marker_path=work/'attempts'/f"{record['pilot_id']}.json"
+    raw_path=work/'raw'/f"{record['pilot_id']}.json.gz"
+    if not marker_path.exists():
+        if raw_path.exists():raise ValueError('Raw history without an attempt marker')
+        return None
+    marker=json.loads(marker_path.read_bytes())
+    if marker['source_id']!=record['pilot_id']:raise ValueError('Attempt marker source mismatch')
+    if raw_path.exists():
+        raw=raw_path.read_bytes()
+        if marker.get('raw_sha256') and marker['raw_sha256']!=digest(raw):
+            raise ValueError('Attempt/raw fingerprint mismatch')
+        return from_raw(record,raw,marker)
+    e=entry_base(record,marker)
+    e.update(reason=marker.get('reason','InterruptedAttempt: no complete raw response saved; not retried'),
+             error_type=marker.get('error_type','InterruptedAttempt'))
+    if 'http_status' in marker:e['http_status']=marker['http_status']
+    return e
+
+
+def counts(state,public):
+    entries=state['entries'];totals=Counter(e['status'] for e in entries.values())
+    strata=[]
+    for height in sorted({r['cutoff_height'] for r in public}):
+        ids=[r['pilot_id'] for r in public if r['cutoff_height']==height]
+        c=Counter(entries[k]['status'] for k in ids if k in entries)
+        strata.append(dict(height=height,selected=len(ids),complete=c['complete'],incomplete=c['incomplete'],
+                           errors=c['error'],pending=sum(k not in entries for k in ids)))
+    return dict(selected_sources=len(public),attempted_sources=len(entries),complete_sources=totals['complete'],
+                incomplete_sources=totals['incomplete'],error_sources=totals['error'],pending_sources=len(public)-len(entries),
+                by_reference_block=strata,error_types=dict(sorted(Counter(e.get('error_type','unknown')
+                    for e in entries.values() if e['status']=='error').items())),
+                prior_transaction_observations=sum(e['features']['confirmed_tx_count'] for e in entries.values() if e['status']=='complete'),
+                sources_with_prior_spending=sum(e['features']['spending_tx_count']>0 for e in entries.values() if e['status']=='complete'),
+                feature_count=14,comparison_compromise_hardware_labels='unknown',training_performed=False)
+
+
+def batch_bytes(state,batch):
+    return gzip.compress(json_bytes(dict(batch=batch,entries={k:state['entries'][k] for k in batch['source_ids']})),mtime=0)
+
+
+def save_batch(state,batch,output):
+    path=output/f"batch_{batch['batch_id']:04d}.json.gz";raw=batch_bytes(state,batch)
+    if path.exists():
+        if path.read_bytes()!=raw:raise ValueError('Immutable batch export changed')
+    else:saved.atomic_write(path,raw)
+    return dict(file=path.name,sha256=digest(raw),source_count=len(batch['source_ids']))
+
+
+def export_latest(protocol_path,state,public,output):
+    validate(state,protocol_path,public)
+    manifest=[save_batch(state,b,output) for b in state['batches'] if b['status']=='completed']
+    rows=[]
+    for r in public:
+        e=state['entries'].get(r['pilot_id'])
+        rows.append(dict(source_id=r['pilot_id'],address_sha256=r['address_sha256'],
+            payment_txid_sha256=r['payment_txid_sha256'],cutoff_height=r['cutoff_height'],
+            status=e['status'] if e else 'pending',features=e['features'] if e else None,
+            known_coldcard_core_membership=0,compromise_label=None,hardware_label=None))
+    for name,raw in {
+        'checkpoint.json.gz':gzip.compress(json_bytes(state),mtime=0),
+        'features.json.gz':gzip.compress(json_bytes(rows),mtime=0),
+        'progress.json':json_bytes(counts(state,public)),
+        'batches.json':json_bytes(dict(protocol_sha256=digest(protocol_path.read_bytes()),batches=manifest))}.items():
+        saved.atomic_write(output/name,raw)
+
+
+def verify(protocol_path,output,work=None):
+    _,public=load(protocol_path)
+    state=json.loads(gzip.decompress((output/'checkpoint.json.gz').read_bytes()))
+    validate(state,protocol_path,public,work)
+    manifest=json.loads((output/'batches.json').read_bytes())
+    if manifest['protocol_sha256']!=digest(protocol_path.read_bytes()):raise ValueError('Batch protocol mismatch')
+    if len(manifest['batches'])!=len(state['batches']) or any(b['status']!='completed' for b in state['batches']):
+        raise ValueError('Final export contains an unfinished/unexported batch')
+    merged={}
+    for b,pin in zip(state['batches'],manifest['batches']):
+        raw=(output/pin['file']).read_bytes()
+        if digest(raw)!=pin['sha256'] or raw!=batch_bytes(state,b):raise ValueError('Batch evidence mismatch')
+        part=json.loads(gzip.decompress(raw))['entries']
+        if set(merged)&set(part):raise ValueError('Repeated source in batch deltas')
+        merged.update(part)
+    if merged!=state['entries']:raise ValueError('Batch/checkpoint evidence mismatch')
+    rows=json.loads(gzip.decompress((output/'features.json.gz').read_bytes()))
+    if len(rows)!=len(public) or len({r['source_id'] for r in rows})!=len(public):raise ValueError('Feature export coverage mismatch')
+    for row,r in zip(rows,public):
+        e=state['entries'].get(r['pilot_id'])
+        expected=dict(source_id=r['pilot_id'],address_sha256=r['address_sha256'],payment_txid_sha256=r['payment_txid_sha256'],
+                      cutoff_height=r['cutoff_height'],status=e['status'] if e else 'pending',features=e['features'] if e else None,
+                      known_coldcard_core_membership=0,compromise_label=None,hardware_label=None)
+        if row!=expected:raise ValueError('Feature export differs from normalized evidence')
+    if (output/'progress.json').read_bytes()!=json_bytes(counts(state,public)):
+        raise ValueError('Coverage summary mismatch')
+    return counts(state,public)
+
+
+def run_many(protocol_path,work,output,max_batches=50,cache=None,restore=None):
+    if type(max_batches) is not int or max_batches<1:raise ValueError('Positive max_batches required')
+    work.mkdir(parents=True,exist_ok=True);output.mkdir(parents=True,exist_ok=True)
+    with (work/'collector.lock').open('a+') as lock:
+        fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+        protocol,public,private=private_plan(protocol_path,work,cache)
+        state_path=work/'state.json'
+        if state_path.exists():state=json.loads(state_path.read_bytes())
+        elif restore is not None:state=json.loads(gzip.decompress(restore.read_bytes()))
+        else:state=saved.empty_state(protocol_path,public)
+        validate(state,protocol_path,public,work)
+        # Repair a completed export before allowing any next-batch HTTP requests.
+        completed=deepcopy(state)
+        completed['batches']=[b for b in state['batches'] if b['status']=='completed']
+        finished={key for b in completed['batches'] for key in b['source_ids']}
+        completed['entries']={k:e for k,e in state['entries'].items() if k in finished}
+        export_latest(protocol_path,completed,public,output);verify(protocol_path,output)
+        started=time.monotonic();done=0
+        while True:
+            active=next((b for b in state['batches'] if b['status']=='running'),None)
+            if active is None:
+                if len(state['entries'])==len(public) or done>=max_batches:break
+                ids=[r['pilot_id'] for r in public if r['pilot_id'] not in state['entries']][:protocol['default_batch_size']]
+                active=dict(batch_id=len(state['batches'])+1,source_ids=ids,status='running')
+                state['batches'].append(active);saved.atomic_write(state_path,json_bytes(state))
+            # Complete raw orphans; consume interrupted started attempts without HTTP retry.
+            for key in active['source_ids']:
+                if key not in state['entries']:
+                    recovered=recover_entry(private[key],work)
+                    if recovered is not None:
+                        state['entries'][key]=recovered;saved.atomic_write(state_path,json_bytes(state))
+            selected=[key for key in active['source_ids'] if key not in state['entries']]
+            with ThreadPoolExecutor(max_workers=protocol['workers']) as pool:
+                pending={pool.submit(fetch_one,private[key],protocol,work):key for key in selected}
+                for future in as_completed(pending):
+                    key=pending[future];future.result()
+                    state['entries'][key]=recover_entry(private[key],work)
+                    saved.atomic_write(state_path,json_bytes(state))
+                    print(key+': '+state['entries'][key]['status'],flush=True)
+            active['status']='completed';validate(state,protocol_path,public,work)
+            saved.atomic_write(state_path,json_bytes(state))
+            export_latest(protocol_path,state,public,output)
+            verify(protocol_path,output)
+            done+=1
+            print(json.dumps(dict(batch=active['batch_id'],elapsed_seconds=round(time.monotonic()-started,1),
+                                  coverage=counts(state,public))),flush=True)
+            if all(state['entries'][key].get('http_status') in (403,429) for key in active['source_ids']):
+                print('Stopped: provider denied the entire batch; pending sources retained',flush=True);break
+        export_latest(protocol_path,state,public,output)
+        return verify(protocol_path,output)
+
+
+def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('command',choices=('run-many','verify'))
+    parser.add_argument('protocol',type=Path);parser.add_argument('output',type=Path)
+    parser.add_argument('--work',type=Path);parser.add_argument('--cache',type=Path)
+    parser.add_argument('--restore',type=Path);parser.add_argument('--max-batches',type=int,default=50)
+    args=parser.parse_args()
+    if args.command=='run-many':
+        if args.work is None:parser.error('run-many requires --work')
+        result=run_many(args.protocol,args.work,args.output,args.max_batches,args.cache,args.restore)
+    else:result=verify(args.protocol,args.output,args.work)
+    print(json.dumps(result,indent=2))
+
+
+if __name__=='__main__':main()

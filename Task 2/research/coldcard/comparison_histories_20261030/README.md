@@ -1,0 +1,62 @@
+# Comparison-source history collection — 30 October 2026
+
+Collect the histories of the [fixed 1,000 same-block comparison sources](../source_comparison_selection_20261030/README.md)
+and compute the same fourteen strictly prior-block predictors as the 500 case
+sources. One row is an address, not a person or device. Operational core
+membership is zero; theft and hardware labels remain unknown. No fitting takes
+place in this collection unit.
+
+The [collection protocol](../source_comparison_collection_protocol_20261030.json)
+pins the public selection, exact public/private plan hashes, frozen extractor
+and existing history/audit/checkpoint helpers. The [public plan](plan.json.gz)
+contains only hashed identifiers, cutoffs and reference-input accounting. Private
+addresses can be reconstructed from the four-block cache and checked against
+those hashes before requests.
+
+## Bounds and durable evidence
+
+Use Blockstream, two workers, at most sixteen pages per address, fifteen seconds
+per HTTP request and fixed batches of twenty. A source attempt contains the
+before counter read, bounded pagination and after counter read. Stable matching
+counters and an exhausted terminal page are required for complete history.
+Incomplete/error results have no feature vector and are never replaced or
+silently retried. No spent-status flags or reference-payment fees become predictors.
+
+A durable attempt marker is written before HTTP. On restart, a complete saved raw
+response is re-extracted offline; a started attempt with no raw response is
+retained as an interrupted error. Pending sources whose worker had not started
+remain pending. The operating-system lock prevents two collectors sharing the
+working directory. An entire batch denied by HTTP 403/429 stops further requests
+with the remaining sources pending.
+
+Working state is saved after every source. Each completed batch has one immutable
+`batch_NNNN.json.gz` delta. The latest checkpoint, all-source feature/status rows,
+coverage by reference block and batch-hash index are regenerated and verified
+before another batch starts. Completed exports interrupted during saving are
+repaired before any new HTTP request. Published normalized prefixes reproduce
+features without private raw caches; provider-counter completeness is not a
+cryptographic inclusion proof.
+
+## Run and verify
+
+```bash
+python "Task 2/research/coldcard/collect_comparison_histories.py" run-many \
+  "Task 2/research/coldcard/source_comparison_collection_protocol_20261030.json" \
+  "Task 2/research/coldcard/comparison_histories_20261030" \
+  --work "Task 2/research/coldcard/source_cohort_work_comparison_histories_20261030" \
+  --cache "Task 2/research/coldcard/source_cohort_work_comparison_20261030/blocks" \
+  --max-batches 50
+python "Task 2/research/coldcard/collect_comparison_histories.py" verify \
+  "Task 2/research/coldcard/source_comparison_collection_protocol_20261030.json" \
+  "Task 2/research/coldcard/comparison_histories_20261030"
+```
+
+`--restore` accepts a published compressed checkpoint if working state was lost;
+completed/error/incomplete entries are not requested again. Run only one
+collector per working directory. Source-path tests include interrupted attempts,
+raw orphan recovery, no replacement, cross-provider reference amounts, raw/label/
+feature tampering, exact offline restoration and the provider-denial stop.
+
+The initial implementation passed 70 source-path tests. Collection results are
+reported separately from this prepared protocol; no coverage is inferred from
+this README or from the fixed plan alone.

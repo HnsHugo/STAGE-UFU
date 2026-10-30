@@ -1,0 +1,48 @@
+{
+  "attempts_per_source": 1,
+  "batch_policy": "Exactly the next twenty fixed source IDs. Atomic per-source working checkpoint; immutable compressed batch deltas; verify exports before starting the next batch. No model fitting.",
+  "created_on": "2026-10-30",
+  "cutoff": "Only confirmed history heights strictly below the reference-payment block; same-block/future excluded by unchanged extractor.",
+  "default_batch_size": 20,
+  "evaluation": "Collection only. Audit attrition by membership and block before exploratory grouped fitting; no theft/device performance claim.",
+  "failure_policy": "Keep error/incomplete results and null features, with no replacements or automatic retries. Durable attempt markers consume interrupted started attempts; raw orphans can be re-extracted offline.",
+  "inputs": {
+    "checkpoint_helpers": {
+      "file": "source_cohort.py",
+      "sha256": "6e1f56fa3c9f815aee0452974ff403e3c5ad1bd5e91330e9c43d0037b55c6e4c"
+    },
+    "design": {
+      "file": "source_comparison_design_20261030/protocol.json",
+      "sha256": "53fe2b2ecefaa90f9a9820f735c2e40318d2abb836cbf7f84734fb10e227e1f8"
+    },
+    "feature_extractor": {
+      "file": "prepayment_pilot.py",
+      "sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701"
+    },
+    "history_auditor": {
+      "file": "collect_theft_seeds.py",
+      "sha256": "70f4a7fc66980c499be512ebe2006c6fc5a300c6f66050505557e7f9797c68f1"
+    },
+    "prefix_helper": {
+      "file": "multiinput_pilot.py",
+      "sha256": "4bca0c087a6a31d7eb11ee51951b29f1a62603c2ecffb9be67cf0595c5fc07c9"
+    },
+    "selection": {
+      "file": "source_comparison_selection_20261030/selection.json",
+      "sha256": "611570b92038092ca8be8fbf327a86a0ad04a4f5fedcdfe489fcf47ef88c7334"
+    }
+  },
+  "max_pages_per_address": 16,
+  "private_plan_sha256": "e619e8e66d6311e56616a9ba4a2d6a082db2b486da7c85df559d93c0961a2f44",
+  "provider": "https://blockstream.info/api",
+  "provider_denial_policy": "Stop with remaining sources pending if an entire batch returns HTTP 403/429.",
+  "public_plan_file": "comparison_histories_20261030/plan.json.gz",
+  "public_plan_sha256": "a71060297b0a37f6f21a540095128395bd15324aaa4c62b71ccc2226995c09eb",
+  "publication": "Hashed source IDs, normalized prior-block evidence, raw fingerprints, immutable batch deltas and complete/error/incomplete/pending rows; raw address plans/histories remain local.",
+  "requirement": "Collect histories and unchanged strictly prior-block features for the fixed 1000 comparison sources; preserve attrition.",
+  "schema_version": 1,
+  "target": "Operational known_coldcard_core_membership=0 only; compromise and hardware stay unknown.",
+  "timeout_seconds": 15,
+  "unit": "One fixed comparison input source address, with its frozen reference transaction/block.",
+  "workers": 2
+}
