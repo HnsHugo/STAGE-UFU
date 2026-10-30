@@ -1,0 +1,17 @@
+{
+  "complete_histories": 500,
+  "exact_offline_restore": true,
+  "label_eligibility_reproduced": true,
+  "limitations": [
+    "Collection completeness is provider-counter completeness, not cryptographic inclusion proof",
+    "Individual compromise/device labels and target-matched controls remain missing"
+  ],
+  "new_raw_histories_reextracted": 27,
+  "preserved_original_complete_entries": 473,
+  "regression_tests_passed": 18,
+  "snapshot_hashes_verified": 8,
+  "status": "passed",
+  "supervised_eligible_sources": 0,
+  "training_performed": false,
+  "validated_on": "2026-10-30"
+}

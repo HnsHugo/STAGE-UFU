@@ -1,6 +1,13 @@
 # Resumable Coldcard source cohort — updated 29 October 2026
 
-## Current saved state: batch 25 — no pending sources
+## Supplemental follow-up
+
+The separate [27-source recovery](../source_cohort_recovery_20261029/README.md)
+now provides **500 complete, 0 errors, 0 incomplete and 0 pending** under 16-page/15-second bounds.
+Original snapshots and failures below are preserved; do not report this overlay
+as the result of the original four-page protocol. Individual labels remain unknown.
+
+## Original saved state: batch 25 — no pending sources
 
 The final continuation executed batches 22–25 on 29 October 2026:
 **68 fixed source attempts** in batches of **20/20/20/8**,
@@ -225,9 +232,7 @@ non-overwriting exports and reuse of all twelve prior records without a network.
 
 ## One next unit
 
-All 500 original sources have been attempted. Review retained collection gaps
-and address-label eligibility under an explicit follow-up protocol. A recovery
-with different pagination bounds must be separately documented and exported;
-do not overwrite terminal failures or restart the exhausted original collection.
-Verified compromise/device labels and suitable controls remain prerequisites
-for fitting the requested source-address classifier.
+The explicit supplemental recovery is now executed; see its separate report
+above. Next: adjudicate exact dated source-level label evidence and define
+target-matched controls/evaluation. Do not rerun the exhausted original protocol
+or replace its historical errors with supplemental outcomes.

@@ -10,9 +10,12 @@ outpoint links and unknown compromise/device labels. The
 computed fourteen prior-block features on eight complete source histories.
 The [multi-input extension](research/coldcard/multiinput_pilot_20261028/README.md)
 adds four sources with the same extractor. The
-[resumable cohort](research/coldcard/source_cohort_20261028/README.md) now has
-473 complete histories, 24 retained errors, 3 incomplete histories and 0 pending sources. All 500 sources have been attempted. Next:
-review retained collection gaps and label eligibility under a follow-up protocol.
+[resumable cohort](research/coldcard/source_cohort_20261028/README.md) finished with
+473 complete histories, 24 retained errors, 3 incomplete histories and 0 pending sources. All 500 sources were attempted under that original protocol.
+The separate [supplemental recovery](research/coldcard/source_cohort_recovery_20261029/README.md)
+now provides **500 complete, 0 errors, 0 incomplete and 0 pending**, preserving the original result.
+Per-source compromise/device labels and target-matched controls remain absent;
+next: exact dated source-label adjudication before supervised fitting.
 Collector ranking remains a preserved supporting experiment, not the central
 objective or a substitute for that address dataset.
 

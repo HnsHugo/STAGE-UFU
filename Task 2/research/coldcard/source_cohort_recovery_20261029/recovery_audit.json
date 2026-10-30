@@ -1,0 +1,263 @@
+{
+  "completed_batch_ids": [
+    1,
+    2
+  ],
+  "coverage": {
+    "complete_sources": 500,
+    "error_sources": 0,
+    "incident_groups": 1,
+    "incomplete_sources": 0,
+    "pending_sources": 0,
+    "population_sources": 500,
+    "prior_transaction_observations": 1445,
+    "reused_sources": 12,
+    "sources_with_prior_spending": 18,
+    "training_performed": false
+  },
+  "fixed_recovery_sources": [
+    "cohort_0019",
+    "cohort_0020",
+    "cohort_0052",
+    "cohort_0053",
+    "cohort_0058",
+    "cohort_0059",
+    "cohort_0147",
+    "cohort_0148",
+    "cohort_0159",
+    "cohort_0160",
+    "cohort_0175",
+    "cohort_0176",
+    "cohort_0182",
+    "cohort_0183",
+    "cohort_0191",
+    "cohort_0294",
+    "cohort_0295",
+    "cohort_0369",
+    "cohort_0370",
+    "cohort_0373",
+    "cohort_0374",
+    "cohort_0381",
+    "cohort_0382",
+    "cohort_0416",
+    "cohort_0417",
+    "cohort_0432",
+    "cohort_0435"
+  ],
+  "limitations": [
+    "Separate supplemental collection with larger pagination/time bounds; not comparable missingness under the original four-page protocol",
+    "One incident, unknown address-specific compromise/device labels and no documented negative controls",
+    "Unchanged prior-block features; provider-counter reconciliation is not cryptographic inclusion verification"
+  ],
+  "original_checkpoint_sha256": "c579c73fd51474c6d6d19afacd23a0d795c071db35ee65f67abfd400c4b52c3a",
+  "original_coverage": {
+    "complete_sources": 473,
+    "error_sources": 24,
+    "incident_groups": 1,
+    "incomplete_sources": 3,
+    "pending_sources": 0,
+    "population_sources": 500,
+    "prior_transaction_observations": 997,
+    "reused_sources": 12,
+    "sources_with_prior_spending": 17,
+    "training_performed": false
+  },
+  "original_results_overwritten": false,
+  "preserved_complete_entries": 473,
+  "recovery_protocol_sha256": "ab0152508aafdfe004fc541466c46b3a16dc420e33c2160b1ac47126d4f0f37e",
+  "schema_version": 1,
+  "training_performed": false,
+  "transitions": [
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0019"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0020"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0052"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0053"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0058"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0059"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0147"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0148"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0159"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0160"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0175"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0176"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0182"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0183"
+    },
+    {
+      "original_reason": "Bounded history incomplete/unstable; no feature vector",
+      "original_status": "incomplete",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0191"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0294"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0295"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0369"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0370"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0373"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0374"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0381"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0382"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0416"
+    },
+    {
+      "original_reason": "URLError: <urlopen error timed out>",
+      "original_status": "error",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0417"
+    },
+    {
+      "original_reason": "Bounded history incomplete/unstable; no feature vector",
+      "original_status": "incomplete",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0432"
+    },
+    {
+      "original_reason": "Bounded history incomplete/unstable; no feature vector",
+      "original_status": "incomplete",
+      "recovery_reason": null,
+      "recovery_status": "complete",
+      "source_id": "cohort_0435"
+    }
+  ],
+  "verified_compromise_labels": 0,
+  "verified_hardware_labels": 0
+}

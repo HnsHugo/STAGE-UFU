@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-29",
+  "scope": "Focused review of the original case references and the linked vendor advisory. This is not an exhaustive search of all victim reports. Readable article text was reviewed; dynamically populated address tables were not independently extracted.",
+  "address_specific_assertions": [],
+  "sources": [
+    {
+      "id": "bitquery_case",
+      "url": "https://bitquery.io/investigations/coldcard-wallet-hack",
+      "title": "The Coldcard wallet hack: $80M gone in 41 minutes",
+      "published_on": "2026-08-07",
+      "source_type": "Original on-chain analysis",
+      "support": "Case-level reconstruction and transaction-pattern methodology. The author says victim addresses are withheld and address-role attributions are inferences.",
+      "location": "How this was reported; Evidence appendix; Legal disclaimer",
+      "address_specific_label_eligible": false,
+      "limitation": "Does not establish independent victim or hardware control for any row in this 500-source cohort. A graph-derived population and a similarly sized published count do not create individual labels."
+    },
+    {
+      "id": "coinkite_advisory",
+      "url": "https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/",
+      "title": "Coldcard Security Advisory",
+      "published_on": "2026-07-30",
+      "visible_content_version_dates": ["2026-08-01", "2026-08-14"],
+      "source_type": "Manufacturer advisory",
+      "support": "Describes vulnerable seed generation and qualifying device/firmware conditions. It also distinguishes seed compromise from remote takeover of a device.",
+      "location": "Opening advisory; Investigation and Firmware Status",
+      "address_specific_label_eligible": false,
+      "limitation": "No reviewed evidence maps a cohort address to its owner, device, seed-generation firmware or compromise. The original publication date does not date every statement in the updated page."
+    },
+    {
+      "id": "block_technical",
+      "url": "https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware",
+      "title": "Predictable RNG Fallback and 32-Bit Reseed in COLDCARD Firmware",
+      "published_on": "2026-07-30",
+      "source_type": "Original technical investigation",
+      "support": "Analyzes the firmware RNG construction and states that exporting an affected seed to another wallet does not repair that seed.",
+      "location": "Affected products; Impact due to seed export; Technical timeline",
+      "address_specific_label_eligible": false,
+      "limitation": "Product-level findings cannot identify the device signing a particular historical transaction, nor independently verify that a cohort source was robbed. No seed/private-key recovery was attempted."
+    },
+    {
+      "id": "coindesk_case_context",
+      "url": "https://www.coindesk.com/pt-br/tech/2026/07/31/major-bitcoin-wallet-flaw-drains-594-btc-in-25-minute-sweep",
+      "published_on": "2026-07-31",
+      "source_type": "Secondary incident reporting, used only for reference discovery and discrepancy review",
+      "support": "Links the vendor and technical reports and describes a roughly 500-wallet incident.",
+      "address_specific_label_eligible": false,
+      "limitation": "The reported day and initial product assessment differ from parts of the pinned on-chain reconstruction/current vendor advisory. Do not rewrite the fixed 30 July cohort or infer per-address labels from aggregate reporting."
+    }
+  ],
+  "accepted_targets": {
+    "compromised_source": "Independent, dated evidence ties the exact address/outpoint/payment to funds taken without authorization. Transactional relationship alone is insufficient.",
+    "hardware_seed_origin": "Independent evidence ties the exact wallet/address to seed generation on the named device, with a relevant period and device/firmware details when vulnerability exposure is claimed.",
+    "hardware_signing_at_event": "A separate dated mapping supports hardware use for the relevant signing event. Seed origin or later export does not establish signing-device identity."
+  },
+  "minimum_evidence_record": ["source_id", "target", "assertion", "exact_public_address_or_txid_outpoint", "evidence_url_or_document_id", "observed_from", "observed_to", "source_published_at", "label_available_at", "reviewed_at", "independence_rationale", "confidence", "incident_group", "entity_group_if_known"],
+  "negative_control_requirement": "Use a documented control-selection policy and evidence matching the exact target/time period. No report, no API error or no known hardware attribution is not a negative label.",
+  "evaluation_requirement": "Define the label target before fitting; retain whole incident/entity groups and label-availability dates. The current single incident cannot supply an independent incident-level test.",
+  "decision": "Keep compromise/hardware labels null. Do not fit the requested supervised detector from case-context reports alone."
+}

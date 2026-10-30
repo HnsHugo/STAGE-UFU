@@ -19,15 +19,29 @@ The [resumable cohort pipeline](research/coldcard/source_cohort_20261028/README.
 has reused the twelve histories and finished all 25 fixed batches.
 The final run executed batches 22–25: **68 fixed attempts**,
 **66 complete histories**, 0 errors and 2 incomplete histories.
-Current coverage is **473/500 complete, 24 retained errors, 3 incomplete and
+Original protocol coverage is **473/500 complete, 24 retained errors, 3 incomplete and
 0 pending**, with 17 sources showing prior spending.
-All 432 earlier entries are unchanged; collection of the original candidate
-population has no pending sources. Next: review retained gaps and label eligibility
-under an explicit follow-up protocol, without automatic retries.
+All 432 earlier entries were unchanged; the original protocol is exhausted.
+The separate [supplemental recovery](research/coldcard/source_cohort_recovery_20261029/README.md)
+has now attempted the 27 gaps under explicit 16-page/15-second bounds: 27
+complete, 0 errors and 0 incomplete histories. Combined feature coverage is
+**500 complete, 0 errors, 0 incomplete and 0 pending**; original outputs and all 473 complete entries are preserved.
+The [focused label review](research/coldcard/source_label_review_20261029.json)
+and per-source eligibility still have zero verified compromise/device labels,
+zero documented negative controls and one incident group. Next: exact dated
+source-label adjudication, not another history collection or ungrounded model fit.
 Collector rankings remain supporting results. No model was fitted.
 
 ## Completed work
 
+- [Supplemental recovery and label eligibility](research/coldcard/source_cohort_recovery_20261029/README.md):
+  one fixed 27-source pass, 27 recovered complete histories, 0 errors,
+  0 incomplete, combined 500/500 complete. All 473 earlier complete records
+  and original errors are preserved. Both exports and per-source eligibility
+  reproduce offline; 27 new raw histories were re-extracted and exact
+  no-network restoration passed. The evidence review distinguishes graph
+  relation, compromise, seed origin and signing device; training remains blocked
+  by individual labels, controls and incident-level evaluation design.
 - [Final source collection, batches 22–25](research/coldcard/source_cohort_20261028/README.md):
   68 fixed attempts (20/20/20/8), 66 new complete histories,
   0 errors and 2 incomplete histories. All 432 earlier records remain
@@ -160,11 +174,10 @@ FSF shares two multi-recipient transactions with training addresses. This is obs
 
 ## Partial or blocked
 
-- Robbed source-address dataset/model: all 500 sources have been attempted,
-  with 473 complete histories, 24 retained errors and 3 incomplete histories.
-  Per-address compromise/device labels and documented controls are still missing.
-  Unavailable histories have no feature vector. See the current cohort report
-  for per-source coverage gaps. The supervised classifier is not completed.
+- Robbed source-address dataset/model: original collection ended at 473 complete,
+  24 errors and 3 incomplete; separate supplemental recovery now yields
+  500 complete, 0 errors, 0 incomplete and 0 pending. Per-address compromise/device labels and documented
+  controls remain absent. The supervised classifier is not completed.
   Historical spending-fee features cannot be inferred from the
   reference payment when no prior source spending exists.
 - Network-relative fees, CPFP and RBF: the Teams request for a focused literature
@@ -186,9 +199,11 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-The original 500-source collection is exhausted; no pending source remains.
-Review retained collection gaps and source-label eligibility under an explicit
-follow-up protocol. Any recovery with larger bounds must use a distinct output;
-do not overwrite the existing failures, retry automatically, change the frozen
-extractor or relax strict prior-block cutoffs. Verified compromise/device labels
-and suitable controls are still required before fitting the requested classifier.
+History collection and its explicit supplemental pass are exhausted. Use the
+combined feature checkpoint and per-source eligibility. Adjudicate exact dated
+address/outpoint/payment assertions under the evidence fields and target
+definitions in `research/coldcard/source_label_review_20261029.json`. Keep seed
+origin separate from signing-device use. Establish target-matched controls and
+an independent group/temporal evaluation design before supervised fitting; an
+explicit proxy study would require its own target and limitations. Do not
+silently transfer case-level reporting into individual ground truth.

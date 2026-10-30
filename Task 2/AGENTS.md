@@ -16,15 +16,22 @@ plans and older report recommendations.
   Resumable collection is now implemented: `source_cohort.py`, protocol
   `source_cohort_protocol_20261028.json`, saved state
   `research/coldcard/source_cohort_20261028/batch_0025/checkpoint.json`.
-  Coverage: 473 complete (12 reused), 24 retained errors, 3 incomplete,
+  Original four-page coverage: 473 complete (12 reused), 24 retained errors, 3 incomplete,
   0 pending. The final 68 fixed attempts ran in batches 22–25 (20/20/20/8),
   with each export verified before continuation. All 432 earlier entries are
   unchanged. See `verification/source_cohort_remaining68_20261029.json`.
-  There are no unattempted sources left. Do not rerun collection or retry
-  terminal failures automatically. Next: review retained collection gaps and
-  source-label eligibility under an explicit follow-up protocol; preserve the
-  original four-page bound and errors in all historical outputs. Any supplemental
-  recovery must use a separate output and report its changed collection bounds.
+  Supplemental recovery is now executed in
+  `research/coldcard/source_cohort_recovery_20261029/`: the explicit 16-page,
+  15-second pass attempted the fixed 27 gaps, yielding 27 complete,
+  0 errors and 0 incomplete histories. Combined coverage: 500 complete, 0 errors, 0 incomplete and 0 pending.
+  The original four-page result and all 473 complete entries are preserved.
+  Use the supplemental `batch_0002/checkpoint.json` for the combined feature view;
+  keep the original result separate. Do not restart exhausted original/recovery
+  collection or silently repeat failed attempts. Read the per-source label
+  eligibility and `research/coldcard/source_label_review_20261029.json`.
+  Next: adjudicate exact dated address/payment evidence for compromise and
+  device targets. Labels remain unknown, controls absent and incident groups one;
+  no supervised hardware/theft fitting is justified yet.
   The registry has graph candidates, not verified compromised/device labels.
   The address dataset/model is not replaced by collector ranking or benchmarks.
 - Keep the existing numbered-part structure. Write repository content in English;

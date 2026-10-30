@@ -123,11 +123,16 @@ The final 68 attempts preserved all 432 earlier entries and used fixed batches
 of 20/20/20/8; no terminal failure was retried or replaced. See the
 [execution checks](verification/source_cohort_remaining68_20261029.json).
 Its checkpoint can restore feature-complete records without raw files.
-**Next unit:** review the retained collection gaps and address-label eligibility
-under an explicit follow-up protocol. No source remains unattempted; do not
-restart `run-many` or overwrite historical errors. Any supplementary collection
-must have a separate output with documented limits. Preserve the frozen features
-and strict prior-block cutoff. The current cohort is retrospective and case-derived,
+The separate [supplemental recovery](research/coldcard/source_cohort_recovery_20261029/README.md)
+has now attempted all 27 gaps with explicit 16-page/15-second bounds, preserving
+the original four-page result and 473 complete entries. Combined coverage:
+**500 complete, 0 errors, 0 incomplete and 0 pending**. The [label review](research/coldcard/source_label_review_20261029.json)
+and per-source eligibility retain unknown labels: no individual source/device
+assertion or documented negative control was established in this focused review.
+**Next unit:** adjudicate exact dated address/payment assertions for the chosen
+target before supervised fitting. Seed origin, compromised control and signing
+device at the event remain separate. Do not restart exhausted collection or
+rewrite the original failures. The current cohort is retrospective and case-derived,
 with prior-block predictors. A future prospective evaluation requires separate
 cohort-eligibility and label-availability rules. Do not encode a known destination or
 later label as a shortcut to claim general hardware identification. A clearly

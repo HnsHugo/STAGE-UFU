@@ -14,8 +14,13 @@ unit. The [pre-payment pilot](../research/coldcard/prepayment_pilot_20261027/REA
 now supplies fourteen cutoff-safe features for eight complete source histories;
 the [multi-input extension](../research/coldcard/multiinput_pilot_20261028/README.md)
 adds four more complete histories with unchanged definitions. The
-[resumable cohort](../research/coldcard/source_cohort_20261028/README.md) now covers
-473 complete histories, 24 retained errors, 3 incomplete histories and 0 pending sources. All 500 have been attempted. Next: review retained gaps and label eligibility under an explicit follow-up protocol. See [Alignment](../ALIGNMENT.md).
+[resumable cohort](../research/coldcard/source_cohort_20261028/README.md) finished with
+473 complete histories, 24 retained errors, 3 incomplete histories and 0 pending sources. All 500 were attempted under that original protocol. See [Alignment](../ALIGNMENT.md).
+
+The separate [supplemental recovery](../research/coldcard/source_cohort_recovery_20261029/README.md)
+now provides **500 complete, 0 errors, 0 incomplete and 0 pending** under documented larger bounds.
+The original protocol result remains unchanged. Individual labels and suitable
+controls remain missing; see the recovery's per-source eligibility and evidence review.
 
 ## Inputs and coverage
 

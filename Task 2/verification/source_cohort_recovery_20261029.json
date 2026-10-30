@@ -1,0 +1,451 @@
+{
+  "analysis_design": "Source-address histories, unchanged fourteen strictly prior-block predictors, one incident, no fitting or train/test split.",
+  "automatic_run_summary": {
+    "budget_semantics": "Soft budget checked between batches; an in-flight batch finishes",
+    "completed_batch_ids": [
+      1,
+      2
+    ],
+    "coverage": {
+      "complete_sources": 500,
+      "error_sources": 0,
+      "incident_groups": 1,
+      "incomplete_sources": 0,
+      "pending_sources": 0,
+      "population_sources": 500,
+      "prior_transaction_observations": 1445,
+      "reused_sources": 12,
+      "sources_with_prior_spending": 18,
+      "training_performed": false
+    },
+    "elapsed_seconds": 420.582,
+    "new_source_attempts": 27,
+    "stop_reason": "population_exhausted"
+  },
+  "batch_sizes": [
+    20,
+    7
+  ],
+  "checks": [
+    {
+      "check": "source_cohort_regressions",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "Task 2/research/coldcard",
+        "-p",
+        "test_source_cohort*.py"
+      ],
+      "exit_code": 0,
+      "stderr": "..................\n----------------------------------------------------------------------\nRan 18 tests in 1.012s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "check": "repository_integrity",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/check_repository.py"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\n  \"internal_links_checked\": 299,\n  \"python_files_parsed\": 103,\n  \"preserved_artifacts_checked\": 185,\n  \"errors\": [],\n  \"status\": \"passed\"\n}\n"
+    },
+    {
+      "check": "final_documentation_integrity",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/check_repository.py"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\n  \"internal_links_checked\": 299,\n  \"python_files_parsed\": 103,\n  \"preserved_artifacts_checked\": 185,\n  \"errors\": [],\n  \"status\": \"passed\"\n}\n"
+    }
+  ],
+  "driver_sha256": "823ce01702dd5ef9c0568e0e19d46402dea2dcd00ed65d443909f7b49c0d3ddf",
+  "earlier_raw_history_availability": "Earlier complete raw histories are excluded from Git; their 473 normalized entries are preserved and feature vectors reproduce offline.",
+  "exact_offline_restoration_without_raw_files": true,
+  "executed_on": "2026-10-29",
+  "feature_extractor_sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701",
+  "feature_summary": {
+    "active_block_count": {
+      "distinct": 24,
+      "max": 225,
+      "min": 1,
+      "missing": 0,
+      "observed": 500
+    },
+    "activity_span_blocks": {
+      "distinct": 80,
+      "max": 263284,
+      "min": 0,
+      "missing": 0,
+      "observed": 500
+    },
+    "balance_sat": {
+      "distinct": 438,
+      "max": 2989252501,
+      "min": 14999770,
+      "missing": 0,
+      "observed": 500
+    },
+    "blocks_since_first_activity": {
+      "distinct": 471,
+      "max": 284468,
+      "min": 3811,
+      "missing": 0,
+      "observed": 500
+    },
+    "blocks_since_last_activity": {
+      "distinct": 472,
+      "max": 278905,
+      "min": 409,
+      "missing": 0,
+      "observed": 500
+    },
+    "confirmed_tx_count": {
+      "distinct": 24,
+      "max": 225,
+      "min": 1,
+      "missing": 0,
+      "observed": 500
+    },
+    "median_spending_tx_fee_rate_sat_vb": {
+      "distinct": 17,
+      "max": 100.28985507246377,
+      "min": 1.0070921985815602,
+      "missing": 482,
+      "observed": 18
+    },
+    "receipt_tx_count": {
+      "distinct": 24,
+      "max": 225,
+      "min": 1,
+      "missing": 0,
+      "observed": 500
+    },
+    "received_output_count": {
+      "distinct": 24,
+      "max": 225,
+      "min": 1,
+      "missing": 0,
+      "observed": 500
+    },
+    "received_sat": {
+      "distinct": 439,
+      "max": 2989252501,
+      "min": 14999770,
+      "missing": 0,
+      "observed": 500
+    },
+    "spending_tx_count": {
+      "distinct": 4,
+      "max": 4,
+      "min": 0,
+      "missing": 0,
+      "observed": 500
+    },
+    "spent_output_count": {
+      "distinct": 6,
+      "max": 29,
+      "min": 0,
+      "missing": 0,
+      "observed": 500
+    },
+    "spent_sat": {
+      "distinct": 19,
+      "max": 557828665,
+      "min": 0,
+      "missing": 0,
+      "observed": 500
+    },
+    "unspent_output_count": {
+      "distinct": 22,
+      "max": 225,
+      "min": 1,
+      "missing": 0,
+      "observed": 500
+    }
+  },
+  "fixed_selection_verified": true,
+  "offline_export_and_eligibility_reproduction_without_requests": true,
+  "original_checkpoint_sha256": "c579c73fd51474c6d6d19afacd23a0d795c071db35ee65f67abfd400c4b52c3a",
+  "original_complete_entries_preserved": 473,
+  "original_results_overwritten": false,
+  "raw_reextraction_source_ids": [
+    "cohort_0019",
+    "cohort_0020",
+    "cohort_0052",
+    "cohort_0053",
+    "cohort_0058",
+    "cohort_0059",
+    "cohort_0147",
+    "cohort_0148",
+    "cohort_0159",
+    "cohort_0160",
+    "cohort_0175",
+    "cohort_0176",
+    "cohort_0182",
+    "cohort_0183",
+    "cohort_0191",
+    "cohort_0294",
+    "cohort_0295",
+    "cohort_0369",
+    "cohort_0370",
+    "cohort_0373",
+    "cohort_0374",
+    "cohort_0381",
+    "cohort_0382",
+    "cohort_0416",
+    "cohort_0417",
+    "cohort_0432",
+    "cohort_0435"
+  ],
+  "recovery_audits": [
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0019",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0020",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0052",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0053",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0058",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0059",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0147",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0148",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0159",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0160",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 5,
+      "pagination_exhausted": true,
+      "provider_count_after": 5,
+      "provider_count_before": 5,
+      "source_id": "cohort_0175",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0176",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0182",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0183",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 110,
+      "pagination_exhausted": true,
+      "provider_count_after": 110,
+      "provider_count_before": 110,
+      "source_id": "cohort_0191",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0294",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0295",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0369",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0370",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0373",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0374",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0381",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0382",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0416",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 2,
+      "pagination_exhausted": true,
+      "provider_count_after": 2,
+      "provider_count_before": 2,
+      "source_id": "cohort_0417",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 92,
+      "pagination_exhausted": true,
+      "provider_count_after": 92,
+      "provider_count_before": 92,
+      "source_id": "cohort_0432",
+      "status": "complete"
+    },
+    {
+      "observed_transaction_count": 227,
+      "pagination_exhausted": true,
+      "provider_count_after": 227,
+      "provider_count_before": 227,
+      "source_id": "cohort_0435",
+      "status": "complete"
+    }
+  ],
+  "recovery_protocol_sha256": "ab0152508aafdfe004fc541466c46b3a16dc420e33c2160b1ac47126d4f0f37e",
+  "recovery_raw_histories_reextracted": 27,
+  "repeated_prior_transaction_observations": 14,
+  "requirement": "Recover the 27 original collection gaps in a separate explicit one-pass protocol and assess source-label eligibility.",
+  "schema_version": 1,
+  "snapshot_sha256": {
+    "batch_0001/checkpoint.json": "fe953bf33452d278f5f841c5e829a1e27f4bac6b8e4d908ce51783cddc58fe50",
+    "batch_0001/features.json": "44452534e7dd4a524b288c5d8743e8d768647ce509643b71f1ee2ae4ff45204a",
+    "batch_0001/progress.json": "44990c0ce9c3c15d76ee1038d7033167d59b9fbbee959fe4c9df0632e32606d9",
+    "batch_0002/checkpoint.json": "a78ad7367c43102fd5b4d80d9fc8f1d8300ea205f520f59f2847029d7cced944",
+    "batch_0002/features.json": "f068251f07625a27cf9c237145bcfb6475c6fea5bbf53e3d32818c039e52c7d5",
+    "batch_0002/progress.json": "9574078b1dc545b2bd77f6a86befef8e7acb4333d88e563e32eb5b9edcf1e119",
+    "label_eligibility.json": "f7a6ea9d279b3614f0c58b4ca64abaa9330969e33c25dc000f894de72534bb3e",
+    "recovery_audit.json": "7f267725c70528adcb30fb71463efc75402fb5a638432a3364e1ffe5d1cbee1a"
+  },
+  "source_label_eligibility": {
+    "documented_negative_controls": 0,
+    "feature_complete_sources": 500,
+    "incident_groups": 1,
+    "supervised_eligible_sources": 0,
+    "verified_compromise_labels": 0,
+    "verified_hardware_seed_origin_labels": 0,
+    "verified_hardware_signing_labels": 0
+  },
+  "status": "passed",
+  "training_performed": false,
+  "unique_prior_transaction_references": 1431
+}
