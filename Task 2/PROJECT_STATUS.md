@@ -33,12 +33,24 @@ zero documented negative controls and one incident group. A
 has now executed ten fixed address/TXID searches. It found explorer observations,
 but no qualifying individual compromise/device assertion in that bounded review;
 all labels remain unknown. The other 495 sources were not individually searched.
-Next: prioritize a public incident report with an exact source/payment identifier
-and explicit role rather than further generic explorer retrieval.
+A subsequent [external reconstruction comparison](research/coldcard/source_corroboration_20261030/README.md)
+now corroborates all **500 source addresses and 500 reference payments** against
+two public reconstructions. Address/value/count and 1,324 input-value observations
+agree with SomaxBT; payment anchors, counts, amounts and fees agree with Alvaro P.
+The new case-relation layer is `source_attributed`; individually verified
+compromise/device labels remain unknown. Original predictors and reports are
+unchanged. Next: inspect owner-confirmed/report-based records referenced by these
+sources and test exact overlap without importing their graph heuristics as ground truth.
 Collector rankings remain supporting results. No model was fitted.
 
 ## Completed work
 
+- [External case-source corroboration](research/coldcard/source_corroboration_20261030/README.md):
+  500/500 exact source/payment comparisons agree with both pinned reconstructions;
+  1,324 input-value observations reconcile. Hashes, byte-preserved snapshots,
+  per-source comparisons, evidential limits and seven new regression tests are
+  recorded. Exact external prevout IDs are unavailable; no device/victim label
+  was promoted and no model changed.
 - [30 October validation](verification/source_cohort_validation_20261030.json):
   500 complete histories, 27 raw recoveries re-extracted, 473 inherited entries
   unchanged, exact offline restoration and 18 passing regressions. The recovery

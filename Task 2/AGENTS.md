@@ -33,13 +33,17 @@ plans and older report recommendations.
   the recovery is published as `b755a9829bdf7a449935045e267c7612d4203822`.
   The first five fixed sources have also undergone ten exact address/TXID
   searches: `research/coldcard/source_label_adjudication_20261030/README.md`.
-  Explorer matches supplied no qualifying individual role/device assertion in
-  that bounded review; 495 sources were not individually searched. Do not
-  repeat those searches without new evidence. Next: prioritize a public owner
-  or research incident report with an exact source/payment identifier and explicit
-  role, then adjudicate its dates, independence and separate device claims.
-  Labels remain unknown, controls absent and incident groups one; no supervised
-  hardware/theft fitting is justified yet.
+  That pilot's ten queries supplied explorer-only matches. New external source
+  discovery has since yielded `research/coldcard/source_corroboration_20261030/`:
+  all 500 sources/reference payments agree with SomaxBT and Alvaro P.'s pinned
+  reconstructions, including 1,324 input-value observations. The separate new
+  case-relation layer is `source_attributed`, not independently verified victim
+  or hardware ground truth. Original feature/label snapshots are unchanged.
+  Do not repeat generic exact-address searches or original collection. Next:
+  inspect owner-confirmed/report-based records referenced by the new sources and
+  check exact cohort overlap with dates and role/device evidence. One incident,
+  missing target-matched controls and unknown individual device/compromise labels
+  still preclude a validated supervised hardware/theft detector.
   The registry has graph candidates, not verified compromised/device labels.
   The address dataset/model is not replaced by collector ranking or benchmarks.
 - Keep the existing numbered-part structure. Write repository content in English;

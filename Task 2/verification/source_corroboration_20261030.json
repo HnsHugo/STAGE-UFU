@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "check": "source_registry_cohort_recovery_and_corroboration_regressions",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "Task 2/research/coldcard",
+        "-p",
+        "test_source_*.py"
+      ],
+      "execution_record": "The executed command returned Ran 34 tests in 1.393s; OK.",
+      "exit_code": 0,
+      "tests_passed": 34
+    },
+    {
+      "check": "pinned_snapshot_reproduction",
+      "command": [
+        "python",
+        "Task 2/research/coldcard/corroborate_sources.py",
+        "verify",
+        "Task 2/research/coldcard/source_corroboration_protocol_20261030.json",
+        "Task 2/research/coldcard/source_cohort_work_corroboration_20261030",
+        "Task 2/research/coldcard/source_corroboration_20261030"
+      ],
+      "execution_record": "The executed verify command reproduced comparison.json byte for byte and all source/protocol hashes passed.",
+      "exit_code": 0
+    },
+    {
+      "check": "repository_integrity",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "Task 2/check_repository.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"internal_links_checked\": 316,\n  \"python_files_parsed\": 105,\n  \"preserved_artifacts_checked\": 185,\n  \"errors\": [],\n  \"status\": \"passed\"\n}\n"
+    }
+  ],
+  "comparison_sha256": "8f1cec76971487b1adc2edf0dfd5b4f4e21a5e6a28ac13c6e6db068aadee19c0",
+  "driver_sha256": "e6d3109950d16ddad8fd2a11b974397432b010f9608449bea3cd5a1f7f3bbea7",
+  "external_input_sha256": {
+    "alva_method": "0352cc5c5c573b0b15b25e8c903b04aaae479e39e5a8454bfb265faaa817f89a",
+    "alva_tx": "3bf97a784e7d520ceec7e26461ece457add6ae95e9a02b1042720fdfe4234157",
+    "somax_address": "d7b7ed21a66cc635b683e3af366896aeea0b029e38e1ef6aeac4501b0b27f81b",
+    "somax_utxo": "e4a494afbd7eff3db7b0bf29d705f2fd0f492f2980684084219668d35f749d41"
+  },
+  "original_checkpoint_unchanged": true,
+  "protocol_sha256": "13509184ff9a8140a89340be9c6bd37d51ce1c4ad65c2f74e727d24348c8f533",
+  "status": "passed",
+  "summary": {
+    "alva_exact_payment_agreement": 500,
+    "compared_input_observations": 1324,
+    "corroborated_case_sources": 500,
+    "local_input_value_sat": 59451379184,
+    "original_predictors_or_labels_changed": false,
+    "somax_address_matches": 500,
+    "somax_input_multiset_agreement": 500,
+    "somax_value_count_agreement": 500,
+    "source_count": 500,
+    "training_performed": false,
+    "verified_compromise_labels": 0,
+    "verified_hardware_labels": 0
+  },
+  "training_performed": false,
+  "validated_on": "2026-10-30",
+  "verified_source_labels_promoted": false
+}

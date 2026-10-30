@@ -133,9 +133,14 @@ The [fixed five-source adjudication](research/coldcard/source_label_adjudication
 now records ten exact address/TXID searches with no qualifying individual
 assertions found in that bounded review. Labels remain unknown; this does not
 establish that no report exists or assess the other 495 sources.
-**Next unit:** prioritize a public incident report publishing an exact source or
-payment identifier and explicit role, then adjudicate its dates, independence
-and device claims before supervised fitting. Seed origin, compromised control and signing
+A new [external corroboration layer](research/coldcard/source_corroboration_20261030/README.md)
+now matches all 500 source addresses/reference payments against two pinned public
+reconstructions, with exact value/count/anchor agreement. This establishes
+`source_attributed` case relation, not independent owner/device confirmation;
+original labels and fourteen predictors remain unchanged.
+**Next unit:** inspect owner-confirmed/report-based records referenced by these
+sources, test exact overlap, and adjudicate dates and distinct role/device claims
+before supervised fitting. Seed origin, compromised control and signing
 device at the event remain separate. Do not restart exhausted collection or
 rewrite the original failures. The current cohort is retrospective and case-derived,
 with prior-block predictors. A future prospective evaluation requires separate

@@ -1,0 +1,83 @@
+{
+  "checkpoint_file": "source_cohort_recovery_20261029/batch_0002/checkpoint.json",
+  "checkpoint_sha256": "a78ad7367c43102fd5b4d80d9fc8f1d8300ea205f520f59f2847029d7cced944",
+  "checks": [
+    "Exact address membership; compare reported gross spent value and input count",
+    "Address/payment/block/collector and input-value multiset agreement; no external prevout IDs exist in the per-UTXO CSV",
+    "Payment TXID, height/hash/time, input/output counts, integer amounts and fees against the second reconstruction"
+  ],
+  "cohort_protocol_file": "source_cohort_recovery_protocol_20261029.json",
+  "cohort_protocol_sha256": "ab0152508aafdfe004fc541466c46b3a16dc420e33c2160b1ac47126d4f0f37e",
+  "cutoff_and_split": "Reference-payment evidence is retrospective case evidence, excluded from the fourteen pre-payment predictors. No fitting or train/test split.",
+  "independence": "Both authors describe separate chain reconstructions, but both use Bitcoin data and collector/graph rules. Treat agreement as reconstruction corroboration, not independent owner/device ground truth; data-source ancestry beyond the reviewed methods is not verified.",
+  "publication": "Publish aggregate and hashed per-source comparison results and pinned source metadata. Keep external bulk address lists local; do not change historical labels or predictors.",
+  "registry_protocol_file": "source_registry_protocol_20261027.json",
+  "registry_protocol_sha256": "75abe6458bc7bda64b0fd6c94a7c145f352dc60050c367ae5b6ca1a5bee31f47",
+  "requirement": "Improve individually traceable case association by comparing all 500 sources with externally published reconstructions.",
+  "reviewed_on": "2026-10-30",
+  "schema_version": 1,
+  "sources": [
+    {
+      "bytes": 292108,
+      "commit": "1e7fef87060808c29beaf9d137eb5ff9e37f8811",
+      "commit_date": "2026-08-02T14:32:35Z",
+      "git_blob_sha": "176d3e0ee5d77ac0f4d7cd4413ffcd810dba0aef",
+      "id": "somax_address",
+      "label_available_at": null,
+      "local_file": "somax_address.csv",
+      "path": "victims/waves-1-3.csv",
+      "repository": "somaxbt/coldcard-drain-addresses",
+      "retrieved_on": "2026-10-30",
+      "sha256": "d7b7ed21a66cc635b683e3af366896aeea0b029e38e1ef6aeac4501b0b27f81b",
+      "url": "https://github.com/somaxbt/coldcard-drain-addresses/blob/1e7fef87060808c29beaf9d137eb5ff9e37f8811/victims/waves-1-3.csv"
+    },
+    {
+      "bytes": 674755,
+      "commit": "1e7fef87060808c29beaf9d137eb5ff9e37f8811",
+      "commit_date": "2026-08-02T14:32:35Z",
+      "git_blob_sha": "10c3ee5c5557f9cc78435ef512b44c1ccab5c8d5",
+      "id": "somax_utxo",
+      "label_available_at": null,
+      "local_file": "somax_utxo.csv",
+      "path": "victims/waves-1-2-per-utxo-evidence.csv",
+      "repository": "somaxbt/coldcard-drain-addresses",
+      "retrieved_on": "2026-10-30",
+      "sha256": "e4a494afbd7eff3db7b0bf29d705f2fd0f492f2980684084219668d35f749d41",
+      "url": "https://github.com/somaxbt/coldcard-drain-addresses/blob/1e7fef87060808c29beaf9d137eb5ff9e37f8811/victims/waves-1-2-per-utxo-evidence.csv"
+    },
+    {
+      "bytes": 298011,
+      "commit": "f93cfed16302bb91c8409fdee9ce5576a34b7e52",
+      "commit_date": "2026-08-01T04:43:01Z",
+      "git_blob_sha": "baae021fd568394def4d75824c45be362931fd6a",
+      "id": "alva_tx",
+      "label_available_at": null,
+      "local_file": "alva_tx.csv",
+      "path": "evidence/onchain/drain-transactions.csv",
+      "repository": "alva-p/coldcard-weak-rng-research",
+      "retrieved_on": "2026-10-30",
+      "sha256": "3bf97a784e7d520ceec7e26461ece457add6ae95e9a02b1042720fdfe4234157",
+      "url": "https://github.com/alva-p/coldcard-weak-rng-research/blob/f93cfed16302bb91c8409fdee9ce5576a34b7e52/evidence/onchain/drain-transactions.csv"
+    },
+    {
+      "bytes": 4769,
+      "commit": "f93cfed16302bb91c8409fdee9ce5576a34b7e52",
+      "commit_date": "2026-08-01T04:43:01Z",
+      "git_blob_sha": "d5cafac1b01daa7872200afe2bbc1b1897781caf",
+      "id": "alva_method",
+      "label_available_at": null,
+      "local_file": "alva_method.md",
+      "path": "evidence/onchain/methodology.md",
+      "repository": "alva-p/coldcard-weak-rng-research",
+      "retrieved_on": "2026-10-30",
+      "sha256": "0352cc5c5c573b0b15b25e8c903b04aaae479e39e5a8454bfb265faaa817f89a",
+      "url": "https://github.com/alva-p/coldcard-weak-rng-research/blob/f93cfed16302bb91c8409fdee9ce5576a34b7e52/evidence/onchain/methodology.md"
+    }
+  ],
+  "target": "Externally reported/reconstructed case relationship, kept separate from verified compromise, seed origin and event signing.",
+  "unit": "Source address with exact reference payment and input-value observations.",
+  "unreviewed_discovery": [
+    "coldcardentropy.org/addresses returned 502 on direct opening; no downloaded data used",
+    "coldcardwatch.com was discovered, but its dynamic totals/list are not included in this comparison"
+  ]
+}

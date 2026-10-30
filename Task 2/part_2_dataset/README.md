@@ -22,6 +22,12 @@ now provides **500 complete, 0 errors, 0 incomplete and 0 pending** under docume
 The original protocol result remains unchanged. Individual labels and suitable
 controls remain missing; see the recovery's per-source eligibility and evidence review.
 
+
+The [external case corroboration](../research/coldcard/source_corroboration_20261030/README.md)
+provides a new `source_attributed` relationship layer for all 500 sources, with
+matching payments and input amounts. This layer is retrospective evidence;
+keep it separate from pre-payment predictors and verified compromise/device labels.
+
 ## Inputs and coverage
 
 The supplied corpus contains 98 selected blocks and 493,571 unique transactions. It is not the entire blockchain or the entire history of every address. The saved feature CSV is supplied separately and identified by SHA256; [Data access](../DATA_ACCESS.md) lists the required inputs.
