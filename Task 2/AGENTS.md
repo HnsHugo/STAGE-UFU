@@ -68,12 +68,26 @@ plans and older report recommendations.
   The guard originally missed URLError tunnel refusals; this is fixed and blocked
   resume issues no HTTP. Seventy-three source-path tests pass. Fifteen finished
   markers were recovered without requests after the execution session interrupted.
-  Next: resolve the actual network refusal through authorized access restoration
-  before collecting the 280 pending IDs. Do not repeatedly probe the denied API,
-  route around the refusal, or automatically retry the 668 errors/twelve incomplete
-  rows. Any recovery needs a distinct recorded pass retaining the original results.
-  All forty complete comparisons are in the first block; this attrition and the
-  incomplete collection block the planned exploratory fit. See the
+  That initial snapshot is historical and preserved. Original-route HTTP 200
+  subsequently permitted a distinct 948-source recovery, saved in
+  `research/coldcard/comparison_network_recovery_20261030/`: 297 attempts,
+  233 complete, 62 incomplete, two HTTP 429 errors and 651 pending. All 295
+  successful raw responses re-extract. The immediate-stop guard retained unstarted
+  sources. A distinct 653-source `comparison_rate_limit_continuation_20261030`
+  pass waited over fifteen minutes and reduced the global rate from three to one
+  request/second; both started attempts still received 429, with 651 pending.
+  Its audited combined view retains all 1,500 selected rows and all pass outcomes:
+  500 complete cases, 273 complete comparisons, 74 incomplete comparisons,
+  373 latest known errors and 280 never attempted. Eighty-five source-path tests
+  pass. All 40 original complete and 12 original incomplete results are preserved.
+  No model/split or collector is active. The current blocker is HTTP 429, not the
+  earlier tunnel 403. Do not repeatedly probe, route around it or silently restart
+  a stopped pass; the one recorded cooldown continuation is exhausted. No
+  Retry-After value was supplied in its saved responses. Reassess permitted access
+  after a longer cooldown before preparing another separately recorded pass.
+  Preserve every earlier outcome and exclude complete/incomplete rows from network
+  recovery. Incomplete histories need a distinct coverage decision. No complete
+  comparisons exist for blocks 960190/960191, blocking the planned fit. See the
   30 October priority review in ALIGNMENT.md. Further public reports are bounded
   enrichment, not a requirement to obtain 500 personal testimonies. Preserve
   author/incident groups and unknown dates; keep reported positives separate from verified labels and

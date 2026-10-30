@@ -1,0 +1,19 @@
+{
+  "all_original_and_first_recovery_results_preserved": true,
+  "attempted_sources": 2,
+  "automatic_retry_within_pass": false,
+  "checkpoint_sha256": "19150af7885b169a801e4b019ec4e51186d38220ae73d7c7e8937e29eb97292d",
+  "collector_active": false,
+  "complete_sources": 0,
+  "error_sources": 2,
+  "further_retry_started": false,
+  "http_statuses": [
+    429
+  ],
+  "incomplete_sources": 0,
+  "original_route_provider_and_tls_preserved": true,
+  "pending_sources": 651,
+  "reason": "HTTP 429 persists after the recorded fifteen-minute cooldown and reduced one-request/second rate. Both already-started attempts retained; no further continuation launched.",
+  "retry_after_header_supplied": false,
+  "schema_version": 1
+}

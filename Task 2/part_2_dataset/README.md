@@ -42,11 +42,17 @@ identifiers, case evidence, owner reports and reference-payment outcomes are exc
 The [same-block comparison selection](../research/coldcard/source_comparison_selection_20261030/README.md)
 now fixes 1,000 additional source identifiers for the exploratory core-membership
 study. These are selected input addresses, not recipient controls or certified
-legitimate addresses. The [collection result](../research/coldcard/comparison_histories_20261030/README.md)
-now supplies forty complete comparison vectors, twelve incomplete histories,
-668 request errors and 280 pending sources. An HTTPS-tunnel 403 block is the
-current collection blocker. The original 500 case records remain unchanged;
-the comparison set is not feature-complete or ready for the planned fit.
+legitimate addresses. The [initial collection](../research/coldcard/comparison_histories_20261030/README.md)
+is preserved. A [separate recovery](../research/coldcard/comparison_network_recovery_20261030/README.md)
+added 233 complete histories; the [cooldown continuation](../research/coldcard/comparison_rate_limit_continuation_20261030/README.md)
+records a persistent HTTP 429 limit after reduced-rate resumption. Its combined
+view retains all 1,500 selected rows: 500 complete cases, 273 complete comparisons,
+74 incomplete comparisons, 373 comparisons with latest known errors and 280
+never attempted. Of the stopped continuation's 651 pending IDs, 371 retain old
+errors and 280 are never attempted. Unknown features remain null. The 773 complete
+vectors contain only fourteen prior-block predictors. All original case and
+comparison evidence is preserved. The comparison set remains incomplete and the
+planned fit has not run.
 
 ## Inputs and coverage
 

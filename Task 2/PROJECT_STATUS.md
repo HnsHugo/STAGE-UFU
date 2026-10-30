@@ -51,11 +51,20 @@ The [comparison protocol](research/coldcard/source_comparison_design_20261030/RE
 now states a narrow exploratory core-membership target and evaluation. Its
 [same-block selector](research/coldcard/source_comparison_selection_20261030/README.md)
 has retained 1,000 fixed comparisons from 5,025 eligible sources. Their
-[history collection](research/coldcard/comparison_histories_20261030/README.md)
-now has 40 complete, twelve incomplete, 668 errors and 280 pending after 720
-attempts. An HTTPS-tunnel 403 block caused 662 errors; six are timeouts. The
-missed tunnel-denial form in the stop guard is fixed. Next: authorized network
-restoration before pending collection, then a separately recorded recovery policy.
+[initial history collection](research/coldcard/comparison_histories_20261030/README.md)
+is preserved at 40 complete, twelve incomplete, 668 errors and 280 pending.
+Original-route HTTP 200 allowed a distinct
+[948-source recovery](research/coldcard/comparison_network_recovery_20261030/README.md):
+297 attempts yielded 233 complete, 62 incomplete and two HTTP 429 errors, leaving
+651 pending. A [653-source cooldown continuation](research/coldcard/comparison_rate_limit_continuation_20261030/README.md)
+waited over fifteen minutes, reduced the global rate to one request/second and
+stopped after two further HTTP 429 results. No other source started. The latest
+combined view retains 500 complete cases plus 1,000 selected comparisons:
+273 complete, 74 incomplete, 373 latest known errors and 280 never attempted.
+The stopped continuation has 651 pending IDs; 371 retain old errors and 280 are
+never attempted. All original outcomes and 295 recovery raw responses are audited;
+85 source-path regressions pass. The current blocker is persistent HTTP 429,
+not the earlier tunnel 403. No collector is active.
 Further public reports
 are bounded enrichment; obtaining individual testimony for every address was not
 a documented professor requirement.
@@ -63,6 +72,14 @@ Collector rankings remain supporting results. No model was fitted.
 
 ## Completed work
 
+- [Preserved recovery and cooldown continuation](research/coldcard/comparison_rate_limit_continuation_20261030/README.md):
+  233 new complete and 62 incomplete histories retained; all 295 raw responses
+  re-extract. The immediate stop guard limited the first HTTP 429 interruption to
+  two started attempts. One distinct slower continuation after fifteen minutes
+  also received two 429s, with no further source scheduled. Both pass checkpoints,
+  all initial results and the 500 case vectors are preserved. A reproducible
+  1,500-row view retains all three pass outcomes and the 14-feature allowlist;
+  773 rows have complete predictors. No model or split. All 85 source-path tests pass.
 - [Comparison collection and blocked-network recovery](research/coldcard/comparison_histories_20261030/README.md):
   36 fixed batches / 720 attempts, 40 complete, twelve incomplete, 668 errors and
   280 pending. All 52 raw histories were re-extracted and fifteen finished attempt
@@ -271,23 +288,18 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-The original 500-source history collection and supplemental recovery are exhausted.
-The comparison/evaluation protocol and actual 1,000-source selection are now saved.
-Its bounded collector has now saved 720 attempts: 40 complete, twelve incomplete,
-668 errors and 280 pending. The current blocker is an HTTPS CONNECT tunnel 403
-refusal, now recognized by the stop guard. Resolve that refusal through authorized
-access restoration before pending collection; do not route around it or keep
-probing the API. The corrected blocked checkpoint performs no new requests.
-Preserve this initial pass; any error/incomplete retry requires a distinct
-recorded recovery pass. The 280 pending IDs are `comparison_0721`–`comparison_1000`.
-Current complete comparisons are confined to the first block, preventing the
-planned experiment. No fitting until collection, attrition and group gates permit it.
-Uncertain background is not a legitimate/theft-negative class; only operational
-core membership has a zero target. Preserve the explicit predictor allowlist.
-Do not use known collectors, later evidence or case labels as prior-block
-predictors. Additional exact reports enrich this view when a concrete lead exists;
-they are not the sole next action. Keep seed origin separate from signing-device
-use. Specify the intended model target, target-matched comparisons and
-an independent group/temporal evaluation design before supervised fitting; an
-explicit proxy study would require its own target and limitations. Do not
-silently transfer case-level reporting into individual ground truth.
+Collection is stopped at a persistent provider HTTP 429 rate limit. A fifteen-minute
+cooldown and a threefold lower request rate did not clear it; no Retry-After value
+was supplied in the saved continuation responses. Do not keep probing, route
+around the restriction, or silently restart either stopped pass. Preserve the
+273 complete and 74 bounded-incomplete comparison outcomes, all original case
+records and every earlier error. The remaining network-gap IDs are
+`comparison_0348`–`comparison_1000`: two latest 429 errors and 651 pending in the
+stopped continuation. Reassess permitted provider access after a longer cooldown
+before preparing any additional distinct pass; none is running or scheduled.
+The 74 bounded-incomplete histories require a separate coverage decision, not a
+network retry. Audit attrition and connected-component group gates before any
+exploratory fit; blocks 960190/960191 currently have no complete comparisons.
+Uncertain background is not a legitimate/theft-negative class. Keep the predictor
+allowlist and separate operational core membership from compromise/device claims.
+Further exact reports are bounded enrichment when a concrete new lead exists.

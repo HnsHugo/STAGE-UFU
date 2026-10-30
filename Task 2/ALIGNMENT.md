@@ -156,11 +156,21 @@ unknown. The [bounded history collection](research/coldcard/comparison_histories
 has now made 720 fixed attempts: 40 complete, twelve incomplete, 668 errors and
 280 pending. A network tunnel 403 refusal accounts for 662 errors; the original
 stop guard missed this urllib error form and is now fixed. All 52 saved responses
-re-extract, and all 500 case features remain unchanged. **Next unit:** restore
-authorized network access before pending collection; a distinct recovery pass is
-needed for terminal errors/incomplete histories. Preserve every original outcome.
-The forty complete comparisons are all in the first block, so the current
-attrition prevents the planned exploratory fit.
+re-extract, and all 500 case features remain unchanged. That initial snapshot
+is historical. A subsequent original-route HTTP 200 allowed a separate
+[network recovery](research/coldcard/comparison_network_recovery_20261030/README.md),
+adding 233 complete and 62 incomplete histories before a first-denial HTTP 429
+stop. A [cooldown continuation](research/coldcard/comparison_rate_limit_continuation_20261030/README.md)
+waited over fifteen minutes and reduced the global rate from three to one request
+per second; two started attempts still returned 429, leaving 651 pending. Both
+stopped passes and all original results are preserved. The reproducible combined
+view has 500 complete cases and 273 complete comparisons, 74 incomplete comparisons,
+373 latest known comparison errors and 280 never attempted. Eighty-five source-path
+tests pass. No collector, split or model is active. No complete comparisons exist
+for the last two blocks, so the planned exploratory fit remains blocked. Do not
+keep probing or route around the persistent rate limit. Further network recovery
+requires a distinct recorded pass after permitted access/cooldown reassessment;
+bounded-incomplete histories require a separate coverage decision.
 Additional exact public reports are supporting enrichment, not
 the default critical path. Seed origin, compromised control and signing
 device at the event remain separate. Do not restart exhausted collection or

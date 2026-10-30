@@ -19,10 +19,17 @@ The [consolidated source view](research/coldcard/source_dataset_20261030/README.
 now joins all 500 unchanged fourteen-feature records and their distinct evidence
 tiers, with descriptive findings. The [comparison design and selection](research/coldcard/source_comparison_selection_20261030/README.md)
 now add a frozen sample of 1,000 same-block input sources for an explicit
-exploratory core-membership study. Their [bounded collection](research/coldcard/comparison_histories_20261030/README.md)
-is blocked by a network tunnel 403: 40 complete, twelve incomplete, 668 errors
-and 280 pending. The stop guard is corrected; 73 source-path tests pass. Their
-compromise/device status remains unknown and no address model is fitted.
+exploratory core-membership study. The [initial collection](research/coldcard/comparison_histories_20261030/README.md)
+is preserved. After original-route access returned, a
+[separate recovery](research/coldcard/comparison_network_recovery_20261030/README.md)
+added 233 complete and 62 incomplete histories before HTTP 429. A
+[slower cooldown continuation](research/coldcard/comparison_rate_limit_continuation_20261030/README.md)
+also met HTTP 429 and stopped after two attempts. The combined 1,500-row view has
+500 complete cases and 273 complete comparisons; 74 comparisons are incomplete,
+373 retain latest errors and 280 have never been attempted. There are 651 IDs
+pending in the stopped continuation. All original results are retained; 85
+source-path tests pass. Compromise/device status remains unknown and no address
+model has been fitted or split created. Collection is stopped, with the rate limit unresolved.
 The [external corroboration](research/coldcard/source_corroboration_20261030/README.md)
 now provides a source-attributed case layer for all 500 addresses, with exact
 agreement against two published reconstructions. Individual victim/device

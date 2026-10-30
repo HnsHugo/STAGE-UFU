@@ -1,0 +1,355 @@
+{
+  "all_500_original_case_features_and_labels_preserved": true,
+  "all_original_comparison_export_hashes_preserved": true,
+  "blocked_resume_http_requests": 0,
+  "blocked_resume_output_bytes_unchanged": true,
+  "combined_summary": {
+    "address_dataset_sha256": "52b484196806f60eeb5f20d204207961117ac6b2d3cb91cb729483e441f078bc",
+    "by_reference_block": [
+      {
+        "case_selected": 63,
+        "comparison_statuses": {
+          "complete": 99,
+          "incomplete": 27
+        },
+        "height": 960188
+      },
+      {
+        "case_selected": 110,
+        "comparison_statuses": {
+          "complete": 174,
+          "incomplete": 46
+        },
+        "height": 960189
+      },
+      {
+        "case_selected": 168,
+        "comparison_statuses": {
+          "error": 335,
+          "incomplete": 1
+        },
+        "height": 960190
+      },
+      {
+        "case_selected": 159,
+        "comparison_statuses": {
+          "error": 38,
+          "pending": 280
+        },
+        "height": 960191
+      }
+    ],
+    "combined_complete_sources": 773,
+    "combined_selected_sources": 1500,
+    "comparison_statuses": {
+      "complete": 273,
+      "error": 373,
+      "incomplete": 74,
+      "pending": 280
+    },
+    "complete_case_sources": 500,
+    "independently_verified_compromise_labels": 0,
+    "independently_verified_device_labels": 0,
+    "inputs": {
+      "case_view_sha256": "ceceab50d0242e5ba0195d7d2f456cbfb77173cb262460e441a41776d5215d9d",
+      "initial_checkpoint_sha256": "ff6cfc70756486bbd2546cf23395ebc0402f8ac9998ce904a5befbc8867f3c44",
+      "previous_recovery_checkpoint_sha256": "05c63262b171f32e042f7de371ecc160b5fa6136e9b42d68a5788a47f34165ec",
+      "previous_recovery_protocol_sha256": "5c45bd4651b6fb3dfb4dd1f739b18113e04b2d0463ae34e2696eec2f297b8f3f",
+      "recovery_checkpoint_sha256": "19150af7885b169a801e4b019ec4e51186d38220ae73d7c7e8937e29eb97292d",
+      "recovery_protocol_sha256": "411fb6bf63c1a496439761d90a147cc88d8e7557aca7a6d4e00a7f77ed478006"
+    },
+    "limitations": [
+      "Only complete rows have fourteen predictors; unavailable features stay null",
+      "History completeness depends on full-history bounds; inspect completion by class/block before an exploratory fit",
+      "Comparison membership zero is not legitimate/theft-negative/hardware-negative ground truth",
+      "One previously inspected incident does not provide independent-incident or prospective validation"
+    ],
+    "model_fitted": false,
+    "original_complete_comparisons_preserved": 40,
+    "original_files_overwritten": false,
+    "original_incomplete_comparisons_preserved": 12,
+    "recovery_pending_sources": 651,
+    "schema_version": 1,
+    "selected_case_sources": 500,
+    "selected_comparison_sources": 1000,
+    "source_reported_loss_labels": 1,
+    "split_created": false
+  },
+  "continuation_requests_per_second": 1,
+  "continuation_retry_after_header_supplied": false,
+  "cooldown_continuation_coverage": {
+    "attempted_sources": 2,
+    "by_reference_block": [
+      {
+        "complete": 0,
+        "errors": 2,
+        "height": 960190,
+        "incomplete": 0,
+        "pending": 333,
+        "selected": 335
+      },
+      {
+        "complete": 0,
+        "errors": 0,
+        "height": 960191,
+        "incomplete": 0,
+        "pending": 318,
+        "selected": 318
+      }
+    ],
+    "comparison_compromise_hardware_labels": "unknown",
+    "complete_sources": 0,
+    "error_sources": 2,
+    "error_types": {
+      "HTTPError": 2
+    },
+    "feature_count": 14,
+    "incomplete_sources": 0,
+    "pending_sources": 651,
+    "prior_transaction_observations": 0,
+    "selected_sources": 653,
+    "sources_with_prior_spending": 0,
+    "training_performed": false
+  },
+  "cooldown_seconds_at_least": 900,
+  "current_code_hashes": {
+    "audit_comparison_histories.py": "0852a4147bff779c67d841574eb25e4c5bfbbd5dcf74ab4755b370f8e4fe8bd9",
+    "collect_comparison_histories.py": "dd2562cdcc8aa99d72879716e6fe20642c2c96c1380dac92335e79c50bc6fbc3",
+    "combine_comparison_histories.py": "1f27a5c0bd4a1c3ee0ef11ece14ad6a4aadfa9ce04af3b4c41380738022982bb",
+    "comparison_http.py": "79793179e8c1bb153ade9a7fa742ed7a4a766bb6e039c791d880d24d5a484915"
+  },
+  "first_rate_limit_stop_after_two_started_attempts": true,
+  "first_recovery_coverage": {
+    "attempted_sources": 297,
+    "by_reference_block": [
+      {
+        "complete": 59,
+        "errors": 0,
+        "height": 960188,
+        "incomplete": 15,
+        "pending": 0,
+        "selected": 74
+      },
+      {
+        "complete": 174,
+        "errors": 0,
+        "height": 960189,
+        "incomplete": 46,
+        "pending": 0,
+        "selected": 220
+      },
+      {
+        "complete": 0,
+        "errors": 2,
+        "height": 960190,
+        "incomplete": 1,
+        "pending": 333,
+        "selected": 336
+      },
+      {
+        "complete": 0,
+        "errors": 0,
+        "height": 960191,
+        "incomplete": 0,
+        "pending": 318,
+        "selected": 318
+      }
+    ],
+    "comparison_compromise_hardware_labels": "unknown",
+    "complete_sources": 233,
+    "error_sources": 2,
+    "error_types": {
+      "HTTPError": 2
+    },
+    "feature_count": 14,
+    "incomplete_sources": 62,
+    "pending_sources": 651,
+    "prior_transaction_observations": 6200,
+    "selected_sources": 948,
+    "sources_with_prior_spending": 103,
+    "training_performed": false
+  },
+  "independent_recount_method": "Direct pre-cutoff raw transaction/input/output counts and integer values, outpoint set difference, distinct heights, block ages and spending fee-rate medians; no production prefix/feature function called.",
+  "limitations": [
+    "773/1500 selected rows are feature complete; comparisons remain incomplete, with no complete rows in the last two reference blocks",
+    "Operational membership zero is not certified legitimate/theft-negative/device-negative",
+    "No verified per-address compromise/device target or independent-incident validation is established"
+  ],
+  "local_raw_histories_reextracted": 295,
+  "new_complete_feature_vectors_independently_recounted_from_raw": 233,
+  "no_collector_holds_lock": true,
+  "no_further_continuation_started": true,
+  "offline_checkpoint_batch_feature_audit_and_combined_view_reproduction": true,
+  "original_40_complete_and_12_incomplete_comparisons_preserved": true,
+  "original_provider_route_tls_preserved": true,
+  "recovery_233_complete_and_62_incomplete_preserved": true,
+  "recovery_outputs": {
+    "comparison_network_recovery_20261030": {
+      "README.md": {
+        "bytes": 3965,
+        "sha256": "a63325a5f3db1d85c5f83a3bb230ceaff677937a149059135f2ff96459fd3fcd"
+      },
+      "access_check.json": {
+        "bytes": 260,
+        "sha256": "fff5261f35aa2f54ea7394fd47ae7c01ea74dbfba21baf8891edda8c8cca7f80"
+      },
+      "address_dataset.json.gz": {
+        "bytes": 163449,
+        "sha256": "507f6d881ef527e7de51e8641a5d2ea483a081120fca15c36281fddf45a8d46c"
+      },
+      "batch_0001.json.gz": {
+        "bytes": 67954,
+        "sha256": "ccdb2bfb5dadeea17e437468645ae3fd2254a75a4c73afc5bae5d7c3c17e5610"
+      },
+      "batch_0002.json.gz": {
+        "bytes": 103255,
+        "sha256": "f72546c7e5f9611c47cd71e4284470ee063c5ceb414c425c75e2db85f946577a"
+      },
+      "batch_0003.json.gz": {
+        "bytes": 30159,
+        "sha256": "f4947e2f38dddd9aa3deea6d45b394c5b35d3a15dde72c27b76df63811cae914"
+      },
+      "batch_0004.json.gz": {
+        "bytes": 36854,
+        "sha256": "37ac1fa1db802c2c0980d3d0f33edb276553cacfc80977e503845cb7a53dc661"
+      },
+      "batch_0005.json.gz": {
+        "bytes": 40649,
+        "sha256": "cb7d782d18475e4b9dbbe7979c970a2fff91bacda6f6425fdf3300749cf47515"
+      },
+      "batch_0006.json.gz": {
+        "bytes": 33797,
+        "sha256": "614b3914b7efddf4e59a50790eae24dfdc8d7fdc94ac2e8cf0752ed547e4f672"
+      },
+      "batch_0007.json.gz": {
+        "bytes": 40731,
+        "sha256": "85d1dcc458b84055d5a6dbc8a7299129bcf1d5fcf1e28000f10f364f133b14e1"
+      },
+      "batch_0008.json.gz": {
+        "bytes": 18763,
+        "sha256": "8fdd65327a3a0eef145163badaa7931b42f224411d07ee42070f175b54625d29"
+      },
+      "batch_0009.json.gz": {
+        "bytes": 15788,
+        "sha256": "cb3fb1b6a3cabd5692436d6894edcce03624d79739b48aeb8cdc16b5a1447012"
+      },
+      "batch_0010.json.gz": {
+        "bytes": 25931,
+        "sha256": "81c3539cedd1bc059cc9bfa50768bb3c4d3c05fd9147a08103670457deb0dbbf"
+      },
+      "batch_0011.json.gz": {
+        "bytes": 52328,
+        "sha256": "2082b0564a8aad42a5db98bd6763e51c752bd99eb39785e7eaaef711196f474a"
+      },
+      "batch_0012.json.gz": {
+        "bytes": 24003,
+        "sha256": "46ab77e44b7efd74af23849bc8ee732cac482b476d44869e5edd9c2c349ed887"
+      },
+      "batch_0013.json.gz": {
+        "bytes": 31328,
+        "sha256": "9f2b88844de6c3a356a3518f6aa6274a786ceb146ab75d743cb2ee2b5406bf71"
+      },
+      "batch_0014.json.gz": {
+        "bytes": 68833,
+        "sha256": "ae855c6458d2e6ed426b5b61493b439b4a4c7f0029098c37af376662166fdee6"
+      },
+      "batch_0015.json.gz": {
+        "bytes": 23428,
+        "sha256": "5a32a87abe3a9cb9eafff1c24a016152400d4aaebd2b0c2099c1930b9ef13acf"
+      },
+      "batches.json": {
+        "bytes": 2481,
+        "sha256": "6f961d35e5fbeb33ca91adafdc74e99dea40b0a5060cffd4467747ba2dad89f9"
+      },
+      "checkpoint.json.gz": {
+        "bytes": 600808,
+        "sha256": "05c63262b171f32e042f7de371ecc160b5fa6136e9b42d68a5788a47f34165ec"
+      },
+      "collection_audit.json": {
+        "bytes": 4463,
+        "sha256": "9e50cbfbd6fc4a8b24ddbbde8cb8414a30cdfabe2d38ff8080950a350cdda16a"
+      },
+      "collection_stop.json": {
+        "bytes": 823,
+        "sha256": "8fc5d1f7c613b1303047b547fb796c9aa5cd0d7c8d9e7c5c19fecd5c60d1aa42"
+      },
+      "combined_summary.json": {
+        "bytes": 2241,
+        "sha256": "1bcb87595f95d915e11a5add75bca60d0a1c4c34c6146548cc84a2de53ac7c16"
+      },
+      "features.json.gz": {
+        "bytes": 78668,
+        "sha256": "24c79f590636b251530d6aed542deea72f492330d59511f5cd127d6eadbfa056"
+      },
+      "first_batch_audit.json": {
+        "bytes": 4344,
+        "sha256": "08633677082895bb95a4bb7dea9e6005653ff053fa2f5fac6112dcca5cac8a7e"
+      },
+      "plan.json.gz": {
+        "bytes": 74405,
+        "sha256": "92ddd991b520eb1f3fdfd512a222d562d7332fa455ed93f37acb0ce0eb5a1a9e"
+      },
+      "progress.json": {
+        "bytes": 998,
+        "sha256": "4b94f395482c00583713cc38e5dbea195450e6c60c90b3ae96ed1d02a15bca47"
+      }
+    },
+    "comparison_rate_limit_continuation_20261030": {
+      "README.md": {
+        "bytes": 4740,
+        "sha256": "95646c35ea71818c416e2019c6845a99becc29ac9b31a6f6a13d4d5f5b5a402f"
+      },
+      "address_dataset.json.gz": {
+        "bytes": 165609,
+        "sha256": "52b484196806f60eeb5f20d204207961117ac6b2d3cb91cb729483e441f078bc"
+      },
+      "batch_0001.json.gz": {
+        "bytes": 779,
+        "sha256": "894a146f742fe76e9516389819656214b10e2a7071b5dd5952c5c70edf716f7e"
+      },
+      "batches.json": {
+        "bytes": 268,
+        "sha256": "4c6f014e00e833501a5b624a7c3de2bc9fc88ec048268095ccc9b80afdb90acb"
+      },
+      "checkpoint.json.gz": {
+        "bytes": 896,
+        "sha256": "19150af7885b169a801e4b019ec4e51186d38220ae73d7c7e8937e29eb97292d"
+      },
+      "collection_audit.json": {
+        "bytes": 3346,
+        "sha256": "e8e5e919a14e140e2c71587f3a4431a9057f22010bfaa31c3ff30000d9571732"
+      },
+      "collection_stop.json": {
+        "bytes": 721,
+        "sha256": "a73ccd00a526b5f8aa4a04b65b4602b2505e7906efc6c741d6a64f37414cba75"
+      },
+      "combined_summary.json": {
+        "bytes": 2461,
+        "sha256": "70edd7491a8aba203def15f95e6174800cca73a472e062846901099c951e7f11"
+      },
+      "features.json.gz": {
+        "bytes": 47214,
+        "sha256": "eb3b7839dd78a7b91b06f170d458588ed1c76234b224ea1b3108a3aacf303dbc"
+      },
+      "plan.json.gz": {
+        "bytes": 50594,
+        "sha256": "9c817e976565437bbeea1622cfedfd20eb4f2e778d841d469c110a155dfff145"
+      },
+      "progress.json": {
+        "bytes": 700,
+        "sha256": "06c4b2730015b44e0e40396e092aa7351c17bd2f65bb6af92ff0f93121b1e1a8"
+      }
+    }
+  },
+  "schema_version": 1,
+  "source_path_tests": {
+    "command": "python -m unittest discover -s \"Task 2/research/coldcard\" -p \"test_source_*.py\"",
+    "errors": 0,
+    "failures": 0,
+    "tests_run": 85
+  },
+  "split_created": false,
+  "status": "preserved_recovery_stopped_by_persistent_http_429",
+  "training_performed": false,
+  "verified_on": "2026-10-30"
+}
