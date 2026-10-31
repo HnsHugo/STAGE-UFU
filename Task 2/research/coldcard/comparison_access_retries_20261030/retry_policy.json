@@ -13,13 +13,12 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-10-31T06:01:26.780885+00:00",
-    "finished_at": "2026-10-31T03:13:39.146237+00:00",
-    "policy": "A running unexpired published lease prohibits another collector or probe.",
+    "expires_at": "2026-10-31T06:58:57.560944+00:00",
+    "policy": "Running unexpired lease prohibits any second collector/probe.",
     "protocol": "source_comparison_retry_protocol_20261031_0300.json",
     "protocol_sha256": "641f0a500543d0aa475c3bf72b5be49c0bb37a2e7a8707e97d7d3fc380f7d9e3",
-    "started_at": "2026-10-31T03:01:26.780885+00:00",
-    "state": "idle"
+    "started_at": "2026-10-31T03:58:57.560944+00:00",
+    "state": "running"
   },
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
@@ -31,7 +30,7 @@
   "latest_pass_pending_sources": 141,
   "latest_protocol": "source_comparison_retry_protocol_20261031_0300.json",
   "latest_result_file": "comparison_retry_20261031_0300/bounded_completion.json",
-  "latest_status": "bounded_five_batches_completed",
+  "latest_status": "resuming_next_five_batches",
   "latest_stop_file": "comparison_retry_20261030_2133/collection_stop.json",
   "latest_work": "source_cohort_work_comparison_retry_20261031_0300",
   "maximum_429_backoff_seconds": 86400,
