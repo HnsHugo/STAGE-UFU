@@ -1,7 +1,7 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
-  "authorization": "Explicit user request: Continue \u00e0 relancer; preserve prior work.",
+  "authorization": "Explicit user request: Continue à relancer; preserve prior work.",
   "authorized_on": "2026-10-30",
   "automation_confirmed_enabled": false,
   "automation_created_at": "2026-10-30T18:47:19.174817+00:00",
@@ -15,13 +15,12 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-10-31T08:00:52.057Z",
-    "finished_at": "2026-10-31T05:04:36.108736+00:00",
-    "policy": "Running unexpired lease prohibits any second collector/probe.",
-    "protocol": "source_comparison_retry_protocol_20261031_0300.json",
-    "protocol_sha256": "641f0a500543d0aa475c3bf72b5be49c0bb37a2e7a8707e97d7d3fc380f7d9e3",
-    "started_at": "2026-10-31T05:00:52.057Z",
-    "state": "idle"
+    "state": "running",
+    "started_at": "2026-10-31T16:45:30.677098+00:00",
+    "expires_at": "2026-10-31T19:45:30.677098+00:00",
+    "protocol": "source_comparison_extended_20261031_164508_protocol.json",
+    "protocol_sha256": "032f567a0e8d4ecdb691a744431882dd65b16e9a86df5f48ef7c9cd223632966",
+    "policy": "No second collector or probe while running and unexpired."
   },
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
@@ -33,7 +32,7 @@
   "latest_pass_pending_sources": 0,
   "latest_protocol": "source_comparison_retry_protocol_20261031_0300.json",
   "latest_result_file": "comparison_retry_20261031_0300/final_completion_20261031_0500.json",
-  "latest_status": "all_network_gaps_resolved",
+  "latest_status": "supplemental_incomplete_coverage_running",
   "latest_stop_file": "comparison_retry_20261030_2133/collection_stop.json",
   "latest_work": "source_cohort_work_comparison_retry_20261031_0300",
   "maximum_429_backoff_seconds": 86400,
@@ -56,5 +55,8 @@
   "schema_version": 1,
   "source_counter_checks_per_due_run": 1,
   "success_policy": "Continue only fixed latest error/unattempted IDs. Do not requery complete or bounded-incomplete histories. Every new retry pass pins all previous protocols/checkpoints/stops; no silent retry within a pass.",
-  "timezone": "America/Sao_Paulo"
+  "timezone": "America/Sao_Paulo",
+  "latest_coverage_protocol": "source_comparison_extended_20261031_164508_protocol.json",
+  "latest_coverage_output": "comparison_extended_20261031_164508",
+  "latest_coverage_work": "source_cohort_work_comparison_extended_20261031_164508"
 }
