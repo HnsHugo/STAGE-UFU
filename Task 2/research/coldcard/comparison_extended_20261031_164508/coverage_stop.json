@@ -1,0 +1,27 @@
+{
+  "stopped_at": "2026-10-31T16:57:30.582041+00:00",
+  "reason": "Observed workload exceeds eleven continuous network days. Save the completed bounded unit and partial page checkpoints; remaining collection requires durable streaming execution.",
+  "actual_stop": "Collector interrupted through its execution session; exit code 130.",
+  "unfinished_consumed_requests": [
+    {
+      "endpoint_sha256": "04e55de152fdf98430ba9e3a666543f46b369cd3dcd2f2c799d23dc73a297227",
+      "key": "page_000016",
+      "source_id": "comparison_0112",
+      "started_at": "2026-10-31T16:57:09.637235+00:00"
+    },
+    {
+      "endpoint_sha256": "534c175ed8abe747994c090c2c4ed2e69b4938afcdf688245f0c186995b8b9af",
+      "key": "page_000011",
+      "source_id": "comparison_0652",
+      "started_at": "2026-10-31T16:53:10.031877+00:00"
+    },
+    {
+      "endpoint_sha256": "4dea83fabb2670cc0bebfbbdd583a231ac0ea16fbc4eb1b9268083fa54ce2779",
+      "key": "page_000019",
+      "source_id": "comparison_0570",
+      "started_at": "2026-10-31T16:57:08.643217+00:00"
+    }
+  ],
+  "automatic_retry_performed": false,
+  "local_lock_released": true
+}

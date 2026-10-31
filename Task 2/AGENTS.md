@@ -1,5 +1,10 @@
 # Task 2 working instructions
 
+**Supplemental coverage — 31 October 2026 UTC:** Supplemental coverage recovered 24 complete comparison histories from the 160 previously bounded-incomplete rows. The new consolidated view contains 500 unchanged complete cases, 864 complete comparisons and 136 incomplete comparisons (1,364 complete vectors). All 24 new raw histories re-extract and all 24 new vectors were independently recounted; 668 saved response fingerprints were checked. Every former complete row, label, cutoff and historical result is preserved. The 160 observed counters imply at least 953,129 page requests (over eleven continuous days at one request per second), with a maximum history of 5,945,884 transactions. Collection is stopped and the lease is idle. Two interrupted consumed page requests remain explicit, without automatic retry. One complete orphan page response was recovered offline. Remaining work needs durable memory-bounded streaming execution and a separately pinned continuation; do not rerun this stopped pass. No model or split. The prior network-error automation remains disabled.
+
+Latest artifacts: `research/coldcard/comparison_extended_20261031_164508/`. Older counts below are historical.
+
+
 **31 October 2026 UTC — Verified final network recovery: 41 new attempts: 33 complete, eight bounded-incomplete and zero network errors. Combined: 500 unchanged complete cases, 840 complete and 160 bounded-incomplete comparisons; 1340 complete vectors. Network gaps: 0. All previous 200 pass entries and older complete/incomplete rows remain unchanged. The old 200 raw responses are unavailable locally; their fingerprints/normalized evidence and earlier audits are preserved. All available new responses re-extract; complete new vectors were independently recounted. Fourteen predictors, cutoff and unknown labels are unchanged. No model/split. Lease idle. Bounded-incomplete histories require a separate coverage decision.**
 
 Older counts below are historical.

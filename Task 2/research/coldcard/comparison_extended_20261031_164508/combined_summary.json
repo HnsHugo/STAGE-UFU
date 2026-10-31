@@ -1,0 +1,46 @@
+{
+  "address_dataset_sha256": "23d28dc33a7cc6f0712c9363bae0d8bc1819323efaeed3f07bb868d0ebd443ee",
+  "automatic_retry_performed": false,
+  "combined_complete": 1364,
+  "comparison_statuses": {
+    "complete": 864,
+    "incomplete": 136
+  },
+  "complete_cases": 500,
+  "failed_requests": [],
+  "feature_count": 14,
+  "full_counter_completeness_requirement_unchanged": true,
+  "full_transaction_count_max": 5945884,
+  "full_transaction_count_min": 378,
+  "independent_new_vectors_checked": 24,
+  "interrupted_consumed_requests": [
+    {
+      "endpoint_sha256": "04e55de152fdf98430ba9e3a666543f46b369cd3dcd2f2c799d23dc73a297227",
+      "key": "page_000016",
+      "source_id": "comparison_0112",
+      "started_at": "2026-10-31T16:57:09.637235+00:00"
+    },
+    {
+      "endpoint_sha256": "4dea83fabb2670cc0bebfbbdd583a231ac0ea16fbc4eb1b9268083fa54ce2779",
+      "key": "page_000019",
+      "source_id": "comparison_0570",
+      "started_at": "2026-10-31T16:57:08.643217+00:00"
+    }
+  ],
+  "labels_and_cutoff_unchanged": true,
+  "minimum_total_network_seconds_at_one_request_per_second": 953129,
+  "minimum_total_page_requests": 953129,
+  "new_complete": 24,
+  "orphan_responses_recovered_without_http": 1,
+  "previous_complete_rows_byte_preserved": true,
+  "previous_incomplete_results_preserved": true,
+  "protocol_sha256": "032f567a0e8d4ecdb691a744431882dd65b16e9a86df5f48ef7c9cd223632966",
+  "raw_histories_reextracted": 24,
+  "saved_pages": 484,
+  "saved_response_fingerprints_verified": 668,
+  "schema_version": 1,
+  "selected": 1500,
+  "split_created": false,
+  "training_performed": false,
+  "verified_at": "2026-10-31T16:59:11.193223+00:00"
+}
