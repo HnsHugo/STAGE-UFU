@@ -16,11 +16,12 @@
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
     "expires_at": "2026-11-01T01:10:41.943258+00:00",
+    "finished_at": "2026-10-31T22:12:52.505303+00:00",
     "policy": "An unexpired running lease prohibits every second collector or source probe.",
     "protocol": "source_reference_tail_pilot_20261031_221016_protocol.json",
     "protocol_sha256": "eca1c09687f90bc6171a4e970691425ce8f455f3b3e190497bd0c05f3ac5a86c",
     "started_at": "2026-10-31T22:10:41.943258+00:00",
-    "state": "running"
+    "state": "idle"
   },
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
@@ -39,10 +40,11 @@
   "latest_pass_pending_sources": 0,
   "latest_prefix_output": "reference_tail_pilot_20261031_221016",
   "latest_prefix_protocol": "source_reference_tail_pilot_20261031_221016_protocol.json",
+  "latest_prefix_result_file": "reference_tail_pilot_20261031_221016/pilot_validation.json",
   "latest_prefix_work": "source_cohort_work_reference_tail_pilot_20261031_221016",
   "latest_protocol": "source_comparison_retry_protocol_20261031_0300.json",
   "latest_result_file": "comparison_retry_20261031_0300/final_completion_20261031_0500.json",
-  "latest_status": "reference_tail_pilot_running",
+  "latest_status": "reference_tail_pilot_validated",
   "latest_stop_file": "comparison_retry_20261030_2133/collection_stop.json",
   "latest_work": "source_cohort_work_comparison_retry_20261031_0300",
   "maximum_429_backoff_seconds": 86400,

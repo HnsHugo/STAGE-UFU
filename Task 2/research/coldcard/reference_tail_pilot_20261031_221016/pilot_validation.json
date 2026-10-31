@@ -1,0 +1,95 @@
+{
+  "all_exact_matches": true,
+  "checkpoint_sha256": "be0f90c1cd59458185673e9febfe9e8858daa4b9eb6e15ee6e65f9100204d1a5",
+  "checks": [
+    {
+      "all_fourteen_features_exact_match": true,
+      "cutoff_height": 960188,
+      "expected_prior_transaction_count": 0,
+      "pages_fetched": 2,
+      "prefix_exact_match": true,
+      "source_id": "comparison_0020",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "all_fourteen_features_exact_match": true,
+      "cutoff_height": 960188,
+      "expected_prior_transaction_count": 319,
+      "pages_fetched": 14,
+      "prefix_exact_match": true,
+      "source_id": "comparison_0090",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "all_fourteen_features_exact_match": true,
+      "cutoff_height": 960189,
+      "expected_prior_transaction_count": 0,
+      "pages_fetched": 2,
+      "prefix_exact_match": true,
+      "source_id": "comparison_0186",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "all_fourteen_features_exact_match": true,
+      "cutoff_height": 960189,
+      "expected_prior_transaction_count": 252,
+      "pages_fetched": 12,
+      "prefix_exact_match": true,
+      "source_id": "comparison_0180",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "all_fourteen_features_exact_match": true,
+      "cutoff_height": 960190,
+      "expected_prior_transaction_count": 0,
+      "pages_fetched": 2,
+      "prefix_exact_match": true,
+      "source_id": "comparison_0368",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "all_fourteen_features_exact_match": true,
+      "cutoff_height": 960190,
+      "expected_prior_transaction_count": 348,
+      "pages_fetched": 15,
+      "prefix_exact_match": true,
+      "source_id": "comparison_0661",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "all_fourteen_features_exact_match": true,
+      "cutoff_height": 960191,
+      "expected_prior_transaction_count": 0,
+      "pages_fetched": 2,
+      "prefix_exact_match": true,
+      "source_id": "comparison_0695",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "all_fourteen_features_exact_match": true,
+      "cutoff_height": 960191,
+      "expected_prior_transaction_count": 299,
+      "pages_fetched": 13,
+      "prefix_exact_match": true,
+      "source_id": "comparison_0946",
+      "status": "complete_prior_prefix"
+    }
+  ],
+  "coverage_basis": "Exhausted cursor history from a verified frozen reference; API indexed-history ordering and funding closure, validated against full-history controls.",
+  "failed_requests": [],
+  "full_current_history_counter_coverage_verified": false,
+  "labels_changed": false,
+  "pilot_controls": 8,
+  "protocol_sha256": "eca1c09687f90bc6171a4e970691425ce8f455f3b3e190497bd0c05f3ac5a86c",
+  "reference_blocks": [
+    960188,
+    960189,
+    960190,
+    960191
+  ],
+  "requests_started": 79,
+  "schema_version": 1,
+  "scope": "Pre-cutoff predictors only; do not promote full-current-history completeness.",
+  "training_performed": false,
+  "verified_at": "2026-10-31T22:12:34.688193+00:00"
+}
