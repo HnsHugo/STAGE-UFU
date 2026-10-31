@@ -1,0 +1,9 @@
+{
+  "api_url": "https://github.com/Blockstream/esplora/blob/master/API.md",
+  "api_sha256_note": "Exact retrieved documentation is fingerprinted below.",
+  "rest_source_url": "https://github.com/Blockstream/electrs/blob/new-index/src/rest.rs",
+  "rest_blob": "ed15e9aad223d9686c82eabba493a2b21025ea3b",
+  "schema_source_url": "https://github.com/Blockstream/electrs/blob/new-index/src/new_index/schema.rs",
+  "schema_blob": "1cef91200cae8fa31ef69d41fe48fa8ae47fa195",
+  "behavior": "Confirmed history is newest first. A confirmed reference TXID selects its height and skips through that TXID before returning older indexed entries. A nonexistent cursor may yield an empty array, so reference and funding closure checks are required. This is an index-contract assessment, not an independent audit of the running server."
+}

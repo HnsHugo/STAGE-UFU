@@ -1,0 +1,61 @@
+{
+  "authorization": "User approved a targeted pre-cutoff pilot, exact comparison with complete histories, then use on the remaining 136 only if validation succeeds.",
+  "coverage_scope": "Strictly pre-cutoff confirmed prefix, not a full-current-history audit.",
+  "created_at": "2026-10-31T22:10:16.480958+00:00",
+  "failure_policy": "Stop on the first failed request, including first403/429. No automatic retry or provider/route/TLS change; consume started requests and retain cached pages.",
+  "inputs": {
+    "baseline_checkpoint": {
+      "file": "comparison_extended_20261031_164508/checkpoint.json.gz",
+      "sha256": "1776a79b06fe4415b2402ec09ba2b9d59797159559af9a319f8ab8713f405eea"
+    },
+    "baseline_protocol": {
+      "file": "source_comparison_extended_20261031_164508_protocol.json",
+      "sha256": "032f567a0e8d4ecdb691a744431882dd65b16e9a86df5f48ef7c9cd223632966"
+    },
+    "baseline_view": {
+      "file": "comparison_extended_20261031_164508/address_dataset.json.gz",
+      "sha256": "23d28dc33a7cc6f0712c9363bae0d8bc1819323efaeed3f07bb868d0ebd443ee"
+    },
+    "collector": {
+      "file": "collect_reference_tail.py",
+      "sha256": "c911691ce1f31be82fbfbb6ce7c589ab77da9da0dba7eb5ffc91ea42d0165c51"
+    },
+    "feature_extractor": {
+      "file": "prepayment_pilot.py",
+      "sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701"
+    },
+    "ledger": {
+      "file": "collect_comparison_coverage.py",
+      "sha256": "243432e042f413fe601db2f661e6afc072e7e3ddd518730de424a31efd2101df"
+    },
+    "provider_contract": {
+      "file": "reference_tail_pilot_20261031_221016/provider_contract_sources.json",
+      "sha256": "90316cf2e91a192f2ba2e08b4aa4faa924a072205603bc14177ffdc571353793"
+    },
+    "transport": {
+      "file": "comparison_http.py",
+      "sha256": "79793179e8c1bb153ade9a7fa742ed7a4a766bb6e039c791d880d24d5a484915"
+    }
+  },
+  "labels": "Unknown theft/device labels unchanged. No model or split.",
+  "max_pages_per_address": 16,
+  "pass_name": "reference_tail_pilot_20261031_221016",
+  "pilot_gate": "All eight selected controls must exhaust the anchored tail and exactly match the independently full-counter-verified baseline prefix and all fourteen predictors. No dataset row is modified by the pilot.",
+  "preflight_source": "comparison_0001",
+  "private_plan_sha256": "f0da2b5f80aaae929d8ac28a39d4ef15cae7b31ec91d0df842f127cbf91180e0",
+  "provider": "https://blockstream.info/api",
+  "requests_per_second": 1,
+  "schema_version": 1,
+  "source_ids": [
+    "comparison_0020",
+    "comparison_0090",
+    "comparison_0186",
+    "comparison_0180",
+    "comparison_0368",
+    "comparison_0661",
+    "comparison_0695",
+    "comparison_0946"
+  ],
+  "timeout_seconds": 15,
+  "workers": 2
+}
