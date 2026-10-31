@@ -1,0 +1,320 @@
+{
+  "all_1364_previous_vectors_unchanged": true,
+  "baseline_view_unchanged": true,
+  "case_complete": 500,
+  "comparison_predictors_available": 872,
+  "comparison_predictors_unavailable": 128,
+  "complete_predictor_rows": 1372,
+  "failed_requests": [
+    {
+      "endpoint_sha256": "3f1b1cc97c0d7b280e8c5d8fe26b1c19f4d88df9ec5e0e5be6ee16d896e132eb",
+      "error_type": "HTTPError",
+      "finished_at": "2026-10-31T22:25:20.791599+00:00",
+      "http_status": 429,
+      "key": "tail_0014",
+      "reason": "HTTP Error 429: Too Many Requests",
+      "source_id": "comparison_0190",
+      "started_at": "2026-10-31T22:25:18.797579+00:00"
+    },
+    {
+      "endpoint_sha256": "9e2f02a94f4f977c6a25a05bd98c93cc6a68ba10b2fa7d11f0ae5b20c6da984a",
+      "error_type": "HTTPError",
+      "finished_at": "2026-10-31T22:25:21.786387+00:00",
+      "http_status": 429,
+      "key": "tail_0008",
+      "reason": "HTTP Error 429: Too Many Requests",
+      "source_id": "comparison_0207",
+      "started_at": "2026-10-31T22:25:20.048144+00:00"
+    }
+  ],
+  "feature_count": 14,
+  "full_history_comparison_statuses": {
+    "complete": 864,
+    "incomplete": 136
+  },
+  "full_history_status_not_promoted": true,
+  "independent_new_vectors_checked": 8,
+  "labels_and_cutoff_unchanged": true,
+  "limitations": [
+    "Reference-tail completeness relies on the original provider indexed-history contract; the eight controls matched exact full-history prefixes.",
+    "This is not full-current-history counter reconciliation or independent cryptographic inclusion verification.",
+    "A bounded-incomplete tail has no predictor vector; unknown labels remain unknown."
+  ],
+  "new_complete_pre_cutoff_comparisons": 8,
+  "per_source": [
+    {
+      "observed_prior_transaction_count": 74,
+      "pages_fetched": 5,
+      "pagination_exhausted": true,
+      "source_id": "comparison_0001",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "observed_prior_transaction_count": 400,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0002",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 400,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0008",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 400,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0010",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 400,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0013",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 397,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0018",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 379,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0024",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 396,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0026",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 400,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0035",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 400,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0045",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 400,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0052",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 200,
+      "pages_fetched": 9,
+      "pagination_exhausted": true,
+      "source_id": "comparison_0053",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "observed_prior_transaction_count": 115,
+      "pages_fetched": 6,
+      "pagination_exhausted": true,
+      "source_id": "comparison_0062",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "observed_prior_transaction_count": 400,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0077",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 306,
+      "pages_fetched": 14,
+      "pagination_exhausted": true,
+      "source_id": "comparison_0080",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "observed_prior_transaction_count": 399,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0086",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 396,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0088",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 400,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0091",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 400,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0093",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 75,
+      "pages_fetched": 5,
+      "pagination_exhausted": true,
+      "source_id": "comparison_0097",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "observed_prior_transaction_count": 391,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0108",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 389,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0109",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 137,
+      "pages_fetched": 7,
+      "pagination_exhausted": true,
+      "source_id": "comparison_0112",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "observed_prior_transaction_count": 76,
+      "pages_fetched": 5,
+      "pagination_exhausted": true,
+      "source_id": "comparison_0119",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "observed_prior_transaction_count": 397,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0126",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 393,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0132",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 393,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0137",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 400,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0140",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 392,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0141",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 367,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0157",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 97,
+      "pages_fetched": 5,
+      "pagination_exhausted": true,
+      "source_id": "comparison_0159",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "observed_prior_transaction_count": 394,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0164",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 396,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0174",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 400,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0176",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 397,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0177",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 390,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0178",
+      "status": "bounded_incomplete"
+    },
+    {
+      "observed_prior_transaction_count": 394,
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0185",
+      "status": "bounded_incomplete"
+    }
+  ],
+  "precutoff_view_sha256": "5435d6164fdab7c1f220a013652bf67573c5aaebc8c6d2f78f48cb0652219614",
+  "raw_tails_reextracted": 37,
+  "saved_response_fingerprints_verified": 621,
+  "schema_version": 1,
+  "selected_sources": 1500,
+  "split_created": false,
+  "targeted_pending": 99,
+  "targeted_results": 37,
+  "targeted_sources": 136,
+  "targeted_statuses": {
+    "bounded_incomplete": 29,
+    "complete_prior_prefix": 8
+  },
+  "training_performed": false,
+  "verified_at": "2026-10-31T22:27:13.954622+00:00"
+}

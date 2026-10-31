@@ -1,0 +1,32 @@
+{
+  "attempted": 37,
+  "bounded_incomplete": 29,
+  "complete_prior_prefix": 8,
+  "failed_requests": [
+    {
+      "endpoint_sha256": "3f1b1cc97c0d7b280e8c5d8fe26b1c19f4d88df9ec5e0e5be6ee16d896e132eb",
+      "error_type": "HTTPError",
+      "finished_at": "2026-10-31T22:25:20.791599+00:00",
+      "http_status": 429,
+      "key": "tail_0014",
+      "reason": "HTTP Error 429: Too Many Requests",
+      "source_id": "comparison_0190",
+      "started_at": "2026-10-31T22:25:18.797579+00:00"
+    },
+    {
+      "endpoint_sha256": "9e2f02a94f4f977c6a25a05bd98c93cc6a68ba10b2fa7d11f0ae5b20c6da984a",
+      "error_type": "HTTPError",
+      "finished_at": "2026-10-31T22:25:21.786387+00:00",
+      "http_status": 429,
+      "key": "tail_0008",
+      "reason": "HTTP Error 429: Too Many Requests",
+      "source_id": "comparison_0207",
+      "started_at": "2026-10-31T22:25:20.048144+00:00"
+    }
+  ],
+  "full_history_status_not_promoted": true,
+  "pending": 99,
+  "requests_started": 623,
+  "selected": 136,
+  "training_performed": false
+}
