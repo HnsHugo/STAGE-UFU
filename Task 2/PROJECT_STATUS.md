@@ -2,21 +2,17 @@
 
 ## Current priority
 
-**Current repair:** the hourly task was enabled but had no recorded scheduled
-execution at the promised 18:08 São Paulo check. The immediate run and a later
-simplified control test were observed in failed state with no detailed cause or
-result. The configuration is not proof of working background execution.
-After a normal source-counter HTTP 200 at 21:33 UTC, a distinct
-[foreground successor](research/coldcard/comparison_retry_20261030_2133/README.md)
-was prepared for the 381 remaining gaps. Its
-[first-100-source milestone](research/coldcard/comparison_retry_20261030_2133/milestone_batch_0005/README.md)
-now records 85 complete, 15 incomplete and zero errors, with all 100 raw responses
-re-extracted. The saved combined view has **500 complete cases, 591 complete
-comparisons, 128 incomplete comparisons, one latest known error and 280 never
-attempted**. Complete comparisons now cover all four reference blocks (99, 174,
-286 and 32). Continue the remaining 281 sources directly while preserving the
-running lease. No model/split or label promotion. The older units below remain
-historical; the current action/status is this foreground repair.
+**Latest verified bounded collection:** after reconciliation of the expired lease
+and the newer stopped checkpoint, the saved four-hour cooldown was honored.
+[The successor](research/coldcard/comparison_retry_20261031_0300/README.md)
+collected five batches: **100 attempted, 90 complete, ten incomplete, no errors**.
+All 100 raw responses re-extract; all 90 complete vectors were independently
+recounted. The previous stopped pass's 122 vectors were also independently checked.
+The combined view has **500 unchanged complete cases, 718 complete comparisons,
+141 incomplete comparisons and 141 pending**, with zero latest comparison errors.
+There are 1,218 complete feature vectors among 1,500 selected rows. All earlier
+outcomes/labels remain intact. The lease is idle; no model/split is fitted.
+Earlier counts and failed-task accounts below remain historical.
 
 The original Teams instructions, meeting notes and Overleaf files now establish
 the missing second stage: **the dataset and classifier of robbed source
@@ -304,12 +300,11 @@ Parts 1–5 now form the main reading path. Scripts and historical results have 
 
 ## Next action
 
-Publish the verified first-100-source checkpoint and continue the remaining 281
-sources in the same non-denied foreground pass. Every batch is saved/verified
-before continuation, without retrying consumed markers. Preserve all prior
-complete/incomplete outcomes, references, cutoff and labels. The source-counter
-and foreground collection work, but both background tests are still marked failed
-without a detailed cause. Do not promise automatic execution from enabled status.
-Keep the running lease/OS lock protection. If another 403/429 occurs, stop, audit
-and save the actual state; otherwise finish the fixed eligible cohort. Pause the
-configured task after no network gaps remain. No model or split is fitted.
+Check the current policy and OS lock, then use one ordinary source-counter GET
+when due. Resume the same non-denied protocol over the remaining 141 IDs,
+`comparison_0860`–`comparison_1000`, for at most five batches. Do not requery any
+complete/incomplete or consumed attempt. Preserve provider/route/TLS, two workers,
+one request/second, sixteen pages, fifteen-second bounds, cutoff and unknown labels.
+Stop at first403/429, save and honor increasing backoff/Retry-After. After no network
+gaps remain, audit/save, verify GitHub and disable the current task. The 141
+bounded-incomplete histories remain separate coverage work; no fitting is performed.

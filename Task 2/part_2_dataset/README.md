@@ -1,5 +1,7 @@
 # Part 2 — Build and understand the dataset
 
+**Latest verified source collection:** the bounded successor saved 100 attempts: 90 complete, ten incomplete and no errors. The current 1,500-row view retains 500 unchanged complete cases, 718 complete comparisons, 141 incomplete comparisons and 141 pending, with zero latest comparison errors. See [current retry](../research/coldcard/comparison_retry_20261031_0300/README.md). Older counts below describe preserved historical units. No model/split or label promotion.
+
 [Previous: Part 1](../part_1_case_study/README.md) · [Main path](../README.md) · [Next: Part 3](../part_3_classifier/README.md)
 
 ## Goal

@@ -1,0 +1,43 @@
+{
+  "case_features_preserved": true,
+  "checkpoint_sha256": "1ad6e0de7630bc93cc4a285502b78b507cd12edaa600b33a4c5514130e30760b",
+  "coverage": {
+    "attempted_sources": 142,
+    "by_reference_block": [
+      {
+        "complete": 53,
+        "errors": 0,
+        "height": 960190,
+        "incomplete": 10,
+        "pending": 0,
+        "selected": 63
+      },
+      {
+        "complete": 69,
+        "errors": 2,
+        "height": 960191,
+        "incomplete": 8,
+        "pending": 239,
+        "selected": 318
+      }
+    ],
+    "comparison_compromise_hardware_labels": "unknown",
+    "complete_sources": 122,
+    "error_sources": 2,
+    "error_types": {
+      "HTTPError": 2
+    },
+    "feature_count": 14,
+    "incomplete_sources": 18,
+    "pending_sources": 239,
+    "prior_transaction_observations": 3376,
+    "selected_sources": 381,
+    "sources_with_prior_spending": 52,
+    "training_performed": false
+  },
+  "independent_raw_vectors_checked": 122,
+  "raw_histories_reextracted": 140,
+  "reconciled_at": "2026-10-31T03:13:39.144098+00:00",
+  "schema_version": 1,
+  "status": "reconciled_local_stopped_checkpoint_before_successor"
+}

@@ -1,5 +1,7 @@
 # Task 2 — Hardware-wallet case studies and Bitcoin transaction analysis
 
+**Latest verified source collection:** the bounded successor saved 100 attempts: 90 complete, ten incomplete and no errors. The current 1,500-row view retains 500 unchanged complete cases, 718 complete comparisons, 141 incomplete comparisons and 141 pending, with zero latest comparison errors. See [current retry](research/coldcard/comparison_retry_20261031_0300/README.md). Older counts below describe preserved historical units. No model/split or label promotion.
+
 **Start with Parts 1–4.** They explain the Coldcard coursework in order. Part 5 describes the next cross-case work. The supplementary benchmarks are preserved but are currently paused.
 
 **Current alignment:** [Professor instructions, verified progress and next task](ALIGNMENT.md).

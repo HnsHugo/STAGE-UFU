@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "test": "Replacement task with hourly exact_schedule and a simplified prompt; existing lease/cooldown required no HTTP",
+  "old_task_paused": true,
+  "replacement_title": "Reprise collecte Coldcard",
+  "configuration_enabled": true,
+  "timing_mode": "exact_schedule",
+  "schedule": "BEGIN:VEVENT\nDTSTART:20261030T215531Z\nRRULE:FREQ=HOURLY\nEND:VEVENT",
+  "recorded_status": "failed",
+  "scheduled_for": "2026-10-30T21:55:55.454300Z",
+  "started_at": "2026-10-30T21:55:57.100668Z",
+  "completed_at": "2026-10-30T21:56:04.642935Z",
+  "result_provided": false,
+  "detailed_cause_provided": false,
+  "background_execution_verified": false,
+  "interpretation": "The replacement was created and its run requested, but the service marked the observed run failed without a detailed cause/result. Foreground collection worked; successful automatic continuation has not been established."
+}

@@ -7,6 +7,19 @@ plans and older report recommendations.
 
 - Work only on `task-2-wallet-analysis`. Never merge into main, rewrite history,
   delete original evidence, incur costs or contact people.
+- Latest verified bounded successor: `source_comparison_retry_protocol_20261031_0300.json`
+  collected five batches (100 sources): 90 complete, ten incomplete, zero errors.
+  All 100 raw responses re-extract; all 90 vectors were independently recounted.
+  The combined view retains 500 unchanged cases and 718 complete comparisons,
+  141 incomplete comparisons and 141 pending, with no latest comparison errors.
+  All earlier complete/incomplete results and labels are preserved. The previous
+  four-hour delay was honored. The collector lease is idle. Resume this same
+  non-denied pass over `comparison_0860`–`comparison_1000`, at most five batches,
+  only after the required ordinary source-counter check and lease/lock check.
+  Do not repeat consumed markers or incomplete/complete histories. No model/split.
+  Existing unrelated working changes, including an older milestone checkpoint,
+  were preserved without staging. Earlier stop/failed-task accounts below are
+  historical; this bounded collection is actual observed execution evidence.
 - Latest 30 October resumption repair: the configured 18:08 São Paulo task had
   no recorded scheduled execution at 21:29 UTC. Its requested immediate run failed
   at 21:30 UTC without a detailed reason/result. Do not equate enabled configuration
