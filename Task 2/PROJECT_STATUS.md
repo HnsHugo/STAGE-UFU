@@ -1,5 +1,8 @@
 # Project status — 30 October 2026
 
+**Verified continuation — 31 October 2026 UTC:** the next five batches saved 100 new attempts: 89 complete, 11 bounded-incomplete, zero network errors. The current consolidated 1,500-row view contains 500 unchanged complete cases, 807 complete comparisons, 152 incomplete comparisons and 41 pending comparisons (1,307 complete vectors). All 200 raw responses in this pass re-extract; all 89 new complete vectors were independently recounted. The first 100 checkpoint is preserved in `comparison_retry_20261031_0300/milestone_batch_0005`. The lease is idle. Resume the same non-denied pass only over `comparison_0960`–`comparison_1000`, after lease/lock and due-time checks and one ordinary source-counter GET. Do not repeat complete/incomplete results or consumed markers. Fourteen predictors, cutoff and unknown labels remain unchanged; no model/split. Older progress paragraphs below are historical.
+
+
 ## Current priority
 
 **Latest verified bounded collection:** after reconciliation of the expired lease

@@ -6,52 +6,52 @@
       "case_complete": 159,
       "case_selected": 159,
       "comparison": {
-        "complete": 90,
+        "complete": 179,
         "errors": 0,
         "height": 960191,
-        "incomplete": 10,
-        "pending": 141,
+        "incomplete": 21,
+        "pending": 41,
         "selected": 241
       },
-      "comparison_completion_fraction": 0.37344398340248963,
+      "comparison_completion_fraction": 0.7427385892116183,
       "height": 960191
     }
   ],
   "case_complete": 500,
   "case_selected": 500,
-  "checkpoint_sha256": "ead7227b2eed1e62907b8023e4c6b079df37bc8d6e3bcee0f90214603ec79684",
+  "checkpoint_sha256": "68f4b001ebe3a673c67326049f273164cb21f2f540056bdff07a26394806964a",
   "collection_modes": {
-    "bounded_pagination": 90,
-    "counter_capacity_precheck": 10
+    "bounded_pagination": 180,
+    "counter_capacity_precheck": 20
   },
-  "comparison_completion_fraction": 0.37344398340248963,
+  "comparison_completion_fraction": 0.7427385892116183,
   "comparison_rows_with_full_feature_vector_identical_to_a_case_row": 0,
   "comparison_sources_sharing_prior_transaction_with_case": 0,
   "coverage": {
-    "attempted_sources": 100,
+    "attempted_sources": 200,
     "by_reference_block": [
       {
-        "complete": 90,
+        "complete": 179,
         "errors": 0,
         "height": 960191,
-        "incomplete": 10,
-        "pending": 141,
+        "incomplete": 21,
+        "pending": 41,
         "selected": 241
       }
     ],
     "comparison_compromise_hardware_labels": "unknown",
-    "complete_sources": 90,
+    "complete_sources": 179,
     "error_sources": 0,
     "error_types": {},
     "feature_count": 14,
-    "incomplete_sources": 10,
-    "pending_sources": 141,
-    "prior_transaction_observations": 3157,
+    "incomplete_sources": 21,
+    "pending_sources": 41,
+    "prior_transaction_observations": 5545,
     "selected_sources": 241,
-    "sources_with_prior_spending": 38,
+    "sources_with_prior_spending": 70,
     "training_performed": false
   },
-  "distinct_comparison_prior_transaction_references": 3138,
+  "distinct_comparison_prior_transaction_references": 5490,
   "error_types": {},
   "explicit_separate_network_recovery": true,
   "limitations": [
@@ -61,16 +61,16 @@
     "Shared transactions and identical features are overlap diagnostics, not ownership proof; preserve connected components before any exploratory split",
     "One previously inspected incident does not supply independent-incident or prospective detection validation"
   ],
-  "local_raw_histories_reextracted": 100,
-  "missing_historical_spending_fee_rates": 52,
-  "observed_full_history_tx_count_max": 43121,
+  "local_raw_histories_reextracted": 200,
+  "missing_historical_spending_fee_rates": 109,
+  "observed_full_history_tx_count_max": 114939,
   "observed_full_history_tx_count_min": 2,
   "original_case_checkpoint_and_features_preserved": true,
   "protocol_sha256": "641f0a500543d0aa475c3bf72b5be49c0bb37a2e7a8707e97d7d3fc380f7d9e3",
   "published_raw_fingerprints_without_local_bytes": 0,
   "raw_statuses": {
-    "complete": 90,
-    "incomplete": 10
+    "complete": 179,
+    "incomplete": 21
   },
   "replacement_or_retry_performed": true,
   "replacement_performed": false,

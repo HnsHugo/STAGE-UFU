@@ -1,5 +1,8 @@
 # Part 2 — Build and understand the dataset
 
+**Verified continuation — 31 October 2026 UTC:** the next five batches saved 100 new attempts: 89 complete, 11 bounded-incomplete, zero network errors. The current consolidated 1,500-row view contains 500 unchanged complete cases, 807 complete comparisons, 152 incomplete comparisons and 41 pending comparisons (1,307 complete vectors). All 200 raw responses in this pass re-extract; all 89 new complete vectors were independently recounted. The first 100 checkpoint is preserved in `comparison_retry_20261031_0300/milestone_batch_0005`. The lease is idle. Resume the same non-denied pass only over `comparison_0960`–`comparison_1000`, after lease/lock and due-time checks and one ordinary source-counter GET. Do not repeat complete/incomplete results or consumed markers. Fourteen predictors, cutoff and unknown labels remain unchanged; no model/split. Older progress paragraphs below are historical.
+
+
 **Latest verified source collection:** the bounded successor saved 100 attempts: 90 complete, ten incomplete and no errors. The current 1,500-row view retains 500 unchanged complete cases, 718 complete comparisons, 141 incomplete comparisons and 141 pending, with zero latest comparison errors. See [current retry](../research/coldcard/comparison_retry_20261031_0300/README.md). Older counts below describe preserved historical units. No model/split or label promotion.
 
 [Previous: Part 1](../part_1_case_study/README.md) · [Main path](../README.md) · [Next: Part 3](../part_3_classifier/README.md)

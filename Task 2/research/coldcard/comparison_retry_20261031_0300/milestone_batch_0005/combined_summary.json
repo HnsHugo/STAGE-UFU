@@ -1,0 +1,90 @@
+{
+  "address_dataset_sha256": "f2a9d38d3d0db158bfb9f12fadb48970fa3493eacebe4c164d1a1a79441c159b",
+  "by_reference_block": [
+    {
+      "case_selected": 63,
+      "comparison_statuses": {
+        "complete": 99,
+        "incomplete": 27
+      },
+      "height": 960188
+    },
+    {
+      "case_selected": 110,
+      "comparison_statuses": {
+        "complete": 174,
+        "incomplete": 46
+      },
+      "height": 960189
+    },
+    {
+      "case_selected": 168,
+      "comparison_statuses": {
+        "complete": 286,
+        "incomplete": 50
+      },
+      "height": 960190
+    },
+    {
+      "case_selected": 159,
+      "comparison_statuses": {
+        "complete": 159,
+        "incomplete": 18,
+        "pending": 141
+      },
+      "height": 960191
+    }
+  ],
+  "combined_complete_sources": 1218,
+  "combined_selected_sources": 1500,
+  "comparison_statuses": {
+    "complete": 718,
+    "incomplete": 141,
+    "pending": 141
+  },
+  "complete_case_sources": 500,
+  "independently_verified_compromise_labels": 0,
+  "independently_verified_device_labels": 0,
+  "inputs": {
+    "case_view_sha256": "ceceab50d0242e5ba0195d7d2f456cbfb77173cb262460e441a41776d5215d9d",
+    "earlier_recovery_chain": [
+      {
+        "checkpoint_sha256": "05c63262b171f32e042f7de371ecc160b5fa6136e9b42d68a5788a47f34165ec",
+        "protocol_sha256": "5c45bd4651b6fb3dfb4dd1f739b18113e04b2d0463ae34e2696eec2f297b8f3f"
+      },
+      {
+        "checkpoint_sha256": "19150af7885b169a801e4b019ec4e51186d38220ae73d7c7e8937e29eb97292d",
+        "protocol_sha256": "411fb6bf63c1a496439761d90a147cc88d8e7557aca7a6d4e00a7f77ed478006"
+      },
+      {
+        "checkpoint_sha256": "0b5c056660999d137a4986a9f39f522d3876c7915ffcb3fbf59e804f83b7e705",
+        "protocol_sha256": "91d860f179e285aa277e902e4625b1dced5f832d5ea1932e81bf0753f4d45019"
+      },
+      {
+        "checkpoint_sha256": "1ad6e0de7630bc93cc4a285502b78b507cd12edaa600b33a4c5514130e30760b",
+        "protocol_sha256": "ce8b8f2850718e3394ca9b83c221aee7f044b1fcf7943f7ba8edd11ec8fc850d"
+      }
+    ],
+    "initial_checkpoint_sha256": "ff6cfc70756486bbd2546cf23395ebc0402f8ac9998ce904a5befbc8867f3c44",
+    "previous_recovery_checkpoint_sha256": "1ad6e0de7630bc93cc4a285502b78b507cd12edaa600b33a4c5514130e30760b",
+    "previous_recovery_protocol_sha256": "ce8b8f2850718e3394ca9b83c221aee7f044b1fcf7943f7ba8edd11ec8fc850d",
+    "recovery_checkpoint_sha256": "ead7227b2eed1e62907b8023e4c6b079df37bc8d6e3bcee0f90214603ec79684",
+    "recovery_protocol_sha256": "641f0a500543d0aa475c3bf72b5be49c0bb37a2e7a8707e97d7d3fc380f7d9e3"
+  },
+  "limitations": [
+    "Only complete rows have fourteen predictors; unavailable features stay null",
+    "History completeness depends on full-history bounds; inspect completion by class/block before an exploratory fit",
+    "Comparison membership zero is not legitimate/theft-negative/hardware-negative ground truth",
+    "One previously inspected incident does not provide independent-incident or prospective validation"
+  ],
+  "model_fitted": false,
+  "original_complete_comparisons_preserved": 40,
+  "original_files_overwritten": false,
+  "original_incomplete_comparisons_preserved": 12,
+  "recovery_pending_sources": 141,
+  "schema_version": 1,
+  "selected_case_sources": 500,
+  "selected_comparison_sources": 1000,
+  "source_reported_loss_labels": 1,
+  "split_created": false
+}
