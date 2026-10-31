@@ -36,3 +36,9 @@ pending comparisons. The fourteen predictors, strict cutoff and unknown labels
 remain unchanged. No model/split. The lease is released.
 [Completion record](bounded_completion_20261031_0357.json). Resume this same
 non-denied pass for IDs comparison_0960 through comparison_1000 only.
+
+## Final network recovery
+
+Verified final network recovery: 41 new attempts: 33 complete, eight bounded-incomplete and zero network errors. Combined: 500 unchanged complete cases, 840 complete and 160 bounded-incomplete comparisons; 1340 complete vectors. Network gaps: 0. All previous 200 pass entries and older complete/incomplete rows remain unchanged. The old 200 raw responses are unavailable locally; their fingerprints/normalized evidence and earlier audits are preserved. All available new responses re-extract; complete new vectors were independently recounted. Fourteen predictors, cutoff and unknown labels are unchanged. No model/split. Lease idle. Bounded-incomplete histories require a separate coverage decision.
+
+See [final verification](final_completion_20261031_0500.json) and preserved [200-source snapshot](milestone_batch_0010/).

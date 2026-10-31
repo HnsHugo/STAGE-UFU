@@ -1,5 +1,5 @@
 {
-  "address_dataset_sha256": "3447afd94abab935730f6d746f92eb6c8071c41277bfd410eeed604030857ba9",
+  "address_dataset_sha256": "7c5060287bd9e7d339288127dae380bcb004633584457b764c34e6639d01a5da",
   "by_reference_block": [
     {
       "case_selected": 63,
@@ -28,19 +28,17 @@
     {
       "case_selected": 159,
       "comparison_statuses": {
-        "complete": 248,
-        "incomplete": 29,
-        "pending": 41
+        "complete": 281,
+        "incomplete": 37
       },
       "height": 960191
     }
   ],
-  "combined_complete_sources": 1307,
+  "combined_complete_sources": 1340,
   "combined_selected_sources": 1500,
   "comparison_statuses": {
-    "complete": 807,
-    "incomplete": 152,
-    "pending": 41
+    "complete": 840,
+    "incomplete": 160
   },
   "complete_case_sources": 500,
   "independently_verified_compromise_labels": 0,
@@ -68,7 +66,7 @@
     "initial_checkpoint_sha256": "ff6cfc70756486bbd2546cf23395ebc0402f8ac9998ce904a5befbc8867f3c44",
     "previous_recovery_checkpoint_sha256": "1ad6e0de7630bc93cc4a285502b78b507cd12edaa600b33a4c5514130e30760b",
     "previous_recovery_protocol_sha256": "ce8b8f2850718e3394ca9b83c221aee7f044b1fcf7943f7ba8edd11ec8fc850d",
-    "recovery_checkpoint_sha256": "68f4b001ebe3a673c67326049f273164cb21f2f540056bdff07a26394806964a",
+    "recovery_checkpoint_sha256": "538fc325236877c97ae9a5c8ed499995f2dcd341f75589bf788ac569ac9db7b4",
     "recovery_protocol_sha256": "641f0a500543d0aa475c3bf72b5be49c0bb37a2e7a8707e97d7d3fc380f7d9e3"
   },
   "limitations": [
@@ -81,7 +79,7 @@
   "original_complete_comparisons_preserved": 40,
   "original_files_overwritten": false,
   "original_incomplete_comparisons_preserved": 12,
-  "recovery_pending_sources": 41,
+  "recovery_pending_sources": 0,
   "schema_version": 1,
   "selected_case_sources": 500,
   "selected_comparison_sources": 1000,
