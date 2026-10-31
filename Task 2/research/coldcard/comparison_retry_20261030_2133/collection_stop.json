@@ -1,0 +1,25 @@
+{
+  "all_previous_results_preserved": true,
+  "attempted_sources": 142,
+  "automatic_retry_within_pass": false,
+  "backoff_reason": "Double the prior two-hour delay after a new rate-limit stop; longer server Retry-After would prevail",
+  "checkpoint_sha256": "1ad6e0de7630bc93cc4a285502b78b507cd12edaa600b33a4c5514130e30760b",
+  "collector_active": false,
+  "complete_sources": 122,
+  "error_source_ids": [
+    "comparison_0760",
+    "comparison_0761"
+  ],
+  "error_sources": 2,
+  "http_statuses": [
+    429
+  ],
+  "incomplete_sources": 18,
+  "last_denial_finished_at": "2026-10-30T21:51:56.696472+00:00",
+  "minimum_retry_delay_seconds": 14400,
+  "next_network_attempt_not_before": "2026-10-31T01:51:56.696472+00:00",
+  "pending_sources": 239,
+  "reason": "HTTP429 interrupted the foreground fallback after 142 attempts; no source started after the immediate denial guard.",
+  "retry_after_header_supplied": false,
+  "schema_version": 1
+}

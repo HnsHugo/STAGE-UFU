@@ -1,5 +1,5 @@
 {
-  "attempted_sources": 100,
+  "attempted_sources": 142,
   "by_reference_block": [
     {
       "complete": 53,
@@ -10,23 +10,25 @@
       "selected": 63
     },
     {
-      "complete": 32,
-      "errors": 0,
+      "complete": 69,
+      "errors": 2,
       "height": 960191,
-      "incomplete": 5,
-      "pending": 281,
+      "incomplete": 8,
+      "pending": 239,
       "selected": 318
     }
   ],
   "comparison_compromise_hardware_labels": "unknown",
-  "complete_sources": 85,
-  "error_sources": 0,
-  "error_types": {},
+  "complete_sources": 122,
+  "error_sources": 2,
+  "error_types": {
+    "HTTPError": 2
+  },
   "feature_count": 14,
-  "incomplete_sources": 15,
-  "pending_sources": 281,
-  "prior_transaction_observations": 2761,
+  "incomplete_sources": 18,
+  "pending_sources": 239,
+  "prior_transaction_observations": 3376,
   "selected_sources": 381,
-  "sources_with_prior_spending": 39,
+  "sources_with_prior_spending": 52,
   "training_performed": false
 }
