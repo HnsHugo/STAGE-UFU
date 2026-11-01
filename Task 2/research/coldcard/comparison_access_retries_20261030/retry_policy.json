@@ -2,11 +2,11 @@
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
   "active_collection_scope": "precutoff_reference_tail_network_continuation",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
-  "authorization": "Explicit user request: Continue \u00e0 relancer; preserve prior work.",
+  "authorization": "Explicit user request: Continue à relancer; preserve prior work.",
   "authorized_on": "2026-10-30",
-  "automation_confirmed_enabled": true,
+  "automation_confirmed_enabled": false,
   "automation_created_at": "2026-10-30T18:47:19.174817+00:00",
-  "automation_execution_status": "reference_tail_continuation_stopped_429",
+  "automation_execution_status": "environment_blocked_before_provider_http",
   "automation_execution_verified": true,
   "automation_previous_disable_reason": "All latest network errors and unattempted sources resolved. 160 bounded-incomplete comparison histories remain a separate coverage issue.",
   "automation_previous_disabled_at": "2026-10-31T05:06:50.943146+00:00",
@@ -57,7 +57,7 @@
   "latest_stop_file": "reference_tail_continuation_20261101_0653/collection_stop.json",
   "latest_work": "source_cohort_work_reference_tail_continuation_20261101_0653",
   "maximum_429_backoff_seconds": 86400,
-  "next_coverage_action": "After the saved 16-hour cooldown, create a separately pinned successor over the 19 network_source_ids in the latest resume checkpoint; never rerun this denied pass.",
+  "next_coverage_action": "Restore authorized original-provider network access and current pinned checkout/private caches if available; verify latest resume and all pins before enabling continuation over the same 19 IDs. Preserve the saved cooldown and original route/TLS.",
   "next_network_attempt_not_before": "2026-11-01T23:20:04.694868+00:00",
   "next_run_time_provided_by_service": false,
   "normal_run_bounds": {
@@ -80,5 +80,8 @@
   "schema_version": 1,
   "source_counter_checks_per_due_run": 1,
   "success_policy": "Continue only fixed latest error/unattempted IDs. Do not requery complete or bounded-incomplete histories. Every new retry pass pins all previous protocols/checkpoints/stops; no silent retry within a pass.",
-  "timezone": "America/Sao_Paulo"
+  "timezone": "America/Sao_Paulo",
+  "automation_environment_paused_at": "2026-11-01T23:57:31.138159+00:00",
+  "automation_environment_pause_reason": "Original provider blockstream.info is outside this execution environment's network allowlist. Latest local checkout/private work is unavailable; no provider request or new source result.",
+  "latest_environment_block_file": "comparison_access_retries_20261030/environment_block_20261101_2356.json"
 }
