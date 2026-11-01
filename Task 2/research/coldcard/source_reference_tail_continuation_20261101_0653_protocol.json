@@ -1,0 +1,187 @@
+{
+  "authorization": "User-authorized anchored pre-cutoff continuation after the saved cooldown.",
+  "batch_size": 20,
+  "coverage_scope": "Exhausted confirmed prefix strictly below the frozen cutoff; never full-current-history promotion.",
+  "created_at": "2026-11-01T06:55:53.954201+00:00",
+  "failure_policy": "Stop on first 403/429 or other request failure; no internal retry, provider, route, account, proxy, IP or TLS change.",
+  "inputs": {
+    "baseline_view": {
+      "file": "reference_tail_coverage_20261031_221432/precutoff_feature_view.json.gz",
+      "sha256": "5435d6164fdab7c1f220a013652bf67573c5aaebc8c6d2f78f48cb0652219614"
+    },
+    "batch_runner": {
+      "file": "collect_reference_tail_many.py",
+      "sha256": "8d5bbac9c78779b725e22075f6eca7b08bd9294cd4e2e784ed48e16d54659da9"
+    },
+    "collector": {
+      "file": "collect_reference_tail.py",
+      "sha256": "c911691ce1f31be82fbfbb6ce7c589ab77da9da0dba7eb5ffc91ea42d0165c51"
+    },
+    "continuation_auditor": {
+      "file": "audit_reference_tail_continuation.py",
+      "sha256": "50c38598955cfdbbaa72380e1f1a04d6fa28686cc684036871c179025ee5f937"
+    },
+    "feature_extractor": {
+      "file": "prepayment_pilot.py",
+      "sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701"
+    },
+    "ledger": {
+      "file": "collect_comparison_coverage.py",
+      "sha256": "243432e042f413fe601db2f661e6afc072e7e3ddd518730de424a31efd2101df"
+    },
+    "parent_audit": {
+      "file": "reference_tail_coverage_20261031_221432/coverage_audit.json",
+      "sha256": "587f4f2f7a1efdc7b32f386e9ebcece4a929116e692906b1f60891e66c150011"
+    },
+    "parent_checkpoint": {
+      "file": "reference_tail_coverage_20261031_221432/checkpoint.json.gz",
+      "sha256": "8b89befd7a93416227a8faed25287f1825b21f256210f5c4e39e3f32f89e5f65"
+    },
+    "parent_protocol": {
+      "file": "source_reference_tail_coverage_20261031_221432_protocol.json",
+      "sha256": "678377edf02f64af61777a7c7558ae32d605b9c8413bcda2751b6f8b74af6b4d"
+    },
+    "parent_request_manifest": {
+      "file": "reference_tail_coverage_20261031_221432/request_manifest.json.gz",
+      "sha256": "576d87fcd799ad2def1c922b550c7127f4fec30ac1ec84ae8619821950ce9101"
+    },
+    "parent_resume": {
+      "file": "reference_tail_coverage_20261031_221432/resume_checkpoint.json",
+      "sha256": "4f10d8c94472160737a8433cad786cf878948d3ec4df64d50c5f11574324a7ef"
+    },
+    "parent_stop": {
+      "file": "reference_tail_coverage_20261031_221432/collection_stop.json",
+      "sha256": "2aaa4c294b2de9f9576f72372ffda9e88e399aa2aeb4fcbb658b978ced656077"
+    },
+    "pilot_validation": {
+      "file": "reference_tail_pilot_20261031_221016/pilot_validation.json",
+      "sha256": "fd0a555c7e369c02e01902784453fedec10e75b3963b53aa2fd35f195a49dde4"
+    },
+    "transport": {
+      "file": "comparison_http.py",
+      "sha256": "79793179e8c1bb153ade9a7fa742ed7a4a766bb6e039c791d880d24d5a484915"
+    }
+  },
+  "labels": "Unknown labels, the fourteen definitions and every strict cutoff are unchanged.",
+  "max_batches": 5,
+  "max_pages_per_address": 16,
+  "merge_policy": "Merge successor results with the pinned schema-v2 precutoff_feature_view, preserving all 1372 existing vectors and their coverage provenance. Do not promote full-history statuses. The original baseline remains pinned.",
+  "normal_counter_access_check": {
+    "http_status": 200,
+    "observed_full_transaction_count": 1897,
+    "performed_before_successor_collection": true,
+    "repeat_inside_successor": false,
+    "response_sha256": "5ea966cf55daf02bb0314aa172bf40024abd2e501035d301cab61a62d612f521",
+    "source_id": "comparison_0190"
+  },
+  "parent_failed_markers_reused": false,
+  "pass_name": "reference_tail_continuation_20261101_0653",
+  "private_plan_sha256": "cba0a6f46fd4d8f59dfcff5e8a10e41b16479a1dfd0e76eb32fd4f8047ccfe22",
+  "provider": "https://blockstream.info/api",
+  "requests_per_second": 1,
+  "reused_successful_responses": 24,
+  "schema_version": 1,
+  "source_ids": [
+    "comparison_0190",
+    "comparison_0207",
+    "comparison_0212",
+    "comparison_0213",
+    "comparison_0214",
+    "comparison_0218",
+    "comparison_0226",
+    "comparison_0229",
+    "comparison_0230",
+    "comparison_0233",
+    "comparison_0236",
+    "comparison_0240",
+    "comparison_0241",
+    "comparison_0249",
+    "comparison_0250",
+    "comparison_0251",
+    "comparison_0254",
+    "comparison_0255",
+    "comparison_0257",
+    "comparison_0268",
+    "comparison_0275",
+    "comparison_0283",
+    "comparison_0287",
+    "comparison_0292",
+    "comparison_0294",
+    "comparison_0298",
+    "comparison_0299",
+    "comparison_0300",
+    "comparison_0303",
+    "comparison_0304",
+    "comparison_0315",
+    "comparison_0343",
+    "comparison_0344",
+    "comparison_0347",
+    "comparison_0351",
+    "comparison_0358",
+    "comparison_0386",
+    "comparison_0390",
+    "comparison_0391",
+    "comparison_0392",
+    "comparison_0394",
+    "comparison_0405",
+    "comparison_0407",
+    "comparison_0433",
+    "comparison_0441",
+    "comparison_0469",
+    "comparison_0471",
+    "comparison_0473",
+    "comparison_0476",
+    "comparison_0494",
+    "comparison_0495",
+    "comparison_0508",
+    "comparison_0521",
+    "comparison_0522",
+    "comparison_0533",
+    "comparison_0541",
+    "comparison_0558",
+    "comparison_0562",
+    "comparison_0570",
+    "comparison_0583",
+    "comparison_0586",
+    "comparison_0593",
+    "comparison_0608",
+    "comparison_0617",
+    "comparison_0622",
+    "comparison_0630",
+    "comparison_0665",
+    "comparison_0667",
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0684",
+    "comparison_0693",
+    "comparison_0703",
+    "comparison_0713",
+    "comparison_0720",
+    "comparison_0730",
+    "comparison_0770",
+    "comparison_0800",
+    "comparison_0804",
+    "comparison_0826",
+    "comparison_0843",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0859",
+    "comparison_0860",
+    "comparison_0868",
+    "comparison_0877",
+    "comparison_0880",
+    "comparison_0883",
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0970",
+    "comparison_0973",
+    "comparison_0977",
+    "comparison_0982",
+    "comparison_0995",
+    "comparison_1000"
+  ],
+  "timeout_seconds": 15,
+  "workers": 2
+}
