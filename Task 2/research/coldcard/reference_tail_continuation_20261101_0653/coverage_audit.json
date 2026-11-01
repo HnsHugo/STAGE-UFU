@@ -1,0 +1,530 @@
+{
+  "all_1372_predecessor_vectors_unchanged": true,
+  "case_predictors_available": 500,
+  "comparison_predictors_available": 876,
+  "comparison_predictors_unavailable": 124,
+  "complete_predictor_rows": 1376,
+  "failed_requests": [
+    {
+      "endpoint_sha256": "d355fbf2922f2a39465670bc38f78ccaeb5c7f2b9f6c3e82cfeaec534f30b712",
+      "error_type": "HTTPError",
+      "finished_at": "2026-11-01T07:20:04.694868+00:00",
+      "http_status": 429,
+      "key": "tail_0007",
+      "reason": "HTTP Error 429: Too Many Requests",
+      "source_id": "comparison_0851",
+      "started_at": "2026-11-01T07:20:02.710772+00:00"
+    }
+  ],
+  "feature_count": 14,
+  "full_history_comparison_statuses": {
+    "complete": 864,
+    "incomplete": 136
+  },
+  "full_history_status_not_promoted": true,
+  "independent_new_vectors_checked": 4,
+  "labels_and_cutoff_unchanged": true,
+  "limitations": [
+    "Reference-tail completeness relies on the original provider indexed-history contract.",
+    "A complete prior prefix is not full-current-history counter reconciliation or cryptographic inclusion proof.",
+    "A bounded-incomplete prefix has no vector; unknown labels remain unknown."
+  ],
+  "new_complete_pre_cutoff_comparisons": 4,
+  "per_source": [
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0190",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0207",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0212",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0213",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0214",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0218",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0226",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0229",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0230",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0233",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0236",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 5,
+      "pagination_exhausted": true,
+      "source_id": "comparison_0240",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0241",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0249",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0250",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0251",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0254",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0255",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0257",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0268",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0275",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0283",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0287",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0292",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0294",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0298",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 5,
+      "pagination_exhausted": true,
+      "source_id": "comparison_0299",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0300",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0303",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0304",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0315",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0343",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 5,
+      "pagination_exhausted": true,
+      "source_id": "comparison_0344",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0347",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0351",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0358",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0386",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0390",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0391",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0392",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0394",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0405",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0407",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0433",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0441",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0469",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0471",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0473",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0476",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0494",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0495",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0508",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0521",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0522",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0533",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0541",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0558",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0562",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0570",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0583",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0586",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0593",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0608",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0617",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0622",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0630",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0665",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0667",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0680",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0683",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0684",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0693",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0703",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0713",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": true,
+      "source_id": "comparison_0720",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0730",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0770",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0800",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0804",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0826",
+      "status": "bounded_incomplete"
+    }
+  ],
+  "precutoff_view_sha256": "c8cda4ab2a6777f80b27200443eed03d61203346045faeaa36c3d3b554387851",
+  "raw_tails_reextracted": 80,
+  "saved_response_fingerprints_verified": 1422,
+  "schema_version": 2,
+  "selected_sources": 1500,
+  "split_created": false,
+  "targeted_pending": 19,
+  "targeted_results": 80,
+  "targeted_sources": 99,
+  "targeted_statuses": {
+    "bounded_incomplete": 76,
+    "complete_prior_prefix": 4
+  },
+  "training_performed": false,
+  "verified_at": "2026-11-01T07:20:25.286473+00:00"
+}

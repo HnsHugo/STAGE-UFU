@@ -1,0 +1,22 @@
+{
+  "attempted": 80,
+  "bounded_incomplete": 76,
+  "complete_prior_prefix": 4,
+  "failed_requests": [
+    {
+      "endpoint_sha256": "d355fbf2922f2a39465670bc38f78ccaeb5c7f2b9f6c3e82cfeaec534f30b712",
+      "error_type": "HTTPError",
+      "finished_at": "2026-11-01T07:20:04.694868+00:00",
+      "http_status": 429,
+      "key": "tail_0007",
+      "reason": "HTTP Error 429: Too Many Requests",
+      "source_id": "comparison_0851",
+      "started_at": "2026-11-01T07:20:02.710772+00:00"
+    }
+  ],
+  "full_history_status_not_promoted": true,
+  "pending": 19,
+  "requests_started": 1423,
+  "selected": 99,
+  "training_performed": false
+}

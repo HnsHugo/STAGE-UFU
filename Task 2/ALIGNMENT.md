@@ -7,6 +7,16 @@ meeting notes and original Overleaf files supplied by Hugo on 27 October.
 It corrects earlier assistant priorities; it does not replace Ivan's instructions
 or change any historical experiment, metric or label.
 
+**Current recovery status — 1 November 2026 UTC:** The validated anchored
+pre-cutoff method now supplies 500 case and 876 comparison predictor vectors.
+Full-current-history comparison coverage remains separately 864 complete and
+136 incomplete. A distinct 99-source continuation finalized four complete prior
+prefixes and 76 bounded-incomplete prefixes before the first HTTP429 stop; 19
+network gaps remain. The 105 bounded-incomplete prefixes have no vector. Resume
+only those 19 IDs after 2026-11-01T23:20:04.694868+00:00 in another pinned
+successor. Do not promote a prefix to full-history coverage, repeat finished
+results, change the fourteen predictors/cutoffs/unknown labels or train a model.
+
 **The research priority concerns the source addresses whose funds were reportedly
 stolen, starting with Coldcard. Collector detection and onward tracing support
 that work but do not substitute for it.** The supplied Teams message establishes
@@ -169,105 +179,4 @@ view has 500 complete cases and 273 complete comparisons, 74 incomplete comparis
 tests pass. No collector, split or model is active. No complete comparisons exist
 for the last two blocks, so the planned exploratory fit remains blocked. Do not
 keep probing or route around the persistent rate limit. Further network recovery
-requires a distinct recorded pass after permitted access/cooldown reassessment;
-bounded-incomplete histories require a separate coverage decision.
-Additional exact public reports are supporting enrichment, not
-the default critical path. Seed origin, compromised control and signing
-device at the event remain separate. Do not restart exhausted collection or
-rewrite the original failures. The current cohort is retrospective and case-derived,
-with prior-block predictors. A future prospective evaluation requires separate
-cohort-eligibility and label-availability rules. Do not encode a known destination or
-later label as a shortcut to claim general hardware identification. A clearly
-named relation/proxy baseline can be useful, but must not be reported as the
-requested ground-truth detector. With adequate labels, start with interpretable
-baselines and prespecified grouped/temporal evaluation, then test CryptoBilis
-transfer. That case has already been explored; it is not an untouched final test.
-
-## Priority review — 30 October 2026
-
-Hugo requested a fresh alignment check after the first owner-report review.
-This check reread the repository's 27 October reconciliation of the supplied
-Teams screenshots, meeting notes and Overleaf files, the current evidence
-artifacts and the recovered conversation context. The private original files
-were not available for a fresh inspection; this is not a new primary-source audit.
-
-The requested outcome is the source-address dataset and an address model for
-finding further relevant addresses on-chain. Requiring independently verified
-testimony for every address was not a documented instruction from Ivan. The
-strict verified-label rules are research safeguards introduced in our protocol;
-they must not silently become a requirement to find 500 personal testimonies
-before any source analysis. Conversely, this correction does not turn case
-membership into independently verified theft or hardware identity.
-
-Current evidence supports a useful retrospective, case-attributed cohort:
-500 complete feature records, two concordant chain reconstructions and one
-exact owner-reported loss/device association. Two reconstructions of the same
-chain are corroboration, not independent incidents. One account is not a
-representative validation sample, and absent reports are not negative controls.
-
-The next deliverable should join the existing pinned feature and evidence
-layers by cohort identifier, preserving their distinct meanings and provenance,
-and summarize the actual feature distribution without new collection or fitting.
-It should expose what is available for the requested address model and what a
-comparison cohort would need to match (unit, observation period, history coverage
-and selection policy). A case-association experiment, if chosen later, needs an
-explicit target; its metrics would not validate a general theft/device detector.
-Independent incident evaluation remains a separate unresolved requirement for
-such a generalization claim. Further testimony search is bounded enrichment
-when a concrete new lead exists. Historical protocols and outputs stay intact.
-
-## Subsequent user-authorized resumption — 30 October 2026
-
-Hugo requested continued spaced retries, superseding the earlier one-cooldown
-assistant restriction. Original-route source-counter HTTP 200 at 18:41 UTC
-allowed a [distinct retry](research/coldcard/comparison_retry_20261030_1841/README.md)
-of 653 remaining network gaps. It retained all predecessors and the unchanged
-cutoff/features/labels, with one global request per second. After 274 attempts,
-233 complete and 39 incomplete histories were saved, two started requests returned
-429 and 379 remained pending. All 272 raw responses re-extract. The 80/200-source
-milestones remain immutable. The combined view has 500 unchanged complete cases,
-506 complete comparisons, 113 incomplete comparisons, 101 latest known errors
-and 280 never attempted; no complete comparison exists in the last reference block.
-No model/split or collector is active. The confirmed hourly task observes the
-saved two-hour minimum after the latest 429, increasing backoff, a longer
-Retry-After and both the published lease and OS lock. No alternate route/provider
-is used. A new 403 pauses the task. Further collection requires a distinct pinned
-successor after the saved delay; unknown labels and every earlier outcome remain
-intact. Network gaps and bounded-incomplete coverage remain separate problems.
-
-## Boundaries that prevent another scope drift
-
-- No further collector-ranking, donation-control, Real-CATS or hot/cold extension
-  as the default next task. Use existing artifacts when they directly support the
-  source-address objective or fix a concrete defect.
-- Review the incident references, but do not turn six brands in a press roundup
-  into six independent compromised-key datasets. Personal/order-data leaks are
-  not automatically private-key thefts. Exame's participant is inside CryptoBilis,
-  not a third independent case; exact identifiers remain unresolved.
-- Chainabuse is supporting report evidence, not a ready-made victim/hardware
-  dataset. A missing report does not certify legitimacy. WalletExplorer service
-  attribution does not prove device, storage mode or ownership at every date.
-- H1/common-input grouping is a heuristic, not identity proof. RBF signaling is
-  not proof of replacement; a confirmed parent/child link alone does not prove
-  the unconfirmed CPFP context. Study the available evidence before filtering.
-- Explore GNN/GCN/SHAP as requested, without treating SHAP as a classifier or
-  PyTorch as a required architecture. Hardware association, theft role and cold
-  storage are different targets.
-- Keep the external 19-feature model frozen: 100 trees, maximum depth 20,
-  minimum 20 samples per leaf, `max_features="sqrt"`, equal class weights,
-  seed 42, training-fitted imputation with missing indicators, alert strictly
-  above 0.15. Do not tune it on external examples.
-- Ivan's promised code is useful for comparison when supplied; its absence does
-  not block source reconstruction. A positive model result cannot be promised.
-
-## Session rule and handoff
-
-Before an experiment, state the requirement served, observation unit, target,
-evidence, cutoff/split and expected artifact. Choose one short verifiable unit;
-test it, document actual results and save a commit on `task-2-wallet-analysis`.
-Do not ask routine permission or start unrelated work after a blocker.
-
-At handoff, report: what was executed, results and limits, checks, published
-commit, and one next action. Separate completed work from prepared protocols.
-New professor/user instructions can revise this document; assistant suggestions
-must not silently replace it.
+requires a distinct recorded pass after permitted access/cooldown 
