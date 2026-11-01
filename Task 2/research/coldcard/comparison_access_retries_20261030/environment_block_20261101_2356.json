@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-11-01T23:56:03Z",
+  "status": "environment_blocked_before_provider_http",
+  "repository": "HnsHugo/STAGE-UFU",
+  "branch": "task-2-wallet-analysis",
+  "provider": "https://blockstream.info/api",
+  "blocker": "The execution environment network allowlist does not include blockstream.info; original authorized provider access is unavailable. No alternative route, proxy, TLS configuration, account, IP or provider was used.",
+  "provider_requests_this_run": 0,
+  "new_vectors_this_run": 0,
+  "new_source_results_this_run": 0,
+  "collector_lease_acquired": false,
+  "collector_lease_state_observed": "idle",
+  "latest_prefix_resume_file": "reference_tail_continuation_20261101_0653/resume_checkpoint.json",
+  "latest_prefix_resume_github_blob": "0131dec1f3bf8e4e76d0697b4ea5628043747ebc",
+  "unchanged_network_source_count": 19,
+  "unchanged_available_predictor_count": 1376,
+  "unchanged_bounded_incomplete_prefix_count": 105,
+  "unchanged_full_history_comparison_statuses": {
+    "complete": 864,
+    "incomplete": 136
+  },
+  "local_environment_findings": {
+    "checkout_head": "6744e6a16d1250655855073bb78a3af64dc357e2",
+    "origin_and_git_alternate_missing": "/workspace/scratch/d51926f4d082/STAGE-UFU",
+    "latest_pass_output_and_private_work_not_found": "reference_tail_continuation_20261101_0653 / source_cohort_work_reference_tail_continuation_20261101_0653",
+    "latest_continuation_auditor_not_found": "audit_reference_tail_continuation.py",
+    "unrelated_dirty_file_preserved": "Task 2/research/coldcard/comparison_retry_20261030_1841/milestone_batch_0004/checkpoint.json.gz"
+  },
+  "validation_limits": "No new collection or export audit was performed. The current GitHub policy, resume, protocol and working instructions were read. Latest binary pins and private response bytes were not restored or revalidated in this environment.",
+  "resumption_requirements": "Restore authorized original-provider network access and a current checkout of task-2-wallet-analysis. Restore the latest private work/cache if available, verify every resume pin and successful response fingerprint/cursor before reuse, check lease/local lock and saved due time, then perform exactly one normal counter GET. Do not rerun a stopped pass.",
+  "completed": false
+}
