@@ -117,7 +117,7 @@ def prepare(base, pass_name, prior_plan, counter_result, counter_response):
     proto=dict(schema_version=1,pass_name=pass_name,created_at=now.isoformat(),
         authorization='User-authorized continuation after the saved cooldown and one original-route counter HTTP200.',
         provider='https://blockstream.info/api',source_ids=ids,inputs=inputs,
-        private_plan_sha256=digest(json_bytes(records)),batch_size=20,max_batches=5,
+        private_plan_sha256=digest(json_bytes(records)),batch_size=20,max_batches=min(5,(len(records)+19)//20),
         workers=2,requests_per_second=1,max_pages_per_address=16,timeout_seconds=15,
         coverage_scope='Exhausted confirmed prefix strictly below the unchanged frozen cutoff; never full-current-history promotion.',
         labels='Unknown labels and all fourteen definitions are unchanged.',

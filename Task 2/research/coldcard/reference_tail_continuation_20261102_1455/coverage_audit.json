@@ -1,0 +1,43 @@
+{
+  "all_predecessor_vectors_unchanged": true,
+  "case_predictors_available": 500,
+  "comparison_predictors_available": 876,
+  "comparison_predictors_unavailable": 124,
+  "complete_predictor_rows": 1376,
+  "consumed_unfinished_requests_preserved": [
+    {
+      "endpoint_sha256": "322a14a2ae2f53e55487b39d79a517529058c6d30e5b2724a9249b6e72ee8843",
+      "key": "reference",
+      "source_id": "comparison_0843",
+      "started_at": "2026-11-02T15:01:41.059564+00:00"
+    },
+    {
+      "endpoint_sha256": "abd3483dd697aeb651760769f1a74ec18a2cb65526349bd33121a1a39cb12c43",
+      "key": "reference",
+      "source_id": "comparison_0851",
+      "started_at": "2026-11-02T15:01:41.059534+00:00"
+    }
+  ],
+  "feature_count": 14,
+  "full_history_comparison_statuses": {
+    "complete": 864,
+    "incomplete": 136
+  },
+  "full_history_status_not_promoted": true,
+  "independent_new_vectors_checked": 0,
+  "labels_and_cutoff_unchanged": true,
+  "new_complete_pre_cutoff_comparisons": 0,
+  "precutoff_view_sha256": "c8cda4ab2a6777f80b27200443eed03d61203346045faeaa36c3d3b554387851",
+  "predecessor_predictor_vectors_preserved": 1376,
+  "raw_tails_reextracted": 0,
+  "saved_response_fingerprints_verified": 0,
+  "schema_version": 2,
+  "scope": "Interrupted execution with no final source results; existing schema-v2 view reused unchanged.",
+  "split_created": false,
+  "targeted_pending": 19,
+  "targeted_results": 0,
+  "targeted_sources": 19,
+  "targeted_statuses": {},
+  "training_performed": false,
+  "verified_at": "2026-11-02T15:08:22.243397+00:00"
+}
