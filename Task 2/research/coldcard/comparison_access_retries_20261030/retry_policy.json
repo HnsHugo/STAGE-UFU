@@ -18,13 +18,14 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-11-01T09:30:00+00:00",
-    "finished_at": "2026-11-01T07:20:47.959339+00:00",
-    "policy": "A running unexpired lease prohibits every second collector and provider probe.",
+    "state": "running",
+    "purpose": "single_due_original_route_counter_check",
+    "owner": "counter_check_20261102_145306",
+    "started_at": "2026-11-02T14:53:06.126469+00:00",
+    "expires_at": "2026-11-02T15:13:06.126469+00:00",
     "protocol": "source_reference_tail_continuation_20261101_0653_protocol.json",
     "protocol_sha256": "309e5fb5262f87df1712b20a520bdeac9413f535033eb199691d5d2e8a204c2b",
-    "started_at": "2026-11-01T06:53:49.307136+00:00",
-    "state": "idle"
+    "policy": "A running unexpired lease prohibits every second collector and provider probe."
   },
   "comparison_pre_cutoff_predictors_available": 876,
   "comparison_pre_cutoff_predictors_unavailable": 124,
