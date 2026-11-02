@@ -1,5 +1,7 @@
 # Task 2 alignment — 27 October 2026
 
+**Verified final pre-cutoff network closure — 2 November 2026 UTC:** The bounded successor finalized all 19 remaining sources: two complete prior prefixes, 17 bounded-incomplete and zero network errors. All 19 new raw tails re-extract, both new vectors were independently recounted, and all 332 saved response fingerprints verify. The schema-v2 view preserves all 1,376 predecessor vectors and now provides 1,378 vectors: 500 case and 878 comparison. The 122 bounded-incomplete comparison prefixes supply no vector. Full-current-history comparison statuses remain separately 864 complete and 136 incomplete; exhausted prior prefixes do not promote them. Unknown labels, strict cutoffs and fourteen definitions are unchanged. No continuation network source remains unattempted. The lease is idle and automated rechecks are disabled. Latest exact resumption/completion record: `research/coldcard/reference_tail_continuation_20261102_1508/resume_checkpoint.json`. Older progress entries below are historical. Further bounded-incomplete coverage requires a separate scope decision; no model or split was performed.
+
 ## Purpose and current decision
 
 This is the current scope reference, reconciled with the Teams screenshots,

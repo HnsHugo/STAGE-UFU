@@ -1,0 +1,154 @@
+{
+  "all_predecessor_vectors_unchanged": true,
+  "case_predictors_available": 500,
+  "comparison_predictors_available": 878,
+  "comparison_predictors_unavailable": 122,
+  "complete_predictor_rows": 1378,
+  "failed_requests": [],
+  "feature_count": 14,
+  "full_history_comparison_statuses": {
+    "complete": 864,
+    "incomplete": 136
+  },
+  "full_history_status_not_promoted": true,
+  "independent_new_vectors_checked": 2,
+  "labels_and_cutoff_unchanged": true,
+  "limitations": [
+    "Reference-tail completeness relies on the original provider indexed-history contract.",
+    "A complete prior prefix is not full-current-history counter reconciliation or cryptographic inclusion proof.",
+    "A bounded-incomplete prefix has no vector; unknown labels remain unknown."
+  ],
+  "new_complete_pre_cutoff_comparisons": 2,
+  "per_source": [
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0843",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0851",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0853",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0859",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0860",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0868",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0877",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0880",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 14,
+      "pagination_exhausted": true,
+      "source_id": "comparison_0883",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0892",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0907",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0912",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0966",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0970",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0973",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 8,
+      "pagination_exhausted": true,
+      "source_id": "comparison_0977",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0982",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_0995",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages_fetched": 16,
+      "pagination_exhausted": false,
+      "source_id": "comparison_1000",
+      "status": "bounded_incomplete"
+    }
+  ],
+  "precutoff_view_sha256": "a96aac7555150122e08dfab2a5d70773df31a28869a52f91cc75a5e12ebe29ab",
+  "predecessor_predictor_vectors_preserved": 1376,
+  "raw_tails_reextracted": 19,
+  "saved_response_fingerprints_verified": 332,
+  "schema_version": 2,
+  "selected_sources": 1500,
+  "split_created": false,
+  "targeted_pending": 0,
+  "targeted_results": 19,
+  "targeted_sources": 19,
+  "targeted_statuses": {
+    "bounded_incomplete": 17,
+    "complete_prior_prefix": 2
+  },
+  "training_performed": false,
+  "verified_at": "2026-11-02T15:17:54.859795+00:00"
+}
