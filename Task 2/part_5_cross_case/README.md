@@ -4,6 +4,12 @@
 
 ## Goal and current status
 
+The [Coldcard source-address write-up](../source_address_study/README.md) now
+documents the completed single-incident membership baseline. It supplies a
+reproducible starting point, not cross-case validation. A future source-address
+extension must define compatible evidence, roles, cutoffs and incident-level
+evaluation before new model fitting; the existing test outcomes stay fixed.
+
 Extend the **source-address** dataset with sourced examples and evaluate transfer
 across cases. **CryptoBilis is the intended second incident.** The Teams objective
 is now explicit: after the transaction exercise, build the dataset and model of
@@ -34,8 +40,9 @@ FBI, Binance, donation addresses and the other saved pilots are different eviden
 
 ## Proposed next steps, not executed experiments
 
-1. Use the completed [Coldcard source registry](../research/coldcard/source_registry_20261027/README.md)
-   and build cutoff-safe source-history features; do not repeat the registry.
+1. Reuse the completed [Coldcard source study](../source_address_study/README.md),
+   its fourteen prior-block features and saved membership baseline; do not repeat
+   the registry, collection or frozen fit.
 2. Recover source-supported CryptoBilis identifiers and record unresolved roles
    and hardware evidence rather than transferring the collectors' labels.
 3. Define compatible address features, prediction cutoffs and incident/entity

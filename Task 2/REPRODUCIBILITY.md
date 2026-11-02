@@ -2,6 +2,25 @@
 
 All commands below run from the repository root. Use Python 3.12. No model needs retraining to read the saved results.
 
+## Current source-address write-up and frozen model
+
+The [English research report](source_address_study/README.md) and its LaTeX
+fragments are built from saved JSON, with a checked PDF already included.
+
+```bash
+python "Task 2/docs/build_source_address_study.py" check
+python "Task 2/research/coldcard/train_source_membership.py" verify \
+  "Task 2/research/coldcard/source_membership_baseline_20261102_162335/protocol.json"
+```
+
+The report checker uses the standard library and Pandoc 3.1.3; the model verifier
+requires the exact versions pinned by the fitted protocol (including scikit-learn
+1.8.0). Both commands perform no model fit and no provider request. They check
+different layers: article text/tables versus fitted-tree score replay. The report
+contains article integration and two-pass LaTeX compilation instructions. The
+original Overleaf sources and live project are not modified. Old experiments
+below retain their separate targets and reproduction commands.
+
 ## 1. Check the reorganized repository
 
 ```bash

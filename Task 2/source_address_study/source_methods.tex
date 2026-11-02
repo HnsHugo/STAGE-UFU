@@ -1,0 +1,198 @@
+\begingroup
+\setlength{\emergencystretch}{2em}
+\hypertarget{source-address-dataset-and-evaluation}{%
+\subsection{Source-address dataset and
+evaluation}\label{source-address-dataset-and-evaluation}}
+
+\hypertarget{observation-unit-and-evidence}{%
+\subsubsection{Observation unit and
+evidence}\label{observation-unit-and-evidence}}
+
+The observation unit is one unique decoded Bitcoin input source address
+with one fixed reference payment. The case cohort comprises 500
+addresses whose payments entered the reported Coldcard collector in
+blocks 960188-960191 on 30 July 2026 UTC. Five later registry sources
+are kept outside this study. An address is neither a verified
+individual, a device nor an independent incident.
+
+The target is \texttt{known\_\allowbreak{}coldcard\_\allowbreak{}core\_\allowbreak{}membership}: 1 for these
+500 fixed core sources and 0 for the selected sources outside the core
+and other case exclusions. The latter are operational comparisons, not
+certified legitimate or non-hardware addresses. All independently
+verified compromise and signing-device labels remain unknown. One
+exactly mapped owner report is retained as reported evidence, separate
+from verified labels.
+\href{https://github.com/somaxbt/coldcard-drain-addresses/tree/1e7fef87060808c29beaf9d137eb5ff9e37f8811}{SomaxBT's
+reconstruction} and
+\href{https://github.com/alva-p/coldcard-weak-rng-research/tree/f93cfed16302bb91c8409fdee9ce5576a34b7e52}{Alvaro
+P.'s reconstruction} corroborate all 500 source/payment relations. They
+observe the same chain and do not provide 500 independent owner
+confirmations. Their exact pinned files and attribution caveats remain
+in the repository's corroboration record.
+
+\hypertarget{acquisition-sampling-and-coverage}{%
+\subsubsection{Acquisition, sampling and
+coverage}\label{acquisition-sampling-and-coverage}}
+
+The source registry reuses the supplied transaction corpus. The
+same-block comparison census uses four complete, height/hash-anchored
+Blockchain.info block responses collected on 30 October. The census
+contains 5,526 distinct source addresses before exclusions and 5,025
+eligible comparisons. A deterministic salted hash ranking selects 1,000
+sources, with a two-comparisons-per-case quota in each reference-block
+stratum. No source is replaced after a collection failure or incomplete
+history. The census, selection and normalized evidence are public;
+private raw caches are not redistributed.
+
+Address histories use the recorded Blockstream Esplora API route.
+Full-history pagination/counter audits and, where necessary, the
+separately validated anchored pre-cutoff collector support the published
+prefixes. That anchored method matched both prefixes and all fourteen
+variables for eight complete-history pilot controls across the four
+blocks. Successful saved pages were reused only after fingerprint and
+cursor-sequence checks. Provider reconciliation is not cryptographic
+inclusion verification. This report performs no new provider requests.
+
+Exactly 1,378 vectors are available: 500 cases and 878 comparisons. The
+122 remaining comparison prefixes are bounded-incomplete, with null
+vectors and no model score. They are retained in the selected population
+but excluded from fitting and scoring. Full-current-history coverage is
+a different measure: 864 comparison histories are complete and 136
+incomplete. Fourteen of those incomplete current histories nevertheless
+have an exhausted, validated prior prefix.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Reference block
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Case available / selected
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Comparison available / selected
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Comparison unavailable
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+960188 & 63 / 63 & 108 / 126 & 18 \\
+960189 & 110 / 110 & 179 / 220 & 41 \\
+960190 & 168 / 168 & 300 / 336 & 36 \\
+960191 & 159 / 159 & 291 / 318 & 27 \\
+\end{longtable}
+
+\hypertarget{predictor-boundary-and-definitions}{%
+\subsubsection{Predictor boundary and
+definitions}\label{predictor-boundary-and-definitions}}
+
+For a reference at height h, only confirmed transactions with height
+strictly less than h enter a feature. The whole reference block and all
+future data are excluded. This uses block heights, not timestamps or
+within-block transaction order. Reference-payment inputs, values, fees,
+recipients and UTXO-depletion outcomes remain outside the predictors, as
+do raw/hash identifiers, labels, collection counters and evidence
+metadata.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Predictor
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Definition and unit
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\texttt{confirmed\_\allowbreak{}tx\_\allowbreak{}count} & Distinct confirmed prior transactions
+affecting the address; count. \\
+\texttt{receipt\_\allowbreak{}tx\_\allowbreak{}count} & Prior transactions creating an output to
+the address; count. \\
+\texttt{spending\_\allowbreak{}tx\_\allowbreak{}count} & Prior transactions consuming an address
+output; count. \\
+\texttt{received\_\allowbreak{}output\_\allowbreak{}count} & Prior outputs received by the
+address; count. \\
+\texttt{spent\_\allowbreak{}output\_\allowbreak{}count} & Address outputs consumed before cutoff;
+count. \\
+\texttt{received\_\allowbreak{}sat} & Sum of received prior-output values; integer
+satoshis. \\
+\texttt{spent\_\allowbreak{}sat} & Sum of consumed prior-output values; integer
+satoshis. \\
+\texttt{balance\_\allowbreak{}sat} & Received minus spent values before cutoff;
+integer satoshis. \\
+\texttt{unspent\_\allowbreak{}output\_\allowbreak{}count} & Received outputs not yet consumed
+before cutoff; count. \\
+\texttt{active\_\allowbreak{}block\_\allowbreak{}count} & Distinct prior heights containing
+address activity; count. \\
+\texttt{activity\_\allowbreak{}span\_\allowbreak{}blocks} & Last minus first prior activity
+height; blocks; undefined for an empty prefix. \\
+\texttt{blocks\_\allowbreak{}since\_\allowbreak{}first\_\allowbreak{}activity} & Reference minus first prior
+activity height; blocks; undefined for an empty prefix. \\
+\texttt{blocks\_\allowbreak{}since\_\allowbreak{}last\_\allowbreak{}activity} & Reference minus last prior
+activity height; blocks; undefined for an empty prefix. \\
+\texttt{median\_\allowbreak{}spending\_\allowbreak{}tx\_\allowbreak{}fee\_\allowbreak{}rate\_\allowbreak{}sat\_\allowbreak{}vb} & Median
+whole-transaction fee / virtual size for prior spending; sat/vB;
+undefined without spending. \\
+\end{longtable}
+
+One transaction can be both a receipt and a spend. Undefined historical
+fee rates stay missing; they are not zero, the reference-payment fee, or
+an allocated fee for one address. Amounts are address-associated output
+values, not a certified stolen total. The saved audit reproduced every
+available vector from 35,323 normalized address/transaction
+observations.
+
+\hypertarget{frozen-grouping-and-model}{%
+\subsubsection{Frozen grouping and
+model}\label{frozen-grouping-and-model}}
+
+Connected components combine repeated source-address hashes, shared
+prior-transaction references, common reference TXIDs and identical
+fourteen-variable vectors including missingness. These 918 observed-link
+components are overlap safeguards, not proven ownership groups. Unknown
+prior links through the 122 excluded histories are not claimed absent.
+
+Each component uses the lexical minimum address SHA256. SHA256 of the
+fixed prefix \texttt{coldcard-\allowbreak{}source-\allowbreak{}split-\allowbreak{}v1:42:} followed by that
+minimum hash determines a residue modulo ten: 0-6 for training, 7 for
+validation and 8-9 for test. Every partition has at least 20 rows of
+each membership class, with no measured component/shared-link group
+crossing partitions. No seed reroll or component splitting is used.
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule\noalign{}
+Partition & Cases & Comparisons & Components \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Train & 346 & 687 & 633 \\
+Validation & 56 & 55 & 99 \\
+Test & 98 & 136 & 186 \\
+\end{longtable}
+
+One prespecified \texttt{DecisionTreeClassifier} is fitted on 1,033
+training rows: Gini criterion, maximum depth 3, minimum 20 rows per
+leaf, balanced training class weights and random seed 42. Each of the
+fourteen original variables uses its observed training median; zero is a
+fallback only for an entirely missing training column. Fourteen fixed
+missingness indicators accompany the variables. Validation/test rows do
+not fit this preparation, select features/parameters/thresholds or enter
+a final all-row refit.
+
+The exported score is a class-balanced training leaf proportion. Its
+field is \texttt{case\_\allowbreak{}membership\_\allowbreak{}score}. The membership decision
+includes every score \textgreater= 0.5. The three prespecified
+comparators are constant training membership prevalence, descending
+prior inactivity and descending prior balance. Undefined comparator
+values use the same training-only median fill. Comparators have ranking
+metrics only.
+
+\endgroup

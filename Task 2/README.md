@@ -1,5 +1,25 @@
 # Task 2 — Hardware-wallet case studies and Bitcoin transaction analysis
 
+## Current source-address result — 2 November 2026
+
+Read the [source-address research report](source_address_study/README.md) or its
+[five-page PDF](source_address_study/source_address_study.pdf). It explains the
+500 core sources, 1,000 fixed comparisons, fourteen prior-block predictors and
+122 unavailable comparison vectors. The frozen membership tree uses 1,033
+training / 111 validation / 234 test addresses in 918 observed-link components.
+Test membership F1 is 0.989796 (97 TP, 135 TN, 1 FP, 1 FN). Inactivity alone also
+separates the cohort strongly. This is retrospective, complete-case development
+on one incident, with unknown independently verified compromise/device labels.
+
+[LaTeX fragments and integration instructions](source_address_study/README.md#article-integration)
+are ready for the supplied article's `Our Work` and `Results` sections. The
+original article files and live Overleaf project were not modified. The model,
+scores and previous scientific results are unchanged by the write-up. Collection
+is closed and automation remains disabled. Older collection entries below are
+historical; use this report and [Project status](PROJECT_STATUS.md) for current work.
+
+## Historical collection progress
+
 **Validated pre-cutoff recovery — 31 October 2026 UTC:** The anchored pre-cutoff method matched every prior transaction and all fourteen predictors for eight full-history controls across all four blocks. Application to 136 unfinished comparisons then saved 37 results: eight complete prior prefixes and 29 bounded-incomplete; HTTP429 stopped two already-started requests, leaving 99 sources without a final prefix result. All eight new vectors were independently recounted, all 37 raw tails re-extract and 621 saved response fingerprints verify. The explicit pre-cutoff feature view has 500 complete case vectors and 872 comparison vectors, with 128 comparison vectors unavailable. Full-current-history comparison statuses remain 864 complete and 136 incomplete. Labels, cutoffs, all 1364 previous vectors and baseline bytes are preserved. A pre-cutoff cursor audit is separately labeled from full-current-history counter reconciliation. No model/split. The lease is idle and no provider request is allowed before 2026-11-01T06:25:21.786387+00:00. Two HTTP429 records and all successful pages are preserved. Resume only a separately pinned successor over the 99 network gaps; retain the 29 bounded-incomplete outcomes.
 
 Latest artifacts: `research/coldcard/reference_tail_coverage_20261031_221432/`; exact resumption: `resume_checkpoint.json` in that folder. Older progress entries below are historical.
@@ -67,17 +87,18 @@ objective or a substitute for that address dataset.
 | --- | --- | --- |
 | [Part 1 — Case study and fund flows](part_1_case_study/README.md) | What happened in the observed transactions, and where did the funds go? | Financial report and parent coverage |
 | [Part 2 — Dataset and features](part_2_dataset/README.md) | What data did we collect, and what does each variable mean? | Feature definitions, labels and integrity checks |
-| [Part 3 — The classroom classifier](part_3_classifier/README.md) | Can an interpretable tree recognize payments to the course address? | The 100 + 100 exercise and readable tree |
-| [Part 4 — Validation and limitations](part_4_validation/README.md) | Does the result hold when related groups are kept apart? | Grouped results and simple baselines |
+| [Part 3 — Interpretable classifiers](part_3_classifier/README.md) | What does each separate transaction/address classifier learn? | The frozen source-membership tree and historical 100 + 100 exercise |
+| [Part 4 — Validation and limitations](part_4_validation/README.md) | What do the fixed held-out results and errors establish? | Source-membership metrics, attrition and historical grouped transaction results |
 | [Part 5 — Additional cases and generalization](part_5_cross_case/README.md) | How should another hardware-wallet-related case be added? | Evidence requirements and work still pending |
 
 The target address is `bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0`. A relationship to this case is not proof of theft or hardware-wallet use. Cold storage, hardware signing and illicit activity are different properties.
 
-## Three results to understand first
+## Results to understand first
 
-1. [Financial analysis](research/coldcard/case_flows_20261015/CASE_FLOWS.md): observed receipts and spending, not a certified stolen total.
-2. [Classroom exercise](research/coldcard/COURSE_EXERCISE.md): 60/60 on the small same-address sample test; this does not establish cross-case generalization.
-3. [Grouped validation](research/coldcard/GROUPED_EXPERIMENT.md): 874/1,070 candidate relations recovered, 1,072 alerts on unattributed background, and substantial variation across groups.
+1. [Source-address study](source_address_study/README.md): 1,378 available vectors; frozen membership test F1 0.989796; one incident and 122 excluded comparisons.
+2. [Financial analysis](research/coldcard/case_flows_20261015/CASE_FLOWS.md): observed receipts and spending, not a certified stolen total.
+3. [Classroom exercise](research/coldcard/COURSE_EXERCISE.md): 60/60 on the small same-address sample test; this does not establish cross-case generalization.
+4. [Historical grouped transaction validation](research/coldcard/GROUPED_EXPERIMENT.md): 874/1,070 candidate relations recovered, 1,072 alerts on unattributed background, and substantial variation across groups.
 
 These are different experiments with different targets and protocols. Their scores should not be combined.
 

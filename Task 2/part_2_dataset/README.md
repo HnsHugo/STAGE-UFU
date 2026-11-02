@@ -1,5 +1,18 @@
 # Part 2 — Build and understand the dataset
 
+**Current address-study dataset — 2 November 2026:** The
+[research write-up](../source_address_study/README.md) documents one row per input
+source address: 500 cases and 1,000 fixed same-block comparisons. The latest
+schema-v2 view has 500 case and 878 comparison fourteen-variable vectors; 122
+bounded-incomplete comparison prefixes remain null and unscored. Full-current-
+history comparison coverage is separately 864 complete / 136 incomplete.
+Only confirmed transactions strictly below the reference block enter features.
+Core membership, reported owner evidence and unknown verified compromise/device
+labels remain separate. The write-up contains all fourteen definitions, units,
+source provenance, stratum coverage and missingness limits. The frozen address
+model has now run; the older no-fit/collection entries below retain historical
+stages. Transaction-corpus rows later in this page have a different unit.
+
 **Validated pre-cutoff recovery — 31 October 2026 UTC:** The anchored pre-cutoff method matched every prior transaction and all fourteen predictors for eight full-history controls across all four blocks. Application to 136 unfinished comparisons then saved 37 results: eight complete prior prefixes and 29 bounded-incomplete; HTTP429 stopped two already-started requests, leaving 99 sources without a final prefix result. All eight new vectors were independently recounted, all 37 raw tails re-extract and 621 saved response fingerprints verify. The explicit pre-cutoff feature view has 500 complete case vectors and 872 comparison vectors, with 128 comparison vectors unavailable. Full-current-history comparison statuses remain 864 complete and 136 incomplete. Labels, cutoffs, all 1364 previous vectors and baseline bytes are preserved. A pre-cutoff cursor audit is separately labeled from full-current-history counter reconciliation. No model/split. The lease is idle and no provider request is allowed before 2026-11-01T06:25:21.786387+00:00. Two HTTP429 records and all successful pages are preserved. Resume only a separately pinned successor over the 99 network gaps; retain the 29 bounded-incomplete outcomes.
 
 Latest artifacts: `research/coldcard/reference_tail_coverage_20261031_221432/`; exact resumption: `resume_checkpoint.json` in that folder. Older progress entries below are historical.

@@ -1,0 +1,167 @@
+\begingroup
+\setlength{\emergencystretch}{2em}
+\hypertarget{source-membership-results-and-limitations}{%
+\subsection{Source-membership results and
+limitations}\label{source-membership-results-and-limitations}}
+
+\hypertarget{fixed-development-performance}{%
+\subsubsection{Fixed development
+performance}\label{fixed-development-performance}}
+
+In the frozen 234-address test partition, the tree recovers 97 of 98
+core memberships and assigns one of 136 outside-core comparisons to the
+core class. Membership precision, recall and F1 are each 0.989796. These
+metrics evaluate the operational membership labels, not independently
+verified theft or hardware identity.
+
+\begin{longtable}[]{@{}llllll@{}}
+\toprule\noalign{}
+Partition & AP & ROC-AUC & Precision & Recall & F1 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Validation & 0.981534 & 0.990422 & 0.982456 & 1.000000 & 0.991150 \\
+Test & 0.993757 & 0.994748 & 0.989796 & 0.989796 & 0.989796 \\
+\end{longtable}
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule\noalign{}
+Partition & TP & FP & FN & TN \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Train & 346 & 6 & 0 & 681 \\
+Validation & 56 & 1 & 0 & 54 \\
+Test & 97 & 1 & 1 & 135 \\
+\end{longtable}
+
+Train counts are resubstitution diagnostics. Validation and test are
+held out from fitting, but belong to the same previously inspected
+incident/window; they are not an untouched or independent-incident
+evaluation. All AP and ROC-AUC values were independently checked from
+tied score groups and pairwise ranking counts. Confusion counts and F1
+also reproduce directly from the saved predictions.
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+Fixed test method & Membership AP & Membership ROC-AUC \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Training-prevalence constant & 0.418803 & 0.500000 \\
+Longer inactivity & 0.982880 & 0.986645 \\
+Larger balance & 0.765014 & 0.911877 \\
+Prespecified tree & 0.993757 & 0.994748 \\
+\end{longtable}
+
+Inactivity alone already achieves test AP 0.982880. The tree's
+descriptive gain is 1.09 percentage points on this fixed partition. No
+independent significance or causal claim follows, and no additional
+parameter search or model was fitted after inspecting these results.
+
+\hypertarget{rules-and-errors}{%
+\subsubsection{Rules and errors}\label{rules-and-errors}}
+
+The fitted tree has five leaves and uses only prior balance and
+inactivity. At the fixed decision threshold, the positive-membership
+region requires float32-converted balance greater than 14,820,511.5
+satoshis and inactivity greater than 1,006.5 blocks. A further split at
+8,750 blocks distinguishes two positive leaf scores. This is the fitted
+cohort rule, not a proposed operational theft/device threshold. A
+redundant split between two zero-score comparison leaves is retained
+without post-hoc pruning. Exact replay conditions and per-partition
+node/leaf supports remain in the saved model and rules.
+
+No explicit missingness indicator was selected, and no observed source
+reached a numeric split using an imputed value for that split variable.
+The full training-only preparation remains exported. This observation
+does not characterize the unknown vectors of excluded histories.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Partition / membership error
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Source ID
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Prior balance (sat)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Inactivity (blocks)
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+validation / FP & \texttt{comparison\_\allowbreak{}0328} & 16604900 & 145611 \\
+test / FN & \texttt{cohort\_\allowbreak{}0191} & 69145962 & 409 \\
+test / FP & \texttt{comparison\_\allowbreak{}0401} & 40096077 & 7000 \\
+\end{longtable}
+
+The missed case source \texttt{cohort\_\allowbreak{}0191} has 105 earlier receipt
+transactions and last activity only 409 blocks before reference. It
+falls outside the learned inactivity region despite its case membership.
+The test comparison \texttt{comparison\_\allowbreak{}0401} has one earlier receipt, a
+balance of 40,096,077 satoshis and 7,000 blocks of inactivity,
+resembling the covered case profile. The validation error is also an
+old-funded comparison. These are membership errors; neither predictions
+nor corrections settle compromise or device status.
+
+\hypertarget{coverage-and-inference-limits}{%
+\subsubsection{Coverage and inference
+limits}\label{coverage-and-inference-limits}}
+
+Coverage is 100\% for cases and 87.8\% for selected comparisons, ranging
+from 81.36\% to 91.51\% across comparison strata. The sampled core
+prevalence increases from 33.33\% of selections to 36.28\% of available
+vectors. The 122 unavailable comparisons have median saved
+full-current-history transaction count 3,347, versus 3 for available
+comparisons. These counts were observed at different collection
+snapshots and are diagnostic metadata, never prior-block predictors or
+estimates of missing features. Missingness cannot be assumed random.
+
+All 500 positives come from one retrospectively reconstructed incident.
+Core membership and case evidence were learned after the event; their
+publication/availability dates are not established for prospective use.
+Addresses are not independent victims or devices. Same-chain
+reconstruction agreement, an owner report, provider coverage and genuine
+device/compromise verification are distinct evidence tiers.
+Independently verified compromise/device labels remain unknown for every
+selection, and comparisons are not verified benign examples.
+
+The result supports a reproducible, interpretable description of covered
+source profiles and a narrow within-window membership baseline. It does
+not establish a cause of loss, a signing-device fingerprint, calibrated
+theft probabilities, independent-incident transfer or general blockchain
+detection performance. The selection prevalence is study-defined. The
+122 bounded-incomplete prefixes remain unresolved; a validated prefix
+also does not certify a complete current history. The frozen external
+nineteen-feature forest and all earlier experiment artifacts remain
+unchanged.
+
+\hypertarget{reproducibility-and-supported-conclusion}{%
+\subsubsection{Reproducibility and supported
+conclusion}\label{reproducibility-and-supported-conclusion}}
+
+The fitted experiment is pinned to
+\href{https://github.com/HnsHugo/STAGE-UFU/commit/00659df35d3140143fa12b37ba35ea56722a4854}{commit
+00659df} on branch \texttt{task-\allowbreak{}2-\allowbreak{}wallet-\allowbreak{}analysis}. Its protocol freezes
+the data, component assignments, preparation, tree parameters, threshold
+and software versions. All 1,378 JSON-exported scores exactly match the
+fitted estimator. Thirty focused tests and verification without a model
+refit passed in the saved execution. The report builder checks the saved
+predictions, confusion counts, F1, fingerprints, exclusions and
+component partitioning; it performs no new training or collection.
+
+A separate independent evaluation would require a justified additional
+incident/source universe, evidence-backed label definitions and a new
+prespecified protocol. The current validation/test outcomes must not be
+reused for tuning or described as newly independent evidence.
+
+\endgroup

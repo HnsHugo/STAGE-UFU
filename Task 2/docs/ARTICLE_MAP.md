@@ -7,16 +7,25 @@ and bibliography files were supplied on 27 October. Read
 notes. The earlier [reference review](../research/external_cases/PROFESSOR_REFERENCES.md)
 retains the evidence available at its own date.
 
+**Integrated write-up, 2 November 2026:** The
+[source-address study](../source_address_study/README.md) now provides the complete
+English methods/results text, a five-page PDF and two LaTeX fragments for the
+supplied `Our Work` / `Results` sections. The original article files were read
+for layout; neither those originals nor a live Overleaf project was edited.
+The [integration guide](../source_address_study/README.md#article-integration)
+lists the small preamble addition and exact input locations. Data, model, scores,
+groups, cutoffs and unknown labels remain unchanged.
+
 | Article section | Existing material | Remaining work |
 | --- | --- | --- |
-| Introduction | Transaction exercise and financial case analysis | Complete the robbed source-address dataset/model and distinguish hardware evidence from graph relationships |
+| Introduction | Transaction exercise, financial case analysis and completed source-membership baseline | Frame the achieved target as retrospective membership; independent compromise/device targets remain unresolved |
 | Related work | Initial source-selection and evidence reviews | A structured review of primary research with suitable citations |
 | Hardware wallet | Distinction between hardware signing, cold storage and attribution | Evidence-backed observable hypotheses |
-| Bitcoin transactions | Part 2 feature definitions and units | Explain why each family could help the chosen target |
-| GNN and alternatives | Interpretable transaction baselines and supplementary address benchmarks | Justify graph representation and models from the research question; no GNN result yet |
-| Initial dataset | Corpus manifest, parent coverage and Part 2 | Add the source-address evidence registry; document intervals, roles, missingness and hardware-label eligibility |
-| Results | Parts 1, 3 and 4 | More developed topology, cross-case and other-period evaluations |
-| Conclusions | Current positive results and explicit failures | Write conclusions proportional to independent evidence |
+| Bitcoin transactions | Part 2 and the write-up define all fourteen address predictors and units | Keep reference/future outcomes outside predictors and separate address from transaction features |
+| GNN and alternatives | Completed prespecified shallow source tree; historical transaction baselines | Reconcile the introduction's proposed GNN with the completed tabular baseline; no GNN result is claimed |
+| Initial dataset / Our Work | `source_methods.tex`: 500 cases, 1,000 fixed comparisons, 1,378 vectors, acquisition, cutoffs, groups and training-only preparation | Additional independent incidents and verified device/compromise labels remain future work |
+| Results | `source_results.tex`: fixed test membership F1 0.989796, comparisons, rules, errors and coverage limits; historical Parts 1/3/4 remain distinct | Cross-incident transfer and prospective validation are not established |
+| Conclusions | Write-up bounds the supported result to covered single-incident membership | Broader theft/device claims require separate evidence and evaluation |
 
 A GCN is a type of graph neural network; SHAP explains predictions rather than
 replacing a classifier. The introduction proposes GNN training; the main outline

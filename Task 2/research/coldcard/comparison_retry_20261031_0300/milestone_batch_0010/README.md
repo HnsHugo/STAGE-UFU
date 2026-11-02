@@ -29,7 +29,7 @@ remaining 141 IDs; do not retry any completed/incomplete or consumed attempt.
 
 The next 100 sources produced 89 complete and 11 bounded-incomplete histories,
 without network errors. The first 100 results are byte-preserved in
-[milestone_batch_0005](milestone_batch_0005/). All 200 raw responses re-extract;
+[milestone_batch_0005](../milestone_batch_0005/). All 200 raw responses re-extract;
 the 89 new complete vectors were independently recounted. Combined totals are
 500 unchanged complete cases, 807 complete comparisons, 152 incomplete and 41
 pending comparisons. The fourteen predictors, strict cutoff and unknown labels

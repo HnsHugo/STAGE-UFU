@@ -1,5 +1,11 @@
 # Central experiment — Retrieve known collectors from complete Bitcoin blocks
 
+**Current source-address report, 2 November 2026:** The
+[completed source study](source_address_study/README.md) now documents the primary
+address-level dataset and frozen membership baseline. The historical recipient
+retrieval results below keep their original title, targets and measurements;
+they do not substitute for that source-address study or share its F1 metric.
+
 **Scope update, 27 October:** this report retains its historical name and results.
 The [current alignment](ALIGNMENT.md) prioritizes compromised **source-address**
 reconstruction and classification. Recipient retrieval is a supporting experiment

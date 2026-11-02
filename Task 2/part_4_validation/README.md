@@ -4,7 +4,36 @@
 
 ## Goal
 
-Separate success on a small exercise from performance on different transaction groups. This part evaluates the extended candidate-relation target, not exactly the payment-to-address target of Part 3.
+Explain what each fixed evaluation establishes, keeping the new source-membership
+target separate from the historical transaction candidate-relation target.
+
+## Source-address membership evaluation — 2 November 2026
+
+The [research write-up](../source_address_study/README.md) reports the unchanged
+grouped split and held-out development results. All 918 observed-link components
+remain in one partition each; no measured shared prior reference, reference TXID
+or identical full vector crosses partitions. This does not establish unknown
+entity links or independent incidents.
+
+| Partition | Addresses | Membership TP / FP / FN / TN | Membership F1 |
+| --- | ---: | --- | ---: |
+| Validation | 111 | 56 / 1 / 0 / 54 | 0.991150 |
+| Test | 234 | 97 / 1 / 1 / 135 | 0.989796 |
+
+The fixed test AP is 0.993757 and ROC-AUC 0.994748. Inactivity alone already has
+AP 0.982880. The missing case `cohort_0191` was recently active; the outside-core
+comparison `comparison_0401` resembles the older funded case profile. These are
+membership errors, not adjudicated theft/device errors. Exactly 122 selected
+comparisons remain unscored, with disproportionately large saved current
+histories. The study covers one previously inspected incident; no independent-
+incident, untouched-test or prospective claim is made. No tuning uses these
+validation/test outcomes. The [saved interpretation](../research/coldcard/source_membership_baseline_20261102_162335/INTERPRETATION.md)
+and report explain the rule, coverage bias and unknown labels.
+
+## Historical transaction candidate-relation evaluation
+
+The sections below evaluate the extended transaction candidate-relation target,
+which also differs from the classroom payment-to-address target of Part 3.
 
 ## Read in this order
 

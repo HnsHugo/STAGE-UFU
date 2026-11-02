@@ -1,5 +1,22 @@
 # Task 2 working instructions
 
+**Latest completed unit — source-address write-up, 2 November 2026:**
+Read `source_address_study/README.md`, its checked five-page PDF and
+`provenance.json`. The English methods/results cover acquisition, evidence tiers,
+the fourteen prior-block definitions, frozen groups/preparation, metrics, errors
+and limits. Two LaTeX fragments fit the supplied `Our Work` / `Results` outline;
+the original files and live Overleaf project were not edited. The report builder
+at `docs/build_source_address_study.py` checks saved outputs without importing a
+model library, fitting or requesting provider data. The fitted model, protocol,
+scores, source vectors, cutoffs and unknown labels remain unchanged. Internal
+navigation/syntax checks and 185 protected-artifact fingerprints pass. Parts 2-5
+and the article map now distinguish this address study from old transaction and
+recipient experiments. The write-up unit is complete. Future work must justify
+compatible source/label evidence and a separately specified cross-incident study;
+do not silently tune or refit on the already inspected membership test. No new
+collection or automation was started. Earlier next-write-up/collection notes are
+historical.
+
 **Latest completed unit — frozen source-membership baseline, 2 November 2026 UTC:**
 Hugo authorized the prespecified fit. Read
 `research/coldcard/source_membership_baseline_20261102_162335/README.md`,

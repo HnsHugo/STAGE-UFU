@@ -1,5 +1,26 @@
 # Project status — 2 November 2026
 
+**Latest completed unit — source-address research write-up, 2 November 2026:**
+The [English report](source_address_study/README.md) and
+[five-page PDF](source_address_study/source_address_study.pdf) now explain the
+data acquisition, evidence tiers, all fourteen definitions, strict cutoff,
+coverage/grouping, fixed training preparation, results, comparisons and errors.
+Two LaTeX fragments follow the supplied article's `Our Work` / `Results` outline,
+with a checked preamble addition and standalone preview. Both the preview and
+original article layout compile without layout warnings. The original supplied
+files and live Overleaf project were not modified. Main navigation, Parts 2-5,
+the article map and reproduction instructions now distinguish this address
+study from historical transaction/recipient experiments. A broken historical
+milestone navigation link was corrected without changing scientific data.
+The report builder verifies the frozen model/output fingerprints, 1,378 scores,
+1,500 selections, 122 exclusions, 918 noncrossing components and confusion/F1
+counts directly from saved artifacts. Repository navigation/syntax checks and
+all 185 protected-artifact fingerprints pass. No new model, fit, collection or
+label promotion occurred. Membership F1 0.989796 remains a covered single-incident
+development result. Broader transfer needs separately justified source/label
+evidence and evaluation; do not tune using the reported test outcomes. Earlier
+write-up proposals and collection priorities below are historical.
+
 **Latest completed unit — frozen source-membership baseline, 2 November 2026 UTC:**
 The [single prespecified tree](research/coldcard/source_membership_baseline_20261102_162335/README.md)
 was fitted on 1,033 training addresses only, with training-only median fills and

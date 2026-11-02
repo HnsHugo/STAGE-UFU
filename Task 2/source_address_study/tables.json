@@ -1,0 +1,178 @@
+{
+  "available_vectors": 1378,
+  "components": 918,
+  "excluded_comparisons": 122,
+  "features": [
+    "confirmed_tx_count",
+    "receipt_tx_count",
+    "spending_tx_count",
+    "received_output_count",
+    "spent_output_count",
+    "received_sat",
+    "spent_sat",
+    "balance_sat",
+    "unspent_output_count",
+    "active_block_count",
+    "activity_span_blocks",
+    "blocks_since_first_activity",
+    "blocks_since_last_activity",
+    "median_spending_tx_fee_rate_sat_vb"
+  ],
+  "full_history_comparison_statuses": {
+    "complete": 864,
+    "incomplete": 136
+  },
+  "independently_verified_compromise_labels": 0,
+  "independently_verified_device_labels": 0,
+  "model_commit": "00659df35d3140143fa12b37ba35ea56722a4854",
+  "owner_reports": 1,
+  "partition_counts": {
+    "test": {
+      "case": 98,
+      "comparison": 136,
+      "components": 186
+    },
+    "train": {
+      "case": 346,
+      "comparison": 687,
+      "components": 633
+    },
+    "validation": {
+      "case": 56,
+      "comparison": 55,
+      "components": 99
+    }
+  },
+  "partition_metrics": {
+    "test": {
+      "balance_rank": {
+        "average_precision_membership": 0.7650144737193767,
+        "case": 98,
+        "comparison": 136,
+        "roc_auc_membership": 0.9118772509003602,
+        "rows": 234,
+        "sampled_membership_prevalence": 0.4188034188034188
+      },
+      "constant_train_prevalence": {
+        "average_precision_membership": 0.4188034188034188,
+        "case": 98,
+        "comparison": 136,
+        "roc_auc_membership": 0.5,
+        "rows": 234,
+        "sampled_membership_prevalence": 0.4188034188034188
+      },
+      "inactivity_rank": {
+        "average_precision_membership": 0.9828804750916063,
+        "case": 98,
+        "comparison": 136,
+        "roc_auc_membership": 0.9866446578631453,
+        "rows": 234,
+        "sampled_membership_prevalence": 0.4188034188034188
+      },
+      "tree": {
+        "average_precision_membership": 0.9937570527949536,
+        "case": 98,
+        "comparison": 136,
+        "f1_membership": 0.9897959183673469,
+        "false_negative_membership": 1,
+        "false_positive_membership": 1,
+        "precision_membership": 0.9897959183673469,
+        "recall_membership": 0.9897959183673469,
+        "roc_auc_membership": 0.9947478991596639,
+        "rows": 234,
+        "sampled_membership_prevalence": 0.4188034188034188,
+        "threshold": 0.5,
+        "threshold_operator": ">=",
+        "true_negative_membership": 135,
+        "true_positive_membership": 97
+      }
+    },
+    "train": {
+      "balance_rank": {
+        "average_precision_membership": 0.8564661170711187,
+        "case": 346,
+        "comparison": 687,
+        "roc_auc_membership": 0.9632838596225526,
+        "rows": 1033,
+        "sampled_membership_prevalence": 0.33494675701839305
+      },
+      "constant_train_prevalence": {
+        "average_precision_membership": 0.33494675701839305,
+        "case": 346,
+        "comparison": 687,
+        "roc_auc_membership": 0.5,
+        "rows": 1033,
+        "sampled_membership_prevalence": 0.33494675701839305
+      },
+      "inactivity_rank": {
+        "average_precision_membership": 0.9471703495634443,
+        "case": 346,
+        "comparison": 687,
+        "roc_auc_membership": 0.9817081892453577,
+        "rows": 1033,
+        "sampled_membership_prevalence": 0.33494675701839305
+      },
+      "tree": {
+        "average_precision_membership": 0.9934662454336527,
+        "case": 346,
+        "comparison": 687,
+        "f1_membership": 0.9914040114613181,
+        "false_negative_membership": 0,
+        "false_positive_membership": 6,
+        "precision_membership": 0.9829545454545454,
+        "recall_membership": 1.0,
+        "roc_auc_membership": 0.9983424624109178,
+        "rows": 1033,
+        "sampled_membership_prevalence": 0.33494675701839305,
+        "threshold": 0.5,
+        "threshold_operator": ">=",
+        "true_negative_membership": 681,
+        "true_positive_membership": 346
+      }
+    },
+    "validation": {
+      "balance_rank": {
+        "average_precision_membership": 0.905554961435978,
+        "case": 56,
+        "comparison": 55,
+        "roc_auc_membership": 0.9551948051948052,
+        "rows": 111,
+        "sampled_membership_prevalence": 0.5045045045045045
+      },
+      "constant_train_prevalence": {
+        "average_precision_membership": 0.5045045045045045,
+        "case": 56,
+        "comparison": 55,
+        "roc_auc_membership": 0.5,
+        "rows": 111,
+        "sampled_membership_prevalence": 0.5045045045045045
+      },
+      "inactivity_rank": {
+        "average_precision_membership": 0.9645106708069123,
+        "case": 56,
+        "comparison": 55,
+        "roc_auc_membership": 0.9675324675324676,
+        "rows": 111,
+        "sampled_membership_prevalence": 0.5045045045045045
+      },
+      "tree": {
+        "average_precision_membership": 0.9815336953494849,
+        "case": 56,
+        "comparison": 55,
+        "f1_membership": 0.9911504424778761,
+        "false_negative_membership": 0,
+        "false_positive_membership": 1,
+        "precision_membership": 0.9824561403508771,
+        "recall_membership": 1.0,
+        "roc_auc_membership": 0.9904220779220779,
+        "rows": 111,
+        "sampled_membership_prevalence": 0.5045045045045045,
+        "threshold": 0.5,
+        "threshold_operator": ">=",
+        "true_negative_membership": 54,
+        "true_positive_membership": 56
+      }
+    }
+  },
+  "selected_sources": 1500
+}

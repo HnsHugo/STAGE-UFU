@@ -1,5 +1,18 @@
 # Task 2 alignment — 27 October 2026
 
+**Latest scope checkpoint — source-address write-up, 2 November 2026:**
+The [research report](source_address_study/README.md), checked five-page PDF and
+LaTeX method/result fragments now present the frozen source-address study in the
+supplied article's outline. They document acquisition, fourteen definitions,
+cutoffs, groups, errors and selection limits; they make no new theft/device,
+GNN, prospective or independent-incident claim. The original supplied article
+files and live Overleaf project were not edited. The write-up reuses the saved
+model and scores unchanged and verifies all reported counts without a new fit.
+Parts 2-5 and the article map link this source study separately from historical
+transaction and collector-ranking results. That report unit is complete; any
+broader transfer study first needs compatible source/evidence definitions and a
+separate protocol, retaining the existing test as already inspected development.
+
 **Latest scope checkpoint — prespecified membership fit, 2 November 2026 UTC:**
 Hugo authorized the baseline after the feasibility audit. The
 [saved experiment](research/coldcard/source_membership_baseline_20261102_162335/README.md)
