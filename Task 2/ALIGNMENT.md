@@ -1,5 +1,22 @@
 # Task 2 alignment — 27 October 2026
 
+**Latest scope checkpoint — prespecified membership fit, 2 November 2026 UTC:**
+Hugo authorized the baseline after the feasibility audit. The
+[saved experiment](research/coldcard/source_membership_baseline_20261102_162335/README.md)
+uses the original fourteen prior-block definitions, 918 observed-link components,
+hash buckets, depth-3/minimum-20/balanced/seed-42 tree and score >= 0.5 threshold.
+Exactly one cohort fit uses training rows only; validation/test never select
+parameters, features or thresholds. The 234-address test gives membership F1
+0.989796 (one false-positive and one false-negative membership), AP 0.993757 and
+ROC-AUC 0.994748. A simple inactivity ranking already has AP 0.982880. Read the
+[rule/error interpretation](research/coldcard/source_membership_baseline_20261102_162335/INTERPRETATION.md)
+before treating high performance as substantive detection evidence: the target is
+retrospective core membership in this covered single incident, with previously
+inspected profiles. Unknown compromise/device labels, 122 excluded comparison
+prefixes and unknown links through those histories prevent broader validation.
+No collection or automation was reopened. The next unit should document the
+fixed result and evidence limits, preserving the test outcome without tuning.
+
 **Latest scope checkpoint — offline feasibility, 2 November 2026 UTC:**
 The [saved audit](research/coldcard/source_comparison_feasibility_20261102_1603/README.md)
 confirms that the original complete-case membership experiment is numerically

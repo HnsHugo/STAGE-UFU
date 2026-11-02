@@ -1,0 +1,174 @@
+{
+  "comparator_policy": "Constant training membership prevalence, descending prior-block inactivity and descending prior-block balance. Undefined comparator values use the same training medians. Ranking metrics only.",
+  "created_at": "2026-11-02T16:23:35.296089+00:00",
+  "cutoff": "Confirmed height < unchanged reference height; exclude entire reference block and all future data.",
+  "decision_threshold": 0.5,
+  "estimator_parameters": {
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": 3,
+    "max_features": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 20,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "random_state": 42,
+    "splitter": "best"
+  },
+  "evaluation_policy": "Fixed validation/test within the same previously inspected incident/window. No independent-incident, untouched-test, prospective, calibrated theft or hardware-identity claim.",
+  "generated_outputs": [
+    "model.json",
+    "summary.json",
+    "predictions.json.gz",
+    "errors.json.gz",
+    "rules.json",
+    "tree.svg",
+    "README.md",
+    "verification.json"
+  ],
+  "input_commit": "861d31b9727a90fac9ccd167832a53c53c02a9bf",
+  "inputs": {
+    "auditor": {
+      "file": "audit_source_comparison_feasibility.py",
+      "sha256": "50c020d8bbe6804c5bfb8196504d748e0fe4b48f8cc341c198740485f4ae93f9"
+    },
+    "design": {
+      "file": "source_comparison_design_20261030/protocol.json",
+      "sha256": "53fe2b2ecefaa90f9a9820f735c2e40318d2abb836cbf7f84734fb10e227e1f8"
+    },
+    "feasibility_protocol": {
+      "file": "source_comparison_feasibility_20261102_1603/protocol.json",
+      "sha256": "1be0d93b96cf7289ca17d3ee17c5bea2cc9dd02ae62d99f5f9a40806eaf7eb08"
+    },
+    "feasibility_summary": {
+      "file": "source_comparison_feasibility_20261102_1603/summary.json",
+      "sha256": "b977cfa582688fafd5aff30c6bedd5bef7678e7b99ae41ab813a7b44e1d49e7c"
+    },
+    "feasibility_verification": {
+      "file": "source_comparison_feasibility_20261102_1603/verification.json",
+      "sha256": "b896c5f7736c4dfe32bcd2db47531287eedcc301107c93e6ddce2ecd2d7d8adf"
+    },
+    "frozen_split": {
+      "file": "source_membership_baseline_20261102_162335/split_manifest.json.gz",
+      "sha256": "2571c35ba6bddbb2649bdd497d606353f6db49da6be0d6d827dd037b27815328"
+    },
+    "groups": {
+      "file": "source_comparison_feasibility_20261102_1603/group_evidence.json.gz",
+      "sha256": "d772415a86d624f49107d7c3edb09b79ca2d7b5704cb9eb9e370e5d8c16e1bd2"
+    },
+    "runner": {
+      "file": "train_source_membership.py",
+      "sha256": "8322a8bac319002b40bdf6baf027d9257ee351fa4ab0eb383ec996edbdac9773"
+    },
+    "tests": {
+      "file": "test_source_membership.py",
+      "sha256": "c384a4fd9b0971b6a04b00cdd789659bf21bbb23b8f8b025fccd729960a0fbd2"
+    },
+    "view": {
+      "file": "reference_tail_continuation_20261102_1508/precutoff_feature_view.json.gz",
+      "sha256": "a96aac7555150122e08dfab2a5d70773df31a28869a52f91cc75a5e12ebe29ab"
+    }
+  },
+  "labels": "Positive is known core membership; comparison is selected outside core. Independently verified compromise/device labels remain unknown.",
+  "method_sources": [
+    {
+      "reviewed_on": "2026-11-02",
+      "url": "https://scikit-learn.org/1.8/modules/generated/sklearn.tree.DecisionTreeClassifier.html"
+    },
+    {
+      "reviewed_on": "2026-11-02",
+      "url": "https://scikit-learn.org/1.8/common_pitfalls.html"
+    },
+    {
+      "reviewed_on": "2026-11-02",
+      "url": "https://scikit-learn.org/1.8/modules/generated/sklearn.metrics.average_precision_score.html"
+    }
+  ],
+  "missing_vector_policy": "Preserve all 122 bounded-incomplete selected comparisons with null vectors; exclude from fitting/scoring, never impute missing histories.",
+  "model_input_names": [
+    "confirmed_tx_count",
+    "receipt_tx_count",
+    "spending_tx_count",
+    "received_output_count",
+    "spent_output_count",
+    "received_sat",
+    "spent_sat",
+    "balance_sat",
+    "unspent_output_count",
+    "active_block_count",
+    "activity_span_blocks",
+    "blocks_since_first_activity",
+    "blocks_since_last_activity",
+    "median_spending_tx_fee_rate_sat_vb",
+    "missing__confirmed_tx_count",
+    "missing__receipt_tx_count",
+    "missing__spending_tx_count",
+    "missing__received_output_count",
+    "missing__spent_output_count",
+    "missing__received_sat",
+    "missing__spent_sat",
+    "missing__balance_sat",
+    "missing__unspent_output_count",
+    "missing__active_block_count",
+    "missing__activity_span_blocks",
+    "missing__blocks_since_first_activity",
+    "missing__blocks_since_last_activity",
+    "missing__median_spending_tx_fee_rate_sat_vb"
+  ],
+  "partition_rule": {
+    "hash_prefix": "coldcard-source-split-v1:42:",
+    "minimum_per_class_per_partition": 20,
+    "modulus": 10,
+    "test_residues": [
+      8,
+      9
+    ],
+    "train_residues": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_residues": [
+      7
+    ]
+  },
+  "predictor_allowlist": [
+    "confirmed_tx_count",
+    "receipt_tx_count",
+    "spending_tx_count",
+    "received_output_count",
+    "spent_output_count",
+    "received_sat",
+    "spent_sat",
+    "balance_sat",
+    "unspent_output_count",
+    "active_block_count",
+    "activity_span_blocks",
+    "blocks_since_first_activity",
+    "blocks_since_last_activity",
+    "median_spending_tx_fee_rate_sat_vb"
+  ],
+  "preprocessing_policy": "np.median of observed training values only, using arithmetic middle-pair median for even counts; zero only for all-missing training columns. Fourteen fixed missingness indicators.",
+  "preservation": "Keep all prior evidence/models/views unchanged. No provider HTTP, new collection, automation, costs or main-branch merge.",
+  "requirement": "Execute the single prespecified shallow source-membership baseline after the passed coverage/grouping audit.",
+  "row_order": "Lexical source_id ascending in each frozen partition; identifiers never become predictors.",
+  "runtime": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  },
+  "schema_version": 1,
+  "target": "known_coldcard_core_membership",
+  "threshold_operator": ">=",
+  "training_policy": "Exactly one fit on train only. No hyperparameter/feature/threshold search, no seed reroll, no validation/test refit.",
+  "unit": "One unique selected input source address with its frozen reference payment and strict prior-block cutoff."
+}

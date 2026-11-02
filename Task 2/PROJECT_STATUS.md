@@ -1,5 +1,28 @@
 # Project status — 2 November 2026
 
+**Latest completed unit — frozen source-membership baseline, 2 November 2026 UTC:**
+The [single prespecified tree](research/coldcard/source_membership_baseline_20261102_162335/README.md)
+was fitted on 1,033 training addresses only, with training-only median fills and
+the fourteen fixed missingness indicators. The audited 918 components and hash
+partitions are unchanged (111 validation / 234 test addresses); the 122 unfinished
+comparison prefixes remain excluded and unscored. At score >= 0.5, the test has
+97 true-positive memberships, 135 true-negative memberships, one false-positive
+membership and one false-negative membership: precision/recall/F1 each 0.989796,
+AP 0.993757 and ROC-AUC 0.994748. Validation membership F1 is 0.991150. Inactivity
+alone already gives test AP 0.982880, so interpret the tree's balance/inactivity
+separation as a narrow cohort result. All 1,378 JSON scores match the native
+estimator; independent ranking-metric and confusion-count checks pass. Thirty
+focused tests pass; export verification performs no model refit. Rules, support,
+missingness, every membership error and the inert JSON model are saved. See the
+[interpretation](research/coldcard/source_membership_baseline_20261102_162335/INTERPRETATION.md).
+One previously inspected incident, asymmetric complete-case coverage and unknown
+independently verified compromise/device labels still prevent theft/device or
+independent-incident claims. No parameter search, test-based tuning, new collection
+or automation was performed. The external nineteen-feature forest and old results
+are unchanged. The next aligned unit is the research write-up of the fixed result
+and evidence limitations; do not tune using these reported test outcomes. Older
+no-fit/collection priorities below describe historical stages.
+
 **Latest completed unit — offline comparison feasibility, 2 November 2026 UTC:**
 The [coverage/grouping audit](research/coldcard/source_comparison_feasibility_20261102_1603/README.md)
 reproduces all 1,378 available fourteen-variable vectors from pinned normalized

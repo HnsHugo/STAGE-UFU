@@ -1,5 +1,24 @@
 # Task 2 working instructions
 
+**Latest completed unit — frozen source-membership baseline, 2 November 2026 UTC:**
+Hugo authorized the prespecified fit. Read
+`research/coldcard/source_membership_baseline_20261102_162335/README.md`,
+`INTERPRETATION.md` and the pinned protocol. One cohort tree was fitted on 1,033
+training rows only; 111 validation / 234 test rows use the unchanged 918-component
+hash split. Fourteen prior-block definitions and fourteen missing indicators are
+unchanged. Median fills and balanced class weights use train only. Test membership
+F1 is 0.989796 (97 TP / 135 TN / 1 FP / 1 FN), AP 0.993757, ROC-AUC 0.994748;
+inactivity alone has test AP 0.982880. These are previously inspected within-window
+development results from one incident, not theft/device or independent-incident
+validation. All 1,378 exported JSON scores match the fitted estimator; independent
+metrics/support checks and 30 focused tests pass. Verification requires no refit.
+The 122 unfinished comparison prefixes remain unscored and excluded, with all
+old evidence and full-history statuses preserved. Do not reroll groups, tune on
+the reported validation/test outcomes or silently refit on all available rows.
+The next aligned unit is a write-up of fixed results/rules/errors and evidence
+limitations. No new collection or automation is active. The external nineteen-
+feature forest is unchanged. Older no-fit/collection priorities are historical.
+
 **Latest completed unit — offline comparison feasibility, 2 November 2026 UTC:**
 Read `research/coldcard/source_comparison_feasibility_20261102_1603/README.md`
 and its pinned protocol before any subsequent membership baseline. All 1,378

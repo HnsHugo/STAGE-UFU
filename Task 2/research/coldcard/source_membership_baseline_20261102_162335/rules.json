@@ -1,0 +1,182 @@
+[
+  {
+    "case_membership_score": 0.0,
+    "conditions": [
+      {
+        "feature": "balance_sat",
+        "operator": "<=",
+        "threshold": 14820511.5
+      },
+      {
+        "feature": "balance_sat",
+        "operator": "<=",
+        "threshold": 1889.5
+      }
+    ],
+    "leaf_id": 2,
+    "predicted_known_coldcard_core_membership": 0,
+    "support": {
+      "test": {
+        "case": 0,
+        "comparison": 25,
+        "imputed_split_rows": 0
+      },
+      "train": {
+        "case": 0,
+        "comparison": 20,
+        "imputed_split_rows": 0
+      },
+      "validation": {
+        "case": 0,
+        "comparison": 2,
+        "imputed_split_rows": 0
+      }
+    }
+  },
+  {
+    "case_membership_score": 0.0,
+    "conditions": [
+      {
+        "feature": "balance_sat",
+        "operator": "<=",
+        "threshold": 14820511.5
+      },
+      {
+        "feature": "balance_sat",
+        "operator": ">",
+        "threshold": 1889.5
+      }
+    ],
+    "leaf_id": 3,
+    "predicted_known_coldcard_core_membership": 0,
+    "support": {
+      "test": {
+        "case": 0,
+        "comparison": 93,
+        "imputed_split_rows": 0
+      },
+      "train": {
+        "case": 0,
+        "comparison": 622,
+        "imputed_split_rows": 0
+      },
+      "validation": {
+        "case": 0,
+        "comparison": 47,
+        "imputed_split_rows": 0
+      }
+    }
+  },
+  {
+    "case_membership_score": 0.0,
+    "conditions": [
+      {
+        "feature": "balance_sat",
+        "operator": ">",
+        "threshold": 14820511.5
+      },
+      {
+        "feature": "blocks_since_last_activity",
+        "operator": "<=",
+        "threshold": 1006.5
+      }
+    ],
+    "leaf_id": 5,
+    "predicted_known_coldcard_core_membership": 0,
+    "support": {
+      "test": {
+        "case": 1,
+        "comparison": 17,
+        "imputed_split_rows": 0
+      },
+      "train": {
+        "case": 0,
+        "comparison": 39,
+        "imputed_split_rows": 0
+      },
+      "validation": {
+        "case": 0,
+        "comparison": 5,
+        "imputed_split_rows": 0
+      }
+    }
+  },
+  {
+    "case_membership_score": 0.8881706528765351,
+    "conditions": [
+      {
+        "feature": "balance_sat",
+        "operator": ">",
+        "threshold": 14820511.5
+      },
+      {
+        "feature": "blocks_since_last_activity",
+        "operator": ">",
+        "threshold": 1006.5
+      },
+      {
+        "feature": "blocks_since_last_activity",
+        "operator": "<=",
+        "threshold": 8750.0
+      }
+    ],
+    "leaf_id": 7,
+    "predicted_known_coldcard_core_membership": 1,
+    "support": {
+      "test": {
+        "case": 3,
+        "comparison": 1,
+        "imputed_split_rows": 0
+      },
+      "train": {
+        "case": 16,
+        "comparison": 4,
+        "imputed_split_rows": 0
+      },
+      "validation": {
+        "case": 3,
+        "comparison": 0,
+        "imputed_split_rows": 0
+      }
+    }
+  },
+  {
+    "case_membership_score": 0.9969569308977053,
+    "conditions": [
+      {
+        "feature": "balance_sat",
+        "operator": ">",
+        "threshold": 14820511.5
+      },
+      {
+        "feature": "blocks_since_last_activity",
+        "operator": ">",
+        "threshold": 1006.5
+      },
+      {
+        "feature": "blocks_since_last_activity",
+        "operator": ">",
+        "threshold": 8750.0
+      }
+    ],
+    "leaf_id": 8,
+    "predicted_known_coldcard_core_membership": 1,
+    "support": {
+      "test": {
+        "case": 94,
+        "comparison": 0,
+        "imputed_split_rows": 0
+      },
+      "train": {
+        "case": 330,
+        "comparison": 2,
+        "imputed_split_rows": 0
+      },
+      "validation": {
+        "case": 53,
+        "comparison": 1,
+        "imputed_split_rows": 0
+      }
+    }
+  }
+]
