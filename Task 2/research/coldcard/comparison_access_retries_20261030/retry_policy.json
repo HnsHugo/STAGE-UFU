@@ -6,7 +6,7 @@
   "authorized_on": "2026-10-30",
   "automation_confirmed_enabled": false,
   "automation_created_at": "2026-10-30T18:47:19.174817+00:00",
-  "automation_execution_status": "environment_blocked_before_provider_http",
+  "automation_execution_status": "reference_tail_successor_collecting",
   "automation_execution_verified": true,
   "automation_previous_disable_reason": "All latest network errors and unattempted sources resolved. 160 bounded-incomplete comparison histories remain a separate coverage issue.",
   "automation_previous_disabled_at": "2026-10-31T05:06:50.943146+00:00",
@@ -19,12 +19,12 @@
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
     "state": "running",
-    "purpose": "single_due_original_route_counter_check",
     "owner": "counter_check_20261102_145306",
-    "started_at": "2026-11-02T14:53:06.126469+00:00",
-    "expires_at": "2026-11-02T15:13:06.126469+00:00",
-    "protocol": "source_reference_tail_continuation_20261101_0653_protocol.json",
-    "protocol_sha256": "309e5fb5262f87df1712b20a520bdeac9413f535033eb199691d5d2e8a204c2b",
+    "purpose": "bounded_prefix_successor_collection",
+    "started_at": "2026-11-02T15:01:27Z",
+    "expires_at": "2026-11-02T17:01:27.000Z",
+    "protocol": "source_reference_tail_continuation_20261102_1455_protocol.json",
+    "protocol_sha256": "564a61d011392a16fe4b31a8a5d981942741bf5d62ed51e78e53a9a1b01f4948",
     "policy": "A running unexpired lease prohibits every second collector and provider probe."
   },
   "comparison_pre_cutoff_predictors_available": 876,
@@ -58,7 +58,7 @@
   "latest_stop_file": "reference_tail_continuation_20261101_0653/collection_stop.json",
   "latest_work": "source_cohort_work_reference_tail_continuation_20261101_0653",
   "maximum_429_backoff_seconds": 86400,
-  "next_coverage_action": "Restore authorized original-provider network access and current pinned checkout/private caches if available; verify latest resume and all pins before enabling continuation over the same 19 IDs. Preserve the saved cooldown and original route/TLS.",
+  "next_coverage_action": "Foreground bounded successor over the 19 pinned network-only sources; do not start a second collector.",
   "next_network_attempt_not_before": "2026-11-01T23:20:04.694868+00:00",
   "next_run_time_provided_by_service": false,
   "normal_run_bounds": {
@@ -84,5 +84,26 @@
   "timezone": "America/Sao_Paulo",
   "automation_environment_paused_at": "2026-11-01T23:57:31.138159+00:00",
   "automation_environment_pause_reason": "Original provider blockstream.info is outside this execution environment's network allowlist. Latest local checkout/private work is unavailable; no provider request or new source result.",
-  "latest_environment_block_file": "comparison_access_retries_20261030/environment_block_20261101_2356.json"
+  "latest_environment_block_file": "comparison_access_retries_20261030/environment_block_20261101_2356.json",
+  "prepared_prefix_successor": {
+    "pass_name": "reference_tail_continuation_20261102_1455",
+    "protocol": "source_reference_tail_continuation_20261102_1455_protocol.json",
+    "work": "source_cohort_work_reference_tail_continuation_20261102_1455",
+    "output": "reference_tail_continuation_20261102_1455",
+    "parent_resume": "reference_tail_continuation_20261101_0653/resume_checkpoint.json",
+    "prepared_commit": "6b163e426f64a0476e689be6306e524c314cabff"
+  },
+  "last_counter_access_check": {
+    "address_sha256": "b4d6921c04e4627790a7ca1b95a290914a56369e5c13d30d3bbad32ec2f283f9",
+    "automatic_retry_performed": false,
+    "confirmed_transaction_count": 774,
+    "counter_attempts": 1,
+    "finished_at": "2026-11-02T14:54:03.532732+00:00",
+    "http_status": 200,
+    "response_sha256": "58226654db4011256ebfbbf325af374e7797643f14a76d6b86aa6319b55c9958",
+    "route": "original comparison_http.PersistentHTTP(1), inherited system proxy, default verified TLS",
+    "source_id": "comparison_0843",
+    "started_at": "2026-11-02T14:53:57.888108+00:00"
+  },
+  "environment_block_diagnosis_superseded_by": "One normal original-route counter GET returned HTTP200 on 2026-11-02. The environment flags alone did not establish a provider access block."
 }
