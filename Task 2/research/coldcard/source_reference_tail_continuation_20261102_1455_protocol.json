@@ -1,0 +1,392 @@
+{
+  "authorization": "User-authorized continuation after the saved cooldown and one original-route counter HTTP200.",
+  "batch_size": 20,
+  "coverage_scope": "Exhausted confirmed prefix strictly below the unchanged frozen cutoff; never full-current-history promotion.",
+  "created_at": "2026-11-02T14:59:15.455888+00:00",
+  "denied_page_attempt_policy": "Any new attempt occurs only in this distinct successor after cooldown; old consumed markers stay in their original passes.",
+  "failure_policy": "Stop new starts on first 403/429 or other failure; no internal retry or provider/route/account/proxy/IP/TLS change.",
+  "inputs": {
+    "baseline_view": {
+      "file": "reference_tail_continuation_20261101_0653/precutoff_feature_view.json.gz",
+      "sha256": "c8cda4ab2a6777f80b27200443eed03d61203346045faeaa36c3d3b554387851"
+    },
+    "batch_runner": {
+      "file": "collect_reference_tail_many.py",
+      "sha256": "8d5bbac9c78779b725e22075f6eca7b08bd9294cd4e2e784ed48e16d54659da9"
+    },
+    "collector": {
+      "file": "collect_reference_tail.py",
+      "sha256": "c911691ce1f31be82fbfbb6ce7c589ab77da9da0dba7eb5ffc91ea42d0165c51"
+    },
+    "continuation_auditor": {
+      "file": "audit_reference_tail_successor.py",
+      "sha256": "0b353663564cfb23f334c65be77c2179b3c95528d1ce1bc643906300cdbff08a"
+    },
+    "feature_extractor": {
+      "file": "prepayment_pilot.py",
+      "sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701"
+    },
+    "ledger": {
+      "file": "collect_comparison_coverage.py",
+      "sha256": "243432e042f413fe601db2f661e6afc072e7e3ddd518730de424a31efd2101df"
+    },
+    "lineage_000": {
+      "file": "reference_tail_continuation_20261101_0653/resume_checkpoint.json",
+      "sha256": "cf257bde95e83f7fe1bccd0134418a84ea9b724b7612ad478e54f5fe5dc0da51"
+    },
+    "lineage_001": {
+      "file": "reference_tail_continuation_20261101_0653/coverage_audit.json",
+      "sha256": "7c4de7112a56026ec3d9343edcb19ac4b3993abe070e5e3ae7a635cf9cd4a25d"
+    },
+    "lineage_002": {
+      "file": "reference_tail_continuation_20261101_0653/checkpoint.json.gz",
+      "sha256": "18b48c8f6d47cc7e59b74ec8436da83d37a11d1eebf975c748c55832fed13114"
+    },
+    "lineage_003": {
+      "file": "reference_tail_continuation_20261101_0653/precutoff_feature_view.json.gz",
+      "sha256": "c8cda4ab2a6777f80b27200443eed03d61203346045faeaa36c3d3b554387851"
+    },
+    "lineage_004": {
+      "file": "reference_tail_coverage_20261031_221432/resume_checkpoint.json",
+      "sha256": "4f10d8c94472160737a8433cad786cf878948d3ec4df64d50c5f11574324a7ef"
+    },
+    "lineage_005": {
+      "file": "reference_tail_coverage_20261031_221432/coverage_audit.json",
+      "sha256": "587f4f2f7a1efdc7b32f386e9ebcece4a929116e692906b1f60891e66c150011"
+    },
+    "lineage_006": {
+      "file": "reference_tail_coverage_20261031_221432/checkpoint.json.gz",
+      "sha256": "8b89befd7a93416227a8faed25287f1825b21f256210f5c4e39e3f32f89e5f65"
+    },
+    "lineage_007": {
+      "file": "reference_tail_coverage_20261031_221432/precutoff_feature_view.json.gz",
+      "sha256": "5435d6164fdab7c1f220a013652bf67573c5aaebc8c6d2f78f48cb0652219614"
+    },
+    "lineage_008": {
+      "file": "source_reference_tail_coverage_20261031_221432_protocol.json",
+      "sha256": "678377edf02f64af61777a7c7558ae32d605b9c8413bcda2751b6f8b74af6b4d"
+    },
+    "lineage_009": {
+      "file": "comparison_extended_20261031_164508/address_dataset.json.gz",
+      "sha256": "23d28dc33a7cc6f0712c9363bae0d8bc1819323efaeed3f07bb868d0ebd443ee"
+    },
+    "lineage_010": {
+      "file": "collect_reference_tail_many.py",
+      "sha256": "8d5bbac9c78779b725e22075f6eca7b08bd9294cd4e2e784ed48e16d54659da9"
+    },
+    "lineage_011": {
+      "file": "collect_reference_tail.py",
+      "sha256": "c911691ce1f31be82fbfbb6ce7c589ab77da9da0dba7eb5ffc91ea42d0165c51"
+    },
+    "lineage_012": {
+      "file": "prepayment_pilot.py",
+      "sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701"
+    },
+    "lineage_013": {
+      "file": "collect_comparison_coverage.py",
+      "sha256": "243432e042f413fe601db2f661e6afc072e7e3ddd518730de424a31efd2101df"
+    },
+    "lineage_014": {
+      "file": "source_reference_tail_pilot_20261031_221016_protocol.json",
+      "sha256": "eca1c09687f90bc6171a4e970691425ce8f455f3b3e190497bd0c05f3ac5a86c"
+    },
+    "lineage_015": {
+      "file": "comparison_extended_20261031_164508/checkpoint.json.gz",
+      "sha256": "1776a79b06fe4415b2402ec09ba2b9d59797159559af9a319f8ab8713f405eea"
+    },
+    "lineage_016": {
+      "file": "source_comparison_extended_20261031_164508_protocol.json",
+      "sha256": "032f567a0e8d4ecdb691a744431882dd65b16e9a86df5f48ef7c9cd223632966"
+    },
+    "lineage_017": {
+      "file": "collect_theft_seeds.py",
+      "sha256": "70f4a7fc66980c499be512ebe2006c6fc5a300c6f66050505557e7f9797c68f1"
+    },
+    "lineage_018": {
+      "file": "comparison_retry_20261031_0300/checkpoint.json.gz",
+      "sha256": "538fc325236877c97ae9a5c8ed499995f2dcd341f75589bf788ac569ac9db7b4"
+    },
+    "lineage_019": {
+      "file": "source_comparison_retry_protocol_20261031_0300.json",
+      "sha256": "641f0a500543d0aa475c3bf72b5be49c0bb37a2e7a8707e97d7d3fc380f7d9e3"
+    },
+    "lineage_020": {
+      "file": "comparison_network_recovery_20261030/access_check.json",
+      "sha256": "fff5261f35aa2f54ea7394fd47ae7c01ea74dbfba21baf8891edda8c8cca7f80"
+    },
+    "lineage_021": {
+      "file": "comparison_histories_20261030/checkpoint.json.gz",
+      "sha256": "ff6cfc70756486bbd2546cf23395ebc0402f8ac9998ce904a5befbc8867f3c44"
+    },
+    "lineage_022": {
+      "file": "source_comparison_collection_protocol_20261030.json",
+      "sha256": "3b903654be6d84d4cf159c8ecfa8209ab65af7e50004d22034b22872a101407b"
+    },
+    "lineage_023": {
+      "file": "source_cohort.py",
+      "sha256": "6e1f56fa3c9f815aee0452974ff403e3c5ad1bd5e91330e9c43d0037b55c6e4c"
+    },
+    "lineage_024": {
+      "file": "source_comparison_design_20261030/protocol.json",
+      "sha256": "53fe2b2ecefaa90f9a9820f735c2e40318d2abb836cbf7f84734fb10e227e1f8"
+    },
+    "lineage_025": {
+      "file": "source_dataset_20261030/view.json.gz",
+      "sha256": "ceceab50d0242e5ba0195d7d2f456cbfb77173cb262460e441a41776d5215d9d"
+    },
+    "lineage_026": {
+      "file": "source_dataset_20261030/protocol.json",
+      "sha256": "922c3de80381effa0363c15624ecf02ae80c706024f3a9cccacdcc504eb39422"
+    },
+    "lineage_027": {
+      "file": "source_cohort_recovery_protocol_20261029.json",
+      "sha256": "ab0152508aafdfe004fc541466c46b3a16dc420e33c2160b1ac47126d4f0f37e"
+    },
+    "lineage_028": {
+      "file": "source_cohort_recovery_20261029/batch_0002/checkpoint.json",
+      "sha256": "a78ad7367c43102fd5b4d80d9fc8f1d8300ea205f520f59f2847029d7cced944"
+    },
+    "lineage_029": {
+      "file": "source_corroboration_20261030/comparison.json",
+      "sha256": "8f1cec76971487b1adc2edf0dfd5b4f4e21a5e6a28ac13c6e6db068aadee19c0"
+    },
+    "lineage_030": {
+      "file": "owner_report_adjudication_20261030/adjudication.json",
+      "sha256": "ab00e127b196ce61c71cb3b77523905618ea31bc4fed14dffa0f47c7f308057a"
+    },
+    "lineage_031": {
+      "file": "source_registry_protocol_20261027.json",
+      "sha256": "75abe6458bc7bda64b0fd6c94a7c145f352dc60050c367ae5b6ca1a5bee31f47"
+    },
+    "lineage_032": {
+      "file": "../external_cases/central_protocol_20261020.json",
+      "sha256": "c1e9bc565e6a05701a7807eb2e9c30ebb762a87b932ce8a4a8b7b45fa54997db"
+    },
+    "lineage_033": {
+      "file": "../external_cases/central_results_20261020/summary.json",
+      "sha256": "ac868ebd3754454b3fcbc4b96b313768083427e2decb00c0ecedd970c58f166e"
+    },
+    "lineage_034": {
+      "file": "../external_cases/rank_block_recipients.py",
+      "sha256": "784dc1f3a7cc0b87a972ad6082509b6d06ca394cb16633bb5b632583e08321f3"
+    },
+    "lineage_035": {
+      "file": "multiinput_pilot.py",
+      "sha256": "4bca0c087a6a31d7eb11ee51951b29f1a62603c2ecffb9be67cf0595c5fc07c9"
+    },
+    "lineage_036": {
+      "file": "source_comparison_selection_20261030/selection.json",
+      "sha256": "611570b92038092ca8be8fbf327a86a0ad04a4f5fedcdfe489fcf47ef88c7334"
+    },
+    "lineage_037": {
+      "file": "comparison_retry_20261030_2133/checkpoint.json.gz",
+      "sha256": "1ad6e0de7630bc93cc4a285502b78b507cd12edaa600b33a4c5514130e30760b"
+    },
+    "lineage_038": {
+      "file": "source_comparison_retry_protocol_20261030_2133.json",
+      "sha256": "ce8b8f2850718e3394ca9b83c221aee7f044b1fcf7943f7ba8edd11ec8fc850d"
+    },
+    "lineage_039": {
+      "file": "comparison_retry_20261030_1841/checkpoint.json.gz",
+      "sha256": "0b5c056660999d137a4986a9f39f522d3876c7915ffcb3fbf59e804f83b7e705"
+    },
+    "lineage_040": {
+      "file": "source_comparison_retry_protocol_20261030_1841.json",
+      "sha256": "91d860f179e285aa277e902e4625b1dced5f832d5ea1932e81bf0753f4d45019"
+    },
+    "lineage_041": {
+      "file": "comparison_rate_limit_continuation_20261030/checkpoint.json.gz",
+      "sha256": "19150af7885b169a801e4b019ec4e51186d38220ae73d7c7e8937e29eb97292d"
+    },
+    "lineage_042": {
+      "file": "source_comparison_rate_limit_continuation_protocol_20261030.json",
+      "sha256": "411fb6bf63c1a496439761d90a147cc88d8e7557aca7a6d4e00a7f77ed478006"
+    },
+    "lineage_043": {
+      "file": "comparison_network_recovery_20261030/checkpoint.json.gz",
+      "sha256": "05c63262b171f32e042f7de371ecc160b5fa6136e9b42d68a5788a47f34165ec"
+    },
+    "lineage_044": {
+      "file": "source_comparison_network_recovery_protocol_20261030.json",
+      "sha256": "5c45bd4651b6fb3dfb4dd1f739b18113e04b2d0463ae34e2696eec2f297b8f3f"
+    },
+    "lineage_045": {
+      "file": "comparison_network_recovery_20261030/collection_stop.json",
+      "sha256": "8fc5d1f7c613b1303047b547fb796c9aa5cd0d7c8d9e7c5c19fecd5c60d1aa42"
+    },
+    "lineage_046": {
+      "file": "comparison_rate_limit_continuation_20261030/collection_stop.json",
+      "sha256": "a73ccd00a526b5f8aa4a04b65b4602b2505e7906efc6c741d6a64f37414cba75"
+    },
+    "lineage_047": {
+      "file": "comparison_access_retries_20261030/access_20261030T184106Z.json",
+      "sha256": "baf23e30a674987339778724c88ab991487712368bf12b396f62feec94b3a991"
+    },
+    "lineage_048": {
+      "file": "comparison_retry_20261030_1841/collection_stop.json",
+      "sha256": "44e912d4bdd288ef7f2032b708377efe82960986984a31ec861f6cbb0ec6ca12"
+    },
+    "lineage_049": {
+      "file": "comparison_access_retries_20261030/access_20261030T213300Z.json",
+      "sha256": "0b0e875be7d30eb05668536b3ef488c37be2e25a614d361c89b41913788ade6f"
+    },
+    "lineage_050": {
+      "file": "comparison_retry_20261030_2133/collection_stop.json",
+      "sha256": "adffb93d7ea0bccc50bc23d122763aa8af805b0378e440bbd3442504ea010206"
+    },
+    "lineage_051": {
+      "file": "comparison_access_retries_20261030/access_20261031T030026Z.json",
+      "sha256": "62f0deb3e92e20c90bfb52aca59019a8327aed8dd7c6525d60d7bfc296703fab"
+    },
+    "lineage_052": {
+      "file": "comparison_retry_20261031_0300/address_dataset.json.gz",
+      "sha256": "7c5060287bd9e7d339288127dae380bcb004633584457b764c34e6639d01a5da"
+    },
+    "lineage_053": {
+      "file": "collect_comparison_histories.py",
+      "sha256": "722acb046c1c762f8987571a8215b5a486e60ee2a3d43a9f990e2e13232a553d"
+    },
+    "lineage_054": {
+      "file": "reference_tail_pilot_20261031_221016/provider_contract_sources.json",
+      "sha256": "90316cf2e91a192f2ba2e08b4aa4faa924a072205603bc14177ffdc571353793"
+    },
+    "lineage_055": {
+      "file": "comparison_http.py",
+      "sha256": "79793179e8c1bb153ade9a7fa742ed7a4a766bb6e039c791d880d24d5a484915"
+    },
+    "lineage_056": {
+      "file": "reference_tail_pilot_20261031_221016/request_manifest.json.gz",
+      "sha256": "773ebf96cc76be84749a4f9174669e98999519700613e0d10e09e42f11db4b96"
+    },
+    "lineage_057": {
+      "file": "reference_tail_pilot_20261031_221016/pilot_validation.json",
+      "sha256": "fd0a555c7e369c02e01902784453fedec10e75b3963b53aa2fd35f195a49dde4"
+    },
+    "lineage_058": {
+      "file": "reference_tail_coverage_20261031_221432/request_manifest.json.gz",
+      "sha256": "576d87fcd799ad2def1c922b550c7127f4fec30ac1ec84ae8619821950ce9101"
+    },
+    "lineage_059": {
+      "file": "reference_tail_coverage_20261031_221432/collection_stop.json",
+      "sha256": "2aaa4c294b2de9f9576f72372ffda9e88e399aa2aeb4fcbb658b978ced656077"
+    },
+    "lineage_060": {
+      "file": "source_reference_tail_continuation_20261101_0653_protocol.json",
+      "sha256": "309e5fb5262f87df1712b20a520bdeac9413f535033eb199691d5d2e8a204c2b"
+    },
+    "lineage_061": {
+      "file": "audit_reference_tail_continuation.py",
+      "sha256": "50c38598955cfdbbaa72380e1f1a04d6fa28686cc684036871c179025ee5f937"
+    },
+    "lineage_062": {
+      "file": "reference_tail_continuation_20261101_0653/request_manifest.json.gz",
+      "sha256": "aac5655de6682392372cbc0d6b955e9c9ca5a235ff99b04d2ae42dcc84e3b5ba"
+    },
+    "lineage_063": {
+      "file": "reference_tail_continuation_20261101_0653/collection_stop.json",
+      "sha256": "0454539f839d541fc1c4ebc5d2af6b87a3fae29efd7b37c644a0421d59178ccc"
+    },
+    "parent_audit": {
+      "file": "reference_tail_continuation_20261101_0653/coverage_audit.json",
+      "sha256": "7c4de7112a56026ec3d9343edcb19ac4b3993abe070e5e3ae7a635cf9cd4a25d"
+    },
+    "parent_checkpoint": {
+      "file": "reference_tail_continuation_20261101_0653/checkpoint.json.gz",
+      "sha256": "18b48c8f6d47cc7e59b74ec8436da83d37a11d1eebf975c748c55832fed13114"
+    },
+    "parent_feature_view": {
+      "file": "reference_tail_continuation_20261101_0653/precutoff_feature_view.json.gz",
+      "sha256": "c8cda4ab2a6777f80b27200443eed03d61203346045faeaa36c3d3b554387851"
+    },
+    "parent_predecessor_resume": {
+      "file": "reference_tail_coverage_20261031_221432/resume_checkpoint.json",
+      "sha256": "4f10d8c94472160737a8433cad786cf878948d3ec4df64d50c5f11574324a7ef"
+    },
+    "parent_protocol": {
+      "file": "source_reference_tail_continuation_20261101_0653_protocol.json",
+      "sha256": "309e5fb5262f87df1712b20a520bdeac9413f535033eb199691d5d2e8a204c2b"
+    },
+    "parent_request_manifest": {
+      "file": "reference_tail_continuation_20261101_0653/request_manifest.json.gz",
+      "sha256": "aac5655de6682392372cbc0d6b955e9c9ca5a235ff99b04d2ae42dcc84e3b5ba"
+    },
+    "parent_stop": {
+      "file": "reference_tail_continuation_20261101_0653/collection_stop.json",
+      "sha256": "0454539f839d541fc1c4ebc5d2af6b87a3fae29efd7b37c644a0421d59178ccc"
+    },
+    "parent_validated_pilot": {
+      "file": "reference_tail_pilot_20261031_221016/pilot_validation.json",
+      "sha256": "fd0a555c7e369c02e01902784453fedec10e75b3963b53aa2fd35f195a49dde4"
+    },
+    "pilot_validation": {
+      "file": "reference_tail_pilot_20261031_221016/pilot_validation.json",
+      "sha256": "fd0a555c7e369c02e01902784453fedec10e75b3963b53aa2fd35f195a49dde4"
+    },
+    "transport": {
+      "file": "comparison_http.py",
+      "sha256": "79793179e8c1bb153ade9a7fa742ed7a4a766bb6e039c791d880d24d5a484915"
+    }
+  },
+  "labels": "Unknown labels and all fourteen definitions are unchanged.",
+  "max_batches": 5,
+  "max_pages_per_address": 16,
+  "merge_policy": "Compose with the latest pinned schema-v2 baseline and preserve every previous vector and full-history status.",
+  "normal_counter_access_check": {
+    "address_sha256": "b4d6921c04e4627790a7ca1b95a290914a56369e5c13d30d3bbad32ec2f283f9",
+    "automatic_retry_performed": false,
+    "confirmed_transaction_count": 774,
+    "counter_attempts": 1,
+    "finished_at": "2026-11-02T14:54:03.532732+00:00",
+    "http_status": 200,
+    "repeat_inside_successor": false,
+    "response_sha256": "58226654db4011256ebfbbf325af374e7797643f14a76d6b86aa6319b55c9958",
+    "route": "original comparison_http.PersistentHTTP(1), inherited system proxy, default verified TLS",
+    "source_id": "comparison_0843",
+    "started_at": "2026-11-02T14:53:57.888108+00:00"
+  },
+  "pass_name": "reference_tail_continuation_20261102_1455",
+  "predecessor_failed_markers_reused": false,
+  "predecessor_predictor_vectors": 1376,
+  "predecessor_successful_responses_for_selected_sources": 14,
+  "private_plan_sha256": "3ba1f5a5e0500ba9f9af39641a3664ba496723909d4b57d4a40b146eb694a53a",
+  "provider": "https://blockstream.info/api",
+  "requests_per_second": 1,
+  "schema_version": 1,
+  "source_ids": [
+    "comparison_0843",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0859",
+    "comparison_0860",
+    "comparison_0868",
+    "comparison_0877",
+    "comparison_0880",
+    "comparison_0883",
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0970",
+    "comparison_0973",
+    "comparison_0977",
+    "comparison_0982",
+    "comparison_0995",
+    "comparison_1000"
+  ],
+  "successor_attempts_for_predecessor_denied_pages": [
+    {
+      "endpoint_sha256": "d355fbf2922f2a39465670bc38f78ccaeb5c7f2b9f6c3e82cfeaec534f30b712",
+      "error_type": "HTTPError",
+      "finished_at": "2026-11-01T07:20:04.694868+00:00",
+      "http_status": 429,
+      "key": "tail_0007",
+      "reason": "HTTP Error 429: Too Many Requests",
+      "source_id": "comparison_0851",
+      "started_at": "2026-11-01T07:20:02.710772+00:00"
+    }
+  ],
+  "timeout_seconds": 15,
+  "unavailable_private_response_policy": "Absent predecessor private bytes cannot be reused; their published metadata is preserved. New requests for unfinished sources are recorded only in the successor.",
+  "verified_predecessor_responses_reused": 0,
+  "workers": 2
+}
