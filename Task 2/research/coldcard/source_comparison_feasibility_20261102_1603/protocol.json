@@ -1,0 +1,141 @@
+{
+  "checkpoints": {
+    "case_recovery": "checkpoint_0",
+    "comparison_extended_20261031_164508": "checkpoint_6",
+    "comparison_retry_20261030_1841": "checkpoint_3",
+    "comparison_retry_20261030_2133": "checkpoint_4",
+    "comparison_retry_20261031_0300": "checkpoint_5",
+    "initial": "checkpoint_1",
+    "network_recovery": "checkpoint_2",
+    "reference_tail_continuation_20261101_0653": "checkpoint_8",
+    "reference_tail_continuation_20261102_1508": "checkpoint_9",
+    "reference_tail_coverage_20261031_221432": "checkpoint_7"
+  },
+  "created_at": "2026-11-02T16:02:04.664044+00:00",
+  "cutoff": "Confirmed height strictly less than the unchanged reference height; exclude the whole reference block and future.",
+  "input_commit": "3f927a511a7cdd7c2e2210afc596732a956829e6",
+  "inputs": {
+    "auditor": {
+      "file": "audit_source_comparison_feasibility.py",
+      "sha256": "50c020d8bbe6804c5bfb8196504d748e0fe4b48f8cc341c198740485f4ae93f9"
+    },
+    "cases": {
+      "file": "source_dataset_20261030/view.json.gz",
+      "sha256": "ceceab50d0242e5ba0195d7d2f456cbfb77173cb262460e441a41776d5215d9d"
+    },
+    "checkpoint_0": {
+      "file": "source_cohort_recovery_20261029/batch_0002/checkpoint.json",
+      "sha256": "a78ad7367c43102fd5b4d80d9fc8f1d8300ea205f520f59f2847029d7cced944"
+    },
+    "checkpoint_1": {
+      "file": "comparison_histories_20261030/checkpoint.json.gz",
+      "sha256": "ff6cfc70756486bbd2546cf23395ebc0402f8ac9998ce904a5befbc8867f3c44"
+    },
+    "checkpoint_2": {
+      "file": "comparison_network_recovery_20261030/checkpoint.json.gz",
+      "sha256": "05c63262b171f32e042f7de371ecc160b5fa6136e9b42d68a5788a47f34165ec"
+    },
+    "checkpoint_3": {
+      "file": "comparison_retry_20261030_1841/checkpoint.json.gz",
+      "sha256": "0b5c056660999d137a4986a9f39f522d3876c7915ffcb3fbf59e804f83b7e705"
+    },
+    "checkpoint_4": {
+      "file": "comparison_retry_20261030_2133/checkpoint.json.gz",
+      "sha256": "1ad6e0de7630bc93cc4a285502b78b507cd12edaa600b33a4c5514130e30760b"
+    },
+    "checkpoint_5": {
+      "file": "comparison_retry_20261031_0300/checkpoint.json.gz",
+      "sha256": "538fc325236877c97ae9a5c8ed499995f2dcd341f75589bf788ac569ac9db7b4"
+    },
+    "checkpoint_6": {
+      "file": "comparison_extended_20261031_164508/checkpoint.json.gz",
+      "sha256": "1776a79b06fe4415b2402ec09ba2b9d59797159559af9a319f8ab8713f405eea"
+    },
+    "checkpoint_7": {
+      "file": "reference_tail_coverage_20261031_221432/checkpoint.json.gz",
+      "sha256": "8b89befd7a93416227a8faed25287f1825b21f256210f5c4e39e3f32f89e5f65"
+    },
+    "checkpoint_8": {
+      "file": "reference_tail_continuation_20261101_0653/checkpoint.json.gz",
+      "sha256": "18b48c8f6d47cc7e59b74ec8436da83d37a11d1eebf975c748c55832fed13114"
+    },
+    "checkpoint_9": {
+      "file": "reference_tail_continuation_20261102_1508/checkpoint.json.gz",
+      "sha256": "d55395ee81c08f4c9c51020ea930df3d26343acb5472516b1d76fd7f79ee9284"
+    },
+    "completion_audit": {
+      "file": "reference_tail_continuation_20261102_1508/coverage_audit.json",
+      "sha256": "3ef7503130ead089c9906ef10819158e0e22946d603ddc1950ae4bd4cd144a3d"
+    },
+    "completion_resume": {
+      "file": "reference_tail_continuation_20261102_1508/resume_checkpoint.json",
+      "sha256": "0fb71f1f91de7bb0904514b374e522be80f70dd7d7e507796d1789fd05f395b4"
+    },
+    "design": {
+      "file": "source_comparison_design_20261030/protocol.json",
+      "sha256": "53fe2b2ecefaa90f9a9820f735c2e40318d2abb836cbf7f84734fb10e227e1f8"
+    },
+    "extended_progress": {
+      "file": "comparison_extended_20261031_164508/progress.json",
+      "sha256": "7b01bcfcf6f7b4c3cea57f59829a89ecf89880976750fc13433ce6ec2d66bb46"
+    },
+    "extractor": {
+      "file": "prepayment_pilot.py",
+      "sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701"
+    },
+    "extractor_import": {
+      "file": "collect_theft_seeds.py",
+      "sha256": "70f4a7fc66980c499be512ebe2006c6fc5a300c6f66050505557e7f9797c68f1"
+    },
+    "extractor_utilities": {
+      "file": "build_source_registry.py",
+      "sha256": "5149239fa7f540445662d621a069289c8734c7ec81fde1c5b3f4a80313867005"
+    },
+    "selection": {
+      "file": "source_comparison_selection_20261030/selection.json",
+      "sha256": "611570b92038092ca8be8fbf327a86a0ad04a4f5fedcdfe489fcf47ef88c7334"
+    },
+    "tests": {
+      "file": "test_source_comparison_feasibility.py",
+      "sha256": "1908565917ecd51490548046682998469339cf86069384fb1fbb0b89d8621a2f"
+    },
+    "view": {
+      "file": "reference_tail_continuation_20261102_1508/precutoff_feature_view.json.gz",
+      "sha256": "a96aac7555150122e08dfab2a5d70773df31a28869a52f91cc75a5e12ebe29ab"
+    }
+  },
+  "interpretation": "One incident, complete-case retrospective membership study. Unknown compromise/device labels are not negative labels. Provider full-history counters are diagnostic only, never predictors.",
+  "missing_vector_policy": "Retain all selected rows and null vectors, no replacement or imputation of unfinished prefixes.",
+  "outputs": [
+    "summary.json",
+    "group_evidence.json.gz",
+    "README.md",
+    "verification.json"
+  ],
+  "partition": {
+    "hash_prefix": "coldcard-source-split-v1:42:",
+    "minimum_per_class_per_partition": 20,
+    "modulus": 10,
+    "test_residues": [
+      8,
+      9
+    ],
+    "train_residues": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_residues": [
+      7
+    ]
+  },
+  "requirement": "Audit fixed-selection attrition and feasibility of the prespecified grouped within-window membership evaluation.",
+  "schema_version": 1,
+  "scope": "Offline audit only. Aggregate bucket feasibility, no materialized model datasets, training, fitted preprocessing, resampling, new collection or automation changes.",
+  "target": "known_coldcard_core_membership",
+  "unit": "One unique selected Bitcoin input source address and its unchanged reference payment."
+}

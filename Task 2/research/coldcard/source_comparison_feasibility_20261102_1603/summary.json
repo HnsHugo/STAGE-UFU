@@ -1,0 +1,619 @@
+{
+  "available_case_vectors": 500,
+  "available_comparison_vectors": 878,
+  "available_membership_prevalence": 0.36284470246734396,
+  "available_vectors": 1378,
+  "collection_performed": false,
+  "component_count": 918,
+  "counter_diagnostic_policy": "Provider counts at different collection snapshots, not prior-block features. Complete histories use reconciled observed totals; incomplete histories use the saved supplemental counter snapshot. Descriptive attrition diagnostic only.",
+  "coverage": [
+    {
+      "available": 500,
+      "coverage_fraction": 1.0,
+      "cutoff_height": null,
+      "membership": "case",
+      "selected": 500,
+      "unavailable": 0
+    },
+    {
+      "available": 878,
+      "coverage_fraction": 0.878,
+      "cutoff_height": null,
+      "membership": "comparison",
+      "selected": 1000,
+      "unavailable": 122
+    },
+    {
+      "available": 63,
+      "coverage_fraction": 1.0,
+      "cutoff_height": 960188,
+      "membership": "case",
+      "selected": 63,
+      "unavailable": 0
+    },
+    {
+      "available": 108,
+      "coverage_fraction": 0.8571428571428571,
+      "cutoff_height": 960188,
+      "membership": "comparison",
+      "selected": 126,
+      "unavailable": 18
+    },
+    {
+      "available": 110,
+      "coverage_fraction": 1.0,
+      "cutoff_height": 960189,
+      "membership": "case",
+      "selected": 110,
+      "unavailable": 0
+    },
+    {
+      "available": 179,
+      "coverage_fraction": 0.8136363636363636,
+      "cutoff_height": 960189,
+      "membership": "comparison",
+      "selected": 220,
+      "unavailable": 41
+    },
+    {
+      "available": 168,
+      "coverage_fraction": 1.0,
+      "cutoff_height": 960190,
+      "membership": "case",
+      "selected": 168,
+      "unavailable": 0
+    },
+    {
+      "available": 300,
+      "coverage_fraction": 0.8928571428571429,
+      "cutoff_height": 960190,
+      "membership": "comparison",
+      "selected": 336,
+      "unavailable": 36
+    },
+    {
+      "available": 159,
+      "coverage_fraction": 1.0,
+      "cutoff_height": 960191,
+      "membership": "case",
+      "selected": 159,
+      "unavailable": 0
+    },
+    {
+      "available": 291,
+      "coverage_fraction": 0.9150943396226415,
+      "cutoff_height": 960191,
+      "membership": "comparison",
+      "selected": 318,
+      "unavailable": 27
+    }
+  ],
+  "created_at": "2026-11-02T16:02:04.664044+00:00",
+  "dataset_split_materialized": false,
+  "distinct_prior_transaction_references": 34640,
+  "feature_distributions": {
+    "case": {
+      "active_block_count": {
+        "distinct_nonmissing": 24,
+        "max": 225,
+        "min": 1,
+        "missing": 0,
+        "nonmissing": 500,
+        "p25": 1,
+        "p50": 1,
+        "p75": 1,
+        "p95": 5,
+        "zeros": 0
+      },
+      "activity_span_blocks": {
+        "distinct_nonmissing": 80,
+        "max": 263284,
+        "min": 0,
+        "missing": 0,
+        "nonmissing": 500,
+        "p25": 0,
+        "p50": 0,
+        "p75": 0,
+        "p95": 104419,
+        "zeros": 415
+      },
+      "balance_sat": {
+        "distinct_nonmissing": 438,
+        "max": 2989252501,
+        "min": 14999770,
+        "missing": 0,
+        "nonmissing": 500,
+        "p25": 23998000,
+        "p50": 40932154,
+        "p75": 100000000,
+        "p95": 500000294,
+        "zeros": 0
+      },
+      "blocks_since_first_activity": {
+        "distinct_nonmissing": 471,
+        "max": 284468,
+        "min": 3811,
+        "missing": 0,
+        "nonmissing": 500,
+        "p25": 97100,
+        "p50": 196543,
+        "p75": 235682,
+        "p95": 264616,
+        "zeros": 0
+      },
+      "blocks_since_last_activity": {
+        "distinct_nonmissing": 472,
+        "max": 278905,
+        "min": 409,
+        "missing": 0,
+        "nonmissing": 500,
+        "p25": 80909,
+        "p50": 173735,
+        "p75": 230148,
+        "p95": 261874,
+        "zeros": 0
+      },
+      "confirmed_tx_count": {
+        "distinct_nonmissing": 24,
+        "max": 225,
+        "min": 1,
+        "missing": 0,
+        "nonmissing": 500,
+        "p25": 1,
+        "p50": 1,
+        "p75": 1,
+        "p95": 6,
+        "zeros": 0
+      },
+      "median_spending_tx_fee_rate_sat_vb": {
+        "distinct_nonmissing": 17,
+        "max": 100.28985507246377,
+        "min": 1.0070921985815602,
+        "missing": 482,
+        "nonmissing": 18,
+        "p25": 2.9952846151222854,
+        "p50": 8.03265306122449,
+        "p75": 20.02922077922078,
+        "p95": 100.28985507246377,
+        "zeros": 0
+      },
+      "receipt_tx_count": {
+        "distinct_nonmissing": 24,
+        "max": 225,
+        "min": 1,
+        "missing": 0,
+        "nonmissing": 500,
+        "p25": 1,
+        "p50": 1,
+        "p75": 1,
+        "p95": 5,
+        "zeros": 0
+      },
+      "received_output_count": {
+        "distinct_nonmissing": 24,
+        "max": 225,
+        "min": 1,
+        "missing": 0,
+        "nonmissing": 500,
+        "p25": 1,
+        "p50": 1,
+        "p75": 1,
+        "p95": 5,
+        "zeros": 0
+      },
+      "received_sat": {
+        "distinct_nonmissing": 439,
+        "max": 2989252501,
+        "min": 14999770,
+        "missing": 0,
+        "nonmissing": 500,
+        "p25": 23998000,
+        "p50": 41099710,
+        "p75": 100000000,
+        "p95": 507697893,
+        "zeros": 0
+      },
+      "spending_tx_count": {
+        "distinct_nonmissing": 4,
+        "max": 4,
+        "min": 0,
+        "missing": 0,
+        "nonmissing": 500,
+        "p25": 0,
+        "p50": 0,
+        "p75": 0,
+        "p95": 0,
+        "zeros": 482
+      },
+      "spent_output_count": {
+        "distinct_nonmissing": 6,
+        "max": 29,
+        "min": 0,
+        "missing": 0,
+        "nonmissing": 500,
+        "p25": 0,
+        "p50": 0,
+        "p75": 0,
+        "p95": 0,
+        "zeros": 482
+      },
+      "spent_sat": {
+        "distinct_nonmissing": 19,
+        "max": 557828665,
+        "min": 0,
+        "missing": 0,
+        "nonmissing": 500,
+        "p25": 0,
+        "p50": 0,
+        "p75": 0,
+        "p95": 0,
+        "zeros": 482
+      },
+      "unspent_output_count": {
+        "distinct_nonmissing": 22,
+        "max": 225,
+        "min": 1,
+        "missing": 0,
+        "nonmissing": 500,
+        "p25": 1,
+        "p50": 1,
+        "p75": 1,
+        "p95": 4,
+        "zeros": 0
+      }
+    },
+    "comparison": {
+      "active_block_count": {
+        "distinct_nonmissing": 168,
+        "max": 425,
+        "min": 0,
+        "missing": 0,
+        "nonmissing": 878,
+        "p25": 1,
+        "p50": 1,
+        "p75": 27,
+        "p95": 205,
+        "zeros": 21
+      },
+      "activity_span_blocks": {
+        "distinct_nonmissing": 393,
+        "max": 340001,
+        "min": 0,
+        "missing": 21,
+        "nonmissing": 857,
+        "p25": 0,
+        "p50": 0,
+        "p75": 11807,
+        "p95": 102681,
+        "zeros": 441
+      },
+      "balance_sat": {
+        "distinct_nonmissing": 832,
+        "max": 75924303320,
+        "min": 0,
+        "missing": 0,
+        "nonmissing": 878,
+        "p25": 53636,
+        "p50": 240620,
+        "p75": 1089280,
+        "p95": 40018000,
+        "zeros": 23
+      },
+      "blocks_since_first_activity": {
+        "distinct_nonmissing": 561,
+        "max": 340008,
+        "min": 1,
+        "missing": 21,
+        "nonmissing": 857,
+        "p25": 15,
+        "p50": 558,
+        "p75": 19380,
+        "p95": 125797,
+        "zeros": 0
+      },
+      "blocks_since_last_activity": {
+        "distinct_nonmissing": 250,
+        "max": 257138,
+        "min": 1,
+        "missing": 21,
+        "nonmissing": 857,
+        "p25": 5,
+        "p50": 9,
+        "p75": 61,
+        "p95": 14986,
+        "zeros": 0
+      },
+      "confirmed_tx_count": {
+        "distinct_nonmissing": 181,
+        "max": 455,
+        "min": 0,
+        "missing": 0,
+        "nonmissing": 878,
+        "p25": 1,
+        "p50": 1,
+        "p75": 34,
+        "p95": 217,
+        "zeros": 21
+      },
+      "median_spending_tx_fee_rate_sat_vb": {
+        "distinct_nonmissing": 290,
+        "max": 32.556338028169016,
+        "min": 0.1335974678997935,
+        "missing": 476,
+        "nonmissing": 402,
+        "p25": 1.2004784688995214,
+        "p50": 2.0065619491302304,
+        "p75": 2.7852525763709974,
+        "p95": 5.797101449275362,
+        "zeros": 0
+      },
+      "receipt_tx_count": {
+        "distinct_nonmissing": 145,
+        "max": 443,
+        "min": 0,
+        "missing": 0,
+        "nonmissing": 878,
+        "p25": 1,
+        "p50": 1,
+        "p75": 22,
+        "p95": 137,
+        "zeros": 21
+      },
+      "received_output_count": {
+        "distinct_nonmissing": 147,
+        "max": 908,
+        "min": 0,
+        "missing": 0,
+        "nonmissing": 878,
+        "p25": 1,
+        "p50": 1,
+        "p75": 23,
+        "p95": 138,
+        "zeros": 21
+      },
+      "received_sat": {
+        "distinct_nonmissing": 841,
+        "max": 114479600398,
+        "min": 0,
+        "missing": 0,
+        "nonmissing": 878,
+        "p25": 109399,
+        "p50": 1155000,
+        "p75": 12698638,
+        "p95": 205218376,
+        "zeros": 21
+      },
+      "spending_tx_count": {
+        "distinct_nonmissing": 122,
+        "max": 310,
+        "min": 0,
+        "missing": 0,
+        "nonmissing": 878,
+        "p25": 0,
+        "p50": 0,
+        "p75": 16,
+        "p95": 107,
+        "zeros": 476
+      },
+      "spent_output_count": {
+        "distinct_nonmissing": 133,
+        "max": 699,
+        "min": 0,
+        "missing": 0,
+        "nonmissing": 878,
+        "p25": 0,
+        "p50": 0,
+        "p75": 19,
+        "p95": 136,
+        "zeros": 476
+      },
+      "spent_sat": {
+        "distinct_nonmissing": 400,
+        "max": 38555297078,
+        "min": 0,
+        "missing": 0,
+        "nonmissing": 878,
+        "p25": 0,
+        "p50": 0,
+        "p75": 4763997,
+        "p95": 122630441,
+        "zeros": 476
+      },
+      "unspent_output_count": {
+        "distinct_nonmissing": 36,
+        "max": 209,
+        "min": 0,
+        "missing": 0,
+        "nonmissing": 878,
+        "p25": 1,
+        "p50": 1,
+        "p75": 1,
+        "p95": 9,
+        "zeros": 23
+      }
+    }
+  },
+  "frozen_partition_feasibility": {
+    "counts": {
+      "test": {
+        "case": 98,
+        "comparison": 136,
+        "components": 186
+      },
+      "train": {
+        "case": 346,
+        "comparison": 687,
+        "components": 633
+      },
+      "validation": {
+        "case": 56,
+        "comparison": 55,
+        "components": 99
+      }
+    },
+    "cross_partition_link_groups": {
+      "address": 0,
+      "full_vector": 0,
+      "prior_transaction": 0,
+      "reference_transaction": 0
+    },
+    "failures": [],
+    "feasible": true,
+    "minimum_per_class_per_partition": 20
+  },
+  "full_current_history_counter_diagnostic": {
+    "available_comparison": {
+      "distinct_nonmissing": 223,
+      "max": 1564,
+      "min": 2,
+      "missing": 0,
+      "nonmissing": 878,
+      "p25": 2,
+      "p50": 3,
+      "p75": 58,
+      "p95": 361,
+      "zeros": 0
+    },
+    "unavailable_comparison": {
+      "distinct_nonmissing": 121,
+      "max": 5945884,
+      "min": 472,
+      "missing": 0,
+      "nonmissing": 122,
+      "p25": 1049,
+      "p50": 3347,
+      "p75": 23628,
+      "p95": 1014156,
+      "zeros": 0
+    }
+  },
+  "full_history_comparison_statuses": {
+    "complete": 864,
+    "incomplete": 136
+  },
+  "grouping_scope": "Observed completed prior prefixes only; unknown prior links of 122 excluded sources are not claimed absent. Components are not ownership clusters.",
+  "incident_count": 1,
+  "independent_component_check": "BFS traversal agrees with union-find",
+  "independent_incident_evaluation_possible": false,
+  "input_commit": "3f927a511a7cdd7c2e2210afc596732a956829e6",
+  "label_counts": {
+    "independently_verified_compromise": 0,
+    "independently_verified_device": 0,
+    "owner_reported_loss": 1
+  },
+  "largest_components": [
+    {
+      "case": 0,
+      "comparison": 284,
+      "component_id": "df6d48ff7e76221c2caa9f994c27ca044ae8aec447ece74f6c239be8a0529685",
+      "minimum_address_sha256": "028f4fb93a54b3080367c6314c4101ebde47709f81f2f16df429eca34df3fb84",
+      "size": 284
+    },
+    {
+      "case": 0,
+      "comparison": 21,
+      "component_id": "495aa3e3902a1f31e67137c88eb79837553c5696c2d2ed939d0c18909fd8c155",
+      "minimum_address_sha256": "064d4612fc065a5b3ba528c811aba1047de486122131eab79603a1f2d440066e",
+      "size": 21
+    },
+    {
+      "case": 0,
+      "comparison": 14,
+      "component_id": "3aa84afc064f70fd9d055815e9e31bdc3aaf532f0116ecda9405daf4ec37ce15",
+      "minimum_address_sha256": "07d0e04227a9466161cb845ffac1fd7b8c2e32033b653ee1b92b2cdd2c4edc79",
+      "size": 14
+    },
+    {
+      "case": 0,
+      "comparison": 13,
+      "component_id": "e4528b49add458c857a716ff7936ad81eb000e4f34bff126a06cd7906ea917ba",
+      "minimum_address_sha256": "037a64001c4ad18113707765f5ba5e9e5742b2604471f9c326335d2d42c4132e",
+      "size": 13
+    },
+    {
+      "case": 0,
+      "comparison": 11,
+      "component_id": "136ca71d3ce2e470884330a01e0e70468798ce035204cb578e74b469bb23dcce",
+      "minimum_address_sha256": "0a92d8944a8ade66738f279b8014a38fc13c64aba410add6508c7693e36ca411",
+      "size": 11
+    },
+    {
+      "case": 0,
+      "comparison": 9,
+      "component_id": "493c54692d67032d62cb9ff141abf7ed17c81a2f396a43d280c18353de72b051",
+      "minimum_address_sha256": "005d4bd9effccfca995f576b2ddbce0fdfefd1d7e8e89210637db32829de1fcf",
+      "size": 9
+    },
+    {
+      "case": 0,
+      "comparison": 6,
+      "component_id": "b5314e3ff39ee410448e2b5b81e7a51e43ce8319a976d162709954c7fac383e9",
+      "minimum_address_sha256": "7f7b6cce16d50c71f4a445509e95c9b15029f1076be6867e9299381084ec1d55",
+      "size": 6
+    },
+    {
+      "case": 0,
+      "comparison": 5,
+      "component_id": "933b740851574b1411abcb4ea646b53986a358bef38725499a3a3773e164a7b1",
+      "minimum_address_sha256": "30532f98f7b04dedba92fda6b7c0d30d1e41248419a3231f9e4b5096ffcab509",
+      "size": 5
+    },
+    {
+      "case": 0,
+      "comparison": 5,
+      "component_id": "b6e19759536ce7ab418bceffb97a48cb657a1f2d546cad9ec84b36a685f66c37",
+      "minimum_address_sha256": "070199c72afebec6d6ad4fa63598d4f4e3b975dff0a14d9be0c194170fceae49",
+      "size": 5
+    },
+    {
+      "case": 0,
+      "comparison": 5,
+      "component_id": "e1aeb67dcfebd53f1fe9e494e7573b8ad9a1fdecd794774329240fffa06f7ff2",
+      "minimum_address_sha256": "115dc54d2f532e76f6dcbe51ab058a5f5190309f5d057e592b5c2c6d2ab4b5f7",
+      "size": 5
+    }
+  ],
+  "link_summary": {
+    "address": {
+      "rows_in_shared_groups": 0,
+      "shared_groups": 0,
+      "star_edges": 0
+    },
+    "full_vector": {
+      "rows_in_shared_groups": 50,
+      "shared_groups": 13,
+      "star_edges": 37
+    },
+    "prior_transaction": {
+      "rows_in_shared_groups": 299,
+      "shared_groups": 559,
+      "star_edges": 683
+    },
+    "reference_transaction": {
+      "rows_in_shared_groups": 376,
+      "shared_groups": 62,
+      "star_edges": 314
+    }
+  },
+  "mixed_membership_components": 1,
+  "output_folder": "source_comparison_feasibility_20261102_1603",
+  "partition_feasibility_evaluated": true,
+  "precutoff_comparison_statuses": {
+    "bounded_incomplete": 122,
+    "complete_full_history": 864,
+    "complete_prior_prefix": 14
+  },
+  "preprocessing_fitted": false,
+  "prior_address_transaction_observations": 35323,
+  "prior_results_modified": false,
+  "quantile_method": "Empirical inverse CDF, rank max(1, ceil(p*n)); p50 is lower median for even n; missing values excluded.",
+  "resampling_performed": false,
+  "schema_version": 1,
+  "selected_membership_prevalence": 0.3333333333333333,
+  "selected_sources": 1500,
+  "singleton_components": 840,
+  "target": "known_coldcard_core_membership",
+  "training_performed": false,
+  "unavailable_vectors": 122,
+  "vectors_reproduced": 1378
+}

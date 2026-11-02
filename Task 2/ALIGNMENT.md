@@ -1,5 +1,20 @@
 # Task 2 alignment — 27 October 2026
 
+**Latest scope checkpoint — offline feasibility, 2 November 2026 UTC:**
+The [saved audit](research/coldcard/source_comparison_feasibility_20261102_1603/README.md)
+confirms that the original complete-case membership experiment is numerically
+feasible: all 1,378 vectors reproduce; 918 observed-link components satisfy the
+unchanged minimum-20-per-class partition gate. No actual model datasets, fitted
+preprocessing or classifier were created. Availability is asymmetric (500/500
+cases, 878/1,000 comparisons); the 122 unfinished prefixes correspond to much
+larger saved full-current-history counts. Missingness cannot be assumed random.
+Use those counts only to describe attrition, never as predictors or substitutes
+for the missing prior-block vectors. A later frozen shallow baseline can study
+retrospective core membership in the covered population. One incident, unknown
+independently verified compromise/device labels and non-independent case evidence
+still prevent theft/device or independent-incident validation. The automation
+remains disabled; the completed network continuation is not reopened.
+
 **Verified final pre-cutoff network closure — 2 November 2026 UTC:** The bounded successor finalized all 19 remaining sources: two complete prior prefixes, 17 bounded-incomplete and zero network errors. All 19 new raw tails re-extract, both new vectors were independently recounted, and all 332 saved response fingerprints verify. The schema-v2 view preserves all 1,376 predecessor vectors and now provides 1,378 vectors: 500 case and 878 comparison. The 122 bounded-incomplete comparison prefixes supply no vector. Full-current-history comparison statuses remain separately 864 complete and 136 incomplete; exhausted prior prefixes do not promote them. Unknown labels, strict cutoffs and fourteen definitions are unchanged. No continuation network source remains unattempted. The lease is idle and automated rechecks are disabled. Latest exact resumption/completion record: `research/coldcard/reference_tail_continuation_20261102_1508/resume_checkpoint.json`. Older progress entries below are historical. Further bounded-incomplete coverage requires a separate scope decision; no model or split was performed.
 
 ## Purpose and current decision

@@ -1,5 +1,24 @@
 # Project status — 2 November 2026
 
+**Latest completed unit — offline comparison feasibility, 2 November 2026 UTC:**
+The [coverage/grouping audit](research/coldcard/source_comparison_feasibility_20261102_1603/README.md)
+reproduces all 1,378 available fourteen-variable vectors from pinned normalized
+prefixes and preserves the 1,500 selected rows. Coverage is 500/500 cases and
+878/1,000 comparisons. The 122 missing comparison vectors are systematically
+associated with larger saved full-current-history counts (p50 3,347 versus 3
+among available comparisons); those counters are diagnostic metadata, not
+pre-cutoff predictors. Comparison completion ranges from 81.36% to 91.51% across
+the four blocks. The frozen grouping produces 918 components, independently
+checked by graph traversal. The original hash rule gives prospective counts
+346/687 case/comparison for train, 56/55 for validation and 98/136 for test,
+with no measured shared-link group crossing partitions. The minimum-20 gate
+passes without resampling. These are aggregate feasibility counts: no dataset
+split, preprocessing or model was fitted. Twenty focused tests and byte-exact
+output reconstruction pass. The next possible unit is the already specified
+shallow **membership** baseline on available vectors, with explicit complete-case
+bias and one-incident limitations; it is not theft/device validation. No further
+collection or automation was started. Older priorities/counts below are historical.
+
 **Verified final pre-cutoff network closure — 2 November 2026 UTC:** The bounded successor finalized all 19 remaining sources: two complete prior prefixes, 17 bounded-incomplete and zero network errors. All 19 new raw tails re-extract, both new vectors were independently recounted, and all 332 saved response fingerprints verify. The schema-v2 view preserves all 1,376 predecessor vectors and now provides 1,378 vectors: 500 case and 878 comparison. The 122 bounded-incomplete comparison prefixes supply no vector. Full-current-history comparison statuses remain separately 864 complete and 136 incomplete; exhausted prior prefixes do not promote them. Unknown labels, strict cutoffs and fourteen definitions are unchanged. No continuation network source remains unattempted. The lease is idle and automated rechecks are disabled. Latest exact resumption/completion record: `research/coldcard/reference_tail_continuation_20261102_1508/resume_checkpoint.json`. Older progress entries below are historical. Further bounded-incomplete coverage requires a separate scope decision; no model or split was performed.
 
 **Verified pre-cutoff continuation — 1 November 2026 UTC:** The distinct 99-source successor reused 24 fingerprint- and cursor-verified HTTP-200 responses offline, finalized 80 sources, then stopped on the first new HTTP429 without retry. Results: four complete prior prefixes, 76 bounded-incomplete and 19 network gaps. All 80 raw tails re-extract, all four new vectors were independently recounted, and 1,422 saved response fingerprints verify. The schema-v2 view now preserves 500 case and 876 comparison predictor vectors (1,376 total); full-current-history comparison statuses remain separately 864 complete and 136 incomplete. The 105 bounded-incomplete prefix results supply no vector. Labels, strict cutoffs and fourteen definitions are unchanged. The lease is idle; no provider request is allowed before 2026-11-01T23:20:04.694868+00:00. Resume only a separately pinned successor over the 19 IDs in the latest checkpoint; never rerun the denied pass.
