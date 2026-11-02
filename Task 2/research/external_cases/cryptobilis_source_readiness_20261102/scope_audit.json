@@ -1,0 +1,61 @@
+{
+  "collector_checks": [
+    {
+      "collector_sha256": "1add2c92f653c03845296e93afec727f686e5103c8e073de02226605bdef2811",
+      "cryptographic_inclusion_verified": false,
+      "event_payments": 76,
+      "history_transactions": 83,
+      "provider_counters_reconciled": true
+    },
+    {
+      "collector_sha256": "e946170a19dd5aea2b9a2ee88db53e0b0585e124a0a2a137a3802953c7e7df61",
+      "cryptographic_inclusion_verified": false,
+      "event_payments": 46,
+      "history_transactions": 46,
+      "provider_counters_reconciled": true
+    }
+  ],
+  "comparison_sources_selected": 0,
+  "comparisons_planned": 244,
+  "frozen_model_sha256": "87101573c2de885adfdb9cfb194cf12366b4dc94b4bb9e51e0435bf5e570f537",
+  "full_history_claim": "Two collector snapshots reconcile; no individual source-history coverage is claimed.",
+  "input_observations": 140,
+  "model_fits": 0,
+  "multi_address_payments": 0,
+  "multi_input_payments": 12,
+  "observed_reference_fees_sat": 2963800,
+  "observed_reference_input_value_sat": 20381783801,
+  "old_registry_flags_unchanged": true,
+  "outside_window_payments": 7,
+  "outside_window_source_overlap": 0,
+  "outside_window_sources": 1,
+  "partial_overlap_audit": {
+    "completed_development_prior_references": 34640,
+    "direct_funding_vs_completed_development_prior_hashes": [],
+    "exact_development_address_hashes": [],
+    "exact_development_reference_hashes": [],
+    "full_source_prefix_overlap_status": "pending; direct funding observations are not complete source histories",
+    "observed_direct_funding_transactions": 140
+  },
+  "provider_requests": 0,
+  "reference_payments": 122,
+  "scored_rows": 0,
+  "source_blocks": {
+    "970590": 111,
+    "970591": 11
+  },
+  "source_candidates": 122,
+  "source_mapped_owner_reports": 0,
+  "source_refresh": {
+    "historical_evidence_preserved": true,
+    "http_status": null,
+    "new_content_reviewed": false,
+    "new_labels_added": false,
+    "result": "Not accessible via web reader",
+    "reviewed_on": "2026-11-02",
+    "url": "https://bitquery.io/investigations/ledger-cryptobilis-hack"
+  },
+  "source_vectors_available": 0,
+  "verified_compromise_labels": 0,
+  "verified_device_labels": 0
+}

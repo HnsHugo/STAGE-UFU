@@ -1,5 +1,26 @@
 # Project status — 2 November 2026
 
+**Latest completed unit — CryptoBilis source registry and transfer contract:**
+The [offline readiness unit](research/external_cases/cryptobilis_source_readiness_20261102/README.md)
+recovers 122 unique source candidates from 122 event payments and 140 consumed
+outpoints in the two pinned collector snapshots. Twelve payments use multiple
+inputs; none uses multiple distinct source addresses. Reference anchors,
+input/output/fee closure and collector counters reconcile. Seven outside-window
+receipts from one further source remain excluded. Unknown compromise/device and
+owner-report labels stay null; these are graph candidates, not verified victims.
+There are zero exact source/reference overlaps with Coldcard development and
+zero observed direct-funding matches against 34,640 completed prior references.
+This partial audit does not establish full-history or entity independence.
+The saved contract plans 244 same-block comparisons (222/22 across the two blocks),
+keeps the existing model/medians/threshold unchanged, and separates the whole
+CryptoBilis incident from fitting. Ten tests and independent reconstruction pass.
+Actual comparisons, prior-feature vectors and scores remain zero; no transfer F1
+is claimed. The source page could not be refreshed, so historical attribution
+and its uncertainty remain explicit. Next unit: anchored complete input census
+and comparison selection, then a separately pinned bounded prefix collection.
+No provider HTTP, model fit, automation, raw-cache publication or main merge.
+All earlier Coldcard results, private caches and recovery checkpoints are preserved.
+
 **Latest completed unit — source-address research write-up, 2 November 2026:**
 The [English report](source_address_study/README.md) and
 [five-page PDF](source_address_study/source_address_study.pdf) now explain the

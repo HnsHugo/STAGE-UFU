@@ -18,6 +18,13 @@ scores and previous scientific results are unchanged by the write-up. Collection
 is closed and automation remains disabled. Older collection entries below are
 historical; use this report and [Project status](PROJECT_STATUS.md) for current work.
 
+For the next incident, the [CryptoBilis readiness unit](research/external_cases/cryptobilis_source_readiness_20261102/README.md)
+now provides 122 source candidates / 140 input observations and a prescoring
+contract with 244 planned comparisons. It has not yet collected source features,
+selected comparisons or scored the frozen model. See Part 5 for the next census
+and bounded acquisition stages. These candidates do not have verified victim or
+device labels; the existing Coldcard result remains unchanged.
+
 ## Historical collection progress
 
 **Validated pre-cutoff recovery — 31 October 2026 UTC:** The anchored pre-cutoff method matched every prior transaction and all fourteen predictors for eight full-history controls across all four blocks. Application to 136 unfinished comparisons then saved 37 results: eight complete prior prefixes and 29 bounded-incomplete; HTTP429 stopped two already-started requests, leaving 99 sources without a final prefix result. All eight new vectors were independently recounted, all 37 raw tails re-extract and 621 saved response fingerprints verify. The explicit pre-cutoff feature view has 500 complete case vectors and 872 comparison vectors, with 128 comparison vectors unavailable. Full-current-history comparison statuses remain 864 complete and 136 incomplete. Labels, cutoffs, all 1364 previous vectors and baseline bytes are preserved. A pre-cutoff cursor audit is separately labeled from full-current-history counter reconciliation. No model/split. The lease is idle and no provider request is allowed before 2026-11-01T06:25:21.786387+00:00. Two HTTP429 records and all successful pages are preserved. Resume only a separately pinned successor over the 99 network gaps; retain the 29 bounded-incomplete outcomes.

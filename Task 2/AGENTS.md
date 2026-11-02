@@ -1,5 +1,28 @@
 # Task 2 working instructions
 
+**Latest completed unit — CryptoBilis source readiness, 2 November 2026:**
+The offline registry and prescoring contract are saved in
+`research/external_cases/cryptobilis_source_readiness_20261102/README.md`.
+Two existing collector histories yield 122 event sources / 122 payments / 140
+input outpoints. Ten failure-oriented tests, independent recount and byte-exact
+reconstruction pass. Source labels remain graph candidates with unknown verified
+compromise/device status. Exact development address/reference overlaps and the
+observed direct-funding matches are zero; full prior-prefix/entity overlap remains
+unresolved. The external operational target is explicitly CryptoBilis reference-
+source membership, not literal Coldcard-core identity or verified theft/device.
+Read `transfer_protocol.json` before proceeding: fixed 244 planned comparisons
+(222/22 in blocks 970590/970591), unchanged fourteen prior-block definitions,
+Coldcard-only preparation/model/threshold, whole external incident outside fitting,
+and overlap quarantine without replacement. Actual comparisons, source vectors
+and scores are all zero. No new F1, provider HTTP, fit or automation occurred.
+Next: complete the anchored two-block input census and deterministic comparison
+selection, then a separately pinned bounded source-prefix pass after all global
+lease/lock/cooldown checks. Do not silently launch a collector from the disabled
+readiness plan. Preserve all earlier checkpoints and the frozen Coldcard result.
+The Bitquery page could not be refreshed; use historical attribution with that
+limit, never invent new labels. The earlier PROGRESS.md is a recovery checkpoint;
+the current README, configuration, audit and verification are the completed unit.
+
 **Latest completed unit — source-address write-up, 2 November 2026:**
 Read `source_address_study/README.md`, its checked five-page PDF and
 `provenance.json`. The English methods/results cover acquisition, evidence tiers,

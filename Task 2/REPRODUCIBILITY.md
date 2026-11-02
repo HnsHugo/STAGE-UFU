@@ -2,6 +2,21 @@
 
 All commands below run from the repository root. Use Python 3.12. No model needs retraining to read the saved results.
 
+## CryptoBilis offline source readiness
+
+```bash
+python "Task 2/research/external_cases/build_cryptobilis_source_protocol.py" verify \
+  "Task 2/research/external_cases/cryptobilis_source_readiness_20261102/configuration.json"
+python -m unittest discover -s "Task 2/research/external_cases" -p test_cryptobilis_source_protocol.py
+```
+
+The standard-library implementation reuses the pinned collector snapshots and
+Coldcard normalized checkpoints. It checks references, amounts, unknown labels,
+source counts, partial overlaps and exact output fingerprints without provider
+requests, source-feature extraction, scoring or model fitting. The next-stage
+comparison plan is not an executed comparison selection. Full-prefix overlap and
+verified victim/device labels remain unresolved.
+
 ## Current source-address write-up and frozen model
 
 The [English research report](source_address_study/README.md) and its LaTeX

@@ -1,0 +1,168 @@
+{
+  "created_at": "2026-11-02T21:26:51.435711+00:00",
+  "event_window": {
+    "end_exclusive_utc": "2026-10-10T00:00:00+00:00",
+    "interpretation": "Historical incident UTC day, not a verified attack/broadcast-duration boundary.",
+    "start_utc": "2026-10-09T00:00:00+00:00"
+  },
+  "expected_counts": {
+    "input_observations": 140,
+    "multi_address_payments": 0,
+    "multi_input_payments": 12,
+    "outside_window_payments": 7,
+    "outside_window_sources": 1,
+    "reference_payments": 122,
+    "source_candidates": 122
+  },
+  "implementation_checkpoint": "cb5d73639c4fa6582679efccb4ec2961c247f99a",
+  "input_commit": "c4d22e0a2710581ff4e8fc35ae37c5afa5ff3073",
+  "inputs": {
+    "builder": {
+      "file": "external_cases/build_cryptobilis_source_protocol.py",
+      "sha256": "d5294eaa59ab37e2f426af270ddabe94b3c708aac9bce0d7c33872fbc704dbae"
+    },
+    "central": {
+      "file": "external_cases/central_protocol_20261020.json",
+      "sha256": "c1e9bc565e6a05701a7807eb2e9c30ebb762a87b932ce8a4a8b7b45fa54997db"
+    },
+    "coldcard_collector": {
+      "file": "external_cases/collection_comparison_20261019/bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0.json.gz",
+      "sha256": "955ac9ecd6a88dc40121f46aee02841aa9facdb1969c3fb2215657eaeb9af535"
+    },
+    "coldcard_view": {
+      "file": "coldcard/reference_tail_continuation_20261102_1508/precutoff_feature_view.json.gz",
+      "sha256": "a96aac7555150122e08dfab2a5d70773df31a28869a52f91cc75a5e12ebe29ab"
+    },
+    "collector_0": {
+      "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+      "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+    },
+    "collector_1": {
+      "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+      "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+    },
+    "feasibility_protocol": {
+      "file": "coldcard/source_comparison_feasibility_20261102_1603/protocol.json",
+      "sha256": "1be0d93b96cf7289ca17d3ee17c5bea2cc9dd02ae62d99f5f9a40806eaf7eb08"
+    },
+    "frozen_model": {
+      "file": "coldcard/source_membership_baseline_20261102_162335/model.json",
+      "sha256": "87101573c2de885adfdb9cfb194cf12366b4dc94b4bb9e51e0435bf5e570f537"
+    },
+    "frozen_model_protocol": {
+      "file": "coldcard/source_membership_baseline_20261102_162335/protocol.json",
+      "sha256": "0d9baaabd88c1881cc07f62c4a7e8dd09242845644b04ad071a86ff584a379ca"
+    },
+    "history_validator": {
+      "file": "coldcard/collect_theft_seeds.py",
+      "sha256": "70f4a7fc66980c499be512ebe2006c6fc5a300c6f66050505557e7f9797c68f1"
+    },
+    "professor_review": {
+      "file": "external_cases/PROFESSOR_REFERENCES.md",
+      "sha256": "92131a64cb2cc561f5c44234e5f8c704847fc8defc9838771a4aa329a4dc0792"
+    },
+    "role_registry": {
+      "file": "external_cases/hardware_case_registry_20261019.json",
+      "sha256": "2bedc3b7bbcdca26594c2f7758d2b846ba3499b795393be0879d68661ca28c78"
+    },
+    "tests": {
+      "file": "external_cases/test_cryptobilis_source_protocol.py",
+      "sha256": "a614661b58d93d436249ca90c2f4f542fb4bf8c0bec9b52b6768e52a3ee8304e"
+    }
+  },
+  "pass_name": "cryptobilis_source_readiness_20261102",
+  "schema_version": 1,
+  "source_refresh": {
+    "historical_evidence_preserved": true,
+    "http_status": null,
+    "new_content_reviewed": false,
+    "new_labels_added": false,
+    "result": "Not accessible via web reader",
+    "reviewed_on": "2026-11-02",
+    "url": "https://bitquery.io/investigations/ledger-cryptobilis-hack"
+  },
+  "transfer_contract": {
+    "case_group": "cryptobilis_2026",
+    "collection_plan": {
+      "batch_size": 20,
+      "block_census_route": "Original historical Blockchain.info rawblock route and parser, height/hash/time-anchored; never a fallback history provider.",
+      "enabled": false,
+      "global_requests_per_second": 1,
+      "max_batches_per_run": 5,
+      "max_pages_per_address": 16,
+      "preflight": "Before future provider HTTP check global collector lease, local OS lock, next_network_attempt_not_before and Retry-After. Reuse caches only after exact fingerprint/cursor checks. Keep original provider/route/default verified TLS.",
+      "provider": "https://blockstream.info/api",
+      "publication": "Preserve old outcomes/consumed markers, release lease at stop, publish only redacted results and verify GitHub. No private caches, costs, automations or main merge.",
+      "refusal_policy": "No internal retry. Stop new requests at first403/429; allow only in-flight requests to settle. A403 pauses the collector with a report. A429 requires at least max(2h, doubled previous local delay capped at24h, Retry-After), never capping a longer Retry-After. No provider/account/proxy/IP/TLS workaround.",
+      "requires_distinct_pinned_pass": true,
+      "timeout_seconds": 15,
+      "validation": "Verify reference confirmation, block/hash, input count/value, all reference funding transactions, descending heights and empty terminal page. No vector from an unfinished prefix.",
+      "workers": 2
+    },
+    "comparators": "Frozen Coldcard training prevalence; descending prior inactivity; descending prior balance, using Coldcard-only missing fills. Ranking metrics only for comparators.",
+    "comparison_definition": "Fixed same-block input source outside the prespecified exclusions. Not a certified legitimate or non-hardware label.",
+    "comparison_selection": {
+      "exclusions": "All 1500 Coldcard development addresses, known Coldcard/CryptoBilis source and collector references, outside-window sources and unresolved third registry recipient.",
+      "failure_policy": "No feature/value/fee/score filtering, borrowing across strata, seed reroll, replacement after history failure or score-based eligibility.",
+      "quotas": [
+        {
+          "case_sources": 111,
+          "desired_comparisons": 222,
+          "height": 970590
+        },
+        {
+          "case_sources": 11,
+          "desired_comparisons": 22,
+          "height": 970591
+        }
+      ],
+      "ranking": "Within first-reference block, ascending SHA256(salt + raw decoded address), then raw address for exact hash tie.",
+      "reference": "First occurrence ordered by block height then lexical raw TXID. Identifiers never become model predictors.",
+      "salt": "cryptobilis-source-comparison-v1:42:",
+      "status": "pending_complete_input_census",
+      "universe": "All unique positive-valued decoded non-coinbase input source addresses in the two complete anchored blocks."
+    },
+    "cutoff": "Confirmed history heights strictly below reference height; exclude entire reference block and future.",
+    "evaluation_scope": "Previously inspected external incident and one frozen model: exploratory cross-incident structural-proxy transport. Not an untouched/prospective or independently verified theft/device evaluation; entity independence remains unknown.",
+    "grouping": "Keep the entire CryptoBilis incident outside fitting. Both collectors and the unresolved participant example are one incident. Check repeated addresses, shared prior references, common reference TXIDs and identical full feature vectors across development and external data.",
+    "input_conversion": "float32 before exported JSON tree traversal",
+    "metrics": "External-reference membership AP/ROC-AUC, precision/recall/F1 at the unchanged >=0.5 threshold. Preserve prevalence/support/confusion and every error; no theft/device F1.",
+    "missingness": "Only exhausted validated prior prefixes produce vectors. Retain bounded-incomplete/null rows outside scoring, report attrition by class/block and full-history status separately.",
+    "model_policy": "Freeze the existing model/parameters/weights/seed/threshold and Coldcard partitions. No fit, refit, calibration or feature/parameter/threshold search.",
+    "operational_target": "cryptobilis_reference_source_membership",
+    "overlap_policy": "Retain every selected record; quarantine whole measured components spanning development and external data from the primary score, report counts and reasons without replacement. Never split a component to rescue feasibility.",
+    "positive_definition": "Decoded input source in a pinned payment to one of the historically attributed collectors during the fixed UTC event day.",
+    "preprocessing": "Reuse only the exported Coldcard training medians, all-missing-column zero policy and fourteen fixed missing indicators; fit nothing on CryptoBilis.",
+    "readiness_gates": [
+      {
+        "name": "pinned_collector_histories_and_source_anchors",
+        "status": "passed"
+      },
+      {
+        "name": "complete_two_block_input_census_and_comparison_selection",
+        "status": "pending"
+      },
+      {
+        "name": "fourteen_complete_prior_prefix_vectors",
+        "status": "pending"
+      },
+      {
+        "name": "complete_cross_development_overlap_audit",
+        "status": "pending"
+      },
+      {
+        "name": "at_least_20_eligible_external_cases_and_20_comparisons",
+        "status": "pending"
+      },
+      {
+        "name": "verified_compromise_or_device_evaluation",
+        "reason": "No verified per-source labels; all remain unknown.",
+        "status": "blocked"
+      }
+    ],
+    "target_mapping_policy": "Explicit external structural proxy, not literal Coldcard-core identity. Never rename old known_coldcard_core_membership labels or claim verified compromise/device-label transfer.",
+    "threshold": 0.5,
+    "threshold_operator": ">=",
+    "transfer_hypothesis": "Does the unchanged Coldcard core-membership score rank the corresponding source-linkage proxy in CryptoBilis?"
+  }
+}

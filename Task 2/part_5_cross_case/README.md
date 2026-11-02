@@ -4,6 +4,19 @@
 
 ## Goal and current status
 
+**Completed readiness unit — 2 November 2026:** The
+[CryptoBilis source registry and transfer protocol](../research/external_cases/cryptobilis_source_readiness_20261102/README.md)
+recover 122 source candidates from 122 event payments / 140 input outpoints.
+Labels remain graph candidates with unknown independently verified compromise
+and device status. The protocol fixes 244 planned same-block comparisons, the
+original fourteen definitions and the unchanged Coldcard model/preparation.
+Both collectors stay in one external incident outside fitting. Current outputs
+contain zero comparison selections, source-feature vectors or scores; no new F1.
+Ten tests and independent offline recount pass. Exact address/reference and
+observed funding overlaps are zero, while complete prefix/entity overlap remains
+pending. The next concrete unit is the two-block input census and deterministic
+comparison selection, followed by a separately pinned bounded prefix collection.
+
 The [Coldcard source-address write-up](../source_address_study/README.md) now
 documents the completed single-incident membership baseline. It supplies a
 reproducible starting point, not cross-case validation. A future source-address
@@ -43,12 +56,14 @@ FBI, Binance, donation addresses and the other saved pilots are different eviden
 1. Reuse the completed [Coldcard source study](../source_address_study/README.md),
    its fourteen prior-block features and saved membership baseline; do not repeat
    the registry, collection or frozen fit.
-2. Recover source-supported CryptoBilis identifiers and record unresolved roles
-   and hardware evidence rather than transferring the collectors' labels.
-3. Define compatible address features, prediction cutoffs and incident/entity
-   groups; assess whether labels support supervised training.
-4. Prespecify interpretable baselines and an honest case/temporal transfer
-   evaluation; justify graph-model hypotheses from related work.
+2. Use the saved CryptoBilis graph-candidate registry and complete the two-block
+   input census / fixed comparison selection before source-history acquisition.
+   Do not transfer collector-level hardware assertions to the sources.
+3. Apply the saved fourteen-feature/cutoff/group contract, preserving failures,
+   measuring full cross-development overlap and reporting complete-case attrition.
+4. Only after the prescoring gates pass, evaluate the frozen model as exploratory
+   structural-proxy transport. Do not tune on the already inspected external case
+   or claim verified theft/device or untouched independent validation.
 5. Reproduce and compare Ivan's code when supplied. Its absence does not block
    the registry or source reconstruction.
 

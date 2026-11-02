@@ -220,7 +220,7 @@ def build(config_path):
     files['README.md']=report(config,audit,protocol).encode()
     files['verification.json']=encoded(dict(configuration_sha256=sha(config_path.read_bytes()),inputs=config['inputs'],
         additional_development_checkpoint_pins=checkpoint_pins,outputs_sha256={k:sha(v) for k,v in files.items()},
-        verified_reference_payments=len(payments),verified_sources=len(rows),verified_input_observations=len(evidence),
+        verified_reference_payments=audit['reference_payments'],verified_sources=len(rows),verified_input_observations=len(evidence),
         actual_comparisons=0,actual_source_vectors=0,model_fits=0,provider_requests=0,scores_computed=0))
     return files,audit
 

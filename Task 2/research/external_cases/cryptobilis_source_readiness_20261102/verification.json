@@ -1,0 +1,114 @@
+{
+  "actual_comparisons": 0,
+  "actual_source_vectors": 0,
+  "additional_development_checkpoint_pins": [
+    {
+      "file": "coldcard/source_cohort_recovery_20261029/batch_0002/checkpoint.json",
+      "sha256": "a78ad7367c43102fd5b4d80d9fc8f1d8300ea205f520f59f2847029d7cced944"
+    },
+    {
+      "file": "coldcard/comparison_histories_20261030/checkpoint.json.gz",
+      "sha256": "ff6cfc70756486bbd2546cf23395ebc0402f8ac9998ce904a5befbc8867f3c44"
+    },
+    {
+      "file": "coldcard/comparison_network_recovery_20261030/checkpoint.json.gz",
+      "sha256": "05c63262b171f32e042f7de371ecc160b5fa6136e9b42d68a5788a47f34165ec"
+    },
+    {
+      "file": "coldcard/comparison_retry_20261030_1841/checkpoint.json.gz",
+      "sha256": "0b5c056660999d137a4986a9f39f522d3876c7915ffcb3fbf59e804f83b7e705"
+    },
+    {
+      "file": "coldcard/comparison_retry_20261030_2133/checkpoint.json.gz",
+      "sha256": "1ad6e0de7630bc93cc4a285502b78b507cd12edaa600b33a4c5514130e30760b"
+    },
+    {
+      "file": "coldcard/comparison_retry_20261031_0300/checkpoint.json.gz",
+      "sha256": "538fc325236877c97ae9a5c8ed499995f2dcd341f75589bf788ac569ac9db7b4"
+    },
+    {
+      "file": "coldcard/comparison_extended_20261031_164508/checkpoint.json.gz",
+      "sha256": "1776a79b06fe4415b2402ec09ba2b9d59797159559af9a319f8ab8713f405eea"
+    },
+    {
+      "file": "coldcard/reference_tail_coverage_20261031_221432/checkpoint.json.gz",
+      "sha256": "8b89befd7a93416227a8faed25287f1825b21f256210f5c4e39e3f32f89e5f65"
+    },
+    {
+      "file": "coldcard/reference_tail_continuation_20261101_0653/checkpoint.json.gz",
+      "sha256": "18b48c8f6d47cc7e59b74ec8436da83d37a11d1eebf975c748c55832fed13114"
+    },
+    {
+      "file": "coldcard/reference_tail_continuation_20261102_1508/checkpoint.json.gz",
+      "sha256": "d55395ee81c08f4c9c51020ea930df3d26343acb5472516b1d76fd7f79ee9284"
+    }
+  ],
+  "configuration_sha256": "ae527ee155876044e1a67f618cc0910ce2b9bf20a00c9202fcf9b203f9f10d48",
+  "inputs": {
+    "builder": {
+      "file": "external_cases/build_cryptobilis_source_protocol.py",
+      "sha256": "d5294eaa59ab37e2f426af270ddabe94b3c708aac9bce0d7c33872fbc704dbae"
+    },
+    "central": {
+      "file": "external_cases/central_protocol_20261020.json",
+      "sha256": "c1e9bc565e6a05701a7807eb2e9c30ebb762a87b932ce8a4a8b7b45fa54997db"
+    },
+    "coldcard_collector": {
+      "file": "external_cases/collection_comparison_20261019/bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0.json.gz",
+      "sha256": "955ac9ecd6a88dc40121f46aee02841aa9facdb1969c3fb2215657eaeb9af535"
+    },
+    "coldcard_view": {
+      "file": "coldcard/reference_tail_continuation_20261102_1508/precutoff_feature_view.json.gz",
+      "sha256": "a96aac7555150122e08dfab2a5d70773df31a28869a52f91cc75a5e12ebe29ab"
+    },
+    "collector_0": {
+      "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+      "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+    },
+    "collector_1": {
+      "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+      "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+    },
+    "feasibility_protocol": {
+      "file": "coldcard/source_comparison_feasibility_20261102_1603/protocol.json",
+      "sha256": "1be0d93b96cf7289ca17d3ee17c5bea2cc9dd02ae62d99f5f9a40806eaf7eb08"
+    },
+    "frozen_model": {
+      "file": "coldcard/source_membership_baseline_20261102_162335/model.json",
+      "sha256": "87101573c2de885adfdb9cfb194cf12366b4dc94b4bb9e51e0435bf5e570f537"
+    },
+    "frozen_model_protocol": {
+      "file": "coldcard/source_membership_baseline_20261102_162335/protocol.json",
+      "sha256": "0d9baaabd88c1881cc07f62c4a7e8dd09242845644b04ad071a86ff584a379ca"
+    },
+    "history_validator": {
+      "file": "coldcard/collect_theft_seeds.py",
+      "sha256": "70f4a7fc66980c499be512ebe2006c6fc5a300c6f66050505557e7f9797c68f1"
+    },
+    "professor_review": {
+      "file": "external_cases/PROFESSOR_REFERENCES.md",
+      "sha256": "92131a64cb2cc561f5c44234e5f8c704847fc8defc9838771a4aa329a4dc0792"
+    },
+    "role_registry": {
+      "file": "external_cases/hardware_case_registry_20261019.json",
+      "sha256": "2bedc3b7bbcdca26594c2f7758d2b846ba3499b795393be0879d68661ca28c78"
+    },
+    "tests": {
+      "file": "external_cases/test_cryptobilis_source_protocol.py",
+      "sha256": "a614661b58d93d436249ca90c2f4f542fb4bf8c0bec9b52b6768e52a3ee8304e"
+    }
+  },
+  "model_fits": 0,
+  "outputs_sha256": {
+    "README.md": "1891e3e8e3e84a8303c776b51c2e9ba365f94676ddaeba19c8e09e262868da0b",
+    "input_evidence.json.gz": "6d07b7a07955528c5d29faef65812dbf1ebd0952c3b40fb19226db3c0be3b940",
+    "scope_audit.json": "d26cca2d2eac3c808561a8b9c15b5dc40d3433d237fc92dcc8be22abefa72b95",
+    "source_registry.json.gz": "827ba908d508ee53ef916048c04c49446e2667f8ff03cc5d569b5f15def5c0ac",
+    "transfer_protocol.json": "9e3be488ada4c69472d65b6cdd67caeb5730dd8033e5e42f62d4b6198e3e962b"
+  },
+  "provider_requests": 0,
+  "scores_computed": 0,
+  "verified_input_observations": 140,
+  "verified_reference_payments": 122,
+  "verified_sources": 122
+}

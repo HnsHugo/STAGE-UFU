@@ -1,5 +1,20 @@
 # Task 2 alignment — 27 October 2026
 
+**Latest scope checkpoint — CryptoBilis source readiness, 2 November 2026:**
+Hugo authorized the second-incident evaluation framing and preservation of progress.
+The [saved source registry and contract](research/external_cases/cryptobilis_source_readiness_20261102/README.md)
+now contain 122 graph-linked source candidates / 140 input observations from the
+existing pinned histories, plus a fixed plan for 244 contemporaneous comparisons.
+No new source histories, comparison sample, scores or model fit are claimed.
+The external target is CryptoBilis reference-source membership: a structural
+proxy-transport question for the frozen Coldcard profile, not a silent change of
+old Coldcard labels or verified theft/device evaluation. Keep all unknown labels,
+one incident group for both collectors, and the original fourteen strict prior-
+block definitions. Exact/partial overlaps are checked but full-prefix/entity
+independence is not established. Current source refresh was unavailable; original
+evidence/flags stay unchanged. Census/selection and bounded acquisition remain
+separate next units under the saved gates and original global network safeguards.
+
 **Latest scope checkpoint — source-address write-up, 2 November 2026:**
 The [research report](source_address_study/README.md), checked five-page PDF and
 LaTeX method/result fragments now present the frozen source-address study in the
