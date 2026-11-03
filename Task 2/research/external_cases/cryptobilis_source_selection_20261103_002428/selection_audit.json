@@ -1,0 +1,49 @@
+{
+  "block_transactions": 7944,
+  "case_reference_inputs_reconciled": 122,
+  "case_relation": "graph_candidate",
+  "cases": 122,
+  "census": [
+    {
+      "decoded_positive_input_observations": 7418,
+      "height": 970590,
+      "transaction_count": 4032,
+      "unresolved_address_input_observations": 0
+    },
+    {
+      "decoded_positive_input_observations": 8655,
+      "height": 970591,
+      "transaction_count": 3912,
+      "unresolved_address_input_observations": 0
+    }
+  ],
+  "comparisons": 244,
+  "complete_blocks": 2,
+  "cryptographic_inclusion_verified": false,
+  "execution_order": "Block height; round-robin one source-ID-sorted case and two source-ID-sorted comparisons; no outcome-dependent reordering.",
+  "history_collection_performed": false,
+  "model_fits": 0,
+  "private_plan_sha256": "43cb1067b4ccf213533cd656db4b29f434155e1accf72bf44bd849b950dc416e",
+  "schema_version": 1,
+  "scores_computed": 0,
+  "source_vectors_available": 0,
+  "strata": [
+    {
+      "eligible_sources": 4269,
+      "height": 970590,
+      "quota": 222,
+      "selected": 222,
+      "shortfall": 0
+    },
+    {
+      "eligible_sources": 4934,
+      "height": 970591,
+      "quota": 22,
+      "selected": 22,
+      "shortfall": 0
+    }
+  ],
+  "transfer_protocol_sha256": "9e3be488ada4c69472d65b6cdd67caeb5730dd8033e5e42f62d4b6198e3e962b",
+  "unique_decoded_positive_input_sources": 9356,
+  "verified_compromise_or_device_labels": 0
+}

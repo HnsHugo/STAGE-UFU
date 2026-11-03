@@ -1,5 +1,18 @@
 # Task 2 alignment — 27 October 2026
 
+**Latest completed unit — CryptoBilis census/selection, 3 November 2026 UTC:**
+Read `research/external_cases/cryptobilis_source_selection_20261103_002428/README.md`.
+Three declared ordinary GETs returned HTTP200 under a verified lease and held
+locks. Two complete anchored blocks contain 7,944 transactions and 9,356 distinct
+decoded positive input sources; all 122 CryptoBilis source reference counts/values
+agree across the pinned representations. The frozen exclusions/salt/first-reference
+rule selected 244 comparisons (222/22) without shortfall, filtering or replacement.
+An independent recount and hashed-census replay match every selection. The fixed
+366-row selection still has zero vectors/scores, unknown compromise/device labels
+and one external incident group. Coldcard's model/data are unchanged. No automation
+was enabled. Next: separately pin a maximum-five-batch bounded prefix pass, with
+all global lease/lock/cooldown safeguards. Earlier readiness priorities are historical.
+
 **Latest scope checkpoint — CryptoBilis source readiness, 2 November 2026:**
 Hugo authorized the second-incident evaluation framing and preservation of progress.
 The [saved source registry and contract](research/external_cases/cryptobilis_source_readiness_20261102/README.md)
