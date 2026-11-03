@@ -1,0 +1,75 @@
+{
+  "authorization": "Hugo: Go; execute frozen census/selection then a separately pinned bounded source-prefix unit.",
+  "automatic_retry": false,
+  "blocks": [
+    {
+      "case_group": "cryptobilis_2026",
+      "hash": "00000000000000000001f9ba8dc91bdcde0c423ceea3173ce95c9fa018146c33",
+      "height": 970590,
+      "time": 1791525260
+    },
+    {
+      "case_group": "cryptobilis_2026",
+      "hash": "00000000000000000000e3e95db5d7be9a0ae5ac50d3cdc04ae5b2921ac4e9c0",
+      "height": 970591,
+      "time": 1791526545
+    }
+  ],
+  "created_at": "2026-11-03T00:24:28.838779+00:00",
+  "first_source_address_sha256": "039544d854a0e186ae68569fe7ea9157bac646cdf3d191aff01d06a9bb66256e",
+  "first_source_id": "cryptobilis_source_0001",
+  "global_requests_per_second": 1,
+  "input_commit": "98f838313a1581ddf09c3756b8c83b7b4740d611",
+  "inputs": {
+    "0": {
+      "file": "external_cases/cryptobilis_source_readiness_20261102/configuration.json",
+      "sha256": "ae527ee155876044e1a67f618cc0910ce2b9bf20a00c9202fcf9b203f9f10d48"
+    },
+    "1": {
+      "file": "external_cases/cryptobilis_source_readiness_20261102/source_registry.json.gz",
+      "sha256": "827ba908d508ee53ef916048c04c49446e2667f8ff03cc5d569b5f15def5c0ac"
+    },
+    "2": {
+      "file": "external_cases/cryptobilis_source_readiness_20261102/transfer_protocol.json",
+      "sha256": "9e3be488ada4c69472d65b6cdd67caeb5730dd8033e5e42f62d4b6198e3e962b"
+    },
+    "3": {
+      "file": "external_cases/collect_cryptobilis_sources.py",
+      "sha256": "dfd26dda5bc45e72fb1d22bbd2c29148c6318896fd643649274b2cc086d335f0"
+    },
+    "4": {
+      "file": "external_cases/select_cryptobilis_sources.py",
+      "sha256": "ca15750b0a818e87ac07e94d7fc28e430eef89fe5ead7fab2c1a3a598e07af8f"
+    },
+    "5": {
+      "file": "external_cases/test_cryptobilis_source_collection.py",
+      "sha256": "e10eb50002d3802b28f3b9ebce59b8ed049953c9f05951ebfd7888ca8dc91cad"
+    },
+    "6": {
+      "file": "coldcard/comparison_http.py",
+      "sha256": "79793179e8c1bb153ade9a7fa742ed7a4a766bb6e039c791d880d24d5a484915"
+    },
+    "7": {
+      "file": "coldcard/collect_comparison_coverage.py",
+      "sha256": "243432e042f413fe601db2f661e6afc072e7e3ddd518730de424a31efd2101df"
+    },
+    "8": {
+      "file": "external_cases/rank_block_recipients.py",
+      "sha256": "784dc1f3a7cc0b87a972ad6082509b6d06ca394cb16633bb5b632583e08321f3"
+    },
+    "9": {
+      "file": "coldcard/source_comparison_design.py",
+      "sha256": "4b91c0a233d1e5458fb2770523ee8915697419929af6b7f6ae5fc4b30bf3f3ea"
+    }
+  },
+  "max_block_gets": 2,
+  "model_fits": 0,
+  "pass_name": "cryptobilis_source_selection_20261103_002428",
+  "private_blocks_and_decoded_plan": true,
+  "schema_version": 1,
+  "scores_computed": 0,
+  "source_counter_gets": 1,
+  "stage": "census",
+  "timeout_seconds": 15,
+  "workspace_root": "/workspace/scratch/0c741bb6f5f6"
+}
