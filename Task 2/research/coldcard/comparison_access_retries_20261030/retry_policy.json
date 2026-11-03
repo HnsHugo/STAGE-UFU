@@ -1,15 +1,15 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "cryptobilis_comparison_selection_completed",
+  "active_collection_scope": "cryptobilis_prior_prefix_acquisition",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
-    "comparisons": 244,
-    "output": "external_cases/cryptobilis_source_selection_20261103_002428",
-    "pass_name": "cryptobilis_source_selection_20261103_002428",
-    "protocol": "external_cases/cryptobilis_source_selection_20261103_002428/protocol.json",
-    "provider_requests": 3,
-    "source_vectors": 0,
-    "status": "census_selection_completed"
+    "output": "external_cases/cryptobilis_reference_prefix_20261103_003012",
+    "pass_name": "cryptobilis_reference_prefix_20261103_003012",
+    "protocol": "cryptobilis_reference_prefix_20261103_003012_protocol.json",
+    "provider_requests": 0,
+    "selected_sources": 100,
+    "status": "prepared_lock_held_awaiting_verified_lease",
+    "total_selection": 366
   },
   "authorization": "Explicit user request: Continue \u00e0 relancer; preserve prior work.",
   "authorized_on": "2026-10-30",
@@ -32,15 +32,14 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-11-03T01:54:53.137392+00:00",
-    "finished_at": "2026-11-03T00:26:04.017186+00:00",
-    "owner": "cryptobilis_source_selection_20261103_002428",
+    "expires_at": "2026-11-03T02:00:31.923080+00:00",
+    "owner": "cryptobilis_reference_prefix_20261103_003012",
     "policy": "Running nonexpired lease prohibits every second collector and provider probe.",
-    "protocol": "../external_cases/cryptobilis_source_selection_20261103_002428/protocol.json",
-    "protocol_sha256": "93dde80f85a68ee0cb2f7991d61a337937d5f651ef0060ad5feddf7b780ad537",
-    "purpose": "CryptoBilis anchored two-block census and frozen comparison selection",
-    "started_at": "2026-11-03T00:24:53.137392+00:00",
-    "state": "idle"
+    "protocol": "../cryptobilis_reference_prefix_20261103_003012_protocol.json",
+    "protocol_sha256": "745f9b9f4ca6ebaae40810d7dd7feed06f3a7140d1144c9e9bd45d437123aacb",
+    "purpose": "One bounded 100-source CryptoBilis prior-prefix unit",
+    "started_at": "2026-11-03T00:30:31.923080+00:00",
+    "state": "running"
   },
   "comparison_pre_cutoff_predictors_available": 878,
   "comparison_pre_cutoff_predictors_unavailable": 122,
