@@ -3,12 +3,17 @@
   "active_collection_scope": "cryptobilis_prior_prefix_acquisition",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
+    "bounded_incomplete": 10,
+    "complete_prefixes": 90,
+    "finalized_sources": 100,
+    "offline_references_reused": 34,
     "output": "external_cases/cryptobilis_reference_prefix_20261103_003012",
     "pass_name": "cryptobilis_reference_prefix_20261103_003012",
     "protocol": "cryptobilis_reference_prefix_20261103_003012_protocol.json",
-    "provider_requests": 0,
+    "provider_requests": 574,
+    "remaining_network_sources": 266,
     "selected_sources": 100,
-    "status": "prepared_lock_held_awaiting_verified_lease",
+    "status": "bounded_unit_complete_audited",
     "total_selection": 366
   },
   "authorization": "Explicit user request: Continue \u00e0 relancer; preserve prior work.",
@@ -33,13 +38,14 @@
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
     "expires_at": "2026-11-03T02:00:31.923080+00:00",
+    "finished_at": "2026-11-03T00:41:17.932597+00:00",
     "owner": "cryptobilis_reference_prefix_20261103_003012",
     "policy": "Running nonexpired lease prohibits every second collector and provider probe.",
     "protocol": "../cryptobilis_reference_prefix_20261103_003012_protocol.json",
     "protocol_sha256": "745f9b9f4ca6ebaae40810d7dd7feed06f3a7140d1144c9e9bd45d437123aacb",
     "purpose": "One bounded 100-source CryptoBilis prior-prefix unit",
     "started_at": "2026-11-03T00:30:31.923080+00:00",
-    "state": "running"
+    "state": "idle"
   },
   "comparison_pre_cutoff_predictors_available": 878,
   "comparison_pre_cutoff_predictors_unavailable": 122,
@@ -49,6 +55,9 @@
   "coverage_interrupted_consumed_requests": 2,
   "coverage_pause_reason": "No continuation network gap remains.",
   "environment_block_diagnosis_superseded_by": "One normal original-route counter GET returned HTTP200 on 2026-11-02. The environment flags alone did not establish a provider access block.",
+  "external_prefix_audit_file": "external_cases/cryptobilis_reference_prefix_20261103_003012/coverage_audit.json",
+  "external_prefix_bounded_incomplete_sources": 10,
+  "external_prefix_network_pending_sources": 266,
   "first_429_backoff_seconds": 7200,
   "full_history_coverage_pause_reason": "160 counters imply at least 953129 confirmed-history page requests, over eleven days at one request/second; a durable memory-bounded streaming executor is required to finish all histories. The first completed unit and partial pages are saved.",
   "full_history_remaining_network_gap_sources": 0,
@@ -63,6 +72,17 @@
     "route": "original comparison_http.PersistentHTTP(1), inherited system proxy, default verified TLS",
     "source_id": "comparison_0843",
     "started_at": "2026-11-02T14:53:57.888108+00:00"
+  },
+  "last_external_counter_access_check": {
+    "address_sha256": "0c79869bfbd78fbbd3d960e0c3737566742e0af70538c61ca5366a0b7115a484",
+    "endpoint_sha256": "42c838d11fa77df55c3f125ea5a3c0de9b87bd25afe8e82b0e9a341d40b14ecf",
+    "finished_at": "2026-11-03T00:31:08.846669+00:00",
+    "http_status": 200,
+    "key": "availability_counter",
+    "route": "Original comparison_http transport, inherited proxy and default verified TLS; dispatch stop guard only",
+    "sha256": "92f04d798d7a33635d471dab6e7d6b7bf003a090e95ab43bfee3d5b0e9e60073",
+    "source_id": "cryptobilis_source_0003",
+    "started_at": "2026-11-03T00:30:57.713633+00:00"
   },
   "last_prepared_prefix_successor": {
     "max_batches": 1,
@@ -82,6 +102,9 @@
   "latest_coverage_result_file": "comparison_extended_20261031_164508/coverage_audit.json",
   "latest_coverage_work": "source_cohort_work_comparison_extended_20261031_164508",
   "latest_environment_block_file": "comparison_access_retries_20261030/environment_block_20261101_2356.json",
+  "latest_external_prefix_output": "external_cases/cryptobilis_reference_prefix_20261103_003012",
+  "latest_external_prefix_protocol": "cryptobilis_reference_prefix_20261103_003012_protocol.json",
+  "latest_external_prefix_resume_file": "external_cases/cryptobilis_reference_prefix_20261103_003012/resume_checkpoint.json",
   "latest_output": "reference_tail_continuation_20261102_1508",
   "latest_pass_pending_sources": 0,
   "latest_prefix_output": "reference_tail_continuation_20261102_1508",

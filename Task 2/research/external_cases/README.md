@@ -1,5 +1,7 @@
 # Sourced theft cases and decision-time features
 
+Current source-address work: [CryptoBilis fixed census/selection](cryptobilis_source_selection_20261103_002428/README.md) and [bounded prior-prefix acquisition](cryptobilis_reference_prefix_20261103_003012/README.md). The fixed external sample has 122 source candidates and 244 comparisons; the first 100 outcomes give 90 vectors and ten bounded-incomplete prefixes, with 266 unattempted. Coldcard remains frozen; labels stay unknown and no external score is claimed. Older collector/recipient material below is historical supporting work.
+
 ## Current deliverables
 
 - [Expanded collection comparison](EXPANDED_COLLECTION_COMPARISON.md): FSF added from the recovered, checksum-matching supplied history; nine windows with honest group counts and no new model fitting.

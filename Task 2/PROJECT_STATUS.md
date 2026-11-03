@@ -1,5 +1,25 @@
 # Project status — 2 November 2026
 
+**Latest completed unit — CryptoBilis bounded prior prefixes, 3 November 2026 UTC:**
+Read `research/external_cases/cryptobilis_reference_prefix_20261103_003012/README.md`
+and its exact `resume_checkpoint.json`. The fixed 366-source external selection
+has 100 finalized outcomes from five batches: 90 complete prior-prefix vectors
+(34 case / 56 comparison), ten bounded-incomplete comparisons without vectors,
+zero network errors and 266 unattempted sources (88 case / 178 comparison).
+All 100 raw tails re-extract; all 90 vectors independently recount; 608 saved
+response fingerprints and cursor sequences verify, including 34 offline reference
+reuses and 574 new HTTP200 responses. Five immutable batch checkpoints are saved.
+Coldcard's 1,378 vectors/model and all fourteen definitions/cutoffs/unknown labels
+are unchanged. Prefix completion never promotes full-current-history coverage.
+The lease is idle; automation remains disabled. No score, fit or split occurred.
+Private cache restoration: read `private_cache_backup.json` beside the latest resume; the named private archive is saved and fingerprinted.
+Next: restore the private caches if absent and prepare a distinct pinned successor
+over at most the first 100 of the latest 266 network_source_ids. Exclude all 100
+finished outcomes, retain consumed markers, and apply the original global network
+guards and bounds. Do not rerun this stopped bounded pass, tune the frozen model
+or score the unfinished external sample. Earlier readiness/census priorities are
+historical. Full cross-development overlap/quarantine is still pending.
+
 **Latest completed unit — CryptoBilis census/selection, 3 November 2026 UTC:**
 Read `research/external_cases/cryptobilis_source_selection_20261103_002428/README.md`.
 Three declared ordinary GETs returned HTTP200 under a verified lease and held
