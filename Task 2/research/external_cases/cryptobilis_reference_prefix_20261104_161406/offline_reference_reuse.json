@@ -1,0 +1,813 @@
+{
+  "old_markers_modified": false,
+  "reference_after_statuses_reused": 0,
+  "reference_count": 43,
+  "references": [
+    {
+      "endpoint_sha256": "d751c380a03f9b99aa9996475ee453ffdeaae528febd795a18b94a7a860e03c2",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.214423+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "3f027723dfa474364edcda11154643179698d2079654735022875f0b2d91e131",
+      "source_id": "cryptobilis_source_0040"
+    },
+    {
+      "endpoint_sha256": "47f79face44e224b186dd09a86e239ba0ed87488317853d3eb180efff9537462",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.214762+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0016/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/request_manifest.json.gz",
+          "sha256": "dc3d02855e82cd51ed47d548971f7f2ec1f85fa118aedd1143c844ebb2cf4441"
+        },
+        "sha256": "68b744b95e88f58a4a1deb455855c07cdaba6935769fb23a09a1f387319d58b3",
+        "source_id": "cryptobilis_comparison_0016"
+      },
+      "sha256": "68b744b95e88f58a4a1deb455855c07cdaba6935769fb23a09a1f387319d58b3",
+      "source_id": "cryptobilis_comparison_0070"
+    },
+    {
+      "endpoint_sha256": "61a665289ebae305bf9c9c8c1ac1c1725fcf744da855e3cf0780a8666e41b2da",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.214990+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "7844ac1d8b8d7427d85ebeb11b78fd251ad76dc7a904013c503650c81e0ad0c9",
+      "source_id": "cryptobilis_source_0041"
+    },
+    {
+      "endpoint_sha256": "0fe3c10c571784a793a4b804413e5556e01af3df6502ccb32a0edbf0ace63985",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.219162+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0065/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/request_manifest.json.gz",
+          "sha256": "dc3d02855e82cd51ed47d548971f7f2ec1f85fa118aedd1143c844ebb2cf4441"
+        },
+        "sha256": "4637d5685e7e9e10c0a3020b516bdf8304c85212d0038d5d530d6665792dbded",
+        "source_id": "cryptobilis_comparison_0065"
+      },
+      "sha256": "4637d5685e7e9e10c0a3020b516bdf8304c85212d0038d5d530d6665792dbded",
+      "source_id": "cryptobilis_comparison_0072"
+    },
+    {
+      "endpoint_sha256": "23ea1a49a20646ebae8b9a01c9ca5253f1b67d9817663c90a1063f79e523335a",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.219542+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "a05e2d7805f9cd2eec997ca779e15e0c81ba1e4eb189cecf2569ddaeddf685c5",
+      "source_id": "cryptobilis_source_0042"
+    },
+    {
+      "endpoint_sha256": "f3ba349c39f488d941d5bfad3e44299fc601dbf326eaf13a5cb822cbbc605cd0",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.219768+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "6b714458533c368d1a035a9114a0b0736ff0671dfde4e5fd461f7e42cacc9d5f",
+      "source_id": "cryptobilis_source_0043"
+    },
+    {
+      "endpoint_sha256": "5ca711409b3426303ab6749eb93d2b576c934c9b79e35cbceb546bdfee71f23e",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.220026+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "7d9a07fb9d91c27f5a6a8e44317ecd4345475b40e277994403e4a7769b90a91b",
+      "source_id": "cryptobilis_source_0044"
+    },
+    {
+      "endpoint_sha256": "6dcc285b0c9130b13345d073e22555cae736749094f3fe162d144e52a6f5a4f5",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.220200+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "7f73ecc02afdf173512a9c8fc7c86af68969486cb8e5aea31561637037f35411",
+      "source_id": "cryptobilis_source_0045"
+    },
+    {
+      "endpoint_sha256": "43236bf7a43869900537ebff6dadfb39aa8dadc55afa32c0f6b97c0c9fd08130",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.222723+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0045/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/request_manifest.json.gz",
+          "sha256": "dc3d02855e82cd51ed47d548971f7f2ec1f85fa118aedd1143c844ebb2cf4441"
+        },
+        "sha256": "9afe0fb1df40827723e39795443f464269590e3ee21aa7c90e4eb28af9300849",
+        "source_id": "cryptobilis_comparison_0045"
+      },
+      "sha256": "9afe0fb1df40827723e39795443f464269590e3ee21aa7c90e4eb28af9300849",
+      "source_id": "cryptobilis_comparison_0079"
+    },
+    {
+      "endpoint_sha256": "d6ec598380542850f3e76ed470de5a528f7fc686186fb1fc6cca78cd5a0226cf",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.223160+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "8e88d0356f33e776f881c713e2c0fa811963bd31444d3ff3e913aac6a3a6ad75",
+      "source_id": "cryptobilis_source_0046"
+    },
+    {
+      "endpoint_sha256": "89a5711706df4e9850a6e51fbb94fe1d7856192437acb4127aea9759ef8eb657",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.223361+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "961026d11c2d7a8e581ee9257568e87c88a4174da39a4c7e539c2451d8bc678c",
+      "source_id": "cryptobilis_source_0047"
+    },
+    {
+      "endpoint_sha256": "24d3cb8d53de0b0d94513ff82bd98d27aaac51593dd4bb34b34b7648b4aab5c5",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.223702+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "1ad47504cafecb16b1f55058bf8cd91a3428c3138b78023642e6e63923286064",
+      "source_id": "cryptobilis_source_0048"
+    },
+    {
+      "endpoint_sha256": "bcb605dd1306939bcbcdbab718d3dead01737704c5ac117d0317a5eaa7ac968c",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.224191+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "db35ce3487e887ccbf3690350ae8e329b0e0d5a797a64529088d2c9475b151ff",
+      "source_id": "cryptobilis_source_0049"
+    },
+    {
+      "endpoint_sha256": "43236bf7a43869900537ebff6dadfb39aa8dadc55afa32c0f6b97c0c9fd08130",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.228108+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0045/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/request_manifest.json.gz",
+          "sha256": "dc3d02855e82cd51ed47d548971f7f2ec1f85fa118aedd1143c844ebb2cf4441"
+        },
+        "sha256": "9afe0fb1df40827723e39795443f464269590e3ee21aa7c90e4eb28af9300849",
+        "source_id": "cryptobilis_comparison_0045"
+      },
+      "sha256": "9afe0fb1df40827723e39795443f464269590e3ee21aa7c90e4eb28af9300849",
+      "source_id": "cryptobilis_comparison_0088"
+    },
+    {
+      "endpoint_sha256": "ad64cb998c5b42461f32f9d74911185ee9b829da9d507fc78c5c7e6782dead75",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.228555+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "f49db1efa18723f91bf39b5e8b28c1233ade5035ad28de3c86c56943bcd0ee3b",
+      "source_id": "cryptobilis_source_0050"
+    },
+    {
+      "endpoint_sha256": "209e82bbfe412cd66df84e535079d542f6d4570dd30298863718ba2179611c27",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.229359+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0031/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/request_manifest.json.gz",
+          "sha256": "dc3d02855e82cd51ed47d548971f7f2ec1f85fa118aedd1143c844ebb2cf4441"
+        },
+        "sha256": "6083fcdb8f07baa5b399cd9cdc5e48391fc81381984519f948f1317fac5922f2",
+        "source_id": "cryptobilis_comparison_0031"
+      },
+      "sha256": "6083fcdb8f07baa5b399cd9cdc5e48391fc81381984519f948f1317fac5922f2",
+      "source_id": "cryptobilis_comparison_0089"
+    },
+    {
+      "endpoint_sha256": "b079fa9f1174f8d61ef1a71783bbc8800a99e8dd94ad579adaec09fb96acdd80",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.229575+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "4d16a435ebca03a2e2e5a6de619818ed46def50d892828900e49d88ac97c8a52",
+      "source_id": "cryptobilis_source_0051"
+    },
+    {
+      "endpoint_sha256": "0fe3c10c571784a793a4b804413e5556e01af3df6502ccb32a0edbf0ace63985",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.230449+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0065/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/request_manifest.json.gz",
+          "sha256": "dc3d02855e82cd51ed47d548971f7f2ec1f85fa118aedd1143c844ebb2cf4441"
+        },
+        "sha256": "4637d5685e7e9e10c0a3020b516bdf8304c85212d0038d5d530d6665792dbded",
+        "source_id": "cryptobilis_comparison_0065"
+      },
+      "sha256": "4637d5685e7e9e10c0a3020b516bdf8304c85212d0038d5d530d6665792dbded",
+      "source_id": "cryptobilis_comparison_0091"
+    },
+    {
+      "endpoint_sha256": "3dbc583b10e61349bee770e80e7b130eae4c964aefe4675ce55085acb2e8df00",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.230793+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "1fc70836e064ca7589db765ab00fb9d61e9436c1b787ac495df01d3c17b08bdc",
+      "source_id": "cryptobilis_source_0052"
+    },
+    {
+      "endpoint_sha256": "0e8d975a395ad9d4d2e9c3efb9ab4c6dd337c5fd87adc317ffe6c51c9bd05106",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.231083+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "009a1f2e84e561fe6062769fa2221fffd550d1f0fd2727b0a13866dea3188a75",
+      "source_id": "cryptobilis_source_0053"
+    },
+    {
+      "endpoint_sha256": "a12d060e382794de98e4cb9f68655faa367d4716da8033bc6a36445f7d1647bc",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.231402+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "e5449b8bcefd0bf80354d319ec29f0743a78e9bc0241a0643f5c70f1e50e93b7",
+      "source_id": "cryptobilis_source_0055"
+    },
+    {
+      "endpoint_sha256": "8007b1c94f5d52bde861bf1ea2cc45bd1ceae0f406910ee14e8a2318cadda452",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.231650+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "5041bbad3a4967e7bb23f3c1260b40a313a99286e97a432dff4c63e14d0da8b9",
+      "source_id": "cryptobilis_source_0056"
+    },
+    {
+      "endpoint_sha256": "a3dd80f18da35f5f25734e49308c9653005d4a0f406777c92f44d901a5ec08c0",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.231815+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "569ffe1a7a200b38a4c4f408d5c95cc78a95684eceb4bd7c89d7f9d9f71f7e8c",
+      "source_id": "cryptobilis_source_0057"
+    },
+    {
+      "endpoint_sha256": "3dfc9bfba9820a99783919d4c57f97d74dc6a9c7947ab308eb2e51034f552c57",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.233585+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0008/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/request_manifest.json.gz",
+          "sha256": "dc3d02855e82cd51ed47d548971f7f2ec1f85fa118aedd1143c844ebb2cf4441"
+        },
+        "sha256": "f727b7d593361522a364f0f6dd42eaf11af8db3fdfc51115a89556964c38f9c7",
+        "source_id": "cryptobilis_comparison_0008"
+      },
+      "sha256": "f727b7d593361522a364f0f6dd42eaf11af8db3fdfc51115a89556964c38f9c7",
+      "source_id": "cryptobilis_comparison_0101"
+    },
+    {
+      "endpoint_sha256": "dbec2a39e26d0807e209ac9465ec9da2531f4068551993c2d0ca2f30a6127b68",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.233818+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "233cf33677de0217f06a4e698a0a457836f953d324890f7e315cce40b6127ac3",
+      "source_id": "cryptobilis_source_0058"
+    },
+    {
+      "endpoint_sha256": "ad058b512f95092b9923f69400fcb8249fdebe7c6cf6e754353a00b3b6fa6d33",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.234127+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "888c9869678d969214df137b4b3cd47adec281a9847c47266d7fcf73c97d9328",
+      "source_id": "cryptobilis_source_0059"
+    },
+    {
+      "endpoint_sha256": "6ace9cc02506beb212477ba48e61f0b5bdecae28f06b3792686ed8d1fb67fe4c",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.234696+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "3b20719a958c420c6a93da41de68998d39718e38f75aab935f22237616e5800d",
+      "source_id": "cryptobilis_source_0060"
+    },
+    {
+      "endpoint_sha256": "1f15285788940826d8b0e65ae332b483ba9996e0155c124d974cb4384b26d4a5",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.235106+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0022/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/request_manifest.json.gz",
+          "sha256": "dc3d02855e82cd51ed47d548971f7f2ec1f85fa118aedd1143c844ebb2cf4441"
+        },
+        "sha256": "833c389374a169713e8285fa7251578692001a7c93895f744a7d370ffe6dcf6b",
+        "source_id": "cryptobilis_comparison_0022"
+      },
+      "sha256": "833c389374a169713e8285fa7251578692001a7c93895f744a7d370ffe6dcf6b",
+      "source_id": "cryptobilis_comparison_0107"
+    },
+    {
+      "endpoint_sha256": "3eabc35fff3f28b461f6b49f29d3ee969931986a6a8eaaafc903df52d24f82fc",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.235448+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "e5120a0586173a417fcba80ae99f92b382535e9a42bc0b10f8efd747c140a462",
+      "source_id": "cryptobilis_source_0061"
+    },
+    {
+      "endpoint_sha256": "e78c1e7f3fba22ad68dc1df031279daa3cf1d47e9434e1d938954ca51ab386d9",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.235735+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "4b733b4d5a6c4893d8f068460e1ed9f587f56a02457caac7c5db2438200b8eaf",
+      "source_id": "cryptobilis_source_0062"
+    },
+    {
+      "endpoint_sha256": "0fe3c10c571784a793a4b804413e5556e01af3df6502ccb32a0edbf0ace63985",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.236849+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0065/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/request_manifest.json.gz",
+          "sha256": "dc3d02855e82cd51ed47d548971f7f2ec1f85fa118aedd1143c844ebb2cf4441"
+        },
+        "sha256": "4637d5685e7e9e10c0a3020b516bdf8304c85212d0038d5d530d6665792dbded",
+        "source_id": "cryptobilis_comparison_0065"
+      },
+      "sha256": "4637d5685e7e9e10c0a3020b516bdf8304c85212d0038d5d530d6665792dbded",
+      "source_id": "cryptobilis_comparison_0112"
+    },
+    {
+      "endpoint_sha256": "a50ad1412e45bf5f65eadee1241898b89f702d47e9e42d29bd5e4560df0a30fc",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.237222+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "a31a1085f721bf528cee08fb874d29791ce6f94f4e59283616c4964c7681b394",
+      "source_id": "cryptobilis_source_0063"
+    },
+    {
+      "endpoint_sha256": "7fb21e416d8680f79a669a6f639607e20a56dd16b7b0c418ba8f499695bb25ea",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.237494+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "c9131ea90ecfc63fb97b8b7f75f16540537bb99817031dc33cae5c304e020c46",
+      "source_id": "cryptobilis_source_0064"
+    },
+    {
+      "endpoint_sha256": "cc86a4b4c131c7594f6165557b0df9b4f514936c841c709f8dbcaaf1092ad36d",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.237703+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "924cd3031535a1c53e150e6f43c4819ef81d0a6825deb523fb8c4d3ce0b787ce",
+      "source_id": "cryptobilis_source_0065"
+    },
+    {
+      "endpoint_sha256": "64839fb611ed45375e41b8fcfc55fa13dd029a9fa223eecbb43adde382f8c8ab",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.237868+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "52eccd03fbdfb4b81cb3500c0c583715383e6ce27b1ad17982c7b9402c46c3c4",
+      "source_id": "cryptobilis_source_0067"
+    },
+    {
+      "endpoint_sha256": "0fe3c10c571784a793a4b804413e5556e01af3df6502ccb32a0edbf0ace63985",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.238766+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0065/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/request_manifest.json.gz",
+          "sha256": "dc3d02855e82cd51ed47d548971f7f2ec1f85fa118aedd1143c844ebb2cf4441"
+        },
+        "sha256": "4637d5685e7e9e10c0a3020b516bdf8304c85212d0038d5d530d6665792dbded",
+        "source_id": "cryptobilis_comparison_0065"
+      },
+      "sha256": "4637d5685e7e9e10c0a3020b516bdf8304c85212d0038d5d530d6665792dbded",
+      "source_id": "cryptobilis_comparison_0120"
+    },
+    {
+      "endpoint_sha256": "5136059c24a6d972b3400332ba05c59de7d3429f3f2d6d649be54571ddcc0496",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.239037+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "55cbb1f3f3e7cc5ad4b6ed003904a69648cc50aa27136b07f9038ce50866d9ce",
+      "source_id": "cryptobilis_source_0068"
+    },
+    {
+      "endpoint_sha256": "26864a913c50af71a17388e983250768838134254ecea2b1549ffebf34b5ab3e",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.239441+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "ab2883f0a7d42446cdffb2712895e1400d7d00a39419333e6a28b4fe49968713",
+      "source_id": "cryptobilis_source_0069"
+    },
+    {
+      "endpoint_sha256": "fb4b6ef56cf3ade1f10d6c17ac185ae616341183739e99c78ab56dcbe2964dcc",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.239794+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "bbe88bd0a35eeb7d494e7c94c411b1730976e801e02a07ba7075e52b4f921330",
+      "source_id": "cryptobilis_source_0070"
+    },
+    {
+      "endpoint_sha256": "a34d7f70c66acba7884d2987f87777d00e61fc617f00ac1a2492b8da968fd298",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.240034+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "d6404f841ec8c81e72592108e8a2ff1699c384395a04af285cf3b9dee5d10754",
+      "source_id": "cryptobilis_source_0071"
+    },
+    {
+      "endpoint_sha256": "2fd804c36916dfbde993ab3f32f13281dcba787b1b5ace7e18fa97ac3696400d",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.240207+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "f68b908b60dfe873011112968bc3a0a301e7160e511dfe7fa2c486b406679436",
+      "source_id": "cryptobilis_source_0072"
+    },
+    {
+      "endpoint_sha256": "568884ff2de6ec9d7b66b732b609ae17f8de33ef0bedb3585f0e02541f1d02d0",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.240423+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "52036b17268deec8924edfb72c8fc12026ae7e3777669cc7bc7e0ac23b6c0294",
+      "source_id": "cryptobilis_source_0073"
+    },
+    {
+      "endpoint_sha256": "beac96a33e1d8bf5737afd6f9a70814cda9bfeab2990a9da76809006c361c0a0",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T16:14:06.240581+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "c617abc587d8c57bbd7c146e141115657677186b9aa0e1e2602005e7ba0d6748",
+      "source_id": "cryptobilis_source_0075"
+    }
+  ],
+  "schema_version": 1,
+  "tail_pages_reused": 0
+}
