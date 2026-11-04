@@ -1,5 +1,7 @@
 # Sourced theft cases and decision-time features
 
+Current source-address result: [CryptoBilis acquisition closure and whole-cohort audit](cryptobilis_reference_prefix_20261104_201345/README.md). All 366 selections are finalized: 329 prior-prefix vectors, 37 bounded-incomplete comparisons without vectors, no network/unattempted sources. Full current source histories and compromise/device labels remain unverified. All old evidence is preserved; collection is closed and automation stays disabled. Next: the separately gated development/external overlap and eligibility audit.
+
 Latest source-address unit: [CryptoBilis third bounded successor](cryptobilis_reference_prefix_20261104_182708/README.md). The unchanged 366-source sample now provides 267 prior-prefix vectors; 33 comparisons remain bounded-incomplete without vectors and 66 sources are unattempted. All predecessor results/caches remain preserved. The current private cache delta requires the complete predecessor archive for restoration. No external score or verified theft/device claim is made.
 
 Latest source-address unit: [CryptoBilis bounded successor](cryptobilis_reference_prefix_20261104_161406/README.md). The unchanged 366-source selection now has 177 available prior-prefix vectors, 23 bounded-incomplete comparisons without vectors, and 166 unattempted sources. Both passes and all old evidence are preserved; no external score or verified theft/device label is claimed.

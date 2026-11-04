@@ -1,5 +1,30 @@
 # Task 2 alignment — 27 October 2026
 
+**Final CryptoBilis bounded acquisition closure — 4 November 2026 UTC:**
+Read `research/external_cases/cryptobilis_reference_prefix_20261104_201345/README.md`,
+`final_acquisition_audit.json` and the empty-network `resume_checkpoint.json`.
+All 366 fixed sources have final outcomes: 329 complete prior-prefix vectors
+(122 case / 207 comparison), 37 bounded-incomplete comparisons without vectors,
+zero network errors and zero unattempted. The last four batches 20/20/20/6 add
+62 vectors and four bounded outcomes while preserving all 300 old results.
+The final read-only audit re-extracts all 366 raw tails, independently recounts
+all 329 vectors, verifies 2,262 response fingerprints/cursor sequences and
+19 immutable batch snapshots, and matches raw assemblies to saved API pages.
+All 4,388 predecessor private files are unchanged. Forty focused/regression
+checks pass. Coldcard's 1,378 vectors/model, fourteen definitions, strict cutoffs
+and unknown labels remain unchanged. No fit, split, score or new F1 occurred.
+Prefix completeness never promotes full-current-history statuses; zero current
+source histories were reconciled by this prefix protocol. The 37 null bounded
+results remain a separate coverage issue, without replacement or automatic retry.
+The lease is idle; collection_can_resume=false and collector automations remain
+disabled. Do not issue a fresh probe or rerun this exhausted fixed continuation.
+Restore ALL THREE archives listed in private_cache_backup.json if private data
+are absent: complete predecessor, prior delta, final delta; verify fingerprints.
+Next separate aligned unit: full development/external overlap and quarantine,
+then frozen-model eligibility. Do not score until those gates pass, tune/refit
+the frozen model, infer verified victim/device labels, or create an automation.
+Earlier acquisition priorities below are historical.
+
 **Latest completed unit — CryptoBilis third bounded successor, 4 November 2026 UTC:**
 Read `research/external_cases/cryptobilis_reference_prefix_20261104_182708/README.md`
 and its exact `resume_checkpoint.json`. The next fixed 100 of 166 IDs finalized

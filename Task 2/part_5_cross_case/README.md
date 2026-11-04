@@ -4,18 +4,20 @@
 
 ## Goal and current status
 
-**Completed readiness unit — 2 November 2026:** The
+**Bounded acquisition closed — 4 November 2026:** The [final CryptoBilis source audit](../research/external_cases/cryptobilis_reference_prefix_20261104_201345/README.md) covers all 366 fixed sources: 329 complete prior-prefix vectors (122 case / 207 comparison), 37 bounded-incomplete comparisons without vectors, no network or unattempted sources. Every raw tail/vector is independently checked, all prior results are preserved and automations remain disabled. Full-current-history reconciliation, verified victim/device labels and cross-development overlap are separate. The next unit is the complete overlap/quarantine audit and frozen-model eligibility gate; no transfer metric or new fit is claimed.
+
+**Historical readiness snapshot — 2 November 2026:** The
 [CryptoBilis source registry and transfer protocol](../research/external_cases/cryptobilis_source_readiness_20261102/README.md)
 recover 122 source candidates from 122 event payments / 140 input outpoints.
 Labels remain graph candidates with unknown independently verified compromise
 and device status. The protocol fixes 244 planned same-block comparisons, the
 original fourteen definitions and the unchanged Coldcard model/preparation.
-Both collectors stay in one external incident outside fitting. Current outputs
-contain zero comparison selections, source-feature vectors or scores; no new F1.
+Both collectors stay in one external incident outside fitting. At that checkpoint, outputs
+contained zero comparison selections, source-feature vectors or scores; no new F1.
 Ten tests and independent offline recount pass. Exact address/reference and
 observed funding overlaps are zero, while complete prefix/entity overlap remains
-pending. The next concrete unit is the two-block input census and deterministic
-comparison selection, followed by a separately pinned bounded prefix collection.
+pending. Those planned census and bounded acquisition stages have since closed in the
+final audit above.
 
 The [Coldcard source-address write-up](../source_address_study/README.md) now
 documents the completed single-incident membership baseline. It supplies a
@@ -56,9 +58,9 @@ FBI, Binance, donation addresses and the other saved pilots are different eviden
 1. Reuse the completed [Coldcard source study](../source_address_study/README.md),
    its fourteen prior-block features and saved membership baseline; do not repeat
    the registry, collection or frozen fit.
-2. Use the saved CryptoBilis graph-candidate registry and complete the two-block
-   input census / fixed comparison selection before source-history acquisition.
-   Do not transfer collector-level hardware assertions to the sources.
+2. Reuse the completed fixed CryptoBilis census and bounded acquisition. Preserve
+   all 366 outcomes, 37 null bounded prefixes and the graph-candidate label tier;
+   do not restart the exhausted collection or replace unavailable comparisons.
 3. Apply the saved fourteen-feature/cutoff/group contract, preserving failures,
    measuring full cross-development overlap and reporting complete-case attrition.
 4. Only after the prescoring gates pass, evaluate the frozen model as exploratory

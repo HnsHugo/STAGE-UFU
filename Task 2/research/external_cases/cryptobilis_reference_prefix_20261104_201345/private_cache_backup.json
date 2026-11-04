@@ -1,0 +1,88 @@
+{
+  "acquisition_closed": true,
+  "bytes": 50165671,
+  "cache_scope": "current_pass_delta",
+  "cached_files": 884,
+  "complete_restore_set_required": true,
+  "complete_restored_private_file_count": 5272,
+  "contains_entire_predecessor_cache_lineage": false,
+  "file_name": "cryptobilis-private-caches-20261104-201345-delta.tar.gz",
+  "predecessor_private_files_unchanged": 4388,
+  "previous_private_archives_preserved": true,
+  "private": true,
+  "public_repository_contains_no_raw_caches": true,
+  "required_predecessor_archives": [
+    {
+      "backup_metadata_pin": {
+        "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/private_cache_backup.json",
+        "sha256": "a4132e0d50644e2f5884cf4e67dffa592659829b3d2fd47ae50cbbd1018417cb"
+      },
+      "bytes": 375099347,
+      "file_name": "cryptobilis-private-caches-20261104-161406.tar.gz",
+      "sha256": "372f0806d0fa69d91f3e9f17f06b4cfc8448e84c17a71944fa3ed0abeb89d0f7",
+      "source_directories": [
+        "source_collection_work_cryptobilis_reference_prefix_20261103_003012",
+        "source_collection_work_cryptobilis_reference_prefix_20261104_161406",
+        "source_collection_work_cryptobilis_source_selection_20261103_002428"
+      ]
+    },
+    {
+      "bytes": 333177600,
+      "cache_scope": "current_pass_delta",
+      "file_name": "cryptobilis-private-caches-20261104-182708-delta.tar.gz",
+      "sha256": "b8d3d96f1a97e754f349ea60c771716af709d68e5b0241ad5d4e8219543560b5",
+      "source_directories": [
+        "source_collection_work_cryptobilis_reference_prefix_20261104_182708"
+      ]
+    }
+  ],
+  "restore_archives": [
+    {
+      "backup_metadata_pin": {
+        "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/private_cache_backup.json",
+        "sha256": "a4132e0d50644e2f5884cf4e67dffa592659829b3d2fd47ae50cbbd1018417cb"
+      },
+      "bytes": 375099347,
+      "file_name": "cryptobilis-private-caches-20261104-161406.tar.gz",
+      "sha256": "372f0806d0fa69d91f3e9f17f06b4cfc8448e84c17a71944fa3ed0abeb89d0f7",
+      "source_directories": [
+        "source_collection_work_cryptobilis_reference_prefix_20261103_003012",
+        "source_collection_work_cryptobilis_reference_prefix_20261104_161406",
+        "source_collection_work_cryptobilis_source_selection_20261103_002428"
+      ]
+    },
+    {
+      "bytes": 333177600,
+      "cache_scope": "current_pass_delta",
+      "file_name": "cryptobilis-private-caches-20261104-182708-delta.tar.gz",
+      "sha256": "b8d3d96f1a97e754f349ea60c771716af709d68e5b0241ad5d4e8219543560b5",
+      "source_directories": [
+        "source_collection_work_cryptobilis_reference_prefix_20261104_182708"
+      ]
+    },
+    {
+      "bytes": 50165671,
+      "cache_scope": "current_pass_delta",
+      "file_name": "cryptobilis-private-caches-20261104-201345-delta.tar.gz",
+      "sha256": "5b2973546c189cdc96da3a0e4f83cd139d459e41a9b6d7ed10b86229980f9873",
+      "source_directories": [
+        "source_collection_work_cryptobilis_reference_prefix_20261104_201345"
+      ]
+    }
+  ],
+  "restore_order": [
+    "cryptobilis-private-caches-20261104-161406.tar.gz",
+    "cryptobilis-private-caches-20261104-182708-delta.tar.gz",
+    "cryptobilis-private-caches-20261104-201345-delta.tar.gz"
+  ],
+  "restore_policy": "Restore every archive in restore_order: complete predecessor, prior delta, current delta. Verify each archive and each PRIVATE_CACHE_MANIFEST.json file fingerprint. Never restore active lease flags or publish raw caches.",
+  "restore_under": "Task 2/research/external_cases",
+  "restores_complete_lineage_with_required_archives": true,
+  "saved_privately": true,
+  "schema_version": 2,
+  "sha256": "5b2973546c189cdc96da3a0e4f83cd139d459e41a9b6d7ed10b86229980f9873",
+  "source_directories": [
+    "source_collection_work_cryptobilis_reference_prefix_20261104_201345"
+  ],
+  "verified_saved_filename": "cryptobilis-private-caches-20261104-201345-delta.tar.gz"
+}

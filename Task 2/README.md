@@ -18,12 +18,14 @@ scores and previous scientific results are unchanged by the write-up. Collection
 is closed and automation remains disabled. Older collection entries below are
 historical; use this report and [Project status](PROJECT_STATUS.md) for current work.
 
-For the next incident, the [CryptoBilis readiness unit](research/external_cases/cryptobilis_source_readiness_20261102/README.md)
-now provides 122 source candidates / 140 input observations and a prescoring
-contract with 244 planned comparisons. It has not yet collected source features,
-selected comparisons or scored the frozen model. See Part 5 for the next census
-and bounded acquisition stages. These candidates do not have verified victim or
-device labels; the existing Coldcard result remains unchanged.
+The [CryptoBilis bounded acquisition and final audit](research/external_cases/cryptobilis_reference_prefix_20261104_201345/README.md)
+now finalize all 366 fixed selections: 329 strict prior-prefix vectors (122 source
+candidates / 207 comparisons), 37 bounded-incomplete comparisons without vectors,
+and no network/unattempted sources. All raw tails and vectors reproduce; 2,262
+response fingerprints and 19 batch snapshots verify. Source compromise/device
+labels remain unknown, with current full histories outside this prefix audit.
+Part 5 now proceeds to the development/external overlap and eligibility gate;
+the frozen Coldcard model is unchanged and no external score is claimed.
 
 ## Historical collection progress
 

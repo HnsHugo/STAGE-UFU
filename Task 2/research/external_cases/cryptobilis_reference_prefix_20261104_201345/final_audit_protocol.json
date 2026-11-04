@@ -1,0 +1,467 @@
+{
+  "created_at": "2026-11-04T20:23:11.647362+00:00",
+  "expected_cases": 122,
+  "expected_comparisons": 244,
+  "expected_selected": 366,
+  "input_commit": "9171d584520a9f5344be997e50653c56645dad54",
+  "inputs": {
+    "auditor": {
+      "file": "external_cases/audit_cryptobilis_acquisition_closure.py",
+      "sha256": "7576cf46e6879276f14c16503c65af45bdf305d889f1c0ef4d4dcef94a23c431"
+    },
+    "coldcard_view": {
+      "file": "coldcard/reference_tail_continuation_20261102_1508/precutoff_feature_view.json.gz",
+      "sha256": "a96aac7555150122e08dfab2a5d70773df31a28869a52f91cc75a5e12ebe29ab"
+    },
+    "frozen_model": {
+      "file": "coldcard/source_membership_baseline_20261102_162335/model.json",
+      "sha256": "87101573c2de885adfdb9cfb194cf12366b4dc94b4bb9e51e0435bf5e570f537"
+    },
+    "frozen_model_protocol": {
+      "file": "coldcard/source_membership_baseline_20261102_162335/protocol.json",
+      "sha256": "0d9baaabd88c1881cc07f62c4a7e8dd09242845644b04ad071a86ff584a379ca"
+    },
+    "input_census": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/input_census.json.gz",
+      "sha256": "78eb3a1f69dd07c5c9add62829b816e89bbd49ecee647c3c2fd10c143524e378"
+    },
+    "lineage_000": {
+      "file": "external_cases/test_cryptobilis_source_audit.py",
+      "sha256": "1e6737596c3c9bc023db2675fdedbf38ebb953764a0af07e489ff7b3263d1c5b"
+    },
+    "lineage_001": {
+      "file": "external_cases/audit_cryptobilis_sources.py",
+      "sha256": "c17c1eeea6ae07450f0b5b1286e85ef102ddd828316021ba2016a5ec3b2f5b01"
+    },
+    "lineage_002": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/precutoff_feature_view.json.gz",
+      "sha256": "a0887f798f70825845a21dcae505a8c7f3d7dc9ecd49231c23708a799628307f"
+    },
+    "lineage_003": {
+      "file": "coldcard/collect_reference_tail_many.py",
+      "sha256": "8d5bbac9c78779b725e22075f6eca7b08bd9294cd4e2e784ed48e16d54659da9"
+    },
+    "lineage_004": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_201345/cache_restoration_verification.json",
+      "sha256": "8ffb7a0ff7b9c8905cb07790a3341a1770e133e39c09655bbf0e3e4b9e66f787"
+    },
+    "lineage_005": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/protocol.json",
+      "sha256": "93dde80f85a68ee0cb2f7991d61a337937d5f651ef0060ad5feddf7b780ad537"
+    },
+    "lineage_006": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/network_manifest.json.gz",
+      "sha256": "e6e3b030bd6f5022090e8132a7fbd758663bd5bd52df66396923244867358fe1"
+    },
+    "lineage_007": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/run_stop.json",
+      "sha256": "5847e8a1b2861677bb71b33c436031b8f4d940be29533dff6263978ee5c20472"
+    },
+    "lineage_008": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/execution_validation.json",
+      "sha256": "d237e9eef82cfbad5e7deabd17aa75de4baf74c7ade6c1d3fb71acf401fbd638"
+    },
+    "lineage_009": {
+      "file": "external_cases/test_cryptobilis_source_collection.py",
+      "sha256": "e10eb50002d3802b28f3b9ebce59b8ed049953c9f05951ebfd7888ca8dc91cad"
+    },
+    "lineage_010": {
+      "file": "coldcard/collect_reference_tail.py",
+      "sha256": "c911691ce1f31be82fbfbb6ce7c589ab77da9da0dba7eb5ffc91ea42d0165c51"
+    },
+    "lineage_011": {
+      "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+      "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+    },
+    "lineage_012": {
+      "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+      "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+    },
+    "lineage_013": {
+      "file": "coldcard/prepayment_pilot.py",
+      "sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701"
+    },
+    "lineage_014": {
+      "file": "external_cases/collect_cryptobilis_sources.py",
+      "sha256": "dfd26dda5bc45e72fb1d22bbd2c29148c6318896fd643649274b2cc086d335f0"
+    },
+    "lineage_015": {
+      "file": "coldcard/audit_reference_tail.py",
+      "sha256": "dc40023ec686904b1025fc6d35ffd7eadd1668c8d0fcdc1ecc4da224b043fd99"
+    },
+    "lineage_016": {
+      "file": "coldcard/collect_comparison_coverage.py",
+      "sha256": "243432e042f413fe601db2f661e6afc072e7e3ddd518730de424a31efd2101df"
+    },
+    "lineage_017": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/coverage_audit.json",
+      "sha256": "507cc69817a90c14d6eb16ab09daa0e2fa77f28304b77bc376cae435ca48a028"
+    },
+    "lineage_018": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/cache_preservation_verification.json",
+      "sha256": "679975c25ac38af972f7c2cdd32fc55b92dabddd9392795c7c5fb71875c74270"
+    },
+    "lineage_019": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/checkpoint.json.gz",
+      "sha256": "620a28840d324b5519f46a2729791942d775896bf2099e7a60a58a7c0e5bfc67"
+    },
+    "lineage_020": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/continuation_preservation_verification.json",
+      "sha256": "a1be12fced0fd908537e66e310562618092e292605838fa3c5e65639f92c6983"
+    },
+    "lineage_021": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/execution_validation.json",
+      "sha256": "cb69c4fde434629f7eac120a8857ef31e86a5c3e6af05922a583d59def077b31"
+    },
+    "lineage_022": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/private_cache_backup.json",
+      "sha256": "a4132e0d50644e2f5884cf4e67dffa592659829b3d2fd47ae50cbbd1018417cb"
+    },
+    "lineage_023": {
+      "file": "cryptobilis_reference_prefix_20261104_161406_protocol.json",
+      "sha256": "58519641cb1101353e3d9d932a927631d8be0860e103605cc846e07bfb9b13fe"
+    },
+    "lineage_024": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/precutoff_feature_view.json.gz",
+      "sha256": "b5164ab2d23302c66d5a7b4ce9542303fbc0b6b9c9078b0fcad517fbd5e63d27"
+    },
+    "lineage_025": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/cache_restoration_verification.json",
+      "sha256": "746fbde592169acc9a5acfaf7dcb8346cb8d7a141d25f67200595c5786d04b4c"
+    },
+    "lineage_026": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/offline_reference_reuse.json",
+      "sha256": "188f8c13244a9b3e89b9af110d8a56e68eb0c704b35293d43d4eccdcbeded699"
+    },
+    "lineage_027": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/resume_checkpoint.json",
+      "sha256": "9a6a23864286936a0a4a0ec5ee8c736d3c337f7c97e2ff37d30b74fc64c8f969"
+    },
+    "lineage_028": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+      "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+    },
+    "lineage_029": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/run_stop.json",
+      "sha256": "5532e7dbe34ca310f471d33193debe12ee78f629842dc24e991f7aaf19a0129b"
+    },
+    "lineage_030": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/coverage_audit.json",
+      "sha256": "253c8ebbbc1c3ea7af60ba235490fa27bd93d04b7b9c73d5f1920c710050938e"
+    },
+    "lineage_031": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/cache_preservation_verification.json",
+      "sha256": "6363ec2534d11ce8def815aa06a16bb3b7f516f8f3b42032fb66ef90ffeb6742"
+    },
+    "lineage_032": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/checkpoint.json.gz",
+      "sha256": "2cc26fa0312bf0d661d72eabed736b0681fdfc4770d9849b809fcdd6b0a9ea1f"
+    },
+    "lineage_033": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/continuation_preservation_verification.json",
+      "sha256": "c84f6d5848c3459ec2ab2e324fc0d8d9663fec7f5b152af0725219a40d20e662"
+    },
+    "lineage_034": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/execution_validation.json",
+      "sha256": "afddf100c56b0f14eeb90b53efea9c8ab5488425fedee5df419389f704dc3566"
+    },
+    "lineage_035": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/private_cache_backup.json",
+      "sha256": "0027c484b7c49bb987232ce671a61d4c7ed63535bbb7269d0dbf2cfeee3153c8"
+    },
+    "lineage_036": {
+      "file": "cryptobilis_reference_prefix_20261104_182708_protocol.json",
+      "sha256": "c28d64fc6247cbd8957956347a65d3240b52432a13475ec4d38b287868e3b181"
+    },
+    "lineage_037": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/precutoff_feature_view.json.gz",
+      "sha256": "d47111e7cb54a63d634885c32ae18e26bb9c98cdcabf15f76e2fd83219e347e9"
+    },
+    "lineage_038": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/cache_restoration_verification.json",
+      "sha256": "ebc9aaf950012ff232b8f0561aa293b817d561019eb88a17a95533a020e682f9"
+    },
+    "lineage_039": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/offline_reference_reuse.json",
+      "sha256": "a9f2a55c66bfd8287c79a73ffa282c0f4baf78d53294cff8aec1e1dcdc6ac3bf"
+    },
+    "lineage_040": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/resume_checkpoint.json",
+      "sha256": "a24bc14782355d7e06e27722f23a280ca554d7c43a904287cfc42af0f85768f1"
+    },
+    "lineage_041": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/request_manifest.json.gz",
+      "sha256": "a134965921ef3bc6231879e6a5569f198d65f44d3b0b9e315a919334b68c8086"
+    },
+    "lineage_042": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/run_stop.json",
+      "sha256": "263bf7c53525c5440a3ac821d07e4e63c38c49a181a8e336affbdd02e1cdc845"
+    },
+    "lineage_043": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/coverage_audit.json",
+      "sha256": "4f4b6b689d63e68a3386230259fe4120c19237bb422be4aeef52be0424fd4167"
+    },
+    "lineage_044": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/checkpoint.json.gz",
+      "sha256": "bdd3c7cbaea088f9537ae25b540c045ed744b925bfa4cb6786a22fc8df7f3be6"
+    },
+    "lineage_045": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/private_cache_backup.json",
+      "sha256": "f2bf2ffc94a0d885d776e72a53c39c66bb8b409650f8d67d27b63aeebb6a2f58"
+    },
+    "lineage_046": {
+      "file": "cryptobilis_reference_prefix_20261103_003012_protocol.json",
+      "sha256": "745f9b9f4ca6ebaae40810d7dd7feed06f3a7140d1144c9e9bd45d437123aacb"
+    },
+    "lineage_047": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/initial_precutoff_feature_view.json.gz",
+      "sha256": "a841a749e9663c908a30b10b64eec6953c97f8fb52ee9e216cdd4681a6aa3307"
+    },
+    "lineage_048": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/request_manifest.json.gz",
+      "sha256": "dc3d02855e82cd51ed47d548971f7f2ec1f85fa118aedd1143c844ebb2cf4441"
+    },
+    "lineage_049": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/run_stop.json",
+      "sha256": "9ec29fdbf1f70215a0aac59f09613409d60b52fa7f2d5e76b792685dbfa84472"
+    },
+    "lineage_050": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_201345/offline_reference_reuse.json",
+      "sha256": "996151fb3a3597ca80481cf75aed05ab1b5377394533addc616654979b3c2f8f"
+    },
+    "lineage_051": {
+      "file": "coldcard/source_reference_tail_pilot_20261031_221016_protocol.json",
+      "sha256": "eca1c09687f90bc6171a4e970691425ce8f455f3b3e190497bd0c05f3ac5a86c"
+    },
+    "lineage_052": {
+      "file": "coldcard/reference_tail_pilot_20261031_221016/pilot_validation.json",
+      "sha256": "fd0a555c7e369c02e01902784453fedec10e75b3963b53aa2fd35f195a49dde4"
+    },
+    "lineage_053": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/resume_checkpoint.json",
+      "sha256": "55da1342aed45e34740f0878c219b13d74b87068edadc596f6133e56ce71558a"
+    },
+    "lineage_054": {
+      "file": "external_cases/cryptobilis_source_readiness_20261102/configuration.json",
+      "sha256": "ae527ee155876044e1a67f618cc0910ce2b9bf20a00c9202fcf9b203f9f10d48"
+    },
+    "lineage_055": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/selection_audit.json",
+      "sha256": "7f363378b7a80c9daed2044252110d836e9b739c36c0aa3ef1b3d0352cf31499"
+    },
+    "lineage_056": {
+      "file": "external_cases/select_cryptobilis_sources.py",
+      "sha256": "ca15750b0a818e87ac07e94d7fc28e430eef89fe5ead7fab2c1a3a598e07af8f"
+    },
+    "lineage_057": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/execution_plan_manifest.json",
+      "sha256": "9fd0908dab7d54d0bf4469f83f88b9796d55cd5d832a4a33935b14c5353c65f4"
+    },
+    "lineage_058": {
+      "file": "coldcard/comparison_http.py",
+      "sha256": "79793179e8c1bb153ade9a7fa742ed7a4a766bb6e039c791d880d24d5a484915"
+    },
+    "pass_00_checkpoint": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/checkpoint.json.gz",
+      "sha256": "bdd3c7cbaea088f9537ae25b540c045ed744b925bfa4cb6786a22fc8df7f3be6"
+    },
+    "pass_00_milestone_00": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/milestone_batch_0001/checkpoint.json.gz",
+      "sha256": "35790a5e8d4a45d6bc0385304b920bca6f5e875fb822cea87ed979e4f22762ea"
+    },
+    "pass_00_milestone_01": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/milestone_batch_0002/checkpoint.json.gz",
+      "sha256": "a046ad591e766406c7b2e806eac01c597c808f39d86b97c674cf6d1358b7b796"
+    },
+    "pass_00_milestone_02": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/milestone_batch_0003/checkpoint.json.gz",
+      "sha256": "a750afd5840ba1418e0ca213c0d9ee4e0dd966bca4299cd73b064afe9095616d"
+    },
+    "pass_00_milestone_03": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/milestone_batch_0004/checkpoint.json.gz",
+      "sha256": "3f0e9c4c59b9c30df66f98ad5a1800de4db15505c2243c8440cd8eeaa7bbc378"
+    },
+    "pass_00_milestone_04": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/milestone_batch_0005/checkpoint.json.gz",
+      "sha256": "bdd3c7cbaea088f9537ae25b540c045ed744b925bfa4cb6786a22fc8df7f3be6"
+    },
+    "pass_00_protocol": {
+      "file": "cryptobilis_reference_prefix_20261103_003012_protocol.json",
+      "sha256": "745f9b9f4ca6ebaae40810d7dd7feed06f3a7140d1144c9e9bd45d437123aacb"
+    },
+    "pass_00_requests": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/request_manifest.json.gz",
+      "sha256": "dc3d02855e82cd51ed47d548971f7f2ec1f85fa118aedd1143c844ebb2cf4441"
+    },
+    "pass_01_checkpoint": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/checkpoint.json.gz",
+      "sha256": "620a28840d324b5519f46a2729791942d775896bf2099e7a60a58a7c0e5bfc67"
+    },
+    "pass_01_milestone_00": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/milestone_batch_0001/checkpoint.json.gz",
+      "sha256": "44b57b118ce90a48abb4cf5cf4a43f40bb9086e1ab419f58f07d07e2156372a1"
+    },
+    "pass_01_milestone_01": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/milestone_batch_0002/checkpoint.json.gz",
+      "sha256": "94efe06c21619a480df2a8e02d23013910375b224d90d681d5ffae117ca2377d"
+    },
+    "pass_01_milestone_02": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/milestone_batch_0003/checkpoint.json.gz",
+      "sha256": "cb54a48470f68e28a65323d28e150758597b88b9e6f36a84a7ca7fc2ddfc9c9f"
+    },
+    "pass_01_milestone_03": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/milestone_batch_0004/checkpoint.json.gz",
+      "sha256": "e13418218c560c0a4f8a387254d59de6b2eb3b44b279b501903c8005af1c7a16"
+    },
+    "pass_01_milestone_04": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/milestone_batch_0005/checkpoint.json.gz",
+      "sha256": "620a28840d324b5519f46a2729791942d775896bf2099e7a60a58a7c0e5bfc67"
+    },
+    "pass_01_protocol": {
+      "file": "cryptobilis_reference_prefix_20261104_161406_protocol.json",
+      "sha256": "58519641cb1101353e3d9d932a927631d8be0860e103605cc846e07bfb9b13fe"
+    },
+    "pass_01_requests": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+      "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+    },
+    "pass_02_checkpoint": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/checkpoint.json.gz",
+      "sha256": "2cc26fa0312bf0d661d72eabed736b0681fdfc4770d9849b809fcdd6b0a9ea1f"
+    },
+    "pass_02_milestone_00": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/milestone_batch_0001/checkpoint.json.gz",
+      "sha256": "a95f48c3e8882cbdf495b36e7190df8e8d136b5541a372d5f92ae4534d7bf093"
+    },
+    "pass_02_milestone_01": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/milestone_batch_0002/checkpoint.json.gz",
+      "sha256": "e4dbcb370a1b927b039c22229ddc570e1543f13b84b08e8459a07ba450962959"
+    },
+    "pass_02_milestone_02": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/milestone_batch_0003/checkpoint.json.gz",
+      "sha256": "9219792114e4dd5d06d4ead5812345112c29ef657401c0973113907a5279ab2f"
+    },
+    "pass_02_milestone_03": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/milestone_batch_0004/checkpoint.json.gz",
+      "sha256": "15574d616148053a5633af52a6a9d671e092bcf30d77da2a5f39974342c2ccb2"
+    },
+    "pass_02_milestone_04": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/milestone_batch_0005/checkpoint.json.gz",
+      "sha256": "2cc26fa0312bf0d661d72eabed736b0681fdfc4770d9849b809fcdd6b0a9ea1f"
+    },
+    "pass_02_protocol": {
+      "file": "cryptobilis_reference_prefix_20261104_182708_protocol.json",
+      "sha256": "c28d64fc6247cbd8957956347a65d3240b52432a13475ec4d38b287868e3b181"
+    },
+    "pass_02_requests": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/request_manifest.json.gz",
+      "sha256": "a134965921ef3bc6231879e6a5569f198d65f44d3b0b9e315a919334b68c8086"
+    },
+    "pass_03_checkpoint": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_201345/checkpoint.json.gz",
+      "sha256": "7aca83af616beda53ba3d44aa6f00546c2237b09392c6fabf0a0b7a099250bc4"
+    },
+    "pass_03_milestone_00": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_201345/milestone_batch_0001/checkpoint.json.gz",
+      "sha256": "4aaafc955e8dbdbc9cf4efa13306e1aed9ea1037aa8623833812f1de478ee769"
+    },
+    "pass_03_milestone_01": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_201345/milestone_batch_0002/checkpoint.json.gz",
+      "sha256": "11460f998da6752be4c9ab557cf139edf2fa0220a88c2ddf8a1966c1a2b2d34e"
+    },
+    "pass_03_milestone_02": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_201345/milestone_batch_0003/checkpoint.json.gz",
+      "sha256": "e88e8b785c9439e2643ea110e258666fbe644cccd713e3339633a3ee8a87674f"
+    },
+    "pass_03_milestone_03": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_201345/milestone_batch_0004/checkpoint.json.gz",
+      "sha256": "7aca83af616beda53ba3d44aa6f00546c2237b09392c6fabf0a0b7a099250bc4"
+    },
+    "pass_03_protocol": {
+      "file": "cryptobilis_reference_prefix_20261104_201345_protocol.json",
+      "sha256": "d0c8f5a32cc0a516894e0b228e1494fec0e6c0e9ecb4fe9aa8d19589b2bcb935"
+    },
+    "pass_03_requests": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_201345/request_manifest.json.gz",
+      "sha256": "b6e3a888f4b76883a3bbb11020bbf3beccdd18d5b789c4c588c8a3d50aeb73de"
+    },
+    "source_selection": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/source_selection.json.gz",
+      "sha256": "2b0d978714c8af769d7d62ce7d11c4f32e688eb8b63abde64cd319650eeb8434"
+    },
+    "tests": {
+      "file": "external_cases/test_cryptobilis_acquisition_closure.py",
+      "sha256": "a8929c3caeea42191159fece3b45b53339f354607db248df4457715019db5536"
+    },
+    "transfer_protocol": {
+      "file": "external_cases/cryptobilis_source_readiness_20261102/transfer_protocol.json",
+      "sha256": "9e3be488ada4c69472d65b6cdd67caeb5730dd8033e5e42f62d4b6198e3e962b"
+    },
+    "view": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_201345/precutoff_feature_view.json.gz",
+      "sha256": "1e5ddf726ae40caffd9ebcb8113f748dace0a6b6c5df708d80cf1686371eb87e"
+    }
+  },
+  "model_fits": 0,
+  "passes": [
+    {
+      "checkpoint": "pass_00_checkpoint",
+      "milestones": [
+        "pass_00_milestone_00",
+        "pass_00_milestone_01",
+        "pass_00_milestone_02",
+        "pass_00_milestone_03",
+        "pass_00_milestone_04"
+      ],
+      "pass_name": "cryptobilis_reference_prefix_20261103_003012",
+      "protocol": "pass_00_protocol",
+      "requests": "pass_00_requests",
+      "work_directory": "external_cases/source_collection_work_cryptobilis_reference_prefix_20261103_003012"
+    },
+    {
+      "checkpoint": "pass_01_checkpoint",
+      "milestones": [
+        "pass_01_milestone_00",
+        "pass_01_milestone_01",
+        "pass_01_milestone_02",
+        "pass_01_milestone_03",
+        "pass_01_milestone_04"
+      ],
+      "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+      "protocol": "pass_01_protocol",
+      "requests": "pass_01_requests",
+      "work_directory": "external_cases/source_collection_work_cryptobilis_reference_prefix_20261104_161406"
+    },
+    {
+      "checkpoint": "pass_02_checkpoint",
+      "milestones": [
+        "pass_02_milestone_00",
+        "pass_02_milestone_01",
+        "pass_02_milestone_02",
+        "pass_02_milestone_03",
+        "pass_02_milestone_04"
+      ],
+      "pass_name": "cryptobilis_reference_prefix_20261104_182708",
+      "protocol": "pass_02_protocol",
+      "requests": "pass_02_requests",
+      "work_directory": "external_cases/source_collection_work_cryptobilis_reference_prefix_20261104_182708"
+    },
+    {
+      "checkpoint": "pass_03_checkpoint",
+      "milestones": [
+        "pass_03_milestone_00",
+        "pass_03_milestone_01",
+        "pass_03_milestone_02",
+        "pass_03_milestone_03"
+      ],
+      "pass_name": "cryptobilis_reference_prefix_20261104_201345",
+      "protocol": "pass_03_protocol",
+      "requests": "pass_03_requests",
+      "work_directory": "external_cases/source_collection_work_cryptobilis_reference_prefix_20261104_201345"
+    }
+  ],
+  "provider_requests": 0,
+  "schema_version": 1,
+  "scope": "Whole fixed CryptoBilis prior-prefix acquisition closure only; no overlap/scoring, label promotion or full-current-history claim.",
+  "scores_computed": 0
+}
