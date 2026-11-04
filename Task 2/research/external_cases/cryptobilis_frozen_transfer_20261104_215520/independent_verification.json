@@ -1,0 +1,27 @@
+{
+  "each_error_verified": 67,
+  "exact_numpy_float32_scores_and_paths": 275,
+  "exact_training_only_preprocessing_rows": 275,
+  "excluded_sources_verified_unscored": 91,
+  "fit_paths_explicitly_blocked": true,
+  "fixed_comparators_verified": 3,
+  "fixed_node_support_verified": true,
+  "frozen_model_sha256": "87101573c2de885adfdb9cfb194cf12366b4dc94b4bb9e51e0435bf5e570f537",
+  "input_files_verified": 154,
+  "new_model_fits": 0,
+  "overall_and_two_block_metric_sets_verified": 12,
+  "prediction_export_sha256": "04c2c8faa2f6154f190a9ef833069b2ecb69f0bedf6bc77dc43eae226a78db9c",
+  "preprocessing_fits": 0,
+  "protocol_sha256": "cb090dc2aafce2c664e4dd668e7b4980a22dee5638331fc64659aaf0ff113bfd",
+  "provider_requests": 0,
+  "runtime": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  },
+  "schema_version": 1,
+  "sklearn_metrics_agree": true,
+  "verifier_sha256": "459f0150cce8d5731bcfd87621e6ab3af9b12088bd293dbb45697fe6dbf2876f"
+}

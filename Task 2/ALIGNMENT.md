@@ -1,5 +1,31 @@
 # Task 2 alignment — 27 October 2026
 
+**Latest completed unit — frozen CryptoBilis source-proxy transfer, 4 November 2026 UTC:**
+Read `research/external_cases/cryptobilis_frozen_transfer_20261104_215520/README.md`, its preregistered
+protocol, summary, 275 predictions, all 67 errors and independent verification.
+The unchanged Coldcard tree at >=0.5 gives membership F1 0.629834, precision
+0.966102, recall 0.467213, AP 0.688142 and ROC-AUC 0.727151: 57 TP / 151 TN /
+2 FP / 65 FN. Inactivity ranking outperforms the tree (AP 0.854026 / AUC 0.950016);
+balance AP is 0.763244 and the constant baseline AP is 0.443636. Comparator
+methods retain ranking metrics only. Do not adjust the threshold to this result.
+All 366 selections are retained: exactly 122 cases / 153 comparisons scored,
+54 complete comparisons quarantined and 37 bounded/null prefixes unscored.
+Sixty-three false negatives follow the fixed low-balance branch, and two follow
+the higher-balance/recent-activity branch; the independent implementation agrees.
+Twenty focused tests pass; all 275 float32 paths/scores, three comparators,
+twelve metric sets and every error verify against the preserved NumPy/sklearn path.
+All 154 input pins verify. No new model/preprocessor fit, threshold search,
+provider HTTP, replacement, new partition or automation occurred. Old datasets,
+model, medians, cutoffs, fourteen definitions, labels and partitions are unchanged.
+One inspected external proxy incident, unknown entities/missing-prefix links and
+unknown theft/device labels limit interpretation. No calibrated theft/device
+probability or untouched/independent-incident validation is established.
+Acquisition remains closed and collector automations remain disabled.
+Next aligned unit: scientific write-up of the completed frozen transfer and fixed
+error/comparator analysis for the article. Do not silently refit, tune, recalibrate
+or reuse the now inspected external result as an untouched test. Earlier priorities
+are historical.
+
 **Latest completed unit — CryptoBilis / Coldcard overlap and eligibility, 4 November 2026 UTC:**
 Read `research/external_cases/cryptobilis_overlap_20261104_205032/README.md`, its pinned protocol,
 summary, per-source eligibility manifest and independent verification. All 1,378

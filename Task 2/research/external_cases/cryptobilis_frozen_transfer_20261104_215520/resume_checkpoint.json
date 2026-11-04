@@ -1,0 +1,81 @@
+{
+  "automation_should_be_enabled": false,
+  "bounded_incomplete_sources": 37,
+  "collection_can_resume": false,
+  "inputs": {
+    "README.md": {
+      "file": "external_cases/cryptobilis_frozen_transfer_20261104_215520/README.md",
+      "sha256": "2bdab4a66ee0b09b62ed2016e1bd1d3b5dfd946547c9ef8044748af1cebef32d"
+    },
+    "errors.json.gz": {
+      "file": "external_cases/cryptobilis_frozen_transfer_20261104_215520/errors.json.gz",
+      "sha256": "dbd01f1f23985d3db7b65b420081fc01424f04183b9cd95dea5cabd5568bfeec"
+    },
+    "execution_validation.json": {
+      "file": "external_cases/cryptobilis_frozen_transfer_20261104_215520/execution_validation.json",
+      "sha256": "d324d48d1f3ccf6716795e40642ed07bc5b658e4a29d3ddf0c494a0012e8d9d6"
+    },
+    "independent_verification.json": {
+      "file": "external_cases/cryptobilis_frozen_transfer_20261104_215520/independent_verification.json",
+      "sha256": "1faebae57c9edc08bd5a509ea3c85b42b9aa29710920a8be45bb92f741bf1dca"
+    },
+    "predictions.json.gz": {
+      "file": "external_cases/cryptobilis_frozen_transfer_20261104_215520/predictions.json.gz",
+      "sha256": "04c2c8faa2f6154f190a9ef833069b2ecb69f0bedf6bc77dc43eae226a78db9c"
+    },
+    "preservation_verification.json": {
+      "file": "external_cases/cryptobilis_frozen_transfer_20261104_215520/preservation_verification.json",
+      "sha256": "46e7afac8a1158eaf96cf8f6651b65eb0075f1819a9dc595964cf45fa84fc955"
+    },
+    "protocol.json": {
+      "file": "external_cases/cryptobilis_frozen_transfer_20261104_215520/protocol.json",
+      "sha256": "cb090dc2aafce2c664e4dd668e7b4980a22dee5638331fc64659aaf0ff113bfd"
+    },
+    "repository_validation.json": {
+      "file": "external_cases/cryptobilis_frozen_transfer_20261104_215520/repository_validation.json",
+      "sha256": "19e5d4ec57ec82415228929099451c50e4d9f19db1292ed0c3f85e192ffd0d04"
+    },
+    "scoring_manifest.json.gz": {
+      "file": "external_cases/cryptobilis_frozen_transfer_20261104_215520/scoring_manifest.json.gz",
+      "sha256": "7e1885dae00c8216c7c8b192b79f3ea9dae2ee0a97d66e1e805481b723e5ee92"
+    },
+    "summary.json": {
+      "file": "external_cases/cryptobilis_frozen_transfer_20261104_215520/summary.json",
+      "sha256": "73e713544fcf2f6e367442c1b70df56ecb2131fba8f913aedcfe35fd3d24c794"
+    },
+    "verification.json": {
+      "file": "external_cases/cryptobilis_frozen_transfer_20261104_215520/verification.json",
+      "sha256": "ff41c472e82cd5c99e5c0b22d0e77ed7ce1facc5d0fb481c8cb01dd6cc6c90cf"
+    }
+  },
+  "latest_completed_unit": "cryptobilis_frozen_transfer_20261104_215520",
+  "network_source_ids": [],
+  "new_model_fits": 0,
+  "next_action": "Write the completed Coldcard-to-CryptoBilis frozen structural-proxy study into a separate article-ready supplement using these fixed results, attrition, original target meanings and the verified branch/error and comparator evidence. Preserve every fitted model, threshold, split, collection result and this inspected external evaluation. No silent refit, retuning, calibration, sample replacement or claim of verified theft/device detection. Any subsequent ML adaptation needs a new prespecified development/evaluation design and independent evidence.",
+  "preprocessing_fits": 0,
+  "preregistered_commit": "719067dd4467bd59d7da6004cacad022fb5aaf68",
+  "primary_membership_metrics": {
+    "average_precision_membership": 0.6881423562589478,
+    "case": 122,
+    "comparison": 153,
+    "f1_membership": 0.6298342541436464,
+    "false_negative_membership": 65,
+    "false_positive_membership": 2,
+    "precision_membership": 0.9661016949152542,
+    "recall_membership": 0.4672131147540984,
+    "roc_auc_membership": 0.7271509696774885,
+    "rows": 275,
+    "sampled_membership_prevalence": 0.44363636363636366,
+    "threshold": 0.5,
+    "threshold_operator": ">=",
+    "true_negative_membership": 151,
+    "true_positive_membership": 57
+  },
+  "provider_requests": 0,
+  "quarantined_complete_sources": 54,
+  "schema_version": 1,
+  "scope": "completed_frozen_cryptobilis_source_proxy_transfer",
+  "scored_cases": 122,
+  "scored_comparisons": 153,
+  "scored_sources": 275
+}

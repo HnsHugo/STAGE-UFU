@@ -1,6 +1,6 @@
 # Task 2 — Hardware-wallet case studies and Bitcoin transaction analysis
 
-The latest [CryptoBilis overlap and eligibility audit](research/external_cases/cryptobilis_overlap_20261104_205032/README.md) preserves all 366 selected sources and quarantines 54 complete comparison vectors. There are 275 eligible vectors (122 case / 153 comparison), with 37 bounded prefixes still unavailable. No external scoring or model refit has occurred.
+The latest [frozen CryptoBilis source-proxy evaluation](research/external_cases/cryptobilis_frozen_transfer_20261104_215520/README.md) scores exactly 275 eligible vectors without refitting: membership F1 0.629834, precision 0.966102 and recall 0.467213. Inactivity ranking has higher AP (0.854026 vs 0.688142). All 366 selections, 54 quarantined complete comparisons and 37 bounded prefixes are retained; all excluded sources remain unscored.
 
 ## Current source-address result — 2 November 2026
 
@@ -26,9 +26,9 @@ candidates / 207 comparisons), 37 bounded-incomplete comparisons without vectors
 and no network/unattempted sources. All raw tails and vectors reproduce; 2,262
 response fingerprints and 19 batch snapshots verify. Source compromise/device
 labels remain unknown, with current full histories outside this prefix audit.
-Part 5 has completed the available-prefix overlap and eligibility audit: 54
-complete comparisons are quarantined and 275 vectors remain eligible. The next
-unit is pinned frozen-model inference; no external score is claimed.
+Part 5 has completed the overlap/eligibility audit and frozen external inference.
+The limited proxy-transfer result and fixed-rule errors are documented above;
+the existing Coldcard model is unchanged. The next unit is the article write-up.
 
 ## Historical collection progress
 

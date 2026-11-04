@@ -1,5 +1,7 @@
 # Sourced theft cases and decision-time features
 
+Latest unit: [frozen CryptoBilis source-proxy transfer](cryptobilis_frozen_transfer_20261104_215520/README.md). The unchanged tree scores 275 eligible addresses: F1 0.629834, precision 0.966102, recall 0.467213; inactivity ranking has higher AP (0.854026 vs 0.688142). All exclusions and old results remain unchanged; no fit or tuning occurred.
+
 Latest unit: [CryptoBilis / Coldcard overlap and eligibility](cryptobilis_overlap_20261104_205032/README.md). All 366 selections are retained; 54 complete comparisons are quarantined and 37 prefixes remain bounded-incomplete, leaving 275 eligible vectors (122 case / 153 comparison). No score or refit occurred.
 
 Current source-address result: [CryptoBilis acquisition closure and whole-cohort audit](cryptobilis_reference_prefix_20261104_201345/README.md). All 366 selections are finalized: 329 prior-prefix vectors, 37 bounded-incomplete comparisons without vectors, no network/unattempted sources. Full current source histories and compromise/device labels remain unverified. All old evidence is preserved; collection is closed and automation stays disabled. Next: the separately gated development/external overlap and eligibility audit.
