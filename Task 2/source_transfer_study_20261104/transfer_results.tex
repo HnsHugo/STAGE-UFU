@@ -1,0 +1,151 @@
+\begingroup
+\setlength{\emergencystretch}{2em}
+\subsection{External results and
+interpretation}\label{external-results-and-interpretation}
+
+\subsubsection{Frozen transfer
+performance}\label{frozen-transfer-performance}
+
+On the 275 eligible external addresses, the frozen tree attains
+membership precision 0.966102, recall 0.467213 and F1 0.629834. It
+recovers 57 of 122 case sources, misses 65 and assigns two of 153
+comparisons to the case class. AP is 0.688142 and ROC-AUC is 0.727151.
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule\noalign{}
+Method & AP & ROC-AUC & F1 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Frozen tree & 0.688142 & 0.727151 & 0.629834 \\
+Prior inactivity & 0.854026 & 0.950016 & Ranking only \\
+Prior balance & 0.763244 & 0.845387 & Ranking only \\
+Training-prevalence constant & 0.443636 & 0.500000 & Ranking only \\
+\end{longtable}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+External proxy class & Predicted positive & Predicted negative \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Case source & 57 & 65 \\
+Comparison & 2 & 151 \\
+\end{longtable}
+
+The fixed inactivity ranking has higher AP and ROC-AUC than the tree, as
+does the balance ranking. No classification threshold was fitted for
+either comparator, so their AP values are not comparator F1 scores. The
+constant's score remains the training prevalence 0.334947; its external
+AP equals the scored prevalence 0.443636, with ROC-AUC 0.5. This is a
+ranking property of a constant, not external recalibration.
+
+The preserved Coldcard internal test F1 is 0.989796 (97 TP, 135 TN, one
+FP and one FN). The external experiment uses a different
+source-membership target and a selected population in another incident.
+It therefore does not measure the same estimand, but demonstrates that
+the strong internal separation does not ensure reliable transport under
+the specified external proxy. No threshold was changed to improve this
+observed result.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Reference block
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Cases / comparisons
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tree F1
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tree AP
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Inactivity AP
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+970590 & 111 / 135 & 0.654762 & 0.706517 & 0.847673 \\
+970591 & 11 / 18 & 0.307692 & 0.492163 & 0.992424 \\
+\end{longtable}
+
+The second block has only eleven case sources and eighteen comparisons.
+These stratum summaries are not independent replications, significance
+tests or separate minimum-20 claims. The incident, entity dependence and
+selection limits remain present even where a univariate ranking is high.
+
+\subsubsection{Fixed-rule error
+diagnosis}\label{fixed-rule-error-diagnosis}
+
+The root tests float32-converted prior balance against 14,820,511.5
+satoshis (about 0.148205 BTC). Its lower-balance branch contained zero
+case sources and 642 comparisons in the Coldcard training export. In
+CryptoBilis, 63 case sources and 137 comparisons enter this branch. All
+63 case sources become false negatives under the unchanged rule. The two
+remaining false negatives have higher balances but enter the fixed
+inactivity-at-most-1,006.5-block branch. This is an exact replay
+explanation, not a newly selected threshold or a causal account of
+incident differences.
+
+\begin{longtable}[]{@{}llllll@{}}
+\toprule\noalign{}
+Leaf & Frozen score & Cases & Comparisons & FN & FP \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+2 & 0.000000 & 0 & 3 & 0 & 0 \\
+3 & 0.000000 & 63 & 134 & 63 & 0 \\
+5 & 0.000000 & 2 & 14 & 2 & 0 \\
+7 & 0.888171 & 27 & 1 & 0 & 1 \\
+8 & 0.996957 & 30 & 1 & 0 & 1 \\
+\end{longtable}
+
+Both numeric split variables are observed for every scored address.
+Prior-spending fee rate is undefined for 121 cases and 101 comparisons;
+its saved median/indicator is preserved, but neither appears in a tree
+split. The observed errors reproduce through the fixed
+balance/inactivity conditions rather than a preparation mismatch. All 67
+errors retain their source ID, original fourteen values, label tier,
+reference hash, component, score and path in the machine-readable
+export.
+
+\subsubsection{Limits and supported
+conclusion}\label{limits-and-supported-conclusion}
+
+The operational positive label is linkage to a selected historical
+collector payment, not independently verified loss or hardware use.
+Comparisons are unattributed outside-reference sources, not certified
+legitimate or non-hardware examples. Both collector snapshots belong to
+one already inspected incident. Neither the address count nor
+measured-link grouping establishes independent victims, devices or
+entities; no untouched or prospective test is claimed.
+
+Coverage and quarantine change the evaluation population and class
+prevalence. Incomplete prefixes have no vector, while an exhausted prior
+prefix does not certify an entire current history. Individual
+CryptoBilis full-current-history status remains not collected for this
+source. The separate Coldcard comparison full-history counts (864
+complete, 136 incomplete) are unchanged. Provider reconciliation,
+cryptographic inclusion, source attribution and owner/device evidence
+are distinct claims.
+
+The results support a reproducible, limited comparison of source-linkage
+profiles. They expose a failure of reliable frozen-tree transport and
+show that a prespecified inactivity ranking can outperform that model in
+this selected sample. They do not validate theft probabilities,
+hardware-wallet identification or population-wide generalization. The
+high inactivity AP also does not turn inactivity into a validated theft
+detector. Preserving the negative transfer result is scientifically
+necessary; adapting the tree or its threshold to these inspected answers
+would require a separately specified design and independent evaluation
+evidence.
+
+\endgroup

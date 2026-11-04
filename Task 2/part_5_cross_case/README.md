@@ -1,5 +1,7 @@
 # Part 5 — Add a second case and evaluate transfer
 
+The [article-ready transfer supplement](../source_transfer_study_20261104/README.md) provides a checked four-page PDF and two LaTeX fragments for the existing Our Work / Results outline. It documents the fixed negative transport result, 67 errors, stronger inactivity ranking and evidence/attrition limits; both old and new fragments compile together.
+
 The [completed frozen CryptoBilis transfer](../research/external_cases/cryptobilis_frozen_transfer_20261104_215520/README.md) gives membership F1 **0.629834** (57 TP / 151 TN / 2 FP / 65 FN) on the exact 275 eligible sources. Precision is 0.966102 and recall 0.467213; inactivity ranking has higher AP than the frozen tree (0.854026 vs 0.688142). The model, preprocessing and >=0.5 threshold are unchanged. All 54 quarantined complete vectors and 37 bounded prefixes remain unscored. This is one inspected structural-proxy incident with unknown theft/device labels; the next unit is the scientific write-up.
 
 The [4 November source overlap/eligibility audit](../research/external_cases/cryptobilis_overlap_20261104_205032/README.md) reproduces both cohorts and the frozen Coldcard partitions. Four measured cross-development components quarantine 54 complete comparison vectors; 37 prefixes remain null. The 275 eligible external vectors pass the prespecified overall support gate. The subsequent frozen-model source inference is completed above; the overlap result itself performed no scoring.

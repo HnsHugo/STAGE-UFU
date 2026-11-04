@@ -1,0 +1,325 @@
+{
+  "acquisition_classes": {
+    "case": {
+      "bounded_incomplete": 0,
+      "complete_vectors": 122,
+      "selected": 122
+    },
+    "comparison": {
+      "bounded_incomplete": 37,
+      "complete_vectors": 207,
+      "selected": 244
+    }
+  },
+  "coldcard_internal_test": {
+    "average_precision_membership": 0.9937570527949536,
+    "case": 98,
+    "comparison": 136,
+    "f1_membership": 0.9897959183673469,
+    "false_negative_membership": 1,
+    "false_positive_membership": 1,
+    "precision_membership": 0.9897959183673469,
+    "recall_membership": 0.9897959183673469,
+    "roc_auc_membership": 0.9947478991596639,
+    "rows": 234,
+    "sampled_membership_prevalence": 0.4188034188034188,
+    "threshold": 0.5,
+    "threshold_operator": ">=",
+    "true_negative_membership": 135,
+    "true_positive_membership": 97
+  },
+  "external_results": {
+    "available_vector_case_fraction": 0.3708206686930091,
+    "bounded_incomplete": 37,
+    "complete_external_vectors": 329,
+    "descriptive_metrics_by_block": {
+      "970590": {
+        "balance_rank": {
+          "average_precision_membership": 0.7899573307470653,
+          "case": 111,
+          "comparison": 135,
+          "roc_auc_membership": 0.8639973306639973,
+          "rows": 246,
+          "sampled_membership_prevalence": 0.45121951219512196
+        },
+        "constant_train_prevalence": {
+          "average_precision_membership": 0.45121951219512196,
+          "case": 111,
+          "comparison": 135,
+          "roc_auc_membership": 0.5,
+          "rows": 246,
+          "sampled_membership_prevalence": 0.45121951219512196
+        },
+        "frozen_tree": {
+          "average_precision_membership": 0.7065167366215028,
+          "case": 111,
+          "comparison": 135,
+          "f1_membership": 0.6547619047619048,
+          "false_negative_membership": 56,
+          "false_positive_membership": 2,
+          "precision_membership": 0.9649122807017544,
+          "recall_membership": 0.4954954954954955,
+          "roc_auc_membership": 0.7405071738405071,
+          "rows": 246,
+          "sampled_membership_prevalence": 0.45121951219512196,
+          "threshold": 0.5,
+          "threshold_operator": ">=",
+          "true_negative_membership": 133,
+          "true_positive_membership": 55
+        },
+        "inactivity_rank": {
+          "average_precision_membership": 0.8476729809986766,
+          "case": 111,
+          "comparison": 135,
+          "roc_auc_membership": 0.9463463463463464,
+          "rows": 246,
+          "sampled_membership_prevalence": 0.45121951219512196
+        }
+      },
+      "970591": {
+        "balance_rank": {
+          "average_precision_membership": 0.5160221932949206,
+          "case": 11,
+          "comparison": 18,
+          "roc_auc_membership": 0.6515151515151515,
+          "rows": 29,
+          "sampled_membership_prevalence": 0.3793103448275862
+        },
+        "constant_train_prevalence": {
+          "average_precision_membership": 0.3793103448275862,
+          "case": 11,
+          "comparison": 18,
+          "roc_auc_membership": 0.5,
+          "rows": 29,
+          "sampled_membership_prevalence": 0.3793103448275862
+        },
+        "frozen_tree": {
+          "average_precision_membership": 0.49216300940438873,
+          "case": 11,
+          "comparison": 18,
+          "f1_membership": 0.3076923076923077,
+          "false_negative_membership": 9,
+          "false_positive_membership": 0,
+          "precision_membership": 1.0,
+          "recall_membership": 0.18181818181818182,
+          "roc_auc_membership": 0.5909090909090909,
+          "rows": 29,
+          "sampled_membership_prevalence": 0.3793103448275862,
+          "threshold": 0.5,
+          "threshold_operator": ">=",
+          "true_negative_membership": 18,
+          "true_positive_membership": 2
+        },
+        "inactivity_rank": {
+          "average_precision_membership": 0.9924242424242424,
+          "case": 11,
+          "comparison": 18,
+          "roc_auc_membership": 0.9949494949494949,
+          "rows": 29,
+          "sampled_membership_prevalence": 0.3793103448275862
+        }
+      }
+    },
+    "entity_independence_established": false,
+    "error_counts": {
+      "false_negative_membership": 65,
+      "false_positive_membership": 2
+    },
+    "error_rows": 67,
+    "evaluation_scope": "One previously inspected external structural-proxy incident, complete-case and measured-link quarantine",
+    "external_incidents": 1,
+    "fixed_node_support": {
+      "0": {
+        "case": 122,
+        "comparison": 153,
+        "false_negative_membership": 65,
+        "false_positive_membership": 2
+      },
+      "1": {
+        "case": 63,
+        "comparison": 137,
+        "false_negative_membership": 63,
+        "false_positive_membership": 0
+      },
+      "2": {
+        "case": 0,
+        "comparison": 3,
+        "false_negative_membership": 0,
+        "false_positive_membership": 0
+      },
+      "3": {
+        "case": 63,
+        "comparison": 134,
+        "false_negative_membership": 63,
+        "false_positive_membership": 0
+      },
+      "4": {
+        "case": 59,
+        "comparison": 16,
+        "false_negative_membership": 2,
+        "false_positive_membership": 2
+      },
+      "5": {
+        "case": 2,
+        "comparison": 14,
+        "false_negative_membership": 2,
+        "false_positive_membership": 0
+      },
+      "6": {
+        "case": 57,
+        "comparison": 2,
+        "false_negative_membership": 0,
+        "false_positive_membership": 2
+      },
+      "7": {
+        "case": 27,
+        "comparison": 1,
+        "false_negative_membership": 0,
+        "false_positive_membership": 1
+      },
+      "8": {
+        "case": 30,
+        "comparison": 1,
+        "false_negative_membership": 0,
+        "false_positive_membership": 1
+      }
+    },
+    "frozen_model_sha256": "87101573c2de885adfdb9cfb194cf12366b4dc94b4bb9e51e0435bf5e570f537",
+    "frozen_split_sha256": "2571c35ba6bddbb2649bdd497d606353f6db49da6be0d6d827dd037b27815328",
+    "full_current_history_status_not_promoted": true,
+    "input_commit": "9cd2408880a354c86513c73f7112f45578615594",
+    "input_files_verified": 154,
+    "limitation": "Descriptive transport of a source-linkage proxy in one previously inspected incident; complete-case and quarantine attrition, unknown missing-prefix/entity links and unknown theft/device labels remain.",
+    "missing_values_by_class": {
+      "case": {
+        "active_block_count": 0,
+        "activity_span_blocks": 0,
+        "balance_sat": 0,
+        "blocks_since_first_activity": 0,
+        "blocks_since_last_activity": 0,
+        "confirmed_tx_count": 0,
+        "median_spending_tx_fee_rate_sat_vb": 121,
+        "receipt_tx_count": 0,
+        "received_output_count": 0,
+        "received_sat": 0,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 0
+      },
+      "comparison": {
+        "active_block_count": 0,
+        "activity_span_blocks": 0,
+        "balance_sat": 0,
+        "blocks_since_first_activity": 0,
+        "blocks_since_last_activity": 0,
+        "confirmed_tx_count": 0,
+        "median_spending_tx_fee_rate_sat_vb": 101,
+        "receipt_tx_count": 0,
+        "received_output_count": 0,
+        "received_sat": 0,
+        "spending_tx_count": 0,
+        "spent_output_count": 0,
+        "spent_sat": 0,
+        "unspent_output_count": 0
+      }
+    },
+    "model_origin_target": "known_coldcard_core_membership",
+    "new_model_fits": 0,
+    "new_partitions": 0,
+    "original_selected_case_fraction": 0.3333333333333333,
+    "parameter_or_threshold_searches": 0,
+    "preprocessing_fits": 0,
+    "primary_metrics": {
+      "balance_rank": {
+        "average_precision_membership": 0.7632436340454551,
+        "case": 122,
+        "comparison": 153,
+        "roc_auc_membership": 0.8453873352619736,
+        "rows": 275,
+        "sampled_membership_prevalence": 0.44363636363636366
+      },
+      "constant_train_prevalence": {
+        "average_precision_membership": 0.44363636363636366,
+        "case": 122,
+        "comparison": 153,
+        "roc_auc_membership": 0.5,
+        "rows": 275,
+        "sampled_membership_prevalence": 0.44363636363636366
+      },
+      "frozen_tree": {
+        "average_precision_membership": 0.6881423562589478,
+        "case": 122,
+        "comparison": 153,
+        "f1_membership": 0.6298342541436464,
+        "false_negative_membership": 65,
+        "false_positive_membership": 2,
+        "precision_membership": 0.9661016949152542,
+        "recall_membership": 0.4672131147540984,
+        "roc_auc_membership": 0.7271509696774885,
+        "rows": 275,
+        "sampled_membership_prevalence": 0.44363636363636366,
+        "threshold": 0.5,
+        "threshold_operator": ">=",
+        "true_negative_membership": 151,
+        "true_positive_membership": 57
+      },
+      "inactivity_rank": {
+        "average_precision_membership": 0.8540256294798417,
+        "case": 122,
+        "comparison": 153,
+        "roc_auc_membership": 0.9500160720025715,
+        "rows": 275,
+        "sampled_membership_prevalence": 0.44363636363636366
+      }
+    },
+    "provider_requests": 0,
+    "quarantined_complete": 54,
+    "schema_version": 1,
+    "score_interpretation": "Class-balanced training leaf proportion; not calibrated theft/device probability.",
+    "scored_case_fraction": 0.44363636363636366,
+    "scored_cases": 122,
+    "scored_comparisons": 153,
+    "scored_quarantined_or_bounded_sources": 0,
+    "scored_sources": 275,
+    "selected_sources": 366,
+    "source_level_verified_compromise_or_device_evaluation_possible": false,
+    "target": "cryptobilis_reference_source_membership",
+    "threshold": 0.5,
+    "threshold_operator": ">=",
+    "training_prevalence": 0.33494675701839305,
+    "training_prevalence_support": {
+      "case": 346,
+      "comparison": 687
+    },
+    "untouched_test_claim": false
+  },
+  "low_balance_branch_training": {
+    "case": 0,
+    "comparison": 642,
+    "imputed_split_rows": 0
+  },
+  "model_fits": 0,
+  "new_scores": 0,
+  "overlap_counts": {
+    "case": {
+      "bounded_incomplete": 0,
+      "eligible": 122,
+      "in_cross_development_components": 0,
+      "quarantined_complete": 0,
+      "selected": 122
+    },
+    "comparison": {
+      "bounded_incomplete": 37,
+      "eligible": 153,
+      "in_cross_development_components": 67,
+      "quarantined_complete": 54,
+      "selected": 244
+    }
+  },
+  "preregistered_commit": "719067dd4467bd59d7da6004cacad022fb5aaf68",
+  "provider_requests": 0,
+  "result_commit": "8d0b0e345cbcb29d2e435cb9a9906a873721b825",
+  "schema_version": 1,
+  "unknown_labels_unchanged": true
+}

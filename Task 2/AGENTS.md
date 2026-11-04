@@ -1,5 +1,30 @@
 # Task 2 working instructions
 
+**Latest completed unit — frozen transfer article supplement, 4 November 2026 UTC:**
+Read `source_transfer_study_20261104/README.md`, the checked four-page PDF,
+`transfer_methods.tex`, `transfer_results.tex` and the importable Overleaf ZIP.
+The supplement covers the source/census/coverage methods, exact eligibility,
+fixed model/comparators, external metrics, all error counts and evidence limits.
+It preserves F1 0.629834, precision 0.966102, recall 0.467213 and the stronger
+inactivity AP 0.854026 versus tree AP 0.688142. It explains the 63 low-balance
+and two recent-activity false negatives without changing any rule or threshold.
+The saved-result builder verifies 275 predictions, 67 errors, all exclusions,
+input hashes and branch counts without model imports, inference or provider HTTP.
+Both new LaTeX fragments compile alone and with both earlier Coldcard fragments;
+two passes, zero warnings/duplicate labels, and all four PDF pages visually checked.
+The original article, authors, bibliography, five-page Coldcard study, model,
+scores, splits, cutoffs, definitions and unknown labels are preserved.
+The archive contains article fragments, preamble, review wrapper/PDF, exact
+facts and provenance/validation. No raw private caches are included.
+Article integration is documented in docs/ARTICLE_MAP.md; no live Overleaf edit.
+Acquisition remains closed and automations disabled. No fit or new score occurred.
+Next aligned unit: read the current supplied editable article and integrate both
+supplements into a new reviewable copy, reconciling Introduction/Our Work/Results/
+Conclusions with the completed tabular model and limited proxy transfer. Preserve
+the author list, bibliography and originals. Any subsequent ML adaptation needs a
+separate prespecified design and independent evaluation evidence.
+Older write-up/inference priorities below are historical.
+
 **Latest completed unit — frozen CryptoBilis source-proxy transfer, 4 November 2026 UTC:**
 Read `research/external_cases/cryptobilis_frozen_transfer_20261104_215520/README.md`, its preregistered
 protocol, summary, 275 predictions, all 67 errors and independent verification.

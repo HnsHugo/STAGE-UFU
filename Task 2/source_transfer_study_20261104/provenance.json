@@ -1,0 +1,123 @@
+{
+  "builder_sha256": "4a0909a79e4735d6d88c2dfa3dced4559dfc7a169df4e61b7f8f841bcaa5603c",
+  "claim_map": {
+    "coverage": "acquisition",
+    "error_counts": "predictions/errors",
+    "exact_metrics": "results",
+    "fixed_rule_explanation": "model/baseline/results",
+    "independent_verification": "independent",
+    "quarantine": "overlap",
+    "sampling": "source_selection"
+  },
+  "date": "2026-11-04",
+  "generated_text_sha256": {
+    "README.md": "8de969f4ce96d19c21632f0d5eb044ca28b0e13e22571b07d2c22020e52b533d",
+    "report.tex": "8e8fba64fb099ea64f770203bd523890b407f7eb23a903a4bfd153c3c84b45e2",
+    "tables.json": "c36a6437b28a7f58c0c881eaf03ceebdc2536ad22f3d52557906130c1d33ca9c",
+    "transfer_methods.tex": "04ff1a5a5cf8b9c15d362866a5ec1cc04ec526389dfc0375a7af4c66a8952e18",
+    "transfer_preamble.tex": "db2d1994b91e315865cf9c046a0066076d973b165962e264c95a29fd80c04394",
+    "transfer_results.tex": "734bd52f38867e4be80759f15534ce4f2ee84e0db50eb4d0db7e32c4a6a4c2c4"
+  },
+  "inherited_frozen_input_pins_verified": 154,
+  "input_commit": "8d0b0e345cbcb29d2e435cb9a9906a873721b825",
+  "inputs": {
+    "acquisition": {
+      "file": "research/external_cases/cryptobilis_reference_prefix_20261104_201345/final_acquisition_audit.json",
+      "sha256": "42a7842d12d1195e16c8bccad0092d78a5367f0771211e2b5d9fc6ce77d823ce"
+    },
+    "baseline": {
+      "file": "research/coldcard/source_membership_baseline_20261102_162335/summary.json",
+      "sha256": "aaa806a55d5f0b56e04e4b7479a14d2ec0ab236f318ba6c926dbc87e012358f4"
+    },
+    "eligibility": {
+      "file": "research/external_cases/cryptobilis_overlap_20261104_205032/eligibility_manifest.json.gz",
+      "sha256": "6ecc2809cbf1d5a7a7703075b30fe9972f7845d748ac5a50fcd59b73b592bc41"
+    },
+    "errors": {
+      "file": "research/external_cases/cryptobilis_frozen_transfer_20261104_215520/errors.json.gz",
+      "sha256": "dbd01f1f23985d3db7b65b420081fc01424f04183b9cd95dea5cabd5568bfeec"
+    },
+    "execution": {
+      "file": "research/external_cases/cryptobilis_frozen_transfer_20261104_215520/execution_validation.json",
+      "sha256": "d324d48d1f3ccf6716795e40642ed07bc5b658e4a29d3ddf0c494a0012e8d9d6"
+    },
+    "existing_article_preamble": {
+      "file": "source_address_study/article_preamble.tex",
+      "sha256": "db2d1994b91e315865cf9c046a0066076d973b165962e264c95a29fd80c04394"
+    },
+    "existing_table_adapter": {
+      "file": "docs/build_source_address_study.py",
+      "sha256": "8736234c34362ef10d16166bd0490f9be5b02c7b7988eb3df8690e2185a6eb16"
+    },
+    "external_view": {
+      "file": "research/external_cases/cryptobilis_reference_prefix_20261104_201345/precutoff_feature_view.json.gz",
+      "sha256": "1e5ddf726ae40caffd9ebcb8113f748dace0a6b6c5df708d80cf1686371eb87e"
+    },
+    "independent": {
+      "file": "research/external_cases/cryptobilis_frozen_transfer_20261104_215520/independent_verification.json",
+      "sha256": "1faebae57c9edc08bd5a509ea3c85b42b9aa29710920a8be45bb92f741bf1dca"
+    },
+    "model": {
+      "file": "research/coldcard/source_membership_baseline_20261102_162335/model.json",
+      "sha256": "87101573c2de885adfdb9cfb194cf12366b4dc94b4bb9e51e0435bf5e570f537"
+    },
+    "overlap": {
+      "file": "research/external_cases/cryptobilis_overlap_20261104_205032/summary.json",
+      "sha256": "938f83a29c9acda3c9da0ccc32bc4524e63af37bf3bec5bdaca8e7d665444cb0"
+    },
+    "overlap_verification": {
+      "file": "research/external_cases/cryptobilis_overlap_20261104_205032/independent_verification.json",
+      "sha256": "5811da6bf39e46b2b9a4e31e4e91189410eaa3a8e2e5a78815ccbe96ddb5f24d"
+    },
+    "predictions": {
+      "file": "research/external_cases/cryptobilis_frozen_transfer_20261104_215520/predictions.json.gz",
+      "sha256": "04c2c8faa2f6154f190a9ef833069b2ecb69f0bedf6bc77dc43eae226a78db9c"
+    },
+    "previous_study_pdf": {
+      "file": "source_address_study/source_address_study.pdf",
+      "sha256": "013b6143a2333252f2d7b6000f8cb696717955d636f3381e98968ec93ca046d7"
+    },
+    "previous_study_provenance": {
+      "file": "source_address_study/provenance.json",
+      "sha256": "650012e445c5655c049c5a9ff65fb5ef4152f63b9ba69a1760766bc2531b5bce"
+    },
+    "protocol": {
+      "file": "research/external_cases/cryptobilis_frozen_transfer_20261104_215520/protocol.json",
+      "sha256": "cb090dc2aafce2c664e4dd668e7b4980a22dee5638331fc64659aaf0ff113bfd"
+    },
+    "results": {
+      "file": "research/external_cases/cryptobilis_frozen_transfer_20261104_215520/summary.json",
+      "sha256": "73e713544fcf2f6e367442c1b70df56ecb2131fba8f913aedcfe35fd3d24c794"
+    },
+    "scoring_manifest": {
+      "file": "research/external_cases/cryptobilis_frozen_transfer_20261104_215520/scoring_manifest.json.gz",
+      "sha256": "7e1885dae00c8216c7c8b192b79f3ea9dae2ee0a97d66e1e805481b723e5ee92"
+    },
+    "source_evidence": {
+      "file": "research/external_cases/cryptobilis_source_readiness_20261102/scope_audit.json",
+      "sha256": "d26cca2d2eac3c808561a8b9c15b5dc40d3433d237fc92dcc8be22abefa72b95"
+    },
+    "source_selection": {
+      "file": "research/external_cases/cryptobilis_source_selection_20261103_002428/selection_audit.json",
+      "sha256": "7f363378b7a80c9daed2044252110d836e9b739c36c0aa3ef1b3d0352cf31499"
+    },
+    "split": {
+      "file": "research/coldcard/source_membership_baseline_20261102_162335/split_manifest.json.gz",
+      "sha256": "2571c35ba6bddbb2649bdd497d606353f6db49da6be0d6d827dd037b27815328"
+    },
+    "transfer_contract": {
+      "file": "research/external_cases/cryptobilis_source_readiness_20261102/transfer_protocol.json",
+      "sha256": "9e3be488ada4c69472d65b6cdd67caeb5730dd8033e5e42f62d4b6198e3e962b"
+    },
+    "verification": {
+      "file": "research/external_cases/cryptobilis_frozen_transfer_20261104_215520/verification.json",
+      "sha256": "ff41c472e82cd5c99e5c0b22d0e77ed7ce1facc5d0fb481c8cb01dd6cc6c90cf"
+    }
+  },
+  "model_fits": 0,
+  "new_scores": 0,
+  "original_article_layout": "Existing source_address_study integration contract; originals and live Overleaf unchanged",
+  "preregistered_commit": "719067dd4467bd59d7da6004cacad022fb5aaf68",
+  "provider_requests": 0,
+  "schema_version": 1
+}

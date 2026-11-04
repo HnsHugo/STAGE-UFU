@@ -1,5 +1,7 @@
 # Task 2 — Hardware-wallet case studies and Bitcoin transaction analysis
 
+The [four-page frozen transfer supplement](source_transfer_study_20261104/README.md) now provides checked English methods/results, two LaTeX fragments and an Overleaf import folder. It preserves the limited proxy-transfer result and all earlier model/data outputs; the original article is unchanged.
+
 The latest [frozen CryptoBilis source-proxy evaluation](research/external_cases/cryptobilis_frozen_transfer_20261104_215520/README.md) scores exactly 275 eligible vectors without refitting: membership F1 0.629834, precision 0.966102 and recall 0.467213. Inactivity ranking has higher AP (0.854026 vs 0.688142). All 366 selections, 54 quarantined complete comparisons and 37 bounded prefixes are retained; all excluded sources remain unscored.
 
 ## Current source-address result — 2 November 2026

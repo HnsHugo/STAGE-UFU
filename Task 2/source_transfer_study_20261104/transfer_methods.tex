@@ -1,0 +1,140 @@
+\begingroup
+\setlength{\emergencystretch}{2em}
+\subsection{External source dataset and fixed
+protocol}\label{external-source-dataset-and-fixed-protocol}
+
+\subsubsection{Question, observation unit and
+evidence}\label{question-observation-unit-and-evidence}
+
+We asked whether a frozen model of Coldcard source membership transports
+to an explicitly defined source-linkage proxy in a second historical
+incident. One observation is one decoded Bitcoin input source address
+with a fixed reference payment. Membership identifies a relation to the
+selected case corpus; it does not verify a victim, signing device or
+seed origin. The original target,
+\texttt{known\_\allowbreak{}coldcard\_\allowbreak{}core\_\allowbreak{}membership}, and external target,
+\texttt{cryptobilis\_\allowbreak{}reference\_\allowbreak{}source\_\allowbreak{}membership}, remain separate
+operational definitions.
+
+The Coldcard development study retains 500 core sources and 1,000 fixed
+same-block comparisons. It provides 1,378 complete prior-prefix vectors
+(500 cases, 878 comparisons); 122 incomplete comparisons remain
+unscored. Its 918 measured-link components yielded fixed
+training/validation/test supports of 1,033/111/234 addresses. The
+original one-incident fitted result is preserved, rather than retrained
+with external examples.
+
+For the historically attributed CryptoBilis collectors, the pinned
+snapshots identify 122 source candidates in 122 reference payments, with
+140 input-outpoint observations. Their reference blocks are 970590 and
+970591, in the fixed UTC day of 9 October 2026. All source-level
+independently verified compromise, signing-device and seed-origin labels
+remain unknown. The historical attribution could not be refreshed in the
+earlier source review; it is not upgraded here. Both collectors belong
+to the same external incident.
+
+\subsubsection{Acquisition, deterministic comparisons and
+attrition}\label{acquisition-deterministic-comparisons-and-attrition}
+
+The two height/hash-anchored complete blocks contain 7,944 transactions
+and 9,356 distinct decoded positive input sources. A frozen salted hash
+ranking selects 244 comparisons, with block quotas 222 and 22.
+Exclusions include all 1,500 development addresses and the prespecified
+case/source/collector exclusions. Reference assignment uses the first
+occurrence by block height and lexical TXID. No collection failure,
+vector, fee or score changes the sample or triggers replacement.
+
+The anchored prior-prefix collector reuses the recorded Blockstream
+Esplora route, checks reference block/hash and input value/count,
+funding closure, reverse-height order and an empty terminal page. Its
+original pilot matched prefixes and all fourteen variables for eight
+complete-history controls. Four bounded passes finalized all 366
+external selections: 329 complete vectors and 37 retained
+bounded-incomplete comparisons. Across the passes, 2,262 saved/reused
+response fingerprints and 19 batch snapshots were verified.
+Provider-indexed prefix reconciliation does not establish cryptographic
+inclusion or a complete current address history. This supplement
+requests no provider data.
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule\noalign{}
+Stage & Case sources & Comparisons & Total \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Fixed selection & 122 & 244 & 366 \\
+Complete prior-prefix vectors & 122 & 207 & 329 \\
+Complete vectors quarantined & 0 & 54 & 54 \\
+Bounded prefixes, no vector & 0 & 37 & 37 \\
+Scored cohort & 122 & 153 & 275 \\
+\end{longtable}
+
+Case prevalence rises from 122/366 (33.33\%) in the original selection,
+to 122/329 (37.08\%) among complete vectors and 122/275 (44.36\%) in the
+scored cohort. The 54 quarantined complete vectors and 37 incomplete
+prefixes stay in the saved selection with null scores. These are
+conditional complete-case/quarantine results, not unbiased estimates for
+all selected sources.
+
+\subsubsection{Cutoff, overlap and unchanged
+model}\label{cutoff-overlap-and-unchanged-model}
+
+Every predictor uses only confirmed transaction heights strictly below
+its own frozen reference height. The entire reference block and future
+are excluded. The unchanged fourteen variables measure receipt/spending
+transaction and output counts, received/spent/balance values in
+satoshis, unspent outputs, active blocks, activity span, age/inactivity
+and median prior-spending fee rate. Reference-payment outcomes,
+identifiers, labels, provider counters and evidence metadata are
+excluded from model inputs.
+
+All 1,866 development/external identities and all available normalized
+prefixes enter the overlap audit. Links comprise repeated address
+hashes, common prior transactions, common reference payments and exact
+complete-vector equality including missingness. A conservative
+transaction-role guard also checks a prior reference in one dataset
+against an event reference in the other. Forty-five shared
+prior-transaction groups and one identical-vector group generate four
+components spanning both datasets. All their external members are
+quarantined: 67 comparisons, of which 54 have vectors and 13 are already
+incomplete. Transitive closure matters; quarantine is not restricted to
+directly matching addresses. Independent graph reconstructions agree,
+and the original development groups and partitions are unchanged.
+
+Exactly 122 cases and 153 comparisons remain eligible. This passes the
+frozen overall minimum of 20 per class, without asserting that each
+block meets that support. All external observations remain outside
+fitting. Missing links of 122 incomplete Coldcard prefixes and 37
+incomplete external prefixes are unknown; measured-link quarantine is
+not proof of entity independence.
+
+The existing Gini decision tree retains maximum depth 3, minimum 20
+samples per leaf, balanced training class weights and seed 42. Fourteen
+numeric values use only the original training medians, with fourteen
+fixed missing indicators. The exported JSON tree receives float32 inputs
+and keeps its original score decision of at least 0.5. Its
+class-balanced training leaf proportions are not calibrated theft/device
+probabilities. No model/preprocessing fit, feature search, new split,
+calibration or threshold change is performed.
+
+\subsubsection{Prespecified comparisons and
+reproducibility}\label{prespecified-comparisons-and-reproducibility}
+
+The comparators are constant Coldcard-training membership prevalence
+(346/1,033), descending prior inactivity and descending prior balance.
+The latter use the same training-only median fills, in float64; they
+have ranking metrics only. We report AP and ROC-AUC for all methods and
+precision, recall, F1 and confusion counts for the tree at its unchanged
+threshold. Block results are descriptive strata of one incident.
+
+The protocol and both implementations were published before the first
+external scores. A standard-library tree traversal and the preserved
+NumPy implementation agree exactly on all 275 float32 scores, paths and
+missingness patterns. Scikit-learn independently agrees with all twelve
+overall/block/method metric sets. All 67 errors, node supports and 91
+exclusions are verified; fitting paths are blocked during verification.
+Twenty failure-oriented tests pass. This write-up reads those saved
+results without inference, fitting or collection.
+
+\endgroup

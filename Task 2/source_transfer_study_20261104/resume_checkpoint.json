@@ -1,0 +1,67 @@
+{
+  "article_fragments": 2,
+  "automation_should_be_enabled": false,
+  "builder": {
+    "repository_file": "Task 2/docs/build_source_transfer_study.py",
+    "sha256": "4a0909a79e4735d6d88c2dfa3dced4559dfc7a169df4e61b7f8f841bcaa5603c"
+  },
+  "collection_can_resume": false,
+  "inputs": {
+    "README.md": {
+      "repository_file": "Task 2/source_transfer_study_20261104/README.md",
+      "sha256": "8de969f4ce96d19c21632f0d5eb044ca28b0e13e22571b07d2c22020e52b533d"
+    },
+    "provenance.json": {
+      "repository_file": "Task 2/source_transfer_study_20261104/provenance.json",
+      "sha256": "41ef37d8fad92e3c3c7daa8439115662d143be4b988cc919d278b8d57a9be460"
+    },
+    "report.tex": {
+      "repository_file": "Task 2/source_transfer_study_20261104/report.tex",
+      "sha256": "8e8fba64fb099ea64f770203bd523890b407f7eb23a903a4bfd153c3c84b45e2"
+    },
+    "repository_validation.json": {
+      "repository_file": "Task 2/source_transfer_study_20261104/repository_validation.json",
+      "sha256": "a80a6fdd8e7a031db69a0fc1e10b8a38c38d2a4d1b6feac6fb913dce9e72d7da"
+    },
+    "source_transfer_study.pdf": {
+      "repository_file": "Task 2/source_transfer_study_20261104/source_transfer_study.pdf",
+      "sha256": "8c349e6a4368ca9cc559b092de95949adcd1f690ed9053f94c69138d432ad1cc"
+    },
+    "source_transfer_study_20261104_overleaf.zip": {
+      "repository_file": "Task 2/source_transfer_study_20261104/source_transfer_study_20261104_overleaf.zip",
+      "sha256": "8e95d1b6499084210592c28e25bfe54b73baf4e05531aa31ca1f2c7f7f8b7642"
+    },
+    "tables.json": {
+      "repository_file": "Task 2/source_transfer_study_20261104/tables.json",
+      "sha256": "c36a6437b28a7f58c0c881eaf03ceebdc2536ad22f3d52557906130c1d33ca9c"
+    },
+    "transfer_methods.tex": {
+      "repository_file": "Task 2/source_transfer_study_20261104/transfer_methods.tex",
+      "sha256": "04ff1a5a5cf8b9c15d362866a5ec1cc04ec526389dfc0375a7af4c66a8952e18"
+    },
+    "transfer_preamble.tex": {
+      "repository_file": "Task 2/source_transfer_study_20261104/transfer_preamble.tex",
+      "sha256": "db2d1994b91e315865cf9c046a0066076d973b165962e264c95a29fd80c04394"
+    },
+    "transfer_results.tex": {
+      "repository_file": "Task 2/source_transfer_study_20261104/transfer_results.tex",
+      "sha256": "734bd52f38867e4be80759f15534ce4f2ee84e0db50eb4d0db7e32c4a6a4c2c4"
+    },
+    "validation.json": {
+      "repository_file": "Task 2/source_transfer_study_20261104/validation.json",
+      "sha256": "d1ee3344faaf3f097084ce0bdfcfd60578f843c635b31bca1c45d543828a7423"
+    }
+  },
+  "model_fits": 0,
+  "network_source_ids": [],
+  "new_scores": 0,
+  "next_action": "Read the current supplied editable article and integrate the existing Coldcard source fragments plus the new frozen-transfer fragments into a new reviewable copy. Reconcile the Introduction, Our Work, Results and Conclusions with completed tabular work, limited external proxy transport and unknown theft/device evidence; preserve original files, authors and bibliography. Do not silently refit or tune the inspected model/evaluation.",
+  "old_and_new_fragments_compile_together": true,
+  "original_article_modified": false,
+  "pdf_pages": 4,
+  "preserved_historical_input_files_byte_unchanged": 167,
+  "provider_requests": 0,
+  "schema_version": 1,
+  "scope": "completed_source_transfer_article_supplement",
+  "source_result_commit": "8d0b0e345cbcb29d2e435cb9a9906a873721b825"
+}

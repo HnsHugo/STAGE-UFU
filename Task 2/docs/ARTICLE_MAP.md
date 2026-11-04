@@ -16,6 +16,17 @@ The [integration guide](../source_address_study/README.md#article-integration)
 lists the small preamble addition and exact input locations. Data, model, scores,
 groups, cutoffs and unknown labels remain unchanged.
 
+**Frozen transfer supplement, 4 November 2026:** The
+[Coldcard-to-CryptoBilis supplement](../source_transfer_study_20261104/README.md)
+adds a checked four-page PDF, `transfer_methods.tex`, `transfer_results.tex` and
+an importable Overleaf folder. Both new fragments compile together with the
+earlier Coldcard fragments, without duplicate labels or layout warnings.
+It preserves the external membership F1 0.629834, all 67 errors, the stronger
+inactivity ranking (AP 0.854026 versus 0.688142), attrition and evidence limits.
+These are exploratory proxy-transfer results for one inspected external incident;
+entity independence and verified theft/device detection remain unestablished.
+The original article, authors, bibliography and live Overleaf project are unchanged.
+
 | Article section | Existing material | Remaining work |
 | --- | --- | --- |
 | Introduction | Transaction exercise, financial case analysis and completed source-membership baseline | Frame the achieved target as retrospective membership; independent compromise/device targets remain unresolved |
@@ -23,9 +34,9 @@ groups, cutoffs and unknown labels remain unchanged.
 | Hardware wallet | Distinction between hardware signing, cold storage and attribution | Evidence-backed observable hypotheses |
 | Bitcoin transactions | Part 2 and the write-up define all fourteen address predictors and units | Keep reference/future outcomes outside predictors and separate address from transaction features |
 | GNN and alternatives | Completed prespecified shallow source tree; historical transaction baselines | Reconcile the introduction's proposed GNN with the completed tabular baseline; no GNN result is claimed |
-| Initial dataset / Our Work | `source_methods.tex`: 500 cases, 1,000 fixed comparisons, 1,378 vectors, acquisition, cutoffs, groups and training-only preparation | Additional independent incidents and verified device/compromise labels remain future work |
-| Results | `source_results.tex`: fixed test membership F1 0.989796, comparisons, rules, errors and coverage limits; historical Parts 1/3/4 remain distinct | Cross-incident transfer and prospective validation are not established |
-| Conclusions | Write-up bounds the supported result to covered single-incident membership | Broader theft/device claims require separate evidence and evaluation |
+| Initial dataset / Our Work | `source_methods.tex` preserves the Coldcard dataset; `transfer_methods.tex` adds 122 CryptoBilis case sources, 244 fixed comparisons, 329 vectors and the 275-source quarantine-qualified evaluation | Integrate both fragments into the current editable article; independent entities and verified labels remain future evidence needs |
+| Results | `source_results.tex` preserves internal F1 0.989796; `transfer_results.tex` adds external proxy F1 0.629834, all fixed comparators, 67 errors and attrition | Reconcile the different target/population meanings; prospective and independent-incident validation remain unestablished |
+| Conclusions | The supplement reports limited frozen-tree transport and stronger inactivity ranking on the selected external proxy | Align the article's claims with these limits; broader theft/device claims need separate evidence and evaluation |
 
 A GCN is a type of graph neural network; SHAP explains predictions rather than
 replacing a classifier. The introduction proposes GNN training; the main outline

@@ -1,5 +1,7 @@
 # Sourced theft cases and decision-time features
 
+Latest scientific unit: [frozen transfer article supplement](../../source_transfer_study_20261104/README.md), with a checked PDF and two compatible LaTeX fragments. Saved scores, models, labels and source evidence remain unchanged.
+
 Latest unit: [frozen CryptoBilis source-proxy transfer](cryptobilis_frozen_transfer_20261104_215520/README.md). The unchanged tree scores 275 eligible addresses: F1 0.629834, precision 0.966102, recall 0.467213; inactivity ranking has higher AP (0.854026 vs 0.688142). All exclusions and old results remain unchanged; no fit or tuning occurred.
 
 Latest unit: [CryptoBilis / Coldcard overlap and eligibility](cryptobilis_overlap_20261104_205032/README.md). All 366 selections are retained; 54 complete comparisons are quarantined and 37 prefixes remain bounded-incomplete, leaving 275 eligible vectors (122 case / 153 comparison). No score or refit occurred.
