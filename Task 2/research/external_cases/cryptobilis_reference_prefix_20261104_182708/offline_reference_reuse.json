@@ -1,0 +1,1021 @@
+{
+  "old_markers_modified": false,
+  "reference_after_statuses_reused": 0,
+  "reference_count": 52,
+  "references": [
+    {
+      "endpoint_sha256": "f599a8d11a498fc3fc3e1358c5ac7130040743ae103c00309206db2ff9b8e5b4",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.341220+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "e46f757e7f306b4b7af30b560d9d54eb9fab73762dd28c23dd6be8fb326fd2fb",
+      "source_id": "cryptobilis_source_0076"
+    },
+    {
+      "endpoint_sha256": "ca65ff668f2239949c9031bbe5783c8e911a382d46498ab3ed306c79ff4bf2b8",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.342228+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0042/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261103_003012",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/request_manifest.json.gz",
+          "sha256": "dc3d02855e82cd51ed47d548971f7f2ec1f85fa118aedd1143c844ebb2cf4441"
+        },
+        "sha256": "a66f9adac5821f2f3f63e5d0ea5eaa1592ddbd94dcbfdfbf4adddf1c47f5c4f5",
+        "source_id": "cryptobilis_comparison_0042"
+      },
+      "sha256": "a66f9adac5821f2f3f63e5d0ea5eaa1592ddbd94dcbfdfbf4adddf1c47f5c4f5",
+      "source_id": "cryptobilis_comparison_0136"
+    },
+    {
+      "endpoint_sha256": "013c216658081226af71d1e0bdca807fef13cfb9cddee7178e07136448672a47",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.343045+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "83043c31e19d8a558a31669751a7f319c9bfb655da4464f11e77274a0755ba23",
+      "source_id": "cryptobilis_source_0077"
+    },
+    {
+      "endpoint_sha256": "2deb89fd2d76ac3e3e9fe4da045e5f8026af61c5d36bb1f52c6d4b7ba07601ff",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.344647+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "cfad9bafd0d3f56997dce99a45805e566d570f1a5e2209b34bdc1918e893b98e",
+      "source_id": "cryptobilis_source_0078"
+    },
+    {
+      "endpoint_sha256": "6205f1c95abd6018851531d229cad7b67e6669d3a22b0c636ea49974e8cd8c77",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.345777+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "804d5cd9d214d7a5160683c666c25fc4b95511e457f2b5adb7db1bf51f28d808",
+      "source_id": "cryptobilis_source_0079"
+    },
+    {
+      "endpoint_sha256": "ae3cc4049bba09129f578d436748b1a3e7dbdfdda42c9cce280f693d1db31ae9",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.346078+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "5a9d94d15e7fcb0cf5a847f696e5bef8f9f37e9b480f61ff0c91d1c42542bbb2",
+      "source_id": "cryptobilis_source_0081"
+    },
+    {
+      "endpoint_sha256": "54806644df0f7f981b5977533099a67a617a52687752d4166149a21324c52c2c",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.348101+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0097/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "b3310742653c6065de49a6e1787d8dafa209e3bbd7df8f380da654aad947fdc7",
+        "source_id": "cryptobilis_comparison_0097"
+      },
+      "sha256": "b3310742653c6065de49a6e1787d8dafa209e3bbd7df8f380da654aad947fdc7",
+      "source_id": "cryptobilis_comparison_0143"
+    },
+    {
+      "endpoint_sha256": "8e705d12738bd837116c131e535e31ae51e5b41c7c5a08722ee604808e7d81c8",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.348440+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "ce4dfee633e0ddd0e32911fd89420670489d34d26725df2a9901132c5ed35273",
+      "source_id": "cryptobilis_source_0082"
+    },
+    {
+      "endpoint_sha256": "209e82bbfe412cd66df84e535079d542f6d4570dd30298863718ba2179611c27",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.350265+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0089/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "6083fcdb8f07baa5b399cd9cdc5e48391fc81381984519f948f1317fac5922f2",
+        "source_id": "cryptobilis_comparison_0089"
+      },
+      "sha256": "6083fcdb8f07baa5b399cd9cdc5e48391fc81381984519f948f1317fac5922f2",
+      "source_id": "cryptobilis_comparison_0146"
+    },
+    {
+      "endpoint_sha256": "6e575ae0dd7b824f98466a93e69f8a32607fd612aec8b3e12bf5d9de03731d61",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.350719+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "05e0bc828834300001b20040a858f58d94addf2b87ab29e270332f6905797d50",
+      "source_id": "cryptobilis_source_0083"
+    },
+    {
+      "endpoint_sha256": "d258fec616c2c43deb6372fa6c01251b725d5f7c96ada93daccae5542d250530",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.351120+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "90388c5e2a9dde6c1e153a9b10cb2df66e6129069f9d7a517b2e4be527849a3f",
+      "source_id": "cryptobilis_source_0084"
+    },
+    {
+      "endpoint_sha256": "5cbc46cf40219929644cf5048856360f542ffbd471feed529cecb8e50f685dd1",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.351356+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "31a445ed565f145e75da20948c517bb6dff4e58a08c3388d0828ca66268f162a",
+      "source_id": "cryptobilis_source_0085"
+    },
+    {
+      "endpoint_sha256": "43236bf7a43869900537ebff6dadfb39aa8dadc55afa32c0f6b97c0c9fd08130",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.353432+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0088/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "9afe0fb1df40827723e39795443f464269590e3ee21aa7c90e4eb28af9300849",
+        "source_id": "cryptobilis_comparison_0088"
+      },
+      "sha256": "9afe0fb1df40827723e39795443f464269590e3ee21aa7c90e4eb28af9300849",
+      "source_id": "cryptobilis_comparison_0152"
+    },
+    {
+      "endpoint_sha256": "ed0abeb5fe45aa94ea2d6b1f05f1524ad2d89b01701d02a2a43a9e1b434efd89",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.353853+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "36e577c66670c58c7cc311742160149e1c636931be7662f1b454538303f4f123",
+      "source_id": "cryptobilis_source_0086"
+    },
+    {
+      "endpoint_sha256": "7798b6548ab988089fc80046dc558e5ce8ea6464b5a14c2f8f0bb5bff0259419",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.354133+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "6e191c2ac94d27cd40f7d94dd0058b1dcc9cec670eeea70c83c295098f839126",
+      "source_id": "cryptobilis_source_0087"
+    },
+    {
+      "endpoint_sha256": "61938717e9a34c61ded716f4e954dcd382a25acb97d23751c4b64e50efb64c4c",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.354356+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "aaa208e574f7aad1894c83c1e0a6d200f35ae1e24e3348c79433d97c8c708c59",
+      "source_id": "cryptobilis_source_0088"
+    },
+    {
+      "endpoint_sha256": "209e82bbfe412cd66df84e535079d542f6d4570dd30298863718ba2179611c27",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.355432+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0089/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "6083fcdb8f07baa5b399cd9cdc5e48391fc81381984519f948f1317fac5922f2",
+        "source_id": "cryptobilis_comparison_0089"
+      },
+      "sha256": "6083fcdb8f07baa5b399cd9cdc5e48391fc81381984519f948f1317fac5922f2",
+      "source_id": "cryptobilis_comparison_0157"
+    },
+    {
+      "endpoint_sha256": "8f3ceeb9fd4ee80d80afbd57ffb4f2418bbfc5d3210dbea5efb4122e057b30e1",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.355770+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "f69e67bf1604d9c9d9d8eac1213e41be6eef81e650e668f7222e5b146e7d2d85",
+      "source_id": "cryptobilis_source_0089"
+    },
+    {
+      "endpoint_sha256": "b8d5bb72ba52ee871114330741514adff788859139845885a3d02c301cb7cd6c",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.356150+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "bc7089677388689742a0784c2e66dd664b19da80cfa71182a09d1642f8dfabe0",
+      "source_id": "cryptobilis_source_0090"
+    },
+    {
+      "endpoint_sha256": "df76981cec632183125881c9d1fc6177223ab18a6c5d6466771feacb86a2f570",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.356387+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "be579921e24aeb0962bf4a318cfa29022db0d16d053675328e58d84adc2b1954",
+      "source_id": "cryptobilis_source_0091"
+    },
+    {
+      "endpoint_sha256": "48c93e37be30e7b767b359b15bcc510169e450d4390c2ea45a4313787aeff30b",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.356715+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0059/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261103_003012",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/request_manifest.json.gz",
+          "sha256": "dc3d02855e82cd51ed47d548971f7f2ec1f85fa118aedd1143c844ebb2cf4441"
+        },
+        "sha256": "f67f673fb882daa50d3113a14c825001fdd8af6f27c24e68239909152ec78388",
+        "source_id": "cryptobilis_comparison_0059"
+      },
+      "sha256": "f67f673fb882daa50d3113a14c825001fdd8af6f27c24e68239909152ec78388",
+      "source_id": "cryptobilis_comparison_0163"
+    },
+    {
+      "endpoint_sha256": "27efbf69c8959fbb567dc1a0ba70aac32b5d779833654dec8c928172c1690bd8",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.356930+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "af67957aa051f83e776b2e9d086619d88c716678286eb2a6cd355fda0f89f47f",
+      "source_id": "cryptobilis_source_0092"
+    },
+    {
+      "endpoint_sha256": "3dfc9bfba9820a99783919d4c57f97d74dc6a9c7947ab308eb2e51034f552c57",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.358985+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0101/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "f727b7d593361522a364f0f6dd42eaf11af8db3fdfc51115a89556964c38f9c7",
+        "source_id": "cryptobilis_comparison_0101"
+      },
+      "sha256": "f727b7d593361522a364f0f6dd42eaf11af8db3fdfc51115a89556964c38f9c7",
+      "source_id": "cryptobilis_comparison_0165"
+    },
+    {
+      "endpoint_sha256": "45595c2c0818ff3e122ef47371ff7421e870b8e365f8bbeccf2015dcc7ad6408",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.359334+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "cbdb0bd3935198deb6f57f229d99d4b896f347b9a700d10643375f3dcc1dc9b0",
+      "source_id": "cryptobilis_source_0093"
+    },
+    {
+      "endpoint_sha256": "bc68b8990f8a5663629b2f3e26886bce69ee899fd644e093fc055cb7176cb2ff",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.359595+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "9e7bca136930dde2d39b5b0aab01d52dcfa943ada67624df0489e82a8e7b7613",
+      "source_id": "cryptobilis_source_0095"
+    },
+    {
+      "endpoint_sha256": "0fe3c10c571784a793a4b804413e5556e01af3df6502ccb32a0edbf0ace63985",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.360534+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0120/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "4637d5685e7e9e10c0a3020b516bdf8304c85212d0038d5d530d6665792dbded",
+        "source_id": "cryptobilis_comparison_0120"
+      },
+      "sha256": "4637d5685e7e9e10c0a3020b516bdf8304c85212d0038d5d530d6665792dbded",
+      "source_id": "cryptobilis_comparison_0170"
+    },
+    {
+      "endpoint_sha256": "6081279ae45b399b141e701529d68fe5a51dfa461ec032dd334663b77d29378f",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.360887+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "bd7e7e80f4e8889a18eb7c3c9abc603b989ffaac71fab1a8a147fd1c44fb9285",
+      "source_id": "cryptobilis_source_0096"
+    },
+    {
+      "endpoint_sha256": "43236bf7a43869900537ebff6dadfb39aa8dadc55afa32c0f6b97c0c9fd08130",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.362629+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0088/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "9afe0fb1df40827723e39795443f464269590e3ee21aa7c90e4eb28af9300849",
+        "source_id": "cryptobilis_comparison_0088"
+      },
+      "sha256": "9afe0fb1df40827723e39795443f464269590e3ee21aa7c90e4eb28af9300849",
+      "source_id": "cryptobilis_comparison_0171"
+    },
+    {
+      "endpoint_sha256": "159af7658eb6b9feae8cb2bf999acfff1f5debbed5901eb3dce2165c2ded2f76",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.363228+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "f9e538c076fb5bfcfee343412e8f970584653f8a8fbe48054c7a1f9bf8386b18",
+      "source_id": "cryptobilis_source_0097"
+    },
+    {
+      "endpoint_sha256": "ef08163ff414c1b1dab069bae00e5ae49861c6226519f209349d87b41687566b",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.364215+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "8a07fd5407b00a0b950bedbe1288aa57e39a85e70a9fecea5829824a0f52ba64",
+      "source_id": "cryptobilis_source_0098"
+    },
+    {
+      "endpoint_sha256": "43236bf7a43869900537ebff6dadfb39aa8dadc55afa32c0f6b97c0c9fd08130",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.367041+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0088/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "9afe0fb1df40827723e39795443f464269590e3ee21aa7c90e4eb28af9300849",
+        "source_id": "cryptobilis_comparison_0088"
+      },
+      "sha256": "9afe0fb1df40827723e39795443f464269590e3ee21aa7c90e4eb28af9300849",
+      "source_id": "cryptobilis_comparison_0176"
+    },
+    {
+      "endpoint_sha256": "a50aca49c6097c5ea310c118b80b1613911a0d3bd7d213827af4c4a46b694b94",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.367446+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "a3cccf1511d0c4c2841ae0fbadfdc3b9798bf17d52fa0f4ba3913ec398da6643",
+      "source_id": "cryptobilis_source_0099"
+    },
+    {
+      "endpoint_sha256": "209e82bbfe412cd66df84e535079d542f6d4570dd30298863718ba2179611c27",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.368332+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0089/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "6083fcdb8f07baa5b399cd9cdc5e48391fc81381984519f948f1317fac5922f2",
+        "source_id": "cryptobilis_comparison_0089"
+      },
+      "sha256": "6083fcdb8f07baa5b399cd9cdc5e48391fc81381984519f948f1317fac5922f2",
+      "source_id": "cryptobilis_comparison_0177"
+    },
+    {
+      "endpoint_sha256": "50f7b8f8af0cc7a85467768820436302fef755e598ceb849e99ac2af1ba5a934",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.369312+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0113/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "68a0a1734f3bcbc356a0d952aeae757e67bac6a948546dc4cee2d67439f20442",
+        "source_id": "cryptobilis_comparison_0113"
+      },
+      "sha256": "68a0a1734f3bcbc356a0d952aeae757e67bac6a948546dc4cee2d67439f20442",
+      "source_id": "cryptobilis_comparison_0178"
+    },
+    {
+      "endpoint_sha256": "48eb622deb47799f6b369864fe5acd915d57c3aa830295e9267774a347a006f3",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.369589+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "d40871000b0ca43989f8f421a27c0fb60ede314f8b13b188b7b4dc75734002e6",
+      "source_id": "cryptobilis_source_0100"
+    },
+    {
+      "endpoint_sha256": "3dfc9bfba9820a99783919d4c57f97d74dc6a9c7947ab308eb2e51034f552c57",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.372780+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0101/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "f727b7d593361522a364f0f6dd42eaf11af8db3fdfc51115a89556964c38f9c7",
+        "source_id": "cryptobilis_comparison_0101"
+      },
+      "sha256": "f727b7d593361522a364f0f6dd42eaf11af8db3fdfc51115a89556964c38f9c7",
+      "source_id": "cryptobilis_comparison_0179"
+    },
+    {
+      "endpoint_sha256": "54806644df0f7f981b5977533099a67a617a52687752d4166149a21324c52c2c",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.374349+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0097/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "b3310742653c6065de49a6e1787d8dafa209e3bbd7df8f380da654aad947fdc7",
+        "source_id": "cryptobilis_comparison_0097"
+      },
+      "sha256": "b3310742653c6065de49a6e1787d8dafa209e3bbd7df8f380da654aad947fdc7",
+      "source_id": "cryptobilis_comparison_0180"
+    },
+    {
+      "endpoint_sha256": "86f6c500d8c79a68b5f7d2e680647fcb9d60167cc8b163e4ef1dfa73c1489a4e",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.374861+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "7823b6f9dd5aca1a77ee1347c13113870eb5d053323db11d7cd6d9e5f7195cd0",
+      "source_id": "cryptobilis_source_0101"
+    },
+    {
+      "endpoint_sha256": "43236bf7a43869900537ebff6dadfb39aa8dadc55afa32c0f6b97c0c9fd08130",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.376341+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0088/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "9afe0fb1df40827723e39795443f464269590e3ee21aa7c90e4eb28af9300849",
+        "source_id": "cryptobilis_comparison_0088"
+      },
+      "sha256": "9afe0fb1df40827723e39795443f464269590e3ee21aa7c90e4eb28af9300849",
+      "source_id": "cryptobilis_comparison_0182"
+    },
+    {
+      "endpoint_sha256": "ed4e94ebd9c827ffbe3e22b09f6bd5a8f7299cf26aa30142d426cbe9701db90e",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.376808+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "e96f2c5de5505b1987cf066365a575f75c962eb9ff6c94ce68b6d5b8869ee5cb",
+      "source_id": "cryptobilis_source_0102"
+    },
+    {
+      "endpoint_sha256": "fcd6a63bd47b8b93f9ac3edc7cef592305d5f9f816aafa210dfa92bb89697eeb",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.377114+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "d5af64a0318efbe4fc68b96dffa63efb00a16ca66b70f225e0aa2ea8a9432700",
+      "source_id": "cryptobilis_source_0103"
+    },
+    {
+      "endpoint_sha256": "703e5438c6a398417b5a0dd758a303baca6212e34a58c628fde403545a6fd336",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.377350+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "c0f231ec46df299b4ffd033b4d1204daa6675d04e458459fd07ad671acd332a6",
+      "source_id": "cryptobilis_source_0104"
+    },
+    {
+      "endpoint_sha256": "50f7b8f8af0cc7a85467768820436302fef755e598ceb849e99ac2af1ba5a934",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.378308+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0113/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "68a0a1734f3bcbc356a0d952aeae757e67bac6a948546dc4cee2d67439f20442",
+        "source_id": "cryptobilis_comparison_0113"
+      },
+      "sha256": "68a0a1734f3bcbc356a0d952aeae757e67bac6a948546dc4cee2d67439f20442",
+      "source_id": "cryptobilis_comparison_0188"
+    },
+    {
+      "endpoint_sha256": "06a6181af06e19bcd33346b716620292309ef2d2a28713aac890a56333b41b9f",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.378869+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "a1288fe13c0848ebe2360cf3a0d3debbddb479bc6eb9fe37792eb8d3082b3104",
+      "source_id": "cryptobilis_source_0105"
+    },
+    {
+      "endpoint_sha256": "2e601dda2ae4755bfae330de048177bcf569fc67d5ce19f91c597a6a0b76ff29",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.379326+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "cb0c5265188f089a7de70af3b0b764da8b8ceb513be178edef21b00420afc33d",
+      "source_id": "cryptobilis_source_0106"
+    },
+    {
+      "endpoint_sha256": "50f7b8f8af0cc7a85467768820436302fef755e598ceb849e99ac2af1ba5a934",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.380392+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0113/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "68a0a1734f3bcbc356a0d952aeae757e67bac6a948546dc4cee2d67439f20442",
+        "source_id": "cryptobilis_comparison_0113"
+      },
+      "sha256": "68a0a1734f3bcbc356a0d952aeae757e67bac6a948546dc4cee2d67439f20442",
+      "source_id": "cryptobilis_comparison_0191"
+    },
+    {
+      "endpoint_sha256": "920fb0be51b4146a24e6544427ed8f5a4ba27b0a761cb5bf94dda6038b9d3ed6",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.380885+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "651fb039bfef45c51ce16caa2601a340749bb9e0d096dc8af90bbb436e8bdd96",
+      "source_id": "cryptobilis_source_0107"
+    },
+    {
+      "endpoint_sha256": "f436d74fd9ff03206fbc33e9340da0be8ed67e2eeba6f277ab69d51f74b51e42",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.381319+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "164f52571fd8cf70c6b2aff7c9879ccda4919c88e51f565370b403d8ed44c485",
+      "source_id": "cryptobilis_source_0108"
+    },
+    {
+      "endpoint_sha256": "3dfc9bfba9820a99783919d4c57f97d74dc6a9c7947ab308eb2e51034f552c57",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.386075+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0101/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "f727b7d593361522a364f0f6dd42eaf11af8db3fdfc51115a89556964c38f9c7",
+        "source_id": "cryptobilis_comparison_0101"
+      },
+      "sha256": "f727b7d593361522a364f0f6dd42eaf11af8db3fdfc51115a89556964c38f9c7",
+      "source_id": "cryptobilis_comparison_0196"
+    },
+    {
+      "endpoint_sha256": "87ec0e7e7067aaf5c36443f4895a6188c705fe61fb18e1fb40f24870c1ae0f8f",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.386734+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+          "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+        }
+      },
+      "sha256": "54909cfac742577c55693c63a95ff9d2800278418eecf38b74e1a392604fc1b9",
+      "source_id": "cryptobilis_source_0109"
+    },
+    {
+      "endpoint_sha256": "b7094090d54897d60c877f269f9e9a1609ff69b307f81bf87b2b629d96e93358",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.387207+00:00",
+      "reused_from": {
+        "file": "requests/cryptobilis_comparison_0085/reference.json.gz",
+        "kind": "predecessor_successful_original_provider_response",
+        "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+        "request_manifest": {
+          "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+          "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+        },
+        "sha256": "a24722bce741f5ad1fc2b77d669f7542f37dd7655c0aa31142aa632783195914",
+        "source_id": "cryptobilis_comparison_0085"
+      },
+      "sha256": "a24722bce741f5ad1fc2b77d669f7542f37dd7655c0aa31142aa632783195914",
+      "source_id": "cryptobilis_comparison_0198"
+    },
+    {
+      "endpoint_sha256": "e8dd1040a33f8b1c9f1eb34cf604e19d464326ada7ef92bd7759f569d46918ab",
+      "exact_reference_input_anchor_verified": true,
+      "http_status": 200,
+      "key": "reference",
+      "network_dispatch_performed": false,
+      "offline_reuse": true,
+      "prepared_at": "2026-11-04T18:27:08.387479+00:00",
+      "reused_from": {
+        "kind": "pinned_counter_reconciled_original_provider_collector_snapshot",
+        "snapshot": {
+          "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+          "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+        }
+      },
+      "sha256": "4000f939088f336bfe903d4f7d4f8a1ed95f64e3f7e5f87a5efd2b3a9879c819",
+      "source_id": "cryptobilis_source_0110"
+    }
+  ],
+  "schema_version": 1,
+  "tail_pages_reused": 0
+}
