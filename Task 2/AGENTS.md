@@ -1,5 +1,27 @@
 # Task 2 working instructions
 
+**Latest completed unit — CryptoBilis / Coldcard overlap and eligibility, 4 November 2026 UTC:**
+Read `research/external_cases/cryptobilis_overlap_20261104_205032/README.md`, its pinned protocol,
+summary, per-source eligibility manifest and independent verification. All 1,378
+Coldcard and 329 CryptoBilis vectors reproduce from normalized prior prefixes.
+The complete observed-link graph has 1,281 components; independent traversals
+agree, and the original 918 Coldcard groups/model/partitions are unchanged.
+Forty-five shared prior-transaction groups and one exact full-vector group yield
+four cross-development components: 67 external comparisons, including 54 complete
+vectors and 13 already bounded prefixes. Whole-component quarantine leaves 275
+eligible vectors (122 case / 153 comparison). All 366 selections, 329 vectors and
+37 null bounded outcomes are preserved without replacement. The minimum 20 per
+class passes overall, not per block. Thirty-four focused/regression tests pass.
+All 143 input pins verify. No provider HTTP, fit, score, new F1, split or automation occurred.
+Entity independence is not established: prior links of 122 Coldcard / 37 external
+bounded prefixes remain unknown. Full-current-history statuses and unknown source
+labels are unchanged; this remains one inspected external structural-proxy case.
+Acquisition stays closed and collector automations disabled. Do not rerun it.
+Next aligned unit: separately pin frozen-model inference on exactly the 275
+eligible rows, the fixed comparators and unchanged >=0.5 threshold; preserve all
+quarantined/unavailable records and report attrition. No refit, tuning, calibration,
+replacement or theft/device-probability claim. Earlier priorities are historical.
+
 **Final CryptoBilis bounded acquisition closure — 4 November 2026 UTC:**
 Read `research/external_cases/cryptobilis_reference_prefix_20261104_201345/README.md`,
 `final_acquisition_audit.json` and the empty-network `resume_checkpoint.json`.

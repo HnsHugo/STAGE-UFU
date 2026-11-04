@@ -30,6 +30,7 @@
       "protocol": "external_protocol_3"
     }
   },
+  "implementation_preflight_note": "The initial read-only preflight stopped before overlap computation because the legacy development target includes a human-readable semicolon annotation. Only target-declaration compatibility was corrected; link, quarantine and eligibility rules are unchanged. Original preflight protocol and code commit 68671a2 are preserved.",
   "input_commit": "0a674f6b577d6822be18154de897c5f47a7e93f9",
   "inputs": {
     "acquisition_audit": {
@@ -438,7 +439,7 @@
     },
     "auditor": {
       "file": "external_cases/audit_cryptobilis_overlap.py",
-      "sha256": "0f8f56749cbcb07d5d5af3caa29c8cf2336ed3ac7d23e37fda93596fe0b1f5d9"
+      "sha256": "b948e8082dbfdb8db4a7cec9ed1cc1b532ca0065571a11c9e42949460bac9c3e"
     },
     "coldcard_view": {
       "file": "coldcard/reference_tail_continuation_20261102_1508/precutoff_feature_view.json.gz",
@@ -588,13 +589,17 @@
       "file": "coldcard/source_membership_baseline_20261102_162335/split_manifest.json.gz",
       "sha256": "2571c35ba6bddbb2649bdd497d606353f6db49da6be0d6d827dd037b27815328"
     },
+    "preflight_protocol": {
+      "file": "external_cases/cryptobilis_overlap_20261104_205032/protocol_preflight.json",
+      "sha256": "6cde8de9f00808b8db1c8637ffca5ee00a73eedbcb00b87ff8f499e43aa05279"
+    },
     "source_selection": {
       "file": "external_cases/cryptobilis_source_selection_20261103_002428/source_selection.json.gz",
       "sha256": "2b0d978714c8af769d7d62ce7d11c4f32e688eb8b63abde64cd319650eeb8434"
     },
     "tests": {
       "file": "external_cases/test_cryptobilis_overlap.py",
-      "sha256": "b772114299d1500aa5cbf90bc88eb5028fc0e26d400d1b969d25367e6a59e85e"
+      "sha256": "c2bab18310ed393c13103126a45dfd5b88048372a203ae27adee7006e1e13f3b"
     },
     "transfer_protocol": {
       "file": "external_cases/cryptobilis_source_readiness_20261102/transfer_protocol.json",

@@ -101,6 +101,16 @@ class OverlapTests(unittest.TestCase):
 
 
 class EvidenceTests(unittest.TestCase):
+    def test_annotated_historical_target_declaration_remains_compatible(self):
+        audit.validate_development_declaration(dict(schema_version=2,
+            target=audit.frozen.TARGET + '; retrospective membership, not verified theft/device'))
+
+    def test_different_target_or_schema_cannot_pass_compatibility(self):
+        for view in [dict(schema_version=1, target=audit.frozen.TARGET),
+                     dict(schema_version=2, target='verified_theft; ' + audit.frozen.TARGET)]:
+            with self.subTest(view=view), self.assertRaises(ValueError):
+                audit.validate_development_declaration(view)
+
     def fixture(self):
         prefix = [dict(transaction_id='a' * 64, height=10,
                        received=[dict(outpoint_id='b' * 64, value_sat=20)], spent=[],

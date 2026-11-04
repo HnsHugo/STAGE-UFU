@@ -1,10 +1,12 @@
 # Part 5 — Add a second case and evaluate transfer
 
+The [4 November source overlap/eligibility audit](../research/external_cases/cryptobilis_overlap_20261104_205032/README.md) reproduces both cohorts and the frozen Coldcard partitions. Four measured cross-development components quarantine 54 complete comparison vectors; 37 prefixes remain null. The 275 eligible external vectors pass the prespecified overall support gate. Frozen-model source inference is the next separate unit; no external score or F1 has been computed.
+
 [Previous: Part 4](../part_4_validation/README.md) · [Main path](../README.md)
 
 ## Goal and current status
 
-**Bounded acquisition closed — 4 November 2026:** The [final CryptoBilis source audit](../research/external_cases/cryptobilis_reference_prefix_20261104_201345/README.md) covers all 366 fixed sources: 329 complete prior-prefix vectors (122 case / 207 comparison), 37 bounded-incomplete comparisons without vectors, no network or unattempted sources. Every raw tail/vector is independently checked, all prior results are preserved and automations remain disabled. Full-current-history reconciliation, verified victim/device labels and cross-development overlap are separate. The next unit is the complete overlap/quarantine audit and frozen-model eligibility gate; no transfer metric or new fit is claimed.
+**Bounded acquisition closed — 4 November 2026:** The [final CryptoBilis source audit](../research/external_cases/cryptobilis_reference_prefix_20261104_201345/README.md) covers all 366 fixed sources: 329 complete prior-prefix vectors (122 case / 207 comparison), 37 bounded-incomplete comparisons without vectors, no network or unattempted sources. Every raw tail/vector is independently checked, all prior results are preserved and automations remain disabled. The subsequent overlap audit above excludes 54 complete comparisons and leaves 275 eligible vectors. Full-current-history reconciliation, verified victim/device labels and entity independence remain separate limitations. No transfer metric or new fit is claimed.
 
 **Historical readiness snapshot — 2 November 2026:** The
 [CryptoBilis source registry and transfer protocol](../research/external_cases/cryptobilis_source_readiness_20261102/README.md)
@@ -16,8 +18,9 @@ Both collectors stay in one external incident outside fitting. At that checkpoin
 contained zero comparison selections, source-feature vectors or scores; no new F1.
 Ten tests and independent offline recount pass. Exact address/reference and
 observed funding overlaps are zero, while complete prefix/entity overlap remains
-pending. Those planned census and bounded acquisition stages have since closed in the
-final audit above.
+pending at that historical checkpoint. Census, bounded acquisition and the
+available-prefix overlap/quarantine audit have since completed as described above;
+entity independence remains unestablished.
 
 The [Coldcard source-address write-up](../source_address_study/README.md) now
 documents the completed single-incident membership baseline. It supplies a
@@ -61,11 +64,13 @@ FBI, Binance, donation addresses and the other saved pilots are different eviden
 2. Reuse the completed fixed CryptoBilis census and bounded acquisition. Preserve
    all 366 outcomes, 37 null bounded prefixes and the graph-candidate label tier;
    do not restart the exhausted collection or replace unavailable comparisons.
-3. Apply the saved fourteen-feature/cutoff/group contract, preserving failures,
-   measuring full cross-development overlap and reporting complete-case attrition.
-4. Only after the prescoring gates pass, evaluate the frozen model as exploratory
-   structural-proxy transport. Do not tune on the already inspected external case
-   or claim verified theft/device or untouched independent validation.
+3. Reuse the completed overlap/quarantine manifest: exactly 122 cases and 153
+   comparisons are eligible. Preserve all 54 quarantined complete vectors and
+   37 unavailable prefixes; report complete-case and quarantine attrition.
+4. The prescoring support gate now passes overall. In a separately pinned unit,
+   evaluate the frozen model and fixed comparators as exploratory structural-proxy
+   transport. Do not tune on the already inspected external case or claim verified
+   theft/device or untouched independent validation.
 5. Reproduce and compare Ivan's code when supplied. Its absence does not block
    the registry or source reconstruction.
 

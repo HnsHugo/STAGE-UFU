@@ -1,0 +1,100 @@
+{
+  "available_external_vectors": 329,
+  "bounded_incomplete_external": 37,
+  "can_score_primary_structural_proxy": true,
+  "counts": {
+    "case": {
+      "bounded_incomplete": 0,
+      "eligible": 122,
+      "in_cross_development_components": 0,
+      "quarantined_complete": 0,
+      "selected": 122
+    },
+    "comparison": {
+      "bounded_incomplete": 37,
+      "eligible": 153,
+      "in_cross_development_components": 67,
+      "quarantined_complete": 54,
+      "selected": 244
+    }
+  },
+  "coverage_by_block": {
+    "970590": {
+      "case": {
+        "bounded_incomplete": 0,
+        "eligible": 111,
+        "in_cross_development_components": 0,
+        "quarantined_complete": 0,
+        "selected": 111
+      },
+      "comparison": {
+        "bounded_incomplete": 36,
+        "eligible": 135,
+        "in_cross_development_components": 64,
+        "quarantined_complete": 51,
+        "selected": 222
+      }
+    },
+    "970591": {
+      "case": {
+        "bounded_incomplete": 0,
+        "eligible": 11,
+        "in_cross_development_components": 0,
+        "quarantined_complete": 0,
+        "selected": 11
+      },
+      "comparison": {
+        "bounded_incomplete": 1,
+        "eligible": 18,
+        "in_cross_development_components": 3,
+        "quarantined_complete": 3,
+        "selected": 22
+      }
+    }
+  },
+  "cross_dataset_link_groups": {
+    "address": 0,
+    "full_vector": 1,
+    "prior_transaction": 45,
+    "reference_transaction": 0,
+    "transaction_any_role": 45
+  },
+  "cross_development_components": 4,
+  "cutoff": "Each normalized transaction height is strictly below its own frozen reference block",
+  "development_rows": 1500,
+  "development_target": "known_coldcard_core_membership",
+  "development_vectors_reproduced": 1378,
+  "eligible_external": 275,
+  "entity_independence_established": false,
+  "external_incidents": 1,
+  "external_vectors_reproduced": 329,
+  "frozen_development_components_reproduced": 918,
+  "frozen_development_split_unchanged": true,
+  "frozen_model_sha256": "87101573c2de885adfdb9cfb194cf12366b4dc94b4bb9e51e0435bf5e570f537",
+  "frozen_split_sha256": "2571c35ba6bddbb2649bdd497d606353f6db49da6be0d6d827dd037b27815328",
+  "full_current_source_histories_reconciled": 0,
+  "full_history_status_not_promoted": true,
+  "independent_components_agree": true,
+  "input_commit": "0a674f6b577d6822be18154de897c5f47a7e93f9",
+  "input_files_verified": 143,
+  "limitation": "All available-prefix links were checked; unknown links of 159 bounded prefixes and unobserved entities remain unresolved. Exact vector matches are dependence guards, not evidence of ownership.",
+  "minimum_20_per_class_passed": true,
+  "model_fits": 0,
+  "new_partition_created": false,
+  "provider_requests": 0,
+  "quarantined_complete_external": 54,
+  "replacement_performed": false,
+  "schema_version": 1,
+  "scope": "All selected identities and all available validated normalized prior prefixes",
+  "scores_computed": 0,
+  "scoring_executed": false,
+  "selected_external": 366,
+  "source_level_verified_compromise_or_device_evaluation_possible": false,
+  "target": "cryptobilis_reference_source_membership",
+  "total_measured_components": 1281,
+  "unobserved_prior_prefixes": {
+    "coldcard": 122,
+    "cryptobilis": 37
+  },
+  "untouched_test_claim": false
+}

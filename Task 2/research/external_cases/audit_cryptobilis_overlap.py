@@ -112,6 +112,14 @@ def validate_external(view, selected):
     return rows
 
 
+def validate_development_declaration(view):
+    # The preserved schema-v2 view appends its interpretation after a semicolon;
+    # the actual per-row and fitted-model target remains the canonical name.
+    require(view['schema_version'] == 2 and
+            view['target'].split(';', 1)[0] == frozen.TARGET,
+            'Development schema/target changed')
+
+
 def link_catalog(nodes, prefixes):
     links = {kind: defaultdict(set) for kind in KINDS}
     for node in nodes:
@@ -233,7 +241,8 @@ def build(configuration):
             model['training_fit_calls'] == 1, 'Frozen training provenance changed')
     require(model['model_input_names'] == names + ['missing__' + n for n in names], 'Missing indicators changed')
     development, external = read(paths['coldcard_view']), read(paths['external_view'])
-    require(development['schema_version'] == 2 and development['target'] == frozen.TARGET, 'Development schema/target changed')
+    validate_development_declaration(development)
+    require(model['target'] == frozen.TARGET, 'Frozen model target changed')
     require(development['predictor_allowlist'] == external['predictor_allowlist'] == names, 'View predictors changed')
     require(len(development['rows']) == 1500 and len(external['rows']) == 366, 'Cohort sizes changed')
     validate_external(external, read(paths['source_selection']))
