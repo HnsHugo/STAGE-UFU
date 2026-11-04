@@ -1,0 +1,650 @@
+{
+  "can_score_primary_transfer": false,
+  "classes": {
+    "case": {
+      "complete_prefix": 67,
+      "selected": 122,
+      "statuses": {
+        "complete_prior_prefix": 67,
+        "not_completed": 55
+      }
+    },
+    "comparison": {
+      "complete_prefix": 110,
+      "selected": 244,
+      "statuses": {
+        "bounded_incomplete": 23,
+        "complete_prior_prefix": 110,
+        "not_completed": 111
+      }
+    }
+  },
+  "coldcard_vectors_preserved": 1378,
+  "complete_cross_development_overlap_audit": "pending acquisition completion",
+  "failed_requests": [],
+  "feature_count": 14,
+  "feature_view_sha256": "d47111e7cb54a63d634885c32ae18e26bb9c98cdcabf15f76e2fd83219e347e9",
+  "finalized_sources": 100,
+  "full_history_status_not_promoted": true,
+  "independent_new_vectors_recounted": 87,
+  "labels_cutoffs_and_frozen_model_unchanged": true,
+  "model_fits": 0,
+  "network_or_unattempted_sources": 166,
+  "new_bounded_incomplete": 13,
+  "new_complete_vectors": 87,
+  "offline_reused_reference_responses": 43,
+  "pass_name": "cryptobilis_reference_prefix_20261104_161406",
+  "per_source": [
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0067",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0068",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0069",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0070",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0071",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 16,
+      "pagination_exhausted": false,
+      "source_id": "cryptobilis_comparison_0072",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0073",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 16,
+      "pagination_exhausted": false,
+      "source_id": "cryptobilis_comparison_0074",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0075",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 6,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0076",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 16,
+      "pagination_exhausted": false,
+      "source_id": "cryptobilis_comparison_0077",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0078",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 9,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0079",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0080",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 4,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0081",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0082",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 3,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0083",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0084",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0085",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 7,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0086",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0087",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 16,
+      "pagination_exhausted": false,
+      "source_id": "cryptobilis_comparison_0088",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages": 16,
+      "pagination_exhausted": false,
+      "source_id": "cryptobilis_comparison_0089",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages": 8,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0090",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 10,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0091",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0092",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0093",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 16,
+      "pagination_exhausted": false,
+      "source_id": "cryptobilis_comparison_0094",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0095",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 16,
+      "pagination_exhausted": false,
+      "source_id": "cryptobilis_comparison_0096",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages": 8,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0097",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0098",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0099",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0100",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0101",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 16,
+      "pagination_exhausted": false,
+      "source_id": "cryptobilis_comparison_0102",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0103",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 3,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0104",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 16,
+      "pagination_exhausted": false,
+      "source_id": "cryptobilis_comparison_0105",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0106",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0107",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 16,
+      "pagination_exhausted": false,
+      "source_id": "cryptobilis_comparison_0108",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages": 16,
+      "pagination_exhausted": false,
+      "source_id": "cryptobilis_comparison_0109",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0110",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0111",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 10,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0112",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0113",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0114",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0115",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0116",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0117",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0118",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0119",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 16,
+      "pagination_exhausted": false,
+      "source_id": "cryptobilis_comparison_0120",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0121",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 6,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0122",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 4,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0123",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0124",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 5,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0125",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0126",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 16,
+      "pagination_exhausted": false,
+      "source_id": "cryptobilis_comparison_0127",
+      "status": "bounded_incomplete"
+    },
+    {
+      "pages": 3,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0128",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0129",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0130",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 6,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0131",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0132",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_comparison_0133",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0040",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0041",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0042",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0043",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0044",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0045",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0046",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0047",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0048",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0049",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0050",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0051",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0052",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0053",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0055",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0056",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0057",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0058",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0059",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0060",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0061",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0062",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0063",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0064",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0065",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0067",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0068",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0069",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0070",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0071",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0072",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0073",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "pages": 2,
+      "pagination_exhausted": true,
+      "source_id": "cryptobilis_source_0075",
+      "status": "complete_prior_prefix"
+    }
+  ],
+  "prior_vectors_preserved": 90,
+  "raw_tails_reextracted": 100,
+  "request_markers": 645,
+  "saved_response_fingerprints_verified": 645,
+  "schema_version": 1,
+  "scores_computed": 0,
+  "successful_network_responses": 602,
+  "targeted_sources": 100,
+  "total_bounded_incomplete": 23,
+  "total_complete_vectors": 177,
+  "total_selected": 366
+}

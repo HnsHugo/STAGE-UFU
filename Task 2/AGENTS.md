@@ -1,5 +1,26 @@
 # Task 2 working instructions
 
+**Latest completed unit — CryptoBilis next bounded successor, 4 November 2026 UTC:**
+Read `research/external_cases/cryptobilis_reference_prefix_20261104_161406/README.md`
+and its exact `resume_checkpoint.json`. The next fixed 100 of the former 266 IDs
+finalized in five batches: 87 new vectors (33 case / 54 comparison), thirteen
+bounded-incomplete comparisons and zero network errors. All 100 new raw tails
+re-extract, all 87 vectors independently recount and 645 response fingerprints /
+cursor sequences verify (43 offline references, 602 new HTTP200 responses).
+All previous 90 vectors, ten bounded results and every unselected row are exact;
+all 1,426 restored private predecessor files remain byte-unchanged. The latest
+366-row view has 177 vectors (67 case / 110 comparison), 23 bounded-incomplete
+comparisons without vectors and 166 unattempted (55 case / 111 comparison).
+Coldcard's 1,378 vectors/model, fourteen definitions, strict cutoffs and unknown
+labels are unchanged; prefix completion never promotes full-current histories.
+Five immutable batch snapshots are saved. Lease idle, automation disabled,
+no fitting, split or scoring. Full development/external overlap remains pending.
+Next: restore the complete private cache archive described beside the latest
+resume if needed, then prepare a distinct pinned successor over at most the first
+100 of the latest 166 network_source_ids. Exclude all 200 finished outcomes and
+retain every old marker, snapshot and lineage pin. Apply the same global guards,
+original transport/TLS and refusal/backoff rules. Earlier priorities are historical.
+
 **Latest completed unit — CryptoBilis bounded prior prefixes, 3 November 2026 UTC:**
 Read `research/external_cases/cryptobilis_reference_prefix_20261103_003012/README.md`
 and its exact `resume_checkpoint.json`. The fixed 366-source external selection
