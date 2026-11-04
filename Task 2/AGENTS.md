@@ -1,5 +1,30 @@
 # Task 2 working instructions
 
+**Latest completed unit — CryptoBilis third bounded successor, 4 November 2026 UTC:**
+Read `research/external_cases/cryptobilis_reference_prefix_20261104_182708/README.md`
+and its exact `resume_checkpoint.json`. The next fixed 100 of 166 IDs finalized
+in five batches: 90 new vectors (33 case / 57 comparison), ten bounded-incomplete
+comparisons and zero network errors. All 100 new raw tails re-extract, all 90
+vectors independently recount, and 634 saved/reused fingerprints and cursor
+sequences verify (52 offline references / 582 new HTTP200 responses).
+All 200 prior results, 177 prior vectors, 23 prior bounded outcomes and every
+unselected row are exact; all 2,918 predecessor private files are unchanged.
+The current 366-row view has 267 vectors (100 case / 167 comparison), 33 bounded
+comparisons without vectors and 66 unattempted (22 case / 44 comparison).
+Coldcard's 1,378 vectors/model, fourteen definitions, cutoffs and unknown labels
+are unchanged. Prefix completion does not promote full-current-history coverage.
+Five immutable batch snapshots are saved. Lease idle, automation disabled;
+no fitting, split or scoring. Full development/external overlap remains pending.
+Private cache restoration now requires BOTH the complete predecessor archive
+and the new pass delta. Read `private_cache_backup.json` beside the latest resume
+and restore every listed archive in restore_order; the delta alone is insufficient.
+Next: prepare a distinct pinned successor over all latest 66 network_source_ids,
+in four bounded batches 20/20/20/6, with the same global guards, original route/TLS,
+refusal/backoff rules and no internal retry. Exclude all 300 finished outcomes,
+preserve every marker/snapshot/pin, and retain null bounded prefixes. After
+acquisition closure, perform final audit/save/verification before the separately
+gated full overlap/eligibility study. Earlier priorities are historical.
+
 **Latest completed unit — CryptoBilis next bounded successor, 4 November 2026 UTC:**
 Read `research/external_cases/cryptobilis_reference_prefix_20261104_161406/README.md`
 and its exact `resume_checkpoint.json`. The next fixed 100 of the former 266 IDs

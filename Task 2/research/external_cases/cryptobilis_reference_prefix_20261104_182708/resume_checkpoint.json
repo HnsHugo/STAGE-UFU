@@ -1,0 +1,647 @@
+{
+  "bounded_incomplete_source_ids": [
+    "cryptobilis_comparison_0015",
+    "cryptobilis_comparison_0018",
+    "cryptobilis_comparison_0019",
+    "cryptobilis_comparison_0021",
+    "cryptobilis_comparison_0036",
+    "cryptobilis_comparison_0042",
+    "cryptobilis_comparison_0044",
+    "cryptobilis_comparison_0057",
+    "cryptobilis_comparison_0059",
+    "cryptobilis_comparison_0063",
+    "cryptobilis_comparison_0072",
+    "cryptobilis_comparison_0074",
+    "cryptobilis_comparison_0077",
+    "cryptobilis_comparison_0088",
+    "cryptobilis_comparison_0089",
+    "cryptobilis_comparison_0094",
+    "cryptobilis_comparison_0096",
+    "cryptobilis_comparison_0102",
+    "cryptobilis_comparison_0105",
+    "cryptobilis_comparison_0108",
+    "cryptobilis_comparison_0109",
+    "cryptobilis_comparison_0120",
+    "cryptobilis_comparison_0127",
+    "cryptobilis_comparison_0143",
+    "cryptobilis_comparison_0146",
+    "cryptobilis_comparison_0148",
+    "cryptobilis_comparison_0156",
+    "cryptobilis_comparison_0168",
+    "cryptobilis_comparison_0170",
+    "cryptobilis_comparison_0177",
+    "cryptobilis_comparison_0180",
+    "cryptobilis_comparison_0184",
+    "cryptobilis_comparison_0200"
+  ],
+  "bounds": {
+    "batch_size": 20,
+    "global_requests_per_second": 1,
+    "max_batches": 5,
+    "max_pages": 16,
+    "timeout_seconds": 15,
+    "workers": 2
+  },
+  "complete_prefix_source_ids": [
+    "cryptobilis_comparison_0001",
+    "cryptobilis_comparison_0002",
+    "cryptobilis_comparison_0003",
+    "cryptobilis_comparison_0004",
+    "cryptobilis_comparison_0005",
+    "cryptobilis_comparison_0006",
+    "cryptobilis_comparison_0007",
+    "cryptobilis_comparison_0008",
+    "cryptobilis_comparison_0009",
+    "cryptobilis_comparison_0010",
+    "cryptobilis_comparison_0011",
+    "cryptobilis_comparison_0012",
+    "cryptobilis_comparison_0013",
+    "cryptobilis_comparison_0014",
+    "cryptobilis_comparison_0016",
+    "cryptobilis_comparison_0017",
+    "cryptobilis_comparison_0020",
+    "cryptobilis_comparison_0022",
+    "cryptobilis_comparison_0023",
+    "cryptobilis_comparison_0024",
+    "cryptobilis_comparison_0025",
+    "cryptobilis_comparison_0026",
+    "cryptobilis_comparison_0027",
+    "cryptobilis_comparison_0028",
+    "cryptobilis_comparison_0029",
+    "cryptobilis_comparison_0030",
+    "cryptobilis_comparison_0031",
+    "cryptobilis_comparison_0032",
+    "cryptobilis_comparison_0033",
+    "cryptobilis_comparison_0034",
+    "cryptobilis_comparison_0035",
+    "cryptobilis_comparison_0037",
+    "cryptobilis_comparison_0038",
+    "cryptobilis_comparison_0039",
+    "cryptobilis_comparison_0040",
+    "cryptobilis_comparison_0041",
+    "cryptobilis_comparison_0043",
+    "cryptobilis_comparison_0045",
+    "cryptobilis_comparison_0046",
+    "cryptobilis_comparison_0047",
+    "cryptobilis_comparison_0048",
+    "cryptobilis_comparison_0049",
+    "cryptobilis_comparison_0050",
+    "cryptobilis_comparison_0051",
+    "cryptobilis_comparison_0052",
+    "cryptobilis_comparison_0053",
+    "cryptobilis_comparison_0054",
+    "cryptobilis_comparison_0055",
+    "cryptobilis_comparison_0056",
+    "cryptobilis_comparison_0058",
+    "cryptobilis_comparison_0060",
+    "cryptobilis_comparison_0061",
+    "cryptobilis_comparison_0062",
+    "cryptobilis_comparison_0064",
+    "cryptobilis_comparison_0065",
+    "cryptobilis_comparison_0066",
+    "cryptobilis_comparison_0067",
+    "cryptobilis_comparison_0068",
+    "cryptobilis_comparison_0069",
+    "cryptobilis_comparison_0070",
+    "cryptobilis_comparison_0071",
+    "cryptobilis_comparison_0073",
+    "cryptobilis_comparison_0075",
+    "cryptobilis_comparison_0076",
+    "cryptobilis_comparison_0078",
+    "cryptobilis_comparison_0079",
+    "cryptobilis_comparison_0080",
+    "cryptobilis_comparison_0081",
+    "cryptobilis_comparison_0082",
+    "cryptobilis_comparison_0083",
+    "cryptobilis_comparison_0084",
+    "cryptobilis_comparison_0085",
+    "cryptobilis_comparison_0086",
+    "cryptobilis_comparison_0087",
+    "cryptobilis_comparison_0090",
+    "cryptobilis_comparison_0091",
+    "cryptobilis_comparison_0092",
+    "cryptobilis_comparison_0093",
+    "cryptobilis_comparison_0095",
+    "cryptobilis_comparison_0097",
+    "cryptobilis_comparison_0098",
+    "cryptobilis_comparison_0099",
+    "cryptobilis_comparison_0100",
+    "cryptobilis_comparison_0101",
+    "cryptobilis_comparison_0103",
+    "cryptobilis_comparison_0104",
+    "cryptobilis_comparison_0106",
+    "cryptobilis_comparison_0107",
+    "cryptobilis_comparison_0110",
+    "cryptobilis_comparison_0111",
+    "cryptobilis_comparison_0112",
+    "cryptobilis_comparison_0113",
+    "cryptobilis_comparison_0114",
+    "cryptobilis_comparison_0115",
+    "cryptobilis_comparison_0116",
+    "cryptobilis_comparison_0117",
+    "cryptobilis_comparison_0118",
+    "cryptobilis_comparison_0119",
+    "cryptobilis_comparison_0121",
+    "cryptobilis_comparison_0122",
+    "cryptobilis_comparison_0123",
+    "cryptobilis_comparison_0124",
+    "cryptobilis_comparison_0125",
+    "cryptobilis_comparison_0126",
+    "cryptobilis_comparison_0128",
+    "cryptobilis_comparison_0129",
+    "cryptobilis_comparison_0130",
+    "cryptobilis_comparison_0131",
+    "cryptobilis_comparison_0132",
+    "cryptobilis_comparison_0133",
+    "cryptobilis_comparison_0134",
+    "cryptobilis_comparison_0135",
+    "cryptobilis_comparison_0136",
+    "cryptobilis_comparison_0137",
+    "cryptobilis_comparison_0138",
+    "cryptobilis_comparison_0139",
+    "cryptobilis_comparison_0140",
+    "cryptobilis_comparison_0141",
+    "cryptobilis_comparison_0142",
+    "cryptobilis_comparison_0144",
+    "cryptobilis_comparison_0145",
+    "cryptobilis_comparison_0147",
+    "cryptobilis_comparison_0149",
+    "cryptobilis_comparison_0150",
+    "cryptobilis_comparison_0151",
+    "cryptobilis_comparison_0152",
+    "cryptobilis_comparison_0153",
+    "cryptobilis_comparison_0154",
+    "cryptobilis_comparison_0155",
+    "cryptobilis_comparison_0157",
+    "cryptobilis_comparison_0158",
+    "cryptobilis_comparison_0159",
+    "cryptobilis_comparison_0160",
+    "cryptobilis_comparison_0161",
+    "cryptobilis_comparison_0162",
+    "cryptobilis_comparison_0163",
+    "cryptobilis_comparison_0164",
+    "cryptobilis_comparison_0165",
+    "cryptobilis_comparison_0166",
+    "cryptobilis_comparison_0167",
+    "cryptobilis_comparison_0169",
+    "cryptobilis_comparison_0171",
+    "cryptobilis_comparison_0172",
+    "cryptobilis_comparison_0173",
+    "cryptobilis_comparison_0174",
+    "cryptobilis_comparison_0175",
+    "cryptobilis_comparison_0176",
+    "cryptobilis_comparison_0178",
+    "cryptobilis_comparison_0179",
+    "cryptobilis_comparison_0181",
+    "cryptobilis_comparison_0182",
+    "cryptobilis_comparison_0183",
+    "cryptobilis_comparison_0185",
+    "cryptobilis_comparison_0186",
+    "cryptobilis_comparison_0187",
+    "cryptobilis_comparison_0188",
+    "cryptobilis_comparison_0189",
+    "cryptobilis_comparison_0190",
+    "cryptobilis_comparison_0191",
+    "cryptobilis_comparison_0192",
+    "cryptobilis_comparison_0193",
+    "cryptobilis_comparison_0194",
+    "cryptobilis_comparison_0195",
+    "cryptobilis_comparison_0196",
+    "cryptobilis_comparison_0197",
+    "cryptobilis_comparison_0198",
+    "cryptobilis_comparison_0199",
+    "cryptobilis_source_0003",
+    "cryptobilis_source_0004",
+    "cryptobilis_source_0005",
+    "cryptobilis_source_0006",
+    "cryptobilis_source_0007",
+    "cryptobilis_source_0009",
+    "cryptobilis_source_0010",
+    "cryptobilis_source_0011",
+    "cryptobilis_source_0012",
+    "cryptobilis_source_0013",
+    "cryptobilis_source_0014",
+    "cryptobilis_source_0015",
+    "cryptobilis_source_0016",
+    "cryptobilis_source_0017",
+    "cryptobilis_source_0018",
+    "cryptobilis_source_0019",
+    "cryptobilis_source_0020",
+    "cryptobilis_source_0021",
+    "cryptobilis_source_0022",
+    "cryptobilis_source_0023",
+    "cryptobilis_source_0024",
+    "cryptobilis_source_0025",
+    "cryptobilis_source_0027",
+    "cryptobilis_source_0028",
+    "cryptobilis_source_0029",
+    "cryptobilis_source_0030",
+    "cryptobilis_source_0031",
+    "cryptobilis_source_0033",
+    "cryptobilis_source_0034",
+    "cryptobilis_source_0035",
+    "cryptobilis_source_0036",
+    "cryptobilis_source_0037",
+    "cryptobilis_source_0038",
+    "cryptobilis_source_0039",
+    "cryptobilis_source_0040",
+    "cryptobilis_source_0041",
+    "cryptobilis_source_0042",
+    "cryptobilis_source_0043",
+    "cryptobilis_source_0044",
+    "cryptobilis_source_0045",
+    "cryptobilis_source_0046",
+    "cryptobilis_source_0047",
+    "cryptobilis_source_0048",
+    "cryptobilis_source_0049",
+    "cryptobilis_source_0050",
+    "cryptobilis_source_0051",
+    "cryptobilis_source_0052",
+    "cryptobilis_source_0053",
+    "cryptobilis_source_0055",
+    "cryptobilis_source_0056",
+    "cryptobilis_source_0057",
+    "cryptobilis_source_0058",
+    "cryptobilis_source_0059",
+    "cryptobilis_source_0060",
+    "cryptobilis_source_0061",
+    "cryptobilis_source_0062",
+    "cryptobilis_source_0063",
+    "cryptobilis_source_0064",
+    "cryptobilis_source_0065",
+    "cryptobilis_source_0067",
+    "cryptobilis_source_0068",
+    "cryptobilis_source_0069",
+    "cryptobilis_source_0070",
+    "cryptobilis_source_0071",
+    "cryptobilis_source_0072",
+    "cryptobilis_source_0073",
+    "cryptobilis_source_0075",
+    "cryptobilis_source_0076",
+    "cryptobilis_source_0077",
+    "cryptobilis_source_0078",
+    "cryptobilis_source_0079",
+    "cryptobilis_source_0081",
+    "cryptobilis_source_0082",
+    "cryptobilis_source_0083",
+    "cryptobilis_source_0084",
+    "cryptobilis_source_0085",
+    "cryptobilis_source_0086",
+    "cryptobilis_source_0087",
+    "cryptobilis_source_0088",
+    "cryptobilis_source_0089",
+    "cryptobilis_source_0090",
+    "cryptobilis_source_0091",
+    "cryptobilis_source_0092",
+    "cryptobilis_source_0093",
+    "cryptobilis_source_0095",
+    "cryptobilis_source_0096",
+    "cryptobilis_source_0097",
+    "cryptobilis_source_0098",
+    "cryptobilis_source_0099",
+    "cryptobilis_source_0100",
+    "cryptobilis_source_0101",
+    "cryptobilis_source_0102",
+    "cryptobilis_source_0103",
+    "cryptobilis_source_0104",
+    "cryptobilis_source_0105",
+    "cryptobilis_source_0106",
+    "cryptobilis_source_0107",
+    "cryptobilis_source_0108",
+    "cryptobilis_source_0109",
+    "cryptobilis_source_0110"
+  ],
+  "failed_consumed_requests": [],
+  "full_history_scope": "Individual current full histories were not collected/reconciled; exhausted prior prefixes do not promote this status.",
+  "inputs": {
+    "audit": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/coverage_audit.json",
+      "sha256": "253c8ebbbc1c3ea7af60ba235490fa27bd93d04b7b9c73d5f1920c710050938e"
+    },
+    "cache_preservation": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/cache_preservation_verification.json",
+      "sha256": "6363ec2534d11ce8def815aa06a16bb3b7f516f8f3b42032fb66ef90ffeb6742"
+    },
+    "checkpoint": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/checkpoint.json.gz",
+      "sha256": "2cc26fa0312bf0d661d72eabed736b0681fdfc4770d9849b809fcdd6b0a9ea1f"
+    },
+    "continuation_preservation": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/continuation_preservation_verification.json",
+      "sha256": "c84f6d5848c3459ec2ab2e324fc0d8d9663fec7f5b152af0725219a40d20e662"
+    },
+    "execution_validation": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/execution_validation.json",
+      "sha256": "afddf100c56b0f14eeb90b53efea9c8ab5488425fedee5df419389f704dc3566"
+    },
+    "feature_view": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/precutoff_feature_view.json.gz",
+      "sha256": "a0887f798f70825845a21dcae505a8c7f3d7dc9ecd49231c23708a799628307f"
+    },
+    "private_cache_backup": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/private_cache_backup.json",
+      "sha256": "0027c484b7c49bb987232ce671a61d4c7ed63535bbb7269d0dbf2cfeee3153c8"
+    },
+    "protocol": {
+      "file": "cryptobilis_reference_prefix_20261104_182708_protocol.json",
+      "sha256": "c28d64fc6247cbd8957956347a65d3240b52432a13475ec4d38b287868e3b181"
+    },
+    "protocol_input_audit_tests": {
+      "file": "external_cases/test_cryptobilis_source_audit.py",
+      "sha256": "1e6737596c3c9bc023db2675fdedbf38ebb953764a0af07e489ff7b3263d1c5b"
+    },
+    "protocol_input_auditor": {
+      "file": "external_cases/audit_cryptobilis_sources.py",
+      "sha256": "c17c1eeea6ae07450f0b5b1286e85ef102ddd828316021ba2016a5ec3b2f5b01"
+    },
+    "protocol_input_baseline_view": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/precutoff_feature_view.json.gz",
+      "sha256": "d47111e7cb54a63d634885c32ae18e26bb9c98cdcabf15f76e2fd83219e347e9"
+    },
+    "protocol_input_batch_runner": {
+      "file": "coldcard/collect_reference_tail_many.py",
+      "sha256": "8d5bbac9c78779b725e22075f6eca7b08bd9294cd4e2e784ed48e16d54659da9"
+    },
+    "protocol_input_cache_restoration": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/cache_restoration_verification.json",
+      "sha256": "ebc9aaf950012ff232b8f0561aa293b817d561019eb88a17a95533a020e682f9"
+    },
+    "protocol_input_census_protocol": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/protocol.json",
+      "sha256": "93dde80f85a68ee0cb2f7991d61a337937d5f651ef0060ad5feddf7b780ad537"
+    },
+    "protocol_input_census_requests": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/network_manifest.json.gz",
+      "sha256": "e6e3b030bd6f5022090e8132a7fbd758663bd5bd52df66396923244867358fe1"
+    },
+    "protocol_input_census_stop": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/run_stop.json",
+      "sha256": "5847e8a1b2861677bb71b33c436031b8f4d940be29533dff6263978ee5c20472"
+    },
+    "protocol_input_census_validation": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/execution_validation.json",
+      "sha256": "d237e9eef82cfbad5e7deabd17aa75de4baf74c7ade6c1d3fb71acf401fbd638"
+    },
+    "protocol_input_coldcard_view": {
+      "file": "coldcard/reference_tail_continuation_20261102_1508/precutoff_feature_view.json.gz",
+      "sha256": "a96aac7555150122e08dfab2a5d70773df31a28869a52f91cc75a5e12ebe29ab"
+    },
+    "protocol_input_collection_tests": {
+      "file": "external_cases/test_cryptobilis_source_collection.py",
+      "sha256": "e10eb50002d3802b28f3b9ebce59b8ed049953c9f05951ebfd7888ca8dc91cad"
+    },
+    "protocol_input_collector": {
+      "file": "coldcard/collect_reference_tail.py",
+      "sha256": "c911691ce1f31be82fbfbb6ce7c589ab77da9da0dba7eb5ffc91ea42d0165c51"
+    },
+    "protocol_input_collector_0": {
+      "file": "external_cases/collection_pilot_20261019/bc1qjqgwejnp8dc0x2938x9n9954hj97t82unx49dl.json.gz",
+      "sha256": "f4d3e1e703c40207b648f6ceacfc555586764b82d05406a998cb0a2ea728caa0"
+    },
+    "protocol_input_collector_1": {
+      "file": "external_cases/collection_pilot_20261019/bc1qqnkwurxs99xkx5t4yffqhq3u6qwy0qpjyujtm9.json.gz",
+      "sha256": "ccd6c134cc3f0168fc436fe80deb355e04c71cf3dd580c8cdd7b4a316eee57c9"
+    },
+    "protocol_input_feature_extractor": {
+      "file": "coldcard/prepayment_pilot.py",
+      "sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701"
+    },
+    "protocol_input_frozen_model": {
+      "file": "coldcard/source_membership_baseline_20261102_162335/model.json",
+      "sha256": "87101573c2de885adfdb9cfb194cf12366b4dc94b4bb9e51e0435bf5e570f537"
+    },
+    "protocol_input_frozen_model_protocol": {
+      "file": "coldcard/source_membership_baseline_20261102_162335/protocol.json",
+      "sha256": "0d9baaabd88c1881cc07f62c4a7e8dd09242845644b04ad071a86ff584a379ca"
+    },
+    "protocol_input_http_guard": {
+      "file": "external_cases/collect_cryptobilis_sources.py",
+      "sha256": "dfd26dda5bc45e72fb1d22bbd2c29148c6318896fd643649274b2cc086d335f0"
+    },
+    "protocol_input_independent_recount": {
+      "file": "coldcard/audit_reference_tail.py",
+      "sha256": "dc40023ec686904b1025fc6d35ffd7eadd1668c8d0fcdc1ecc4da224b043fd99"
+    },
+    "protocol_input_input_census": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/input_census.json.gz",
+      "sha256": "78eb3a1f69dd07c5c9add62829b816e89bbd49ecee647c3c2fd10c143524e378"
+    },
+    "protocol_input_ledger": {
+      "file": "coldcard/collect_comparison_coverage.py",
+      "sha256": "243432e042f413fe601db2f661e6afc072e7e3ddd518730de424a31efd2101df"
+    },
+    "protocol_input_lineage_000": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/coverage_audit.json",
+      "sha256": "507cc69817a90c14d6eb16ab09daa0e2fa77f28304b77bc376cae435ca48a028"
+    },
+    "protocol_input_lineage_001": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/cache_preservation_verification.json",
+      "sha256": "679975c25ac38af972f7c2cdd32fc55b92dabddd9392795c7c5fb71875c74270"
+    },
+    "protocol_input_lineage_002": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/checkpoint.json.gz",
+      "sha256": "620a28840d324b5519f46a2729791942d775896bf2099e7a60a58a7c0e5bfc67"
+    },
+    "protocol_input_lineage_003": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/continuation_preservation_verification.json",
+      "sha256": "a1be12fced0fd908537e66e310562618092e292605838fa3c5e65639f92c6983"
+    },
+    "protocol_input_lineage_004": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/execution_validation.json",
+      "sha256": "cb69c4fde434629f7eac120a8857ef31e86a5c3e6af05922a583d59def077b31"
+    },
+    "protocol_input_lineage_005": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/private_cache_backup.json",
+      "sha256": "a4132e0d50644e2f5884cf4e67dffa592659829b3d2fd47ae50cbbd1018417cb"
+    },
+    "protocol_input_lineage_006": {
+      "file": "cryptobilis_reference_prefix_20261104_161406_protocol.json",
+      "sha256": "58519641cb1101353e3d9d932a927631d8be0860e103605cc846e07bfb9b13fe"
+    },
+    "protocol_input_lineage_007": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/precutoff_feature_view.json.gz",
+      "sha256": "b5164ab2d23302c66d5a7b4ce9542303fbc0b6b9c9078b0fcad517fbd5e63d27"
+    },
+    "protocol_input_lineage_008": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/cache_restoration_verification.json",
+      "sha256": "746fbde592169acc9a5acfaf7dcb8346cb8d7a141d25f67200595c5786d04b4c"
+    },
+    "protocol_input_lineage_009": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/offline_reference_reuse.json",
+      "sha256": "188f8c13244a9b3e89b9af110d8a56e68eb0c704b35293d43d4eccdcbeded699"
+    },
+    "protocol_input_lineage_010": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/resume_checkpoint.json",
+      "sha256": "9a6a23864286936a0a4a0ec5ee8c736d3c337f7c97e2ff37d30b74fc64c8f969"
+    },
+    "protocol_input_lineage_011": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/request_manifest.json.gz",
+      "sha256": "3604c219f8b5d3299f667d9715fe10e39de87176e29abfa8e89953fed9b79949"
+    },
+    "protocol_input_lineage_012": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/run_stop.json",
+      "sha256": "5532e7dbe34ca310f471d33193debe12ee78f629842dc24e991f7aaf19a0129b"
+    },
+    "protocol_input_lineage_audit": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/coverage_audit.json",
+      "sha256": "4f4b6b689d63e68a3386230259fe4120c19237bb422be4aeef52be0424fd4167"
+    },
+    "protocol_input_lineage_checkpoint": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/checkpoint.json.gz",
+      "sha256": "bdd3c7cbaea088f9537ae25b540c045ed744b925bfa4cb6786a22fc8df7f3be6"
+    },
+    "protocol_input_lineage_private_cache_backup": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/private_cache_backup.json",
+      "sha256": "f2bf2ffc94a0d885d776e72a53c39c66bb8b409650f8d67d27b63aeebb6a2f58"
+    },
+    "protocol_input_lineage_protocol": {
+      "file": "cryptobilis_reference_prefix_20261103_003012_protocol.json",
+      "sha256": "745f9b9f4ca6ebaae40810d7dd7feed06f3a7140d1144c9e9bd45d437123aacb"
+    },
+    "protocol_input_lineage_protocol_input_baseline_view": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/initial_precutoff_feature_view.json.gz",
+      "sha256": "a841a749e9663c908a30b10b64eec6953c97f8fb52ee9e216cdd4681a6aa3307"
+    },
+    "protocol_input_lineage_request_manifest": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/request_manifest.json.gz",
+      "sha256": "dc3d02855e82cd51ed47d548971f7f2ec1f85fa118aedd1143c844ebb2cf4441"
+    },
+    "protocol_input_lineage_stop": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261103_003012/run_stop.json",
+      "sha256": "9ec29fdbf1f70215a0aac59f09613409d60b52fa7f2d5e76b792685dbfa84472"
+    },
+    "protocol_input_offline_reference_reuse": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/offline_reference_reuse.json",
+      "sha256": "a9f2a55c66bfd8287c79a73ffa282c0f4baf78d53294cff8aec1e1dcdc6ac3bf"
+    },
+    "protocol_input_pilot_protocol": {
+      "file": "coldcard/source_reference_tail_pilot_20261031_221016_protocol.json",
+      "sha256": "eca1c09687f90bc6171a4e970691425ce8f455f3b3e190497bd0c05f3ac5a86c"
+    },
+    "protocol_input_pilot_validation": {
+      "file": "coldcard/reference_tail_pilot_20261031_221016/pilot_validation.json",
+      "sha256": "fd0a555c7e369c02e01902784453fedec10e75b3963b53aa2fd35f195a49dde4"
+    },
+    "protocol_input_predecessor_resume": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/resume_checkpoint.json",
+      "sha256": "a24bc14782355d7e06e27722f23a280ca554d7c43a904287cfc42af0f85768f1"
+    },
+    "protocol_input_readiness_configuration": {
+      "file": "external_cases/cryptobilis_source_readiness_20261102/configuration.json",
+      "sha256": "ae527ee155876044e1a67f618cc0910ce2b9bf20a00c9202fcf9b203f9f10d48"
+    },
+    "protocol_input_selection_audit": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/selection_audit.json",
+      "sha256": "7f363378b7a80c9daed2044252110d836e9b739c36c0aa3ef1b3d0352cf31499"
+    },
+    "protocol_input_selection_builder": {
+      "file": "external_cases/select_cryptobilis_sources.py",
+      "sha256": "ca15750b0a818e87ac07e94d7fc28e430eef89fe5ead7fab2c1a3a598e07af8f"
+    },
+    "protocol_input_selection_plan_manifest": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/execution_plan_manifest.json",
+      "sha256": "9fd0908dab7d54d0bf4469f83f88b9796d55cd5d832a4a33935b14c5353c65f4"
+    },
+    "protocol_input_source_selection": {
+      "file": "external_cases/cryptobilis_source_selection_20261103_002428/source_selection.json.gz",
+      "sha256": "2b0d978714c8af769d7d62ce7d11c4f32e688eb8b63abde64cd319650eeb8434"
+    },
+    "protocol_input_transfer_protocol": {
+      "file": "external_cases/cryptobilis_source_readiness_20261102/transfer_protocol.json",
+      "sha256": "9e3be488ada4c69472d65b6cdd67caeb5730dd8033e5e42f62d4b6198e3e962b"
+    },
+    "protocol_input_transport": {
+      "file": "coldcard/comparison_http.py",
+      "sha256": "79793179e8c1bb153ade9a7fa742ed7a4a766bb6e039c791d880d24d5a484915"
+    },
+    "request_manifest": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/request_manifest.json.gz",
+      "sha256": "a134965921ef3bc6231879e6a5569f198d65f44d3b0b9e315a919334b68c8086"
+    },
+    "stop": {
+      "file": "external_cases/cryptobilis_reference_prefix_20261104_182708/run_stop.json",
+      "sha256": "263bf7c53525c5440a3ac821d07e4e63c38c49a181a8e336affbdd02e1cdc845"
+    }
+  },
+  "labels_unchanged": true,
+  "latest_pass_name": "cryptobilis_reference_prefix_20261104_182708",
+  "model_fits": 0,
+  "network_source_ids": [
+    "cryptobilis_source_0112",
+    "cryptobilis_comparison_0201",
+    "cryptobilis_comparison_0202",
+    "cryptobilis_source_0113",
+    "cryptobilis_comparison_0203",
+    "cryptobilis_comparison_0204",
+    "cryptobilis_source_0114",
+    "cryptobilis_comparison_0205",
+    "cryptobilis_comparison_0206",
+    "cryptobilis_source_0115",
+    "cryptobilis_comparison_0207",
+    "cryptobilis_comparison_0208",
+    "cryptobilis_source_0116",
+    "cryptobilis_comparison_0209",
+    "cryptobilis_comparison_0210",
+    "cryptobilis_source_0117",
+    "cryptobilis_comparison_0211",
+    "cryptobilis_comparison_0212",
+    "cryptobilis_source_0118",
+    "cryptobilis_comparison_0213",
+    "cryptobilis_comparison_0214",
+    "cryptobilis_source_0119",
+    "cryptobilis_comparison_0215",
+    "cryptobilis_comparison_0216",
+    "cryptobilis_source_0120",
+    "cryptobilis_comparison_0217",
+    "cryptobilis_comparison_0218",
+    "cryptobilis_source_0121",
+    "cryptobilis_comparison_0219",
+    "cryptobilis_comparison_0220",
+    "cryptobilis_source_0122",
+    "cryptobilis_comparison_0221",
+    "cryptobilis_comparison_0222",
+    "cryptobilis_source_0001",
+    "cryptobilis_comparison_0223",
+    "cryptobilis_comparison_0224",
+    "cryptobilis_source_0002",
+    "cryptobilis_comparison_0225",
+    "cryptobilis_comparison_0226",
+    "cryptobilis_source_0008",
+    "cryptobilis_comparison_0227",
+    "cryptobilis_comparison_0228",
+    "cryptobilis_source_0026",
+    "cryptobilis_comparison_0229",
+    "cryptobilis_comparison_0230",
+    "cryptobilis_source_0032",
+    "cryptobilis_comparison_0231",
+    "cryptobilis_comparison_0232",
+    "cryptobilis_source_0054",
+    "cryptobilis_comparison_0233",
+    "cryptobilis_comparison_0234",
+    "cryptobilis_source_0066",
+    "cryptobilis_comparison_0235",
+    "cryptobilis_comparison_0236",
+    "cryptobilis_source_0074",
+    "cryptobilis_comparison_0237",
+    "cryptobilis_comparison_0238",
+    "cryptobilis_source_0080",
+    "cryptobilis_comparison_0239",
+    "cryptobilis_comparison_0240",
+    "cryptobilis_source_0094",
+    "cryptobilis_comparison_0241",
+    "cryptobilis_comparison_0242",
+    "cryptobilis_source_0111",
+    "cryptobilis_comparison_0243",
+    "cryptobilis_comparison_0244"
+  ],
+  "network_sources": 66,
+  "next_action": "After global guards, prepare a distinct pinned successor over at most the first 100 network_source_ids. Never repeat complete/bounded-incomplete results or consumed failed markers within their pass.",
+  "next_network_attempt_not_before": "2026-11-01T23:20:04.694868+00:00",
+  "private_cache_restoration_file": "external_cases/cryptobilis_reference_prefix_20261104_182708/private_cache_backup.json",
+  "private_cache_restore_requires_all_listed_archives": true,
+  "schema_version": 2,
+  "scope": "cryptobilis_reference_source_membership_prior_prefixes",
+  "scores_computed": 0,
+  "selected_sources": 366,
+  "updated_at": "2026-11-04T18:39:45.745204+00:00"
+}
