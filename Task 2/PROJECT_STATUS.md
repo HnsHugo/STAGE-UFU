@@ -1,5 +1,18 @@
 # Project status — 2 November 2026
 
+**Latest completed unit — integrated manuscript for review, 5 November 2026 UTC**
+
+A separate editable copy of the supplied Overleaf export now integrates the
+Coldcard and CryptoBilis methods and results from commit
+0d741135ffac72d1a19b5ec568c0d959acf63306. The English manuscript connects
+the ledger context, address-level predictors, internal test, frozen external
+transfer and evidence limits. Its PDF has ten reviewed pages and six resolved
+references. The extracted source ZIP recompiles without warnings and reproduces
+the checked PDF text. File and metric checks confirm the original export and
+pinned study inputs, both confusion matrices, coverage and cohort attrition.
+The review package is held separately for the authors. The next aligned unit is
+review of the draft in [the article map's section order](docs/ARTICLE_MAP.md).
+
 **Latest completed unit — frozen transfer article supplement, 4 November 2026 UTC:**
 Read `source_transfer_study_20261104/README.md`, the checked four-page PDF,
 `transfer_methods.tex`, `transfer_results.tex` and the importable Overleaf ZIP.

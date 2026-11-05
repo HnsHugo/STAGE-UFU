@@ -27,21 +27,25 @@ These are exploratory proxy-transfer results for one inspected external incident
 entity independence and verified theft/device detection remain unestablished.
 The original article, authors, bibliography and live Overleaf project are unchanged.
 
-| Article section | Existing material | Remaining work |
-| --- | --- | --- |
-| Introduction | Transaction exercise, financial case analysis and completed source-membership baseline | Frame the achieved target as retrospective membership; independent compromise/device targets remain unresolved |
-| Related work | Initial source-selection and evidence reviews | A structured review of primary research with suitable citations |
-| Hardware wallet | Distinction between hardware signing, cold storage and attribution | Evidence-backed observable hypotheses |
-| Bitcoin transactions | Part 2 and the write-up define all fourteen address predictors and units | Keep reference/future outcomes outside predictors and separate address from transaction features |
-| GNN and alternatives | Completed prespecified shallow source tree; historical transaction baselines | Reconcile the introduction's proposed GNN with the completed tabular baseline; no GNN result is claimed |
-| Initial dataset / Our Work | `source_methods.tex` preserves the Coldcard dataset; `transfer_methods.tex` adds 122 CryptoBilis case sources, 244 fixed comparisons, 329 vectors and the 275-source quarantine-qualified evaluation | Integrate both fragments into the current editable article; independent entities and verified labels remain future evidence needs |
-| Results | `source_results.tex` preserves internal F1 0.989796; `transfer_results.tex` adds external proxy F1 0.629834, all fixed comparators, 67 errors and attrition | Reconcile the different target/population meanings; prospective and independent-incident validation remain unestablished |
-| Conclusions | The supplement reports limited frozen-tree transport and stronger inactivity ranking on the selected external proxy | Align the article's claims with these limits; broader theft/device claims need separate evidence and evaluation |
+**Integrated review copy, 5 November 2026 UTC**
 
-A GCN is a type of graph neural network; SHAP explains predictions rather than
-replacing a classifier. The introduction proposes GNN training; the main outline
-questions its suitability and requests alternatives. This tension requires
-methodological justification, not an assumed completed model. CryptoBilis is the
-second incident; exact compromised-source identifiers and device mappings remain
-to substantiate. The Teams source-address objective is now explicit even though
-its operational label definition still needs care.
+The review copy uses the supplied 27 October export and the four LaTeX
+fragments pinned at commit 0d741135ffac72d1a19b5ec568c0d959acf63306.
+It contains a ten-page PDF and an editable source ZIP with the six original
+files archived together. A clean build of the extracted archive reproduces
+the reviewed PDF text. The manuscript and source archive are held separately
+for author review.
+
+| Article section | Current review copy | Focus for author review |
+| --- | --- | --- |
+| Introduction | Retrospective membership question and frozen transfer to a second source-linkage proxy | Confirm the research question and provisional title |
+| Related work | Elliptic transaction classification and public-chain link prediction | Review the scope of the literature discussion and the distinction between transaction and address units |
+| Hardware wallet and Bitcoin transactions | Signing context, referenced outputs, address-level features and separate coverage measures | Verify the distinction between ledger evidence and device attribution |
+| Our Work | Observed collector-flow context, the fixed Coldcard cohort and fourteen predictors, and the CryptoBilis selection and quarantine protocol | Review the source definitions, the strict block cutoff and completeness criteria |
+| Results | Internal membership F1 0.989796 and external proxy F1 0.629834, with fixed comparator rankings and error counts | Check the scope of each target and evaluated population |
+| Conclusions | Limited frozen-tree transfer and stronger inactivity ranking on the selected external proxy | Check the limits on interpretation and the evidence needed for prospective evaluation |
+
+The original outline's GNN question now sits in the methodological context.
+The completed analysis uses the prespecified shallow decision tree and fixed
+rankings. A graph-learning extension would require a defined prediction unit,
+time-available inputs and an independent evaluation protocol.

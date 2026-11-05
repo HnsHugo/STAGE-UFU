@@ -1,5 +1,14 @@
 # Task 2 working instructions
 
+**Current article baseline — integrated review copy, 5 November 2026 UTC**
+
+The review copy integrates the two pinned source-membership studies from
+commit 0d741135ffac72d1a19b5ec568c0d959acf63306. See
+[docs/ARTICLE_MAP.md](docs/ARTICLE_MAP.md) for the manuscript structure.
+The next aligned unit is author review of the editable copy and its claims
+about membership, coverage and external transfer. The earlier entries below
+record completed stages and their priorities at the time.
+
 **Latest completed unit — frozen transfer article supplement, 4 November 2026 UTC:**
 Read `source_transfer_study_20261104/README.md`, the checked four-page PDF,
 `transfer_methods.tex`, `transfer_results.tex` and the importable Overleaf ZIP.

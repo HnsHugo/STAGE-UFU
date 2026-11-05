@@ -1,5 +1,16 @@
 # Task 2 alignment — 27 October 2026
 
+**Current alignment — integrated manuscript, 5 November 2026 UTC**
+
+The review draft frames the paper around retrospective membership in the
+Coldcard core and frozen-model evaluation on the historical CryptoBilis
+source-linkage proxy. The introduction and conclusions describe the completed
+shallow tree. The related-work section distinguishes graph learning tasks by
+their prediction units. The two results sections keep their respective
+populations and label definitions. Device and compromise evidence are separate
+from source linkage, as are prior-prefix and full-current-history coverage.
+See [the article map](docs/ARTICLE_MAP.md) for author review.
+
 **Latest completed unit — frozen transfer article supplement, 4 November 2026 UTC:**
 Read `source_transfer_study_20261104/README.md`, the checked four-page PDF,
 `transfer_methods.tex`, `transfer_results.tex` and the importable Overleaf ZIP.
