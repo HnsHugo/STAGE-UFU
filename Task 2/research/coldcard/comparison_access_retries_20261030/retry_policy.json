@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "cryptobilis_prior_prefix_acquisition_closed",
+  "active_collection_scope": "coldcard_prior_prefix_32_page_extension",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -28,7 +28,7 @@
     "total_complete_prefixes": 329,
     "total_selection": 366
   },
-  "authorization": "Explicit user request: Continue \u00e0 relancer; preserve prior work.",
+  "authorization": "Explicit user request: Continue à relancer; preserve prior work.",
   "authorized_on": "2026-10-30",
   "automation_completion_audit_file": "reference_tail_continuation_20261102_1508/coverage_audit.json",
   "automation_completion_scope": "Pre-cutoff network continuation only; full-current-history statuses remain separate.",
@@ -49,15 +49,14 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-11-04T21:44:07.938722+00:00",
-    "finished_at": "2026-11-04T20:22:32.096129+00:00",
-    "owner": "cryptobilis_reference_prefix_20261104_201345",
-    "policy": "Running nonexpired lease prohibits every second collector and provider probe.",
-    "protocol": "../cryptobilis_reference_prefix_20261104_201345_protocol.json",
-    "protocol_sha256": "d0c8f5a32cc0a516894e0b228e1494fec0e6c0e9ecb4fe9aa8d19589b2bcb935",
-    "purpose": "All remaining 66 CryptoBilis prior-prefix sources in four bounded batches",
-    "started_at": "2026-11-04T20:14:07.938722+00:00",
-    "state": "idle"
+    "state": "running",
+    "owner": "source_prefix_extension_20261109_01",
+    "started_at": "2026-11-09T21:55:17.788Z",
+    "expires_at": "2026-11-09T23:55:17.788Z",
+    "protocol": "source_prefix_extension_20261109_01/protocol.json",
+    "protocol_sha256": "b40f433b8563e19851c2bde6cdf78957b9cc3e8269fcacb130f2b2e013a5903b",
+    "purpose": "New authorized 16-to-32-page extension of 20 previously bounded Coldcard prefixes; original scopes preserved",
+    "policy": "A running nonexpired lease or held local/historical lock prohibits another collector or probe"
   },
   "comparison_pre_cutoff_predictors_available": 878,
   "comparison_pre_cutoff_predictors_unavailable": 122,
@@ -181,5 +180,16 @@
   "schema_version": 1,
   "source_counter_checks_per_due_run": 1,
   "success_policy": "Continue only fixed latest error/unattempted IDs. Do not requery complete or bounded-incomplete histories. Every new retry pass pins all previous protocols/checkpoints/stops; no silent retry within a pass.",
-  "timezone": "America/Sao_Paulo"
+  "timezone": "America/Sao_Paulo",
+  "manual_coverage_workstream": {
+    "pass_name": "source_prefix_extension_20261109_01",
+    "protocol": "source_prefix_extension_20261109_01/protocol.json",
+    "status": "running",
+    "selected_sources": 20,
+    "previous_page_bound": 16,
+    "new_page_bound": 32,
+    "offline_responses_reused": 340,
+    "automation_enabled": false,
+    "original_closed_scopes_preserved": true
+  }
 }
