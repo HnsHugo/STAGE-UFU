@@ -1,0 +1,21 @@
+{
+  "all_scores_exact_after_correction": true,
+  "changed_leaf_probabilities": 2,
+  "corrected_model_sha256": "ef3c8405212cf60fe997af72ba6d9a73e5110aafd2d1aa936440346a67314ed7",
+  "correction_code_sha256": "752d70fff0ef30d124278275db4e09320272e3c6b7e608fff11cf1e72c862d43",
+  "decisions_changed": 0,
+  "errors_sha256": "667e44fcc2d8315477af6ff2282edfcd784325078e91b63d757e1d533bc4592a",
+  "initial_model_sha256": "352748b0add93c38a5ff13cdb5a241dcb7bafb10762eb92da1bc7eab91f34a02",
+  "initial_summary_sha256": "938b6dd5d4d31229af8449327eecfbc3d24ec5868c28391d14efb700a73981aa",
+  "maximum_absolute_probability_delta": 1.1102230246251565e-16,
+  "metrics_changed": false,
+  "model_fits": 0,
+  "original_probability_mismatches": 149,
+  "paths_changed": 0,
+  "predictions_sha256": "685750f867910ad4a2e754f470211397665f2c54b1797aff145a2cdb511168a4",
+  "provider_requests": 0,
+  "reason": "sklearn 1.8 predict_proba returns stored tree values directly; the initial exporter redundantly divided by their floating-point sum",
+  "schema_version": 1,
+  "scope": "Only exact saved estimator leaf probabilities replace renormalized exported leaf probabilities",
+  "training_and_test_predictions_preserved": true
+}

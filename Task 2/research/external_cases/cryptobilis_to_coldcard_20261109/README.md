@@ -1,5 +1,7 @@
 # CryptoBilis-to-Coldcard source-membership transfer
 
+[Completed results and verification](RESULTS.md) - prepared protocol and original code below.
+
 ## Prepared protocol, 9 November 2026
 
 This new experiment follows Hugo's reported supervision feedback. It uses
@@ -68,6 +70,7 @@ From the repository root, after the protocol commit is published:
 
 ```sh
 python "Task 2/research/external_cases/cryptobilis_to_coldcard_20261109/fit_model.py" "Task 2/research/external_cases/cryptobilis_to_coldcard_20261109/protocol.json" --repo-root . --published-protocol-commit PREPARED_COMMIT_SHA
+python "Task 2/research/external_cases/cryptobilis_to_coldcard_20261109/repair_export.py" "Task 2/research/external_cases/cryptobilis_to_coldcard_20261109/protocol.json" --repo-root .
 python "Task 2/research/external_cases/cryptobilis_to_coldcard_20261109/verify_results.py" "Task 2/research/external_cases/cryptobilis_to_coldcard_20261109/protocol.json" --repo-root .
 python -m unittest discover -s "Task 2/research/external_cases/cryptobilis_to_coldcard_20261109" -p "test_experiment.py"
 ```

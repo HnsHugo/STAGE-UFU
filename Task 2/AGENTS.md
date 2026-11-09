@@ -1,5 +1,42 @@
 # Task 2 working instructions
 
+**Latest completed unit - reverse transfer; first coverage extension prepared, 9 November 2026**
+
+The [CryptoBilis -> Coldcard experiment](research/external_cases/cryptobilis_to_coldcard_20261109/RESULTS.md)
+was prespecified and published before its single fit. Training uses 329 available
+CryptoBilis vectors; direction-specific quarantine leaves 1,066 Coldcard test
+vectors (499 cases / 567 comparisons). The result is 499 TP / 478 TN / 89 FP /
+0 FN: precision 0.848639, recall 1.000000, F1 0.918123, AP 0.937248 and AUC
+0.970537. Inactivity ranks higher (AP 0.955619). All 1,707 vectors recount and
+all 1,281 components rebuild. Seven scientific guard tests pass. Standard-library
+replay verifies 1,395 train/test scores, weighted node supports, medians, eight
+ranking metric sets and every error, without refitting. A documented export-only
+rounding correction preserves both initial exports and all predictions/metrics.
+This is reverse-time, inspected operational-membership transfer on a different
+eligible population, not a prospective or verified theft/device evaluation.
+All original model/data/cutoff/label artifacts and the forward result remain intact.
+
+The [new coverage scope](research/coldcard/source_prefix_extension_20261109_01/README.md)
+extends the first 20 fixed bounded Coldcard prefixes from 16 to at most 32 pages.
+Its 340 saved reference/page responses are verified for offline reuse against
+fingerprints, endpoint/cursor sequence and anchored input counts/values. All
+87 predecessor pins verify; all three required private CryptoBilis archives
+are verified/restored. Plans exist for all 159 gaps, with reusable 16-page tails
+for 29 Coldcard and 37 CryptoBilis sources. Five access guard tests pass.
+This preparation has made no provider request yet and adds no vector.
+
+Next: hold local/historical locks, check the live published lease and cooldown,
+publish/read back a new running lease, then make exactly one original-route
+counter GET for the first selected source. Only HTTP200 permits the bounded
+extension. Keep two workers, one global request start/second, 15s timeout,
+no internal retry/fallback and immediate 403/429 stop/backoff. Audit before
+publishing a new composed view; keep old full-current-history statuses separate.
+The old exhausted scopes/markers remain immutable and automation stays disabled.
+After coverage progress, recheck overlap before any updated-snapshot model work.
+Identify/freeze the third incident for pooled evaluation; graph/deep-learning
+versions remain the next main modeling axis and migration remains a separate hypothesis.
+This entry supersedes earlier next-unit entries while preserving their history.
+
 **Current research direction - Ivan feedback reported by Hugo, 9 November 2026**
 
 Read [the supervision update](docs/MEETING_FEEDBACK_20261109.md) and the

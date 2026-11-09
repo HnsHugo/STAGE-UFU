@@ -1,0 +1,125 @@
+{
+  "all_row_refits": 0,
+  "coverage": {
+    "all_available_vectors_recounted": true,
+    "available_vectors": 1707,
+    "component_partition_matches_published_audit": true,
+    "components": 1281,
+    "cross_incident_components": 4,
+    "prior_transaction_observations": {
+      "coldcard": 35323,
+      "cryptobilis": 8261
+    },
+    "selected": 1866,
+    "status_counts": {
+      "evaluation": {
+        "case": 499,
+        "comparison": 567
+      },
+      "excluded_bounded_incomplete": {
+        "case": 0,
+        "comparison": 159
+      },
+      "quarantined_training_link": {
+        "case": 1,
+        "comparison": 311
+      },
+      "training": {
+        "case": 122,
+        "comparison": 207
+      }
+    }
+  },
+  "errors_sha256": "667e44fcc2d8315477af6ff2282edfcd784325078e91b63d757e1d533bc4592a",
+  "export_correction_sha256": "9472750dedd3f8291b3234e13bfb3d42abba67b2c39c30836b284bada43bfba9",
+  "external_errors": 89,
+  "hyperparameter_searches": 0,
+  "initial_model_sha256": "352748b0add93c38a5ff13cdb5a241dcb7bafb10762eb92da1bc7eab91f34a02",
+  "initial_summary_sha256": "938b6dd5d4d31229af8449327eecfbc3d24ec5868c28391d14efb700a73981aa",
+  "limits": [
+    "Retrospective reverse-time operational membership transfer; both incidents previously inspected",
+    "122 Coldcard and 37 CryptoBilis bounded prefixes remain unavailable",
+    "312 complete Coldcard vectors quarantined on the evaluation side; observed links do not establish entity independence",
+    "Verified compromise, seed origin and signing-device labels remain unknown"
+  ],
+  "metrics": {
+    "coldcard_evaluation": {
+      "cases": 499,
+      "comparisons": 567,
+      "ranking": {
+        "prior_balance": {
+          "average_precision": 0.8471431329418406,
+          "roc_auc": 0.9375611893981967
+        },
+        "prior_inactivity": {
+          "average_precision": 0.9556192299825266,
+          "roc_auc": 0.9719686286152553
+        },
+        "training_prevalence_constant": {
+          "average_precision": 0.46810506566604126,
+          "roc_auc": 0.5
+        },
+        "tree": {
+          "average_precision": 0.9372480641936062,
+          "roc_auc": 0.9705371943180894
+        }
+      },
+      "rows": 1066,
+      "tree": {
+        "confusion_tn_fp_fn_tp": [
+          478,
+          89,
+          0,
+          499
+        ],
+        "f1": 0.9181232750689973,
+        "precision": 0.8486394557823129,
+        "recall": 1.0
+      }
+    },
+    "training_diagnostic": {
+      "cases": 122,
+      "comparisons": 207,
+      "ranking": {
+        "prior_balance": {
+          "average_precision": 0.7484644410051333,
+          "roc_auc": 0.8679021145165123
+        },
+        "prior_inactivity": {
+          "average_precision": 0.853983735889561,
+          "roc_auc": 0.963015759879623
+        },
+        "training_prevalence_constant": {
+          "average_precision": 0.3708206686930091,
+          "roc_auc": 0.5
+        },
+        "tree": {
+          "average_precision": 0.9720991607795092,
+          "roc_auc": 0.9897046012512869
+        }
+      },
+      "rows": 329,
+      "tree": {
+        "confusion_tn_fp_fn_tp": [
+          189,
+          18,
+          2,
+          120
+        ],
+        "f1": 0.9230769230769231,
+        "precision": 0.8695652173913043,
+        "recall": 0.9836065573770492
+      }
+    }
+  },
+  "model_fits": 1,
+  "model_sha256": "ef3c8405212cf60fe997af72ba6d9a73e5110aafd2d1aa936440346a67314ed7",
+  "predictions_sha256": "685750f867910ad4a2e754f470211397665f2c54b1797aff145a2cdb511168a4",
+  "preprocessing_fits": 1,
+  "protocol_sha256": "8ba47426864282918e7a2f1a593256cdf454cc7b74b7d0f23730d935cfe864df",
+  "provider_requests": 0,
+  "published_protocol_commit": "ce13503e5756b719684fbe46e86608c2ca7f8fa2",
+  "python": "3.12.14",
+  "schema_version": 1,
+  "threshold_searches": 0
+}

@@ -1,0 +1,161 @@
+{
+  "classes": [
+    0,
+    1
+  ],
+  "feature_names": [
+    "confirmed_tx_count",
+    "receipt_tx_count",
+    "spending_tx_count",
+    "received_output_count",
+    "spent_output_count",
+    "received_sat",
+    "spent_sat",
+    "balance_sat",
+    "unspent_output_count",
+    "active_block_count",
+    "activity_span_blocks",
+    "blocks_since_first_activity",
+    "blocks_since_last_activity",
+    "median_spending_tx_fee_rate_sat_vb",
+    "confirmed_tx_count__missing",
+    "receipt_tx_count__missing",
+    "spending_tx_count__missing",
+    "received_output_count__missing",
+    "spent_output_count__missing",
+    "received_sat__missing",
+    "spent_sat__missing",
+    "balance_sat__missing",
+    "unspent_output_count__missing",
+    "active_block_count__missing",
+    "activity_span_blocks__missing",
+    "blocks_since_first_activity__missing",
+    "blocks_since_last_activity__missing",
+    "median_spending_tx_fee_rate_sat_vb__missing"
+  ],
+  "input_dtype": "float32",
+  "medians": {
+    "active_block_count": 1,
+    "activity_span_blocks": 0,
+    "balance_sat": 1217000,
+    "blocks_since_first_activity": 6408,
+    "blocks_since_last_activity": 218,
+    "confirmed_tx_count": 1,
+    "median_spending_tx_fee_rate_sat_vb": 2.279012113224126,
+    "receipt_tx_count": 1,
+    "received_output_count": 1,
+    "received_sat": 4348389,
+    "spending_tx_count": 0,
+    "spent_output_count": 0,
+    "spent_sat": 0,
+    "unspent_output_count": 1
+  },
+  "nodes": [
+    {
+      "feature_index": 12,
+      "left": 1,
+      "node_id": 0,
+      "positive_probability": 0.4999999999999998,
+      "right": 4,
+      "sample_count": 329,
+      "threshold": 951.0,
+      "weighted_sample_count": 328.9999999999991
+    },
+    {
+      "feature_index": 7,
+      "left": 2,
+      "node_id": 1,
+      "positive_probability": 0.01763803680981592,
+      "right": 3,
+      "sample_count": 191,
+      "threshold": 9393310.0,
+      "weighted_sample_count": 152.89237348538876
+    },
+    {
+      "feature_index": -2,
+      "left": -1,
+      "node_id": 2,
+      "positive_probability": 0.0,
+      "right": -1,
+      "sample_count": 171,
+      "threshold": -2.0,
+      "weighted_sample_count": 135.89130434782635
+    },
+    {
+      "feature_index": -2,
+      "left": -1,
+      "node_id": 3,
+      "positive_probability": 0.1586206896551724,
+      "right": -1,
+      "sample_count": 20,
+      "threshold": -2.0,
+      "weighted_sample_count": 17.001069137562368
+    },
+    {
+      "feature_index": 7,
+      "left": 5,
+      "node_id": 4,
+      "positive_probability": 0.9187749667110521,
+      "right": 6,
+      "sample_count": 138,
+      "threshold": 646364.5,
+      "weighted_sample_count": 176.10762651461178
+    },
+    {
+      "feature_index": -2,
+      "left": -1,
+      "node_id": 5,
+      "positive_probability": 0.5307692307692308,
+      "right": -1,
+      "sample_count": 20,
+      "threshold": -2.0,
+      "weighted_sample_count": 20.32311712995961
+    },
+    {
+      "feature_index": 12,
+      "left": 7,
+      "node_id": 6,
+      "positive_probability": 0.9693928750627195,
+      "right": 8,
+      "sample_count": 118,
+      "threshold": 3909.0,
+      "weighted_sample_count": 155.78450938465213
+    },
+    {
+      "feature_index": -2,
+      "left": -1,
+      "node_id": 7,
+      "positive_probability": 0.8593173431734318,
+      "right": -1,
+      "sample_count": 23,
+      "threshold": -2.0,
+      "weighted_sample_count": 28.243921754969502
+    },
+    {
+      "feature_index": -2,
+      "left": -1,
+      "node_id": 8,
+      "positive_probability": 0.9937691521961185,
+      "right": -1,
+      "sample_count": 95,
+      "threshold": -2.0,
+      "weighted_sample_count": 127.54058762968258
+    }
+  ],
+  "params": {
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": 3,
+    "max_features": null,
+    "min_samples_leaf": 20,
+    "min_samples_split": 2,
+    "random_state": 42,
+    "splitter": "best"
+  },
+  "schema_version": 1,
+  "score_meaning": "Class-balanced training leaf proportion; not a calibrated theft/device probability",
+  "threshold": 0.5,
+  "training_cases": 122,
+  "training_rows": 329
+}

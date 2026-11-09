@@ -1,0 +1,32 @@
+{
+  "coverage_completeness_claim": false,
+  "datasets": {
+    "coldcard": {
+      "bounded_prefixes": 122,
+      "private_plans_found": 122,
+      "verified_16_page_tails_available": 29
+    },
+    "cryptobilis": {
+      "bounded_prefixes": 37,
+      "private_plans_found": 37,
+      "verified_16_page_tails_available": 37
+    }
+  },
+  "exact_exhaustion_cost_known": false,
+  "first_batch_request_budget": {
+    "fresh_reference_statuses_at_most": 20,
+    "funding_status_gets_at_most": 32,
+    "new_tail_pages_at_most": 320,
+    "ordinary_counter_gets": 1
+  },
+  "first_batch_saved_responses_reused": 340,
+  "first_batch_sources": 20,
+  "model_fits": 0,
+  "note": "The old 953129-page whole-current-history estimate describes an earlier different scope; it is not the measured cost of these 159 prior prefixes.",
+  "predecessor_input_pins_verified": 87,
+  "provider_requests": 0,
+  "required_cryptobilis_archives_verified": 3,
+  "restored_cache_work_files": 5272,
+  "schema_version": 1,
+  "scope": "Offline capacity and verified saved-response reuse before a new provider probe"
+}
