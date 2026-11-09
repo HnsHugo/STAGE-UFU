@@ -1,5 +1,17 @@
 # New coverage extension beyond the exhausted 16-page prefixes
 
+**Completed extension — 9 November 2026 UTC:** All 20 selected sources finalized
+without refusal or error: 316 new HTTP200 responses and 340 verified offline
+responses. Four new complete prefixes and 16 bounded-at-32-page results pass
+raw-tail/feature audits and independent export verification. Read
+[RESULTS.md](RESULTS.md), [coverage_audit.json](coverage_audit.json),
+[independent_verification.json](independent_verification.json) and the closed
+[resume checkpoint](resume_checkpoint.json). The composed schema-v2 view has
+1,382 Coldcard vectors; 118 Coldcard and 37 CryptoBilis prefixes remain incomplete.
+All old rows, evidence, labels and full-current-history statuses are preserved.
+Private evidence is saved with verified fingerprints. Lease released; automation
+disabled. Earlier preparation text below records the state before the run.
+
 Prepared 9 November 2026 after Hugo authorized beginning the supervision update.
 This is a new coverage scope, not a restart of a refused or exhausted old pass.
 The old 122 Coldcard and 37 CryptoBilis bounded outcomes remain preserved.

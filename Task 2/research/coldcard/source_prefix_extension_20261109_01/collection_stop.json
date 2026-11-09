@@ -1,0 +1,21 @@
+{
+  "all_operational_locks_released": true,
+  "automatic_retry_performed": false,
+  "automation_enabled": false,
+  "bounded_incomplete": 16,
+  "finalized": 20,
+  "finished_at": "2026-11-09T22:00:46.194175+00:00",
+  "first_refusal_status": null,
+  "full_history_statuses_not_promoted": true,
+  "network_pending": 0,
+  "new_complete_prefixes": 4,
+  "old_successful_responses_reused": 340,
+  "pass_name": "source_prefix_extension_20261109_01",
+  "provider_requests": 316,
+  "reason": "All 20 selected sources finalized within the new 32-page bound",
+  "retry_after": null,
+  "schema_version": 1,
+  "selected": 20,
+  "status": "normal_bounded_scope_finished",
+  "successful_provider_requests": 316
+}

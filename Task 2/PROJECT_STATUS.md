@@ -1,5 +1,39 @@
 # Project status — 2 November 2026
 
+**Latest completed unit - audited coverage extension and reverse transfer, 9 November 2026**
+
+The [20-source coverage extension](research/coldcard/source_prefix_extension_20261109_01/RESULTS.md)
+finished with 316 fresh HTTP200 responses and 340 verified saved responses,
+without refusals or internal retries. Four new complete pre-cutoff vectors and
+16 bounded-at-32-page outcomes pass the response/raw-tail audit and independent
+export verification. All 1,378 old Coldcard vectors are preserved. The new
+schema-v2 view has 1,382 Coldcard vectors (500 case / 882 comparison), with 118
+bounded prefixes. CryptoBilis stays 329/366, with 37 bounded prefixes: 1,711/1,866
+vectors overall and 155 remaining information gaps. Full-current-history status
+remains separate: 500 Coldcard cases and 864 comparisons complete, 136 comparisons
+incomplete; external full-current histories were not collected. The 14 definitions,
+strict cutoffs and unknown labels are unchanged. All old results/failed markers
+are preserved. The private backup verifies 4,419 evidence files. The collector
+lease is idle and automation stays disabled. The closed scope has zero
+network/unattempted IDs; do not rerun it. Read its latest resume and all pins.
+
+The frozen [CryptoBilis -> Coldcard experiment](research/external_cases/cryptobilis_to_coldcard_20261109/RESULTS.md)
+is published and independently verified: one prespecified fit on 329 CryptoBilis
+vectors; 1,066 eligible Coldcard rows, TP 499 / TN 478 / FP 89 / FN 0, F1 0.918123.
+Inactivity has higher AP than the tree. Both transfer studies keep their original
+populations and scores, excluding the four later coverage additions. Reverse
+transfer is retrospective and both targets are source-membership proxies;
+verified theft and hardware identity remain unknown.
+
+Next executable unit: restore and verify any additional saved Coldcard continuation
+pages, then specify a distinct bounded successor for the next unextended IDs.
+Respect live lease/locks, original route/TLS, cooldown and first-refusal stop.
+Do not repeat complete prefixes or consumed old markers. Recheck overlap before
+updated-snapshot modeling. Select/freeze a separate third incident before a
+pooled test; graph/deep-learning versions of the same cohorts remain the main
+subsequent modeling axis. Exchange migration is an untested pre/post hypothesis.
+This entry supersedes earlier next-unit entries while preserving their text.
+
 **Latest completed unit - reverse transfer; first coverage extension prepared, 9 November 2026**
 
 The [CryptoBilis -> Coldcard experiment](research/external_cases/cryptobilis_to_coldcard_20261109/RESULTS.md)

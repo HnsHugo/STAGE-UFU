@@ -1,0 +1,83 @@
+{
+  "bytes": 999688962,
+  "cache_scope": "Four preserved Coldcard predecessor work folders plus the stopped new extension",
+  "file_name": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+  "operational_flags_excluded": true,
+  "parts": [
+    {
+      "bytes": 400000000,
+      "file_name": "coldcard-prefix-extension-private-20261109-01.tar.gz.part01",
+      "sha256": "544a1fb78f3d8845c4b63d50b8e951ed7a7e8ad9a3141bfb594f717484131813"
+    },
+    {
+      "bytes": 400000000,
+      "file_name": "coldcard-prefix-extension-private-20261109-01.tar.gz.part02",
+      "sha256": "3492f40566a35ca8603ee95e090e335dde2806726dfc96ad0f4f2468e325fb8d"
+    },
+    {
+      "bytes": 199688962,
+      "file_name": "coldcard-prefix-extension-private-20261109-01.tar.gz.part03",
+      "sha256": "1f396a1b1fd6bd84be7d2976603857778b611a79df73f0c8ac2843782e57760b"
+    }
+  ],
+  "private": true,
+  "private_files_verified": 4419,
+  "public_repository_contains_no_raw_caches": true,
+  "required_cryptobilis_archives": [
+    {
+      "backup_metadata_pin": {
+        "file": "external_cases/cryptobilis_reference_prefix_20261104_161406/private_cache_backup.json",
+        "sha256": "a4132e0d50644e2f5884cf4e67dffa592659829b3d2fd47ae50cbbd1018417cb"
+      },
+      "bytes": 375099347,
+      "file_name": "cryptobilis-private-caches-20261104-161406.tar.gz",
+      "sha256": "372f0806d0fa69d91f3e9f17f06b4cfc8448e84c17a71944fa3ed0abeb89d0f7",
+      "source_directories": [
+        "source_collection_work_cryptobilis_reference_prefix_20261103_003012",
+        "source_collection_work_cryptobilis_reference_prefix_20261104_161406",
+        "source_collection_work_cryptobilis_source_selection_20261103_002428"
+      ]
+    },
+    {
+      "bytes": 333177600,
+      "cache_scope": "current_pass_delta",
+      "file_name": "cryptobilis-private-caches-20261104-182708-delta.tar.gz",
+      "sha256": "b8d3d96f1a97e754f349ea60c771716af709d68e5b0241ad5d4e8219543560b5",
+      "source_directories": [
+        "source_collection_work_cryptobilis_reference_prefix_20261104_182708"
+      ]
+    },
+    {
+      "bytes": 50165671,
+      "cache_scope": "current_pass_delta",
+      "file_name": "cryptobilis-private-caches-20261104-201345-delta.tar.gz",
+      "sha256": "5b2973546c189cdc96da3a0e4f83cd139d459e41a9b6d7ed10b86229980f9873",
+      "source_directories": [
+        "source_collection_work_cryptobilis_reference_prefix_20261104_201345"
+      ]
+    }
+  ],
+  "restore_archive": "Concatenate part01, part02 and part03 byte-for-byte, verify combined SHA256, then verify every PRIVATE_CACHE_MANIFEST.json entry before using saved responses.",
+  "restore_policy": "Concatenate parts in numeric order; verify combined hash and all 4,419 file fingerprints. Restore to a fresh workspace, preserving existing results. Restore CryptoBilis predecessor archives as separate immutable layers in declared order. Never restore old operational flags. Require fresh locks, due live policy and a published lease before provider HTTP.",
+  "saved_parts": [
+    {
+      "bytes": 400000000,
+      "file_name": "coldcard-prefix-extension-private-20261109-01.tar.gz.part01",
+      "local_metadata_applied": true
+    },
+    {
+      "bytes": 400000000,
+      "file_name": "coldcard-prefix-extension-private-20261109-01.tar.gz.part02",
+      "local_metadata_applied": true
+    },
+    {
+      "bytes": 199688962,
+      "file_name": "coldcard-prefix-extension-private-20261109-01.tar.gz.part03",
+      "local_metadata_applied": true
+    }
+  ],
+  "saved_privately": true,
+  "schema_version": 1,
+  "sha256": "903ca42a1086d9dc954f2d04f64c69517d729215ce4fdadde86f2a11e689b6de",
+  "source_files_unchanged": true
+}
