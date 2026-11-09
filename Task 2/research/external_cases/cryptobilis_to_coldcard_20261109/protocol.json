@@ -1,0 +1,58 @@
+{
+  "classification_threshold": 0.5,
+  "comparators": [
+    "training_prevalence_constant",
+    "descending_prior_inactivity",
+    "descending_prior_balance"
+  ],
+  "cutoff": "Every transaction height strictly below each frozen reference block",
+  "eligibility_manifest": "eligibility_manifest.json",
+  "eligibility_manifest_sha256": "1ca936a3302ee40f0760c2a47cb6555c53090d9710a110e7650d22e7ecf95e2a",
+  "evaluation_incident": "coldcard",
+  "experiment_code": "experiment.py",
+  "experiment_code_sha256": "9c24a65eef46525b56a5431468cfa3ea7e37caec44f3520da590e7fec1ceec11",
+  "fit_code": "fit_model.py",
+  "fit_code_sha256": "41ecc769edec8966c23803dd2071415f3f5a11ea8b5cc9a36ba120197a9a9455",
+  "independent_verifier": "verify_results.py",
+  "independent_verifier_sha256": "7f93bcecedfc6f24cc95c8354528f259dc7ffdd4591a815ead9815fdd6c460e5",
+  "metrics": [
+    "precision",
+    "recall",
+    "f1",
+    "average_precision",
+    "roc_auc",
+    "confusion_counts"
+  ],
+  "minimum_class_support": 20,
+  "model": {
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": 3,
+    "max_features": null,
+    "min_samples_leaf": 20,
+    "min_samples_split": 2,
+    "random_state": 42,
+    "splitter": "best"
+  },
+  "model_fits_before_publication": 0,
+  "overlap_policy": "All selected CryptoBilis sources contribute known links; quarantine entire cross-incident components on the Coldcard evaluation side",
+  "preflight": "preflight.json",
+  "preflight_sha256": "7ea16ea61569c2cb1550a1e0d25448db91bee10697f1800db920ac654b776ddc",
+  "preprocessing": "14 numeric fields, train-only medians and 14 fixed missing indicators; zero only for an entirely missing training column",
+  "provider_requests": 0,
+  "scores_computed_before_publication": 0,
+  "settings": "settings.json",
+  "settings_sha256": "b50bf165b18ee8adcaf55a400e3176c161d47dfa9318f239610ac9475506c4ae",
+  "software": {
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0"
+  },
+  "target": "Retrospective incident-source membership with incident-specific operational labels",
+  "time_direction": "October-to-July reverse-time exploratory transfer; no prospective/untouched claim",
+  "training_incident": "cryptobilis",
+  "unavailable_policy": "Retain null prefixes without replacement or fabricated vectors",
+  "unknown_verified_labels_preserved": true,
+  "validation": "No internal split or model selection; parameters and threshold fixed before fit; all 329 available CryptoBilis vectors fit once"
+}

@@ -1,0 +1,126 @@
+{
+  "created_on": "2026-11-09",
+  "development_checkpoints": {
+    "case_recovery": "development_checkpoint_0",
+    "comparison_extended_20261031_164508": "development_checkpoint_6",
+    "comparison_retry_20261030_1841": "development_checkpoint_3",
+    "comparison_retry_20261030_2133": "development_checkpoint_4",
+    "comparison_retry_20261031_0300": "development_checkpoint_5",
+    "initial": "development_checkpoint_1",
+    "network_recovery": "development_checkpoint_2",
+    "reference_tail_continuation_20261101_0653": "development_checkpoint_8",
+    "reference_tail_continuation_20261102_1508": "development_checkpoint_9",
+    "reference_tail_coverage_20261031_221432": "development_checkpoint_7"
+  },
+  "external_checkpoints": {
+    "cryptobilis_reference_prefix_20261103_003012": {
+      "checkpoint": "external_checkpoint_0",
+      "protocol": "external_protocol_0"
+    },
+    "cryptobilis_reference_prefix_20261104_161406": {
+      "checkpoint": "external_checkpoint_1",
+      "protocol": "external_protocol_1"
+    },
+    "cryptobilis_reference_prefix_20261104_182708": {
+      "checkpoint": "external_checkpoint_2",
+      "protocol": "external_protocol_2"
+    },
+    "cryptobilis_reference_prefix_20261104_201345": {
+      "checkpoint": "external_checkpoint_3",
+      "protocol": "external_protocol_3"
+    }
+  },
+  "input_commit": "8acbbd61553b1223e382a13da236009067beaa6e",
+  "inputs": {
+    "coldcard_view": {
+      "file": "Task 2/research/coldcard/reference_tail_continuation_20261102_1508/precutoff_feature_view.json.gz",
+      "sha256": "a96aac7555150122e08dfab2a5d70773df31a28869a52f91cc75a5e12ebe29ab"
+    },
+    "development_checkpoint_0": {
+      "file": "Task 2/research/coldcard/source_cohort_recovery_20261029/batch_0002/checkpoint.json",
+      "sha256": "a78ad7367c43102fd5b4d80d9fc8f1d8300ea205f520f59f2847029d7cced944"
+    },
+    "development_checkpoint_1": {
+      "file": "Task 2/research/coldcard/comparison_histories_20261030/checkpoint.json.gz",
+      "sha256": "ff6cfc70756486bbd2546cf23395ebc0402f8ac9998ce904a5befbc8867f3c44"
+    },
+    "development_checkpoint_2": {
+      "file": "Task 2/research/coldcard/comparison_network_recovery_20261030/checkpoint.json.gz",
+      "sha256": "05c63262b171f32e042f7de371ecc160b5fa6136e9b42d68a5788a47f34165ec"
+    },
+    "development_checkpoint_3": {
+      "file": "Task 2/research/coldcard/comparison_retry_20261030_1841/checkpoint.json.gz",
+      "sha256": "0b5c056660999d137a4986a9f39f522d3876c7915ffcb3fbf59e804f83b7e705"
+    },
+    "development_checkpoint_4": {
+      "file": "Task 2/research/coldcard/comparison_retry_20261030_2133/checkpoint.json.gz",
+      "sha256": "1ad6e0de7630bc93cc4a285502b78b507cd12edaa600b33a4c5514130e30760b"
+    },
+    "development_checkpoint_5": {
+      "file": "Task 2/research/coldcard/comparison_retry_20261031_0300/checkpoint.json.gz",
+      "sha256": "538fc325236877c97ae9a5c8ed499995f2dcd341f75589bf788ac569ac9db7b4"
+    },
+    "development_checkpoint_6": {
+      "file": "Task 2/research/coldcard/comparison_extended_20261031_164508/checkpoint.json.gz",
+      "sha256": "1776a79b06fe4415b2402ec09ba2b9d59797159559af9a319f8ab8713f405eea"
+    },
+    "development_checkpoint_7": {
+      "file": "Task 2/research/coldcard/reference_tail_coverage_20261031_221432/checkpoint.json.gz",
+      "sha256": "8b89befd7a93416227a8faed25287f1825b21f256210f5c4e39e3f32f89e5f65"
+    },
+    "development_checkpoint_8": {
+      "file": "Task 2/research/coldcard/reference_tail_continuation_20261101_0653/checkpoint.json.gz",
+      "sha256": "18b48c8f6d47cc7e59b74ec8436da83d37a11d1eebf975c748c55832fed13114"
+    },
+    "development_checkpoint_9": {
+      "file": "Task 2/research/coldcard/reference_tail_continuation_20261102_1508/checkpoint.json.gz",
+      "sha256": "d55395ee81c08f4c9c51020ea930df3d26343acb5472516b1d76fd7f79ee9284"
+    },
+    "external_checkpoint_0": {
+      "file": "Task 2/research/external_cases/cryptobilis_reference_prefix_20261103_003012/checkpoint.json.gz",
+      "sha256": "bdd3c7cbaea088f9537ae25b540c045ed744b925bfa4cb6786a22fc8df7f3be6"
+    },
+    "external_checkpoint_1": {
+      "file": "Task 2/research/external_cases/cryptobilis_reference_prefix_20261104_161406/checkpoint.json.gz",
+      "sha256": "620a28840d324b5519f46a2729791942d775896bf2099e7a60a58a7c0e5bfc67"
+    },
+    "external_checkpoint_2": {
+      "file": "Task 2/research/external_cases/cryptobilis_reference_prefix_20261104_182708/checkpoint.json.gz",
+      "sha256": "2cc26fa0312bf0d661d72eabed736b0681fdfc4770d9849b809fcdd6b0a9ea1f"
+    },
+    "external_checkpoint_3": {
+      "file": "Task 2/research/external_cases/cryptobilis_reference_prefix_20261104_201345/checkpoint.json.gz",
+      "sha256": "7aca83af616beda53ba3d44aa6f00546c2237b09392c6fabf0a0b7a099250bc4"
+    },
+    "external_view": {
+      "file": "Task 2/research/external_cases/cryptobilis_reference_prefix_20261104_201345/precutoff_feature_view.json.gz",
+      "sha256": "1e5ddf726ae40caffd9ebcb8113f748dace0a6b6c5df708d80cf1686371eb87e"
+    },
+    "overlap_evidence": {
+      "file": "Task 2/research/external_cases/cryptobilis_overlap_20261104_205032/overlap_evidence.json.gz",
+      "sha256": "dc1a0f13dfaffce4a63372621c4a299f62889eb40aba1506a2e3744c73470309"
+    }
+  },
+  "model": {
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": 3,
+    "max_features": null,
+    "min_samples_leaf": 20,
+    "min_samples_split": 2,
+    "random_state": 42,
+    "splitter": "best"
+  },
+  "requirement": "Hugo-authorized reverse incident transfer on the current available snapshot",
+  "schema_version": 1,
+  "target_fields": {
+    "coldcard": "known_coldcard_core_membership",
+    "cryptobilis": "cryptobilis_reference_source_membership"
+  },
+  "unknown_label_fields": [
+    "independently_verified_compromise",
+    "hardware_signing_at_event",
+    "independently_verified_seed_origin"
+  ]
+}
