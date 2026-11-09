@@ -49,14 +49,18 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "state": "running",
-    "owner": "source_prefix_extension_20261109_01",
+    "state": "idle",
+    "owner": null,
     "started_at": "2026-11-09T21:55:17.788Z",
-    "expires_at": "2026-11-09T23:55:17.788Z",
+    "expires_at": null,
     "protocol": "source_prefix_extension_20261109_01/protocol.json",
     "protocol_sha256": "b40f433b8563e19851c2bde6cdf78957b9cc3e8269fcacb130f2b2e013a5903b",
     "purpose": "New authorized 16-to-32-page extension of 20 previously bounded Coldcard prefixes; original scopes preserved",
-    "policy": "A running nonexpired lease or held local/historical lock prohibits another collector or probe"
+    "policy": "A running nonexpired lease or held local/historical lock prohibits another collector or probe",
+    "last_owner": "source_prefix_extension_20261109_01",
+    "finished_at": "2026-11-09T22:03:09.329363+00:00",
+    "stop_status": "bounded_run_finished_audit_passed",
+    "operational_locks_released": true
   },
   "comparison_pre_cutoff_predictors_available": 878,
   "comparison_pre_cutoff_predictors_unavailable": 122,
@@ -184,12 +188,19 @@
   "manual_coverage_workstream": {
     "pass_name": "source_prefix_extension_20261109_01",
     "protocol": "source_prefix_extension_20261109_01/protocol.json",
-    "status": "running",
+    "status": "bounded_run_finished_audit_passed",
     "selected_sources": 20,
     "previous_page_bound": 16,
     "new_page_bound": 32,
     "offline_responses_reused": 340,
     "automation_enabled": false,
-    "original_closed_scopes_preserved": true
+    "original_closed_scopes_preserved": true,
+    "finalized_sources": 20,
+    "new_complete_prefixes": 4,
+    "bounded_incomplete_sources": 16,
+    "network_pending_sources": 0,
+    "provider_requests": 316,
+    "successful_network_responses": 316,
+    "lease_released_at": "2026-11-09T22:03:09.329363+00:00"
   }
 }
