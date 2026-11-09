@@ -1,5 +1,34 @@
 # Project status — 2 November 2026
 
+**Latest completed unit - new supervision alignment and offline coverage inventory, 9 November 2026**
+
+Hugo reported Ivan's emphasis on complete coverage, cross-incident and pooled
+training experiments, graph representations/deep learning, and a possible
+pre/post-Coldcard exchange-usage break. [The recorded direction](docs/MEETING_FEEDBACK_20261109.md)
+follows Hugo's preferred order: bounded current-table experiments, graph/GNN
+versions of the same cohorts, then the migration hypothesis; coverage work
+starts immediately and remains visible throughout.
+
+The [reproducible offline inventory](research/source_coverage_review_20261109/README.md)
+pins commit 04aae8dd928241fc422fb9bf47e5fae3f1c20bd9. It checks all 1,866
+selected records and the two schema-v2 views: 1,707 available vectors and 159
+bounded-incomplete comparisons (Coldcard 1,378/1,500; CryptoBilis 329/366).
+The exact gap IDs match the stopped checkpoints, both old network ID lists
+are empty, and the 54 complete overlap-quarantined CryptoBilis vectors remain
+a separate exclusion. All 14 fields, unknown verified labels, prefix/current-
+history distinctions and original results are preserved. No new provider
+request, fit, score, graph dataset or migration finding is produced here.
+Historical collector automation remains disabled and its policy is unchanged.
+
+Next: diagnose the exact bounded prefixes and cache availability, specify a
+new resumable coverage extension with capacity estimates, and prespecify the
+reverse CryptoBilis -> Coldcard table experiment. The existing forward frozen
+result is retained. Identify/freeze a third independent incident for pooled
+training evaluation. Then prioritize graph/deep-learning transfer experiments;
+retain tabular models as baselines. The before/after migration question needs
+its own time-valid attribution, comparison cohort and observational design.
+This direction supersedes the older manuscript-review-only next priority.
+
 **Latest completed unit — integrated manuscript for review, 5 November 2026 UTC**
 
 A separate editable copy of the supplied Overleaf export now integrates the

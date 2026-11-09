@@ -1,5 +1,41 @@
 # Task 2 working instructions
 
+**Current research direction - Ivan feedback reported by Hugo, 9 November 2026**
+
+Read [the supervision update](docs/MEETING_FEEDBACK_20261109.md) and the
+[offline coverage inventory](research/source_coverage_review_20261109/README.md).
+Hugo's main explanation takes precedence over his shorthand notes. Prioritize
+completion of selected-source coverage; finish a bounded set of tabular
+cross-incident experiments (Coldcard -> CryptoBilis, reverse transfer, and pooled
+training -> a third incident); then build graph versions of the same cohorts
+and repeat those experiments with deep learning as the main modeling axis.
+Finally investigate a possible pre/post-Coldcard change in exchange-directed
+activity as a hypothesis. Tree/forest/inactivity remain comparative baselines.
+The third incident, exact GNN architecture and migration result are not yet established.
+
+The pinned public exports have 1,378/1,500 Coldcard vectors and 329/366
+CryptoBilis vectors: 122 + 37 bounded-incomplete comparison prefixes. Both old
+network continuations are exhausted. This feedback authorizes a new coverage
+workstream; it does not restart old passes or enable old automations. Pin a
+new scope/capacity estimate, reuse verified caches, respect lease/locks,
+Retry-After/backoff and original route/TLS, and preserve every old result.
+Never replace missing addresses or treat an incomplete prefix as a full vector.
+
+Immediate next executable unit: diagnose those exact 159 prefixes and specify
+a new resumable coverage extension, alongside a prespecified CryptoBilis ->
+Coldcard experiment on the current snapshot. Recompute direction-specific
+eligibility and keep linked groups separate; October -> July is retrospective
+reverse-time transfer. Freeze a genuinely separate third incident before its
+test is used. All new experiments use distinct outputs and explicit proxy
+labels/cutoffs; device/compromise labels remain unknown. Graph message passing
+must respect each target's strict pre-reference cutoff across all hops.
+The migration study needs time-valid exchange/source attribution and must
+separate attacker flows from any proposed owner behavior change.
+
+This entry supersedes older next-priority entries below. Historical model/data
+artifacts, manuscript copies, metrics and completed collection scopes remain
+preserved. This update performed an offline inventory, not collection or fitting.
+
 **Current article baseline — integrated review copy, 5 November 2026 UTC**
 
 The review copy integrates the two pinned source-membership studies from

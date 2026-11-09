@@ -1,5 +1,39 @@
 # Task 2 alignment — 27 October 2026
 
+**Current alignment - Ivan feedback reported by Hugo, 9 November 2026**
+
+[The supervision update](docs/MEETING_FEEDBACK_20261109.md) is the current
+research direction. Hugo's main explanation takes precedence over the shorthand
+notes. Ivan's requests are recorded as user-reported feedback, not invented
+verbatim quotations. Follow this order while keeping coverage work active:
+
+1. Complete the missing selected-source information and finish bounded table
+   transfer experiments: Coldcard -> CryptoBilis, CryptoBilis -> Coldcard,
+   and Coldcard + CryptoBilis -> a separately selected third incident.
+2. Represent the same cohorts as observed address/transaction graphs, with
+   explicit neighborhood coverage, UTXO/value/time relations and per-target
+   strict cutoffs; repeat the transfer matrix using deep learning as the main
+   modeling axis. Tree/forest/inactivity are comparative baselines.
+3. Test whether exchange-directed behavior changes around Coldcard, with a
+   separate pre/post design, time-valid attribution and a comparison cohort.
+   Hardware-to-exchange migration and incident causation remain hypotheses.
+
+The [offline coverage inventory](research/source_coverage_review_20261109/README.md)
+confirms 122 Coldcard and 37 CryptoBilis bounded-incomplete prefixes. The old
+network continuations remain exhausted; new coverage requires a distinct
+resumable scope and the unchanged access safeguards. Preserve the 1,707 existing
+vectors, fixed selections, unknown labels, historical models and results.
+Current-snapshot exploratory results must report selection/overlap attrition;
+extended coverage and numerical feature audits are separate deliverables.
+
+Immediate next unit: exact-gap/cache diagnosis and a capacity-aware coverage
+extension specification, plus the reverse-transfer experiment protocol.
+Prevent cross-incident fitting/evaluation leakage and future graph edges.
+CryptoBilis -> Coldcard is reverse-time retrospective transfer; a third
+collector in the same incident cannot serve as the independent third test.
+The old observed-membership proxy is not a verified device/compromise label.
+This entry supersedes older next-priority entries without rewriting history.
+
 **Current alignment — integrated manuscript, 5 November 2026 UTC**
 
 The review draft frames the paper around retrospective membership in the
