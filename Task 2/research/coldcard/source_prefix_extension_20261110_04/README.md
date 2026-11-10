@@ -1,5 +1,7 @@
 # Continue the nine 64-page histories toward the next checkpoint
 
+**Completed and verified:** Five more complete histories in this checkpoint; eleven of the original fifteen completed across the two layers. Four retain their 96-page evidence and continuation queue. Read [RESULTS.md](RESULTS.md). Earlier preparation text below is historical.
+
 The preceding verified and saved checkpoint completed six of the fifteen
 originally partial histories. This distinct successor selects exactly its
 **nine remaining incomplete sources**. No complete address is collected again.

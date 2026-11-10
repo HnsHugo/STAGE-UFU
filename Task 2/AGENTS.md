@@ -1,5 +1,28 @@
 # Task 2 working instructions
 
+**Latest completed units - eleven progressive-coverage vectors, 10 November 2026**
+
+[Two verified checkpoints](research/coldcard/source_prefix_extension_20261110_04/RESULTS.md)
+continued the fifteen recent 32-page histories: six completed by the 64-page
+checkpoint and five further histories by 96 pages. Four retain their evidence
+and continuation queue. The two scopes made 564 fresh HTTP200 requests, reusing
+495 and 585 saved responses respectively without replaying old tail pages.
+Both raw and independent export audits pass; all eleven new vectors recount,
+all old rows are preserved, and seventeen focused tests pass. Coldcard now has
+1,398 vectors (500 case / 898 comparison), CryptoBilis stays 329/366, and 139
+information gaps remain. Full-current histories, fourteen definitions, cutoffs,
+unknown labels and all old models/scores are unchanged. No fit or score ran.
+The two-layer reconciliation counts the fifteen original sources once.
+
+The four retained 96-page sources are comparison_0157, comparison_0176,
+comparison_0185 and comparison_0230. Next: use a distinct pinned continuation
+(suggested work checkpoint 128), reusing all validated pages and retaining null
+features until exhaustion. Preserve the sixteen older 32-page outcomes and 82
+unextended Coldcard IDs. Keep live lease/locks/cooldown, original transport and
+first-refusal stop. Recheck overlap before updated-snapshot modeling. Collection
+is finished, the lease is idle, locks are free and automation remains disabled.
+This entry supersedes older next-unit suggestions while preserving their evidence.
+
 **Latest verified checkpoint - six deeper-prefix vectors, 10 November 2026**
 
 [The 64-page continuation](research/coldcard/source_prefix_extension_20261110_03/RESULTS.md)

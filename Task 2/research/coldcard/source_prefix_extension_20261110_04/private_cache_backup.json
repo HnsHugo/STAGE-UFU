@@ -1,0 +1,26 @@
+{
+  "bytes": 53573965,
+  "contains_both_current_checkpoint_layers": true,
+  "file_name": "coldcard-prefix-extension-private-20261110-96.tar.gz",
+  "included_previous_checkpoint_archive": {
+    "bytes": 30952931,
+    "file_name": "coldcard-prefix-extension-private-20261110-03.tar.gz",
+    "sha256": "ffb0abc3ea5736f4f6f5a18a81a3334fbe5e66f62ac5190a1a94c76e2874d487"
+  },
+  "operational_flags_excluded": true,
+  "private": true,
+  "private_files_verified": 3344,
+  "public_repository_contains_no_raw_caches": true,
+  "required_predecessor_archive": {
+    "bytes": 56451037,
+    "file_name": "coldcard-prefix-extension-private-20261110-final.tar.gz",
+    "sha256": "6d3a739e230d23646e75a98520760d47b03a40b2204ef3e1c4bd84f735e08aae"
+  },
+  "saved_privately": false,
+  "schema_version": 1,
+  "sha256": "fb9ca248fa7791433734e4561e04ead3b5542981d4bb55e0cfc274d1dc12cc37",
+  "source_work_folders": [
+    "source_cohort_work_source_prefix_extension_20261110_03",
+    "source_cohort_work_source_prefix_extension_20261110_04"
+  ]
+}

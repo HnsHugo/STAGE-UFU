@@ -26,7 +26,7 @@ def main():
     assert read(OUT/'independent_verification.json')['status']=='passed'
     before=read(PARENT/'precutoff_feature_view.json.gz');after=read(OUT/'precutoff_feature_view.json.gz')
     old={r['source_id']:r for r in before['rows']};rows={r['source_id']:r for r in after['rows']}
-    assert len(rows)==len(old)==900 and len(set(q['source_ids']))==9
+    assert len(rows)==len(old)==1500 and len(set(q['source_ids']))==9
     assert set(entries)<=set(q['source_ids'])
     added=sorted(sid for sid,e in entries.items() if e['status']=='complete_prior_prefix')
     bounded=sorted(sid for sid,e in entries.items() if e['status']=='bounded_incomplete')
