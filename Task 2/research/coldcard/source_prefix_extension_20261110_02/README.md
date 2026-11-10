@@ -1,5 +1,7 @@
 # Ten-source successor after execution interruption
 
+**Completed and audited:** This successor finalized ten IDs. Together with the preserved parent, all original twenty are final: five new vectors and fifteen bounded outcomes. Read [RESULTS.md](RESULTS.md). The lease is idle; earlier preparation text below is historical.
+
 This distinct scope selects only the ten unfinished original IDs from the
 [audited parent](../source_prefix_extension_20261110_01/RESULTS.md). Its ten
 finalized sources and all complete prefixes are excluded. The parent is closed.

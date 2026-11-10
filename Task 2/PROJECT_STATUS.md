@@ -1,5 +1,29 @@
 # Project status — 2 November 2026
 
+**Latest completed unit - original twenty-source coverage extension audited, 10 November 2026**
+
+[The original twenty IDs are finalized](research/coldcard/source_prefix_extension_20261110_02/RESULTS.md):
+five complete prior prefixes and fifteen outcomes bounded at 32 pages. The
+interrupted first scope and distinct ten-ID successor preserve all evidence,
+including two consumed intents with unknown original outcomes. Across both,
+484 fresh HTTP200 bodies and two interrupted intents are retained. Both raw
+and independent export audits pass; all twenty raw tails and five new vectors
+verify. Fifteen focused evidence/access/reference-tail tests pass. Every old
+1,382-vector row is preserved; Coldcard now has 1,387 vectors (500 case / 887
+comparison), CryptoBilis stays 329/366, and 150 information gaps remain.
+Full-current-history statuses, fourteen definitions, strict cutoffs, unknown
+labels, both transfers and all old scores are unchanged. No fit or score ran.
+The successor finished, all locks are free, the lease is idle and automation
+remains disabled. Read its exact resume and original-twenty reconciliation.
+
+Next: prepare a distinct bounded successor for the next at most twenty of the
+82 unextended Coldcard IDs, reusing verified evidence. Do not repeat complete
+prefixes or the 31 remaining Coldcard sources already bounded at 32 pages.
+Keep live lease/locks, original route/TLS, cooldown and first-refusal stop.
+Recheck overlap before updated-snapshot modeling; a separate third incident
+and graph/deep-learning versions remain the subsequent modeling axis.
+This entry supersedes earlier next-unit text while preserving its evidence.
+
 **Latest completed unit - private evidence recovery and next coverage scope, 10 November 2026**
 
 [The new bounded successor](research/coldcard/source_prefix_extension_20261110_01/README.md)

@@ -87,17 +87,17 @@
   "full_history_coverage_pause_reason": "160 counters imply at least 953129 confirmed-history page requests, over eleven days at one request/second; a durable memory-bounded streaming executor is required to finish all histories. The first completed unit and partial pages are saved.",
   "full_history_remaining_network_gap_sources": 0,
   "last_counter_access_check": {
-    "endpoint_sha256": "d0e56c8a5800e6ac5d0c50460a9a5f091203163045d8a4e95c423e91a74eca3b",
-    "finished_at": "2026-11-09T21:55:30.907452+00:00",
+    "endpoint_sha256": "151b81f18da7066535ee33b8e05a6a4f63ef8d080d1f08524c11dda229b7a74b",
+    "finished_at": "2026-11-10T16:51:55.838457+00:00",
     "http_status": 200,
     "key": "availability_counter",
-    "sha256": "dfb3944ef0e3780a68ea6b8fe201d6e912dccf14796e8b21411fed33f0343fda",
-    "source_id": "comparison_0002",
-    "started_at": "2026-11-09T21:55:22.094844+00:00",
-    "address_sha256": "b5bf6df055f22214e7df8c084fbf16c4332ec97234e9436c4f0170a8e443931a",
+    "sha256": "badb784666590bb364aa43d2094253a23c5819c849a95fa9d793ff827aa6d2e9",
+    "source_id": "comparison_0207",
+    "started_at": "2026-11-10T16:51:46.027124+00:00",
+    "address_sha256": "f4b01e902ca91c7c778f7b66bce21f7fdaf3799a0b446fc182153c743ff19f6c",
     "counter_attempts": 1,
     "automatic_retry_performed": false,
-    "route": "Unchanged comparison_http.PersistentHTTP(1), inherited system proxy, default verified TLS; no fallback"
+    "route": "Original Blockstream transport, inherited system proxy and default verified TLS; no fallback"
   },
   "last_external_counter_access_check": {
     "address_sha256": "ed40ea80aa251c20235e69d54916bffed8d0e9308233a3f87d7a1a9a51f65f2c",
@@ -122,7 +122,7 @@
   },
   "last_rate_limit_at": "2026-11-01T07:20:04.694868+00:00",
   "last_retry_delay_seconds": 57600,
-  "last_successful_bounded_collection_at": "2026-11-09T22:00:46.194175+00:00",
+  "last_successful_bounded_collection_at": "2026-11-10T16:56:59.406228+00:00",
   "latest_coverage_output": "source_prefix_extension_20261110_02",
   "latest_coverage_protocol": "source_prefix_extension_20261110_02/protocol.json",
   "latest_coverage_result_file": "source_prefix_extension_20261110_02/coverage_audit.json",
@@ -145,7 +145,7 @@
   "latest_prefix_protocol": "source_prefix_extension_20261110_02/protocol.json",
   "latest_prefix_result_file": "source_prefix_extension_20261110_02/coverage_audit.json",
   "latest_prefix_resume_file": "source_prefix_extension_20261110_02/resume_checkpoint.json",
-  "latest_prefix_stop_file": "source_prefix_extension_20261109_01/collection_stop.json",
+  "latest_prefix_stop_file": "source_prefix_extension_20261110_02/collection_stop.json",
   "latest_prefix_work": "source_cohort_work_source_prefix_extension_20261110_02",
   "latest_protocol": "source_prefix_extension_20261110_02/protocol.json",
   "latest_result_file": "source_prefix_extension_20261110_02/coverage_audit.json",
@@ -159,7 +159,7 @@
     "status": "completed_four_page_checked_supplement"
   },
   "latest_status": "original_twenty_finalized_audit_passed",
-  "latest_stop_file": "source_prefix_extension_20261109_01/collection_stop.json",
+  "latest_stop_file": "source_prefix_extension_20261110_02/collection_stop.json",
   "latest_work": "source_cohort_work_source_prefix_extension_20261110_02",
   "maximum_429_backoff_seconds": 86400,
   "next_coverage_action": "Prepare a distinct scope for the next at most twenty of 82 unextended Coldcard IDs in the latest resume, reusing verified saved evidence. Never repeat a complete or 32-page bounded outcome in the old scopes. Check live lease/locks/cooldown and original route before any new counter. Recheck overlap before updated-snapshot modeling.",
@@ -233,5 +233,6 @@
     "summary": "source_prefix_extension_20261110_02/original_twenty_reconciliation.json",
     "model_fits": 0,
     "new_scores": 0
-  }
+  },
+  "latest_coverage_stop_file": "source_prefix_extension_20261110_02/collection_stop.json"
 }
