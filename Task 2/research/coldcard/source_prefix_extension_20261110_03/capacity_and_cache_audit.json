@@ -1,0 +1,117 @@
+{
+  "bounded_outcome_policy": "Retain evidence and a continuation queue; the checkpoint is not permanent exclusion. Features stay null until exhaustion and closure verify.",
+  "complete_prefixes_selected": false,
+  "model_fits": 0,
+  "new_page_checkpoint": 64,
+  "new_scores": 0,
+  "no_saved_tail_page_requested_again": true,
+  "observed_saved_payload_sizes": [
+    {
+      "decompressed_saved_page_bytes": 5868573,
+      "saved_pages": 32,
+      "source_id": "comparison_0140"
+    },
+    {
+      "decompressed_saved_page_bytes": 1743516,
+      "saved_pages": 32,
+      "source_id": "comparison_0141"
+    },
+    {
+      "decompressed_saved_page_bytes": 1500919,
+      "saved_pages": 32,
+      "source_id": "comparison_0157"
+    },
+    {
+      "decompressed_saved_page_bytes": 1475721,
+      "saved_pages": 32,
+      "source_id": "comparison_0174"
+    },
+    {
+      "decompressed_saved_page_bytes": 3411375,
+      "saved_pages": 32,
+      "source_id": "comparison_0176"
+    },
+    {
+      "decompressed_saved_page_bytes": 1743124,
+      "saved_pages": 32,
+      "source_id": "comparison_0177"
+    },
+    {
+      "decompressed_saved_page_bytes": 1632831,
+      "saved_pages": 32,
+      "source_id": "comparison_0178"
+    },
+    {
+      "decompressed_saved_page_bytes": 1476620,
+      "saved_pages": 32,
+      "source_id": "comparison_0185"
+    },
+    {
+      "decompressed_saved_page_bytes": 1967331,
+      "saved_pages": 32,
+      "source_id": "comparison_0190"
+    },
+    {
+      "decompressed_saved_page_bytes": 7532869,
+      "saved_pages": 32,
+      "source_id": "comparison_0212"
+    },
+    {
+      "decompressed_saved_page_bytes": 9372716,
+      "saved_pages": 32,
+      "source_id": "comparison_0213"
+    },
+    {
+      "decompressed_saved_page_bytes": 1475316,
+      "saved_pages": 32,
+      "source_id": "comparison_0226"
+    },
+    {
+      "decompressed_saved_page_bytes": 4847824,
+      "saved_pages": 32,
+      "source_id": "comparison_0230"
+    },
+    {
+      "decompressed_saved_page_bytes": 1475300,
+      "saved_pages": 32,
+      "source_id": "comparison_0233"
+    },
+    {
+      "decompressed_saved_page_bytes": 1436752,
+      "saved_pages": 32,
+      "source_id": "comparison_0236"
+    }
+  ],
+  "old_failed_or_consumed_markers_copied": false,
+  "old_page_checkpoint": 32,
+  "provider_requests": 0,
+  "request_budget": {
+    "fresh_reference_statuses_at_most": 15,
+    "funding_status_gets_at_most": 15,
+    "new_reference_gets_at_most": 0,
+    "new_tail_pages_at_most": 480,
+    "ordinary_counter_gets": 1,
+    "total_new_requests_at_most": 511
+  },
+  "saved_responses_reused": 495,
+  "saved_tail_pages_reused": 480,
+  "schema_version": 1,
+  "scope": "deepen_all_fifteen_recent_bounded_prefixes",
+  "selected_source_ids": [
+    "comparison_0140",
+    "comparison_0141",
+    "comparison_0157",
+    "comparison_0174",
+    "comparison_0176",
+    "comparison_0177",
+    "comparison_0178",
+    "comparison_0185",
+    "comparison_0190",
+    "comparison_0212",
+    "comparison_0213",
+    "comparison_0226",
+    "comparison_0230",
+    "comparison_0233",
+    "comparison_0236"
+  ]
+}

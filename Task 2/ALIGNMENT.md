@@ -1,5 +1,20 @@
 # Task 2 alignment — 27 October 2026
 
+**Current execution unit - deepen fifteen retained prefixes, 10 November 2026**
+
+After the page-limit discussion, Hugo requests continued collection. The new
+[deeper continuation](research/coldcard/source_prefix_extension_20261110_03/README.md)
+selects all fifteen recently bounded sources and extends their verified saved
+32-page prefixes to a 64-page work checkpoint. This is a distinct justified
+scope; old passes and markers remain immutable. All 495 saved responses verify,
+130 inputs are pinned, and the maximum new-request budget is 511. Two new tests
+prove cache-only reuse through page 32 and null features without exhaustion.
+Still-incomplete outcomes retain a continuation queue rather than permanent
+exclusion. Source IDs, cutoffs, fourteen definitions, unknown labels and frozen
+models/scores remain unchanged. Fresh live lease/locks/cooldown and one normal
+original-route counter HTTP200 remain mandatory before new traffic.
+This execution choice supersedes the older next-twenty-unextended suggestion.
+
 **Latest completed unit - original twenty-source coverage extension audited, 10 November 2026**
 
 [The original twenty IDs are finalized](research/coldcard/source_prefix_extension_20261110_02/RESULTS.md):
