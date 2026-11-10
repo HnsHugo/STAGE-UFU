@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "source_prefix_extension_20261110_01",
+  "active_collection_scope": "none",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -49,14 +49,18 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "state": "running",
-    "owner": "source_prefix_extension_20261110_01",
+    "state": "idle",
+    "owner": null,
     "started_at": "2026-11-10T16:28:10.933Z",
-    "expires_at": "2026-11-10T17:28:10.933Z",
+    "expires_at": null,
     "protocol": "source_prefix_extension_20261110_01/protocol.json",
     "protocol_sha256": "19ac826b04aa53ef68962058f2ac2c9f8a59f52627fc26c0d44d86bcfb51d5e2",
     "purpose": "Execute the next fixed 20-source 16-to-32-page Coldcard extension; 177 verified cached responses reused, original route and guards unchanged",
-    "policy": "A running nonexpired lease or held local/historical lock prohibits another collector or probe"
+    "policy": "A running nonexpired lease or held local/historical lock prohibits another collector or probe",
+    "last_owner": "source_prefix_extension_20261110_01",
+    "finished_at": "2026-11-10T16:34:43.179Z",
+    "stop_status": "executor_interruption_recovered_offline",
+    "operational_locks_released": true
   },
   "comparison_pre_cutoff_predictors_available": 882,
   "comparison_pre_cutoff_predictors_unavailable": 118,
@@ -158,7 +162,7 @@
   "latest_stop_file": "source_prefix_extension_20261109_01/collection_stop.json",
   "latest_work": "private source_prefix_extension_20261109_01/private_work",
   "maximum_429_backoff_seconds": 86400,
-  "next_coverage_action": "Execute the distinct prepared source_prefix_extension_20261110_01 scope only after fresh local/historical locks, a live policy/cooldown check and publication/readback of its exact running lease, then one ordinary original-route counter GET. Do not repeat closed scopes. A result audit must use the 1,382-vector predecessor baseline.",
+  "next_coverage_action": "Audit and preserve the interrupted scope, then prepare a distinct successor for its exact 10 unfinished IDs. Reuse verified successful pages; preserve the two consumed interrupted intents without retrying them in the old scope. Fresh locks, live lease and single normal counter GET remain required.",
   "next_network_attempt_not_before": "2026-11-01T23:20:04.694868+00:00",
   "next_run_time_provided_by_service": false,
   "normal_run_bounds": {
@@ -185,14 +189,21 @@
   "manual_coverage_workstream": {
     "pass_name": "source_prefix_extension_20261110_01",
     "protocol": "source_prefix_extension_20261110_01/protocol.json",
-    "status": "running_guarded_foreground",
+    "status": "interrupted_10_finalized_10_pending",
     "selected_sources": 20,
     "previous_page_bound": 16,
     "new_page_bound": 32,
     "offline_responses_reused": 177,
     "maximum_new_requests": 525,
     "automation_enabled": false,
-    "original_closed_scopes_preserved": true
+    "original_closed_scopes_preserved": true,
+    "finalized_sources": 10,
+    "new_complete_prefixes": 1,
+    "bounded_incomplete_sources": 9,
+    "network_pending_sources": 10,
+    "provider_requests": 181,
+    "successful_network_responses": 179,
+    "consumed_interrupted_requests": 2
   },
   "latest_consolidated_prefix_view": "source_prefix_extension_20261109_01/precutoff_feature_view.json.gz",
   "is_enabled": false,
@@ -201,7 +212,7 @@
     "pass_name": "source_prefix_extension_20261110_01",
     "protocol": "source_prefix_extension_20261110_01/protocol.json",
     "protocol_sha256": "19ac826b04aa53ef68962058f2ac2c9f8a59f52627fc26c0d44d86bcfb51d5e2",
-    "status": "running_lease_waiting_readback",
+    "status": "interrupted_closed_requires_distinct_successor",
     "selected_sources": 20,
     "saved_responses_reused": 177,
     "maximum_new_requests": 525,
