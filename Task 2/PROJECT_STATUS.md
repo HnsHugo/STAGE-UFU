@@ -1,5 +1,35 @@
 # Project status — 2 November 2026
 
+**Latest verified unit - 320-page checkpoint, 10 November 2026**
+
+[The latest checkpoint](research/coldcard/source_prefix_extension_20261110_08/RESULTS.md) reused
+771 saved responses and made 196
+fresh HTTP200 requests. It added 4,800
+source-transaction observations, completed 0 new prefixes
+and retains 3 incomplete histories with null
+features and continuation cursors. Both audits pass, old vectors/unselected rows
+verify and the private cache is saved. The earlier twenty focused tests remain
+recorded; shared collection code is unchanged. Coldcard now has
+1,399/1,500 vectors; CryptoBilis stays 329/366, leaving
+138 information gaps. Cutoffs, fourteen
+predictors, unknown labels, full-current statuses and historical models/scores
+remain unchanged. No fit or new score ran.
+
+Across the four checkpoints since 96 pages, one original source completed at
+152 pages and three retain 320-page histories. The independently verified
+[chain reconciliation](research/coldcard/source_prefix_extension_20261110_08/progressive_checkpoint_reconciliation.json)
+checks original/final raw transactions, all old vectors/unselected rows and
+private saved layers; 747 fresh HTTP200 responses added 18,151 source-transaction
+observations, not globally unique transactions. The original four sources are
+counted once. This is retained coverage progress, not a new model or score.
+
+Next: a distinct checkpoint through 384 pages for comparison_0157, comparison_0176, comparison_0230 only,
+reusing all saved evidence. Preserve other incomplete IDs and all completed rows.
+Keep fresh locks/lease/cooldown, original route and first-refusal stop. Recheck
+overlap before updated-snapshot modeling. Collection is closed, lease idle, locks
+free and automation disabled. This entry supersedes older next-unit suggestions
+while preserving their historical evidence.
+
 **Latest verified unit - 256-page checkpoint, 10 November 2026**
 
 [The latest checkpoint](research/coldcard/source_prefix_extension_20261110_07/RESULTS.md) reused

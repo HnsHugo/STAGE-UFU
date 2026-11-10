@@ -1,0 +1,143 @@
+{
+  "additional_source_transaction_observations": 18151,
+  "all_original_vectors_and_unselected_rows_preserved": true,
+  "coldcard_vectors": 1399,
+  "completed_source_ids": [
+    "comparison_0185"
+  ],
+  "cryptobilis_vectors_unchanged": 329,
+  "final_view_sha256": "6fcd9328ab1b5f9ceb608976b2e4c7f6c508a5af0556558c6a5c549f27f0a6b2",
+  "fresh_http_200": 747,
+  "full_current_statuses_and_unknown_labels_preserved": true,
+  "input_sha256": {
+    "../reconcile_checkpoint_chain.py": "34ee602cd5a1c9e7064c80dc4a396bff485cfd483f461f5d14e4ec17783d629e",
+    "../source_prefix_extension_20261110_04/checkpoint.json.gz": "1de5fd965f9aaa808b4902a9a064ee381560310620ed2079762f66f1659c4d4b",
+    "../source_prefix_extension_20261110_04/precutoff_feature_view.json.gz": "7ff76c8ef41a08569f8e029a54f4e94eca3bd2511db7b13ce335c60d3e080d5d",
+    "../source_prefix_extension_20261110_04/private_cache_backup.json": "6385dea8992cee4f05896ecb8414102dc3fd424b7176655d52989287ed685c6e",
+    "../source_prefix_extension_20261110_05/checkpoint.json.gz": "a0cf9cc4b7c3bc47d28afae22e32c569eee90e815d9836cfb485ee53d31884d7",
+    "../source_prefix_extension_20261110_05/continuation_reconciliation.json": "096a0dac0bd1e7bb3e0ce45a3d424d3002e1c0d453ed8bc5e57a333be4a492c5",
+    "../source_prefix_extension_20261110_05/coverage_audit.json": "43c60a4870b3f1a8cd7ac70ca8f2361fa7210d3ff95d5ff655b66b20c5f75258",
+    "../source_prefix_extension_20261110_05/independent_verification.json": "b7e48af37ac4e4a1f255cf8db777bec08035d5908d3be336491707dca74e4897",
+    "../source_prefix_extension_20261110_05/private_cache_backup.json": "2eb47f14ce42f6c4d0af6b795f777e97fb019b7d85c95b6575a2920d897e11e6",
+    "../source_prefix_extension_20261110_05/protocol.json": "8f194c8efdf3272abc69329ad2c0c2f81e4c0025196366b44b0a0ca4904c8759",
+    "../source_prefix_extension_20261110_05/resume_checkpoint.json": "12d7df2985ca697ccbfcd52436e1eae933e2d9fc54fa5e450e2cd711dac20043",
+    "../source_prefix_extension_20261110_06/checkpoint.json.gz": "d658297259d2bddddae0f264dbbdc7954c5fdc3ccbdb017ade301958cd226812",
+    "../source_prefix_extension_20261110_06/continuation_reconciliation.json": "9d53e6ccf640e6213bd1ef536ac3778e0674f0b28964ad430c80be5f04c3a17e",
+    "../source_prefix_extension_20261110_06/coverage_audit.json": "c4519c781c18739d657764e08b954f1fdaf4f72e79d5a65e04f84e2c27884388",
+    "../source_prefix_extension_20261110_06/independent_verification.json": "c0bf5e2ec43ccd83d61dc71ebeeb34eccc0d5d4cf07452485ea587916a382991",
+    "../source_prefix_extension_20261110_06/private_cache_backup.json": "d2febec2995c98c342fbbb98c44c4938dac391f408f7e5702d3d655e9a7280b2",
+    "../source_prefix_extension_20261110_06/protocol.json": "c635dd2e1c07b797bdfc347b24a84c6052d97096a8284a390d717f5621dddf6c",
+    "../source_prefix_extension_20261110_06/resume_checkpoint.json": "d8a4f0a128caf2baa0037a62de5c66a1ee66fe609b516bef948305a957f8330d",
+    "../source_prefix_extension_20261110_07/checkpoint.json.gz": "bbd33352f39082f5f7726dbb7be29b5699d1b4fd651a0c16c296f3c75d1bbd60",
+    "../source_prefix_extension_20261110_07/continuation_reconciliation.json": "fb9a59adfca68b853d5038f5447bb00ab7b85ef8b66d8d8612c1f82861291203",
+    "../source_prefix_extension_20261110_07/coverage_audit.json": "e33744ce817836821e038340d8f52f61593147a059539b4f71af7f880cfd99ea",
+    "../source_prefix_extension_20261110_07/independent_verification.json": "3eba54a628e70d95d573509a7862066ccc8fda7beb9ad094c828b309312fdb13",
+    "../source_prefix_extension_20261110_07/private_cache_backup.json": "ba942925645bc463fc81bd6b8ad2e5134c970ab5b9fab832299bd21987a8c78d",
+    "../source_prefix_extension_20261110_07/protocol.json": "e34a4f2bbc9af12544af93a266e16b826933260e16b45d6840c60fe8c7ddce9f",
+    "../source_prefix_extension_20261110_07/resume_checkpoint.json": "14aaed8c22a9612f448f9f112d88142bb23ee9ccf4fd7d8ab74a061479b80d31",
+    "checkpoint.json.gz": "6f0db7e729e8df11872bf75e5748f17c02d445ac0da6170793a8ebc5da0cd520",
+    "continuation_reconciliation.json": "5e7ed61faa89ff5d0c3548a2913a10b7ddd76703324c99ae8db336e5cf2910c8",
+    "coverage_audit.json": "cdef30c7648224a7de92ee4d56cc3657727b11886ff36f292f642b7bdaad4cf1",
+    "independent_verification.json": "bda45d4d236b4a04bb3f4371e6f242845a705f716807caa4e5668e4e32f1c353",
+    "precutoff_feature_view.json.gz": "6fcd9328ab1b5f9ceb608976b2e4c7f6c508a5af0556558c6a5c549f27f0a6b2",
+    "private_cache_backup.json": "42d3f546827395a08d263713648a4e85941665f68a9250af09202decc41e55f1",
+    "protocol.json": "2cdc8ab235af3af7f44a7faa4fed64bb67a19c79a458caf283a304c21510c891",
+    "resume_checkpoint.json": "d8f729fbec36ddfd15f3f0497a935da4756442372bf09d944ae07af3802ac79d"
+  },
+  "model_fits": 0,
+  "new_complete_prefixes": 1,
+  "new_scores": 0,
+  "observation_count_is_not_globally_unique_transactions": true,
+  "original_coldcard_vectors": 1398,
+  "original_sources": 4,
+  "original_sources_counted_once": true,
+  "provider_requests_by_reconciler": 0,
+  "retained_incomplete_source_ids": [
+    "comparison_0157",
+    "comparison_0176",
+    "comparison_0230"
+  ],
+  "schema_version": 1,
+  "source_progress": [
+    {
+      "additional_source_transaction_observations": 5600,
+      "final_pages": 320,
+      "latest_scope": "source_prefix_extension_20261110_08",
+      "new_raw_sha256": "34f239594df5dfbea33c3f2eef45e9dad2b9710f49ce3873e1ad2d2b48383c73",
+      "old_raw_sha256": "3866114eb1ed327eaf0fd5f1de24cc0efb58c6a197bb84f98197bd90ffac0ca4",
+      "original_pages": 96,
+      "source_id": "comparison_0157",
+      "status": "bounded_incomplete"
+    },
+    {
+      "additional_source_transaction_observations": 5600,
+      "final_pages": 320,
+      "latest_scope": "source_prefix_extension_20261110_08",
+      "new_raw_sha256": "0dadb1e7c22fd0439f1a1dd74c4bee599e7c45549e11e07945ff796e5a8f36a2",
+      "old_raw_sha256": "0d2ae538e33fb3497f3f085c9e84c6ddb69162d9622bfe7d0ee86c250cceb517",
+      "original_pages": 96,
+      "source_id": "comparison_0176",
+      "status": "bounded_incomplete"
+    },
+    {
+      "additional_source_transaction_observations": 1351,
+      "final_pages": 152,
+      "latest_scope": "source_prefix_extension_20261110_06",
+      "new_raw_sha256": "ac267bea0461bb73c4385657c566c15f34e9ca7938bff67ed91663ad068bc8bd",
+      "old_raw_sha256": "48041f3012df22ccbfe3a494db06bd10a8d25fb99b5a85ce5059bbe2b74708b2",
+      "original_pages": 96,
+      "source_id": "comparison_0185",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "additional_source_transaction_observations": 5600,
+      "final_pages": 320,
+      "latest_scope": "source_prefix_extension_20261110_08",
+      "new_raw_sha256": "3adfbe6aabdb9acd85660b32c2044f92aae7a11a67a569424e4b710d4e9bf0e9",
+      "old_raw_sha256": "13336db0c532f1f2c550043494fd6c8cb23f387f5c0475f334e849bc9226c59a",
+      "original_pages": 96,
+      "source_id": "comparison_0230",
+      "status": "bounded_incomplete"
+    }
+  ],
+  "status": "passed",
+  "total_remaining_information_gaps": 138,
+  "units": [
+    {
+      "additional_source_transaction_observations": 3200,
+      "checkpoint_pages": 128,
+      "fresh_http_200": 133,
+      "new_complete_prefixes": 0,
+      "previous_pages": 96,
+      "saved_responses_reused": 388,
+      "scope": "source_prefix_extension_20261110_05"
+    },
+    {
+      "additional_source_transaction_observations": 5351,
+      "checkpoint_pages": 192,
+      "fresh_http_200": 222,
+      "new_complete_prefixes": 1,
+      "previous_pages": 128,
+      "saved_responses_reused": 516,
+      "scope": "source_prefix_extension_20261110_06"
+    },
+    {
+      "additional_source_transaction_observations": 4800,
+      "checkpoint_pages": 256,
+      "fresh_http_200": 196,
+      "new_complete_prefixes": 0,
+      "previous_pages": 192,
+      "saved_responses_reused": 579,
+      "scope": "source_prefix_extension_20261110_07"
+    },
+    {
+      "additional_source_transaction_observations": 4800,
+      "checkpoint_pages": 320,
+      "fresh_http_200": 196,
+      "new_complete_prefixes": 0,
+      "previous_pages": 256,
+      "saved_responses_reused": 771,
+      "scope": "source_prefix_extension_20261110_08"
+    }
+  ]
+}
