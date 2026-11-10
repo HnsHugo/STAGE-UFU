@@ -1,5 +1,7 @@
 # Three-source 192-to-256-page continuation
 
+**Completed and independently verified.** See [RESULTS.md](RESULTS.md).
+
 Continue exactly comparison_0157, comparison_0176 and comparison_0230 from
 192 saved pages. The complete comparison_0185 is excluded from new collection
 and its vector is preserved. Reuse all 579 validated anchors/pages. All 192
