@@ -1,0 +1,177 @@
+{
+  "additional_restored_bounded_sources": 17,
+  "coldcard_bounded_prefixes_unchanged": 118,
+  "coldcard_vectors_unchanged": 1382,
+  "cryptobilis_vectors_unchanged": 329,
+  "exact_exhaustion_cost_known": false,
+  "full_current_history_statuses_unchanged": true,
+  "model_fits": 0,
+  "new_feature_vectors": 0,
+  "old_failed_markers_copied": false,
+  "old_scope_restarted": false,
+  "per_source": [
+    {
+      "new_tail_pages_at_most": 16,
+      "source_id": "comparison_0140",
+      "verified_saved_reference": true,
+      "verified_saved_tail_pages": 16
+    },
+    {
+      "new_tail_pages_at_most": 16,
+      "source_id": "comparison_0141",
+      "verified_saved_reference": true,
+      "verified_saved_tail_pages": 16
+    },
+    {
+      "new_tail_pages_at_most": 16,
+      "source_id": "comparison_0157",
+      "verified_saved_reference": true,
+      "verified_saved_tail_pages": 16
+    },
+    {
+      "new_tail_pages_at_most": 16,
+      "source_id": "comparison_0164",
+      "verified_saved_reference": true,
+      "verified_saved_tail_pages": 16
+    },
+    {
+      "new_tail_pages_at_most": 16,
+      "source_id": "comparison_0174",
+      "verified_saved_reference": true,
+      "verified_saved_tail_pages": 16
+    },
+    {
+      "new_tail_pages_at_most": 16,
+      "source_id": "comparison_0176",
+      "verified_saved_reference": true,
+      "verified_saved_tail_pages": 16
+    },
+    {
+      "new_tail_pages_at_most": 16,
+      "source_id": "comparison_0177",
+      "verified_saved_reference": true,
+      "verified_saved_tail_pages": 16
+    },
+    {
+      "new_tail_pages_at_most": 16,
+      "source_id": "comparison_0178",
+      "verified_saved_reference": true,
+      "verified_saved_tail_pages": 16
+    },
+    {
+      "new_tail_pages_at_most": 16,
+      "source_id": "comparison_0185",
+      "verified_saved_reference": true,
+      "verified_saved_tail_pages": 16
+    },
+    {
+      "new_tail_pages_at_most": 18,
+      "source_id": "comparison_0190",
+      "verified_saved_reference": true,
+      "verified_saved_tail_pages": 14
+    },
+    {
+      "new_tail_pages_at_most": 24,
+      "source_id": "comparison_0207",
+      "verified_saved_reference": true,
+      "verified_saved_tail_pages": 8
+    },
+    {
+      "new_tail_pages_at_most": 32,
+      "source_id": "comparison_0212",
+      "verified_saved_reference": false,
+      "verified_saved_tail_pages": 0
+    },
+    {
+      "new_tail_pages_at_most": 32,
+      "source_id": "comparison_0213",
+      "verified_saved_reference": false,
+      "verified_saved_tail_pages": 0
+    },
+    {
+      "new_tail_pages_at_most": 32,
+      "source_id": "comparison_0214",
+      "verified_saved_reference": false,
+      "verified_saved_tail_pages": 0
+    },
+    {
+      "new_tail_pages_at_most": 32,
+      "source_id": "comparison_0218",
+      "verified_saved_reference": false,
+      "verified_saved_tail_pages": 0
+    },
+    {
+      "new_tail_pages_at_most": 32,
+      "source_id": "comparison_0226",
+      "verified_saved_reference": false,
+      "verified_saved_tail_pages": 0
+    },
+    {
+      "new_tail_pages_at_most": 32,
+      "source_id": "comparison_0229",
+      "verified_saved_reference": false,
+      "verified_saved_tail_pages": 0
+    },
+    {
+      "new_tail_pages_at_most": 32,
+      "source_id": "comparison_0230",
+      "verified_saved_reference": false,
+      "verified_saved_tail_pages": 0
+    },
+    {
+      "new_tail_pages_at_most": 32,
+      "source_id": "comparison_0233",
+      "verified_saved_reference": false,
+      "verified_saved_tail_pages": 0
+    },
+    {
+      "new_tail_pages_at_most": 32,
+      "source_id": "comparison_0236",
+      "verified_saved_reference": false,
+      "verified_saved_tail_pages": 0
+    }
+  ],
+  "predecessor_input_pins_verified": 84,
+  "prior_32_page_bounded_sources_excluded": true,
+  "provider_requests": 0,
+  "request_budget": {
+    "fresh_reference_statuses_at_most": 20,
+    "funding_status_gets_at_most": 21,
+    "new_reference_gets_at_most": 9,
+    "new_tail_pages_at_most": 474,
+    "ordinary_counter_gets": 1,
+    "total_new_requests_at_most": 525
+  },
+  "saved_responses_reused": 177,
+  "saved_tail_pages_reused": 166,
+  "schema_version": 1,
+  "scope": "offline_preparation_only",
+  "selected_coldcard_sources": 1500,
+  "selected_source_ids": [
+    "comparison_0140",
+    "comparison_0141",
+    "comparison_0157",
+    "comparison_0164",
+    "comparison_0174",
+    "comparison_0176",
+    "comparison_0177",
+    "comparison_0178",
+    "comparison_0185",
+    "comparison_0190",
+    "comparison_0207",
+    "comparison_0212",
+    "comparison_0213",
+    "comparison_0214",
+    "comparison_0218",
+    "comparison_0226",
+    "comparison_0229",
+    "comparison_0230",
+    "comparison_0233",
+    "comparison_0236"
+  ],
+  "sources": 20,
+  "sources_with_saved_reference": 11,
+  "total_published_input_pins": 97,
+  "total_remaining_bounded_prefixes_unchanged": 155,
+  "verified_labels_remain_unknown": true
+}

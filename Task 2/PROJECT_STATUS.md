@@ -1,5 +1,28 @@
 # Project status — 2 November 2026
 
+**Latest completed unit - private evidence recovery and next coverage scope, 10 November 2026**
+
+[The new bounded successor](research/coldcard/source_prefix_extension_20261110_01/README.md)
+is prepared offline for the next fixed 20 unextended Coldcard IDs. All 4,419
+primary private files verify. A truncated older archive cannot be certified as
+a container, but 19 complete raw-tail members match their published hashes;
+all 332 historical responses were reconstructed and independently fingerprinted,
+including 294 cursor pages. Its two complete prefixes were already in the
+baseline; 17 bounded sources are now available as verified continuation caches.
+The selected new batch reuses 177 responses and budgets at most 525 new requests,
+with 97 frozen input pins. Ten evidence/access guard tests and independent
+preparation verification pass. No provider request, fit, score or new vector
+occurred: Coldcard remains 1,382/1,500, CryptoBilis 329/366, with 155 gaps.
+
+Next: execute this distinct prepared scope only after fresh historical/local
+locks, live lease/cooldown checks and publication/readback of its exact running
+lease, followed by one ordinary original-route counter GET. Keep first-refusal
+stop, original transport and disabled automation. A successor result audit must
+use the 1,382-vector baseline; the old hardcoded 1,378-vector audit is unsuitable.
+Preserve both transfers and recheck overlap before updated-snapshot modeling.
+Graph/deep-learning transfer and a separately frozen third incident remain next.
+This entry supersedes earlier next-unit entries without changing their evidence.
+
 **Latest completed unit - audited coverage extension and reverse transfer, 9 November 2026**
 
 The [20-source coverage extension](research/coldcard/source_prefix_extension_20261109_01/RESULTS.md)
