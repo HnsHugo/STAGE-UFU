@@ -1,0 +1,32 @@
+{
+  "automation_enabled": false,
+  "collection_can_resume": false,
+  "finalized_source_ids": [],
+  "network_source_ids": [
+    "comparison_0140",
+    "comparison_0141",
+    "comparison_0157",
+    "comparison_0176",
+    "comparison_0177",
+    "comparison_0178",
+    "comparison_0185",
+    "comparison_0190",
+    "comparison_0230"
+  ],
+  "next_action": "Hold all local/historical locks, check live lease/cooldown, publish/read back the exact running lease, then one ordinary counter HTTP200 before new pages.",
+  "pass_name": "source_prefix_extension_20261110_04",
+  "protocol_sha256": "4010ce5cdab728b94d566e18590a1f30be1037053749c3cd9769840c8670ad0a",
+  "schema_version": 1,
+  "source_ids": [
+    "comparison_0140",
+    "comparison_0141",
+    "comparison_0157",
+    "comparison_0176",
+    "comparison_0177",
+    "comparison_0178",
+    "comparison_0185",
+    "comparison_0190",
+    "comparison_0230"
+  ],
+  "status": "prepared_not_started"
+}

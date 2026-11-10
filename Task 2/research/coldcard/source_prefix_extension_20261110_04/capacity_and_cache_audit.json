@@ -1,0 +1,81 @@
+{
+  "bounded_outcome_policy": "Retain evidence and a continuation queue; the checkpoint is not permanent exclusion. Features stay null until exhaustion and closure verify.",
+  "complete_prefixes_selected": false,
+  "model_fits": 0,
+  "new_page_checkpoint": 96,
+  "new_scores": 0,
+  "no_saved_tail_page_requested_again": true,
+  "observed_saved_payload_sizes": [
+    {
+      "decompressed_saved_page_bytes": 11598896,
+      "saved_pages": 64,
+      "source_id": "comparison_0140"
+    },
+    {
+      "decompressed_saved_page_bytes": 3512218,
+      "saved_pages": 64,
+      "source_id": "comparison_0141"
+    },
+    {
+      "decompressed_saved_page_bytes": 2977785,
+      "saved_pages": 64,
+      "source_id": "comparison_0157"
+    },
+    {
+      "decompressed_saved_page_bytes": 7033530,
+      "saved_pages": 64,
+      "source_id": "comparison_0176"
+    },
+    {
+      "decompressed_saved_page_bytes": 3508648,
+      "saved_pages": 64,
+      "source_id": "comparison_0177"
+    },
+    {
+      "decompressed_saved_page_bytes": 3506324,
+      "saved_pages": 64,
+      "source_id": "comparison_0178"
+    },
+    {
+      "decompressed_saved_page_bytes": 2953293,
+      "saved_pages": 64,
+      "source_id": "comparison_0185"
+    },
+    {
+      "decompressed_saved_page_bytes": 4269771,
+      "saved_pages": 64,
+      "source_id": "comparison_0190"
+    },
+    {
+      "decompressed_saved_page_bytes": 9730257,
+      "saved_pages": 64,
+      "source_id": "comparison_0230"
+    }
+  ],
+  "old_failed_or_consumed_markers_copied": false,
+  "old_page_checkpoint": 64,
+  "provider_requests": 0,
+  "request_budget": {
+    "fresh_reference_statuses_at_most": 9,
+    "funding_status_gets_at_most": 9,
+    "new_reference_gets_at_most": 0,
+    "new_tail_pages_at_most": 288,
+    "ordinary_counter_gets": 1,
+    "total_new_requests_at_most": 307
+  },
+  "saved_responses_reused": 585,
+  "saved_tail_pages_reused": 576,
+  "schema_version": 1,
+  "scope": "deepen_all_nine_retained_64_page_prefixes",
+  "selected_source_ids": [
+    "comparison_0140",
+    "comparison_0141",
+    "comparison_0157",
+    "comparison_0176",
+    "comparison_0177",
+    "comparison_0178",
+    "comparison_0185",
+    "comparison_0190",
+    "comparison_0230"
+  ]
+}
