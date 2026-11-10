@@ -1,0 +1,93 @@
+{
+  "additional_source_transaction_observations": 5351,
+  "bounded_incomplete_source_ids": [
+    "comparison_0157",
+    "comparison_0176",
+    "comparison_0230"
+  ],
+  "checkpoint_pages": 192,
+  "coldcard_unavailable_prefixes": 101,
+  "coldcard_vectors": 1399,
+  "continuation_queue": [
+    {
+      "next_checkpoint_pages": 224,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 192,
+      "source_id": "comparison_0157"
+    },
+    {
+      "next_checkpoint_pages": 224,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 192,
+      "source_id": "comparison_0176"
+    },
+    {
+      "next_checkpoint_pages": 224,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 192,
+      "source_id": "comparison_0230"
+    }
+  ],
+  "cryptobilis_unavailable_unchanged": 37,
+  "cryptobilis_vectors_unchanged": 329,
+  "final_view_sha256": "c6d82bc3afbbab8d13136b1ec9ae47232003da626647219fe2e897a8d4f90abc",
+  "finalized": 4,
+  "full_current_history_statuses_unchanged": true,
+  "model_fits": 0,
+  "new_complete_prefixes": 1,
+  "new_complete_source_ids": [
+    "comparison_0185"
+  ],
+  "new_request_intents": 222,
+  "new_scores": 0,
+  "new_successful_bodies": 222,
+  "observation_count_is_not_a_global_unique_transaction_count": true,
+  "old_tail_pages_requested_again": false,
+  "pending_source_ids": [],
+  "preceding_vectors_preserved": 1398,
+  "provider_requests_by_reconciler": 0,
+  "saved_responses_reused": 516,
+  "schema_version": 1,
+  "selected": 4,
+  "source_progress": [
+    {
+      "additional_source_transaction_observations": 1600,
+      "earliest_observed_prior_height_after": 960179,
+      "earliest_observed_prior_height_before": 960182,
+      "pages_saved": 192,
+      "previous_pages": 128,
+      "source_id": "comparison_0157",
+      "status": "bounded_incomplete"
+    },
+    {
+      "additional_source_transaction_observations": 1600,
+      "earliest_observed_prior_height_after": 932944,
+      "earliest_observed_prior_height_before": 935487,
+      "pages_saved": 192,
+      "previous_pages": 128,
+      "source_id": "comparison_0176",
+      "status": "bounded_incomplete"
+    },
+    {
+      "additional_source_transaction_observations": 551,
+      "earliest_observed_prior_height_after": 959027,
+      "earliest_observed_prior_height_before": 959786,
+      "pages_saved": 152,
+      "previous_pages": 128,
+      "source_id": "comparison_0185",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "additional_source_transaction_observations": 1600,
+      "earliest_observed_prior_height_after": 957219,
+      "earliest_observed_prior_height_before": 958202,
+      "pages_saved": 192,
+      "previous_pages": 128,
+      "source_id": "comparison_0230",
+      "status": "bounded_incomplete"
+    }
+  ],
+  "status": "all_selected_finalized",
+  "total_remaining_information_gaps": 138,
+  "verified_compromise_device_labels_remain_unknown": true
+}

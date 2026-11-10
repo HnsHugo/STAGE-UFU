@@ -1,5 +1,8 @@
 # Four-source 128-to-192-page continuation
 
+**Completed and independently verified.** See [RESULTS.md](RESULTS.md): one new
+vector, three retained 192-page histories and 222 fresh HTTP200 responses.
+
 Continue exactly comparison_0157, comparison_0176, comparison_0185 and
 comparison_0230 from their verified saved 128-page prefixes. Reuse all 516
 successful anchors/pages without replay. All 178 input pins and inherited
