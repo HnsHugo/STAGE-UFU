@@ -1,5 +1,39 @@
 # Task 2 working instructions
 
+**Prepared next unit - waiting for HTTP429 cooldown, 10 November 2026**
+
+[The distinct prepared successor](research/coldcard/source_prefix_extension_20261110_11/README.md)
+reuses 1,266 verified successful reference/tail responses at 440, 439 and 384
+pages. All 254 input pins and inherited file/hash pairs verify. Failed, counter,
+status and operational markers were not copied. The preceding stopped scope
+and every private successful page are saved. No new provider request was made.
+
+**No provider request or early probe before 2026-11-11T23:18:37Z** (11 November,
+20:18:37 America/Sao_Paulo). This is a lower bound, not a scheduled run. The
+pinned run_after_cooldown.py entrypoint exits before importing HTTP collection
+code when not due. Its actual early CLI produced COOLDOWN_NOT_DUE_NO_HTTP,
+without a lock, permit or run receipt. Two new clock boundary/timezone tests
+pass. Variable-parent evidence was checked against all three real cache counts.
+
+After due time, execute only this prepared scope, using run_after_cooldown.py;
+never restart stopped scope10. Require fresh historical/local locks, live
+policy/cooldown and lease checks, exact new running lease publication/readback,
+a fresh private permit and one normal original-route counter HTTP200. Keep the
+original transport/TLS, two workers, one global start/second, 15s timeouts and
+first-refusal stop. Reaching the same 448-page work checkpoint requires at most
+81 tail pages plus access/reference/funding checks: 88 fresh requests maximum.
+Then run the scope's raw/response and independent export audits, followed by
+finalize_variable_checkpoint.py, which compares against each variable parent
+cache and enforces per-source no-replay bounds. Save the verified private layer
+before another unit. Keep routine archive attachments omitted.
+
+Coldcard stays 1,399/1,500, CryptoBilis 329/366, with 138 missing prefixes overall.
+Strict cutoffs, fourteen predictors, unknown verified theft/device labels,
+full-current statuses and all old vectors/models/scores remain unchanged. No
+fit or new score is part of this unit; recheck overlap before updated-snapshot
+modeling. Collection is stopped, lease idle and automation disabled. This entry
+supersedes older next-unit suggestions while preserving their historical evidence.
+
 **Latest verified state - HTTP429 stop with partial pages saved, 10 November 2026**
 
 [The closed stopped scope](research/coldcard/source_prefix_extension_20261110_10/RESULTS.md)
