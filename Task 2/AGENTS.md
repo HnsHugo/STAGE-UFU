@@ -1,5 +1,25 @@
 # Task 2 working instructions
 
+**Latest verified checkpoint - six deeper-prefix vectors, 10 November 2026**
+
+[The 64-page continuation](research/coldcard/source_prefix_extension_20261110_03/RESULTS.md)
+finalized all fifteen recent partial sources: six complete prefixes and nine
+retained incomplete histories with an explicit continuation queue. All 495 old
+responses were reused; 348 fresh requests returned HTTP200. All 843 saved
+responses, fifteen raw tails and six new vectors verify, including independent
+export checks; seventeen focused tests pass. The old 1,387 vectors and every
+unselected row are preserved. Coldcard now has 1,393 vectors (500 case / 893
+comparison); CryptoBilis stays 329/366, leaving 144 information gaps. Full-current
+histories, cutoffs, fourteen definitions, unknown labels and frozen scores are
+unchanged. There was no fit or new score. The lease is idle and locks are free.
+
+Next: save this verified checkpoint, then continue the nine retained 64-page
+prefixes in a distinct pinned successor, reusing every valid saved page. Keep
+the other older bounded sources and 82 unextended IDs. A work checkpoint is not
+permanent exclusion. Live locks/lease/cooldown, original route/TLS and first-
+refusal stop remain mandatory; recheck overlap before updated-snapshot models.
+This entry supersedes older next-unit suggestions while preserving their evidence.
+
 **Current execution unit - deepen fifteen retained prefixes, 10 November 2026**
 
 After the page-limit discussion, Hugo requests continued collection. The new

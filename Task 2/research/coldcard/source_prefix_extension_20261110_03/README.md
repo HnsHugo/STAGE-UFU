@@ -1,5 +1,7 @@
 # Deeper continuation of the fifteen recent incomplete histories
 
+**Completed and audited:** Fifteen outcomes finalized; six new vectors and nine retained 64-page histories. See [RESULTS.md](RESULTS.md). The next checkpoint continues the nine-source queue. Earlier preparation text below is historical.
+
 This unit follows Hugo's request to continue after discussing why a page cap
 must be a work checkpoint rather than permanent exclusion. It revises the older
 assistant next-unit choice of twenty previously unextended addresses. All
