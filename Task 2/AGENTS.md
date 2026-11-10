@@ -1,5 +1,8 @@
 # Task 2 working instructions
 
+Routine backups: preserve private evidence saves, but omit archive attachments
+from routine replies unless Hugo requests them.
+
 **Latest verified unit - 320-page checkpoint, 10 November 2026**
 
 [The latest checkpoint](research/coldcard/source_prefix_extension_20261110_08/RESULTS.md) reused
