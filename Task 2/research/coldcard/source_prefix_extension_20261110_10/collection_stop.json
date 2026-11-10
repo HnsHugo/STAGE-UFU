@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "status": "stopped_http_429",
+  "stopped_at": "2026-11-10T23:18:36.054Z",
+  "first_refusal_at": "2026-11-10T23:18:35.049341+00:00",
+  "http_429_responses": 2,
+  "distinct_refusal_stops": 1,
+  "second_refusal_was_already_in_flight": true,
+  "successful_fresh_responses": 112,
+  "operational_locks_released": true,
+  "collector_lease_idle": true,
+  "retry_after": null,
+  "previous_retry_delay_seconds": 57600,
+  "next_retry_delay_seconds": 86400,
+  "next_network_attempt_not_before": "2026-11-11T23:18:37.000Z",
+  "automatic_retry_performed": false,
+  "provider_or_route_changed": false,
+  "reason": "Stop on first HTTP429. Keep every successful page; never requery the stopped scope or probe before the published cooldown."
+}

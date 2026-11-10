@@ -1,5 +1,9 @@
 # Retained histories from 384 to 448 pages
 
+**Stopped and independently audited after HTTP429.** See [RESULTS.md](RESULTS.md).
+Saved page counts are 440, 439 and 384; the 448-page goal was not reached.
+Never rerun this scope or probe before 2026-11-11T23:18:37Z.
+
 Continue only comparison_0157, comparison_0176, comparison_0230. Reuse all
 1155 saved anchors/pages; all 234
 input pins and inherited file/hash pairs verify. The preceding scope is closed,

@@ -1,0 +1,50 @@
+{
+  "all_successful_response_fingerprints_and_cursor_sequences_verified": 1267,
+  "automatic_retry_performed": false,
+  "available_coldcard_vectors": 1399,
+  "bounded_coldcard_prefixes": 101,
+  "bounded_in_scope": 0,
+  "composed_view_sha256": "d4dd2b83430f7164c3bbcb57fd6a44ab23dea9d26aab60f362cc13dfec571450",
+  "cryptobilis_bounded_prefixes_unchanged": 37,
+  "cryptobilis_vectors_unchanged": 329,
+  "failed_request_records": 2,
+  "finalized": 0,
+  "full_current_history_statuses_unchanged": true,
+  "model_fits": 0,
+  "new_complete_prefixes": 0,
+  "new_complete_source_ids": [],
+  "new_raw_tails_reextracted": 0,
+  "new_request_records": 114,
+  "new_successful_provider_responses": 112,
+  "new_vectors_independently_recounted": 0,
+  "original_14_definitions_unchanged": true,
+  "pass_name": "source_prefix_extension_20261110_10",
+  "pending_in_scope": 3,
+  "pending_source_page_checkpoints": [
+    {
+      "last_cursor_sha256": "aa978bc7e8ba00e137bc151877b583d4e57e6e26687ebdabe23c797fdbb841f0",
+      "saved_tail_pages": 440,
+      "source_id": "comparison_0157"
+    },
+    {
+      "last_cursor_sha256": "869e16e541ab6f30b647f121fa1c4ebbc178ad71f20a953429e16b57face4f18",
+      "saved_tail_pages": 439,
+      "source_id": "comparison_0176"
+    },
+    {
+      "last_cursor_sha256": "d6d0eedbf9c63e2c740b5b2eafbed2823d34cadd9f0fcf551a57e8d1cd499c8b",
+      "saved_tail_pages": 384,
+      "source_id": "comparison_0230"
+    }
+  ],
+  "preserved_old_vectors": 1399,
+  "protocol_sha256": "0c020237b2b64569e8dce5ae58fc2804809f1dc4ece24610f295c43701f9b50d",
+  "provider_or_route_changed": false,
+  "schema_version": 1,
+  "selected": 3,
+  "selected_coldcard_sources": 1500,
+  "successful_offline_responses_reused": 1155,
+  "total_remaining_bounded_prefixes": 138,
+  "unknown_labels_unchanged": true,
+  "unselected_rows_unchanged": true
+}

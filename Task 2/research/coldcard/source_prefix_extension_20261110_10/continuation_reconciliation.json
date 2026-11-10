@@ -1,0 +1,54 @@
+{
+  "additional_source_transaction_observations": 0,
+  "bounded_incomplete_source_ids": [],
+  "checkpoint_pages": 448,
+  "coldcard_unavailable_prefixes": 101,
+  "coldcard_vectors": 1399,
+  "continuation_queue": [
+    {
+      "next_checkpoint_pages": 480,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 440,
+      "source_id": "comparison_0157"
+    },
+    {
+      "next_checkpoint_pages": 480,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 439,
+      "source_id": "comparison_0176"
+    },
+    {
+      "next_checkpoint_pages": 480,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 384,
+      "source_id": "comparison_0230"
+    }
+  ],
+  "cryptobilis_unavailable_unchanged": 37,
+  "cryptobilis_vectors_unchanged": 329,
+  "final_view_sha256": "d4dd2b83430f7164c3bbcb57fd6a44ab23dea9d26aab60f362cc13dfec571450",
+  "finalized": 0,
+  "full_current_history_statuses_unchanged": true,
+  "model_fits": 0,
+  "new_complete_prefixes": 0,
+  "new_complete_source_ids": [],
+  "new_request_intents": 114,
+  "new_scores": 0,
+  "new_successful_bodies": 112,
+  "observation_count_is_not_a_global_unique_transaction_count": true,
+  "old_tail_pages_requested_again": false,
+  "pending_source_ids": [
+    "comparison_0157",
+    "comparison_0176",
+    "comparison_0230"
+  ],
+  "preceding_vectors_preserved": 1399,
+  "provider_requests_by_reconciler": 0,
+  "saved_responses_reused": 1155,
+  "schema_version": 1,
+  "selected": 3,
+  "source_progress": [],
+  "status": "partial_checkpoint",
+  "total_remaining_information_gaps": 138,
+  "verified_compromise_device_labels_remain_unknown": true
+}

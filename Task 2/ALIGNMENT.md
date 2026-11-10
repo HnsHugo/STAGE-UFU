@@ -1,5 +1,31 @@
 # Task 2 alignment — 27 October 2026
 
+**Latest verified state - HTTP429 stop with partial pages saved, 10 November 2026**
+
+[The closed stopped scope](research/coldcard/source_prefix_extension_20261110_10/RESULTS.md)
+preserves comparison_0157 at 440 pages, comparison_0176 at 439 pages and
+comparison_0230 at 384 pages. The preceding 384-page checkpoint and this partial
+unit together added 7,575 source-transaction observations through 308 fresh
+HTTP200 responses. Two already in-flight requests returned HTTP429; no request
+started after the first refusal. Both audits and the partial-page reconciliation
+pass. All 1,399 Coldcard vectors, 329 CryptoBilis vectors, unselected rows,
+cutoffs, fourteen predictors, unknown labels and old models/scores are preserved.
+There are still 138 unavailable prefixes overall. No fit or new score ran.
+The private evidence layer is verified and saved. Routine replies omit archives.
+
+No provider request or early probe before **2026-11-11T23:18:37Z** (11 November,
+20:18:37 America/Sao_Paulo). The policy applies a 24h progressive backoff; no
+server Retry-After was present. Locks are free, lease idle and automation disabled.
+Never rerun the stopped scope. Next: prepare a distinct successor offline for
+these three pending IDs, reuse all 1,266 validated successful reference/tail
+responses and exclude failure/counter/status markers. Finishing the same
+448-page work checkpoint needs at most 81 tail pages and 88 fresh requests
+including access/reference/funding checks. After due time, require fresh locks,
+live policy/cooldown, exact new lease publication/readback and one ordinary
+original-route counter HTTP200. Preserve all other incomplete IDs and recheck
+overlap before any updated-snapshot model work. This entry supersedes older
+next-unit suggestions while retaining every historical outcome.
+
 **Latest verified unit - 384-page checkpoint, 10 November 2026**
 
 [The latest checkpoint](research/coldcard/source_prefix_extension_20261110_09/RESULTS.md) reused
