@@ -1,5 +1,8 @@
 # Four-source 96-to-128-page continuation
 
+**Completed and independently verified.** See [RESULTS.md](RESULTS.md): four
+retained incomplete prefixes, 133 fresh HTTP200 responses, no new vector.
+
 The exact four retained incomplete sources are extended from 96 to 128 pages.
 All 388 saved anchors/pages and 164 input
 pins verify. The full inherited file/hash lineage is retained without name

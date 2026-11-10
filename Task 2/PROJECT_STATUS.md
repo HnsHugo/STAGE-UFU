@@ -1,5 +1,23 @@
 # Project status — 2 November 2026
 
+**Latest verified unit - retained histories through 128 pages, 10 November 2026**
+
+[The four-source checkpoint](research/coldcard/source_prefix_extension_20261110_05/RESULTS.md)
+reused 388 verified responses, made 133 fresh HTTP200 requests and added 3,200
+source-transaction observations. All four histories remain incomplete with null
+features and saved continuation cursors. Both audits and twenty focused tests
+pass; all 1,398 prior Coldcard vectors and unselected rows remain exact. Coldcard
+stays 1,398/1,500, CryptoBilis 329/366, with 139 information gaps overall. The
+verified private cache is saved. Full-current statuses, cutoffs, fourteen
+predictors, labels and historical models/scores are unchanged. No fit or score.
+
+Next: prepare a distinct 128-to-192-page successor for comparison_0157,
+comparison_0176, comparison_0185 and comparison_0230, reusing every valid saved
+page. Retain all other missing histories. Keep fresh locks/lease/cooldown,
+original route and first-refusal stop; recheck overlap before new-snapshot models.
+The scope is closed, lease idle, locks free and automation disabled. This entry
+supersedes older next-unit suggestions while retaining their historical evidence.
+
 **Latest completed units - eleven progressive-coverage vectors, 10 November 2026**
 
 [Two verified checkpoints](research/coldcard/source_prefix_extension_20261110_04/RESULTS.md)

@@ -1,0 +1,98 @@
+{
+  "additional_source_transaction_observations": 3200,
+  "bounded_incomplete_source_ids": [
+    "comparison_0157",
+    "comparison_0176",
+    "comparison_0185",
+    "comparison_0230"
+  ],
+  "checkpoint_pages": 128,
+  "coldcard_unavailable_prefixes": 102,
+  "coldcard_vectors": 1398,
+  "continuation_queue": [
+    {
+      "next_checkpoint_pages": 160,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 128,
+      "source_id": "comparison_0157"
+    },
+    {
+      "next_checkpoint_pages": 160,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 128,
+      "source_id": "comparison_0176"
+    },
+    {
+      "next_checkpoint_pages": 160,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 128,
+      "source_id": "comparison_0185"
+    },
+    {
+      "next_checkpoint_pages": 160,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 128,
+      "source_id": "comparison_0230"
+    }
+  ],
+  "cryptobilis_unavailable_unchanged": 37,
+  "cryptobilis_vectors_unchanged": 329,
+  "final_view_sha256": "9676c43b98df90058afa036bb0e1e78b6029884eebc218bd1a8ab3b458a993d0",
+  "finalized": 4,
+  "full_current_history_statuses_unchanged": true,
+  "model_fits": 0,
+  "new_complete_prefixes": 0,
+  "new_complete_source_ids": [],
+  "new_request_intents": 133,
+  "new_scores": 0,
+  "new_successful_bodies": 133,
+  "observation_count_is_not_a_global_unique_transaction_count": true,
+  "old_tail_pages_requested_again": false,
+  "pending_source_ids": [],
+  "preceding_vectors_preserved": 1398,
+  "provider_requests_by_reconciler": 0,
+  "saved_responses_reused": 388,
+  "schema_version": 1,
+  "selected": 4,
+  "source_progress": [
+    {
+      "additional_source_transaction_observations": 800,
+      "earliest_observed_prior_height_after": 960182,
+      "earliest_observed_prior_height_before": 960184,
+      "pages_saved": 128,
+      "previous_pages": 96,
+      "source_id": "comparison_0157",
+      "status": "bounded_incomplete"
+    },
+    {
+      "additional_source_transaction_observations": 800,
+      "earliest_observed_prior_height_after": 935487,
+      "earliest_observed_prior_height_before": 937343,
+      "pages_saved": 128,
+      "previous_pages": 96,
+      "source_id": "comparison_0176",
+      "status": "bounded_incomplete"
+    },
+    {
+      "additional_source_transaction_observations": 800,
+      "earliest_observed_prior_height_after": 959786,
+      "earliest_observed_prior_height_before": 959870,
+      "pages_saved": 128,
+      "previous_pages": 96,
+      "source_id": "comparison_0185",
+      "status": "bounded_incomplete"
+    },
+    {
+      "additional_source_transaction_observations": 800,
+      "earliest_observed_prior_height_after": 958202,
+      "earliest_observed_prior_height_before": 958631,
+      "pages_saved": 128,
+      "previous_pages": 96,
+      "source_id": "comparison_0230",
+      "status": "bounded_incomplete"
+    }
+  ],
+  "status": "all_selected_finalized",
+  "total_remaining_information_gaps": 139,
+  "verified_compromise_device_labels_remain_unknown": true
+}
