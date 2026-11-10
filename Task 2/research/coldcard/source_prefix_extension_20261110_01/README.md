@@ -1,5 +1,7 @@
 # Restored evidence and next bounded Coldcard extension, 10 November 2026
 
+**Execution update:** Interrupted after ten final outcomes; one vector added. Read [RESULTS.md](RESULTS.md). A distinct successor handles only the ten unfinished IDs. Earlier preparation text below is historical.
+
 **Status: offline restoration completed; the new collection is prepared and has
 not started.** This unit serves the latest coverage priority in
 [ALIGNMENT.md](../../../ALIGNMENT.md). It preserves the 9 November closed scope,

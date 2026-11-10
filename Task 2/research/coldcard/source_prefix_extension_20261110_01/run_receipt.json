@@ -1,0 +1,31 @@
+{
+  "automatic_retry_performed": false,
+  "consumed_interrupted_request_records": [
+    {
+      "endpoint_sha256": "f643f222de182880f563f2d8b67b794fc4e3e94665c61d24a8a6ac17900f0b22",
+      "key": "tail_0023",
+      "source_id": "comparison_0207",
+      "started_at": "2026-11-10T16:31:32.275629+00:00"
+    },
+    {
+      "endpoint_sha256": "ac21b05203889fc094018fcce780212b270f572e30e3757d2275366a97d60a55",
+      "key": "tail_0002",
+      "source_id": "comparison_0212",
+      "started_at": "2026-11-10T16:31:31.046782+00:00"
+    }
+  ],
+  "first_refusal_status": null,
+  "full_current_history_statuses_promoted": false,
+  "model_fits": 0,
+  "new_http_200": 179,
+  "new_request_records": 181,
+  "offline_recovery_completed_at": "2026-11-10T16:33:47.391518+00:00",
+  "offline_responses_reused": 177,
+  "operational_locks_released": true,
+  "pass_name": "source_prefix_extension_20261110_01",
+  "provider_or_route_changed": false,
+  "refusal_at": null,
+  "retry_after": null,
+  "schema_version": 1,
+  "status": "interrupted_executor_session_lost"
+}

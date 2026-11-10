@@ -1,0 +1,87 @@
+{
+  "all_successful_response_fingerprints_and_cursor_sequences_verified": 356,
+  "automatic_retry_performed": false,
+  "available_coldcard_vectors": 1383,
+  "bounded_coldcard_prefixes": 117,
+  "bounded_in_scope": 9,
+  "composed_view_sha256": "c2e9e05a50672aa959199d48ccd626639fa3f0ba69c1cb55461774a70d6d8bd2",
+  "cryptobilis_bounded_prefixes_unchanged": 37,
+  "cryptobilis_vectors_unchanged": 329,
+  "failed_request_records": 0,
+  "finalized": 10,
+  "full_current_history_statuses_unchanged": true,
+  "model_fits": 0,
+  "new_complete_prefixes": 1,
+  "new_complete_source_ids": [
+    "comparison_0164"
+  ],
+  "new_raw_tails_reextracted": 10,
+  "new_request_records": 181,
+  "new_successful_provider_responses": 179,
+  "new_vectors_independently_recounted": 1,
+  "original_14_definitions_unchanged": true,
+  "pass_name": "source_prefix_extension_20261110_01",
+  "pending_in_scope": 10,
+  "pending_source_page_checkpoints": [
+    {
+      "last_cursor_sha256": "186ea1f9bd6ad273fa7d00916d366f5f5db8f34f4fadffe3d91cf715bcf6c544",
+      "saved_tail_pages": 23,
+      "source_id": "comparison_0207"
+    },
+    {
+      "last_cursor_sha256": "eb1a1009df6b574d2bac02be283b47af89ff403470128fbdce385610dac5f77d",
+      "saved_tail_pages": 2,
+      "source_id": "comparison_0212"
+    },
+    {
+      "last_cursor_sha256": "78321ad0ce971f5b1b3206b999f0d5b91e89ad470714b2f591c0be3c93bb46bd",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0213"
+    },
+    {
+      "last_cursor_sha256": "37c90b980ffadbd7a1474933acd3a1b8cc46c29494713aa56c1a94504fd48dee",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0214"
+    },
+    {
+      "last_cursor_sha256": "a35dd8ff3461da71b962b1538c5fafc6694d4ce39bf3c3e2f927a3b2b5cdc757",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0218"
+    },
+    {
+      "last_cursor_sha256": "fe8ad846494462608b64ca954e1adf0287ba01796d882fa8a8161c5589bb282d",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0226"
+    },
+    {
+      "last_cursor_sha256": "2ef41ba10572bcd7b8adfe99c1868d2baf9866e614667fe33298abc493d6c408",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0229"
+    },
+    {
+      "last_cursor_sha256": "04e24f0f639335f4a8699ac116181504ae0e3254161a483ff942ff4d0980dc41",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0230"
+    },
+    {
+      "last_cursor_sha256": "58121434bc7756021b24a646dba8ec70b4039ca4d260b8323ca2264dfcc4df8a",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0233"
+    },
+    {
+      "last_cursor_sha256": "039115881d012d216e9aac2e9c5a8b072f73b8619274899a529ea41ce4e227d5",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0236"
+    }
+  ],
+  "preserved_old_vectors": 1382,
+  "protocol_sha256": "19ac826b04aa53ef68962058f2ac2c9f8a59f52627fc26c0d44d86bcfb51d5e2",
+  "provider_or_route_changed": false,
+  "schema_version": 1,
+  "selected": 20,
+  "selected_coldcard_sources": 1500,
+  "successful_offline_responses_reused": 177,
+  "total_remaining_bounded_prefixes": 154,
+  "unknown_labels_unchanged": true,
+  "unselected_rows_unchanged": true
+}

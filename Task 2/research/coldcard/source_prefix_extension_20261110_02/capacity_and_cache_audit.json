@@ -1,0 +1,99 @@
+{
+  "model_fits": 0,
+  "old_failed_or_consumed_markers_copied": false,
+  "per_source": [
+    {
+      "saved_reference": true,
+      "saved_tail_pages": 23,
+      "source_id": "comparison_0207"
+    },
+    {
+      "saved_reference": true,
+      "saved_tail_pages": 2,
+      "source_id": "comparison_0212"
+    },
+    {
+      "saved_reference": false,
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0213"
+    },
+    {
+      "saved_reference": false,
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0214"
+    },
+    {
+      "saved_reference": false,
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0218"
+    },
+    {
+      "saved_reference": false,
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0226"
+    },
+    {
+      "saved_reference": false,
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0229"
+    },
+    {
+      "saved_reference": false,
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0230"
+    },
+    {
+      "saved_reference": false,
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0233"
+    },
+    {
+      "saved_reference": false,
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0236"
+    }
+  ],
+  "predecessor_consumed_interrupted_requests": [
+    {
+      "endpoint_sha256": "f643f222de182880f563f2d8b67b794fc4e3e94665c61d24a8a6ac17900f0b22",
+      "key": "tail_0023",
+      "source_id": "comparison_0207",
+      "started_at": "2026-11-10T16:31:32.275629+00:00"
+    },
+    {
+      "endpoint_sha256": "ac21b05203889fc094018fcce780212b270f572e30e3757d2275366a97d60a55",
+      "key": "tail_0002",
+      "source_id": "comparison_0212",
+      "started_at": "2026-11-10T16:31:31.046782+00:00"
+    }
+  ],
+  "predecessor_finalized_sources_excluded": 10,
+  "predecessor_old_vectors_preserved": 1383,
+  "private_work_available": true,
+  "provider_requests_during_preparation": 0,
+  "request_budget": {
+    "fresh_reference_statuses_at_most": 10,
+    "funding_status_gets_at_most": 11,
+    "new_reference_gets_at_most": 8,
+    "new_tail_pages_at_most": 295,
+    "ordinary_counter_gets": 1,
+    "total_new_requests_at_most": 325
+  },
+  "saved_responses_reused": 27,
+  "saved_tail_pages_reused": 25,
+  "schema_version": 1,
+  "scope": "distinct_interruption_successor",
+  "selected_source_ids": [
+    "comparison_0207",
+    "comparison_0212",
+    "comparison_0213",
+    "comparison_0214",
+    "comparison_0218",
+    "comparison_0226",
+    "comparison_0229",
+    "comparison_0230",
+    "comparison_0233",
+    "comparison_0236"
+  ],
+  "verified_device_compromise_labels_remain_unknown": true
+}

@@ -1,13 +1,11 @@
 {
   "automation_enabled": false,
-  "coldcard_vectors_available": 1382,
+  "coldcard_vectors_available": 1383,
   "collection_can_resume": false,
   "collection_requires_fresh_live_lease_and_locks": true,
+  "consumed_interrupted_request_count": 2,
   "cryptobilis_vectors_available": 329,
-  "finalized_source_ids": [],
-  "historical_results_preserved": true,
-  "model_fits": 0,
-  "network_source_ids": [
+  "finalized_source_ids": [
     "comparison_0140",
     "comparison_0141",
     "comparison_0157",
@@ -17,7 +15,11 @@
     "comparison_0177",
     "comparison_0178",
     "comparison_0185",
-    "comparison_0190",
+    "comparison_0190"
+  ],
+  "historical_results_preserved": true,
+  "model_fits": 0,
+  "network_source_ids": [
     "comparison_0207",
     "comparison_0212",
     "comparison_0213",
@@ -29,10 +31,14 @@
     "comparison_0233",
     "comparison_0236"
   ],
-  "next_action": "Hold all historical/local locks, fetch the live published policy, check due time and competing leases, publish/read back a fresh running lease, then permit exactly one original-route counter GET. HTTP200 alone permits this bounded scope; stop at first refusal with no fallback.",
+  "new_complete_source_ids": [
+    "comparison_0164"
+  ],
+  "next_action": "Use only a distinct pinned successor over the ten remaining IDs; preserve all successful pages and the two consumed intents. Never rerun this closed scope.",
   "pass_name": "source_prefix_extension_20261110_01",
   "protocol_sha256": "19ac826b04aa53ef68962058f2ac2c9f8a59f52627fc26c0d44d86bcfb51d5e2",
-  "provider_requests": 0,
+  "provider_requests": 181,
+  "restart_same_scope_allowed": false,
   "schema_version": 1,
   "source_ids": [
     "comparison_0140",
@@ -56,6 +62,7 @@
     "comparison_0233",
     "comparison_0236"
   ],
-  "status": "prepared_offline_not_started",
-  "total_remaining_bounded_prefixes": 155
+  "status": "interrupted_closed_audit_passed",
+  "successful_provider_responses": 179,
+  "total_remaining_bounded_prefixes": 154
 }
