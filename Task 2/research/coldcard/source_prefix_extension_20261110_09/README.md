@@ -1,5 +1,7 @@
 # Three-source 320-to-384-page continuation
 
+**Completed and independently verified.** See [RESULTS.md](RESULTS.md).
+
 Continue comparison_0157, comparison_0176 and comparison_0230 beyond their saved
 320-page prefixes. Reuse all 963 verified anchors/pages; all 220 protocol pins
 and inherited file/hash pairs verify. The parent is closed, independently

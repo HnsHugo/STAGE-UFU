@@ -1,5 +1,27 @@
 # Task 2 alignment — 27 October 2026
 
+**Latest verified unit - 384-page checkpoint, 10 November 2026**
+
+[The latest checkpoint](research/coldcard/source_prefix_extension_20261110_09/RESULTS.md) reused
+963 saved responses and made 196
+fresh HTTP200 requests. It added 4,800
+source-transaction observations, completed 0 new prefixes
+and retains 3 incomplete histories with null
+features and continuation cursors. Both audits pass, old vectors/unselected rows
+verify and the private cache is saved. The earlier twenty focused tests remain
+recorded; shared collection code is unchanged. Coldcard now has
+1,399/1,500 vectors; CryptoBilis stays 329/366, leaving
+138 information gaps. Cutoffs, fourteen
+predictors, unknown labels, full-current statuses and historical models/scores
+remain unchanged. No fit or new score ran.
+
+Next: a distinct checkpoint through 448 pages for comparison_0157, comparison_0176, comparison_0230 only,
+reusing all saved evidence. Preserve other incomplete IDs and all completed rows.
+Keep fresh locks/lease/cooldown, original route and first-refusal stop. Recheck
+overlap before updated-snapshot modeling. Collection is closed, lease idle, locks
+free and automation disabled. This entry supersedes older next-unit suggestions
+while preserving their historical evidence.
+
 **Latest verified unit - 320-page checkpoint, 10 November 2026**
 
 [The latest checkpoint](research/coldcard/source_prefix_extension_20261110_08/RESULTS.md) reused
