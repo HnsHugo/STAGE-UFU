@@ -1,5 +1,24 @@
 # Task 2 working instructions
 
+**Additional offline resume verification - 2026-11-10, America/Sao_Paulo**
+
+[Five new finalizer checks](research/coldcard/source_prefix_extension_20261110_11/offline_finalizer_verification.json)
+pass using isolated synthetic post-audit fixtures: completed-source accounting
+starts after the actual partial parent; bounded data keeps null features;
+another interruption preserves its cursor; per-source replay and changed old
+transactions are rejected. These are software tests, not research outcomes.
+The actual prepared clock gate again returned COOLDOWN_NOT_DUE_NO_HTTP. All
+254 pinned inputs and 1,266 real cached response bodies recheck, and no lock,
+permit or run receipt was created. No provider request, fit, score or dataset
+row change occurred. The prepared protocol SHA remains unchanged.
+
+The live policy still forbids provider requests or early probes before
+**2026-11-11T23:18:37Z** (11 November, 20:18:37 America/Sao_Paulo). Continue the
+same prepared scope11 only after that lower bound and all fresh locks/live
+policy/lease checks; this verification does not schedule collection. Preserve
+all earlier data, models and pending IDs, and keep routine archive attachments
+omitted. The prepared 88-request maximum and three saved cursors are unchanged.
+
 **Prepared next unit - waiting for HTTP429 cooldown, 10 November 2026**
 
 [The distinct prepared successor](research/coldcard/source_prefix_extension_20261110_11/README.md)

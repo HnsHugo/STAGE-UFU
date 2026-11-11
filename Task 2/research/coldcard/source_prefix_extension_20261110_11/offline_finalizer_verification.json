@@ -1,0 +1,32 @@
+{
+  "actual_clock_gate_result": "COOLDOWN_NOT_DUE_NO_HTTP",
+  "checked_at": "2026-11-11T00:28:12.682572+00:00",
+  "finalization_code_sha256": "01ed585fe62cc041c0ca97d28d584968a80bbf041f544276895f8af669b32eaf",
+  "model_fits": 0,
+  "network_not_before": "2026-11-11T23:18:37.000Z",
+  "new_provider_requests": 0,
+  "new_scores": 0,
+  "new_variable_finalizer_tests_passed": 5,
+  "operational_execution_flags_present": false,
+  "per_source_saved_pages": {
+    "comparison_0157": 440,
+    "comparison_0176": 439,
+    "comparison_0230": 384
+  },
+  "protocol_input_pins_rechecked": 254,
+  "protocol_sha256": "57d4ec6c2a2b702aba90ce418f3fb27b5c111b1b68abfcf851a308ce145552a8",
+  "remaining_wait_seconds_at_check": 82224,
+  "research_rows_changed": false,
+  "schema_version": 1,
+  "status": "passed",
+  "successful_cached_response_bodies_rechecked": 1266,
+  "test_code_sha256": "ff6facb76bac6c9250a78bb77fb829a73629a00de46bc47ef7463919d6f057e6",
+  "test_names": [
+    "completed_source_counts_only_observations_after_partial_parent",
+    "bounded_source_retains_null_features_and_continuation",
+    "another_interruption_preserves_the_partial_cursor",
+    "replay_below_this_source_bound_is_rejected",
+    "changed_original_transactions_are_rejected"
+  ],
+  "validation_scope": "Isolated synthetic post-audit finalizer accounting tests, plus real cache integrity and clock-gate checks; not a dataset or model evaluation."
+}
