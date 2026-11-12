@@ -1,5 +1,58 @@
 # Project status — 2 November 2026
 
+**HTTP429 stop with partial evidence saved - 12 November 2026**
+
+[The closed partial unit](research/coldcard/source_prefix_extension_20261112_03/RESULTS.md)
+saved 37 HTTP200 responses and two engaged HTTP429 records; no new request
+started after the first refusal. Two sources retain seventeen pages each,
+including one empty terminal page still awaiting its mandatory fresh reference
+status. All twenty IDs remain pending, eighteen never started. Both audits pass;
+all 1,401 vectors and every preceding row/queue are unchanged. The unit adds
+25 source-transaction observations, with no new vector, fit or score. All 81
+private evidence files are verified and saved; 25 original focused tests and six
+additional offline refusal/cooldown checks pass.
+
+No provider request or early probe before **2026-11-13T18:22:14+00:00**
+(13 November, **15:22:14 America/Sao_Paulo**), the existing progressive 24-hour
+backoff. No server Retry-After was supplied. The actual clock-only CLI returns
+COOLDOWN_NOT_DUE_NO_HTTP without operational markers. This is not a schedule.
+Never rerun this stopped scope. First prepare a distinct successor for these
+same twenty pending IDs; reuse all 36 verified reference/tail bodies, including
+the empty terminal page. Pin the offline reuse manifest and a resume-compatible
+runner/finalizer; the fresh-recovery preparer/runner cannot silently skip or
+relabel this interrupted work. The conservative fresh-request ceiling is 669.
+Do not copy consumed failure, counter or reference-status markers. Require
+fresh live lease/cooldown, exact publication/readback, historical/local locks,
+one normal original-route counter HTTP200 and first-refusal stop after due time.
+Retain all earlier queues, 42 untouched IDs and unknown labels. Recheck overlap
+before updated-snapshot modeling. Lease idle, locks free, automation disabled.
+This entry supersedes older next-unit and prelaunch approval suggestions.
+
+**Latest verified frontier unit - 12 November 2026**
+
+[The fixed twenty-source unit](research/coldcard/source_prefix_extension_20261112_03/RESULTS.md)
+completed 0 new prior prefixes and retains 0 finalized incomplete
+histories and 20 unfinished sources. It made 39 fresh
+requests (37 HTTP200); 34
+old response fingerprints verify. The 32 recovered old tail
+pages are excluded from added coverage. The unit added
+25 source-transaction observations,
+not globally unique transactions. Both audits and 25 focused checks pass;
+all 1,401 preceding vectors, unselected rows and three 576-page
+histories verify. The private evidence is saved. Coldcard now has
+1,401/1,500 vectors; CryptoBilis stays 329/366, with
+136 information gaps overall. Fourteen definitions,
+cutoffs, unknown theft/device labels, full-current statuses and historical
+models/scores stay fixed. No fit, score, retry, fallback or automation ran.
+
+Next: finish only the unfinished selected IDs in a distinct bounded successor after the live cooldown.
+Retain every deeper queue and missing row; never select a completed source.
+Use saved identities/pages, fresh locks/live policy/lease/cooldown, exact running
+lease readback, one original-route counter HTTP200 and first-refusal stop.
+Recheck overlap before updated-snapshot models. Collection is closed, the lease
+is idle, locks are free and automation disabled. This supersedes prelaunch
+approval blockers and older next-unit suggestions; their history is retained.
+
 **Latest verified frontier unit - 12 November 2026**
 
 [The fixed twenty-source unit](research/coldcard/source_prefix_extension_20261112_02/RESULTS.md)

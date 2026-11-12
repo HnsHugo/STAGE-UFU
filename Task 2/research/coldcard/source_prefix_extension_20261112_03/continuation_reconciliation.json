@@ -1,0 +1,382 @@
+{
+  "additional_source_transaction_observations": 25,
+  "bounded_incomplete_source_ids": [],
+  "coldcard_unavailable_prefixes": 99,
+  "coldcard_vectors": 1401,
+  "continuation_queue": [
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 17,
+      "source_id": "comparison_0351"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 17,
+      "source_id": "comparison_0358"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0386"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0390"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0391"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0392"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0394"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0405"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0407"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0433"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0441"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0469"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0471"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0473"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0476"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0494"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0495"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0508"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0521"
+    },
+    {
+      "next_checkpoint_pages": 32,
+      "previous_known_page_bound": 16,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 0,
+      "source_id": "comparison_0522"
+    }
+  ],
+  "cryptobilis_unavailable_unchanged": 37,
+  "cryptobilis_vectors_unchanged": 329,
+  "explicit_old_body_reacquisition": true,
+  "final_view_sha256": "127c695e58adad69752cc6a31e1b0a02f7d4acb482995184767a33d5362146a1",
+  "finalized": 0,
+  "fresh_http_200": 37,
+  "fresh_request_intents": 39,
+  "fresh_tail_pages_beyond_old_bound": 2,
+  "full_current_history_statuses_unchanged": true,
+  "model_fits": 0,
+  "new_complete_prefixes": 0,
+  "new_complete_source_ids": [],
+  "new_scores": 0,
+  "observation_count_is_not_a_global_unique_transaction_count": true,
+  "offline_responses_reused": 0,
+  "old_scopes_restarted": false,
+  "pending_source_ids": [
+    "comparison_0351",
+    "comparison_0358",
+    "comparison_0386",
+    "comparison_0390",
+    "comparison_0391",
+    "comparison_0392",
+    "comparison_0394",
+    "comparison_0405",
+    "comparison_0407",
+    "comparison_0433",
+    "comparison_0441",
+    "comparison_0469",
+    "comparison_0471",
+    "comparison_0473",
+    "comparison_0476",
+    "comparison_0494",
+    "comparison_0495",
+    "comparison_0508",
+    "comparison_0521",
+    "comparison_0522"
+  ],
+  "preceding_vectors_preserved": 1401,
+  "provider_requests_by_reconciler": 0,
+  "recovered_old_prior_block_observations": 778,
+  "recovered_old_responses_fingerprint_verified": 34,
+  "recovered_old_tail_pages": 32,
+  "recovered_pages_excluded_from_added_coverage": true,
+  "remaining_previously_unselected_16_page_sources": 42,
+  "retained_deep_queue_sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421",
+  "retained_deep_queue_unchanged": true,
+  "schema_version": 1,
+  "selected": 20,
+  "source_progress": [
+    {
+      "additional_source_transaction_observations": 25,
+      "old_pages_recovered": 16,
+      "pages_saved": 17,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 399,
+      "source_id": "comparison_0351",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 16,
+      "pages_saved": 17,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 379,
+      "source_id": "comparison_0358",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0386",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0390",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0391",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0392",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0394",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0405",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0407",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0433",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0441",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0469",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0471",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0473",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0476",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0494",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0495",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0508",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0521",
+      "status": "pending"
+    },
+    {
+      "additional_source_transaction_observations": 0,
+      "old_pages_recovered": 0,
+      "pages_saved": 0,
+      "previous_known_page_bound": 16,
+      "recovered_old_prior_block_observations": 0,
+      "source_id": "comparison_0522",
+      "status": "pending"
+    }
+  ],
+  "status": "partial_checkpoint",
+  "total_remaining_information_gaps": 136,
+  "verified_device_compromise_labels_remain_unknown": true
+}

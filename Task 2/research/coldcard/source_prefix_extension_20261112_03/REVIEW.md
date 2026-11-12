@@ -1,3 +1,6 @@
+**Historical prelaunch review.** Publication was explicitly approved and
+completed. The current outcome is in [RESULTS.md](RESULTS.md).
+
 # Prelaunch review of the next fixed frontier unit
 
 The saved private registry fingerprint matches the preceding published protocol.

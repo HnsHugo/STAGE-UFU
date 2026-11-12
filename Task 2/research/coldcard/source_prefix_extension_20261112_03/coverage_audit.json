@@ -1,0 +1,135 @@
+{
+  "all_successful_response_fingerprints_and_cursor_sequences_verified": 37,
+  "automatic_retry_performed": false,
+  "available_coldcard_vectors": 1401,
+  "bounded_coldcard_prefixes": 99,
+  "bounded_in_scope": 0,
+  "composed_view_sha256": "127c695e58adad69752cc6a31e1b0a02f7d4acb482995184767a33d5362146a1",
+  "cryptobilis_bounded_prefixes_unchanged": 37,
+  "cryptobilis_vectors_unchanged": 329,
+  "failed_request_records": 2,
+  "finalized": 0,
+  "full_current_history_statuses_unchanged": true,
+  "model_fits": 0,
+  "new_complete_prefixes": 0,
+  "new_complete_source_ids": [],
+  "new_raw_tails_reextracted": 0,
+  "new_request_records": 39,
+  "new_successful_provider_responses": 37,
+  "new_vectors_independently_recounted": 0,
+  "original_14_definitions_unchanged": true,
+  "pass_name": "source_prefix_extension_20261112_03",
+  "pending_in_scope": 20,
+  "pending_source_page_checkpoints": [
+    {
+      "last_cursor_sha256": "954641d1d3c2f8a6f83d3e94be7f6c03281a1a1e3bf65b75b2e4ab170d998837",
+      "saved_tail_pages": 17,
+      "source_id": "comparison_0351"
+    },
+    {
+      "last_cursor_sha256": "3582761b09bc41b6fe964ea1ea8ce007fe7a2c8352ec8294b91410d0dac94d6d",
+      "saved_tail_pages": 17,
+      "source_id": "comparison_0358"
+    },
+    {
+      "last_cursor_sha256": "34bc9a18417f4b9b8b827b5846fdb400f253ffd5b156619f35e219da9ecdbf22",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0386"
+    },
+    {
+      "last_cursor_sha256": "320c2bc0404653bd28478e8b2254a84fc20145edf1887a0c47f39a36171a4361",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0390"
+    },
+    {
+      "last_cursor_sha256": "6be54ed571ebc04be0ab675c281fccf21407b902d6ea8b51cdabd0016acaf42e",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0391"
+    },
+    {
+      "last_cursor_sha256": "320c2bc0404653bd28478e8b2254a84fc20145edf1887a0c47f39a36171a4361",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0392"
+    },
+    {
+      "last_cursor_sha256": "81cad3cfe5ac9d9bef0eb1e3a1876daa2a7e74d9ed277d57ac1b5036cb633e0b",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0394"
+    },
+    {
+      "last_cursor_sha256": "8c5530112b94319a503558f7cf9eb68546e07ee4ba45cce28ea575d957a7c6c2",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0405"
+    },
+    {
+      "last_cursor_sha256": "320c2bc0404653bd28478e8b2254a84fc20145edf1887a0c47f39a36171a4361",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0407"
+    },
+    {
+      "last_cursor_sha256": "d4a5be50ad83ff8e139d9fc275d5a3db1f25901c46cb5264830596604d0f29ce",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0433"
+    },
+    {
+      "last_cursor_sha256": "320c2bc0404653bd28478e8b2254a84fc20145edf1887a0c47f39a36171a4361",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0441"
+    },
+    {
+      "last_cursor_sha256": "cb7538cad9e163cfc6f4807536c837dc97430dc0b6b1459f7050e1395c8e3785",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0469"
+    },
+    {
+      "last_cursor_sha256": "320c2bc0404653bd28478e8b2254a84fc20145edf1887a0c47f39a36171a4361",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0471"
+    },
+    {
+      "last_cursor_sha256": "eaaa984b6c3505027516de9c46ad86aacbd92de7360336bc3c7b0e9af4f73b15",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0473"
+    },
+    {
+      "last_cursor_sha256": "29836e6fffc90973ff200b395f2262655c32817a8261c6154c8e96b94993b62a",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0476"
+    },
+    {
+      "last_cursor_sha256": "400cc5513a3f9ea9d40295a92a7664af2007be606c079212b81575079f1e2c76",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0494"
+    },
+    {
+      "last_cursor_sha256": "cba0d9850eeda77525e800d7996c1964d1f375038ac1fba69b183cccc9bfb2ef",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0495"
+    },
+    {
+      "last_cursor_sha256": "320c2bc0404653bd28478e8b2254a84fc20145edf1887a0c47f39a36171a4361",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0508"
+    },
+    {
+      "last_cursor_sha256": "62207fed444448566715493c64aeee8a31e46153cd733633da0e7dca4107e441",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0521"
+    },
+    {
+      "last_cursor_sha256": "a28b27bac1d1452be884aea909384a8389a60580c4b65e39e4b2f74770793b49",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0522"
+    }
+  ],
+  "preserved_old_vectors": 1401,
+  "protocol_sha256": "dd4b06a0e1210385ad5fd1738dfee3ab71cc9b8273e22758c68c953216947a47",
+  "provider_or_route_changed": false,
+  "schema_version": 1,
+  "selected": 20,
+  "selected_coldcard_sources": 1500,
+  "successful_offline_responses_reused": 0,
+  "total_remaining_bounded_prefixes": 136,
+  "unknown_labels_unchanged": true,
+  "unselected_rows_unchanged": true
+}

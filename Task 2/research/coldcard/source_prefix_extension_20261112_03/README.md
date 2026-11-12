@@ -1,26 +1,31 @@
-# Next fixed twenty-source frontier unit
+# Fixed frontier recovery and extension: twenty source/reference pairs
 
-Prepared from the closed, saved source_prefix_extension_20261112_02 unit.
-Select the next twenty of the 62 untouched 16-page-bound source/reference pairs
-in frozen registry order; preserve all 1,401 existing vectors and every prior
-queue. No fit, score, label change or full-current status promotion.
+**Interrupted; retained evidence independently verified.** See [RESULTS.md](RESULTS.md).
 
-The saved private registry provides all identities without a new large archive
-retrieval. Missing original bodies require explicit fresh recovery against 360
-old body/endpoint fingerprints before extension. Old recovery is network work,
-not added coverage. Extend to at most 32 pages; keep features null unless anchored
-exhaustion and funding closure verify. The request maximum is
-705 including one access counter, references, 640 tail pages, fresh
-reference statuses and conservative funding-status checks.
+The approved protocol, frozen source order, explicit old-body recovery
+fingerprints and private evidence layer are preserved. Original refusals
+and prelaunch review history remain immutable. No fit or score.
 
-Require fresh historical/local locks, live lease/cooldown checks, exact published
-running lease readback and one normal original-route counter HTTP200. Keep
-Blockstream, inherited proxy, verified TLS, two workers, one global start/second,
-fifteen-second timeouts and first-refusal stop. No retry, route fallback or
-automation. Run the two existing auditors and frontier finalizer, save the new
-private layer and publish the verified result before another unit.
+The live protocol forbids provider requests and early access probes before
+**2026-11-13T18:22:14+00:00** (13 November, **15:22:14 America/Sao_Paulo**).
+This is a lower bound under the existing progressive 24-hour backoff, not a
+scheduled restart. No server Retry-After header was supplied. Both 429 requests
+were already engaged before the first refusal; no new request intent followed it.
+The clock-only CLI check returned COOLDOWN_NOT_DUE_NO_HTTP and created no work,
+permit or request marker. Six further offline refusal/cooldown checks pass.
 
-Target: unchanged operational incident-membership proxy. Fourteen predictors
-use confirmed heights strictly before each reference block. Verified theft and
-device labels remain unknown; comparisons are not proven legitimate. Recheck
-overlap before any updated-snapshot model work.
+The stopped scope cannot be restarted. Its twenty original IDs stay pending;
+eighteen were never started. Two sources retain seventeen pages each. One of
+these has a saved empty terminal page but its required fresh reference-status
+request was refused, so it is not promoted. See resume_inventory.json for all
+36 reusable reference/tail fingerprints and a conservative 669-request bound
+for a distinct successor through the same 32-page checkpoint.
+
+A successor must pin its reuse manifest and use a resume-compatible guarded
+runner/finalizer: the immutable fresh-recovery runner rejects offline flags, and
+the untouched-frontier preparer must not skip these pending sources. Preserve
+the empty terminal page; do not copy either consumed failed marker, the old
+counter or any old reference-status marker. Keep the original route, fresh
+historical/local locks and exact live lease publication/readback after cooldown.
+The 42 untouched IDs, the earlier eighteen 32-page histories, three 576-page
+cursors, all other missing rows and all 1,401 complete vectors remain retained.

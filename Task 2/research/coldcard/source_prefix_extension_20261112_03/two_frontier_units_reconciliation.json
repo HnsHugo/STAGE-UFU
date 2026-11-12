@@ -1,0 +1,23 @@
+{
+  "additional_source_transaction_observations": 7484,
+  "all_preceding_1401_rows_unchanged_by_stopped_unit": true,
+  "all_previous_queues_and_private_layers_preserved": true,
+  "coldcard_vectors_after_two_units": 1401,
+  "coldcard_vectors_before_two_units": 1399,
+  "completed_unit_sources": 20,
+  "fresh_http200": 700,
+  "fresh_request_intents": 702,
+  "model_fits": 0,
+  "new_complete_prefixes": 2,
+  "new_scores": 0,
+  "next_network_attempt_not_before": "2026-11-13T18:22:14+00:00",
+  "observation_count_is_not_a_global_unique_transaction_count": true,
+  "original_source_reference_ids_counted_once": 40,
+  "recovered_old_observations_excluded_from_added_coverage": true,
+  "retained_http429_records": 2,
+  "schema_version": 1,
+  "scope": "first fixed frontier unit plus the next stopped unit",
+  "status": "passed",
+  "stopped_unit_never_started_sources": 18,
+  "stopped_unit_pending_sources": 20
+}
