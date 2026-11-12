@@ -1,0 +1,15 @@
+{
+  "all_overlap_cores_equal": true,
+  "blockstream_requests": 0,
+  "cross_provider_boundary_core_equal": true,
+  "http200": 3,
+  "legacy_boundary_height": 956111,
+  "new_vector_promotions": 0,
+  "overlap_all_in_cached_boundary_block": true,
+  "overlapping_transactions": 3,
+  "provider_reachable": true,
+  "required_correction": "Rewind to a cached transaction in a fully covered newer block; verify every overlap core and provider-native sequence before merging by TXID. Do not splice providers at a partial intra-block cursor.",
+  "same_provider_refusal_or_rate_limit_observed": false,
+  "schema_version": 1,
+  "status": "pagination_join_issue_identified"
+}

@@ -1,5 +1,22 @@
 # Task 2 alignment — 27 October 2026
 
+**Corrected independent-provider bridge pilot - 12 November 2026**
+
+The user explicitly requests another data acquisition method. Mempool returned
+three HTTP200s with matching boundary transaction data; the first stopped pilot
+diagnosed intra-block ordering differences and promoted no vector. Its evidence
+is verified and saved. The distinct [bridge pilot](research/coldcard/independent_provider_bridge_20261112/README.md)
+reuses the same 36 cached responses for comparison_0351/comparison_0358, rewinds
+above the partial boundary block, verifies overlap cores and uses native cursors.
+It is limited to forty requests, one worker and five-second spacing. Thirteen
+focused checks pass. Preserve every old vector, unknown label, cutoff and queue.
+
+The Blockstream scope remains closed and its cooldown remains unchanged. The
+current explicit instruction authorizes this named independent Mempool service
+only. No proxy/IP/account/TLS change, paid service or automatic provider rotation.
+Require fresh locks and an exact provider-specific published lease/readback. Stop
+at first refusal or cross-provider inconsistency; save/audit before expansion.
+
 **Explicit user request for an independent-provider pilot - 12 November 2026**
 
 Hugo asks to find another acquisition method after the Blockstream HTTP429 stop.

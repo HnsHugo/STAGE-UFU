@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "independent_provider_pilot_20261112",
+  "active_collection_scope": "independent_provider_bridge_20261112",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -49,14 +49,14 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-11-12T19:28:14.968289+00:00",
-    "owner": "independent_provider_pilot_20261112",
-    "policy": "A live lease or held historical/local lock prohibits another collector.",
-    "protocol": "independent_provider_pilot_20261112/protocol.json",
-    "protocol_sha256": "942a937c1eb089fc7f92c4515b6512599974149a84c71381e2a729a229535788",
+    "expires_at": "2026-11-12T19:44:58.541898+00:00",
+    "owner": "independent_provider_bridge_20261112",
+    "policy": "A live lease or historical/local lock prohibits concurrent collection.",
+    "protocol": "independent_provider_bridge_20261112/protocol.json",
+    "protocol_sha256": "b8cd19d7b455717285b8a224cfadda8907d95805a33e68c592b1c31b4b5caa47",
     "provider": "https://mempool.space/api",
-    "purpose": "Explicitly requested independent-provider compatibility pilot for two retained cached source/reference pairs.",
-    "started_at": "2026-11-12T18:58:14.968289+00:00",
+    "purpose": "Corrected complete-block overlap bridge for two explicitly authorized independent-provider source/reference pairs.",
+    "started_at": "2026-11-12T19:14:58.541898+00:00",
     "state": "running"
   },
   "comparison_pre_cutoff_predictors_available": 901,
@@ -106,6 +106,13 @@
     "sha256": "987f40d1cf65e0acf27bd0fa1ed8f07be870b4deba0f02fbda526abfa4676d47",
     "source_id": "cryptobilis_source_0112",
     "started_at": "2026-11-04T20:14:59.123294+00:00"
+  },
+  "last_independent_provider_probe": {
+    "http200": 3,
+    "new_vectors": 0,
+    "provider_refusals": 0,
+    "scope": "independent_provider_pilot_20261112",
+    "status": "closed_saved_ordering_diagnosis"
   },
   "last_prepared_prefix_successor": {
     "max_batches": 1,
@@ -160,12 +167,12 @@
   },
   "latest_independent_provider_pilot": {
     "legacy_responses_reused": 36,
-    "maximum_requests": 22,
-    "protocol": "independent_provider_pilot_20261112/protocol.json",
+    "maximum_requests": 40,
+    "protocol": "independent_provider_bridge_20261112/protocol.json",
     "provider": "https://mempool.space/api",
-    "scope": "independent_provider_pilot_20261112",
-    "status": "prepared_running_lease",
-    "tests_passed": 7
+    "scope": "independent_provider_bridge_20261112",
+    "status": "prepared_running_bridge_lease",
+    "tests_passed": 13
   },
   "latest_output": "source_prefix_extension_20261112_03",
   "latest_pass_pending_sources": 20,
@@ -230,7 +237,7 @@
     "successful_network_responses": 37
   },
   "maximum_429_backoff_seconds": 86400,
-  "next_coverage_action": "Evaluate only the explicitly user-authorized two-source Mempool pilot, with a hard 22-request ceiling and five-second spacing. Keep the Blockstream cooldown and stopped scope unchanged. Stop at first refusal or cross-provider disagreement; audit and save before extending the method.",
+  "next_coverage_action": "Finish only the corrected independent Mempool block-overlap pilot. Preserve the stopped naive cursor probe and original Blockstream cooldown. Verify every overlap core, native cursor and funding closure; stop at first failure, audit and save before expanding.",
   "next_network_attempt_not_before": "2026-11-13T18:22:14+00:00",
   "next_run_time_provided_by_service": false,
   "normal_run_bounds": {
@@ -294,14 +301,14 @@
     },
     "https://mempool.space/api": {
       "automatic_provider_rotation": false,
-      "maximum_requests": 22,
+      "maximum_requests": 40,
       "minimum_dispatch_interval_seconds": 5,
-      "scope": "independent_provider_pilot_20261112",
+      "scope": "independent_provider_bridge_20261112",
       "source_ids": [
         "comparison_0351",
         "comparison_0358"
       ],
-      "status": "explicit_user_authorized_bounded_pilot"
+      "status": "explicit_user_authorized_corrected_bridge_pilot"
     }
   },
   "public_snapshot_policy": "Commit checkpoints/deltas, normalized prior-block evidence, metadata and current status; raw address plans/histories stay excluded.",
