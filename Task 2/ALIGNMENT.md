@@ -1,5 +1,26 @@
 # Task 2 alignment — 27 October 2026
 
+**Prepared resumption - 12 November 2026; no new collection**
+
+[The next twenty-source unit](research/coldcard/source_prefix_extension_20261112_02/REVIEW.md)
+is prepared from the published 576-page checkpoint. All 3,480 latest-layer
+files, 4,419 original-archive fingerprints, 82 frozen private identities and
+306 prepared input pins verify. Twenty-one focused tests pass. The new scope
+fixes the next twenty untouched 16-page-bound IDs, pins 360 old-response
+fingerprints, separates fresh old-body recovery from added coverage and retains
+every older complete row and deep-history cursor. No provider request, vector,
+fit, score or newly published lease exists. Coldcard stays 1,399/1,500 and
+CryptoBilis 329/366; all 138 information gaps remain preserved.
+
+Automatic review rejected Git publication and requires explicit user approval
+in this conversation. The remote remains f52820d; preparation is local. The
+collector cannot issue HTTP without the normal published lease/readback gate.
+After approval publish the prepared result, acquire fresh historical/local locks,
+check live policy/cooldown and publish/read back a fresh exact running lease
+before the single original-route counter check. Keep first-refusal stop, all
+cutoffs/labels/definitions, disabled automation and routine archive omission.
+The scientific next unit remains the same fixed twenty-source coverage unit.
+
 **Latest verified unit - retained 576-page histories, 12 November 2026**
 
 [The 576-page checkpoint](research/coldcard/source_prefix_extension_20261112_01/RESULTS.md)

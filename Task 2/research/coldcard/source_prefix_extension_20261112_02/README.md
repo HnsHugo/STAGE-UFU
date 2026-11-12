@@ -1,5 +1,9 @@
 # Fixed frontier recovery and extension: twenty source/reference pairs
 
+**Prepared and verified offline; collection has not started.** Git publication
+requires explicit user approval after automatic review rejected the push. No
+provider request or new published lease exists. See [REVIEW.md](REVIEW.md).
+
 Prepared from the verified 576-page checkpoint and the first twenty of its 82
 previously unselected 16-page-bound source IDs, in frozen registry order.
 All 1,399 prior vectors, the three deep 576-page histories and every unselected

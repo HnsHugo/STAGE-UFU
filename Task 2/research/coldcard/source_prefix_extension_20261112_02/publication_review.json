@@ -1,0 +1,15 @@
+{
+  "automatic_review_rejections": 2,
+  "branch": "task-2-wallet-analysis",
+  "collection_started": false,
+  "new_lease_published": false,
+  "observed_at": "2026-11-12T17:35:05.444480+00:00",
+  "preparation_commit": "6a3386c",
+  "private_identifiers_excluded_from_public_diff": true,
+  "provider_requests": 0,
+  "reason": "Git push was rejected because the review requires explicit authorization in this conversation; retrieved prior publication instructions were not accepted as user-authored evidence in the transcript.",
+  "remote_head_confirmed": "f52820de94e061729eed57b4052f0de73303bbe3",
+  "repository": "HnsHugo/STAGE-UFU",
+  "restart_condition": "Explicit user authorization to publish prepared work to HnsHugo/STAGE-UFU on task-2-wallet-analysis; then reacquire fresh locks, recheck live policy/cooldown and publish/read back a fresh lease before HTTP.",
+  "status": "publication_blocked_pending_explicit_user_approval"
+}
