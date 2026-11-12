@@ -1,15 +1,21 @@
 {
+  "approval_context": "User explicitly approved publication of the two prepared commits on task-2-wallet-analysis in this conversation.",
+  "approval_message": "Oui",
   "automatic_review_rejections": 2,
   "branch": "task-2-wallet-analysis",
   "collection_started": false,
   "new_lease_published": false,
   "observed_at": "2026-11-12T17:35:05.444480+00:00",
   "preparation_commit": "6a3386c",
+  "previous_status": "publication_blocked_pending_explicit_user_approval",
   "private_identifiers_excluded_from_public_diff": true,
   "provider_requests": 0,
+  "published_preparation_commit": "6231a55116ee7f77bcfd53a06f1726bc0e87f8e3",
+  "published_tree_exactly_matches_prepared_local_tree": true,
   "reason": "Git push was rejected because the review requires explicit authorization in this conversation; retrieved prior publication instructions were not accepted as user-authored evidence in the transcript.",
   "remote_head_confirmed": "f52820de94e061729eed57b4052f0de73303bbe3",
   "repository": "HnsHugo/STAGE-UFU",
+  "resolved_at": "2026-11-12T17:50:57.758701+00:00",
   "restart_condition": "Explicit user authorization to publish prepared work to HnsHugo/STAGE-UFU on task-2-wallet-analysis; then reacquire fresh locks, recheck live policy/cooldown and publish/read back a fresh lease before HTTP.",
-  "status": "publication_blocked_pending_explicit_user_approval"
+  "status": "published_after_explicit_user_approval"
 }
