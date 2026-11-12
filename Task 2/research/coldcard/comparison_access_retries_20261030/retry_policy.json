@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "independent_provider_bridge_20261112",
+  "active_collection_scope": "none",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -49,23 +49,27 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-11-12T19:44:58.541898+00:00",
-    "owner": "independent_provider_bridge_20261112",
+    "expires_at": null,
+    "finished_at": "2026-11-12T19:23:44.297529+00:00",
+    "last_owner": "independent_provider_bridge_20261112",
+    "operational_locks_released": true,
+    "owner": null,
     "policy": "A live lease or historical/local lock prohibits concurrent collection.",
     "protocol": "independent_provider_bridge_20261112/protocol.json",
     "protocol_sha256": "b8cd19d7b455717285b8a224cfadda8907d95805a33e68c592b1c31b4b5caa47",
     "provider": "https://mempool.space/api",
     "purpose": "Corrected complete-block overlap bridge for two explicitly authorized independent-provider source/reference pairs.",
     "started_at": "2026-11-12T19:14:58.541898+00:00",
-    "state": "running"
+    "state": "idle",
+    "stop_status": "independent_provider_bridge_verified"
   },
-  "comparison_pre_cutoff_predictors_available": 901,
-  "comparison_pre_cutoff_predictors_unavailable": 99,
+  "comparison_pre_cutoff_predictors_available": 902,
+  "comparison_pre_cutoff_predictors_unavailable": 98,
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
   "coverage_complete_sources_added": 25,
   "coverage_interrupted_consumed_requests": 2,
-  "coverage_pause_reason": "HTTP429 stopped new starts. Thirty-seven successful responses and two partial 17-page histories are retained; one contains an empty terminal page but lacks its required fresh reference-status check. No new vector is promoted.",
+  "coverage_pause_reason": "The independent Mempool method is verified: one new complete prefix and one retained 844-transaction native partial history; eighteen original pending identities remain. No shared-provider cooldown was lifted. This bounded pilot is closed, with no active collector.",
   "environment_block_diagnosis_superseded_by": "One normal original-route counter GET returned HTTP200 on 2026-11-02. The environment flags alone did not establish a provider access block.",
   "external_automation_disable_reason": "Fixed CryptoBilis prior-prefix continuation closed: 366 final outcomes, 329 vectors, 37 bounded-incomplete; zero network/unattempted sources. No repeated collection.",
   "external_entity_independence_established": false,
@@ -127,7 +131,7 @@
   "last_rate_limit_at": "2026-11-12T18:22:13.994033+00:00",
   "last_retry_delay_seconds": 86400,
   "last_successful_bounded_collection_at": "2026-11-12T18:04:44.428580+00:00",
-  "latest_consolidated_prefix_view": "source_prefix_extension_20261112_03/precutoff_feature_view.json.gz",
+  "latest_consolidated_prefix_view": "independent_provider_bridge_20261112/precutoff_feature_view.json.gz",
   "latest_coverage_output": "source_prefix_extension_20261112_03",
   "latest_coverage_protocol": "source_prefix_extension_20261112_03/protocol.json",
   "latest_coverage_result_file": "source_prefix_extension_20261112_03/coverage_audit.json",
@@ -166,22 +170,27 @@
     "total_information_gaps": 136
   },
   "latest_independent_provider_pilot": {
+    "coldcard_vectors": 1402,
+    "http200": 25,
     "legacy_responses_reused": 36,
     "maximum_requests": 40,
+    "new_complete_prefixes": 1,
     "protocol": "independent_provider_bridge_20261112/protocol.json",
     "provider": "https://mempool.space/api",
+    "provider_requests": 25,
+    "raw_snapshot": "independent_provider_bridge_20261112/coverage_audit.json",
     "scope": "independent_provider_bridge_20261112",
-    "status": "prepared_running_bridge_lease",
+    "status": "completed_audited",
     "tests_passed": 13
   },
   "latest_output": "source_prefix_extension_20261112_03",
   "latest_pass_pending_sources": 20,
-  "latest_prefix_output": "source_prefix_extension_20261112_03",
-  "latest_prefix_protocol": "source_prefix_extension_20261112_03/protocol.json",
-  "latest_prefix_result_file": "source_prefix_extension_20261112_03/coverage_audit.json",
-  "latest_prefix_resume_file": "source_prefix_extension_20261112_03/resume_checkpoint.json",
-  "latest_prefix_stop_file": "source_prefix_extension_20261112_03/collection_stop.json",
-  "latest_prefix_work": "source_cohort_work_source_prefix_extension_20261112_03",
+  "latest_prefix_output": "independent_provider_bridge_20261112",
+  "latest_prefix_protocol": "independent_provider_bridge_20261112/protocol.json",
+  "latest_prefix_result_file": "independent_provider_bridge_20261112/coverage_audit.json",
+  "latest_prefix_resume_file": "independent_provider_bridge_20261112/resume_checkpoint.json",
+  "latest_prefix_stop_file": "independent_provider_bridge_20261112/collection_stop.json",
+  "latest_prefix_work": "source_cohort_work_independent_provider_bridge_20261112",
   "latest_prepared_coverage_successor": {
     "automation_enabled": false,
     "finalization_entrypoint": "finalize_frontier_checkpoint.py",
@@ -211,7 +220,7 @@
     "scope": "source_transfer_article_supplement",
     "status": "completed_four_page_checked_supplement"
   },
-  "latest_status": "stopped_429_partial_frontier_audited",
+  "latest_status": "independent_mempool_bridge_verified",
   "latest_stop_file": "source_prefix_extension_20261112_03/collection_stop.json",
   "latest_work": "source_cohort_work_source_prefix_extension_20261112_03",
   "manual_coverage_workstream": {
@@ -237,7 +246,7 @@
     "successful_network_responses": 37
   },
   "maximum_429_backoff_seconds": 86400,
-  "next_coverage_action": "Finish only the corrected independent Mempool block-overlap pilot. Preserve the stopped naive cursor probe and original Blockstream cooldown. Verify every overlap core, native cursor and funding closure; stop at first failure, audit and save before expanding.",
+  "next_coverage_action": "Use a distinct bounded native-Mempool unit for the eighteen remaining original pending sources, preserving their frozen identities and original pre-reference cutoff. Retain comparison_0351 with its private native cursor and all other older queues. Never resume the sorted union as an API cursor. Mempool has independent public limits; keep one worker, five-second spacing and first-failure stop. The Blockstream cooldown stays untouched. Recheck overlap before any model work.",
   "next_network_attempt_not_before": "2026-11-13T18:22:14+00:00",
   "next_run_time_provided_by_service": false,
   "normal_run_bounds": {
@@ -262,8 +271,8 @@
     "remaining_information_gaps": 150,
     "summary": "source_prefix_extension_20261110_02/original_twenty_reconciliation.json"
   },
-  "prefix_bounded_incomplete_sources": 99,
-  "prefix_network_pending_sources": 20,
+  "prefix_bounded_incomplete_sources": 98,
+  "prefix_network_pending_sources": 18,
   "previous_automation_paused": true,
   "progressive_128_to_320_coverage_20261110": {
     "additional_source_transaction_observations": 18151,
@@ -301,14 +310,17 @@
     },
     "https://mempool.space/api": {
       "automatic_provider_rotation": false,
+      "last_http200": 25,
+      "last_refusals": 0,
       "maximum_requests": 40,
       "minimum_dispatch_interval_seconds": 5,
+      "new_complete_prefixes": 1,
       "scope": "independent_provider_bridge_20261112",
       "source_ids": [
         "comparison_0351",
         "comparison_0358"
       ],
-      "status": "explicit_user_authorized_corrected_bridge_pilot"
+      "status": "bounded_pilot_verified"
     }
   },
   "public_snapshot_policy": "Commit checkpoints/deltas, normalized prior-block evidence, metadata and current status; raw address plans/histories stay excluded.",

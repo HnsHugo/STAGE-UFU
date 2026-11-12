@@ -1,5 +1,30 @@
 # Project status — 2 November 2026
 
+**Verified independent-provider bridge — 12 November 2026**
+
+[The Mempool bridge](research/coldcard/independent_provider_bridge_20261112/RESULTS.md)
+completed with 25 HTTP200 responses, seven verified overlap transaction cores,
+419 additional source-transaction observations and one newly complete prefix.
+Both audits and thirteen focused checks pass; all 1,401 preceding vectors and
+all identities, unknown labels, cutoffs, full-current statuses and historical
+models/scores are unchanged. Coldcard now has 1,402/1,500 vectors; CryptoBilis
+stays 329/366, leaving 135 information gaps. All 131 private files are verified
+and saved, including the native cursor and 82-source identity registry.
+
+The explicit user request authorizes continuing the validated independent
+Mempool method in a distinct bounded scope for the eighteen remaining original
+pending IDs listed in the bridge resume checkpoint. Retain every older queue,
+the three 576-page histories and comparison_0351's 844-transaction native
+checkpoint. Never use the sorted cross-provider union's last TXID as a cursor.
+Keep one worker, five-second spacing, verified TLS/inherited proxy, fresh locks
+and an exact published provider-specific lease/readback. Stop on the first
+refusal or data inconsistency and audit/save each unit before expansion.
+Mempool's own limits apply; no automatic provider/account/IP/proxy rotation or
+paid service is authorized. Blockstream remains closed under its unchanged
+cooldown through 2026-11-13T18:22:14+00:00. No model work ran; recheck overlap
+before future updated-snapshot models. Lease idle, locks free, automation disabled.
+This current verified entry supersedes earlier preparation/next-unit instructions.
+
 **Corrected independent-provider bridge pilot - 12 November 2026**
 
 The user explicitly requests another data acquisition method. Mempool returned

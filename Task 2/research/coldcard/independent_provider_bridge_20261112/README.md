@@ -23,3 +23,7 @@ Raw page counts distinguish saved Blockstream pages and new native Mempool
 pages. Their sum is a work/evidence count, not a claim of one provider's serial
 pagination or globally unique transactions. The frozen cohort and strict
 pre-reference-block predictor cutoff stay fixed.
+
+Verified outcome: [RESULTS.md](RESULTS.md). The corrected pilot completed with
+25 HTTP200 responses, one new complete prefix, 419 additional source observations
+and both audits passing. All evidence is saved; the scope is closed.
