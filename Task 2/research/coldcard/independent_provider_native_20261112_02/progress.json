@@ -1,0 +1,22 @@
+{
+  "attempted": 10,
+  "bounded_incomplete": 4,
+  "complete_prior_prefix": 6,
+  "failed_requests": [
+    {
+      "dispatch_at": "2026-11-12T21:11:21.991497+00:00",
+      "endpoint_sha256": "accd317fcbbbec001b37d9ed73395b89ca0fb3fc3de7f295c032745edbf3b17a",
+      "error_type": "SocketTimeoutError",
+      "finished_at": "2026-11-12T21:11:37.001487+00:00",
+      "key": "tail_0000",
+      "provider": "https://mempool.space/api",
+      "source_id": "comparison_0522",
+      "started_at": "2026-11-12T21:11:17.017239+00:00"
+    }
+  ],
+  "full_history_status_not_promoted": true,
+  "pending": 1,
+  "requests_started": 298,
+  "selected": 11,
+  "training_performed": false
+}

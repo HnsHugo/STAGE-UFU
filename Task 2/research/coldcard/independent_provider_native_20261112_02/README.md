@@ -28,3 +28,6 @@ closed Blockstream scope and its cooldown remain unchanged. Audit and save the
 bounded unit before expansion. Recovered native observations are excluded from
 fresh acquisition counts; no unique coverage gain over old Blockstream prefixes
 is claimed without an old/new transaction-set comparison.
+
+Verified result: [RESULTS.md](RESULTS.md). Both audits pass. The bounded scope
+is closed with 6 newly complete prefixes; all private evidence is saved.

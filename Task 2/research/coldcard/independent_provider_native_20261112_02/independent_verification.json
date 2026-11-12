@@ -1,0 +1,157 @@
+{
+  "additional_unique_observations_vs_old_blockstream_not_claimed": true,
+  "all_successful_response_fingerprints_and_cursor_sequences_verified": 297,
+  "automatic_retry_performed": false,
+  "available_coldcard_vectors": 1413,
+  "blockstream_provider_requests": 0,
+  "bounded_coldcard_prefixes": 87,
+  "bounded_in_scope": 4,
+  "composed_view_sha256": "d7070d81c0a07a04f58b946b84d8c401da56019c0fd66e8909f9d8a4f6961872",
+  "cryptobilis_bounded_prefixes_unchanged": 37,
+  "cryptobilis_vectors_unchanged": 329,
+  "failed_request_records": 1,
+  "finalized": 10,
+  "fresh_native_source_transaction_observations": 5963,
+  "full_current_history_statuses_unchanged": true,
+  "model_fits": 0,
+  "new_complete_prefixes": 6,
+  "new_complete_source_ids": [
+    "comparison_0441",
+    "comparison_0469",
+    "comparison_0473",
+    "comparison_0494",
+    "comparison_0495",
+    "comparison_0521"
+  ],
+  "new_raw_tails_reextracted": 10,
+  "new_request_records": 268,
+  "new_scores": 0,
+  "new_successful_provider_responses": 267,
+  "new_vectors_independently_recounted": 6,
+  "original_14_definitions_unchanged": true,
+  "pass_name": "independent_provider_native_20261112_02",
+  "pending_in_scope": 1,
+  "pending_source_page_checkpoints": [
+    {
+      "last_cursor_sha256": "a28b27bac1d1452be884aea909384a8389a60580c4b65e39e4b2f74770793b49",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0522"
+    }
+  ],
+  "preserved_old_vectors": 1407,
+  "private_native_cursors_sha256": "604273b7c6e61c2a7fe2a8601e26bc5d9ecb3ae4f2be15e751187629b6d59018",
+  "protocol_sha256": "ae440b163c163afd416c80a3d5f3a95e7d4fa10e37b4dadc197ff891a9ec3d12",
+  "provider": "https://mempool.space/api",
+  "provider_or_route_changed": false,
+  "retained_native_observations": 725,
+  "schema_version": 1,
+  "selected": 11,
+  "selected_coldcard_sources": 1500,
+  "source_progress": [
+    {
+      "fresh_native_source_transaction_observations": 75,
+      "last_native_cursor_sha256": "ced908027e9313577f1c61112cb2bc8ec1f116b7017324ac2a2a039a142dee49",
+      "old_native_observations_retained": 725,
+      "saved_native_pages": 32,
+      "source_id": "comparison_0433",
+      "source_transaction_observations_saved": 800,
+      "status": "bounded_incomplete"
+    },
+    {
+      "fresh_native_source_transaction_observations": 597,
+      "last_native_cursor_sha256": "3019992fa02a4a3f5bd15641725cf2b8e0d067b3f1f3d9d4fa7c0ec95bccb3b0",
+      "old_native_observations_retained": 0,
+      "saved_native_pages": 25,
+      "source_id": "comparison_0441",
+      "source_transaction_observations_saved": 597,
+      "status": "complete_prior_prefix"
+    },
+    {
+      "fresh_native_source_transaction_observations": 767,
+      "last_native_cursor_sha256": "421c55bd4a78e3210d7b3f63b8b2ce6128460b79771b154e134897398faf6634",
+      "old_native_observations_retained": 0,
+      "saved_native_pages": 32,
+      "source_id": "comparison_0469",
+      "source_transaction_observations_saved": 767,
+      "status": "complete_prior_prefix"
+    },
+    {
+      "fresh_native_source_transaction_observations": 800,
+      "last_native_cursor_sha256": "58ec4f95bd1f9b584f590739503243fb850d8e24a9f74d0c79f5be8cc8e59df8",
+      "old_native_observations_retained": 0,
+      "saved_native_pages": 32,
+      "source_id": "comparison_0471",
+      "source_transaction_observations_saved": 800,
+      "status": "bounded_incomplete"
+    },
+    {
+      "fresh_native_source_transaction_observations": 448,
+      "last_native_cursor_sha256": "d90ccad251a7f9c491c4d623089bdd92838e8b46265fb52fc2cbaeec47e08361",
+      "old_native_observations_retained": 0,
+      "saved_native_pages": 19,
+      "source_id": "comparison_0473",
+      "source_transaction_observations_saved": 448,
+      "status": "complete_prior_prefix"
+    },
+    {
+      "fresh_native_source_transaction_observations": 800,
+      "last_native_cursor_sha256": "455b5687b0138ece8e5293637f12481ca0ed8197a215b83440ec7f66ef51ace9",
+      "old_native_observations_retained": 0,
+      "saved_native_pages": 32,
+      "source_id": "comparison_0476",
+      "source_transaction_observations_saved": 800,
+      "status": "bounded_incomplete"
+    },
+    {
+      "fresh_native_source_transaction_observations": 562,
+      "last_native_cursor_sha256": "09fa119c9d2ee341aa5f001238bbca22a172323e5d159c734d9b6599cead1821",
+      "old_native_observations_retained": 0,
+      "saved_native_pages": 24,
+      "source_id": "comparison_0494",
+      "source_transaction_observations_saved": 562,
+      "status": "complete_prior_prefix"
+    },
+    {
+      "fresh_native_source_transaction_observations": 523,
+      "last_native_cursor_sha256": "1a0f3e1a6642b1ceac16f2b5bccf67bc8b1c7a946ec31797221abfaafd1dd07a",
+      "old_native_observations_retained": 0,
+      "saved_native_pages": 22,
+      "source_id": "comparison_0495",
+      "source_transaction_observations_saved": 523,
+      "status": "complete_prior_prefix"
+    },
+    {
+      "fresh_native_source_transaction_observations": 800,
+      "last_native_cursor_sha256": "0aa05032bca8b21fd4a48cb1d5b713ce38093582db8e427e56c27f3ef3507e94",
+      "old_native_observations_retained": 0,
+      "saved_native_pages": 32,
+      "source_id": "comparison_0508",
+      "source_transaction_observations_saved": 800,
+      "status": "bounded_incomplete"
+    },
+    {
+      "fresh_native_source_transaction_observations": 591,
+      "last_native_cursor_sha256": "96d05511d323486268aa2831a7cda61e53f605944e4f0c8968b0ab0720c1dfe5",
+      "old_native_observations_retained": 0,
+      "saved_native_pages": 25,
+      "source_id": "comparison_0521",
+      "source_transaction_observations_saved": 591,
+      "status": "complete_prior_prefix"
+    },
+    {
+      "fresh_native_source_transaction_observations": 0,
+      "last_native_cursor_sha256": "a28b27bac1d1452be884aea909384a8389a60580c4b65e39e4b2f74770793b49",
+      "old_native_observations_retained": 0,
+      "saved_native_pages": 0,
+      "source_id": "comparison_0522",
+      "source_transaction_observations_saved": 0,
+      "status": "pending"
+    }
+  ],
+  "status": "passed",
+  "successful_offline_responses_reused": 30,
+  "total_remaining_bounded_prefixes": 124,
+  "unknown_labels_unchanged": true,
+  "unselected_rows_unchanged": true,
+  "verification_basis": "Raw endpoint/cursor and offline-reuse fingerprint verification; original UTXO re-extraction; independent feature recount; old-vector/label/cutoff invariants; provider timing, budget and stop checks"
+}

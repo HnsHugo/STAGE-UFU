@@ -1,5 +1,53 @@
 # Task 2 working instructions
 
+**Prepared final-source response-time successor — 12 November 2026**
+
+The verified and saved native02 scope completed six new prefixes and retained
+four bounded histories. Its final source, comparison_0522, stopped on a
+fifteen-second socket response timeout, with no recorded provider refusal.
+[The distinct native03 scope](research/coldcard/independent_provider_native_20261112_03/README.md)
+selects only that remaining ID, reuses its verified full reference and follows
+the same native provider/cutoff under a forty-five-second response timeout.
+The local transport-error pause has elapsed. Twenty-nine focused checks pass.
+Keep one worker, five-second spacing, thirty-two pages and thirty-five fresh
+requests, fresh locks and exact published lease/readback. Stop on the first new
+failure/refusal/inconsistency; no in-scope retry or route/account/IP/proxy/provider
+rotation, TLS change, paid service or schedule. Blockstream stays closed.
+Preserve all 1,413 vectors, unknown labels, cutoffs, full-current statuses and
+every queue/identity. No fit, score, split or threshold change. Audit/save the
+bounded successor before expansion; recheck overlap before future model work.
+This current scope supersedes older next-unit guidance, retaining all evidence.
+
+**Verified eleven-source native resumption — 12 November 2026**
+
+[The native02 scope](research/coldcard/independent_provider_native_20261112_02/RESULTS.md)
+finalized 10/11 selected sources: 6 newly complete prefixes,
+4 bounded histories and 1 unfinished sources. It reused thirty
+verified successful native responses, retaining 725 old prior observations,
+and made 268 fresh requests (267 HTTP200; 1 failed records).
+The 5963 fresh native source-transaction observations exclude old reused
+observations and are not a unique added-coverage claim versus Blockstream.
+Both audits and twenty-seven focused checks pass. All 1,407 preceding vectors,
+identities, unknown labels, cutoffs, full-current statuses and historical
+models/scores are unchanged. Coldcard now has 1413/1,500 prefix vectors;
+CryptoBilis stays 329/366, leaving 124 information gaps. All 623 private
+evidence files are verified and saved, including native cursors and identities.
+The 231 old native markers and 39 closed Blockstream markers remain unchanged.
+
+Finish only the unfinished selected native sources in a distinct pinned successor,
+reusing all verified successful native pages and actual native cursors. Keep one
+worker, five-second spacing, the appropriate provider-specific live cooldown and
+an exact published lease/readback under fresh historical/local locks. Stop at
+first refusal/failure/inconsistency; never restart a consumed scope or replay its
+operational flags. Preserve unknown labels, all vectors/cutoffs/full-current
+statuses and all missing rows. No automatic provider/account/IP/proxy rotation,
+TLS change, paid service, fit or score. Recheck overlap before future updated-
+snapshot modeling.
+
+The scope is closed, lease idle, locks free and automation disabled. Blockstream's
+closed scope and cooldown remain unchanged. This current verified entry supersedes
+older preparation/next-unit guidance while preserving every prior outcome.
+
 **Prepared eleven-source native resumption — 12 November 2026**
 
 [The distinct native02 scope](research/coldcard/independent_provider_native_20261112_02/README.md)
