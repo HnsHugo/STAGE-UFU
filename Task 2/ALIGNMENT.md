@@ -1,5 +1,33 @@
 # Task 2 alignment — 27 October 2026
 
+**Latest verified unit - 448-page checkpoint, 11 November 2026**
+
+[The latest checkpoint](research/coldcard/source_prefix_extension_20261110_11/RESULTS.md) reused
+1266 saved responses and made 85
+fresh HTTP200 requests. It added 2,025
+source-transaction observations, completed 0 new prefixes
+and retains 3 incomplete histories with null
+features and continuation cursors. Both audits pass, old vectors/unselected rows
+verify and the private cache is saved. The earlier twenty focused tests remain
+recorded; shared collection code is unchanged. Coldcard now has
+1,399/1,500 vectors; CryptoBilis stays 329/366, leaving
+138 information gaps. Cutoffs, fourteen
+predictors, unknown labels, full-current statuses and historical models/scores
+remain unchanged. No fit or new score ran.
+
+The prepared variable-parent resume completed after the published cooldown.
+Its real parent pages were 440, 439 and 384; the finalizer verifies all three
+prefixes exactly and counts only 2,025 observations beyond those cached pages.
+The five previous finalizer contract checks and two clock checks remain recorded.
+There was no retry of the stopped scope, old page replay or vector promotion.
+
+Next: a distinct checkpoint through 512 pages for comparison_0157, comparison_0176, comparison_0230 only,
+reusing all saved evidence. Preserve other incomplete IDs and all completed rows.
+Keep fresh locks/lease/cooldown, original route and first-refusal stop. Recheck
+overlap before updated-snapshot modeling. Collection is closed, lease idle, locks
+free and automation disabled. This entry supersedes older next-unit suggestions
+while preserving their historical evidence.
+
 **Additional offline resume verification - 2026-11-10, America/Sao_Paulo**
 
 [Five new finalizer checks](research/coldcard/source_prefix_extension_20261110_11/offline_finalizer_verification.json)

@@ -1,4 +1,6 @@
-# Prepared successor waiting for the pinned cooldown
+# Completed 448-page checkpoint after cooldown
+
+**Completed and independently verified.** See [RESULTS.md](RESULTS.md).
 
 This scope is prepared offline for exactly comparison_0157, comparison_0176 and
 comparison_0230. It reuses all **1,266** validated successful reference/tail bodies
