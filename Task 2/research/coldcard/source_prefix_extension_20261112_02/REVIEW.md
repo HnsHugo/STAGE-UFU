@@ -1,3 +1,6 @@
+**Historical prelaunch review.** Publication was explicitly approved and
+completed. The current outcome is in [RESULTS.md](RESULTS.md).
+
 # Review of the prepared UFU resumption
 
 The repository is restored on task-2-wallet-analysis from the published

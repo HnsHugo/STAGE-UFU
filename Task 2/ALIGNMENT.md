@@ -1,5 +1,30 @@
 # Task 2 alignment — 27 October 2026
 
+**Latest verified frontier unit - 12 November 2026**
+
+[The fixed twenty-source unit](research/coldcard/source_prefix_extension_20261112_02/RESULTS.md)
+completed 2 new prior prefixes and retains 18 finalized incomplete
+histories and 0 unfinished sources. It made 663 fresh
+requests (663 HTTP200); 360
+old response fingerprints verify. The 320 recovered old tail
+pages are excluded from added coverage. The unit added
+7,459 source-transaction observations,
+not globally unique transactions. Both audits and 21 focused checks pass;
+all 1,399 preceding vectors, unselected rows and three 576-page
+histories verify. The private evidence is saved. Coldcard now has
+1,401/1,500 vectors; CryptoBilis stays 329/366, with
+136 information gaps overall. Fourteen definitions,
+cutoffs, unknown theft/device labels, full-current statuses and historical
+models/scores stay fixed. No fit, score, retry, fallback or automation ran.
+
+Next: the next at-most-twenty of the 62 untouched 16-page IDs, in frozen registry order.
+Retain every deeper queue and missing row; never select a completed source.
+Use saved identities/pages, fresh locks/live policy/lease/cooldown, exact running
+lease readback, one original-route counter HTTP200 and first-refusal stop.
+Recheck overlap before updated-snapshot models. Collection is closed, the lease
+is idle, locks are free and automation disabled. This supersedes prelaunch
+approval blockers and older next-unit suggestions; their history is retained.
+
 **Prepared resumption - 12 November 2026; no new collection**
 
 [The next twenty-source unit](research/coldcard/source_prefix_extension_20261112_02/REVIEW.md)
