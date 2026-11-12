@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "none",
+  "active_collection_scope": "source_prefix_extension_20261110_11",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -49,18 +49,14 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "state": "idle",
-    "owner": null,
-    "started_at": "2026-11-10T23:16:34.553Z",
-    "expires_at": null,
-    "protocol": "source_prefix_extension_20261110_10/protocol.json",
-    "protocol_sha256": "0c020237b2b64569e8dce5ae58fc2804809f1dc4ece24610f295c43701f9b50d",
-    "purpose": "Continue exactly the retained 3 histories from 384 to 448 pages using 1155 verified saved responses",
-    "policy": "A live lease or held local/historical lock prohibits another collector or access probe",
-    "last_owner": "source_prefix_extension_20261110_10",
-    "finished_at": "2026-11-10T23:22:04.131Z",
-    "stop_status": "stopped_http_429_audit_passed",
-    "operational_locks_released": true
+    "state": "running",
+    "owner": "source_prefix_extension_20261110_11",
+    "started_at": "2026-11-12T01:35:18.588Z",
+    "expires_at": "2026-11-12T02:35:18.588Z",
+    "protocol": "source_prefix_extension_20261110_11/protocol.json",
+    "protocol_sha256": "57d4ec6c2a2b702aba90ce418f3fb27b5c111b1b68abfcf851a308ce145552a8",
+    "purpose": "Finish the prepared 448-page checkpoint after cooldown using 1266 verified successful cached reference/tail responses and variable saved pages 440,439,384",
+    "policy": "A live lease or held historical/local lock prohibits another collector or access probe"
   },
   "comparison_pre_cutoff_predictors_available": 899,
   "comparison_pre_cutoff_predictors_unavailable": 101,
@@ -186,42 +182,20 @@
   "success_policy": "Continue only fixed latest error/unattempted IDs. Do not requery complete or bounded-incomplete histories. Every new retry pass pins all previous protocols/checkpoints/stops; no silent retry within a pass.",
   "timezone": "America/Sao_Paulo",
   "manual_coverage_workstream": {
-    "pass_name": "source_prefix_extension_20261110_10",
-    "protocol": "source_prefix_extension_20261110_10/protocol.json",
-    "status": "stopped_http_429_audit_passed",
+    "pass_name": "source_prefix_extension_20261110_11",
+    "protocol": "source_prefix_extension_20261110_11/protocol.json",
+    "status": "running_guarded_foreground_after_cooldown",
     "selected_sources": 3,
-    "previous_page_checkpoint": 384,
+    "per_source_saved_pages": {
+      "comparison_0157": 440,
+      "comparison_0176": 439,
+      "comparison_0230": 384
+    },
     "new_page_checkpoint": 448,
-    "offline_responses_reused": 1155,
-    "maximum_new_requests": 199,
+    "offline_responses_reused": 1266,
+    "maximum_new_requests": 88,
     "automation_enabled": false,
-    "old_scopes_preserved": true,
-    "finalized_sources": 0,
-    "new_complete_prefixes": 0,
-    "bounded_incomplete_sources": 0,
-    "network_pending_sources": 3,
-    "provider_requests": 114,
-    "successful_network_responses": 112,
-    "http_429_responses": 2,
-    "distinct_429_stops": 1,
-    "partial_source_page_checkpoints": [
-      {
-        "last_cursor_sha256": "aa978bc7e8ba00e137bc151877b583d4e57e6e26687ebdabe23c797fdbb841f0",
-        "saved_tail_pages": 440,
-        "source_id": "comparison_0157"
-      },
-      {
-        "last_cursor_sha256": "869e16e541ab6f30b647f121fa1c4ebbc178ad71f20a953429e16b57face4f18",
-        "saved_tail_pages": 439,
-        "source_id": "comparison_0176"
-      },
-      {
-        "last_cursor_sha256": "d6d0eedbf9c63e2c740b5b2eafbed2823d34cadd9f0fcf551a57e8d1cd499c8b",
-        "saved_tail_pages": 384,
-        "source_id": "comparison_0230"
-      }
-    ],
-    "lease_released_at": "2026-11-10T23:22:04.131Z"
+    "old_scopes_preserved": true
   },
   "latest_consolidated_prefix_view": "source_prefix_extension_20261110_10/precutoff_feature_view.json.gz",
   "is_enabled": false,
@@ -230,7 +204,7 @@
     "pass_name": "source_prefix_extension_20261110_11",
     "protocol": "source_prefix_extension_20261110_11/protocol.json",
     "protocol_sha256": "57d4ec6c2a2b702aba90ce418f3fb27b5c111b1b68abfcf851a308ce145552a8",
-    "status": "prepared_offline_waiting_cooldown",
+    "status": "running_lease_waiting_readback",
     "selected_sources": 3,
     "per_source_saved_pages": {
       "comparison_0157": 440,
