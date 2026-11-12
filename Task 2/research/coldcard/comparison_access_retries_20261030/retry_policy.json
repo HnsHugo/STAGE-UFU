@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "none",
+  "active_collection_scope": "independent_provider_native_20261112_02",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -50,28 +50,24 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": null,
-    "finished_at": "2026-11-12T20:03:54.574861+00:00",
-    "last_owner": "independent_provider_native_20261112_01",
-    "operational_locks_released": true,
-    "owner": null,
+    "expires_at": "2026-11-12T21:53:11.867567+00:00",
+    "owner": "independent_provider_native_20261112_02",
     "policy": "A live lease or historical/local lock prohibits concurrent collection.",
-    "protocol": "independent_provider_native_20261112_01/protocol.json",
-    "protocol_sha256": "85dc2f275eef2e47d8c2a8b9c030901195b47c19e91d5729dc994d3583ecaacb",
+    "protocol": "independent_provider_native_20261112_02/protocol.json",
+    "protocol_sha256": "ae440b163c163afd416c80a3d5f3a95e7d4fa10e37b4dadc197ff891a9ec3d12",
     "provider": "https://mempool.space/api",
-    "purpose": "Native independent-Mempool continuation of the eighteen original pending frozen sources.",
-    "started_at": "2026-11-12T19:41:06.769801+00:00",
-    "state": "idle",
-    "stop_status": "native_mempool_verified"
+    "purpose": "Resume exactly eleven frozen native-Mempool sources using thirty verified successful responses.",
+    "started_at": "2026-11-12T20:48:11.867567+00:00",
+    "state": "running"
   },
   "comparison_pre_cutoff_predictors_available": 907,
   "comparison_pre_cutoff_predictors_unavailable": 93,
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
-  "coverage_collection_paused": true,
+  "coverage_collection_paused": false,
   "coverage_complete_sources_added": 25,
   "coverage_interrupted_consumed_requests": 2,
-  "coverage_pause_reason": "The bounded independent native Mempool unit is closed and audited. All complete/partial evidence is preserved; no active collector or automatic schedule.",
+  "coverage_pause_reason": "A distinct bounded native successor holds locks and awaits exact lease publication/readback; Blockstream remains closed.",
   "environment_block_diagnosis_superseded_by": "One normal original-route counter GET returned HTTP200 on 2026-11-02. The environment flags alone did not establish a provider access block.",
   "external_automation_disable_reason": "Fixed CryptoBilis prior-prefix continuation closed: 366 final outcomes, 329 vectors, 37 bounded-incomplete; zero network/unattempted sources. No repeated collection.",
   "external_entity_independence_established": false,
@@ -235,7 +231,7 @@
     "scope": "source_transfer_article_supplement",
     "status": "completed_four_page_checked_supplement"
   },
-  "latest_status": "native_independent_mempool_verified",
+  "latest_status": "native_mempool_resume_running",
   "latest_stop_file": "source_prefix_extension_20261112_03/collection_stop.json",
   "latest_work": "source_cohort_work_source_prefix_extension_20261112_03",
   "manual_coverage_workstream": {
@@ -325,22 +321,12 @@
     },
     "https://mempool.space/api": {
       "automatic_provider_rotation": false,
-      "last_http200": 230,
-      "last_refusals": 0,
-      "maximum_requests": 634,
+      "maximum_requests": 356,
       "minimum_dispatch_interval_seconds": 5,
-      "native_pending_sources": 11,
-      "new_complete_prefixes": 5,
       "next_network_attempt_not_before": null,
-      "scope": "independent_provider_native_20261112_01",
+      "offline_responses_reused": 30,
+      "scope": "independent_provider_native_20261112_02",
       "source_ids": [
-        "comparison_0386",
-        "comparison_0390",
-        "comparison_0391",
-        "comparison_0392",
-        "comparison_0394",
-        "comparison_0405",
-        "comparison_0407",
         "comparison_0433",
         "comparison_0441",
         "comparison_0469",
@@ -353,8 +339,7 @@
         "comparison_0521",
         "comparison_0522"
       ],
-      "status": "closed_external_interruption_no_api_refusal",
-      "unresolved_response_count": 1
+      "status": "bounded_native_resume_running"
     }
   },
   "public_snapshot_policy": "Commit checkpoints/deltas, normalized prior-block evidence, metadata and current status; raw address plans/histories stay excluded.",

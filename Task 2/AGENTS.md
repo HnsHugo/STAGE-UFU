@@ -1,5 +1,24 @@
 # Task 2 working instructions
 
+**Prepared eleven-source native resumption — 12 November 2026**
+
+[The distinct native02 scope](research/coldcard/independent_provider_native_20261112_02/README.md)
+finishes exactly the eleven pending IDs from native01. Thirty saved successful
+Mempool responses, including comparison_0433's twenty-nine pages, verify and are
+reused offline. No failure, unknown original intent or lease flag is copied.
+A fresh reference-status check gates native-cursor continuation; ten other IDs
+start at their frozen references. Twenty-seven focused checks pass. Keep all
+1,407 preceding vectors, fourteen definitions, unknown labels, cutoffs,
+full-current statuses and every native/deep queue and untouched identity.
+
+Keep one worker, five-second spacing and the original thirty-two-page bound.
+Require fresh historical/local locks and exact published provider lease/readback.
+Stop at first refusal, failure or inconsistency; no in-scope restart, automatic
+provider/account/IP/proxy rotation, TLS change, paid service or schedule. The
+closed Blockstream gate stays unchanged. Audit/save before expansion; recheck
+overlap before future model work. This current scope supersedes older next-unit
+guidance; no model fit, scoring, split or threshold change is authorized.
+
 **Verified native-Mempool continuation — 12 November 2026**
 
 [The independent native scope](research/coldcard/independent_provider_native_20261112_01/RESULTS.md)
