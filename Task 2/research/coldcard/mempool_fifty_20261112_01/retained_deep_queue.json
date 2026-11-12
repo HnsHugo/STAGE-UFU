@@ -1,0 +1,31 @@
+{
+  "continuation_queue": [
+    {
+      "next_checkpoint_pages": 608,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 576,
+      "source_id": "comparison_0157"
+    },
+    {
+      "next_checkpoint_pages": 608,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 576,
+      "source_id": "comparison_0176"
+    },
+    {
+      "next_checkpoint_pages": 608,
+      "requires_distinct_pinned_successor": true,
+      "saved_pages": 576,
+      "source_id": "comparison_0230"
+    }
+  ],
+  "features_remain_null": true,
+  "no_source_removed": true,
+  "schema_version": 1,
+  "source_ids": [
+    "comparison_0157",
+    "comparison_0176",
+    "comparison_0230"
+  ],
+  "status": "retained_incomplete"
+}

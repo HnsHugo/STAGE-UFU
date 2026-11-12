@@ -1,5 +1,29 @@
 # Task 2 working instructions
 
+**Explicit fifty-source continuation — 12 November 2026**
+
+The user explicitly requests fifty sources. [The frozen campaign](research/coldcard/mempool_fifty_20261112/README.md)
+selects all forty-two untouched 16-page-bound identities and the eight saved
+native partial histories, each once. Thirty-seven other missing Coldcard rows
+and every CryptoBilis row remain retained. Work proceeds in bounded units of
+twenty, twenty and ten, with audit/private save/publication before each successor.
+The first two units use native reference-cursor pagination through thirty-two
+pages. The last unit also extends eight actual saved native cursors by at most
+sixteen new pages each, preserving the bridge's verified raw union and true
+native cursor. Never resume a sorted cross-provider union's last transaction.
+
+Keep all 1,413 previous vectors, fourteen definitions, source/reference cutoffs,
+unknown theft/device labels, full-current statuses and every old queue. The unit
+is the frozen source/reference pair; the target remains operational incident
+membership. No fitting/scoring, split or threshold change. Keep one worker,
+five-second spacing and the verified forty-five-second response timeout, fresh
+historical/local locks, the live provider gate and exact published lease/readback.
+Stop at first failure/refusal/inconsistency; never restart a consumed scope or
+copy operational flags. No provider/account/IP/proxy rotation, TLS change, paid
+service or automatic schedule. The Blockstream gate stays unchanged. Recheck
+overlap before future model work. The explicit fifty-source request supersedes
+the older at-most-twenty next-step suggestion, not these scientific safeguards.
+
 **Verified final-source response-time successor — 12 November 2026**
 
 [The native03 successor](research/coldcard/independent_provider_native_20261112_03/RESULTS.md)
