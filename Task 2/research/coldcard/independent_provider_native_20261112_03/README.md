@@ -23,3 +23,6 @@ use heights strictly before the reference block. Empty native terminal page,
 fresh anchors and original UTXO funding closure are mandatory for completeness.
 No fitting, scoring, split or threshold change; recheck overlap before future
 model work. Audit and save before any further expansion.
+
+Verified result: [RESULTS.md](RESULTS.md). Both audits pass; the scope is closed
+and all private evidence is saved.

@@ -1,0 +1,193 @@
+{
+  "available_coldcard_vectors": 1413,
+  "final_view_sha256": "e0f47c86ceef8f4ad4013b47dcd5bcd26713f78348a6b1c06357af30b338daa7",
+  "finalized_original_sources": 20,
+  "model_fits": 0,
+  "new_complete_prefixes_since_original_blockstream_stop": 12,
+  "new_complete_source_ids": [
+    "comparison_0358",
+    "comparison_0386",
+    "comparison_0392",
+    "comparison_0394",
+    "comparison_0405",
+    "comparison_0407",
+    "comparison_0441",
+    "comparison_0469",
+    "comparison_0473",
+    "comparison_0494",
+    "comparison_0495",
+    "comparison_0521"
+  ],
+  "new_scores": 0,
+  "origin_protocol_sha256": "dd4b06a0e1210385ad5fd1738dfee3ab71cc9b8273e22758c68c953216947a47",
+  "original_sources_pending": [],
+  "preserved_original_vectors": 1401,
+  "scope_partition": [
+    {
+      "finalized_source_ids": [
+        "comparison_0351",
+        "comparison_0358"
+      ],
+      "scope": "independent_provider_bridge_20261112"
+    },
+    {
+      "finalized_source_ids": [
+        "comparison_0386",
+        "comparison_0390",
+        "comparison_0391",
+        "comparison_0392",
+        "comparison_0394",
+        "comparison_0405",
+        "comparison_0407"
+      ],
+      "scope": "independent_provider_native_20261112_01"
+    },
+    {
+      "finalized_source_ids": [
+        "comparison_0433",
+        "comparison_0441",
+        "comparison_0469",
+        "comparison_0471",
+        "comparison_0473",
+        "comparison_0476",
+        "comparison_0494",
+        "comparison_0495",
+        "comparison_0508",
+        "comparison_0521"
+      ],
+      "scope": "independent_provider_native_20261112_02"
+    },
+    {
+      "finalized_source_ids": [
+        "comparison_0522"
+      ],
+      "scope": "independent_provider_native_20261112_03"
+    }
+  ],
+  "selected_original_source_ids": [
+    "comparison_0351",
+    "comparison_0358",
+    "comparison_0386",
+    "comparison_0390",
+    "comparison_0391",
+    "comparison_0392",
+    "comparison_0394",
+    "comparison_0405",
+    "comparison_0407",
+    "comparison_0433",
+    "comparison_0441",
+    "comparison_0469",
+    "comparison_0471",
+    "comparison_0473",
+    "comparison_0476",
+    "comparison_0494",
+    "comparison_0495",
+    "comparison_0508",
+    "comparison_0521",
+    "comparison_0522"
+  ],
+  "source_progress": [
+    {
+      "latest_verified_scope": "independent_provider_bridge_20261112",
+      "source_id": "comparison_0351",
+      "status": "bounded_incomplete"
+    },
+    {
+      "latest_verified_scope": "independent_provider_bridge_20261112",
+      "source_id": "comparison_0358",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_01",
+      "source_id": "comparison_0386",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_01",
+      "source_id": "comparison_0390",
+      "status": "bounded_incomplete"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_01",
+      "source_id": "comparison_0391",
+      "status": "bounded_incomplete"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_01",
+      "source_id": "comparison_0392",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_01",
+      "source_id": "comparison_0394",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_01",
+      "source_id": "comparison_0405",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_01",
+      "source_id": "comparison_0407",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_02",
+      "source_id": "comparison_0433",
+      "status": "bounded_incomplete"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_02",
+      "source_id": "comparison_0441",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_02",
+      "source_id": "comparison_0469",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_02",
+      "source_id": "comparison_0471",
+      "status": "bounded_incomplete"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_02",
+      "source_id": "comparison_0473",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_02",
+      "source_id": "comparison_0476",
+      "status": "bounded_incomplete"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_02",
+      "source_id": "comparison_0494",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_02",
+      "source_id": "comparison_0495",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_02",
+      "source_id": "comparison_0508",
+      "status": "bounded_incomplete"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_02",
+      "source_id": "comparison_0521",
+      "status": "complete_prior_prefix"
+    },
+    {
+      "latest_verified_scope": "independent_provider_native_20261112_03",
+      "source_id": "comparison_0522",
+      "status": "bounded_incomplete"
+    }
+  ],
+  "status": "passed",
+  "unknown_labels_cutoffs_and_full_current_statuses_unchanged": true
+}

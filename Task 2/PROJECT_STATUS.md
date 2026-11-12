@@ -1,5 +1,36 @@
 # Project status — 2 November 2026
 
+**Verified final-source response-time successor — 12 November 2026**
+
+[The native03 successor](research/coldcard/independent_provider_native_20261112_03/RESULTS.md)
+finalized 1/1 source with a declared forty-five-second response timeout:
+0 newly complete prefix and 1 bounded history. It reused
+one verified reference and made 34 fresh requests (34 HTTP200,
+0 failed records). Both audits and twenty-nine focused checks pass.
+The eleven-source continuation now has 11/11 finalized: 6 newly
+complete prefixes, 5 bounded histories and 0 pending sources.
+The original twenty-source reconciliation verifies 20/20 finalized, each
+counted once, and 12 newly complete prefixes since the Blockstream stop.
+All 1,413 preceding vectors and all 1,401 original-stop vectors, identities,
+unknown labels, cutoffs, full-current statuses and models/scores verify unchanged.
+Coldcard now has 1413/1,500 prefix vectors; CryptoBilis stays 329/366,
+with 124 retained information gaps. All 80 private evidence files
+are verified and saved, including native cursors and identities. No fit or score.
+
+Prepare the next at-most-twenty untouched 16-page-bound sources from the frozen
+identity registry, retaining all older bounded/native/deep histories. Keep one
+worker, five-second spacing, the appropriate provider-specific live cooldown and
+an exact published lease/readback under fresh historical/local locks. Stop at
+first refusal/failure/inconsistency; never restart a consumed scope or replay its
+operational flags. Preserve unknown labels, all vectors/cutoffs/full-current
+statuses and all missing rows. No automatic provider/account/IP/proxy rotation,
+TLS change, paid service, fit or score. Recheck overlap before future updated-
+snapshot modeling.
+
+The scope is closed, lease idle, locks free and automation disabled. Blockstream's
+closed scope/cooldown stay unchanged. This current verified entry supersedes older
+preparation/next-unit guidance while preserving every prior outcome.
+
 **Prepared final-source response-time successor — 12 November 2026**
 
 The verified and saved native02 scope completed six new prefixes and retained
