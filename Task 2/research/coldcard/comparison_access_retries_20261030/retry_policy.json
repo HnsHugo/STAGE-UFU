@@ -161,7 +161,7 @@
   "latest_stop_file": "source_prefix_extension_20261111_01/collection_stop.json",
   "latest_work": "source_cohort_work_source_prefix_extension_20261111_01",
   "maximum_429_backoff_seconds": 86400,
-  "next_coverage_action": "Prepare a distinct 576-page successor for only the exact retained incomplete queue, reusing all verified pages. Preserve completed rows and other missing IDs. Fresh historical/local locks, live policy/cooldown, exact new lease readback and one normal original-route counter HTTP200 remain mandatory.",
+  "next_coverage_action": "Execute the distinct three-source 512-to-576-page checkpoint after fresh locks, live policy/cooldown, exact new lease readback and one normal original-route counter HTTP200. Reuse all saved pages and preserve every completed row and missing source.",
   "next_network_attempt_not_before": "2026-11-11T23:18:37.000Z",
   "next_run_time_provided_by_service": false,
   "normal_run_bounds": {
@@ -208,23 +208,23 @@
   "is_enabled": false,
   "latest_reverse_transfer_output": "external_cases/cryptobilis_to_coldcard_20261109",
   "latest_prepared_coverage_successor": {
-    "pass_name": "source_prefix_extension_20261111_01",
-    "protocol": "source_prefix_extension_20261111_01/protocol.json",
-    "protocol_sha256": "675f862291ccfe5bf914e254bca2df2eaa42ab7be0fdae0ec248423f5ab85ac5",
-    "status": "closed_checkpoint_audit_passed",
+    "pass_name": "source_prefix_extension_20261112_01",
+    "protocol": "source_prefix_extension_20261112_01/protocol.json",
+    "protocol_sha256": "49bef941977565c4ead08d2e2c23806ac3538c557aec3b0163e39964f3a3bac0",
+    "status": "prepared_offline_not_started",
     "selected_sources": 3,
     "per_source_saved_pages": {
-      "comparison_0157": 448,
-      "comparison_0176": 448,
-      "comparison_0230": 448
+      "comparison_0157": 512,
+      "comparison_0176": 512,
+      "comparison_0230": 512
     },
-    "saved_responses_reused": 1347,
+    "saved_responses_reused": 1539,
     "maximum_new_requests": 199,
-    "new_page_checkpoint": 512,
+    "new_page_checkpoint": 576,
     "network_not_before": "2026-11-11T23:18:37.000Z",
     "network_entrypoint": "run_after_cooldown.py",
     "finalization_entrypoint": "finalize_coldcard_checkpoint.py",
-    "provider_requests": 196,
+    "provider_requests": 0,
     "model_fits": 0,
     "automation_enabled": false
   },
