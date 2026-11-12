@@ -1,0 +1,39 @@
+{
+  "model_fits": 0,
+  "new_recovery_guard_tests": 4,
+  "provider_requests": 0,
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "test_frontier_checkpoint.py",
+        "test_checkpoint_workflow.py",
+        "test_cooldown_guard.py",
+        "source_prefix_extension_20261110_01/test_preparation.py",
+        "source_prefix_extension_20261110_03/test_deeper_resume.py",
+        "-v"
+      ],
+      "output": "test_exact_reacquisition_accepted_and_changed_body_or_cursor_rejected (test_frontier_checkpoint.RecoveryContracts.test_exact_reacquisition_accepted_and_changed_body_or_cursor_rejected) ... ok\ntest_fixed_order_excludes_retained_deep_sources_and_complete_rows (test_frontier_checkpoint.RecoveryContracts.test_fixed_order_excludes_retained_deep_sources_and_complete_rows) ... ok\ntest_real_prepared_protocol_passes_original_eight_control_loader_without_http (test_frontier_checkpoint.RecoveryContracts.test_real_prepared_protocol_passes_original_eight_control_loader_without_http) ... ok\ntest_recovery_cannot_be_fabricated_by_missing_body_or_offline_flag (test_frontier_checkpoint.RecoveryContracts.test_recovery_cannot_be_fabricated_by_missing_body_or_offline_flag) ... ok\ntest_complete_source_is_never_reselected (test_checkpoint_workflow.CheckpointWorkflowTests.test_complete_source_is_never_reselected) ... ok\ntest_inherited_name_collisions_preserve_every_file_hash_pair (test_checkpoint_workflow.CheckpointWorkflowTests.test_inherited_name_collisions_preserve_every_file_hash_pair) ... ok\ntest_queue_requires_the_exact_audited_previous_checkpoint (test_checkpoint_workflow.CheckpointWorkflowTests.test_queue_requires_the_exact_audited_previous_checkpoint) ... ok\ntest_due_boundary_and_timezone_are_enforced (test_cooldown_guard.CooldownGuardTests.test_due_boundary_and_timezone_are_enforced) ... ok\ntest_future_cooldown_blocks_before_due_time (test_cooldown_guard.CooldownGuardTests.test_future_cooldown_blocks_before_due_time) ... ok\ntest_changed_response_body_is_rejected (source_prefix_extension_20261110_01.test_preparation.EvidenceGuards.test_changed_response_body_is_rejected) ... ok\ntest_complete_or_closed_source_cannot_be_selected (source_prefix_extension_20261110_01.test_preparation.EvidenceGuards.test_complete_or_closed_source_cannot_be_selected) ... ok\ntest_future_height_is_rejected (source_prefix_extension_20261110_01.test_preparation.EvidenceGuards.test_future_height_is_rejected) ... ok\ntest_truncated_container_never_yields_partial_member (source_prefix_extension_20261110_01.test_preparation.EvidenceGuards.test_truncated_container_never_yields_partial_member) ... ok\ntest_wrong_cursor_is_rejected (source_prefix_extension_20261110_01.test_preparation.EvidenceGuards.test_wrong_cursor_is_rejected) ... ok\ntest_64_nonempty_pages_still_have_no_manufactured_features (source_prefix_extension_20261110_03.test_deeper_resume.DeeperResumeTests.test_64_nonempty_pages_still_have_no_manufactured_features) ... ok\ntest_saved_32_pages_continue_to_empty_page_without_old_http (source_prefix_extension_20261110_03.test_deeper_resume.DeeperResumeTests.test_saved_32_pages_continue_to_empty_page_without_old_http) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.029s\n\nOK\n",
+      "returncode": 0,
+      "tests": 16,
+      "working_directory_relative_to_coldcard": "."
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "test_guards.py",
+        "-v"
+      ],
+      "output": "LOCAL_LOCK_HELD_NO_HTTP\ntest_expired_lease (test_guards.AccessGuards.test_expired_lease) ... ok\ntest_foreign_lease (test_guards.AccessGuards.test_foreign_lease) ... ok\ntest_future_cooldown (test_guards.AccessGuards.test_future_cooldown) ... ok\ntest_held_historical_lock (test_guards.AccessGuards.test_held_historical_lock) ... ok\ntest_missing_lease (test_guards.AccessGuards.test_missing_lease) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.026s\n\nOK\n",
+      "returncode": 0,
+      "tests": 5,
+      "working_directory_relative_to_coldcard": "source_prefix_extension_20261109_01"
+    }
+  ],
+  "status": "passed",
+  "tests": 21
+}
