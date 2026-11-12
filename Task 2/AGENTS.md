@@ -1,5 +1,38 @@
 # Task 2 working instructions
 
+**Latest verified unit - 512-page checkpoint, 11 November 2026**
+
+[The latest checkpoint](research/coldcard/source_prefix_extension_20261111_01/RESULTS.md) reused
+1347 saved responses and made 196
+fresh HTTP200 requests. It added 4,800
+source-transaction observations, completed 0 new prefixes
+and retains 3 incomplete histories with null
+features and continuation cursors. Both audits pass, old vectors/unselected rows
+verify and the private cache is saved. The earlier twenty focused tests remain
+recorded; shared collection code is unchanged. Coldcard now has
+1,399/1,500 vectors; CryptoBilis stays 329/366, leaving
+138 information gaps. Cutoffs, fourteen
+predictors, unknown labels, full-current statuses and historical models/scores
+remain unchanged. No fit or new score ran.
+
+Across the resumed 448- and 512-page units, all three original sources retain
+512-page histories. The independently verified
+[chain reconciliation](research/coldcard/source_prefix_extension_20261111_01/two_checkpoint_reconciliation.json)
+compares each original 440/439/384-page partial cache directly with final raw
+evidence, counts sources once and verifies every old vector/unselected row.
+The two units saved 6,825 additional source observations through 281 fresh
+HTTP200 requests, with no new refusal or retry. Both private layers are saved.
+No new complete prefix or model result was produced; all 138 information gaps
+remain retained. The regular preparer refreshes inherited page-count and
+finalizer metadata while preserving every pinned ancestor file/hash pair.
+
+Next: a distinct checkpoint through 576 pages for comparison_0157, comparison_0176, comparison_0230 only,
+reusing all saved evidence. Preserve other incomplete IDs and all completed rows.
+Keep fresh locks/lease/cooldown, original route and first-refusal stop. Recheck
+overlap before updated-snapshot modeling. Collection is closed, lease idle, locks
+free and automation disabled. This entry supersedes older next-unit suggestions
+while preserving their historical evidence.
+
 **Latest verified unit - 448-page checkpoint, 11 November 2026**
 
 [The latest checkpoint](research/coldcard/source_prefix_extension_20261110_11/RESULTS.md) reused

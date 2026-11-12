@@ -270,5 +270,22 @@
     "model_fits": 0,
     "new_scores": 0,
     "summary": "source_prefix_extension_20261110_08/progressive_checkpoint_reconciliation.json"
-  }
+  },
+  "resumed_coverage_20261111": {
+    "original_sources": 3,
+    "new_complete_prefixes": 0,
+    "retained_incomplete_sources": 3,
+    "current_saved_pages": 512,
+    "coldcard_vectors": 1399,
+    "cryptobilis_vectors": 329,
+    "total_information_gaps": 138,
+    "fresh_http_200": 281,
+    "additional_source_transaction_observations": 6825,
+    "observation_count_is_not_globally_unique_transactions": true,
+    "all_original_vectors_preserved": true,
+    "model_fits": 0,
+    "new_scores": 0,
+    "summary": "source_prefix_extension_20261111_01/two_checkpoint_reconciliation.json"
+  },
+  "latest_resumed_chain_summary": "source_prefix_extension_20261111_01/two_checkpoint_reconciliation.json"
 }

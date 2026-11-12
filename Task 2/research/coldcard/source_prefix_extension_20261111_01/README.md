@@ -1,5 +1,7 @@
 # Retained histories from 448 to 512 pages
 
+**Completed and independently verified.** See [RESULTS.md](RESULTS.md).
+
 Continue exactly comparison_0157, comparison_0176 and comparison_0230. Reuse
 1,347 verified saved reference/tail responses; all 271 input pins and inherited
 file/hash pairs verify. Each preceding source has 448 saved pages. The parent
@@ -30,3 +32,9 @@ hardware labels remain unknown. Preserve all 1,399 previous vectors, full-curren
 statuses and old frozen models/scores. No fit or new score. Incomplete histories
 retain null features and exact continuation cursors until anchored exhaustion
 and funding closure verify. Recheck overlap before updated-snapshot modeling.
+
+The resumed two-unit session added 6,825 source observations through 281 new
+HTTP200 responses. All three sources retain 512-page prefixes with null features.
+See RESULTS.md and two_checkpoint_reconciliation.json. The independent chain
+verifier is ../reconcile_partial_parent_chain.py; use a new output path when
+rechecking so closed reports are preserved.
