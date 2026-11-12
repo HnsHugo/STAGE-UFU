@@ -1,0 +1,28 @@
+{
+  "blockstream_cooldown_preserved_until": "2026-11-13T18:22:14+00:00",
+  "interpretation": "Evaluate a separately declared independent public data provider using its documented API; do not retry the stopped Blockstream provider or change IP/proxy/account/TLS.",
+  "maximum_requests": 22,
+  "minimum_dispatch_interval_seconds": 5,
+  "new_provider": "https://mempool.space/api",
+  "no_account_or_paid_subscription_created": true,
+  "primary_documentation": [
+    {
+      "basis": "Public REST endpoints for address history and transaction status; own rate limits apply.",
+      "url": "https://mempool.space/docs/api/rest"
+    },
+    {
+      "basis": "Original cursor and transaction schema; self-hosting is supported.",
+      "url": "https://github.com/Blockstream/esplora/blob/master/API.md"
+    },
+    {
+      "basis": "Blockstream documents limits on free access and higher limits on authenticated paid tiers.",
+      "url": "https://blog.blockstream.com/enhanced-analytics-and-infrastructure-improvements-for-the-blockstream-explorer-api/"
+    },
+    {
+      "basis": "Mempool software can be self-hosted.",
+      "url": "https://github.com/mempool/mempool/blob/master/README.md"
+    }
+  ],
+  "user_request": "Ya pas d'autre solution ? C'est quoi qui bloque la ? L'api ? Trouve un autre moyen",
+  "workers": 1
+}

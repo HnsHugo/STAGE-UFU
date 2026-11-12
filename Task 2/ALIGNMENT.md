@@ -1,5 +1,24 @@
 # Task 2 alignment — 27 October 2026
 
+**Explicit user request for an independent-provider pilot - 12 November 2026**
+
+Hugo asks to find another acquisition method after the Blockstream HTTP429 stop.
+This authorizes the distinct [Mempool pilot](research/coldcard/independent_provider_pilot_20261112/README.md)
+for comparison_0351 and comparison_0358 only: at most 22 public API requests,
+one worker, five-second spacing and first-failure stop. Reuse 36 validated saved
+responses; compare independent boundary transaction fields, cursor exhaustion
+and fresh reference-block statuses before extracting the unchanged fourteen
+predictors. Keep all 1,401 old vectors, unknown labels, prior queues and cutoffs.
+No fit/score, account/IP/proxy/TLS change, paid plan or automatic provider rotation.
+
+The original Blockstream scope remains closed and its cooldown stays in force
+until 2026-11-13T18:22:14+00:00. That local backoff is not a server-supplied ban
+duration. The prior global no-provider wording is superseded only for this
+explicitly authorized independent named-provider pilot. Require fresh historical/
+local locks, an exact published provider-specific lease and readback. The first
+fresh reference-status HTTP200 gates the independent continuation. Stop at any
+refusal or data disagreement and audit/save before expanding the method.
+
 **HTTP429 stop with partial evidence saved - 12 November 2026**
 
 [The closed partial unit](research/coldcard/source_prefix_extension_20261112_03/RESULTS.md)
