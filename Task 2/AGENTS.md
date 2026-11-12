@@ -1,5 +1,22 @@
 # Task 2 working instructions
 
+**Prepared native-Mempool continuation — 12 November 2026**
+
+The verified independent-provider bridge is saved and published. The explicit
+request to find another method continues through [a distinct native scope](research/coldcard/independent_provider_native_20261112_01/README.md)
+for the eighteen remaining original pending IDs. Use only native Mempool
+reference-cursor pagination, one worker, five-second spacing and at most 32
+pages/source under the pinned finite budget. Twenty focused checks pass.
+Keep all 1,402 old vectors, fourteen definitions, unknown labels, cutoffs,
+full-current statuses and every prior queue, including comparison_0351's
+844-transaction checkpoint and three 576-page histories. No fit or score.
+
+Require fresh historical/local locks and an exact published provider-specific
+lease/readback. Stop at first refusal, error or inconsistency; no retry, automatic
+provider/account/IP/proxy rotation, TLS change or paid service. The Blockstream
+cooldown stays unchanged. Audit/save before expansion; recheck overlap before
+future model work. This entry supersedes older next-unit guidance.
+
 **Verified independent-provider bridge — 12 November 2026**
 
 [The Mempool bridge](research/coldcard/independent_provider_bridge_20261112/RESULTS.md)
