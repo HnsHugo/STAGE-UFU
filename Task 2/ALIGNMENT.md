@@ -1,5 +1,36 @@
 # Task 2 alignment — 27 October 2026
 
+**Latest verified unit - retained 576-page histories, 12 November 2026**
+
+[The 576-page checkpoint](research/coldcard/source_prefix_extension_20261112_01/RESULTS.md)
+reused 1,539 validated responses and made 196 fresh HTTP200 requests. It added
+4,800 source-transaction observations; all three histories remain incomplete
+with null features and exact saved cursors. Both audits pass, all 1,399 previous
+vectors/unselected rows verify and the private layer is saved. Coldcard remains
+1,399/1,500, CryptoBilis 329/366, with 138 unavailable prefixes overall. Cutoffs,
+fourteen definitions, unknown device/compromise labels, full-current statuses
+and all old models/scores are unchanged. No fit or new score ran.
+
+The three deep sources remain explicitly preserved in retained_deep_queue.json.
+Next aligned coverage unit: select the first at most twenty of the 82 other
+previously unselected 16-page-bound Coldcard IDs, in existing registry order.
+Retain all other incomplete IDs and the three 576-page histories; the cohort
+and target labels stay fixed. This scheduling broadens observed coverage while
+continuing to retain the long histories, rather than permanently excluding them.
+
+The primary private archive is fully verified: all 4,419 file fingerprints and
+the combined archive SHA match. Its recovered plans freeze the next sources'
+identities, but its verified layers contain no reference/tail page bytes for
+those twenty IDs. Use their pinned old public response fingerprints to verify
+explicit fresh recovery in a distinct bounded scope. Count recovered old pages
+as network work, not added coverage. Never restart old scopes or copy their
+failure/operational markers. Original route, fresh historical/local locks,
+live lease/cooldown, exact running lease readback, one normal counter HTTP200
+and first-refusal stop remain mandatory. Recheck overlap before updated-snapshot
+modeling. Collection is closed, lease idle and automation disabled. Keep routine
+archive attachments omitted. This entry supersedes older next-unit suggestions
+while preserving every historical outcome.
+
 **Latest verified unit - 512-page checkpoint, 11 November 2026**
 
 [The latest checkpoint](research/coldcard/source_prefix_extension_20261111_01/RESULTS.md) reused

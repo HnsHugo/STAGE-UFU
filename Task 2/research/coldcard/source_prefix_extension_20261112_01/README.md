@@ -1,5 +1,7 @@
 # Retained histories from 512 to 576 pages
 
+**Completed and independently verified.** See [RESULTS.md](RESULTS.md).
+
 Continue exactly comparison_0157, comparison_0176 and comparison_0230, reusing
 1,539 validated saved references/pages. All 286 input pins and inherited
 file/hash pairs verify. The preceding checkpoint is closed, independently
