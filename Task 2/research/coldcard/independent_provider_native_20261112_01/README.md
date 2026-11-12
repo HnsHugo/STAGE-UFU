@@ -24,3 +24,6 @@ has independent public limits. Audit and save the unit before further expansion.
 Fresh native observations are not claimed as additional unique coverage over
 old Blockstream prefixes without an old/new transaction-set comparison. Keep
 actual native cursors privately, all deep queues and all 42 untouched sources.
+
+Verified result: [RESULTS.md](RESULTS.md). The unit is closed with both audits
+passing, 5 newly complete prefixes and all private evidence saved.

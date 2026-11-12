@@ -1,5 +1,30 @@
 # Task 2 working instructions
 
+**Verified native-Mempool continuation — 12 November 2026**
+
+[The independent native scope](research/coldcard/independent_provider_native_20261112_01/RESULTS.md)
+finalized 7/18 selected sources: 5 newly complete prior prefixes,
+2 bounded histories and 11 unfinished sources. It saved
+230 HTTP200 responses, with 0 failed request records, and
+5198 prior source-transaction observations. This is not a claim
+of unique added coverage versus old Blockstream prefixes. Both audits and twenty
+focused checks pass. Execution ended externally: one request intent has no
+recorded response; comparison_0433 retains 29 successful pages. No new API
+refusal is recorded, and no Mempool cooldown is imposed. All 1,402 preceding vectors and all identities, unknown
+labels, cutoffs, full-current statuses and historical models/scores are unchanged.
+Coldcard now has 1407/1,500 prefix vectors; CryptoBilis stays 329/366,
+leaving 130 information gaps. All 481 private evidence files are verified
+and saved, including native cursors and the 82-source identity registry.
+
+Finish only the remaining selected pending sources in a distinct native-Mempool successor, reusing every verified native page and actual native cursor. Preserve all other missing sources, complete vectors, private identities, native partial/deep queues and cutoff/unknown labels. Never resume sorted cross-provider union cursors. Keep five-second spacing, one worker, exact published live lease/locks/readback and first-failure stop. Respect the independent provider gate and the unchanged Blockstream gate. Recheck overlap before model work.
+
+The current explicit request authorizes this validated named independent Mempool
+method. No automatic provider/account/IP/proxy rotation, TLS change, paid service,
+fit or score is authorized. The closed Blockstream scope and cooldown remain
+unchanged through 2026-11-13T18:22:14+00:00. Scope closed, lease idle, locks free,
+automation disabled. This current verified entry supersedes older preparation
+and next-unit guidance while preserving all prior outcomes.
+
 **Prepared native-Mempool continuation — 12 November 2026**
 
 The verified independent-provider bridge is saved and published. The explicit

@@ -1,0 +1,252 @@
+{
+  "additional_observations_vs_old_blockstream_prefix_not_claimed": true,
+  "all_successful_response_fingerprints_and_cursor_sequences_verified": 230,
+  "automatic_provider_rotation": false,
+  "automatic_retry_performed": false,
+  "available_coldcard_vectors": 1407,
+  "blockstream_provider_requests": 0,
+  "bounded_coldcard_prefixes": 93,
+  "bounded_in_scope": 2,
+  "composed_view_sha256": "f9dfa112c43df45bf2701e3b8a975eac8ad42a1eb340f07ee0a3023095e44e18",
+  "cryptobilis_bounded_prefixes_unchanged": 37,
+  "cryptobilis_vectors_unchanged": 329,
+  "failed_request_records": 0,
+  "finalized": 7,
+  "full_current_history_statuses_unchanged": true,
+  "model_fits": 0,
+  "new_complete_prefixes": 5,
+  "new_complete_source_ids": [
+    "comparison_0386",
+    "comparison_0392",
+    "comparison_0394",
+    "comparison_0405",
+    "comparison_0407"
+  ],
+  "new_raw_tails_reextracted": 7,
+  "new_request_records": 231,
+  "new_successful_provider_responses": 230,
+  "new_vectors_independently_recounted": 5,
+  "observation_count_is_not_globally_unique_transactions": true,
+  "original_14_definitions_unchanged": true,
+  "pass_name": "independent_provider_native_20261112_01",
+  "pending_in_scope": 11,
+  "pending_source_page_checkpoints": [
+    {
+      "last_cursor_sha256": "204df30ed7bd30fce5b7f78b8af21bd7737b21bf455e647b7b82bebfdf75c367",
+      "saved_tail_pages": 29,
+      "source_id": "comparison_0433"
+    },
+    {
+      "last_cursor_sha256": "320c2bc0404653bd28478e8b2254a84fc20145edf1887a0c47f39a36171a4361",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0441"
+    },
+    {
+      "last_cursor_sha256": "cb7538cad9e163cfc6f4807536c837dc97430dc0b6b1459f7050e1395c8e3785",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0469"
+    },
+    {
+      "last_cursor_sha256": "320c2bc0404653bd28478e8b2254a84fc20145edf1887a0c47f39a36171a4361",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0471"
+    },
+    {
+      "last_cursor_sha256": "eaaa984b6c3505027516de9c46ad86aacbd92de7360336bc3c7b0e9af4f73b15",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0473"
+    },
+    {
+      "last_cursor_sha256": "29836e6fffc90973ff200b395f2262655c32817a8261c6154c8e96b94993b62a",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0476"
+    },
+    {
+      "last_cursor_sha256": "400cc5513a3f9ea9d40295a92a7664af2007be606c079212b81575079f1e2c76",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0494"
+    },
+    {
+      "last_cursor_sha256": "cba0d9850eeda77525e800d7996c1964d1f375038ac1fba69b183cccc9bfb2ef",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0495"
+    },
+    {
+      "last_cursor_sha256": "320c2bc0404653bd28478e8b2254a84fc20145edf1887a0c47f39a36171a4361",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0508"
+    },
+    {
+      "last_cursor_sha256": "62207fed444448566715493c64aeee8a31e46153cd733633da0e7dca4107e441",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0521"
+    },
+    {
+      "last_cursor_sha256": "a28b27bac1d1452be884aea909384a8389a60580c4b65e39e4b2f74770793b49",
+      "saved_tail_pages": 0,
+      "source_id": "comparison_0522"
+    }
+  ],
+  "preserved_old_vectors": 1402,
+  "private_native_cursors_sha256": "23ad5f4bf747e3bb9c69c20cdc4709eb11a6e1281314ecdec7dbad894dfd3cda",
+  "protocol_sha256": "85dc2f275eef2e47d8c2a8b9c030901195b47c19e91d5729dc994d3583ecaacb",
+  "provider": "https://mempool.space/api",
+  "provider_change_explicitly_authorized": true,
+  "provider_or_route_changed": true,
+  "schema_version": 1,
+  "selected": 18,
+  "selected_coldcard_sources": 1500,
+  "source_progress": [
+    {
+      "finalized": true,
+      "last_native_cursor_sha256": "e0210aac91b1dacb2c5ba5502aab9a3a4f8adb6a71c749653489ae45df42a85e",
+      "saved_native_pages": 18,
+      "source_id": "comparison_0386",
+      "source_transaction_observations_saved": 418,
+      "status": "complete_prior_prefix"
+    },
+    {
+      "finalized": true,
+      "last_native_cursor_sha256": "84fc45df0091a9bc15b40b469ee8527fbd499ad6a4f15b3915731a65bf309da2",
+      "saved_native_pages": 32,
+      "source_id": "comparison_0390",
+      "source_transaction_observations_saved": 800,
+      "status": "bounded_incomplete"
+    },
+    {
+      "finalized": true,
+      "last_native_cursor_sha256": "d6bcdf5cd5b5ade1587db66f77fbbe17fdba3ba26043c9422f4aa66bc5e5d7e5",
+      "saved_native_pages": 32,
+      "source_id": "comparison_0391",
+      "source_transaction_observations_saved": 800,
+      "status": "bounded_incomplete"
+    },
+    {
+      "finalized": true,
+      "last_native_cursor_sha256": "f4497d54229e635dc5ec098bb632fd53462c0dc8df318847281aed0f92c765f6",
+      "saved_native_pages": 23,
+      "source_id": "comparison_0392",
+      "source_transaction_observations_saved": 531,
+      "status": "complete_prior_prefix"
+    },
+    {
+      "finalized": true,
+      "last_native_cursor_sha256": "49e10bac65944c36f8ec739d8defa52c74ce17e80be90f9eb4854e69847b3c87",
+      "saved_native_pages": 32,
+      "source_id": "comparison_0394",
+      "source_transaction_observations_saved": 754,
+      "status": "complete_prior_prefix"
+    },
+    {
+      "finalized": true,
+      "last_native_cursor_sha256": "ea95c3f961b0646e793cbd3b24222a7c0dd4811452ca99d4eee5c4e37d083b55",
+      "saved_native_pages": 18,
+      "source_id": "comparison_0405",
+      "source_transaction_observations_saved": 421,
+      "status": "complete_prior_prefix"
+    },
+    {
+      "finalized": true,
+      "last_native_cursor_sha256": "cc390ecf77564d988548d11b79d703e79e7733509c1088356c6017f60a1c347b",
+      "saved_native_pages": 31,
+      "source_id": "comparison_0407",
+      "source_transaction_observations_saved": 749,
+      "status": "complete_prior_prefix"
+    },
+    {
+      "finalized": false,
+      "last_native_cursor_sha256": "204df30ed7bd30fce5b7f78b8af21bd7737b21bf455e647b7b82bebfdf75c367",
+      "saved_native_pages": 29,
+      "source_id": "comparison_0433",
+      "source_transaction_observations_saved": 725,
+      "status": "pending"
+    },
+    {
+      "finalized": false,
+      "last_native_cursor_sha256": "320c2bc0404653bd28478e8b2254a84fc20145edf1887a0c47f39a36171a4361",
+      "saved_native_pages": 0,
+      "source_id": "comparison_0441",
+      "source_transaction_observations_saved": 0,
+      "status": "pending"
+    },
+    {
+      "finalized": false,
+      "last_native_cursor_sha256": "cb7538cad9e163cfc6f4807536c837dc97430dc0b6b1459f7050e1395c8e3785",
+      "saved_native_pages": 0,
+      "source_id": "comparison_0469",
+      "source_transaction_observations_saved": 0,
+      "status": "pending"
+    },
+    {
+      "finalized": false,
+      "last_native_cursor_sha256": "320c2bc0404653bd28478e8b2254a84fc20145edf1887a0c47f39a36171a4361",
+      "saved_native_pages": 0,
+      "source_id": "comparison_0471",
+      "source_transaction_observations_saved": 0,
+      "status": "pending"
+    },
+    {
+      "finalized": false,
+      "last_native_cursor_sha256": "eaaa984b6c3505027516de9c46ad86aacbd92de7360336bc3c7b0e9af4f73b15",
+      "saved_native_pages": 0,
+      "source_id": "comparison_0473",
+      "source_transaction_observations_saved": 0,
+      "status": "pending"
+    },
+    {
+      "finalized": false,
+      "last_native_cursor_sha256": "29836e6fffc90973ff200b395f2262655c32817a8261c6154c8e96b94993b62a",
+      "saved_native_pages": 0,
+      "source_id": "comparison_0476",
+      "source_transaction_observations_saved": 0,
+      "status": "pending"
+    },
+    {
+      "finalized": false,
+      "last_native_cursor_sha256": "400cc5513a3f9ea9d40295a92a7664af2007be606c079212b81575079f1e2c76",
+      "saved_native_pages": 0,
+      "source_id": "comparison_0494",
+      "source_transaction_observations_saved": 0,
+      "status": "pending"
+    },
+    {
+      "finalized": false,
+      "last_native_cursor_sha256": "cba0d9850eeda77525e800d7996c1964d1f375038ac1fba69b183cccc9bfb2ef",
+      "saved_native_pages": 0,
+      "source_id": "comparison_0495",
+      "source_transaction_observations_saved": 0,
+      "status": "pending"
+    },
+    {
+      "finalized": false,
+      "last_native_cursor_sha256": "320c2bc0404653bd28478e8b2254a84fc20145edf1887a0c47f39a36171a4361",
+      "saved_native_pages": 0,
+      "source_id": "comparison_0508",
+      "source_transaction_observations_saved": 0,
+      "status": "pending"
+    },
+    {
+      "finalized": false,
+      "last_native_cursor_sha256": "62207fed444448566715493c64aeee8a31e46153cd733633da0e7dca4107e441",
+      "saved_native_pages": 0,
+      "source_id": "comparison_0521",
+      "source_transaction_observations_saved": 0,
+      "status": "pending"
+    },
+    {
+      "finalized": false,
+      "last_native_cursor_sha256": "a28b27bac1d1452be884aea909384a8389a60580c4b65e39e4b2f74770793b49",
+      "saved_native_pages": 0,
+      "source_id": "comparison_0522",
+      "source_transaction_observations_saved": 0,
+      "status": "pending"
+    }
+  ],
+  "source_transaction_observations_saved": 5198,
+  "status": "passed",
+  "successful_offline_responses_reused": 0,
+  "total_remaining_bounded_prefixes": 130,
+  "unknown_labels_unchanged": true,
+  "unselected_rows_unchanged": true,
+  "verification_basis": "Preserved original cursor/body audit and pure UTXO extraction; separate feature recount; independent native-provider timing/budget/stop verification; old-row invariants"
+}

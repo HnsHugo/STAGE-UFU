@@ -1,0 +1,30 @@
+{
+  "automatic_retry_performed": false,
+  "blockstream_provider_requests": 0,
+  "error": {
+    "error_type": "ExternalExecutionInterrupted",
+    "reason": "Execution session ended; collector absent and locks free. No in-scope restart performed."
+  },
+  "failures": 0,
+  "finalized_sources": 7,
+  "http200": 230,
+  "interruption_recorded_at": "2026-11-12T20:03:19.058033+00:00",
+  "model_fits": 0,
+  "new_scores": 0,
+  "operational_locks_released": true,
+  "provider": "https://mempool.space/api",
+  "provider_requests": 231,
+  "proxy_account_ip_or_tls_changed": false,
+  "receipt_basis": "Post-interruption read-only evidence reconciliation, not a fabricated collector completion",
+  "schema_version": 1,
+  "status": "stopped",
+  "unresolved_request_intents": [
+    {
+      "endpoint_sha256": "4e63e860c7afb3a035ea7548d2a3f7fcc5e01043469274ec414f5c603f7a6a3f",
+      "key": "tail_0029",
+      "source_id": "comparison_0433",
+      "started_at": "2026-11-12T20:01:09.326133+00:00"
+    }
+  ],
+  "unresolved_response_count": 1
+}
