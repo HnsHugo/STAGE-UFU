@@ -1,0 +1,23 @@
+{
+  "http200": null,
+  "last_observed_unarchived_progress": {
+    "bounded_candidates": 1,
+    "complete_candidates": 4,
+    "finalized_sources": 5,
+    "http200": 154,
+    "unresolved_request_intents": 1
+  },
+  "model_fits": 0,
+  "new_scores": 0,
+  "operational_locks_released": true,
+  "original_lease_expired_at": "2026-11-13T00:46:55.997717+00:00",
+  "original_scope_will_not_restart": true,
+  "provider": "https://mempool.space/api",
+  "provider_requests": null,
+  "reason": "The previous temporary workspace is absent after environment reset. Its unarchived acquisition output cannot be verified or promoted.",
+  "receipt_basis": "External workspace-reset reconciliation; no raw outputs from this scope were recovered",
+  "schema_version": 1,
+  "status": "interrupted_unverified_workspace_reset",
+  "verified_finalized_sources": 0,
+  "verified_new_vectors": 0
+}

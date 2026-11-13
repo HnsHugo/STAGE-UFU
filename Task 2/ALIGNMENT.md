@@ -1,5 +1,40 @@
 # Task 2 alignment — 27 October 2026
 
+**Prepared active fifty-source checkpoint — 13 November 2026**
+
+Current scope: mempool_fifty_20261112_segment_20261113_02; 5 frozen sources. The preceding
+checkpoint is audited and privately saved. The verified baseline is
+1417/1,500 vectors; current acquisition is not yet promoted.
+Keep one worker, five-second spacing, the forty-five-second response timeout,
+fresh locks and an exact published lease/readback. Stop at first failure/refusal/
+inconsistency. No old scope restart, flag replay, provider/account/IP/proxy/TLS
+change, paid service, fit, score or automatic schedule. Preserve all old rows,
+unknown labels, cutoffs and queues; audit/save before the next checkpoint.
+
+**Verified saved fifty-source checkpoint — 13 November 2026**
+
+[The latest recovery checkpoint](research/coldcard/mempool_fifty_20261112_segment_20261113_01/RESULTS.md)
+finalized 5/5 selected sources: 4 newly complete prefixes,
+1 bounded histories and 0 unfinished sources. It made
+130 requests (130 HTTP200; 0 failed records).
+Both audits pass; all 1413 preceding vectors and protected identities,
+unknown labels, cutoffs, full-current statuses and models/scores are unchanged.
+All 278 private evidence files are verified and saved. Coldcard now has
+1417/1,500 vectors; CryptoBilis stays 329/366.
+
+The frozen campaign has 5/50 finalized: 4
+complete prefixes and 1 bounded histories; 45 pending.
+Lost unarchived candidates were not promoted. Continue only the remaining frozen
+IDs in distinct five-source checkpoints, with audit/private save/publication
+before each successor. Keep the forty-five-second timeout, one worker,
+five-second spacing, live provider gate, fresh locks and exact published lease/
+readback. Never restart a consumed scope or rotate provider/account/IP/proxy/TLS.
+No paid service, fit, score or automatic schedule. Retain every actual native
+cursor, missing row and deep history. Recheck overlap before model work.
+
+The scope is closed, lease idle and locks free. This current checkpoint supersedes
+older execution guidance while retaining the original fifty-ID selection.
+
 **Resumed fifty-source campaign after workspace reset — 13 November 2026**
 
 The user requests continuation of the same frozen fifty addresses. The previous
