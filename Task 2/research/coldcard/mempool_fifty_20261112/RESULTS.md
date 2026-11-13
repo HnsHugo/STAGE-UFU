@@ -3,9 +3,9 @@
 The original source selection is unchanged. Smaller checkpoints follow the
 temporary-workspace reset; lost unarchived candidates were not promoted.
 
-42/50 sources are finalized: 14
-complete prefixes, 28 bounded histories and
-8 pending sources. Coldcard has
+43/50 sources are finalized: 14
+complete prefixes, 29 bounded histories and
+7 pending sources. Coldcard has
 1427/1,500 vectors; CryptoBilis remains 329/366.
 Every old vector, unknown label, cutoff, full-current status and older queue is
 preserved. No model fit or score. Each listed checkpoint is audited and saved.
@@ -22,3 +22,4 @@ preserved. No model fit or score. Each listed checkpoint is audited and saved.
 | mempool_fifty_20261112_segment_20261113_07 | 5 | 1 | 155 |
 | mempool_fifty_20261112_segment_20261113_08 | 5 | 0 | 170 |
 | mempool_fifty_20261112_tail_fresh_two_20261113 | 2 | 1 | 65 |
+| mempool_fifty_20261112_tail_bridge_20261113 | 1 | 0 | 18 |

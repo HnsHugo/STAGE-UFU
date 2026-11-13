@@ -1,5 +1,5 @@
 {
-  "active_scope": "mempool_fifty_20261112_tail_bridge_20261113",
+  "active_scope": "mempool_fifty_20261112_tail_native_pair_20261113",
   "automation_enabled": false,
   "available_coldcard_vectors": 1427,
   "bounded_source_ids": [
@@ -30,7 +30,8 @@
     "comparison_0970",
     "comparison_0973",
     "comparison_0982",
-    "comparison_0995"
+    "comparison_0995",
+    "comparison_0351"
   ],
   "completed_units": [
     {
@@ -283,6 +284,22 @@
         "comparison_0995",
         "comparison_1000"
       ]
+    },
+    {
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0351"
+      ],
+      "http200": 18,
+      "new_complete_source_ids": [],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "f426ed4a89f36bbfaeec5419892a2926854bb73fe9b1027390782892515f4c0e",
+      "requests": 18,
+      "scope": "mempool_fifty_20261112_tail_bridge_20261113",
+      "segment": 9,
+      "selected_source_ids": [
+        "comparison_0351"
+      ]
     }
   ],
   "finalized_source_ids": [
@@ -327,9 +344,10 @@
     "comparison_0973",
     "comparison_0982",
     "comparison_0995",
-    "comparison_1000"
+    "comparison_1000",
+    "comparison_0351"
   ],
-  "latest_verified_scope": "mempool_fifty_20261112_tail_fresh_two_20261113",
+  "latest_verified_scope": "mempool_fifty_20261112_tail_bridge_20261113",
   "new_complete_source_ids": [
     "comparison_0533",
     "comparison_0558",
@@ -347,6 +365,13 @@
     "comparison_1000"
   ],
   "outcomes": {
+    "comparison_0351": {
+      "last_native_cursor_sha256": "fac54514716f1839261c5b6693cb648aba7f41284d9daee52778b62c8ccd6bd4",
+      "raw_sha256": "75a8d85fc1545192af32216777546684b3e37df7cb366eb60a8386e19ad32f65",
+      "saved_evidence_pages": 50,
+      "scope": "mempool_fifty_20261112_tail_bridge_20261113",
+      "status": "bounded_incomplete"
+    },
     "comparison_0533": {
       "last_native_cursor_sha256": "332deaf4adc5ca191ee20d30f61f6803242ea580ca673a805604368c3fd57045",
       "raw_sha256": "525a514ce6adde93edad41ae3ea1911e43203e1e5528bddfd2a642175f5a9071",
@@ -644,7 +669,6 @@
   },
   "pending_native_evidence_saved": [],
   "pending_source_ids": [
-    "comparison_0351",
     "comparison_0390",
     "comparison_0391",
     "comparison_0433",

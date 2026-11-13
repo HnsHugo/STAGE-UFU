@@ -12,3 +12,5 @@ or inconsistency. Saved legacy and native evidence page counts stay distinct.
 Preserve all old vectors, labels, cutoffs and queues. No fit, score, paid service,
 provider/account/IP/proxy/TLS rotation, in-scope retry or automatic schedule.
 Audit and save this bounded scope before any successor.
+
+Verified result: [RESULTS.md](RESULTS.md). All private evidence is saved.
