@@ -1,5 +1,31 @@
 # Project status — 2 November 2026
 
+**Resumed fifty-source campaign after workspace reset — 13 November 2026**
+
+The user requests continuation of the same frozen fifty addresses. The previous
+temporary workspace was reset before its first campaign unit was archived.
+Its last observed five finalized candidates are not promoted without recovered
+raw evidence. The verified baseline remains 1,413/1,500 Coldcard vectors. All
+saved predecessor archives and all 411 historical input pins were restored and
+verified. The expired original campaign lease is closed; never restart that scope.
+
+[The recovery plan](research/coldcard/mempool_fifty_20261112/recovery_plan_20261113.json)
+preserves exactly the original fifty IDs and changes only checkpoint size to
+five-source segments. Reharvest missing evidence in distinct scopes, audit,
+privately save and publish each segment before its successor. Retain all old
+vectors, cutoffs, unknown labels, full-current statuses, thirty-seven other
+missing Coldcard rows, every native/deep cursor and all CryptoBilis rows.
+
+Use one worker, five-second spacing and the verified forty-five-second response
+timeout under fresh historical/local locks and exact published lease/readback.
+Stop on first refusal/failure/inconsistency. No consumed-scope restart, flag replay,
+provider/account/IP/proxy rotation, TLS change, paid service or automatic schedule.
+The Blockstream gate remains unchanged. The unit is the frozen source/reference
+pair; target operational incident membership; fourteen variables strictly before
+the reference block. No fit, score, split or threshold change. Recheck overlap
+before future model work. Current recovery guidance supersedes old 20/20/10
+execution grouping while retaining its immutable source selection and evidence.
+
 **Explicit fifty-source continuation — 12 November 2026**
 
 The user explicitly requests fifty sources. [The frozen campaign](research/coldcard/mempool_fifty_20261112/README.md)

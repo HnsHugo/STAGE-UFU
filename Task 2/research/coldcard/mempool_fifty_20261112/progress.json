@@ -1,9 +1,12 @@
 {
-  "active_scope": "mempool_fifty_20261112_01",
+  "active_scope": "mempool_fifty_20261112_segment_20261113_01",
   "automation_enabled": false,
   "available_coldcard_vectors": 1413,
+  "bounded_source_ids": [],
   "completed_units": [],
   "finalized_source_ids": [],
+  "new_complete_source_ids": [],
+  "outcomes": {},
   "pending_source_ids": [
     "comparison_0533",
     "comparison_0541",
@@ -57,5 +60,6 @@
     "comparison_0522"
   ],
   "requested_sources": 50,
-  "status": "unit_01_running"
+  "status": "recovery_segment_01_running",
+  "workspace_reset_evidence_file": "workspace_reset_20261113.json"
 }

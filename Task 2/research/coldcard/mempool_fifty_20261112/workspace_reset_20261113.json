@@ -1,0 +1,17 @@
+{
+  "baseline_vectors_retained": 1413,
+  "last_observed_unarchived_progress": {
+    "bounded_candidates": 1,
+    "complete_candidates": 4,
+    "finalized_sources": 5,
+    "http200": 154,
+    "unresolved_request_intents": 1
+  },
+  "original_lease_expired_at": "2026-11-13T00:46:55.997717+00:00",
+  "original_scope": "mempool_fifty_20261112_01",
+  "original_scope_will_not_restart": true,
+  "reason": "The previous temporary workspace is absent after environment reset. Its unarchived acquisition output cannot be verified or promoted.",
+  "recorded_at": "2026-11-13T17:23:42.275631+00:00",
+  "status": "closed_external_workspace_reset",
+  "verified_results_recovered": 0
+}
