@@ -1,0 +1,2113 @@
+{
+  "authorization": "Current instruction Continue resumes the same fifty-source campaign. Smaller five-source checkpoints replace the old 20/20/10 execution grouping after a temporary-workspace reset.",
+  "baseline_vectors": 1425,
+  "blockstream_cooldown_preserved_until": "2026-11-13T18:22:14+00:00",
+  "campaign": "mempool_fifty_20261112",
+  "campaign_segment": 7,
+  "created_on": "2026-11-13",
+  "full_current_history_status_promotion": false,
+  "inputs": {
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_baseline_view": {
+      "file": "../independent_provider_pilot_20261112/precutoff_feature_view.json.gz",
+      "sha256": "6afee370ef984344ee3293b459fddaef9f780ab11651db5b0b7b9e0206642a0c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_bridge_auditor": {
+      "file": "../audit_independent_mempool_bridge.py",
+      "sha256": "24c83f740698f7900961a3f2d97ea7aa80018fb91473dd29bf7bdacc35f8b695"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_bridge_code": {
+      "file": "../independent_mempool_bridge.py",
+      "sha256": "f3687e7f49671bc1148109340530c6f01f300f2f98ff1aeca4d4290fb341159d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_bridge_tests": {
+      "file": "../test_independent_mempool_bridge.py",
+      "sha256": "6535a1b4f699e528739daa1c725692215455e6c9cffc4c3c62feeb06660ff6c1"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_legacy_manifest": {
+      "file": "../independent_provider_bridge_20261112/legacy_reuse_manifest.json",
+      "sha256": "f8b720facbdd8896a97535bf06cca079a7cc41efe73b07a0642fae9955b273f0"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_backup": {
+      "file": "../independent_provider_pilot_20261112/private_cache_backup.json",
+      "sha256": "879a57d8e60db44514a141f5d0dd0dba39650f1b6dbd688705f3b15e76daa8da"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_diagnosis": {
+      "file": "../independent_provider_pilot_20261112/compatibility_diagnosis.json",
+      "sha256": "92537b4cebf1cb6033e101c280f596b4092e8a2d3e08acfff321bcc39a332971"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_protocol": {
+      "file": "../independent_provider_pilot_20261112/protocol.json",
+      "sha256": "942a937c1eb089fc7f92c4515b6512599974149a84c71381e2a729a229535788"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_receipt": {
+      "file": "../independent_provider_pilot_20261112/run_receipt.json",
+      "sha256": "1e7d08ca056e133d0d2d12ddae0928069ad07043b1d441a82b789554e2ee54b8"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_requests": {
+      "file": "../independent_provider_pilot_20261112/request_manifest.json.gz",
+      "sha256": "51e81c37c2610c4da9797f6185be75fcd56d7e42de470ff1fa33c0376d732b3f"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_verification": {
+      "file": "../independent_provider_pilot_20261112/independent_verification.json",
+      "sha256": "dac55875e2b5e68d324da070fd98b1b8671d4c65180a8dfb4b7654fe0ea2589b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_authorization_and_sources": {
+      "file": "../independent_provider_pilot_20261112/authorization_and_sources.json",
+      "sha256": "c421c6110fc8ca1cf176bcc7040db3382908dcace5e7aaa08218cb640025ef38"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_baseline_view": {
+      "file": "../source_prefix_extension_20261112_03/precutoff_feature_view.json.gz",
+      "sha256": "127c695e58adad69752cc6a31e1b0a02f7d4acb482995184767a33d5362146a1"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_legacy_manifest": {
+      "file": "../independent_provider_pilot_20261112/legacy_reuse_manifest.json",
+      "sha256": "f8b720facbdd8896a97535bf06cca079a7cc41efe73b07a0642fae9955b273f0"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_audit": {
+      "file": "../source_prefix_extension_20261112_03/coverage_audit.json",
+      "sha256": "2ac25d1c428ed7869ddfdf344111edaecb0831d5132d8046a9ea1265ff7697f1"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_backup": {
+      "file": "../source_prefix_extension_20261112_03/private_cache_backup.json",
+      "sha256": "3817202e09202bd41864aaaed6c444b7857834c18a55e4860a4ba4b9c062f18c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_baseline_view": {
+      "file": "../source_prefix_extension_20261112_02/precutoff_feature_view.json.gz",
+      "sha256": "1640b84c2f66d78395228c33a91dc4d892cf537fcd294412150ffd682f3a94b7"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_expected_recovery_manifest": {
+      "file": "../source_prefix_extension_20261112_03/expected_recovery_manifest.json",
+      "sha256": "2fe97a34acb969b8ef9e4fcbad97afb1fb1567c8eacb7a77f18625a661a458e4"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_frontier_audit_entrypoint": {
+      "file": "../source_prefix_extension_20261112_03/audit_execution.py",
+      "sha256": "435b195ab83e6315f1015e8ca54eb0a290b7f10896c3ef2ad2c256359bbd7972"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_frontier_capacity": {
+      "file": "../source_prefix_extension_20261112_03/capacity_and_cache_audit.json",
+      "sha256": "01d957df8fa06df7bf56d20fbf123cf13b299dd57d4f9ecacfe3d12d4de92c87"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_frontier_finalizer": {
+      "file": "../finalize_frontier_checkpoint.py",
+      "sha256": "401e80480093c555a4528b0514e4c2ceab016ac63131e532bc250f2bef08d251"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_frontier_preparation_code": {
+      "file": "../prepare_next_frontier_checkpoint.py",
+      "sha256": "b7e3a8b965f252e9544cdc60e1addba6fd38219ee00b00daf4595c460ca6f212"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_frontier_preparation_tests": {
+      "file": "../test_next_frontier_checkpoint.py",
+      "sha256": "c679700e62038070576b7c72152b2a5618182a994fa06a714649ce1249e2907d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_frontier_runner": {
+      "file": "../run_frontier_checkpoint.py",
+      "sha256": "fbf37af0b459a2ac38183e437b19a3be215aa91db9e8682bebaa474eb566bd62"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_frontier_verification_entrypoint": {
+      "file": "../source_prefix_extension_20261112_03/verify_execution.py",
+      "sha256": "13ebda8a8a4980f5c67342830c6ac973083002fc743cefbf8a6318dd6330f714"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_inventory": {
+      "file": "../source_prefix_extension_20261112_03/resume_inventory.json",
+      "sha256": "219c2c67d396eed9e64f530ce647f6425ec57d0ff148729182034e6e142e7aa6"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_origin_reference_tail_continuation_20261101_0653_checkpoint_json_gz": {
+      "file": "../reference_tail_continuation_20261101_0653/checkpoint.json.gz",
+      "sha256": "18b48c8f6d47cc7e59b74ec8436da83d37a11d1eebf975c748c55832fed13114"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_origin_reference_tail_continuation_20261101_0653_request_manifest_json_gz": {
+      "file": "../reference_tail_continuation_20261101_0653/request_manifest.json.gz",
+      "sha256": "aac5655de6682392372cbc0d6b955e9c9ca5a235ff99b04d2ae42dcc84e3b5ba"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_parent_audit": {
+      "file": "../source_prefix_extension_20261112_02/coverage_audit.json",
+      "sha256": "61d380bb6b5ceac213626c84c07f2815b3dcbfdb3affceae087a8ec521899e8b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_parent_backup": {
+      "file": "../source_prefix_extension_20261112_02/private_cache_backup.json",
+      "sha256": "a86c1f8b5f26b6caa3ec16782f46e849afd0b8910a101cfd61d2b53ecbd49a53"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_parent_checkpoint": {
+      "file": "../source_prefix_extension_20261112_02/checkpoint.json.gz",
+      "sha256": "38f27f2c3363b222ee5586c86de6a8f10bd694f67b80b354d03d09ac4142d05d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_parent_deep_queue": {
+      "file": "../source_prefix_extension_20261112_02/retained_deep_queue.json",
+      "sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_parent_protocol": {
+      "file": "../source_prefix_extension_20261112_02/protocol.json",
+      "sha256": "ac7acf66165368a09e0e35d80e8d069dc570d2be6dd92b02b5e17f4dae41c4cb"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_parent_reconciliation": {
+      "file": "../source_prefix_extension_20261112_02/continuation_reconciliation.json",
+      "sha256": "2e8b8b8db6eeac80444c49158726ec0636506b3ecb965fff01451e6d5b5bf09a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_parent_resume": {
+      "file": "../source_prefix_extension_20261112_02/resume_checkpoint.json",
+      "sha256": "38ada94f47f951f819709310fddac98f97f2e15f65bcc07d821c418f1426600b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_parent_verification": {
+      "file": "../source_prefix_extension_20261112_02/independent_verification.json",
+      "sha256": "33174cc318f01784154f6b00ae86e1fc21830b529873fdfe4c6e13c0b18d5707"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_pilot_validation": {
+      "file": "../reference_tail_pilot_20261031_221016/pilot_validation.json",
+      "sha256": "fd0a555c7e369c02e01902784453fedec10e75b3963b53aa2fd35f195a49dde4"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_baseline_view": {
+      "file": "../source_prefix_extension_20261112_01/precutoff_feature_view.json.gz",
+      "sha256": "3822a2aaaa5a6450091d53148cd4aa512a3569b4434cf071baf6fa4a4abf4fe7"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_expected_recovery_manifest": {
+      "file": "../source_prefix_extension_20261112_02/expected_recovery_manifest.json",
+      "sha256": "4d54a6cc480737efdd11f5052c743b3d39f08d0ae1183e20761a2d8ec2c5b028"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_frontier_audit_entrypoint": {
+      "file": "../source_prefix_extension_20261112_02/audit_execution.py",
+      "sha256": "435b195ab83e6315f1015e8ca54eb0a290b7f10896c3ef2ad2c256359bbd7972"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_frontier_capacity": {
+      "file": "../source_prefix_extension_20261112_02/capacity_and_cache_audit.json",
+      "sha256": "ae4acd05f9ae917399e27c975e8793c06ad5f4b4ce04dc9eedabf8ca940ecb66"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_frontier_finalizer": {
+      "file": "../finalize_frontier_checkpoint.py",
+      "sha256": "401e80480093c555a4528b0514e4c2ceab016ac63131e532bc250f2bef08d251"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_frontier_preparation_code": {
+      "file": "../prepare_frontier_checkpoint.py",
+      "sha256": "c43d043f6fe1352bddcb0085b40a4b59666a831db99599e3cd504a0617f41911"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_frontier_runner": {
+      "file": "../run_frontier_checkpoint.py",
+      "sha256": "fbf37af0b459a2ac38183e437b19a3be215aa91db9e8682bebaa474eb566bd62"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_frontier_tests": {
+      "file": "../test_frontier_checkpoint.py",
+      "sha256": "b9d21c5f3b2a7aa499bad00b351831dbd236ff439078a44dbfcb2069bf15ce7a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_frontier_verification_entrypoint": {
+      "file": "../source_prefix_extension_20261112_02/verify_execution.py",
+      "sha256": "13ebda8a8a4980f5c67342830c6ac973083002fc743cefbf8a6318dd6330f714"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_original_16_page_checkpoint": {
+      "file": "../reference_tail_continuation_20261101_0653/checkpoint.json.gz",
+      "sha256": "18b48c8f6d47cc7e59b74ec8436da83d37a11d1eebf975c748c55832fed13114"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_original_response_fingerprints": {
+      "file": "../reference_tail_continuation_20261101_0653/request_manifest.json.gz",
+      "sha256": "aac5655de6682392372cbc0d6b955e9c9ca5a235ff99b04d2ae42dcc84e3b5ba"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_parent_audit": {
+      "file": "../source_prefix_extension_20261112_01/coverage_audit.json",
+      "sha256": "1650eedc4e56b10f471a4fb6e3d32923e9e1d4d298a3fc7640638ab598de1048"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_parent_backup": {
+      "file": "../source_prefix_extension_20261112_01/private_cache_backup.json",
+      "sha256": "cf9189920b244d7cd323f1dc4bc6f792a834437014695b6856913ecba2d28d5b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_parent_deep_queue": {
+      "file": "../source_prefix_extension_20261112_01/retained_deep_queue.json",
+      "sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_parent_protocol": {
+      "file": "../source_prefix_extension_20261112_01/protocol.json",
+      "sha256": "49bef941977565c4ead08d2e2c23806ac3538c557aec3b0163e39964f3a3bac0"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_parent_resume": {
+      "file": "../source_prefix_extension_20261112_01/resume_checkpoint.json",
+      "sha256": "7d3138e788e3d0d526749fff5a27bd403b9dac58ffdc938f9651c99f6784348a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_parent_verification": {
+      "file": "../source_prefix_extension_20261112_01/independent_verification.json",
+      "sha256": "1726accd5e2c7abedbfcb68c8495e4e78a0589ee4bb67ef451bf943159583b2f"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_pilot_validation": {
+      "file": "../reference_tail_pilot_20261031_221016/pilot_validation.json",
+      "sha256": "fd0a555c7e369c02e01902784453fedec10e75b3963b53aa2fd35f195a49dde4"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_ancestor_baseline_view": {
+      "file": "../source_prefix_extension_20261109_01/precutoff_feature_view.json.gz",
+      "sha256": "b8774825a53d13fe81d5e671597e1ee5eed269ad3386bba159186dd8023d9bac"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_ancestor_preparation_code": {
+      "file": "../source_prefix_extension_20261110_01/prepare_scope.py",
+      "sha256": "5309ad76881ca0460cd65427805848137439e8d75b211a27d7ede1416da8f727"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_baseline_view": {
+      "file": "../source_prefix_extension_20261111_01/precutoff_feature_view.json.gz",
+      "sha256": "ff78511610b307d6d8f7762d9f9e27920d90a72635241fa10a903a62bf8fe622"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_capacity_and_cache_audit": {
+      "file": "../source_prefix_extension_20261110_02/capacity_and_cache_audit.json",
+      "sha256": "4035004a79660d33efbe9fbde444b1cc74748a0e5263aa7312b96f5512d1f927"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_capacity_audit": {
+      "file": "../source_prefix_extension_20261109_01/capacity_and_cache_audit.json",
+      "sha256": "bf709265cb369860153636938be328d403892302250687e9e0215988c3e76b47"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_clock_guard": {
+      "file": "../run_after_cooldown.py",
+      "sha256": "09a133511c59a0b06f11aaf1a1544ca9ee23017b3bd0d39e4afface94790a572"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_clock_guard_tests": {
+      "file": "../test_cooldown_guard.py",
+      "sha256": "eaa8e39f2ee08b6de5e3c2f72ef8ebbbf7e90e3363d9f47a2f5aaef153160389"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_current_capacity_and_cache_audit": {
+      "file": "../source_prefix_extension_20261112_01/capacity_and_cache_audit.json",
+      "sha256": "b30114cce6ca858a071a2156ac7da49c480420a888527f0bd9df7071dc06e991"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_current_offline_reuse_manifest": {
+      "file": "../source_prefix_extension_20261112_01/offline_reuse_manifest.json",
+      "sha256": "3a1e0d0137bcfb81b00daa684f3ac2f6fbe6cb9273a92a6dd6aa0f237ed5dacb"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_deeper_resume_tests": {
+      "file": "../source_prefix_extension_20261110_03/test_deeper_resume.py",
+      "sha256": "5b93c89c3a8e2a565855f1587a56ab2556136a04e1dc14dc50b9deeef834d7b4"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_execution_auditor": {
+      "file": "../source_prefix_extension_20261112_01/audit_execution.py",
+      "sha256": "814067e140a7ffc90bd7cdde8b1102f5c044dc574676cb6f370facdfd7e2432a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_execution_verifier": {
+      "file": "../source_prefix_extension_20261112_01/verify_execution.py",
+      "sha256": "1d7f71f3f4da439c5c18db2b072972e6d9a6362bdb64b749086c70499bd6e646"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_finalization_code": {
+      "file": "../finalize_coldcard_checkpoint.py",
+      "sha256": "b5268ef898bcc9c849ea19c0a43655784931684a6ba98f7b52bfea9f4dd26de4"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_baseline_view": {
+      "file": "../source_prefix_extension_20261110_03/precutoff_feature_view.json.gz",
+      "sha256": "9a9682d533ea7cd6636f36975675a430481df80781ace8fc9664fa8fa486791f"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_current_capacity_and_cache_audit": {
+      "file": "../source_prefix_extension_20261110_04/capacity_and_cache_audit.json",
+      "sha256": "56c03f9b01a741516b83e75ccc968340232a9ca5b6d7d6a7bae5fca36b6be31c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_current_offline_reuse_manifest": {
+      "file": "../source_prefix_extension_20261110_04/offline_reuse_manifest.json",
+      "sha256": "77830c6ab55716c77315fab7fc0ef878404dc4cf98c357308b2f21860263a4e0"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_execution_auditor": {
+      "file": "../source_prefix_extension_20261110_04/audit_execution.py",
+      "sha256": "814067e140a7ffc90bd7cdde8b1102f5c044dc574676cb6f370facdfd7e2432a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_execution_verifier": {
+      "file": "../source_prefix_extension_20261110_04/verify_execution.py",
+      "sha256": "1d7f71f3f4da439c5c18db2b072972e6d9a6362bdb64b749086c70499bd6e646"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_finalization_code": {
+      "file": "../finalize_coldcard_checkpoint.py",
+      "sha256": "b5268ef898bcc9c849ea19c0a43655784931684a6ba98f7b52bfea9f4dd26de4"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_baseline_view": {
+      "file": "../source_prefix_extension_20261110_04/precutoff_feature_view.json.gz",
+      "sha256": "7ff76c8ef41a08569f8e029a54f4e94eca3bd2511db7b13ce335c60d3e080d5d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_current_capacity_and_cache_audit": {
+      "file": "../source_prefix_extension_20261110_05/capacity_and_cache_audit.json",
+      "sha256": "1357e1804a5739b74fa7fd5e63f43c760889b455b7f88d98a6b6c3dc3ad45345"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_current_offline_reuse_manifest": {
+      "file": "../source_prefix_extension_20261110_05/offline_reuse_manifest.json",
+      "sha256": "15ead027d0ed5300e8695ea4a2d1003dffcf0fd37fa3435628f46687bd2c9967"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_execution_auditor": {
+      "file": "../source_prefix_extension_20261110_05/audit_execution.py",
+      "sha256": "814067e140a7ffc90bd7cdde8b1102f5c044dc574676cb6f370facdfd7e2432a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_execution_verifier": {
+      "file": "../source_prefix_extension_20261110_05/verify_execution.py",
+      "sha256": "1d7f71f3f4da439c5c18db2b072972e6d9a6362bdb64b749086c70499bd6e646"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_finalization_code": {
+      "file": "../finalize_variable_checkpoint.py",
+      "sha256": "01ed585fe62cc041c0ca97d28d584968a80bbf041f544276895f8af669b32eaf"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_baseline_view": {
+      "file": "../source_prefix_extension_20261110_05/precutoff_feature_view.json.gz",
+      "sha256": "9676c43b98df90058afa036bb0e1e78b6029884eebc218bd1a8ab3b458a993d0"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_current_capacity_and_cache_audit": {
+      "file": "../source_prefix_extension_20261110_06/capacity_and_cache_audit.json",
+      "sha256": "3869756376794b0c66ea6a608e44db962d46067bc689d4a0039be30c4a52ff0b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_current_offline_reuse_manifest": {
+      "file": "../source_prefix_extension_20261110_06/offline_reuse_manifest.json",
+      "sha256": "e30f8358005f16101acf62dc0e30359cb86f407a7f8985af9f3293d5be2d3a03"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_execution_auditor": {
+      "file": "../source_prefix_extension_20261110_06/audit_execution.py",
+      "sha256": "814067e140a7ffc90bd7cdde8b1102f5c044dc574676cb6f370facdfd7e2432a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_execution_verifier": {
+      "file": "../source_prefix_extension_20261110_06/verify_execution.py",
+      "sha256": "1d7f71f3f4da439c5c18db2b072972e6d9a6362bdb64b749086c70499bd6e646"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_baseline_view": {
+      "file": "../source_prefix_extension_20261110_06/precutoff_feature_view.json.gz",
+      "sha256": "c6d82bc3afbbab8d13136b1ec9ae47232003da626647219fe2e897a8d4f90abc"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_current_capacity_and_cache_audit": {
+      "file": "../source_prefix_extension_20261110_07/capacity_and_cache_audit.json",
+      "sha256": "079ebf461eb31f2a818bbea3203c16682bba34f07b51e7881e52bef2d732771e"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_current_offline_reuse_manifest": {
+      "file": "../source_prefix_extension_20261110_07/offline_reuse_manifest.json",
+      "sha256": "a24cf5cef57225d688733730c82a1d8e41ec61b86f4e53b93d8cea8b000f3176"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_execution_auditor": {
+      "file": "../source_prefix_extension_20261110_07/audit_execution.py",
+      "sha256": "814067e140a7ffc90bd7cdde8b1102f5c044dc574676cb6f370facdfd7e2432a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_execution_verifier": {
+      "file": "../source_prefix_extension_20261110_07/verify_execution.py",
+      "sha256": "1d7f71f3f4da439c5c18db2b072972e6d9a6362bdb64b749086c70499bd6e646"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_baseline_view": {
+      "file": "../source_prefix_extension_20261110_07/precutoff_feature_view.json.gz",
+      "sha256": "ecb5c7f694c62860bb2f6a7c601b144781b54aca49651c4dd90313dd6d4a2412"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_current_capacity_and_cache_audit": {
+      "file": "../source_prefix_extension_20261110_08/capacity_and_cache_audit.json",
+      "sha256": "16479f92a623a34703990ec67f1a594f9907b8fce8d9874ef158de87912366db"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_current_offline_reuse_manifest": {
+      "file": "../source_prefix_extension_20261110_08/offline_reuse_manifest.json",
+      "sha256": "107d1d55d003e24fdec06eee34599a404eff87b72c5908ec2ae9a607198b6e0e"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_execution_auditor": {
+      "file": "../source_prefix_extension_20261110_08/audit_execution.py",
+      "sha256": "814067e140a7ffc90bd7cdde8b1102f5c044dc574676cb6f370facdfd7e2432a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_execution_verifier": {
+      "file": "../source_prefix_extension_20261110_08/verify_execution.py",
+      "sha256": "1d7f71f3f4da439c5c18db2b072972e6d9a6362bdb64b749086c70499bd6e646"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_baseline_view": {
+      "file": "../source_prefix_extension_20261110_08/precutoff_feature_view.json.gz",
+      "sha256": "6fcd9328ab1b5f9ceb608976b2e4c7f6c508a5af0556558c6a5c549f27f0a6b2"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_current_capacity_and_cache_audit": {
+      "file": "../source_prefix_extension_20261110_09/capacity_and_cache_audit.json",
+      "sha256": "8a89ad0ee2ae248e60b4a4130de9621214d13201f593713e2e3b75d3ca115d29"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_current_offline_reuse_manifest": {
+      "file": "../source_prefix_extension_20261110_09/offline_reuse_manifest.json",
+      "sha256": "73202d5e690654aa4c0d5526162926506184e730fdfdeef9d19b7f3cf13a9fe4"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_execution_auditor": {
+      "file": "../source_prefix_extension_20261110_09/audit_execution.py",
+      "sha256": "814067e140a7ffc90bd7cdde8b1102f5c044dc574676cb6f370facdfd7e2432a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_execution_verifier": {
+      "file": "../source_prefix_extension_20261110_09/verify_execution.py",
+      "sha256": "1d7f71f3f4da439c5c18db2b072972e6d9a6362bdb64b749086c70499bd6e646"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_baseline_view": {
+      "file": "../source_prefix_extension_20261110_09/precutoff_feature_view.json.gz",
+      "sha256": "939785ae2e2c5730afb3e820a51c74fae503eef5f27b0690ea9756c963a41a02"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_current_capacity_and_cache_audit": {
+      "file": "../source_prefix_extension_20261110_10/capacity_and_cache_audit.json",
+      "sha256": "678483bc535d8a83aac7c6a5eb00a35535fffd9a192e48b6e9c08d83f2fcb221"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_current_offline_reuse_manifest": {
+      "file": "../source_prefix_extension_20261110_10/offline_reuse_manifest.json",
+      "sha256": "d7adf66f1e9d04a91bcc6c7ca71c1167cfed54d1a9bf18b66c49b9aa07fbf025"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_execution_auditor": {
+      "file": "../source_prefix_extension_20261110_10/audit_execution.py",
+      "sha256": "814067e140a7ffc90bd7cdde8b1102f5c044dc574676cb6f370facdfd7e2432a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_execution_verifier": {
+      "file": "../source_prefix_extension_20261110_10/verify_execution.py",
+      "sha256": "1d7f71f3f4da439c5c18db2b072972e6d9a6362bdb64b749086c70499bd6e646"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_baseline_view": {
+      "file": "../source_prefix_extension_20261110_10/precutoff_feature_view.json.gz",
+      "sha256": "d4dd2b83430f7164c3bbcb57fd6a44ab23dea9d26aab60f362cc13dfec571450"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_current_capacity_and_cache_audit": {
+      "file": "../source_prefix_extension_20261110_11/capacity_and_cache_audit.json",
+      "sha256": "1d02e026d5afcf4f598f580a14e83f17941e52c6b3e82727a70f8f60f70baa6a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_current_offline_reuse_manifest": {
+      "file": "../source_prefix_extension_20261110_11/offline_reuse_manifest.json",
+      "sha256": "500b306de2f7a5786cad39675371b79140960a46c47ca397a90a7bb237249d31"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_execution_auditor": {
+      "file": "../source_prefix_extension_20261110_11/audit_execution.py",
+      "sha256": "814067e140a7ffc90bd7cdde8b1102f5c044dc574676cb6f370facdfd7e2432a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_execution_verifier": {
+      "file": "../source_prefix_extension_20261110_11/verify_execution.py",
+      "sha256": "1d7f71f3f4da439c5c18db2b072972e6d9a6362bdb64b749086c70499bd6e646"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_baseline_view": {
+      "file": "../source_prefix_extension_20261110_11/precutoff_feature_view.json.gz",
+      "sha256": "cec1b3fb2b7ca1a6c41dd07ef8b71e5fe483a5cf8c82dd435460760e1372a7eb"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_current_capacity_and_cache_audit": {
+      "file": "../source_prefix_extension_20261111_01/capacity_and_cache_audit.json",
+      "sha256": "f3fedaedc52b100eab4ba1724ade2bb0f87cbdec01d880d181e4142a0ae6ca39"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_current_offline_reuse_manifest": {
+      "file": "../source_prefix_extension_20261111_01/offline_reuse_manifest.json",
+      "sha256": "ba823bf67c3310679fc592bebb258b2db4de33bf4d9322af3df284ff6cb569d9"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_execution_auditor": {
+      "file": "../source_prefix_extension_20261111_01/audit_execution.py",
+      "sha256": "814067e140a7ffc90bd7cdde8b1102f5c044dc574676cb6f370facdfd7e2432a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_execution_verifier": {
+      "file": "../source_prefix_extension_20261111_01/verify_execution.py",
+      "sha256": "1d7f71f3f4da439c5c18db2b072972e6d9a6362bdb64b749086c70499bd6e646"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_audit": {
+      "file": "../source_prefix_extension_20261110_11/coverage_audit.json",
+      "sha256": "5519a5d3fca0828835cae340c8ed18a49565a4f5ede9f873355a228ba66c5350"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_checkpoint": {
+      "file": "../source_prefix_extension_20261110_11/checkpoint.json.gz",
+      "sha256": "90073868f14c44d5d749492f8d223f170b9a92d64d0e8571821e9392b7ce4ce3"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_private_backup": {
+      "file": "../source_prefix_extension_20261110_11/private_cache_backup.json",
+      "sha256": "ae13d69cece16b9094037d758b9979ba4bda69557579404354367bc697d1f9ee"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_protocol": {
+      "file": "../source_prefix_extension_20261110_11/protocol.json",
+      "sha256": "57d4ec6c2a2b702aba90ce418f3fb27b5c111b1b68abfcf851a308ce145552a8"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_receipt": {
+      "file": "../source_prefix_extension_20261110_11/run_receipt.json",
+      "sha256": "6fc9d9b2b5510c0ccfe01598e6a7944d95dc84721dfef60ae6f7903d72a6a645"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_requests": {
+      "file": "../source_prefix_extension_20261110_11/request_manifest.json.gz",
+      "sha256": "0feeec23c8a7d34d18d1ffeee9adf4a837ee1a2ebc0b0faa01ce4a1a3d38a1c4"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_resume": {
+      "file": "../source_prefix_extension_20261110_11/resume_checkpoint.json",
+      "sha256": "548769a247817e992458490fb7c40f7f2651bccb86ab84b612e4f0b37e9f3149"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_verification": {
+      "file": "../source_prefix_extension_20261110_11/independent_verification.json",
+      "sha256": "5585f47aa090aa73033ce6bcecea16dfeaf2f458d1bc42e92163921880101de4"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_audit": {
+      "file": "../source_prefix_extension_20261110_10/coverage_audit.json",
+      "sha256": "4544198001bb8af878b9b26fab8b3451305b477d08e9166be2d378e64e92f8fe"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_checkpoint": {
+      "file": "../source_prefix_extension_20261110_10/checkpoint.json.gz",
+      "sha256": "f8350daae4c4e5e09b14ce029534e30daaae7ed7ac51b7b9f30c53cd53a9417f"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_private_backup": {
+      "file": "../source_prefix_extension_20261110_10/private_cache_backup.json",
+      "sha256": "e04fe8c1ff3212b77c6180aeca8cbd533a59daaa55736edf280511b1ee3bc47d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_protocol": {
+      "file": "../source_prefix_extension_20261110_10/protocol.json",
+      "sha256": "0c020237b2b64569e8dce5ae58fc2804809f1dc4ece24610f295c43701f9b50d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_receipt": {
+      "file": "../source_prefix_extension_20261110_10/run_receipt.json",
+      "sha256": "c3be3ff6286cebe30c5643e02b60c95caa1b30b1a95286ec7e0b6f64478c9d68"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_requests": {
+      "file": "../source_prefix_extension_20261110_10/request_manifest.json.gz",
+      "sha256": "721cd857c0e684c11014cc12e964fe5e9a81d53f4e115e0cc154ea6e3b0a0d30"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_resume": {
+      "file": "../source_prefix_extension_20261110_10/resume_checkpoint.json",
+      "sha256": "c8880c40c17ff9b292fb25134339611ca47b82c964caf9212c6ce64fc2dac3b7"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_verification": {
+      "file": "../source_prefix_extension_20261110_10/independent_verification.json",
+      "sha256": "dbb15620712f0291446901b812356aa832c5996e1764808319deb242167dc80a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_audit": {
+      "file": "../source_prefix_extension_20261110_09/coverage_audit.json",
+      "sha256": "2b1119b965fe8e48df79ebe1adeac3e630b87a96ca195ead1718028ff8f406ca"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_checkpoint": {
+      "file": "../source_prefix_extension_20261110_09/checkpoint.json.gz",
+      "sha256": "bf85f20eb7b7d9de2e4e8516b51b6c788731f924167e34803511553ec24a7a5c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_continuation_reconciliation": {
+      "file": "../source_prefix_extension_20261110_11/continuation_reconciliation.json",
+      "sha256": "83a7fa4d0a7c63f3f4d8772a65517c55f0c1028d42eda674fa2d2a80ec23ad01"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_private_backup": {
+      "file": "../source_prefix_extension_20261110_09/private_cache_backup.json",
+      "sha256": "e9372c8e113e28c1c44ac4363fa602e8dad7d376bb25fcc6f2f1c3a18ec9a3a0"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_protocol": {
+      "file": "../source_prefix_extension_20261110_09/protocol.json",
+      "sha256": "51924e75dda60f951335456b0a79bb551510c8506e7f7f13b6ad39dd2e739d52"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_receipt": {
+      "file": "../source_prefix_extension_20261110_09/run_receipt.json",
+      "sha256": "024ea824de865d92d9be0595c69aba7f78ca212ca7cf930fe9d2d09199e99de7"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_requests": {
+      "file": "../source_prefix_extension_20261110_09/request_manifest.json.gz",
+      "sha256": "e76e831f52e36b8613a3e576deaf059d305b662281547f8d4c0375f8cf720285"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_resume": {
+      "file": "../source_prefix_extension_20261110_09/resume_checkpoint.json",
+      "sha256": "fb235c07de68aa7e45ca430cef51da0e767bc37b742c5b99453fc1540c3a1a35"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_inherited_parent_verification": {
+      "file": "../source_prefix_extension_20261110_09/independent_verification.json",
+      "sha256": "c8f8f1382988710ecd76712ad148a3342ef9daff63b268f523dc9bae29acec40"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_parent_audit": {
+      "file": "../source_prefix_extension_20261110_08/coverage_audit.json",
+      "sha256": "cdef30c7648224a7de92ee4d56cc3657727b11886ff36f292f642b7bdaad4cf1"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_parent_checkpoint": {
+      "file": "../source_prefix_extension_20261110_08/checkpoint.json.gz",
+      "sha256": "6f0db7e729e8df11872bf75e5748f17c02d445ac0da6170793a8ebc5da0cd520"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_parent_continuation_reconciliation": {
+      "file": "../source_prefix_extension_20261110_09/continuation_reconciliation.json",
+      "sha256": "32c522141e055a982477b689fbcb780e86dc47997193fd807c43f14373ba0948"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_parent_private_backup": {
+      "file": "../source_prefix_extension_20261110_08/private_cache_backup.json",
+      "sha256": "42d3f546827395a08d263713648a4e85941665f68a9250af09202decc41e55f1"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_parent_protocol": {
+      "file": "../source_prefix_extension_20261110_08/protocol.json",
+      "sha256": "2cdc8ab235af3af7f44a7faa4fed64bb67a19c79a458caf283a304c21510c891"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_parent_receipt": {
+      "file": "../source_prefix_extension_20261110_08/run_receipt.json",
+      "sha256": "27f57d0f858c7b6d08811fa5a0db5233c545b1aaac948d2896d9d553c0c6ac14"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_parent_requests": {
+      "file": "../source_prefix_extension_20261110_08/request_manifest.json.gz",
+      "sha256": "8492ddbac9bbc251c84edb3ed329faf1c709741dcb7aed6b8d9a2ddff7d2a086"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_parent_resume": {
+      "file": "../source_prefix_extension_20261110_08/resume_checkpoint.json",
+      "sha256": "d8f729fbec36ddfd15f3f0497a935da4756442372bf09d944ae07af3802ac79d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_inherited_parent_verification": {
+      "file": "../source_prefix_extension_20261110_08/independent_verification.json",
+      "sha256": "bda45d4d236b4a04bb3f4371e6f242845a705f716807caa4e5668e4e32f1c353"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_parent_audit": {
+      "file": "../source_prefix_extension_20261110_07/coverage_audit.json",
+      "sha256": "e33744ce817836821e038340d8f52f61593147a059539b4f71af7f880cfd99ea"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_parent_checkpoint": {
+      "file": "../source_prefix_extension_20261110_07/checkpoint.json.gz",
+      "sha256": "bbd33352f39082f5f7726dbb7be29b5699d1b4fd651a0c16c296f3c75d1bbd60"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_parent_continuation_reconciliation": {
+      "file": "../source_prefix_extension_20261110_08/continuation_reconciliation.json",
+      "sha256": "5e7ed61faa89ff5d0c3548a2913a10b7ddd76703324c99ae8db336e5cf2910c8"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_parent_private_backup": {
+      "file": "../source_prefix_extension_20261110_07/private_cache_backup.json",
+      "sha256": "ba942925645bc463fc81bd6b8ad2e5134c970ab5b9fab832299bd21987a8c78d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_parent_protocol": {
+      "file": "../source_prefix_extension_20261110_07/protocol.json",
+      "sha256": "e34a4f2bbc9af12544af93a266e16b826933260e16b45d6840c60fe8c7ddce9f"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_parent_receipt": {
+      "file": "../source_prefix_extension_20261110_07/run_receipt.json",
+      "sha256": "c6dfa41d904a4410587859e11bbeb29ec8c04f507e8760a90231c81175c9a42a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_parent_requests": {
+      "file": "../source_prefix_extension_20261110_07/request_manifest.json.gz",
+      "sha256": "bff7036bc6f7be57e67a96e494fbe2f6b6ab0cc95b3514a792797f47c6d5bf23"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_parent_resume": {
+      "file": "../source_prefix_extension_20261110_07/resume_checkpoint.json",
+      "sha256": "14aaed8c22a9612f448f9f112d88142bb23ee9ccf4fd7d8ab74a061479b80d31"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_inherited_parent_verification": {
+      "file": "../source_prefix_extension_20261110_07/independent_verification.json",
+      "sha256": "3eba54a628e70d95d573509a7862066ccc8fda7beb9ad094c828b309312fdb13"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_parent_audit": {
+      "file": "../source_prefix_extension_20261110_06/coverage_audit.json",
+      "sha256": "c4519c781c18739d657764e08b954f1fdaf4f72e79d5a65e04f84e2c27884388"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_parent_checkpoint": {
+      "file": "../source_prefix_extension_20261110_06/checkpoint.json.gz",
+      "sha256": "d658297259d2bddddae0f264dbbdc7954c5fdc3ccbdb017ade301958cd226812"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_parent_continuation_reconciliation": {
+      "file": "../source_prefix_extension_20261110_07/continuation_reconciliation.json",
+      "sha256": "fb9a59adfca68b853d5038f5447bb00ab7b85ef8b66d8d8612c1f82861291203"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_parent_private_backup": {
+      "file": "../source_prefix_extension_20261110_06/private_cache_backup.json",
+      "sha256": "d2febec2995c98c342fbbb98c44c4938dac391f408f7e5702d3d655e9a7280b2"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_parent_protocol": {
+      "file": "../source_prefix_extension_20261110_06/protocol.json",
+      "sha256": "c635dd2e1c07b797bdfc347b24a84c6052d97096a8284a390d717f5621dddf6c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_parent_receipt": {
+      "file": "../source_prefix_extension_20261110_06/run_receipt.json",
+      "sha256": "bfd76ac66ae8f0833c76ba25f8f37a34bc1fe2f125562a8742892aed5366382a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_parent_requests": {
+      "file": "../source_prefix_extension_20261110_06/request_manifest.json.gz",
+      "sha256": "b78f66b43dddcf9e3bbaedb39f012f56140f350660f7ff1a0a6032c5f81d138c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_parent_resume": {
+      "file": "../source_prefix_extension_20261110_06/resume_checkpoint.json",
+      "sha256": "d8a4f0a128caf2baa0037a62de5c66a1ee66fe609b516bef948305a957f8330d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_inherited_parent_verification": {
+      "file": "../source_prefix_extension_20261110_06/independent_verification.json",
+      "sha256": "c0bf5e2ec43ccd83d61dc71ebeeb34eccc0d5d4cf07452485ea587916a382991"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_parent_audit": {
+      "file": "../source_prefix_extension_20261110_05/coverage_audit.json",
+      "sha256": "43c60a4870b3f1a8cd7ac70ca8f2361fa7210d3ff95d5ff655b66b20c5f75258"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_parent_checkpoint": {
+      "file": "../source_prefix_extension_20261110_05/checkpoint.json.gz",
+      "sha256": "a0cf9cc4b7c3bc47d28afae22e32c569eee90e815d9836cfb485ee53d31884d7"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_parent_continuation_reconciliation": {
+      "file": "../source_prefix_extension_20261110_06/continuation_reconciliation.json",
+      "sha256": "9d53e6ccf640e6213bd1ef536ac3778e0674f0b28964ad430c80be5f04c3a17e"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_parent_private_backup": {
+      "file": "../source_prefix_extension_20261110_05/private_cache_backup.json",
+      "sha256": "2eb47f14ce42f6c4d0af6b795f777e97fb019b7d85c95b6575a2920d897e11e6"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_parent_protocol": {
+      "file": "../source_prefix_extension_20261110_05/protocol.json",
+      "sha256": "8f194c8efdf3272abc69329ad2c0c2f81e4c0025196366b44b0a0ca4904c8759"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_parent_receipt": {
+      "file": "../source_prefix_extension_20261110_05/run_receipt.json",
+      "sha256": "d5a77233d314a3b7ebcf799384ca5337816b9468a027ee31dfb141189dcba8c2"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_parent_requests": {
+      "file": "../source_prefix_extension_20261110_05/request_manifest.json.gz",
+      "sha256": "f5112234dd0ac26b5778d799e7684bcc87a2ab4106ae945c51e693b04fef0c55"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_parent_resume": {
+      "file": "../source_prefix_extension_20261110_05/resume_checkpoint.json",
+      "sha256": "12d7df2985ca697ccbfcd52436e1eae933e2d9fc54fa5e450e2cd711dac20043"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_parent_verification": {
+      "file": "../source_prefix_extension_20261110_05/independent_verification.json",
+      "sha256": "b7e48af37ac4e4a1f255cf8db777bec08035d5908d3be336491707dca74e4897"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_inherited_preparation_code": {
+      "file": "../prepare_refused_checkpoint.py",
+      "sha256": "4b30cac63b2ac840cce7ec6589c5f6482be748edfc4b7b80c53183751ebb5d3b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_parent_audit": {
+      "file": "../source_prefix_extension_20261110_04/coverage_audit.json",
+      "sha256": "692f264da33623d18c45f4b6b3d3b1aa16a14ef72792587ddf6ae1167b16b7eb"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_parent_checkpoint": {
+      "file": "../source_prefix_extension_20261110_04/checkpoint.json.gz",
+      "sha256": "1de5fd965f9aaa808b4902a9a064ee381560310620ed2079762f66f1659c4d4b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_parent_continuation_reconciliation": {
+      "file": "../source_prefix_extension_20261110_05/continuation_reconciliation.json",
+      "sha256": "096a0dac0bd1e7bb3e0ce45a3d424d3002e1c0d453ed8bc5e57a333be4a492c5"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_parent_private_backup": {
+      "file": "../source_prefix_extension_20261110_04/private_cache_backup.json",
+      "sha256": "6385dea8992cee4f05896ecb8414102dc3fd424b7176655d52989287ed685c6e"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_parent_protocol": {
+      "file": "../source_prefix_extension_20261110_04/protocol.json",
+      "sha256": "4010ce5cdab728b94d566e18590a1f30be1037053749c3cd9769840c8670ad0a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_parent_receipt": {
+      "file": "../source_prefix_extension_20261110_04/run_receipt.json",
+      "sha256": "abb9ab9640928c042cc7447f4e2e6b313b5c28ba90c5f4e6344873312e87798c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_parent_requests": {
+      "file": "../source_prefix_extension_20261110_04/request_manifest.json.gz",
+      "sha256": "6c9026a8812280da00fa27e6b77d436fbc29f1504e9c9afd7a8b072c12574158"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_parent_resume": {
+      "file": "../source_prefix_extension_20261110_04/resume_checkpoint.json",
+      "sha256": "d74346c67edc13a85e8a1fe4623872468d9229366e8afc1d2ccb3c8e076637a0"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_parent_verification": {
+      "file": "../source_prefix_extension_20261110_04/independent_verification.json",
+      "sha256": "7930ada0294457bf541ed094145a1fc4d56061da7bb14bba9f21b4e2c587ab36"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_inherited_preparation_code": {
+      "file": "../prepare_coldcard_checkpoint.py",
+      "sha256": "a3e57523d214c621074cfba1b04b82a980a21257713c681c355d4383eb8e40b2"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_parent_audit": {
+      "file": "../source_prefix_extension_20261110_03/coverage_audit.json",
+      "sha256": "69b865307a5a54a7e3ef1bf587965dd7865c8d84fa71dc08bbf77c2a5241711b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_parent_checkpoint": {
+      "file": "../source_prefix_extension_20261110_03/checkpoint.json.gz",
+      "sha256": "ffd8fc24c741131e6112fb8409619b8c94c3d27f4703cf714a0b6b07ce8fd1c2"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_parent_continuation_reconciliation": {
+      "file": "../source_prefix_extension_20261110_04/continuation_reconciliation.json",
+      "sha256": "8600d29c584330f45d1e6a47a5b7f25b476056467ab54539b359683115da12dd"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_parent_private_backup": {
+      "file": "../source_prefix_extension_20261110_03/private_cache_backup.json",
+      "sha256": "b4fb653c6dae95e122d6d26707bbfd6f79c48ac9ee594ab99a2b27fc62c1e154"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_parent_protocol": {
+      "file": "../source_prefix_extension_20261110_03/protocol.json",
+      "sha256": "8189042a2b20d5e4f7da66e61def18554fc9904d9e76a55957f0bd1e7a8c8a38"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_parent_receipt": {
+      "file": "../source_prefix_extension_20261110_03/run_receipt.json",
+      "sha256": "945250fde92b11d575b17eb0bc610f45311013d3da4e7cd1565fedb1ced35d87"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_parent_reconciliation": {
+      "file": "../source_prefix_extension_20261110_03/continuation_reconciliation.json",
+      "sha256": "eb87e175904e294068cbe1656fbbb5cbea3298f47340f8459bf7bc6a950ad994"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_parent_requests": {
+      "file": "../source_prefix_extension_20261110_03/request_manifest.json.gz",
+      "sha256": "44b7b440050f884572ff651fc5b9039c697095ac17d7de2d9f82a1dfd733b178"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_parent_resume": {
+      "file": "../source_prefix_extension_20261110_03/resume_checkpoint.json",
+      "sha256": "9957a88e3a086b9cfb8a4ed6be3afbfab1b9fb29c31dd57723aa762ca92cf29d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_parent_stop": {
+      "file": "../source_prefix_extension_20261110_03/collection_stop.json",
+      "sha256": "ea08ee440c10fbb7c66867fd10311bb01aa2b67f85c54e672818b93e48216612"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_parent_two_checkpoint_reconciliation": {
+      "file": "../source_prefix_extension_20261110_04/two_checkpoint_reconciliation.json",
+      "sha256": "25335cbab65eda2f9a922b4ab29f89a40d69f851b73eaa27aa7c522491e0c40a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_parent_verification": {
+      "file": "../source_prefix_extension_20261110_03/independent_verification.json",
+      "sha256": "d954b8fac9a953081f2120164952d286c25addb1e7f8fb854772b39397542ac2"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_preparation_code": {
+      "file": "../source_prefix_extension_20261110_04/prepare_deepening.py",
+      "sha256": "330d1ef208b3e91c4415697173d7918df6c959fc80ad36cd41bfc548b4bbc552"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_retained_baseline_view": {
+      "file": "../source_prefix_extension_20261110_01/precutoff_feature_view.json.gz",
+      "sha256": "c2e9e05a50672aa959199d48ccd626639fa3f0ba69c1cb55461774a70d6d8bd2"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_retained_execution_auditor": {
+      "file": "../source_prefix_extension_20261110_02/audit_execution.py",
+      "sha256": "4c62f4b61cc3d068122b54b62d5797823777cc529be05c9e9026f3eb1b8af793"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_retained_execution_verifier": {
+      "file": "../source_prefix_extension_20261110_02/verify_execution.py",
+      "sha256": "97cb482cb312d83247f3f0539130645356920dde05be710a592379414dd10e61"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_retained_parent_audit": {
+      "file": "../source_prefix_extension_20261110_01/coverage_audit.json",
+      "sha256": "df5e868725a8d51458153d2db64e05e502dba2b0b6ccc88fd180160c9b4d8193"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_retained_parent_checkpoint": {
+      "file": "../source_prefix_extension_20261110_01/checkpoint.json.gz",
+      "sha256": "13ef6406c631d36897f0c8581937e8da3df04169c7401e3525cf1d00c8e5ff4d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_retained_parent_private_backup": {
+      "file": "../source_prefix_extension_20261110_01/private_cache_backup.json",
+      "sha256": "077a9f502b611bc14d8261e2f1573543e2653368ee246982cb72cbafef0dcbc9"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_retained_parent_protocol": {
+      "file": "../source_prefix_extension_20261110_01/protocol.json",
+      "sha256": "19ac826b04aa53ef68962058f2ac2c9f8a59f52627fc26c0d44d86bcfb51d5e2"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_retained_parent_receipt": {
+      "file": "../source_prefix_extension_20261110_01/run_receipt.json",
+      "sha256": "ea1c19bbd2c3056b191f879b873df48a98e6c426b0bbf92628c9c786ce8ae9a2"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_retained_parent_requests": {
+      "file": "../source_prefix_extension_20261110_01/request_manifest.json.gz",
+      "sha256": "5e55a09f1c4f110ec7f2e67a0dea9c4b176d121965c12f852aaf1a39263612da"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_retained_parent_resume": {
+      "file": "../source_prefix_extension_20261110_01/resume_checkpoint.json",
+      "sha256": "ce1ccc96f17fa59f0ef3cbadd0e32b75fe950a78bb3f8f91554223711614f0b1"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_retained_parent_stop": {
+      "file": "../source_prefix_extension_20261110_01/collection_stop.json",
+      "sha256": "34af157f0c74fd33b47e0d0b7ef5f692a90ac61f9cfd50a8988b51b690fec78f"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_retained_parent_verification": {
+      "file": "../source_prefix_extension_20261110_01/independent_verification.json",
+      "sha256": "646aae85247fe31fe093d24152750ae3942f542a41b4db5165cd7ae22af5d701"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_inherited_retained_preparation_code": {
+      "file": "../source_prefix_extension_20261110_02/prepare_successor.py",
+      "sha256": "53cea2dceca6206665d7475ede63fc66206f399144bf3ebd228173d23c9d7339"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_000": {
+      "file": "../analyze_case_flows.py",
+      "sha256": "5548fe2e8a4312a07e4d316e4d15a1dd2b9e0cf9df9c53ed632f44361b85a7e3"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_001": {
+      "file": "../audit_coldcard_parents.py",
+      "sha256": "913023c25b769049e632be98d504c60e7c555edaa60dd9016d4b47b08dbc2ead"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_002": {
+      "file": "../audit_reference_tail_continuation.py",
+      "sha256": "50c38598955cfdbbaa72380e1f1a04d6fa28686cc684036871c179025ee5f937"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_003": {
+      "file": "../audit_reference_tail_successor.py",
+      "sha256": "0b353663564cfb23f334c65be77c2179b3c95528d1ce1bc643906300cdbff08a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_004": {
+      "file": "../build_source_registry.py",
+      "sha256": "5149239fa7f540445662d621a069289c8734c7ec81fde1c5b3f4a80313867005"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_005": {
+      "file": "../collect_comparison_coverage.py",
+      "sha256": "243432e042f413fe601db2f661e6afc072e7e3ddd518730de424a31efd2101df"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_006": {
+      "file": "../collect_comparison_histories.py",
+      "sha256": "722acb046c1c762f8987571a8215b5a486e60ee2a3d43a9f990e2e13232a553d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_007": {
+      "file": "../collect_reference_tail.py",
+      "sha256": "c911691ce1f31be82fbfbb6ce7c589ab77da9da0dba7eb5ffc91ea42d0165c51"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_008": {
+      "file": "../collect_reference_tail_many.py",
+      "sha256": "8d5bbac9c78779b725e22075f6eca7b08bd9294cd4e2e784ed48e16d54659da9"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_009": {
+      "file": "../collect_theft_seeds.py",
+      "sha256": "70f4a7fc66980c499be512ebe2006c6fc5a300c6f66050505557e7f9797c68f1"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_010": {
+      "file": "../comparison_access_retries_20261030/access_20261030T184106Z.json",
+      "sha256": "baf23e30a674987339778724c88ab991487712368bf12b396f62feec94b3a991"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_011": {
+      "file": "../comparison_access_retries_20261030/access_20261030T213300Z.json",
+      "sha256": "0b0e875be7d30eb05668536b3ef488c37be2e25a614d361c89b41913788ade6f"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_012": {
+      "file": "../comparison_access_retries_20261030/access_20261031T030026Z.json",
+      "sha256": "62f0deb3e92e20c90bfb52aca59019a8327aed8dd7c6525d60d7bfc296703fab"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_013": {
+      "file": "../comparison_extended_20261031_164508/address_dataset.json.gz",
+      "sha256": "23d28dc33a7cc6f0712c9363bae0d8bc1819323efaeed3f07bb868d0ebd443ee"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_014": {
+      "file": "../comparison_extended_20261031_164508/checkpoint.json.gz",
+      "sha256": "1776a79b06fe4415b2402ec09ba2b9d59797159559af9a319f8ab8713f405eea"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_015": {
+      "file": "../comparison_histories_20261030/checkpoint.json.gz",
+      "sha256": "ff6cfc70756486bbd2546cf23395ebc0402f8ac9998ce904a5befbc8867f3c44"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_016": {
+      "file": "../comparison_http.py",
+      "sha256": "79793179e8c1bb153ade9a7fa742ed7a4a766bb6e039c791d880d24d5a484915"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_017": {
+      "file": "../comparison_network_recovery_20261030/access_check.json",
+      "sha256": "fff5261f35aa2f54ea7394fd47ae7c01ea74dbfba21baf8891edda8c8cca7f80"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_018": {
+      "file": "../comparison_network_recovery_20261030/checkpoint.json.gz",
+      "sha256": "05c63262b171f32e042f7de371ecc160b5fa6136e9b42d68a5788a47f34165ec"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_019": {
+      "file": "../comparison_network_recovery_20261030/collection_stop.json",
+      "sha256": "8fc5d1f7c613b1303047b547fb796c9aa5cd0d7c8d9e7c5c19fecd5c60d1aa42"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_020": {
+      "file": "../comparison_rate_limit_continuation_20261030/checkpoint.json.gz",
+      "sha256": "19150af7885b169a801e4b019ec4e51186d38220ae73d7c7e8937e29eb97292d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_021": {
+      "file": "../comparison_rate_limit_continuation_20261030/collection_stop.json",
+      "sha256": "a73ccd00a526b5f8aa4a04b65b4602b2505e7906efc6c741d6a64f37414cba75"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_022": {
+      "file": "../comparison_retry_20261030_1841/checkpoint.json.gz",
+      "sha256": "0b5c056660999d137a4986a9f39f522d3876c7915ffcb3fbf59e804f83b7e705"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_023": {
+      "file": "../comparison_retry_20261030_1841/collection_stop.json",
+      "sha256": "44e912d4bdd288ef7f2032b708377efe82960986984a31ec861f6cbb0ec6ca12"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_024": {
+      "file": "../comparison_retry_20261030_2133/checkpoint.json.gz",
+      "sha256": "1ad6e0de7630bc93cc4a285502b78b507cd12edaa600b33a4c5514130e30760b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_025": {
+      "file": "../comparison_retry_20261030_2133/collection_stop.json",
+      "sha256": "adffb93d7ea0bccc50bc23d122763aa8af805b0378e440bbd3442504ea010206"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_026": {
+      "file": "../comparison_retry_20261031_0300/address_dataset.json.gz",
+      "sha256": "7c5060287bd9e7d339288127dae380bcb004633584457b764c34e6639d01a5da"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_027": {
+      "file": "../comparison_retry_20261031_0300/checkpoint.json.gz",
+      "sha256": "538fc325236877c97ae9a5c8ed499995f2dcd341f75589bf788ac569ac9db7b4"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_028": {
+      "file": "../multiinput_pilot.py",
+      "sha256": "4bca0c087a6a31d7eb11ee51951b29f1a62603c2ecffb9be67cf0595c5fc07c9"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_029": {
+      "file": "../owner_report_adjudication_20261030/adjudication.json",
+      "sha256": "ab00e127b196ce61c71cb3b77523905618ea31bc4fed14dffa0f47c7f308057a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_030": {
+      "file": "../prepayment_pilot.py",
+      "sha256": "b2be7cd612d5cf1eca0fbf93b82a65961e2aee658ac2f18ca24ae38163ea0701"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_031": {
+      "file": "../reference_tail_continuation_20261101_0653/checkpoint.json.gz",
+      "sha256": "18b48c8f6d47cc7e59b74ec8436da83d37a11d1eebf975c748c55832fed13114"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_032": {
+      "file": "../reference_tail_continuation_20261101_0653/collection_stop.json",
+      "sha256": "0454539f839d541fc1c4ebc5d2af6b87a3fae29efd7b37c644a0421d59178ccc"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_033": {
+      "file": "../reference_tail_continuation_20261101_0653/coverage_audit.json",
+      "sha256": "7c4de7112a56026ec3d9343edcb19ac4b3993abe070e5e3ae7a635cf9cd4a25d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_034": {
+      "file": "../reference_tail_continuation_20261101_0653/precutoff_feature_view.json.gz",
+      "sha256": "c8cda4ab2a6777f80b27200443eed03d61203346045faeaa36c3d3b554387851"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_035": {
+      "file": "../reference_tail_continuation_20261101_0653/request_manifest.json.gz",
+      "sha256": "aac5655de6682392372cbc0d6b955e9c9ca5a235ff99b04d2ae42dcc84e3b5ba"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_036": {
+      "file": "../reference_tail_continuation_20261101_0653/resume_checkpoint.json",
+      "sha256": "cf257bde95e83f7fe1bccd0134418a84ea9b724b7612ad478e54f5fe5dc0da51"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_037": {
+      "file": "../reference_tail_continuation_20261102_1455/checkpoint.json.gz",
+      "sha256": "61fc68f15a1ae30ec95ee889633ecaff69798e813e89e609be8ae42316cdd0cc"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_038": {
+      "file": "../reference_tail_continuation_20261102_1455/collection_stop.json",
+      "sha256": "a5137d59d0c3dcf0c1d8675e9b116abbe14d506bbe329008b7cb18681aaca3d5"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_039": {
+      "file": "../reference_tail_continuation_20261102_1455/coverage_audit.json",
+      "sha256": "8ae8a0f4383f46b67f97c2e9e3a16f6a85efbf6156baa2af0178058eb71850f5"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_040": {
+      "file": "../reference_tail_continuation_20261102_1455/request_manifest.json.gz",
+      "sha256": "6133fce89555e307f2bd6f3e60e2758445454adecf10003747e17e972d36cc22"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_041": {
+      "file": "../reference_tail_continuation_20261102_1455/resume_checkpoint.json",
+      "sha256": "c989b99eadf2bff1dd18155e48631dcf94c2ce76ce6326c1a2a3f78fdf3c4651"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_042": {
+      "file": "../reference_tail_continuation_20261102_1508/checkpoint.json.gz",
+      "sha256": "d55395ee81c08f4c9c51020ea930df3d26343acb5472516b1d76fd7f79ee9284"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_043": {
+      "file": "../reference_tail_continuation_20261102_1508/collection_stop.json",
+      "sha256": "4a30a04d664aa523697b70e12f55b25db6db233ea73be0804dfddf2d41c75637"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_044": {
+      "file": "../reference_tail_continuation_20261102_1508/precutoff_feature_view.json.gz",
+      "sha256": "a96aac7555150122e08dfab2a5d70773df31a28869a52f91cc75a5e12ebe29ab"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_045": {
+      "file": "../reference_tail_continuation_20261102_1508/request_manifest.json.gz",
+      "sha256": "79177d894d8d12da1c0d60e15331aee94faf2e0c43fea1d6e74d0323f339d089"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_046": {
+      "file": "../reference_tail_continuation_20261102_1508/resume_checkpoint.json",
+      "sha256": "0fb71f1f91de7bb0904514b374e522be80f70dd7d7e507796d1789fd05f395b4"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_047": {
+      "file": "../reference_tail_coverage_20261031_221432/checkpoint.json.gz",
+      "sha256": "8b89befd7a93416227a8faed25287f1825b21f256210f5c4e39e3f32f89e5f65"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_048": {
+      "file": "../reference_tail_coverage_20261031_221432/collection_stop.json",
+      "sha256": "2aaa4c294b2de9f9576f72372ffda9e88e399aa2aeb4fcbb658b978ced656077"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_049": {
+      "file": "../reference_tail_coverage_20261031_221432/coverage_audit.json",
+      "sha256": "587f4f2f7a1efdc7b32f386e9ebcece4a929116e692906b1f60891e66c150011"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_050": {
+      "file": "../reference_tail_coverage_20261031_221432/precutoff_feature_view.json.gz",
+      "sha256": "5435d6164fdab7c1f220a013652bf67573c5aaebc8c6d2f78f48cb0652219614"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_051": {
+      "file": "../reference_tail_coverage_20261031_221432/request_manifest.json.gz",
+      "sha256": "576d87fcd799ad2def1c922b550c7127f4fec30ac1ec84ae8619821950ce9101"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_052": {
+      "file": "../reference_tail_coverage_20261031_221432/resume_checkpoint.json",
+      "sha256": "4f10d8c94472160737a8433cad786cf878948d3ec4df64d50c5f11574324a7ef"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_054": {
+      "file": "../reference_tail_pilot_20261031_221016/provider_contract_sources.json",
+      "sha256": "90316cf2e91a192f2ba2e08b4aa4faa924a072205603bc14177ffdc571353793"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_055": {
+      "file": "../reference_tail_pilot_20261031_221016/request_manifest.json.gz",
+      "sha256": "773ebf96cc76be84749a4f9174669e98999519700613e0d10e09e42f11db4b96"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_056": {
+      "file": "../source_cohort.py",
+      "sha256": "6e1f56fa3c9f815aee0452974ff403e3c5ad1bd5e91330e9c43d0037b55c6e4c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_057": {
+      "file": "../source_cohort_recovery_20261029/batch_0002/checkpoint.json",
+      "sha256": "a78ad7367c43102fd5b4d80d9fc8f1d8300ea205f520f59f2847029d7cced944"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_058": {
+      "file": "../source_cohort_recovery_protocol_20261029.json",
+      "sha256": "ab0152508aafdfe004fc541466c46b3a16dc420e33c2160b1ac47126d4f0f37e"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_059": {
+      "file": "../source_comparison_collection_protocol_20261030.json",
+      "sha256": "3b903654be6d84d4cf159c8ecfa8209ab65af7e50004d22034b22872a101407b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_060": {
+      "file": "../source_comparison_design.py",
+      "sha256": "4b91c0a233d1e5458fb2770523ee8915697419929af6b7f6ae5fc4b30bf3f3ea"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_061": {
+      "file": "../source_comparison_design_20261030/protocol.json",
+      "sha256": "53fe2b2ecefaa90f9a9820f735c2e40318d2abb836cbf7f84734fb10e227e1f8"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_062": {
+      "file": "../source_comparison_extended_20261031_164508_protocol.json",
+      "sha256": "032f567a0e8d4ecdb691a744431882dd65b16e9a86df5f48ef7c9cd223632966"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_063": {
+      "file": "../source_comparison_network_recovery_protocol_20261030.json",
+      "sha256": "5c45bd4651b6fb3dfb4dd1f739b18113e04b2d0463ae34e2696eec2f297b8f3f"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_064": {
+      "file": "../source_comparison_rate_limit_continuation_protocol_20261030.json",
+      "sha256": "411fb6bf63c1a496439761d90a147cc88d8e7557aca7a6d4e00a7f77ed478006"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_065": {
+      "file": "../source_comparison_retry_protocol_20261030_1841.json",
+      "sha256": "91d860f179e285aa277e902e4625b1dced5f832d5ea1932e81bf0753f4d45019"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_066": {
+      "file": "../source_comparison_retry_protocol_20261030_2133.json",
+      "sha256": "ce8b8f2850718e3394ca9b83c221aee7f044b1fcf7943f7ba8edd11ec8fc850d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_067": {
+      "file": "../source_comparison_retry_protocol_20261031_0300.json",
+      "sha256": "641f0a500543d0aa475c3bf72b5be49c0bb37a2e7a8707e97d7d3fc380f7d9e3"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_068": {
+      "file": "../source_comparison_selection_20261030/selection.json",
+      "sha256": "611570b92038092ca8be8fbf327a86a0ad04a4f5fedcdfe489fcf47ef88c7334"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_069": {
+      "file": "../source_corroboration_20261030/comparison.json",
+      "sha256": "8f1cec76971487b1adc2edf0dfd5b4f4e21a5e6a28ac13c6e6db068aadee19c0"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_070": {
+      "file": "../source_dataset_20261030/protocol.json",
+      "sha256": "922c3de80381effa0363c15624ecf02ae80c706024f3a9cccacdcc504eb39422"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_071": {
+      "file": "../source_dataset_20261030/view.json.gz",
+      "sha256": "ceceab50d0242e5ba0195d7d2f456cbfb77173cb262460e441a41776d5215d9d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_072": {
+      "file": "../source_reference_tail_continuation_20261101_0653_protocol.json",
+      "sha256": "309e5fb5262f87df1712b20a520bdeac9413f535033eb199691d5d2e8a204c2b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_073": {
+      "file": "../source_reference_tail_continuation_20261102_1455_protocol.json",
+      "sha256": "564a61d011392a16fe4b31a8a5d981942741bf5d62ed51e78e53a9a1b01f4948"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_074": {
+      "file": "../source_reference_tail_continuation_20261102_1508_protocol.json",
+      "sha256": "fc870030876cf54b7e30fd8036f4e7d49b06ed12ce040b0245a9ca42065a4fd2"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_075": {
+      "file": "../source_reference_tail_coverage_20261031_221432_protocol.json",
+      "sha256": "678377edf02f64af61777a7c7558ae32d605b9c8413bcda2751b6f8b74af6b4d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_076": {
+      "file": "../source_reference_tail_pilot_20261031_221016_protocol.json",
+      "sha256": "eca1c09687f90bc6171a4e970691425ce8f455f3b3e190497bd0c05f3ac5a86c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_077": {
+      "file": "../source_registry_protocol_20261027.json",
+      "sha256": "75abe6458bc7bda64b0fd6c94a7c145f352dc60050c367ae5b6ca1a5bee31f47"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_078": {
+      "file": "../../external_cases/central_protocol_20261020.json",
+      "sha256": "c1e9bc565e6a05701a7807eb2e9c30ebb762a87b932ce8a4a8b7b45fa54997db"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_079": {
+      "file": "../../external_cases/central_results_20261020/summary.json",
+      "sha256": "ac868ebd3754454b3fcbc4b96b313768083427e2decb00c0ecedd970c58f166e"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_lineage_080": {
+      "file": "../../external_cases/rank_block_recipients.py",
+      "sha256": "784dc1f3a7cc0b87a972ad6082509b6d06ca394cb16633bb5b632583e08321f3"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_offline_reuse_manifest": {
+      "file": "../source_prefix_extension_20261109_01/offline_reuse_manifest.json",
+      "sha256": "e8757ba6db7d501469df9b00c139e70c9e757901f4817838782aeb62ba6aa0bd"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_parent_audit": {
+      "file": "../source_prefix_extension_20261111_01/coverage_audit.json",
+      "sha256": "e1a4c304df3e6e7e5d70dc69240f0f220d8daa1d114cddd2a6f57db937279a9d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_parent_capacity_and_cache_audit": {
+      "file": "../source_prefix_extension_20261110_01/capacity_and_cache_audit.json",
+      "sha256": "91725105a4265e9d7224feb986e9e5b01f244972a5a8637af787b534e94e1b36"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_parent_checkpoint": {
+      "file": "../source_prefix_extension_20261111_01/checkpoint.json.gz",
+      "sha256": "d3e7280ca44cf5b6c85df7baab32588686e19b07c6297c51cb3a4d1e6bae217d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_parent_continuation_reconciliation": {
+      "file": "../source_prefix_extension_20261111_01/continuation_reconciliation.json",
+      "sha256": "d82d26c395fcc850ee14c666e84cb5de30e2360d43a0b195d2eb1bc00eae1bea"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_parent_execution_protocol": {
+      "file": "../source_prefix_extension_20261110_01/execution_validation_protocol.json",
+      "sha256": "25e9357fec9d8d79fde766b649aa9719823a113ce1593c9cc9e33ef5db67b539"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_parent_offline_reuse_manifest": {
+      "file": "../source_prefix_extension_20261110_01/offline_reuse_manifest.json",
+      "sha256": "1bcc4462f47889cc41d9d3db55d3f8b4e1dfc5f90a29a66ff78ba06e68eac089"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_parent_partial_pages": {
+      "file": "../source_prefix_extension_20261110_10/partial_page_reconciliation.json",
+      "sha256": "26fb0ba683c6539d2e607903c93a21b27ef376506fe0ffdbc7d8f26e8e5aafea"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_parent_private_backup": {
+      "file": "../source_prefix_extension_20261111_01/private_cache_backup.json",
+      "sha256": "5a2bc4c2571c5629054ac0b16b33d3b950736720e80400a84cb05b0ac2bc4bf3"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_parent_protocol": {
+      "file": "../source_prefix_extension_20261111_01/protocol.json",
+      "sha256": "675f862291ccfe5bf914e254bca2df2eaa42ab7be0fdae0ec248423f5ab85ac5"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_parent_receipt": {
+      "file": "../source_prefix_extension_20261111_01/run_receipt.json",
+      "sha256": "209968573809b7533ec895139fa8009b1d26509f54efc7273345e4e96c939ab0"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_parent_reconciliation": {
+      "file": "../source_prefix_extension_20261110_10/continuation_reconciliation.json",
+      "sha256": "f41613e3c92b2d76222a7710454d7cd35aacb0baee94d456f7fe414e443a140c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_parent_requests": {
+      "file": "../source_prefix_extension_20261111_01/request_manifest.json.gz",
+      "sha256": "570ff2f2166891836e2ca3eb144d57bf7a0eb37ca0b33792a54d408df442897d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_parent_resume": {
+      "file": "../source_prefix_extension_20261111_01/resume_checkpoint.json",
+      "sha256": "8dfb62d21e2c1202adceb4577101c5297eaff678e445b4fd760088815d6d1756"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_parent_stop": {
+      "file": "../source_prefix_extension_20261110_10/collection_stop.json",
+      "sha256": "7a5412b50370a06d7bf10b2ef394818c60287e9f7488fecd31b0b33247dfe448"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_parent_two_checkpoint_reconciliation": {
+      "file": "../source_prefix_extension_20261111_01/two_checkpoint_reconciliation.json",
+      "sha256": "17df3653b4be5310442877267b4aec52daf8ab68b63a0c89b92be565bde5c9c9"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_parent_verification": {
+      "file": "../source_prefix_extension_20261111_01/independent_verification.json",
+      "sha256": "ad386b262e99d2d9f7140e2370ff76721ac55f31846dc21e4a8fdcee6be75bac"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_pilot_validation": {
+      "file": "../reference_tail_pilot_20261031_221016/pilot_validation.json",
+      "sha256": "fd0a555c7e369c02e01902784453fedec10e75b3963b53aa2fd35f195a49dde4"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_predecessor_audit": {
+      "file": "../source_prefix_extension_20261109_01/coverage_audit.json",
+      "sha256": "2fbaa9d9136f1877baa654ef28887c143d39c31e09473e3534c21fbff50fc3f7"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_predecessor_backup": {
+      "file": "../source_prefix_extension_20261109_01/private_cache_backup.json",
+      "sha256": "5fa2d690ebdf881897a670bb2b096709216b51a7d08666b58c0b085d4599d285"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_predecessor_checkpoint": {
+      "file": "../source_prefix_extension_20261109_01/checkpoint.json.gz",
+      "sha256": "2f9b42d8b7e9e2c8f8baf7c1ae3db13422504d75b5f0e08fbb7a08056f69252c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_predecessor_protocol": {
+      "file": "../source_prefix_extension_20261109_01/protocol.json",
+      "sha256": "b40f433b8563e19851c2bde6cdf78957b9cc3e8269fcacb130f2b2e013a5903b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_predecessor_requests": {
+      "file": "../source_prefix_extension_20261109_01/request_manifest.json.gz",
+      "sha256": "e240ea33585aa744bc27b75d681ce933a652a9a790ea59a7efaefc735e633f29"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_predecessor_resume": {
+      "file": "../source_prefix_extension_20261109_01/resume_checkpoint.json",
+      "sha256": "dab9b7d5b218da675b7a34ccd3e8403250f5d4ab14211262535ad472c7955a4b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_predecessor_stop": {
+      "file": "../source_prefix_extension_20261109_01/collection_stop.json",
+      "sha256": "13cb98b4122c0a236fb617bf39bf00717771c9ac9cd70e607d77fa4ad2119337"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_preparation_code": {
+      "file": "../prepare_coldcard_checkpoint.py",
+      "sha256": "a3e57523d214c621074cfba1b04b82a980a21257713c681c355d4383eb8e40b2"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_regular_metadata_code": {
+      "file": "../prepare_regular_checkpoint.py",
+      "sha256": "7c67489d71bca6bada030e415d1a889fc1738c36c7cdd7fa046b7ddb976e26a2"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_restoration_code": {
+      "file": "../source_prefix_extension_20261110_01/recover_cache.py",
+      "sha256": "4013d15bd21caa36598ba4c4aa51d3416737586256794e0f50fcc5f50baf041a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_restoration_report": {
+      "file": "../source_prefix_extension_20261110_01/cache_restoration_verification.json",
+      "sha256": "61690ceba3c6d6b096933df2e721b3d953b5dc00cab29e2c9855c6e44958cb8c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_retained_baseline_view": {
+      "file": "../source_prefix_extension_20261110_02/precutoff_feature_view.json.gz",
+      "sha256": "9c2d503deaf47ed52363f7b5ccfcd522cc015270a3967b18b586ac14c93b6eba"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_retained_current_capacity_and_cache_audit": {
+      "file": "../source_prefix_extension_20261110_03/capacity_and_cache_audit.json",
+      "sha256": "f762b159b0a2484efe2495d79c4be01dc5bd867ea548613f49d76d1ffbd7c4c8"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_retained_current_offline_reuse_manifest": {
+      "file": "../source_prefix_extension_20261110_03/offline_reuse_manifest.json",
+      "sha256": "b56428bf8634f7e7237e4536d36d42a9f786ed056b7752f803215e2c8016476e"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_retained_execution_auditor": {
+      "file": "../source_prefix_extension_20261110_03/audit_execution.py",
+      "sha256": "814067e140a7ffc90bd7cdde8b1102f5c044dc574676cb6f370facdfd7e2432a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_retained_execution_verifier": {
+      "file": "../source_prefix_extension_20261110_03/verify_execution.py",
+      "sha256": "1d7f71f3f4da439c5c18db2b072972e6d9a6362bdb64b749086c70499bd6e646"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_retained_parent_audit": {
+      "file": "../source_prefix_extension_20261110_02/coverage_audit.json",
+      "sha256": "b9278b3230b3772fbf5df73f2ab0ee50f9b143d5ddd18cec289706cbb24f0faf"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_retained_parent_checkpoint": {
+      "file": "../source_prefix_extension_20261110_02/checkpoint.json.gz",
+      "sha256": "bf3360e08a6b8e47ccc540effc6422dd917cadb708a118c91c70c3058bc040bc"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_retained_parent_private_backup": {
+      "file": "../source_prefix_extension_20261110_02/private_cache_backup.json",
+      "sha256": "adc2226319d6f89c62324c795bd7f88bee4976c99b035d72d4f8d71054b7904a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_retained_parent_protocol": {
+      "file": "../source_prefix_extension_20261110_02/protocol.json",
+      "sha256": "05c51a98dd99e869917907749a7c52df72977bdff367ed1b13ea3f3a5c32e82e"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_retained_parent_receipt": {
+      "file": "../source_prefix_extension_20261110_02/run_receipt.json",
+      "sha256": "9d77c4132c9bcab3f63c6c3897bdb64f94c97958ba7a9c98ac3c5683d28b2dbe"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_retained_parent_reconciliation": {
+      "file": "../source_prefix_extension_20261110_02/original_twenty_reconciliation.json",
+      "sha256": "1cf3f534b121f30c27acca0991a0d5b5b769a3a3d152786c38d387d25438cdbb"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_retained_parent_requests": {
+      "file": "../source_prefix_extension_20261110_02/request_manifest.json.gz",
+      "sha256": "81c5e3378a97c7720d2b466b2cbc6100c1997b2889592e0e578b7ef9c7483bf3"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_retained_parent_resume": {
+      "file": "../source_prefix_extension_20261110_02/resume_checkpoint.json",
+      "sha256": "fd37848b7a4ea2f26265bf0d727e23a804e7add160a64c9b7371ae68f9caf69b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_retained_parent_stop": {
+      "file": "../source_prefix_extension_20261110_02/collection_stop.json",
+      "sha256": "cf55df8486db9f2b21cf595c31fab3aed46e644d314cfabd4c13eebcda403527"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_retained_parent_verification": {
+      "file": "../source_prefix_extension_20261110_02/independent_verification.json",
+      "sha256": "9852270ad4aeed725f9cd156da7d0b97b83061b3a2b2b6c002c75c3ace173340"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_retained_preparation_code": {
+      "file": "../source_prefix_extension_20261110_03/prepare_deepening.py",
+      "sha256": "361b798f2c9028a6ab021d2c9790366e130b44849d08c7ca82b74b2358fc4807"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_runner": {
+      "file": "../source_prefix_extension_20261109_01/run_scope.py",
+      "sha256": "0befaf212936db0ec17096672f69edab5bc65d73dcd483d554ecf09b87c9f817"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_successor_offline_reuse_manifest": {
+      "file": "../source_prefix_extension_20261110_02/offline_reuse_manifest.json",
+      "sha256": "0e4f9fa76ba3a9a646c20aa236e0c035ac81bf86852c87cd2bfbf86b8aaf61e3"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_prior_workflow_tests": {
+      "file": "../test_checkpoint_workflow.py",
+      "sha256": "94da65cc808f99740a7be7f03b90af634eb86822384cf2c2561160c901066f8c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_restored_identity_report": {
+      "file": "../frontier_cache_restoration_20261112.json",
+      "sha256": "984c2e9a956f41f5649f2900fad2f1480e46c95d9a4f94423a808feede5c7da5"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_prior_successor_offline_reuse_manifest": {
+      "file": "../source_prefix_extension_20261112_02/offline_reuse_manifest.json",
+      "sha256": "13f6295edb96897102e22d5c56a7f00fb815887d3c2813cd73bd495a263e2fb5"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_protocol": {
+      "file": "../source_prefix_extension_20261112_03/protocol.json",
+      "sha256": "dd4b06a0e1210385ad5fd1738dfee3ab71cc9b8273e22758c68c953216947a47"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_requests": {
+      "file": "../source_prefix_extension_20261112_03/request_manifest.json.gz",
+      "sha256": "50f2020611e2b80f9d705bfc1b526b4a81612e18bfcae76626326f4f7b197535"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_resume": {
+      "file": "../source_prefix_extension_20261112_03/resume_checkpoint.json",
+      "sha256": "0475a9be10e3b7f28a545b3a13293efaf1bb287bc87f4c5ca57ae10daf1bc398"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_retained_parent_queues": {
+      "file": "../source_prefix_extension_20261112_03/retained_parent_queues.json",
+      "sha256": "9ed5528f6ea1e181feca68046489f67a6a0dbce586652215f7e003cfc82e5d16"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_stop": {
+      "file": "../source_prefix_extension_20261112_03/collection_stop.json",
+      "sha256": "291db42e880ee045cc400ebada715599ede201c0b44e5af939b2c60c93f3c1f8"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_parent_successor_offline_reuse_manifest": {
+      "file": "../source_prefix_extension_20261112_03/offline_reuse_manifest.json",
+      "sha256": "13f6295edb96897102e22d5c56a7f00fb815887d3c2813cd73bd495a263e2fb5"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_pilot_auditor": {
+      "file": "../audit_independent_mempool_pilot.py",
+      "sha256": "478c55e1a7162806577144616a8ef7d9a50ead405cfcea90ddd5445d4c0c73b2"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_pilot_code": {
+      "file": "../independent_mempool_pilot.py",
+      "sha256": "8bc543e16ecf819bd48166c5b632923ee1c1de91f98990067472de05d64feea3"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_prior_pilot_tests": {
+      "file": "../test_independent_mempool_pilot.py",
+      "sha256": "37f7f557709d1cd73b2b2a3158e240ed9cfc52a2064d9a6c2b2cad810cc92a95"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_audit_independent_mempool_native_py": {
+      "file": "../audit_independent_mempool_native.py",
+      "sha256": "c0d4a95fde8f30f4c76d17401ecfacf930f0abb037b397bd7aaecc216b69c0e8"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_baseline_view": {
+      "file": "../independent_provider_bridge_20261112/precutoff_feature_view.json.gz",
+      "sha256": "97db9d980d70d0e41682b42f89831772259a2ae12f1b56f4a0801439c5d1fe7a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_bridge_checkpoint_json_gz": {
+      "file": "../independent_provider_bridge_20261112/checkpoint.json.gz",
+      "sha256": "161d1d3510be652f88b73bbcd0cb708e58d5866b964337532b304b7e24962179"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_bridge_coverage_audit_json": {
+      "file": "../independent_provider_bridge_20261112/coverage_audit.json",
+      "sha256": "56f66906129418eff3fd9b2a33e5d1e8b1faa059f75d5bb644e7f3320b2cc272"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_bridge_independent_verification_json": {
+      "file": "../independent_provider_bridge_20261112/independent_verification.json",
+      "sha256": "c487ee436676621c02a8411198a4bc2c2e8f2e87afed72c44c22749ec0c4f67e"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_bridge_private_cache_backup_json": {
+      "file": "../independent_provider_bridge_20261112/private_cache_backup.json",
+      "sha256": "21dfce6b22608999cb8b275056e35525b7cb847200ac79bc67a6933ee254f1d2"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_bridge_protocol_json": {
+      "file": "../independent_provider_bridge_20261112/protocol.json",
+      "sha256": "b8cd19d7b455717285b8a224cfadda8907d95805a33e68c592b1c31b4b5caa47"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_bridge_resume_checkpoint_json": {
+      "file": "../independent_provider_bridge_20261112/resume_checkpoint.json",
+      "sha256": "6c2139220d775729ca3a805cbea9ccf886254a3b7fc0f3708d7a381d237314fc"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_bridge_retained_deep_queue_json": {
+      "file": "../independent_provider_bridge_20261112/retained_deep_queue.json",
+      "sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_bridge_retained_identity_registry_verification_json": {
+      "file": "../independent_provider_bridge_20261112/retained_identity_registry_verification.json",
+      "sha256": "3fd3341a2762dc8a6c9a4c440e9e13536250859a4ec5124c8bb9d40a181cd4d5"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_collect_reference_tail_py": {
+      "file": "../collect_reference_tail.py",
+      "sha256": "c911691ce1f31be82fbfbb6ce7c589ab77da9da0dba7eb5ffc91ea42d0165c51"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_comparison_http_py": {
+      "file": "../comparison_http.py",
+      "sha256": "79793179e8c1bb153ade9a7fa742ed7a4a766bb6e039c791d880d24d5a484915"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_independent_mempool_native_py": {
+      "file": "../independent_mempool_native.py",
+      "sha256": "40627aa2f9f2190ce2b07b1286649ed3b5e589346bb0ebb4aed2f9f3695efbb7"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_independent_mempool_pilot_py": {
+      "file": "../independent_mempool_pilot.py",
+      "sha256": "8bc543e16ecf819bd48166c5b632923ee1c1de91f98990067472de05d64feea3"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_preserved_raw_auditor": {
+      "file": "../source_prefix_extension_20261112_01/audit_execution.py",
+      "sha256": "814067e140a7ffc90bd7cdde8b1102f5c044dc574676cb6f370facdfd7e2432a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_test_independent_mempool_native_py": {
+      "file": "../test_independent_mempool_native.py",
+      "sha256": "20c9ca9b699b142be7becf86ca37f9d95bab135927afe246501fa421b840c0a9"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_audit_independent_mempool_resume_py": {
+      "file": "../audit_independent_mempool_resume.py",
+      "sha256": "62cc87749ca938caa092753c0bbf178e903f154acdb9f2e1973eef5fab164b7b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_baseline_view": {
+      "file": "../independent_provider_native_20261112_01/precutoff_feature_view.json.gz",
+      "sha256": "f9dfa112c43df45bf2701e3b8a975eac8ad42a1eb340f07ee0a3023095e44e18"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_independent_mempool_resume_py": {
+      "file": "../independent_mempool_resume.py",
+      "sha256": "e8e785fdc47978a49ec64fb198834f13f35c49f3a8d5a7dd5e46b7f0d6c548b5"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_offline_reuse_manifest": {
+      "file": "../independent_provider_native_20261112_02/offline_reuse_manifest.json",
+      "sha256": "2e5285c2e0e8eeb129ab14731ec5164c9680969a5f3b1778d830b018b09122f3"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_checkpoint_json_gz": {
+      "file": "../independent_provider_native_20261112_01/checkpoint.json.gz",
+      "sha256": "f95917d7ab212443158ecdf36cc3ff08117e95b0bc028b6f8b1fd622e8d95941"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_coverage_audit_json": {
+      "file": "../independent_provider_native_20261112_01/coverage_audit.json",
+      "sha256": "f7160bf301b6434f2802d97b6d7c1af29731d3a3f28d37ad009ead1fadb22c92"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_execution_verification_json": {
+      "file": "../independent_provider_native_20261112_01/execution_verification.json",
+      "sha256": "23449366232b040d54de0e7be2d023f68e519162f01f38adb10a6b49ccdccfae"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_independent_verification_json": {
+      "file": "../independent_provider_native_20261112_01/independent_verification.json",
+      "sha256": "18f483220a16cf31cfdec2d062fe185185e14f6b2c38f96c92374773f8631748"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_private_cache_backup_json": {
+      "file": "../independent_provider_native_20261112_01/private_cache_backup.json",
+      "sha256": "41289fe6f8d2ebe97fdb5b3e17da27fef67e45eb45eac86b633ac43a2897ca8c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_protocol_json": {
+      "file": "../independent_provider_native_20261112_01/protocol.json",
+      "sha256": "85dc2f275eef2e47d8c2a8b9c030901195b47c19e91d5729dc994d3583ecaacb"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_request_manifest_json_gz": {
+      "file": "../independent_provider_native_20261112_01/request_manifest.json.gz",
+      "sha256": "59b48f4dc1aad35a060deba6eaf2155ef4f50d54d8fc2e6f748e25e220757a7f"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_resume_checkpoint_json": {
+      "file": "../independent_provider_native_20261112_01/resume_checkpoint.json",
+      "sha256": "a0c0378e205d6c1c1e31cfd72d9a0083316bac076aa8f508407a9996934d81af"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_retained_deep_queue_json": {
+      "file": "../independent_provider_native_20261112_01/retained_deep_queue.json",
+      "sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_run_receipt_json": {
+      "file": "../independent_provider_native_20261112_01/run_receipt.json",
+      "sha256": "ae39974f0877744ce2ff3f4b9d69ba3d0f2d626b915456e2704f48ef4e16a4a2"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_test_independent_mempool_resume_py": {
+      "file": "../test_independent_mempool_resume.py",
+      "sha256": "95ae70d2c86177d7583f5cf37c1095b7e62a72e911e87cb9cf24b9739f6e3708"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_baseline_view": {
+      "file": "../independent_provider_native_20261112_02/precutoff_feature_view.json.gz",
+      "sha256": "d7070d81c0a07a04f58b946b84d8c401da56019c0fd66e8909f9d8a4f6961872"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_offline_reuse_manifest": {
+      "file": "../independent_provider_native_20261112_03/offline_reuse_manifest.json",
+      "sha256": "68e2d6eba86eedf2b33edcd5fd17c1d986404086c4c5f24cc6d36c3410ed6f88"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_RESULTS_md": {
+      "file": "../independent_provider_native_20261112_02/RESULTS.md",
+      "sha256": "b08594fb9cab3d3501d03260f1b6fbd37a4754a2fdf9bbdc2ef9e4c3735d8c14"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_checkpoint_json_gz": {
+      "file": "../independent_provider_native_20261112_02/checkpoint.json.gz",
+      "sha256": "a72f148db67923f29507b1acc497b3caa09d9c40c4514baae00a55a4390f90cf"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_coverage_audit_json": {
+      "file": "../independent_provider_native_20261112_02/coverage_audit.json",
+      "sha256": "4057746f64a33a9759a279f09408e5e82163f34a89f9ea5e2454a1a1256f6e15"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_execution_verification_json": {
+      "file": "../independent_provider_native_20261112_02/execution_verification.json",
+      "sha256": "6b67e613cd2b3747368c7c0e7a55bcbe665d31601a3439a07204cc9c8dec310d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_independent_verification_json": {
+      "file": "../independent_provider_native_20261112_02/independent_verification.json",
+      "sha256": "d594d4a4a82c3c4dee814e05a7abf324079855784f3d4f2ea47d3bcef1c746c1"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_private_cache_backup_json": {
+      "file": "../independent_provider_native_20261112_02/private_cache_backup.json",
+      "sha256": "5e7b85728dbac9f0e4a3fe187af65e517453573d76d8b503a14ea3ae061f1dad"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_protocol_json": {
+      "file": "../independent_provider_native_20261112_02/protocol.json",
+      "sha256": "ae440b163c163afd416c80a3d5f3a95e7d4fa10e37b4dadc197ff891a9ec3d12"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_request_manifest_json_gz": {
+      "file": "../independent_provider_native_20261112_02/request_manifest.json.gz",
+      "sha256": "f6d6146dbff58acfcaf1149b7fbb1c0de5544a21c11f70a30817c3b08e298b2a"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_resume_checkpoint_json": {
+      "file": "../independent_provider_native_20261112_02/resume_checkpoint.json",
+      "sha256": "1bde19e268efb4a09e746767707c5aea47cc5726d3f9cf69305c83c38145ece4"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_retained_deep_queue_json": {
+      "file": "../independent_provider_native_20261112_02/retained_deep_queue.json",
+      "sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_run_receipt_json": {
+      "file": "../independent_provider_native_20261112_02/run_receipt.json",
+      "sha256": "1e777cd854f3c0cbbac17074a06a0e54b5feddbd450dec4c27bddc9307a11d5c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_resume_mempool_slow_response_py": {
+      "file": "../resume_mempool_slow_response.py",
+      "sha256": "62b6707925c2f6120c409ee199bd0d40bc5bf28e7ce5705bf8cbcbe4d82ad34b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_test_mempool_slow_response_py": {
+      "file": "../test_mempool_slow_response.py",
+      "sha256": "3e7cc64589c3a2c637f92495d8d73800933d60a04a9a489998264af3ba51847c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_baseline_view": {
+      "file": "../independent_provider_native_20261112_03/precutoff_feature_view.json.gz",
+      "sha256": "e0f47c86ceef8f4ad4013b47dcd5bcd26713f78348a6b1c06357af30b338daa7"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_campaign_recovery_plan": {
+      "file": "../mempool_fifty_20261112/recovery_plan_20261113.json",
+      "sha256": "457ac7e9b66df337b7b31579b2aaa5ae5b11aebd24473ba2c76f193c89aa1e60"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_campaign_selection": {
+      "file": "../mempool_fifty_20261112/selection.json",
+      "sha256": "24bcde1a2cb9916e18c3f36ed1fb1f32044df8765d83dc9780041b801c130ae6"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_offline_reuse_manifest": {
+      "file": "../mempool_fifty_20261112_segment_20261113_01/offline_reuse_manifest.json",
+      "sha256": "45ba9e2ca2f65c7a14f7c7bc5f2d131e6a2e4bbb8034c905286728c46ac7cf62"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_checkpoint_json_gz": {
+      "file": "../independent_provider_native_20261112_03/checkpoint.json.gz",
+      "sha256": "ee20eeb7cbc73c119833d9fbc04748e5c0c87f7ffbb7e03ad06ad65448a757ce"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_coverage_audit_json": {
+      "file": "../independent_provider_native_20261112_03/coverage_audit.json",
+      "sha256": "4d39dc79eedbe81851d59d9af7fcc68ff8f81f2dd74089ee619d56ffcbe1bdcf"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_independent_verification_json": {
+      "file": "../independent_provider_native_20261112_03/independent_verification.json",
+      "sha256": "e7bddaf85bb957e299fa62a0a9d890436f130fe082aebbe7061384bcfab212cc"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_private_cache_backup_json": {
+      "file": "../independent_provider_native_20261112_03/private_cache_backup.json",
+      "sha256": "9ce8e0adcc66ac528046dea2ab188a54390f10e8d8dbc53a46fb94dbc2e77d7c"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_protocol_json": {
+      "file": "../independent_provider_native_20261112_03/protocol.json",
+      "sha256": "a2d0969d375ec0dfadc8068a852c86c46adfe05c231138295b9b8e4c5c5868a2"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_request_manifest_json_gz": {
+      "file": "../independent_provider_native_20261112_03/request_manifest.json.gz",
+      "sha256": "8e8722de9a23a31ac78928d73f027091040376f40d14118e447119a23027ddb7"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_resume_checkpoint_json": {
+      "file": "../independent_provider_native_20261112_03/resume_checkpoint.json",
+      "sha256": "82d272c1f3c08f569a91fa3746f2349d29517fb8df09b614e2b562a63a1d36b8"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_retained_deep_queue_json": {
+      "file": "../independent_provider_native_20261112_03/retained_deep_queue.json",
+      "sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_run_receipt_json": {
+      "file": "../independent_provider_native_20261112_03/run_receipt.json",
+      "sha256": "2daa04627dea96460d944519e26f321fb5885e34eb6dd036dd80b8ebf2ed76be"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_preparer": {
+      "file": "../prepare_fifty_recovery_segment.py",
+      "sha256": "3a379ec0af3e5253bef25f2dfaa867992c79a3322ad93aca00ba0fa28240fc41"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_baseline_view": {
+      "file": "../mempool_fifty_20261112_segment_20261113_01/precutoff_feature_view.json.gz",
+      "sha256": "0dbd7b756e4a297f78c557016ffb5c3b9b2bc9ef3ca411845a94e29a97de7a60"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_campaign_recovery_plan": {
+      "file": "../mempool_fifty_20261112/recovery_plan_20261113.json",
+      "sha256": "457ac7e9b66df337b7b31579b2aaa5ae5b11aebd24473ba2c76f193c89aa1e60"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_campaign_selection": {
+      "file": "../mempool_fifty_20261112/selection.json",
+      "sha256": "24bcde1a2cb9916e18c3f36ed1fb1f32044df8765d83dc9780041b801c130ae6"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_offline_reuse_manifest": {
+      "file": "../mempool_fifty_20261112_segment_20261113_02/offline_reuse_manifest.json",
+      "sha256": "45ba9e2ca2f65c7a14f7c7bc5f2d131e6a2e4bbb8034c905286728c46ac7cf62"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_checkpoint_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_01/checkpoint.json.gz",
+      "sha256": "3ee1c548a8d3bd65f99c5a7539f56aa98e659b0df59c0c3db7ec0200e0efacac"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_coverage_audit_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_01/coverage_audit.json",
+      "sha256": "a3a3ff441e90e5d4eaf5adc3cfe0f0629ebf918451d1f32746de9729a5aee09f"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_independent_verification_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_01/independent_verification.json",
+      "sha256": "42eda031c6c5022a3e1e6698714c3e2c2afcf6f269dcaf9fee41790381b2ecb0"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_private_cache_backup_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_01/private_cache_backup.json",
+      "sha256": "e540a1f89e67e162d8593eb3949795dfea25a007e889995e1fb59659aaa068dc"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_protocol_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_01/protocol.json",
+      "sha256": "9605ba8f9d1090ea7bedbbfaf12a1b8132a57668fc2ed7fc2c1700ab2a83b496"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_request_manifest_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_01/request_manifest.json.gz",
+      "sha256": "50f078a73ba7a528ddbdc2cea81ee534042f20ea713d3fb21d6ec7477f11f882"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_resume_checkpoint_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_01/resume_checkpoint.json",
+      "sha256": "58fd7de5d9761b15d7f0a579999fc241ac9042f6593e6e907eca415a78032554"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_retained_deep_queue_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_01/retained_deep_queue.json",
+      "sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_parent_run_receipt_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_01/run_receipt.json",
+      "sha256": "960829aef58264e1e3549f68970e36fee24123164326faba87ce41599c928de0"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_ancestor_preparer": {
+      "file": "../prepare_fifty_recovery_segment.py",
+      "sha256": "3a379ec0af3e5253bef25f2dfaa867992c79a3322ad93aca00ba0fa28240fc41"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_baseline_view": {
+      "file": "../mempool_fifty_20261112_segment_20261113_02/precutoff_feature_view.json.gz",
+      "sha256": "648fc54458ee85ea0780eef549ce10ec8d864290c45138e32fa028b2c2de3eb9"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_campaign_recovery_plan": {
+      "file": "../mempool_fifty_20261112/recovery_plan_20261113.json",
+      "sha256": "457ac7e9b66df337b7b31579b2aaa5ae5b11aebd24473ba2c76f193c89aa1e60"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_campaign_selection": {
+      "file": "../mempool_fifty_20261112/selection.json",
+      "sha256": "24bcde1a2cb9916e18c3f36ed1fb1f32044df8765d83dc9780041b801c130ae6"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_offline_reuse_manifest": {
+      "file": "../mempool_fifty_20261112_segment_20261113_03/offline_reuse_manifest.json",
+      "sha256": "45ba9e2ca2f65c7a14f7c7bc5f2d131e6a2e4bbb8034c905286728c46ac7cf62"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_parent_checkpoint_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_02/checkpoint.json.gz",
+      "sha256": "a581c28b9e730ff8e35b46331b40e4c37007deec086d2430d04875642122fbfc"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_parent_coverage_audit_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_02/coverage_audit.json",
+      "sha256": "9f500bea699cb3c61e99fe5bd453230f68b7515308b33fcb83b5ec6e9b49262d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_parent_independent_verification_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_02/independent_verification.json",
+      "sha256": "5fc51b669482d4ac5227326a17e345561f4be25eaf88198482b69c1aa57e8f6b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_parent_private_cache_backup_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_02/private_cache_backup.json",
+      "sha256": "00a4114036263394f659d02841d6183c6d36c5be8f24b44e57a6477494666894"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_parent_protocol_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_02/protocol.json",
+      "sha256": "b3eb748cdc8513e73b35569488902831d132b23c6071b23ff4acfbe25896ddfc"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_parent_request_manifest_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_02/request_manifest.json.gz",
+      "sha256": "eb954deba389353e0c02c26e70714a46e2e259b291c56723fe0fc3d4c9e66e55"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_parent_resume_checkpoint_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_02/resume_checkpoint.json",
+      "sha256": "8eb8fe6548bf24cf8fafee97adc7d22150ac1d298f8fe73117f03a289144cc11"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_parent_retained_deep_queue_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_02/retained_deep_queue.json",
+      "sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_parent_run_receipt_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_02/run_receipt.json",
+      "sha256": "007c66b23303ea32d417a2d54a1e9599e03cc35622c955b54d2da2be5735948b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_ancestor_preparer": {
+      "file": "../prepare_fifty_recovery_segment.py",
+      "sha256": "3a379ec0af3e5253bef25f2dfaa867992c79a3322ad93aca00ba0fa28240fc41"
+    },
+    "ancestor_ancestor_ancestor_ancestor_baseline_view": {
+      "file": "../mempool_fifty_20261112_segment_20261113_03/precutoff_feature_view.json.gz",
+      "sha256": "bd67d695504b4e067a08177579debd6dcb050439f3436924ba22ab3d7fc4e46d"
+    },
+    "ancestor_ancestor_ancestor_ancestor_campaign_recovery_plan": {
+      "file": "../mempool_fifty_20261112/recovery_plan_20261113.json",
+      "sha256": "457ac7e9b66df337b7b31579b2aaa5ae5b11aebd24473ba2c76f193c89aa1e60"
+    },
+    "ancestor_ancestor_ancestor_ancestor_campaign_selection": {
+      "file": "../mempool_fifty_20261112/selection.json",
+      "sha256": "24bcde1a2cb9916e18c3f36ed1fb1f32044df8765d83dc9780041b801c130ae6"
+    },
+    "ancestor_ancestor_ancestor_ancestor_offline_reuse_manifest": {
+      "file": "../mempool_fifty_20261112_segment_20261113_04/offline_reuse_manifest.json",
+      "sha256": "45ba9e2ca2f65c7a14f7c7bc5f2d131e6a2e4bbb8034c905286728c46ac7cf62"
+    },
+    "ancestor_ancestor_ancestor_ancestor_parent_checkpoint_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_03/checkpoint.json.gz",
+      "sha256": "562c0a953c06739e4bfc79719c2a7d21b3d7869f399eaf77547cf61fe3d81c83"
+    },
+    "ancestor_ancestor_ancestor_ancestor_parent_coverage_audit_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_03/coverage_audit.json",
+      "sha256": "84d3b0fd617a6ab3c839d0e929fd730eb712efee8ad850649e5502aa2a58e5d6"
+    },
+    "ancestor_ancestor_ancestor_ancestor_parent_independent_verification_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_03/independent_verification.json",
+      "sha256": "7fc1ce258e6ffe28de1b5a9eea2164829d156d716829a69665cb808a45f94177"
+    },
+    "ancestor_ancestor_ancestor_ancestor_parent_private_cache_backup_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_03/private_cache_backup.json",
+      "sha256": "f4129b69db66f77653b4f7b34aa5b2570df3aa731289e1c67043422953dc832b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_parent_protocol_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_03/protocol.json",
+      "sha256": "06ae081d6a97c1a7bfed3dec14fd610b7a6359e1213992670299a440250b1835"
+    },
+    "ancestor_ancestor_ancestor_ancestor_parent_request_manifest_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_03/request_manifest.json.gz",
+      "sha256": "931ac2741a2a4dc1a94428c09b51744df1664778fb9e4187b002ba4e1813f6c0"
+    },
+    "ancestor_ancestor_ancestor_ancestor_parent_resume_checkpoint_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_03/resume_checkpoint.json",
+      "sha256": "16213774e3997df4d16f2335077fd289fb13d37f779bec3427af6c3e9d85682b"
+    },
+    "ancestor_ancestor_ancestor_ancestor_parent_retained_deep_queue_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_03/retained_deep_queue.json",
+      "sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421"
+    },
+    "ancestor_ancestor_ancestor_ancestor_parent_run_receipt_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_03/run_receipt.json",
+      "sha256": "af4d0f326e4a72bd98556a6387fe06761d1c4624c8c43847adc49ba28c972c51"
+    },
+    "ancestor_ancestor_ancestor_ancestor_preparer": {
+      "file": "../prepare_fifty_recovery_segment.py",
+      "sha256": "3a379ec0af3e5253bef25f2dfaa867992c79a3322ad93aca00ba0fa28240fc41"
+    },
+    "ancestor_ancestor_ancestor_baseline_view": {
+      "file": "../mempool_fifty_20261112_segment_20261113_04/precutoff_feature_view.json.gz",
+      "sha256": "7a201ece28139cf7f2b5480e29beb4f81284bec74c908a64670012ac6eea3a8d"
+    },
+    "ancestor_ancestor_ancestor_campaign_recovery_plan": {
+      "file": "../mempool_fifty_20261112/recovery_plan_20261113.json",
+      "sha256": "457ac7e9b66df337b7b31579b2aaa5ae5b11aebd24473ba2c76f193c89aa1e60"
+    },
+    "ancestor_ancestor_ancestor_campaign_selection": {
+      "file": "../mempool_fifty_20261112/selection.json",
+      "sha256": "24bcde1a2cb9916e18c3f36ed1fb1f32044df8765d83dc9780041b801c130ae6"
+    },
+    "ancestor_ancestor_ancestor_offline_reuse_manifest": {
+      "file": "../mempool_fifty_20261112_segment_20261113_05/offline_reuse_manifest.json",
+      "sha256": "45ba9e2ca2f65c7a14f7c7bc5f2d131e6a2e4bbb8034c905286728c46ac7cf62"
+    },
+    "ancestor_ancestor_ancestor_parent_checkpoint_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_04/checkpoint.json.gz",
+      "sha256": "2b38161de57a0b815acdc71e75ffe2b3419bc59691477d2ebb0f47634c2b26e6"
+    },
+    "ancestor_ancestor_ancestor_parent_coverage_audit_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_04/coverage_audit.json",
+      "sha256": "84d16ab84fcd4c49eecc4dc70a9755e0264c49b93e14ce05309f97df4329b641"
+    },
+    "ancestor_ancestor_ancestor_parent_independent_verification_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_04/independent_verification.json",
+      "sha256": "cf581e6a1b4c120e907c02fb44df2a4e3197dee39d4fa9723aa2cb95452c3197"
+    },
+    "ancestor_ancestor_ancestor_parent_private_cache_backup_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_04/private_cache_backup.json",
+      "sha256": "a4a96db6e7aeab9d12e2a0bdc861e8b205b7f8df08fa46d6711dfe48bc83b8be"
+    },
+    "ancestor_ancestor_ancestor_parent_protocol_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_04/protocol.json",
+      "sha256": "616fef2c07a61394c7a17c9a893a4f48abd37706c0430a1943f68eab247fe5d9"
+    },
+    "ancestor_ancestor_ancestor_parent_request_manifest_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_04/request_manifest.json.gz",
+      "sha256": "9f9b9cc49f12364d0b2272f116e924b0a0646175fbe09c57d4ad138afb39d8c9"
+    },
+    "ancestor_ancestor_ancestor_parent_resume_checkpoint_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_04/resume_checkpoint.json",
+      "sha256": "164810abaff69ba5803b34f5a381d8cf785e44dba0262ac64ea8c04dab285ae2"
+    },
+    "ancestor_ancestor_ancestor_parent_retained_deep_queue_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_04/retained_deep_queue.json",
+      "sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421"
+    },
+    "ancestor_ancestor_ancestor_parent_run_receipt_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_04/run_receipt.json",
+      "sha256": "67c54ce2c54011d5540550329d2bd8a3d8fe789e8da423942428aa36b047d8f9"
+    },
+    "ancestor_ancestor_ancestor_preparer": {
+      "file": "../prepare_fifty_recovery_segment.py",
+      "sha256": "3a379ec0af3e5253bef25f2dfaa867992c79a3322ad93aca00ba0fa28240fc41"
+    },
+    "ancestor_ancestor_baseline_view": {
+      "file": "../mempool_fifty_20261112_segment_20261113_05/precutoff_feature_view.json.gz",
+      "sha256": "b3e73d00ffb4d3bcbf92e699f2efd4be2f6c7dd045580f631737ebafcd26feaa"
+    },
+    "ancestor_ancestor_campaign_recovery_plan": {
+      "file": "../mempool_fifty_20261112/recovery_plan_20261113.json",
+      "sha256": "457ac7e9b66df337b7b31579b2aaa5ae5b11aebd24473ba2c76f193c89aa1e60"
+    },
+    "ancestor_ancestor_campaign_selection": {
+      "file": "../mempool_fifty_20261112/selection.json",
+      "sha256": "24bcde1a2cb9916e18c3f36ed1fb1f32044df8765d83dc9780041b801c130ae6"
+    },
+    "ancestor_ancestor_offline_reuse_manifest": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/offline_reuse_manifest.json",
+      "sha256": "45ba9e2ca2f65c7a14f7c7bc5f2d131e6a2e4bbb8034c905286728c46ac7cf62"
+    },
+    "ancestor_ancestor_parent_checkpoint_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_05/checkpoint.json.gz",
+      "sha256": "4bf86fa2437d99267c3ad399dff97b3804a780b7a5522b4706d0cee446bd9bdc"
+    },
+    "ancestor_ancestor_parent_coverage_audit_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_05/coverage_audit.json",
+      "sha256": "bfce12cf1dc29c43c54fdd0485f333db4c2978b2f41e9ff42ee7ae1e0c662fde"
+    },
+    "ancestor_ancestor_parent_independent_verification_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_05/independent_verification.json",
+      "sha256": "5c680d0da82e5f8de69f466158b16b19644b9b40bc8dad9c348683b847b7eea3"
+    },
+    "ancestor_ancestor_parent_private_cache_backup_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_05/private_cache_backup.json",
+      "sha256": "f56f048b5b45aa655776a0c97c703e2fa809120ccb85795159d8984c9ba7ba38"
+    },
+    "ancestor_ancestor_parent_protocol_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_05/protocol.json",
+      "sha256": "6f852eec971c7c13eec06852801aea391893427c34d8728f6ea0affd257d2753"
+    },
+    "ancestor_ancestor_parent_request_manifest_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_05/request_manifest.json.gz",
+      "sha256": "195507429679eb6163d8f494d27d6e9571b18f3a4cbe065773c433bb1274b588"
+    },
+    "ancestor_ancestor_parent_resume_checkpoint_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_05/resume_checkpoint.json",
+      "sha256": "5fa7d84799b7869f0e8c67e831afa7fb8a0d640964d3e5f57944d1bc2850bf0e"
+    },
+    "ancestor_ancestor_parent_retained_deep_queue_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_05/retained_deep_queue.json",
+      "sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421"
+    },
+    "ancestor_ancestor_parent_run_receipt_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_05/run_receipt.json",
+      "sha256": "3dafc24219f261acb051ff121d9cb75e894258a8e8cf9bd26a4dc844f5e01a93"
+    },
+    "ancestor_ancestor_preparer": {
+      "file": "../prepare_fifty_recovery_segment.py",
+      "sha256": "3a379ec0af3e5253bef25f2dfaa867992c79a3322ad93aca00ba0fa28240fc41"
+    },
+    "ancestor_baseline_view": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/precutoff_feature_view.json.gz",
+      "sha256": "e19966f63870fdcfaa95f818c13f8983a411b5f0567bf268ef34cf9e2fb0950d"
+    },
+    "ancestor_campaign_recovery_plan": {
+      "file": "../mempool_fifty_20261112/recovery_plan_20261113.json",
+      "sha256": "457ac7e9b66df337b7b31579b2aaa5ae5b11aebd24473ba2c76f193c89aa1e60"
+    },
+    "ancestor_campaign_selection": {
+      "file": "../mempool_fifty_20261112/selection.json",
+      "sha256": "24bcde1a2cb9916e18c3f36ed1fb1f32044df8765d83dc9780041b801c130ae6"
+    },
+    "ancestor_interruption_receipt": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/interruption_receipt.json",
+      "sha256": "25a0a26b907bd5829ef33a9771d44ce3d50d97fcdf15277393f80a92d0adc368"
+    },
+    "ancestor_offline_reuse_manifest": {
+      "file": "../mempool_fifty_20261112_tail_interrupted_three_20261113/offline_reuse_manifest.json",
+      "sha256": "3dca6164a3ad8e04f5633a991ee2694cfd2cfc2111c1c7f647b1238bea7c0feb"
+    },
+    "ancestor_parent_checkpoint_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/checkpoint.json.gz",
+      "sha256": "a5f58a2b2dc0a48a92202194d0a8dff69a71f1a8276a97600e7ffdef21b2143f"
+    },
+    "ancestor_parent_coverage_audit_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/coverage_audit.json",
+      "sha256": "364cdfd1e6e7f39ad7743c2a6dc749b4d9d5d6f88d4eb781d2036213687ea8e5"
+    },
+    "ancestor_parent_independent_verification_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/independent_verification.json",
+      "sha256": "d27740b28cd82dcbd077fb649240c83b9d3527223b16a7fd871af94fea5f317a"
+    },
+    "ancestor_parent_private_cache_backup_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/private_cache_backup.json",
+      "sha256": "f90819bded35d0af7df8e65546e4aeaeabae64e88acbebcb2173836673292bd7"
+    },
+    "ancestor_parent_protocol_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/protocol.json",
+      "sha256": "a134245d4ce80f860554e67086579b57c2787b4857512f50ad5b7ed84e9d5a06"
+    },
+    "ancestor_parent_request_manifest_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/request_manifest.json.gz",
+      "sha256": "d37dbc828159caffe1d8a30caba361195ebf193cdf21229dd4e921242cd325fd"
+    },
+    "ancestor_parent_resume_checkpoint_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/resume_checkpoint.json",
+      "sha256": "6b5710784b34d833ca6329a456f8c1a704fcbb3c93a09997f688689ccda66ee2"
+    },
+    "ancestor_parent_retained_deep_queue_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/retained_deep_queue.json",
+      "sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421"
+    },
+    "ancestor_parent_run_receipt_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/run_receipt.json",
+      "sha256": "7ab4aea78a899f147cbe459c4606ba1da58377843c13641ee986ecf59c2d94d5"
+    },
+    "ancestor_preparer": {
+      "file": "../prepare_fifty_interrupted_successor.py",
+      "sha256": "49e251a8d7df21f79f0cc3b8fc5e0c2563f2719a236ebdd2ad475ea0975013ea"
+    },
+    "ancestor_seed_comparison_0853_checkpoint_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/checkpoint.json.gz",
+      "sha256": "a5f58a2b2dc0a48a92202194d0a8dff69a71f1a8276a97600e7ffdef21b2143f"
+    },
+    "ancestor_seed_comparison_0853_independent_verification_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/independent_verification.json",
+      "sha256": "d27740b28cd82dcbd077fb649240c83b9d3527223b16a7fd871af94fea5f317a"
+    },
+    "ancestor_seed_comparison_0853_private_cache_backup_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/private_cache_backup.json",
+      "sha256": "f90819bded35d0af7df8e65546e4aeaeabae64e88acbebcb2173836673292bd7"
+    },
+    "ancestor_seed_comparison_0853_protocol_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/protocol.json",
+      "sha256": "a134245d4ce80f860554e67086579b57c2787b4857512f50ad5b7ed84e9d5a06"
+    },
+    "ancestor_seed_comparison_0853_request_manifest_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_06/request_manifest.json.gz",
+      "sha256": "d37dbc828159caffe1d8a30caba361195ebf193cdf21229dd4e921242cd325fd"
+    },
+    "baseline_view": {
+      "file": "../mempool_fifty_20261112_tail_interrupted_three_20261113/precutoff_feature_view.json.gz",
+      "sha256": "f93ba4fded0eb416331ba45e2da4d77faab9a214c3a7afaab7374b9a1c6a30f4"
+    },
+    "campaign_recovery_plan": {
+      "file": "../mempool_fifty_20261112/recovery_plan_20261113.json",
+      "sha256": "457ac7e9b66df337b7b31579b2aaa5ae5b11aebd24473ba2c76f193c89aa1e60"
+    },
+    "campaign_selection": {
+      "file": "../mempool_fifty_20261112/selection.json",
+      "sha256": "24bcde1a2cb9916e18c3f36ed1fb1f32044df8765d83dc9780041b801c130ae6"
+    },
+    "offline_reuse_manifest": {
+      "file": "offline_reuse_manifest.json",
+      "sha256": "45ba9e2ca2f65c7a14f7c7bc5f2d131e6a2e4bbb8034c905286728c46ac7cf62"
+    },
+    "parent_checkpoint_json_gz": {
+      "file": "../mempool_fifty_20261112_tail_interrupted_three_20261113/checkpoint.json.gz",
+      "sha256": "68d501c30427cc40d8bc193e34542d74993516fd8dd133518d76bad4f9cbfa81"
+    },
+    "parent_coverage_audit_json": {
+      "file": "../mempool_fifty_20261112_tail_interrupted_three_20261113/coverage_audit.json",
+      "sha256": "27ae408c9582e28a588a7098e8e809cc76d244f5302913dd24033f987e1d3300"
+    },
+    "parent_independent_verification_json": {
+      "file": "../mempool_fifty_20261112_tail_interrupted_three_20261113/independent_verification.json",
+      "sha256": "69764ff3326af0a7ce9cc1c4481eff0599a69bcc126102d291c8be39975b1d89"
+    },
+    "parent_private_cache_backup_json": {
+      "file": "../mempool_fifty_20261112_tail_interrupted_three_20261113/private_cache_backup.json",
+      "sha256": "2fc9c026c96042a3ac5c277a01390281e2c043d0fad56a2adf22fd9f64fd0289"
+    },
+    "parent_protocol_json": {
+      "file": "../mempool_fifty_20261112_tail_interrupted_three_20261113/protocol.json",
+      "sha256": "ac2ccdc91c0f0466a4d97da3e7eb4f47620a3698ea7a5cc29e2cf8c3254ea78a"
+    },
+    "parent_request_manifest_json_gz": {
+      "file": "../mempool_fifty_20261112_tail_interrupted_three_20261113/request_manifest.json.gz",
+      "sha256": "e0e8999739b15ffa49aafbbf5190eeaabb7819ed239709a757f7a3873d6eb61e"
+    },
+    "parent_resume_checkpoint_json": {
+      "file": "../mempool_fifty_20261112_tail_interrupted_three_20261113/resume_checkpoint.json",
+      "sha256": "e321276f9aece034cb76f6e498e835173b72247ebda4bf0a2b909df05a6f5256"
+    },
+    "parent_retained_deep_queue_json": {
+      "file": "../mempool_fifty_20261112_tail_interrupted_three_20261113/retained_deep_queue.json",
+      "sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421"
+    },
+    "parent_run_receipt_json": {
+      "file": "../mempool_fifty_20261112_tail_interrupted_three_20261113/run_receipt.json",
+      "sha256": "f114907de517359856264d0f2ae9d28d1b470a15bb9ddce86f352014dd43611c"
+    },
+    "preparer": {
+      "file": "../prepare_fifty_recovery_segment.py",
+      "sha256": "3a379ec0af3e5253bef25f2dfaa867992c79a3322ad93aca00ba0fa28240fc41"
+    }
+  },
+  "live_policy_file": "../comparison_access_retries_20261030/retry_policy.json",
+  "max_pages_per_address": 32,
+  "maximum_requests": 175,
+  "minimum_dispatch_interval_seconds": 5,
+  "model_fits": 0,
+  "new_scores": 0,
+  "offline_native_pages_reused": 0,
+  "offline_successful_responses_reused": 0,
+  "pass_name": "mempool_fifty_20261112_segment_20261113_07",
+  "predictors": "Original fourteen predictors strictly before the reference block",
+  "private_identity_registry_sha256": "8b5994e2b41f11e15c6e85b755a0d401cf75997e9f46ebebb51e46d6392e5249",
+  "private_lock_manifest_sha256": "bc4640478e8532587ffb6af26fc2c17585055b88a330094be6d2fe8e2d12c73f",
+  "private_parent_native_cursors_sha256": "624c998f10209bb668a456e942b936fbdcce155328e2f11902984e38df76010b",
+  "private_plan_sha256": "80b6ee98dd52b15f6d40abf67827cf4556e84d4da7d7c78132e189d68c2bf8c9",
+  "private_retained_bridge_native_cursors_sha256": "91046d312cb01eb28000d3a9ff470aa3be6fcb2f720448ee6c21cd2b21a1022f",
+  "provider": "https://mempool.space/api",
+  "request_budget": {
+    "after_anchor_statuses_at_most": 5,
+    "full_references_at_most": 5,
+    "funding_statuses_at_most": 5,
+    "tail_pages_at_most": 160,
+    "total_new_requests_at_most": 175
+  },
+  "requests_per_second": 0.2,
+  "schema_version": 4,
+  "source_ids": [
+    "comparison_0868",
+    "comparison_0877",
+    "comparison_0880",
+    "comparison_0892",
+    "comparison_0907"
+  ],
+  "stop_policy": "First failure/refusal/inconsistency; no in-scope retry, consumed-scope restart or provider/account/IP/proxy/TLS change. Audit/save before expansion.",
+  "target": "Operational incident membership, not proven theft/device use",
+  "timeout_seconds": 45,
+  "transport": "Same Mempool provider, inherited proxy, verified TLS, no redirects; declared 45-second timeout",
+  "unit": "Frozen source/reference pair",
+  "workers": 1
+}

@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "mempool_fifty_20261112_tail_interrupted_three_20261113",
+  "active_collection_scope": "mempool_fifty_20261112_segment_20261113_07",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -50,18 +50,18 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-11-13T21:57:30.950916+00:00",
-    "owner": "mempool_fifty_20261112_tail_interrupted_three_20261113",
+    "expires_at": "2026-11-13T22:02:55.852303+00:00",
+    "owner": "mempool_fifty_20261112_segment_20261113_07",
     "policy": "A live lease or historical/local lock prohibits concurrent collection.",
-    "protocol": "mempool_fifty_20261112_tail_interrupted_three_20261113/protocol.json",
-    "protocol_sha256": "ac2ccdc91c0f0466a4d97da3e7eb4f47620a3698ea7a5cc29e2cf8c3254ea78a",
+    "protocol": "mempool_fifty_20261112_segment_20261113_07/protocol.json",
+    "protocol_sha256": "abd1cc70e7411771a159b17990e057379466157adc791462281b5568bb5b934b",
     "provider": "https://mempool.space/api",
     "purpose": "Next durable checkpoint of the same frozen fifty-source campaign.",
-    "started_at": "2026-11-13T19:57:30.950916+00:00",
+    "started_at": "2026-11-13T20:02:55.852303+00:00",
     "state": "running"
   },
-  "comparison_pre_cutoff_predictors_available": 924,
-  "comparison_pre_cutoff_predictors_unavailable": 76,
+  "comparison_pre_cutoff_predictors_available": 925,
+  "comparison_pre_cutoff_predictors_unavailable": 75,
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
   "coverage_collection_paused": false,
@@ -129,7 +129,7 @@
   "last_rate_limit_at": "2026-11-12T18:22:13.994033+00:00",
   "last_retry_delay_seconds": 86400,
   "last_successful_bounded_collection_at": "2026-11-12T18:04:44.428580+00:00",
-  "latest_consolidated_prefix_view": "mempool_fifty_20261112_segment_20261113_06/precutoff_feature_view.json.gz",
+  "latest_consolidated_prefix_view": "mempool_fifty_20261112_tail_interrupted_three_20261113/precutoff_feature_view.json.gz",
   "latest_coverage_output": "source_prefix_extension_20261112_03",
   "latest_coverage_protocol": "source_prefix_extension_20261112_03/protocol.json",
   "latest_coverage_result_file": "source_prefix_extension_20261112_03/coverage_audit.json",
@@ -194,15 +194,15 @@
     "scope": "independent_provider_native_20261112_03"
   },
   "latest_output": "source_prefix_extension_20261112_03",
-  "latest_pass_pending_sources": 23,
-  "latest_prefix_coverage_audit": "mempool_fifty_20261112_segment_20261113_06/coverage_audit.json",
-  "latest_prefix_output": "mempool_fifty_20261112_segment_20261113_06",
-  "latest_prefix_protocol": "mempool_fifty_20261112_segment_20261113_06/protocol.json",
-  "latest_prefix_result_file": "mempool_fifty_20261112_segment_20261113_06/coverage_audit.json",
-  "latest_prefix_resume_checkpoint": "mempool_fifty_20261112_segment_20261113_06/resume_checkpoint.json",
-  "latest_prefix_resume_file": "mempool_fifty_20261112_segment_20261113_06/resume_checkpoint.json",
-  "latest_prefix_stop_file": "mempool_fifty_20261112_segment_20261113_06/collection_stop.json",
-  "latest_prefix_work": "source_cohort_work_mempool_fifty_20261112_segment_20261113_06",
+  "latest_pass_pending_sources": 20,
+  "latest_prefix_coverage_audit": "mempool_fifty_20261112_tail_interrupted_three_20261113/coverage_audit.json",
+  "latest_prefix_output": "mempool_fifty_20261112_tail_interrupted_three_20261113",
+  "latest_prefix_protocol": "mempool_fifty_20261112_tail_interrupted_three_20261113/protocol.json",
+  "latest_prefix_result_file": "mempool_fifty_20261112_tail_interrupted_three_20261113/coverage_audit.json",
+  "latest_prefix_resume_checkpoint": "mempool_fifty_20261112_tail_interrupted_three_20261113/resume_checkpoint.json",
+  "latest_prefix_resume_file": "mempool_fifty_20261112_tail_interrupted_three_20261113/resume_checkpoint.json",
+  "latest_prefix_stop_file": "mempool_fifty_20261112_tail_interrupted_three_20261113/collection_stop.json",
+  "latest_prefix_work": "source_cohort_work_mempool_fifty_20261112_tail_interrupted_three_20261113",
   "latest_prepared_coverage_successor": {
     "automation_enabled": false,
     "finalization_entrypoint": "finalize_frontier_checkpoint.py",
@@ -258,7 +258,7 @@
     "successful_network_responses": 37
   },
   "maximum_429_backoff_seconds": 86400,
-  "next_coverage_action": "Execution is interrupted and safely closed; do not automatically restart. Preserve the unfinished native pages and actual cursor in a distinct successor, with fresh anchors and exact published lease/readback. Continue only the pending frozen campaign IDs in a distinct saved/published checkpoint. Preserve actual native cursors, all old vectors, unknown labels, cutoffs, full-current statuses and deep histories. Keep one worker, five-second spacing, verified TLS/inherited proxy, the provider-specific gate and exact published lease/readback under fresh locks. No consumed-scope restart, provider/account/IP/proxy rotation, paid service, model fit/score or automatic schedule. Recheck overlap before model work.",
+  "next_coverage_action": "Continue only the pending frozen campaign IDs in a distinct saved/published checkpoint. Preserve actual native cursors, all old vectors, unknown labels, cutoffs, full-current statuses and deep histories. Keep one worker, five-second spacing, verified TLS/inherited proxy, the provider-specific gate and exact published lease/readback under fresh locks. No consumed-scope restart, provider/account/IP/proxy rotation, paid service, model fit/score or automatic schedule. Recheck overlap before model work.",
   "next_network_attempt_not_before": "2026-11-13T18:22:14+00:00",
   "next_run_time_provided_by_service": false,
   "normal_run_bounds": {
@@ -283,8 +283,8 @@
     "remaining_information_gaps": 150,
     "summary": "source_prefix_extension_20261110_02/original_twenty_reconciliation.json"
   },
-  "prefix_bounded_incomplete_sources": 76,
-  "prefix_network_pending_sources": 23,
+  "prefix_bounded_incomplete_sources": 75,
+  "prefix_network_pending_sources": 20,
   "previous_automation_paused": true,
   "progressive_128_to_320_coverage_20261110": {
     "additional_source_transaction_observations": 18151,
@@ -322,14 +322,16 @@
     },
     "https://mempool.space/api": {
       "automatic_provider_rotation": false,
-      "maximum_requests": 73,
+      "maximum_requests": 175,
       "minimum_dispatch_interval_seconds": 5,
       "next_network_attempt_not_before": null,
-      "scope": "mempool_fifty_20261112_tail_interrupted_three_20261113",
+      "scope": "mempool_fifty_20261112_segment_20261113_07",
       "source_ids": [
-        "comparison_0853",
-        "comparison_0859",
-        "comparison_0860"
+        "comparison_0868",
+        "comparison_0877",
+        "comparison_0880",
+        "comparison_0892",
+        "comparison_0907"
       ],
       "status": "fifty_recovery_running",
       "timeout_seconds": 45
