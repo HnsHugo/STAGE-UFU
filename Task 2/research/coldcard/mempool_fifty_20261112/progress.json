@@ -1,5 +1,5 @@
 {
-  "active_scope": "mempool_fifty_20261112_segment_20261113_08",
+  "active_scope": "mempool_fifty_20261112_tail_fresh_two_20261113",
   "automation_enabled": false,
   "available_coldcard_vectors": 1426,
   "bounded_source_ids": [
@@ -24,7 +24,12 @@
     "comparison_0868",
     "comparison_0877",
     "comparison_0892",
-    "comparison_0907"
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0970",
+    "comparison_0973",
+    "comparison_0982"
   ],
   "completed_units": [
     {
@@ -233,6 +238,30 @@
         "comparison_0892",
         "comparison_0907"
       ]
+    },
+    {
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0912",
+        "comparison_0966",
+        "comparison_0970",
+        "comparison_0973",
+        "comparison_0982"
+      ],
+      "http200": 170,
+      "new_complete_source_ids": [],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "63668f767f4bfa30c811357034d8d171a49760f9f38c9a5f6276ee1d5b17fcb5",
+      "requests": 170,
+      "scope": "mempool_fifty_20261112_segment_20261113_08",
+      "segment": 8,
+      "selected_source_ids": [
+        "comparison_0912",
+        "comparison_0966",
+        "comparison_0970",
+        "comparison_0973",
+        "comparison_0982"
+      ]
     }
   ],
   "finalized_source_ids": [
@@ -270,9 +299,14 @@
     "comparison_0877",
     "comparison_0880",
     "comparison_0892",
-    "comparison_0907"
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0970",
+    "comparison_0973",
+    "comparison_0982"
   ],
-  "latest_verified_scope": "mempool_fifty_20261112_segment_20261113_07",
+  "latest_verified_scope": "mempool_fifty_20261112_segment_20261113_08",
   "new_complete_source_ids": [
     "comparison_0533",
     "comparison_0558",
@@ -533,15 +567,45 @@
       "saved_evidence_pages": 32,
       "scope": "mempool_fifty_20261112_segment_20261113_07",
       "status": "bounded_incomplete"
+    },
+    "comparison_0912": {
+      "last_native_cursor_sha256": "ee4875346c1086e9d0ec290303e6ac4b5a8d474ccc455a20ad9770fddce4bfa5",
+      "raw_sha256": "6592e7ad015935aedfe01f620f22da255d3520153ed3a5b154b9f195a99014c5",
+      "saved_evidence_pages": 32,
+      "scope": "mempool_fifty_20261112_segment_20261113_08",
+      "status": "bounded_incomplete"
+    },
+    "comparison_0966": {
+      "last_native_cursor_sha256": "2fbb8a755b5d38688d6775b0a41bd27cce6a480ec029e13a5837dad456226cac",
+      "raw_sha256": "2907089cf637a004ed8c583854b0f139ffa5e526769161ea89060afaec80253e",
+      "saved_evidence_pages": 32,
+      "scope": "mempool_fifty_20261112_segment_20261113_08",
+      "status": "bounded_incomplete"
+    },
+    "comparison_0970": {
+      "last_native_cursor_sha256": "ae84fe73418db4ed5975486d690ff36531d7e62e11e8f740ee083acd5b1c364b",
+      "raw_sha256": "ab7e60ccd54efe5dfc37df7e9c9229c750f660144d07300dcfdd783520135289",
+      "saved_evidence_pages": 32,
+      "scope": "mempool_fifty_20261112_segment_20261113_08",
+      "status": "bounded_incomplete"
+    },
+    "comparison_0973": {
+      "last_native_cursor_sha256": "51b232ad707b1ab9cbb1792247b52cdcc4e698612f506876c7db7e86d18d9f5b",
+      "raw_sha256": "47ce7aa60f8554df03f7d1584c65645123c04aa189d4d11d3be9e68bddcefbc8",
+      "saved_evidence_pages": 32,
+      "scope": "mempool_fifty_20261112_segment_20261113_08",
+      "status": "bounded_incomplete"
+    },
+    "comparison_0982": {
+      "last_native_cursor_sha256": "182b3a972f4de1a0cb352fdf4cd49a96d06f668fb830cd5e6e085002026c242d",
+      "raw_sha256": "36f36a57f50e13125090d58deb55d321a4ff1922f65ae7d2b116c14e729403ed",
+      "saved_evidence_pages": 32,
+      "scope": "mempool_fifty_20261112_segment_20261113_08",
+      "status": "bounded_incomplete"
     }
   },
   "pending_native_evidence_saved": [],
   "pending_source_ids": [
-    "comparison_0912",
-    "comparison_0966",
-    "comparison_0970",
-    "comparison_0973",
-    "comparison_0982",
     "comparison_0995",
     "comparison_1000",
     "comparison_0351",
