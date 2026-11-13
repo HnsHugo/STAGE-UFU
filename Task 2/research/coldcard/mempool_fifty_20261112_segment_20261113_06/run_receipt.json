@@ -1,0 +1,22 @@
+{
+  "automatic_retry_performed": false,
+  "blockstream_provider_requests": 0,
+  "error": {
+    "error_type": "ProcessTermination",
+    "reason": "Execution was interrupted; offline sealing only, no restart or new request."
+  },
+  "failures": 0,
+  "finalized_sources": 2,
+  "http200": 100,
+  "model_fits": 0,
+  "new_scores": 0,
+  "operational_locks_released": true,
+  "provider": "https://mempool.space/api",
+  "provider_requests": 101,
+  "proxy_account_ip_or_tls_changed": false,
+  "receipt_reconstructed_offline": true,
+  "reused_successful_responses": 0,
+  "schema_version": 1,
+  "status": "stopped",
+  "unknown_response_outcomes": 1
+}

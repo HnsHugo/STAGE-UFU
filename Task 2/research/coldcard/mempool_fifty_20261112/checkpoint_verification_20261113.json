@@ -1,0 +1,90 @@
+{
+  "archives": [
+    {
+      "bytes": 175495564,
+      "file_name": "fifty-recovery-private-20261113-01.tar.gz",
+      "metadata_applied": true,
+      "private_files_verified": 278,
+      "saved_privately": true,
+      "scope": "mempool_fifty_20261112_segment_20261113_01",
+      "sha256": "1ddba3ada6486cb62c020905328ab358efc938b4b6d7b3e375441b10cc0be438"
+    },
+    {
+      "bytes": 132068574,
+      "file_name": "fifty-recovery-private-20261113-02.tar.gz",
+      "metadata_applied": true,
+      "private_files_verified": 300,
+      "saved_privately": true,
+      "scope": "mempool_fifty_20261112_segment_20261113_02",
+      "sha256": "d2953de0cbc08ea46297a40bc288f12c2081c90881b05679eda00e0bde216b35"
+    },
+    {
+      "bytes": 197930979,
+      "file_name": "fifty-recovery-private-20261113-03.tar.gz",
+      "metadata_applied": true,
+      "private_files_verified": 330,
+      "saved_privately": true,
+      "scope": "mempool_fifty_20261112_segment_20261113_03",
+      "sha256": "bc983d997181516119eda5b4e020be21a4860be9b97678bb3a20a00044805e21"
+    },
+    {
+      "bytes": 18936911,
+      "file_name": "fifty-recovery-private-20261113-04.tar.gz",
+      "metadata_applied": true,
+      "private_files_verified": 322,
+      "saved_privately": true,
+      "scope": "mempool_fifty_20261112_segment_20261113_04",
+      "sha256": "697eace34bd52e92bc5c947330eb44227e12a62d8545db7848b07fd832ba079a"
+    },
+    {
+      "bytes": 38323715,
+      "file_name": "fifty-recovery-private-20261113-05.tar.gz",
+      "metadata_applied": true,
+      "private_files_verified": 358,
+      "saved_privately": true,
+      "scope": "mempool_fifty_20261112_segment_20261113_05",
+      "sha256": "c2366674b1bc499faeae39417b6527ba6171b8aa9790d0d0723cb09ea379df62"
+    },
+    {
+      "bytes": 37006166,
+      "file_name": "fifty-recovery-private-20261113-06.tar.gz",
+      "metadata_applied": true,
+      "private_files_verified": 213,
+      "saved_privately": true,
+      "scope": "mempool_fifty_20261112_segment_20261113_06",
+      "sha256": "15b8ae462986a44548e7e9c16ed912f013a902744e456a452d76bf96afc9f6f1"
+    }
+  ],
+  "automation_enabled": false,
+  "bounded_prefixes": 16,
+  "campaign_pending": 23,
+  "coldcard_vectors": 1424,
+  "collector_lease_idle": true,
+  "cryptobilis_vectors_unchanged": 329,
+  "finalized_unique_sources": 27,
+  "focused_tests_previously_passed": 29,
+  "fresh_failures": 0,
+  "fresh_http200": 849,
+  "fresh_requests": 850,
+  "full_current_status_counts": {
+    "complete": 1364,
+    "incomplete": 136
+  },
+  "historical_and_local_locks_free": 37,
+  "immutable_input_files_verified": 453,
+  "initial_vectors_preserved": 1413,
+  "limitation": "Bounded prefixes remain null. Completion covers the indexed pre-reference history, not proof of theft, hardware-wallet use, or cryptographic completeness. Recheck overlap before future model work.",
+  "model_fits": 0,
+  "new_complete_prefixes": 11,
+  "new_scores": 0,
+  "original_fourteen_predictors_unchanged": true,
+  "other_missing_coldcard_rows_preserved": 37,
+  "private_evidence_files_verified": 1801,
+  "protected_labels_identities_cutoffs_and_full_current_statuses_unchanged": true,
+  "schema_version": 1,
+  "selected_unique_sources": 50,
+  "status": "passed",
+  "unchanged_blockstream_gate": "2026-11-13T18:22:14+00:00",
+  "unknown_response_outcomes": 1,
+  "verified_saved_checkpoints": 6
+}

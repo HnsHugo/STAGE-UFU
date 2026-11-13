@@ -1,5 +1,44 @@
 # Task 2 alignment — 27 October 2026
 
+**Execution interrupted and safely saved — 13 November 2026**
+
+The frozen fifty-source campaign has 27 finalized addresses: 11 newly complete
+prefixes and 16 bounded histories; 23 remain pending. Coldcard has 1,424/1,500
+vectors. The sixth checkpoint is independently audited and privately saved,
+including all 32 native pages and the actual cursor for unfinished comparison_0853.
+One dispatched request has an unknown response outcome; it is not counted as an
+HTTP failure or a complete address. Preserve its unchanged original intent.
+
+No active collector, live lease or automatic restart. Do not restart the consumed
+sixth scope. A distinct successor must preserve the saved pending evidence,
+require fresh anchors and funding closure, and retain all old rows, labels,
+cutoffs and deep/native queues. The remaining frozen IDs are in the current
+resume checkpoint. No model fit or score has occurred.
+
+**Verified saved fifty-source checkpoint — 13 November 2026**
+
+[The latest recovery checkpoint](research/coldcard/mempool_fifty_20261112_segment_20261113_06/RESULTS.md)
+finalized 2/5 selected sources: 1 newly complete prefixes,
+1 bounded histories and 3 unfinished sources. It made
+101 requests (100 HTTP200; 0 failed records).
+Both audits pass; all 1423 preceding vectors and protected identities,
+unknown labels, cutoffs, full-current statuses and models/scores are unchanged.
+All 213 private evidence files are verified and saved. Coldcard now has
+1424/1,500 vectors; CryptoBilis stays 329/366.
+
+The frozen campaign has 27/50 finalized: 11
+complete prefixes and 16 bounded histories; 23 pending.
+Lost unarchived candidates were not promoted. Continue only the remaining frozen
+IDs in distinct five-source checkpoints, with audit/private save/publication
+before each successor. Keep the forty-five-second timeout, one worker,
+five-second spacing, live provider gate, fresh locks and exact published lease/
+readback. Never restart a consumed scope or rotate provider/account/IP/proxy/TLS.
+No paid service, fit, score or automatic schedule. Retain every actual native
+cursor, missing row and deep history. Recheck overlap before model work.
+
+The scope is closed, lease idle and locks free. This current checkpoint supersedes
+older execution guidance while retaining the original fifty-ID selection.
+
 **Prepared active fifty-source checkpoint — 13 November 2026**
 
 Current scope: mempool_fifty_20261112_segment_20261113_06; 5 frozen sources. The preceding

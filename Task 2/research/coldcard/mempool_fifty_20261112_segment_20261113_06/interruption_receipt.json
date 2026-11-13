@@ -1,0 +1,41 @@
+{
+  "already_finalized_sources": [
+    "comparison_0843",
+    "comparison_0851"
+  ],
+  "historical_and_local_locks_free": 37,
+  "independently_audited": true,
+  "limitation": "An unacknowledged request has unknown server outcome. No response, HTTP failure, or provider ban is inferred. Pending pages are saved without promoting a vector.",
+  "observed_at": "2026-11-13T19:02:49.368206+00:00",
+  "offline_sealing_provider_requests": 0,
+  "original_request_records": 101,
+  "original_response_markers_unchanged": true,
+  "pending_native_evidence": [
+    {
+      "evidence_scope": "mempool_fifty_20261112_segment_20261113_06",
+      "finalized": false,
+      "last_native_cursor_sha256": "41b8f34b16a50b6fc39992809a2b4f5e60161e115903fe7aa4b9b248e187cea9",
+      "native_pages": 32,
+      "no_vector_promoted": true,
+      "provider": "https://mempool.space/api",
+      "requires_distinct_pinned_successor": true,
+      "requires_fresh_before_after_anchor_and_funding_closure": true,
+      "saved_evidence_pages": 32,
+      "seed_kind": "native_pending_unfinalized",
+      "source_id": "comparison_0853"
+    }
+  ],
+  "restart_same_scope_allowed": false,
+  "saved_http200": 100,
+  "schema_version": 1,
+  "scope": "mempool_fifty_20261112_segment_20261113_06",
+  "unacknowledged_requests": [
+    {
+      "key": "reference_after",
+      "original_marker_sha256": "d0836d74c6cdc0b067cc2e26c25f0ce49f921ac48da7e9d60f31009c99b25dd4",
+      "outcome": "unknown_after_process_termination",
+      "source_id": "comparison_0853"
+    }
+  ],
+  "unknown_outcomes_not_classified_as_http_failures": true
+}

@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "mempool_fifty_20261112_segment_20261113_06",
+  "active_collection_scope": "none",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -50,24 +50,28 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-11-13T20:50:59.105724+00:00",
-    "owner": "mempool_fifty_20261112_segment_20261113_06",
+    "expires_at": null,
+    "finished_at": "2026-11-13T19:03:05.660105+00:00",
+    "last_owner": "mempool_fifty_20261112_segment_20261113_06",
+    "operational_locks_released": true,
+    "owner": null,
     "policy": "A live lease or historical/local lock prohibits concurrent collection.",
     "protocol": "mempool_fifty_20261112_segment_20261113_06/protocol.json",
     "protocol_sha256": "a134245d4ce80f860554e67086579b57c2787b4857512f50ad5b7ed84e9d5a06",
     "provider": "https://mempool.space/api",
     "purpose": "Next durable checkpoint of the same frozen fifty-source campaign.",
     "started_at": "2026-11-13T18:50:59.105724+00:00",
-    "state": "running"
+    "state": "idle",
+    "stop_status": "verified_checkpoint_closed"
   },
-  "comparison_pre_cutoff_predictors_available": 923,
-  "comparison_pre_cutoff_predictors_unavailable": 77,
+  "comparison_pre_cutoff_predictors_available": 924,
+  "comparison_pre_cutoff_predictors_unavailable": 76,
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
-  "coverage_collection_paused": false,
+  "coverage_collection_paused": true,
   "coverage_complete_sources_added": 25,
   "coverage_interrupted_consumed_requests": 2,
-  "coverage_pause_reason": "A fresh recovery checkpoint holds locks and awaits exact published lease/readback.",
+  "coverage_pause_reason": "Execution interrupted; all observed evidence audited and preserved. No active collector or automatic restart.",
   "environment_block_diagnosis_superseded_by": "One normal original-route counter GET returned HTTP200 on 2026-11-02. The environment flags alone did not establish a provider access block.",
   "external_automation_disable_reason": "Fixed CryptoBilis prior-prefix continuation closed: 366 final outcomes, 329 vectors, 37 bounded-incomplete; zero network/unattempted sources. No repeated collection.",
   "external_entity_independence_established": false,
@@ -129,7 +133,7 @@
   "last_rate_limit_at": "2026-11-12T18:22:13.994033+00:00",
   "last_retry_delay_seconds": 86400,
   "last_successful_bounded_collection_at": "2026-11-12T18:04:44.428580+00:00",
-  "latest_consolidated_prefix_view": "mempool_fifty_20261112_segment_20261113_05/precutoff_feature_view.json.gz",
+  "latest_consolidated_prefix_view": "mempool_fifty_20261112_segment_20261113_06/precutoff_feature_view.json.gz",
   "latest_coverage_output": "source_prefix_extension_20261112_03",
   "latest_coverage_protocol": "source_prefix_extension_20261112_03/protocol.json",
   "latest_coverage_result_file": "source_prefix_extension_20261112_03/coverage_audit.json",
@@ -194,15 +198,15 @@
     "scope": "independent_provider_native_20261112_03"
   },
   "latest_output": "source_prefix_extension_20261112_03",
-  "latest_pass_pending_sources": 25,
-  "latest_prefix_coverage_audit": "mempool_fifty_20261112_segment_20261113_05/coverage_audit.json",
-  "latest_prefix_output": "mempool_fifty_20261112_segment_20261113_05",
-  "latest_prefix_protocol": "mempool_fifty_20261112_segment_20261113_05/protocol.json",
-  "latest_prefix_result_file": "mempool_fifty_20261112_segment_20261113_05/coverage_audit.json",
-  "latest_prefix_resume_checkpoint": "mempool_fifty_20261112_segment_20261113_05/resume_checkpoint.json",
-  "latest_prefix_resume_file": "mempool_fifty_20261112_segment_20261113_05/resume_checkpoint.json",
-  "latest_prefix_stop_file": "mempool_fifty_20261112_segment_20261113_05/collection_stop.json",
-  "latest_prefix_work": "source_cohort_work_mempool_fifty_20261112_segment_20261113_05",
+  "latest_pass_pending_sources": 23,
+  "latest_prefix_coverage_audit": "mempool_fifty_20261112_segment_20261113_06/coverage_audit.json",
+  "latest_prefix_output": "mempool_fifty_20261112_segment_20261113_06",
+  "latest_prefix_protocol": "mempool_fifty_20261112_segment_20261113_06/protocol.json",
+  "latest_prefix_result_file": "mempool_fifty_20261112_segment_20261113_06/coverage_audit.json",
+  "latest_prefix_resume_checkpoint": "mempool_fifty_20261112_segment_20261113_06/resume_checkpoint.json",
+  "latest_prefix_resume_file": "mempool_fifty_20261112_segment_20261113_06/resume_checkpoint.json",
+  "latest_prefix_stop_file": "mempool_fifty_20261112_segment_20261113_06/collection_stop.json",
+  "latest_prefix_work": "source_cohort_work_mempool_fifty_20261112_segment_20261113_06",
   "latest_prepared_coverage_successor": {
     "automation_enabled": false,
     "finalization_entrypoint": "finalize_frontier_checkpoint.py",
@@ -232,7 +236,7 @@
     "scope": "source_transfer_article_supplement",
     "status": "completed_four_page_checked_supplement"
   },
-  "latest_status": "fifty_recovery_checkpoint_running",
+  "latest_status": "fifty_checkpoint_interrupted_verified",
   "latest_stop_file": "source_prefix_extension_20261112_03/collection_stop.json",
   "latest_work": "source_cohort_work_source_prefix_extension_20261112_03",
   "manual_coverage_workstream": {
@@ -258,7 +262,7 @@
     "successful_network_responses": 37
   },
   "maximum_429_backoff_seconds": 86400,
-  "next_coverage_action": "Continue only the pending frozen campaign IDs in a distinct saved/published checkpoint. Preserve actual native cursors, all old vectors, unknown labels, cutoffs, full-current statuses and deep histories. Keep one worker, five-second spacing, verified TLS/inherited proxy, the provider-specific gate and exact published lease/readback under fresh locks. No consumed-scope restart, provider/account/IP/proxy rotation, paid service, model fit/score or automatic schedule. Recheck overlap before model work.",
+  "next_coverage_action": "Execution is interrupted and safely closed; do not automatically restart. Preserve the unfinished native pages and actual cursor in a distinct successor, with fresh anchors and exact published lease/readback. Continue only the pending frozen campaign IDs in a distinct saved/published checkpoint. Preserve actual native cursors, all old vectors, unknown labels, cutoffs, full-current statuses and deep histories. Keep one worker, five-second spacing, verified TLS/inherited proxy, the provider-specific gate and exact published lease/readback under fresh locks. No consumed-scope restart, provider/account/IP/proxy rotation, paid service, model fit/score or automatic schedule. Recheck overlap before model work.",
   "next_network_attempt_not_before": "2026-11-13T18:22:14+00:00",
   "next_run_time_provided_by_service": false,
   "normal_run_bounds": {
@@ -283,8 +287,8 @@
     "remaining_information_gaps": 150,
     "summary": "source_prefix_extension_20261110_02/original_twenty_reconciliation.json"
   },
-  "prefix_bounded_incomplete_sources": 77,
-  "prefix_network_pending_sources": 25,
+  "prefix_bounded_incomplete_sources": 76,
+  "prefix_network_pending_sources": 23,
   "previous_automation_paused": true,
   "progressive_128_to_320_coverage_20261110": {
     "additional_source_transaction_observations": 18151,
@@ -322,6 +326,8 @@
     },
     "https://mempool.space/api": {
       "automatic_provider_rotation": false,
+      "last_http200": 100,
+      "last_refusals": 0,
       "maximum_requests": 175,
       "minimum_dispatch_interval_seconds": 5,
       "next_network_attempt_not_before": null,
@@ -333,7 +339,7 @@
         "comparison_0859",
         "comparison_0860"
       ],
-      "status": "fifty_recovery_running",
+      "status": "verified_checkpoint_closed",
       "timeout_seconds": 45
     }
   },
