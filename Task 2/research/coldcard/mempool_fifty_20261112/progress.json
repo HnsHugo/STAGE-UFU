@@ -1,5 +1,5 @@
 {
-  "active_scope": "mempool_fifty_20261112_tail_native_pair_20261113",
+  "active_scope": "mempool_fifty_20261112_tail_native_five_20261113",
   "automation_enabled": false,
   "available_coldcard_vectors": 1427,
   "bounded_source_ids": [
@@ -31,7 +31,9 @@
     "comparison_0973",
     "comparison_0982",
     "comparison_0995",
-    "comparison_0351"
+    "comparison_0351",
+    "comparison_0390",
+    "comparison_0391"
   ],
   "completed_units": [
     {
@@ -300,6 +302,24 @@
       "selected_source_ids": [
         "comparison_0351"
       ]
+    },
+    {
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0390",
+        "comparison_0391"
+      ],
+      "http200": 36,
+      "new_complete_source_ids": [],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "0674835680439358e818d4f94fc5bf23003f746bab35c216d9eb4e9709ee06f6",
+      "requests": 36,
+      "scope": "mempool_fifty_20261112_tail_native_pair_20261113",
+      "segment": 9,
+      "selected_source_ids": [
+        "comparison_0390",
+        "comparison_0391"
+      ]
     }
   ],
   "finalized_source_ids": [
@@ -345,9 +365,11 @@
     "comparison_0982",
     "comparison_0995",
     "comparison_1000",
-    "comparison_0351"
+    "comparison_0351",
+    "comparison_0390",
+    "comparison_0391"
   ],
-  "latest_verified_scope": "mempool_fifty_20261112_tail_bridge_20261113",
+  "latest_verified_scope": "mempool_fifty_20261112_tail_native_pair_20261113",
   "new_complete_source_ids": [
     "comparison_0533",
     "comparison_0558",
@@ -370,6 +392,20 @@
       "raw_sha256": "75a8d85fc1545192af32216777546684b3e37df7cb366eb60a8386e19ad32f65",
       "saved_evidence_pages": 50,
       "scope": "mempool_fifty_20261112_tail_bridge_20261113",
+      "status": "bounded_incomplete"
+    },
+    "comparison_0390": {
+      "last_native_cursor_sha256": "734ca3a9803cff1bc6d05e2440e546c6cedc84970ce5f9be39349cebbdfbe658",
+      "raw_sha256": "3d66e2c592aad9874ccbe0a85f23ea2cf0618b1a7b9fc0be9839a9cfd266d4c8",
+      "saved_evidence_pages": 48,
+      "scope": "mempool_fifty_20261112_tail_native_pair_20261113",
+      "status": "bounded_incomplete"
+    },
+    "comparison_0391": {
+      "last_native_cursor_sha256": "67583ead24d7c3b9231afda0dfdd440501299f05e05a6d5051a6ef045b3f70e5",
+      "raw_sha256": "e9ebfb5afa6db48cb2d3210b0ffed0cd9e46e1327d52bc20c5fb7b26d4ba9ebb",
+      "saved_evidence_pages": 48,
+      "scope": "mempool_fifty_20261112_tail_native_pair_20261113",
       "status": "bounded_incomplete"
     },
     "comparison_0533": {
@@ -669,8 +705,6 @@
   },
   "pending_native_evidence_saved": [],
   "pending_source_ids": [
-    "comparison_0390",
-    "comparison_0391",
     "comparison_0433",
     "comparison_0471",
     "comparison_0476",
