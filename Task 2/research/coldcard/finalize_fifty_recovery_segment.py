@@ -112,7 +112,7 @@ def finalize(out):
     write(policy_path, policy)
     write(out / 'collection_stop.json', dict(status=receipt['status'], operational_locks_released=True,
         automation_enabled=False, restart_same_scope_allowed=False, blockstream_requests=0))
-    write(out / 'execution_verification.json', dict(status='passed', focused_tests_previously_passed=29,
+    write(out / 'execution_verification.json', dict(status='passed', focused_tests_previously_passed=q.get('focused_tests_previously_passed',29),
         input_pins_verified=len(q['inputs']), old_vectors_preserved=q['baseline_vectors'],
         new_vectors_independently_recounted=audit['new_complete_prefixes'], campaign_unique_finalized=len(finalized),
         frozen_campaign_source_ids_verified=50, unarchived_old_candidates_not_promoted=True,
