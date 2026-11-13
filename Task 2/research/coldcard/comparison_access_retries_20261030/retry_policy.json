@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "none",
+  "active_collection_scope": "mempool_fifty_20261112_tail_interrupted_three_20261113",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -50,28 +50,24 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": null,
-    "finished_at": "2026-11-13T19:03:05.660105+00:00",
-    "last_owner": "mempool_fifty_20261112_segment_20261113_06",
-    "operational_locks_released": true,
-    "owner": null,
+    "expires_at": "2026-11-13T21:57:30.950916+00:00",
+    "owner": "mempool_fifty_20261112_tail_interrupted_three_20261113",
     "policy": "A live lease or historical/local lock prohibits concurrent collection.",
-    "protocol": "mempool_fifty_20261112_segment_20261113_06/protocol.json",
-    "protocol_sha256": "a134245d4ce80f860554e67086579b57c2787b4857512f50ad5b7ed84e9d5a06",
+    "protocol": "mempool_fifty_20261112_tail_interrupted_three_20261113/protocol.json",
+    "protocol_sha256": "ac2ccdc91c0f0466a4d97da3e7eb4f47620a3698ea7a5cc29e2cf8c3254ea78a",
     "provider": "https://mempool.space/api",
     "purpose": "Next durable checkpoint of the same frozen fifty-source campaign.",
-    "started_at": "2026-11-13T18:50:59.105724+00:00",
-    "state": "idle",
-    "stop_status": "verified_checkpoint_closed"
+    "started_at": "2026-11-13T19:57:30.950916+00:00",
+    "state": "running"
   },
   "comparison_pre_cutoff_predictors_available": 924,
   "comparison_pre_cutoff_predictors_unavailable": 76,
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
-  "coverage_collection_paused": true,
+  "coverage_collection_paused": false,
   "coverage_complete_sources_added": 25,
   "coverage_interrupted_consumed_requests": 2,
-  "coverage_pause_reason": "Execution interrupted; all observed evidence audited and preserved. No active collector or automatic restart.",
+  "coverage_pause_reason": "A fresh recovery checkpoint holds locks and awaits exact published lease/readback.",
   "environment_block_diagnosis_superseded_by": "One normal original-route counter GET returned HTTP200 on 2026-11-02. The environment flags alone did not establish a provider access block.",
   "external_automation_disable_reason": "Fixed CryptoBilis prior-prefix continuation closed: 366 final outcomes, 329 vectors, 37 bounded-incomplete; zero network/unattempted sources. No repeated collection.",
   "external_entity_independence_established": false,
@@ -236,7 +232,7 @@
     "scope": "source_transfer_article_supplement",
     "status": "completed_four_page_checked_supplement"
   },
-  "latest_status": "fifty_checkpoint_interrupted_verified",
+  "latest_status": "fifty_recovery_checkpoint_running",
   "latest_stop_file": "source_prefix_extension_20261112_03/collection_stop.json",
   "latest_work": "source_cohort_work_source_prefix_extension_20261112_03",
   "manual_coverage_workstream": {
@@ -326,20 +322,16 @@
     },
     "https://mempool.space/api": {
       "automatic_provider_rotation": false,
-      "last_http200": 100,
-      "last_refusals": 0,
-      "maximum_requests": 175,
+      "maximum_requests": 73,
       "minimum_dispatch_interval_seconds": 5,
       "next_network_attempt_not_before": null,
-      "scope": "mempool_fifty_20261112_segment_20261113_06",
+      "scope": "mempool_fifty_20261112_tail_interrupted_three_20261113",
       "source_ids": [
-        "comparison_0843",
-        "comparison_0851",
         "comparison_0853",
         "comparison_0859",
         "comparison_0860"
       ],
-      "status": "verified_checkpoint_closed",
+      "status": "fifty_recovery_running",
       "timeout_seconds": 45
     }
   },

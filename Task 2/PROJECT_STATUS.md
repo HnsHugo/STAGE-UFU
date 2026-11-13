@@ -1,5 +1,16 @@
 # Project status — 2 November 2026
 
+**Prepared active fifty-source checkpoint — 13 November 2026**
+
+Current scope: mempool_fifty_20261112_tail_interrupted_three_20261113; 3 frozen sources. The preceding
+checkpoint is audited and privately saved. The verified baseline is
+1424/1,500 vectors; current acquisition is not yet promoted.
+Keep one worker, five-second spacing, the forty-five-second response timeout,
+fresh locks and an exact published lease/readback. Stop at first failure/refusal/
+inconsistency. No old scope restart, flag replay, provider/account/IP/proxy/TLS
+change, paid service, fit, score or automatic schedule. Preserve all old rows,
+unknown labels, cutoffs and queues; audit/save before the next checkpoint.
+
 **Execution interrupted and safely saved — 13 November 2026**
 
 The frozen fifty-source campaign has 27 finalized addresses: 11 newly complete
