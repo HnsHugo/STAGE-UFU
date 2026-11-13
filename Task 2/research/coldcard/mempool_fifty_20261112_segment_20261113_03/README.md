@@ -14,3 +14,5 @@ Require fresh historical/local locks, the live provider gate and an exact publis
 lease/readback. Stop at first failure/refusal/inconsistency; never revive consumed
 operational flags or automatically rotate provider/account/IP/proxy/TLS. The closed
 Blockstream gate is unchanged. Audit, save and publish before the next unit.
+
+Verified result: [RESULTS.md](RESULTS.md). All private evidence is saved.

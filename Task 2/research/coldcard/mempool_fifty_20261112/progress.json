@@ -1,11 +1,15 @@
 {
-  "active_scope": "mempool_fifty_20261112_segment_20261113_03",
+  "active_scope": "mempool_fifty_20261112_segment_20261113_04",
   "automation_enabled": false,
-  "available_coldcard_vectors": 1420,
+  "available_coldcard_vectors": 1421,
   "bounded_source_ids": [
     "comparison_0541",
     "comparison_0583",
-    "comparison_0617"
+    "comparison_0617",
+    "comparison_0622",
+    "comparison_0630",
+    "comparison_0667",
+    "comparison_0680"
   ],
   "completed_units": [
     {
@@ -64,6 +68,32 @@
         "comparison_0608",
         "comparison_0617"
       ]
+    },
+    {
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0622",
+        "comparison_0630",
+        "comparison_0665",
+        "comparison_0667",
+        "comparison_0680"
+      ],
+      "http200": 156,
+      "new_complete_source_ids": [
+        "comparison_0665"
+      ],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "bc983d997181516119eda5b4e020be21a4860be9b97678bb3a20a00044805e21",
+      "requests": 156,
+      "scope": "mempool_fifty_20261112_segment_20261113_03",
+      "segment": 3,
+      "selected_source_ids": [
+        "comparison_0622",
+        "comparison_0630",
+        "comparison_0665",
+        "comparison_0667",
+        "comparison_0680"
+      ]
     }
   ],
   "finalized_source_ids": [
@@ -76,9 +106,14 @@
     "comparison_0586",
     "comparison_0593",
     "comparison_0608",
-    "comparison_0617"
+    "comparison_0617",
+    "comparison_0622",
+    "comparison_0630",
+    "comparison_0665",
+    "comparison_0667",
+    "comparison_0680"
   ],
-  "latest_verified_scope": "mempool_fifty_20261112_segment_20261113_02",
+  "latest_verified_scope": "mempool_fifty_20261112_segment_20261113_03",
   "new_complete_source_ids": [
     "comparison_0533",
     "comparison_0558",
@@ -86,7 +121,8 @@
     "comparison_0570",
     "comparison_0586",
     "comparison_0593",
-    "comparison_0608"
+    "comparison_0608",
+    "comparison_0665"
   ],
   "outcomes": {
     "comparison_0533": {
@@ -158,14 +194,44 @@
       "saved_evidence_pages": 32,
       "scope": "mempool_fifty_20261112_segment_20261113_02",
       "status": "bounded_incomplete"
+    },
+    "comparison_0622": {
+      "last_native_cursor_sha256": "1eaa2d0aecc62af2f46690629753537358b9b8ea8cff6b7af21f947facbb78e5",
+      "raw_sha256": "def7341596bf563e8bdb68777bbefaf552ae0205c2d6ca92ea8ff6680722cf23",
+      "saved_evidence_pages": 32,
+      "scope": "mempool_fifty_20261112_segment_20261113_03",
+      "status": "bounded_incomplete"
+    },
+    "comparison_0630": {
+      "last_native_cursor_sha256": "5fff940763f25a52a878b0b919b5a97317501f95e5768540cdfeaa45bd3d14dc",
+      "raw_sha256": "26a8fa54e09a6fdd63800a02f7d6256ca61ef07580762b78eb02e0b73a19198c",
+      "saved_evidence_pages": 32,
+      "scope": "mempool_fifty_20261112_segment_20261113_03",
+      "status": "bounded_incomplete"
+    },
+    "comparison_0665": {
+      "last_native_cursor_sha256": "b1c7592854dbabd50a42317d6050bad13efd2f73e3be70825ca5f90b60df2544",
+      "raw_sha256": "3c0ce792edb918be5c7bcfefe1987aa9cc681ceba83b06b0c1a847b0a355aa23",
+      "saved_evidence_pages": 18,
+      "scope": "mempool_fifty_20261112_segment_20261113_03",
+      "status": "complete_prior_prefix"
+    },
+    "comparison_0667": {
+      "last_native_cursor_sha256": "c4bee23c12b8055650c01549bb668e5db81e4a73493c7d4b34e99d607faecfce",
+      "raw_sha256": "ddcab0324551c22e51b993b8f69c3697842c05bd488da1297b8053d91ba3bac5",
+      "saved_evidence_pages": 32,
+      "scope": "mempool_fifty_20261112_segment_20261113_03",
+      "status": "bounded_incomplete"
+    },
+    "comparison_0680": {
+      "last_native_cursor_sha256": "2be11e21685dd6e246ef98cba8038d6701deb432c1219f76551560f43989a8c4",
+      "raw_sha256": "266d2e10f7a364db292cb1ec49d92025c4d55903202275ab48f4586cf9ca832f",
+      "saved_evidence_pages": 32,
+      "scope": "mempool_fifty_20261112_segment_20261113_03",
+      "status": "bounded_incomplete"
     }
   },
   "pending_source_ids": [
-    "comparison_0622",
-    "comparison_0630",
-    "comparison_0665",
-    "comparison_0667",
-    "comparison_0680",
     "comparison_0683",
     "comparison_0684",
     "comparison_0693",
