@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "mempool_fifty_20261112_segment_20261113_05",
+  "active_collection_scope": "mempool_fifty_20261112_segment_20261113_06",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -50,14 +50,14 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-11-13T20:36:08.023138+00:00",
-    "owner": "mempool_fifty_20261112_segment_20261113_05",
+    "expires_at": "2026-11-13T20:50:59.105724+00:00",
+    "owner": "mempool_fifty_20261112_segment_20261113_06",
     "policy": "A live lease or historical/local lock prohibits concurrent collection.",
-    "protocol": "mempool_fifty_20261112_segment_20261113_05/protocol.json",
-    "protocol_sha256": "6f852eec971c7c13eec06852801aea391893427c34d8728f6ea0affd257d2753",
+    "protocol": "mempool_fifty_20261112_segment_20261113_06/protocol.json",
+    "protocol_sha256": "a134245d4ce80f860554e67086579b57c2787b4857512f50ad5b7ed84e9d5a06",
     "provider": "https://mempool.space/api",
     "purpose": "Next durable checkpoint of the same frozen fifty-source campaign.",
-    "started_at": "2026-11-13T18:36:08.023138+00:00",
+    "started_at": "2026-11-13T18:50:59.105724+00:00",
     "state": "running"
   },
   "comparison_pre_cutoff_predictors_available": 923,
@@ -129,7 +129,7 @@
   "last_rate_limit_at": "2026-11-12T18:22:13.994033+00:00",
   "last_retry_delay_seconds": 86400,
   "last_successful_bounded_collection_at": "2026-11-12T18:04:44.428580+00:00",
-  "latest_consolidated_prefix_view": "mempool_fifty_20261112_segment_20261113_04/precutoff_feature_view.json.gz",
+  "latest_consolidated_prefix_view": "mempool_fifty_20261112_segment_20261113_05/precutoff_feature_view.json.gz",
   "latest_coverage_output": "source_prefix_extension_20261112_03",
   "latest_coverage_protocol": "source_prefix_extension_20261112_03/protocol.json",
   "latest_coverage_result_file": "source_prefix_extension_20261112_03/coverage_audit.json",
@@ -194,15 +194,15 @@
     "scope": "independent_provider_native_20261112_03"
   },
   "latest_output": "source_prefix_extension_20261112_03",
-  "latest_pass_pending_sources": 30,
-  "latest_prefix_coverage_audit": "mempool_fifty_20261112_segment_20261113_04/coverage_audit.json",
-  "latest_prefix_output": "mempool_fifty_20261112_segment_20261113_04",
-  "latest_prefix_protocol": "mempool_fifty_20261112_segment_20261113_04/protocol.json",
-  "latest_prefix_result_file": "mempool_fifty_20261112_segment_20261113_04/coverage_audit.json",
-  "latest_prefix_resume_checkpoint": "mempool_fifty_20261112_segment_20261113_04/resume_checkpoint.json",
-  "latest_prefix_resume_file": "mempool_fifty_20261112_segment_20261113_04/resume_checkpoint.json",
-  "latest_prefix_stop_file": "mempool_fifty_20261112_segment_20261113_04/collection_stop.json",
-  "latest_prefix_work": "source_cohort_work_mempool_fifty_20261112_segment_20261113_04",
+  "latest_pass_pending_sources": 25,
+  "latest_prefix_coverage_audit": "mempool_fifty_20261112_segment_20261113_05/coverage_audit.json",
+  "latest_prefix_output": "mempool_fifty_20261112_segment_20261113_05",
+  "latest_prefix_protocol": "mempool_fifty_20261112_segment_20261113_05/protocol.json",
+  "latest_prefix_result_file": "mempool_fifty_20261112_segment_20261113_05/coverage_audit.json",
+  "latest_prefix_resume_checkpoint": "mempool_fifty_20261112_segment_20261113_05/resume_checkpoint.json",
+  "latest_prefix_resume_file": "mempool_fifty_20261112_segment_20261113_05/resume_checkpoint.json",
+  "latest_prefix_stop_file": "mempool_fifty_20261112_segment_20261113_05/collection_stop.json",
+  "latest_prefix_work": "source_cohort_work_mempool_fifty_20261112_segment_20261113_05",
   "latest_prepared_coverage_successor": {
     "automation_enabled": false,
     "finalization_entrypoint": "finalize_frontier_checkpoint.py",
@@ -284,7 +284,7 @@
     "summary": "source_prefix_extension_20261110_02/original_twenty_reconciliation.json"
   },
   "prefix_bounded_incomplete_sources": 77,
-  "prefix_network_pending_sources": 30,
+  "prefix_network_pending_sources": 25,
   "previous_automation_paused": true,
   "progressive_128_to_320_coverage_20261110": {
     "additional_source_transaction_observations": 18151,
@@ -325,13 +325,13 @@
       "maximum_requests": 175,
       "minimum_dispatch_interval_seconds": 5,
       "next_network_attempt_not_before": null,
-      "scope": "mempool_fifty_20261112_segment_20261113_05",
+      "scope": "mempool_fifty_20261112_segment_20261113_06",
       "source_ids": [
-        "comparison_0730",
-        "comparison_0770",
-        "comparison_0800",
-        "comparison_0804",
-        "comparison_0826"
+        "comparison_0843",
+        "comparison_0851",
+        "comparison_0853",
+        "comparison_0859",
+        "comparison_0860"
       ],
       "status": "fifty_recovery_running",
       "timeout_seconds": 45
