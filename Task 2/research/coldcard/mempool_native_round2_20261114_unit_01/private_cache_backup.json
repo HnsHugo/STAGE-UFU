@@ -1,0 +1,23 @@
+{
+  "bytes": 6589060,
+  "file_name": "coldcard-mempool_native_round2_20261114_unit_01-private.tar.gz",
+  "library_file_id": "libfile_e7672acfa3cc8191b9dc05d906f1f265",
+  "library_metadata_applied": true,
+  "operational_flags_excluded": true,
+  "private": true,
+  "private_files_verified": 404,
+  "public_repository_contains_no_raw_caches": true,
+  "required_predecessor_archive": {
+    "bytes": 179938472,
+    "file_name": "coldcard-mempool_remaining_native_20261114_unit_06-private.tar.gz",
+    "purpose": "Prior-layer reproduction and before/after coverage comparison; current working responses are included in this archive.",
+    "sha256": "2502ddee60cd5d68337901b7cf5aaea7e055ba1175dd4d01a90a19b48b01f2dc"
+  },
+  "saved_privately": true,
+  "schema_version": 1,
+  "scope_protocol_sha256": "fab18a62da728860f13129cc833ffbef348c8959360e603d4d999cf194b517f0",
+  "sha256": "85651c25bf16e6cdeb5b43481bd4af7768a0101c608f7b47ad2314cc88124d34",
+  "source_work_folders": [
+    "source_cohort_work_mempool_native_round2_20261114_unit_01"
+  ]
+}

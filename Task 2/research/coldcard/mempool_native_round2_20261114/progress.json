@@ -1,17 +1,48 @@
 {
-  "active_scope": "mempool_native_round2_20261114_unit_01",
+  "active_scope": null,
   "automation_enabled": false,
-  "available_vectors": 1438,
-  "bounded_source_ids": [],
+  "available_vectors": 1439,
+  "bounded_source_ids": [
+    "comparison_0973",
+    "comparison_0995"
+  ],
   "can_continue": true,
-  "completed_units": [],
-  "finalized_source_ids": [],
-  "new_complete_source_ids": [],
-  "next_unit": 1,
-  "pending_source_ids": [
+  "completed_units": [
+    {
+      "bounded_in_scope": 2,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0973",
+        "comparison_0982",
+        "comparison_0995"
+      ],
+      "fresh_prior_block_observations": 1005,
+      "fresh_requests": 48,
+      "http200": 48,
+      "new_complete_source_ids": [
+        "comparison_0982"
+      ],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "85651c25bf16e6cdeb5b43481bd4af7768a0101c608f7b47ad2314cc88124d34",
+      "scope": "mempool_native_round2_20261114_unit_01",
+      "selected_source_ids": [
+        "comparison_0973",
+        "comparison_0982",
+        "comparison_0995"
+      ],
+      "unit": 1
+    }
+  ],
+  "finalized_source_ids": [
     "comparison_0973",
     "comparison_0982",
-    "comparison_0995",
+    "comparison_0995"
+  ],
+  "new_complete_source_ids": [
+    "comparison_0982"
+  ],
+  "next_unit": 2,
+  "pending_source_ids": [
     "comparison_0541",
     "comparison_0583",
     "comparison_0617",
@@ -61,5 +92,5 @@
     "comparison_0433",
     "comparison_0522"
   ],
-  "status": "prepared_unit"
+  "status": "checkpoint_saved"
 }
