@@ -1,5 +1,28 @@
 # Task 2 working instructions
 
+**Completed five-plus-twenty request — 14 November 2026**
+
+[Campaign results](research/coldcard/mempool_twentyfive_20261114/RESULTS.md):
+all 25 frozen source/reference pairs are finalized, audited and privately saved.
+Seven new complete prefixes, eighteen bounded histories, no pending campaign ID.
+All 392 fresh requests returned HTTP200; zero failures. Added 8,291 prior-block
+source-transaction observations, reusing 800 verified native pages. All 1,430
+preceding complete vectors are unchanged. Coldcard now has 1,437/1,500 vectors
+(500 case sources, 937 comparisons), with 63 missing rows. CryptoBilis stays
+329/366. All five unit audits and the global 25-source verification pass; 28
+focused tests pass. All 2,524 private evidence files are verified and saved.
+Old labels, cutoffs, full-current statuses, closed campaigns, every unselected
+native/deep queue and the interrupted unknown-intent marker are preserved.
+
+This finite request is complete. The lease is idle, locks free and automation
+disabled. No model fitting, scoring, split or threshold change occurred.
+Use the latest view/resume and remaining coverage inventory for future work.
+Three native sources remain at 32 pages; do not replay already saved traffic.
+Explicit user permissions for GitHub publication and public Bitcoin identifiers
+sent to Mempool persist for the unchanged research operation. Each new unit still
+requires fresh locks and exact published lease/readback; no rotation or costs.
+Recheck overlap on the updated snapshot before model work.
+
 **Active authorized five-plus-twenty continuation — 14 November 2026**
 
 The current user explicitly requested the five announced 32-page native

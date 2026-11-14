@@ -1,0 +1,612 @@
+{
+  "complete_vectors": 1437,
+  "groups": {
+    "bridge_union": 1,
+    "native_32_pages": 3,
+    "native_48_pages": 18,
+    "native_64_pages": 4,
+    "other_retained_deep_history": 37
+  },
+  "missing_vectors": 63,
+  "next_lower_bound_native_candidates": [
+    {
+      "evidence_scope": "mempool_fifty_20261112_segment_20261113_08",
+      "features_available": false,
+      "library_file_id": "libfile_2848cdeaa47c81919ee8de24759f5049",
+      "required_archive": "fifty-recovery-private-20261113-go_segment08.tar.gz",
+      "saved_native_pages": 32,
+      "seed_kind": "native",
+      "source_id": "comparison_0973"
+    },
+    {
+      "evidence_scope": "mempool_fifty_20261112_segment_20261113_08",
+      "features_available": false,
+      "library_file_id": "libfile_2848cdeaa47c81919ee8de24759f5049",
+      "required_archive": "fifty-recovery-private-20261113-go_segment08.tar.gz",
+      "saved_native_pages": 32,
+      "seed_kind": "native",
+      "source_id": "comparison_0982"
+    },
+    {
+      "evidence_scope": "mempool_fifty_20261112_tail_fresh_two_20261113",
+      "features_available": false,
+      "library_file_id": "libfile_f0ea45526628819197e3f56c73f569fe",
+      "required_archive": "fifty-recovery-private-20261113-go_fresh_two.tar.gz",
+      "saved_native_pages": 32,
+      "seed_kind": "native",
+      "source_id": "comparison_0995"
+    }
+  ],
+  "no_new_request_by_inventory": true,
+  "remaining_sources": [
+    {
+      "evidence_scope": "source_prefix_extension_20261109_01",
+      "features_available": false,
+      "library_file_id": null,
+      "required_archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0002"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261109_01",
+      "features_available": false,
+      "library_file_id": null,
+      "required_archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0008"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261109_01",
+      "features_available": false,
+      "library_file_id": null,
+      "required_archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0018"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261109_01",
+      "features_available": false,
+      "library_file_id": null,
+      "required_archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0024"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261109_01",
+      "features_available": false,
+      "library_file_id": null,
+      "required_archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0026"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261109_01",
+      "features_available": false,
+      "library_file_id": null,
+      "required_archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0045"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261109_01",
+      "features_available": false,
+      "library_file_id": null,
+      "required_archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0052"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261109_01",
+      "features_available": false,
+      "library_file_id": null,
+      "required_archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0077"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261109_01",
+      "features_available": false,
+      "library_file_id": null,
+      "required_archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0086"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261109_01",
+      "features_available": false,
+      "library_file_id": null,
+      "required_archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0088"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261109_01",
+      "features_available": false,
+      "library_file_id": null,
+      "required_archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0091"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261109_01",
+      "features_available": false,
+      "library_file_id": null,
+      "required_archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0108"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261109_01",
+      "features_available": false,
+      "library_file_id": null,
+      "required_archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0109"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261109_01",
+      "features_available": false,
+      "library_file_id": null,
+      "required_archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0126"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261109_01",
+      "features_available": false,
+      "library_file_id": null,
+      "required_archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0132"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261109_01",
+      "features_available": false,
+      "library_file_id": null,
+      "required_archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0137"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_01",
+      "features_available": false,
+      "library_file_id": "libfile_88d9732f06c88191a0b20333d43b57cb",
+      "required_archive": "coldcard-prefix-extension-private-20261112-576.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0157"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_01",
+      "features_available": false,
+      "library_file_id": "libfile_88d9732f06c88191a0b20333d43b57cb",
+      "required_archive": "coldcard-prefix-extension-private-20261112-576.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0176"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_01",
+      "features_available": false,
+      "library_file_id": "libfile_88d9732f06c88191a0b20333d43b57cb",
+      "required_archive": "coldcard-prefix-extension-private-20261112-576.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0230"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0241"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0249"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0250"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0251"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0254"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0255"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0257"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0268"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0275"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0283"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0287"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0292"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0294"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0298"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0300"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0315"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0343"
+    },
+    {
+      "evidence_scope": "source_prefix_extension_20261112_02",
+      "features_available": false,
+      "library_file_id": "libfile_5ce63b2131008191b71687df94c38bf0",
+      "required_archive": "coldcard-frontier-extension-private-20261112-20.tar.gz",
+      "saved_native_pages": null,
+      "seed_kind": "other_retained_deep_history",
+      "source_id": "comparison_0347"
+    },
+    {
+      "evidence_scope": "mempool_fifty_20261112_tail_bridge_20261113",
+      "features_available": false,
+      "library_file_id": "libfile_670f5ed1f56081919ea848058f54abad",
+      "required_archive": "fifty-recovery-private-20261113-go_bridge.tar.gz",
+      "saved_native_pages": 33,
+      "seed_kind": "bridge_union",
+      "source_id": "comparison_0351"
+    },
+    {
+      "evidence_scope": "mempool_native_extension_20261114_02",
+      "features_available": false,
+      "library_file_id": "libfile_0196d28af68c819181e121d279d7e700",
+      "required_archive": "coldcard-native-extension-20261114-02-private.tar.gz",
+      "saved_native_pages": 64,
+      "seed_kind": "native",
+      "source_id": "comparison_0390"
+    },
+    {
+      "evidence_scope": "mempool_native_extension_20261114_02",
+      "features_available": false,
+      "library_file_id": "libfile_0196d28af68c819181e121d279d7e700",
+      "required_archive": "coldcard-native-extension-20261114-02-private.tar.gz",
+      "saved_native_pages": 64,
+      "seed_kind": "native",
+      "source_id": "comparison_0391"
+    },
+    {
+      "evidence_scope": "mempool_native_extension_20261114_02",
+      "features_available": false,
+      "library_file_id": "libfile_0196d28af68c819181e121d279d7e700",
+      "required_archive": "coldcard-native-extension-20261114-02-private.tar.gz",
+      "saved_native_pages": 64,
+      "seed_kind": "native",
+      "source_id": "comparison_0433"
+    },
+    {
+      "evidence_scope": "mempool_native_extension_20261114_02",
+      "features_available": false,
+      "library_file_id": "libfile_0196d28af68c819181e121d279d7e700",
+      "required_archive": "coldcard-native-extension-20261114-02-private.tar.gz",
+      "saved_native_pages": 64,
+      "seed_kind": "native",
+      "source_id": "comparison_0522"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_01",
+      "features_available": false,
+      "library_file_id": "libfile_b557ddcd442481918647a254c2429c3a",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_01-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0541"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_01",
+      "features_available": false,
+      "library_file_id": "libfile_b557ddcd442481918647a254c2429c3a",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_01-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0583"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_01",
+      "features_available": false,
+      "library_file_id": "libfile_b557ddcd442481918647a254c2429c3a",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_01-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0617"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_01",
+      "features_available": false,
+      "library_file_id": "libfile_b557ddcd442481918647a254c2429c3a",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_01-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0622"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_02",
+      "features_available": false,
+      "library_file_id": "libfile_fd5162f4d1b8819187813356a9288ea8",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_02-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0667"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_02",
+      "features_available": false,
+      "library_file_id": "libfile_fd5162f4d1b8819187813356a9288ea8",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_02-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0680"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_02",
+      "features_available": false,
+      "library_file_id": "libfile_fd5162f4d1b8819187813356a9288ea8",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_02-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0683"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_02",
+      "features_available": false,
+      "library_file_id": "libfile_fd5162f4d1b8819187813356a9288ea8",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_02-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0693"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_02",
+      "features_available": false,
+      "library_file_id": "libfile_fd5162f4d1b8819187813356a9288ea8",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_02-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0713"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_03",
+      "features_available": false,
+      "library_file_id": "libfile_4d475717c5108191b6926220ce478c46",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_03-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0800"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_03",
+      "features_available": false,
+      "library_file_id": "libfile_4d475717c5108191b6926220ce478c46",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_03-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0826"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_04",
+      "features_available": false,
+      "library_file_id": "libfile_16b2c31784a8819186b963908c8b1b83",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_04-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0851"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_04",
+      "features_available": false,
+      "library_file_id": "libfile_16b2c31784a8819186b963908c8b1b83",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_04-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0853"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_04",
+      "features_available": false,
+      "library_file_id": "libfile_16b2c31784a8819186b963908c8b1b83",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_04-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0877"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_05",
+      "features_available": false,
+      "library_file_id": "libfile_2b01391c61588191a2422a29af24f430",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_05-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0892"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_05",
+      "features_available": false,
+      "library_file_id": "libfile_2b01391c61588191a2422a29af24f430",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_05-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0907"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_05",
+      "features_available": false,
+      "library_file_id": "libfile_2b01391c61588191a2422a29af24f430",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_05-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0912"
+    },
+    {
+      "evidence_scope": "mempool_twentyfive_20261114_unit_05",
+      "features_available": false,
+      "library_file_id": "libfile_2b01391c61588191a2422a29af24f430",
+      "required_archive": "coldcard-mempool_twentyfive_20261114_unit_05-private.tar.gz",
+      "saved_native_pages": 48,
+      "seed_kind": "native",
+      "source_id": "comparison_0966"
+    },
+    {
+      "evidence_scope": "mempool_fifty_20261112_segment_20261113_08",
+      "features_available": false,
+      "library_file_id": "libfile_2848cdeaa47c81919ee8de24759f5049",
+      "required_archive": "fifty-recovery-private-20261113-go_segment08.tar.gz",
+      "saved_native_pages": 32,
+      "seed_kind": "native",
+      "source_id": "comparison_0973"
+    },
+    {
+      "evidence_scope": "mempool_fifty_20261112_segment_20261113_08",
+      "features_available": false,
+      "library_file_id": "libfile_2848cdeaa47c81919ee8de24759f5049",
+      "required_archive": "fifty-recovery-private-20261113-go_segment08.tar.gz",
+      "saved_native_pages": 32,
+      "seed_kind": "native",
+      "source_id": "comparison_0982"
+    },
+    {
+      "evidence_scope": "mempool_fifty_20261112_tail_fresh_two_20261113",
+      "features_available": false,
+      "library_file_id": "libfile_f0ea45526628819197e3f56c73f569fe",
+      "required_archive": "fifty-recovery-private-20261113-go_fresh_two.tar.gz",
+      "saved_native_pages": 32,
+      "seed_kind": "native",
+      "source_id": "comparison_0995"
+    }
+  ],
+  "selection_not_yet_frozen_for_collection": true,
+  "status": "verified"
+}

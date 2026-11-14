@@ -14,3 +14,5 @@ discarded; no model fit or score occurred.
 | 3 | 5 | 3 | 57 |
 | 4 | 5 | 2 | 74 |
 | 5 | 5 | 1 | 85 |
+
+The [global verification](final_verification.json) passes: all 1,430 initial complete rows, fixed identities/labels/cutoffs/current statuses, unselected queues and the original unknown intent are unchanged. Added 8,291 prior-block source-transaction observations across 392 successful requests. All 2,524 private evidence files are saved. The [remaining inventory](remaining_coverage_inventory.json) retains all 63 missing rows; no next unit is running.

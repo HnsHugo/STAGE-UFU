@@ -1,0 +1,112 @@
+{
+  "all_old_labels_identities_cutoffs_full_current_statuses_unchanged": true,
+  "automation_enabled": false,
+  "available_coldcard_vectors": 1437,
+  "bounded_histories": 18,
+  "closed_historical_campaign_files_unchanged": true,
+  "completion_meaning": "All 25 fixed sources have final outcomes for this bounded extension; bounded histories remain explicitly incomplete.",
+  "cryptobilis_missing_unchanged": 37,
+  "cryptobilis_vectors_unchanged": 329,
+  "deep_queue_bytes_unchanged": true,
+  "every_unselected_native_queue_row_unchanged": true,
+  "failed_requests": 0,
+  "first_announced_sources": [
+    "comparison_0541",
+    "comparison_0583",
+    "comparison_0617",
+    "comparison_0622",
+    "comparison_0630"
+  ],
+  "focused_tests_passed": 28,
+  "following_twenty_sources": [
+    "comparison_0667",
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0693",
+    "comparison_0713",
+    "comparison_0730",
+    "comparison_0770",
+    "comparison_0800",
+    "comparison_0804",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0860",
+    "comparison_0868",
+    "comparison_0877",
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0970"
+  ],
+  "fresh_http200": 392,
+  "fresh_requests": 392,
+  "latest_scope": "mempool_twentyfive_20261114_unit_05",
+  "missing_coldcard_vectors": 63,
+  "model_fits": 0,
+  "new_complete_prefixes": 7,
+  "new_prior_block_source_transaction_observations": 8291,
+  "new_scores": 0,
+  "old_complete_vectors_preserved": 1430,
+  "old_native_pages_verified_and_reused": 800,
+  "old_pages_not_requested_again": true,
+  "original_unknown_intent_hashes_unchanged": 1,
+  "pending_sources": 0,
+  "private_evidence_files_saved": 2524,
+  "remaining_missing_groups": {
+    "bridge_union": 1,
+    "native_32_pages": 3,
+    "native_48_pages": 18,
+    "native_64_pages": 4,
+    "other_retained_deep_history": 37
+  },
+  "requested_sources": 25,
+  "schema_version": 1,
+  "status": "passed",
+  "successful_old_responses_reused": 825,
+  "unique_finalized_sources": 25,
+  "units": [
+    {
+      "bounded": 4,
+      "http200": 86,
+      "new_complete": 1,
+      "new_prior_block_observations": 1860,
+      "scope": "mempool_twentyfive_20261114_unit_01",
+      "unit": 1
+    },
+    {
+      "bounded": 5,
+      "http200": 90,
+      "new_complete": 0,
+      "new_prior_block_observations": 2000,
+      "scope": "mempool_twentyfive_20261114_unit_02",
+      "unit": 2
+    },
+    {
+      "bounded": 2,
+      "http200": 57,
+      "new_complete": 3,
+      "new_prior_block_observations": 1065,
+      "scope": "mempool_twentyfive_20261114_unit_03",
+      "unit": 3
+    },
+    {
+      "bounded": 3,
+      "http200": 74,
+      "new_complete": 2,
+      "new_prior_block_observations": 1527,
+      "scope": "mempool_twentyfive_20261114_unit_04",
+      "unit": 4
+    },
+    {
+      "bounded": 4,
+      "http200": 85,
+      "new_complete": 1,
+      "new_prior_block_observations": 1839,
+      "scope": "mempool_twentyfive_20261114_unit_05",
+      "unit": 5
+    }
+  ],
+  "verified_on": "2026-11-14T16:48:33.783994+00:00"
+}
