@@ -1,0 +1,14 @@
+{
+  "action": "Mempool public transaction-status GET for the frozen source/reference pair",
+  "alternative_route_or_provider_attempted": false,
+  "approval_needed": "Explicitly authorize sending the public Bitcoin transaction/address identifiers needed for this research to mempool.space for status/history GET requests. No credentials or private keys are included.",
+  "collector_stopped": true,
+  "destination": "https://mempool.space/api",
+  "failed_provider_responses": 0,
+  "new_successful_responses": 0,
+  "observed_at": "2026-11-14T14:49:08.999899+00:00",
+  "original_request_marker_unchanged": true,
+  "stated_reason": "Continuation was authorized, but explicit authorization to disclose retained wallet-history query identifiers to this public destination was not recognized.",
+  "status": "blocked_by_automatic_approval_review",
+  "unknown_response_outcomes": 1
+}

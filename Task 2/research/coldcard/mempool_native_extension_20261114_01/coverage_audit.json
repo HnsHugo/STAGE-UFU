@@ -1,0 +1,115 @@
+{
+  "additional_unique_observations_vs_old_blockstream_not_claimed": true,
+  "all_successful_response_fingerprints_and_cursor_sequences_verified": 245,
+  "automatic_retry_performed": false,
+  "available_coldcard_vectors": 1429,
+  "blockstream_provider_requests": 0,
+  "bounded_coldcard_prefixes": 71,
+  "bounded_in_scope": 0,
+  "composed_view_sha256": "ed0ba5662b2241417134536289d97d882d1c614f69bf91024b8fe0c1e4989bb0",
+  "cryptobilis_bounded_prefixes_unchanged": 37,
+  "cryptobilis_vectors_unchanged": 329,
+  "failed_request_records": 0,
+  "finalized": 0,
+  "fresh_native_source_transaction_observations": 0,
+  "full_current_history_statuses_unchanged": true,
+  "model_fits": 0,
+  "new_complete_prefixes": 0,
+  "new_complete_source_ids": [],
+  "new_raw_tails_reextracted": 0,
+  "new_request_records": 1,
+  "new_scores": 0,
+  "new_successful_provider_responses": 0,
+  "new_vectors_independently_recounted": 0,
+  "original_14_definitions_unchanged": true,
+  "pass_name": "mempool_native_extension_20261114_01",
+  "pending_in_scope": 5,
+  "pending_source_page_checkpoints": [
+    {
+      "last_cursor_sha256": "734ca3a9803cff1bc6d05e2440e546c6cedc84970ce5f9be39349cebbdfbe658",
+      "saved_tail_pages": 48,
+      "source_id": "comparison_0390"
+    },
+    {
+      "last_cursor_sha256": "67583ead24d7c3b9231afda0dfdd440501299f05e05a6d5051a6ef045b3f70e5",
+      "saved_tail_pages": 48,
+      "source_id": "comparison_0391"
+    },
+    {
+      "last_cursor_sha256": "ea37681205186059f4b1ea5ebbff764ab5f805f2f8e0fd7ade2cab46fdbbdf75",
+      "saved_tail_pages": 48,
+      "source_id": "comparison_0433"
+    },
+    {
+      "last_cursor_sha256": "af0236e674d31e9240f0dece15904b62b8481d50b5161fcbc7dceca104af77ef",
+      "saved_tail_pages": 48,
+      "source_id": "comparison_0476"
+    },
+    {
+      "last_cursor_sha256": "a59f9a8f839ea5b980ccb93f337caf46221ecbf7b182cb78ff52598acd18b4d3",
+      "saved_tail_pages": 48,
+      "source_id": "comparison_0522"
+    }
+  ],
+  "preserved_old_vectors": 1429,
+  "private_native_cursors_sha256": "1cc389c7b8bf15b1e1bdc65a2dd489c08e44ca8ffed4154efa77c99899e3e6ad",
+  "protocol_sha256": "f0dd0920eb39e2df08d1926a2b62964ae59ccf0ad26e9c04bd6b6c873720045f",
+  "provider": "https://mempool.space/api",
+  "provider_or_route_changed": false,
+  "retained_native_observations": 5933,
+  "schema_version": 1,
+  "selected": 5,
+  "selected_coldcard_sources": 1500,
+  "source_progress": [
+    {
+      "fresh_native_source_transaction_observations": 0,
+      "last_native_cursor_sha256": "734ca3a9803cff1bc6d05e2440e546c6cedc84970ce5f9be39349cebbdfbe658",
+      "old_native_observations_retained": 1200,
+      "saved_native_pages": 48,
+      "source_id": "comparison_0390",
+      "source_transaction_observations_saved": 1200,
+      "status": "pending"
+    },
+    {
+      "fresh_native_source_transaction_observations": 0,
+      "last_native_cursor_sha256": "67583ead24d7c3b9231afda0dfdd440501299f05e05a6d5051a6ef045b3f70e5",
+      "old_native_observations_retained": 1200,
+      "saved_native_pages": 48,
+      "source_id": "comparison_0391",
+      "source_transaction_observations_saved": 1200,
+      "status": "pending"
+    },
+    {
+      "fresh_native_source_transaction_observations": 0,
+      "last_native_cursor_sha256": "ea37681205186059f4b1ea5ebbff764ab5f805f2f8e0fd7ade2cab46fdbbdf75",
+      "old_native_observations_retained": 1200,
+      "saved_native_pages": 48,
+      "source_id": "comparison_0433",
+      "source_transaction_observations_saved": 1200,
+      "status": "pending"
+    },
+    {
+      "fresh_native_source_transaction_observations": 0,
+      "last_native_cursor_sha256": "af0236e674d31e9240f0dece15904b62b8481d50b5161fcbc7dceca104af77ef",
+      "old_native_observations_retained": 1200,
+      "saved_native_pages": 48,
+      "source_id": "comparison_0476",
+      "source_transaction_observations_saved": 1200,
+      "status": "pending"
+    },
+    {
+      "fresh_native_source_transaction_observations": 0,
+      "last_native_cursor_sha256": "a59f9a8f839ea5b980ccb93f337caf46221ecbf7b182cb78ff52598acd18b4d3",
+      "old_native_observations_retained": 1133,
+      "saved_native_pages": 48,
+      "source_id": "comparison_0522",
+      "source_transaction_observations_saved": 1133,
+      "status": "pending"
+    }
+  ],
+  "status": "passed",
+  "successful_offline_responses_reused": 245,
+  "total_remaining_bounded_prefixes": 108,
+  "unknown_labels_unchanged": true,
+  "unselected_rows_unchanged": true
+}

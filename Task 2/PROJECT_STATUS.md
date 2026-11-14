@@ -1,5 +1,24 @@
 # Project status — 2 November 2026
 
+**Native extension interrupted by automatic approval review — 14 November 2026**
+
+The distinct `mempool_native_extension_20261114_01` prepared five pure-native
+48-page histories for a bounded extension to 64 pages. All 240 saved pages and
+245 successful cached responses were verified; 24 focused tests pass. Automatic
+approval review interrupted the first Mempool GET because explicit permission
+for query identifiers sent to that public destination was not recognized.
+No new response or vector was obtained: Coldcard remains 1,429/1,500, with 71
+incomplete rows; the completed fifty-source campaign is unchanged.
+One original request intent has an unknown outcome, preserved without marking
+it as a success or provider failure. The offline audit passes. The consumed
+scope is closed, locks free and the lease idle; never restart it or replay flags.
+
+Before any further Mempool request, obtain explicit user authorization to send
+the public Bitcoin address/transaction identifiers needed for this research to
+`https://mempool.space/api`. No key, seed or credential is involved. Then prepare
+a distinct pinned successor preserving every page, cursor, unknown outcome and
+scientific guard. No alternative route/provider or automatic retry is permitted.
+
 **Completed and privately saved fifty-source campaign — 14 November 2026**
 
 [Final checkpoint results](research/coldcard/mempool_fifty_20261112_tail_native_five_recovery_20261114/RESULTS.md):

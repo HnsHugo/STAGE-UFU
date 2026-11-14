@@ -14,3 +14,5 @@ spacing, a 45-second timeout and the same Mempool route/TLS are retained. Stop a
 the first failure, refusal or inconsistency. No paid service or automatic schedule.
 Only exhaustion, fresh before/after reference anchors and funding closure can
 promote a vector. Preserve all missing rows, native cursors and deep histories.
+
+Observed outcome: [RESULTS.md](RESULTS.md). The passage was interrupted by automatic approval review; no new successful response or vector was obtained.
