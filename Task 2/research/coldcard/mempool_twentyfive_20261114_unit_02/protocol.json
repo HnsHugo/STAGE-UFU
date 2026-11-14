@@ -1,0 +1,183 @@
+{
+  "authorization": "Current explicit user request: Fais \u00e7a et fait les 20 suivant ensuite. Five announced sources followed by the next twenty.",
+  "automation_enabled": false,
+  "baseline_vectors": 1431,
+  "blockstream_cooldown_preserved_until": "2026-11-13T18:22:14+00:00",
+  "campaign": "mempool_twentyfive_20261114",
+  "campaign_unit": 2,
+  "created_on": "2026-11-14",
+  "inputs": {
+    "audit_independent_mempool_resume_py": {
+      "file": "../audit_independent_mempool_resume.py",
+      "sha256": "62cc87749ca938caa092753c0bbf178e903f154acdb9f2e1973eef5fab164b7b"
+    },
+    "backup_completed_scope_py": {
+      "file": "../backup_completed_scope.py",
+      "sha256": "852b6e7e0e41aa087557f8d72d8ae12270bfe4733bcec30511de56e20bb9ea55"
+    },
+    "baseline_view": {
+      "file": "../mempool_twentyfive_20261114_unit_01/precutoff_feature_view.json.gz",
+      "sha256": "cc7708fed6f00b693cfa2e9c889efc0f080b124704f7206e37a83d299f449ce1"
+    },
+    "campaign_selection": {
+      "file": "../mempool_twentyfive_20261114/selection.json",
+      "sha256": "2ce6e97899d8ac39a6e414130fb7dcfeb5ff3d90069b83956dc5de31c24286f1"
+    },
+    "checkpoint_code": {
+      "file": "../native_twentyfive_campaign.py",
+      "sha256": "8a50257d6b12b9cf22815ba2e9350a90abf92a7b1a3f6d327d3dd8cc2536981a"
+    },
+    "closed_fifty_progress": {
+      "file": "../mempool_fifty_20261112/progress.json",
+      "sha256": "2cb4a632d27bc6a893478cfb274cea39b105589ed4bd0504d6c07aa342d4e35d"
+    },
+    "collect_reference_tail_py": {
+      "file": "../collect_reference_tail.py",
+      "sha256": "c911691ce1f31be82fbfbb6ce7c589ab77da9da0dba7eb5ffc91ea42d0165c51"
+    },
+    "comparison_http_py": {
+      "file": "../comparison_http.py",
+      "sha256": "79793179e8c1bb153ade9a7fa742ed7a4a766bb6e039c791d880d24d5a484915"
+    },
+    "identifier_authorization": {
+      "file": "../mempool_identifier_authorization_20261114.json",
+      "sha256": "8a4553b04959c51c5173e862af50fc636404f1794c05f57c7fdc19ae8fff9105"
+    },
+    "independent_mempool_native_py": {
+      "file": "../independent_mempool_native.py",
+      "sha256": "40627aa2f9f2190ce2b07b1286649ed3b5e589346bb0ebb4aed2f9f3695efbb7"
+    },
+    "independent_mempool_pilot_py": {
+      "file": "../independent_mempool_pilot.py",
+      "sha256": "8bc543e16ecf819bd48166c5b632923ee1c1de91f98990067472de05d64feea3"
+    },
+    "independent_mempool_resume_py": {
+      "file": "../independent_mempool_resume.py",
+      "sha256": "e8e785fdc47978a49ec64fb198834f13f35c49f3a8d5a7dd5e46b7f0d6c548b5"
+    },
+    "mempool_fifty_20261112_segment_20261113_03_checkpoint_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_03/checkpoint.json.gz",
+      "sha256": "562c0a953c06739e4bfc79719c2a7d21b3d7869f399eaf77547cf61fe3d81c83"
+    },
+    "mempool_fifty_20261112_segment_20261113_03_independent_verification_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_03/independent_verification.json",
+      "sha256": "7fc1ce258e6ffe28de1b5a9eea2164829d156d716829a69665cb808a45f94177"
+    },
+    "mempool_fifty_20261112_segment_20261113_03_private_cache_backup_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_03/private_cache_backup.json",
+      "sha256": "f4129b69db66f77653b4f7b34aa5b2570df3aa731289e1c67043422953dc832b"
+    },
+    "mempool_fifty_20261112_segment_20261113_03_protocol_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_03/protocol.json",
+      "sha256": "06ae081d6a97c1a7bfed3dec14fd610b7a6359e1213992670299a440250b1835"
+    },
+    "mempool_fifty_20261112_segment_20261113_03_request_manifest_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_03/request_manifest.json.gz",
+      "sha256": "931ac2741a2a4dc1a94428c09b51744df1664778fb9e4187b002ba4e1813f6c0"
+    },
+    "mempool_fifty_20261112_segment_20261113_04_checkpoint_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_04/checkpoint.json.gz",
+      "sha256": "2b38161de57a0b815acdc71e75ffe2b3419bc59691477d2ebb0f47634c2b26e6"
+    },
+    "mempool_fifty_20261112_segment_20261113_04_independent_verification_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_04/independent_verification.json",
+      "sha256": "cf581e6a1b4c120e907c02fb44df2a4e3197dee39d4fa9723aa2cb95452c3197"
+    },
+    "mempool_fifty_20261112_segment_20261113_04_private_cache_backup_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_04/private_cache_backup.json",
+      "sha256": "a4a96db6e7aeab9d12e2a0bdc861e8b205b7f8df08fa46d6711dfe48bc83b8be"
+    },
+    "mempool_fifty_20261112_segment_20261113_04_protocol_json": {
+      "file": "../mempool_fifty_20261112_segment_20261113_04/protocol.json",
+      "sha256": "616fef2c07a61394c7a17c9a893a4f48abd37706c0430a1943f68eab247fe5d9"
+    },
+    "mempool_fifty_20261112_segment_20261113_04_request_manifest_json_gz": {
+      "file": "../mempool_fifty_20261112_segment_20261113_04/request_manifest.json.gz",
+      "sha256": "9f9b9cc49f12364d0b2272f116e924b0a0646175fbe09c57d4ad138afb39d8c9"
+    },
+    "native_extension_checkpoint_py": {
+      "file": "../native_extension_checkpoint.py",
+      "sha256": "ff3cdbbf1262950d96a73a40968ba3b69334c17b2045fc36e9c8f6e3122a8fdd"
+    },
+    "offline_reuse": {
+      "file": "offline_reuse_manifest.json",
+      "sha256": "37e479f57d4d88f6980fb76d1b53c3b9ad769c189712e16bf94cb497fe2cef00"
+    },
+    "parent_independent_verification_json": {
+      "file": "../mempool_twentyfive_20261114_unit_01/independent_verification.json",
+      "sha256": "5b17b7208c3fbf151e99496c68c02ecd7362149ec495f75b38f9ec7e6a5f96fd"
+    },
+    "parent_private_cache_backup_json": {
+      "file": "../mempool_twentyfive_20261114_unit_01/private_cache_backup.json",
+      "sha256": "123a41bf7d7dba9c7ed926f3645cdbd1eeb0772d40d5f40c518b2337a03dd2b9"
+    },
+    "parent_protocol_json": {
+      "file": "../mempool_twentyfive_20261114_unit_01/protocol.json",
+      "sha256": "d9fa7107c47e25c6b21e29023f40db80ed6a756f75aa290f9291169d217803f4"
+    },
+    "parent_request_manifest_json_gz": {
+      "file": "../mempool_twentyfive_20261114_unit_01/request_manifest.json.gz",
+      "sha256": "21b989da1675d25267345a6fd02356aa4898413a8e02c9cfa1a1b4df45f78716"
+    },
+    "parent_resume_checkpoint_json": {
+      "file": "../mempool_twentyfive_20261114_unit_01/resume_checkpoint.json",
+      "sha256": "b12254d2befd8d60d874dbc72b4c697f71efc6c6a203506eebdc426015cf5be7"
+    },
+    "parent_retained_deep_queue_json": {
+      "file": "../mempool_twentyfive_20261114_unit_01/retained_deep_queue.json",
+      "sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421"
+    },
+    "prepared_campaign_state": {
+      "file": "prepared_campaign_state.json",
+      "sha256": "283fd4e56bb30b31beebd0cf0556e604b6d754cbbf36c95f1341cc8fec5e6411"
+    },
+    "resume_mempool_slow_response_py": {
+      "file": "../resume_mempool_slow_response.py",
+      "sha256": "62b6707925c2f6120c409ee199bd0d40bc5bf28e7ce5705bf8cbcbe4d82ad34b"
+    },
+    "seed_manifest": {
+      "file": "seed_manifest.json",
+      "sha256": "f60b8973684fae1149f3ef21d1c7ba364b523d5d951cf9b7884e91f799205881"
+    }
+  },
+  "live_policy_file": "../comparison_access_retries_20261030/retry_policy.json",
+  "max_pages_per_address": 48,
+  "maximum_new_native_pages": 16,
+  "maximum_requests": 95,
+  "minimum_dispatch_interval_seconds": 5,
+  "model_fits": 0,
+  "new_scores": 0,
+  "offline_native_pages_reused": 160,
+  "offline_successful_responses_reused": 165,
+  "parent_scope": "mempool_twentyfive_20261114_unit_01",
+  "pass_name": "mempool_twentyfive_20261114_unit_02",
+  "predictors": "The unchanged fourteen predictors strictly before the reference block",
+  "previous_bound": 32,
+  "private_identity_registry_sha256": "8b5994e2b41f11e15c6e85b755a0d401cf75997e9f46ebebb51e46d6392e5249",
+  "private_lock_manifest_sha256": "35909addacc77229d0628eabb9af13034e24463e8d44e8f7e8ac2fe48917a658",
+  "private_parent_native_cursors_sha256": "ca4887e568374ee4ba460d22a49239ee6199127d5eb5bdd39c396c95674fb7c9",
+  "private_plan_sha256": "73698263e9ad68a66359bbbd6ff766fd73f74b2806d0656566f8dba17fe46325",
+  "private_retained_bridge_native_cursors_sha256": "91046d312cb01eb28000d3a9ff470aa3be6fcb2f720448ee6c21cd2b21a1022f",
+  "provider": "https://mempool.space/api",
+  "request_budget": {
+    "after_anchor_statuses_at_most": 5,
+    "before_statuses_at_most": 5,
+    "funding_statuses_at_most": 5,
+    "tail_pages_at_most": 80,
+    "total_new_requests_at_most": 95
+  },
+  "requests_per_second": 0.2,
+  "schema_version": 6,
+  "source_ids": [
+    "comparison_0667",
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0693",
+    "comparison_0713"
+  ],
+  "stop_policy": "Stop the whole campaign at the first failure/refusal/inconsistency; no automatic retry or rotation.",
+  "target": "Operational incident membership, not proven theft/device use",
+  "timeout_seconds": 45,
+  "unit": "Frozen source/reference pair",
+  "workers": 1
+}

@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "none",
+  "active_collection_scope": "mempool_twentyfive_20261114_unit_02",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -50,28 +50,25 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": null,
-    "finished_at": "2026-11-14T16:14:56.357082+00:00",
-    "last_owner": "mempool_twentyfive_20261114_unit_01",
-    "operational_locks_released": true,
-    "owner": null,
+    "expires_at": "2026-11-14T18:17:01.544389+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_twentyfive_20261114_unit_02",
     "policy": "A live lease or historical/local lock prohibits concurrent collection.",
-    "protocol": "mempool_twentyfive_20261114_unit_01/protocol.json",
-    "protocol_sha256": "d9fa7107c47e25c6b21e29023f40db80ed6a756f75aa290f9291169d217803f4",
+    "protocol": "mempool_twentyfive_20261114_unit_02/protocol.json",
+    "protocol_sha256": "9fdb7d8af3dc61f4062d793a14f1009e6244c6241337c23f96b9ac7566409c4a",
     "provider": "https://mempool.space/api",
     "purpose": "Explicit five-plus-twenty request: finite native unit under persistent Mempool public-identifier authorization.",
-    "started_at": "2026-11-14T16:06:48.669741+00:00",
-    "state": "idle",
-    "stop_status": "completed"
+    "started_at": "2026-11-14T16:17:01.544389+00:00",
+    "state": "running"
   },
   "comparison_pre_cutoff_predictors_available": 931,
   "comparison_pre_cutoff_predictors_unavailable": 69,
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
-  "coverage_collection_paused": true,
+  "coverage_collection_paused": false,
   "coverage_complete_sources_added": 25,
   "coverage_interrupted_consumed_requests": 2,
-  "coverage_pause_reason": "Finite native extension closed and audited; preserve all actual cursors. No automatic restart.",
+  "coverage_pause_reason": "Fresh locks held; awaiting exact published lease/readback.",
   "environment_block_diagnosis_superseded_by": "One normal original-route counter GET returned HTTP200 on 2026-11-02. The environment flags alone did not establish a provider access block.",
   "external_automation_disable_reason": "Fixed CryptoBilis prior-prefix continuation closed: 366 final outcomes, 329 vectors, 37 bounded-incomplete; zero network/unattempted sources. No repeated collection.",
   "external_entity_independence_established": false,
@@ -237,7 +234,7 @@
     "scope": "source_transfer_article_supplement",
     "status": "completed_four_page_checked_supplement"
   },
-  "latest_status": "native_extension_closed_audit_passed",
+  "latest_status": "twentyfive_native_unit_running",
   "latest_stop_file": "source_prefix_extension_20261112_03/collection_stop.json",
   "latest_work": "source_cohort_work_source_prefix_extension_20261112_03",
   "manual_coverage_workstream": {
@@ -343,15 +340,15 @@
         "source": "Explicit current user reply to the specific destination-and-identifiers authorization question.",
         "user_reply": "Oui"
       },
-      "scope": "mempool_twentyfive_20261114_unit_01",
+      "scope": "mempool_twentyfive_20261114_unit_02",
       "source_ids": [
-        "comparison_0541",
-        "comparison_0583",
-        "comparison_0617",
-        "comparison_0622",
-        "comparison_0630"
+        "comparison_0667",
+        "comparison_0680",
+        "comparison_0683",
+        "comparison_0693",
+        "comparison_0713"
       ],
-      "status": "closed_audited",
+      "status": "authorized_twentyfive_unit_running",
       "timeout_seconds": 45
     }
   },
