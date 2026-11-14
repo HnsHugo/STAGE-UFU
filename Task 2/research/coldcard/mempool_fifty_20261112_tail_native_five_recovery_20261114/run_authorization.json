@@ -12,9 +12,16 @@
     "started_at": "2026-11-14T12:51:01.061794+00:00",
     "state": "running"
   },
+  "completed_at": "2026-11-14T13:02:21.521875+00:00",
+  "exact_published_lease_readback_commit": "778129f8594413706bc7a24a6235c1c175d6458f",
+  "failures": 0,
   "first_failure_stops_collection": true,
+  "http200": 78,
+  "new_complete_vectors": 2,
+  "operational_locks_released": true,
   "prepared_public_commit": "fce87a6b195d2332f23496569d2a21653c821f51",
+  "provider_requests": 78,
   "provider_requests_before_permit": 0,
   "scope": "mempool_fifty_20261112_tail_native_five_recovery_20261114",
-  "status": "user_authorized_awaiting_exact_lease_readback"
+  "status": "completed_audited_lease_closed"
 }

@@ -1,0 +1,44 @@
+{
+  "all_outcome_scope_hashes_verified": true,
+  "all_unknown_labels_cutoffs_full_current_statuses_preserved": true,
+  "automation_enabled": false,
+  "available_coldcard_vectors": 1429,
+  "bounded_histories": 34,
+  "campaign": "mempool_fifty_20261112",
+  "cohort_summary": {
+    "case": {
+      "complete": 500,
+      "incomplete": 0,
+      "selected": 500
+    },
+    "comparison": {
+      "complete": 929,
+      "incomplete": 71,
+      "selected": 1000
+    }
+  },
+  "coldcard_missing_vectors": 71,
+  "completed_audited_units": 13,
+  "completion_meaning": "Every frozen source has a final outcome for this bounded campaign; bounded histories are retained as incomplete, not full-history completion.",
+  "cryptobilis_bounded_unchanged": 37,
+  "cryptobilis_vectors_unchanged": 329,
+  "initial_vectors_preserved": 1413,
+  "known_prior_interrupted_request_outcomes_unchanged": 1,
+  "latest_checkpoint_failures": 0,
+  "latest_checkpoint_http200": 78,
+  "latest_checkpoint_new_prior_block_source_transaction_observations": 1638,
+  "latest_checkpoint_new_vectors": 2,
+  "latest_checkpoint_prior_vectors_preserved": 1427,
+  "model_fits": 0,
+  "new_complete_prefixes": 16,
+  "new_scores": 0,
+  "pending_sources": 0,
+  "requested_sources": 50,
+  "schema_version": 1,
+  "selected_source_ids_unique_and_unchanged": true,
+  "status": "passed",
+  "unique_finalized_sources": 50,
+  "unsaved_expired_scope_request_counts_remain_unknown": true,
+  "unselected_rows_unchanged": true,
+  "verified_on": "2026-11-14T13:02:02.811777+00:00"
+}

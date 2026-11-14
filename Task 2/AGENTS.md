@@ -1,5 +1,26 @@
 # Task 2 working instructions
 
+**Completed and privately saved fifty-source campaign — 14 November 2026**
+
+[Final checkpoint results](research/coldcard/mempool_fifty_20261112_tail_native_five_recovery_20261114/RESULTS.md):
+all 50 frozen sources are finalized for this bounded campaign: 16 complete
+prior-block prefixes and 34 bounded histories, with zero pending campaign IDs.
+The final five added two independently recounted vectors and 1,638 prior-block
+source-transaction observations: 78 HTTP200 responses, zero failed requests.
+Coldcard now has 1,429/1,500 complete vectors (500 cases and 929 comparisons);
+71 comparison rows remain incomplete. CryptoBilis remains 329/366.
+All 1,427 preceding vectors are unchanged. Both final-unit audits and the global
+50-source ledger audit pass. All 505 private evidence files are verified and saved.
+Unknown labels, cutoffs, full-current statuses, older queues and frozen models
+are preserved. The interrupted unsaved scope retains unknown request outcomes.
+The user expressly authorized publication and continuation on 14 November.
+
+The finite campaign is closed; the lease is idle, locks free and automation off.
+Do not rerun consumed scopes. Keep the actual private cursors and all 71 missing
+Coldcard rows. A further bounded continuation needs its own pinned scope,
+provider gate and fresh locks/published lease. Recheck overlap on the updated
+view before any model work. No model fitting or scoring occurred in this pass.
+
 **Verified preparation; publication blocked — 14 November 2026**
 
 The distinct final-five recovery is prepared and verified offline: 160 native

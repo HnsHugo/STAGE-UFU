@@ -1,21 +1,28 @@
-# Final five frozen sources: workspace-loss recovery
+# Completed final-five Coldcard recovery — 14 November 2026
 
-The final five source/reference pairs of the original fifty-source campaign are
-unchanged. The expired 13 November lease has an explicit interruption record;
-its unsaved request counts and outcomes remain unknown. No old operational flag
-was recreated and the old scope cannot restart.
+The final five frozen source/reference pairs are acquired, independently audited
+and privately saved. Two prior-block prefixes are newly complete; three remain
+bounded-incomplete with their actual native cursors preserved. All 78 fresh
+requests succeeded. The complete frozen fifty-source campaign has 16 complete
+prefixes, 34 bounded histories and no pending source. Coldcard has 1,429/1,500
+vectors; 71 rows remain incomplete. CryptoBilis is unchanged at 329/366.
 
-The three required archives match their published hashes. Reuse 160 verified
-native pages and five references. Extend each source by at most sixteen pages,
-with fresh before/after reference anchors and funding closure if exhausted.
-One worker, five-second dispatch spacing, a 45-second timeout and at most 95
-new requests remain unchanged. Require fresh locks and published lease/readback.
-Stop at the first failure, refusal or inconsistency; no automatic retry.
+- [Results and limits](RESULTS.md)
+- [Independent audit](independent_verification.json)
+- [Global fifty-source ledger verification](campaign_completion_verification.json)
+- [Closed-scope continuation state](resume_checkpoint.json)
 
-The unit is the frozen source/reference pair. The target remains operational
-incident membership; theft/device labels stay unknown. The fourteen predictors
-use only transactions before the reference block. No split, fitting, scoring,
-paid service or automation is introduced. Preserve all 1,427 complete vectors,
-all 73 missing rows, CryptoBilis and every deep-history/native-cursor queue.
+The previous unsaved scope was closed with unknown request outcomes. Its
+operational flags were not reconstructed. The prepared successful pages were
+verified against their pinned archives, and the user explicitly authorized
+publication and continuation before the exact live lease was published/read back.
+One worker, five-second spacing, verified TLS and a forty-five-second timeout
+were retained. No failure, automatic retry, provider/route rotation or paid
+service occurred. All 505 private evidence files are verified and saved.
 
-Offline readiness is verified in [offline_readiness_audit.json](offline_readiness_audit.json). GitHub publication is blocked by automatic approval review. No new requests were made; campaign completion remains 45/50 and feature availability remains 1,427/1,500.
+The original fourteen predictors and strict prior-block cutoff are unchanged.
+The operational target is incident membership; theft/device labels remain
+unknown. No model, score, split or threshold was changed. The campaign is closed,
+locks are free, the lease is idle and no automatic schedule is enabled. A future
+continuation must preserve all missing rows and native/deep-history queues in a
+distinct pinned scope. Recheck overlap before model work.
