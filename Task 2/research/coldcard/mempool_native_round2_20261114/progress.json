@@ -1,5 +1,5 @@
 {
-  "active_scope": "mempool_native_round2_20261114_unit_04",
+  "active_scope": null,
   "automation_enabled": false,
   "available_vectors": 1439,
   "bounded_source_ids": [
@@ -14,7 +14,12 @@
     "comparison_0683",
     "comparison_0713",
     "comparison_0800",
-    "comparison_0826"
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0877",
+    "comparison_0892",
+    "comparison_0907"
   ],
   "can_continue": true,
   "completed_units": [
@@ -93,6 +98,32 @@
         "comparison_0826"
       ],
       "unit": 3
+    },
+    {
+      "bounded_in_scope": 5,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0851",
+        "comparison_0853",
+        "comparison_0877",
+        "comparison_0892",
+        "comparison_0907"
+      ],
+      "fresh_prior_block_observations": 2000,
+      "fresh_requests": 90,
+      "http200": 90,
+      "new_complete_source_ids": [],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "6655ae738679f6e5a8a280a9c838a1fb98fd7cc45aa22f7b50d074fc5c4da1ac",
+      "scope": "mempool_native_round2_20261114_unit_04",
+      "selected_source_ids": [
+        "comparison_0851",
+        "comparison_0853",
+        "comparison_0877",
+        "comparison_0892",
+        "comparison_0907"
+      ],
+      "unit": 4
     }
   ],
   "finalized_source_ids": [
@@ -108,18 +139,18 @@
     "comparison_0683",
     "comparison_0713",
     "comparison_0800",
-    "comparison_0826"
-  ],
-  "new_complete_source_ids": [
-    "comparison_0982"
-  ],
-  "next_unit": 4,
-  "pending_source_ids": [
+    "comparison_0826",
     "comparison_0851",
     "comparison_0853",
     "comparison_0877",
     "comparison_0892",
-    "comparison_0907",
+    "comparison_0907"
+  ],
+  "new_complete_source_ids": [
+    "comparison_0982"
+  ],
+  "next_unit": 5,
+  "pending_source_ids": [
     "comparison_0912",
     "comparison_0966",
     "comparison_0390",
@@ -154,5 +185,5 @@
     "comparison_0433",
     "comparison_0522"
   ],
-  "status": "prepared_unit"
+  "status": "checkpoint_saved"
 }
