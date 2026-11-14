@@ -12,9 +12,16 @@
     "started_at": "2026-11-14T15:37:01.594254+00:00",
     "state": "running"
   },
+  "completed_at": "2026-11-14T15:47:56.259070+00:00",
+  "exact_published_lease_readback_commit": "64066b18d39d7682905bc175583157f599128cd1",
   "explicit_destination_identifier_authorization": true,
+  "failures": 0,
+  "http200": 77,
+  "new_complete_vectors": 1,
+  "operational_locks_released": true,
   "prior_interrupted_scope_not_restarted": true,
   "prior_unknown_response_outcomes_preserved": 1,
+  "provider_requests": 77,
   "scope": "mempool_native_extension_20261114_02",
-  "status": "awaiting_exact_published_lease_readback"
+  "status": "completed_audited_lease_closed"
 }

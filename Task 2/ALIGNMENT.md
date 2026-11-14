@@ -1,5 +1,26 @@
 # Task 2 alignment — 27 October 2026
 
+**Verified authorized native extension — 14 November 2026**
+
+[Latest results](research/coldcard/mempool_native_extension_20261114_02/RESULTS.md):
+five frozen pairs finalized, one newly complete prefix, four bounded histories;
+77 HTTP200 responses, zero failures and 1,648 additional prior-block source-
+transaction observations. Both audits pass. All 1,429 preceding complete vectors
+are unchanged; Coldcard now has 1,430/1,500 vectors, with 70 missing rows.
+CryptoBilis remains 329/366. All 662 private evidence files are verified and saved.
+The old fifty-source campaign and interrupted unknown-intent marker are unchanged.
+The finite scope is closed, lease idle, all locks free and automation disabled.
+
+The user explicitly authorized public Bitcoin address/transaction identifiers
+sent to `https://mempool.space/api` for research status/history GET requests.
+That permission and the earlier GitHub publication permission persist for the
+same unchanged operation; do not repeatedly ask for them. A new finite unit still
+needs its own pinned protocol, fresh locks and exact published lease/readback.
+Use the latest view/resume as parent. The remaining coverage inventory lists five
+32-page native candidates: do not use an old hardcoded 48-page parent to repeat
+saved traffic. Preserve every unknown label, cutoff, full-current status, missing
+row and native/deep cursor. No model fit or score; recheck overlap first.
+
 **Native extension interrupted by automatic approval review — 14 November 2026**
 
 The distinct `mempool_native_extension_20261114_01` prepared five pure-native

@@ -16,3 +16,5 @@ Only exhaustion, fresh before/after reference anchors and funding closure can
 promote a vector. Preserve all missing rows, native cursors and deep histories.
 
 The user explicitly authorized the Mempool destination and public query identifiers on 14 November. The interrupted first extension stays closed with its original unknown intent. This distinct successor pins its stopped metadata and reuses only verified successful reference/tail pages.
+
+Completed result: [RESULTS.md](RESULTS.md). All 662 private evidence files are saved; one new complete vector, four bounded histories, zero failed requests.
