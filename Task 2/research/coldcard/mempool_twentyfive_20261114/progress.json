@@ -1,7 +1,7 @@
 {
-  "active_scope": "mempool_twentyfive_20261114_unit_05",
+  "active_scope": null,
   "automation_enabled": false,
-  "available_vectors": 1436,
+  "available_vectors": 1437,
   "bounded_source_ids": [
     "comparison_0541",
     "comparison_0583",
@@ -16,9 +16,13 @@
     "comparison_0826",
     "comparison_0851",
     "comparison_0853",
-    "comparison_0877"
+    "comparison_0877",
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966"
   ],
-  "can_continue": true,
+  "can_continue": false,
   "completed_units": [
     {
       "bounded_in_scope": 4,
@@ -132,6 +136,34 @@
         "comparison_0877"
       ],
       "unit": 4
+    },
+    {
+      "bounded_in_scope": 4,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0892",
+        "comparison_0907",
+        "comparison_0912",
+        "comparison_0966",
+        "comparison_0970"
+      ],
+      "fresh_prior_block_observations": 1839,
+      "fresh_requests": 85,
+      "http200": 85,
+      "new_complete_source_ids": [
+        "comparison_0970"
+      ],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "c83cddc1d3be01e47045957dd14ca8493e9d60738fd3cf147200ef66da091f9c",
+      "scope": "mempool_twentyfive_20261114_unit_05",
+      "selected_source_ids": [
+        "comparison_0892",
+        "comparison_0907",
+        "comparison_0912",
+        "comparison_0966",
+        "comparison_0970"
+      ],
+      "unit": 5
     }
   ],
   "finalized_source_ids": [
@@ -154,7 +186,12 @@
     "comparison_0853",
     "comparison_0860",
     "comparison_0868",
-    "comparison_0877"
+    "comparison_0877",
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0970"
   ],
   "new_complete_source_ids": [
     "comparison_0630",
@@ -162,16 +199,11 @@
     "comparison_0770",
     "comparison_0804",
     "comparison_0860",
-    "comparison_0868"
-  ],
-  "next_unit": 5,
-  "pending_source_ids": [
-    "comparison_0892",
-    "comparison_0907",
-    "comparison_0912",
-    "comparison_0966",
+    "comparison_0868",
     "comparison_0970"
   ],
+  "next_unit": null,
+  "pending_source_ids": [],
   "schema_version": 1,
   "source_ids": [
     "comparison_0541",
@@ -200,5 +232,5 @@
     "comparison_0966",
     "comparison_0970"
   ],
-  "status": "prepared_unit"
+  "status": "all_twentyfive_saved"
 }
