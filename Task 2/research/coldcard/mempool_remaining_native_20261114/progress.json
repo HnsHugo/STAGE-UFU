@@ -1,5 +1,5 @@
 {
-  "active_scope": "mempool_remaining_native_20261114_unit_04",
+  "active_scope": null,
   "automation_enabled": false,
   "available_vectors": 1438,
   "bounded_source_ids": [
@@ -14,7 +14,12 @@
     "comparison_0680",
     "comparison_0683",
     "comparison_0713",
-    "comparison_0800"
+    "comparison_0800",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0877",
+    "comparison_0892"
   ],
   "can_continue": true,
   "completed_units": [
@@ -93,6 +98,32 @@
         "comparison_0800"
       ],
       "unit": 3
+    },
+    {
+      "bounded_in_scope": 5,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0826",
+        "comparison_0851",
+        "comparison_0853",
+        "comparison_0877",
+        "comparison_0892"
+      ],
+      "fresh_prior_block_observations": 2000,
+      "fresh_requests": 90,
+      "http200": 90,
+      "new_complete_source_ids": [],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "579615d33ecb65474b268b9c6101e019702a56d17da730d0935d6efd8807b04d",
+      "scope": "mempool_remaining_native_20261114_unit_04",
+      "selected_source_ids": [
+        "comparison_0826",
+        "comparison_0851",
+        "comparison_0853",
+        "comparison_0877",
+        "comparison_0892"
+      ],
+      "unit": 4
     }
   ],
   "finalized_source_ids": [
@@ -108,18 +139,18 @@
     "comparison_0683",
     "comparison_0693",
     "comparison_0713",
-    "comparison_0800"
-  ],
-  "new_complete_source_ids": [
-    "comparison_0693"
-  ],
-  "next_unit": 4,
-  "pending_source_ids": [
+    "comparison_0800",
     "comparison_0826",
     "comparison_0851",
     "comparison_0853",
     "comparison_0877",
-    "comparison_0892",
+    "comparison_0892"
+  ],
+  "new_complete_source_ids": [
+    "comparison_0693"
+  ],
+  "next_unit": 5,
+  "pending_source_ids": [
     "comparison_0907",
     "comparison_0912",
     "comparison_0966",
@@ -156,5 +187,5 @@
     "comparison_0433",
     "comparison_0522"
   ],
-  "status": "prepared_unit"
+  "status": "checkpoint_saved"
 }
