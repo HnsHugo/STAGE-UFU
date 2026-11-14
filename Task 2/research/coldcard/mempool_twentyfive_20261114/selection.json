@@ -1,0 +1,81 @@
+{
+  "authorization": "Current explicit user request: Fais \u00e7a et fait les 20 suivant ensuite. Five announced sources followed by the next twenty.",
+  "automatic_schedule": false,
+  "created_on": "2026-11-14",
+  "maximum_native_pages": 48,
+  "model_fits": 0,
+  "new_scores": 0,
+  "original_parent": "mempool_native_extension_20261114_02",
+  "original_vectors": 1430,
+  "predictors": "The unchanged fourteen predictors strictly before the reference block",
+  "previous_native_pages": 32,
+  "requested_sources": 25,
+  "schema_version": 1,
+  "source_ids": [
+    "comparison_0541",
+    "comparison_0583",
+    "comparison_0617",
+    "comparison_0622",
+    "comparison_0630",
+    "comparison_0667",
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0693",
+    "comparison_0713",
+    "comparison_0730",
+    "comparison_0770",
+    "comparison_0800",
+    "comparison_0804",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0860",
+    "comparison_0868",
+    "comparison_0877",
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0970"
+  ],
+  "source_selection_rule": "First 25 incomplete pure-native 32-page sources in source-ID order.",
+  "target": "Operational incident membership, not proven theft/device use",
+  "unit": "Frozen source/reference pair",
+  "units": [
+    [
+      "comparison_0541",
+      "comparison_0583",
+      "comparison_0617",
+      "comparison_0622",
+      "comparison_0630"
+    ],
+    [
+      "comparison_0667",
+      "comparison_0680",
+      "comparison_0683",
+      "comparison_0693",
+      "comparison_0713"
+    ],
+    [
+      "comparison_0730",
+      "comparison_0770",
+      "comparison_0800",
+      "comparison_0804",
+      "comparison_0826"
+    ],
+    [
+      "comparison_0851",
+      "comparison_0853",
+      "comparison_0860",
+      "comparison_0868",
+      "comparison_0877"
+    ],
+    [
+      "comparison_0892",
+      "comparison_0907",
+      "comparison_0912",
+      "comparison_0966",
+      "comparison_0970"
+    ]
+  ]
+}

@@ -1,5 +1,18 @@
 # Task 2 alignment — 27 October 2026
 
+**Active authorized five-plus-twenty continuation — 14 November 2026**
+
+The current user explicitly requested the five announced 32-page native
+histories and the next twenty. The 25 distinct IDs and five units of five are
+frozen in `research/coldcard/mempool_twentyfive_20261114/selection.json`.
+Follow its progress ledger and the latest live retry policy. Baseline: 1,430
+complete vectors. Extend 32 to at most 48 pages, one worker, five-second spacing,
+45-second timeout, the same explicitly authorized Mempool identifiers/route.
+Each finite unit requires fresh locks and exact published lease/readback.
+Audit, privately save and publish before its successor. Stop the whole request
+at the first failure/refusal/inconsistency. No automatic schedule, rotation,
+cost, fitting or scoring. Preserve all old rows, labels, cutoffs and queues.
+
 **Verified authorized native extension — 14 November 2026**
 
 [Latest results](research/coldcard/mempool_native_extension_20261114_02/RESULTS.md):
