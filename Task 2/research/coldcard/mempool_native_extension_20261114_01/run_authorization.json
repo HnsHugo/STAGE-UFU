@@ -1,0 +1,18 @@
+{
+  "authorization": "Current instruction Tu peux faire la suite, with previously explicit publication permission retained.",
+  "collector_lease": {
+    "expires_at": "2026-11-14T16:44:27.838172+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_native_extension_20261114_01",
+    "policy": "A live lease or historical/local lock prohibits concurrent collection.",
+    "protocol": "mempool_native_extension_20261114_01/protocol.json",
+    "protocol_sha256": "f0dd0920eb39e2df08d1926a2b62964ae59ccf0ad26e9c04bd6b6c873720045f",
+    "provider": "https://mempool.space/api",
+    "purpose": "User-authorized bounded continuation of five retained native histories; closed fifty-source campaign preserved.",
+    "started_at": "2026-11-14T14:44:27.838172+00:00",
+    "state": "running"
+  },
+  "provider_requests_before_permit": 0,
+  "scope": "mempool_native_extension_20261114_01",
+  "status": "awaiting_exact_published_lease_readback"
+}
