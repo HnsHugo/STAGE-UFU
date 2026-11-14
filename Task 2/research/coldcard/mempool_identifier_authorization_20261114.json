@@ -1,0 +1,9 @@
+{
+  "approved_operation": "Send the public Bitcoin address and transaction identifiers required for this research to mempool.space for transaction-status and address-history GET requests.",
+  "authorized_on": "2026-11-14T15:35:54.497427+00:00",
+  "destination": "https://mempool.space/api",
+  "permitted_query_values": "Public Bitcoin addresses, transaction IDs and native cursor transaction IDs; no keys, seed phrases or credentials.",
+  "publication_permission_retained": true,
+  "source": "Explicit current user reply to the specific destination-and-identifiers authorization question.",
+  "user_reply": "Oui"
+}

@@ -1,0 +1,20 @@
+{
+  "authorization_file": "../mempool_identifier_authorization_20261114.json",
+  "collector_lease": {
+    "expires_at": "2026-11-14T17:37:01.594254+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_native_extension_20261114_02",
+    "policy": "A live lease or historical/local lock prohibits concurrent collection.",
+    "protocol": "mempool_native_extension_20261114_02/protocol.json",
+    "protocol_sha256": "d0d97cbe2ca2f618234b107f0a868e0ed72856cd2dd9199993383779faf35313",
+    "provider": "https://mempool.space/api",
+    "purpose": "Explicitly authorized public identifier queries to mempool.space; distinct successor preserves the unknown interrupted intent.",
+    "started_at": "2026-11-14T15:37:01.594254+00:00",
+    "state": "running"
+  },
+  "explicit_destination_identifier_authorization": true,
+  "prior_interrupted_scope_not_restarted": true,
+  "prior_unknown_response_outcomes_preserved": 1,
+  "scope": "mempool_native_extension_20261114_02",
+  "status": "awaiting_exact_published_lease_readback"
+}
