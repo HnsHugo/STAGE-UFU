@@ -1,5 +1,27 @@
 # Project status — 2 November 2026
 
+**Completed remaining-native continuation — 14 November 2026**
+
+[Final results](research/coldcard/mempool_remaining_native_20261114/RESULTS.md): all 25 frozen
+sources finalized across six audited, privately saved units: 1 newly complete
+prior-block prefixes, 24 bounded histories and no pending campaign ID.
+All 447 fresh requests returned HTTP200, with zero failures; added 9,895
+prior-block source–transaction observations. Reused 1,216 verified native pages.
+All 1,437 preceding complete vectors are unchanged. Coldcard now has 1438/1,500
+complete vectors (500 case sources, 938 comparisons), with 62 missing rows.
+CryptoBilis stays 329/366. All six unit audits and the global verification pass;
+32 focused tests pass. All 3,474 private evidence files are verified and saved.
+Old labels, cutoffs, full-current statuses, historical campaigns, unselected
+native/deep queues and the original interrupted unknown-intent marker are preserved.
+
+The finite request is complete: lease idle, locks free, automation disabled.
+Use the latest view/resume and remaining coverage inventory for future work;
+never replay a consumed scope or request saved pages again. Explicit GitHub and
+Mempool public-identifier permissions persist for the unchanged research operation.
+Each new unit still requires fresh locks and exact published lease/readback.
+Recheck overlap before model work. No model fitting, scoring, split or threshold
+change occurred.
+
 **Active remaining-native continuation — 14 November 2026**
 
 The current Continue request resumes all 25 remaining pure-native incomplete
