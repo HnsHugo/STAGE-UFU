@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "mempool_twentyfive_20261114_unit_01",
+  "active_collection_scope": "none",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -50,25 +50,28 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-11-14T18:06:48.669741+00:00",
-    "operational_locks_released": false,
-    "owner": "mempool_twentyfive_20261114_unit_01",
+    "expires_at": null,
+    "finished_at": "2026-11-14T16:14:56.357082+00:00",
+    "last_owner": "mempool_twentyfive_20261114_unit_01",
+    "operational_locks_released": true,
+    "owner": null,
     "policy": "A live lease or historical/local lock prohibits concurrent collection.",
     "protocol": "mempool_twentyfive_20261114_unit_01/protocol.json",
     "protocol_sha256": "d9fa7107c47e25c6b21e29023f40db80ed6a756f75aa290f9291169d217803f4",
     "provider": "https://mempool.space/api",
     "purpose": "Explicit five-plus-twenty request: finite native unit under persistent Mempool public-identifier authorization.",
     "started_at": "2026-11-14T16:06:48.669741+00:00",
-    "state": "running"
+    "state": "idle",
+    "stop_status": "completed"
   },
-  "comparison_pre_cutoff_predictors_available": 930,
-  "comparison_pre_cutoff_predictors_unavailable": 70,
+  "comparison_pre_cutoff_predictors_available": 931,
+  "comparison_pre_cutoff_predictors_unavailable": 69,
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
-  "coverage_collection_paused": false,
+  "coverage_collection_paused": true,
   "coverage_complete_sources_added": 25,
   "coverage_interrupted_consumed_requests": 2,
-  "coverage_pause_reason": "Fresh locks held; awaiting exact published lease/readback.",
+  "coverage_pause_reason": "Finite native extension closed and audited; preserve all actual cursors. No automatic restart.",
   "environment_block_diagnosis_superseded_by": "One normal original-route counter GET returned HTTP200 on 2026-11-02. The environment flags alone did not establish a provider access block.",
   "external_automation_disable_reason": "Fixed CryptoBilis prior-prefix continuation closed: 366 final outcomes, 329 vectors, 37 bounded-incomplete; zero network/unattempted sources. No repeated collection.",
   "external_entity_independence_established": false,
@@ -130,7 +133,7 @@
   "last_rate_limit_at": "2026-11-12T18:22:13.994033+00:00",
   "last_retry_delay_seconds": 86400,
   "last_successful_bounded_collection_at": "2026-11-12T18:04:44.428580+00:00",
-  "latest_consolidated_prefix_view": "mempool_native_extension_20261114_02/precutoff_feature_view.json.gz",
+  "latest_consolidated_prefix_view": "mempool_twentyfive_20261114_unit_01/precutoff_feature_view.json.gz",
   "latest_coverage_output": "source_prefix_extension_20261112_03",
   "latest_coverage_protocol": "source_prefix_extension_20261112_03/protocol.json",
   "latest_coverage_result_file": "source_prefix_extension_20261112_03/coverage_audit.json",
@@ -196,14 +199,14 @@
   },
   "latest_output": "source_prefix_extension_20261112_03",
   "latest_pass_pending_sources": 0,
-  "latest_prefix_coverage_audit": "mempool_native_extension_20261114_02/coverage_audit.json",
-  "latest_prefix_output": "mempool_native_extension_20261114_02",
-  "latest_prefix_protocol": "mempool_native_extension_20261114_02/protocol.json",
-  "latest_prefix_result_file": "mempool_native_extension_20261114_02/coverage_audit.json",
-  "latest_prefix_resume_checkpoint": "mempool_native_extension_20261114_02/resume_checkpoint.json",
-  "latest_prefix_resume_file": "mempool_native_extension_20261114_02/resume_checkpoint.json",
-  "latest_prefix_stop_file": "mempool_native_extension_20261114_02/collection_stop.json",
-  "latest_prefix_work": "source_cohort_work_mempool_native_extension_20261114_02",
+  "latest_prefix_coverage_audit": "mempool_twentyfive_20261114_unit_01/coverage_audit.json",
+  "latest_prefix_output": "mempool_twentyfive_20261114_unit_01",
+  "latest_prefix_protocol": "mempool_twentyfive_20261114_unit_01/protocol.json",
+  "latest_prefix_result_file": "mempool_twentyfive_20261114_unit_01/coverage_audit.json",
+  "latest_prefix_resume_checkpoint": "mempool_twentyfive_20261114_unit_01/resume_checkpoint.json",
+  "latest_prefix_resume_file": "mempool_twentyfive_20261114_unit_01/resume_checkpoint.json",
+  "latest_prefix_stop_file": "mempool_twentyfive_20261114_unit_01/collection_stop.json",
+  "latest_prefix_work": "source_cohort_work_mempool_twentyfive_20261114_unit_01",
   "latest_prepared_coverage_successor": {
     "automation_enabled": false,
     "finalization_entrypoint": "finalize_frontier_checkpoint.py",
@@ -234,7 +237,7 @@
     "scope": "source_transfer_article_supplement",
     "status": "completed_four_page_checked_supplement"
   },
-  "latest_status": "twentyfive_native_unit_running",
+  "latest_status": "native_extension_closed_audit_passed",
   "latest_stop_file": "source_prefix_extension_20261112_03/collection_stop.json",
   "latest_work": "source_cohort_work_source_prefix_extension_20261112_03",
   "manual_coverage_workstream": {
@@ -260,7 +263,7 @@
     "successful_network_responses": 37
   },
   "maximum_429_backoff_seconds": 86400,
-  "next_coverage_action": "Use the latest mempool_native_extension_20261114_02 view/resume as parent. The inventory records five remaining 32-page native candidates for a distinct next unit. Preserve all advanced cursors, unknown labels, cutoffs, full-current statuses and the interrupted intent. Never repeat saved 48-to-64-page traffic. Existing explicit Mempool identifier and GitHub publication permissions remain valid; require fresh locks and exact published lease/readback. No model fitting/scoring without overlap recheck.",
+  "next_coverage_action": "Use a distinct pinned continuation for retained incomplete sources, reusing saved pages and actual native cursors. Preserve all old vectors, unknown labels, cutoffs, full-current statuses and native/deep queues. Do not restart consumed scopes. Recheck overlap before model work.",
   "next_network_attempt_not_before": "2026-11-13T18:22:14+00:00",
   "next_run_time_provided_by_service": false,
   "normal_run_bounds": {
@@ -285,7 +288,7 @@
     "remaining_information_gaps": 150,
     "summary": "source_prefix_extension_20261110_02/original_twenty_reconciliation.json"
   },
-  "prefix_bounded_incomplete_sources": 70,
+  "prefix_bounded_incomplete_sources": 69,
   "prefix_network_pending_sources": 0,
   "previous_automation_paused": true,
   "progressive_128_to_320_coverage_20261110": {
@@ -325,7 +328,7 @@
     "https://mempool.space/api": {
       "approval_required": false,
       "automatic_provider_rotation": false,
-      "last_http200": 77,
+      "last_http200": 86,
       "last_refusals": 0,
       "maximum_requests": 95,
       "minimum_dispatch_interval_seconds": 5,
@@ -348,7 +351,7 @@
         "comparison_0622",
         "comparison_0630"
       ],
-      "status": "authorized_twentyfive_unit_running",
+      "status": "closed_audited",
       "timeout_seconds": 45
     }
   },

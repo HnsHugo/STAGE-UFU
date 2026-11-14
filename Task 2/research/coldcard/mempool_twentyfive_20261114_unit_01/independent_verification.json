@@ -1,0 +1,92 @@
+{
+  "additional_unique_observations_vs_old_blockstream_not_claimed": true,
+  "all_successful_response_fingerprints_and_cursor_sequences_verified": 251,
+  "automatic_retry_performed": false,
+  "available_coldcard_vectors": 1431,
+  "blockstream_provider_requests": 0,
+  "bounded_coldcard_prefixes": 69,
+  "bounded_in_scope": 4,
+  "composed_view_sha256": "cc7708fed6f00b693cfa2e9c889efc0f080b124704f7206e37a83d299f449ce1",
+  "cryptobilis_bounded_prefixes_unchanged": 37,
+  "cryptobilis_vectors_unchanged": 329,
+  "failed_request_records": 0,
+  "finalized": 5,
+  "fresh_native_source_transaction_observations": 1860,
+  "full_current_history_statuses_unchanged": true,
+  "model_fits": 0,
+  "new_complete_prefixes": 1,
+  "new_complete_source_ids": [
+    "comparison_0630"
+  ],
+  "new_raw_tails_reextracted": 5,
+  "new_request_records": 86,
+  "new_scores": 0,
+  "new_successful_provider_responses": 86,
+  "new_vectors_independently_recounted": 1,
+  "original_14_definitions_unchanged": true,
+  "pass_name": "mempool_twentyfive_20261114_unit_01",
+  "pending_in_scope": 0,
+  "pending_source_page_checkpoints": [],
+  "preserved_old_vectors": 1430,
+  "private_native_cursors_sha256": "bb5e4316c0fdd3b5f54c8bcbeb18c265d9f612d1337684d1a8910f5a5ea63015",
+  "protocol_sha256": "d9fa7107c47e25c6b21e29023f40db80ed6a756f75aa290f9291169d217803f4",
+  "provider": "https://mempool.space/api",
+  "provider_or_route_changed": false,
+  "retained_native_observations": 4000,
+  "schema_version": 1,
+  "selected": 5,
+  "selected_coldcard_sources": 1500,
+  "source_progress": [
+    {
+      "fresh_native_source_transaction_observations": 400,
+      "last_native_cursor_sha256": "f3171b926d31d55518986a87f3af621b853894a0136c98d3616cca8f9704ff41",
+      "old_native_observations_retained": 800,
+      "saved_native_pages": 48,
+      "source_id": "comparison_0541",
+      "source_transaction_observations_saved": 1200,
+      "status": "bounded_incomplete"
+    },
+    {
+      "fresh_native_source_transaction_observations": 400,
+      "last_native_cursor_sha256": "16c0ae0c0f49dbf6b133973b4cd23e716b8e8f9b505cc2711b8c793ed4a5c4fe",
+      "old_native_observations_retained": 800,
+      "saved_native_pages": 48,
+      "source_id": "comparison_0583",
+      "source_transaction_observations_saved": 1200,
+      "status": "bounded_incomplete"
+    },
+    {
+      "fresh_native_source_transaction_observations": 400,
+      "last_native_cursor_sha256": "a6c3aa3a5c60368eb24eb0ed20753f6a39ae4ad768a1b6f99c7c6a227391cdde",
+      "old_native_observations_retained": 800,
+      "saved_native_pages": 48,
+      "source_id": "comparison_0617",
+      "source_transaction_observations_saved": 1200,
+      "status": "bounded_incomplete"
+    },
+    {
+      "fresh_native_source_transaction_observations": 400,
+      "last_native_cursor_sha256": "5d64280084fbe740ec2bff6d73546da89c0fe3851a022056ec2aef1114b2935f",
+      "old_native_observations_retained": 800,
+      "saved_native_pages": 48,
+      "source_id": "comparison_0622",
+      "source_transaction_observations_saved": 1200,
+      "status": "bounded_incomplete"
+    },
+    {
+      "fresh_native_source_transaction_observations": 260,
+      "last_native_cursor_sha256": "3b17a56f76652c3cdac5da978ecb8cc217817bc7c7fd6161c468f979684e1cbf",
+      "old_native_observations_retained": 800,
+      "saved_native_pages": 44,
+      "source_id": "comparison_0630",
+      "source_transaction_observations_saved": 1060,
+      "status": "complete_prior_prefix"
+    }
+  ],
+  "status": "passed",
+  "successful_offline_responses_reused": 165,
+  "total_remaining_bounded_prefixes": 106,
+  "unknown_labels_unchanged": true,
+  "unselected_rows_unchanged": true,
+  "verification_basis": "Raw endpoint/cursor and offline-reuse fingerprint verification; original UTXO re-extraction; independent feature recount; old-vector/label/cutoff invariants; provider timing, budget and stop checks"
+}
