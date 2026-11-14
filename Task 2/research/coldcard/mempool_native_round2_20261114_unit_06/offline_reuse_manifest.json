@@ -1,0 +1,2922 @@
+{
+  "native_cached_bodies_reused": 324,
+  "responses": [
+    {
+      "endpoint_sha256": "5f302318e859c32e1028142f8088826330f29f20f44f4ae3ff3dc0682dbd158e",
+      "key": "reference",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "224624cae5b10683b72be85a6537dfeb7fac17e1186d146fa6a824dcccbb32bd",
+      "provider": "https://mempool.space/api",
+      "sha256": "8686bde7382b9f3b7655e71dc12f345b6b83953f74df61dc5b7ee47ed040a5a8",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "f65d45b00e502ba58caae3d47ada90a55d8115cd049bfc1855e71d9ef2df1449",
+      "key": "tail_0000",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "dd732f968e775162a223b4297999faadc6f91ac62a4667fbfb2b7c7208a8a417",
+      "provider": "https://mempool.space/api",
+      "sha256": "812ccde190c026ba713ecc49199624b6ad4c79049135f3ddd8fc75a6a013fd66",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "6f7d7e5ebf43ce36cea8fa5c2dedf05fd08e99371bd39d0d07821f824ee7ee76",
+      "key": "tail_0001",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "41ff5c07d8f5ae25a56be29a7d3291122abfec287026cda99d0b0b47f77eca98",
+      "provider": "https://mempool.space/api",
+      "sha256": "0d9af8bb96cb2e1a3c556486aa08f7d1328569c8e3f5c0ba7720888ccf4016ed",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "dd6c9729ddd565ae1017fe55743422647a3bda63ece809275a3c62e0ed43aa9a",
+      "key": "tail_0002",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "adb7f0a38f690c7f96848b86fb2779cb0f7009af83f9d6298127fb547c314aee",
+      "provider": "https://mempool.space/api",
+      "sha256": "36443b71c1c4bd60493c4a8b802801469b45ea6bf3d4343c385e2ee0bca58491",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "acd33b64a8a3002f89d16fc27da8d5f8123d5b43137c7e84a07498fb99de4e7f",
+      "key": "tail_0003",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "720d8c478a5496b3add100a55b569a252bcc93118cbe16a303d29b0652a6c0bf",
+      "provider": "https://mempool.space/api",
+      "sha256": "ae8cbe41cd0139e20d021291124096a4e0c2e998000527db7028b6c1e48a47d0",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "440b83cf2ba37e5c9f70ee044b001d54233f038698ba85b9070d1be5335ed0f5",
+      "key": "tail_0004",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "00bd350f3e37d7d843bc2fe118ab8a315ecca8ddcd4be059b8437d54b2357ec1",
+      "provider": "https://mempool.space/api",
+      "sha256": "27540060256c8c4fa5a11dee10a14b772cdd26834c4863747b9c2505db5d5419",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "87c08b4dba56f696544202fd21dcf1216c4c0333318bf66330806ef4fe658cc8",
+      "key": "tail_0005",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c9a49f2e755b7635fa187cf2803e2754ac6dac012dfeaff3b843a4dee4c81652",
+      "provider": "https://mempool.space/api",
+      "sha256": "2b6df9b3ebcdfd8ed8fb6d0a7ae6921df558d3e3e2d34d56e6bf967c53c5bc63",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "ea3945cf4c17ef909f81a64028fa9be20200045b13b402017516c8d7101945fa",
+      "key": "tail_0006",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "e22a98ba02501d8fe9f65db93e4aa904c452383e286f2f4686b9f16524097bfe",
+      "provider": "https://mempool.space/api",
+      "sha256": "aa483c0aa3a450e899448386366623c6bdfaf1d6f1e76d737494970c2a7419b1",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "af8c224a4218c64de3740bbbfcc966b183a72264b3b40c9533c860928a2f9f9a",
+      "key": "tail_0007",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "401cb193fa26f36ab560502cb1637366e37e8c1c0c6be8c7d49952fb375acc3f",
+      "provider": "https://mempool.space/api",
+      "sha256": "394fb54ebadc489b99a635bd4f4902aab4a991ea1955d5f6941d7ec48777442e",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "78c6d812eb812f70b90ef82b0b0fdad4f66e0b189f4129fa9e2788f685b0c968",
+      "key": "tail_0008",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "37232bb8dcff602ee8cb34984fdc9fa87d4a698587be0c9117d861a3a50a9225",
+      "provider": "https://mempool.space/api",
+      "sha256": "bf4e4ae6f9d52de09c3a7ebc1d96571c31eecc39f3521645801701c93b286035",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "a4e0f3f1aa8469bec7f647e575784d96f7f8a036df93c0292d3eeb35e6897105",
+      "key": "tail_0009",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "89c558b1338f3cfbb79b88e679408131b27b5efd2d6e886d577627ee7af68698",
+      "provider": "https://mempool.space/api",
+      "sha256": "07bf757fe2bcce8f32a3a0f9021866189a3a09317e4abbefb6faf83c3797c7ca",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "bf0af147e892adb323442afa84174e7e48a15b4db32207e6fc35918063307308",
+      "key": "tail_0010",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "009741b95286f8cdf1013650085c1fc26001a6c35165e28c87025299a9974f4e",
+      "provider": "https://mempool.space/api",
+      "sha256": "4000f4a1ae3f8616fd5bc0757b74b77e20c4b2e42aa076c86130a3f30b1df761",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "c0ee3d31c05e3063019f7a6366189c33acaa2ed3102128d5945255e86122055c",
+      "key": "tail_0011",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "826b7dc78e7b14b3700150c7d332352ebf56a004b1a9995f60f0649182676a30",
+      "provider": "https://mempool.space/api",
+      "sha256": "be3fc02d25786a25f75ffec1d0819d841e52e365bf3e9d0b0e9dc911f2d49117",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "12180e684d79987b491292809cf5e601374227fbd0e804697d9720da855b03fb",
+      "key": "tail_0012",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "8560c32fdc352f743e3bcbc8d4a09c1c74eb76a7d944606019ab1733dfc4b982",
+      "provider": "https://mempool.space/api",
+      "sha256": "40685ff36736b7dd6b3808cd90f32ed237f1d736e86c63908f532f735c221802",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "d14bbc0155ac88bb711b73bf023b0419e15ea9997a91a15964faeb5dfd0ae999",
+      "key": "tail_0013",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "247ab124a15d64e7e1176acecd8dccde85495df21cce9a3cee6659048a51c486",
+      "provider": "https://mempool.space/api",
+      "sha256": "d46da528e768e1edf87756419d400d3c557dc15ccd3d736e362d419a05d53749",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "dd4adca8b7d6af082265eaedfa7f0cf5d26c2af8a18c2c0bdfae9926eaa1c270",
+      "key": "tail_0014",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "7f3149efb938462adef05abb1a22a8ebb8e76f6a94a72d37d49a6e25ac4a8b03",
+      "provider": "https://mempool.space/api",
+      "sha256": "84df995c3ac600e65acbd3ddf328d42cf5fbf7cb13eb9a865aac21a880721a7f",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "ff762d48252e9a2e63abc3067b5ff10f7bb6a44c25f8ed9f6cbec40262d13a28",
+      "key": "tail_0015",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "eea62b57355965ed77e11e986c00f2c656743a03e788e22f694d83bd9db584f5",
+      "provider": "https://mempool.space/api",
+      "sha256": "57bb5a12eaf6c4eb37f1acd0e4a0c72ca6500f2b0f071ab4540743e7858e091d",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "aa1bba7ddff3986cba75db1ecaf90de8f2d184dca9e6b34d102f00ace29c567b",
+      "key": "tail_0016",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "f3e322e26988800de6c1344b4d59bf7d3f6fb0b119f558241b538e267cd82e15",
+      "provider": "https://mempool.space/api",
+      "sha256": "0c6ab28985a87cf2052fb221ab5dc650397f159199a51a7312590e9cfa206e3c",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "13b0212342e4aa3b3b3a2d948fa1e8fcf6f4bf37deab9aeec7e06565516b3c7b",
+      "key": "tail_0017",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "034594c2d7e9e52c16d26df9c90b672e540c710519972b9f32b62404fd97acc6",
+      "provider": "https://mempool.space/api",
+      "sha256": "198fc61ed36f21506d2f2ef7de5d5b03632946df537534a675808563050c1d09",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "5d9989536bcac186961753cfe70feb2672521e4d9808a5981544a056ed872881",
+      "key": "tail_0018",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "845be0d183a22c60a117c7ebf6f61842e87f9799d73683ad18ecbd5deebb8aa3",
+      "provider": "https://mempool.space/api",
+      "sha256": "3c3b3aecca256524773aaf4b1c12a3e1f7e890007c9a254c3ef9ce007d080ae6",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "6ecef94b7ed15796eef20590fed73374033fdf1f97ee9a4edd4313935f6dd213",
+      "key": "tail_0019",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "fee07ae842d17a24f1ae2087488768f9633508a587be607ebc31871d798981a0",
+      "provider": "https://mempool.space/api",
+      "sha256": "f46777688ded7f154f1817669ab9b34553f7b355947d788589a859a49574c702",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "8e5e7ec7b2292330c1a8d949ce979687535eb9f1be3ea6498e267afad4c71c7e",
+      "key": "tail_0020",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "dd40c3424e9bbecc79f08bd09a10f98b2f9dcbed48499d8fbc028c0ef78f6dbf",
+      "provider": "https://mempool.space/api",
+      "sha256": "cf6a64d3659e810b840c59e5b7570f1fd0251199b78ad29881b1262240f9c181",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "ea047d8a0ab9a232ee7bbcfeea66d580daa4b4c874fbbf008a13658d5d47bc4c",
+      "key": "tail_0021",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "e848929e78837791b8fd1e096dfa69afc27db4c6c8b5cb32279f2c08491262ec",
+      "provider": "https://mempool.space/api",
+      "sha256": "3d9f72a244cdadc425d945f7001a62b03cbc6811c7712bb078e5575457dc788b",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "07f39f4a570d04e2f275cafdff1ee20267b67b33f1b12c5d2127887a1000fb27",
+      "key": "tail_0022",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "5f01f4af3d712cc8913fb3ce36aa087c9ef4bbe9ce96aa3d9001e1700a760e34",
+      "provider": "https://mempool.space/api",
+      "sha256": "c185b036b699526c4c09144936861c798e74eb2b5fb52efddafd4aef0a37b3f5",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "9414f461241f2f9fa60bb602e649049dd91cd2e374f803a1f6dfad044e6045bf",
+      "key": "tail_0023",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "52c2867dc2e53b648d5487eb3288cb61986426158e96bbf23b36a490e649e675",
+      "provider": "https://mempool.space/api",
+      "sha256": "014c582f84808c4822560310cd0ab81c744d4faddcd0081b379c34eb1067de97",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "3466eab25d83aecd7bd6ece171d4c2501f4640f0bca7737c029bd439aec9da9a",
+      "key": "tail_0024",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "83423add7519121a161b422d0833f82c94fa57c455af23dc540f30e225e4f288",
+      "provider": "https://mempool.space/api",
+      "sha256": "51571f0c43c127de9ddfcb1fcf5ea82d57a4a8bba2bbf21fe2592a37f05fa196",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "45c2179dc33128459c31e51cf07dea5ab9ae8879662e62814f356b1e6e647d89",
+      "key": "tail_0025",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "ea5ad314d4b52244880e4930b3ef4a1552a75c540ce07e6fec056ca9f3b66a85",
+      "provider": "https://mempool.space/api",
+      "sha256": "cca2dd02aa6e99bcea633cbe193470a5bbf0071f8623e544bc1f750d847aed48",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "cbf5184adf1bfe6c58e717d7f7854d236df423a9155c23799199dd1ec5486b86",
+      "key": "tail_0026",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "622e7af1da72e8b660346c0e0dd10e2e42dc27ebe3fc8d510a84893b6f27eff1",
+      "provider": "https://mempool.space/api",
+      "sha256": "46035573db48be0d8a2ebe5cbd4cbb2ef2a826d6f884177eb2be31c68f14eb63",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "9c50374b445c7d9ceb455d5606d54a28eb4626cc8909d5cb1d8d854671fe0cee",
+      "key": "tail_0027",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "2dc271689594b233e532f6e0088ce6ffb05524abee02124dff09c0d76508d7c8",
+      "provider": "https://mempool.space/api",
+      "sha256": "c65a4fe61c7fd340e183a9d910a8808380194ac1418683b5075b9b1c1c8e667a",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "46db31b4acf1c11764a7e30a557fb663f9ab8fd178b04e9526c3fb20cf4b906a",
+      "key": "tail_0028",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "81805612e97b41ccecfa73f8d6d30b3da3c214fdb4671ec66e3867b5b5771d97",
+      "provider": "https://mempool.space/api",
+      "sha256": "8a3b738bdae4fc63641b8640df1dfacaaa3b69a3518b70f4a094522a98c87995",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "aa7dc96d50cda08d5e1cafabac353e1323fb771f6e1833849be23674a65b0e60",
+      "key": "tail_0029",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "a3a3427271166ae2bef991d4bab94c898f022fb24a4fa82008a72e7739540493",
+      "provider": "https://mempool.space/api",
+      "sha256": "bfb5b3fb968c8a8ceb81c3dd88602b7f260ccc2fe932dc3f74aca00a5ccdcef8",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "17721ff6771fcd3daed4990ea740d22d6d728cf92d1247d9dea5e9fcad12b797",
+      "key": "tail_0030",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "19e22d452212b77aac54327e4ce1616d28f84b5053f43a9e89a2d52bb339db36",
+      "provider": "https://mempool.space/api",
+      "sha256": "d3953504b05bed5ce8bc39cf0f455580c90338887be970c18fb179f06f7914ac",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "30b74d5a853e69ab0df37fa536fb59b077810ab95af9bd01dd1c086f727006e9",
+      "key": "tail_0031",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "e77df6a76bd30f9be17e4e3dde231affd39cf234443fb0162ffb0bd4b115f1c6",
+      "provider": "https://mempool.space/api",
+      "sha256": "6a20e683d502e2295db36a13aa87b9f88c0448e890960ea3cf6df9e94758f13b",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "880289c6f96f66ca592a83850eae9db96866c11d1b337c97d841269f31fdf5b8",
+      "key": "tail_0032",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "ffe1b19a89a76cf6c06314adbb6a96ab6952a12b8818ce0ca3ba52e1b4a12fd7",
+      "provider": "https://mempool.space/api",
+      "sha256": "5a6bde48aea03387f2ab9e7306005abb84895d4d2b6acbf07f88082d887e7f2f",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "fe41128300fc232d15085832fc902f9e4ac4543af265edeee0a474d4551e7fae",
+      "key": "tail_0033",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "168e48d9c4b0f65d5f6ffd6b9b98265fb0a657f4603d8f9d10726944438ad044",
+      "provider": "https://mempool.space/api",
+      "sha256": "facd55f3eece7dcec76123fbe966b5c7a75bebbf26c2c87c2275ef25cc665115",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "2819773b7097465d5af3fad83119b5a976beed2345b0baf5e5d16775d8d8de77",
+      "key": "tail_0034",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "21b90d919fcdb22ef2e79bc3d0300b92e9e32ee0726a41584f90733519822259",
+      "provider": "https://mempool.space/api",
+      "sha256": "a796fde8272a0a44e6dd553c529e8e434ccbd7c5d20aa5eea726217b6eb2811f",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "2e66d76321609747f712bfb14d1fe3db96f41ca275c68411b6a1bd67fe23be84",
+      "key": "tail_0035",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "92956d09b7f72607d07961c15834dd1c71844309dcf5f1e77926e5a6fb11ab1b",
+      "provider": "https://mempool.space/api",
+      "sha256": "1b786aced543afa6dca1db2ea2185dac472165f36325a67247c03dbacd836fa2",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "c3cf595c39bfcefc7e3af9cd7c3cffbf7f9b92eff9b65ab60bf424d8a4ff041f",
+      "key": "tail_0036",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "5e1aa760437f502e644126c96692db441504679f2eb5a4b1bef0a8584f7815a1",
+      "provider": "https://mempool.space/api",
+      "sha256": "567ddc8dcdfe8cedb6743c6efe728843a151267dead248b9d82623aeb8da9d96",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "afe10f7f52f1518d501eb1b7be0abe561fed6c52f9924d7a25f1028bc163134a",
+      "key": "tail_0037",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "855f636aee41a0448edd6fdc3c401726ace7953f83547fe4cc2882f73c513935",
+      "provider": "https://mempool.space/api",
+      "sha256": "7fcb42df0a62da8e52967c6914dd4b1d9ac690585a2a85c37ecd95ca3ac928f7",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "e0a10ed3d5dc180a1bc63447a16c7c2d90fc1fab1302d07c887cabe58f9269c3",
+      "key": "tail_0038",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "77466b14c34dbd60c876e4d0644b960a0e07b54bf8915327279ca57fc8fc6e2b",
+      "provider": "https://mempool.space/api",
+      "sha256": "6435971ca17a708db404a256dbcf2034bd2eea43dd969d54198f6bebd9f0a0d3",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "023163df2da92be96e799fa7760df0751e0c00a969976ce414a9916321d869fb",
+      "key": "tail_0039",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "3e5073d9067098b4afd4c9a2f614976f8357a4d552e12c03a055a42f336b77dc",
+      "provider": "https://mempool.space/api",
+      "sha256": "aa17837c4c4ad3ee85233e9eec8bce988594f4417f46e30bdea70ff0577cde3c",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "79d01309d155858f851426a12431b50072a14ce89411aa9c467278debe06bcdd",
+      "key": "tail_0040",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "52549cebfc239d108e910630962f6677512649d6836abc4ff7faee2178175374",
+      "provider": "https://mempool.space/api",
+      "sha256": "8efc8a248e483a49e1a5059f63ab0427adb56ae8b7714f7b30c973242180264e",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "f3e2ec1cf8adc03d6441dfe6d0ec78ed7828b32b3ce77fe95613b347afd88d8a",
+      "key": "tail_0041",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "59236ab21c3f2d33d8136e83e19e20d81b801a802d8f88d4d167cffa65bfad92",
+      "provider": "https://mempool.space/api",
+      "sha256": "f9fe0911c0f8891dc0d54eedcfef88b611526ea3fd97ac31a3ae48ce8dc393ab",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "dff336c6c06739ecdf909d21dc41b256fd89c2fea6e8ecc085cf121931de2f95",
+      "key": "tail_0042",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "afcbd72c58fb6a84dd7f2e364c81f34dfe0c0ba45ab48501c696c01614a24d89",
+      "provider": "https://mempool.space/api",
+      "sha256": "9d67b58de50447c59d678d03c008d7ef122dfd70b6a9b2c94f5692bb9e0265d4",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "2501022eaa90daa0aff3f662b6b4d50131d203bd2463b4af5d20b10bae5e4848",
+      "key": "tail_0043",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "ac08acfba884a51f428e9aa15e95c7323c4efc2c7da1be09bdc1ce4dff78d7c6",
+      "provider": "https://mempool.space/api",
+      "sha256": "bee42437d302a773017e3be6274360f56234926eca95d8f91a96073865f1a5da",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "84f4f1b53ea7861e22b9c7c048fbe888d269f3f5d143e610db290a193e57f009",
+      "key": "tail_0044",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "a464eb1b83ba60fe2bd1feafaf2c9f13176a75b12eddcbc31c9389e11ea5296b",
+      "provider": "https://mempool.space/api",
+      "sha256": "f51888c15be8e644e24cbde6a4f4198109e5fabf439233040d0850a730d6f6d9",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "9feee58676b5a663d590ec999e173f041c6a6fc8a11d89163cb98d2e7021fb1a",
+      "key": "tail_0045",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "2190bcb81050d8e7e04a1dad2ddfe67b4ad563ecd33f0f26aab390ccfc6266fe",
+      "provider": "https://mempool.space/api",
+      "sha256": "d4c0d20140cb3f443daa1c18de797354dc1e70f274db66faf36b7627c7f7646e",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "d46510dc32eca013abf890717dd9ebeca0b179c119f3109cb510aa0bbb41212b",
+      "key": "tail_0046",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "721e4dec0fbe00c83e4dd9e0eaf25a3dc37632b3480635f885efa439fad35798",
+      "provider": "https://mempool.space/api",
+      "sha256": "7f540f1eee0d416886fbf1c1329d09466a3311d39e467f04aaabd2216617d6b1",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "685398faacab1b861c72c12722d86bd0201cbd905b86a4603f20fab092f6dfab",
+      "key": "tail_0047",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "467c46cc2618180bfb486badadc974ef854c4eb167d4e605c7e70fe26a98b78a",
+      "provider": "https://mempool.space/api",
+      "sha256": "5a5839a19b9265fcdf1ff47c9143fe3c2aaffc2565722d08a31dc812f1f1b696",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "fe8a93abb5246833332e3dd4516e2b0f9fbc6a8c6748dd0314e6d938eeee7786",
+      "key": "tail_0048",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "13819e9c4e186ba8b89178de15bfd38d0ec8a40a384da6915fd10ef7f9743f47",
+      "provider": "https://mempool.space/api",
+      "sha256": "fa17ea11a0a3794e3e13c6f43272c35ad938b3636fb1df4d0d6ce63c0fd18104",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "3a2237fd149281b065901856770e4217a6cea65e1b110d35f94b441cf212c1ad",
+      "key": "tail_0049",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "339a5a59d73e500546c534a6d87505df083f5e112d1e209f98c4fae03459806d",
+      "provider": "https://mempool.space/api",
+      "sha256": "71edfe3187437e7ef2f2c9f0469ecfa88b0761c16567fac806d3dea0e962b8fb",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "765d9129fef956f228e7e2bada04330b8f83fce62c9dad5389918deac413663e",
+      "key": "tail_0050",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "ca761893caf0281bcda7dc01a9496f64ecc2dc3e70899e21af0c8082593b9c8f",
+      "provider": "https://mempool.space/api",
+      "sha256": "e23785e9a3dc7db8cd0689d20258d119199f2464abcc12694d5236681d83f07c",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "4686427e60788e8d08255552da32cec65e6192faadeabac6501f68ac626411bd",
+      "key": "tail_0051",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c380763666c1844cb91e9e922f9c1526c46d12f8a54b67842dd8e19576b8daef",
+      "provider": "https://mempool.space/api",
+      "sha256": "be46eefa4bb2add477bc7d9ee1eabe2bfb222c273b53cb085f998f726900c74d",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "f6b6d4ff28f30da6af9e1df3c33ed8e77da579a4bf80dc3c9c1a239aa2f91e1f",
+      "key": "tail_0052",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "b17975931bf4b0500320e96b566b7915174a6e361df05661a2fd30a2a5d05aa2",
+      "provider": "https://mempool.space/api",
+      "sha256": "af2f039fba37b683c7e3328ea982632c5d70d1b7abfc566983732f2c5f4ffecd",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "cb2b7c699fd07d61aa0fbca7ccfd0b1d9ae39ca171d6e2a135aad836694f0e8e",
+      "key": "tail_0053",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c2d0d201111dfe66a90cdb25e6d6bcfc3a9e87f430f6ac6d6764c2a593b58e3f",
+      "provider": "https://mempool.space/api",
+      "sha256": "ec6bbf566aa0477ec47428bfa9cbabe694c79acc31bc60b7711846ed96b9bafd",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "fa0036608bcbfa3360a8e8b116d78018229efd5be3da7d097e975d125a7f5bdd",
+      "key": "tail_0054",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c63dce558a75ce800d611ef40a3786b739e6bad9db3c18727f142e2f8bd5781e",
+      "provider": "https://mempool.space/api",
+      "sha256": "a07031be543496ef8c6a6feabced12f419fd49e94bcbe491d7f0c83ef2708f63",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "ce53fd5d1c106ff0b1dc4abe4ad5063ebf18568f25664ec4d33ff2aeb13074bc",
+      "key": "tail_0055",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "0abc4e9f588830951a6db803456e31f1ad05f359574b61d8fab3af954eb5f586",
+      "provider": "https://mempool.space/api",
+      "sha256": "011d65b10aae3421db83b55741ec82aebf01f5f411e1329c8cd40fc55e2c5ea0",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "3ae324a45504b1794d12344359633b740d8bb1d87679a19004dc0de1c63318ae",
+      "key": "tail_0056",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "f6d610c88ffd07be7aa09e4dbbc62ab8c455c71c84be81ef6fe33a4051371ea9",
+      "provider": "https://mempool.space/api",
+      "sha256": "c40cad5823e2412e9b2d52d60cb6235a22ebe732e66cc5442c256a0df8c96c5b",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "031019f3fb6ddc5d6364e344edb562938c1919333e710d580494d7670f42375d",
+      "key": "tail_0057",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "7b9203ba2f62ed93b2ed79c76dc7f9493d1725ddaf3b9aefffe49ac770ac117c",
+      "provider": "https://mempool.space/api",
+      "sha256": "844b8ca68be81e3df4e709c468c927f2c68b5f7d5ea5b296575628f208dbdfc6",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "a03379e93802b758018cb9726952aff0b1be7140c33f8c0748bfbdb882e836d0",
+      "key": "tail_0058",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "82cb68fc918cde31da2cee3dacea7bd094d3075a20c07a4a8395b89f0b50bb60",
+      "provider": "https://mempool.space/api",
+      "sha256": "b657f911fd1515a78a13b15de2332b50cd3171469816b443e1dc16f233112913",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "04d267ff505ac8c7cf94494ff5859ab5e02be8e87c0fc4d854db720529e93cdf",
+      "key": "tail_0059",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "6196a111a4ec68bfa90f8bebcd32467205dff88adf8d9eda193321beae4ca8aa",
+      "provider": "https://mempool.space/api",
+      "sha256": "495d7c076bf63e6377d7fddb55675a59ad62dad349c0261bd460105ce7f13501",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "ecb714cf6288c8e535b0c23816f61557c34b50b205136e972b300bd704a19b96",
+      "key": "tail_0060",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "d06361ed1649377391638d24c2d6fc8a3b7aadbcad7b363bd6c4301fe10b03c2",
+      "provider": "https://mempool.space/api",
+      "sha256": "0eb7908beea8ce2109f71dd4a0500b9c5d6e1a65fd8a08bddced73886b21629a",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "0686f198b5767b55ebee9ac981fd964aec8c1b14494461b2b5940292fd231b01",
+      "key": "tail_0061",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "99be4c440261c266a82ef06d97ffd726545d0dcd073bb8c0565bffe974e10b1f",
+      "provider": "https://mempool.space/api",
+      "sha256": "58267e15984e542457102a8396c8339fdc3a818da8068e915f97a3e131ef16f4",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "00035afe39a27b41c0bca3594aea76c2b4a380bc225d4c0419f03cf5e13c45e9",
+      "key": "tail_0062",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "af3c59266b831be46e935972da00a8c622af0604b29b5bd1fecf93dae8658542",
+      "provider": "https://mempool.space/api",
+      "sha256": "738539323eed9d1b5532986d63c316e905fbee358e4ccc6206b6106204b00ba0",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "bc80d8d6f3439e8e41bface9ea948ce64b75e65fe52b99fc9b985d0b2798dbdc",
+      "key": "tail_0063",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "7fa68f11e5cfffb52f066ae06def848dea4923ac6930a14a5f909d664c3b2ed8",
+      "provider": "https://mempool.space/api",
+      "sha256": "9f9d910ec0ab41817479a8d9d08062108f19ae432927726ffa595e2436e18298",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "b866d3a93f7d173932ae7762b4971e9591c25328ab9c516ac27c42170e121e03",
+      "key": "tail_0064",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "a5b9d1cb0777ff9bf8f19e0e818b0ff56753610754bdbd3db7c7d36ad212fdcf",
+      "provider": "https://mempool.space/api",
+      "sha256": "75f0fe42da4eb4fa502497ab5b03ea8ba485a701279acff05accf3f86422401d",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "ee2a3407bdea31c308c66f792b9493b133c8dd2870ef5c98624b1026ff9e60a6",
+      "key": "tail_0065",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "8fd695129c73fa0c180acdc241f6e98d20cdc5aedec7251a53d1d6abe3fe8353",
+      "provider": "https://mempool.space/api",
+      "sha256": "c0c0a5e466a72dbeed2948145eeb9fa231fe3cb6b0feabe93057f23bab381719",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "411b744847f79b2e5d077a9afb2c37ad7031b30b931efa1f4cf0f9df2b32cd4d",
+      "key": "tail_0066",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "50d698144a4e96c5fb1ac95e088f60dc451eaa73ea2ec4b8c7ccc4e4199d9164",
+      "provider": "https://mempool.space/api",
+      "sha256": "a67d745f93f485c12af203165d5dbacafea3bc3aa279c31f39586ad38355ce5b",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "c869ff9499888abb4dfea53ced8b1917830612a34edca92d1a8f125cd1f1f0ec",
+      "key": "tail_0067",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "93c721c0a7bbf4525f604b85372d0ddcf8810da0e8c9aa333eb5ce59f7c290b8",
+      "provider": "https://mempool.space/api",
+      "sha256": "f1f06a1fbcbc2df03d36436a5f7928d692fd978d7683527912e90b168bbef953",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "03194bd4caab89a371ba1192920b87d128ae906d4390bc5f8235c5ab3af3fa80",
+      "key": "tail_0068",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "6b23b1b202345798c7c359fd389b32c0bc47fbfa2dae02500c2e2c73ac7f4b42",
+      "provider": "https://mempool.space/api",
+      "sha256": "d59d1a708218a5879241f932fd0829109de41ca2b71562c151a878ef1eb15bcf",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "59c4ce9da0047277fa9d4b27c5c23bfab02c8bcf4ef5bbc2b8eca42edd05ce68",
+      "key": "tail_0069",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "8c6086b77c8e2c7711c17ea5d3a9c11da8be5d6feb0cb55d1d29fafe464abd5f",
+      "provider": "https://mempool.space/api",
+      "sha256": "fc1ccfefd02450cd435b98be576150c3d856c0f69a253a5acc2ad3bed75f847d",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "20fc83d151747f7480e0ab3d126f4d465fffb0a7a0b5a1118c668f37890a901f",
+      "key": "tail_0070",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "e732c5eda5eab7610c8dcdb02b89662b7b64701419c5f544ed937b6b0c8227a6",
+      "provider": "https://mempool.space/api",
+      "sha256": "93af136122781f49a68ed38d24d04785a1aa5944a78b33a919bdeffede8b8dcf",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "575929170ef1584c244558e5627e7546eb6af61aa9038d8e3abcf1a6a055f1d0",
+      "key": "tail_0071",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "08c23238445d507e4c6b6174cd942d20330e5f19445582097fad72615cb8b413",
+      "provider": "https://mempool.space/api",
+      "sha256": "bff211ecbcaea188dbe0f476adc2e7864446ecb771edfa53d6a4388d0723a4b7",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "ad518c47b9229b44086a231e165ce33f3b95537c72701730204a3a4b7683f1cf",
+      "key": "tail_0072",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "dd451e40db69b7240b2ae972151fb60331f9fbf93a3e6071824b85231d582a43",
+      "provider": "https://mempool.space/api",
+      "sha256": "2d82f9a70b17633b69a1d9cfc01ec1529453a946608497a98eadfe976f0e21e5",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "5c19cad2cb07551830d428d94a82c5913a4c095b85d36c30d02b3ce63be9d85b",
+      "key": "tail_0073",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "52b9cfcb4da7c2afc00c0d32b57ca4edae3ff858f1a9051a8a7bee56e5e5ed76",
+      "provider": "https://mempool.space/api",
+      "sha256": "722e930b943694d4c17d7535fedccad9340c340e5ce23536b18fc1a18967f828",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "0f582ee0d80faa4cdaa6d0e3311629319ed576a6afe10be51c51a439ad711dd7",
+      "key": "tail_0074",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "f6b363437b1ccbb3306395ed18df7f3562fb9836e42b0197a2266a1b4bec744a",
+      "provider": "https://mempool.space/api",
+      "sha256": "a89dc78b7712a250ac9244938f41b71f51e1fdfe455daba0ddfccf409904598e",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "4529d6540515305d8f918dd3e683569c5849ba21d2feb7ac2430be5f89643d5e",
+      "key": "tail_0075",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "5d35ee94468f44c3af1a6284e43f19dc8b93a657e58c4f8af1a580fe4bb2d23c",
+      "provider": "https://mempool.space/api",
+      "sha256": "06ae8d60ce407355aa4ecdf108497bc782d357c05c33e1548c9ab5f86dbb9818",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "33114dadf7882c11c6085ce515813f7d387e1633608fe42e1d49a4d880d9a92b",
+      "key": "tail_0076",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "b295b7f644815ca991fa42d290512d7225c7d8087ad496a05b9bdbbe2bcb3583",
+      "provider": "https://mempool.space/api",
+      "sha256": "78b34e8607aed5ed6e3ea5d55bcc14cb8e6ee94eac87a2b8312da98030215d8e",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "e18f8c607fae6cbd803cc06502f2e62d001a4d0dd40f562736d6cf3556d22d66",
+      "key": "tail_0077",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "721b6cf67eb3d6ec3db4753823fa6e43a2bc2843d8ff040d2bf881e15080e09e",
+      "provider": "https://mempool.space/api",
+      "sha256": "a72af5854cd613847b5ef28dfbeb59bc7748bd9769b631f5d1d5b2c15f9ebd47",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "bdb4a76562b56beecc6d14a597cf689ee484098471dd363b3451984117b854df",
+      "key": "tail_0078",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "9047a09b95b307d98623af948b344a6d51591ee1dee4e4c890d0a41a669c2b62",
+      "provider": "https://mempool.space/api",
+      "sha256": "c0499f78c2e7832500c3866f326d1536f54a45d646f4872a0cdf320f076ddb0a",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "9e7eb1d57690d2b87751050adb7b0e58f861319e8a3faba7528a3afa05d345ac",
+      "key": "tail_0079",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "107191d40207aeddca4f46d6b7255d363f2636421c9996cc4e6ce6cbf602329b",
+      "provider": "https://mempool.space/api",
+      "sha256": "f977aa423a5ececa536023c6eb4df98ac272c0ce38957a8dc2afddf42a08c19c",
+      "source_id": "comparison_0390"
+    },
+    {
+      "endpoint_sha256": "1fffd9c3e6e5a1e00bb3109c594978510625e9564476320fec5f252b3a09a145",
+      "key": "reference",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "48d35eb7ab3f6ab637be69285602e71d13e5047d8abca86ab1effdf7ea2b4655",
+      "provider": "https://mempool.space/api",
+      "sha256": "79aa5d21ac59b4a77cbab79f04ebfc7de2bd9ca83c469eb188e490da37a072db",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "d5bde568ca1d02ea3ffa8f299403d1c5e8ceb8db25e0b3497082be644949544c",
+      "key": "tail_0000",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "bfc61684dabc47d4615ca22d15c7e3e18f262c2a00dcd2d86506d31bcb9d35e0",
+      "provider": "https://mempool.space/api",
+      "sha256": "e6d940eeac6806781edba9867ca0e8f72d601a10d662a78e59ba1eeb29f0cb5c",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "70d1ebad63fe7f91b70fa6e5c2a758297259bb337fc0eb89a93fcaf3c7731152",
+      "key": "tail_0001",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "a8c139662d403198f02b5cf8a842a9d88733e5e35b8b061e78648b146a2e2ed0",
+      "provider": "https://mempool.space/api",
+      "sha256": "3f9fc4b8852e4c5ece9dd1a2f200db059b846ca8398ef6e43f4ac7202a29dad1",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "9e32a91b9d2891ee933e88fcff43f2ecacdecc2e95ebe52c2f8357508ddb3d05",
+      "key": "tail_0002",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "f80b70776b5f34d602cb6ec8805ff5fe478267e794882d0f0a043e1941ad9e0e",
+      "provider": "https://mempool.space/api",
+      "sha256": "dee86a2dbbc38a7016978bc60359bd74e00f51ef13b3b3c374467f98a877869d",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "44945bf403f2e514da7c38debb0a583f43a74c866a31e6970001e52d34862b75",
+      "key": "tail_0003",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "0d1cf139b68dfe9007088c886937da1d6323109761e4ba86e5f3e09aed941470",
+      "provider": "https://mempool.space/api",
+      "sha256": "e940981ca696c6b87d3e247892b9d44021fa442d80aa14d15eb01198c71c65f0",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "60f429d0fcbad7fda3a1f54065e6e7deb04f760294cf1698f0f1f8840e60fd14",
+      "key": "tail_0004",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "7040e71f0f6c5fe94ed65802d2cb1e79c093f7a8788e715e5f838fba7d15ae16",
+      "provider": "https://mempool.space/api",
+      "sha256": "85c1657138a53f7a25a22b92fe6d7e3acca770cf0fc2aec43ff655371de6b3c3",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "d0a003f9feff8f54071b0ff4967140bffd3fbf261ee8e6767d17798afb357ec8",
+      "key": "tail_0005",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "f9c330f64d66e37e65c333408b083b73bfb1343e7a27758bcc7432441a26c7be",
+      "provider": "https://mempool.space/api",
+      "sha256": "d747228f968811fc8432999484c864e10de07e95fc301425f6f8ccfe33c2aebd",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "96742d2ee38d860768cf54799739abfbf136883160efdb16988ba16904bb355a",
+      "key": "tail_0006",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "0eb4d84840ce06bad1045c93b5fde96462d4a0aa6eb1bb590f9f707d825382fb",
+      "provider": "https://mempool.space/api",
+      "sha256": "ce658496a615d8e23cad37b560ed91a1417cda0e059244d2fae992dfa5f4981b",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "799172e1001c16a845fb1301776190ebee6a502aaeae29168a83147f319e22d7",
+      "key": "tail_0007",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "cbdcbeba95b8a78c49c399d966c57b74a0273439adbfc694daddfa1c114a370e",
+      "provider": "https://mempool.space/api",
+      "sha256": "c01e990eccdb0d78c8c852a3194ce254765401d9384a19f4c5366e7f7264357a",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "32e41557dad2f7b16f8ce6e01bd16bd6d4927ce0f52429ba9957da38a6394efe",
+      "key": "tail_0008",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "2f7064643c6a20420c7d888426ac62022c7833540826c6e6441acbf6f16beec1",
+      "provider": "https://mempool.space/api",
+      "sha256": "9d54d1dd0b6df216732aa70467f52dd64fc94adf351556edd930c63d3d65b65d",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "29d9e863a0593cda9b20138457f4ad982afb2da82e7915da0938d66736e6c942",
+      "key": "tail_0009",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "ba824f9a563e925503977c352d231a7cf62977d026d7a71634cae8968fa04dc8",
+      "provider": "https://mempool.space/api",
+      "sha256": "9b197c6ee32baab042ef3c751cae977eb07ff507bbe1b615cfbd792bc99cd21f",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "f7258e6b69574773dbeded46a4db2a6e613e7a908e57978e1b17958bcf923f2f",
+      "key": "tail_0010",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "1ba63fc1e317610d888672d0492fcb712b35ab96b220ec735c09584c79660ab9",
+      "provider": "https://mempool.space/api",
+      "sha256": "ab849a34a9601dfaa9e6ec8ec021629a81c95f5caa62e1328ad9ce4e0bec2904",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "e024429dbe92d672423bf2b46c9b70e572ab1fd02f43e4e6ef7e31d4c6b3b84a",
+      "key": "tail_0011",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "84c6157aabd67a9199c0d7884b5d90a8940ec946e06316edce3516b4c2ebe6b8",
+      "provider": "https://mempool.space/api",
+      "sha256": "d303e44d5c5defb6e2290d2d22917248a4360d8fae34d2a18028731f216f8ee9",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "6dd1f3e1c2bb44e674fc88d8d2225e33af4a5ed22a56f3150ab9af4e4c483703",
+      "key": "tail_0012",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "e54b77be0601922371f65c92c1e21aa3ce00d6ae737179c5bf8ce7d8d22e1510",
+      "provider": "https://mempool.space/api",
+      "sha256": "c5930f9e500bdbb9c7e7182f7447920df256b4a97788da43a9365dec5e32c013",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "ff01b9967f29722bfb0a8a8af5755441e1eaa9b6efa54d91bcf08b67a8badaaf",
+      "key": "tail_0013",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "ee787ef8d256e8df160f051865fba422c4363cc36d2adb5dba9aa40cb854a147",
+      "provider": "https://mempool.space/api",
+      "sha256": "a446c9acba719223c1f6bcb225b7af39ca14635ed6fa1022fd953bdb6bbeca0d",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "aba1360b364ee3e6f11b7cc2d0bc15f9714c58f83b41d8d57b341c9794282617",
+      "key": "tail_0014",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "a470b92ddd7f541d5bcc1b2a4299bced9e43fb4bba7c6f7a7f871da925336fff",
+      "provider": "https://mempool.space/api",
+      "sha256": "20a99ea7e59f0a06caae9a06940a9433e17725e637b9113187ccb1e837efc0dd",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "5bfa5747348f51db1149b9e1e5d9145a931dd02e75844cc3b3c0f2b5b721dc87",
+      "key": "tail_0015",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "07b4f49a90d6994752ca7f2c63c7798d4925ee1b4f35dd9e3c353a76a9ab6231",
+      "provider": "https://mempool.space/api",
+      "sha256": "6334a64a9915062130a54100add1217f36725d16357db0012b9e47f547df10dd",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "18c1ad39c2bcc7d02e2b27c9c032eb8f93bc1386f0c7c4865a68a3e426ee3722",
+      "key": "tail_0016",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "2aec61b9f48b5503b9ab5f867d87435662503c0ec1e0d0949a315dde54bd3969",
+      "provider": "https://mempool.space/api",
+      "sha256": "5c78906e73aa8179ffe476043ae42338989f32ccdb62af48b9943c4191c89632",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "4562dc6c39cbbf8dab4694ef9e261bea4b79e88b28cd338af6b364c8cd651abf",
+      "key": "tail_0017",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "74aea3a2c9d3cc1463c64fa5f3c0c92c4728685d802ff1b0518168bc9904bdd0",
+      "provider": "https://mempool.space/api",
+      "sha256": "3b4122d1455a2e2249c956c6b040d9670a6d965f7a21bd721da8935abce6feb7",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "6ad174941bf554f55e7cc733223ae8d83581c0f3ebbdde1b75d96df7502d8909",
+      "key": "tail_0018",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "ed05d5bf40f04e5560b647b81b0ddcef2ea4c040898b0ae7eefce6ea401febfb",
+      "provider": "https://mempool.space/api",
+      "sha256": "1a03945498b5a10ed0505696a01a6f594686c6da95ed8614634c2fb5e776a85a",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "8f76fe2d644735344be88725c1f08d42ceda44ab95e0298d7825fcfae038483a",
+      "key": "tail_0019",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "d5a18676a4d1674791f540a64d4e059aa5127ff95f036b2961cd41128cd563fc",
+      "provider": "https://mempool.space/api",
+      "sha256": "3d09d42224c6c99306a1b65a623496412f3507db886780fe9fa64aa1ffc06ed0",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "6e8d98b53919485b0e8f30262f42b96069d11b410f0f9e871a617e8618668a9f",
+      "key": "tail_0020",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "b91133cf2c6f0c0ee45ae6780db543dc4f9b3926d92913b7c7a99382deff39b2",
+      "provider": "https://mempool.space/api",
+      "sha256": "c1b306ec3b6c050ee39efb72843fd0b49b1aa1b45e7384ed9fb1ea10e0747fad",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "d9aba1672187d1d5c414729f4865b43bad5e2c2a38bf346419435b06e25c9a5a",
+      "key": "tail_0021",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "d5fb29872d9506b9a8d15f486a29dc0cccb9fec2b179a85c607af0e69ad1c5d0",
+      "provider": "https://mempool.space/api",
+      "sha256": "09fa9606439f5d7e25d19486df338508f06f435a211daa9c3c00d30a17b8c615",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "633ab17a9a4f0284a618463a7b8bbfcc4eb5be3ee189583b013a25d1882d44c5",
+      "key": "tail_0022",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "73f3b367e8c60690f4860e881515c5deeab934e85f60a4ab7aa31e653a6f4148",
+      "provider": "https://mempool.space/api",
+      "sha256": "6771b2c65887d13959f28949b479cfafa922f94418a0f9ef9e2eafbd3563ac93",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "3374d46deb861757e26717e9229d2effe8f8c93b70cbe5932381df75d9156277",
+      "key": "tail_0023",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c10b397323bb3f2bbbc2841444b59e8d215fe83f2eef11980a211018728cd27c",
+      "provider": "https://mempool.space/api",
+      "sha256": "fa62b6c57c5203b0692d5aa789791830820c67b12168043435bf100bad4eac9c",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "be253213cbd1d8550339dd7cc731327c526e0ec0c9b288aeb57fba7f996156ba",
+      "key": "tail_0024",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "2e241d1a03864b0ac02a713e903c0dca90b5188d0d76d84e996d19f5bdc2e802",
+      "provider": "https://mempool.space/api",
+      "sha256": "9347b7dd3b6954c53d07cd7561f6b1d77a2d6e35d760432ca1eb99b8c181c358",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "eb7a9e6296ebf8391e723539b0d1ee49544c035bc4c995ec0dc581482be29d79",
+      "key": "tail_0025",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "016c2f46fd5a60fc8df042996ec95db4eaf99c175bf92f4dd7f11c2441b16c37",
+      "provider": "https://mempool.space/api",
+      "sha256": "e17b232cfde30c2b05857b4a8b6e42e003b534520bd328da8bc3cf073c1e9861",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "0d991d19eeae377233bdfc8e503a39efa13a474bf872826dc0b721a1939136ff",
+      "key": "tail_0026",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "1a4846110a1c2a72c94e5cd855dda409038b687fb505b443db9c975050055273",
+      "provider": "https://mempool.space/api",
+      "sha256": "827585e57d2935d963c4457d0fd8ca8310356b676e0e755c4fc45ea98595f813",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "82e43c17930e59cf4a070333628baade88093bcee2144f6888f54a5513915b63",
+      "key": "tail_0027",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "30aa34c6d45e9c2951f8d72fba9462c30d108ae0c88b6fb467a28596a606d51e",
+      "provider": "https://mempool.space/api",
+      "sha256": "42976919903ca5085194258e05ab4fa6924cb12c4cd949c16ee2ac50b4043cb6",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "e935d8423da2c2f7ea860d77f43c586a5a603e1641b1ccf1203b42adc322b302",
+      "key": "tail_0028",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "d20f28498f3b8b20be400c1b49e9b153f4d8e27a5ff88dc1fbd172bdcf8c32d2",
+      "provider": "https://mempool.space/api",
+      "sha256": "7fee6395f508566775c62256723477110c003c487e331b62be5b174b1ea756ab",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "aebd19140a90611dc4300d26e91c3575e7ca7f1af078e5016001222bcf99a632",
+      "key": "tail_0029",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "69edf8ebdf171545062e3495f3e141b9a00eaf648ddb788075542c816c5ba446",
+      "provider": "https://mempool.space/api",
+      "sha256": "92ff51d687b767781ff274a7715dfb0f3deb51433edbee17f1a8cf4f923a6f5c",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "11caa0848e084b77d1fa24801f3701df38f711ac80a8bd79c21b88dd6f5fabc4",
+      "key": "tail_0030",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "5e6d271f291599db89f6aeb9a295949b27a440f8f8725511f5c7b42630c97740",
+      "provider": "https://mempool.space/api",
+      "sha256": "72fe93daa9b99e908107dda266cabbed41627dcace9b9a75d23652871a241195",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "2b5bb5d0980348156952f9a38ce8a678c3c629ddcde90d1ca63226e92b4e8d45",
+      "key": "tail_0031",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "d059df86e3100f30ac0e2d0d89122f1a08530195ed01c08bc6d4eefa1c5fd1ad",
+      "provider": "https://mempool.space/api",
+      "sha256": "443dd3879b5a5ddc01b1270c535dbe362e8af814b07a22746755eef0686cfdb8",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "3f2c95c028af85d9771804523340b02ec79bd7756722f0d38c6e97c6f8b8d167",
+      "key": "tail_0032",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "09d3662196f3bda9def67f2e0471813c7c0977878494f7107015d67b614c558d",
+      "provider": "https://mempool.space/api",
+      "sha256": "bf2bbe67223e27d25afa79a3985d39fef223a26382735aeb7370eb78b2321cfa",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "ccbad60de1fd841582654e1672130fc04d8258f4843f640b026bbc1face65673",
+      "key": "tail_0033",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "4413069a5264aebaee07cafeab8b366b3c4d6df5f5a8067d351c9b8994b2e55c",
+      "provider": "https://mempool.space/api",
+      "sha256": "75174af18afda105cf3d86b61debb0fe626147e82223c73aef66fc761c31741d",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "bc0d900a12432ad6c4f4178762ea899d76cbdbc60119a434b0ef422d4972af19",
+      "key": "tail_0034",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c5f5194a62d2ef7499935688e485e5e5d1c9768e0bcc10fc211b23922a59edd4",
+      "provider": "https://mempool.space/api",
+      "sha256": "7d269b11bdf679d36a937c7b10e3db2f4b2c11f505b40597f6cc3c30e91b83c7",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "d05b4841f34a41cbde4d560e773793ecb4aa57db2fbbb17b2b748f65b9af6c32",
+      "key": "tail_0035",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c5d7fed2452fae62817de01c6becf5fb8483d7ba81d85abb70e264005a2a6bab",
+      "provider": "https://mempool.space/api",
+      "sha256": "6c9d104bf7be09b16b34ad316ad7124559b1823c3a115861ace02724840032a5",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "87e1ab4d2114f4c65d3009c7f3705c233a396a229d9c912846ba2513bddd60e7",
+      "key": "tail_0036",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "37d2d6e3f011476e3b9732a442cf50a48efd8424b8bca8f6956996ed871430ca",
+      "provider": "https://mempool.space/api",
+      "sha256": "fb5150838a79f65577032a7fb62758800c6e36bde28c805a23fa0e342ddcad78",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "f476174ac8db5b9bea5c0e27bedf416ad7fb731007284b1c19950a9070312fcf",
+      "key": "tail_0037",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "08ad0a7234d76e4b7786e7cb858a140458efc0a2d31b93f976812cea4e8e1ec3",
+      "provider": "https://mempool.space/api",
+      "sha256": "1988ee5cf6a461244d9365f7ebda821e710440785170d0ee8c15f608d3f8b4db",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "a62740fc6d651275bb1d40ed0edf75293d05a07c14d5589233c34dc64597cb26",
+      "key": "tail_0038",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "3e4e0327ef1d88fdf0f0e3fe965d2f011d08b08a5d1ff783e896d8ce2afe9609",
+      "provider": "https://mempool.space/api",
+      "sha256": "730cf1259fde16b2c9176c0ad1ce85dde2b51d144b96eb816ffd7ceeab73c5f5",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "50bcfb7e8a3d7ddcb7a00b94cfe7906e6fff88787ada2ca941cf2352d0177972",
+      "key": "tail_0039",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "807e1d34ecfa9dc35922a6236506701971aa6381f71e9a303f56daea9e8456f8",
+      "provider": "https://mempool.space/api",
+      "sha256": "f0edb6ddc66b7f3a53f72d89876e8fdef50b01efdb6cf0a5c6a9598379a96c44",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "e7af8ff2fa3d308e94711aac646fcf5cb9e71541aed2e2197ed6b163cf821de0",
+      "key": "tail_0040",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "d3eb810ff337db2fc0bfe3dbbdbd8e8b07b82de33caea01b8dba12fa545aff10",
+      "provider": "https://mempool.space/api",
+      "sha256": "bcd641e4438c079b57086826a737174c7d76d5829e8acffcfcc755eeb112f1bb",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "45d6e19bf33bfb9c50b00b1750ee4ac2f46fff0e1bebb95a51d1f7a7810d4c34",
+      "key": "tail_0041",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "f6e43c6107cb2ddd049962f1d3a1af0183658be9a87e9283847cf80d62bf8471",
+      "provider": "https://mempool.space/api",
+      "sha256": "3be88ed7db03b1007c1c5b56105161512fa58db64a8becbe1abdc11536cadda4",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "454afb822e8d4ced67c4f896c181218fc793ee89a8a629623410a4f8de67978e",
+      "key": "tail_0042",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "663ae61a7b27c9ccb8139433d028f31975435aeb6dc53fd0f24c444a8a52e8c3",
+      "provider": "https://mempool.space/api",
+      "sha256": "1f2b403d606c93ce3c95172f72f137c3fe77383b5d7e7a4627bc68b8e2b657af",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "ddeb4d45c50ec02db42a869c4a926966f1115c37a0ffdcd9fc469e6ac9c0a684",
+      "key": "tail_0043",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "d6272022ac1d3d9349d27b50c186ac64b8c980530b142e6ba8b8ab5c8670eb47",
+      "provider": "https://mempool.space/api",
+      "sha256": "bd8c0ab804653b01b9445e4c7cd1dca36d47e80b76969cbc667a276664f815bb",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "f434dd02a6c40ce95a439c3a58be85ce0688e585278162c8ee2a617d25ba0cd9",
+      "key": "tail_0044",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "39ad1cb661ae33af7f7ba3a2afa8fde8463b2d902e715edf70befd7549bcd756",
+      "provider": "https://mempool.space/api",
+      "sha256": "f60f7beb1ac82ba06003c9157b565fabb0baff6385adff60b838a13bd3726b96",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "cb30ceff1c8747ffc92964394b220fe74cebca72c4e6dbf32987db6234d17b13",
+      "key": "tail_0045",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "b404de2154e22663b027eba46bd3925c64df2ea050bebb0bad723d5c654aa2d9",
+      "provider": "https://mempool.space/api",
+      "sha256": "848cb144650c967622edf8980e6416714536be418e4cc9f8b2e7bb10492ad78d",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "e0c5b7f7062779e595ec1a435f44922f7ae7fd84e6e4b9ac63ebe77611e75cc3",
+      "key": "tail_0046",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c0e0b71a24dc46abe33fef2a9100ed98722f5d5976905313d316124ba09715b4",
+      "provider": "https://mempool.space/api",
+      "sha256": "b429b8e1d11fdf6233ae98f64ed08da061bb23dcfc4e2879c66dc2ee340fe776",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "b33ce5ce6563f79bd12bf5f846f1107da143f04f129cfe528272ccc8c6e0c5c4",
+      "key": "tail_0047",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "a4daf518ccde9398e5183694a021439a1d252586a3a7552ef34d9b9840099dc6",
+      "provider": "https://mempool.space/api",
+      "sha256": "d07bb6e5aa45fcdee9129038276616a8b70ce8a33081e9d6ee3a294f94acf1b5",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "50d2f3125e1a0d4ad2e750f81ddf894f528779e83539ea1e163df5bec316e024",
+      "key": "tail_0048",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "7c15794f3d96ce9c2743850aac3582c5e7f13dc61915b04053c0050effec1818",
+      "provider": "https://mempool.space/api",
+      "sha256": "03e8e13fac0e5f61e46fe8085554d55adb181865788502d147b931e3aea1b9dc",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "6574573d23ee1c66d970b0ef0eca610f4051baa08429c6e75fb3fb1ffab1b1e7",
+      "key": "tail_0049",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "8702abbf66148a7d3dc919ea17adc1f7aa83d822d5590caeb4efa05e8b92842a",
+      "provider": "https://mempool.space/api",
+      "sha256": "7e0945ca71563c2ee223bd6ec32dff42ce0f7fdb5def65f8013cbb924ce783f5",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "d7bef8ebc2a15a0a867b218f62ea5db635fed9ed3a178f269115d726f50e93f2",
+      "key": "tail_0050",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "fb5f6b83900d8f8061c3193fba652e9d622d6fb832370ed8d236bba0d1d9d75c",
+      "provider": "https://mempool.space/api",
+      "sha256": "232ca9d604440a86b3716ab9eac623af26f982ce3dd53163c96548b59a3350bf",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "13690124dcd4aa8652b663ad81dd4b8323b8b4ba5540f5f4eb67889a158a996e",
+      "key": "tail_0051",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "19565f2e8d36d6add9cedf922f58b00351ac3b98563a3e2c7de8822605397b20",
+      "provider": "https://mempool.space/api",
+      "sha256": "3100fed61a42fe27b65b86288361f3ee18bf7c5e835b156f761b3ef6f0ca09ab",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "d4c8c8306ddad15936b237e85626fa094b7fe96aa5c7602a6ef23515ba0f6d63",
+      "key": "tail_0052",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "736d160ccb5f60c7946c350b951394e49439de8691931f4944054c0544ea8b81",
+      "provider": "https://mempool.space/api",
+      "sha256": "f6c15bb0fc868ac484e26a0ef0434036f43b7704610181038db25fea47501f17",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "1e2d2c5f018cea8605553ac35af90500c8b7d80432b1741c9c2adbfc83792eb8",
+      "key": "tail_0053",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "659feab2315b69bc63960ab80beb52ad4d2d5e5f76318ef88eb6db66c0a12283",
+      "provider": "https://mempool.space/api",
+      "sha256": "8fb959e38b5ec91130bc8a747c79fa82dc00a49b78743cdb2b1075b6a5426c3f",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "396251dfbfe6b5a1721ffdb95236327eee48c3540edf231cc26ef8c0558bbc76",
+      "key": "tail_0054",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "2308cf743501021fa17bc5d7d718cb41e01a2e1a9a57e9071d31e6fa855b46c8",
+      "provider": "https://mempool.space/api",
+      "sha256": "f24a2597833efc9e726d3ecf1aa07ba38dfee0b743b2e2a47f36263f71823caa",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "3a883f0543274646a21766a2789104c28a4618137b3b96717e0df3561616391b",
+      "key": "tail_0055",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "195c4c0b85264094a147911f7202b85cdbae5012af0f09ae23c2427e7c06dd98",
+      "provider": "https://mempool.space/api",
+      "sha256": "7f70bd85669223d76f4d6cf62817460b5378904a47d0cf8f7bf00793bce424ff",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "a7c37889f4d1b670d3436946357ceb612dda040f988e361bfc8d66ae54292bde",
+      "key": "tail_0056",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "94daced7f4eb19b0685b8711922b15b6c4ca6456078b16bea01907cb555e1377",
+      "provider": "https://mempool.space/api",
+      "sha256": "e322dfb407a3936398b4bc407a7663b199b4c7e7928514fc4388bc93445444d2",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "70aaf8c567090258c9a5f6aad00994ee402589adb7ec8e9f6aa630e71a69c865",
+      "key": "tail_0057",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "dd9c5b01d478a77b2307af5973c8a06819a984662ddd88aee327b68918c6b237",
+      "provider": "https://mempool.space/api",
+      "sha256": "b68f1c08c59a531253fafa82ff378cf1b54cc15c5fc68dbde879db64265284c5",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "c7d2813a77ec74ccba0dac254ac5a4a43d91088dc940c9fc256ec7a226dbec65",
+      "key": "tail_0058",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "b5b843963a8349055de56038a2346020311b9559c43e49ec7710edba58f03afa",
+      "provider": "https://mempool.space/api",
+      "sha256": "6fa2fbb51ef36dad4e1bbda9bd36da9a4a0e593a805d8c25e44e8b30aaed4ce2",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "2aa5e96053905013dec1a20b9af3b98ccc5d20bd624ff882524fbb911171abc8",
+      "key": "tail_0059",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "b88c6b7d015e596c786bdb76fb9c747f9b8277760a494a5cc417038124c74ace",
+      "provider": "https://mempool.space/api",
+      "sha256": "a88a23cb4c00fb3cbd58b091fc1e2f7c3fef30f9b5c75f75c7806ef7ea02eb2a",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "bdd75b17baec5161ba319a1b2e753e62374f2ab29f8dcd96108c82c07e8ab798",
+      "key": "tail_0060",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "4ea95720367c57f78a160720c494e0c51ea9011b3cb8935a460f82e875a9033e",
+      "provider": "https://mempool.space/api",
+      "sha256": "7b64c3f60206993abb549addf894271c03d04229e268a3429499a40a64829827",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "9f2d4f8540bf73167622c8694d0ef9b806419aeb393194a42fec37b851773909",
+      "key": "tail_0061",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c630f0661c6db82abdad9699f748c2f3a470c28a53d4cbb9c195995d0b39b3d3",
+      "provider": "https://mempool.space/api",
+      "sha256": "5be7f6dde3c0d28bb3bb5a85c9476a9ea8e70dd5650ece5395e49aecd75b65cf",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "673fb2da88dd521862bf4ed3b84cff7cc01318c13d2f56abb04a973e0f5fdff5",
+      "key": "tail_0062",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "e5ee80de6b4fce0a774bfd7cf0e8e2d1268e92094fa2e648eb9f92206bf71b5c",
+      "provider": "https://mempool.space/api",
+      "sha256": "a2c4bd49e3217a2dc82d0876f5b82bc1c85373cab047a1b9569047fb86211db2",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "b1ee23e768f862c9baeb996ab77810d56dcbbd3073e2e2e6f8a9c49fa6269a9b",
+      "key": "tail_0063",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "d6fbcbfcf4e759374f48d759027c246069c6941dc8b7152f8e93c11c49de9d48",
+      "provider": "https://mempool.space/api",
+      "sha256": "fbff54cf911f8c0f3081d0b31bbd06961beb76d04490f2277db08f7f744146ce",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "4499246d1af13569bfcd78507b7cac1f96e0d9d9dac2134fce607f6ed5cc2542",
+      "key": "tail_0064",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "ac56776923ca53aa1d843454355882b938d7677d7cce3d2165d3d8bfe7594ef7",
+      "provider": "https://mempool.space/api",
+      "sha256": "c01776fcd50d2c44fd479048905e62fe27f00fd2a1b0e4fdb325906d0861fb27",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "10542e29db9a704c498bcd3d13675bba8af69c8b17e249cad90798fe45004ae3",
+      "key": "tail_0065",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "7a24571711d40f1c95139e08975746f0c4e12eb006ff482f76c8534633b578d2",
+      "provider": "https://mempool.space/api",
+      "sha256": "d47f9fc53ebfc67c0c34097b3c0c12355dca07e3e842ade2359196f29b29b4e5",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "59efbd5281c3cfec8fc2e2257f2e502319b8cd5670b1a01d12a31c4fdcab904c",
+      "key": "tail_0066",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "0ddacf92ae56541fbcb1749df261f8889fbba1927dec5c5e9975492f2f081271",
+      "provider": "https://mempool.space/api",
+      "sha256": "c3cbd1171c4663f31ea2a5418b0305a27487267a51cc6c9c530221d042e85257",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "efd47dbd1f71f2c40bd510251d371ca4a82d58b7205b326d624957f4af3572be",
+      "key": "tail_0067",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "a18e06fc2724ecad50192a1f871e56a23527c83ee83a1645d43c0465e888cfb2",
+      "provider": "https://mempool.space/api",
+      "sha256": "eac543870d4987297538e140118121edcadd47c8ade00c907e9285ea47e17079",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "d33e6a27b8a0178cd1f2d7b648e1b14cfe5c65791778faad2a002024cee67195",
+      "key": "tail_0068",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "2ba1d2140f50f6df86a3dfc95c173edaaabe8bea5243cd488f11e931b6e2d497",
+      "provider": "https://mempool.space/api",
+      "sha256": "4c2b34e1de19ac3941a800673218c05a539c172cf077b17dae57c8502fd48eda",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "e9fb5fde323a5335ed42a72eb102a932dd0d087628ba12a7266289a590db2821",
+      "key": "tail_0069",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "b97b33ba55f8f508a5180b5eac94052bfc769b010d94b180a06260040482501b",
+      "provider": "https://mempool.space/api",
+      "sha256": "f535921c5f2b97cfac0a30cb1c22261e41c808525ddec2a4e48ebdc496b93f80",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "8527c84875faf6ddc85e9f90cedc30804e9ed4c7938e3510c391b0792c906df2",
+      "key": "tail_0070",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c350b4e2dab32b2b403432546cea8cbf96a1a9fd784963fa503042bf30506289",
+      "provider": "https://mempool.space/api",
+      "sha256": "47df17e752a4dcb8932ca4486d43d4b66aa73101adaf67038bb3b12099d81ece",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "de85993fb55ff4414709f0dcdf75314d41cb329a3b5931f1bc20e435124e66ee",
+      "key": "tail_0071",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "576889ef1dcbc87a103d076e0efdf15ed11aff6c57d96b13a81812568dfb935c",
+      "provider": "https://mempool.space/api",
+      "sha256": "5b5f4b6ba73cbc8bc2916fb2ab3beecca269882074688e4139b88c6ed9d23130",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "200ccfea6626a3ed6c7b10602f4c4d9bdb12e8571704550ca2fca038883e6e3b",
+      "key": "tail_0072",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "01044c88a21ef98ad317fe72c9f51f51faf0064a1fc5d12a1248cb85ed156874",
+      "provider": "https://mempool.space/api",
+      "sha256": "975e6c7dc37dc6571b4e5e68c807d90ecf359e4c1f9782c1c6724c3a7c2b4281",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "558dca40ddb592dcf2623a9f627a8c7bb492314c4551470ffceeef01ba42c851",
+      "key": "tail_0073",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "e38e288065db11d27cc12a32192155c7131b6bd22345264228d3e59cee293960",
+      "provider": "https://mempool.space/api",
+      "sha256": "894d92d8e711af1dbc4a3d23e873bf591ef7e099f90d99c9f94a09e6e8b16d4d",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "3ffe38e480499f952bba5ddae558a658a33f4efada269435ad0f81580ae233ef",
+      "key": "tail_0074",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "e457d1f8be548b21bf18cc2be157d2958e833f92175b7b08790997a9452c7c6d",
+      "provider": "https://mempool.space/api",
+      "sha256": "b06ab8060d0b31be847353b2860e9a868871095740516b3ab2c63fe36584f6cc",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "a263b0b8c85ccb7cc36b3a6ab185c481fea47ea803bd0b20085cc199728679a0",
+      "key": "tail_0075",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "48d2da503fedd9c9907ac47bc36a1733719b91056cd7f23da51430a222983856",
+      "provider": "https://mempool.space/api",
+      "sha256": "4843e0ccc0d552c5432a5ebec77f412f3a4e4a5d532f83c1a1f1df5f3d9d0dff",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "adbba8b5251c25f687e10d64dadda208145b536d55424740d549ab39935f20a8",
+      "key": "tail_0076",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "a8bc2fdd68c78f11d2f2273aa9a51c022fed5201f4ef2fdd208c8b12d5ae3c50",
+      "provider": "https://mempool.space/api",
+      "sha256": "4a392f4b5e33fc8e09fb6c06ac0b2bfc7bf3c4bf104b5c84b6c8d74d33119827",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "645c9b2096d19135e3f5e88af5b27b8aa0e90c24dcab3e738a70b39d1b856172",
+      "key": "tail_0077",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "4d65ba5f32aaec8dc63d81b8f91024565be1b548532695f5d3019bae8fd4fc2c",
+      "provider": "https://mempool.space/api",
+      "sha256": "c4f66d3915e28ae26dbb8d283584bf0f15d827e6c2385e1d6588dcd0841f2903",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "b7cd9aae1671d07176f50015af018097cebe40a62194c41fd5acd9c1ef7c17fa",
+      "key": "tail_0078",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "23b23df7943ab1533386dadfc51fc2255746206b2c5ed6e69bff406f3f083e5c",
+      "provider": "https://mempool.space/api",
+      "sha256": "16685ea36b23f15f33370e6468e23bfdca838d755a54adc053068dc10aa191f0",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "2bffd4509181d797bfd6192df7c39e8bf4abf8d6e57a2b23d0f13c7f5dde70f1",
+      "key": "tail_0079",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "9dd67401f9298c95d60d393256042799234554ad2bea8a2bea82b8f0957702f2",
+      "provider": "https://mempool.space/api",
+      "sha256": "f07c7a5a328b078a9644afd20d288808faa1b78d1e5caa6f7267dbb0c1a54102",
+      "source_id": "comparison_0391"
+    },
+    {
+      "endpoint_sha256": "d69c80e188ddd5093bfbdafedb81cb1b630a349271539245da6eaa834d062935",
+      "key": "reference",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "ebdff9771192cf2aedc0180b0283f1a4c4fcd80ec2070686893961b3482628fc",
+      "provider": "https://mempool.space/api",
+      "sha256": "f32b061f5ebeb279cca9ab93a0cd1bb2a9c349d8554bad7796dd4aaa4b47d02f",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "2a96bb9b46f9efbff38d2355b52888604d4a23ac71be4099bb4610fff2a03617",
+      "key": "tail_0000",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "33bc074f096040d9c8128be34b672f58b78de0182c3eb672155103b1bee5399d",
+      "provider": "https://mempool.space/api",
+      "sha256": "069239d7ae63b5be6e4fbc74f1c343219bc1b98b88b10ac7f2ad5088d3c38ec5",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "e9fa39c2134dab33f10c715a5adddd4cef75d12ea31de7e9b4cdfb2ee0db5bfb",
+      "key": "tail_0001",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "0d90aa51387573b1c1f443d87d94998e57f1a8725f3bd18c6dbd6fb946fa7b3f",
+      "provider": "https://mempool.space/api",
+      "sha256": "60ff61f59c345bc67bfe8498f62e5b1b4dd0a7259c68dcb9f2c690d4bef55fd8",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "05d07f301bcb317057ef0b1fbc6936b9aef5d7a86afa16e3445a6ee4938fa8fc",
+      "key": "tail_0002",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "019bcebdc0303d065b048864f2625cc56291c469e80e0d2c4a95afdb34370ce3",
+      "provider": "https://mempool.space/api",
+      "sha256": "694b444be685f90bfcc84a1c39c750d153f5efd0ef8c35faf35afd787c6492c2",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "ae6a76f9dd76afbcab92828f09ed47c78618e2dd496203ec3058f042ae43bf89",
+      "key": "tail_0003",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "735612c38ed4c141f8632b994a2334471f70247718abe3ea03408228a2e7a3fd",
+      "provider": "https://mempool.space/api",
+      "sha256": "272e4480bb0b1a08133938f62e45d80f70353c321633edc29b40d3d29a76bc6c",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "d14efb41dba81fc10801bf78bfa95c1cfbde3f6788a1302fb1dee2ce0ff7d505",
+      "key": "tail_0004",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "a102d187efae587ba1a693c79b29671ed7f5c2eb7ca6b2546e78333221a5ae04",
+      "provider": "https://mempool.space/api",
+      "sha256": "88339a69a0f1e3ff49de02e899dae6b93d37713bbd5c53efb0304e672537ed88",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "e7a07acfe1db1bb1220934ebe5f3990e12c3bebfed725a163ce8055610c89999",
+      "key": "tail_0005",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "179c1fcb3386ae7bdf7a35a0caa0a87731012fe86ef10eb7532cb4698bff9f23",
+      "provider": "https://mempool.space/api",
+      "sha256": "6b096e02ef4fdcf346d07d7d51ea6cbbbcba0f1d5810a362b5e55a13e010e453",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "57e1cba50e3af6f022078b05517deba7c386036a7ec108ffd87e6520ffdc286f",
+      "key": "tail_0006",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "734f20cdc3700bd314d289d93aaec17fbcec258a205dea5b791cfa3fe84128cc",
+      "provider": "https://mempool.space/api",
+      "sha256": "999f60623f253e41bed471fee0001c846829e6221fe781b62eee03e47b810e3e",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "ae26bfd3e051f54a11f28dbb5bf9a1f16048cf474f9e380ebb6895a7c124b410",
+      "key": "tail_0007",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c5dfddbf1af3bad1dc554dbba8257126539a506c202c94bcd53d84cff4344322",
+      "provider": "https://mempool.space/api",
+      "sha256": "9f7d4df357b244d67480e22ef93bf5547e37b317c13d04496737baff50ad8e40",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "76ac694096c9fae5ca518eebf0dc9cbbc9cf870a8fa23d0bbc7b750a9a03133d",
+      "key": "tail_0008",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "51c11986efb2c53f09f39a25f2aaa0b8657c457b82153ed84852a69aee004dea",
+      "provider": "https://mempool.space/api",
+      "sha256": "beb0ee115d5f72f3d2bc46f45ea2f6e46ced8cbe455205828b7cf41174a6e0dc",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "cc8f53c36779716755645819a014180a23abfbd14b7a183fc0bceeda4a675c87",
+      "key": "tail_0009",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "f04223408f6e3504820f669a8bf6f6b331f73085dce2b43b1db093082b8b3505",
+      "provider": "https://mempool.space/api",
+      "sha256": "4264b8f0111c6ec8ad4202721da5bb0b0e14cbcd26b0bd1334f0daebb15cd232",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "93b5da6e387209c461e0395eda1def52c59b08043eae30bfa70d49360d687daf",
+      "key": "tail_0010",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "99d6ec96d742db5c32b01669c113f0aa6be7b164786c03bf57fae7ded555cc21",
+      "provider": "https://mempool.space/api",
+      "sha256": "55f7b08bb6e69bb8762ec43e877b0fc63166a437fe6be6c794f59ef633e028dc",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "89249cc70f8dc0efaff6183a2c0b6ac3c7b9d919a997c28fada1bf7b620c1ca6",
+      "key": "tail_0011",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "98acfb8a9e306ec8c876e7d38d667f75ac0028a96b078e6363a177ea24e2f6ea",
+      "provider": "https://mempool.space/api",
+      "sha256": "dea8af49f8e13894ddbfeede59463d232c072e6f0dab11c8107dc1fa72150b37",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "068ca4db02c02534867c2d54f4f0171e79ad835730bafc012eb3e1a7681d2209",
+      "key": "tail_0012",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "91b7e62083f9f22a6df170d30db75c7bb6348743470973209fcf6e6cf5984c82",
+      "provider": "https://mempool.space/api",
+      "sha256": "0817509cd4c7e11db4358c0bcfb78e29cff59a127ae81783d14487474c40f24a",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "818777fc18c90c834577c5f249839a6809b9155dcc02ad867dcb6678919f3e61",
+      "key": "tail_0013",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "9c2451831b667a28f6afb33311c610114efef3ded9b9025f5917894d19b9cc6c",
+      "provider": "https://mempool.space/api",
+      "sha256": "445351ff7ead497cd97fda4608a6e3b69fc78f3c1fb52e0358b23b017378b184",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "828130e77408c3b563643956fe42f97c37b58c7f54216121e059db85d320ceb9",
+      "key": "tail_0014",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "2757e55abef77cf518f63a01f4479d7ea8952f6c88140a7c268c35329be0906b",
+      "provider": "https://mempool.space/api",
+      "sha256": "9ead76c0b6b01d5d74bad2c5ead1cdda0fd3603b030f029578968ed92e31e92c",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "e3e198d2e361605352c7596ff0b58686a5a030dccf7fc5e3ba700c0e7f9fd30a",
+      "key": "tail_0015",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "7ba043870dabf5246895a9fcc8652013490543d17c780efa7fd277ea73367f1b",
+      "provider": "https://mempool.space/api",
+      "sha256": "140cd40d02748f495fff4ffa9c6f2d9bd48c1c84cc03faddee3ebcc6de561e3f",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "a9099210de09b02de3c87b842693978969cf33fbb4aeefff2a963d868f993cf3",
+      "key": "tail_0016",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "339a7a224b403f8410c630a3294c40830c35b9c5b35bb3e35fca5c097b8d28c9",
+      "provider": "https://mempool.space/api",
+      "sha256": "1af5db9053a714e3c8424618b71ee0da15ff9ad13978d1e7a322aa0693f59db5",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "ca825e00248130fa82e472a8eba719d498b03801d5c5dac532ca79052de1bcff",
+      "key": "tail_0017",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "e59e251a73af981df38bf93bcc1d6f3c4b1d6c6a0aaac282b78f8826fb8d7007",
+      "provider": "https://mempool.space/api",
+      "sha256": "3574b07b3eabfdfb4503bc09c92c45c03cf990d12132aff016120a5cf6b78961",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "d1de1410d9acd9e2bff8abf78244d68b352f2706ab145b78d53eb42fc4d661d1",
+      "key": "tail_0018",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "5f1407e4ea03043922dedf336bb65f75006bdc8c6ea88580b68d4ee0e17a1c33",
+      "provider": "https://mempool.space/api",
+      "sha256": "c13de7227012df2e0067d8e38aaea3262b3a9fa7cfa1bc741c360580bd9f1208",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "9a2e8275e47d22fd03138abdb3f9deb2189064fa0d047fa88e5640a10cbbbcd6",
+      "key": "tail_0019",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "07f874da98c3fef52cbef243d54cdd70a68f046eded961f0b8eb48bfca402030",
+      "provider": "https://mempool.space/api",
+      "sha256": "72ad3c5218dfce0cc224ae33d9cd49fb96e6f87aeaa7fd52142780bfe1bcfd43",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "85b2c7b815b3dde120b976a5e015d3051df6d9f19fef56bceb8ab8838aaa92f1",
+      "key": "tail_0020",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "58967d2a8b9a331fdb8b1fa26289372565e95146db13d30581543812e3049d0d",
+      "provider": "https://mempool.space/api",
+      "sha256": "e85421d2af215df6ccf3a12b95ac324d4a89f5747064812e0f1cd180b1fd4536",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "e62864291e7ff136aec698ac9cf787cecd311bb12a000f262e2d7e3c042637c9",
+      "key": "tail_0021",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "22f9196399a4e5db9a2244867701352ac178e98054059d97ad0db9ede60f8101",
+      "provider": "https://mempool.space/api",
+      "sha256": "29152c0a870b47f660c60eaac123e49964b12c71c4d0245ddfd2bf732db2dc2f",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "0c2661e378647a1e40f14f584983f2fd2179187337a815cadadbf83e6a73e82a",
+      "key": "tail_0022",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "df835de11bbf81d101951dc63aad58b77e1245b1583be94f0ff4d37f06faabf8",
+      "provider": "https://mempool.space/api",
+      "sha256": "61a5a00a01bf501679059e6e34c8df83089e9809a66bb212a1c65aa8c1fd2f36",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "5c20a7f55fe537fbc8f06a0703344bbed8e5d0f0befd185df94c3f8fc40aeaca",
+      "key": "tail_0023",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "80a26bba925d1bba734087eef504f1090c62c120ef3d5b6da786b25abedd2cd0",
+      "provider": "https://mempool.space/api",
+      "sha256": "b7a15e5f5359a90608febee9d47e1a96a1e34da8c0308c119101295929c20b0d",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "9661688eaa9efcd6cf7f7f5ab649fbeb07980c481ccaa363fe685f9c5a4a7d29",
+      "key": "tail_0024",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "fce85035e322bf7148532994359eec52466c4169dcb5a17f8370ebc221a00ab4",
+      "provider": "https://mempool.space/api",
+      "sha256": "31ecf54c52f7daa54bd7a81c400129a003818535969936398d2f357f72578318",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "ce0b7c38db883a91f49b4fcff3401bd11de70eea7186a1827c7572e0fd2a8961",
+      "key": "tail_0025",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "3360aced65730e00d8a3fae1ea33ae7c138aa6a748a531a2db956774fdcef243",
+      "provider": "https://mempool.space/api",
+      "sha256": "e9da9fdeb8b4386b694facfafe5bd3173e2cb6d7b057318d05edb4ffc0443bb8",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "61a76984e4c816010a3998c52774c4e11870d99351aed6a3848af9a016780ed5",
+      "key": "tail_0026",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "db0d38302e6d699201430828121c881e6e21b4ed262af8b2f781c9353e0dc3e8",
+      "provider": "https://mempool.space/api",
+      "sha256": "4f87a7e753f358b7b1bca2c0d66ab5291f715b3311004448b95aece8877b0338",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "348a718a63653ca014b40f1a19794b69418ba20ae878fb29da2c6ee9f632e621",
+      "key": "tail_0027",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "d9636bc26326d6d0a3dbdb775471f914e9b9989b597402162dccd60e1fae2b48",
+      "provider": "https://mempool.space/api",
+      "sha256": "b64ae041960cd02532dda11b9b5535442848c8f561db532e946573f68f3da0ba",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "d5f57b1705308cd4668a8b1538c5169de3dde6b62eb1c5220e8e6c545611e70c",
+      "key": "tail_0028",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "5cb9730dd8e0b139a38e05eeca6ffca43683a550a87a7c9744b047d4455f6873",
+      "provider": "https://mempool.space/api",
+      "sha256": "dbf5122e924507d681c3dd969f294f16e25c362581882b42392c145a5a814e30",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "4e63e860c7afb3a035ea7548d2a3f7fcc5e01043469274ec414f5c603f7a6a3f",
+      "key": "tail_0029",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "6538b8540341459df61f16bc4a354ebb70e51a9cad92a0b680f2eaae41e262f5",
+      "provider": "https://mempool.space/api",
+      "sha256": "a9f40b3e392222395d61502a6ee606a650cde732a2135665abc9e83cca611d03",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "158b81a8d7dbf99166b0e03f2465d4dbce21359c5734971a3659d1cae74563bd",
+      "key": "tail_0030",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "144713ee94d39ded0a0cb1a5cc104109e14094cad943a05bb5d1edb0a0f2eedb",
+      "provider": "https://mempool.space/api",
+      "sha256": "dff9b08d75590ba9546b36823f44b34618ae169c085af76a289235626eb45a5d",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "e0f46d3f76afbfa255da9edcfa78dcf2f2a03061c1b8ba22d3e1f1047757b0ec",
+      "key": "tail_0031",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "7fbd8bb27668767083f4f30c11f63574c72400530ca0b11fa265f8cac3cd5cc0",
+      "provider": "https://mempool.space/api",
+      "sha256": "ad1326683f0bbfe08f8e3afb966929622e17e50dedabe0071251d5427d6d70bf",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "2d78087966f7e927b17748abc862bb12dcde82a7c33946e9aa9eaf9911260e00",
+      "key": "tail_0032",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "870c88b24d9386a2f815839618d570c45814b809f5c499938195f2e583efbaea",
+      "provider": "https://mempool.space/api",
+      "sha256": "fb85aa3a37d231f20dc64974a5a675d264345f4bff5e2d65d56e88b7048a7b93",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "7b2c3d94df0667d3505a338e93f0c64030d9fb29cfd00cc296d93f3d4c55b806",
+      "key": "tail_0033",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "321d89e71385ff451782b8262abaca2431f7480a3967727149cb57ef1c35fe9b",
+      "provider": "https://mempool.space/api",
+      "sha256": "fda2983298fe95aca0733e62a1c11c51312e11e5245cdfe230016268b686133c",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "4777ec43a602f215d9742caa2fa608c870b332f933980f50561d5bb0924db83c",
+      "key": "tail_0034",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "7ec64c6ba311b0d9881d5552a5bf796bf84e305bf7daf6336546225ce95b6acc",
+      "provider": "https://mempool.space/api",
+      "sha256": "50b0d29c6ac80699ac1de4c837f8b4cdd696047ddf691bf4f5541eea60782cc8",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "b039608056154835fd213a545cb6d353792d812daa43a4a26f8d8825c00fb273",
+      "key": "tail_0035",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "5ea24addd8f7b5b3756399d2d5bb43a341ddc7dd0eb84ff1a85e06553f2fb3d7",
+      "provider": "https://mempool.space/api",
+      "sha256": "31fd83d788a0be41c1e89bd1c03bc926d6f93133927ef957296b5c8b8b58d0b1",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "78acea97beaf1490a173b14fbe1156e99a7db0d95c4bb559be06837fe60ae5c2",
+      "key": "tail_0036",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "2606df12a464a58884f862d727410d325cd8264527d07998c7671b754251cb3e",
+      "provider": "https://mempool.space/api",
+      "sha256": "50f5e250f9e49ecf18dfe67c5350574a3db6da788086d402ac0f23162b585832",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "2615490441b902009bbf947b34c9e73cf93d6d132aab9ccfe7c6b52748e7a913",
+      "key": "tail_0037",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "0f990230e12c29fb24e0962dd910cfffe6acb5cdbfac115f13a5f14742f4d7b9",
+      "provider": "https://mempool.space/api",
+      "sha256": "6485eaefc89ab3b61a551f2280ea06c898cb09743819ba004bbec636b4a57cd3",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "26b8cb71c9af21b3842ba58d2fafd6e413555a64728613dcfa0aa0a073bef8b8",
+      "key": "tail_0038",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "165d0502e61a41fd72226b369c43eeaefbae159e7a60bc6d48df6fce56af0b97",
+      "provider": "https://mempool.space/api",
+      "sha256": "62af0f2978b8f6859b1fb5b3b25543a65ef7b9c5aa4f8779650616c1024e6ea3",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "99efcaf73491093f276dca780f88618d22c7f6dbe2e5503990614d157d9b8c32",
+      "key": "tail_0039",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "5258c18a8d67ea5480f2181d585b35b330be1a3ea7b2927ff60f99d0168244c1",
+      "provider": "https://mempool.space/api",
+      "sha256": "d36af84612ee36db3d32432adf84765343a32b18795ecde21dbd4afa3163d440",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "65fcd10cee10c789908081bd821e2df62057a223c105bc429bcfb6e374cfa63e",
+      "key": "tail_0040",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "1081d16b5f1deda634f37ac4426b85bedf4ed328a256804b407ab53da282e00a",
+      "provider": "https://mempool.space/api",
+      "sha256": "a929c2f314bbb6b56836aaf0874679293780765dc9b32b4b140460c9cf592202",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "c0492f1df93f8b0e4c335e78f1046ce6d34c1626aff9923149ff2000e0e3a4d5",
+      "key": "tail_0041",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "e2e3f595ead6b49bd0f5aae59d6960c3254121324a1ab50fb72aa985ddba1b83",
+      "provider": "https://mempool.space/api",
+      "sha256": "fdc04bb9c5619a11d0166087cc3cb9066054450d959fa987b64f69a907eb1ca7",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "fe943db72434b0650e218ca343cc8fd7ffa136a4a17cad914f2909b3a9523626",
+      "key": "tail_0042",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "edec9cc7e82c066477552eaf43d25b96d64e620bfd6c8105f1f436c351491c86",
+      "provider": "https://mempool.space/api",
+      "sha256": "bc5c4f26cfa6d91d0af7246f5619e3497b810d257637b0e3b4285fe25b0bbf8f",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "3abf961b6b86adf521e8c3c609dbd7fc382563aa3b7134bbb0efacbd1cd079a2",
+      "key": "tail_0043",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "40613c2f468374bcb5ee3927c102db9f7a853bcfa293c89c484b1d0f5c156255",
+      "provider": "https://mempool.space/api",
+      "sha256": "d1d7e4eb4be06fb0e907a78b0c69cad0506d637b393106e17aa06f09d8225c45",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "332d64334faa2eca9a312109176eb0b0de6db961a501e631ab9cbd15666495ed",
+      "key": "tail_0044",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "26b58540860d86b0c9188104abdb407a837fd41520908bb4e7bf8528fb183f3f",
+      "provider": "https://mempool.space/api",
+      "sha256": "a7ad4c22622c01a657ca106d6da48c59380629ccaba581b879ba48fc99dfdebe",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "1847efaded868a06c43f0e924f60d918e5581f75b373694f6eca12f127c7299e",
+      "key": "tail_0045",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "951f6662542436fc3c1fb24f91e02336f16bba4b2c1ac11765cc4df56cb0fa97",
+      "provider": "https://mempool.space/api",
+      "sha256": "07dddbfebafd64fd108c444f103616d0608360c05de7d045886d1b116f7120e5",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "27ce68b541e660f99b13dc2a2dd72d712e7fa35c9bbae6387e977c2fcb81f7c1",
+      "key": "tail_0046",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "f938af0f6ca5a3770688107bfef179f5ec292be979ca5a21db6998c0ee6e083b",
+      "provider": "https://mempool.space/api",
+      "sha256": "124550ee73c5f96618da97e56ecc4f011b1df63d0548847b2f654bfcc5af0205",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "d2c456e3948238a678e1c2136b1e2fc00d291a18bfcb046df38e7edb8eeff4a3",
+      "key": "tail_0047",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "dde16bad6dddc713804eb1bc50169dc85dc4922ff49627474dc1754654e1028f",
+      "provider": "https://mempool.space/api",
+      "sha256": "02fd12d94f0790596306f1c19ac948e25b0842a573dc036b185b06b28f63f879",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "ba6befab3a23399e9d85fc71e30a9dd619a82f80a431da6e6309df5cc5e13c16",
+      "key": "tail_0048",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "3d48ef942699a43d04374fcfd4eb85e0d9d9251597add592ee65b4da080af195",
+      "provider": "https://mempool.space/api",
+      "sha256": "a6ca89183b687c18ab27c109d31032eef69f995e9898e22c8b93a59467dc8b8a",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "66e0babc93ab88bc14d092c8351280f27e9cfc1d7b310a52cfa59b186dc63aff",
+      "key": "tail_0049",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "4ead00bf5ee5ebb2ed6b046a78d14b57b8cdf41ef9294490d0083a70d6231f0b",
+      "provider": "https://mempool.space/api",
+      "sha256": "837e9eb9972e31deeded27994f62c728594af431badb4fb5f311e6ae7a9aa8db",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "045004a6e7efcac75980645b803e31ce67f63b6fb7f5f9c3f133932af6440d11",
+      "key": "tail_0050",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c3727884cf6379f0b07f9b689dbe569d7b2579fa1d42d47e9b981503bdccd792",
+      "provider": "https://mempool.space/api",
+      "sha256": "adf7fee3db5300d18a4ea68b48c3bfc46e45637fc5ce14e9496ef44be1a174f8",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "8d31222141ad27215112208ede17c290f3cc6bcdbcdeaaeee4179c7a3468e80c",
+      "key": "tail_0051",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "278eec1a5abbe8feee956277c397e2485a7671486abcd204b0ddd0a4d876c42f",
+      "provider": "https://mempool.space/api",
+      "sha256": "c02dc9ca2355e7887dd3a3b388e140ef6f65fd72817f326586b5e6f2222e20e1",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "e9496d424f77465e2b765e8b2e45ffbf0d3f764cc188464c074f87edf58064f5",
+      "key": "tail_0052",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "3a54fbfa8ab82c06c2690501792b7ec6f26db7c5d8e48f55e23af56a719e3ec6",
+      "provider": "https://mempool.space/api",
+      "sha256": "5b112d7da76d68549a5864cca1c7c84eb1a1878511304fdc5b7d03276a321591",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "8f92a7f6fd6e4abe7023fe1b81c0b88ae0e8c9235aa34162e827ffa9814300b5",
+      "key": "tail_0053",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "a49cb269b3c5d7d4f9a6f0022beb7408edef21429caf06666aa30dc09374216b",
+      "provider": "https://mempool.space/api",
+      "sha256": "4ae6d3192dc5ec9a7f3d765372fd1e42b224a0865deb48c9ea3787fbbefc301b",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "4bebeb67523427de84c91dd97b2e677cff1665afb202e7d95eb0d6efd0784879",
+      "key": "tail_0054",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "259f5f6c610cd8c6aad4685fc701686220086ae559c76a143dc7fe0dbd07def1",
+      "provider": "https://mempool.space/api",
+      "sha256": "425cbf9999937be79bc17a50faa155a4392f09aec6e1a0064f309b1db00d9fb9",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "a8299a017794206cce1fdec9c82d13af7c87cabae7618610c0301db03cca4d66",
+      "key": "tail_0055",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "274013da78eff122d0cd6e50de7b7856f2d2e7b96fa72279ed9e801fc0c03326",
+      "provider": "https://mempool.space/api",
+      "sha256": "5be4a8c77debab793a33570a850b9f1901ea355bb0c9628acada5155ed0d65a9",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "12d0f7ba80b8a62e97802c5c2834d22a5708e69370150727bda4172168201218",
+      "key": "tail_0056",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "6c0865cad775a76be78a1ebf5a5081e4f0718a54c7c8620678a08f5ccfb78d76",
+      "provider": "https://mempool.space/api",
+      "sha256": "a0fb9647b234aea37fa2ae8d373b987c12ea5755011327ec64df051b6fb773e9",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "9ccbb4a53765a0cc4f67f3f8a39aeb61ba97b4b7f30995e7e827e874cccc09a1",
+      "key": "tail_0057",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "4f37ee996d61610de0d6c6b638a652d439762d33735bbf9162641fd4a531c701",
+      "provider": "https://mempool.space/api",
+      "sha256": "17b2392f8f0620754e2d0d3abc309aedc8facc267db08ada5c6432abfaea0c30",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "17afab7dcef0acbbcb87d16d820cdc7742968c89cfb9657841ac169c6b87d0b2",
+      "key": "tail_0058",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "7284da2e430bfa454bb563e54c81ebbf8d77ec201ea498f50af5ce2a38d5571e",
+      "provider": "https://mempool.space/api",
+      "sha256": "3f49458318cd9f6b183ca47fe615178606c9e0fd1ebf577bd29b130fba6eaa22",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "51834af28fb8cf4d932b1439aab4e4f62de4d6ce1d2c3279287d216152c6e81b",
+      "key": "tail_0059",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "9d5524b5ca7801bc51215c896b2ea8cc41cffec6e045c7821e0c2286e0176dc2",
+      "provider": "https://mempool.space/api",
+      "sha256": "d817e4b65ac58c5141702d3021950384e3a7c6ce9ea092545c94da71d6d32eff",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "dfc05d5f8d01fde85456da47e035e7f20e893e10c8dbcbb3f0399d0ac2588425",
+      "key": "tail_0060",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "75cbc683c0e622b30546bafe90ed027da9523ace382dbdcfb340b035fbb767e4",
+      "provider": "https://mempool.space/api",
+      "sha256": "45900856313e538508beb9de4f27a0c501f0258355db8b167f9d8e8edc7c97fb",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "128c56c95eb48185a795e8e09044b50e14688cb26dcdb59c2d119163879f839e",
+      "key": "tail_0061",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "57bd6bf6cb23568dbaafc7b4b3e4431db78a2113f03c41ac87eaf0d7f4b8fd6f",
+      "provider": "https://mempool.space/api",
+      "sha256": "62974e5b0405eec6873be36125143889e066c04227b540e5748d9b89a4fc3ebe",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "a329f1e025cddbef19267872d546fb544b4acdf31c54d5df4e664d8bdcf83731",
+      "key": "tail_0062",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "fe3c206b8d5c06e28e9b96da36385ad41cdce0578a06a103714a179928858337",
+      "provider": "https://mempool.space/api",
+      "sha256": "746a02e57be8410ad03e9a29ad82fedcc9f0e59ed030f2f9444c42732402ef56",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "0c1afdf11d08fb21792b9c0e37b42b6ea86dde031f3298a1f4481011ae705f98",
+      "key": "tail_0063",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "8fed78124a47e57aa6b065b08c2ff8ec2e916fc3f1de423001f5e4f355b649bb",
+      "provider": "https://mempool.space/api",
+      "sha256": "85a30320c0a24c1e44f08a9126a883ec77cd49e4ace6478aa858ff09b299c766",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "6c832306f5a8b0d2db20154393b30965a9f870ae1a728aec4e35e9a80d0c0443",
+      "key": "tail_0064",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "10bbc3721708139420d6d6c59ab6e928866b7e9aa3dff2528a17d0606d2fd8a1",
+      "provider": "https://mempool.space/api",
+      "sha256": "c8f6f9976be3da502e36cb2b2ed50682ce0b68744202caa3edf5ed80c9749836",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "7b1064c893f666476dcf12299eb92be2143775e7f51c63bda661fa05029401a3",
+      "key": "tail_0065",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "758f95af73d4a02379551be29610b61278eb3d5a54d56a339eb0fa2f8a7dfff4",
+      "provider": "https://mempool.space/api",
+      "sha256": "79aa02c4d4886e6fa311fda24c4d2ca7588a30025e4a55a3957da8650d984b4f",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "57a7fbbeabf2f4c41128c0389d5e05dd9e733c72cc7bb32ac1107f7cc7eccdb6",
+      "key": "tail_0066",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "2b461314c92f5e96ed84529068ebc14d59492dd4430aa7307bdb41a6917067e6",
+      "provider": "https://mempool.space/api",
+      "sha256": "23d8722ae274e97a9d6cc1c61cfceff6573eabcbdc0113707efa73149e83c91a",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "ce3811e363b5780d6492bab1195a7c76db86898fcab3afe4eaec1fd8f7fdf0ef",
+      "key": "tail_0067",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "5830e544282353d77a9cbb2002cc52383314a0f6336d54dec3750138ec923eaa",
+      "provider": "https://mempool.space/api",
+      "sha256": "c2b1ca373a80da9a2f0b7e0adf0e39c08b08badcfd95b607b6dc12c27681ab4a",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "2b2e58ded663ac4107f2c0b1ffe83ca0957227f73512925fa665e844ff075191",
+      "key": "tail_0068",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "a28c20f00f3aa5a545a720fe96d18243da06c7dcdcc8fa04071570404d5fe8f2",
+      "provider": "https://mempool.space/api",
+      "sha256": "c589b0e0a2d709c3c1f776573fd87c2a6140a89e187a6217e88e2c2e3b1d11fd",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "f0784af8ce28a47bf3815a0c9d0e17cb1acc5f331a6a38e30a02614224b05d75",
+      "key": "tail_0069",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "86f505ad46cefadb00a32d7a152f49bd12d0c9c86e2a881c93eb1735d85d8f18",
+      "provider": "https://mempool.space/api",
+      "sha256": "9c02d7de8e85673b9a6eb5ad7656239b7c4c198619026d793b1fd2645fa50126",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "dc6897e0c4ebec524916a2fde86b7a0c720004a3b3251f6654b5b23d9d4183af",
+      "key": "tail_0070",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "e4cae6a799a9d3c98923e93ab35fba5211411de7cbb8e76fcadd24494f0d611b",
+      "provider": "https://mempool.space/api",
+      "sha256": "5cb7d4c1340dd00e241ed1607de4c80eb3d5fa1f815173c8e7d337c5a3939900",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "2a396e059f04632fac6a9902c47c8d1f9d883c35b19d8edfed4b9c2c322f74c3",
+      "key": "tail_0071",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "1e43eb25b00a2c6e9c2a96175a4be1e7ebc3ec87696fda15144f0294694cef2b",
+      "provider": "https://mempool.space/api",
+      "sha256": "04a191ef578ed74dad7ed44af69f394e268a4b860781f82317d100e89c35a6b1",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "43143913eff0b4e56d623b0c17c6dedbcd4eb51587ecb639d2b70fdf4e10a2a7",
+      "key": "tail_0072",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "474e24fe2c1e365623c7bc38c00ecf0225c7927f67bb4bd2135406afb72d66b4",
+      "provider": "https://mempool.space/api",
+      "sha256": "6adcb173551ae5a3a825722390c8ce691e0785c10958863c608c8c15bb9180b6",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "f6b6a8bfdef9c52ef75a7a4b9820956b219e8934dcf63c83bc723c0cdbb06e3f",
+      "key": "tail_0073",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "57a548ea9ec172090f6432176328bc3a4f55744476c6552fb49272e5a13d64bf",
+      "provider": "https://mempool.space/api",
+      "sha256": "169d36a488b599b380a040a77e7b6744e27874a9f13cb9d1e8f54d896b879ec5",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "b2c1d2cad64ba1e7e07f91b1cccbd582702af466fab209f48c8c604a5d25d664",
+      "key": "tail_0074",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "38b5f41e9d8e95db8e4db429eeba915886380bf796053643d907f466e9b2240a",
+      "provider": "https://mempool.space/api",
+      "sha256": "ffbb28cecbeb6fff4d610d96e6b0da1926f8cee08322f8e6347e7985d05aafd4",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "beca8c8f4f6858626f210387546b192e858b980116a3114aa99a46b8ed1e6a1d",
+      "key": "tail_0075",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "59842ba5c5a60fa7afaf0c8b656cccb634654a70114972366548554c799159f7",
+      "provider": "https://mempool.space/api",
+      "sha256": "c566b51aa26b08562e1685b4d240413cc7b9f822d8192afd2d2120cfb1f2cbd2",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "d5fb1697be0c71742dc5c1778a6c70588d59730adb2522681ae6d45c5be3d776",
+      "key": "tail_0076",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c9349605faa9abb5fda331690ca6dd231be1f8d2af544339c6965780de41ecba",
+      "provider": "https://mempool.space/api",
+      "sha256": "1ff6337f3e6b838dd8b92621ff40353636b3df48771fa531e7e3bb4fdcb31038",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "10ea7f78386b05f83de541f48e5373d0378a5082a77df6cccb813d483d7a6650",
+      "key": "tail_0077",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "3c967e14da94186e9fa30d71fac8f72b3a6c22ca36ca56b44983ed2164b5fc17",
+      "provider": "https://mempool.space/api",
+      "sha256": "f070d6c7418289628e27116e66845ae7959bfb34dc1806205f4db0f497469382",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "d76841690fadd04cded2f3077b794119a57067012d0ed6525bee4e959bbb7d64",
+      "key": "tail_0078",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "8efa7f68f8ab7929cb95c79fe0614cd7a625c2743ac583a0f534c76313f71269",
+      "provider": "https://mempool.space/api",
+      "sha256": "e7ca487b84122874bc0f622c46b253b86b3f1a1a9e5c9c915af52c5d5239d48a",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "2478faccd0b501508b2cbc06241a490debce26690f3d9bb9d5a95e0d3aab5b74",
+      "key": "tail_0079",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "961c7466aa62008fa1824475b320302072a30f92bb47a374482977640a0093ff",
+      "provider": "https://mempool.space/api",
+      "sha256": "7a0b5aa82f32423945bbde38302166a43ddfc32b65179dba56861b75fe3b7b52",
+      "source_id": "comparison_0433"
+    },
+    {
+      "endpoint_sha256": "1b78bb6b027a57450c7a5838a4dd89c8e983e31f7349f9aafd5cba94f7fb4cfe",
+      "key": "reference",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "fb53d1b7126e32cbcdb926cbd128d7140ee162378ee9a1839cdbdc44ddc879db",
+      "provider": "https://mempool.space/api",
+      "sha256": "b3c7d973a338143ee7a45d3b74d2b258e054d22060421024c9fcb79fd11fed68",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "accd317fcbbbec001b37d9ed73395b89ca0fb3fc3de7f295c032745edbf3b17a",
+      "key": "tail_0000",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "0e0bfd3e1b460933b76a0d3a1ea2e0118779935230e08dcdb3ab0e2a423de0fb",
+      "provider": "https://mempool.space/api",
+      "sha256": "48bffc958543eba8f82724e30c7156d51b2f4e0eb69117726515c824807ee6b7",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "b4e228da9aadfda679fe301a2e90fb953945f9aef56dae455576963f69e310ca",
+      "key": "tail_0001",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "16fb9b9a605b70952a82a68269c4a7a5f8df015a170501c03c88dabfb6a108b4",
+      "provider": "https://mempool.space/api",
+      "sha256": "8f3522ec86846ff7a82c4679f94abe4fb8064bb1b1e7017146e147d9840f363f",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "a6f70af2737dc71f52410740478d38fdaea904f9ca4be3a6016810df7306f916",
+      "key": "tail_0002",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "1408f4be5566e7f1159a36383117f0cebb94999f2666aeac0c144d15b97e7105",
+      "provider": "https://mempool.space/api",
+      "sha256": "e05520691646d34e2a24b536c01867e9358c93784798e6706b64b20ae69d5bd9",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "50662cd5b072e837d5d0f26be0ef61ad248f97e423e290724d2647ec6f222d01",
+      "key": "tail_0003",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "cc3d8f4b4869a04201823d2565712fc9f7f8d305e9cf5f4e3616d6eabbe87449",
+      "provider": "https://mempool.space/api",
+      "sha256": "9a884e3c21f061780260b466969a03a44a63a1a77a49eed519bba740748ce526",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "57b987ab7d39950c3c69e03ea759600239ec5d959d1b5fd78bd141d3a258fa62",
+      "key": "tail_0004",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "bfcdc0a39e5aafca5829545625532433a52615e7286afc95b4026f265f91abdc",
+      "provider": "https://mempool.space/api",
+      "sha256": "9209680959465257415fcba78b2274d4dc5aca331f748d31fa9621f20a299b59",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "d7ecad1bf04303cd6d9d95e694f3a75d035587be6bada4577827241e0d70e70d",
+      "key": "tail_0005",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "2e4b67ef9abbd857b8c87f5293503d855f9844d3ea821193f95dfbe5a598d1de",
+      "provider": "https://mempool.space/api",
+      "sha256": "3d5e49571a5dbd06728f9f93eac71c1846f3ab8941ef9da23634dc62b718f594",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "3de7a5fcb1a739bdd9fd924ea28f96cb2fde88b2b687338e660b4b09dc2ded90",
+      "key": "tail_0006",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "277a2f50447cfdd01c97e25d010e0c2163c839d7585cf57aef62c8ee7125c371",
+      "provider": "https://mempool.space/api",
+      "sha256": "7d67219bfe8cd88875c83097413ff257bb96c28c1227cfa1a5ef96097d284a41",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "76915dcb3e9a9c5d358de6db2599b415ecb8ae0bc6c5e35d1a46fdf7032fdd21",
+      "key": "tail_0007",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "4cc4e10ad6cb6dab06642fdf6a82ee9cd8bec7a17e074155b4cb69008b54123a",
+      "provider": "https://mempool.space/api",
+      "sha256": "7d38b6b2b44f76f4ba8a0f2998929659e215925292aef391c7badc7fb27d5e8a",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "f0b2169fde38d329127888eef6159f69bc7dd8c2744c5467205736a42825b9be",
+      "key": "tail_0008",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "28862d6d3da9d399dbfe510ecd64ef801dc80fb3b5602b1aa7e325529843dbc7",
+      "provider": "https://mempool.space/api",
+      "sha256": "8fc132eda8240bcb9aaebb6addaa08dac95140975aa27e3c4b36d25c16c16e77",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "4d4b4c42936e51252acc8af8b6ea88456c08a772549011f34f9f6b120d8aab3f",
+      "key": "tail_0009",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "98994c39fcf993112e4b2e8b8b1be0f2bd4119bce3d5d60d10d5db20f69a768b",
+      "provider": "https://mempool.space/api",
+      "sha256": "051918e6e3670806e7a5da9c8905cb348e2764c193d1584e3ef7af9712edf693",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "b0688689efb098cdfd70eac556008553d233f2b0dd70e7313959610026947c27",
+      "key": "tail_0010",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "1607674b35f7b5844d727e2b0773032009da055de72f09de4c238ec47513c56a",
+      "provider": "https://mempool.space/api",
+      "sha256": "44d52fdaeb4cc21852081dd9f3a95f692ff04eb790889d8e90e0c96059bf9aa7",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "75c7ea6b8b144c5a57a87bf6c3574c6c423548064e5eae8cf7317a53e5a29820",
+      "key": "tail_0011",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "b98e00144374bd2b1297c4c036b3ce2f9b4c3ce54a16ab55a594ee1706c5b62f",
+      "provider": "https://mempool.space/api",
+      "sha256": "520b4fb36bdcd820ecbd12d825272c2e9a838761b6c303119d0c4958a91395dc",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "fc1936a1effb6d0fb31811447f803a8b9283d14a8508688d7f59834e7b9af8b1",
+      "key": "tail_0012",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "8839205f3d0d77e0757e693f86144cc5af711128abb58e58377141b63b5f5cb4",
+      "provider": "https://mempool.space/api",
+      "sha256": "392c83eae4dd61e22caa598aed4d5a615938d3c0811a97bba0e210e1a134c94f",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "181ddc97f59860f8fac9d31c369e7dab8c71bf5bcb40d0d7439f96f3cd0c3c8e",
+      "key": "tail_0013",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "018f4f7564cd5b1de18a56e322c039b931e7ed55f2c0817106c555a4c56bb7d5",
+      "provider": "https://mempool.space/api",
+      "sha256": "3f474e378f97e47763eacab605f8e6c3beb6f9e0a5f02aabf0a3e9e4d653b2f3",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "377568ed6d26b154b1c4c6b8da5f280204d40161a77e62aed90255ac38178499",
+      "key": "tail_0014",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "07e4f9049fa907b72e74e1a481d4d3ba54d049382c70b2646302612a6db87e49",
+      "provider": "https://mempool.space/api",
+      "sha256": "ab6bf342b7d87dac12bd8aca94f083c5a51558c9082e668cea62a0678815f677",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "f435f7de0688be682703802933763fdc40ad5dbf7ddc8c3a14418ced3b562f54",
+      "key": "tail_0015",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "264a808c17eb7e471ee5122c00ae345c0f70a7c3bc358076ce9825246640f26b",
+      "provider": "https://mempool.space/api",
+      "sha256": "9596a7fb72e35d489d60ebcedbad52212523402eed5564e35a713d086c11823d",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "0dc61050301e562eb153edb5bb356f18ff530220145f7670b305e17ee2691107",
+      "key": "tail_0016",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "6347980ffc01baf12e88f9a3c7e2168b88fd23e8d9d9c0b8cddb0750bda12139",
+      "provider": "https://mempool.space/api",
+      "sha256": "79660aadac01ba1941a75fd4a904e2c2a1216467692bc7cca48f1178f6225224",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "ffafbc0d48cb97f67be0fb2d59c97cdf483feb55498680163c513aee7ce70d77",
+      "key": "tail_0017",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "d81857293f78a220cb00eedac56415f1023f4e144e0b524521f454e09547bbc8",
+      "provider": "https://mempool.space/api",
+      "sha256": "74c0857a7f14bee39a52a1bc93169c32cebc3d5fa1ab34b012a7fa99cea330e4",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "732dbb07880a862f44d94940a82130ed23bc754403c0d04beedaebccb14ab104",
+      "key": "tail_0018",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "e51f6bd50ca0e06d9f39a267aca261a3bb27b4a10bc0095c3709f18710f7396b",
+      "provider": "https://mempool.space/api",
+      "sha256": "ace2e5bdc236c6d3fc6ddc65ae2066ca05c6b54ab30ed61d884d2d113dce4ae9",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "a53e659c264c51e19dfc8ef0a35b50dfc20dfe7a8129894c1940ca68a6feaca2",
+      "key": "tail_0019",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "a64da6158736efb2902351c771903718b39455aa8b50abe574ad74c9a4779eb2",
+      "provider": "https://mempool.space/api",
+      "sha256": "be2272f064168d7ec0cdee5acfc81c52e3bd74c8413a456b7bcc3195a21fa31c",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "2f780da7424b3e58a6b45a1b576a394081295569a5794f8a7e137ae7d0596df1",
+      "key": "tail_0020",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "1c21fda413c970d11a9de1e974ac00a180fa0801a14b5ec1ba7a4b32c15785ce",
+      "provider": "https://mempool.space/api",
+      "sha256": "d3c12a81426a75c290b494020b48a806be65fbf482270596383ab0d428133aff",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "2d10bdac731114accbd88240a3ce37c73c3e9c1706a2ee89cf78732142305368",
+      "key": "tail_0021",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c295fb21725e7c57b1aa1c68f0531b9c91411df9740d0de6ccfb053cfe533740",
+      "provider": "https://mempool.space/api",
+      "sha256": "ee7d99190645c5c18cfb14ee273e3f998f6fa11212e27d83048e154756482869",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "267562590448d9c7212bfa4805e5b5d2d86b89520bc1b232249f62918e262c13",
+      "key": "tail_0022",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "007d15829e48fbd64810b07f6dd1d5713de8ab96b326168b8f24114d35beaffb",
+      "provider": "https://mempool.space/api",
+      "sha256": "887620abd6aadfa3a0189e9985850519227ab8d67aec40e718e5ddd09c5be61b",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "ac3ee38660d91d371cc2c30234f18c7d273750a93180a5d75b8365751282b4b8",
+      "key": "tail_0023",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "462484dd3f7b7ddf89a2b1bd5e4cd95a2a875d9d11092e9471c74e72a23566bc",
+      "provider": "https://mempool.space/api",
+      "sha256": "05f4f6b69b87c00ff3a0a3eb298256ee9a88be1797a877c65f580f0d263a26ad",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "980081916f2e6434bff99850b5177354a8dfd6e622cce7a4954b5a058b908f26",
+      "key": "tail_0024",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "98553f6453dd3abc381e559a638d7dbba00121b9947fddc29a4e1b14e733e608",
+      "provider": "https://mempool.space/api",
+      "sha256": "9b3496ae9d6f6e3aed6fcc3c2e44ab0a9341d42b3233772c0365552c57ea73ab",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "a27d7c5584c66838c36959e97d553beac9bdb8745e9d1e2aa3b40f92ab013331",
+      "key": "tail_0025",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "7d1f3bfdd9fd7b37e13335df480d1e065e09bf2cdb4580f5ec97c34027eb960c",
+      "provider": "https://mempool.space/api",
+      "sha256": "c48997ba6b76760142f4427ea30590fd978d7978a7de57738b18a3be3c2dae75",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "bf9db1472f610aa4bd636fae48910757735b04891b4b49fccf6f1fea6066d244",
+      "key": "tail_0026",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "f93d1913dfc8b4de4492f9f7e085e3df7e67dfa4753eaa6d39f45a5b4cb3e634",
+      "provider": "https://mempool.space/api",
+      "sha256": "947041dbf2eb58900b9afe64c01a41280711dfab5ca6e2177b6a39454a075bc3",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "dca1cc5f8d0f3ded8251fe8c6a6c1e528111c61db9e0434276bb86e621e3d2ae",
+      "key": "tail_0027",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "0ac538c9209e64821322b7c35fc196441643217ecc9f1a681763cfc8a1fa37e7",
+      "provider": "https://mempool.space/api",
+      "sha256": "3321e9ed5fa405b8c7941c9555e714e28faa50cc48bd915a36c0374ae5ec94a3",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "7cc226c7ec564c61385c690ce4c7d0ec629679522e018e60dbdc6dbdd61c04ab",
+      "key": "tail_0028",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "d3fcecc922532288d571ce648264263eee638ccfcf550524482c13469e28b599",
+      "provider": "https://mempool.space/api",
+      "sha256": "c159624581a0c029048aaa7e7f90d6f284708c85da149eb50859fa353e000811",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "8e284a2caf4cc146fdc5f104b9af0c878cfa23a49d7740aeaca69b428e9e7b3c",
+      "key": "tail_0029",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "bb671b43bc141c46f1eff3a892cd41aa645f1e9fd280af9cb643ab402710819b",
+      "provider": "https://mempool.space/api",
+      "sha256": "2fc929d0bb7c9557f8d9d5e44f62127dd18d494dfd98cba0923b876d711a98b3",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "6a02fcab5dbf05777cdf7f9ac25c7a9d2a2f47a3037e447094cb04ca8e650cbc",
+      "key": "tail_0030",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "804f6c9a8c3f3a8405d3ac0e1c7525f76eafe7f30e10b486b7645b7991389646",
+      "provider": "https://mempool.space/api",
+      "sha256": "3fe6d6bd1071d957c10a8d53bfa16fc5a7e0c25939408bc8ffd9e920ce3a9e6f",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "d0aef08dc2855d6151a6d5e18db6b159f524bacaa6ba5b1c9a3594b07cc84fd4",
+      "key": "tail_0031",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "2496378f85b5aa13013e64b0174430d0388444e06e13773e17b65a5e36276672",
+      "provider": "https://mempool.space/api",
+      "sha256": "8b1d7ab0b61ec504f9fa449c1ba6398fe0bfc689caf57a9b99e0cf2b813f182c",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "c571169656962ab746441cd9cf04cf334d03c5513e8135b87f307a4ece9317db",
+      "key": "tail_0032",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "ca945ad602605310b6e30125caf2ec017f7cfefe037d567b20deff2bb85dd524",
+      "provider": "https://mempool.space/api",
+      "sha256": "556c31c6a4ed4e2d2da5f744b38a6836c61bb0b9573a2249d5cdb26926ec0ba6",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "9ab23ac819f8b94a79450286a862d0439431b067cdb28ded14bf52a34deb5315",
+      "key": "tail_0033",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "a1723c6b2fb2131a167450287e04c545af6ac9b7c2247c26e2a396f45b21da6e",
+      "provider": "https://mempool.space/api",
+      "sha256": "5a81cc2876574cc07f055169ed9cb103d99bd9c8fc2e556c56d3e41b9ac73102",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "43cc9c023dfbb878d0fe6410853efc3a5e959d7161a9ba83cfc9c7e1f2d62fa7",
+      "key": "tail_0034",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "8c599038ed2b365eba157d18e62815fa37c23509d56d8b560b9d4e4cdf3b06bb",
+      "provider": "https://mempool.space/api",
+      "sha256": "89dcd80ddfd0014dc27d2988a0ee2f530b0c6689bd50cd76d3438c611a19d441",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "ff88ec9da83c3dc99fb4843ad68d8ede6696f809737d973bfbb0613eacb01832",
+      "key": "tail_0035",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "672a8b2e74cdccd2f3259daa74b0304a53033e77cf663f9c60732fdc35520b82",
+      "provider": "https://mempool.space/api",
+      "sha256": "8fd9ebae8ca6a05080216d11789ab8389dbdf9d40f8397f6c94b3b258e419064",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "644a96d4c9961e0157bbf765c60c8a336ff0854c3a8a7cc82545fc08ee0f6935",
+      "key": "tail_0036",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "9a4ed6d0063add6d189ad0d2af5d15d233d17879d7b9ac667a69c41fa5fcb250",
+      "provider": "https://mempool.space/api",
+      "sha256": "918d07ae1f22332ecf7f2d8357df146d0b754527aafee126f0afd18558fecb36",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "2f983e142edf05c0a2dd7496837f695b426449fc10527d8b48f574a6ca0c183b",
+      "key": "tail_0037",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "6b11da0e37dbc991db59734c12ab96f844983743d0cf8a69acff2aba89fc9e6c",
+      "provider": "https://mempool.space/api",
+      "sha256": "16d02d01245ad89fb0c06e989bd3418cc7d056985d8104af89db0de985cca05f",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "97fea7450752a4f90e92485645ce7dc99fbcc8d238260084f43b4d402835fb93",
+      "key": "tail_0038",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "d7c7f8e2fa449bdc606b53c116330c5a48b35c21e995100634409d10ab4a1795",
+      "provider": "https://mempool.space/api",
+      "sha256": "29d3aa77f3f02f975024bd1d3d393d803bebb14a58cd968166bdf0402734d559",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "395952f265b9638fb08d80eb935c9229635502ed17f3fe39d50fddda46577f50",
+      "key": "tail_0039",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "6a72a6ae0544dde7b1db981dbcbfe61daa6d087e02d01cd0c87d104e6b44e694",
+      "provider": "https://mempool.space/api",
+      "sha256": "bd18fdac862949884a8f8603a843402072089ac73c069105a5edab3ca1a486dd",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "3a7d88221e07e6bd5eb35434a3c2167af7dd6c503626a093e24ad8080b97013d",
+      "key": "tail_0040",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "99620a2b2efed2ed82f162de92363bcf28222316c001f84a611625ef38876280",
+      "provider": "https://mempool.space/api",
+      "sha256": "d69d39277dae0447467fb658a269f1d7d2db2a7700ba3f5339355e2676da98d3",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "25f35ba5f17f18eb3d32ea85f36190d521a974b5f77301ad6bd480cf28168f0a",
+      "key": "tail_0041",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "ef56f47fd3196db90086bc55a634c39f095acbc0f1964a3f4c7928303f71c628",
+      "provider": "https://mempool.space/api",
+      "sha256": "c38f12b20584c1fd46699148fdc8ff9f3f4e2314d0736d18d47d1b5a649a1ba0",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "90c395c35e2fac86e5aaeb82ccd56c8b4e882172d2d9e047f64d2dc408f6699e",
+      "key": "tail_0042",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "0fe02f95a4aaa8045a91f3ca5bae9be618e6f2b0fd4bf3d4a95cb6e13973f2e8",
+      "provider": "https://mempool.space/api",
+      "sha256": "6a85a312c43773caa226f408e724f56006711d7f614861f3eb2e5f79987b855f",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "8b0c87ac04e91154077f4c72336f2a8bccd4543c452fc71b629b3c872146eafa",
+      "key": "tail_0043",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "ff68fd91235f0ba8963e763d0c6b8d87a6e1d66118cd9d91e7a1ee7f17ce64a2",
+      "provider": "https://mempool.space/api",
+      "sha256": "838863c82e8a64e0ffa469c8a014c0705b24c6a4b4bf6a71c868c68077a20b9c",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "c28aedfc316dfce20bd065d55b5236c5daa7c8aefeb64a69393a9f4b38ae1968",
+      "key": "tail_0044",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "223de6a97bc477aa1e0b3658bdff124fffa01b8427156e3034e5930517b7239e",
+      "provider": "https://mempool.space/api",
+      "sha256": "c82e1218f1b3fc2f3943b0d9a19773c8c27da3518d8fe49a56103adaabfebad4",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "234ebc558fe543fd4449c97d83c080fdd7300a89c6d5e8ef54235f28f49b41f1",
+      "key": "tail_0045",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "15400416f379f061ba70dd635336c4564492bde817bdc30a9d2f2f71845a5e0c",
+      "provider": "https://mempool.space/api",
+      "sha256": "6263c4c7104a2c8e5d45811aa0d98d6f38f31f05cd36280fafcadff65169363a",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "b6b124bf683917e578fd8660b3587394192c13117110d4fedb340f50dcd34690",
+      "key": "tail_0046",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "d4be01318024126472cfa95d0a523bf0f324153f2f745a88c375b1e519a825a7",
+      "provider": "https://mempool.space/api",
+      "sha256": "1ec54d1d540b76c8fe58985a562cfbe51da3cb196ad7d210294cd569963c0586",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "80f0a8c6e5e2e8a3b9762c86d44b36237123851279d5a0b208c6dfb0b0fdb901",
+      "key": "tail_0047",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "66986e0867a6a99c7662d7b7a3170424b4f25a2a292401fd49f4468adf22f120",
+      "provider": "https://mempool.space/api",
+      "sha256": "3efb39ddf160340c4df3d3b88bfc36ec07a0e9e8318bc7a5e2b0b499890b8786",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "cb912dd6e9c08ccac9a2838750031e4d5367743d3c53d3d800e6b11183fe592b",
+      "key": "tail_0048",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "717864d0e61246262ddd5073604c1fe4eb7715ca9d7ff0214d84e973ddde08eb",
+      "provider": "https://mempool.space/api",
+      "sha256": "0975fae3eb9a41fff4b355737e5c88448795c6d128ff3c032916829af8126332",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "0977379afe028b991398f4db299269185de756aad8c1096b84eb7e87fcc43f4b",
+      "key": "tail_0049",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "a95c679b6ca6cd4a0533712859f3ad5e3f2337917692085f2595dfe1dbaa1662",
+      "provider": "https://mempool.space/api",
+      "sha256": "21b26254d3717291a9640a74ad950fc875b30806f91f1006edc640d34cdae4d3",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "42efa7f6391788ce4dfb26957fd3859277d4dedde343c55f085aa1086202cb7b",
+      "key": "tail_0050",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "4051c01f493a35718d583c084341aaf46ed1b3c63b5c2bd41657a1d04a2dea63",
+      "provider": "https://mempool.space/api",
+      "sha256": "f531a281253f42af9ef69c2088175feec4ba55a1dcc687dd11fb4985c93a9fca",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "5c2a036ae0d55e3b8c0080c666b4a9c6ff8ba008bc86f5da650349d46d0722d6",
+      "key": "tail_0051",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "27e8974a07e0cf02ec4cccca2949db09032822815893591cd0e90f0d21632548",
+      "provider": "https://mempool.space/api",
+      "sha256": "0a58d839bfc730190af1ec44a41eb18869abe49b134815d0c76ca71b13837b90",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "6b38941f316ef09fb502bca8b6b5bead8c16b697e4086f10a96947aab587f895",
+      "key": "tail_0052",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "96a6053a4d39c58bb2d212d8c3bd624e214eb8a2a8ff824d596ade753a53c9ff",
+      "provider": "https://mempool.space/api",
+      "sha256": "eb3838d5e2375997087efd0c7baa1fd3ebdbea2cc452971c1065c4419fabc8b4",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "65860258301d25948ccc0f0c68bacbad9e0d2da5fa57904d19fb6ab6bee3fe36",
+      "key": "tail_0053",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c566054bc10bbb4b78cae82730cc1611a8503f2d1effe1887846d369c5b3470d",
+      "provider": "https://mempool.space/api",
+      "sha256": "8a850806d5026d11eb0e41766ccfafbb4e2beb523f37e52ba271a52a7806f740",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "06c674ae72443974dce808468de4c60bb737de5b8ff23ae28598ec32de428cad",
+      "key": "tail_0054",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "5794ba14f2badffb38e67b7b133a1fca896a0dbef33735f4bc09dd3a901ef86c",
+      "provider": "https://mempool.space/api",
+      "sha256": "1e72a904a191f1148c94715d08ecd2c58ead04d71a8a8b14f0e29f8ab4418036",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "f7139b1f28c31cdce2496f8a585d8da1a4a8d85a10596296828d2ff55c156ee2",
+      "key": "tail_0055",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "b9307e250e981ec161927a98f36c5f7f1d83da512819248bc5135585b35faba7",
+      "provider": "https://mempool.space/api",
+      "sha256": "3c1ac39d46e802a8ee3a76ea3b670b46bb02fb9fa0a35daece7a6e7d24901d79",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "6962473fb0c34da10f6a31fe3fa767b11374e76851facb44490a83a94eaef60c",
+      "key": "tail_0056",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c611a4c4264446a50481d0bf1170e6dfe414b71b381f045457b244725db067aa",
+      "provider": "https://mempool.space/api",
+      "sha256": "dd8e36581ef78fc66d68b32c838e0d47ca85f65894f1ba00219f0be33114c03d",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "4828156277119abfb1c9b8e6defb3e9a958b0d0f8d2f89ff605b2c4f5b809235",
+      "key": "tail_0057",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "8272a7de46a0c5eaa6e511e2b4b808aab2926d80af363f45744140458ce94458",
+      "provider": "https://mempool.space/api",
+      "sha256": "e8d697d5d67d4358313a30f9737ccf97dfd97bec36730c3d8df3925af6170083",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "c07b135f5e523d4fab4cfb70e02355f95597eb5fba5d1a69775edd15b82873b5",
+      "key": "tail_0058",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "82772bc670493a35b2e2906e831f75420c8d205204c4dcea144892db92ed6b7c",
+      "provider": "https://mempool.space/api",
+      "sha256": "37839072507c6709b549517f5528cae7deb2de1cf8316bfa047f7b7e11af5bb6",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "5c7875b918eb77f0e4c3b5bcf70d7f8f084b4cd95705000f7fa1647a31477396",
+      "key": "tail_0059",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "674d96c5848300f3bbfa62fb87cb4b0dac0830186250d889fe65d8a25a0cc720",
+      "provider": "https://mempool.space/api",
+      "sha256": "e5e7e5d6eef6acaaf8555d70b867679d65f24563f865beca0f970152e3d6a75f",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "9cbb16e2c58c3c627596dfa715738bbd9fc38896560761165ec27ae539aa4ec4",
+      "key": "tail_0060",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "270b1c8ba7fce44363292896fa306a96841d5753109030fc1cc27e3757098882",
+      "provider": "https://mempool.space/api",
+      "sha256": "08e781467fb546cbd9cbc923da22f3c843bfdc0c81247dac2063fb6f1c63f709",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "ac38f14ae775d39e0488a8f6fd6b53dd7b3784bda40111d33986086b64cc698a",
+      "key": "tail_0061",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "82183e8be661d4f8f05883354612b674f599f8d770dac22266fa33178f96a677",
+      "provider": "https://mempool.space/api",
+      "sha256": "110a97d3f43e1b23429e0bb065ba63838ac0f733bceb2df0eb9d62917a4c3806",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "c9b858c227992f9397ee74e003dd3487f266b79dcb6f86dae6c3257729193fdf",
+      "key": "tail_0062",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "9f64baf436cb313f1d1b0b466daca96e12f9c4c877833e4d8c9defe62954424d",
+      "provider": "https://mempool.space/api",
+      "sha256": "f51c01f654ca6b7ea9496b7dbed7388682acb0d5d217f892fb81386c19bd6a42",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "ffc4110b4ee01454bb196aeeaa9ea9632f7d93d98197572ff7525a6a239b5cea",
+      "key": "tail_0063",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "8cbbfecd8c306b3a7133e6665458792cb1ff142c04f20adb63074527ad03fc9b",
+      "provider": "https://mempool.space/api",
+      "sha256": "68a0eb68b0b44c20969c32320c1ccc14c781d069062c9ac4aa0527f81c58cfdb",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "0e470f5c2ed463685ecfd3cd851d3f46e9a7ea370004cd60b3422252d862b4e6",
+      "key": "tail_0064",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "d2a5b29fdc1e57160e57510cf8f64800efc94d01a8dc5a0bf4cd4ed42bad3e7b",
+      "provider": "https://mempool.space/api",
+      "sha256": "d6256704f0a3b8963a75fcf769d02802636b1422db30d01662b256664d94036e",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "0309c0e2dd7eb54329beeaacd716402f49cf4358bb73416a5509430927322a0d",
+      "key": "tail_0065",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "8440e2c056e6db84cd62172da2dadbabd38f56b2a095a441b12f10b6d61327f8",
+      "provider": "https://mempool.space/api",
+      "sha256": "11d9102edd351fa2ced0c7e9f6736c625694316e6cf74a7eefe1d245891e0831",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "caa078f620dfe9fe261f7f799c42df2f6c3596d4b29a0b0842a27b062c67f849",
+      "key": "tail_0066",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "2931ec67c1e434a12787dcaa0822fee217612451314aa44bbb1b1653d653627d",
+      "provider": "https://mempool.space/api",
+      "sha256": "c8bf25ce42215adf091f022aa37c119f9605b503f5d6fde67422c57aaa2a494b",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "c4bcdac9bee2a572ec09b5c2dd9a8af7de8fbfe916bdb693d55b1b57ae5e8073",
+      "key": "tail_0067",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "42bfacb682c0d617789e326fd2980eace6c28f364dd54bfa6991e4e2ce46b2c0",
+      "provider": "https://mempool.space/api",
+      "sha256": "c9366e7187e38ee64f5410f59ed364261ac49dafbe7355fbbf392eb1bc158be2",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "84356e9ccce2ce4a9b0eb31c5e1fc8ca010ad1474630532789979f01c3834c2a",
+      "key": "tail_0068",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "3b05123eb1c2d1c4a8f6bc1588e38554384314e08cf488d4e1a214372b131b73",
+      "provider": "https://mempool.space/api",
+      "sha256": "400b4256809d9e0f7465aaef012c80dd5f5b8889167573e15ab431350043fdb1",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "7e4dae0f10fe6db4ab3fe41756ca277e5a30c57c4f856e330e65f3d77f34be6d",
+      "key": "tail_0069",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "ba1d89df9d448963cea85648fce028583b94bc15b8c4fbd425f1bba750e517d9",
+      "provider": "https://mempool.space/api",
+      "sha256": "3bb286cfc33995314e8922efb9cacd6bd961b278ecb9e642077a9a24777b25aa",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "2938078ac0f513535d95f6ff19e45d1b2fac34066caf15073568122ab53bcb95",
+      "key": "tail_0070",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "b64345988f6e858aab870f74438af31af58c41c4d0e9ba2a7f2029452ba7750f",
+      "provider": "https://mempool.space/api",
+      "sha256": "74c8345bae33b63a61411cc98fd8c5feba1019158f8a300778f3901663d045fa",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "d889d7c897157fb3ebccfe42c1e362eff1c3bf3a4aa019c14d224dc7aee13c84",
+      "key": "tail_0071",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "8f96610ecd2199eb4a05a9fecf75b5c722d1172b942f66ec99d82a733f86252e",
+      "provider": "https://mempool.space/api",
+      "sha256": "db2bdd19c713348af50eec5ea7940da7bebdd6806ab9bee578ce4b971a80f06f",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "b47b6f448580f9154c65f0f8bf3f304fdbaae0ebbe888f82339555001f7b14ca",
+      "key": "tail_0072",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c76848d6544fcfcb7416994d5002e78372aad2cbc18152bf2386f7d1c108cee3",
+      "provider": "https://mempool.space/api",
+      "sha256": "63c87469158bb197e72ffa3e8d8cd5c5523b5ca0de841e8bdf88005374292478",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "1c0798351b0d870c33c3e0c6bfa258477e0316273992adbe6cb237ae9683ab52",
+      "key": "tail_0073",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "3e49b4e4c0b72421e1f839cdc4fca7537f9a53a80ef8bd0511533c01259bd57a",
+      "provider": "https://mempool.space/api",
+      "sha256": "476854e3c9373c79d0409e197398d14d53d830d67f155fa03650ee6ce96d69c3",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "0828bd6a1a95892c6ca6e15dde0ae81bdc99b16d2feb3edc6bb82a8db94f046c",
+      "key": "tail_0074",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "2803cb39c486639d53742fd21e863ec038a6482fc7075bb4df2868eb2fc4989d",
+      "provider": "https://mempool.space/api",
+      "sha256": "6a665c7599acdc6051d183ff1a22bbf20c01d6e492a481301ff3033b0f20a501",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "ab9a3b50a06cbf5ea952e7015eb6b9f90f4873458f2948315105c4eaad8160da",
+      "key": "tail_0075",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "8477ee098c27bda8d873210f00a3c3fcb8b218347275e9be71a6fb24993f24bc",
+      "provider": "https://mempool.space/api",
+      "sha256": "859def9641810f35d49ba7cc8a0b88b8170007c183f50e5be2a06094198fe6ae",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "eee626c44e3e748b1b476f4ab3683c326e31708608866ede4bbcfd4be9c1e257",
+      "key": "tail_0076",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "9a459e6132cca54c1f3d66daa55777daa48ceb89f6e2b7519bd706a87ce78ba5",
+      "provider": "https://mempool.space/api",
+      "sha256": "64fde356984f8cf12021047151c5230d6dcb46264afe63186d2e682594459856",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "749010fe9013d2bc83d4e92f1d36bab0155c165f63ff0ac64fd12b0fd00735ee",
+      "key": "tail_0077",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "94b02b7d3c87dc0dd1042f09cd4fb8efc6a6a8a9a91519904ec2734a6be7bf0f",
+      "provider": "https://mempool.space/api",
+      "sha256": "a8d8a3a608f2239653592bd51476ac9ecc1ccab3ad18ce4ffc54601d4c15c5bc",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "355c13afafe822fad9cd24ee7ba9cbdb98678af8037441ced748edb9a13f3a30",
+      "key": "tail_0078",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "c0f60f10b0f3cabcf86ec4f32c2e04f260429ee63c0bc0b61ec3e7722211e9c3",
+      "provider": "https://mempool.space/api",
+      "sha256": "128f76a7e6babfa9c8d2e8d2ffdb72fcafa5b2d9d0c52c7eb94cfe0fa6eb8c36",
+      "source_id": "comparison_0522"
+    },
+    {
+      "endpoint_sha256": "52a1b7af20500ad1c6c0384821981dcbbdd7cc623fce3104d9b49f195a9caeca",
+      "key": "tail_0079",
+      "origin_scope": "mempool_remaining_native_20261114_unit_06",
+      "original_marker_sha256": "db63218f37a1031085523568c485687d4e2c8c32593f08672ac2f9ddde1c86aa",
+      "provider": "https://mempool.space/api",
+      "sha256": "8d9abd81fcb42ee809d0a5f327903059581ac8665edde7540a20eccb3d1004c2",
+      "source_id": "comparison_0522"
+    }
+  ],
+  "schema_version": 1
+}
