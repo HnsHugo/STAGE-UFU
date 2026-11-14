@@ -1,0 +1,20 @@
+{
+  "authorized_on": "2026-11-14T12:51:01.061794+00:00",
+  "collector_lease": {
+    "expires_at": "2026-11-14T14:51:01.061794+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_fifty_20261112_tail_native_five_recovery_20261114",
+    "policy": "A live lease or historical/local lock prohibits concurrent collection.",
+    "protocol": "mempool_fifty_20261112_tail_native_five_recovery_20261114/protocol.json",
+    "protocol_sha256": "37b31d13503215c8638d33f77fccd7d931bdfc8f5949fc0fc344051d2d020a65",
+    "provider": "https://mempool.space/api",
+    "purpose": "User-authorized completion of the five remaining frozen campaign sources; private cache previously saved.",
+    "started_at": "2026-11-14T12:51:01.061794+00:00",
+    "state": "running"
+  },
+  "first_failure_stops_collection": true,
+  "prepared_public_commit": "fce87a6b195d2332f23496569d2a21653c821f51",
+  "provider_requests_before_permit": 0,
+  "scope": "mempool_fifty_20261112_tail_native_five_recovery_20261114",
+  "status": "user_authorized_awaiting_exact_lease_readback"
+}
