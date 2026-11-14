@@ -1,0 +1,20 @@
+{
+  "campaign_unit": 1,
+  "collector_lease": {
+    "expires_at": "2026-11-14T19:42:25.984939+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_remaining_native_20261114_unit_01",
+    "policy": "A live lease or historical/local lock prohibits concurrent collection.",
+    "protocol": "mempool_remaining_native_20261114_unit_01/protocol.json",
+    "protocol_sha256": "b51ebcb773a00fb0b928f1424d094a349feb7de96cf01cf327b35a3df23523b7",
+    "provider": "https://mempool.space/api",
+    "purpose": "Explicit remaining-native request: finite native unit under persistent Mempool public-identifier authorization.",
+    "started_at": "2026-11-14T17:42:25.984939+00:00",
+    "state": "running"
+  },
+  "explicit_destination_identifier_authorization": true,
+  "frozen_campaign_sources": 25,
+  "original_interrupted_intent_preserved": true,
+  "scope": "mempool_remaining_native_20261114_unit_01",
+  "status": "awaiting_exact_published_lease_readback"
+}

@@ -1,5 +1,20 @@
 # Task 2 alignment — 27 October 2026
 
+**Active remaining-native continuation — 14 November 2026**
+
+The current Continue request resumes all 25 remaining pure-native incomplete
+source/reference pairs from the latest verified 1,437-vector view. The frozen
+selection and uniform-bound units are in
+`research/coldcard/mempool_remaining_native_20261114/selection.json`.
+Unit sizes are 3, 5, 5, 5, 3 and 4 at saved frontiers 32, 48 and 64 pages;
+each source adds at most sixteen pages. Every unit needs fresh locks and exact
+published lease/readback, then audit, private save and publication before its
+successor. One worker, five-second spacing, 45-second timeout, same authorized
+Mempool identifiers/route and verified TLS. Stop on first failure/refusal/
+inconsistency. No schedule, rotation, cost, fit or score. Preserve every old
+vector, unknown label, cutoff, current-history status and native/deep cursor.
+The previous fifty-source and five-plus-twenty campaigns remain immutable.
+
 **Completed five-plus-twenty request — 14 November 2026**
 
 [Campaign results](research/coldcard/mempool_twentyfive_20261114/RESULTS.md):
