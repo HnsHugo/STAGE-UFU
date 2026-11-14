@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "mempool_fifty_20261112_tail_native_five_20261113",
+  "active_collection_scope": "none",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -50,24 +50,28 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-11-13T22:44:35.453057+00:00",
-    "owner": "mempool_fifty_20261112_tail_native_five_20261113",
+    "expires_at": null,
+    "finished_at": "2026-11-14T12:39:15.370942+00:00",
+    "last_owner": "mempool_fifty_20261112_tail_native_five_20261113",
+    "operational_locks_released": true,
+    "owner": null,
     "policy": "A live lease or historical/local lock prohibits concurrent collection.",
     "protocol": "mempool_fifty_20261112_tail_native_five_20261113/protocol.json",
     "protocol_sha256": "8e968df7d4cd15d7d0d53dd46245a7f3049ec3e08ba2d9da848773c65a4b1cea",
     "provider": "https://mempool.space/api",
     "purpose": "Next durable checkpoint of the same frozen fifty-source campaign.",
     "started_at": "2026-11-13T20:44:35.453057+00:00",
-    "state": "running"
+    "state": "idle",
+    "stop_status": "expired_workspace_loss_unknown_outcomes"
   },
   "comparison_pre_cutoff_predictors_available": 927,
   "comparison_pre_cutoff_predictors_unavailable": 73,
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
-  "coverage_collection_paused": false,
+  "coverage_collection_paused": true,
   "coverage_complete_sources_added": 25,
   "coverage_interrupted_consumed_requests": 2,
-  "coverage_pause_reason": "A fresh recovery checkpoint holds locks and awaits exact published lease/readback.",
+  "coverage_pause_reason": "Automatic approval review rejected GitHub publication. Offline readiness checks passed, private cached pages preserved. No collector started or lease permit created; awaiting express publication approval in the current conversation.",
   "environment_block_diagnosis_superseded_by": "One normal original-route counter GET returned HTTP200 on 2026-11-02. The environment flags alone did not establish a provider access block.",
   "external_automation_disable_reason": "Fixed CryptoBilis prior-prefix continuation closed: 366 final outcomes, 329 vectors, 37 bounded-incomplete; zero network/unattempted sources. No repeated collection.",
   "external_entity_independence_established": false,
@@ -232,7 +236,7 @@
     "scope": "source_transfer_article_supplement",
     "status": "completed_four_page_checked_supplement"
   },
-  "latest_status": "fifty_recovery_checkpoint_running",
+  "latest_status": "final_five_prepared_publication_blocked",
   "latest_stop_file": "source_prefix_extension_20261112_03/collection_stop.json",
   "latest_work": "source_cohort_work_source_prefix_extension_20261112_03",
   "manual_coverage_workstream": {

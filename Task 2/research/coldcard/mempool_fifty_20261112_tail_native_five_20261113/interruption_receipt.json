@@ -1,0 +1,30 @@
+{
+  "all_historical_and_local_locks_acquired": true,
+  "baseline_vectors_preserved": 1427,
+  "distinct_successor": "mempool_fifty_20261112_tail_native_five_recovery_20261114",
+  "limitation": "No missing response is counted as success, failure, or proof that no request happened.",
+  "no_inflight_request_after_expiry_and_declared_timeout": true,
+  "observed_at": "2026-11-14T12:39:15.370942+00:00",
+  "offline_closure_provider_requests": 0,
+  "original_failures": null,
+  "original_http200": null,
+  "original_lease": {
+    "expires_at": "2026-11-13T22:44:35.453057+00:00",
+    "owner": "mempool_fifty_20261112_tail_native_five_20261113",
+    "policy": "A live lease or historical/local lock prohibits concurrent collection.",
+    "protocol": "mempool_fifty_20261112_tail_native_five_20261113/protocol.json",
+    "protocol_sha256": "8e968df7d4cd15d7d0d53dd46245a7f3049ec3e08ba2d9da848773c65a4b1cea",
+    "provider": "https://mempool.space/api",
+    "purpose": "Next durable checkpoint of the same frozen fifty-source campaign.",
+    "started_at": "2026-11-13T20:44:35.453057+00:00",
+    "state": "running"
+  },
+  "original_operational_flags_reconstructed": false,
+  "original_request_count": null,
+  "original_request_outcomes": "unknown_not_recoverable_from_saved_artifacts",
+  "recovered_new_vectors": 0,
+  "restart_same_scope_allowed": false,
+  "schema_version": 1,
+  "scope": "mempool_fifty_20261112_tail_native_five_20261113",
+  "status": "closed_after_workspace_loss"
+}

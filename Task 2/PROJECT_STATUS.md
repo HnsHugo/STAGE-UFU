@@ -1,5 +1,32 @@
 # Project status — 2 November 2026
 
+**Verified preparation; publication blocked — 14 November 2026**
+
+The distinct final-five recovery is prepared and verified offline: 160 native
+pages, 4,000 source-transaction observations, 165 cached responses, 632 input
+pins and all frozen identities verified. Twenty existing focused tests and four
+expiry-boundary checks pass. All 1,427 complete vectors are unchanged.
+No new provider request, vector, model fit or score was produced. The fifty-source
+campaign remains 45 finalized / 5 pending. GitHub publication was rejected by
+automatic approval review; the remote head remains `8399c0cbedd4edf929f1a82d96fcaa4d7d9eb739`.
+No collector is running, no permit exists, and the local lease is idle. Do not
+claim the prepared scope was collected. Publish only code/redacted metadata on
+`task-2-wallet-analysis` once publication approval is resolved, then obtain fresh
+locks and publish/read back the live lease before executing the existing runner.
+See `research/coldcard/mempool_fifty_20261112_tail_native_five_recovery_20261114/offline_readiness_audit.json`.
+
+**Prepared distinct recovery checkpoint — 14 November 2026**
+
+The expired, unsaved final-five scope from 13 November is explicitly closed with
+unknown request counts/outcomes. Never restart it or reconstruct its flags.
+The distinct successor is
+`mempool_fifty_20261112_tail_native_five_recovery_20261114`: the same five frozen
+IDs, 160 verified saved pages, 1,427/1,500 old vectors preserved, at most sixteen
+new pages per source and 95 new requests total. One worker, five-second spacing,
+45-second timeout, fresh locks and exact published lease/readback are required.
+Stop on first failure/refusal/inconsistency; preserve all queues and unknown
+labels. No model fit/score, rotation, costs or automatic schedule.
+
 **Prepared active fifty-source checkpoint — 13 November 2026**
 
 Current scope: mempool_fifty_20261112_tail_native_five_20261113; 5 frozen sources. The preceding
