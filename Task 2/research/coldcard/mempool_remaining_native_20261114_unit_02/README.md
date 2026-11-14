@@ -1,0 +1,10 @@
+# Remaining native continuation: unit 2
+
+Part of the frozen [remaining-native request](../mempool_remaining_native_20261114/README.md). Reuse all
+240 native pages and 5 references, adding at most sixteen pages per source.
+Baseline: 1437/1,500 complete vectors. Keep one worker, five-second
+spacing, a 45-second timeout, verified TLS and the authorized Mempool route.
+Require fresh locks and exact published lease/readback. Stop the whole campaign
+on the first failure/refusal/inconsistency. Audit, privately save and publish
+before the next unit. Unknown theft/device labels and prior-block features stay
+unchanged; no model fit, score, threshold change, cost or automatic schedule.
