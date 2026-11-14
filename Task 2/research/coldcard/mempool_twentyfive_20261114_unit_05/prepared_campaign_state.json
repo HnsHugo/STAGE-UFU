@@ -1,0 +1,204 @@
+{
+  "active_scope": "mempool_twentyfive_20261114_unit_05",
+  "automation_enabled": false,
+  "available_vectors": 1436,
+  "bounded_source_ids": [
+    "comparison_0541",
+    "comparison_0583",
+    "comparison_0617",
+    "comparison_0622",
+    "comparison_0667",
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0693",
+    "comparison_0713",
+    "comparison_0800",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0877"
+  ],
+  "can_continue": true,
+  "completed_units": [
+    {
+      "bounded_in_scope": 4,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0541",
+        "comparison_0583",
+        "comparison_0617",
+        "comparison_0622",
+        "comparison_0630"
+      ],
+      "fresh_prior_block_observations": 1860,
+      "fresh_requests": 86,
+      "http200": 86,
+      "new_complete_source_ids": [
+        "comparison_0630"
+      ],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "82bac2f55f83e0b63b58d29e9fd99df963d65220aca6b662ac50a20edeba5c02",
+      "scope": "mempool_twentyfive_20261114_unit_01",
+      "selected_source_ids": [
+        "comparison_0541",
+        "comparison_0583",
+        "comparison_0617",
+        "comparison_0622",
+        "comparison_0630"
+      ],
+      "unit": 1
+    },
+    {
+      "bounded_in_scope": 5,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0667",
+        "comparison_0680",
+        "comparison_0683",
+        "comparison_0693",
+        "comparison_0713"
+      ],
+      "fresh_prior_block_observations": 2000,
+      "fresh_requests": 90,
+      "http200": 90,
+      "new_complete_source_ids": [],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "4ace5b5747c1ee03c59c57c17c8d5c0e7924cf4802da304a336952e66cb807ff",
+      "scope": "mempool_twentyfive_20261114_unit_02",
+      "selected_source_ids": [
+        "comparison_0667",
+        "comparison_0680",
+        "comparison_0683",
+        "comparison_0693",
+        "comparison_0713"
+      ],
+      "unit": 2
+    },
+    {
+      "bounded_in_scope": 2,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0730",
+        "comparison_0770",
+        "comparison_0800",
+        "comparison_0804",
+        "comparison_0826"
+      ],
+      "fresh_prior_block_observations": 1065,
+      "fresh_requests": 57,
+      "http200": 57,
+      "new_complete_source_ids": [
+        "comparison_0730",
+        "comparison_0770",
+        "comparison_0804"
+      ],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "c0b2cfeafa565c36ff76fd607c84c565e6e845499d6cd7f70f368d5a44bade92",
+      "scope": "mempool_twentyfive_20261114_unit_03",
+      "selected_source_ids": [
+        "comparison_0730",
+        "comparison_0770",
+        "comparison_0800",
+        "comparison_0804",
+        "comparison_0826"
+      ],
+      "unit": 3
+    },
+    {
+      "bounded_in_scope": 3,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0851",
+        "comparison_0853",
+        "comparison_0860",
+        "comparison_0868",
+        "comparison_0877"
+      ],
+      "fresh_prior_block_observations": 1527,
+      "fresh_requests": 74,
+      "http200": 74,
+      "new_complete_source_ids": [
+        "comparison_0860",
+        "comparison_0868"
+      ],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "b666a899b48ec0fe9c2029bb4906f1c54698a76ac3daf2534875ebde0c59da1b",
+      "scope": "mempool_twentyfive_20261114_unit_04",
+      "selected_source_ids": [
+        "comparison_0851",
+        "comparison_0853",
+        "comparison_0860",
+        "comparison_0868",
+        "comparison_0877"
+      ],
+      "unit": 4
+    }
+  ],
+  "finalized_source_ids": [
+    "comparison_0541",
+    "comparison_0583",
+    "comparison_0617",
+    "comparison_0622",
+    "comparison_0630",
+    "comparison_0667",
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0693",
+    "comparison_0713",
+    "comparison_0730",
+    "comparison_0770",
+    "comparison_0800",
+    "comparison_0804",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0860",
+    "comparison_0868",
+    "comparison_0877"
+  ],
+  "new_complete_source_ids": [
+    "comparison_0630",
+    "comparison_0730",
+    "comparison_0770",
+    "comparison_0804",
+    "comparison_0860",
+    "comparison_0868"
+  ],
+  "next_unit": 5,
+  "pending_source_ids": [
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0970"
+  ],
+  "schema_version": 1,
+  "source_ids": [
+    "comparison_0541",
+    "comparison_0583",
+    "comparison_0617",
+    "comparison_0622",
+    "comparison_0630",
+    "comparison_0667",
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0693",
+    "comparison_0713",
+    "comparison_0730",
+    "comparison_0770",
+    "comparison_0800",
+    "comparison_0804",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0860",
+    "comparison_0868",
+    "comparison_0877",
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0970"
+  ],
+  "status": "prepared_unit"
+}
