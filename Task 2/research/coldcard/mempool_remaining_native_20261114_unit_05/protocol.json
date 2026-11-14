@@ -1,0 +1,165 @@
+{
+  "authorization": "Current user Continue resumes the remaining native historical-prefix frontiers under persistent explicit GitHub and Mempool public-identifier permissions.",
+  "automation_enabled": false,
+  "baseline_vectors": 1438,
+  "blockstream_cooldown_preserved_until": "2026-11-13T18:22:14+00:00",
+  "campaign": "mempool_remaining_native_20261114",
+  "campaign_unit": 5,
+  "created_on": "2026-11-14",
+  "inputs": {
+    "audit_independent_mempool_resume_py": {
+      "file": "../audit_independent_mempool_resume.py",
+      "sha256": "62cc87749ca938caa092753c0bbf178e903f154acdb9f2e1973eef5fab164b7b"
+    },
+    "backup_completed_scope_py": {
+      "file": "../backup_completed_scope.py",
+      "sha256": "852b6e7e0e41aa087557f8d72d8ae12270bfe4733bcec30511de56e20bb9ea55"
+    },
+    "baseline_view": {
+      "file": "../mempool_remaining_native_20261114_unit_04/precutoff_feature_view.json.gz",
+      "sha256": "a4eaf079b0f2c062f6ac5f4778b1766d19fa9f35165b4f5f1ba1dd816a45216c"
+    },
+    "campaign_selection": {
+      "file": "../mempool_remaining_native_20261114/selection.json",
+      "sha256": "0df5fa5d20f18eaf1e451bc57b61d4fcbb8e172c94461d6165c75b564369bd77"
+    },
+    "checkpoint_code": {
+      "file": "../native_remaining_campaign.py",
+      "sha256": "20fc8b6e42b8665b842944a0589dd71365bab2e9c6591101f5873e0980049f93"
+    },
+    "closed_fifty_progress": {
+      "file": "../mempool_fifty_20261112/progress.json",
+      "sha256": "2cb4a632d27bc6a893478cfb274cea39b105589ed4bd0504d6c07aa342d4e35d"
+    },
+    "closed_twentyfive_progress": {
+      "file": "../mempool_twentyfive_20261114/progress.json",
+      "sha256": "20d8ac1f4bb9817b9fec77039799d8ed59f715342b06077c1f188f6425e5b885"
+    },
+    "collect_reference_tail_py": {
+      "file": "../collect_reference_tail.py",
+      "sha256": "c911691ce1f31be82fbfbb6ce7c589ab77da9da0dba7eb5ffc91ea42d0165c51"
+    },
+    "comparison_http_py": {
+      "file": "../comparison_http.py",
+      "sha256": "79793179e8c1bb153ade9a7fa742ed7a4a766bb6e039c791d880d24d5a484915"
+    },
+    "identifier_authorization": {
+      "file": "../mempool_identifier_authorization_20261114.json",
+      "sha256": "8a4553b04959c51c5173e862af50fc636404f1794c05f57c7fdc19ae8fff9105"
+    },
+    "independent_mempool_native_py": {
+      "file": "../independent_mempool_native.py",
+      "sha256": "40627aa2f9f2190ce2b07b1286649ed3b5e589346bb0ebb4aed2f9f3695efbb7"
+    },
+    "independent_mempool_pilot_py": {
+      "file": "../independent_mempool_pilot.py",
+      "sha256": "8bc543e16ecf819bd48166c5b632923ee1c1de91f98990067472de05d64feea3"
+    },
+    "independent_mempool_resume_py": {
+      "file": "../independent_mempool_resume.py",
+      "sha256": "e8e785fdc47978a49ec64fb198834f13f35c49f3a8d5a7dd5e46b7f0d6c548b5"
+    },
+    "mempool_twentyfive_20261114_unit_05_checkpoint_json_gz": {
+      "file": "../mempool_twentyfive_20261114_unit_05/checkpoint.json.gz",
+      "sha256": "1795bd3b539faff77d51d500758bd8e557cd85acfe845caa13d16b2baf2b3819"
+    },
+    "mempool_twentyfive_20261114_unit_05_independent_verification_json": {
+      "file": "../mempool_twentyfive_20261114_unit_05/independent_verification.json",
+      "sha256": "0d74d455a1c108b70004b12af8cacad2687d4fd88584f50f655fe862df61b40f"
+    },
+    "mempool_twentyfive_20261114_unit_05_private_cache_backup_json": {
+      "file": "../mempool_twentyfive_20261114_unit_05/private_cache_backup.json",
+      "sha256": "449f869701ff440be4e944f7fd5da7b7e2b29ffda94295cea7dadf4833db0809"
+    },
+    "mempool_twentyfive_20261114_unit_05_protocol_json": {
+      "file": "../mempool_twentyfive_20261114_unit_05/protocol.json",
+      "sha256": "6aaaaf368a3e9810872020a89f50726653bc2038e9ebd3c1899c9c72924dec3e"
+    },
+    "mempool_twentyfive_20261114_unit_05_request_manifest_json_gz": {
+      "file": "../mempool_twentyfive_20261114_unit_05/request_manifest.json.gz",
+      "sha256": "8c61172888841a74cd571cef8fd863d4703cfad5132f4026febbea702cbe45bc"
+    },
+    "native_extension_checkpoint_py": {
+      "file": "../native_extension_checkpoint.py",
+      "sha256": "ff3cdbbf1262950d96a73a40968ba3b69334c17b2045fc36e9c8f6e3122a8fdd"
+    },
+    "offline_reuse": {
+      "file": "offline_reuse_manifest.json",
+      "sha256": "b0fb712208b5b99285112f9d008858eb79872b6cd2c726dfcd7c9d71a6eeaf03"
+    },
+    "parent_independent_verification_json": {
+      "file": "../mempool_remaining_native_20261114_unit_04/independent_verification.json",
+      "sha256": "ad25f2b5e4e469fa8169f8f579f5f8cce052f7614427bd79bfb4938cd6cd83a6"
+    },
+    "parent_private_cache_backup_json": {
+      "file": "../mempool_remaining_native_20261114_unit_04/private_cache_backup.json",
+      "sha256": "7c9a5e113646a411b6d0a21009caeca397165a8df75c7912b5ffa72a9c3177bc"
+    },
+    "parent_protocol_json": {
+      "file": "../mempool_remaining_native_20261114_unit_04/protocol.json",
+      "sha256": "ced4572dcd9d745593a777bac3511ba5d284e2725519edb65bf0eac69c6a5f87"
+    },
+    "parent_request_manifest_json_gz": {
+      "file": "../mempool_remaining_native_20261114_unit_04/request_manifest.json.gz",
+      "sha256": "725bd033d9231f3fadfdeffb660a9afff1e8609b9ccb75e9a06343cf5287f28f"
+    },
+    "parent_resume_checkpoint_json": {
+      "file": "../mempool_remaining_native_20261114_unit_04/resume_checkpoint.json",
+      "sha256": "1a27df64502fb0b281415dfc972671d85e6260811a7d19163bf9033ca44d7ae1"
+    },
+    "parent_retained_deep_queue_json": {
+      "file": "../mempool_remaining_native_20261114_unit_04/retained_deep_queue.json",
+      "sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421"
+    },
+    "prepared_campaign_state": {
+      "file": "prepared_campaign_state.json",
+      "sha256": "f240c35da07fadd32a418570b30e438105256cb6005a25f98bbd07b1d1faf36b"
+    },
+    "resume_mempool_slow_response_py": {
+      "file": "../resume_mempool_slow_response.py",
+      "sha256": "62b6707925c2f6120c409ee199bd0d40bc5bf28e7ce5705bf8cbcbe4d82ad34b"
+    },
+    "seed_manifest": {
+      "file": "seed_manifest.json",
+      "sha256": "21393b5d341db8ccebb34ee280d91d56fdbc3ef5e3bd0c84b4a388874c21de89"
+    }
+  },
+  "live_policy_file": "../comparison_access_retries_20261030/retry_policy.json",
+  "max_pages_per_address": 64,
+  "maximum_new_native_pages": 16,
+  "maximum_requests": 57,
+  "minimum_dispatch_interval_seconds": 5,
+  "model_fits": 0,
+  "new_scores": 0,
+  "offline_native_pages_reused": 144,
+  "offline_successful_responses_reused": 147,
+  "parent_scope": "mempool_remaining_native_20261114_unit_04",
+  "pass_name": "mempool_remaining_native_20261114_unit_05",
+  "predictors": "The unchanged fourteen predictors strictly before the reference block",
+  "previous_bound": 48,
+  "private_identity_registry_sha256": "8b5994e2b41f11e15c6e85b755a0d401cf75997e9f46ebebb51e46d6392e5249",
+  "private_lock_manifest_sha256": "886c438ba9ae2016de5a6de8180ea21fd4df7397241d141349ab3c27ac65d6da",
+  "private_parent_native_cursors_sha256": "9dae048357949d6d5e293d92985c12be3bee2b7c4cab8606c6e08a2dc4d78b20",
+  "private_plan_sha256": "bb5b19072d84427d2c59904d0bafec1464236eb713baca46fe0dee0f6d8b6916",
+  "private_retained_bridge_native_cursors_sha256": "91046d312cb01eb28000d3a9ff470aa3be6fcb2f720448ee6c21cd2b21a1022f",
+  "provider": "https://mempool.space/api",
+  "request_budget": {
+    "after_anchor_statuses_at_most": 3,
+    "before_statuses_at_most": 3,
+    "funding_statuses_at_most": 3,
+    "tail_pages_at_most": 48,
+    "total_new_requests_at_most": 57
+  },
+  "requests_per_second": 0.2,
+  "schema_version": 6,
+  "source_ids": [
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966"
+  ],
+  "stop_policy": "Stop the whole campaign at the first failure/refusal/inconsistency; no automatic retry or rotation.",
+  "target": "Operational incident membership, not proven theft/device use",
+  "timeout_seconds": 45,
+  "unit": "Frozen source/reference pair",
+  "workers": 1
+}

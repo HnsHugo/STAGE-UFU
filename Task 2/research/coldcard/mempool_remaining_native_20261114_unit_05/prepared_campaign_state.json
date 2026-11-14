@@ -1,0 +1,191 @@
+{
+  "active_scope": "mempool_remaining_native_20261114_unit_05",
+  "automation_enabled": false,
+  "available_vectors": 1438,
+  "bounded_source_ids": [
+    "comparison_0973",
+    "comparison_0982",
+    "comparison_0995",
+    "comparison_0541",
+    "comparison_0583",
+    "comparison_0617",
+    "comparison_0622",
+    "comparison_0667",
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0713",
+    "comparison_0800",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0877",
+    "comparison_0892"
+  ],
+  "can_continue": true,
+  "completed_units": [
+    {
+      "bounded_in_scope": 3,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0973",
+        "comparison_0982",
+        "comparison_0995"
+      ],
+      "fresh_prior_block_observations": 1200,
+      "fresh_requests": 54,
+      "http200": 54,
+      "new_complete_source_ids": [],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "105b1e1f236e293e5e5b312c527ec46c1a41e86c3d34448eaaec955477308123",
+      "scope": "mempool_remaining_native_20261114_unit_01",
+      "selected_source_ids": [
+        "comparison_0973",
+        "comparison_0982",
+        "comparison_0995"
+      ],
+      "unit": 1
+    },
+    {
+      "bounded_in_scope": 5,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0541",
+        "comparison_0583",
+        "comparison_0617",
+        "comparison_0622",
+        "comparison_0667"
+      ],
+      "fresh_prior_block_observations": 2000,
+      "fresh_requests": 90,
+      "http200": 90,
+      "new_complete_source_ids": [],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "7adb4c5636ce7d8007a81d768d6ce9b2fb92c7233e045cd99e5a5c74e1da51e5",
+      "scope": "mempool_remaining_native_20261114_unit_02",
+      "selected_source_ids": [
+        "comparison_0541",
+        "comparison_0583",
+        "comparison_0617",
+        "comparison_0622",
+        "comparison_0667"
+      ],
+      "unit": 2
+    },
+    {
+      "bounded_in_scope": 4,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0680",
+        "comparison_0683",
+        "comparison_0693",
+        "comparison_0713",
+        "comparison_0800"
+      ],
+      "fresh_prior_block_observations": 1895,
+      "fresh_requests": 87,
+      "http200": 87,
+      "new_complete_source_ids": [
+        "comparison_0693"
+      ],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "09d745cd52c015b5743d18efa342b5d6187211b5cfcaefb1f3e69db25090e09e",
+      "scope": "mempool_remaining_native_20261114_unit_03",
+      "selected_source_ids": [
+        "comparison_0680",
+        "comparison_0683",
+        "comparison_0693",
+        "comparison_0713",
+        "comparison_0800"
+      ],
+      "unit": 3
+    },
+    {
+      "bounded_in_scope": 5,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0826",
+        "comparison_0851",
+        "comparison_0853",
+        "comparison_0877",
+        "comparison_0892"
+      ],
+      "fresh_prior_block_observations": 2000,
+      "fresh_requests": 90,
+      "http200": 90,
+      "new_complete_source_ids": [],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "579615d33ecb65474b268b9c6101e019702a56d17da730d0935d6efd8807b04d",
+      "scope": "mempool_remaining_native_20261114_unit_04",
+      "selected_source_ids": [
+        "comparison_0826",
+        "comparison_0851",
+        "comparison_0853",
+        "comparison_0877",
+        "comparison_0892"
+      ],
+      "unit": 4
+    }
+  ],
+  "finalized_source_ids": [
+    "comparison_0973",
+    "comparison_0982",
+    "comparison_0995",
+    "comparison_0541",
+    "comparison_0583",
+    "comparison_0617",
+    "comparison_0622",
+    "comparison_0667",
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0693",
+    "comparison_0713",
+    "comparison_0800",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0877",
+    "comparison_0892"
+  ],
+  "new_complete_source_ids": [
+    "comparison_0693"
+  ],
+  "next_unit": 5,
+  "pending_source_ids": [
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0390",
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0522"
+  ],
+  "schema_version": 1,
+  "source_ids": [
+    "comparison_0973",
+    "comparison_0982",
+    "comparison_0995",
+    "comparison_0541",
+    "comparison_0583",
+    "comparison_0617",
+    "comparison_0622",
+    "comparison_0667",
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0693",
+    "comparison_0713",
+    "comparison_0800",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0877",
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0390",
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0522"
+  ],
+  "status": "prepared_unit"
+}
