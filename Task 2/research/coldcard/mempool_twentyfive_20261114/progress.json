@@ -1,12 +1,17 @@
 {
-  "active_scope": "mempool_twentyfive_20261114_unit_02",
+  "active_scope": null,
   "automation_enabled": false,
   "available_vectors": 1431,
   "bounded_source_ids": [
     "comparison_0541",
     "comparison_0583",
     "comparison_0617",
-    "comparison_0622"
+    "comparison_0622",
+    "comparison_0667",
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0693",
+    "comparison_0713"
   ],
   "can_continue": true,
   "completed_units": [
@@ -37,6 +42,32 @@
         "comparison_0630"
       ],
       "unit": 1
+    },
+    {
+      "bounded_in_scope": 5,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0667",
+        "comparison_0680",
+        "comparison_0683",
+        "comparison_0693",
+        "comparison_0713"
+      ],
+      "fresh_prior_block_observations": 2000,
+      "fresh_requests": 90,
+      "http200": 90,
+      "new_complete_source_ids": [],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "4ace5b5747c1ee03c59c57c17c8d5c0e7924cf4802da304a336952e66cb807ff",
+      "scope": "mempool_twentyfive_20261114_unit_02",
+      "selected_source_ids": [
+        "comparison_0667",
+        "comparison_0680",
+        "comparison_0683",
+        "comparison_0693",
+        "comparison_0713"
+      ],
+      "unit": 2
     }
   ],
   "finalized_source_ids": [
@@ -44,18 +75,18 @@
     "comparison_0583",
     "comparison_0617",
     "comparison_0622",
-    "comparison_0630"
-  ],
-  "new_complete_source_ids": [
-    "comparison_0630"
-  ],
-  "next_unit": 2,
-  "pending_source_ids": [
+    "comparison_0630",
     "comparison_0667",
     "comparison_0680",
     "comparison_0683",
     "comparison_0693",
-    "comparison_0713",
+    "comparison_0713"
+  ],
+  "new_complete_source_ids": [
+    "comparison_0630"
+  ],
+  "next_unit": 3,
+  "pending_source_ids": [
     "comparison_0730",
     "comparison_0770",
     "comparison_0800",
@@ -100,5 +131,5 @@
     "comparison_0966",
     "comparison_0970"
   ],
-  "status": "prepared_unit"
+  "status": "checkpoint_saved"
 }
