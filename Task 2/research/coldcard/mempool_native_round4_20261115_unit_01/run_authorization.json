@@ -1,0 +1,17 @@
+{
+  "collector_lease": {
+    "expires_at": "2026-11-15T08:42:22.513452+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_native_round4_20261115_unit_01",
+    "policy": "A live lease or historical/local lock prohibits concurrent collection.",
+    "protocol": "mempool_native_round4_20261115_unit_01/protocol.json",
+    "protocol_sha256": "e015b836bb05fa14655172b51f3a92ab62b21be99643617d6746649b867103f5",
+    "provider": "https://mempool.space/api",
+    "purpose": "Explicitly authorized continuing source-address research without routine confirmation at checkpoint boundaries.",
+    "started_at": "2026-11-15T06:42:22.513452+00:00",
+    "state": "running"
+  },
+  "explicit_destination_identifier_authorization": true,
+  "scope": "mempool_native_round4_20261115_unit_01",
+  "status": "awaiting_exact_published_lease_readback"
+}

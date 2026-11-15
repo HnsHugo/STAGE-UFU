@@ -1,5 +1,9 @@
 # Task 2 working instructions
 
+**User requests uninterrupted authorized continuation — 15 November 2026**
+
+Hugo asks to stop self-imposed blocking after explicitly granting GitHub/Mempool access. Unit and pass boundaries are checkpoints, not requests for another Continue. During the active session, proceed to the next distinct pinned unit/pass once its predecessor is audited, privately saved and published. The generic `native_followup_campaign.py` preserves old scripts/protocol pins and supports successive campaign names. Keep one worker, five-second spacing, 45-second timeout and at most sixteen added pages per source per unit. Retain the same provider, route, TLS, cutoffs and unknown labels. Stop only for an actual failure/refusal/inconsistency, conflicting lock/lease, failed save/publication, or session execution limit; save a clear resume checkpoint. No background schedule, fitting, scoring, paid service or route rotation. Never ask again for permissions already explicitly given.
+
 **Completed third native continuation — 15 November 2026**
 
 All 23 frozen source/reference pairs are finalized for this bounded pass in six audited, privately saved units: one new complete prefix, 22 bounded histories, zero pending IDs. All 407 requests succeeded; 8,980 prior-block source–transaction observations added. All 1,439 prior complete vectors are unchanged; Coldcard now has 1,440/1,500 vectors, 60 incomplete rows. CryptoBilis stays 329/366. Global verification passes; 29 focused tests pass in the resumed session. All 4,693 private files are verified and saved. No fit, score, split or threshold change occurred.

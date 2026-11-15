@@ -1,0 +1,27 @@
+{
+  "authorized_on": "2026-11-15",
+  "access_approval_exact_user_message": "continue je te donnes tous les acces",
+  "current_exact_user_message": "Tu peux arr\u00eater de te bloquer stp",
+  "meaning": "Continue the existing source-address collection without routine confirmation between audited, privately saved and published units/passes during the active session.",
+  "repository": "HnsHugo/STAGE-UFU",
+  "branch": "task-2-wallet-analysis",
+  "public_repository_scope": "Code and redacted reports only; no raw identifier plans or caches.",
+  "provider": "https://mempool.space/api",
+  "permitted_query_values": "Public Bitcoin addresses, transaction IDs and native cursor transaction IDs needed by the frozen research operation.",
+  "unchanged_bounds": {
+    "workers": 1,
+    "minimum_dispatch_interval_seconds": 5,
+    "timeout_seconds": 45,
+    "additional_pages_per_source_per_unit": 16
+  },
+  "stop_conditions": [
+    "First provider failure/refusal or inconsistency",
+    "Actual publication or private-save failure",
+    "Live lease or held historical/local lock"
+  ],
+  "costs_authorized": false,
+  "alternate_route_authorized": false,
+  "new_model_fits": 0,
+  "automatic_schedule": false,
+  "assistant_added_unit_boundaries_do_not_require_new_user_permission": true
+}

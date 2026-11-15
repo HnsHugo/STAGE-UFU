@@ -1,0 +1,101 @@
+{
+  "allow_followup_pass_without_confirmation": true,
+  "authorization": "User explicitly renewed GitHub/Mempool access, then requested no self-imposed stops: continue successive verified saved units and passes without routine confirmation.",
+  "automatic_schedule": false,
+  "created_on": "2026-11-15",
+  "maximum_additional_pages": 16,
+  "model_fits": 0,
+  "new_scores": 0,
+  "original_parent": "mempool_native_round3_20261114_unit_06",
+  "original_vectors": 1440,
+  "per_source_saved_pages": {
+    "comparison_0390": 112,
+    "comparison_0391": 112,
+    "comparison_0433": 112,
+    "comparison_0522": 112,
+    "comparison_0583": 96,
+    "comparison_0617": 96,
+    "comparison_0622": 96,
+    "comparison_0667": 96,
+    "comparison_0680": 96,
+    "comparison_0683": 96,
+    "comparison_0713": 96,
+    "comparison_0800": 96,
+    "comparison_0826": 96,
+    "comparison_0851": 96,
+    "comparison_0853": 96,
+    "comparison_0877": 96,
+    "comparison_0892": 96,
+    "comparison_0907": 96,
+    "comparison_0912": 96,
+    "comparison_0966": 96,
+    "comparison_0973": 80,
+    "comparison_0995": 80
+  },
+  "predictors": "The unchanged fourteen predictors strictly before the reference block",
+  "requested_sources": 22,
+  "schema_version": 1,
+  "source_ids": [
+    "comparison_0973",
+    "comparison_0995",
+    "comparison_0583",
+    "comparison_0617",
+    "comparison_0622",
+    "comparison_0667",
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0713",
+    "comparison_0800",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0877",
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0390",
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0522"
+  ],
+  "source_selection_rule": "All incomplete pure-native sources, ordered by saved native page bound then source ID; uniform-bound units of at most five.",
+  "target": "Operational incident membership, not proven theft/device use",
+  "unit": "Frozen source/reference pair",
+  "units": [
+    [
+      "comparison_0973",
+      "comparison_0995"
+    ],
+    [
+      "comparison_0583",
+      "comparison_0617",
+      "comparison_0622",
+      "comparison_0667",
+      "comparison_0680"
+    ],
+    [
+      "comparison_0683",
+      "comparison_0713",
+      "comparison_0800",
+      "comparison_0826",
+      "comparison_0851"
+    ],
+    [
+      "comparison_0853",
+      "comparison_0877",
+      "comparison_0892",
+      "comparison_0907",
+      "comparison_0912"
+    ],
+    [
+      "comparison_0966"
+    ],
+    [
+      "comparison_0390",
+      "comparison_0391",
+      "comparison_0433",
+      "comparison_0522"
+    ]
+  ]
+}
