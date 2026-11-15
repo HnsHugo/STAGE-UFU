@@ -1,0 +1,92 @@
+{
+  "allow_followup_pass_without_confirmation": true,
+  "authorization": "Current user sets the limit to 50 pages and authorizes continuation: at most fifty new native pages per source beyond the verified saved frontier, under persistent GitHub/Mempool permissions.",
+  "automatic_schedule": false,
+  "created_on": "2026-11-15",
+  "maximum_additional_pages": 50,
+  "maximum_sources_per_unit": 3,
+  "model_fits": 0,
+  "new_scores": 0,
+  "original_parent": "mempool_native_round5_20261115_unit_05",
+  "original_vectors": 1444,
+  "per_source_saved_pages": {
+    "comparison_0391": 144,
+    "comparison_0433": 144,
+    "comparison_0522": 144,
+    "comparison_0622": 128,
+    "comparison_0680": 128,
+    "comparison_0683": 128,
+    "comparison_0713": 128,
+    "comparison_0800": 128,
+    "comparison_0826": 128,
+    "comparison_0851": 128,
+    "comparison_0853": 128,
+    "comparison_0877": 128,
+    "comparison_0892": 128,
+    "comparison_0907": 128,
+    "comparison_0912": 128,
+    "comparison_0966": 128,
+    "comparison_0973": 112,
+    "comparison_0995": 112
+  },
+  "predictors": "The unchanged fourteen predictors strictly before the reference block",
+  "requested_sources": 18,
+  "schema_version": 1,
+  "source_ids": [
+    "comparison_0973",
+    "comparison_0995",
+    "comparison_0622",
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0713",
+    "comparison_0800",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0877",
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0522"
+  ],
+  "source_selection_rule": "All incomplete pure-native sources, ordered by saved native page bound then source ID; uniform-bound units of at most three.",
+  "target": "Operational incident membership, not proven theft/device use",
+  "unit": "Frozen source/reference pair",
+  "units": [
+    [
+      "comparison_0973",
+      "comparison_0995"
+    ],
+    [
+      "comparison_0622",
+      "comparison_0680",
+      "comparison_0683"
+    ],
+    [
+      "comparison_0713",
+      "comparison_0800",
+      "comparison_0826"
+    ],
+    [
+      "comparison_0851",
+      "comparison_0853",
+      "comparison_0877"
+    ],
+    [
+      "comparison_0892",
+      "comparison_0907",
+      "comparison_0912"
+    ],
+    [
+      "comparison_0966"
+    ],
+    [
+      "comparison_0391",
+      "comparison_0433",
+      "comparison_0522"
+    ]
+  ]
+}

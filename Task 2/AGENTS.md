@@ -1,5 +1,11 @@
 # Task 2 working instructions
 
+**User changes the page limit to fifty — 15 November 2026**
+
+Hugo says "On va fixer la limite à 50 pages et tu peux continuer". For new scopes this means at most fifty additional native history pages per source beyond the saved frontier, as stated to Hugo before execution. Preserve every saved page; do not truncate histories already beyond fifty pages. This explicitly supersedes the former sixteen-new-page bound for the new authorized operation. Use `native_fifty_page_campaign.py` in distinct round-6-or-later campaigns. Units contain at most three sources for durable checkpoints. The request budget also includes fresh reference statuses and the bounded funding-closure statuses needed only after pagination is exhausted.
+
+The starting verified coverage is 1,444/1,500 Coldcard vectors; eighteen pure-native source/reference pairs remain eligible, while the mixed and other deep queues stay preserved. Keep one worker, five-second spacing, a forty-five-second timeout, the original Mempool route/TLS and all scientific cutoffs/unknown labels. Each unit needs fresh locks and exact published lease/readback; audit, privately save and publish before its successor without another routine permission question. Preserve all previous scripts/protocol hashes, complete vectors and interrupted outcomes. Stop at the first actual failure/refusal/inconsistency. No fitting, scoring, split/threshold change, paid service, route rotation or background schedule.
+
 **Fifth native continuation verified and saved — 15 November 2026**
 
 All 20 frozen source/reference pairs finalized: 2 new complete prefixes, 18 still partial. All 350 fresh requests succeeded; zero failures. Added 7671 prior-block address–transaction observations. All 1442 preceding complete vectors are unchanged. Coldcard now has 1444/1,500 complete vectors; 56 rows retain missing predictors. All 5 unit audits/global verification pass; 5359 private files saved and 29 focused tests pass. No fit, score, label promotion, split or threshold change. Use `research/coldcard/mempool_native_round5_20261115/RESULTS.md`, its inventory and the final scope's view/resume. All 86 historical/current locks checked free; lease idle; automation disabled. A high completed-row percentage does not establish a short remaining runtime for the long histories.

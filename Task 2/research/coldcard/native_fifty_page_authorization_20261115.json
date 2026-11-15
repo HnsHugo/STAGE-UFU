@@ -1,0 +1,25 @@
+{
+  "additional_history_pages_per_source": 50,
+  "authorized_on": "2026-11-15",
+  "automatic_schedule": false,
+  "branch": "task-2-wallet-analysis",
+  "exact_user_message": "On va fixer la limite \u00e0 50 pages et tu peux continuer",
+  "execution_interpretation": "At most 50 additional native history pages per source for this new pass, beyond verified saved pages; this interpretation was stated to the user before execution.",
+  "historical_pages_preserved": true,
+  "maximum_sources_per_unit": 3,
+  "model_fits": 0,
+  "new_scores": 0,
+  "prior_identifier_permission": "mempool_identifier_authorization_20261114.json",
+  "prior_native_driver_sha256": "7f4a373e56d9f25c4a6a152aca24318a1ea632c00021715c1efa709e4a0c16ff",
+  "repository": "HnsHugo/STAGE-UFU",
+  "requests_beyond_history_pages": "Fresh before/after anchor statuses and, only for exhausted histories, bounded funding-closure statuses.",
+  "scope": "Existing frozen source/reference historical-prefix research; public identifiers only. Preserve unknown labels, strict cutoffs and old complete vectors.",
+  "unchanged_bounds": {
+    "minimum_dispatch_interval_seconds": 5,
+    "provider": "https://mempool.space/api",
+    "timeout_seconds": 45,
+    "verified_tls": true,
+    "workers": 1
+  },
+  "unit_size_reason": "Smaller durable checkpoints keep each larger page extension auditable and resumable."
+}
