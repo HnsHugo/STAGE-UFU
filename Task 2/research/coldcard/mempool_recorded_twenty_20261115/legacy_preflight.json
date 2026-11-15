@@ -1,0 +1,15 @@
+{
+  "eligible": [
+    "comparison_0251",
+    "comparison_0347",
+    "comparison_0300",
+    "comparison_0249"
+  ],
+  "excluded": [
+    {
+      "reason": "Pilot needs an unplanned funding-status query",
+      "source_id": "comparison_0257"
+    }
+  ],
+  "selection_rule": "Four lowest historical full-current transaction counters among remaining rows in the restored 20-source legacy archive that pass immutable legacy/cache/funding and complete-block bridge preflight. No cohort row or unknown label is replaced."
+}

@@ -1,0 +1,3 @@
+# Twenty additional saved histories
+
+Exactly twenty distinct missing source/reference pairs are frozen before traffic. The six previously unattempted histories come first, followed by ten other native continuations and four complete-block legacy bridges. Each source adds at most fifty new native pages. Preserve all old pages, unknown labels, strict cutoffs, old failed/consumed scopes and every unselected queue. Use the recorded 5.25-second clock guard, one worker and 45-second timeout on the same Mempool route/TLS. Audit, save private evidence and publish every small unit before its successor. Stop on the first real failure/refusal/inconsistency; no retry, rotation, model or background schedule. A processed history need not be complete.

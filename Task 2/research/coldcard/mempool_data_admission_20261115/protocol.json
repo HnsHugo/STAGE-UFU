@@ -1,0 +1,46 @@
+{
+  "inputs": {
+    "admission_code": {
+      "file": "../admit_saved_timing_scope.py",
+      "sha256": "0430d2bc0ddc50babea589020bc071387aa60bd3a6ff8206647d1b9f89ff677b"
+    },
+    "predecessor_resume": {
+      "file": "../mempool_native_round7_20261115_unit_03/resume_checkpoint.json",
+      "sha256": "a163d9da9c248068bb36677cc2efb955527867aff23e8321c649fbae1a5913c2"
+    },
+    "predecessor_view": {
+      "file": "../mempool_native_round7_20261115_unit_03/precutoff_feature_view.json.gz",
+      "sha256": "f12390b4ecf9b193ea2de7c0c6bbb4fb6ddbf9380d597ecdabe23d67015fb017"
+    },
+    "source_checkpoint": {
+      "file": "../mempool_native_round7_20261115_unit_04/checkpoint.json.gz",
+      "sha256": "3195dd1bdbd0a8bb09fe690c31545dfb9a8d9bea5f5126fe6c816aac6cfc24b9"
+    },
+    "source_data_audit": {
+      "file": "../mempool_native_round7_20261115_unit_04/offline_data_verification.json",
+      "sha256": "122b74b4231082d773466cba57ecfc4d35b1a94bd272351b3511f9b3b7cffb65"
+    },
+    "source_private_backup": {
+      "file": "../mempool_native_round7_20261115_unit_04/private_cache_backup.json",
+      "sha256": "f16e43b03f432f87f42d07150658e23f7cc280ef68e966af48b57192ad17b451"
+    },
+    "source_protocol": {
+      "file": "../mempool_native_round7_20261115_unit_04/protocol.json",
+      "sha256": "cd9272fdad806f065890fe8e295a0ae3bdda62b9864268b8afb2dca514567f3c"
+    },
+    "source_timing_failure": {
+      "file": "../mempool_native_round7_20261115_unit_04/audit_failure.json",
+      "sha256": "77df485901080794bbb41469c6392ac937931786ae5331b7f1f52e425c0e2991"
+    }
+  },
+  "original_operational_failure_preserved": true,
+  "pass_name": "mempool_data_admission_20261115",
+  "provider_requests": 0,
+  "purpose": "Explicitly authorized offline scientific-data admission, not collection-audit clearance",
+  "source_ids": [
+    "comparison_0853",
+    "comparison_0877",
+    "comparison_0892"
+  ],
+  "user_request": "Aller go fais en 20 en plus de save; approve the proposed offline admission and twenty saved histories."
+}

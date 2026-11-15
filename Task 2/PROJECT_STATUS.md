@@ -1,5 +1,23 @@
 # Project status — 2 November 2026
 
+**Authorized twenty-history recorded-clock continuation — 15 November 2026**
+
+The user explicitly requests twenty more histories plus saves. Offline data
+admission is complete: 1,446/1,500 official Coldcard vectors, 54 missing;
+`comparison_0877` is admitted after independent reconstruction under the current
+instruction. The original collection timing audit remains failed and preserved.
+The new fixed campaign is `research/coldcard/mempool_recorded_twenty_20261115`:
+exactly sixteen retained native histories and four cache-verified complete-block
+legacy bridges, with the six previously unattempted native histories first.
+Use the frozen selection; fifty additional native pages per source, units of at
+most three, one worker, 45-second timeout, original Mempool route/TLS, and the
+recorded 5.25-second UTC/monotonic guard. Fifty-five focused tests pass. Require
+fresh locks and exact published lease/readback. Audit, privately save and publish
+every unit before its successor, without another routine permission question.
+Stop on the first actual failure/refusal/inconsistency. Do not reopen old scopes,
+repeat saved native pages, fit/score a model or enable a background schedule.
+Preserve unknown labels, cutoffs, all prior vectors and unselected queues.
+
 **Latest stopped checkpoint — 15 November 2026**
 
 The resumed round-7 session saved 461 HTTP200 responses, zero HTTP failures and

@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "none",
+  "active_collection_scope": "mempool_recorded_twenty_20261115_unit_01",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -51,25 +51,21 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": null,
-    "finished_at": "2026-11-15T22:53:12.840435+00:00",
-    "last_owner": "mempool_native_round7_20261115_unit_04",
-    "operational_locks_released": true,
-    "owner": null,
-    "policy": "A live lease or historical/local lock prohibits concurrent collection.",
-    "protocol": "mempool_native_round7_20261115_unit_04/protocol.json",
-    "protocol_sha256": "cd9272fdad806f065890fe8e295a0ae3bdda62b9864268b8afb2dca514567f3c",
+    "expires_at": "2026-11-16T01:30:40.853203+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_recorded_twenty_20261115_unit_01",
+    "protocol": "mempool_recorded_twenty_20261115_unit_01/protocol.json",
+    "protocol_sha256": "d219eb78676438ad9adfe68ef3d47a1556b0acd8e0a51d7bee5023d99ffe405f",
     "provider": "https://mempool.space/api",
-    "purpose": "Explicit user request to finish remaining histories with authorized APIs/GitHub; verified saved cursors and durable checkpoints.",
-    "started_at": "2026-11-15T22:36:06.212609+00:00",
-    "state": "idle",
-    "stop_status": "timing_audit_failed"
+    "purpose": "Explicitly authorized twenty-history continuation with saved evidence and recorded dispatch clock",
+    "started_at": "2026-11-15T23:30:40.853203+00:00",
+    "state": "running"
   },
-  "comparison_pre_cutoff_predictors_available": 945,
-  "comparison_pre_cutoff_predictors_unavailable": 55,
+  "comparison_pre_cutoff_predictors_available": 946,
+  "comparison_pre_cutoff_predictors_unavailable": 54,
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
-  "coverage_collection_paused": true,
+  "coverage_collection_paused": false,
   "coverage_complete_sources_added": 25,
   "coverage_interrupted_consumed_requests": 2,
   "coverage_pause_reason": "One saved wall-clock interval fails the existing five-second dispatch audit; preserve all successful responses and close this campaign before any new traffic.",
@@ -134,7 +130,7 @@
   "last_rate_limit_at": "2026-11-12T18:22:13.994033+00:00",
   "last_retry_delay_seconds": 86400,
   "last_successful_bounded_collection_at": "2026-11-12T18:04:44.428580+00:00",
-  "latest_consolidated_prefix_view": "mempool_native_round7_20261115_unit_03/precutoff_feature_view.json.gz",
+  "latest_consolidated_prefix_view": "mempool_data_admission_20261115/precutoff_feature_view.json.gz",
   "latest_coverage_output": "source_prefix_extension_20261112_03",
   "latest_coverage_protocol": "source_prefix_extension_20261112_03/protocol.json",
   "latest_coverage_result_file": "source_prefix_extension_20261112_03/coverage_audit.json",
@@ -223,9 +219,9 @@
   "latest_prefix_protocol": "mempool_native_round7_20261115_unit_03/protocol.json",
   "latest_prefix_result_file": "mempool_native_round7_20261115_unit_03/coverage_audit.json",
   "latest_prefix_resume_checkpoint": "mempool_native_round7_20261115_unit_03/resume_checkpoint.json",
-  "latest_prefix_resume_file": "mempool_native_round7_20261115_unit_03/resume_checkpoint.json",
+  "latest_prefix_resume_file": "mempool_data_admission_20261115/resume_checkpoint.json",
   "latest_prefix_stop_file": "mempool_native_round7_20261115_unit_03/collection_stop.json",
-  "latest_prefix_work": "source_cohort_work_mempool_native_round7_20261115_unit_03",
+  "latest_prefix_work": "source_cohort_work_mempool_data_admission_20261115",
   "latest_prepared_coverage_successor": {
     "automation_enabled": false,
     "finalization_entrypoint": "finalize_frontier_checkpoint.py",
@@ -256,7 +252,7 @@
     "scope": "source_transfer_article_supplement",
     "status": "completed_four_page_checked_supplement"
   },
-  "latest_status": "native_collection_stopped_on_dispatch_timing_audit",
+  "latest_status": "offline_data_admission_1446_with_original_timing_warning_preserved",
   "latest_stop_file": "source_prefix_extension_20261112_03/collection_stop.json",
   "latest_work": "source_cohort_work_source_prefix_extension_20261112_03",
   "manual_coverage_workstream": {
@@ -349,14 +345,16 @@
     "https://mempool.space/api": {
       "approval_required": false,
       "automatic_provider_rotation": false,
+      "enforced_dispatch_spacing_seconds": 5.25,
       "last_http200": 149,
       "last_refusals": 0,
       "maximum_new_native_pages_per_source": 50,
       "maximum_requests": 159,
       "minimum_dispatch_interval_seconds": 5,
       "next_network_attempt_not_before": null,
-      "no_new_probe_authorized": true,
-      "operational_validation_required": true,
+      "no_new_probe_authorized": false,
+      "operational_resolution": "Distinct pinned recorded-clock runner and passing regressions; old failure remains preserved.",
+      "operational_validation_required": false,
       "query_disclosure_authorization": {
         "approved_operation": "Send the public Bitcoin address and transaction identifiers required for this research to mempool.space for transaction-status and address-history GET requests.",
         "authorized_on": "2026-11-14T15:35:54.497427+00:00",
@@ -366,13 +364,13 @@
         "source": "Explicit current user reply to the specific destination-and-identifiers authorization question.",
         "user_reply": "Oui"
       },
-      "scope": "mempool_native_round7_20261115_unit_04",
+      "scope": "mempool_recorded_twenty_20261115_unit_01",
       "source_ids": [
-        "comparison_0853",
-        "comparison_0877",
-        "comparison_0892"
+        "comparison_0907",
+        "comparison_0912",
+        "comparison_0966"
       ],
-      "status": "stopped_after_timing_audit_failure",
+      "status": "running_recorded_clock",
       "stop_reason": "Dispatch timing audit discrepancy; API/GitHub user permissions remain retained.",
       "timeout_seconds": 45
     }
