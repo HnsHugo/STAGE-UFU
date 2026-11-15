@@ -1,0 +1,20 @@
+{
+  "additional_native_pages_per_source": 50,
+  "collector_lease": {
+    "expires_at": "2026-11-16T00:05:32.261883+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_native_round7_20261115_unit_02",
+    "policy": "A live lease or historical/local lock prohibits concurrent collection.",
+    "protocol": "mempool_native_round7_20261115_unit_02/protocol.json",
+    "protocol_sha256": "f7d27c563302a314003c5840cc4828d88ae709f26f1cd0838fecf0991d9166d2",
+    "provider": "https://mempool.space/api",
+    "purpose": "Explicit user request to finish all remaining histories using authorized APIs and GitHub commits; continue verified saved cursors.",
+    "started_at": "2026-11-15T22:05:32.261883+00:00",
+    "state": "running"
+  },
+  "explicit_destination_identifier_authorization": true,
+  "lease_seconds": 7200,
+  "scope": "mempool_native_round7_20261115_unit_02",
+  "status": "awaiting_exact_published_lease_readback",
+  "user_request": "Termine tout maintenant je te donne l\u2019autorisation d\u2019utiliser les api et tu as tous l\u2019acc\u00e8s \u00e0 la branche GitHub de STAGE-UFU Task 2 et les commits."
+}
