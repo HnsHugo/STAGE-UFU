@@ -1,5 +1,9 @@
 # Project status — 2 November 2026
 
+**User requests completion of all remaining histories — 15 November 2026**
+
+Hugo says "Termine tout maintenant" after reviewing the 55 missing Coldcard rows. Continue the already-authorized collection from saved evidence, with audit/private save/publication at each checkpoint and no routine permission question. The next distinct campaign is `research/coldcard/mempool_native_round7_20261115`: 17 pure-native histories first, retaining the other 38 missing rows and their queues. Keep fifty additional native pages per source per checkpoint, one worker, five-second spacing, 45-second timeout, the original provider/route/TLS, strict pre-block features and unknown labels. A checkpoint cap does not establish completion. Preserve all previous complete vectors and consumed/unknown outcomes. Stop at the first actual failure/refusal/inconsistency; no model fit/score, paid service, route rotation or background schedule.
+
 **Fifty-page continuation verified and saved — 15 November 2026**
 
 All 18 frozen source/reference pairs finalized: 1 new complete prefixes, 17 still partial. All 934 fresh requests succeeded; zero failures. Added 22417 prior-block address–transaction observations. All 1444 preceding complete vectors are unchanged. Coldcard now has 1445/1,500 complete vectors; 55 rows retain missing predictors. All 7 unit audits/global verification pass; 6629 private files saved; 33 focused tests pass. Actual additional native pages are verified per source and never exceed fifty. The user-set bound is **fifty new native pages per source per pass beyond saved history**; old pages remain preserved. Histories capped without terminal pagination remain incomplete.
