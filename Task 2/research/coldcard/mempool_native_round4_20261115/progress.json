@@ -1,5 +1,5 @@
 {
-  "active_scope": "mempool_native_round4_20261115_unit_03",
+  "active_scope": null,
   "automation_enabled": false,
   "available_vectors": 1442,
   "bounded_source_ids": [
@@ -7,7 +7,12 @@
     "comparison_0995",
     "comparison_0583",
     "comparison_0622",
-    "comparison_0680"
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0713",
+    "comparison_0800",
+    "comparison_0826",
+    "comparison_0851"
   ],
   "can_continue": true,
   "completed_units": [
@@ -59,6 +64,32 @@
         "comparison_0680"
       ],
       "unit": 2
+    },
+    {
+      "bounded_in_scope": 5,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0683",
+        "comparison_0713",
+        "comparison_0800",
+        "comparison_0826",
+        "comparison_0851"
+      ],
+      "fresh_prior_block_observations": 2000,
+      "fresh_requests": 90,
+      "http200": 90,
+      "new_complete_source_ids": [],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "d13848a64e80b8be32cdadd8d3dd1bbe4aea99656a5f25d3caf3bea00be34044",
+      "scope": "mempool_native_round4_20261115_unit_03",
+      "selected_source_ids": [
+        "comparison_0683",
+        "comparison_0713",
+        "comparison_0800",
+        "comparison_0826",
+        "comparison_0851"
+      ],
+      "unit": 3
     }
   ],
   "finalized_source_ids": [
@@ -68,19 +99,19 @@
     "comparison_0617",
     "comparison_0622",
     "comparison_0667",
-    "comparison_0680"
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0713",
+    "comparison_0800",
+    "comparison_0826",
+    "comparison_0851"
   ],
   "new_complete_source_ids": [
     "comparison_0617",
     "comparison_0667"
   ],
-  "next_unit": 3,
+  "next_unit": 4,
   "pending_source_ids": [
-    "comparison_0683",
-    "comparison_0713",
-    "comparison_0800",
-    "comparison_0826",
-    "comparison_0851",
     "comparison_0853",
     "comparison_0877",
     "comparison_0892",
@@ -117,5 +148,5 @@
     "comparison_0433",
     "comparison_0522"
   ],
-  "status": "prepared_unit"
+  "status": "checkpoint_saved"
 }
