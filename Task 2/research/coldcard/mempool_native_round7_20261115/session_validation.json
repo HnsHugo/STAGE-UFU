@@ -1,8 +1,9 @@
 {
   "basis": "Observed successful execution in this resumed session; no provider request is issued by these tests.",
-  "command": "python3 -m unittest test_native_fifty_page_campaign test_native_extension_checkpoint test_independent_mempool_resume test_independent_mempool_native test_mempool_slow_response test_native_remaining_campaign test_native_round2_campaign test_native_round3_campaign test_native_twentyfive_campaign",
-  "recorded_at": "2026-11-15T22:25:51.662656+00:00",
+  "clock_evidence_tests": 6,
+  "command": "python3 -m unittest test_native_fifty_page_campaign test_native_extension_checkpoint test_independent_mempool_resume test_independent_mempool_native test_mempool_slow_response test_native_remaining_campaign test_native_round2_campaign test_native_round3_campaign test_native_twentyfive_campaign test_recorded_mempool_resume",
+  "recorded_at": "2026-11-15T23:00:15.922479+00:00",
   "status": "passed",
   "tests_failed": 0,
-  "tests_passed": 40
+  "tests_passed": 46
 }

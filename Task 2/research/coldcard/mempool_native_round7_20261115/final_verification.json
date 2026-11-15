@@ -1,0 +1,55 @@
+{
+  "actual_spacing_or_clock_adjustment_not_distinguishable": true,
+  "automation_enabled": false,
+  "campaign_complete": false,
+  "clock_fix_tests_passed": 6,
+  "collected_stopped_sources": 3,
+  "dispatch_audit_failures": 1,
+  "fully_audited_saved_sources": 8,
+  "http_failures": 0,
+  "lease_idle": true,
+  "minimum_recorded_interval_seconds": 4.79656,
+  "model_fits": 0,
+  "new_scores": 0,
+  "official_coldcard_vectors": 1445,
+  "official_missing_vectors": 55,
+  "official_view": "mempool_native_round7_20261115_unit_03/precutoff_feature_view.json.gz",
+  "old_complete_vectors_preserved": 1445,
+  "operational_locks_checked_free": 103,
+  "original_pinned_collectors_unchanged": true,
+  "prior_block_observations_including_preceding_unit_01": 13537,
+  "private_evidence_files_saved": 5054,
+  "provider_gate_closed": true,
+  "quarantined_candidate_view": "mempool_native_round7_20261115_unit_04/offline_candidate_feature_view.json.gz",
+  "quarantined_data_verified_candidate_vectors": 1,
+  "quarantined_source_ids": [
+    "comparison_0877"
+  ],
+  "resumed_session_prior_block_observations": 11037,
+  "resumed_session_successful_requests": 461,
+  "status": "stopped_saved_verified",
+  "total_focused_tests_passed": 46,
+  "total_successful_requests_including_preceding_unit_01": 565,
+  "unattempted_campaign_sources": 6,
+  "units": [
+    {
+      "full_audit": "passed",
+      "http200": 104,
+      "new_complete": 0,
+      "scope": "mempool_native_round7_20261115_unit_01"
+    },
+    {
+      "full_audit": "passed",
+      "http200": 156,
+      "new_complete": 0,
+      "scope": "mempool_native_round7_20261115_unit_02"
+    },
+    {
+      "full_audit": "passed",
+      "http200": 156,
+      "new_complete": 0,
+      "scope": "mempool_native_round7_20261115_unit_03"
+    }
+  ],
+  "verified_at": "2026-11-15T23:01:43.234893+00:00"
+}

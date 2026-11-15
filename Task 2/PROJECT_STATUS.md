@@ -1,5 +1,28 @@
 # Project status — 2 November 2026
 
+**Latest stopped checkpoint — 15 November 2026**
+
+The resumed round-7 session saved 461 HTTP200 responses, zero HTTP failures and
+11,037 prior-block source–transaction observations across units 2–4. Units 2–3
+pass their full audits. Unit 4 fails the unchanged UTC dispatch audit at one
+4.79656-second interval (threshold 4.9); all its data checks pass separately.
+Official coverage remains 1,445/1,500; `comparison_0877` is an additional
+quarantined data-complete candidate, never silently promoted. All successful
+pages are saved. The campaign is closed, lease idle, 103 locks checked free,
+provider gate closed and no background schedule. Six selected histories were
+not started; all other missing queues remain retained. User API/GitHub
+permissions persist; no renewed permission question is needed. Do not restart
+consumed scopes or request saved pages again. See
+`research/coldcard/mempool_native_round7_20261115/RESULTS.md` and its progress.
+
+The original pinned collectors/protocols are unchanged. The new
+`recorded_mempool_resume.py` records UTC plus monotonic nanoseconds and enforces
+a 5.25-second margin; 46 focused tests pass, including six timing regressions.
+It has made no provider request. Before future traffic, prepare a distinct
+pinned successor using the recorded runner, explicitly resolve the quarantined
+evidence/provenance, and obtain fresh locks plus exact published lease/readback.
+The historical wall-clock discrepancy remains unexplained. No model fit/score.
+
 **User requests completion of all remaining histories — 15 November 2026**
 
 Hugo says "Termine tout maintenant" after reviewing the 55 missing Coldcard rows. Continue the already-authorized collection from saved evidence, with audit/private save/publication at each checkpoint and no routine permission question. The next distinct campaign is `research/coldcard/mempool_native_round7_20261115`: 17 pure-native histories first, retaining the other 38 missing rows and their queues. Keep fifty additional native pages per source per checkpoint, one worker, five-second spacing, 45-second timeout, the original provider/route/TLS, strict pre-block features and unknown labels. A checkpoint cap does not establish completion. Preserve all previous complete vectors and consumed/unknown outcomes. Stop at the first actual failure/refusal/inconsistency; no model fit/score, paid service, route rotation or background schedule.

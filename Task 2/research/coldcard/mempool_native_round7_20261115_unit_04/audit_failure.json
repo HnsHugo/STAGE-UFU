@@ -1,0 +1,29 @@
+{
+  "accepted_wall_clock_minimum_seconds": 4.9,
+  "anomalies": [
+    {
+      "after_dispatch_at": "2026-11-15T22:46:33.117234+00:00",
+      "after_key": "tail_0196",
+      "after_source": "comparison_0892",
+      "before_dispatch_at": "2026-11-15T22:46:28.320674+00:00",
+      "before_key": "tail_0195",
+      "before_source": "comparison_0892",
+      "seconds": 4.79656
+    }
+  ],
+  "audit": "audit_independent_mempool_resume.py",
+  "cause": "Undetermined: a wall-clock adjustment and an actual dispatch-spacing issue cannot be distinguished from these saved timestamps alone.",
+  "error_type": "ValueError",
+  "fresh_requests": 149,
+  "http200": 149,
+  "http_failures": 0,
+  "minimum_recorded_interval_seconds": 4.79656,
+  "monotonic_dispatch_evidence_recorded": false,
+  "new_provider_requests_authorized_in_this_scope": false,
+  "nominal_spacing_seconds": 5,
+  "observed_at": "2026-11-15T22:53:12.839799+00:00",
+  "original_audit_passed": false,
+  "protocol_sha256": "cd9272fdad806f065890fe8e295a0ae3bdda62b9864268b8afb2dca514567f3c",
+  "reason": "Native dispatch rate exceeded",
+  "status": "failed"
+}
