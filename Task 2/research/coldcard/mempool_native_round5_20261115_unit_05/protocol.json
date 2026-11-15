@@ -1,0 +1,182 @@
+{
+  "authorization": "User explicitly renewed GitHub/Mempool access, then requested no self-imposed stops: continue successive verified saved units and passes without routine confirmation.",
+  "automation_enabled": false,
+  "baseline_vectors": 1443,
+  "blockstream_cooldown_preserved_until": "2026-11-13T18:22:14+00:00",
+  "campaign": "mempool_native_round5_20261115",
+  "campaign_unit": 5,
+  "created_on": "2026-11-15",
+  "inputs": {
+    "audit_independent_mempool_resume_py": {
+      "file": "../audit_independent_mempool_resume.py",
+      "sha256": "62cc87749ca938caa092753c0bbf178e903f154acdb9f2e1973eef5fab164b7b"
+    },
+    "backup_completed_scope_py": {
+      "file": "../backup_completed_scope.py",
+      "sha256": "852b6e7e0e41aa087557f8d72d8ae12270bfe4733bcec30511de56e20bb9ea55"
+    },
+    "baseline_view": {
+      "file": "../mempool_native_round5_20261115_unit_04/precutoff_feature_view.json.gz",
+      "sha256": "fec2086683f24fcc2d1fa19195100427aee71502092ab2b6bbe7297c89dff34b"
+    },
+    "campaign_selection": {
+      "file": "../mempool_native_round5_20261115/selection.json",
+      "sha256": "4096127583588fa7de372011ce967022870db7844bb8cca8fb02fd5d6cacd149"
+    },
+    "checkpoint_code": {
+      "file": "../native_followup_campaign.py",
+      "sha256": "7f4a373e56d9f25c4a6a152aca24318a1ea632c00021715c1efa709e4a0c16ff"
+    },
+    "closed_fifty_progress": {
+      "file": "../mempool_fifty_20261112/progress.json",
+      "sha256": "2cb4a632d27bc6a893478cfb274cea39b105589ed4bd0504d6c07aa342d4e35d"
+    },
+    "closed_remaining_progress": {
+      "file": "../mempool_remaining_native_20261114/progress.json",
+      "sha256": "093e374a4a1949e2730bb233b81f6881cd30f8c51fa46c1c279bf47a767ea9b9"
+    },
+    "closed_round2_progress": {
+      "file": "../mempool_native_round2_20261114/progress.json",
+      "sha256": "1d961588cda10ab508e00f4293ea8153e2af8624282a7bfb965d4fc5d15c4d7a"
+    },
+    "closed_round3_progress": {
+      "file": "../mempool_native_round3_20261114/progress.json",
+      "sha256": "38c141c588a0e10daa8548ac1952790b01824856a8fe060f46660f6dd2e53afe"
+    },
+    "closed_twentyfive_progress": {
+      "file": "../mempool_twentyfive_20261114/progress.json",
+      "sha256": "20d8ac1f4bb9817b9fec77039799d8ed59f715342b06077c1f188f6425e5b885"
+    },
+    "collect_reference_tail_py": {
+      "file": "../collect_reference_tail.py",
+      "sha256": "c911691ce1f31be82fbfbb6ce7c589ab77da9da0dba7eb5ffc91ea42d0165c51"
+    },
+    "comparison_http_py": {
+      "file": "../comparison_http.py",
+      "sha256": "79793179e8c1bb153ade9a7fa742ed7a4a766bb6e039c791d880d24d5a484915"
+    },
+    "identifier_authorization": {
+      "file": "../mempool_identifier_authorization_20261114.json",
+      "sha256": "8a4553b04959c51c5173e862af50fc636404f1794c05f57c7fdc19ae8fff9105"
+    },
+    "independent_mempool_native_py": {
+      "file": "../independent_mempool_native.py",
+      "sha256": "40627aa2f9f2190ce2b07b1286649ed3b5e589346bb0ebb4aed2f9f3695efbb7"
+    },
+    "independent_mempool_pilot_py": {
+      "file": "../independent_mempool_pilot.py",
+      "sha256": "8bc543e16ecf819bd48166c5b632923ee1c1de91f98990067472de05d64feea3"
+    },
+    "independent_mempool_resume_py": {
+      "file": "../independent_mempool_resume.py",
+      "sha256": "e8e785fdc47978a49ec64fb198834f13f35c49f3a8d5a7dd5e46b7f0d6c548b5"
+    },
+    "mempool_native_round4_20261115_unit_06_checkpoint_json_gz": {
+      "file": "../mempool_native_round4_20261115_unit_06/checkpoint.json.gz",
+      "sha256": "bf07885f30d7a8c0c764092cfebadfdb283d81d200673cde526e27efaca4bd89"
+    },
+    "mempool_native_round4_20261115_unit_06_independent_verification_json": {
+      "file": "../mempool_native_round4_20261115_unit_06/independent_verification.json",
+      "sha256": "3323302126696be91299726312fc3330b14a84e63f0375f1c1ea74076206443b"
+    },
+    "mempool_native_round4_20261115_unit_06_private_cache_backup_json": {
+      "file": "../mempool_native_round4_20261115_unit_06/private_cache_backup.json",
+      "sha256": "da116fc8ad2023f17098c112da83ca0f6fc950e0d03f5924f19f980b586b3b5e"
+    },
+    "mempool_native_round4_20261115_unit_06_protocol_json": {
+      "file": "../mempool_native_round4_20261115_unit_06/protocol.json",
+      "sha256": "f649e8c5f5310abff688ee87c80ba570321e9d51a0d8c5524fb2988e4162220b"
+    },
+    "mempool_native_round4_20261115_unit_06_request_manifest_json_gz": {
+      "file": "../mempool_native_round4_20261115_unit_06/request_manifest.json.gz",
+      "sha256": "c32c07c7c558f0796c13102c7e9ae4ff2bd338e04aaded32fd7212786c7d8f68"
+    },
+    "native_extension_checkpoint_py": {
+      "file": "../native_extension_checkpoint.py",
+      "sha256": "ff3cdbbf1262950d96a73a40968ba3b69334c17b2045fc36e9c8f6e3122a8fdd"
+    },
+    "offline_reuse": {
+      "file": "offline_reuse_manifest.json",
+      "sha256": "d0a9aa8070d2a3e16b8f683b139af62fb403e42cf041d86c885aab00f93c5484"
+    },
+    "parent_independent_verification_json": {
+      "file": "../mempool_native_round5_20261115_unit_04/independent_verification.json",
+      "sha256": "a263d8e03882bac40b7b4fe24876fc81994b48594f450d3ef5e713bf0559140d"
+    },
+    "parent_private_cache_backup_json": {
+      "file": "../mempool_native_round5_20261115_unit_04/private_cache_backup.json",
+      "sha256": "563488505ba4a4b3cc644cdf1cf0e94acec7aae91bb11c1f28cb3c6aae2be534"
+    },
+    "parent_protocol_json": {
+      "file": "../mempool_native_round5_20261115_unit_04/protocol.json",
+      "sha256": "6a55ed08b06b9ba76f9641d3bf8bc0c4066c54278318df2373c9e6a0da0686ea"
+    },
+    "parent_request_manifest_json_gz": {
+      "file": "../mempool_native_round5_20261115_unit_04/request_manifest.json.gz",
+      "sha256": "3b41079286d225e7915477742ed26f4dc7a5a3ef48dad7191fd69b08e9130ca5"
+    },
+    "parent_resume_checkpoint_json": {
+      "file": "../mempool_native_round5_20261115_unit_04/resume_checkpoint.json",
+      "sha256": "c58af958097ca078b6a48546074e0450a2aaf60cde934167aa65dcadaa525a7d"
+    },
+    "parent_retained_deep_queue_json": {
+      "file": "../mempool_native_round5_20261115_unit_04/retained_deep_queue.json",
+      "sha256": "ae39be9bd316a6577be5907dcb7df8db22fd0483f0d9e7731da8b1c7918e7421"
+    },
+    "prepared_campaign_state": {
+      "file": "prepared_campaign_state.json",
+      "sha256": "c4a88548decedf904a5fa0ddb0fc966736d4f20c5d67af7de9e163b2964c0216"
+    },
+    "resume_mempool_slow_response_py": {
+      "file": "../resume_mempool_slow_response.py",
+      "sha256": "62b6707925c2f6120c409ee199bd0d40bc5bf28e7ce5705bf8cbcbe4d82ad34b"
+    },
+    "seed_manifest": {
+      "file": "seed_manifest.json",
+      "sha256": "3ebe96183d8af06b2cf0093cff513273eb7362e6ffb2f62e427efe8fe765ee4b"
+    },
+    "user_continuation_authorization": {
+      "file": "../native_continuation_authorization_20261115.json",
+      "sha256": "07e0e85bd33a8281e101c0c9e2b921a135997f6874065356b45ef57c40e4abe0"
+    }
+  },
+  "live_policy_file": "../comparison_access_retries_20261030/retry_policy.json",
+  "max_pages_per_address": 144,
+  "maximum_new_native_pages": 16,
+  "maximum_requests": 76,
+  "minimum_dispatch_interval_seconds": 5,
+  "model_fits": 0,
+  "new_scores": 0,
+  "offline_native_pages_reused": 512,
+  "offline_successful_responses_reused": 516,
+  "parent_scope": "mempool_native_round5_20261115_unit_04",
+  "pass_name": "mempool_native_round5_20261115_unit_05",
+  "predictors": "The unchanged fourteen predictors strictly before the reference block",
+  "previous_bound": 128,
+  "private_identity_registry_sha256": "8b5994e2b41f11e15c6e85b755a0d401cf75997e9f46ebebb51e46d6392e5249",
+  "private_lock_manifest_sha256": "66d8c43aabd4be8604873e17e93028ff9386398b2ab5de08b899f80a1922fb43",
+  "private_parent_native_cursors_sha256": "418b7be3555316f2411c2d90f2c6ed43bc8bef7ed13d2c7068b48532c49736aa",
+  "private_plan_sha256": "69688efc09d8b2a11f2dd4d51c33cf3c3abaaddd708412debd4f379092293643",
+  "private_retained_bridge_native_cursors_sha256": "91046d312cb01eb28000d3a9ff470aa3be6fcb2f720448ee6c21cd2b21a1022f",
+  "provider": "https://mempool.space/api",
+  "request_budget": {
+    "after_anchor_statuses_at_most": 4,
+    "before_statuses_at_most": 4,
+    "funding_statuses_at_most": 4,
+    "tail_pages_at_most": 64,
+    "total_new_requests_at_most": 76
+  },
+  "requests_per_second": 0.2,
+  "schema_version": 6,
+  "source_ids": [
+    "comparison_0390",
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0522"
+  ],
+  "stop_policy": "Stop the whole campaign at the first failure/refusal/inconsistency; no automatic retry or rotation.",
+  "target": "Operational incident membership, not proven theft/device use",
+  "timeout_seconds": 45,
+  "unit": "Frozen source/reference pair",
+  "workers": 1
+}
