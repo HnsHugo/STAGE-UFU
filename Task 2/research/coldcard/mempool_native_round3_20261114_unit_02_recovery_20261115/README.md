@@ -1,0 +1,3 @@
+# Distinct recovery of third native unit 2
+
+The expired unsaved predecessor is closed with unknown request counts/outcomes. Reuse 400 verified native pages and five references for the same five frozen source/reference pairs. Add at most sixteen pages per source. Preserve all 1,439 complete vectors and unknown theft/device labels. Fourteen features strictly precede the reference block. One worker, five-second spacing, 45-second timeout, original authorized Mempool route and verified TLS. Fresh locks and exact published lease/readback are mandatory. Stop on first failure; no retry, rotation, cost, model fit or score.

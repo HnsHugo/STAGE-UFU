@@ -1,0 +1,3 @@
+# Explicitly authorized distinct successor
+
+Same five frozen source/reference pairs and 400 verified native pages. Add at most sixteen pages per source. Target: operational core membership; theft/device status remains unknown. Fourteen predictors strictly precede the reference block. Baseline: 1,439 complete vectors. One worker, five-second spacing, 45-second timeout, same Mempool provider/route and verified TLS. Fresh locks plus exact published lease/readback are required. Audit, privately save and publish before a successor. Stop at the first failure; no retry, rotation, cost, fitting or scoring. Both closed predecessor scopes and unknown original outcomes remain preserved.

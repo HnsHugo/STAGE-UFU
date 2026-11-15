@@ -1,5 +1,17 @@
 # Project status — 2 November 2026
 
+**Explicitly reauthorized continuation — 15 November 2026**
+
+Hugo explicitly replied "continue je te donnes tous les acces" to the exact request for GitHub publication of code/redacted reports on HnsHugo/STAGE-UFU task-2-wallet-analysis and continued Mempool collection. The distinct successor is `mempool_native_round3_20261115_unit_02_authorized`. It reuses the same five frozen pairs and 405 verified saved responses, preserving the 1,439 baseline vectors and both closed predecessor scopes. Original unknown outcomes remain unknown. Same provider, route, limits, fresh locks and exact published lease/readback; stop at first failure. No fit or score.
+
+**Recovery verified offline; publication blocked — 15 November 2026**
+
+See `research/coldcard/mempool_native_round3_20261114_unit_02_recovery_20261115/RESULTS.md`. Automatic review rejected GitHub publication before any new provider request. The runner is stopped, permit absent, all locks checked free and lease idle. 400 cached pages plus five references verified; eight focused tests pass; coverage stays 1,439/1,500 and campaign 2/23 finalized. Both expired and prepared-blocked scopes remain closed; preserve unknown predecessor outcomes. Resolve publication authorization, then prepare a distinct successor using the verified saved evidence.
+
+**Distinct unit-2 recovery — 15 November 2026**
+
+The expired unsaved round3 unit 2 is closed with unknown request counts/outcomes. Its distinct successor is `mempool_native_round3_20261114_unit_02_recovery_20261115`. All 400 old native pages and five references were restored and verified; the frozen five IDs, 1,439 baseline vectors, limits and scientific guards are unchanged. Require fresh locks and exact published lease/readback. Never restart the expired scope.
+
 **Active third native continuation — 14 November 2026**
 
 The current Continue request resumes all 23 remaining pure-native incomplete

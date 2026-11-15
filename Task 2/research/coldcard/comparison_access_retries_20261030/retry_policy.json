@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "mempool_native_round3_20261114_unit_02",
+  "active_collection_scope": "mempool_native_round3_20261115_unit_02_authorized",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -50,15 +50,15 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-11-15T02:18:48.625653+00:00",
+    "expires_at": "2026-11-15T04:58:57.683203+00:00",
     "operational_locks_released": false,
-    "owner": "mempool_native_round3_20261114_unit_02",
+    "owner": "mempool_native_round3_20261115_unit_02_authorized",
     "policy": "A live lease or historical/local lock prohibits concurrent collection.",
-    "protocol": "mempool_native_round3_20261114_unit_02/protocol.json",
-    "protocol_sha256": "b39bd08bf079837dc16f319cbd810477453a2e8754bbbfc7de26491d062fe4f6",
+    "protocol": "mempool_native_round3_20261115_unit_02_authorized/protocol.json",
+    "protocol_sha256": "9fbe31051ed68423c3de77d6202c10a42d94ae2024cf40dab86b80dbe4c6e057",
     "provider": "https://mempool.space/api",
-    "purpose": "Explicit bounded 23-source native continuation under persistent destination/identifier authorization.",
-    "started_at": "2026-11-15T00:18:48.625653+00:00",
+    "purpose": "Explicit user reauthorization on 15 November of GitHub publication and frozen Mempool research collection.",
+    "started_at": "2026-11-15T02:58:57.683203+00:00",
     "state": "running"
   },
   "comparison_pre_cutoff_predictors_available": 939,
