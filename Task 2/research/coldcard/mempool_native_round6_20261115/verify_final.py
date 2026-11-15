@@ -25,7 +25,7 @@ def verify():
     baseline=read(baseline_path);old={r['source_id']:r for r in baseline['rows']}
     assert len(old)==1500 and sum(r['features'] is not None for r in old.values())==baseline_count
     previous=selection['original_parent'];seen=[];complete=[];bounded=[];total_requests=total_http=total_obs=private_files=0
-    ledger=[]
+    ledger=[];pages_by_source={}
     for i,unit in enumerate(state['completed_units'],1):
         assert unit['unit']==i and unit['selected_source_ids']==selection['units'][i-1]
         scope=BASE/unit['scope'];q=read(scope/'protocol.json');a=read(scope/'coverage_audit.json')
@@ -53,6 +53,10 @@ def verify():
         manifest=read(scope/'request_manifest.json.gz');fresh=[m for m in manifest if not m.get('offline_reused')]
         assert len(fresh)==receipt['provider_requests'] and sum(bool(m.get('offline_reused')) for m in manifest)==len(q['source_ids'])*(q['previous_bound']+1)
         assert all(m.get('http_status')==200 and 'error_type' not in m for m in fresh)
+        for sid in q['source_ids']:
+            pages=[m for m in fresh if m['source_id']==sid and m['key'].startswith('tail_')]
+            assert len(pages)<=50 and all(q['previous_bound']<=int(m['key'][5:])<q['previous_bound']+50 for m in pages)
+            pages_by_source[sid]=len(pages)
         assert all(not m['key'].startswith('tail_') or int(m['key'][5:])>=q['previous_bound'] for m in fresh)
         for pin in q['inputs'].values():assert sha((scope/pin['file']).resolve())==pin['sha256']
         total_requests+=receipt['provider_requests'];total_http+=receipt['http200'];total_obs+=a['fresh_native_source_transaction_observations'];private_files+=backup['private_files_verified']
@@ -92,7 +96,7 @@ def verify():
         elif q:inventory[q.get('seed_kind','other')]+=1
         else:inventory['other_retained_deep_history']+=1
     result=dict(schema_version=1,status='passed',verified_on=datetime.now(timezone.utc).isoformat(),
-        requested_sources=len(ids),ordered_source_ids=ids,initial_saved_native_pages=saved_bounds,
+        requested_sources=len(ids),ordered_source_ids=ids,initial_saved_native_pages=saved_bounds,maximum_additional_pages_per_source=50,maximum_sources_per_unit=3,new_native_pages_by_source=pages_by_source,
         unique_finalized_sources=len(ids),new_complete_prefixes=len(complete),bounded_histories=len(bounded),pending_sources=0,
         old_complete_vectors_preserved=preserved,available_coldcard_vectors=n,missing_coldcard_vectors=1500-n,
         fresh_requests=total_requests,fresh_http200=total_http,failed_requests=0,new_prior_block_source_transaction_observations=total_obs,
