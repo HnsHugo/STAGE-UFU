@@ -186,21 +186,23 @@
     "status": "completed_audited",
     "tests_passed": 13
   },
-  "latest_native_campaign": "mempool_native_round5_20261115",
+  "latest_native_campaign": "mempool_native_round6_20261115",
   "latest_native_campaign_completion": {
-    "all_locks_free": 86,
-    "available_vectors": 1444,
-    "bounded": 18,
+    "actual_new_native_pages": 898,
+    "all_locks_free": 93,
+    "available_vectors": 1445,
+    "bounded": 17,
     "failures": 0,
-    "finalized": 20,
-    "global_audit": "mempool_native_round5_20261115/final_verification.json",
-    "http200": 350,
-    "missing_vectors": 56,
-    "new_complete": 2,
-    "private_files_saved": 5359,
-    "scope": "mempool_native_round5_20261115",
-    "selected": 20,
-    "session_focused_tests_passed": 29
+    "finalized": 18,
+    "global_audit": "mempool_native_round6_20261115/final_verification.json",
+    "http200": 934,
+    "maximum_new_native_pages_per_source": 50,
+    "missing_vectors": 55,
+    "new_complete": 1,
+    "private_files_saved": 6629,
+    "scope": "mempool_native_round6_20261115",
+    "selected": 18,
+    "session_focused_tests_passed": 33
   },
   "latest_native_independent_provider_unit": {
     "audits_passed": true,
@@ -241,7 +243,7 @@
     "status": "closed_after_429_partial_audit_passed"
   },
   "latest_protocol": "source_prefix_extension_20261112_03/protocol.json",
-  "latest_remaining_coverage_inventory": "mempool_native_round5_20261115/remaining_coverage_inventory.json",
+  "latest_remaining_coverage_inventory": "mempool_native_round6_20261115/remaining_coverage_inventory.json",
   "latest_result_file": "source_prefix_extension_20261112_03/coverage_audit.json",
   "latest_resumed_chain_summary": "source_prefix_extension_20261111_01/two_checkpoint_reconciliation.json",
   "latest_reverse_transfer_output": "external_cases/cryptobilis_to_coldcard_20261109",
@@ -254,7 +256,7 @@
     "scope": "source_transfer_article_supplement",
     "status": "completed_four_page_checked_supplement"
   },
-  "latest_status": "native_extension_closed_audit_passed",
+  "latest_status": "fifty_page_native_followup_verified_saved",
   "latest_stop_file": "source_prefix_extension_20261112_03/collection_stop.json",
   "latest_work": "source_cohort_work_source_prefix_extension_20261112_03",
   "manual_coverage_workstream": {
@@ -280,8 +282,9 @@
     "successful_network_responses": 37
   },
   "maximum_429_backoff_seconds": 86400,
+  "native_continuation_driver": "native_fifty_page_campaign.py",
   "native_continuation_requires_new_user_confirmation": false,
-  "next_coverage_action": "Use a distinct pinned continuation for retained incomplete sources, reusing saved pages and actual native cursors. Preserve all old vectors, unknown labels, cutoffs, full-current statuses and native/deep queues. Do not restart consumed scopes. Recheck overlap before model work.",
+  "next_coverage_action": "Continue the already-authorized source-address operation in distinct scopes from saved cursors, with at most fifty additional native pages per source per pass and no routine permission question. Preserve partial outcomes and all old data.",
   "next_network_attempt_not_before": "2026-11-13T18:22:14+00:00",
   "next_run_time_provided_by_service": false,
   "normal_run_bounds": {
@@ -398,5 +401,6 @@
   "schema_version": 1,
   "source_counter_checks_per_due_run": 1,
   "success_policy": "Continue only fixed latest error/unattempted IDs. Do not requery complete or bounded-incomplete histories. Every new retry pass pins all previous protocols/checkpoints/stops; no silent retry within a pass.",
-  "timezone": "America/Sao_Paulo"
+  "timezone": "America/Sao_Paulo",
+  "user_native_additional_page_limit": 50
 }

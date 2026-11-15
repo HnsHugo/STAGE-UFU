@@ -1,5 +1,11 @@
 # Task 2 working instructions
 
+**Fifty-page continuation verified and saved — 15 November 2026**
+
+All 18 frozen source/reference pairs finalized: 1 new complete prefixes, 17 still partial. All 934 fresh requests succeeded; zero failures. Added 22417 prior-block address–transaction observations. All 1444 preceding complete vectors are unchanged. Coldcard now has 1445/1,500 complete vectors; 55 rows retain missing predictors. All 7 unit audits/global verification pass; 6629 private files saved; 33 focused tests pass. Actual additional native pages are verified per source and never exceed fifty. The user-set bound is **fifty new native pages per source per pass beyond saved history**; old pages remain preserved. Histories capped without terminal pagination remain incomplete.
+
+Use `research/coldcard/mempool_native_round6_20261115/RESULTS.md`, its current inventory and the final scope's view/resume. Use `native_fifty_page_campaign.py` for distinct successor scopes; preserve all old sixteen-page drivers/protocol hashes. Keep the original provider, route/TLS, one worker, five-second spacing and 45-second timeout. Units contain at most three sources; budgets also cover fresh anchors and required funding closure. All 93 historical/current locks checked free; lease idle; automation disabled. GitHub/Mempool permissions persist: checkpoint boundaries need no routine confirmation. Stop at the first actual failure/refusal/inconsistency. No model fit, score, label promotion, split or threshold change. Recheck overlap before model work.
+
 **User changes the page limit to fifty — 15 November 2026**
 
 Hugo says "On va fixer la limite à 50 pages et tu peux continuer". For new scopes this means at most fifty additional native history pages per source beyond the saved frontier, as stated to Hugo before execution. Preserve every saved page; do not truncate histories already beyond fifty pages. This explicitly supersedes the former sixteen-new-page bound for the new authorized operation. Use `native_fifty_page_campaign.py` in distinct round-6-or-later campaigns. Units contain at most three sources for durable checkpoints. The request budget also includes fresh reference statuses and the bounded funding-closure statuses needed only after pagination is exhausted.
