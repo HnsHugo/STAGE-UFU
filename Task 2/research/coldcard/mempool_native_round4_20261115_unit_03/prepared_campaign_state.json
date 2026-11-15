@@ -1,0 +1,121 @@
+{
+  "active_scope": "mempool_native_round4_20261115_unit_03",
+  "automation_enabled": false,
+  "available_vectors": 1442,
+  "bounded_source_ids": [
+    "comparison_0973",
+    "comparison_0995",
+    "comparison_0583",
+    "comparison_0622",
+    "comparison_0680"
+  ],
+  "can_continue": true,
+  "completed_units": [
+    {
+      "bounded_in_scope": 2,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0973",
+        "comparison_0995"
+      ],
+      "fresh_prior_block_observations": 800,
+      "fresh_requests": 36,
+      "http200": 36,
+      "new_complete_source_ids": [],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "45c4bbe47b6bbd47320fa4802dfa4075d6e9a314ba8a3f1e090b399026c9ce2a",
+      "scope": "mempool_native_round4_20261115_unit_01",
+      "selected_source_ids": [
+        "comparison_0973",
+        "comparison_0995"
+      ],
+      "unit": 1
+    },
+    {
+      "bounded_in_scope": 3,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0583",
+        "comparison_0617",
+        "comparison_0622",
+        "comparison_0667",
+        "comparison_0680"
+      ],
+      "fresh_prior_block_observations": 1547,
+      "fresh_requests": 75,
+      "http200": 75,
+      "new_complete_source_ids": [
+        "comparison_0617",
+        "comparison_0667"
+      ],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "e7d611e605320605ab59535de6768413e6e1b92fe4bf806ec11edc11a38ed059",
+      "scope": "mempool_native_round4_20261115_unit_02",
+      "selected_source_ids": [
+        "comparison_0583",
+        "comparison_0617",
+        "comparison_0622",
+        "comparison_0667",
+        "comparison_0680"
+      ],
+      "unit": 2
+    }
+  ],
+  "finalized_source_ids": [
+    "comparison_0973",
+    "comparison_0995",
+    "comparison_0583",
+    "comparison_0617",
+    "comparison_0622",
+    "comparison_0667",
+    "comparison_0680"
+  ],
+  "new_complete_source_ids": [
+    "comparison_0617",
+    "comparison_0667"
+  ],
+  "next_unit": 3,
+  "pending_source_ids": [
+    "comparison_0683",
+    "comparison_0713",
+    "comparison_0800",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0877",
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0390",
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0522"
+  ],
+  "schema_version": 1,
+  "source_ids": [
+    "comparison_0973",
+    "comparison_0995",
+    "comparison_0583",
+    "comparison_0617",
+    "comparison_0622",
+    "comparison_0667",
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0713",
+    "comparison_0800",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0877",
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0390",
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0522"
+  ],
+  "status": "prepared_unit"
+}
