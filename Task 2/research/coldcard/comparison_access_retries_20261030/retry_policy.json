@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "none",
+  "active_collection_scope": "mempool_native_round7_20261115_unit_03",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -51,25 +51,22 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": null,
-    "finished_at": "2026-11-15T22:20:11.264917+00:00",
-    "last_owner": "mempool_native_round7_20261115_unit_02",
-    "operational_locks_released": true,
-    "owner": null,
+    "expires_at": "2026-11-16T00:21:28.645920+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_native_round7_20261115_unit_03",
     "policy": "A live lease or historical/local lock prohibits concurrent collection.",
-    "protocol": "mempool_native_round7_20261115_unit_02/protocol.json",
-    "protocol_sha256": "f7d27c563302a314003c5840cc4828d88ae709f26f1cd0838fecf0991d9166d2",
+    "protocol": "mempool_native_round7_20261115_unit_03/protocol.json",
+    "protocol_sha256": "34fd1cc8df82027f9645bf8b18c7a9655fdc8737e6169e0b48da3d817369088c",
     "provider": "https://mempool.space/api",
-    "purpose": "Explicit user request to finish all remaining histories using authorized APIs and GitHub commits; continue verified saved cursors.",
-    "started_at": "2026-11-15T22:05:32.261883+00:00",
-    "state": "idle",
-    "stop_status": "completed"
+    "purpose": "Explicit user request to finish remaining histories with authorized APIs/GitHub; verified saved cursors and durable checkpoints.",
+    "started_at": "2026-11-15T22:21:28.645920+00:00",
+    "state": "running"
   },
   "comparison_pre_cutoff_predictors_available": 945,
   "comparison_pre_cutoff_predictors_unavailable": 55,
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
-  "coverage_collection_paused": true,
+  "coverage_collection_paused": false,
   "coverage_complete_sources_added": 25,
   "coverage_interrupted_consumed_requests": 2,
   "coverage_pause_reason": "Finite native extension closed and audited; preserve all actual cursors. No automatic restart.",
@@ -365,13 +362,13 @@
         "source": "Explicit current user reply to the specific destination-and-identifiers authorization question.",
         "user_reply": "Oui"
       },
-      "scope": "mempool_native_round7_20261115_unit_02",
+      "scope": "mempool_native_round7_20261115_unit_03",
       "source_ids": [
-        "comparison_0622",
-        "comparison_0680",
-        "comparison_0713"
+        "comparison_0800",
+        "comparison_0826",
+        "comparison_0851"
       ],
-      "status": "closed_audited",
+      "status": "running",
       "timeout_seconds": 45
     }
   },
