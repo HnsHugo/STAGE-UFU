@@ -1,5 +1,11 @@
 # Project status — 2 November 2026
 
+**Completed third native continuation — 15 November 2026**
+
+All 23 frozen source/reference pairs are finalized for this bounded pass in six audited, privately saved units: one new complete prefix, 22 bounded histories, zero pending IDs. All 407 requests succeeded; 8,980 prior-block source–transaction observations added. All 1,439 prior complete vectors are unchanged; Coldcard now has 1,440/1,500 vectors, 60 incomplete rows. CryptoBilis stays 329/366. Global verification passes; 29 focused tests pass in the resumed session. All 4,693 private files are verified and saved. No fit, score, split or threshold change occurred.
+
+The expired unsaved unit 2 retains unknown outcomes. The no-network publication-blocked recovery stays closed. The explicitly reauthorized distinct successor succeeded; all old scopes and original unknown-intent fingerprints remain preserved. The finite pass is complete, lease idle, all 75 historical/current locks checked free and automation disabled. Use `research/coldcard/mempool_native_round3_20261114/RESULTS.md`, its current inventory and the final unit-6 view/resume. Do not replay closed scopes. A further bounded pass needs distinct pinned scopes, actual saved cursors, fresh locks and exact published lease/readback. Explicit GitHub/Mempool permissions persist for this unchanged operation. Recheck overlap before any model work.
+
 **Explicitly reauthorized continuation — 15 November 2026**
 
 Hugo explicitly replied "continue je te donnes tous les acces" to the exact request for GitHub publication of code/redacted reports on HnsHugo/STAGE-UFU task-2-wallet-analysis and continued Mempool collection. The distinct successor is `mempool_native_round3_20261115_unit_02_authorized`. It reuses the same five frozen pairs and 405 verified saved responses, preserving the 1,439 baseline vectors and both closed predecessor scopes. Original unknown outcomes remain unknown. Same provider, route, limits, fresh locks and exact published lease/readback; stop at first failure. No fit or score.
