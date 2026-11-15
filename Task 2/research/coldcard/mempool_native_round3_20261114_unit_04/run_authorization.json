@@ -1,0 +1,17 @@
+{
+  "collector_lease": {
+    "expires_at": "2026-11-15T05:20:03.173313+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_native_round3_20261114_unit_04",
+    "policy": "A live lease or historical/local lock prohibits concurrent collection.",
+    "protocol": "mempool_native_round3_20261114_unit_04/protocol.json",
+    "protocol_sha256": "a8c7435d3e510c19852041a5f0ad2452efc0baf061ec38fdf154cdee3b5d2f56",
+    "provider": "https://mempool.space/api",
+    "purpose": "Explicitly authorized frozen native continuation; user renewed GitHub and Mempool permissions on 15 November.",
+    "started_at": "2026-11-15T03:20:03.173313+00:00",
+    "state": "running"
+  },
+  "explicit_destination_identifier_authorization": true,
+  "scope": "mempool_native_round3_20261114_unit_04",
+  "status": "awaiting_exact_published_lease_readback"
+}
