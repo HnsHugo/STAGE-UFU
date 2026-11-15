@@ -1,7 +1,7 @@
 {
-  "active_scope": "mempool_native_round5_20261115_unit_05",
+  "active_scope": null,
   "automation_enabled": false,
-  "available_vectors": 1443,
+  "available_vectors": 1444,
   "bounded_source_ids": [
     "comparison_0973",
     "comparison_0995",
@@ -17,9 +17,12 @@
     "comparison_0892",
     "comparison_0907",
     "comparison_0912",
-    "comparison_0966"
+    "comparison_0966",
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0522"
   ],
-  "can_continue": true,
+  "can_continue": false,
   "completed_units": [
     {
       "bounded_in_scope": 2,
@@ -118,6 +121,32 @@
         "comparison_0966"
       ],
       "unit": 4
+    },
+    {
+      "bounded_in_scope": 3,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0390",
+        "comparison_0391",
+        "comparison_0433",
+        "comparison_0522"
+      ],
+      "fresh_prior_block_observations": 1316,
+      "fresh_requests": 62,
+      "http200": 62,
+      "new_complete_source_ids": [
+        "comparison_0390"
+      ],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "a8a8f0e510dea81bd5bc8ca79691b4df4bc68b7596e9fc271505913039dc5e88",
+      "scope": "mempool_native_round5_20261115_unit_05",
+      "selected_source_ids": [
+        "comparison_0390",
+        "comparison_0391",
+        "comparison_0433",
+        "comparison_0522"
+      ],
+      "unit": 5
     }
   ],
   "finalized_source_ids": [
@@ -136,18 +165,18 @@
     "comparison_0892",
     "comparison_0907",
     "comparison_0912",
-    "comparison_0966"
-  ],
-  "new_complete_source_ids": [
-    "comparison_0583"
-  ],
-  "next_unit": 5,
-  "pending_source_ids": [
+    "comparison_0966",
     "comparison_0390",
     "comparison_0391",
     "comparison_0433",
     "comparison_0522"
   ],
+  "new_complete_source_ids": [
+    "comparison_0583",
+    "comparison_0390"
+  ],
+  "next_unit": null,
+  "pending_source_ids": [],
   "schema_version": 1,
   "source_ids": [
     "comparison_0973",
@@ -171,5 +200,6 @@
     "comparison_0433",
     "comparison_0522"
   ],
-  "status": "prepared_unit"
+  "status": "all_remaining_native_saved",
+  "successor_requires_new_user_confirmation": false
 }

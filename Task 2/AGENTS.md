@@ -1,5 +1,11 @@
 # Task 2 working instructions
 
+**Fifth native continuation verified and saved — 15 November 2026**
+
+All 20 frozen source/reference pairs finalized: 2 new complete prefixes, 18 still partial. All 350 fresh requests succeeded; zero failures. Added 7671 prior-block address–transaction observations. All 1442 preceding complete vectors are unchanged. Coldcard now has 1444/1,500 complete vectors; 56 rows retain missing predictors. All 5 unit audits/global verification pass; 5359 private files saved and 29 focused tests pass. No fit, score, label promotion, split or threshold change. Use `research/coldcard/mempool_native_round5_20261115/RESULTS.md`, its inventory and the final scope's view/resume. All 86 historical/current locks checked free; lease idle; automation disabled. A high completed-row percentage does not establish a short remaining runtime for the long histories.
+
+Hugo's explicit GitHub/Mempool authorization persists. Continue distinct pinned units/passes from actual saved cursors without routine confirmation at saved checkpoints. Keep all old outcomes, unknown labels, cutoffs, native/deep queues and the provider/route/TLS/rate/timeout bounds. Audit, privately save and publish before the next unit. Never restart consumed scopes, rotate routes or start a background schedule. Recheck overlap before any model work.
+
 **Authorized follow-up checkpoint completed — 15 November 2026**
 
 All 22 frozen sources finalized: 2 new complete prefixes, 20 still partial. 381/381 fresh requests succeeded; zero failures. Added 8347 prior-block address–transaction observations. All 1440 preceding complete vectors are unchanged; current coverage is 1442/1,500, with 58 missing rows. All six unit audits/global verification pass; 5180 private files saved. No model fit/score, label promotion, split or threshold change. Use `research/coldcard/mempool_native_round4_20261115/RESULTS.md` and its current inventory. The 81 historical/current locks are free and lease idle.
