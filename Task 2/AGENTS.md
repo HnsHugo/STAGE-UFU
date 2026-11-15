@@ -1,5 +1,11 @@
 # Task 2 working instructions
 
+**Authorized follow-up checkpoint completed — 15 November 2026**
+
+All 22 frozen sources finalized: 2 new complete prefixes, 20 still partial. 381/381 fresh requests succeeded; zero failures. Added 8347 prior-block address–transaction observations. All 1440 preceding complete vectors are unchanged; current coverage is 1442/1,500, with 58 missing rows. All six unit audits/global verification pass; 5180 private files saved. No model fit/score, label promotion, split or threshold change. Use `research/coldcard/mempool_native_round4_20261115/RESULTS.md` and its current inventory. The 81 historical/current locks are free and lease idle.
+
+Hugo's explicit GitHub/Mempool authorization persists. Checkpoint/unit/pass boundaries do not require a new Continue or permission question. Use `native_followup_campaign.py` with a distinct next campaign name and actual saved cursors. Audit, privately save and publish each unit before its successor. Use the existing GitHub connection for publication when CLI credentials are absent, and create large blobs separately to avoid tree-request size limits. Keep the original provider, route/TLS, worker/rate/timeout bounds and unknown labels. Stop only for a real operational failure or session execution limit; preserve exact state. Never restart a consumed scope, rotate routes or start a background schedule.
+
 **User requests uninterrupted authorized continuation — 15 November 2026**
 
 Hugo asks to stop self-imposed blocking after explicitly granting GitHub/Mempool access. Unit and pass boundaries are checkpoints, not requests for another Continue. During the active session, proceed to the next distinct pinned unit/pass once its predecessor is audited, privately saved and published. The generic `native_followup_campaign.py` preserves old scripts/protocol pins and supports successive campaign names. Keep one worker, five-second spacing, 45-second timeout and at most sixteen added pages per source per unit. Retain the same provider, route, TLS, cutoffs and unknown labels. Stop only for an actual failure/refusal/inconsistency, conflicting lock/lease, failed save/publication, or session execution limit; save a clear resume checkpoint. No background schedule, fitting, scoring, paid service or route rotation. Never ask again for permissions already explicitly given.

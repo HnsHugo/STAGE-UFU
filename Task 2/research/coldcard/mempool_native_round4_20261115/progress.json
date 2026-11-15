@@ -1,5 +1,5 @@
 {
-  "active_scope": "mempool_native_round4_20261115_unit_06",
+  "active_scope": null,
   "automation_enabled": false,
   "available_vectors": 1442,
   "bounded_source_ids": [
@@ -18,9 +18,13 @@
     "comparison_0892",
     "comparison_0907",
     "comparison_0912",
-    "comparison_0966"
+    "comparison_0966",
+    "comparison_0390",
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0522"
   ],
-  "can_continue": true,
+  "can_continue": false,
   "completed_units": [
     {
       "bounded_in_scope": 2,
@@ -140,6 +144,30 @@
         "comparison_0966"
       ],
       "unit": 5
+    },
+    {
+      "bounded_in_scope": 4,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0390",
+        "comparison_0391",
+        "comparison_0433",
+        "comparison_0522"
+      ],
+      "fresh_prior_block_observations": 1600,
+      "fresh_requests": 72,
+      "http200": 72,
+      "new_complete_source_ids": [],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "32cc3bef78871f9e48ef1b5f4f1b5a5e4d818c99661dc6459f22960ec61052fb",
+      "scope": "mempool_native_round4_20261115_unit_06",
+      "selected_source_ids": [
+        "comparison_0390",
+        "comparison_0391",
+        "comparison_0433",
+        "comparison_0522"
+      ],
+      "unit": 6
     }
   ],
   "finalized_source_ids": [
@@ -160,19 +188,18 @@
     "comparison_0892",
     "comparison_0907",
     "comparison_0912",
-    "comparison_0966"
-  ],
-  "new_complete_source_ids": [
-    "comparison_0617",
-    "comparison_0667"
-  ],
-  "next_unit": 6,
-  "pending_source_ids": [
+    "comparison_0966",
     "comparison_0390",
     "comparison_0391",
     "comparison_0433",
     "comparison_0522"
   ],
+  "new_complete_source_ids": [
+    "comparison_0617",
+    "comparison_0667"
+  ],
+  "next_unit": null,
+  "pending_source_ids": [],
   "schema_version": 1,
   "source_ids": [
     "comparison_0973",
@@ -198,5 +225,6 @@
     "comparison_0433",
     "comparison_0522"
   ],
-  "status": "prepared_unit"
+  "status": "all_remaining_native_saved",
+  "successor_requires_new_user_confirmation": false
 }
