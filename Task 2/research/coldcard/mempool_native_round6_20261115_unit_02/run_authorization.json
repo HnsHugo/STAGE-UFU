@@ -1,0 +1,19 @@
+{
+  "additional_native_pages_per_source": 50,
+  "collector_lease": {
+    "expires_at": "2026-11-15T19:37:52.496156+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_native_round6_20261115_unit_02",
+    "policy": "A live lease or historical/local lock prohibits concurrent collection.",
+    "protocol": "mempool_native_round6_20261115_unit_02/protocol.json",
+    "protocol_sha256": "95aca7649be26d269e567f387798fc43c104e876ee9532b767f2a0907189bef7",
+    "provider": "https://mempool.space/api",
+    "purpose": "User-authorized fifty-additional-page extension per source; same identifiers, provider and research target.",
+    "started_at": "2026-11-15T17:10:22.496156+00:00",
+    "state": "running"
+  },
+  "explicit_destination_identifier_authorization": true,
+  "lease_seconds": 8850,
+  "scope": "mempool_native_round6_20261115_unit_02",
+  "status": "awaiting_exact_published_lease_readback"
+}

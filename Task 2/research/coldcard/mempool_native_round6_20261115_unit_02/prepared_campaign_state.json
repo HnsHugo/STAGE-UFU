@@ -1,0 +1,78 @@
+{
+  "active_scope": "mempool_native_round6_20261115_unit_02",
+  "automation_enabled": false,
+  "available_vectors": 1444,
+  "bounded_source_ids": [
+    "comparison_0973",
+    "comparison_0995"
+  ],
+  "can_continue": true,
+  "completed_units": [
+    {
+      "bounded_in_scope": 2,
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0973",
+        "comparison_0995"
+      ],
+      "fresh_prior_block_observations": 2500,
+      "fresh_requests": 104,
+      "http200": 104,
+      "new_complete_source_ids": [],
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "33f304ade272c557a6b8aac49b877bc6ac9a6769172837732c936bb875543321",
+      "scope": "mempool_native_round6_20261115_unit_01",
+      "selected_source_ids": [
+        "comparison_0973",
+        "comparison_0995"
+      ],
+      "unit": 1
+    }
+  ],
+  "finalized_source_ids": [
+    "comparison_0973",
+    "comparison_0995"
+  ],
+  "new_complete_source_ids": [],
+  "next_unit": 2,
+  "pending_source_ids": [
+    "comparison_0622",
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0713",
+    "comparison_0800",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0877",
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0522"
+  ],
+  "schema_version": 1,
+  "source_ids": [
+    "comparison_0973",
+    "comparison_0995",
+    "comparison_0622",
+    "comparison_0680",
+    "comparison_0683",
+    "comparison_0713",
+    "comparison_0800",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0877",
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0522"
+  ],
+  "status": "prepared_unit"
+}
