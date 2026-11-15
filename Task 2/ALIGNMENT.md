@@ -1,5 +1,24 @@
 # Task 2 alignment — 27 October 2026
 
+**Active third native continuation — 14 November 2026**
+
+The current Continue request resumes all 23 remaining pure-native incomplete
+source/reference pairs from the verified 1,439-vector view. Frozen selection:
+`research/coldcard/mempool_native_round3_20261114/selection.json`. Unit sizes are
+2, 5, 5, 5, 2 and 4, at saved frontiers 64, 80 and 96 pages. Each source
+adds at most sixteen pages. Reuse verified responses and actual native cursors.
+The unit is a frozen source/reference pair; operational membership does not prove
+theft or hardware use. Fourteen features use blocks strictly before the reference
+block. No fitting, scoring, split or threshold change is authorized in this pass.
+
+Each unit needs fresh locks and exact published lease/readback, then independent
+audit, private save and publication before its successor. One worker, five-second
+spacing, 45-second timeout, the same authorized Mempool destination/identifiers,
+route and verified TLS. Stop the whole pass at first failure/refusal/inconsistency.
+No retry, rotation, cost or schedule. Preserve all old vectors, unknown labels,
+cutoffs, full-current statuses, closed campaigns, unknown intents and native/deep
+queues. Explicit GitHub and Mempool permissions remain in force.
+
 **Completed second native continuation — 14 November 2026**
 
 [Final results](research/coldcard/mempool_native_round2_20261114/RESULTS.md): all 24 frozen
