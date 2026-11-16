@@ -1,6 +1,6 @@
 """Verify the fifty-row campaign while retaining interrupted evidence separately.
 
-The original full-scope clock audits remain incomplete for units 12 and 13.
+The original full-scope clock audits remain incomplete for units 12, 13 and 17.
 Their known successful responses and every unknown intent are counted explicitly.
 """
 from contextlib import redirect_stdout
@@ -121,7 +121,7 @@ def verify():
     result = campaign.CAMPAIGN / 'RESULTS.md'
     result.write_text(result.read_text().replace(
         'All completed checkpoints pass data/clock audits and are privately saved.',
-        'All saved data checkpoints pass reconstruction checks. The original full clock audits of interrupted units 12 and 13 remain incomplete; their known successful dispatches pass separately and both unknown intents remain explicit.'))
+        'All saved data checkpoints pass reconstruction checks. The original full clock audits of interrupted units 12, 13 and 17 remain incomplete; their known successful dispatches pass separately and all retained unknown intents remain explicit.'))
     print(__import__('json').dumps(report, indent=2)); return report
 
 
