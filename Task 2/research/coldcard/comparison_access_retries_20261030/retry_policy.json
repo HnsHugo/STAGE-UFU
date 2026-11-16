@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "none",
+  "active_collection_scope": "mempool_remaining_fifty_20261116_unit_02",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -51,24 +51,21 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": null,
-    "finished_at": "2026-11-16T14:54:36.991064+00:00",
-    "last_owner": "mempool_remaining_fifty_20261116_unit_01",
-    "operational_locks_released": true,
-    "owner": null,
-    "protocol": "mempool_remaining_fifty_20261116_unit_01/protocol.json",
-    "protocol_sha256": "10b31b036b9e48fe23e1eb2033b06d2467045094aa715d1d752172d53134820c",
+    "expires_at": "2026-11-16T16:56:09.455481+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_remaining_fifty_20261116_unit_02",
+    "protocol": "mempool_remaining_fifty_20261116_unit_02/protocol.json",
+    "protocol_sha256": "15e21709cea7efd2410bbb7553ceff539e382386b39a2bd07422c80987c6c0c2",
     "provider": "https://mempool.space/api",
     "purpose": "Explicit user request for all fifty remaining histories, recorded timing and durable checkpoints",
-    "started_at": "2026-11-16T14:44:21.238572+00:00",
-    "state": "idle",
-    "stop_status": "completed"
+    "started_at": "2026-11-16T14:56:09.455481+00:00",
+    "state": "running"
   },
   "comparison_pre_cutoff_predictors_available": 953,
   "comparison_pre_cutoff_predictors_unavailable": 47,
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
-  "coverage_collection_paused": true,
+  "coverage_collection_paused": false,
   "coverage_complete_sources_added": 25,
   "coverage_interrupted_consumed_requests": 2,
   "coverage_pause_reason": "The explicitly requested twenty-source campaign is complete and saved; all remaining missing histories are retained for a distinct later scope.",
@@ -372,13 +369,13 @@
         "source": "Explicit current user reply to the specific destination-and-identifiers authorization question.",
         "user_reply": "Oui"
       },
-      "scope": "mempool_remaining_fifty_20261116_unit_01",
+      "scope": "mempool_remaining_fifty_20261116_unit_02",
       "source_ids": [
-        "comparison_0257",
-        "comparison_0077",
-        "comparison_0137"
+        "comparison_0132",
+        "comparison_0292",
+        "comparison_0298"
       ],
-      "status": "closed_recorded_audited",
+      "status": "running_recorded_clock",
       "stop_reason": "HTTP 503 provider response on comparison_0294 native_tail_0007; immediate stop; all successful evidence retained",
       "timeout_seconds": 45
     }
