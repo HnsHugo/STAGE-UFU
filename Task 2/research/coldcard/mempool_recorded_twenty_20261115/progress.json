@@ -1,7 +1,7 @@
 {
-  "active_scope": "mempool_recorded_twenty_20261115_unit_07",
+  "active_scope": null,
   "automation_enabled": false,
-  "available_vectors": 1446,
+  "available_vectors": 1447,
   "can_continue": true,
   "completed_units": [
     {
@@ -125,6 +125,29 @@
         "comparison_0892"
       ],
       "unit": 6
+    },
+    {
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0251",
+        "comparison_0300",
+        "comparison_0347"
+      ],
+      "fresh_requests": 112,
+      "http200": 112,
+      "new_complete_source_ids": [
+        "comparison_0251"
+      ],
+      "new_prior_block_observations": 2508,
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "5fd380bdc96b37726193af1fff3c0c13f4773da96b58a9bc79dcefe1ecb8edda",
+      "scope": "mempool_recorded_twenty_20261115_unit_07",
+      "source_ids": [
+        "comparison_0251",
+        "comparison_0347",
+        "comparison_0300"
+      ],
+      "unit": 7
     }
   ],
   "finalized_source_ids": [
@@ -143,14 +166,16 @@
     "comparison_0826",
     "comparison_0851",
     "comparison_0853",
-    "comparison_0892"
-  ],
-  "new_complete_source_ids": [],
-  "next_unit": 7,
-  "pending_source_ids": [
+    "comparison_0892",
     "comparison_0251",
     "comparison_0347",
-    "comparison_0300",
+    "comparison_0300"
+  ],
+  "new_complete_source_ids": [
+    "comparison_0251"
+  ],
+  "next_unit": 8,
+  "pending_source_ids": [
     "comparison_0249"
   ],
   "source_ids": [
@@ -175,5 +200,5 @@
     "comparison_0300",
     "comparison_0249"
   ],
-  "status": "prepared_unit"
+  "status": "checkpoint_saved"
 }
