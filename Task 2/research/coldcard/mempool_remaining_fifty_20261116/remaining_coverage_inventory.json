@@ -1,8 +1,8 @@
 {
   "automatic_schedule": false,
   "available_vectors": 1457,
-  "latest_resume": "../mempool_remaining_fifty_20261116_unit_12/resume_checkpoint.json",
-  "latest_view": "../mempool_remaining_fifty_20261116_unit_12/precutoff_feature_view.json.gz",
+  "latest_resume": "../mempool_remaining_fifty_20261116_unit_13_recovery_20261116/resume_checkpoint.json",
+  "latest_view": "../mempool_remaining_fifty_20261116_unit_13_recovery_20261116/precutoff_feature_view.json.gz",
   "missing_vectors": 43,
   "model_fits": 0,
   "new_scores": 0,
@@ -96,13 +96,13 @@
       "source_id": "comparison_0522"
     },
     {
-      "evidence_scope": "mempool_recorded_twenty_20261115_unit_04",
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_13_recovery_20261116",
       "finalized": true,
-      "last_native_cursor_sha256": "c5dc58afcca7c036417cbfeca17d89d60b5cdd055dea2c943583a481dfcef0bc",
-      "native_pages": 278,
+      "last_native_cursor_sha256": "1f7c05dba49d370d933540713da655221ff2398297e5475c8b9934c30b4f8da7",
+      "native_pages": 327,
       "provider": "https://mempool.space/api",
       "requires_distinct_pinned_successor": true,
-      "saved_evidence_pages": 278,
+      "saved_evidence_pages": 327,
       "seed_kind": "native",
       "source_id": "comparison_0622"
     },
@@ -173,13 +173,13 @@
       "source_id": "comparison_0853"
     },
     {
-      "evidence_scope": "mempool_recorded_twenty_20261115_unit_06",
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_13_recovery_20261116",
       "finalized": true,
-      "last_native_cursor_sha256": "b737ed232aaf913232c5e80d63cfffde074a56ea81fb5cb03ec6df968e785446",
-      "native_pages": 278,
+      "last_native_cursor_sha256": "cdb2847c0b1d55d81a2a6d4cd7c1bd7c7214e1bdcaeac3ebc9ceba9c0b6731f4",
+      "native_pages": 328,
       "provider": "https://mempool.space/api",
       "requires_distinct_pinned_successor": true,
-      "saved_evidence_pages": 278,
+      "saved_evidence_pages": 328,
       "seed_kind": "native",
       "source_id": "comparison_0892"
     },
