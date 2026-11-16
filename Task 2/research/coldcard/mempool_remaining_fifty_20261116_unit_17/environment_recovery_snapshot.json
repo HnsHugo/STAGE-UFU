@@ -55,5 +55,7 @@
   "model_fits": 0,
   "new_scores": 0,
   "automation_enabled": false,
-  "next_action": "Restore access; inspect actual locks, receipt, markers and cursors; privately save every newly successful byte before any new provider request. Do not restart the consumed unit. Reconcile original clocks/unknown outcomes separately."
+  "next_action": "Restore access; inspect actual locks, receipt, markers and cursors; privately save every newly successful byte before any new provider request. Do not restart the consumed unit. Reconcile original clocks/unknown outcomes separately.",
+  "pause_delivery_to_local_policy_confirmed": false,
+  "collector_guard_policy_source": "Local policy file; remote publication alone does not establish delivery or stop"
 }
