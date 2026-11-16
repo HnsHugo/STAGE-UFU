@@ -1,5 +1,25 @@
 # Project status — 2 November 2026
 
+**Authorized prioritized twenty-history continuation — 16 November 2026**
+
+Hugo requests continued collection under the persistent GitHub/Mempool permissions.
+The distinct frozen scope is `research/coldcard/mempool_recorded_priority_20261116`:
+twenty missing source/reference histories, ordered for scheduling by old full-current
+transaction counters among currently verified saved layers. Those counters neither
+measure exact remaining pre-reference work nor change the scientific cohort or
+predictors. Three mixed unions resume from their actual saved native cursor after
+verifying it crossed the partial legacy block; eight eligible complete-block bridges
+and nine native histories follow. All unselected/deep histories stay retained.
+
+Seven new regression checks plus the relevant existing checks pass (51 total).
+Keep at most fifty additional native pages per source, units of at most three,
+recorded 5.25-second UTC/monotonic spacing, one worker and 45-second timeout on the
+same provider/route/TLS. Require fresh locks and exact published lease/readback;
+audit, privately save and publish before each successor. Stop on the first actual
+failure/refusal/inconsistency. Preserve the 1,447 previous vectors, strict cutoffs,
+unknown labels and all original failed/consumed scopes. No model fit/score, saved
+page replay, route rotation or background schedule. A bounded history is incomplete.
+
 **Completed twenty-history continuation — 16 November 2026**
 
 The requested 20/20 source/reference histories are verified, saved and published:
