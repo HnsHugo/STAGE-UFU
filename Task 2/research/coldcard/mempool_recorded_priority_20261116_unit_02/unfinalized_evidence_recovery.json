@@ -1,0 +1,40 @@
+{
+  "failed_request": {
+    "failure_origin": "provider_http_response",
+    "http_status": 503,
+    "key": "native_tail_0007",
+    "marker_sha256": "637f92d6e957d5e4a595cb273017f6c12dfed902f3ef373d28559d117eac0191",
+    "source_id": "comparison_0294"
+  },
+  "missing_final_reference_check_preserved": true,
+  "model_fits": 0,
+  "new_resume_sha256": "7fe7af007de41407b558fa92e35c21e4a570f57af8c8e15fbd2126c65a481ec5",
+  "new_scores": 0,
+  "old_resume_reconciliation": "Remove the unstarted zero-page bridge from the native queue; explicitly link successful unfinished pages to their recovered union and actual cursor.",
+  "original_data_audit_unchanged": true,
+  "original_feature_view_unchanged": true,
+  "provider_requests": 0,
+  "restart_same_scope_allowed": false,
+  "scope": "mempool_recorded_priority_20261116_unit_02",
+  "source_features_not_promoted": true,
+  "status": "passed",
+  "successful_unfinalized_evidence": [
+    {
+      "crossed_legacy_boundary": true,
+      "features_available": false,
+      "last_native_cursor_sha256": "6e764a240d1146a6ff5a566324d3e86fdc0da3f067c424ada976123baed82179",
+      "new_prior_block_observations": 160,
+      "raw_file": "unfinalized_raw/comparison_0294.json.gz",
+      "raw_sha256": "4c6c44dab26cc7c5867f986cea872cfa5ef3047a0ef215515f60278896053555",
+      "reference_after_missing": true,
+      "saved_evidence_pages": 39,
+      "saved_native_pages": 7,
+      "source_finalized": false,
+      "source_id": "comparison_0294",
+      "verified_overlap_transactions": 15
+    }
+  ],
+  "unstarted_source_ids": [
+    "comparison_0298"
+  ]
+}

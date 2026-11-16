@@ -1,5 +1,32 @@
 # Task 2 working instructions
 
+**Prioritized continuation saved after HTTP 503 — 16 November 2026**
+
+The new twenty-history campaign stopped immediately on its first actual provider
+failure: Mempool HTTP 503 on `comparison_0294`, `native_tail_0007`. Four histories
+are finalized (three complete, one bounded); a fifth has seven successful pages
+but no final reference check; fifteen were not started. Sixteen IDs remain pending.
+The consumed campaign is closed: never restart unit 2 or skip the unfinished evidence.
+
+Official Coldcard coverage is 1,450/1,500, fifty rows missing. New complete prefixes:
+`comparison_0347`, `comparison_0300`, `comparison_0249`. All 1,447 preceding vectors,
+unknown labels, cutoffs, current-history statuses and deep queues are preserved.
+113 HTTP200 responses, one HTTP503; 102 successful new native pages. Added 2,240
+prior-block observations in finalized histories and 160 in the explicitly unfinished
+union; these are not globally unique transactions. All 453 private evidence files
+are verified and saved. Both data/clock audits pass; 72 focused tests pass.
+All 115 locks are free, lease idle, provider gate closed, no background schedule.
+No fit/score, vector promotion from unfinished evidence or provider rotation.
+
+Read `research/coldcard/mempool_recorded_priority_20261116/RESULTS.md`,
+`stopped_verification.json`, inventory and the unit-2 resume. Its
+`unfinalized_evidence_recovery.json` links every successful unfinished native page,
+union and actual cursor. `comparison_0298` was never started and is removed from
+the accidental zero-page native queue. A future distinct successor must consume
+that recovery evidence before traffic, retain the original 503 marker, use fresh
+reference checks and revalidate the provider gate after its saved not-before time.
+API/GitHub permissions persist; do not ask for routine renewed authorization.
+
 **Authorized prioritized twenty-history continuation — 16 November 2026**
 
 Hugo requests continued collection under the persistent GitHub/Mempool permissions.
