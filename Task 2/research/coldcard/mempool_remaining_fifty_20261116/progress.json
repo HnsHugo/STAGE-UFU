@@ -1,5 +1,5 @@
 {
-  "active_scope": "mempool_remaining_fifty_20261116_unit_18",
+  "active_scope": null,
   "automation_enabled": false,
   "available_vectors": 1457,
   "can_continue": true,
@@ -357,6 +357,27 @@
         "comparison_0522"
       ],
       "unit": 17
+    },
+    {
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0024",
+        "comparison_0045",
+        "comparison_0250"
+      ],
+      "fresh_requests": 159,
+      "http200": 159,
+      "new_complete_source_ids": [],
+      "new_prior_block_observations": 3732,
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "0620467afb0ce6959dcc5b0f0d4cb41f0472b22370f2ca993c734d796e7e913e",
+      "scope": "mempool_remaining_fifty_20261116_unit_18",
+      "source_ids": [
+        "comparison_0045",
+        "comparison_0024",
+        "comparison_0250"
+      ],
+      "unit": 18
     }
   ],
   "continuation_authorization": "User: continue je te donne toute les autorisation github",
@@ -405,7 +426,10 @@
     "comparison_0283",
     "comparison_0391",
     "comparison_0433",
-    "comparison_0522"
+    "comparison_0522",
+    "comparison_0045",
+    "comparison_0024",
+    "comparison_0250"
   ],
   "interrupted_evidence_fragments": [
     {
@@ -450,12 +474,9 @@
     "comparison_0294",
     "comparison_0343"
   ],
-  "next_unit": 18,
+  "next_unit": 19,
   "pending_source_ids": [
     "comparison_0157",
-    "comparison_0045",
-    "comparison_0024",
-    "comparison_0250",
     "comparison_0091",
     "comparison_0002",
     "comparison_0109",
@@ -513,5 +534,5 @@
     "comparison_0109",
     "comparison_0026"
   ],
-  "status": "prepared_unit"
+  "status": "checkpoint_saved"
 }

@@ -1,8 +1,8 @@
 {
   "automatic_schedule": false,
   "available_vectors": 1457,
-  "latest_resume": "../mempool_remaining_fifty_20261116_unit_17_recovery_20261116/resume_checkpoint.json",
-  "latest_view": "../mempool_remaining_fifty_20261116_unit_17_recovery_20261116/precutoff_feature_view.json.gz",
+  "latest_resume": "../mempool_remaining_fifty_20261116_unit_18/resume_checkpoint.json",
+  "latest_view": "../mempool_remaining_fifty_20261116_unit_18/precutoff_feature_view.json.gz",
   "missing_vectors": 43,
   "model_fits": 0,
   "new_scores": 0,
@@ -447,6 +447,39 @@
       "saved_evidence_pages": 82,
       "seed_kind": "bridge_union",
       "source_id": "comparison_0283"
+    },
+    {
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_18",
+      "finalized": true,
+      "last_native_cursor_sha256": "220365dff5b5c2b0d83490d457ec9b021bb2a2b2ff4c4a16faa491906cb05bdc",
+      "native_pages": 50,
+      "provider": "https://mempool.space/api",
+      "requires_distinct_pinned_successor": true,
+      "saved_evidence_pages": 82,
+      "seed_kind": "bridge_union",
+      "source_id": "comparison_0045"
+    },
+    {
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_18",
+      "finalized": true,
+      "last_native_cursor_sha256": "aef8d9318d1bed2df25db6dcb243c4bf955bf6fc3fdcd457715a1d6d08041ad2",
+      "native_pages": 50,
+      "provider": "https://mempool.space/api",
+      "requires_distinct_pinned_successor": true,
+      "saved_evidence_pages": 82,
+      "seed_kind": "bridge_union",
+      "source_id": "comparison_0024"
+    },
+    {
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_18",
+      "finalized": true,
+      "last_native_cursor_sha256": "28203384f828d6124a1332888d6ca9bd741392090c55e6e39113bf82f387a72d",
+      "native_pages": 50,
+      "provider": "https://mempool.space/api",
+      "requires_distinct_pinned_successor": true,
+      "saved_evidence_pages": 82,
+      "seed_kind": "bridge_union",
+      "source_id": "comparison_0250"
     }
   ],
   "retained_unfinalized_bridge_evidence": [
