@@ -1,0 +1,25 @@
+{
+  "bytes": 266777569,
+  "current_version_number": 0,
+  "file_id": "file_000000001fc081fdbcd67b0a99089b83",
+  "file_name": "coldcard-mempool_recorded_priority_20261116_unit_01-private.tar.gz",
+  "library_file_id": "libfile_e5bb6a677c9881919641798e6aa0fef5",
+  "library_metadata_applied": true,
+  "operational_flags_excluded": true,
+  "private": true,
+  "private_files_verified": 121,
+  "public_repository_contains_no_raw_caches": true,
+  "required_predecessor_archive": {
+    "bytes": 1015663,
+    "file_name": "coldcard-mempool_recorded_twenty_20261115_unit_08-private.tar.gz",
+    "purpose": "Prior-layer reproduction and before/after coverage comparison; current working responses are included in this archive.",
+    "sha256": "765559097fc61ecb071780e9479195d8f3f28a079503d4829e62a894f992cd63"
+  },
+  "saved_privately": true,
+  "schema_version": 1,
+  "scope_protocol_sha256": "294d9beed9ab7852c5d77492398da4bb79edf965c6990bf3c19bd05f1b539d09",
+  "sha256": "2ae42a8cc1c131a52ff19434c6980a0b5ec5836fa7ff86dde28167c2a59558ed",
+  "source_work_folders": [
+    "source_cohort_work_mempool_recorded_priority_20261116_unit_01"
+  ]
+}
