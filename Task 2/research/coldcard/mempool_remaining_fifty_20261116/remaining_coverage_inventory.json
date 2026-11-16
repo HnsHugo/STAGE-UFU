@@ -1,8 +1,8 @@
 {
   "automatic_schedule": false,
   "available_vectors": 1457,
-  "latest_resume": "../mempool_remaining_fifty_20261116_unit_15/resume_checkpoint.json",
-  "latest_view": "../mempool_remaining_fifty_20261116_unit_15/precutoff_feature_view.json.gz",
+  "latest_resume": "../mempool_remaining_fifty_20261116_unit_16/resume_checkpoint.json",
+  "latest_view": "../mempool_remaining_fifty_20261116_unit_16/precutoff_feature_view.json.gz",
   "missing_vectors": 43,
   "model_fits": 0,
   "new_scores": 0,
@@ -414,6 +414,39 @@
       "saved_evidence_pages": 588,
       "seed_kind": "bridge_union",
       "source_id": "comparison_0157"
+    },
+    {
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_16",
+      "finalized": true,
+      "last_native_cursor_sha256": "29bd540c04dd43e5f9accfbc5d95eeef553ec76ae18a404318e259cb5987cb30",
+      "native_pages": 50,
+      "provider": "https://mempool.space/api",
+      "requires_distinct_pinned_successor": true,
+      "saved_evidence_pages": 82,
+      "seed_kind": "bridge_union",
+      "source_id": "comparison_0088"
+    },
+    {
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_16",
+      "finalized": true,
+      "last_native_cursor_sha256": "597807dacca4f163b523d10d1f1fc2f6914996ecb74d3dd91470233225f05d8a",
+      "native_pages": 50,
+      "provider": "https://mempool.space/api",
+      "requires_distinct_pinned_successor": true,
+      "saved_evidence_pages": 82,
+      "seed_kind": "bridge_union",
+      "source_id": "comparison_0052"
+    },
+    {
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_16",
+      "finalized": true,
+      "last_native_cursor_sha256": "658f8d6414faee9bf2d32792fb7287986027f770e4759a7d939e83da913c9264",
+      "native_pages": 50,
+      "provider": "https://mempool.space/api",
+      "requires_distinct_pinned_successor": true,
+      "saved_evidence_pages": 82,
+      "seed_kind": "bridge_union",
+      "source_id": "comparison_0283"
     }
   ],
   "retained_unfinalized_bridge_evidence": [
