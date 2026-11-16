@@ -1,0 +1,182 @@
+{
+  "authorization": "User explicitly requests: Fais les 50 qui reste. Persistent GitHub/Mempool permissions; all fifty missing source/reference pairs included, no model.",
+  "automation_enabled": false,
+  "baseline_vectors": 1457,
+  "blockstream_cooldown_preserved_until": "2026-11-13T18:22:14+00:00",
+  "campaign": "mempool_remaining_fifty_20261116",
+  "campaign_unit": 17,
+  "created_on": "2026-11-16",
+  "dispatch_clock_evidence": "monotonic_ns_and_utc",
+  "enforced_dispatch_spacing_seconds": 5.25,
+  "inputs": {
+    "baseline_view": {
+      "file": "../mempool_remaining_fifty_20261116_unit_16/precutoff_feature_view.json.gz",
+      "sha256": "5e0ac5c14892f727f4e1a18d596fb4d4c2ee7c88382c7d405685455bd5984727"
+    },
+    "campaign_selection": {
+      "file": "../mempool_remaining_fifty_20261116/selection.json",
+      "sha256": "01f9d78a73b775da7886dfd2dee03ba16eee9307363e29d624f3a17247717126"
+    },
+    "checkpoint_code": {
+      "file": "../recorded_twenty_campaign.py",
+      "sha256": "59e1cfe3b96fe9219adfef056a27ca5dc5d0353d293c773ad2effd0518ccbe4e"
+    },
+    "identifier_authorization": {
+      "file": "../mempool_identifier_authorization_20261114.json",
+      "sha256": "8a4553b04959c51c5173e862af50fc636404f1794c05f57c7fdc19ae8fff9105"
+    },
+    "identity_registry_reconciliation": {
+      "file": "../mempool_remaining_fifty_20261116/identity_registry_reconciliation.json",
+      "sha256": "13b374344ad4aaab173651bc8451a0869a3a556df361abfd06d8b407d1a50fe8"
+    },
+    "legacy_auditor": {
+      "file": "../audit_independent_mempool_bridge.py",
+      "sha256": "24c83f740698f7900961a3f2d97ea7aa80018fb91473dd29bf7bdacc35f8b695"
+    },
+    "legacy_collector": {
+      "file": "../independent_mempool_bridge.py",
+      "sha256": "f3687e7f49671bc1148109340530c6f01f300f2f98ff1aeca4d4290fb341159d"
+    },
+    "legacy_reuse": {
+      "file": "legacy_reuse_manifest.json",
+      "sha256": "5f778528a17473100ac5c6feaa4cdfda7bf9de01aa2621a42bb0ab5339256108"
+    },
+    "legacy_validation": {
+      "file": "../independent_mempool_pilot.py",
+      "sha256": "8bc543e16ecf819bd48166c5b632923ee1c1de91f98990067472de05d64feea3"
+    },
+    "mempool_recorded_twenty_20261115_unit_02_checkpoint_json_gz": {
+      "file": "../mempool_recorded_twenty_20261115_unit_02/checkpoint.json.gz",
+      "sha256": "56792e3c0e1b6fd0cea33dac8ff4b881b078c9f3dbfc83cac9ecab2b80e9edf8"
+    },
+    "mempool_recorded_twenty_20261115_unit_02_private_cache_backup_json": {
+      "file": "../mempool_recorded_twenty_20261115_unit_02/private_cache_backup.json",
+      "sha256": "45bef987e4194c4701051fcce33975959b38e1cf2bfef278725de36111a30a91"
+    },
+    "mempool_recorded_twenty_20261115_unit_02_protocol_json": {
+      "file": "../mempool_recorded_twenty_20261115_unit_02/protocol.json",
+      "sha256": "f699cff178aa65f65dc9abbc118428aa5ae5536816bb85902a7e5066d087200a"
+    },
+    "native_auditor": {
+      "file": "../audit_independent_mempool_resume.py",
+      "sha256": "62cc87749ca938caa092753c0bbf178e903f154acdb9f2e1973eef5fab164b7b"
+    },
+    "native_collector": {
+      "file": "../independent_mempool_resume.py",
+      "sha256": "e8e785fdc47978a49ec64fb198834f13f35c49f3a8d5a7dd5e46b7f0d6c548b5"
+    },
+    "offline_reuse": {
+      "file": "offline_reuse_manifest.json",
+      "sha256": "29b00326b9d4667c39cf694c1bb1ef57da3cc18539b869f6e890644e2ae22c03"
+    },
+    "parent_private_backup": {
+      "file": "../mempool_remaining_fifty_20261116_unit_16/private_cache_backup.json",
+      "sha256": "7a352812edb089908a3214903d4e39f9203cd029abc9531c5ef793b522af2f8b"
+    },
+    "parent_protocol": {
+      "file": "../mempool_remaining_fifty_20261116_unit_16/protocol.json",
+      "sha256": "ba325173ef088eaed30855acf2fbdbdd858a08c5476c46867a59c8940452a3f6"
+    },
+    "parent_resume": {
+      "file": "../mempool_remaining_fifty_20261116_unit_16/resume_checkpoint.json",
+      "sha256": "32a6562abc25b4f3aec6aa65fe9c321643fd84cb054c58b16f99a684626b9b16"
+    },
+    "parent_verification": {
+      "file": "../mempool_remaining_fifty_20261116_unit_16/independent_verification.json",
+      "sha256": "cdcf8a29d3f6f7dbb0fc4d2533cc785ea234d237354f4874b5a0082786319306"
+    },
+    "prepared_campaign_state": {
+      "file": "prepared_campaign_state.json",
+      "sha256": "3570bed21a6851b2ce54c1f2aceba11d42dae225149dc6c99c400f20cb307f5e"
+    },
+    "priority_audit_recorded_mixed_resume_py": {
+      "file": "../audit_recorded_mixed_resume.py",
+      "sha256": "13da34447f9624f9abde740e7748cbf89cfda69f3c22888275b52dbb77e0e31c"
+    },
+    "priority_independent_mempool_native_py": {
+      "file": "../independent_mempool_native.py",
+      "sha256": "40627aa2f9f2190ce2b07b1286649ed3b5e589346bb0ebb4aed2f9f3695efbb7"
+    },
+    "priority_recorded_mixed_resume_py": {
+      "file": "../recorded_mixed_resume.py",
+      "sha256": "9cefcc2e8473688eb0f36b127c4f1683c529949ccc7415779e2adc5f06a388c6"
+    },
+    "priority_recorded_priority_campaign_py": {
+      "file": "../recorded_priority_campaign.py",
+      "sha256": "dc6d7e00f9ec7b7fc4fe8c0b66d5ce84a85e15ef749ffb1261c02e7b2333760a"
+    },
+    "priority_resume_fifty_bridge_py": {
+      "file": "../resume_fifty_bridge.py",
+      "sha256": "67c1bc1b6846d3abad8d9c55015b48b7ff3c550acc764cddce2a1b797e4bd171"
+    },
+    "recorded_dispatch_runner": {
+      "file": "../recorded_mempool_resume.py",
+      "sha256": "c090d15d3e9823d639124bb3ab8c84cf86dbbe1e1fbf66f4956ea4358c43b250"
+    },
+    "remaining_audit_planned_funding_bridge_py": {
+      "file": "../audit_planned_funding_bridge.py",
+      "sha256": "6ed09c76d299ad17fa1e7ca20f3443b11020f918fb2c3b9b370e887bbdbf28c1"
+    },
+    "remaining_planned_funding_bridge_py": {
+      "file": "../planned_funding_bridge.py",
+      "sha256": "7d23768b860df48d3af228da927ec259c06caa77a0102e2500bc194e77747b03"
+    },
+    "remaining_recorded_remaining_campaign_py": {
+      "file": "../recorded_remaining_campaign.py",
+      "sha256": "ad39d34162e8df7383454593758d03967d6fd8636fd4fa737b6b3d431a78aa1a"
+    },
+    "saved_access_evidence": {
+      "file": "../mempool_remaining_fifty_20261116_access/private_cache_backup.json",
+      "sha256": "11e4957f472c2ad349bf4d255e9e672c83b93949cff5456b31993654596c5743"
+    },
+    "tests": {
+      "file": "../mempool_remaining_fifty_20261116/preflight_tests.json",
+      "sha256": "a952e7601f2d86b8d52915d5302d1266bbfc0441b4dc6b61541d2ff02aefef6c"
+    },
+    "validated_access_protocol": {
+      "file": "../mempool_remaining_fifty_20261116_access/protocol.json",
+      "sha256": "25f4ba429dadfc96be57ce4e3aa8ccdb2d5d2c37abf0b9548242ecf8a099cb14"
+    },
+    "validated_provider_access": {
+      "file": "../mempool_remaining_fifty_20261116_access/coverage_audit.json",
+      "sha256": "58ca97b962ca20c15d40f4af20c04441e9b3d5692f01a5eac70f51e85f79236e"
+    }
+  },
+  "kind": "native",
+  "live_policy_file": "../comparison_access_retries_20261030/retry_policy.json",
+  "max_pages_per_address": 294,
+  "maximum_new_native_pages": 50,
+  "maximum_requests": 159,
+  "minimum_dispatch_interval_seconds": 5,
+  "model_fits": 0,
+  "new_provider_page_limit": 50,
+  "new_scores": 0,
+  "offline_native_pages_reused": 732,
+  "original_timing_failure_preserved": true,
+  "parent_scope": "mempool_remaining_fifty_20261116_unit_16",
+  "pass_name": "mempool_remaining_fifty_20261116_unit_17",
+  "prepared_at": "2026-11-16T19:48:26.298174+00:00",
+  "previous_bound": 244,
+  "private_identity_registry_sha256": "69def543bc1b8c03b35bf478fb67f834de7d3aa8d2ba8072680768ddc340e29d",
+  "private_lock_manifest_sha256": "c57f7b261c869e286e5317a0997282ae2bfc0b7aef22e86a3cc1120c4eaf168c",
+  "private_parent_native_cursors_sha256": "4d2dfadfd4aa0c5c757b66cc6049fa8f0994ca651f8107e8a4da7c2c82b173f7",
+  "private_plan_sha256": "f8980b401beb066c3f95e3bc1920cf4999d3c2625e50a91d6682a47b60f2e43f",
+  "private_retained_bridge_native_cursors_sha256": "91046d312cb01eb28000d3a9ff470aa3be6fcb2f720448ee6c21cd2b21a1022f",
+  "provider": "https://mempool.space/api",
+  "request_budget": {
+    "after_anchor_statuses_at_most": 3,
+    "before_statuses_at_most": 3,
+    "funding_statuses_at_most": 3,
+    "tail_pages_at_most": 150,
+    "total_new_requests_at_most": 159
+  },
+  "requests_per_second": 0.2,
+  "schema_version": 8,
+  "source_ids": [
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0522"
+  ],
+  "timeout_seconds": 45,
+  "workers": 1
+}
