@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "mempool_remaining_fifty_20261116_access",
+  "active_collection_scope": "none",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -51,21 +51,24 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-11-16T16:42:59.321858+00:00",
-    "operational_locks_released": false,
-    "owner": "mempool_remaining_fifty_20261116_access",
+    "expires_at": null,
+    "finished_at": "2026-11-16T14:43:41.322332+00:00",
+    "last_owner": "mempool_remaining_fifty_20261116_access",
+    "operational_locks_released": true,
+    "owner": null,
     "protocol": "mempool_remaining_fifty_20261116_access/protocol.json",
     "protocol_sha256": "25f4ba429dadfc96be57ce4e3aa8ccdb2d5d2c37abf0b9548242ecf8a099cb14",
     "provider": "https://mempool.space/api",
     "purpose": "Explicit user request for all fifty remaining histories, recorded timing and durable checkpoints",
     "started_at": "2026-11-16T14:42:59.321858+00:00",
-    "state": "running"
+    "state": "idle",
+    "stop_status": "completed"
   },
   "comparison_pre_cutoff_predictors_available": 950,
   "comparison_pre_cutoff_predictors_unavailable": 50,
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
-  "coverage_collection_paused": false,
+  "coverage_collection_paused": true,
   "coverage_complete_sources_added": 25,
   "coverage_interrupted_consumed_requests": 2,
   "coverage_pause_reason": "The explicitly requested twenty-source campaign is complete and saved; all remaining missing histories are retained for a distinct later scope.",
@@ -183,6 +186,7 @@
     "status": "completed_audited",
     "tests_passed": 13
   },
+  "latest_mempool_access_validation": "mempool_remaining_fifty_20261116_access/coverage_audit.json",
   "latest_native_campaign": "mempool_native_round6_20261115",
   "latest_native_campaign_completion": {
     "actual_new_native_pages": 898,
@@ -348,8 +352,9 @@
       "approval_required": false,
       "automatic_provider_rotation": false,
       "enforced_dispatch_spacing_seconds": 5.25,
-      "last_http200": 62,
-      "last_http_status": 503,
+      "last_failure_preserved_in": "mempool_remaining_fifty_20261116_access/prior_gate_snapshot.json",
+      "last_http200": 2,
+      "last_http_status": 200,
       "last_refusals": 1,
       "maximum_new_native_pages_per_source": 50,
       "maximum_requests": 2,
@@ -371,7 +376,7 @@
       "source_ids": [
         "comparison_0257"
       ],
-      "status": "running_recorded_clock",
+      "status": "access_revalidated_after_cooldown",
       "stop_reason": "HTTP 503 provider response on comparison_0294 native_tail_0007; immediate stop; all successful evidence retained",
       "timeout_seconds": 45
     }
