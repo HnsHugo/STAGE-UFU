@@ -13,6 +13,7 @@ import recorded_remaining_campaign as campaign
 from recorded_mempool_resume import verify_dispatch_evidence
 from recover_interrupted_remaining_unit import verify_interrupted_clock
 from recover_native_unit13 import clocks
+from recover_native_unit17 import clocks as clocks17
 
 
 def verify():
@@ -54,7 +55,8 @@ def verify():
         for item in proof['original_request_markers']:
             assert sha(work / item['file']) == item['sha256']
         markers = [read(p) for p in sorted(work.glob('requests/*/*.json'))]
-        assert clocks(markers) == read(out / 'dispatch_verification.json')
+        check_clock=clocks17 if fragment['unit']==17 else clocks
+        assert check_clock(markers) == read(out / 'dispatch_verification.json')
         for marker in markers:
             body = work / 'requests' / marker['source_id'] / (marker['key'] + '.json.gz')
             if marker.get('http_status') == 200: assert sha(body) == marker['sha256']

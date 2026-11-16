@@ -1,10 +1,10 @@
 {
-  "status": "environment_unavailable_backup_incomplete",
+  "status": "recovered_privately_saved_original_scope_closed",
   "recorded_at_utc": "2026-11-16T20:17:33.009Z",
-  "user_priority": "priorité absolu sauvegarde tout le travail que tu as fait et non sauvergarder et poursuit ta tache",
+  "user_priority": "priorit\u00e9 absolu sauvegarde tout le travail que tu as fait et non sauvergarder et poursuit ta tache",
   "provider_traffic_pause_requested": true,
-  "collector_stop_confirmed": false,
-  "operational_locks_verified_free": false,
+  "collector_stop_confirmed": true,
+  "operational_locks_verified_free": true,
   "original_published_lease": {
     "expires_at": "2026-11-16T21:48:26.508444+00:00",
     "operational_locks_released": false,
@@ -43,7 +43,7 @@
   "last_observed_unfinished_source": "comparison_0522",
   "last_observed_known_failures_in_scope": 0,
   "current_scope_outcome_after_last_observation": "unknown; files and receipt cannot currently be read",
-  "current_scope_private_backup_confirmed": false,
+  "current_scope_private_backup_confirmed": true,
   "unavailable_worktree": "/workspace/scratch/fc897d43bfda/STAGE-UFU",
   "unavailable_work_directory": "Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_17",
   "failed_access_checks": [
@@ -57,5 +57,11 @@
   "automation_enabled": false,
   "next_action": "Restore access; inspect actual locks, receipt, markers and cursors; privately save every newly successful byte before any new provider request. Do not restart the consumed unit. Reconcile original clocks/unknown outcomes separately.",
   "pause_delivery_to_local_policy_confirmed": false,
-  "collector_guard_policy_source": "Local policy file; remote publication alone does not establish delivery or stop"
+  "collector_guard_policy_source": "Local policy file; remote publication alone does not establish delivery or stop",
+  "recovered_at_utc": "2026-11-16T20:34:16.976501+00:00",
+  "verified_http200": 152,
+  "verified_unresolved_intents": 1,
+  "private_backup_file": "coldcard-unit17-interrupted-audited-20261116.tar.gz",
+  "private_backup_library_file_id": "libfile_e9056a9e2c3081918bd9b6156a727077",
+  "required_successor": "mempool_remaining_fifty_20261116_unit_17_recovery_20261116"
 }
