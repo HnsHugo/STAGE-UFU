@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "none",
+  "active_collection_scope": "mempool_remaining_fifty_20261116_unit_13",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -51,24 +51,21 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": null,
-    "finished_at": "2026-11-16T18:25:00.389375+00:00",
-    "last_owner": "mempool_remaining_fifty_20261116_unit_12",
-    "operational_locks_released": true,
-    "owner": null,
-    "protocol": "mempool_remaining_fifty_20261116_unit_12/protocol.json",
-    "protocol_sha256": "70ece68a17deb9a77b69962dc6d5c7e68973732536e12b4943f62d9ef69357c8",
+    "expires_at": "2026-11-16T20:29:11.726625+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_remaining_fifty_20261116_unit_13",
+    "protocol": "mempool_remaining_fifty_20261116_unit_13/protocol.json",
+    "protocol_sha256": "b33296e7ef2bbed5470c3c08d9ca5219d3fa810c17e8e575edc3d009557b98ef",
     "provider": "https://mempool.space/api",
     "purpose": "Explicit user request for all fifty remaining histories, recorded timing and durable checkpoints",
-    "started_at": "2026-11-16T17:58:02.623317+00:00",
-    "state": "idle",
-    "stop_status": "interrupted_unknown_outcome"
+    "started_at": "2026-11-16T18:29:11.726625+00:00",
+    "state": "running"
   },
   "comparison_pre_cutoff_predictors_available": 957,
   "comparison_pre_cutoff_predictors_unavailable": 43,
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
-  "coverage_collection_paused": true,
+  "coverage_collection_paused": false,
   "coverage_complete_sources_added": 25,
   "coverage_interrupted_consumed_requests": 2,
   "coverage_pause_reason": "The explicitly requested twenty-source campaign is complete and saved; all remaining missing histories are retained for a distinct later scope.",
@@ -358,11 +355,11 @@
       "last_http_status": 200,
       "last_refusals": 1,
       "maximum_new_native_pages_per_source": 50,
-      "maximum_requests": 162,
+      "maximum_requests": 106,
       "minimum_dispatch_interval_seconds": 5,
       "next_network_attempt_not_before": "2026-11-16T18:25:00.389375+00:00",
       "no_new_probe_authorized": false,
-      "operational_resolution": "Saved successful evidence recovered offline under the current explicit Continue authorization; no actual refusal is known. Never restart unit 12.",
+      "operational_resolution": "Distinct pinned recorded-clock runner and passing regressions; old failure remains preserved.",
       "operational_validation_required": false,
       "query_disclosure_authorization": {
         "approved_operation": "Send the public Bitcoin address and transaction identifiers required for this research to mempool.space for transaction-status and address-history GET requests.",
@@ -373,13 +370,12 @@
         "source": "Explicit current user reply to the specific destination-and-identifiers authorization question.",
         "user_reply": "Oui"
       },
-      "scope": "mempool_remaining_fifty_20261116_unit_12",
+      "scope": "mempool_remaining_fifty_20261116_unit_13",
       "source_ids": [
-        "comparison_0230",
-        "comparison_0176",
-        "comparison_0157"
+        "comparison_0892",
+        "comparison_0622"
       ],
-      "status": "interruption_closed_unknown_outcome",
+      "status": "running_recorded_clock",
       "stop_reason": "HTTP 503 provider response on comparison_0294 native_tail_0007; immediate stop; all successful evidence retained",
       "timeout_seconds": 45,
       "unknown_request_outcomes_preserved": 1
