@@ -1,8 +1,8 @@
 {
   "automatic_schedule": false,
   "available_vectors": 1457,
-  "latest_resume": "../mempool_remaining_fifty_20261116_unit_10/resume_checkpoint.json",
-  "latest_view": "../mempool_remaining_fifty_20261116_unit_10/precutoff_feature_view.json.gz",
+  "latest_resume": "../mempool_remaining_fifty_20261116_unit_11/resume_checkpoint.json",
+  "latest_view": "../mempool_remaining_fifty_20261116_unit_11/precutoff_feature_view.json.gz",
   "missing_vectors": 43,
   "model_fits": 0,
   "new_scores": 0,
@@ -347,6 +347,39 @@
       "saved_evidence_pages": 82,
       "seed_kind": "bridge_union",
       "source_id": "comparison_0008"
+    },
+    {
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_11",
+      "finalized": true,
+      "last_native_cursor_sha256": "d57f62df992827b364e2f02712d45049ea9f85b468dce7510b8837d100187f97",
+      "native_pages": 50,
+      "provider": "https://mempool.space/api",
+      "requires_distinct_pinned_successor": true,
+      "saved_evidence_pages": 82,
+      "seed_kind": "bridge_union",
+      "source_id": "comparison_0108"
+    },
+    {
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_11",
+      "finalized": true,
+      "last_native_cursor_sha256": "8517dfcd707c5012f285df61dca4926c0a8d0ca0e42f9cacd4d69eda7742a727",
+      "native_pages": 50,
+      "provider": "https://mempool.space/api",
+      "requires_distinct_pinned_successor": true,
+      "saved_evidence_pages": 82,
+      "seed_kind": "bridge_union",
+      "source_id": "comparison_0268"
+    },
+    {
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_11",
+      "finalized": true,
+      "last_native_cursor_sha256": "626b90a1a8e7e254e434fd28e4e3659d4742547f2843fac9ad4792b43ccba6f8",
+      "native_pages": 50,
+      "provider": "https://mempool.space/api",
+      "requires_distinct_pinned_successor": true,
+      "saved_evidence_pages": 82,
+      "seed_kind": "bridge_union",
+      "source_id": "comparison_0287"
     }
   ],
   "retained_unfinalized_bridge_evidence": []
