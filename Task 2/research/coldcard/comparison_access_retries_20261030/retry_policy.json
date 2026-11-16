@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "none",
+  "active_collection_scope": "mempool_recorded_twenty_20261115_unit_08",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -51,24 +51,21 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": null,
-    "finished_at": "2026-11-16T11:33:04.829724+00:00",
-    "last_owner": "mempool_recorded_twenty_20261115_unit_07",
-    "operational_locks_released": true,
-    "owner": null,
-    "protocol": "mempool_recorded_twenty_20261115_unit_07/protocol.json",
-    "protocol_sha256": "9342b634cd150352342aab66e2b522738fdf24b41097dc1a576233d494b2cbb9",
+    "expires_at": "2026-11-16T13:34:07.488604+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_recorded_twenty_20261115_unit_08",
+    "protocol": "mempool_recorded_twenty_20261115_unit_08/protocol.json",
+    "protocol_sha256": "f914fdfa2bdb014ce27efaff351f91a395720df5d0095329326604a582425ab7",
     "provider": "https://mempool.space/api",
     "purpose": "Explicitly authorized twenty-history continuation with saved evidence and recorded dispatch clock",
-    "started_at": "2026-11-16T11:18:59.360322+00:00",
-    "state": "idle",
-    "stop_status": "completed"
+    "started_at": "2026-11-16T11:34:07.488604+00:00",
+    "state": "running"
   },
   "comparison_pre_cutoff_predictors_available": 947,
   "comparison_pre_cutoff_predictors_unavailable": 53,
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
-  "coverage_collection_paused": true,
+  "coverage_collection_paused": false,
   "coverage_complete_sources_added": 25,
   "coverage_interrupted_consumed_requests": 2,
   "coverage_pause_reason": "One saved wall-clock interval fails the existing five-second dispatch audit; preserve all successful responses and close this campaign before any new traffic.",
@@ -352,7 +349,7 @@
       "last_http200": 112,
       "last_refusals": 0,
       "maximum_new_native_pages_per_source": 50,
-      "maximum_requests": 162,
+      "maximum_requests": 54,
       "minimum_dispatch_interval_seconds": 5,
       "next_network_attempt_not_before": null,
       "no_new_probe_authorized": false,
@@ -367,13 +364,11 @@
         "source": "Explicit current user reply to the specific destination-and-identifiers authorization question.",
         "user_reply": "Oui"
       },
-      "scope": "mempool_recorded_twenty_20261115_unit_07",
+      "scope": "mempool_recorded_twenty_20261115_unit_08",
       "source_ids": [
-        "comparison_0251",
-        "comparison_0347",
-        "comparison_0300"
+        "comparison_0249"
       ],
-      "status": "closed_recorded_audited",
+      "status": "running_recorded_clock",
       "stop_reason": "Dispatch timing audit discrepancy; API/GitHub user permissions remain retained.",
       "timeout_seconds": 45
     }
