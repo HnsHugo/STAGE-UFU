@@ -1,0 +1,10 @@
+{
+  "adapter": "recorded_legacy_compat.py",
+  "failed_preparation": "unit_07",
+  "lease_started": false,
+  "new_provider_requests": 0,
+  "old_cache_bytes_unchanged": true,
+  "protocol_published": false,
+  "reason": "Older cached request markers omit provider; their frozen source protocol explicitly specifies Blockstream.",
+  "status": "resolved_before_any_provider_request"
+}
