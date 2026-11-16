@@ -1,6 +1,6 @@
 # All remaining histories — saved progress
 
-35/50 frozen histories finalized for this pass; 7 newly complete, 15 pending. Official coverage: 1457/1,500. A page-capped history remains incomplete. All saved data checkpoints pass reconstruction checks. The original full clock audits of interrupted units 12 and 13 remain incomplete; their known successful dispatches pass separately and both unknown intents remain explicit. Original failures and unfinished evidence remain preserved. No model or background schedule.
+36/50 frozen histories finalized for this pass; 7 newly complete, 14 pending. Official coverage: 1457/1,500. A page-capped history remains incomplete. All saved data checkpoints pass reconstruction checks. The original full clock audits of interrupted units 12 and 13 remain incomplete; their known successful dispatches pass separately and both unknown intents remain explicit. Original failures and unfinished evidence remain preserved. No model or background schedule.
 
 | Unit | Finalized | Newly complete | HTTP200 | Failed intents |
 |---|---:|---:|---:|---:|
@@ -18,3 +18,4 @@
 | 12 | 2 | 0 | 120 | 0 |
 | 13 | 2 | 0 | 37 | 0 |
 | 14 | 2 | 0 | 104 | 0 |
+| 15 | 1 | 0 | 52 | 0 |

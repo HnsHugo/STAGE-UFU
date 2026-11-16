@@ -1,0 +1,31 @@
+{
+  "available_coldcard_vectors": 1457,
+  "bounded_in_scope": 1,
+  "composed_view_sha256": "052944f1fde068201566ae3b334b7f01e9d6a1eceb480d152ad9c4a31c13539b",
+  "failed_request_records": 0,
+  "finalized": 1,
+  "fresh_native_source_transaction_observations": 1250,
+  "model_fits": 0,
+  "new_complete_prefixes": 0,
+  "new_complete_source_ids": [],
+  "new_scores": 0,
+  "pending_in_scope": 0,
+  "preserved_old_vectors": 1457,
+  "private_native_cursors_sha256": "7fcb79fb8f566c9043313ded4c122e5415b3d08027cd7c226a54b78ba5a77c4f",
+  "selected": 1,
+  "source_progress": [
+    {
+      "fresh_native_source_transaction_observations": 1250,
+      "last_native_cursor_sha256": "0f44531259d38c4c7001928cf90875e2156f1d6e1888168640f38c782ad8e7b0",
+      "new_native_pages": 50,
+      "old_transactions_retained": 1244,
+      "retained_prior_block_observations": 1243,
+      "saved_evidence_pages": 100,
+      "saved_native_pages": 83,
+      "source_id": "comparison_0351"
+    }
+  ],
+  "status": "passed",
+  "successful_fresh_requests": 52,
+  "unknown_labels_cutoffs_and_current_statuses_unchanged": true
+}

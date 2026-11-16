@@ -1,8 +1,8 @@
 {
   "automatic_schedule": false,
   "available_vectors": 1457,
-  "latest_resume": "../mempool_remaining_fifty_20261116_unit_14/resume_checkpoint.json",
-  "latest_view": "../mempool_remaining_fifty_20261116_unit_14/precutoff_feature_view.json.gz",
+  "latest_resume": "../mempool_remaining_fifty_20261116_unit_15/resume_checkpoint.json",
+  "latest_view": "../mempool_remaining_fifty_20261116_unit_15/precutoff_feature_view.json.gz",
   "missing_vectors": 43,
   "model_fits": 0,
   "new_scores": 0,
@@ -53,12 +53,13 @@
   ],
   "retained_native_partial_queue": [
     {
-      "distinct_transactions": 1244,
-      "last_native_cursor_sha256": "fac54514716f1839261c5b6693cb648aba7f41284d9daee52778b62c8ccd6bd4",
-      "native_pages": 33,
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_15",
+      "finalized": true,
+      "last_native_cursor_sha256": "0f44531259d38c4c7001928cf90875e2156f1d6e1888168640f38c782ad8e7b0",
+      "native_pages": 83,
       "provider": "https://mempool.space/api",
       "requires_distinct_pinned_successor": true,
-      "saved_evidence_pages": 50,
+      "saved_evidence_pages": 100,
       "seed_kind": "bridge_union",
       "source_id": "comparison_0351"
     },
