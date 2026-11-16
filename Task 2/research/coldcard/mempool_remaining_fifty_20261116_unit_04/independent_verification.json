@@ -1,0 +1,34 @@
+{
+  "available_coldcard_vectors": 1456,
+  "bounded_in_scope": 0,
+  "composed_view_sha256": "f45c71b2affb0bef8d6e77c85f098025230c716d4923fd2443e6a29f09d237b5",
+  "failed_request_records": 0,
+  "finalized": 1,
+  "fresh_native_source_transaction_observations": 1088,
+  "model_fits": 0,
+  "new_complete_prefixes": 1,
+  "new_complete_source_ids": [
+    "comparison_0294"
+  ],
+  "new_scores": 0,
+  "pending_in_scope": 0,
+  "preserved_old_vectors": 1455,
+  "private_native_cursors_sha256": "0baed84115d9c66b3929ba8cc85bbecdd74ad01aa72f26890104c13eba6275e9",
+  "selected": 1,
+  "source_progress": [
+    {
+      "fresh_native_source_transaction_observations": 1088,
+      "last_native_cursor_sha256": "b72e0361ca177ee3388cad1ddf872a672f17e4e5ac879b0ace16f695d3f7f924",
+      "new_native_pages": 45,
+      "old_transactions_retained": 960,
+      "retained_prior_block_observations": 958,
+      "saved_evidence_pages": 84,
+      "saved_native_pages": 52,
+      "source_id": "comparison_0294"
+    }
+  ],
+  "status": "passed",
+  "successful_fresh_requests": 47,
+  "unknown_labels_cutoffs_and_current_statuses_unchanged": true,
+  "verification_basis": "Pinned mixed seeds; actual-native endpoint replay; unchanged saved union; exhausted funding closure; separate feature recount; old-row and recorded-clock invariants"
+}
