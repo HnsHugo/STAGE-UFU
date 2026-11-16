@@ -1,0 +1,71 @@
+{
+  "available_coldcard_vectors": 1457,
+  "bounded_in_scope": 2,
+  "composed_view_sha256": "7a35bb0a9702a7c7114a134f2f24748c2bcf5bbeadc0d097edf2de4acadd6754",
+  "data_reconstruction_status": "passed",
+  "finalized": 2,
+  "fresh_native_source_transaction_observations": 2496,
+  "funding_closure_explicitly_planned": true,
+  "known_successful_dispatches": {
+    "minimum_enforced_seconds": 5.25,
+    "sent_requests": 120,
+    "status": "passed",
+    "unsent_intents": 0
+  },
+  "model_fits": 0,
+  "new_complete_source_ids": [],
+  "new_scores": 0,
+  "original_full_clock_audit": "incomplete_unknown_intent",
+  "original_request_marker_preserved": true,
+  "pending_in_scope": 1,
+  "preserved_old_vectors": 1457,
+  "private_native_cursors_sha256": "5ad2553adb48bcd3ad840432814253fbde69f08f8e12872e73983f9995bdf788",
+  "recovery_proof_sha256": "80f869d46dfa41420ca9504c382b067732715895aa5311eb60fb96511303256d",
+  "selected": 3,
+  "source_progress": [
+    {
+      "fresh_funding_statuses": 0,
+      "fresh_native_source_transaction_observations": 1249,
+      "new_native_pages": 50,
+      "old_transactions_retained": 14400,
+      "source_id": "comparison_0230",
+      "unfinalized_prior_block_observations": 0,
+      "verified_overlap_transactions": 1
+    },
+    {
+      "fresh_funding_statuses": 0,
+      "fresh_native_source_transaction_observations": 1247,
+      "new_native_pages": 50,
+      "old_transactions_retained": 14400,
+      "source_id": "comparison_0176",
+      "unfinalized_prior_block_observations": 0,
+      "verified_overlap_transactions": 3
+    },
+    {
+      "fresh_funding_statuses": 0,
+      "fresh_native_source_transaction_observations": 0,
+      "new_native_pages": 12,
+      "old_transactions_retained": 14400,
+      "source_id": "comparison_0157",
+      "unfinalized_prior_block_observations": 94,
+      "verified_overlap_transactions": 206
+    }
+  ],
+  "status": "passed",
+  "unfinalized_evidence": [
+    {
+      "features_available": false,
+      "final_reference_check_missing": true,
+      "last_native_cursor_sha256": "2c17d3b3b157f82724fa19f9aec70c0d47f97e13be530673e05121449390cfa4",
+      "new_prior_block_observations": 94,
+      "raw_file": "unfinalized_raw/comparison_0157.json.gz",
+      "raw_sha256": "582ed562d8a839f40296b92a2fcb728d0ec5f0d7816ef5c825ad6401392bc4f8",
+      "saved_evidence_pages": 588,
+      "saved_native_pages": 12,
+      "source_id": "comparison_0157"
+    }
+  ],
+  "unknown_labels_cutoffs_and_current_statuses_unchanged": true,
+  "unresolved_request_intents": 1,
+  "verification_basis": "Immutable response/body/endpoint replay and feature checks; clock verified only for 120 completed responses. One final request has unknown dispatch and provider outcome."
+}

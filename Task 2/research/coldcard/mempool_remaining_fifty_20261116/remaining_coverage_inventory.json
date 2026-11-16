@@ -1,8 +1,8 @@
 {
   "automatic_schedule": false,
   "available_vectors": 1457,
-  "latest_resume": "../mempool_remaining_fifty_20261116_unit_11/resume_checkpoint.json",
-  "latest_view": "../mempool_remaining_fifty_20261116_unit_11/precutoff_feature_view.json.gz",
+  "latest_resume": "../mempool_remaining_fifty_20261116_unit_12/resume_checkpoint.json",
+  "latest_view": "../mempool_remaining_fifty_20261116_unit_12/precutoff_feature_view.json.gz",
   "missing_vectors": 43,
   "model_fits": 0,
   "new_scores": 0,
@@ -380,7 +380,53 @@
       "saved_evidence_pages": 82,
       "seed_kind": "bridge_union",
       "source_id": "comparison_0287"
+    },
+    {
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_12",
+      "finalized": true,
+      "last_native_cursor_sha256": "dd070b213912e23979744d44c0ae7aa01e8aa930f88c9a481e0ec2725be61f6a",
+      "native_pages": 50,
+      "provider": "https://mempool.space/api",
+      "requires_distinct_pinned_successor": true,
+      "saved_evidence_pages": 626,
+      "seed_kind": "bridge_union",
+      "source_id": "comparison_0230"
+    },
+    {
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_12",
+      "finalized": true,
+      "last_native_cursor_sha256": "b69fdbe6e3e7e621d38e7da8ab86decdf11a5707467903495ca6b1b8cd3e63ab",
+      "native_pages": 50,
+      "provider": "https://mempool.space/api",
+      "requires_distinct_pinned_successor": true,
+      "saved_evidence_pages": 626,
+      "seed_kind": "bridge_union",
+      "source_id": "comparison_0176"
+    },
+    {
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_12",
+      "finalized": false,
+      "last_native_cursor_sha256": "2c17d3b3b157f82724fa19f9aec70c0d47f97e13be530673e05121449390cfa4",
+      "native_pages": 12,
+      "provider": "https://mempool.space/api",
+      "requires_distinct_pinned_successor": true,
+      "saved_evidence_pages": 588,
+      "seed_kind": "bridge_union",
+      "source_id": "comparison_0157"
     }
   ],
-  "retained_unfinalized_bridge_evidence": []
+  "retained_unfinalized_bridge_evidence": [
+    {
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_12",
+      "features_available": false,
+      "final_reference_check_missing": true,
+      "last_native_cursor_sha256": "2c17d3b3b157f82724fa19f9aec70c0d47f97e13be530673e05121449390cfa4",
+      "new_prior_block_observations": 94,
+      "raw_file": "unfinalized_raw/comparison_0157.json.gz",
+      "raw_sha256": "582ed562d8a839f40296b92a2fcb728d0ec5f0d7816ef5c825ad6401392bc4f8",
+      "saved_evidence_pages": 588,
+      "saved_native_pages": 12,
+      "source_id": "comparison_0157"
+    }
+  ]
 }

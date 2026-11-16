@@ -1,0 +1,3 @@
+# Interrupted unit recovered from saved evidence
+
+Two bounded histories finalized; twelve native pages of the third are retained only as an unfinished continuation seed. 120 responses are saved and independently replayed. One final request intent has unknown dispatch and provider outcome; its original bytes are unchanged. Data reconstruction passes. Dispatch timing passes for the 120 completed responses only; the original full-scope clock audit is incomplete. No request was issued during recovery. Coverage remains 1,457/1,500; all previous vectors, unknown labels and cutoffs are unchanged. The scope is closed. Continue untouched units in distinct scopes; retain comparison_0157 for a distinct successor from its actual saved cursor.
