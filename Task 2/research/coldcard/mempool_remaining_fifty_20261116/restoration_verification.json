@@ -1,0 +1,37 @@
+{
+  "archives": [
+    {
+      "all_archive_files_verified": 4419,
+      "archive": "coldcard-prefix-extension-private-20261109-01.tar.gz",
+      "archive_bytes": 999688962,
+      "archive_sha256": "903ca42a1086d9dc954f2d04f64c69517d729215ce4fdadde86f2a11e689b6de",
+      "identical_existing_files": 0,
+      "needed_files_restored": 1355,
+      "operational_flags_not_restored": true,
+      "scope": "source_prefix_extension_20261109_01"
+    },
+    {
+      "all_archive_files_verified": 3480,
+      "archive": "coldcard-prefix-extension-private-20261112-576.tar.gz",
+      "archive_bytes": 72407229,
+      "archive_sha256": "536eb02c8a750bb36cc8a50ed6f8df00edfc295fd8d0f95bf7e246347b2c9004",
+      "identical_existing_files": 0,
+      "needed_files_restored": 3480,
+      "operational_flags_not_restored": true,
+      "scope": "source_prefix_extension_20261112_01"
+    },
+    {
+      "all_archive_files_verified": 48,
+      "archive": "fifty-recovery-private-20261113-go_bridge.tar.gz",
+      "archive_bytes": 863331,
+      "archive_sha256": "f426ed4a89f36bbfaeec5419892a2926854bb73fe9b1027390782892515f4c0e",
+      "identical_existing_files": 0,
+      "needed_files_restored": 48,
+      "operational_flags_not_restored": true,
+      "scope": "mempool_fifty_20261112_tail_bridge_20261113"
+    }
+  ],
+  "provider_requests": 0,
+  "scope": "Complete archive fingerprint verification; only the needed Coldcard work layers restored. No historical external-case experiment rerun.",
+  "status": "passed"
+}

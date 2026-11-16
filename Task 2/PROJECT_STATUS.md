@@ -1,5 +1,31 @@
 # Project status — 2 November 2026
 
+**User requests all fifty remaining rows — 16 November 2026**
+
+The current request is "Fais les 50 qui reste". The distinct frozen campaign is
+`research/coldcard/mempool_remaining_fifty_20261116`: all fifty missing rows,
+no exclusions, twenty small units. All needed old Coldcard layers are restored:
+7,947 archived file fingerprints verified, 4,883 needed files restored. Private
+identity records are reconciled against every frozen row, preserving duplicates
+exactly. Six legacy histories need explicitly planned/budgeted reference-parent
+status checks only after terminal pagination; a still-absent parent must be in
+the excluded reference block, never an omitted prior block. Eighty-five tests pass.
+
+The seven interrupted successful native pages are independently reconstructed in
+`research/coldcard/mempool_unfinished_admission_20261116`, saved and admitted only
+as a continuation seed. All 1,450 vectors and labels are unchanged. The original
+HTTP503 and missing final reference check remain preserved. No old scope reopens.
+
+A single two-request same-provider counter/reference access validation is prepared
+for after the saved 14:42:55 UTC not-before time; it needs fresh locks and exact
+published lease/readback. No provider request during preparation. After successful
+validation, continue distinct fifty-new-page/source units, one worker, recorded
+5.25-second spacing and 45-second timeout on the original route/TLS. Audit, save
+and publish every checkpoint before the next without routine renewed permission.
+Stop on first actual failure/refusal/inconsistency. All fifty rows are targets;
+a page-capped history is still incomplete. Preserve old vectors, unknown labels,
+cutoffs and every queue. No model, paid service, rotation or background schedule.
+
 **Prioritized continuation saved after HTTP 503 — 16 November 2026**
 
 The new twenty-history campaign stopped immediately on its first actual provider

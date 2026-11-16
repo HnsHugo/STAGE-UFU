@@ -1,0 +1,599 @@
+{
+  "additional_native_pages_per_source": 50,
+  "authorization": "User explicitly requests: Fais les 50 qui reste. Persistent GitHub/Mempool permissions; all fifty missing source/reference pairs included, no model.",
+  "automation_enabled": false,
+  "chosen_candidates": [
+    {
+      "historical_full_current_counter": 1399,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261112_02",
+      "previous_bound": 32,
+      "source_id": "comparison_0257"
+    },
+    {
+      "historical_full_current_counter": 1881,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261109_01",
+      "previous_bound": 32,
+      "source_id": "comparison_0077"
+    },
+    {
+      "historical_full_current_counter": 3634,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261109_01",
+      "previous_bound": 32,
+      "source_id": "comparison_0137"
+    },
+    {
+      "historical_full_current_counter": 3672,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261109_01",
+      "previous_bound": 32,
+      "source_id": "comparison_0132"
+    },
+    {
+      "historical_full_current_counter": 3835,
+      "kind": "mixed_resume",
+      "origin_scope": "mempool_recorded_priority_20261116_unit_02",
+      "previous_bound": 82,
+      "source_id": "comparison_0241"
+    },
+    {
+      "historical_full_current_counter": 3854,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261112_02",
+      "previous_bound": 32,
+      "source_id": "comparison_0292"
+    },
+    {
+      "historical_full_current_counter": 3892,
+      "kind": "mixed_resume",
+      "origin_scope": "mempool_unfinished_admission_20261116",
+      "previous_bound": 39,
+      "source_id": "comparison_0294"
+    },
+    {
+      "historical_full_current_counter": 3932,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261112_02",
+      "previous_bound": 32,
+      "source_id": "comparison_0298"
+    },
+    {
+      "historical_full_current_counter": 3939,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261112_02",
+      "previous_bound": 32,
+      "source_id": "comparison_0343"
+    },
+    {
+      "historical_full_current_counter": 3981,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261112_02",
+      "previous_bound": 32,
+      "source_id": "comparison_0254"
+    },
+    {
+      "historical_full_current_counter": 7983,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261112_02",
+      "previous_bound": 32,
+      "source_id": "comparison_0275"
+    },
+    {
+      "historical_full_current_counter": 8440,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261109_01",
+      "previous_bound": 32,
+      "source_id": "comparison_0086"
+    },
+    {
+      "historical_full_current_counter": 8455,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261109_01",
+      "previous_bound": 32,
+      "source_id": "comparison_0126"
+    },
+    {
+      "historical_full_current_counter": 8684,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261109_01",
+      "previous_bound": 32,
+      "source_id": "comparison_0018"
+    },
+    {
+      "historical_full_current_counter": 10046,
+      "kind": "native",
+      "origin_scope": "mempool_recorded_twenty_20261115_unit_05",
+      "previous_bound": 278,
+      "source_id": "comparison_0851"
+    },
+    {
+      "historical_full_current_counter": 10311,
+      "kind": "native",
+      "origin_scope": "mempool_recorded_twenty_20261115_unit_05",
+      "previous_bound": 278,
+      "source_id": "comparison_0826"
+    },
+    {
+      "historical_full_current_counter": 10351,
+      "kind": "native",
+      "origin_scope": "mempool_recorded_twenty_20261115_unit_04",
+      "previous_bound": 278,
+      "source_id": "comparison_0713"
+    },
+    {
+      "historical_full_current_counter": 13832,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261112_02",
+      "previous_bound": 32,
+      "source_id": "comparison_0255"
+    },
+    {
+      "historical_full_current_counter": 19904,
+      "kind": "native",
+      "origin_scope": "mempool_recorded_twenty_20261115_unit_06",
+      "previous_bound": 278,
+      "source_id": "comparison_0853"
+    },
+    {
+      "historical_full_current_counter": 23412,
+      "kind": "native",
+      "origin_scope": "mempool_recorded_twenty_20261115_unit_04",
+      "previous_bound": 278,
+      "source_id": "comparison_0680"
+    },
+    {
+      "historical_full_current_counter": 23628,
+      "kind": "native",
+      "origin_scope": "mempool_recorded_twenty_20261115_unit_01",
+      "previous_bound": 228,
+      "source_id": "comparison_0912"
+    },
+    {
+      "historical_full_current_counter": 25173,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261112_02",
+      "previous_bound": 32,
+      "source_id": "comparison_0315"
+    },
+    {
+      "historical_full_current_counter": 26241,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261109_01",
+      "previous_bound": 32,
+      "source_id": "comparison_0008"
+    },
+    {
+      "historical_full_current_counter": 31563,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261109_01",
+      "previous_bound": 32,
+      "source_id": "comparison_0108"
+    },
+    {
+      "historical_full_current_counter": 43134,
+      "kind": "native",
+      "origin_scope": "mempool_recorded_twenty_20261115_unit_05",
+      "previous_bound": 278,
+      "source_id": "comparison_0800"
+    },
+    {
+      "historical_full_current_counter": 47504,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261112_01",
+      "previous_bound": 576,
+      "source_id": "comparison_0230"
+    },
+    {
+      "historical_full_current_counter": 53432,
+      "kind": "native",
+      "origin_scope": "mempool_recorded_twenty_20261115_unit_06",
+      "previous_bound": 278,
+      "source_id": "comparison_0892"
+    },
+    {
+      "historical_full_current_counter": 54134,
+      "kind": "native",
+      "origin_scope": "mempool_recorded_twenty_20261115_unit_03",
+      "previous_bound": 262,
+      "source_id": "comparison_0973"
+    },
+    {
+      "historical_full_current_counter": 65204,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261112_02",
+      "previous_bound": 32,
+      "source_id": "comparison_0268"
+    },
+    {
+      "historical_full_current_counter": 66062,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261112_01",
+      "previous_bound": 576,
+      "source_id": "comparison_0176"
+    },
+    {
+      "historical_full_current_counter": 71855,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261112_02",
+      "previous_bound": 32,
+      "source_id": "comparison_0287"
+    },
+    {
+      "historical_full_current_counter": 72835,
+      "kind": "mixed_resume",
+      "origin_scope": "mempool_fifty_20261112_tail_bridge_20261113",
+      "previous_bound": 50,
+      "source_id": "comparison_0351"
+    },
+    {
+      "historical_full_current_counter": 77358,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261109_01",
+      "previous_bound": 32,
+      "source_id": "comparison_0088"
+    },
+    {
+      "historical_full_current_counter": 79212,
+      "kind": "native",
+      "origin_scope": "mempool_recorded_twenty_20261115_unit_02",
+      "previous_bound": 244,
+      "source_id": "comparison_0391"
+    },
+    {
+      "historical_full_current_counter": 79460,
+      "kind": "native",
+      "origin_scope": "mempool_recorded_twenty_20261115_unit_04",
+      "previous_bound": 278,
+      "source_id": "comparison_0622"
+    },
+    {
+      "historical_full_current_counter": 105049,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261109_01",
+      "previous_bound": 32,
+      "source_id": "comparison_0052"
+    },
+    {
+      "historical_full_current_counter": 111236,
+      "kind": "native",
+      "origin_scope": "mempool_recorded_twenty_20261115_unit_03",
+      "previous_bound": 262,
+      "source_id": "comparison_0995"
+    },
+    {
+      "historical_full_current_counter": 114994,
+      "kind": "native",
+      "origin_scope": "mempool_recorded_twenty_20261115_unit_01",
+      "previous_bound": 228,
+      "source_id": "comparison_0907"
+    },
+    {
+      "historical_full_current_counter": 117032,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261112_02",
+      "previous_bound": 32,
+      "source_id": "comparison_0283"
+    },
+    {
+      "historical_full_current_counter": 125648,
+      "kind": "native",
+      "origin_scope": "mempool_recorded_twenty_20261115_unit_01",
+      "previous_bound": 228,
+      "source_id": "comparison_0966"
+    },
+    {
+      "historical_full_current_counter": 288209,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261109_01",
+      "previous_bound": 32,
+      "source_id": "comparison_0045"
+    },
+    {
+      "historical_full_current_counter": 488571,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261109_01",
+      "previous_bound": 32,
+      "source_id": "comparison_0024"
+    },
+    {
+      "historical_full_current_counter": 606220,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261112_02",
+      "previous_bound": 32,
+      "source_id": "comparison_0250"
+    },
+    {
+      "historical_full_current_counter": 1014156,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261109_01",
+      "previous_bound": 32,
+      "source_id": "comparison_0091"
+    },
+    {
+      "historical_full_current_counter": 1268742,
+      "kind": "native",
+      "origin_scope": "mempool_recorded_twenty_20261115_unit_02",
+      "previous_bound": 244,
+      "source_id": "comparison_0433"
+    },
+    {
+      "historical_full_current_counter": 1373451,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261109_01",
+      "previous_bound": 32,
+      "source_id": "comparison_0002"
+    },
+    {
+      "historical_full_current_counter": 1747808,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261109_01",
+      "previous_bound": 32,
+      "source_id": "comparison_0109"
+    },
+    {
+      "historical_full_current_counter": 3334686,
+      "kind": "native",
+      "origin_scope": "mempool_recorded_twenty_20261115_unit_02",
+      "previous_bound": 244,
+      "source_id": "comparison_0522"
+    },
+    {
+      "historical_full_current_counter": 5847728,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261109_01",
+      "previous_bound": 32,
+      "source_id": "comparison_0026"
+    },
+    {
+      "historical_full_current_counter": 5945884,
+      "kind": "legacy_bridge",
+      "origin_scope": "source_prefix_extension_20261112_01",
+      "previous_bound": 576,
+      "source_id": "comparison_0157"
+    }
+  ],
+  "counter_limitation": "Historical full-current counters do not measure exact remaining pre-reference work and are not new predictors.",
+  "created_on": "2026-11-16",
+  "enforced_dispatch_spacing_seconds": 5.25,
+  "maximum_unit_sources": 3,
+  "model_fits": 0,
+  "new_scores": 0,
+  "original_http503_preserved": true,
+  "original_parent": "mempool_unfinished_admission_20261116",
+  "original_vectors": 1450,
+  "predictors": "Unchanged fourteen features strictly before the reference block",
+  "requested_sources": 50,
+  "schema_version": 1,
+  "selection_rule": "All remaining missing rows, without exclusions. Small uniform-kind/bound units ordered by their smallest old full-current transaction counter for scheduling only.",
+  "source_ids": [
+    "comparison_0257",
+    "comparison_0077",
+    "comparison_0137",
+    "comparison_0132",
+    "comparison_0292",
+    "comparison_0298",
+    "comparison_0241",
+    "comparison_0294",
+    "comparison_0343",
+    "comparison_0254",
+    "comparison_0275",
+    "comparison_0086",
+    "comparison_0126",
+    "comparison_0018",
+    "comparison_0851",
+    "comparison_0826",
+    "comparison_0713",
+    "comparison_0255",
+    "comparison_0315",
+    "comparison_0008",
+    "comparison_0853",
+    "comparison_0680",
+    "comparison_0800",
+    "comparison_0912",
+    "comparison_0907",
+    "comparison_0966",
+    "comparison_0108",
+    "comparison_0268",
+    "comparison_0287",
+    "comparison_0230",
+    "comparison_0176",
+    "comparison_0157",
+    "comparison_0892",
+    "comparison_0622",
+    "comparison_0973",
+    "comparison_0995",
+    "comparison_0351",
+    "comparison_0088",
+    "comparison_0052",
+    "comparison_0283",
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0522",
+    "comparison_0045",
+    "comparison_0024",
+    "comparison_0250",
+    "comparison_0091",
+    "comparison_0002",
+    "comparison_0109",
+    "comparison_0026"
+  ],
+  "target": "Operational incident membership; hardware-use and theft labels remain unknown",
+  "timeout_seconds": 45,
+  "unfinalized_seven_pages_preserved": true,
+  "unit": "Frozen source/reference pair",
+  "units": [
+    {
+      "kind": "legacy_bridge",
+      "previous_bound": 32,
+      "source_ids": [
+        "comparison_0257",
+        "comparison_0077",
+        "comparison_0137"
+      ]
+    },
+    {
+      "kind": "legacy_bridge",
+      "previous_bound": 32,
+      "source_ids": [
+        "comparison_0132",
+        "comparison_0292",
+        "comparison_0298"
+      ]
+    },
+    {
+      "kind": "mixed_resume",
+      "previous_bound": 82,
+      "source_ids": [
+        "comparison_0241"
+      ]
+    },
+    {
+      "kind": "mixed_resume",
+      "previous_bound": 39,
+      "source_ids": [
+        "comparison_0294"
+      ]
+    },
+    {
+      "kind": "legacy_bridge",
+      "previous_bound": 32,
+      "source_ids": [
+        "comparison_0343",
+        "comparison_0254",
+        "comparison_0275"
+      ]
+    },
+    {
+      "kind": "legacy_bridge",
+      "previous_bound": 32,
+      "source_ids": [
+        "comparison_0086",
+        "comparison_0126",
+        "comparison_0018"
+      ]
+    },
+    {
+      "kind": "native",
+      "previous_bound": 278,
+      "source_ids": [
+        "comparison_0851",
+        "comparison_0826",
+        "comparison_0713"
+      ]
+    },
+    {
+      "kind": "legacy_bridge",
+      "previous_bound": 32,
+      "source_ids": [
+        "comparison_0255",
+        "comparison_0315",
+        "comparison_0008"
+      ]
+    },
+    {
+      "kind": "native",
+      "previous_bound": 278,
+      "source_ids": [
+        "comparison_0853",
+        "comparison_0680",
+        "comparison_0800"
+      ]
+    },
+    {
+      "kind": "native",
+      "previous_bound": 228,
+      "source_ids": [
+        "comparison_0912",
+        "comparison_0907",
+        "comparison_0966"
+      ]
+    },
+    {
+      "kind": "legacy_bridge",
+      "previous_bound": 32,
+      "source_ids": [
+        "comparison_0108",
+        "comparison_0268",
+        "comparison_0287"
+      ]
+    },
+    {
+      "kind": "legacy_bridge",
+      "previous_bound": 576,
+      "source_ids": [
+        "comparison_0230",
+        "comparison_0176",
+        "comparison_0157"
+      ]
+    },
+    {
+      "kind": "native",
+      "previous_bound": 278,
+      "source_ids": [
+        "comparison_0892",
+        "comparison_0622"
+      ]
+    },
+    {
+      "kind": "native",
+      "previous_bound": 262,
+      "source_ids": [
+        "comparison_0973",
+        "comparison_0995"
+      ]
+    },
+    {
+      "kind": "mixed_resume",
+      "previous_bound": 50,
+      "source_ids": [
+        "comparison_0351"
+      ]
+    },
+    {
+      "kind": "legacy_bridge",
+      "previous_bound": 32,
+      "source_ids": [
+        "comparison_0088",
+        "comparison_0052",
+        "comparison_0283"
+      ]
+    },
+    {
+      "kind": "native",
+      "previous_bound": 244,
+      "source_ids": [
+        "comparison_0391",
+        "comparison_0433",
+        "comparison_0522"
+      ]
+    },
+    {
+      "kind": "legacy_bridge",
+      "previous_bound": 32,
+      "source_ids": [
+        "comparison_0045",
+        "comparison_0024",
+        "comparison_0250"
+      ]
+    },
+    {
+      "kind": "legacy_bridge",
+      "previous_bound": 32,
+      "source_ids": [
+        "comparison_0091",
+        "comparison_0002",
+        "comparison_0109"
+      ]
+    },
+    {
+      "kind": "legacy_bridge",
+      "previous_bound": 32,
+      "source_ids": [
+        "comparison_0026"
+      ]
+    }
+  ],
+  "workers": 1
+}

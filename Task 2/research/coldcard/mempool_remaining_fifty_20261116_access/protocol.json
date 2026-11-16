@@ -1,0 +1,79 @@
+{
+  "authorization": "User: Fais les 50 qui reste; persistent explicit API/GitHub authorization; revalidate the saved HTTP503 gate once after cooldown",
+  "automation_enabled": false,
+  "baseline_vectors": 1450,
+  "blockstream_cooldown_preserved_until": "2026-11-13T18:22:14+00:00",
+  "campaign": "mempool_remaining_fifty_20261116",
+  "created_on": "2026-11-16",
+  "dispatch_clock_evidence": "monotonic_ns_and_utc",
+  "enforced_dispatch_spacing_seconds": 5.25,
+  "inputs": {
+    "access_code": {
+      "file": "../remaining_access_checkpoint.py",
+      "sha256": "0f3e662a37907d160c35d10ffe68738e9c1e0cfcff2a6dd938c2d6708fc739b9"
+    },
+    "baseline_view": {
+      "file": "../mempool_unfinished_admission_20261116/precutoff_feature_view.json.gz",
+      "sha256": "b30b11a9278ab65d50b27ee6e3bc19ad7faf83e0d5715b6b05015386820e13a9"
+    },
+    "campaign_selection": {
+      "file": "../mempool_remaining_fifty_20261116/selection.json",
+      "sha256": "01f9d78a73b775da7886dfd2dee03ba16eee9307363e29d624f3a17247717126"
+    },
+    "identity_registry_reconciliation": {
+      "file": "../mempool_remaining_fifty_20261116/identity_registry_reconciliation.json",
+      "sha256": "13b374344ad4aaab173651bc8451a0869a3a556df361abfd06d8b407d1a50fe8"
+    },
+    "lease_authorization": {
+      "file": "../recorded_twenty_campaign.py",
+      "sha256": "59e1cfe3b96fe9219adfef056a27ca5dc5d0353d293c773ad2effd0518ccbe4e"
+    },
+    "native_runner": {
+      "file": "../independent_mempool_resume.py",
+      "sha256": "e8e785fdc47978a49ec64fb198834f13f35c49f3a8d5a7dd5e46b7f0d6c548b5"
+    },
+    "parent_backup": {
+      "file": "../mempool_unfinished_admission_20261116/private_cache_backup.json",
+      "sha256": "4ddc82547ee91ddf76c4487981d07a01212e462e46a360aba26840edd1380c1f"
+    },
+    "prior_gate": {
+      "file": "prior_gate_snapshot.json",
+      "sha256": "5a88f9d8446a345be49698a2c8b77cdabe89b5c791d1734f104040acfd508cf5"
+    },
+    "recorded_dispatch_runner": {
+      "file": "../recorded_mempool_resume.py",
+      "sha256": "c090d15d3e9823d639124bb3ab8c84cf86dbbe1e1fbf66f4956ea4358c43b250"
+    },
+    "remaining_campaign": {
+      "file": "../recorded_remaining_campaign.py",
+      "sha256": "4836b5c0f420fb6919287080418204c98217b4a53a178a97adc2f5e659ef81bc"
+    },
+    "tests": {
+      "file": "../mempool_remaining_fifty_20261116/preflight_tests.json",
+      "sha256": "443c8ad02dbe34e7a11cc465c01bf7ebe6712101350be9c22abc800fa6e814c6"
+    }
+  },
+  "kind": "bounded_access_revalidation",
+  "live_policy_file": "../comparison_access_retries_20261030/retry_policy.json",
+  "max_pages_per_address": 0,
+  "maximum_new_native_pages": 0,
+  "maximum_requests": 2,
+  "minimum_dispatch_interval_seconds": 5,
+  "model_fits": 0,
+  "network_not_before": "2026-11-16T14:42:55.113381+00:00",
+  "new_scores": 0,
+  "parent_scope": "mempool_unfinished_admission_20261116",
+  "pass_name": "mempool_remaining_fifty_20261116_access",
+  "private_identity_registry_sha256": "69def543bc1b8c03b35bf478fb67f834de7d3aa8d2ba8072680768ddc340e29d",
+  "private_lock_manifest_sha256": "29b9a25533fe58961022fba2813d0eb85c398d7d43297498469b662e1e15793b",
+  "private_parent_native_cursors_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+  "private_plan_sha256": "605d76703faf3a4a1aea4ec1cd8bb8b8a82738ad332eea679725be1ef3f7af36",
+  "private_retained_bridge_native_cursors_sha256": "91046d312cb01eb28000d3a9ff470aa3be6fcb2f720448ee6c21cd2b21a1022f",
+  "provider": "https://mempool.space/api",
+  "requests_per_second": 0.2,
+  "source_ids": [
+    "comparison_0257"
+  ],
+  "timeout_seconds": 45,
+  "workers": 1
+}

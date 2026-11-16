@@ -1,0 +1,113 @@
+{
+  "private_registry_sha256": "69def543bc1b8c03b35bf478fb67f834de7d3aa8d2ba8072680768ddc340e29d",
+  "provider_requests": 0,
+  "records": 105,
+  "rule": "Union of saved identity records; exact duplicate equality; every missing row matched to its frozen address/reference hashes and cutoff. No feature or label changed.",
+  "source_registry_and_plans": [
+    {
+      "file": "source_cohort_work_mempool_fifty_20261112_tail_bridge_20261113/plan.json",
+      "sha256": "fd986ff1ba8510df73942da23d9833f345379cb609c943c66f4cb32ea6918c89"
+    },
+    {
+      "file": "source_cohort_work_mempool_recorded_priority_20261116_unit_02/plan.json",
+      "sha256": "ed6fb284d7965771e29a61b9b162d20f72fa2a2bb27b97cd7dc61ceff78bf933"
+    },
+    {
+      "file": "source_cohort_work_mempool_recorded_twenty_20261115_unit_01/plan.json",
+      "sha256": "bb5b19072d84427d2c59904d0bafec1464236eb713baca46fe0dee0f6d8b6916"
+    },
+    {
+      "file": "source_cohort_work_mempool_recorded_twenty_20261115_unit_02/plan.json",
+      "sha256": "f8980b401beb066c3f95e3bc1920cf4999d3c2625e50a91d6682a47b60f2e43f"
+    },
+    {
+      "file": "source_cohort_work_mempool_recorded_twenty_20261115_unit_03/plan.json",
+      "sha256": "1e695674ab16bbd08e8399d6d2977940ed06ebd01225c0330f863a5080c17543"
+    },
+    {
+      "file": "source_cohort_work_mempool_recorded_twenty_20261115_unit_04/plan.json",
+      "sha256": "b08e03a6ac87cba0d20c072ddbe02bae50b5225b8d1176128dd0c1db90904cb3"
+    },
+    {
+      "file": "source_cohort_work_mempool_recorded_twenty_20261115_unit_05/plan.json",
+      "sha256": "d20475c6804529b2fe6f88ae111b5991dd0c44413a0a39dfe42a821a078cab10"
+    },
+    {
+      "file": "source_cohort_work_mempool_recorded_twenty_20261115_unit_06/plan.json",
+      "sha256": "de35259f499b32569e3f95031f3dfd46f089285e2b5513d1ef30c5933f40d1fe"
+    },
+    {
+      "file": "source_cohort_work_mempool_unfinished_admission_20261116/plan.json",
+      "sha256": "85e626800b08990a31a3899151179169fa39199374d374923b40cdef7546fad3"
+    },
+    {
+      "file": "source_cohort_work_mempool_unfinished_admission_20261116/remaining_source_registry.json",
+      "sha256": "8b5994e2b41f11e15c6e85b755a0d401cf75997e9f46ebebb51e46d6392e5249"
+    },
+    {
+      "file": "source_cohort_work_source_prefix_extension_20261109_01/plan.json",
+      "sha256": "6975cba29313cebf2129bffd73eb4f72e08303739c24963853e4694b0493eae9"
+    },
+    {
+      "file": "source_cohort_work_source_prefix_extension_20261112_01/plan.json",
+      "sha256": "d712d8d9d9f618a0b785c6e9fe29c0e2d77f26e25245f54c61f0ea5108027d73"
+    },
+    {
+      "file": "source_cohort_work_source_prefix_extension_20261112_02/plan.json",
+      "sha256": "bb0463c68d8e942d9d05add43ad96c36f02745b15ce9f632ead96f02bdea066d"
+    }
+  ],
+  "status": "passed",
+  "verified_missing_ids": [
+    "comparison_0002",
+    "comparison_0008",
+    "comparison_0018",
+    "comparison_0024",
+    "comparison_0026",
+    "comparison_0045",
+    "comparison_0052",
+    "comparison_0077",
+    "comparison_0086",
+    "comparison_0088",
+    "comparison_0091",
+    "comparison_0108",
+    "comparison_0109",
+    "comparison_0126",
+    "comparison_0132",
+    "comparison_0137",
+    "comparison_0157",
+    "comparison_0176",
+    "comparison_0230",
+    "comparison_0241",
+    "comparison_0250",
+    "comparison_0254",
+    "comparison_0255",
+    "comparison_0257",
+    "comparison_0268",
+    "comparison_0275",
+    "comparison_0283",
+    "comparison_0287",
+    "comparison_0292",
+    "comparison_0294",
+    "comparison_0298",
+    "comparison_0315",
+    "comparison_0343",
+    "comparison_0351",
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0522",
+    "comparison_0622",
+    "comparison_0680",
+    "comparison_0713",
+    "comparison_0800",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0973",
+    "comparison_0995"
+  ]
+}

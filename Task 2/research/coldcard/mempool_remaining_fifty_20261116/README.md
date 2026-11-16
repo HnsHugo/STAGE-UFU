@@ -1,0 +1,5 @@
+# All remaining Coldcard histories
+
+All missing rows are frozen without exclusions. Fifty additional native pages per source per checkpoint; a bounded result is incomplete. Immutable legacy cache validation now includes an explicit budget and plan for absent reference-parent status checks after terminal pagination. Such a parent must be in the excluded reference block; omitted prior-block funding is rejected. Preserve the seven previously interrupted successful pages through the independently verified admission seed, all old failures and every previous vector/label/cutoff.
+
+Use one worker, recorded 5.25-second timing, 45-second timeout, original Mempool route/TLS, fresh locks and exact published lease/readback. Revalidate provider access only after the saved cooldown. Audit, privately save and publish every unit before its successor. Stop on first actual failure/refusal/inconsistency. No model, route rotation, paid service or background schedule. Further remaining coverage needs a distinct pinned successor pass.

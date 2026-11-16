@@ -1,0 +1,38 @@
+{
+  "authorization": "Current user requests all fifty remaining rows; preserve seven saved successful pages before new traffic.",
+  "baseline_vectors": 1450,
+  "inputs": {
+    "code": {
+      "file": "../admit_unfinished_mempool_evidence.py",
+      "sha256": "e0a298de960c5804a554925e506dd15175e787d615549a25ccf20f49c0753328"
+    },
+    "original_recovery": {
+      "file": "../mempool_recorded_priority_20261116_unit_02/unfinalized_evidence_recovery.json",
+      "sha256": "caf0cfae968aaea9c5da58c4f0684871a115021548359ac8acb07c80d3225db4"
+    },
+    "parent_backup": {
+      "file": "../mempool_recorded_priority_20261116_unit_02/private_cache_backup.json",
+      "sha256": "6dba0f6e0166ae5bcef796aa84abb09fecca46928783ff986549c8039b081999"
+    },
+    "parent_resume": {
+      "file": "../mempool_recorded_priority_20261116_unit_02/resume_checkpoint.json",
+      "sha256": "7fe7af007de41407b558fa92e35c21e4a570f57af8c8e15fbd2126c65a481ec5"
+    },
+    "parent_view": {
+      "file": "../mempool_recorded_priority_20261116_unit_02/precutoff_feature_view.json.gz",
+      "sha256": "263cc00f6c83e75c7ee33cb9eaaeafd45dfcb7b122b80ea9c9011aba0f8f2d39"
+    }
+  },
+  "kind": "offline_unfinished_evidence_admission",
+  "model_fits": 0,
+  "new_complete_prefixes": 0,
+  "new_scores": 0,
+  "parent_scope": "mempool_recorded_priority_20261116_unit_02",
+  "pass_name": "mempool_unfinished_admission_20261116",
+  "private_plan_sha256": "85e626800b08990a31a3899151179169fa39199374d374923b40cdef7546fad3",
+  "private_registry_sha256": "8b5994e2b41f11e15c6e85b755a0d401cf75997e9f46ebebb51e46d6392e5249",
+  "provider_requests": 0,
+  "source_ids": [
+    "comparison_0294"
+  ]
+}
