@@ -46,11 +46,11 @@
     },
     "remaining_campaign": {
       "file": "../recorded_remaining_campaign.py",
-      "sha256": "4836b5c0f420fb6919287080418204c98217b4a53a178a97adc2f5e659ef81bc"
+      "sha256": "ad39d34162e8df7383454593758d03967d6fd8636fd4fa737b6b3d431a78aa1a"
     },
     "tests": {
       "file": "../mempool_remaining_fifty_20261116/preflight_tests.json",
-      "sha256": "443c8ad02dbe34e7a11cc465c01bf7ebe6712101350be9c22abc800fa6e814c6"
+      "sha256": "a952e7601f2d86b8d52915d5302d1266bbfc0441b4dc6b61541d2ff02aefef6c"
     }
   },
   "kind": "bounded_access_revalidation",
@@ -64,6 +64,7 @@
   "new_scores": 0,
   "parent_scope": "mempool_unfinished_admission_20261116",
   "pass_name": "mempool_remaining_fifty_20261116_access",
+  "preparation_revision": "Pre-network provider-state/save guard regression checks; no scope consumed, no provider request",
   "private_identity_registry_sha256": "69def543bc1b8c03b35bf478fb67f834de7d3aa8d2ba8072680768ddc340e29d",
   "private_lock_manifest_sha256": "29b9a25533fe58961022fba2813d0eb85c398d7d43297498469b662e1e15793b",
   "private_parent_native_cursors_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",

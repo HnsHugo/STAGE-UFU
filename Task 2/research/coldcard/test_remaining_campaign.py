@@ -10,6 +10,32 @@ import remaining_access_checkpoint as access
 
 
 class RemainingContracts(unittest.TestCase):
+    def access_fixture(self,directory,available=True,saved=True,closed=False):
+        base=Path(directory);out=base/'access';out.mkdir()
+        write(out/'coverage_audit.json',dict(status='passed',access_available=available))
+        write(out/'private_cache_backup.json',dict(saved_privately=saved,library_metadata_applied=saved))
+        write(base/'policy.json',dict(provider_access_policies={campaign.PROVIDER:dict(no_new_probe_authorized=closed,operational_validation_required=False)},
+            latest_mempool_access_validation='access/coverage_audit.json'))
+        return base
+
+    def test_failed_provider_access_cannot_prepare_collection(self):
+        with tempfile.TemporaryDirectory()as directory:
+            base=self.access_fixture(directory,closed=True)
+            with patch.object(campaign,'BASE',base),patch.object(campaign,'POLICY',base/'policy.json'):
+                with self.assertRaises(AssertionError):campaign.validated_access()
+
+    def test_successful_but_unsaved_access_cannot_prepare_collection(self):
+        with tempfile.TemporaryDirectory()as directory:
+            base=self.access_fixture(directory,saved=False)
+            with patch.object(campaign,'BASE',base),patch.object(campaign,'POLICY',base/'policy.json'):
+                with self.assertRaises(AssertionError):campaign.validated_access()
+
+    def test_validated_saved_access_allows_distinct_preparation(self):
+        with tempfile.TemporaryDirectory()as directory:
+            base=self.access_fixture(directory)
+            with patch.object(campaign,'BASE',base),patch.object(campaign,'POLICY',base/'policy.json'):
+                self.assertEqual(campaign.validated_access(),base/'access')
+
     def test_all_fifty_are_included_once_in_uniform_small_units(self):
         candidates=[dict(source_id=f's{i:02d}',kind=['native','legacy_bridge','mixed_resume'][i%3],
             previous_bound=[278,32,39][i%3],historical_full_current_counter=100-i)for i in range(50)]

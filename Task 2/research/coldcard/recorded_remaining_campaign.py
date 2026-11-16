@@ -131,7 +131,18 @@ def initialize():
     return dict(selected=len(ids),units=len(units),baseline_vectors=selection['original_vectors'],missing_funding_legacy_sources=sum(bool(v['missing_from_saved_prefix'])for v in plans.values()))
 
 
+def validated_access():
+    p=read(POLICY);gate=p['provider_access_policies'][PROVIDER]
+    assert not gate.get('no_new_probe_authorized')and not gate.get('operational_validation_required')
+    location=p['latest_mempool_access_validation'];out=(BASE/location).parent
+    report=read(out/'coverage_audit.json');backup=read(out/'private_cache_backup.json')
+    assert report['status']=='passed'and report['access_available']is True
+    assert backup['saved_privately']and backup['library_metadata_applied']
+    return out
+
+
 def prepare(number):
+    access=validated_access()
     original_read=inherited.read;original_priority_read=priority.read
     registry=read(BASE/('source_cohort_work_'+CAMPAIGN.name+'_registry')/'remaining_source_registry.json')
     def with_registry(path):
@@ -145,6 +156,8 @@ def prepare(number):
     q['private_identity_registry_sha256']=sha(work/'remaining_source_registry.json')
     proof=CAMPAIGN/'identity_registry_reconciliation.json'
     q['inputs']['identity_registry_reconciliation']=dict(file=os.path.relpath(proof,out),sha256=sha(proof))
+    for key,path in [('validated_provider_access',access/'coverage_audit.json'),('validated_access_protocol',access/'protocol.json'),('saved_access_evidence',access/'private_cache_backup.json')]:
+        q['inputs'][key]=dict(file=os.path.relpath(path,out),sha256=sha(path))
     write(out/'protocol.json',q)
     return result
 
@@ -205,6 +218,7 @@ def authorize(scope):
     q=read(BASE/scope/'protocol.json');p=read(POLICY)
     due=p['provider_access_policies'][PROVIDER].get('next_network_attempt_not_before')
     assert due is None or datetime.now(timezone.utc)>=datetime.fromisoformat(due)
+    if q['kind']!='bounded_access_revalidation':validated_access()
     result=inherited.authorize(scope)
     p=read(POLICY);p['collector_lease']['purpose']='Explicit user request for all fifty remaining histories, recorded timing and durable checkpoints'
     write(POLICY,p)
