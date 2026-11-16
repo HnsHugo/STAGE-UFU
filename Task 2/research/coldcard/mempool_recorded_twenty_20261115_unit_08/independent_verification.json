@@ -1,0 +1,46 @@
+{
+  "additional_source_transaction_observations": 1243,
+  "available_coldcard_vectors": 1447,
+  "blockstream_provider_requests": 0,
+  "bounded_in_scope": 1,
+  "bounded_source_ids": [
+    "comparison_0249"
+  ],
+  "coldcard_unavailable_prefixes": 53,
+  "coldcard_vectors": 1447,
+  "cryptobilis_vectors_unchanged": 329,
+  "dispatch_verification": "passed",
+  "final_view_sha256": "946e29b0b925c1d4af3389b1f98b2cca790bece080f54c0bdf921a6d476dee52",
+  "finalized": 1,
+  "fresh_native_source_transaction_observations": 1243,
+  "labels_cutoffs_fourteen_predictors_and_full_current_statuses_unchanged": true,
+  "model_fits": 0,
+  "new_complete_prefixes": 0,
+  "new_complete_source_ids": [],
+  "new_scores": 0,
+  "new_vectors_independently_recounted": 0,
+  "observation_count_is_not_globally_unique_transactions": true,
+  "pending": 0,
+  "pending_in_scope": 0,
+  "preserved_old_vectors": 1447,
+  "provider": "https://mempool.space/api",
+  "provider_requests": 53,
+  "saved_blockstream_response_fingerprints_verified": 33,
+  "schema_version": 1,
+  "selected": 1,
+  "source_progress": [
+    {
+      "additional_source_transaction_observations": 1243,
+      "distinct_transactions": 2043,
+      "independent_pages": 50,
+      "old_transactions_retained": 800,
+      "overlap_transactions_verified": 7,
+      "source_id": "comparison_0249",
+      "status": "bounded_incomplete"
+    }
+  ],
+  "status": "passed",
+  "successful_response_fingerprints_verified": 53,
+  "total_remaining_information_gaps": 90,
+  "verified_overlap_transactions": 7
+}
