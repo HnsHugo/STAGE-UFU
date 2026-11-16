@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "mempool_recorded_twenty_20261115_unit_02",
+  "active_collection_scope": "none",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -51,21 +51,24 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-11-16T01:46:36.555447+00:00",
-    "operational_locks_released": false,
-    "owner": "mempool_recorded_twenty_20261115_unit_02",
+    "expires_at": null,
+    "finished_at": "2026-11-16T00:06:29.370920+00:00",
+    "last_owner": "mempool_recorded_twenty_20261115_unit_02",
+    "operational_locks_released": true,
+    "owner": null,
     "protocol": "mempool_recorded_twenty_20261115_unit_02/protocol.json",
     "protocol_sha256": "f699cff178aa65f65dc9abbc118428aa5ae5536816bb85902a7e5066d087200a",
     "provider": "https://mempool.space/api",
     "purpose": "Explicitly authorized twenty-history continuation with saved evidence and recorded dispatch clock",
     "started_at": "2026-11-15T23:46:36.555447+00:00",
-    "state": "running"
+    "state": "idle",
+    "stop_status": "completed"
   },
   "comparison_pre_cutoff_predictors_available": 946,
   "comparison_pre_cutoff_predictors_unavailable": 54,
   "completion_policy": "Pause automation when no network gaps remain; bounded-incomplete histories require separate coverage work. No model, label promotion, costs or main-branch merge.",
   "consecutive_429_stops_since_successful_access_check": 1,
-  "coverage_collection_paused": false,
+  "coverage_collection_paused": true,
   "coverage_complete_sources_added": 25,
   "coverage_interrupted_consumed_requests": 2,
   "coverage_pause_reason": "One saved wall-clock interval fails the existing five-second dispatch audit; preserve all successful responses and close this campaign before any new traffic.",
@@ -130,7 +133,7 @@
   "last_rate_limit_at": "2026-11-12T18:22:13.994033+00:00",
   "last_retry_delay_seconds": 86400,
   "last_successful_bounded_collection_at": "2026-11-12T18:04:44.428580+00:00",
-  "latest_consolidated_prefix_view": "mempool_recorded_twenty_20261115_unit_01/precutoff_feature_view.json.gz",
+  "latest_consolidated_prefix_view": "mempool_recorded_twenty_20261115_unit_02/precutoff_feature_view.json.gz",
   "latest_coverage_output": "source_prefix_extension_20261112_03",
   "latest_coverage_protocol": "source_prefix_extension_20261112_03/protocol.json",
   "latest_coverage_result_file": "source_prefix_extension_20261112_03/coverage_audit.json",
@@ -219,9 +222,9 @@
   "latest_prefix_protocol": "mempool_native_round7_20261115_unit_03/protocol.json",
   "latest_prefix_result_file": "mempool_native_round7_20261115_unit_03/coverage_audit.json",
   "latest_prefix_resume_checkpoint": "mempool_native_round7_20261115_unit_03/resume_checkpoint.json",
-  "latest_prefix_resume_file": "mempool_recorded_twenty_20261115_unit_01/resume_checkpoint.json",
+  "latest_prefix_resume_file": "mempool_recorded_twenty_20261115_unit_02/resume_checkpoint.json",
   "latest_prefix_stop_file": "mempool_native_round7_20261115_unit_03/collection_stop.json",
-  "latest_prefix_work": "source_cohort_work_mempool_recorded_twenty_20261115_unit_01",
+  "latest_prefix_work": "source_cohort_work_mempool_recorded_twenty_20261115_unit_02",
   "latest_prepared_coverage_successor": {
     "automation_enabled": false,
     "finalization_entrypoint": "finalize_frontier_checkpoint.py",
@@ -370,7 +373,7 @@
         "comparison_0433",
         "comparison_0522"
       ],
-      "status": "running_recorded_clock",
+      "status": "closed_recorded_audited",
       "stop_reason": "Dispatch timing audit discrepancy; API/GitHub user permissions remain retained.",
       "timeout_seconds": 45
     }
