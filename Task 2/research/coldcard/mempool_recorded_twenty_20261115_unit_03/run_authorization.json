@@ -1,0 +1,15 @@
+{
+  "collector_lease": {
+    "expires_at": "2026-11-16T02:07:13.461350+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_recorded_twenty_20261115_unit_03",
+    "protocol": "mempool_recorded_twenty_20261115_unit_03/protocol.json",
+    "protocol_sha256": "37ad0bc19f5e69ef1b84be31c32b555c61d1aaa3656bdeb8e465bd1870e82a30",
+    "provider": "https://mempool.space/api",
+    "purpose": "Explicitly authorized twenty-history continuation with saved evidence and recorded dispatch clock",
+    "started_at": "2026-11-16T00:07:13.461350+00:00",
+    "state": "running"
+  },
+  "scope": "mempool_recorded_twenty_20261115_unit_03",
+  "status": "awaiting_exact_published_lease_readback"
+}
