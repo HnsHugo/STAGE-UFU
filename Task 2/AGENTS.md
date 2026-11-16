@@ -1,5 +1,10 @@
 # Task 2 working instructions
 
+
+**Emergency priority — save unsaved unit 17 before any new traffic (16 November 2026).**
+
+The user explicitly requests saving all unsaved work first. The execution environment and host-file access are currently unavailable. The last confirmed privately saved/publicly verified checkpoint is 39/50 histories, unit 16; unit 17 had 149 observed HTTP200 responses but is not confirmed backed up. The published live lease requests a pause, without claiming that its process stopped or locks were released. Existing user permissions persist. Before any collection, read [the emergency recovery record](research/coldcard/mempool_remaining_fifty_20261116_unit_17/ENVIRONMENT_RECOVERY.md) and its snapshot, restore access to the original worktree, preserve all actual files and privately save the new evidence. Never restart the consumed scope, invent its final outcome or replay saved provider pages. Do not treat the stale prepared campaign progress as permission to bypass this emergency pause.
+
 **User requests all fifty remaining rows — 16 November 2026**
 
 The current request is "Fais les 50 qui reste". The distinct frozen campaign is

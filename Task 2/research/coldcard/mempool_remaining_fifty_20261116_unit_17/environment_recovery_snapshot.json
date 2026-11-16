@@ -1,0 +1,59 @@
+{
+  "status": "environment_unavailable_backup_incomplete",
+  "recorded_at_utc": "2026-11-16T20:17:33.009Z",
+  "user_priority": "priorité absolu sauvegarde tout le travail que tu as fait et non sauvergarder et poursuit ta tache",
+  "provider_traffic_pause_requested": true,
+  "collector_stop_confirmed": false,
+  "operational_locks_verified_free": false,
+  "original_published_lease": {
+    "expires_at": "2026-11-16T21:48:26.508444+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_remaining_fifty_20261116_unit_17",
+    "protocol": "mempool_remaining_fifty_20261116_unit_17/protocol.json",
+    "protocol_sha256": "82fadb7f2f3d8b1bccb7d3abb655343d4eba3e13253011bff33b157a66bf3ae6",
+    "provider": "https://mempool.space/api",
+    "purpose": "Explicit user request for all fifty remaining histories, recorded timing and durable checkpoints",
+    "started_at": "2026-11-16T19:48:26.508444+00:00",
+    "state": "running"
+  },
+  "original_published_preparation_commit": "a10ded880940444a430124953dc8b40709dd5318",
+  "latest_verified_data_commit": "1a1aca0961b4a10aaef218b8f8fd12d6a94c5746",
+  "latest_verified_saved_scope": "mempool_remaining_fifty_20261116_unit_16",
+  "verified_saved_campaign": {
+    "processed_histories": 39,
+    "requested_histories": 50,
+    "pending_histories": 11,
+    "new_complete_prefixes": 7,
+    "available_vectors": 1457,
+    "total_rows": 1500,
+    "missing_vectors": 43,
+    "http200": 1962,
+    "known_failed_provider_intents": 0,
+    "original_unresolved_intents": 2,
+    "successful_new_native_pages": 1854,
+    "new_finalized_prior_block_observations": 45237,
+    "private_files_saved": 17121
+  },
+  "interrupted_scope": "mempool_remaining_fifty_20261116_unit_17",
+  "last_observed_unsaved_http200": 149,
+  "last_observed_finalized_sources": [
+    "comparison_0391",
+    "comparison_0433"
+  ],
+  "last_observed_unfinished_source": "comparison_0522",
+  "last_observed_known_failures_in_scope": 0,
+  "current_scope_outcome_after_last_observation": "unknown; files and receipt cannot currently be read",
+  "current_scope_private_backup_confirmed": false,
+  "unavailable_worktree": "/workspace/scratch/fc897d43bfda/STAGE-UFU",
+  "unavailable_work_directory": "Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_17",
+  "failed_access_checks": [
+    "exec_command: No usable execution environment is available",
+    "host file upload: no primary turn environment is available"
+  ],
+  "emergency_prepared_uploads": "Three sessions were prepared but returned signed PUT URLs rather than workspace transfers. No bytes were transferred and none were finalized. These are not backups.",
+  "current_code_committed": true,
+  "model_fits": 0,
+  "new_scores": 0,
+  "automation_enabled": false,
+  "next_action": "Restore access; inspect actual locks, receipt, markers and cursors; privately save every newly successful byte before any new provider request. Do not restart the consumed unit. Reconcile original clocks/unknown outcomes separately."
+}
