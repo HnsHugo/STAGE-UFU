@@ -88,6 +88,8 @@ def verify():
         lease_idle=True,automation_enabled=False,model_fits=0,new_scores=0,units=ledger,latest_scope=previous)
     write(CAMPAIGN/'final_verification.json',result)
     resume=read(final/'resume_checkpoint.json')
+    assert resume['all_bounded_prefixes']==1500-available+37
+    assert resume['private_native_cursors_sha256']==sha(BASE/('source_cohort_work_'+previous)/'native_cursors.json')
     write(CAMPAIGN/'remaining_coverage_inventory.json',dict(available_vectors=available,missing_vectors=1500-available,
         remaining_source_ids=sorted(s for s,r in rows.items() if r['features'] is None),
         retained_native_partial_queue=resume['retained_native_partial_queue'],latest_view='../'+previous+'/precutoff_feature_view.json.gz',

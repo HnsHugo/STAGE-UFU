@@ -1,0 +1,120 @@
+{
+  "all_labels_identities_cutoffs_and_current_history_statuses_preserved": true,
+  "automation_enabled": false,
+  "available_vectors": 1447,
+  "bounded_histories": 19,
+  "deep_queue_preserved": true,
+  "http200": 997,
+  "http_failures": 0,
+  "latest_scope": "mempool_recorded_twenty_20261115_unit_08",
+  "lease_idle": true,
+  "minimum_enforced_dispatch_seconds": 5.25,
+  "missing_vectors": 53,
+  "model_fits": 0,
+  "new_complete_prefixes": 1,
+  "new_complete_source_ids": [
+    "comparison_0251"
+  ],
+  "new_native_pages": 953,
+  "new_prior_block_address_transaction_observations": 23751,
+  "new_scores": 0,
+  "observations_not_global_unique_transactions": true,
+  "offline_admitted_prefix_preserved": true,
+  "operational_locks_checked_free": 113,
+  "original_timing_failure_preserved": true,
+  "previous_complete_vectors_preserved": 1446,
+  "private_evidence_files_saved": 9112,
+  "processed_histories": 20,
+  "recorded_dispatch_audits_passed": 8,
+  "requested_histories": 20,
+  "status": "passed",
+  "units": [
+    {
+      "http200": 156,
+      "kind": "native",
+      "new_complete": [],
+      "scope": "mempool_recorded_twenty_20261115_unit_01",
+      "sources": [
+        "comparison_0907",
+        "comparison_0912",
+        "comparison_0966"
+      ]
+    },
+    {
+      "http200": 156,
+      "kind": "native",
+      "new_complete": [],
+      "scope": "mempool_recorded_twenty_20261115_unit_02",
+      "sources": [
+        "comparison_0391",
+        "comparison_0433",
+        "comparison_0522"
+      ]
+    },
+    {
+      "http200": 104,
+      "kind": "native",
+      "new_complete": [],
+      "scope": "mempool_recorded_twenty_20261115_unit_03",
+      "sources": [
+        "comparison_0973",
+        "comparison_0995"
+      ]
+    },
+    {
+      "http200": 156,
+      "kind": "native",
+      "new_complete": [],
+      "scope": "mempool_recorded_twenty_20261115_unit_04",
+      "sources": [
+        "comparison_0622",
+        "comparison_0680",
+        "comparison_0713"
+      ]
+    },
+    {
+      "http200": 156,
+      "kind": "native",
+      "new_complete": [],
+      "scope": "mempool_recorded_twenty_20261115_unit_05",
+      "sources": [
+        "comparison_0800",
+        "comparison_0826",
+        "comparison_0851"
+      ]
+    },
+    {
+      "http200": 104,
+      "kind": "native",
+      "new_complete": [],
+      "scope": "mempool_recorded_twenty_20261115_unit_06",
+      "sources": [
+        "comparison_0853",
+        "comparison_0892"
+      ]
+    },
+    {
+      "http200": 112,
+      "kind": "legacy_bridge",
+      "new_complete": [
+        "comparison_0251"
+      ],
+      "scope": "mempool_recorded_twenty_20261115_unit_07",
+      "sources": [
+        "comparison_0251",
+        "comparison_0347",
+        "comparison_0300"
+      ]
+    },
+    {
+      "http200": 53,
+      "kind": "legacy_bridge",
+      "new_complete": [],
+      "scope": "mempool_recorded_twenty_20261115_unit_08",
+      "sources": [
+        "comparison_0249"
+      ]
+    }
+  ],
+  "verified_at": "2026-11-16T11:44:59.232638+00:00"
+}

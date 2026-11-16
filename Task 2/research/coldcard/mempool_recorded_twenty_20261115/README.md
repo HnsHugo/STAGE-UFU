@@ -1,3 +1,14 @@
-# Twenty additional saved histories
+# Completed twenty-history recorded-clock campaign
 
-Exactly twenty distinct missing source/reference pairs are frozen before traffic. The six previously unattempted histories come first, followed by ten other native continuations and four complete-block legacy bridges. Each source adds at most fifty new native pages. Preserve all old pages, unknown labels, strict cutoffs, old failed/consumed scopes and every unselected queue. Use the recorded 5.25-second clock guard, one worker and 45-second timeout on the same Mempool route/TLS. Audit, save private evidence and publish every small unit before its successor. Stop on the first real failure/refusal/inconsistency; no retry, rotation, model or background schedule. A processed history need not be complete.
+Current state: **20/20 processed, verified and saved**. One new complete prefix,
+19 bounded histories; current official coverage **1,447/1,500**, 53 missing.
+See [RESULTS.md](RESULTS.md), [global verification](final_verification.json),
+[progress](progress.json) and [remaining inventory](remaining_coverage_inventory.json).
+
+Do not replay consumed units. The fixed twenty-source selection and original
+protocol/code pins remain preserved. Private responses are saved at every unit.
+Any later continuation must be a distinct frozen scope using saved evidence and
+actual native cursors, with the recorded timing guard, fresh locks and exact
+published lease/readback. Mixed histories retain separate legacy/native counts
+and their verified union. Unknown labels and strict pre-block feature definitions
+remain unchanged. No model, score, retry, rotation or background task was run.

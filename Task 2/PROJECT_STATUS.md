@@ -1,5 +1,31 @@
 # Project status — 2 November 2026
 
+**Completed twenty-history continuation — 16 November 2026**
+
+The requested 20/20 source/reference histories are verified, saved and published:
+one new complete prefix (`comparison_0251`), nineteen bounded histories, no
+pending campaign ID. Official Coldcard coverage is 1,447/1,500; 53 feature rows
+remain missing. The earlier offline admission of `comparison_0877` is preserved,
+along with its original failed timing audit. All 997 requests returned HTTP200;
+953 new native pages and 23,751 prior-block address–transaction observations
+were saved. These are not globally unique transaction counts. All 1,446 preceding
+complete vectors, identities, unknown labels, cutoffs, full-current statuses and
+unselected deep queues are unchanged. No model fit/score.
+
+All eight data and recorded-clock audits pass; 58 focused tests pass. All 9,112
+private files are saved; 113 locks checked free, lease idle and no background
+schedule. Unit 5's saved layer was recovered after a workspace reset without
+repeating provider requests; its feature view exactly matches its saved audit.
+Legacy provider tags are inferred only from the original pinned source protocol,
+without rewriting cached files. Read
+`research/coldcard/mempool_recorded_twenty_20261115/RESULTS.md` and the final
+inventory/resume. This finite twenty-history request is complete. Any later
+coverage unit needs a distinct frozen scope, saved actual native cursors, the
+recorded timing guard, fresh locks and exact published lease/readback. Preserve
+mixed-provider unions and separate page counts; never restart consumed scopes.
+API/GitHub user permissions persist, without routine renewed confirmation.
+Recheck overlap before model work.
+
 **Authorized twenty-history recorded-clock continuation — 15 November 2026**
 
 The user explicitly requests twenty more histories plus saves. Offline data
