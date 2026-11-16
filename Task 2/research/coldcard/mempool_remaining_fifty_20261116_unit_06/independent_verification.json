@@ -1,0 +1,31 @@
+{
+  "available_coldcard_vectors": 1457,
+  "cached_legacy_responses_verified": 99,
+  "campaign_unit": 6,
+  "closed_at": "2026-11-16T16:09:21.186004+00:00",
+  "failed_provider_requests": 0,
+  "fresh_request_intents": 0,
+  "http200": 0,
+  "interruption": "Automatic approval review could not complete write_stdin because the usage limit was reached; not a safety determination",
+  "kind": "administrative_no_network_closure",
+  "model_fits": 0,
+  "new_complete_source_ids": [],
+  "new_scores": 0,
+  "operational_locks_checked_free": 132,
+  "original_protocol_sha256": "a8b1ca47b1e86c76db67af05d2fd5b476f0c88ad3ae07b39d6cfa722e99301ab",
+  "original_runner_completion": "Not recorded; no permit, no request intent, no active operational lock",
+  "permit_was_installed": false,
+  "preserved_old_vectors": 1457,
+  "provider_requests": 0,
+  "published_preparation_commit": "8ec1cd6f9cf89ee914b6041d9e0b56e9aa67c3e0",
+  "required_successor": "mempool_remaining_fifty_20261116_unit_06_recovery_20261116",
+  "restart_same_scope_allowed": false,
+  "scientific_rows_changed": 0,
+  "scope": "mempool_remaining_fifty_20261116_unit_06",
+  "source_ids": [
+    "comparison_0086",
+    "comparison_0126",
+    "comparison_0018"
+  ],
+  "status": "passed"
+}

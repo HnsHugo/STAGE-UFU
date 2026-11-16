@@ -1,5 +1,5 @@
 {
-  "active_scope": "mempool_remaining_fifty_20261116_unit_06",
+  "active_scope": null,
   "automation_enabled": false,
   "available_vectors": 1457,
   "can_continue": true,
@@ -127,6 +127,20 @@
     "comparison_0254",
     "comparison_0275"
   ],
+  "interrupted_preparations": [
+    {
+      "closure_file": "mempool_remaining_fifty_20261116_unit_06/no_network_closure.json",
+      "fresh_provider_requests": 0,
+      "required_successor": "mempool_remaining_fifty_20261116_unit_06_recovery_20261116",
+      "scope": "mempool_remaining_fifty_20261116_unit_06",
+      "source_ids": [
+        "comparison_0086",
+        "comparison_0126",
+        "comparison_0018"
+      ],
+      "unit": 6
+    }
+  ],
   "new_complete_source_ids": [
     "comparison_0257",
     "comparison_0077",
@@ -230,5 +244,5 @@
     "comparison_0109",
     "comparison_0026"
   ],
-  "status": "prepared_unit"
+  "status": "checkpoint_saved_after_tool_quota"
 }
