@@ -1,0 +1,17 @@
+{
+  "inferred_marker_fields": 99,
+  "new_provider_requests_during_preparation": 0,
+  "rule": "A missing provider tag is read from the fingerprint-pinned original acquisition protocol. Explicit conflicts are rejected. Original marker/body bytes remain unchanged.",
+  "source_ids": [
+    "comparison_0241",
+    "comparison_0294",
+    "comparison_0298"
+  ],
+  "source_protocols": [
+    {
+      "file": "source_prefix_extension_20261112_02/protocol.json",
+      "sha256": "ac7acf66165368a09e0e35d80e8d069dc570d2be6dd92b02b5e17f4dae41c4cb"
+    }
+  ],
+  "status": "passed"
+}

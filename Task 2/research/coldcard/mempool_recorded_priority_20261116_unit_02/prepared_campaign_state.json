@@ -1,0 +1,86 @@
+{
+  "active_scope": "mempool_recorded_priority_20261116_unit_02",
+  "automation_enabled": false,
+  "available_vectors": 1450,
+  "can_continue": true,
+  "completed_units": [
+    {
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0249",
+        "comparison_0300",
+        "comparison_0347"
+      ],
+      "fresh_requests": 51,
+      "http200": 51,
+      "new_complete_source_ids": [
+        "comparison_0347",
+        "comparison_0300",
+        "comparison_0249"
+      ],
+      "new_prior_block_observations": 1004,
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "2ae42a8cc1c131a52ff19434c6980a0b5ec5836fa7ff86dde28167c2a59558ed",
+      "scope": "mempool_recorded_priority_20261116_unit_01",
+      "source_ids": [
+        "comparison_0347",
+        "comparison_0300",
+        "comparison_0249"
+      ],
+      "unit": 1
+    }
+  ],
+  "finalized_source_ids": [
+    "comparison_0347",
+    "comparison_0300",
+    "comparison_0249"
+  ],
+  "new_complete_source_ids": [
+    "comparison_0347",
+    "comparison_0300",
+    "comparison_0249"
+  ],
+  "next_unit": 2,
+  "pending_source_ids": [
+    "comparison_0241",
+    "comparison_0294",
+    "comparison_0298",
+    "comparison_0254",
+    "comparison_0255",
+    "comparison_0315",
+    "comparison_0268",
+    "comparison_0287",
+    "comparison_0851",
+    "comparison_0826",
+    "comparison_0713",
+    "comparison_0853",
+    "comparison_0680",
+    "comparison_0800",
+    "comparison_0892",
+    "comparison_0912",
+    "comparison_0973"
+  ],
+  "source_ids": [
+    "comparison_0347",
+    "comparison_0300",
+    "comparison_0249",
+    "comparison_0241",
+    "comparison_0294",
+    "comparison_0298",
+    "comparison_0254",
+    "comparison_0255",
+    "comparison_0315",
+    "comparison_0268",
+    "comparison_0287",
+    "comparison_0851",
+    "comparison_0826",
+    "comparison_0713",
+    "comparison_0853",
+    "comparison_0680",
+    "comparison_0800",
+    "comparison_0892",
+    "comparison_0912",
+    "comparison_0973"
+  ],
+  "status": "prepared_unit"
+}
