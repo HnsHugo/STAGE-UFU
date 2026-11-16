@@ -1,0 +1,25 @@
+{
+  "bytes": 3147013,
+  "current_version_number": 0,
+  "file_id": "file_00000000bc9881f5acc859a95180204a",
+  "file_name": "coldcard-mempool_remaining_fifty_20261116_unit_02-private.tar.gz",
+  "library_file_id": "libfile_99aeba2ffdac8191b4523f5faabe9ca0",
+  "library_metadata_applied": true,
+  "operational_flags_excluded": true,
+  "private": true,
+  "private_files_verified": 519,
+  "public_repository_contains_no_raw_caches": true,
+  "required_predecessor_archive": {
+    "bytes": 5321333,
+    "file_name": "coldcard-mempool_remaining_fifty_20261116_unit_01-private.tar.gz",
+    "purpose": "Prior-layer reproduction and before/after coverage comparison; current working responses are included in this archive.",
+    "sha256": "32c34fb9cb0b2409346f9c1e5a105cfb14a545be9bb05d20098c487b36ac7ff6"
+  },
+  "saved_privately": true,
+  "schema_version": 1,
+  "scope_protocol_sha256": "15e21709cea7efd2410bbb7553ceff539e382386b39a2bd07422c80987c6c0c2",
+  "sha256": "a9e639b610d553d9a351c755a5af5d2bcd308a74e531ee2c5c543e062e953304",
+  "source_work_folders": [
+    "source_cohort_work_mempool_remaining_fifty_20261116_unit_02"
+  ]
+}
