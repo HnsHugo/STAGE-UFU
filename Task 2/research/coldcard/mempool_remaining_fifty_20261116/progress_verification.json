@@ -2,12 +2,13 @@
   "automation_enabled": false,
   "available_vectors": 1457,
   "failed_intents": 0,
-  "finalized_histories": 45,
-  "http200": 2281,
+  "finalized_histories": 48,
+  "http200": 2444,
   "incomplete_clock_scopes": [
     "mempool_remaining_fifty_20261116_unit_12",
     "mempool_remaining_fifty_20261116_unit_13",
-    "mempool_remaining_fifty_20261116_unit_17"
+    "mempool_remaining_fifty_20261116_unit_17",
+    "mempool_remaining_fifty_20261116_unit_19"
   ],
   "interrupted_evidence_fragments": [
     {
@@ -25,9 +26,17 @@
       "scope": "mempool_remaining_fifty_20261116_unit_17",
       "successful_new_native_pages": 147,
       "unresolved_intents": 1
+    },
+    {
+      "http200": 153,
+      "original_full_clock_audit": "incomplete_unknown_intent",
+      "original_markers_preserved": true,
+      "scope": "mempool_remaining_fifty_20261116_unit_19",
+      "successful_new_native_pages": 145,
+      "unresolved_intents": 1
     }
   ],
-  "latest_scope": "mempool_remaining_fifty_20261116_unit_18",
+  "latest_scope": "mempool_remaining_fifty_20261116_unit_19_recovery_20261117",
   "lease_idle": true,
   "missing_vectors": 43,
   "model_fits": 0,
@@ -41,20 +50,20 @@
     "comparison_0294",
     "comparison_0343"
   ],
-  "new_finalized_prior_block_observations": 52694,
+  "new_finalized_prior_block_observations": 56392,
   "new_scores": 0,
   "observation_count_is_not_globally_unique_transactions": true,
   "old_failures_unknown_labels_cutoffs_and_unselected_queues_preserved": true,
-  "operational_locks_checked_free": 147,
+  "operational_locks_checked_free": 149,
   "original_full_clock_audits_complete": false,
   "original_vectors_preserved": 1450,
-  "pending_histories": 5,
-  "private_data_unit_files_saved": 21230,
+  "pending_histories": 2,
+  "private_data_unit_files_saved": 22573,
   "requested_histories": 50,
   "saved_pages_requested_again": 0,
   "status": "passed",
   "successful_dispatch_subsets_verified": true,
-  "successful_new_native_pages": 2153,
+  "successful_new_native_pages": 2302,
   "units": [
     {
       "failures": 0,
@@ -193,7 +202,14 @@
       "http200": 159,
       "new_complete": [],
       "scope": "mempool_remaining_fifty_20261116_unit_18"
+    },
+    {
+      "failures": 0,
+      "finalized": 3,
+      "http200": 10,
+      "new_complete": [],
+      "scope": "mempool_remaining_fifty_20261116_unit_19_recovery_20261117"
     }
   ],
-  "unresolved_request_intents": 3
+  "unresolved_request_intents": 4
 }

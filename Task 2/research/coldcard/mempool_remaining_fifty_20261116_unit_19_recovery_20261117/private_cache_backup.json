@@ -1,0 +1,25 @@
+{
+  "bytes": 7696381,
+  "current_version_number": 0,
+  "file_id": "file_0000000039ac820a8bb9b65a110f22f4",
+  "file_name": "coldcard-unit19-recovery-complete-20261117.tar.gz",
+  "library_file_id": "libfile_24cece5262108191a15f4a4c008dfc0f",
+  "library_metadata_applied": true,
+  "operational_flags_excluded": true,
+  "private": true,
+  "private_files_verified": 824,
+  "public_repository_contains_no_raw_caches": true,
+  "required_predecessor_archive": {
+    "bytes": 5795688,
+    "file_name": "coldcard-unit19-interrupted-audited-20261117.tar.gz",
+    "purpose": "Prior-layer reproduction and before/after coverage comparison; current working responses are included in this archive.",
+    "sha256": "90c5ac9cab5e8d5629f7ebfccc39716c3d7aa08a730e77a238b6711bf60452cc"
+  },
+  "saved_privately": true,
+  "schema_version": 1,
+  "scope_protocol_sha256": "287537e3b6d0d5e5d544bd5395aaf15596c3bf212b53645bd23edfec134d030a",
+  "sha256": "0548104c14d85d3ea578e494fdfcb9c1bd9a9021307b17f54debff475d99d34b",
+  "source_work_folders": [
+    "source_cohort_work_mempool_remaining_fifty_20261116_unit_19_recovery_20261117"
+  ]
+}

@@ -14,6 +14,7 @@ from recorded_mempool_resume import verify_dispatch_evidence
 from recover_interrupted_remaining_unit import verify_interrupted_clock
 from recover_native_unit13 import clocks
 from recover_native_unit17 import clocks as clocks17
+from recover_legacy_unit19 import clocks as clocks19
 
 
 def verify():
@@ -55,7 +56,7 @@ def verify():
         for item in proof['original_request_markers']:
             assert sha(work / item['file']) == item['sha256']
         markers = [read(p) for p in sorted(work.glob('requests/*/*.json'))]
-        check_clock=clocks17 if fragment['unit']==17 else clocks
+        check_clock={13:clocks,17:clocks17,19:clocks19}[fragment['unit']]
         assert check_clock(markers) == read(out / 'dispatch_verification.json')
         for marker in markers:
             body = work / 'requests' / marker['source_id'] / (marker['key'] + '.json.gz')
@@ -67,16 +68,36 @@ def verify():
         q = read(successor / 'protocol.json')
         assert q['inputs']['interruption_recovery']['sha256'] == sha(out / 'interruption_recovery.json')
         fresh = [m for m in read(successor / 'request_manifest.json.gz') if not m.get('offline_reused')]
+        prefix='native_tail_' if fragment['unit']==19 else 'tail_'
         for sid, cap in q['per_source_new_page_caps'].items():
             old_endpoints = {m['endpoint_sha256'] for m in markers if m['source_id'] == sid
-                and m['key'].startswith('tail_') and m.get('http_status') == 200}
-            tails = [m for m in fresh if m['source_id'] == sid and m['key'].startswith('tail_')]
+                and m['key'].startswith(prefix) and m.get('http_status') == 200}
+            tails = [m for m in fresh if m['source_id'] == sid and m['key'].startswith(prefix)]
             assert len(tails) <= cap
             assert not old_endpoints.intersection(m['endpoint_sha256'] for m in tails)
             assert len(tails) + q['original_successful_new_pages'][sid] + q['original_unknown_page_intents'][sid] <= 50
         extra_success += proof['http200']
         extra_pages += fragment['new_native_pages']
-        extra_observations += audit['fresh_native_source_transaction_observations']
+        # The legacy successor independently replays the original union and
+        # already counts its observations. Native successors count only deltas.
+        if fragment['unit']!=19:
+            extra_observations += audit['fresh_native_source_transaction_observations']
+        else:
+            normalization=read(successor/'audit_tape_normalization.json')
+            assert normalization['original_protocol_sha256']==sha(successor/'protocol.json')
+            assert normalization['original_provider_receipt_sha256']==sha(successor/'run_receipt.json')
+            assert normalization['actual_new_provider_requests']==len(fresh)
+            assert normalization['observations_include_original_replayed_union']
+            metadata=read(successor/'request_manifest.json.gz')
+            cached=[m for m in metadata if m.get('offline_reused')]
+            pins=read(campaign.BASE/('source_cohort_work_'+successor.name)/'cached_native_seed_manifest.json')['responses']
+            assert len(cached)==len(pins)==148
+            assert normalization['verified_tape_records']==len(metadata)
+            for pin in pins:
+                source=work/'requests'/pin['source_id']/(pin['key']+'.json')
+                assert sha(source)==pin['original_marker_sha256']
+                expected=dict(read(source),offline_reused=True,reused_from_pass=fragment['scope'],original_marker_sha256=pin['original_marker_sha256'])
+                assert next(m for m in cached if (m['source_id'],m['key'])==(pin['source_id'],pin['key']))==expected
         extra_files += backup['private_files_verified']
         evidence.append(dict(scope=fragment['scope'], http200=proof['http200'],
             successful_new_native_pages=fragment['new_native_pages'], unresolved_intents=1,
@@ -121,7 +142,7 @@ def verify():
     result = campaign.CAMPAIGN / 'RESULTS.md'
     result.write_text(result.read_text().replace(
         'All completed checkpoints pass data/clock audits and are privately saved.',
-        'All saved data checkpoints pass reconstruction checks. The original full clock audits of interrupted units 12, 13 and 17 remain incomplete; their known successful dispatches pass separately and all retained unknown intents remain explicit.'))
+        'All saved data checkpoints pass reconstruction checks. The original full clock audits of interrupted units 12, 13, 17 and 19 remain incomplete; their known successful dispatches pass separately and all retained unknown intents remain explicit.'))
     print(__import__('json').dumps(report, indent=2)); return report
 
 

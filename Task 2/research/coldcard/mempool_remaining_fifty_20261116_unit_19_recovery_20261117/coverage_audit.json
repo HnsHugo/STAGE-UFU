@@ -1,0 +1,47 @@
+{
+  "available_coldcard_vectors": 1457,
+  "bounded_in_scope": 3,
+  "composed_view_sha256": "208bd41f1a916b1aa92fc9a6d62addd425e1c1b9bcc1549da2a4579f436efb75",
+  "finalized": 3,
+  "fresh_native_source_transaction_observations": 3698,
+  "funding_closure_explicitly_planned": true,
+  "model_fits": 0,
+  "new_complete_source_ids": [],
+  "new_scores": 0,
+  "pending_in_scope": 0,
+  "preserved_old_vectors": 1457,
+  "private_native_cursors_sha256": "422e4e1be548d6ca99de0b1adf26c8804163cf41e55bdd44e9093e4f5a6dd375",
+  "selected": 3,
+  "source_progress": [
+    {
+      "fresh_funding_statuses": 0,
+      "fresh_native_source_transaction_observations": 1246,
+      "new_native_pages": 50,
+      "old_transactions_retained": 800,
+      "source_id": "comparison_0091",
+      "unfinalized_prior_block_observations": 0,
+      "verified_overlap_transactions": 4
+    },
+    {
+      "fresh_funding_statuses": 0,
+      "fresh_native_source_transaction_observations": 1228,
+      "new_native_pages": 50,
+      "old_transactions_retained": 800,
+      "source_id": "comparison_0002",
+      "unfinalized_prior_block_observations": 0,
+      "verified_overlap_transactions": 22
+    },
+    {
+      "fresh_funding_statuses": 0,
+      "fresh_native_source_transaction_observations": 1224,
+      "new_native_pages": 49,
+      "old_transactions_retained": 800,
+      "source_id": "comparison_0109",
+      "unfinalized_prior_block_observations": 0,
+      "verified_overlap_transactions": 1
+    }
+  ],
+  "status": "passed",
+  "unfinalized_evidence": [],
+  "unknown_labels_cutoffs_and_current_statuses_unchanged": true
+}

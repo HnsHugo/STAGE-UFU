@@ -1,8 +1,8 @@
 {
   "automatic_schedule": false,
   "available_vectors": 1457,
-  "latest_resume": "../mempool_remaining_fifty_20261116_unit_18/resume_checkpoint.json",
-  "latest_view": "../mempool_remaining_fifty_20261116_unit_18/precutoff_feature_view.json.gz",
+  "latest_resume": "../mempool_remaining_fifty_20261116_unit_19_recovery_20261117/resume_checkpoint.json",
+  "latest_view": "../mempool_remaining_fifty_20261116_unit_19_recovery_20261117/precutoff_feature_view.json.gz",
   "missing_vectors": 43,
   "model_fits": 0,
   "new_scores": 0,
@@ -480,6 +480,39 @@
       "saved_evidence_pages": 82,
       "seed_kind": "bridge_union",
       "source_id": "comparison_0250"
+    },
+    {
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_19_recovery_20261117",
+      "finalized": true,
+      "last_native_cursor_sha256": "e1d2ce3d446c4292b7a92a9d44b4604bd4d3d7745513452e34bc21fcafdb193e",
+      "native_pages": 50,
+      "provider": "https://mempool.space/api",
+      "requires_distinct_pinned_successor": true,
+      "saved_evidence_pages": 82,
+      "seed_kind": "bridge_union",
+      "source_id": "comparison_0091"
+    },
+    {
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_19_recovery_20261117",
+      "finalized": true,
+      "last_native_cursor_sha256": "92bb4c6e23160a5069dc984f718b28deed3bdd3bd13497f49ae912526218685a",
+      "native_pages": 50,
+      "provider": "https://mempool.space/api",
+      "requires_distinct_pinned_successor": true,
+      "saved_evidence_pages": 82,
+      "seed_kind": "bridge_union",
+      "source_id": "comparison_0002"
+    },
+    {
+      "evidence_scope": "mempool_remaining_fifty_20261116_unit_19_recovery_20261117",
+      "finalized": true,
+      "last_native_cursor_sha256": "ea6e9455d3dff7cef6e04f22ea483eaf5314cbefcaf085f28a301796255b0be1",
+      "native_pages": 49,
+      "provider": "https://mempool.space/api",
+      "requires_distinct_pinned_successor": true,
+      "saved_evidence_pages": 81,
+      "seed_kind": "bridge_union",
+      "source_id": "comparison_0109"
     }
   ],
   "retained_unfinalized_bridge_evidence": [
