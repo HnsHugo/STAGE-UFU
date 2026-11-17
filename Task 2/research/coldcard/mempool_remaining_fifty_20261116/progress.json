@@ -1,5 +1,5 @@
 {
-  "active_scope": "mempool_remaining_fifty_20261116_unit_19",
+  "active_scope": "mempool_remaining_fifty_20261116_unit_19_recovery_20261117",
   "automation_enabled": false,
   "available_vectors": 1457,
   "can_continue": true,
@@ -448,6 +448,16 @@
       "recovery_scope": "mempool_remaining_fifty_20261116_unit_17_recovery_20261116",
       "scope": "mempool_remaining_fifty_20261116_unit_17",
       "unit": 17,
+      "unresolved_intents": 1
+    },
+    {
+      "http200": 153,
+      "new_native_pages": 145,
+      "observations_included_in_successor_replayed_union": true,
+      "private_evidence_saved": true,
+      "recovery_scope": "mempool_remaining_fifty_20261116_unit_19_recovery_20261117",
+      "scope": "mempool_remaining_fifty_20261116_unit_19",
+      "unit": 19,
       "unresolved_intents": 1
     }
   ],

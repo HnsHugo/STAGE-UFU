@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "mempool_remaining_fifty_20261116_unit_19",
+  "active_collection_scope": "mempool_remaining_fifty_20261116_unit_19_recovery_20261117",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -51,14 +51,14 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-11-16T23:00:22.954673+00:00",
+    "expires_at": "2026-11-17T06:33:32.573932+00:00",
     "operational_locks_released": false,
-    "owner": "mempool_remaining_fifty_20261116_unit_19",
-    "protocol": "mempool_remaining_fifty_20261116_unit_19/protocol.json",
-    "protocol_sha256": "e7e9e6151d999079ae42178d1a5a0d9513e12dfc133bf785e623f951a2e90390",
+    "owner": "mempool_remaining_fifty_20261116_unit_19_recovery_20261117",
+    "protocol": "mempool_remaining_fifty_20261116_unit_19_recovery_20261117/protocol.json",
+    "protocol_sha256": "287537e3b6d0d5e5d544bd5395aaf15596c3bf212b53645bd23edfec134d030a",
     "provider": "https://mempool.space/api",
     "purpose": "Explicit user request for all fifty remaining histories, recorded timing and durable checkpoints",
-    "started_at": "2026-11-16T21:00:22.954673+00:00",
+    "started_at": "2026-11-17T04:33:32.573932+00:00",
     "state": "running"
   },
   "comparison_pre_cutoff_predictors_available": 957,
@@ -256,7 +256,7 @@
     "scope": "source_transfer_article_supplement",
     "status": "completed_four_page_checked_supplement"
   },
-  "latest_status": "prioritized_recorded_checkpoint_verified",
+  "latest_status": "unit19_saved_evidence_recovered",
   "latest_stop_file": "source_prefix_extension_20261112_03/collection_stop.json",
   "latest_unfinalized_evidence_recovery": "mempool_recorded_priority_20261116_unit_02/unfinalized_evidence_recovery.json",
   "latest_work": "source_cohort_work_source_prefix_extension_20261112_03",
@@ -356,9 +356,9 @@
       "last_http_status": 200,
       "last_refusals": 1,
       "maximum_new_native_pages_per_source": 50,
-      "maximum_requests": 172,
+      "maximum_requests": 23,
       "minimum_dispatch_interval_seconds": 5,
-      "next_network_attempt_not_before": "2026-11-16T20:31:56.731149+00:00",
+      "next_network_attempt_not_before": "2026-11-17T04:32:55.769715+00:00",
       "no_new_probe_authorized": false,
       "operational_resolution": "Distinct pinned recorded-clock runner and passing regressions; old failure remains preserved.",
       "operational_validation_required": false,
@@ -371,7 +371,7 @@
         "source": "Explicit current user reply to the specific destination-and-identifiers authorization question.",
         "user_reply": "Oui"
       },
-      "scope": "mempool_remaining_fifty_20261116_unit_19",
+      "scope": "mempool_remaining_fifty_20261116_unit_19_recovery_20261117",
       "source_ids": [
         "comparison_0091",
         "comparison_0002",
