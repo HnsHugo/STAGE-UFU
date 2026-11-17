@@ -1,0 +1,20 @@
+{
+  "cached_response_records": 14,
+  "enforced_live_request_limit": 92,
+  "explanation": "The original protocol remains immutable. Its copied request_budget descriptor describes the preceding one-source unit. maximum_requests=92 and per_source_new_page_caps are the actual published and enforced bounds for this pair; this independent derivation reconciles the descriptive metadata.",
+  "fresh_reference_checks_at_most": 4,
+  "inherited_descriptor_is_not_the_enforced_limit": true,
+  "inherited_request_budget_descriptor": {
+    "after_anchor_statuses_at_most": 1,
+    "before_statuses_at_most": 1,
+    "funding_statuses_at_most": 1,
+    "tail_pages_at_most": 50,
+    "total_new_requests_at_most": 54
+  },
+  "maximum_audit_tape_records": 106,
+  "new_page_intents_at_most": 86,
+  "original_protocol_sha256": "1de08d061975f4a24c7cd850ac590f6d225b2664bf19b47366586a8098366a05",
+  "status": "passed",
+  "terminal_funding_checks_at_most": 2,
+  "verified_live_budget_sum": 92
+}

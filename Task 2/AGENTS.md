@@ -2,19 +2,22 @@
 
 **Latest saved checkpoint — 17 November 2026**
 
-48/50 frozen histories are processed; 1,457/1,500 feature rows are complete.
-Unit 19 was recovered, audited and privately saved without repeating successful
-pages. Unit 20 then stopped on SocketTimeoutError on its first new native page,
-after two HTTP200 responses; these are audited and privately saved too. Both
-comparison_0026 and comparison_0157 remain pending. No collector is running.
-The saved provider gate forbids new traffic before 2026-11-17T06:41:09Z and stays
-closed pending operational revalidation. Existing user permissions persist.
-Read research/coldcard/mempool_remaining_fifty_20261116/STOPPED_20261117.md and
-stopped_pair_readiness.json. Do not reopen consumed unit 20 or invoke the
-sole-deferred-source driver unchanged. Preserve the failed page intent (49 new
-page intents remain for comparison_0026) and the old unknown intent (37 remain
-for comparison_0157). Use a distinct pinned two-target successor after the gate
-is resolved. No background schedule, model, rotation or repeated saved page.
+The requested bounded pass is complete: 50/50 frozen histories processed,
+7 newly complete and 43 still bounded. Feature coverage is 1,457/1,500.
+The final pair made 90 successful requests, reusing 14 cached bodies without
+requesting them again; 49 and 37 fresh page intents preserve the original caps,
+including the earlier failed and unknown intents. Both final histories remain
+incomplete. All 1,468 final private files are verified and saved. The global
+verifier passes; 178 locks are free, lease idle, no collector or background task.
+Read research/coldcard/mempool_remaining_fifty_20261116/FINAL_20261117.md and
+progress_verification.json; latest view/resume are in the unit_21 directory.
+The full clock audits of interrupted original scopes 12, 13, 17 and 19 remain
+incomplete; successful subsets and successor clocks are verified separately.
+Preserve all old vectors, unknown labels, cutoffs, failures and remaining queues.
+Do not restart consumed scopes. Further coverage of the 43 missing rows needs a
+new distinct frozen pass; do not silently extend this completed request or fit
+a model. Existing user GitHub/Mempool permissions persist.
+
 
 **Unit-17 emergency backup recovered — 16 November 2026.**
 
