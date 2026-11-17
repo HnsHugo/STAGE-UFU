@@ -1,0 +1,25 @@
+{
+  "bytes": 13921268,
+  "current_version_number": 0,
+  "file_id": "file_00000000ad848210b08fe4e193c00e84",
+  "file_name": "coldcard-mempool_remaining_fifty_20261116_round_02_unit_13-checkpoint.tar.gz",
+  "library_file_id": "libfile_996dda683d148191a0af5f8b5547db08",
+  "library_metadata_applied": true,
+  "operational_flags_excluded": true,
+  "private": true,
+  "private_files_verified": 1399,
+  "public_repository_contains_no_raw_caches": true,
+  "required_predecessor_archive": {
+    "bytes": 2523068,
+    "file_name": "coldcard-mempool_remaining_fifty_20261116_round_02_unit_12-checkpoint.tar.gz",
+    "purpose": "Prior-layer reproduction and before/after coverage comparison; current working responses are included in this archive.",
+    "sha256": "3b0ea148d98edb088f6e414b1dc996b52f08d6f719af2bdb9cb7d473bd9d7d15"
+  },
+  "saved_privately": true,
+  "schema_version": 1,
+  "scope_protocol_sha256": "b39af0b810ee636b73a153def29375e84bd1f8f25f80f186ce3f4211812f9a40",
+  "sha256": "369415926e9ba4c81deb1c1b4007f878e9ecf55135e2bad6be060de0fde27080",
+  "source_work_folders": [
+    "source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_13"
+  ]
+}
