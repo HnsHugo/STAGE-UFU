@@ -1,0 +1,15 @@
+{
+  "collector_lease": {
+    "expires_at": "2026-11-17T18:45:47.642921+00:00",
+    "operational_locks_released": false,
+    "owner": "mempool_remaining_fifty_20261116_round_02_unit_16",
+    "protocol": "mempool_remaining_fifty_20261116_round_02_unit_16/protocol.json",
+    "protocol_sha256": "f028b59e43f8df6244041ef74fe780499cbf29b8102b24bd8d3fd2e9fad99481",
+    "provider": "https://mempool.space/api",
+    "purpose": "Explicit user request for all fifty remaining histories, recorded timing and durable checkpoints",
+    "started_at": "2026-11-17T16:45:47.642921+00:00",
+    "state": "running"
+  },
+  "scope": "mempool_remaining_fifty_20261116_round_02_unit_16",
+  "status": "awaiting_exact_published_lease_readback"
+}

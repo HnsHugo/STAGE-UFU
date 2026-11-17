@@ -1,0 +1,175 @@
+{
+  "authorization": "User explicitly requests: Fais les 50 qui reste. Persistent GitHub/Mempool permissions; all fifty missing source/reference pairs included, no model.",
+  "automation_enabled": false,
+  "baseline_vectors": 1463,
+  "blockstream_cooldown_preserved_until": "2026-11-13T18:22:14+00:00",
+  "campaign": "mempool_remaining_fifty_20261116_round_02",
+  "campaign_unit": 16,
+  "created_on": "2026-11-16",
+  "dispatch_clock_evidence": "monotonic_ns_and_utc",
+  "enforced_dispatch_spacing_seconds": 5.25,
+  "inputs": {
+    "baseline_view": {
+      "file": "../mempool_remaining_fifty_20261116_round_02_unit_15/precutoff_feature_view.json.gz",
+      "sha256": "c1e993b9e2644135376f44f674852890afb7daf4f030b716323af7049941089d"
+    },
+    "campaign_selection": {
+      "file": "../mempool_remaining_fifty_20261116_round_02/selection.json",
+      "sha256": "7b1cba54c640d21c35fb91f5229e090d2d99a93c2fc86c3a9b581b5c2d183940"
+    },
+    "identifier_authorization": {
+      "file": "../mempool_identifier_authorization_20261114.json",
+      "sha256": "8a4553b04959c51c5173e862af50fc636404f1794c05f57c7fdc19ae8fff9105"
+    },
+    "identity_registry_reconciliation": {
+      "file": "../mempool_remaining_fifty_20261116_round_02/identity_registry_reconciliation.json",
+      "sha256": "17f0901ceb7464805a7f4b6f3f1c9072af30d099ab381ad0aee776212622e8c7"
+    },
+    "mempool_remaining_fifty_20261116_unit_18_checkpoint_json_gz": {
+      "file": "../mempool_remaining_fifty_20261116_unit_18/checkpoint.json.gz",
+      "sha256": "4a81083b1960dc5a3735b39e24f587af7248fe224044fc3245e41493c1b53a2c"
+    },
+    "mempool_remaining_fifty_20261116_unit_18_private_cache_backup_json": {
+      "file": "../mempool_remaining_fifty_20261116_unit_18/private_cache_backup.json",
+      "sha256": "9740d21a0981fdea8eed2ac8e7c275b9141cf2727bd9fd7d3376c70f791dddc5"
+    },
+    "mempool_remaining_fifty_20261116_unit_18_protocol_json": {
+      "file": "../mempool_remaining_fifty_20261116_unit_18/protocol.json",
+      "sha256": "0eee33da6e33b759fa47bd22ce951610921a499317fe84f0658f215d8e6cdd50"
+    },
+    "mempool_remaining_fifty_20261116_unit_19_recovery_20261117_checkpoint_json_gz": {
+      "file": "../mempool_remaining_fifty_20261116_unit_19_recovery_20261117/checkpoint.json.gz",
+      "sha256": "7470c29fd08a8d223876e230e7884f7ed58a678242d76138d1e32ef014e871bd"
+    },
+    "mempool_remaining_fifty_20261116_unit_19_recovery_20261117_private_cache_backup_json": {
+      "file": "../mempool_remaining_fifty_20261116_unit_19_recovery_20261117/private_cache_backup.json",
+      "sha256": "9cbdba02f98b67270c7c9b4c67abf3e3c09d9ddcea8531c1e5d879e54baafe95"
+    },
+    "mempool_remaining_fifty_20261116_unit_19_recovery_20261117_protocol_json": {
+      "file": "../mempool_remaining_fifty_20261116_unit_19_recovery_20261117/protocol.json",
+      "sha256": "287537e3b6d0d5e5d544bd5395aaf15596c3bf212b53645bd23edfec134d030a"
+    },
+    "mixed_seeds": {
+      "file": "mixed_seed_manifest.json",
+      "sha256": "d9bab0fa6e1cae335ba2172b286f2f9ffad5b40e7a71f39e13aba878f08df660"
+    },
+    "native_collector": {
+      "file": "../independent_mempool_resume.py",
+      "sha256": "e8e785fdc47978a49ec64fb198834f13f35c49f3a8d5a7dd5e46b7f0d6c548b5"
+    },
+    "offline_reuse": {
+      "file": "offline_reuse_manifest.json",
+      "sha256": "33adbdb805e076a2698ff7e3b21d5e7d069cdea1de010fb4752aab43a5c1be8a"
+    },
+    "parent_private_backup": {
+      "file": "../mempool_remaining_fifty_20261116_round_02_unit_15/private_cache_backup.json",
+      "sha256": "8be70dc37ae6cf01d89c9ecdc0d0d9bec0ebc2e2654f9eac676a9129329afc10"
+    },
+    "parent_protocol": {
+      "file": "../mempool_remaining_fifty_20261116_round_02_unit_15/protocol.json",
+      "sha256": "fa7ddd53a8a5d8efe776af17b6b474acd202510d4c68b86151d1ac153e3a7ebb"
+    },
+    "parent_resume": {
+      "file": "../mempool_remaining_fifty_20261116_round_02_unit_15/resume_checkpoint.json",
+      "sha256": "6fc20c38ff9e7c48d90249b44ee1e68064dc5105292c10606d1150b6e46b1f7f"
+    },
+    "parent_verification": {
+      "file": "../mempool_remaining_fifty_20261116_round_02_unit_15/independent_verification.json",
+      "sha256": "34b61b4de822048d37b0cb914408f5388763a99e1b89df055221b47bd96c2540"
+    },
+    "prepared_campaign_state": {
+      "file": "prepared_campaign_state.json",
+      "sha256": "8d419462d883dc82cfedefcdf99a3dcdfdf33259c652abd479b88a89972598fb"
+    },
+    "priority_audit_recorded_mixed_resume_py": {
+      "file": "../audit_recorded_mixed_resume.py",
+      "sha256": "13da34447f9624f9abde740e7748cbf89cfda69f3c22888275b52dbb77e0e31c"
+    },
+    "priority_independent_mempool_native_py": {
+      "file": "../independent_mempool_native.py",
+      "sha256": "40627aa2f9f2190ce2b07b1286649ed3b5e589346bb0ebb4aed2f9f3695efbb7"
+    },
+    "priority_recorded_mixed_resume_py": {
+      "file": "../recorded_mixed_resume.py",
+      "sha256": "9cefcc2e8473688eb0f36b127c4f1683c529949ccc7415779e2adc5f06a388c6"
+    },
+    "priority_recorded_priority_campaign_py": {
+      "file": "../recorded_priority_campaign.py",
+      "sha256": "dc6d7e00f9ec7b7fc4fe8c0b66d5ce84a85e15ef749ffb1261c02e7b2333760a"
+    },
+    "priority_resume_fifty_bridge_py": {
+      "file": "../resume_fifty_bridge.py",
+      "sha256": "67c1bc1b6846d3abad8d9c55015b48b7ff3c550acc764cddce2a1b797e4bd171"
+    },
+    "recorded_dispatch_runner": {
+      "file": "../recorded_mempool_resume.py",
+      "sha256": "c090d15d3e9823d639124bb3ab8c84cf86dbbe1e1fbf66f4956ea4358c43b250"
+    },
+    "remaining_audit_planned_funding_bridge_py": {
+      "file": "../audit_planned_funding_bridge.py",
+      "sha256": "6ed09c76d299ad17fa1e7ca20f3443b11020f918fb2c3b9b370e887bbdbf28c1"
+    },
+    "remaining_planned_funding_bridge_py": {
+      "file": "../planned_funding_bridge.py",
+      "sha256": "7d23768b860df48d3af228da927ec259c06caa77a0102e2500bc194e77747b03"
+    },
+    "remaining_recorded_remaining_campaign_py": {
+      "file": "../recorded_remaining_campaign.py",
+      "sha256": "ad39d34162e8df7383454593758d03967d6fd8636fd4fa737b6b3d431a78aa1a"
+    },
+    "saved_access_evidence": {
+      "file": "../mempool_remaining_fifty_20261116_access_retry_20261117/private_cache_backup.json",
+      "sha256": "869addafe1eae996766ca2d02adfc60af849d06c1ddf78420791f8b2521b4e04"
+    },
+    "tests": {
+      "file": "../mempool_remaining_fifty_20261116_round_02/preflight_tests.json",
+      "sha256": "4ae9d05a70e2e6e8d9a586fd8c0026ba5cd89298bd2f4dadffa20f797fb6d1ca"
+    },
+    "validated_access_protocol": {
+      "file": "../mempool_remaining_fifty_20261116_access_retry_20261117/protocol.json",
+      "sha256": "cde3948a8a47b68812b6c4a21b9e86320f5ccf1ab54611b3e72960d28879db5f"
+    },
+    "validated_provider_access": {
+      "file": "../mempool_remaining_fifty_20261116_access_retry_20261117/coverage_audit.json",
+      "sha256": "58ca97b962ca20c15d40f4af20c04441e9b3d5692f01a5eac70f51e85f79236e"
+    }
+  },
+  "kind": "mixed_resume",
+  "live_policy_file": "../comparison_access_retries_20261030/retry_policy.json",
+  "max_pages_per_address": 132,
+  "maximum_new_native_pages": 50,
+  "maximum_requests": 162,
+  "minimum_dispatch_interval_seconds": 5,
+  "model_fits": 0,
+  "new_provider_page_limit": 50,
+  "new_scores": 0,
+  "offline_native_pages_reused": 0,
+  "original_timing_failure_preserved": true,
+  "parent_scope": "mempool_remaining_fifty_20261116_round_02_unit_15",
+  "pass_name": "mempool_remaining_fifty_20261116_round_02_unit_16",
+  "prepared_at": "2026-11-17T16:45:46.859770+00:00",
+  "previous_bound": 82,
+  "private_bridge_seed_index_sha256": "73c86cbff0e481c192bc0d31a1414a76e3227afdb91fe2a1e8e7873148f281f1",
+  "private_identity_registry_sha256": "69def543bc1b8c03b35bf478fb67f834de7d3aa8d2ba8072680768ddc340e29d",
+  "private_lock_manifest_sha256": "17d1242b5dca87c3d5387065ece243770e42ad86269e77ebcb525b25d7cd485a",
+  "private_parent_native_cursors_sha256": "9b462da1c8c6d47a63de209c43d9d385bfd3521396b28b8364a7110709fc2668",
+  "private_plan_sha256": "fb959aa66c34ba3ef5275c720d435897a84b77f9048e0311c198812af619d96b",
+  "private_retained_bridge_native_cursors_sha256": "91046d312cb01eb28000d3a9ff470aa3be6fcb2f720448ee6c21cd2b21a1022f",
+  "provider": "https://mempool.space/api",
+  "request_budget": {
+    "after_anchor_statuses_at_most": 3,
+    "before_statuses_at_most": 3,
+    "funding_statuses_at_most": 6,
+    "tail_pages_at_most": 150,
+    "total_new_requests_at_most": 162
+  },
+  "requests_per_second": 0.2,
+  "schema_version": 9,
+  "source_ids": [
+    "comparison_0250",
+    "comparison_0091",
+    "comparison_0002"
+  ],
+  "timeout_seconds": 45,
+  "workers": 1
+}
