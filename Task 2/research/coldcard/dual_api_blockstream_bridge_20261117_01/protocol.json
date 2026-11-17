@@ -3,8 +3,9 @@
   "baseline_view_sha256": "1404d032b953ff3e747b3273d86aebc49e27dfd09ff6ba81c12664abc85d42d2",
   "code_pins": {
     "dual_api_frontier.py": "628a70083b532f6f568276ab55c22645041de29142d9555e6d8c0df73730474e",
-    "dual_api_live_unit.py": "75cbdf22dfeb27de1902ef7ced4e4dfabf75a892130b0922a77cdf890291be91",
-    "journaled_esplora.py": "0ff49aa94294a65e7a6c1c5876a24abdd00fd7ec2d2a3d6f6e48f65cc9326c5c"
+    "dual_api_live_unit.py": "320563a8b5c6bb12449df8bf45bb3511d0778170452e781c39bf5b7063aed4f5",
+    "journaled_esplora.py": "0ff49aa94294a65e7a6c1c5876a24abdd00fd7ec2d2a3d6f6e48f65cc9326c5c",
+    "provider_backoff.py": "2486cc06485a60e34df7b20962f45aa116aee9443f10cda04a45fd2fda54ee3b"
   },
   "locks_sha256": "25ffd0a712701236b2cfb308e98a3fd5a7fb6432898ec95c2f1b7aa3781129ae",
   "maximum_new_native_pages": 50,
@@ -12,6 +13,7 @@
   "original_successful_unfinished_pages_reused": 14,
   "parent_scope": "mempool_remaining_fifty_20261116_round_02_unit_16",
   "plan_sha256": "ccbc4284e3a0dca803bbc9145cc27d04245634730d4acecc1761098bd41ba85f",
+  "prepared_revision": 2,
   "provider": "https://blockstream.info/api",
   "scope": "dual_api_blockstream_bridge_20261117_01",
   "seed_origin_sha256": "588cca628ed3293a2aa57486eada34d6e2ea4243ac8c5c0b1f037813edb3fd78",

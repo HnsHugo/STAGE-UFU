@@ -111,11 +111,13 @@ def run(commit):
             new_transactions=snapshot['new_transactions'],verified_overlap=snapshot['verified_overlap'],new_complete=int(features is not None),
             available_vectors=sum(r['features']is not None for r in view['rows']),original_unfinished_pages_reused=14,
             independent_journal_replay='passed',operational_locks_released=True,published_commit=commit)
-        write(OUT/'run_receipt.json',receipt);write(OUT/'audit.json',dict(status='passed',**receipt,private_frontier_sha256=sha(WORK/'verified_frontier.json.gz')))
+        write(OUT/'run_receipt.json',receipt);write(OUT/'audit.json',dict(**receipt,verification_status='passed',private_frontier_sha256=sha(WORK/'verified_frontier.json.gz')))
         p=read(POLICY);assert p['collector_lease']==lease;p['collector_lease'].update(state='idle',owner=None,last_owner=SCOPE,expires_at=None,finished_at=datetime.now(timezone.utc).isoformat(),operational_locks_released=True);p['active_collection_scope']='none'
         if error:
             failed=next(m for m in markers if m.get('http_status')!=200);g=p['provider_access_policies'][q['provider']]
-            g.update(last_http_status=failed.get('http_status'),status='access_denied'if failed.get('http_status')==403 else'cooldown',no_new_probe_authorized=True,next_network_attempt_not_before=(datetime.now(timezone.utc)+timedelta(hours=2)).isoformat())
+            from provider_backoff import deadline
+            due,delay=deadline(failed,g)
+            g.update(last_retry_delay_seconds=delay,last_http_status=failed.get('http_status'),status='access_denied'if failed.get('http_status')==403 else'cooldown',no_new_probe_authorized=True,next_network_attempt_not_before=due)
         write(POLICY,p)
     return receipt
 if __name__=='__main__':print(json.dumps(prepare()if sys.argv[1]=='prepare'else run(sys.argv[2])))
