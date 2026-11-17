@@ -1,0 +1,3 @@
+# Saved native continuation after tunnel failure
+
+Nine HTTP200 responses: one reference status and eight native pages, 200 additional address-transaction observations, zero overlap. A tenth request stopped with ClientHttpProxyError; provider HTTP status/outcome is unknown and remains explicit. No in-scope retry or saved-page replay. Independent journal/body/endpoint replay passes. All 29 private files verified and durably saved. Coverage remains 1,463/1,500, no feature promotion. Latest native cursor is in verified_frontier.json.gz. Preserve the unknown intent and provider cooldown; a new independently eligible provider requires a distinct validated overlap scope.
