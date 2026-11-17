@@ -1,0 +1,52 @@
+{
+  "available_coldcard_vectors": 1460,
+  "bounded_in_scope": 3,
+  "composed_view_sha256": "0a7b412d4b439ae4310d79eb77f7bc1bf744f68982969efbb33c0e5faddfc1f0",
+  "failed_request_records": 0,
+  "finalized": 3,
+  "fresh_native_source_transaction_observations": 3750,
+  "model_fits": 0,
+  "new_complete_prefixes": 0,
+  "new_complete_source_ids": [],
+  "new_scores": 0,
+  "pending_in_scope": 0,
+  "preserved_old_vectors": 1460,
+  "private_native_cursors_sha256": "6c4d2e59319c426132239c0f1a892fbcd5d7ab34b95fbca3d1db70633ba60a18",
+  "selected": 3,
+  "source_progress": [
+    {
+      "fresh_native_source_transaction_observations": 1250,
+      "last_native_cursor_sha256": "e204510bc144606954911ab05b6df4729f0fd1c896f526df4481cbc49e89c1c7",
+      "new_native_pages": 50,
+      "old_transactions_retained": 1789,
+      "retained_prior_block_observations": 1788,
+      "saved_evidence_pages": 132,
+      "saved_native_pages": 100,
+      "source_id": "comparison_0275"
+    },
+    {
+      "fresh_native_source_transaction_observations": 1250,
+      "last_native_cursor_sha256": "bef3993de56182637b11bea5cb4e046bac94b636960110c69766fd01829d1ae5",
+      "new_native_pages": 50,
+      "old_transactions_retained": 2036,
+      "retained_prior_block_observations": 2035,
+      "saved_evidence_pages": 132,
+      "saved_native_pages": 100,
+      "source_id": "comparison_0086"
+    },
+    {
+      "fresh_native_source_transaction_observations": 1250,
+      "last_native_cursor_sha256": "98784a3d8bde8f74a7f3040c9ce22e02b993737b7ce12509b121d8fb3dd5751c",
+      "new_native_pages": 50,
+      "old_transactions_retained": 2037,
+      "retained_prior_block_observations": 2034,
+      "saved_evidence_pages": 132,
+      "saved_native_pages": 100,
+      "source_id": "comparison_0126"
+    }
+  ],
+  "status": "passed",
+  "successful_fresh_requests": 156,
+  "unknown_labels_cutoffs_and_current_statuses_unchanged": true,
+  "verification_basis": "Pinned mixed seeds; actual-native endpoint replay; unchanged saved union; exhausted funding closure; separate feature recount; old-row and recorded-clock invariants"
+}
