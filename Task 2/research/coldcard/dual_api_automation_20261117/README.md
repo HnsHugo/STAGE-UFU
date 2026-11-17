@@ -14,4 +14,6 @@ Freeze a fresh scope for every unit. One worker, 5.25-second recorded UTC/monoto
 
 Disable the single automation only after all 1,500 complete vectors are independently audited and durably saved and the final commit is read back. Notify Hugo only for actual progress, completion or a blocker requiring action. Scheduled execution is best effort, not a guaranteed continuously running service.
 
-Setup validation: python3 -m unittest test_dual_api_frontier test_independent_mempool_bridge test_fifty_bridge test_recorded_mempool_resume — 22 passing tests. No provider requests during setup.
+Setup validation: python3 -m unittest test_journaled_esplora test_dual_api_frontier test_independent_mempool_bridge test_fifty_bridge test_recorded_mempool_resume — 25 passing tests. No provider requests during setup.
+
+The journaled transport ../journaled_esplora.py now supports both explicitly allowed API origins with inherited proxy/verified TLS, no redirects or retries, 45-second TOTAL deadline, intent/body hashing, independent status/Retry-After retention and lease checks. Transport and bridge callbacks pass 25 offline tests. A live end-to-end bridge and feature-view/saving integration are still required before claiming automatic failover production readiness.

@@ -24,6 +24,6 @@
   "stop_only_when": "1500 complete feature vectors independently verified, all private evidence durably saved, final public commit verified; then disable this automation",
   "target_complete_vectors": 1500,
   "timeout_seconds": 45,
-  "transport_integration_status": "provider-neutral bridge contract tested; adapter and full checkpoint integration must be validated before first automatic provider switch",
+  "transport_integration_status": "Both-provider journaled transport and bridge tested offline (25 tests); live end-to-end bridge, feature closure/audit/save integration pending",
   "workers": 1
 }
