@@ -1,0 +1,284 @@
+{
+  "active_scope": "mempool_remaining_fifty_20261116_round_02_unit_09",
+  "automation_enabled": false,
+  "available_vectors": 1463,
+  "can_continue": true,
+  "completed_units": [
+    {
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0254",
+        "comparison_0292",
+        "comparison_0298"
+      ],
+      "fresh_requests": 17,
+      "http200": 17,
+      "new_complete_source_ids": [
+        "comparison_0292",
+        "comparison_0298",
+        "comparison_0254"
+      ],
+      "new_prior_block_observations": 145,
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "b93015041d2c408055dcc18bccb50c85029f5e65cee3f812c5be507bdf98d1f9",
+      "scope": "mempool_remaining_fifty_20261116_round_02_unit_01",
+      "source_ids": [
+        "comparison_0292",
+        "comparison_0298",
+        "comparison_0254"
+      ],
+      "unit": 1
+    },
+    {
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0086",
+        "comparison_0126",
+        "comparison_0275"
+      ],
+      "fresh_requests": 156,
+      "http200": 156,
+      "new_complete_source_ids": [],
+      "new_prior_block_observations": 3750,
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "57fef186e615ceb89047a9102e498211b23bbdb7ab291bad61d14b655320cd7b",
+      "scope": "mempool_remaining_fifty_20261116_round_02_unit_02",
+      "source_ids": [
+        "comparison_0275",
+        "comparison_0086",
+        "comparison_0126"
+      ],
+      "unit": 2
+    },
+    {
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0018",
+        "comparison_0255",
+        "comparison_0315"
+      ],
+      "fresh_requests": 156,
+      "http200": 156,
+      "new_complete_source_ids": [],
+      "new_prior_block_observations": 3750,
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "09fb34ebb5e6e28f35a31f98aa8eb24a0b29a0f431933884c29ce9408a141f07",
+      "scope": "mempool_remaining_fifty_20261116_round_02_unit_03",
+      "source_ids": [
+        "comparison_0018",
+        "comparison_0255",
+        "comparison_0315"
+      ],
+      "unit": 3
+    },
+    {
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0713",
+        "comparison_0826",
+        "comparison_0851"
+      ],
+      "fresh_requests": 102,
+      "http200": 102,
+      "new_complete_source_ids": [
+        "comparison_0713",
+        "comparison_0826",
+        "comparison_0851"
+      ],
+      "new_prior_block_observations": 2286,
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "a57f3521c5febef9fe55b31440c80a6fd3c03c985dab8bab94038c3db48dd0a9",
+      "scope": "mempool_remaining_fifty_20261116_round_02_unit_04",
+      "source_ids": [
+        "comparison_0851",
+        "comparison_0826",
+        "comparison_0713"
+      ],
+      "unit": 4
+    },
+    {
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0680",
+        "comparison_0800",
+        "comparison_0853"
+      ],
+      "fresh_requests": 156,
+      "http200": 156,
+      "new_complete_source_ids": [],
+      "new_prior_block_observations": 3750,
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "5eb9160725d1bed742a70eb2ab99ca8e0f1970681f48bb4000ab22d87df369d4",
+      "scope": "mempool_remaining_fifty_20261116_round_02_unit_05",
+      "source_ids": [
+        "comparison_0853",
+        "comparison_0680",
+        "comparison_0800"
+      ],
+      "unit": 5
+    },
+    {
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0907",
+        "comparison_0912",
+        "comparison_0966"
+      ],
+      "fresh_requests": 156,
+      "http200": 156,
+      "new_complete_source_ids": [],
+      "new_prior_block_observations": 3750,
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "959b75527c6dea296b41adff230a57b3dfcdc22a928450ca81d48c0ff5adf2a5",
+      "scope": "mempool_remaining_fifty_20261116_round_02_unit_06",
+      "source_ids": [
+        "comparison_0912",
+        "comparison_0907",
+        "comparison_0966"
+      ],
+      "unit": 6
+    },
+    {
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0008",
+        "comparison_0108",
+        "comparison_0268"
+      ],
+      "fresh_requests": 156,
+      "http200": 156,
+      "new_complete_source_ids": [],
+      "new_prior_block_observations": 3750,
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "4efe7a6a0dee2dd47d86f3c56da4b8ab952bde68180abba8c059e2690609b543",
+      "scope": "mempool_remaining_fifty_20261116_round_02_unit_07",
+      "source_ids": [
+        "comparison_0008",
+        "comparison_0108",
+        "comparison_0268"
+      ],
+      "unit": 7
+    },
+    {
+      "failures": 0,
+      "finalized_source_ids": [
+        "comparison_0176",
+        "comparison_0230"
+      ],
+      "fresh_requests": 104,
+      "http200": 104,
+      "new_complete_source_ids": [],
+      "new_prior_block_observations": 2500,
+      "private_evidence_saved": true,
+      "private_evidence_sha256": "ab96e440d7933c1a1f057ab2d970398302bf72dc8622bcaffa7550dcecdb14e1",
+      "scope": "mempool_remaining_fifty_20261116_round_02_unit_08",
+      "source_ids": [
+        "comparison_0230",
+        "comparison_0176"
+      ],
+      "unit": 8
+    }
+  ],
+  "finalized_source_ids": [
+    "comparison_0292",
+    "comparison_0298",
+    "comparison_0254",
+    "comparison_0275",
+    "comparison_0086",
+    "comparison_0126",
+    "comparison_0018",
+    "comparison_0255",
+    "comparison_0315",
+    "comparison_0851",
+    "comparison_0826",
+    "comparison_0713",
+    "comparison_0853",
+    "comparison_0680",
+    "comparison_0800",
+    "comparison_0912",
+    "comparison_0907",
+    "comparison_0966",
+    "comparison_0008",
+    "comparison_0108",
+    "comparison_0268",
+    "comparison_0230",
+    "comparison_0176"
+  ],
+  "new_complete_source_ids": [
+    "comparison_0292",
+    "comparison_0298",
+    "comparison_0254",
+    "comparison_0713",
+    "comparison_0826",
+    "comparison_0851"
+  ],
+  "next_unit": 9,
+  "pending_source_ids": [
+    "comparison_0892",
+    "comparison_0973",
+    "comparison_0995",
+    "comparison_0287",
+    "comparison_0088",
+    "comparison_0052",
+    "comparison_0351",
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0622",
+    "comparison_0283",
+    "comparison_0045",
+    "comparison_0024",
+    "comparison_0250",
+    "comparison_0091",
+    "comparison_0002",
+    "comparison_0109",
+    "comparison_0026",
+    "comparison_0522",
+    "comparison_0157"
+  ],
+  "source_ids": [
+    "comparison_0292",
+    "comparison_0298",
+    "comparison_0254",
+    "comparison_0275",
+    "comparison_0086",
+    "comparison_0126",
+    "comparison_0018",
+    "comparison_0255",
+    "comparison_0315",
+    "comparison_0851",
+    "comparison_0826",
+    "comparison_0713",
+    "comparison_0853",
+    "comparison_0680",
+    "comparison_0800",
+    "comparison_0912",
+    "comparison_0907",
+    "comparison_0966",
+    "comparison_0008",
+    "comparison_0108",
+    "comparison_0268",
+    "comparison_0230",
+    "comparison_0176",
+    "comparison_0892",
+    "comparison_0973",
+    "comparison_0995",
+    "comparison_0287",
+    "comparison_0088",
+    "comparison_0052",
+    "comparison_0351",
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0622",
+    "comparison_0283",
+    "comparison_0045",
+    "comparison_0024",
+    "comparison_0250",
+    "comparison_0091",
+    "comparison_0002",
+    "comparison_0109",
+    "comparison_0026",
+    "comparison_0522",
+    "comparison_0157"
+  ],
+  "status": "prepared_unit"
+}
