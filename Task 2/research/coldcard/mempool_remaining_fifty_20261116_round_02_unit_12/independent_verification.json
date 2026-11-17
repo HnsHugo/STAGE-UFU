@@ -1,0 +1,32 @@
+{
+  "available_coldcard_vectors": 1463,
+  "bounded_in_scope": 1,
+  "composed_view_sha256": "e203c1cb7e1ab0773a338295ab3930b32a7c6bd3177fc92de30178f2c95ae521",
+  "failed_request_records": 0,
+  "finalized": 1,
+  "fresh_native_source_transaction_observations": 1250,
+  "model_fits": 0,
+  "new_complete_prefixes": 0,
+  "new_complete_source_ids": [],
+  "new_scores": 0,
+  "pending_in_scope": 0,
+  "preserved_old_vectors": 1463,
+  "private_native_cursors_sha256": "8dd5ee0166a4f8462acbefbe4d97607a6f394a90be88f5c33d99e4298c27ef3d",
+  "selected": 1,
+  "source_progress": [
+    {
+      "fresh_native_source_transaction_observations": 1250,
+      "last_native_cursor_sha256": "283cf7c48542aee251dac0838470e077ff0e0b61e1e515b233224069282d259b",
+      "new_native_pages": 50,
+      "old_transactions_retained": 2494,
+      "retained_prior_block_observations": 2493,
+      "saved_evidence_pages": 150,
+      "saved_native_pages": 133,
+      "source_id": "comparison_0351"
+    }
+  ],
+  "status": "passed",
+  "successful_fresh_requests": 52,
+  "unknown_labels_cutoffs_and_current_statuses_unchanged": true,
+  "verification_basis": "Pinned mixed seeds; actual-native endpoint replay; unchanged saved union; exhausted funding closure; separate feature recount; old-row and recorded-clock invariants"
+}
