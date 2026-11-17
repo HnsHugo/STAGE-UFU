@@ -1,5 +1,21 @@
 # Task 2 alignment — 27 October 2026
 
+**Latest saved checkpoint — 17 November 2026**
+
+48/50 frozen histories are processed; 1,457/1,500 feature rows are complete.
+Unit 19 was recovered, audited and privately saved without repeating successful
+pages. Unit 20 then stopped on SocketTimeoutError on its first new native page,
+after two HTTP200 responses; these are audited and privately saved too. Both
+comparison_0026 and comparison_0157 remain pending. No collector is running.
+The saved provider gate forbids new traffic before 2026-11-17T06:41:09Z and stays
+closed pending operational revalidation. Existing user permissions persist.
+Read research/coldcard/mempool_remaining_fifty_20261116/STOPPED_20261117.md and
+stopped_pair_readiness.json. Do not reopen consumed unit 20 or invoke the
+sole-deferred-source driver unchanged. Preserve the failed page intent (49 new
+page intents remain for comparison_0026) and the old unknown intent (37 remain
+for comparison_0157). Use a distinct pinned two-target successor after the gate
+is resolved. No background schedule, model, rotation or repeated saved page.
+
 **User requests all fifty remaining rows — 16 November 2026**
 
 The current request is "Fais les 50 qui reste". The distinct frozen campaign is

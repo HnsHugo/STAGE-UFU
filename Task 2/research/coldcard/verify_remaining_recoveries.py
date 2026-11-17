@@ -1,6 +1,6 @@
 """Verify the fifty-row campaign while retaining interrupted evidence separately.
 
-The original full-scope clock audits remain incomplete for units 12, 13 and 17.
+The original full-scope clock audits remain incomplete for units 12, 13, 17 and 19.
 Their known successful responses and every unknown intent are counted explicitly.
 """
 from contextlib import redirect_stdout

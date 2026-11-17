@@ -1,0 +1,50 @@
+{
+  "automation_enabled": false,
+  "collector_requirements": [
+    "Reuse every cached boundary/page; fresh reference checks and terminal funding closure retain their original budgets.",
+    "A successor can replay 49 native pages for each row: 49 new for comparison_0026, 12 cached plus 37 new for comparison_0157.",
+    "Keep cached tape records separate from live provider request receipts. Count each original failed/unknown intent against its own original 50-attempt cap.",
+    "Do not call deferred_seeded_bridge.py prepare unchanged: its sole-pending-source precondition is no longer satisfied.",
+    "Freeze an explicit two-target supplemental selection without modifying the original selection, and extend global verification for that exact selection.",
+    "Do not reopen original unit 20, skip comparison_0026, weaken the strict crossed-boundary validator, or double-count replayed union observations."
+  ],
+  "model_fits": 0,
+  "network_authorized": false,
+  "new_scores": 0,
+  "next_action": "After the saved cooldown, use a distinct pinned successor for BOTH pending targets, fresh locks and exact published lease; preserve original stopped scopes.",
+  "next_network_attempt_not_before": "2026-11-17T06:41:09.435366+00:00",
+  "original_selection_sha256": "01f9d78a73b775da7886dfd2dee03ba16eee9307363e29d624f3a17247717126",
+  "original_target_set_unchanged": true,
+  "pending_source_ids": [
+    "comparison_0157",
+    "comparison_0026"
+  ],
+  "provider_requests": 0,
+  "status": "offline_seeds_verified_network_paused",
+  "targets": [
+    {
+      "cached_bridge_responses": 1,
+      "cached_native_pages": 0,
+      "effective_native_replay_page_cap": 49,
+      "failed_original_page_intents": 1,
+      "legacy_pages": 32,
+      "maximum_new_page_intents": 49,
+      "origin_scope": "mempool_remaining_fifty_20261116_unit_20",
+      "original_bridge_marker_sha256": "86c765927e6bf2c62299f358b7bce0fb2cd4b9ec94e63b0011d37b1be34aebd0",
+      "original_failure_marker_sha256": "de64d9e7e9ee23bbde1efc672ce83b5af0e1fa40db3664c310287b5b64688e98",
+      "source_id": "comparison_0026"
+    },
+    {
+      "cached_bridge_responses": 13,
+      "cached_native_pages": 12,
+      "effective_native_replay_page_cap": 49,
+      "legacy_pages": 576,
+      "maximum_new_page_intents": 37,
+      "origin_scope": "mempool_remaining_fifty_20261116_unit_12",
+      "original_unfinished_raw_sha256": "582ed562d8a839f40296b92a2fcb728d0ec5f0d7816ef5c825ad6401392bc4f8",
+      "original_unknown_marker_sha256": "06235b4b188820bb0063afe5cdcc5dc353f720d3b66df8999a6919458838bb67",
+      "source_id": "comparison_0157",
+      "unknown_original_page_intents": 1
+    }
+  ]
+}

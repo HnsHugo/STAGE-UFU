@@ -1,0 +1,30 @@
+{
+  "attempted": 0,
+  "bounded_incomplete": 0,
+  "complete_prior_prefix": 0,
+  "failed_requests": [
+    {
+      "dispatch_at": "2026-11-17T04:39:57.818390+00:00",
+      "dispatch_clock_evidence": {
+        "enforced_minimum_seconds": 5.25,
+        "monotonic_ns": 804336402560,
+        "sequence": 3,
+        "session_id": "928041c235f84f53b916ccbf3f713e9f",
+        "wall_at": "2026-11-17T04:39:57.818390+00:00"
+      },
+      "dispatch_not_attempted": false,
+      "endpoint_sha256": "d124df08329efeb94629c1f265197b22ccfb0f5748d7a9e42335c200e328a5ca",
+      "error_type": "SocketTimeoutError",
+      "finished_at": "2026-11-17T04:40:42.868041+00:00",
+      "key": "native_tail_0000",
+      "provider": "https://mempool.space/api",
+      "source_id": "comparison_0026",
+      "started_at": "2026-11-17T04:39:52.653353+00:00"
+    }
+  ],
+  "full_history_status_not_promoted": true,
+  "pending": 1,
+  "requests_started": 3,
+  "selected": 1,
+  "training_performed": false
+}
