@@ -1,0 +1,25 @@
+{
+  "bytes": 21421,
+  "current_version_number": 0,
+  "file_id": "file_00000000212481f4887dfa778e39e501",
+  "file_name": "coldcard-access-revalidated-20261117.tar.gz",
+  "library_file_id": "libfile_53db19b079ac8191b2a3b6ce2154c16d",
+  "library_metadata_applied": true,
+  "operational_flags_excluded": true,
+  "private": true,
+  "private_files_verified": 10,
+  "public_repository_contains_no_raw_caches": true,
+  "required_predecessor_archive": {
+    "bytes": 198926,
+    "file_name": "coldcard-unit20-stopped-preserved-20261117.tar.gz",
+    "purpose": "Prior-layer reproduction and before/after coverage comparison; current working responses are included in this archive.",
+    "sha256": "579464ecc63d469ff6cb3c4bfa729d0cc9b3244566cd60a3701cd0a29f63ff3b"
+  },
+  "saved_privately": true,
+  "schema_version": 1,
+  "scope_protocol_sha256": "cde3948a8a47b68812b6c4a21b9e86320f5ccf1ab54611b3e72960d28879db5f",
+  "sha256": "545a01da7fdbfcca84f0539c3544771678866d21c7f70d0b7696159f477a832c",
+  "source_work_folders": [
+    "source_cohort_work_mempool_remaining_fifty_20261116_access_retry_20261117"
+  ]
+}
