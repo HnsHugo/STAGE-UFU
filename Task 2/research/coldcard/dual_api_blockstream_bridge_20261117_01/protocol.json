@@ -1,0 +1,81 @@
+{
+  "baseline_vectors": 1463,
+  "baseline_view_sha256": "1404d032b953ff3e747b3273d86aebc49e27dfd09ff6ba81c12664abc85d42d2",
+  "code_pins": {
+    "dual_api_frontier.py": "628a70083b532f6f568276ab55c22645041de29142d9555e6d8c0df73730474e",
+    "dual_api_live_unit.py": "75cbdf22dfeb27de1902ef7ced4e4dfabf75a892130b0922a77cdf890291be91",
+    "journaled_esplora.py": "0ff49aa94294a65e7a6c1c5876a24abdd00fd7ec2d2a3d6f6e48f65cc9326c5c"
+  },
+  "locks_sha256": "25ffd0a712701236b2cfb308e98a3fd5a7fb6432898ec95c2f1b7aa3781129ae",
+  "maximum_new_native_pages": 50,
+  "maximum_requests": 54,
+  "original_successful_unfinished_pages_reused": 14,
+  "parent_scope": "mempool_remaining_fifty_20261116_round_02_unit_16",
+  "plan_sha256": "ccbc4284e3a0dca803bbc9145cc27d04245634730d4acecc1761098bd41ba85f",
+  "provider": "https://blockstream.info/api",
+  "scope": "dual_api_blockstream_bridge_20261117_01",
+  "seed_origin_sha256": "588cca628ed3293a2aa57486eada34d6e2ea4243ac8c5c0b1f037813edb3fd78",
+  "seed_sha256": "5212280a0160bc867ac5cfa585562fb199d28432b342f8308c3f813eb58f7a8d",
+  "source_ids": [
+    "comparison_0250"
+  ],
+  "source_pins": [
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_16/requests/comparison_0250/extension_0000.json.gz",
+      "sha256": "85da4a52a4707f555cae784574a1c8e3bf0f8afcb87575fa6971699f16523487"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_16/requests/comparison_0250/extension_0001.json.gz",
+      "sha256": "f76ba7e0bc07359901150818cea781086e6228855f60744e44ffea2cb0f69daf"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_16/requests/comparison_0250/extension_0002.json.gz",
+      "sha256": "9cd856d61503b084a09df291c101bfea01887372326861a28c0a4004c8d1c41d"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_16/requests/comparison_0250/extension_0003.json.gz",
+      "sha256": "fc1dddda5d3019d9edc70052cbac05aef7e18a9803ee2344633a0a2d77e470b3"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_16/requests/comparison_0250/extension_0004.json.gz",
+      "sha256": "6dc2b3e91fec73af9ee200deaedd2bedc6b3dbc0e95b896a39a58d359ebbfbd1"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_16/requests/comparison_0250/extension_0005.json.gz",
+      "sha256": "0c7c1c6df6fcf585cc576919dcff74401da5f2fa6c9e1c8648bacd0aa07eddac"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_16/requests/comparison_0250/extension_0006.json.gz",
+      "sha256": "36cf6c21616f472b1b7662ea1222796737133856245684d911640043e76740ed"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_16/requests/comparison_0250/extension_0007.json.gz",
+      "sha256": "79f7384dae981dbc249556cf633b1d1b414b3b0468c5ca87e97397536eab6f78"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_16/requests/comparison_0250/extension_0008.json.gz",
+      "sha256": "5beb27096b6edd25ba3ec10aea2a7a02dfe624e48a408d090f42dce47880a17b"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_16/requests/comparison_0250/extension_0009.json.gz",
+      "sha256": "4c28c09690a050a7b5406277574fb0dbac956290c8a223eee3a0faf4c861d979"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_16/requests/comparison_0250/extension_0010.json.gz",
+      "sha256": "d3b2c4f225da9844393f3d80a8162d2ebd175ad9328fd66969ef2097aa51d27f"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_16/requests/comparison_0250/extension_0011.json.gz",
+      "sha256": "e3b1daaa14d80f5cb43c69173a2b37ae366dafb22bb614b0cb2be80ac4dc66ce"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_16/requests/comparison_0250/extension_0012.json.gz",
+      "sha256": "8ad9f0755180ac7ef996de3a3b86db855e99a2a30cf4ba38d22b3263b6c12f29"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_16/requests/comparison_0250/extension_0013.json.gz",
+      "sha256": "721e2cec33282996bc23408c476e0e211e8358c619e7497414511aba4db714e9"
+    }
+  ],
+  "unit_kind": "explicitly_authorized_reverse_bridge"
+}
