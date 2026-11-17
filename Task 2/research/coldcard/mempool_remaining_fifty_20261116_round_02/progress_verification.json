@@ -2,9 +2,9 @@
   "automation_enabled": false,
   "available_vectors": 1463,
   "failed_intents": 0,
-  "finalized_histories": 18,
-  "http200": 743,
-  "latest_scope": "mempool_remaining_fifty_20261116_round_02_unit_06",
+  "finalized_histories": 21,
+  "http200": 899,
+  "latest_scope": "mempool_remaining_fifty_20261116_round_02_unit_07",
   "lease_idle": true,
   "missing_vectors": 37,
   "model_fits": 0,
@@ -17,17 +17,17 @@
     "comparison_0826",
     "comparison_0851"
   ],
-  "new_finalized_prior_block_observations": 17431,
+  "new_finalized_prior_block_observations": 21181,
   "new_scores": 0,
   "observation_count_is_not_globally_unique_transactions": true,
   "old_failures_unknown_labels_cutoffs_and_unselected_queues_preserved": true,
-  "operational_locks_checked_free": 186,
+  "operational_locks_checked_free": 187,
   "original_vectors_preserved": 1457,
-  "pending_histories": 25,
-  "private_data_unit_files_saved": 7204,
+  "pending_histories": 22,
+  "private_data_unit_files_saved": 7535,
   "requested_histories": 43,
   "status": "passed",
-  "successful_new_native_pages": 706,
+  "successful_new_native_pages": 856,
   "units": [
     {
       "failures": 0,
@@ -78,6 +78,13 @@
       "http200": 156,
       "new_complete": [],
       "scope": "mempool_remaining_fifty_20261116_round_02_unit_06"
+    },
+    {
+      "failures": 0,
+      "finalized": 3,
+      "http200": 156,
+      "new_complete": [],
+      "scope": "mempool_remaining_fifty_20261116_round_02_unit_07"
     }
   ]
 }
