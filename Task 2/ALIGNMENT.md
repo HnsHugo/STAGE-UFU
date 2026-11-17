@@ -1,3 +1,15 @@
+**Current user authorization — 17 November 2026: automatic recovery to 1,500.**
+Hugo now explicitly authorizes hourly relaunches and alternation between the public
+Mempool and Blockstream APIs, respecting their independent access gates/backoffs.
+This supersedes earlier prohibitions on schedules and provider switches for new
+scopes only. Read research/coldcard/dual_api_automation_20261117/README.md and
+policy.json first. One global worker/lease plus all historical OS locks; no double
+work, no consumed-scope restart, no missing-cache refetch. Save successful evidence
+immediately after interruption. Provider-neutral bridge logic is offline tested;
+live reverse transport/checkpoint integration must be verified before switching.
+Target is ALL 1,500 independently verified and saved complete feature vectors,
+not 1,483 and not capped rows. Preserve all old labels/cutoffs/failures and models.
+
 # Task 2 alignment — 27 October 2026
 
 **Latest saved checkpoint — 17 November 2026**
