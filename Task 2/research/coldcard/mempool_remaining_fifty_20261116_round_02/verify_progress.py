@@ -19,7 +19,7 @@ def verify():
     assert state['active_scope']is None
     original=BASE/selection['original_parent'];baseline=read(original/'precutoff_feature_view.json.gz')
     before={r['source_id']:r for r in baseline['rows']};assert sum(r['features']is not None for r in before.values())==1457
-    previous=original.name;done=[];new=[];requests=errors=observations=files=pages=0;locks=set();ledger=[]
+    previous=original.name;done=[];new=[];requests=errors=observations=files=pages=unfinalized_observations=0;locks=set();ledger=[]
     locks.update(read(BASE/('source_cohort_work_'+original.name)/'historical_locks.json'))
     locks.update(str(w/'collector.lock')for w in BASE.glob('source_cohort_work_*'))
     for number,unit in enumerate(state['completed_units'],1):
@@ -55,6 +55,7 @@ def verify():
             if e['features']is not None:new.append(sid)
         assert audit['available_coldcard_vectors']==1457+len(new)
         requests+=receipt['http200'];errors+=receipt['failures'];observations+=audit['fresh_native_source_transaction_observations']
+        unfinalized_observations+=sum(r['fresh_native_source_transaction_observations']for r in audit.get('source_progress',[])if r['source_id']not in cp['entries'])
         files+=backup['private_files_verified'];locks.update(read(work/'historical_locks.json'));locks.add(str(work/'collector.lock'))
         assert not(work/'lease_published').exists()
         ledger.append(dict(scope=out.name,finalized=len(cp['entries']),new_complete=audit['new_complete_source_ids'],http200=receipt['http200'],failures=receipt['failures']))
@@ -80,7 +81,10 @@ def verify():
     report=dict(status='passed',requested_histories=43,finalized_histories=len(done),pending_histories=len(state['pending_source_ids']),
         new_complete_prefixes=len(new),new_complete_source_ids=new,available_vectors=available,missing_vectors=1500-available,
         original_vectors_preserved=1457,http200=requests,failed_intents=errors,successful_new_native_pages=pages,
-        new_finalized_prior_block_observations=observations,observation_count_is_not_globally_unique_transactions=True,
+        new_prior_block_observations=observations,
+        new_finalized_prior_block_observations=observations-unfinalized_observations,
+        retained_unfinalized_prior_block_observations=unfinalized_observations,
+        observation_count_is_not_globally_unique_transactions=True,
         private_data_unit_files_saved=files,operational_locks_checked_free=len(locks),units=ledger,
         old_failures_unknown_labels_cutoffs_and_unselected_queues_preserved=True,lease_idle=True,
         automation_enabled=False,model_fits=0,new_scores=0,latest_scope=previous)
