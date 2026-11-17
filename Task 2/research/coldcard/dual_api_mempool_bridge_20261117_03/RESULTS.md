@@ -1,0 +1,3 @@
+# Verified saved Blockstream-to-Mempool switch
+
+53/53 HTTP200, 50 pages, 1245 additional address-transaction observations and five immutable-equal overlaps not double-counted. No saved native page replay. The previous complete frontier, eight successful Blockstream pages and its unknown tunnel-error intent remain preserved. Journal/body/endpoint replay passes and reference anchors match. All 116 private files verified and durably saved. Coverage remains 1463/1500, zero feature promotion. Continue from the actual Mempool-native cursor in verified_frontier.json.gz in a fresh parametrized native scope.
