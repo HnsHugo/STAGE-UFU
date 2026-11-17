@@ -1,0 +1,67 @@
+{
+  "dependencies": {
+    "global_parent": {
+      "file_id": "file_00000000dfb481f6ad867a7b6458ac64",
+      "library_file_id": "libfile_ee9a3b2fbbc4819197271b5fe3364137",
+      "library_metadata_applied": true,
+      "private_files_verified": 92,
+      "saved_privately": true
+    },
+    "source_parent": {
+      "bytes": 11813606,
+      "current_version_number": 0,
+      "file_id": "file_00000000a0ac820abeaba89009b05c61",
+      "file_name": "coldcard-mempool_remaining_fifty_20261116_round_02_unit_03-checkpoint.tar.gz",
+      "library_file_id": "libfile_8c65576132bc8191a5ad94e04d684794",
+      "library_metadata_applied": true,
+      "operational_flags_excluded": true,
+      "private": true,
+      "private_files_verified": 331,
+      "public_repository_contains_no_raw_caches": true,
+      "required_predecessor_archive": {
+        "bytes": 5241676,
+        "file_name": "coldcard-mempool_remaining_fifty_20261116_round_02_unit_02-checkpoint.tar.gz",
+        "purpose": "Prior-layer reproduction and before/after coverage comparison; current working responses are included in this archive.",
+        "sha256": "57fef186e615ceb89047a9102e498211b23bbdb7ab291bad61d14b655320cd7b"
+      },
+      "saved_privately": true,
+      "schema_version": 1,
+      "scope_protocol_sha256": "7ed4eaf79a6a781d871bd2999f8f5e48e2a8389aaed87b434316b256919dc923",
+      "sha256": "09fb34ebb5e6e28f35a31f98aa8eb24a0b29a0f431933884c29ce9408a141f07",
+      "source_work_folders": [
+        "source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_03"
+      ]
+    }
+  },
+  "files": [
+    {
+      "file": "source_cohort_work_dual_api_seed_0018_20261118_15/plan.json",
+      "sha256": "6fafd378fc31bd847b40d5bdadd17884b0359513b19c2a9c0ed14a0b2dca227d"
+    },
+    {
+      "file": "source_cohort_work_dual_api_seed_0018_20261118_15/verified_frontier.json.gz",
+      "sha256": "c3f269e301e52d8fa3d7b77065b6294da62fdb9b2c7615bf32cb2948650a4a68"
+    },
+    {
+      "file": "source_cohort_work_dual_api_seed_0018_20261118_15/historical_locks.json",
+      "sha256": "6e48d0c99dbb12f80873462f47a33bef5be197f3783f9824adde43cf54c3f720"
+    },
+    {
+      "file": "dual_api_seed_0018_20261118_15/protocol.json",
+      "sha256": "df1b4af0f7f95022583920b4c4bf5678fc051902af91277377ebc2f625705f3d"
+    },
+    {
+      "file": "dual_api_seed_0018_20261118_15/resume_checkpoint.json",
+      "sha256": "575ff0d0e7cbec3684212d4e340bb55e89c619de145514138b535346b738527f"
+    },
+    {
+      "file": "dual_api_seed_0018_20261118_15/audit.json",
+      "sha256": "f2410d8339e4af0623d2c79856d89add0577875a1ea089ed6d425663d854c79f"
+    },
+    {
+      "file": "dual_api_seed_0018_20261118_15/precutoff_feature_view.json.gz",
+      "sha256": "1764f7497c9075a7c0895cefe82a97b3153b93f79cc25e4951bd3630fcd455fd"
+    }
+  ],
+  "sha256": "8231f6d7c587c41bfc0301b9320f89429f7ce97b5eeaf23d78dbcc4e7b782e2f"
+}
