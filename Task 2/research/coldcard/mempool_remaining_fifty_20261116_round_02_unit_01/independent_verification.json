@@ -1,0 +1,56 @@
+{
+  "available_coldcard_vectors": 1460,
+  "bounded_in_scope": 0,
+  "composed_view_sha256": "0cbec53eb04e201b5571292e661641c02f1b3f7f9220b2d4308fb68a958e483b",
+  "failed_request_records": 0,
+  "finalized": 3,
+  "fresh_native_source_transaction_observations": 145,
+  "model_fits": 0,
+  "new_complete_prefixes": 3,
+  "new_complete_source_ids": [
+    "comparison_0292",
+    "comparison_0298",
+    "comparison_0254"
+  ],
+  "new_scores": 0,
+  "pending_in_scope": 0,
+  "preserved_old_vectors": 1457,
+  "private_native_cursors_sha256": "f1d5c6d9434178cb2bd8c68aa0d669252442e2792fae44e797af7185b7f159fe",
+  "selected": 3,
+  "source_progress": [
+    {
+      "fresh_native_source_transaction_observations": 43,
+      "last_native_cursor_sha256": "b72e0361ca177ee3388cad1ddf872a672f17e4e5ac879b0ace16f695d3f7f924",
+      "new_native_pages": 3,
+      "old_transactions_retained": 2038,
+      "retained_prior_block_observations": 2035,
+      "saved_evidence_pages": 85,
+      "saved_native_pages": 53,
+      "source_id": "comparison_0292"
+    },
+    {
+      "fresh_native_source_transaction_observations": 56,
+      "last_native_cursor_sha256": "b72e0361ca177ee3388cad1ddf872a672f17e4e5ac879b0ace16f695d3f7f924",
+      "new_native_pages": 4,
+      "old_transactions_retained": 2036,
+      "retained_prior_block_observations": 2032,
+      "saved_evidence_pages": 86,
+      "saved_native_pages": 54,
+      "source_id": "comparison_0298"
+    },
+    {
+      "fresh_native_source_transaction_observations": 46,
+      "last_native_cursor_sha256": "b72e0361ca177ee3388cad1ddf872a672f17e4e5ac879b0ace16f695d3f7f924",
+      "new_native_pages": 3,
+      "old_transactions_retained": 2038,
+      "retained_prior_block_observations": 2032,
+      "saved_evidence_pages": 85,
+      "saved_native_pages": 53,
+      "source_id": "comparison_0254"
+    }
+  ],
+  "status": "passed",
+  "successful_fresh_requests": 17,
+  "unknown_labels_cutoffs_and_current_statuses_unchanged": true,
+  "verification_basis": "Pinned mixed seeds; actual-native endpoint replay; unchanged saved union; exhausted funding closure; separate feature recount; old-row and recorded-clock invariants"
+}
