@@ -1,8 +1,8 @@
 {
-  "active_scope": null,
+  "active_scope": "mempool_remaining_fifty_20261116_unit_21",
   "automation_enabled": false,
   "available_vectors": 1457,
-  "can_continue": false,
+  "can_continue": true,
   "completed_units": [
     {
       "failures": 0,
@@ -523,7 +523,7 @@
     "comparison_0294",
     "comparison_0343"
   ],
-  "next_unit": null,
+  "next_unit": 21,
   "pending_source_ids": [
     "comparison_0157",
     "comparison_0026"
@@ -580,5 +580,5 @@
     "comparison_0109",
     "comparison_0026"
   ],
-  "status": "stopped_saved"
+  "status": "prepared_unit"
 }
