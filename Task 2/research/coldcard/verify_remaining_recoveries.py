@@ -35,6 +35,17 @@ def verify():
                 return dict(value,units=value['units']+[extension])
             return value
         original.read=selection_read
+    pair=campaign.CAMPAIGN/'supplemental_pair_21_selection.json'
+    if pair.exists():
+        item=read(pair)
+        assert item['original_campaign_selection_sha256']==sha(campaign.CAMPAIGN/'selection.json')
+        assert item['source_ids']==['comparison_0026','comparison_0157'] and item['unit']==21
+        def pair_read(path):
+            value=read(path)
+            if Path(path).resolve()==(campaign.CAMPAIGN/'selection.json').resolve():
+                return dict(value,units=value['units']+[item])
+            return value
+        original.read=pair_read
     def dispatch(markers):
         if any((m['source_id'], m['key']) == ('comparison_0157', 'native_tail_0012')
                 and 'finished_at' not in m for m in markers):
@@ -138,6 +149,37 @@ def verify():
         report.update(supplemental_frozen_unit_sha256=sha(extension_path),
             original_selection_unchanged=True,original_fifty_target_set_unchanged=True,
             deferred_source_cached_responses_verified=13,deferred_source_original_unknown_intent_preserved=True)
+    if pair.exists():
+        out=campaign.BASE/'mempool_remaining_fifty_20261116_unit_21'
+        work=campaign.BASE/('source_cohort_work_'+out.name)
+        q=read(out/'protocol.json');metadata=read(out/'request_manifest.json.gz')
+        fresh=[m for m in metadata if not m.get('offline_reused')]
+        cached=[m for m in metadata if m.get('offline_reused')]
+        pins=read(work/'cached_native_seed_manifest.json')['responses']
+        assert len(cached)==len(pins)==14
+        assert q['per_source_new_page_caps']=={'comparison_0026':49,'comparison_0157':37}
+        for sid,cap in q['per_source_new_page_caps'].items():
+            tails=[m for m in fresh if m['source_id']==sid and m['key'].startswith('native_tail_')]
+            assert len(tails)<=cap
+            assert len(tails)+q['original_successful_new_pages'][sid]+q['original_unknown_page_intents'][sid]+q['original_failed_page_intents'][sid]<=50
+            old_endpoints={p['endpoint_sha256']for p in pins if p['source_id']==sid}
+            assert not old_endpoints.intersection(m['endpoint_sha256']for m in tails)
+        for pin in pins:
+            old=campaign.BASE/('source_cohort_work_'+pin['origin_scope'])/'requests'/pin['source_id']/(pin['key']+'.json')
+            assert sha(old)==pin['original_marker_sha256']
+            expected=dict(read(old),offline_reused=True,reused_from_pass='original_scopes_20_and_12',original_marker_sha256=pin['original_marker_sha256'])
+            assert next(m for m in cached if (m['source_id'],m['key'])==(pin['source_id'],pin['key']))==expected
+        normalization=read(out/'audit_tape_normalization.json')
+        assert normalization['original_protocol_sha256']==sha(out/'protocol.json')
+        assert normalization['original_provider_receipt_sha256']==sha(out/'run_receipt.json')
+        assert normalization['actual_new_provider_requests']==len(fresh)
+        assert len(fresh)<=q['maximum_requests']
+        assert len(metadata)<=q['maximum_audit_tape_records']
+        assert normalization['verified_tape_records']==len(metadata)
+        assert read(campaign.BASE/'mempool_remaining_fifty_20261116_unit_20/run_receipt.json')['failures']==1
+        unknown=campaign.BASE/'source_cohort_work_mempool_remaining_fifty_20261116_unit_12/requests/comparison_0157/native_tail_0012.json'
+        assert 'finished_at'not in read(unknown)
+        report.update(final_pair_cached_responses_verified=14,final_pair_original_page_caps_preserved=True,final_pair_original_failed_and_unknown_intents_preserved=True,original_fifty_target_set_unchanged=True)
     write(campaign.CAMPAIGN / 'progress_verification.json', report)
     result = campaign.CAMPAIGN / 'RESULTS.md'
     result.write_text(result.read_text().replace(
