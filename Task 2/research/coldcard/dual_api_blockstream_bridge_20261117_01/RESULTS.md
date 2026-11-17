@@ -1,0 +1,3 @@
+# Verified saved Mempool-to-Blockstream switch
+
+53/53 HTTP200, zero errors. Fifty new Blockstream-native pages, 1,249 additional address-transaction observations and one immutable-equal overlap not counted again. Fourteen earlier unfinished Mempool pages were verified and reused. Every accepted page is atomically checkpointed. Journal/body/endpoint replay passes and reference anchors match. The history remains bounded: coverage 1,463/1,500. No feature, label, cutoff or existing complete vector changed. All 116 private files were verified and durably saved. Next scope must use the true cursor from verified_frontier.json.gz, not a sorted union or this consumed script.
