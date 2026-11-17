@@ -13,7 +13,7 @@
   "failure_policy": "Stop current immutable unit; save and audit successes immediately, retain failed/unknown intent; choose another independently eligible provider only through a validated bridge in a fresh scope; respect each provider Retry-After/cooldown; never rotate credentials, IP, proxy or TLS",
   "global_lock": "source_cohort_work_dual_api_automation_20261117/collector.lock",
   "interruption_policy": "Check actual locks and journal progression, not ps or missing JS cell; never steal live locks or expire a remote lease while a worker might remain active; snapshot/save successful immutable responses and preserve unknown intents before successor",
-  "latest_verified_scope": "mempool_remaining_fifty_20261116_round_02_unit_16",
+  "latest_verified_scope": "dual_api_blockstream_bridge_20261117_01",
   "max_new_pages_per_source_per_unit": 50,
   "minimum_dispatch_seconds": 5.25,
   "never_repeat": "Consumed scopes, saved native pages for the same provider/cursor, completed feature rows; controlled cross-provider boundary overlap is verified and not counted as new coverage",
@@ -23,7 +23,8 @@
   "schema_version": 1,
   "stop_only_when": "1500 complete feature vectors independently verified, all private evidence durably saved, final public commit verified; then disable this automation",
   "target_complete_vectors": 1500,
+  "tests_passed": 28,
   "timeout_seconds": 45,
-  "transport_integration_status": "Both-provider journaled transport and bridge tested offline (25 tests); live end-to-end bridge, feature closure/audit/save integration pending",
+  "transport_integration_status": "Reverse bridge live validated:53 HTTP200,50 pages,1249 new transactions,1 verified overlap; next scopes need fresh parametrized preparation; terminal feature closure still mandatory",
   "workers": 1
 }
