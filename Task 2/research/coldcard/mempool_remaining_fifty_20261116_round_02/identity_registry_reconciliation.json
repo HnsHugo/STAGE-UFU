@@ -1,0 +1,126 @@
+{
+  "private_registry_sha256": "69def543bc1b8c03b35bf478fb67f834de7d3aa8d2ba8072680768ddc340e29d",
+  "provider_requests": 0,
+  "records": 105,
+  "rule": "Union of saved identity records; exact duplicate equality; every missing row matched to its frozen address/reference hashes and cutoff. No feature or label changed.",
+  "source_registry_and_plans": [
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_02/plan.json",
+      "sha256": "d16ccd1dfc6c8de073a35931c8820cb569e85c76f9300b0f6a56716d5971e841"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_05/plan.json",
+      "sha256": "24df401e33503515fd191d99211c069938571536a7ea96c108e552eba07f13d2"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_06_recovery_20261116/plan.json",
+      "sha256": "282a91730e41fb0332f920e4fefa8f797108a26cd2c01f503f6fa2ec7cf840e4"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_07/plan.json",
+      "sha256": "ef5735858f91989c82c4ba5a11175c9515649cfe96bfb5a6d6301a2120888e73"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_08/plan.json",
+      "sha256": "aecb633062182d27de03031614be8f4bf468b20e1a57b5a8fe21311bf15f3af1"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_09/plan.json",
+      "sha256": "5aec51bb683dd9f5aa7d891d47c9d0a5382a74e8dddaa7138458423aacf132a4"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_10/plan.json",
+      "sha256": "5c8543d346b8cd45c2c7169fd6af4578b424f11c4bc3a627b872990a598e5bee"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_11/plan.json",
+      "sha256": "83edab7fe50bdaef922ef52ac6a0c2646e82156813a854d145563849ed0c4ed9"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_12/plan.json",
+      "sha256": "e74c824de825cc0f9fa563030bc3b2458cd547f8fe3ffbd02c221f73b3107bf6"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_13_recovery_20261116/plan.json",
+      "sha256": "68046385ff12939a6dec01f832841cc432a55f9ca14e58d6ff99e1fd387b20d2"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_14/plan.json",
+      "sha256": "1e695674ab16bbd08e8399d6d2977940ed06ebd01225c0330f863a5080c17543"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_15/plan.json",
+      "sha256": "fd986ff1ba8510df73942da23d9833f345379cb609c943c66f4cb32ea6918c89"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_16/plan.json",
+      "sha256": "4cf558d745535ba046a744d30fc995b9cd02185b0f0a1c6a40080b3a48dd4dd9"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_17_recovery_20261116/plan.json",
+      "sha256": "f8980b401beb066c3f95e3bc1920cf4999d3c2625e50a91d6682a47b60f2e43f"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_18/plan.json",
+      "sha256": "38523deb5ba14dff98c0237a5bdcc6e4d1e465745dba2cf4e81658bd97ab4c39"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_19_recovery_20261117/plan.json",
+      "sha256": "9663ae13a228a34d9538868301adc6c0aa213474994555d3edac65e6d7e4c094"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_21/plan.json",
+      "sha256": "44418a06e3858ba08331ec0cfcac423759c5f4af84c1d041644d47549ee01861"
+    },
+    {
+      "file": "source_cohort_work_mempool_remaining_fifty_20261116_unit_21/remaining_source_registry.json",
+      "sha256": "69def543bc1b8c03b35bf478fb67f834de7d3aa8d2ba8072680768ddc340e29d"
+    }
+  ],
+  "status": "passed",
+  "verified_missing_ids": [
+    "comparison_0002",
+    "comparison_0008",
+    "comparison_0018",
+    "comparison_0024",
+    "comparison_0026",
+    "comparison_0045",
+    "comparison_0052",
+    "comparison_0086",
+    "comparison_0088",
+    "comparison_0091",
+    "comparison_0108",
+    "comparison_0109",
+    "comparison_0126",
+    "comparison_0157",
+    "comparison_0176",
+    "comparison_0230",
+    "comparison_0250",
+    "comparison_0254",
+    "comparison_0255",
+    "comparison_0268",
+    "comparison_0275",
+    "comparison_0283",
+    "comparison_0287",
+    "comparison_0292",
+    "comparison_0298",
+    "comparison_0315",
+    "comparison_0351",
+    "comparison_0391",
+    "comparison_0433",
+    "comparison_0522",
+    "comparison_0622",
+    "comparison_0680",
+    "comparison_0713",
+    "comparison_0800",
+    "comparison_0826",
+    "comparison_0851",
+    "comparison_0853",
+    "comparison_0892",
+    "comparison_0907",
+    "comparison_0912",
+    "comparison_0966",
+    "comparison_0973",
+    "comparison_0995"
+  ]
+}
