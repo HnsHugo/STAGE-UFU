@@ -21,3 +21,9 @@ The journaled transport ../journaled_esplora.py now supports both explicitly all
 ## First live integration completed
 
 The distinct dual_api_blockstream_bridge_20261117_01 scope validated the reverse switch: 53/53 HTTP200, 50 pages, 1249 additional transactions and one identical overlap, not counted twice. All bodies are journaled and hashed, each page atomically checkpointed, journals replayed, fourteen earlier unfinished pages reused, 116 private files durably saved. See its RESULTS.md, audit.json, resume_checkpoint.json and private_cache_backup.json. Twenty-eight tests pass. The earlier readiness limitation now concerns generic future scope preparation and terminal feature promotion, not this successfully executed live bridge. Never rerun the hardcoded consumed scope: prepare a distinct parametrized successor from the verified private frontier. Prefer a same-provider actual-native-cursor continuation; rewind across complete blocks only when switching APIs.
+
+## Latest verified complete source0126
+
+comparison_0126 is complete and privately saved; coverage1466/1500,34 incomplete. See COMPLETION_0126_20261117.json and .md. Latest closed native scope dual_api_native_0126_20261117_14. Next priority comparison_0018 requires a fresh offline seed from its saved source cursor and the latest global1466-complete view. Never recollect finalized0126. All previous1465 vectors are unchanged.
+
+Current explicit notification authorization supersedes the earlier conditional sentence: report in French after EVERY execution, even zero new pages, cooldown or missing access. Distinguish state verification from real collection; do not return skip_notification. The existing single recovery task remains active, and the three older tasks remain disabled.
