@@ -1,0 +1,41 @@
+{
+  "available_coldcard_vectors": 1463,
+  "bounded_in_scope": 2,
+  "composed_view_sha256": "6fb93715be58693640d77d012c1a1d89aefd5ff8bd8118c029db5ed96dbbb825",
+  "failed_request_records": 0,
+  "finalized": 2,
+  "fresh_native_source_transaction_observations": 2500,
+  "model_fits": 0,
+  "new_complete_prefixes": 0,
+  "new_complete_source_ids": [],
+  "new_scores": 0,
+  "pending_in_scope": 0,
+  "preserved_old_vectors": 1463,
+  "private_native_cursors_sha256": "32a9487fa21a474915143c3b7f4baf2f2e253e301941d03341b57bc1efade275",
+  "selected": 2,
+  "source_progress": [
+    {
+      "fresh_native_source_transaction_observations": 1250,
+      "last_native_cursor_sha256": "348433eadc78fc705974d4791d2d25be5531e37bacffc2206c47395807f2896e",
+      "new_native_pages": 50,
+      "old_transactions_retained": 15649,
+      "retained_prior_block_observations": 15649,
+      "saved_evidence_pages": 676,
+      "saved_native_pages": 100,
+      "source_id": "comparison_0230"
+    },
+    {
+      "fresh_native_source_transaction_observations": 1250,
+      "last_native_cursor_sha256": "4337a3b47dc27eaf632a4931dae4e149f2f644c35eadc568339bfdf2aac524e0",
+      "new_native_pages": 50,
+      "old_transactions_retained": 15647,
+      "retained_prior_block_observations": 15647,
+      "saved_evidence_pages": 676,
+      "saved_native_pages": 100,
+      "source_id": "comparison_0176"
+    }
+  ],
+  "status": "passed",
+  "successful_fresh_requests": 104,
+  "unknown_labels_cutoffs_and_current_statuses_unchanged": true
+}

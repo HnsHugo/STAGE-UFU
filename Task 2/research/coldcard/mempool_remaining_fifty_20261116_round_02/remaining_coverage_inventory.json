@@ -1,8 +1,8 @@
 {
   "automatic_schedule": false,
   "available_vectors": 1463,
-  "latest_resume": "../mempool_remaining_fifty_20261116_round_02_unit_07/resume_checkpoint.json",
-  "latest_view": "../mempool_remaining_fifty_20261116_round_02_unit_07/precutoff_feature_view.json.gz",
+  "latest_resume": "../mempool_remaining_fifty_20261116_round_02_unit_08/resume_checkpoint.json",
+  "latest_view": "../mempool_remaining_fifty_20261116_round_02_unit_08/precutoff_feature_view.json.gz",
   "missing_vectors": 37,
   "model_fits": 0,
   "new_scores": 0,
@@ -311,24 +311,24 @@
       "source_id": "comparison_0287"
     },
     {
-      "evidence_scope": "mempool_remaining_fifty_20261116_unit_12",
+      "evidence_scope": "mempool_remaining_fifty_20261116_round_02_unit_08",
       "finalized": true,
-      "last_native_cursor_sha256": "dd070b213912e23979744d44c0ae7aa01e8aa930f88c9a481e0ec2725be61f6a",
-      "native_pages": 50,
+      "last_native_cursor_sha256": "348433eadc78fc705974d4791d2d25be5531e37bacffc2206c47395807f2896e",
+      "native_pages": 100,
       "provider": "https://mempool.space/api",
       "requires_distinct_pinned_successor": true,
-      "saved_evidence_pages": 626,
+      "saved_evidence_pages": 676,
       "seed_kind": "bridge_union",
       "source_id": "comparison_0230"
     },
     {
-      "evidence_scope": "mempool_remaining_fifty_20261116_unit_12",
+      "evidence_scope": "mempool_remaining_fifty_20261116_round_02_unit_08",
       "finalized": true,
-      "last_native_cursor_sha256": "b69fdbe6e3e7e621d38e7da8ab86decdf11a5707467903495ca6b1b8cd3e63ab",
-      "native_pages": 50,
+      "last_native_cursor_sha256": "4337a3b47dc27eaf632a4931dae4e149f2f644c35eadc568339bfdf2aac524e0",
+      "native_pages": 100,
       "provider": "https://mempool.space/api",
       "requires_distinct_pinned_successor": true,
-      "saved_evidence_pages": 626,
+      "saved_evidence_pages": 676,
       "seed_kind": "bridge_union",
       "source_id": "comparison_0176"
     },
