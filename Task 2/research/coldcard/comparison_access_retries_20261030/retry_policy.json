@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "none",
+  "active_collection_scope": "dual_api_native_0126_20261117_13",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -54,16 +54,14 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": null,
-    "finished_at": "2026-11-17T22:21:38.120039+00:00",
-    "last_owner": "dual_api_native_0126_20261117_12",
-    "operational_locks_released": true,
-    "owner": null,
-    "protocol": "dual_api_native_0126_20261117_12/protocol.json",
-    "protocol_sha256": "f92340ae62eeadfe3f986c9adf56efd5d613c8446d5cc95e131cf8dddc8b76f2",
+    "expires_at": "2026-11-18T00:23:14.257945+00:00",
+    "operational_locks_released": false,
+    "owner": "dual_api_native_0126_20261117_13",
+    "protocol": "dual_api_native_0126_20261117_13/protocol.json",
+    "protocol_sha256": "af92ba5d1a51754c9cdc37dbd26cde699295e982893580b5726099889025df05",
     "provider": "https://mempool.space/api",
-    "started_at": "2026-11-17T22:16:37.813839+00:00",
-    "state": "idle"
+    "started_at": "2026-11-17T22:23:14.257945+00:00",
+    "state": "running"
   },
   "comparison_pre_cutoff_predictors_available": 965,
   "comparison_pre_cutoff_predictors_unavailable": 35,

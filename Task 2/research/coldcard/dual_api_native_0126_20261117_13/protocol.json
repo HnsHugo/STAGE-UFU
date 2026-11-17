@@ -1,0 +1,29 @@
+{
+  "baseline_vectors": 1465,
+  "baseline_view_sha256": "da31e5511cfd4b774f05d7aabb9cbdfbfa9f4a31dd0c54a98432605c4fa1158c",
+  "code_pins": {
+    "dual_api_native_frontier.py": "dd0762df14b498912479c8a2dc994fee42fa6322362f923af40566933033cea4",
+    "dual_api_native_unit.py": "91484f3f7f38de3c37ffe6422f0440241be6290fe4881dbad94ff03831a701a2",
+    "journaled_esplora.py": "0ff49aa94294a65e7a6c1c5876a24abdd00fd7ec2d2a3d6f6e48f65cc9326c5c",
+    "provider_backoff.py": "2486cc06485a60e34df7b20962f45aa116aee9443f10cda04a45fd2fda54ee3b"
+  },
+  "locks_sha256": "a7f895d734396fea6a786bd0522dddb3fd2685843cae33d45c2f7bd6933867c9",
+  "maximum_new_native_pages": 50,
+  "maximum_requests": 53,
+  "original_successful_unfinished_pages_reused": 0,
+  "parent_scope": "dual_api_native_0126_20261117_12",
+  "plan_sha256": "4a0d625eca41cc64f393ba6ff05dcd26dabfa488bfd9a2ab199df5ef232cdab9",
+  "provider": "https://mempool.space/api",
+  "scope": "dual_api_native_0126_20261117_13",
+  "seed_sha256": "435dd260e50c09fcd5a7983d1c12b8ec4d82b070c85a3777c187bf6b5b0b8693",
+  "source_ids": [
+    "comparison_0126"
+  ],
+  "source_pins": [
+    {
+      "file": "source_cohort_work_dual_api_native_0126_20261117_12/verified_frontier.json.gz",
+      "sha256": "435dd260e50c09fcd5a7983d1c12b8ec4d82b070c85a3777c187bf6b5b0b8693"
+    }
+  ],
+  "unit_kind": "same_provider_native_cursor"
+}
