@@ -1,0 +1,21 @@
+{
+  "authorization": "Explicit user request 17 November: alternate independently eligible public APIs with no repeated saved work",
+  "baseline_vectors": 1463,
+  "code_sha256": "d5273e6669fc27f7cbbecdf32b888529657227cf5f5beba4f3c2c651151d0e73",
+  "lock_manifest_sha256": "7c8468937f6f99402adabbaadf0e1d81ecd8646c54df53dd9db23c54bbeab0f4",
+  "maximum_requests": 1,
+  "original_gate": {
+    "next_network_attempt_not_before": "2026-11-13T18:22:14+00:00",
+    "no_new_probe_authorized": true,
+    "status": "cooldown",
+    "stopped_scope": "source_prefix_extension_20261112_03"
+  },
+  "plan_sha256": "ccbc4284e3a0dca803bbc9145cc27d04245634730d4acecc1761098bd41ba85f",
+  "provider": "https://blockstream.info/api",
+  "purpose": "Fresh before-reference status validation only, no history page and no feature promotion",
+  "scope": "dual_api_blockstream_access_20261117_01",
+  "source_ids": [
+    "comparison_0250"
+  ],
+  "transport_sha256": "0ff49aa94294a65e7a6c1c5876a24abdd00fd7ec2d2a3d6f6e48f65cc9326c5c"
+}
