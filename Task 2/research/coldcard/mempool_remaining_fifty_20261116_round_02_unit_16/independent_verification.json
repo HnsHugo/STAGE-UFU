@@ -1,0 +1,52 @@
+{
+  "available_coldcard_vectors": 1463,
+  "bounded_in_scope": 0,
+  "composed_view_sha256": "1404d032b953ff3e747b3273d86aebc49e27dfd09ff6ba81c12664abc85d42d2",
+  "failed_request_records": 1,
+  "finalized": 0,
+  "fresh_native_source_transaction_observations": 350,
+  "model_fits": 0,
+  "new_complete_prefixes": 0,
+  "new_complete_source_ids": [],
+  "new_scores": 0,
+  "pending_in_scope": 3,
+  "preserved_old_vectors": 1463,
+  "private_native_cursors_sha256": "cc13a2c07908005c62401fb29455180a890c6b19fe4b141bcc6f8535ac09b468",
+  "selected": 3,
+  "source_progress": [
+    {
+      "fresh_native_source_transaction_observations": 350,
+      "last_native_cursor_sha256": "f140ad02ed83b8d4b7fc086652e2f2da89ca07a961d98f2628ac9fbff594be10",
+      "new_native_pages": 14,
+      "old_transactions_retained": 2047,
+      "retained_prior_block_observations": 2047,
+      "saved_evidence_pages": 96,
+      "saved_native_pages": 64,
+      "source_id": "comparison_0250"
+    },
+    {
+      "fresh_native_source_transaction_observations": 0,
+      "last_native_cursor_sha256": "e1d2ce3d446c4292b7a92a9d44b4604bd4d3d7745513452e34bc21fcafdb193e",
+      "new_native_pages": 0,
+      "old_transactions_retained": 2046,
+      "retained_prior_block_observations": 2046,
+      "saved_evidence_pages": 82,
+      "saved_native_pages": 50,
+      "source_id": "comparison_0091"
+    },
+    {
+      "fresh_native_source_transaction_observations": 0,
+      "last_native_cursor_sha256": "92bb4c6e23160a5069dc984f718b28deed3bdd3bd13497f49ae912526218685a",
+      "new_native_pages": 0,
+      "old_transactions_retained": 2028,
+      "retained_prior_block_observations": 2028,
+      "saved_evidence_pages": 82,
+      "saved_native_pages": 50,
+      "source_id": "comparison_0002"
+    }
+  ],
+  "status": "passed",
+  "successful_fresh_requests": 15,
+  "unknown_labels_cutoffs_and_current_statuses_unchanged": true,
+  "verification_basis": "Pinned mixed seeds; actual-native endpoint replay; unchanged saved union; exhausted funding closure; separate feature recount; old-row and recorded-clock invariants"
+}
