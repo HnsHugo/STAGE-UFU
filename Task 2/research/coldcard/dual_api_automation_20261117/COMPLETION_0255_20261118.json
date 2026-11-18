@@ -1,0 +1,53 @@
+{
+  "actual_native_cursor_verified_from_last_saved_native_page": true,
+  "all_locks_checked_free": 233,
+  "all_prior_frontier_transactions_immutable_preserved": true,
+  "all_scopes_privately_saved": true,
+  "available_vectors": 1469,
+  "dispatch_spacing": [
+    {
+      "monotonic": 6.302622772000177,
+      "scope": "dual_api_native_0255_20261118_25",
+      "utc": 6.302623
+    },
+    {
+      "monotonic": 5.250772735999817,
+      "scope": "dual_api_native_0255_20261118_26",
+      "utc": 5.250773
+    },
+    {
+      "monotonic": 5.258817678000014,
+      "scope": "dual_api_native_0255_20261118_27",
+      "utc": 5.258818
+    },
+    {
+      "monotonic": 5.250794601999587,
+      "scope": "dual_api_native_0255_20261118_28",
+      "utc": 5.250794
+    }
+  ],
+  "failures": 0,
+  "feature_view_sha256": "664fea824b1338b6c0c75d699929b2fe7527ab9a4240718cbc7ef0bdbd2c5e38",
+  "http200": 172,
+  "independent_features_matched": 14,
+  "lease_idle": true,
+  "new_complete": 1,
+  "new_native_pages": 164,
+  "new_transactions": 4053,
+  "next_priority": "comparison_0680",
+  "prior_complete_vectors_preserved": 1468,
+  "private_unit_files_saved": 384,
+  "reference_and_funding_closure": "passed",
+  "remaining_missing_sources": 31,
+  "scopes": [
+    "dual_api_native_0255_20261118_25",
+    "dual_api_native_0255_20261118_26",
+    "dual_api_native_0255_20261118_27",
+    "dual_api_native_0255_20261118_28"
+  ],
+  "source_id": "comparison_0255",
+  "status": "passed",
+  "strict_pre_block_cutoff_verified": true,
+  "terminal_empty_page_verified": true,
+  "unknown_new_intents": 0
+}

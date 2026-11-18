@@ -39,3 +39,7 @@ comparison_0018 complete and privately saved;1467/1500 complete,33 missing. See 
 ## Latest saved partial0255 —18 November2026
 
 See PROGRESS_0255_20261118_24.json/.md. Latest closed scope dual_api_native_0255_20261118_24;250 new pages,6241 observations,261HTTP200 across5 saved units.0255 remains incomplete;coverage1468/1500 unchanged. Continue its ACTUAL saved Blockstream native cursor in a fresh scope,no new probe/rewind/seed while eligible. Preserve all unknown outcomes and queues.
+
+## Latest complete0255 —18 November2026
+
+See COMPLETION_0255_20261118.json/.md. Latest scope dual_api_native_0255_20261118_28;1469/1500 complete,31 missing. Four new saved native scopes added164 pages and4053 observations,172HTTP200. Terminal empty page,funding closure and all14 independent features verified. Never recollect0255 or repeat earlier250-page tranche. Prepare next source seed against latest global1469-complete view and honor provider gates.
