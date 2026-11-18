@@ -1,15 +1,7 @@
 {
   "all_missing_rows_retained": true,
-  "missing_count": 30,
+  "missing_count": 29,
   "priority": [
-    {
-      "evidence_scope": "dual_api_native_0912_20261118_37",
-      "historical_full_current_counter": 23628,
-      "saved_evidence_pages": 578,
-      "scheduling_proxy_is_historical_not_exact_remaining": true,
-      "scheduling_proxy_pages": 618,
-      "source_id": "comparison_0912"
-    },
     {
       "evidence_scope": "mempool_remaining_fifty_20261116_round_02_unit_03",
       "historical_full_current_counter": 25173,
@@ -215,5 +207,5 @@
     }
   ],
   "purpose": "Operational order only; unchanged37 missing rows, labels and cutoff. Historical full-current counters and mixed page counts are rough scheduling proxies, NOT exact remaining pre-cutoff work or scientific predictors.",
-  "source_view": "dual_api_native_0912_20261118_37/precutoff_feature_view.json.gz"
+  "source_view": "dual_api_native_0912_20261118_40/precutoff_feature_view.json.gz"
 }
