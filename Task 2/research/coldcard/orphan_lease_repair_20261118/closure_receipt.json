@@ -1,0 +1,36 @@
+{
+  "coverage": 1471,
+  "lock_identities_unchanged": true,
+  "locks_held": 251,
+  "new_complete": 0,
+  "new_lease": {
+    "closure_audit": "orphan_lease_repair_20261118/closure_receipt.json",
+    "closure_reason": "explicit_user_authorized_administrative_fencing",
+    "expires_at": null,
+    "finished_at": "2026-11-18T15:41:55.891265+00:00",
+    "last_owner": "dual_api_native_0315_20261118_43",
+    "operational_locks_released": true,
+    "owner": null,
+    "protocol": "dual_api_native_0315_20261118_43/protocol.json",
+    "protocol_sha256": "0a346eb90184a627cdbd66919225247b6e1324ef79d2142d161e8cfa265242e4",
+    "provider": "https://blockstream.info/api",
+    "started_at": "2026-11-18T06:22:32.292398+00:00",
+    "state": "idle",
+    "termination_proven": false
+  },
+  "old_lease": {
+    "expires_at": "2026-11-18T08:22:32.292398+00:00",
+    "operational_locks_released": false,
+    "owner": "dual_api_native_0315_20261118_43",
+    "protocol": "dual_api_native_0315_20261118_43/protocol.json",
+    "protocol_sha256": "0a346eb90184a627cdbd66919225247b6e1324ef79d2142d161e8cfa265242e4",
+    "provider": "https://blockstream.info/api",
+    "started_at": "2026-11-18T06:22:32.292398+00:00",
+    "state": "running"
+  },
+  "original_data_preserved": true,
+  "physical_termination_proven": false,
+  "provider_requests": 0,
+  "status": "administratively_closed_under_explicit_user_authorization",
+  "unknown_intent_preserved": true
+}
