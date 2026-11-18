@@ -3,9 +3,9 @@
   "missing_count": 29,
   "priority": [
     {
-      "evidence_scope": "dual_api_native_0315_20261118_42",
+      "evidence_scope": "dual_api_native_0315_20261118_47",
       "historical_full_current_counter": 25173,
-      "saved_evidence_pages": 232,
+      "saved_evidence_pages": 370,
       "scheduling_proxy_is_historical_not_exact_remaining": true,
       "scheduling_proxy_pages": 875,
       "source_id": "comparison_0315"
@@ -208,5 +208,5 @@
     }
   ],
   "purpose": "Operational order only; unchanged37 missing rows, labels and cutoff. Historical full-current counters and mixed page counts are rough scheduling proxies, NOT exact remaining pre-cutoff work or scientific predictors.",
-  "source_view": "dual_api_native_0315_20261118_42/precutoff_feature_view.json.gz"
+  "source_view": "dual_api_native_0315_20261118_47"
 }

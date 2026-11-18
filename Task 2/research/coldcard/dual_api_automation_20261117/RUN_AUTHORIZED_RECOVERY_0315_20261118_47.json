@@ -1,0 +1,51 @@
+{
+  "administrative_closure": "explicitly_user_authorized",
+  "all_previous_vectors_identical": true,
+  "checked_at": "2026-11-18T16:04:01.204978+00:00",
+  "closure_receipt_sha256": "5116d2a1825e0232ff926d85534630248c19cf000ca54ea81a946985664c627f",
+  "complete_vectors": 1471,
+  "equal_overlap_excluded": 1,
+  "existing_automation_reenabled": true,
+  "existing_transport_bridge_tests": 25,
+  "fresh_http200": 106,
+  "fresh_observations": 2499,
+  "fresh_pages": 100,
+  "guarded_worker_exit_verified": true,
+  "latest_scope": "dual_api_native_0315_20261118_47",
+  "lease_idle": true,
+  "lifecycle_contract_tests": 3,
+  "locks_checked_free": 255,
+  "minimum_monotonic_spacing": 6.2732156760000635,
+  "minimum_utc_spacing": 6.273215,
+  "missing_sources": 29,
+  "new_complete": 0,
+  "next_action": "Fresh guarded native Mempool scope48 from ACTUAL saved47 cursor while eligible;no probe,rewind or consumed-scope restart",
+  "offline_admission_and_probe_files_saved": 14,
+  "offline_reuse_counted_as_acquisition": false,
+  "offline_reused_observations": 950,
+  "offline_reused_pages": 38,
+  "original_consumed_page_intents": 39,
+  "original_page_budget": 50,
+  "physical_old_process_termination_claimed": false,
+  "private_unit_files_saved": 231,
+  "status": "passed",
+  "target": 1500,
+  "unit_backups": {
+    "dual_api_mempool_0315_bridge_20261118_46": {
+      "file_id": "file_0000000025cc820eab81a82ae130fec6",
+      "library_file_id": "libfile_a26017e5b8b08191b9bfee356f9ab9f2",
+      "library_metadata_applied": true,
+      "private_files_verified": 116,
+      "saved_privately": true
+    },
+    "dual_api_native_0315_20261118_47": {
+      "file_id": "file_0000000014c8820e821dbda291e70f0e",
+      "library_file_id": "libfile_07233bca394c8191a4f0a81a28fc8ac1",
+      "library_metadata_applied": true,
+      "private_files_verified": 115,
+      "saved_privately": true
+    }
+  },
+  "unknown_original_intent_preserved": true,
+  "worker_identity_recorded_before_http": true
+}

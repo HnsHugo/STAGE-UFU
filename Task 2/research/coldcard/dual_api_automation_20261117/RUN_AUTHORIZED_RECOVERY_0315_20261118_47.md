@@ -1,0 +1,5 @@
+# Authorized recovery and real collection resumed
+
+User-authorized administrative closure under251 pinned locks,without claiming physical process death.38 saved pages/950observations replayed andadmitted offline without recounting. Fresh one-request Mempool validation passed before whole-block native bridge46 andguarded continuation47.106/106HTTP200,100freshpages,2499fresh observations,one immutable-equal overlap excluded. No failures/new unknowns,no newcomplete:1471/1500 unchanged.29 missing queues retained.All231privateunitfiles plus14admission/probefiles durably saved. Original85file recovery andunknownpage_0038 remain unchanged,original39of50budget retained. All previous vectors/labels/cutoffs/model unchanged.
+
+PID/startticks/boot/namespaces recorded beforeHTTP for newnativeworker;finished lifecycle andreceipt hash agree.3new lifecycle tests+25existing transport/bridge tests pass.255locksfree,leaseidle. Existing recovery automation re-enabled;three oldtasks untouched. Continuefresh guardednative48 from actualsaved47Mempoolcursor whileeligible,no probe/rewind/consumedrestart.
