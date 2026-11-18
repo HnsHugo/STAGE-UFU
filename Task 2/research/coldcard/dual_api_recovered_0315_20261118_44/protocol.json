@@ -1,0 +1,22 @@
+{
+  "closure_audit": "orphan_lease_repair_20261118/closure_receipt.json",
+  "closure_sha256": "5116d2a1825e0232ff926d85534630248c19cf000ca54ea81a946985664c627f",
+  "code_pins": {
+    "dual_api_native_frontier.py": "dd0762df14b498912479c8a2dc994fee42fa6322362f923af40566933033cea4",
+    "dual_api_native_unit.py": "91484f3f7f38de3c37ffe6422f0440241be6290fe4881dbad94ff03831a701a2",
+    "journaled_esplora.py": "0ff49aa94294a65e7a6c1c5876a24abdd00fd7ec2d2a3d6f6e48f65cc9326c5c",
+    "provider_backoff.py": "2486cc06485a60e34df7b20962f45aa116aee9443f10cda04a45fd2fda54ee3b"
+  },
+  "original_protocol_sha256": "0a346eb90184a627cdbd66919225247b6e1324ef79d2142d161e8cfa265242e4",
+  "original_scope": "dual_api_native_0315_20261118_43",
+  "parent_scope": "dual_api_native_0315_20261118_42",
+  "provider": "https://blockstream.info/api",
+  "provider_requests": 0,
+  "recovery_scope": "dual_api_interrupted_0315_20261118_43_recovery",
+  "scope": "dual_api_recovered_0315_20261118_44",
+  "source_ids": [
+    "comparison_0315"
+  ],
+  "source_snapshot_sha256": "b73bf53df73141129680ae64e1c03d53ed741c657a0d2075872dfc19e594901d",
+  "unit_kind": "offline_saved_journal_admission"
+}
