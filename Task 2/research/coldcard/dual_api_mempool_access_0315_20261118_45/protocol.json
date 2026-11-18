@@ -1,0 +1,54 @@
+{
+  "authorization": "Explicit user request 17 November: alternate independently eligible public APIs with no repeated saved work",
+  "baseline_vectors": 1471,
+  "code_sha256": "bc0bb9e6ae7548610eeaf5281d24f8c581f2948f360c7e0e32452c617edb0ecc",
+  "lock_manifest_sha256": "d6b6ba453e4766dc1325da415a905899f4df32b92ca27982d454fdca9245aa36",
+  "maximum_requests": 1,
+  "original_gate": {
+    "approval_required": false,
+    "automatic_provider_rotation": false,
+    "enforced_dispatch_spacing_seconds": 5.25,
+    "historical_stop_reason_before_round02_unit16": "HTTP 503 provider response on comparison_0294 native_tail_0007; immediate stop; all successful evidence retained",
+    "last_access_revalidation_scope": "dual_api_mempool_bridge_20261117_03",
+    "last_failure_preserved_in": "mempool_remaining_fifty_20261116_access_retry_20261117/prior_gate_snapshot.json",
+    "last_failure_scope": "mempool_remaining_fifty_20261116_round_02_unit_16",
+    "last_http200": 15,
+    "last_http_status": null,
+    "last_refusals": 1,
+    "last_retry_delay_seconds": 7200,
+    "maximum_new_native_pages_per_source": 50,
+    "maximum_requests": 162,
+    "minimum_dispatch_interval_seconds": 5,
+    "next_network_attempt_not_before": "2026-11-18T02:29:06.928059+00:00",
+    "no_new_probe_authorized": true,
+    "operational_resolution": "Distinct pinned recorded-clock runner and passing regressions; old failure remains preserved.",
+    "operational_validation_required": false,
+    "query_disclosure_authorization": {
+      "approved_operation": "Send the public Bitcoin address and transaction identifiers required for this research to mempool.space for transaction-status and address-history GET requests.",
+      "authorized_on": "2026-11-14T15:35:54.497427+00:00",
+      "destination": "https://mempool.space/api",
+      "permitted_query_values": "Public Bitcoin addresses, transaction IDs and native cursor transaction IDs; no keys, seed phrases or credentials.",
+      "publication_permission_retained": true,
+      "source": "Explicit current user reply to the specific destination-and-identifiers authorization question.",
+      "user_reply": "Oui"
+    },
+    "scope": "mempool_remaining_fifty_20261116_round_02_unit_16",
+    "source_ids": [
+      "comparison_0250",
+      "comparison_0091",
+      "comparison_0002"
+    ],
+    "status": "cooldown",
+    "stop_reason": "HTTP 503 on comparison_0250 extension_0014; first failure stopped unit 16; successful unfinished pages retained",
+    "timeout_seconds": 45,
+    "unknown_request_outcomes_preserved": 1
+  },
+  "plan_sha256": "accebcd71b8072428089bf408e8565916c460ea3240f806045c1f125aa625fb5",
+  "provider": "https://mempool.space/api",
+  "purpose": "Fresh before-reference status validation only, no history page and no feature promotion",
+  "scope": "dual_api_mempool_access_0315_20261118_45",
+  "source_ids": [
+    "comparison_0315"
+  ],
+  "transport_sha256": "0ff49aa94294a65e7a6c1c5876a24abdd00fd7ec2d2a3d6f6e48f65cc9326c5c"
+}
