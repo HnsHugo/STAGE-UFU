@@ -31,3 +31,7 @@ Current explicit notification authorization supersedes the earlier conditional s
 ## Latest verified checkpoint —18 November2026
 
 comparison_0018 complete and privately saved;1467/1500 complete,33 missing. See COMPLETION_0018_20261118.json and .md. Latest scope dual_api_native_0018_20261118_17. Next priority comparison_0853 requires a fresh seed joining its saved source cursor with the latest global1467-complete view. Never recollect complete0018; all1466 preceding vectors preserved. Existing single recovery task remains enabled with factual report every execution.
+
+## Latest verified0853 completion —18 November2026
+
+1468/1500 complete;32 missing. See COMPLETION_0853_20261118.json/.md. Latest closed scope dual_api_blockstream_0853_bridge_20261118_19. Mempool unknown tunnel outcome preserved;its43 successful pages saved before fresh single-request Blockstream revalidation and40-page bridge. One equal overlap excluded. All14 independent features verified. New dual_api_seed_scope_v2.py handles native cached-page sources through full saved-page endpoint/body/cursor replay;original bridge-schema preparer unchanged. No recollection of0853. Compose next source seed with latest global view and honor separate provider cooldowns.
