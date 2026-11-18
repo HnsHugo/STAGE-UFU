@@ -59,3 +59,7 @@ See COMPLETION_0912_20261118.json/.md. Unit40 closes0912 with all14 independent 
 ## Latest saved0315 frontier after0912 completion —18 November2026
 
 See RUN_0912_0315_20261118_42.json/.md and COMPLETION_0912_20261118.json.1471/1500 complete,29 missing. Latest scope dual_api_native_0315_20261118_42:0315 has100 saved new Blockstream pages,2499 observations and remains incomplete. Continue ACTUAL native cursor in a fresh eligible same-provider scope,no new seed/probe/rewind. Five-unit execution totals215pages,5346 observations,226HTTP200 and one new complete source0912.
+
+## Interrupted0315 unit43 recovered offline —18 November2026
+
+See ../dual_api_interrupted_0315_20261118_43_recovery/audit.json and RESULTS.md.38 successful pages,950 observations,39 HTTP200 bodies independently replayed and85 private files durably saved. One UNKNOWN page intent remains in original39-of50 budget;zero new complete prefixes,1471/1500 complete. No provider request during recovery. Unit43 published lease remains active with ownership unresolved,even though251 locks observed free. No lease expiration,no successor,no re-request of saved/unknown pages. Last global admitted view/resume remains unit42;recovery snapshot extends its source0315 frontier but is not yet admitted as a collector successor.
