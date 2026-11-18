@@ -1,0 +1,1563 @@
+{
+  "administrative_closure_guards": [
+    "Fetch branch and require exact published/local original lease and unchanged policy",
+    "Acquire every historical and global OS lock nonblocking;abort on any busy lock",
+    "Require unchanged lock device/inode/ctime pins and original code pins",
+    "Require original deadline elapsed and private recovered85-file snapshot hashes unchanged",
+    "Write separate closure intent/audit;preserve all original raw responses,unknown marker,budget and protocol bytes",
+    "Administratively fence only old lease by replacing running owner with idle under all held locks;record termination unproven and explicit authorization",
+    "Publish and read back exact new lease before any successor;never restart consumed43"
+  ],
+  "after_closure": [
+    "Independently admit saved38 successful pages/950 observations from actual checkpoint;retain unknown marker in original scope and budget",
+    "Prepare distinct eligible provider scope;prefer bounded Mempool revalidation followed by audited native-order bridge to avoid blindly repeating unknown Blockstream endpoint",
+    "Apply full same-block overlap audit,50-intent maximum,oneworker,5.25seconds,45seconds;private save/public readback before successor",
+    "Resume existing single automation only after safe verified checkpoint;do not create another task"
+  ],
+  "approval_needed": "Override earlier user prohibition on administrative lease closure while physical process termination remains unproven;do not infer death from ps/session absence",
+  "coverage_before": 1471,
+  "created_at": "2026-11-18T15:38:47.743283+00:00",
+  "lock_identity_pins": [
+    {
+      "ctime_ns": 1794338407126241841,
+      "device": 65040,
+      "inode": 787406,
+      "path": "/workspace/scratch/0234ac5f9bb1/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_recovered_20261110_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794338407126241841,
+      "device": 65040,
+      "inode": 787408,
+      "path": "/workspace/scratch/0234ac5f9bb1/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261110_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794338407462488771,
+      "device": 65040,
+      "inode": 788162,
+      "path": "/workspace/scratch/0234ac5f9bb1/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261110_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794338408354964033,
+      "device": 65040,
+      "inode": 788868,
+      "path": "/workspace/scratch/0234ac5f9bb1/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261110_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794338408442964228,
+      "device": 65040,
+      "inode": 790609,
+      "path": "/workspace/scratch/0234ac5f9bb1/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261110_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794338878984241512,
+      "device": 65040,
+      "inode": 794021,
+      "path": "/workspace/scratch/0234ac5f9bb1/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261110_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794339397417708006,
+      "device": 65040,
+      "inode": 795444,
+      "path": "/workspace/scratch/0234ac5f9bb1/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261110_06/collector.lock"
+    },
+    {
+      "ctime_ns": 1794350294383872418,
+      "device": 65040,
+      "inode": 797163,
+      "path": "/workspace/scratch/0234ac5f9bb1/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261110_07/collector.lock"
+    },
+    {
+      "ctime_ns": 1794350834905456462,
+      "device": 65040,
+      "inode": 799205,
+      "path": "/workspace/scratch/0234ac5f9bb1/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261110_08/collector.lock"
+    },
+    {
+      "ctime_ns": 1794352126605310080,
+      "device": 65040,
+      "inode": 801638,
+      "path": "/workspace/scratch/0234ac5f9bb1/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261110_09/collector.lock"
+    },
+    {
+      "ctime_ns": 1794352592898714526,
+      "device": 65040,
+      "inode": 804439,
+      "path": "/workspace/scratch/0234ac5f9bb1/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261110_10/collector.lock"
+    },
+    {
+      "ctime_ns": 1794447295702492291,
+      "device": 65040,
+      "inode": 807336,
+      "path": "/workspace/scratch/0234ac5f9bb1/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261110_11/collector.lock"
+    },
+    {
+      "ctime_ns": 1794447970980627548,
+      "device": 65040,
+      "inode": 810304,
+      "path": "/workspace/scratch/0234ac5f9bb1/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261111_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794338412738975979,
+      "device": 65040,
+      "inode": 793172,
+      "path": "/workspace/scratch/0234ac5f9bb1/private-restore/coldcard/coldcard/source_cohort_work_comparison_extended_20261031_164508/collector.lock"
+    },
+    {
+      "ctime_ns": 1794338412738975979,
+      "device": 65040,
+      "inode": 793174,
+      "path": "/workspace/scratch/0234ac5f9bb1/private-restore/coldcard/coldcard/source_cohort_work_comparison_retry_20261031_0300/collector.lock"
+    },
+    {
+      "ctime_ns": 1794338412738975979,
+      "device": 65040,
+      "inode": 793176,
+      "path": "/workspace/scratch/0234ac5f9bb1/private-restore/coldcard/coldcard/source_cohort_work_reference_tail_coverage_20261031_221432/collector.lock"
+    },
+    {
+      "ctime_ns": 1794338412738975979,
+      "device": 65040,
+      "inode": 793178,
+      "path": "/workspace/scratch/0234ac5f9bb1/private-restore/coldcard/coldcard/source_cohort_work_reference_tail_pilot_20261031_221016/collector.lock"
+    },
+    {
+      "ctime_ns": 1794338412738975979,
+      "device": 65040,
+      "inode": 793181,
+      "path": "/workspace/scratch/0234ac5f9bb1/private-restore/coldcard/source_prefix_extension_20261109_01/private_work/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818911,
+      "path": "/workspace/scratch/0c741bb6f5f6/STAGE-UFU-recovery/Task 2/research/coldcard/source_cohort_work_comparison_extended_20261031_164508/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818912,
+      "path": "/workspace/scratch/0c741bb6f5f6/STAGE-UFU-recovery/Task 2/research/coldcard/source_cohort_work_comparison_retry_20261031_0300/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818913,
+      "path": "/workspace/scratch/0c741bb6f5f6/STAGE-UFU-recovery/Task 2/research/coldcard/source_cohort_work_reference_tail_coverage_20261031_221432/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818914,
+      "path": "/workspace/scratch/0c741bb6f5f6/STAGE-UFU-recovery/Task 2/research/coldcard/source_cohort_work_reference_tail_pilot_20261031_221016/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818915,
+      "path": "/workspace/scratch/0c741bb6f5f6/source_transfer_reverse_20261109/global_collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818916,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_fifty_20261112_tail_native_five_20261113/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818917,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_extension_20261114_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818918,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_extension_20261114_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818919,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round2_20261114_unit_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818920,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round2_20261114_unit_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818921,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round2_20261114_unit_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818922,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round2_20261114_unit_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818923,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round2_20261114_unit_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818924,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round2_20261114_unit_06/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818925,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_native_20261114_unit_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818926,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_native_20261114_unit_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818927,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_native_20261114_unit_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818928,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_native_20261114_unit_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818929,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_native_20261114_unit_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818930,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_native_20261114_unit_06/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818931,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_twentyfive_20261114_unit_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818932,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_twentyfive_20261114_unit_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818933,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_twentyfive_20261114_unit_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818934,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_twentyfive_20261114_unit_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818935,
+      "path": "/workspace/scratch/1a5762441835/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_twentyfive_20261114_unit_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818936,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_independent_provider_bridge_20261112/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818937,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_independent_provider_native_20261112_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943184164427,
+      "device": 65040,
+      "inode": 818938,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_independent_provider_native_20261112_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818939,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_independent_provider_native_20261112_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818940,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_independent_provider_pilot_20261112/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818941,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_mempool_fifty_20261112_segment_20261113_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818942,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_mempool_fifty_20261112_segment_20261113_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818943,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_mempool_fifty_20261112_segment_20261113_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818944,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_mempool_fifty_20261112_segment_20261113_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818945,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_mempool_fifty_20261112_segment_20261113_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818946,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_mempool_fifty_20261112_segment_20261113_06/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818947,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_mempool_fifty_20261112_segment_20261113_07/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818948,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_mempool_fifty_20261112_segment_20261113_08/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818949,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_mempool_fifty_20261112_tail_bridge_20261113/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818950,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_mempool_fifty_20261112_tail_fresh_two_20261113/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818951,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_mempool_fifty_20261112_tail_interrupted_three_20261113/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818952,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261112_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818953,
+      "path": "/workspace/scratch/adb1e0a9e699/STAGE-UFU-published/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261112_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818954,
+      "path": "/workspace/scratch/adb1e0a9e699/ufu_primary_registry/coldcard/source_cohort_work_comparison_extended_20261031_164508/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818955,
+      "path": "/workspace/scratch/adb1e0a9e699/ufu_primary_registry/coldcard/source_cohort_work_comparison_retry_20261031_0300/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818956,
+      "path": "/workspace/scratch/adb1e0a9e699/ufu_primary_registry/coldcard/source_cohort_work_reference_tail_coverage_20261031_221432/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818957,
+      "path": "/workspace/scratch/adb1e0a9e699/ufu_primary_registry/coldcard/source_cohort_work_reference_tail_pilot_20261031_221016/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818958,
+      "path": "/workspace/scratch/adb1e0a9e699/ufu_primary_registry/source_prefix_extension_20261109_01/private_work/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818959,
+      "path": "/workspace/scratch/adb1e0a9e699/ufu_resume_576/source_cohort_work_source_prefix_extension_20261112_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818960,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_extension_20261114_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818961,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round2_20261114_unit_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818962,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round2_20261114_unit_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818963,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round2_20261114_unit_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818964,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round2_20261114_unit_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818965,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round2_20261114_unit_06/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818966,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round3_20261114_unit_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818967,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round3_20261114_unit_02_recovery_20261115/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818968,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round3_20261114_unit_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818969,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round3_20261114_unit_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818970,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round3_20261114_unit_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818971,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round3_20261114_unit_06/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818972,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round3_20261115_unit_02_authorized/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818973,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round4_20261115_unit_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818974,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round4_20261115_unit_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818975,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round4_20261115_unit_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818976,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round4_20261115_unit_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818977,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round4_20261115_unit_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818978,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round4_20261115_unit_06/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818979,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round5_20261115_unit_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818980,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round5_20261115_unit_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818981,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round5_20261115_unit_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818982,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round5_20261115_unit_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818983,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round5_20261115_unit_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818984,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round6_20261115_unit_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943188164234,
+      "device": 65040,
+      "inode": 818985,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round6_20261115_unit_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 818986,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round6_20261115_unit_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 818987,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round6_20261115_unit_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 818988,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round6_20261115_unit_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 818989,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round6_20261115_unit_06/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 818990,
+      "path": "/workspace/scratch/e7820b75c5f9/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round6_20261115_unit_07/collector.lock"
+    },
+    {
+      "ctime_ns": 1794935977092759947,
+      "device": 65040,
+      "inode": 945950,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_automation_20261117/collector.lock"
+    },
+    {
+      "ctime_ns": 1794964679301925741,
+      "device": 65040,
+      "inode": 948316,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_blockstream_0255_bridge_20261118_20/collector.lock"
+    },
+    {
+      "ctime_ns": 1794980861114576931,
+      "device": 65040,
+      "inode": 950857,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_blockstream_0315_bridge_20261118_41/collector.lock"
+    },
+    {
+      "ctime_ns": 1794971731438614703,
+      "device": 65040,
+      "inode": 949412,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_blockstream_0680_bridge_20261118_29/collector.lock"
+    },
+    {
+      "ctime_ns": 1794961948119450084,
+      "device": 65040,
+      "inode": 948185,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_blockstream_0853_bridge_20261118_19/collector.lock"
+    },
+    {
+      "ctime_ns": 1794975444616382873,
+      "device": 65040,
+      "inode": 949887,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_blockstream_0912_bridge_20261118_33/collector.lock"
+    },
+    {
+      "ctime_ns": 1794936005095438194,
+      "device": 65040,
+      "inode": 945959,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_blockstream_access_20261117_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794961911397277236,
+      "device": 65040,
+      "inode": 948175,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_blockstream_access_20261118_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794936229436900609,
+      "device": 65040,
+      "inode": 945974,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_blockstream_bridge_20261117_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794943068900301696,
+      "device": 65040,
+      "inode": 946151,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_mempool_bridge_20261117_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794957547164725529,
+      "device": 65040,
+      "inode": 947712,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0018_20261118_15/collector.lock"
+    },
+    {
+      "ctime_ns": 1794957918527052999,
+      "device": 65040,
+      "inode": 947842,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0018_20261118_16/collector.lock"
+    },
+    {
+      "ctime_ns": 1794958275306483699,
+      "device": 65040,
+      "inode": 947967,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0018_20261118_17/collector.lock"
+    },
+    {
+      "ctime_ns": 1794949835130372984,
+      "device": 65040,
+      "inode": 946966,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0086_20261117_09/collector.lock"
+    },
+    {
+      "ctime_ns": 1794950195205332244,
+      "device": 65040,
+      "inode": 947099,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0086_20261117_10/collector.lock"
+    },
+    {
+      "ctime_ns": 1794950555416139597,
+      "device": 65040,
+      "inode": 947227,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0086_20261117_11/collector.lock"
+    },
+    {
+      "ctime_ns": 1794953797310991772,
+      "device": 65040,
+      "inode": 947330,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0126_20261117_12/collector.lock"
+    },
+    {
+      "ctime_ns": 1794954193433366455,
+      "device": 65040,
+      "inode": 947457,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0126_20261117_13/collector.lock"
+    },
+    {
+      "ctime_ns": 1794954616965496577,
+      "device": 65040,
+      "inode": 947584,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0126_20261117_14/collector.lock"
+    },
+    {
+      "ctime_ns": 1794965060167729333,
+      "device": 65040,
+      "inode": 948447,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0255_20261118_21/collector.lock"
+    },
+    {
+      "ctime_ns": 1794965464788451532,
+      "device": 65040,
+      "inode": 948574,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0255_20261118_22/collector.lock"
+    },
+    {
+      "ctime_ns": 1794965933990135865,
+      "device": 65040,
+      "inode": 948702,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0255_20261118_23/collector.lock"
+    },
+    {
+      "ctime_ns": 1794966424222087054,
+      "device": 65040,
+      "inode": 948829,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0255_20261118_24/collector.lock"
+    },
+    {
+      "ctime_ns": 1794968319330645761,
+      "device": 65040,
+      "inode": 948962,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0255_20261118_25/collector.lock"
+    },
+    {
+      "ctime_ns": 1794968848696422733,
+      "device": 65040,
+      "inode": 949088,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0255_20261118_26/collector.lock"
+    },
+    {
+      "ctime_ns": 1794969416624680964,
+      "device": 65040,
+      "inode": 949214,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0255_20261118_27/collector.lock"
+    },
+    {
+      "ctime_ns": 1794970060205462277,
+      "device": 65040,
+      "inode": 949341,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0255_20261118_28/collector.lock"
+    },
+    {
+      "ctime_ns": 1794947744513506231,
+      "device": 65040,
+      "inode": 946436,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0275_20261117_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794948181196895532,
+      "device": 65040,
+      "inode": 946565,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0275_20261117_06/collector.lock"
+    },
+    {
+      "ctime_ns": 1794948578365942086,
+      "device": 65040,
+      "inode": 946693,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0275_20261117_07/collector.lock"
+    },
+    {
+      "ctime_ns": 1794948990238530918,
+      "device": 65040,
+      "inode": 946823,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0275_20261117_08/collector.lock"
+    },
+    {
+      "ctime_ns": 1794981402060373923,
+      "device": 65040,
+      "inode": 950987,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0315_20261118_42/collector.lock"
+    },
+    {
+      "ctime_ns": 1794982950832066866,
+      "device": 65040,
+      "inode": 951124,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0315_20261118_43/collector.lock"
+    },
+    {
+      "ctime_ns": 1794972117295949493,
+      "device": 65040,
+      "inode": 949541,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0680_20261118_30/collector.lock"
+    },
+    {
+      "ctime_ns": 1794972489741472980,
+      "device": 65040,
+      "inode": 949670,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0680_20261118_31/collector.lock"
+    },
+    {
+      "ctime_ns": 1794972902101169592,
+      "device": 65040,
+      "inode": 949798,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0680_20261118_32/collector.lock"
+    },
+    {
+      "ctime_ns": 1794961361487191139,
+      "device": 65040,
+      "inode": 948060,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0853_20261118_18/collector.lock"
+    },
+    {
+      "ctime_ns": 1794975814370154659,
+      "device": 65040,
+      "inode": 950016,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0912_20261118_34/collector.lock"
+    },
+    {
+      "ctime_ns": 1794976191731918411,
+      "device": 65040,
+      "inode": 950143,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0912_20261118_35/collector.lock"
+    },
+    {
+      "ctime_ns": 1794976598152380277,
+      "device": 65040,
+      "inode": 950269,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0912_20261118_36/collector.lock"
+    },
+    {
+      "ctime_ns": 1794977018214990980,
+      "device": 65040,
+      "inode": 950397,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0912_20261118_37/collector.lock"
+    },
+    {
+      "ctime_ns": 1794979219247377525,
+      "device": 65040,
+      "inode": 950528,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0912_20261118_38/collector.lock"
+    },
+    {
+      "ctime_ns": 1794979790539274601,
+      "device": 65040,
+      "inode": 950656,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0912_20261118_39/collector.lock"
+    },
+    {
+      "ctime_ns": 1794980369907049890,
+      "device": 65040,
+      "inode": 950782,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_0912_20261118_40/collector.lock"
+    },
+    {
+      "ctime_ns": 1794941180645176084,
+      "device": 65040,
+      "inode": 946103,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_20261117_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794946987768908554,
+      "device": 65040,
+      "inode": 946285,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_native_20261117_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794957497399124085,
+      "device": 65040,
+      "inode": 947700,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_seed_0018_20261118_15/collector.lock"
+    },
+    {
+      "ctime_ns": 1794949713240020317,
+      "device": 65040,
+      "inode": 946950,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_seed_0086_20261117_09/collector.lock"
+    },
+    {
+      "ctime_ns": 1794953603684236289,
+      "device": 65040,
+      "inode": 947312,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_seed_0126_20261117_12/collector.lock"
+    },
+    {
+      "ctime_ns": 1794964638351889176,
+      "device": 65040,
+      "inode": 948304,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_seed_0255_20261118_20/collector.lock"
+    },
+    {
+      "ctime_ns": 1794947660501373576,
+      "device": 65040,
+      "inode": 946421,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_seed_0275_20261117_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794980807057235886,
+      "device": 65040,
+      "inode": 950845,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_seed_0315_20261118_41/collector.lock"
+    },
+    {
+      "ctime_ns": 1794971688552691854,
+      "device": 65040,
+      "inode": 949400,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_seed_0680_20261118_29/collector.lock"
+    },
+    {
+      "ctime_ns": 1794961262227678246,
+      "device": 65040,
+      "inode": 948044,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_seed_0853_20261118_18v2/collector.lock"
+    },
+    {
+      "ctime_ns": 1794975405246396863,
+      "device": 65040,
+      "inode": 949875,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_dual_api_seed_0912_20261118_33/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934305,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_recorded_priority_20261116_unit_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934306,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_access/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 818991,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_access_retry_20261117/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 818992,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_registry/collector.lock"
+    },
+    {
+      "ctime_ns": 1794918143811969654,
+      "device": 65040,
+      "inode": 934391,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_registry/collector.lock"
+    },
+    {
+      "ctime_ns": 1794918143811969654,
+      "device": 65040,
+      "inode": 934392,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794918143811969654,
+      "device": 65040,
+      "inode": 934393,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_01_preparation_incomplete/collector.lock"
+    },
+    {
+      "ctime_ns": 1794918457985049264,
+      "device": 65040,
+      "inode": 934483,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794919383983729981,
+      "device": 65040,
+      "inode": 934847,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794920318274344975,
+      "device": 65040,
+      "inode": 937177,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794922843699555010,
+      "device": 65040,
+      "inode": 939397,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794924319336867625,
+      "device": 65040,
+      "inode": 941425,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_06/collector.lock"
+    },
+    {
+      "ctime_ns": 1794925313417432699,
+      "device": 65040,
+      "inode": 941787,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_07/collector.lock"
+    },
+    {
+      "ctime_ns": 1794926241436968896,
+      "device": 65040,
+      "inode": 942148,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_08/collector.lock"
+    },
+    {
+      "ctime_ns": 1794926926280138708,
+      "device": 65040,
+      "inode": 943053,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_09/collector.lock"
+    },
+    {
+      "ctime_ns": 1794927370970789499,
+      "device": 65040,
+      "inode": 944446,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_10/collector.lock"
+    },
+    {
+      "ctime_ns": 1794928079764761473,
+      "device": 65040,
+      "inode": 823921,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_11/collector.lock"
+    },
+    {
+      "ctime_ns": 1794931713040157551,
+      "device": 65040,
+      "inode": 824328,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_12/collector.lock"
+    },
+    {
+      "ctime_ns": 1794932081426549975,
+      "device": 65040,
+      "inode": 824509,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_13/collector.lock"
+    },
+    {
+      "ctime_ns": 1794932723212394318,
+      "device": 65040,
+      "inode": 945363,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_14/collector.lock"
+    },
+    {
+      "ctime_ns": 1794933068592072085,
+      "device": 65040,
+      "inode": 945523,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_15/collector.lock"
+    },
+    {
+      "ctime_ns": 1794933962542246434,
+      "device": 65040,
+      "inode": 945891,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_round_02_unit_16/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934307,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934308,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934309,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934310,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934311,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934312,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_06_recovery_20261116/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934313,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_07/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934314,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_08/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 823314,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_09/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934315,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_10/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934316,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_11/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 818993,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_12/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 823315,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_13/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934317,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_13_recovery_20261116/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934318,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_14/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934319,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_15/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934320,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_16/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934321,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_17/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934322,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_17_recovery_20261116/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934323,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_18/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934324,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_19/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330075181888,
+      "device": 65040,
+      "inode": 934325,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_19_recovery_20261117/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 818994,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_20/collector.lock"
+    },
+    {
+      "ctime_ns": 1794915247317121937,
+      "device": 65040,
+      "inode": 820390,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_21/collector.lock"
+    },
+    {
+      "ctime_ns": 1794917330079181692,
+      "device": 65040,
+      "inode": 934326,
+      "path": "/workspace/scratch/e92d1a06e5d4/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_unfinished_admission_20261116/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 818995,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_data_admission_20261115/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 818996,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_fifty_20261112_tail_bridge_20261113/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 818997,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round6_20261115_unit_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 818998,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round6_20261115_unit_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 818999,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round6_20261115_unit_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819000,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round6_20261115_unit_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819001,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round6_20261115_unit_06/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819002,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round6_20261115_unit_07/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819003,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round7_20261115_unit_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819004,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round7_20261115_unit_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819005,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round7_20261115_unit_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819006,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_native_round7_20261115_unit_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819007,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_recorded_priority_20261116_unit_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819008,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_recorded_priority_20261116_unit_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819009,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_recorded_twenty_20261115_unit_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819010,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_recorded_twenty_20261115_unit_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819011,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_recorded_twenty_20261115_unit_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819012,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_recorded_twenty_20261115_unit_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819013,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_recorded_twenty_20261115_unit_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819014,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_recorded_twenty_20261115_unit_06/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819015,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_recorded_twenty_20261115_unit_07/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819016,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_recorded_twenty_20261115_unit_08/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943192164041,
+      "device": 65040,
+      "inode": 819017,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_access/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819018,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_registry/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819019,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819020,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_02/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819021,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_03/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819022,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_04/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819023,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_05/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819024,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_06/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819025,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_06_recovery_20261116/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819026,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_07/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819027,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_08/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819028,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_09/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819029,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_10/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819030,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_11/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819031,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_12/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819032,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_13/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819033,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_13_recovery_20261116/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819034,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_14/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819035,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_15/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819036,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_16/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819037,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_17/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819038,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_17_recovery_20261116/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819039,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_18/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819040,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_19/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819041,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_remaining_fifty_20261116_unit_19_recovery_20261117/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819042,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_mempool_unfinished_admission_20261116/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819043,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261109_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819044,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261112_01/collector.lock"
+    },
+    {
+      "ctime_ns": 1794914943196163849,
+      "device": 65040,
+      "inode": 819045,
+      "path": "/workspace/scratch/fc897d43bfda/STAGE-UFU/Task 2/research/coldcard/source_cohort_work_source_prefix_extension_20261112_02/collector.lock"
+    }
+  ],
+  "network_requests_in_preparation": 0,
+  "new_complete": 0,
+  "original_lease": {
+    "expires_at": "2026-11-18T08:22:32.292398+00:00",
+    "operational_locks_released": false,
+    "owner": "dual_api_native_0315_20261118_43",
+    "protocol": "dual_api_native_0315_20261118_43/protocol.json",
+    "protocol_sha256": "0a346eb90184a627cdbd66919225247b6e1324ef79d2142d161e8cfa265242e4",
+    "provider": "https://blockstream.info/api",
+    "started_at": "2026-11-18T06:22:32.292398+00:00",
+    "state": "running"
+  },
+  "original_page_budget": 50,
+  "original_page_intents": 39,
+  "original_policy_sha256": "0618b0715334d49ce80432b37d263d85ca85a8570d72d579fb88dfb26c8fbfbe",
+  "owner": "dual_api_native_0315_20261118_43",
+  "preserved_unknown_intents": [
+    "page_0038"
+  ],
+  "private_backup": {
+    "file_id": "file_00000000c9a0820ca27db4994454328b",
+    "library_file_id": "libfile_4415b260f56481918c8e60d7eaf440b2",
+    "library_metadata_applied": true,
+    "private_files_verified": 85,
+    "saved_privately": true
+  },
+  "recovered_manifest_sha256": "726d4f802c4e0c759585dff973f28f0205e226b2335b96cd78242d48cfaac5e7",
+  "status": "prepared_not_authorized_not_executed",
+  "termination_proven": false,
+  "verified_code_pins": {
+    "dual_api_native_frontier.py": "dd0762df14b498912479c8a2dc994fee42fa6322362f923af40566933033cea4",
+    "dual_api_native_unit.py": "91484f3f7f38de3c37ffe6422f0440241be6290fe4881dbad94ff03831a701a2",
+    "journaled_esplora.py": "0ff49aa94294a65e7a6c1c5876a24abdd00fd7ec2d2a3d6f6e48f65cc9326c5c",
+    "provider_backoff.py": "2486cc06485a60e34df7b20962f45aa116aee9443f10cda04a45fd2fda54ee3b"
+  }
+}
