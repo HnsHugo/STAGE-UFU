@@ -15,7 +15,7 @@
   "global_lock": "source_cohort_work_dual_api_automation_20261117/collector.lock",
   "interrupted_evidence_recovery": "dual_api_interrupted_0315_20261118_43_recovery",
   "interruption_policy": "Check actual locks and journal progression, not ps or missing JS cell; never steal live locks or expire a remote lease while a worker might remain active; snapshot/save successful immutable responses and preserve unknown intents before successor",
-  "latest_verified_scope": "dual_api_recovered_0315_20261118_44",
+  "latest_verified_scope": "dual_api_mempool_0315_bridge_20261118_46",
   "max_new_pages_per_source_per_unit": 50,
   "minimum_dispatch_seconds": 5.25,
   "never_repeat": "Consumed scopes, saved native pages for the same provider/cursor, completed feature rows; controlled cross-provider boundary overlap is verified and not counted as new coverage",
