@@ -1,0 +1,61 @@
+{
+  "all_locks_checked_free": 250,
+  "all_scopes_privately_saved": true,
+  "available_vectors": 1471,
+  "completed_source": "comparison_0912",
+  "failures": 0,
+  "feature_view_sha256": "b412e39638598ffcb4b907074f4bd5166829f4cf6b962f0490a8d194de6be9f8",
+  "global_view_equal_independently_verified0912_terminal_view": true,
+  "http200": 226,
+  "latest_scope": "dual_api_native_0315_20261118_42",
+  "lease_idle": true,
+  "new_complete": 1,
+  "new_native_pages": 215,
+  "new_transactions": 5346,
+  "next_action": "Fresh native Blockstream continuation for0315 from actual unit42 cursor;no new seed/probe/rewind while eligible",
+  "offline_new_seed_files_saved": 7,
+  "old_complete_vectors_preserved": 1470,
+  "partial_frontier_old_union_immutable_preserved": true,
+  "partial_source": "comparison_0315",
+  "partial_source_actual_cursor_verified_from_last_native_page": true,
+  "partial_source_features_unpromoted": true,
+  "private_unit_files_saved": 502,
+  "published_leases_rechecked": [
+    {
+      "commit": "a0329b307e1bcff9695a24f5eede616f5adcd434",
+      "exact_pins_and_lease_rechecked": true,
+      "scope": "dual_api_native_0912_20261118_38"
+    },
+    {
+      "commit": "86ae4b5075ed7236b17eae6801498fd0fc0e2be6",
+      "exact_pins_and_lease_rechecked": true,
+      "scope": "dual_api_native_0912_20261118_39"
+    },
+    {
+      "commit": "65b35a4dd3c66167c531c790b28532bc52ac3e73",
+      "exact_pins_and_lease_rechecked": true,
+      "scope": "dual_api_native_0912_20261118_40"
+    },
+    {
+      "commit": "0914dba73ddc737d4754ee985ff46564f54450c7",
+      "exact_pins_and_lease_rechecked": true,
+      "scope": "dual_api_blockstream_0315_bridge_20261118_41"
+    },
+    {
+      "commit": "d0e380e0cd96d454808fcfd01a6287e2adcb99c1",
+      "exact_pins_and_lease_rechecked": true,
+      "scope": "dual_api_native_0315_20261118_42"
+    }
+  ],
+  "remaining_missing_sources": 29,
+  "scopes": [
+    "dual_api_native_0912_20261118_38",
+    "dual_api_native_0912_20261118_39",
+    "dual_api_native_0912_20261118_40",
+    "dual_api_blockstream_0315_bridge_20261118_41",
+    "dual_api_native_0315_20261118_42"
+  ],
+  "status": "verified_saved_checkpoint",
+  "unknown_new_intents": 0,
+  "verified_equal_overlap_not_counted": 1
+}

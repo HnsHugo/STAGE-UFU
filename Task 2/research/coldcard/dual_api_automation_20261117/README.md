@@ -55,3 +55,7 @@ See PROGRESS_0912_20261118_37.json/.md. Latest scope dual_api_native_0912_202611
 ## Latest complete0912 —18 November2026
 
 See COMPLETION_0912_20261118.json/.md. Unit40 closes0912 with all14 independent variables verified;coverage1471/1500,29 missing. Three fresh saved native units added115pages,2847observations,121HTTP200. Never recollect0912;compose next source seed with latest global view and saved source-specific native cursor.
+
+## Latest saved0315 frontier after0912 completion —18 November2026
+
+See RUN_0912_0315_20261118_42.json/.md and COMPLETION_0912_20261118.json.1471/1500 complete,29 missing. Latest scope dual_api_native_0315_20261118_42:0315 has100 saved new Blockstream pages,2499 observations and remains incomplete. Continue ACTUAL native cursor in a fresh eligible same-provider scope,no new seed/probe/rewind. Five-unit execution totals215pages,5346 observations,226HTTP200 and one new complete source0912.
