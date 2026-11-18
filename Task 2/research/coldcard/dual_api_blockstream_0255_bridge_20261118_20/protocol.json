@@ -1,0 +1,29 @@
+{
+  "baseline_vectors": 1468,
+  "baseline_view_sha256": "39c1cba332189469ad5c6193908d0ee3895b47a0e8d2290b8e2b8e345ff113b8",
+  "code_pins": {
+    "dual_api_frontier.py": "628a70083b532f6f568276ab55c22645041de29142d9555e6d8c0df73730474e",
+    "dual_api_switch_unit.py": "6dacb31a0007dee479f7255d4c1bfb717954e0181007a7e0fb457c453113fc78",
+    "journaled_esplora.py": "0ff49aa94294a65e7a6c1c5876a24abdd00fd7ec2d2a3d6f6e48f65cc9326c5c",
+    "provider_backoff.py": "2486cc06485a60e34df7b20962f45aa116aee9443f10cda04a45fd2fda54ee3b"
+  },
+  "locks_sha256": "69e47b19c9ba1ed086493d311970beec7c1252c94dcba7bab06272cb539bc69e",
+  "maximum_new_native_pages": 50,
+  "maximum_requests": 54,
+  "original_successful_unfinished_pages_reused": 0,
+  "parent_scope": "dual_api_seed_0255_20261118_20",
+  "plan_sha256": "bdd01d8e2ea882d040bee706087d939686f6822c598e985922dc175995ec56c0",
+  "provider": "https://blockstream.info/api",
+  "scope": "dual_api_blockstream_0255_bridge_20261118_20",
+  "seed_sha256": "470c73941de7881f30b61a64239781f2bb225ea29c8a113c3ac933ef25986521",
+  "source_ids": [
+    "comparison_0255"
+  ],
+  "source_pins": [
+    {
+      "file": "source_cohort_work_dual_api_seed_0255_20261118_20/verified_frontier.json.gz",
+      "sha256": "470c73941de7881f30b61a64239781f2bb225ea29c8a113c3ac933ef25986521"
+    }
+  ],
+  "unit_kind": "explicit_cross_provider_bridge"
+}
