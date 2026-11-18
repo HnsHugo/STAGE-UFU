@@ -1,0 +1,3 @@
+# Interrupted unit successful subset recovered offline
+
+38 successful pages /950 address–transaction observations and39 HTTP200 responses independently replayed from saved bodies. One page intent remains UNKNOWN in its original39-of50 page budget. No terminal page or final reference check;zero promotions. Coverage remains1471/1500. No provider request during recovery. Original active published lease and owner remain unchanged;251 locks observed free does not establish process death. Snapshot archived with all original bytes and hashes;private saving required before successor. Never rerun consumed unit43 or repeat saved pages.

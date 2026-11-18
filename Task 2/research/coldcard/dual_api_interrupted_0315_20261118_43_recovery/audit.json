@@ -1,0 +1,42 @@
+{
+  "actual_cursor_sha256": "30762cf24ce80594e7b81e3459d6df913fac3c8d626359baa249af168aa654e7",
+  "archive_sha256": "98a16853b2b0633887c3f2bbd6a8f1ca1b3dca4fec7be7c89e13e7eaf360be3f",
+  "checked_at": "2026-11-18T07:22:36.947045+00:00",
+  "complete_vectors": 1471,
+  "immutable_prior_transactions": "passed",
+  "independent_saved_endpoint_body_cursor_replay": "passed",
+  "interrupted_scope": "dual_api_native_0315_20261118_43",
+  "lease_state_unchanged": {
+    "expires_at": "2026-11-18T08:22:32.292398+00:00",
+    "operational_locks_released": false,
+    "owner": "dual_api_native_0315_20261118_43",
+    "protocol": "dual_api_native_0315_20261118_43/protocol.json",
+    "protocol_sha256": "0a346eb90184a627cdbd66919225247b6e1324ef79d2142d161e8cfa265242e4",
+    "provider": "https://blockstream.info/api",
+    "started_at": "2026-11-18T06:22:32.292398+00:00",
+    "state": "running"
+  },
+  "locks_observed_free": 251,
+  "minimum_monotonic_spacing": 5.250631554999927,
+  "minimum_utc_spacing": 5.250631,
+  "new_complete": 0,
+  "new_observations": 950,
+  "no_lease_expiration": true,
+  "no_new_collector": true,
+  "original_page_budget": 50,
+  "owner_uncertain": true,
+  "page_intents": 39,
+  "private_snapshot_files": 85,
+  "provider_requests_new_this_recovery": 0,
+  "saved_page_checkpoint_sha256": "b73bf53df73141129680ae64e1c03d53ed741c657a0d2075872dfc19e594901d",
+  "scope": "dual_api_interrupted_0315_20261118_43_recovery",
+  "status": "successful_subset_verified_unclosed_owner",
+  "successful_historical_responses": 39,
+  "successful_pages": 38,
+  "terminal_empty_page": false,
+  "unknown_budget_preserved": true,
+  "unknown_intents": 1,
+  "unknown_keys": [
+    "page_0038"
+  ]
+}
