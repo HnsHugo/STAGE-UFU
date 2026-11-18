@@ -1,0 +1,13 @@
+{
+  "checks": 3,
+  "cursor_sequence_and_body_hashes_verified": true,
+  "earlier_legacy_preparer_failed_before_any_provider_request": true,
+  "incorrect_native_cursor_rejected": true,
+  "ordered_saved_union_equal": true,
+  "provider_requests": 0,
+  "reordered_union_rejected": true,
+  "saved_native_pages_replayed": 378,
+  "saved_observations_replayed": 9450,
+  "scope_limit": "Native Mempool cache schema; earlier bridge seeds keep their original preparer",
+  "status": "passed"
+}
