@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "dual_api_blockstream_access_20261118_02",
+  "active_collection_scope": "none",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -54,14 +54,16 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": "2026-11-18T02:31:37.216310+00:00",
-    "operational_locks_released": false,
-    "owner": "dual_api_blockstream_access_20261118_02",
+    "expires_at": null,
+    "finished_at": "2026-11-18T00:31:56.510735+00:00",
+    "last_owner": "dual_api_blockstream_access_20261118_02",
+    "operational_locks_released": true,
+    "owner": null,
     "protocol": "dual_api_blockstream_access_20261118_02/protocol.json",
     "protocol_sha256": "a1c5a61c1545f5f58ca91c274a5a65fd85be96e34e72622656a28a421aae606e",
     "provider": "https://blockstream.info/api",
     "started_at": "2026-11-18T00:31:37.216310+00:00",
-    "state": "running"
+    "state": "idle"
   },
   "comparison_pre_cutoff_predictors_available": 967,
   "comparison_pre_cutoff_predictors_unavailable": 33,
@@ -344,12 +346,12 @@
   },
   "provider_access_policies": {
     "https://blockstream.info/api": {
-      "last_access_revalidation_scope": "dual_api_blockstream_access_20261117_01",
-      "last_http_status": null,
+      "last_access_revalidation_scope": "dual_api_blockstream_access_20261118_02",
+      "last_http_status": 200,
       "last_retry_delay_seconds": 7200,
-      "next_network_attempt_not_before": "2026-11-17T20:47:58.605518+00:00",
-      "no_new_probe_authorized": true,
-      "status": "cooldown",
+      "next_network_attempt_not_before": null,
+      "no_new_probe_authorized": false,
+      "status": "access_revalidated",
       "stopped_scope": "source_prefix_extension_20261112_03"
     },
     "https://mempool.space/api": {
