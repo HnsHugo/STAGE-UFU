@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-11-18T08:16:49.325720+00:00",
+  "complete_vectors": 1471,
+  "existing_private_backup": {
+    "file_id": "file_00000000c9a0820ca27db4994454328b",
+    "library_file_id": "libfile_4415b260f56481918c8e60d7eaf440b2",
+    "library_metadata_applied": true,
+    "private_files_verified": 85,
+    "saved_privately": true
+  },
+  "lease_unchanged": true,
+  "locks_checked": 251,
+  "locks_observed_free": 251,
+  "new_complete": 0,
+  "new_pages": 0,
+  "new_transactions": 0,
+  "no_lease_expiration": true,
+  "no_successor_started": true,
+  "original_lease": {
+    "expires_at": "2026-11-18T08:22:32.292398+00:00",
+    "operational_locks_released": false,
+    "owner": "dual_api_native_0315_20261118_43",
+    "protocol": "dual_api_native_0315_20261118_43/protocol.json",
+    "protocol_sha256": "0a346eb90184a627cdbd66919225247b6e1324ef79d2142d161e8cfa265242e4",
+    "provider": "https://blockstream.info/api",
+    "started_at": "2026-11-18T06:22:32.292398+00:00",
+    "state": "running"
+  },
+  "original_page_budget": 50,
+  "original_page_intents": 39,
+  "original_unit_receipt_present": false,
+  "prior_recovery_archive_sha256": "98a16853b2b0633887c3f2bbd6a8f1ca1b3dca4fec7be7c89e13e7eaf360be3f",
+  "prior_recovery_files_rehashed": 85,
+  "private_archive_reuploaded": false,
+  "process_session_lookup": "Unknown process id;not proof of termination",
+  "provider_requests": 0,
+  "required_next_evidence": "Authoritative termination/ownership resolution for original unit43;free locks,missing session or elapsed lease alone are insufficient",
+  "status": "blocked_by_unresolved_published_owner",
+  "total_vectors": 1500,
+  "unknown_intents_preserved": 1,
+  "verified_public_head": "8259ec0a301d1ccfc0f9da06791810dc8a14b724"
+}
