@@ -1,6 +1,6 @@
 {
   "access_denial_policy": "On HTTP403 or denied CONNECT403, stop and pause automation; no provider, account, IP or proxy fallback.",
-  "active_collection_scope": "none",
+  "active_collection_scope": "dual_api_native_0255_20261118_25",
   "active_collector_policy": "If the existing collector lock is held, do not start another collector or issue a probe.",
   "active_external_collection": {
     "finalized_sources": 66,
@@ -54,16 +54,14 @@
   "backoff_policy": "For repeated 429s, wait at least max(Retry-After, 2h, twice the last retry delay), capped at 24h for the local backoff only; never cap a longer server Retry-After. Skip not-yet-due runs without HTTP.",
   "branch": "task-2-wallet-analysis",
   "collector_lease": {
-    "expires_at": null,
-    "finished_at": "2026-11-18T01:54:22.295386+00:00",
-    "last_owner": "dual_api_native_0255_20261118_24",
-    "operational_locks_released": true,
-    "owner": null,
-    "protocol": "dual_api_native_0255_20261118_24/protocol.json",
-    "protocol_sha256": "b6d8a793af8c668d23ed0b3198fca78b41a77d63e9db5d6e95fb719f01bfb07a",
+    "expires_at": "2026-11-18T04:18:43.561663+00:00",
+    "operational_locks_released": false,
+    "owner": "dual_api_native_0255_20261118_25",
+    "protocol": "dual_api_native_0255_20261118_25/protocol.json",
+    "protocol_sha256": "f30f45bcd2ab5d7ea606ef7066dee7b4bc17d39cf714d323f3d475ff79d14b31",
     "provider": "https://blockstream.info/api",
-    "started_at": "2026-11-18T01:47:08.398627+00:00",
-    "state": "idle"
+    "started_at": "2026-11-18T02:18:43.561663+00:00",
+    "state": "running"
   },
   "comparison_pre_cutoff_predictors_available": 968,
   "comparison_pre_cutoff_predictors_unavailable": 32,
