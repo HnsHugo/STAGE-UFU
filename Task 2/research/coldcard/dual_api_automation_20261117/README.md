@@ -43,3 +43,7 @@ See PROGRESS_0255_20261118_24.json/.md. Latest closed scope dual_api_native_0255
 ## Latest complete0255 —18 November2026
 
 See COMPLETION_0255_20261118.json/.md. Latest scope dual_api_native_0255_20261118_28;1469/1500 complete,31 missing. Four new saved native scopes added164 pages and4053 observations,172HTTP200. Terminal empty page,funding closure and all14 independent features verified. Never recollect0255 or repeat earlier250-page tranche. Prepare next source seed against latest global1469-complete view and honor provider gates.
+
+## Latest complete0680 —18 November2026
+
+See COMPLETION_0680_20261118.json/.md. Latest scope dual_api_native_0680_20261118_32;1470/1500 complete,30 missing. A fresh bridge plus3 native scopes added171pages,4228 observations,180HTTP200 and one equal overlap excluded. Terminal/funding closure and14 independent features verified. Never recollect0680;compose next source seed with latest global1470-complete view and honor current gates.
