@@ -1,0 +1,117 @@
+{
+  "directions": {
+    "coldcard_to_cryptobilis": {
+      "metrics": {
+        "f1": 0.5664739884393064,
+        "fn": 73,
+        "fp": 2,
+        "precision": 0.9607843137254902,
+        "rankings": {
+          "prior_balance": {
+            "average_precision": 0.763552612334305,
+            "roc_auc": 0.8419518098800748
+          },
+          "prior_inactivity": {
+            "average_precision": 0.8540256294798418,
+            "roc_auc": 0.9486742215865331
+          },
+          "training_prevalence": {
+            "average_precision": 0.45018450184501846,
+            "roc_auc": 0.5
+          },
+          "tree": {
+            "average_precision": 0.6591187560863073,
+            "roc_auc": 0.6867367147100891
+          }
+        },
+        "recall": 0.4016393442622951,
+        "tn": 147,
+        "tp": 49
+      },
+      "population": {
+        "overlap_test": {
+          "cases": 0,
+          "comparisons": 58,
+          "total": 58
+        },
+        "test": {
+          "cases": 122,
+          "comparisons": 149,
+          "total": 271
+        },
+        "train": {
+          "cases": 500,
+          "comparisons": 971,
+          "total": 1471
+        },
+        "unavailable_test": {
+          "cases": 0,
+          "comparisons": 37,
+          "total": 37
+        },
+        "unavailable_train": {
+          "cases": 0,
+          "comparisons": 29,
+          "total": 29
+        }
+      }
+    },
+    "cryptobilis_to_coldcard": {
+      "metrics": {
+        "f1": 0.919815668202765,
+        "fn": 0,
+        "fp": 87,
+        "precision": 0.8515358361774744,
+        "rankings": {
+          "prior_balance": {
+            "average_precision": 0.8239612478534302,
+            "roc_auc": 0.9295670378557803
+          },
+          "prior_inactivity": {
+            "average_precision": 0.9556909847543322,
+            "roc_auc": 0.9727702828337086
+          },
+          "training_prevalence": {
+            "average_precision": 0.4616096207215541,
+            "roc_auc": 0.5
+          },
+          "tree": {
+            "average_precision": 0.9390294800539517,
+            "roc_auc": 0.9721642597910598
+          }
+        },
+        "recall": 1.0,
+        "tn": 495,
+        "tp": 499
+      },
+      "population": {
+        "overlap_test": {
+          "cases": 1,
+          "comparisons": 389,
+          "total": 390
+        },
+        "test": {
+          "cases": 499,
+          "comparisons": 582,
+          "total": 1081
+        },
+        "train": {
+          "cases": 122,
+          "comparisons": 207,
+          "total": 329
+        },
+        "unavailable_test": {
+          "cases": 0,
+          "comparisons": 29,
+          "total": 29
+        },
+        "unavailable_train": {
+          "cases": 0,
+          "comparisons": 37,
+          "total": 37
+        }
+      }
+    }
+  },
+  "fits": 2
+}

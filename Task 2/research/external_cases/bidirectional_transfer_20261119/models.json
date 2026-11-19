@@ -1,0 +1,286 @@
+{
+  "coldcard_to_cryptobilis": {
+    "classification_threshold": 0.5,
+    "feature_names": [
+      "confirmed_tx_count",
+      "receipt_tx_count",
+      "spending_tx_count",
+      "received_output_count",
+      "spent_output_count",
+      "received_sat",
+      "spent_sat",
+      "balance_sat",
+      "unspent_output_count",
+      "active_block_count",
+      "activity_span_blocks",
+      "blocks_since_first_activity",
+      "blocks_since_last_activity",
+      "median_spending_tx_fee_rate_sat_vb",
+      "confirmed_tx_count__missing",
+      "receipt_tx_count__missing",
+      "spending_tx_count__missing",
+      "received_output_count__missing",
+      "spent_output_count__missing",
+      "received_sat__missing",
+      "spent_sat__missing",
+      "balance_sat__missing",
+      "unspent_output_count__missing",
+      "active_block_count__missing",
+      "activity_span_blocks__missing",
+      "blocks_since_first_activity__missing",
+      "blocks_since_last_activity__missing",
+      "median_spending_tx_fee_rate_sat_vb__missing"
+    ],
+    "medians": {
+      "active_block_count": 1,
+      "activity_span_blocks": 0.0,
+      "balance_sat": 1438165,
+      "blocks_since_first_activity": 23418.5,
+      "blocks_since_last_activity": 63.5,
+      "confirmed_tx_count": 1,
+      "median_spending_tx_fee_rate_sat_vb": 2.0065988713734644,
+      "receipt_tx_count": 1,
+      "received_output_count": 1,
+      "received_sat": 18547973,
+      "spending_tx_count": 0,
+      "spent_output_count": 0,
+      "spent_sat": 0,
+      "unspent_output_count": 1
+    },
+    "nodes": [
+      {
+        "feature_index": 12,
+        "left": 1,
+        "positive_probability": 0.5000000000000029,
+        "right": 6,
+        "sample_count": 1471,
+        "threshold": 2849.5
+      },
+      {
+        "feature_index": 8,
+        "left": 2,
+        "positive_probability": 0.006445930964588361,
+        "right": 3,
+        "sample_count": 901,
+        "threshold": 18.5
+      },
+      {
+        "feature_index": -2,
+        "left": -1,
+        "positive_probability": 0.0,
+        "right": -1,
+        "sample_count": 861,
+        "threshold": -2.0
+      },
+      {
+        "feature_index": 0,
+        "left": 4,
+        "positive_probability": 0.13603885490122825,
+        "right": 5,
+        "sample_count": 40,
+        "threshold": 335.5
+      },
+      {
+        "feature_index": -2,
+        "left": -1,
+        "positive_probability": 0.2552352580390783,
+        "right": -1,
+        "sample_count": 20,
+        "threshold": -2.0
+      },
+      {
+        "feature_index": -2,
+        "left": -1,
+        "positive_probability": 0.0,
+        "right": -1,
+        "sample_count": 20,
+        "threshold": -2.0
+      },
+      {
+        "feature_index": 7,
+        "left": 7,
+        "positive_probability": 0.929684234049399,
+        "right": 8,
+        "sample_count": 570,
+        "threshold": 13076727.0
+      },
+      {
+        "feature_index": -2,
+        "left": -1,
+        "positive_probability": 0.0,
+        "right": -1,
+        "sample_count": 67,
+        "threshold": -2.0
+      },
+      {
+        "feature_index": 11,
+        "left": 9,
+        "positive_probability": 0.9938219103888696,
+        "right": 10,
+        "sample_count": 503,
+        "threshold": 25247.0
+      },
+      {
+        "feature_index": -2,
+        "left": -1,
+        "positive_probability": 0.9178070932478526,
+        "right": -1,
+        "sample_count": 27,
+        "threshold": -2.0
+      },
+      {
+        "feature_index": -2,
+        "left": -1,
+        "positive_probability": 0.9978319971208922,
+        "right": -1,
+        "sample_count": 476,
+        "threshold": -2.0
+      }
+    ],
+    "params": {
+      "ccp_alpha": 0.0,
+      "class_weight": "balanced",
+      "criterion": "gini",
+      "max_depth": 3,
+      "max_features": null,
+      "min_samples_leaf": 20,
+      "min_samples_split": 2,
+      "random_state": 42,
+      "splitter": "best"
+    }
+  },
+  "cryptobilis_to_coldcard": {
+    "classification_threshold": 0.5,
+    "feature_names": [
+      "confirmed_tx_count",
+      "receipt_tx_count",
+      "spending_tx_count",
+      "received_output_count",
+      "spent_output_count",
+      "received_sat",
+      "spent_sat",
+      "balance_sat",
+      "unspent_output_count",
+      "active_block_count",
+      "activity_span_blocks",
+      "blocks_since_first_activity",
+      "blocks_since_last_activity",
+      "median_spending_tx_fee_rate_sat_vb",
+      "confirmed_tx_count__missing",
+      "receipt_tx_count__missing",
+      "spending_tx_count__missing",
+      "received_output_count__missing",
+      "spent_output_count__missing",
+      "received_sat__missing",
+      "spent_sat__missing",
+      "balance_sat__missing",
+      "unspent_output_count__missing",
+      "active_block_count__missing",
+      "activity_span_blocks__missing",
+      "blocks_since_first_activity__missing",
+      "blocks_since_last_activity__missing",
+      "median_spending_tx_fee_rate_sat_vb__missing"
+    ],
+    "medians": {
+      "active_block_count": 1,
+      "activity_span_blocks": 0,
+      "balance_sat": 1217000,
+      "blocks_since_first_activity": 6408,
+      "blocks_since_last_activity": 218,
+      "confirmed_tx_count": 1,
+      "median_spending_tx_fee_rate_sat_vb": 2.279012113224126,
+      "receipt_tx_count": 1,
+      "received_output_count": 1,
+      "received_sat": 4348389,
+      "spending_tx_count": 0,
+      "spent_output_count": 0,
+      "spent_sat": 0,
+      "unspent_output_count": 1
+    },
+    "nodes": [
+      {
+        "feature_index": 12,
+        "left": 1,
+        "positive_probability": 0.500000000000002,
+        "right": 4,
+        "sample_count": 329,
+        "threshold": 951.0
+      },
+      {
+        "feature_index": 7,
+        "left": 2,
+        "positive_probability": 0.01763803680981592,
+        "right": 3,
+        "sample_count": 191,
+        "threshold": 9393310.0
+      },
+      {
+        "feature_index": -2,
+        "left": -1,
+        "positive_probability": 0.0,
+        "right": -1,
+        "sample_count": 171,
+        "threshold": -2.0
+      },
+      {
+        "feature_index": -2,
+        "left": -1,
+        "positive_probability": 0.15862068965517243,
+        "right": -1,
+        "sample_count": 20,
+        "threshold": -2.0
+      },
+      {
+        "feature_index": 7,
+        "left": 5,
+        "positive_probability": 0.9187749667110519,
+        "right": 6,
+        "sample_count": 138,
+        "threshold": 646364.5
+      },
+      {
+        "feature_index": -2,
+        "left": -1,
+        "positive_probability": 0.5307692307692309,
+        "right": -1,
+        "sample_count": 20,
+        "threshold": -2.0
+      },
+      {
+        "feature_index": 12,
+        "left": 7,
+        "positive_probability": 0.9693928750627194,
+        "right": 8,
+        "sample_count": 118,
+        "threshold": 3909.0
+      },
+      {
+        "feature_index": -2,
+        "left": -1,
+        "positive_probability": 0.8593173431734318,
+        "right": -1,
+        "sample_count": 23,
+        "threshold": -2.0
+      },
+      {
+        "feature_index": -2,
+        "left": -1,
+        "positive_probability": 0.9937691521961185,
+        "right": -1,
+        "sample_count": 95,
+        "threshold": -2.0
+      }
+    ],
+    "params": {
+      "ccp_alpha": 0.0,
+      "class_weight": "balanced",
+      "criterion": "gini",
+      "max_depth": 3,
+      "max_features": null,
+      "min_samples_leaf": 20,
+      "min_samples_split": 2,
+      "random_state": 42,
+      "splitter": "best"
+    }
+  }
+}
