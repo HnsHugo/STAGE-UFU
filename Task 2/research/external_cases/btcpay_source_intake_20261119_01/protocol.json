@@ -1,0 +1,30 @@
+{
+  "scope": "btcpay_source_intake_20261119_01",
+  "incident": "btcpay_hot_wallet_20261030",
+  "objective": "Extend the source registry with documented payment inputs for a later external test.",
+  "unit": "One Bitcoin input address in a documented payment to the reported collector.",
+  "target": "Observed source-cohort membership.",
+  "collector": "bc1p0f7wmcnesrapznymf9ljdn04pudgmh96sqtrm9vmgqxdh666fh8qvn63r7",
+  "official_scope_source": "https://blog.btcpayserver.org/btcpay-server-security-incident-2-4-1-and-earlier/",
+  "trace_scope_source": "https://www.bitquery.io/investigations/btcpay-server-hack",
+  "height_window_inclusive": [974152, 974216],
+  "references": [
+    {
+      "txid": "22f6b68ef2c2d889230795634fd90ca0185a4344eca7e18a4e5d5bfd4300b017",
+      "block_height": 974172,
+      "block_hash": "000000000000000000006e38ea42eeb0dbba4966108924968274723f69d2bc84",
+      "public_source": "https://bitcoin.prod.gke.papers.tech/tx/22f6b68ef2c2d889230795634fd90ca0185a4344eca7e18a4e5d5bfd4300b017"
+    },
+    {
+      "txid": "00454b5f90c5e4e0dedc38a5f7242b6f8914d63a7123a55eb09a6f9c701d5203",
+      "block_height": 974178,
+      "block_hash": "000000000000000000012cdfea915a142cbc439066c8f41566ea04e4df6e619c",
+      "public_source": "https://bitcoin.prod.gke.papers.tech/tx/00454b5f90c5e4e0dedc38a5f7242b6f8914d63a7123a55eb09a6f9c701d5203"
+    }
+  ],
+  "admission": "Use the displayed Bitcoin input table when every row is captured, values reconcile with the transaction totals and the sole output matches the reported collector. The selected public examples do not provide a complete collector census.",
+  "grouping": "Group all addresses spent in each reference transaction, joining observed groups when an exact address is shared.",
+  "cutoff": "Future features use confirmed transactions at heights strictly below the reference block.",
+  "pilot_audit": "Task 2/research/external_cases/btcpay_hot_wallet_pilot_20261119/audit.json",
+  "base_commit": "8eb84cdbd82d124c98927e4e5dbe62311734910f"
+}

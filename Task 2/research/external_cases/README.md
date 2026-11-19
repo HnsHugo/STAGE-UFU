@@ -1,5 +1,9 @@
 # Sourced theft cases and decision-time features
 
+19 November 2026. The [first BTCPay Server source intake](btcpay_source_intake_20261119_01/README.md)
+reconciles two complete displayed input tables and records 1,351 distinct
+source addresses for the next external-test audit.
+
 19 November 2026. The [BTCPay Server source pilot](btcpay_hot_wallet_pilot_20261119/README.md)
 anchors one November Bitcoin sweep. It records the grouped inputs and checks
 the 11 individually visible addresses against the frozen development cohorts.
