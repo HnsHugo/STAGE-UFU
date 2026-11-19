@@ -1,0 +1,81 @@
+{
+  "scope": "btcpay_source_intake_20261120_04",
+  "incident": "btcpay_hot_wallet_20261030",
+  "objective": "Extend the held-out BTCPay source registry from complete published input tables.",
+  "target": "Observed source-cohort membership",
+  "collector": "bc1p0f7wmcnesrapznymf9ljdn04pudgmh96sqtrm9vmgqxdh666fh8qvn63r7",
+  "height_window_inclusive": [
+    974152,
+    974216
+  ],
+  "cutoff": "Future pre-reference features use strictly lower block heights.",
+  "references": [
+    {
+      "txid": "20f6c265a6dda063c6d3a4661610e2105f218a00e5b8fec810bf001602456306",
+      "block_height": 974153,
+      "block_hash": "0000000000000000000087d1fb31a166d221e6985c9ce0dfb2ae99497345a1fb",
+      "public_source": "https://bitcoin.prod.gke.papers.tech/tx/20f6c265a6dda063c6d3a4661610e2105f218a00e5b8fec810bf001602456306",
+      "block_source": "https://bitcoin.prod.gke.papers.tech/block/974153"
+    },
+    {
+      "txid": "5d7e04554feb294b967d8415e1d01a3a0b07be8b5ed86da538138867acfa01d9",
+      "block_height": 974153,
+      "block_hash": "0000000000000000000087d1fb31a166d221e6985c9ce0dfb2ae99497345a1fb",
+      "public_source": "https://bitcoin.prod.gke.papers.tech/tx/5d7e04554feb294b967d8415e1d01a3a0b07be8b5ed86da538138867acfa01d9",
+      "block_source": "https://bitcoin.prod.gke.papers.tech/block/974153"
+    }
+  ],
+  "base_commit": "7f7819e7b671afa4c3e6f485fac7998688b8f3c2",
+  "pilot": {
+    "file": "Task 2/research/external_cases/btcpay_hot_wallet_pilot_20261119/audit.json",
+    "sha256": "3b740a9e625f29fc3e7fc70f169608b2eeec4ec5e8051387d492c20c8104025a"
+  },
+  "previous_registries": [
+    {
+      "file": "Task 2/research/external_cases/btcpay_source_intake_20261119_01/source_registry.json.gz",
+      "sha256": "9dd4f0986b9749a9670498e6246a0cecbbf430e6190ee66ed8ba238f80ebbc11"
+    },
+    {
+      "file": "Task 2/research/external_cases/btcpay_source_intake_20261119_02/source_registry.json.gz",
+      "sha256": "75e0920b237b827bf7b7657966e43af4e85c808998c0467d32526b787442c973"
+    },
+    {
+      "file": "Task 2/research/external_cases/btcpay_source_intake_20261119_03/source_registry.json.gz",
+      "sha256": "4f3104f38178ad4156c91ca8e46a363ef2c203fa0e9938279b8c78a7e080904e"
+    }
+  ],
+  "discovery": {
+    "published_address_page": "https://bitcoin.prod.gke.papers.tech/address/bc1p0f7wmcnesrapznymf9ljdn04pudgmh96sqtrm9vmgqxdh666fh8qvn63r7?page=34",
+    "pending_reference_leads": [
+      "b198d4f6263de98d6a4078df4eff9962639dd8dd2b037682386b2a3ed91a26fd"
+    ],
+    "pending_reference_lead": "b198d4f6263de98d6a4078df4eff9962639dd8dd2b037682386b2a3ed91a26fd",
+    "screened_out": [
+      {
+        "txid": "45ebfeab502f4acce21c3bdb0aac1cb2549c555da06aa4fb780b04f52e123260",
+        "block_height": 974153,
+        "public_source": "https://bitcoin.prod.gke.papers.tech/tx/45ebfeab502f4acce21c3bdb0aac1cb2549c555da06aa4fb780b04f52e123260",
+        "block_hash": "0000000000000000000087d1fb31a166d221e6985c9ce0dfb2ae99497345a1fb",
+        "output_count": 2,
+        "collector_output_sat": 488000,
+        "other_outputs_sat": 11562,
+        "reason": "additional_non_collector_output"
+      }
+    ]
+  },
+  "evidence_checkpoint": {
+    "filename": "BTCPay-source-evidence-20261120-part4.json.gz",
+    "sha256": "d5ed5eaf63df273f104ff5ff8848b74b754224aabc073d5ef6aa6c283784d79a"
+  },
+  "documented_reference_txids": [
+    "8e25f0a572f562dd12514607eac4687408af09df8ccacd41e9acc66cea54ec11",
+    "22f6b68ef2c2d889230795634fd90ca0185a4344eca7e18a4e5d5bfd4300b017",
+    "00454b5f90c5e4e0dedc38a5f7242b6f8914d63a7123a55eb09a6f9c701d5203",
+    "6d61beff902953ea50a60edc49f2441d6dc47b75a5f35c0d93bfe6e6b0f59413",
+    "4260975a3e18198f030191f4138e5969746804a52119c6dec282d0ab1b81dcd5",
+    "7840f3b186d7ae303565d2a423baab3e10ad916bd14389d9af95550990f80f10",
+    "1c4671ab2f4cfee8622291b3cf9357334c6da94c11436d52b94b586676abc45c",
+    "20f6c265a6dda063c6d3a4661610e2105f218a00e5b8fec810bf001602456306",
+    "5d7e04554feb294b967d8415e1d01a3a0b07be8b5ed86da538138867acfa01d9"
+  ]
+}

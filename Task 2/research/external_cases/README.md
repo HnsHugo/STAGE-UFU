@@ -1,5 +1,10 @@
 # Sourced theft cases and decision-time features
 
+20 November 2026. The [fourth BTCPay Server source intake](btcpay_source_intake_20261120_04/README.md)
+adds seven distinct input addresses from two confirmed payments. The registry
+covers 1,395 distinct addresses across nine documented payments, including the
+partial pilot.
+
 19 November 2026. The [third BTCPay Server source intake](btcpay_source_intake_20261119_03/README.md)
 adds eight distinct input addresses from two confirmed payments. The observed
 registry covers 1,388 addresses across seven documented payments, including
