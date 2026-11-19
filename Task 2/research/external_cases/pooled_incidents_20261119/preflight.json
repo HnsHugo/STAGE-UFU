@@ -1,0 +1,175 @@
+{
+  "fits_before_freeze": 0,
+  "folds_sha256": "8c10640c3243bfabba40016a699abbd55c91bbc8ab955624a3c23e0d45bb8f56",
+  "population_audit": {
+    "complete": 1800,
+    "components": 1170,
+    "folds": [
+      {
+        "fold": 1,
+        "test": 317,
+        "test_by_incident": {
+          "coldcard": {
+            "cases": 100,
+            "comparisons": 151,
+            "total": 251
+          },
+          "cryptobilis": {
+            "cases": 24,
+            "comparisons": 42,
+            "total": 66
+          }
+        },
+        "test_groups": 257,
+        "train": 1483,
+        "train_by_incident": {
+          "coldcard": {
+            "cases": 400,
+            "comparisons": 820,
+            "total": 1220
+          },
+          "cryptobilis": {
+            "cases": 98,
+            "comparisons": 165,
+            "total": 263
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "test": 317,
+        "test_by_incident": {
+          "coldcard": {
+            "cases": 100,
+            "comparisons": 151,
+            "total": 251
+          },
+          "cryptobilis": {
+            "cases": 25,
+            "comparisons": 41,
+            "total": 66
+          }
+        },
+        "test_groups": 263,
+        "train": 1483,
+        "train_by_incident": {
+          "coldcard": {
+            "cases": 400,
+            "comparisons": 820,
+            "total": 1220
+          },
+          "cryptobilis": {
+            "cases": 97,
+            "comparisons": 166,
+            "total": 263
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "test": 317,
+        "test_by_incident": {
+          "coldcard": {
+            "cases": 100,
+            "comparisons": 151,
+            "total": 251
+          },
+          "cryptobilis": {
+            "cases": 24,
+            "comparisons": 42,
+            "total": 66
+          }
+        },
+        "test_groups": 255,
+        "train": 1483,
+        "train_by_incident": {
+          "coldcard": {
+            "cases": 400,
+            "comparisons": 820,
+            "total": 1220
+          },
+          "cryptobilis": {
+            "cases": 98,
+            "comparisons": 165,
+            "total": 263
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "test": 317,
+        "test_by_incident": {
+          "coldcard": {
+            "cases": 100,
+            "comparisons": 151,
+            "total": 251
+          },
+          "cryptobilis": {
+            "cases": 25,
+            "comparisons": 41,
+            "total": 66
+          }
+        },
+        "test_groups": 261,
+        "train": 1483,
+        "train_by_incident": {
+          "coldcard": {
+            "cases": 400,
+            "comparisons": 820,
+            "total": 1220
+          },
+          "cryptobilis": {
+            "cases": 97,
+            "comparisons": 166,
+            "total": 263
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "test": 532,
+        "test_by_incident": {
+          "coldcard": {
+            "cases": 100,
+            "comparisons": 367,
+            "total": 467
+          },
+          "cryptobilis": {
+            "cases": 24,
+            "comparisons": 41,
+            "total": 65
+          }
+        },
+        "test_groups": 134,
+        "train": 1268,
+        "train_by_incident": {
+          "coldcard": {
+            "cases": 400,
+            "comparisons": 604,
+            "total": 1004
+          },
+          "cryptobilis": {
+            "cases": 98,
+            "comparisons": 166,
+            "total": 264
+          }
+        }
+      }
+    ],
+    "incidents": {
+      "coldcard": {
+        "available": 1471,
+        "cases": 500,
+        "unavailable": 29
+      },
+      "cryptobilis": {
+        "available": 329,
+        "cases": 122,
+        "unavailable": 37
+      }
+    },
+    "largest_component": 394
+  },
+  "protocol_sha256": "70aca30c8b69f09cfbb8ebc0333ff0b8dbeffeff296bf2c17dd9344634c5594b",
+  "runner_sha256": "a5ba7ee28a2f885eb98a489310307b6fffeac5030532658e019a34526b9489de"
+}

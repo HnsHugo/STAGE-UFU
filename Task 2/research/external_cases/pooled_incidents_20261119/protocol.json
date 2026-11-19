@@ -1,0 +1,46 @@
+{
+  "source_commit": "6f28d174631bfca340a6db50aec8ff1e9f4a822e",
+  "within_incident_pins": {
+    "protocol.json": "fdb8188172a0551a0df6c5bf2dfffd08ac66d3006ae8cb97035b36462416aad2",
+    "evaluate_within.py": "b9a4162f0d37188e91bc216939ed7edf1f815ec84bd70da8c6c2017aba81addd"
+  },
+  "requirement": "Pooled Coldcard and CryptoBilis training, evaluated on pooled held-out addresses.",
+  "unit": "One source address with a fixed reference payment.",
+  "target": "Documented source-cohort membership for the address's incident.",
+  "population": {
+    "coldcard": {
+      "available": 1471,
+      "unavailable": 29
+    },
+    "cryptobilis": {
+      "available": 329,
+      "unavailable": 37
+    }
+  },
+  "cutoff": "The fourteen pinned predictors from confirmed transactions strictly before each reference block.",
+  "feature_policy": "Reuse the frozen feature allowlist and missing-value flags. Incident identity and group ID are excluded from the estimator inputs.",
+  "split": {
+    "method": "StratifiedGroupKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42,
+    "strata": "incident and membership",
+    "minimum_per_incident_class": 20
+  },
+  "groups": "Use the audited shared component ID globally, including for components that span both incidents.",
+  "estimator": "Use the fixed depth-3, minimum leaf 20 balanced decision tree from the pinned earlier experiment.",
+  "classification_threshold": 0.5,
+  "preprocessing": "Median imputation from training folds only, plus one missing flag per predictor.",
+  "baselines": [
+    "prior_inactivity",
+    "prior_balance"
+  ],
+  "metrics": "Pooled out-of-fold and fold-level precision, recall, F1, AP, ROC-AUC and confusion counts, overall and per incident.",
+  "third_incident_usage": "None",
+  "collection_requests": 0,
+  "software": {
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0"
+  }
+}
