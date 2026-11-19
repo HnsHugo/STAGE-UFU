@@ -1,0 +1,75 @@
+{
+  "components": 1217,
+  "cross_incident_components": 4,
+  "directions": {
+    "coldcard_to_cryptobilis": {
+      "overlap_test": {
+        "cases": 0,
+        "comparisons": 58,
+        "total": 58
+      },
+      "test": {
+        "cases": 122,
+        "comparisons": 149,
+        "total": 271
+      },
+      "train": {
+        "cases": 500,
+        "comparisons": 971,
+        "total": 1471
+      },
+      "unavailable_test": {
+        "cases": 0,
+        "comparisons": 37,
+        "total": 37
+      },
+      "unavailable_train": {
+        "cases": 0,
+        "comparisons": 29,
+        "total": 29
+      }
+    },
+    "cryptobilis_to_coldcard": {
+      "overlap_test": {
+        "cases": 1,
+        "comparisons": 389,
+        "total": 390
+      },
+      "test": {
+        "cases": 499,
+        "comparisons": 582,
+        "total": 1081
+      },
+      "train": {
+        "cases": 122,
+        "comparisons": 207,
+        "total": 329
+      },
+      "unavailable_test": {
+        "cases": 0,
+        "comparisons": 29,
+        "total": 29
+      },
+      "unavailable_train": {
+        "cases": 0,
+        "comparisons": 37,
+        "total": 37
+      }
+    }
+  },
+  "eligibility_sha256": "6dae1e1b42575f778cd4759649611c12ecab6f5651ee0c8fb2ffcb6d66e813ce",
+  "fits_before_freeze": 0,
+  "independent_overlap_reconstruction": true,
+  "legacy_components_reproduced": 1281,
+  "observations_recounted": {
+    "coldcard": 249063,
+    "cryptobilis": 8261
+  },
+  "protocol_sha256": "aae2d8097003aec3ffd6242f67052acbcc2f3055c58d96a70afdaf5ab3f56e7f",
+  "runner_sha256": "e4af08e0b9925edbea0428ef287912cc2d03708d61600b1d734af7c4cd6868e8",
+  "vectors_recounted": {
+    "additional_private_vectors": 8,
+    "additional_public_vectors": 85,
+    "previously_audited_vectors": 1707
+  }
+}
