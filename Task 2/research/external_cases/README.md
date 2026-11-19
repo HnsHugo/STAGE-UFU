@@ -1,5 +1,10 @@
 # Sourced theft cases and decision-time features
 
+19 November 2026: [grouped within-incident tests](within_incident_20261119/RESULTS.md)
+score all 1,800 complete Coldcard and CryptoBilis addresses once across held-out
+folds. The membership F1 scores are 0.9832 on Coldcard and 0.9195 on CryptoBilis.
+The report compares internal and cross-incident predictions on matched test addresses.
+
 19 November 2026: [bidirectional Coldcard / CryptoBilis training and transfer](bidirectional_transfer_20261119/RESULTS.md)
 uses the fixed 1,471-vector Coldcard view and the 329-vector CryptoBilis view.
 Two fixed shallow trees give held-out-incident membership F1 of 0.5665 and 0.9198,
