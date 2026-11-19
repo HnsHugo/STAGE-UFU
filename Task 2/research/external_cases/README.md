@@ -1,5 +1,9 @@
 # Sourced theft cases and decision-time features
 
+19 November 2026. The [grouped pooled-incident evaluation](pooled_incidents_20261119/RESULTS.md)
+trains on both Coldcard and CryptoBilis in every fold and scores 1,800 held-out
+vectors. Membership F1 is 0.9376 overall, 0.9467 on Coldcard and 0.8966 on CryptoBilis.
+
 19 November 2026: [grouped within-incident tests](within_incident_20261119/RESULTS.md)
 score all 1,800 complete Coldcard and CryptoBilis addresses once across held-out
 folds. The membership F1 scores are 0.9832 on Coldcard and 0.9195 on CryptoBilis.
