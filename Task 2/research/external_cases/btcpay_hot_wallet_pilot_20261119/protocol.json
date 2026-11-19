@@ -1,0 +1,26 @@
+{
+  "incident": "btcpay_hot_wallet_20261030",
+  "objective": "Check whether the November BTCPay Server thefts can support a held-out evaluation of pooled Coldcard and CryptoBilis training.",
+  "unit": "Bitcoin input address with a documented reference payment to the reported collector.",
+  "target": "Membership in the documented source cohort.",
+  "pilot_scope": "The published direct sweep below. Audit the address witnesses visible in its transaction record.",
+  "official_incident_report": "https://blog.btcpayserver.org/btcpay-server-security-incident-2-4-1-and-earlier/",
+  "independent_trace": "https://www.bitquery.io/investigations/btcpay-server-hack",
+  "reference": {
+    "txid": "8e25f0a572f562dd12514607eac4687408af09df8ccacd41e9acc66cea54ec11",
+    "height": 974152,
+    "date_utc": "2026-11-01",
+    "collector": "bc1p0f7wmcnesrapznymf9ljdn04pudgmh96sqtrm9vmgqxdh666fh8qvn63r7",
+    "public_record": "https://btcintel.io/tx/8e25f0a572f562dd12514607eac4687408af09df8ccacd41e9acc66cea54ec11",
+    "block_record": "https://btcintel.io/block/974152"
+  },
+  "grouping": "All inputs of the reference transaction share one observed component. Merchant identity and links to other sweeps remain unresolved.",
+  "cutoff": "Use only confirmed transactions in blocks strictly below the reference block for any future feature extraction.",
+  "test_design": "Hold the whole incident out. Audit address and transaction links to the two development cohorts before selecting comparison sources from the same reference blocks.",
+  "development": {
+    "commit": "9d044a58c7e7216f892ff736a8f2d8a77d38aa75",
+    "transfer_protocol": "Task 2/research/external_cases/bidirectional_transfer_20261119/protocol.json",
+    "coldcard_selected": 1500,
+    "cryptobilis_selected": 366
+  }
+}

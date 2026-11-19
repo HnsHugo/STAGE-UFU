@@ -1,0 +1,99 @@
+{
+  "address_witnesses": {
+    "address_sha256": [
+      "10d70bd045340b66f049088e1ffad359ac082afa65f3dad917c5ce9903db0ed3",
+      "20e5d260e9ef4e71c4c4ecf60e46e42abeef8d5e30a231f0f027a2cf22d54a55",
+      "32e41e90a8fea5720ced28481ff5cabdb419652e1f37f2eb03c2aaa7bcf1f41f",
+      "3600900c23c85f996ddb1d536e1d4da163a0c8ee6a487076cb015ff38088b76e",
+      "6c7143bfb5cb25656ad576d9b2ca484ed03d45652bef13adeba02f8c3e40f0e0",
+      "90b159c7bffbfd419e9ac8394d1aa2a5d58a1cd70e60c2eace59e76dafb52bba",
+      "b35539abae775302e79dd4a9ffc09cb631dd46692babc3bb5f8b8d759773c377",
+      "b634b8ade3eb8551640372797f576e600f837c71f8ae1119ac191536986673de",
+      "bbe8626d48e7697525a96df75db7fdfa80c4971dbb0e0bae07b9147098453327",
+      "bdf63a46ac1c5ee3b342e3a275f5a7b7cd53db62510728b121d523318accc2e1",
+      "d40a149ab66aba645357a42c74672042ef95420a36758e0d1b5df44f0e086e13"
+    ],
+    "reported_addresses_without_individual_witness_in_this_audit": 554,
+    "visible_distinct_addresses": 11,
+    "visible_indexed_inputs": [
+      {
+        "address_sha256": "32e41e90a8fea5720ced28481ff5cabdb419652e1f37f2eb03c2aaa7bcf1f41f",
+        "index": 0,
+        "previous_txid_sha256": "b016925163293a25fbe080903a74e25d76e68bb435ab1b912b6cf8d73ce7d6a1",
+        "previous_vout": 17
+      },
+      {
+        "address_sha256": "bdf63a46ac1c5ee3b342e3a275f5a7b7cd53db62510728b121d523318accc2e1",
+        "index": 1,
+        "previous_txid_sha256": "aa12ba606fb3a5507842672a6e0db25723797f9755f871ff6e1851c536451f14",
+        "previous_vout": 1
+      },
+      {
+        "address_sha256": "b634b8ade3eb8551640372797f576e600f837c71f8ae1119ac191536986673de",
+        "index": 2,
+        "previous_txid_sha256": "092f26c89d225e23a709d0d369f69aa6891c31e498d865bcadbc91c1e6c336fc",
+        "previous_vout": 1
+      },
+      {
+        "address_sha256": "6c7143bfb5cb25656ad576d9b2ca484ed03d45652bef13adeba02f8c3e40f0e0",
+        "index": 3,
+        "previous_txid_sha256": "a552c95d70d669cfa2fa4748140a3811eb6519775b75419163844aaf61137109",
+        "previous_vout": 1
+      },
+      {
+        "address_sha256": "10d70bd045340b66f049088e1ffad359ac082afa65f3dad917c5ce9903db0ed3",
+        "index": 4,
+        "previous_txid_sha256": "d6dfc3621bb24baf9c193a68ce89939b2be60fe5104b7d9983541dfc0551ae7e",
+        "previous_vout": 0
+      }
+    ]
+  },
+  "comparison_sources_selected": 0,
+  "development_pins": {
+    "coldcard": {
+      "file": "Task 2/research/coldcard/dual_api_native_0315_20261118_52/precutoff_feature_view.json.gz",
+      "sha256": "b412e39638598ffcb4b907074f4bd5166829f4cf6b962f0490a8d194de6be9f8"
+    },
+    "cryptobilis": {
+      "file": "Task 2/research/external_cases/cryptobilis_reference_prefix_20261104_201345/precutoff_feature_view.json.gz",
+      "sha256": "1e5ddf726ae40caffd9ebcb8113f748dace0a6b6c5df708d80cf1686371eb87e"
+    }
+  },
+  "evaluated_models": 0,
+  "evidence_type": "published_explorer_witnesses",
+  "exact_identity_checks": {
+    "coldcard": {
+      "complete_development_vectors": 1471,
+      "development_rows": 1500,
+      "reference_txid_matches": 0,
+      "visible_address_matches": 0,
+      "visible_parent_txid_matches_against_reference_txids": 0
+    },
+    "cryptobilis": {
+      "complete_development_vectors": 329,
+      "development_rows": 366,
+      "reference_txid_matches": 0,
+      "visible_address_matches": 0,
+      "visible_parent_txid_matches_against_reference_txids": 0
+    }
+  },
+  "feature_vectors_computed": 0,
+  "protocol_sha256": "ee029cc5a1c6c093bb49bcd20a6c5756017e94495ba8b7576f00b1787d271e6b",
+  "reference": {
+    "block_height": 974152,
+    "block_reported_transaction_count": 6058,
+    "collector_output_sat": 185736366,
+    "distinct_input_addresses_reported": 565,
+    "fee_sat": 76804,
+    "input_total_sat": 185813170,
+    "inputs_reported": 566,
+    "observed_transaction_groups": 1,
+    "txid": "8e25f0a572f562dd12514607eac4687408af09df8ccacd41e9acc66cea54ec11"
+  },
+  "schema_version": 1,
+  "scope_limits": [
+    "The explorer summary supplies the aggregate input counts. The audit checks the displayed subset by address.",
+    "Complete block and input census, funding histories, cross-sweep links and merchant identities are unresolved.",
+    "Matches were checked against selected source identities and reference transactions. Full historical graph overlap remains unmeasured."
+  ]
+}

@@ -1,5 +1,9 @@
 # Sourced theft cases and decision-time features
 
+19 November 2026. The [BTCPay Server source pilot](btcpay_hot_wallet_pilot_20261119/README.md)
+anchors one November Bitcoin sweep. It records the grouped inputs and checks
+the 11 individually visible addresses against the frozen development cohorts.
+
 19 November 2026. The [grouped pooled-incident evaluation](pooled_incidents_20261119/RESULTS.md)
 trains on both Coldcard and CryptoBilis in every fold and scores 1,800 held-out
 vectors. Membership F1 is 0.9376 overall, 0.9467 on Coldcard and 0.8966 on CryptoBilis.
