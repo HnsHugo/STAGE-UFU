@@ -1,0 +1,46 @@
+{
+  "scope": "btcpay_source_intake_20261119_02",
+  "incident": "btcpay_hot_wallet_20261030",
+  "objective": "Extend the held-out BTCPay source registry from complete published input tables.",
+  "target": "Observed source-cohort membership",
+  "collector": "bc1p0f7wmcnesrapznymf9ljdn04pudgmh96sqtrm9vmgqxdh666fh8qvn63r7",
+  "height_window_inclusive": [
+    974152,
+    974216
+  ],
+  "cutoff": "Future pre-reference features use strictly lower block heights.",
+  "references": [
+    {
+      "txid": "6d61beff902953ea50a60edc49f2441d6dc47b75a5f35c0d93bfe6e6b0f59413",
+      "block_height": 974155,
+      "block_hash": "000000000000000000003624a996cb586aeed96dd0469df71346ddae84c95bac",
+      "public_source": "https://bitcoin.prod.gke.papers.tech/tx/6d61beff902953ea50a60edc49f2441d6dc47b75a5f35c0d93bfe6e6b0f59413"
+    },
+    {
+      "txid": "4260975a3e18198f030191f4138e5969746804a52119c6dec282d0ab1b81dcd5",
+      "block_height": 974166,
+      "block_hash": "00000000000000000000931a497e52c47996c00c141cc71bd5bc98d40dea6bb4",
+      "public_source": "https://bitcoin.prod.gke.papers.tech/tx/4260975a3e18198f030191f4138e5969746804a52119c6dec282d0ab1b81dcd5"
+    }
+  ],
+  "base_commit": "35af9cae9a46788f98ee41da177e39809f91ec8c",
+  "pilot": {
+    "file": "Task 2/research/external_cases/btcpay_hot_wallet_pilot_20261119/audit.json",
+    "sha256": "3b740a9e625f29fc3e7fc70f169608b2eeec4ec5e8051387d492c20c8104025a"
+  },
+  "previous_registries": [
+    {
+      "file": "Task 2/research/external_cases/btcpay_source_intake_20261119_01/source_registry.json.gz",
+      "sha256": "9dd4f0986b9749a9670498e6246a0cecbbf430e6190ee66ed8ba238f80ebbc11"
+    }
+  ],
+  "discovery": {
+    "published_address_page": "https://bitcoin.prod.gke.papers.tech/address/bc1p0f7wmcnesrapznymf9ljdn04pudgmh96sqtrm9vmgqxdh666fh8qvn63r7?page=34",
+    "pending_reference_lead": "7840f3b186d7ae303565d2a423baab3e10ad916bd14389d9af95550990f80f10",
+    "rejected_outside_window": [
+      "294207c7f1767058d2875b4371f51849f6532a2a29f976df1b4745e9af208fed",
+      "8da10605a99fcff0475219dff6466b6b05062a7f2967eb2504acfb998457e791",
+      "559b57bd918d557bee1bb7f86b563e5fcc1aa5a45ec2746751cfc8660f877318"
+    ]
+  }
+}
