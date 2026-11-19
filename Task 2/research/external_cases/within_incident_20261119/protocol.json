@@ -1,0 +1,47 @@
+{
+  "source_commit": "12c82e27239a8cbd909d86c5cf291421242e8446",
+  "input_pins": {
+    "protocol.json": "aae2d8097003aec3ffd6242f67052acbcc2f3055c58d96a70afdaf5ab3f56e7f",
+    "preflight.json": "1560df5070d5566d19fc759f133e5366b6d1f2e9620fcd580d1619bd542c7f2c",
+    "eligibility.json.gz": "6dae1e1b42575f778cd4759649611c12ecab6f5651ee0c8fb2ffcb6d66e813ce",
+    "run_transfer.py": "e4af08e0b9925edbea0428ef287912cc2d03708d61600b1d734af7c4cd6868e8"
+  },
+  "requirement": "Evaluate same-incident transfer on held-out address groups for both Coldcard and CryptoBilis.",
+  "unit": "One Bitcoin source address with its fixed reference payment.",
+  "target": "Documented source-cohort membership of the incident being evaluated.",
+  "cutoff": "The same fourteen frozen predictors from confirmed transactions strictly before the reference block.",
+  "population": {
+    "coldcard": {
+      "available": 1471,
+      "unavailable": 29
+    },
+    "cryptobilis": {
+      "available": 329,
+      "unavailable": 37
+    }
+  },
+  "groups": "Reuse the previously audited connected components. Keep every component intact, even when a link is mediated by another incident. Every fit uses rows of the incident under test only.",
+  "split": {
+    "method": "StratifiedGroupKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42,
+    "minimum_class_support": 20
+  },
+  "estimator": "Use the fixed Gini tree of the pinned transfer protocol with balanced weights, depth 3, minimum leaf size 20 and the original seed.",
+  "imputation": "Training-fold medians and the original missing-value flags; fallback zero for an entirely missing training field.",
+  "classification_threshold": 0.5,
+  "metrics": "Confusion counts, precision, recall, F1, average precision and ROC-AUC, with pooled out-of-fold and individual fold results.",
+  "baselines": [
+    "prior_inactivity",
+    "prior_balance"
+  ],
+  "other_incident_rows_used_for_fit": 0,
+  "collection_requests": 0,
+  "third_incident_usage": "None",
+  "software": {
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0"
+  }
+}

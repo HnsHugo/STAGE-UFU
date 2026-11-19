@@ -1,0 +1,172 @@
+{
+  "fits_before_freeze": 0,
+  "folds_sha256": "c48ac985e69b73c5601e250824d17987a54cdaab18f861cdff1bb8908434627e",
+  "incidents": {
+    "coldcard": {
+      "folds": [
+        {
+          "fold": 1,
+          "test": {
+            "cases": 100,
+            "comparisons": 152,
+            "total": 252
+          },
+          "test_groups": 203,
+          "train": {
+            "cases": 400,
+            "comparisons": 819,
+            "total": 1219
+          }
+        },
+        {
+          "fold": 2,
+          "test": {
+            "cases": 100,
+            "comparisons": 151,
+            "total": 251
+          },
+          "test_groups": 202,
+          "train": {
+            "cases": 400,
+            "comparisons": 820,
+            "total": 1220
+          }
+        },
+        {
+          "fold": 3,
+          "test": {
+            "cases": 100,
+            "comparisons": 152,
+            "total": 252
+          },
+          "test_groups": 205,
+          "train": {
+            "cases": 400,
+            "comparisons": 819,
+            "total": 1219
+          }
+        },
+        {
+          "fold": 4,
+          "test": {
+            "cases": 100,
+            "comparisons": 151,
+            "total": 251
+          },
+          "test_groups": 205,
+          "train": {
+            "cases": 400,
+            "comparisons": 820,
+            "total": 1220
+          }
+        },
+        {
+          "fold": 5,
+          "test": {
+            "cases": 100,
+            "comparisons": 365,
+            "total": 465
+          },
+          "test_groups": 98,
+          "train": {
+            "cases": 400,
+            "comparisons": 606,
+            "total": 1006
+          }
+        }
+      ],
+      "groups": 913,
+      "incomplete": 29,
+      "largest_group": 365,
+      "population": {
+        "cases": 500,
+        "comparisons": 971,
+        "total": 1471
+      }
+    },
+    "cryptobilis": {
+      "folds": [
+        {
+          "fold": 1,
+          "test": {
+            "cases": 25,
+            "comparisons": 41,
+            "total": 66
+          },
+          "test_groups": 38,
+          "train": {
+            "cases": 97,
+            "comparisons": 166,
+            "total": 263
+          }
+        },
+        {
+          "fold": 2,
+          "test": {
+            "cases": 24,
+            "comparisons": 42,
+            "total": 66
+          },
+          "test_groups": 51,
+          "train": {
+            "cases": 98,
+            "comparisons": 165,
+            "total": 263
+          }
+        },
+        {
+          "fold": 3,
+          "test": {
+            "cases": 25,
+            "comparisons": 41,
+            "total": 66
+          },
+          "test_groups": 55,
+          "train": {
+            "cases": 97,
+            "comparisons": 166,
+            "total": 263
+          }
+        },
+        {
+          "fold": 4,
+          "test": {
+            "cases": 24,
+            "comparisons": 42,
+            "total": 66
+          },
+          "test_groups": 59,
+          "train": {
+            "cases": 98,
+            "comparisons": 165,
+            "total": 263
+          }
+        },
+        {
+          "fold": 5,
+          "test": {
+            "cases": 24,
+            "comparisons": 41,
+            "total": 65
+          },
+          "test_groups": 58,
+          "train": {
+            "cases": 98,
+            "comparisons": 166,
+            "total": 264
+          }
+        }
+      ],
+      "groups": 261,
+      "incomplete": 37,
+      "largest_group": 29,
+      "population": {
+        "cases": 122,
+        "comparisons": 207,
+        "total": 329
+      }
+    }
+  },
+  "protocol_sha256": "fdb8188172a0551a0df6c5bf2dfffd08ac66d3006ae8cb97035b36462416aad2",
+  "runner_sha256": "b9a4162f0d37188e91bc216939ed7edf1f815ec84bd70da8c6c2017aba81addd"
+}
