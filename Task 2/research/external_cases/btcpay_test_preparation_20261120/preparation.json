@@ -1,0 +1,35 @@
+{
+  "catalogue_sha256": "a84621c00b76d899bbb53b412ca67a5bd64eac1bea4c9356ff2820f776472242",
+  "archives_replayed": 15,
+  "payments_documented": 30,
+  "payments_with_complete_input_tables": 29,
+  "reconciled_input_rows": 2511,
+  "distinct_addresses_observed": 2474,
+  "distinct_addresses_from_complete_input_tables": 2463,
+  "prepared_source_reference_pairs": 2463,
+  "partial_pilot_witnesses_preserved": 11,
+  "candidate_pilot_sources": 16,
+  "comparison_quota": 32,
+  "comparisons_selected": 0,
+  "complete_btcpay_prefixes_in_catalogue": 0,
+  "model_evaluations": 0,
+  "exact_development_overlap": {
+    "coldcard": {
+      "selected_rows": 1500,
+      "address_matches": 0,
+      "reference_txid_matches": 0
+    },
+    "cryptobilis": {
+      "selected_rows": 366,
+      "address_matches": 0,
+      "reference_txid_matches": 0
+    }
+  },
+  "base_commit": "1a2c4ee7317572f3f78896921ef0599c93377be4",
+  "private_catalogue": "BTCPay-test-catalogue-20261120.json.gz",
+  "private_catalogue_readback_verified": true,
+  "reference_plan_reproduced_byte_for_byte": true,
+  "offline_prefix_fixture_checks": 6,
+  "reference_tail_regression_tests": 5,
+  "direct_collection_requests": 0
+}

@@ -1,5 +1,10 @@
 # Sourced theft cases and decision-time features
 
+20 November 2026. The [BTCPay external test preparation](btcpay_test_preparation_20261120/README.md)
+freezes 2,463 source/reference pairs after replaying all 15 saved intakes. It prepares
+a 16-block coverage pilot with two planned comparisons per block. Validated BTCPay
+history prefixes and selected comparisons are both still at zero.
+
 20 November 2026. The [fifteenth BTCPay Server source intake](btcpay_source_intake_20261120_15/README.md)
 adds five distinct input addresses from two confirmed payments. The registry
 covers 2,474 distinct addresses across 30 documented payments, including the

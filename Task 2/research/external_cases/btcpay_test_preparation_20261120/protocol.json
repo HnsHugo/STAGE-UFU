@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "base_commit": "1a2c4ee7317572f3f78896921ef0599c93377be4",
+  "incident": "btcpay_hot_wallet_20261030",
+  "collector": "bc1p0f7wmcnesrapznymf9ljdn04pudgmh96sqtrm9vmgqxdh666fh8qvn63r7",
+  "height_window_inclusive": [
+    974152,
+    974216
+  ],
+  "pilot": {
+    "file": "Task 2/research/external_cases/btcpay_hot_wallet_pilot_20261119/audit.json",
+    "sha256": "3b740a9e625f29fc3e7fc70f169608b2eeec4ec5e8051387d492c20c8104025a"
+  },
+  "intakes": [
+    {
+      "protocol": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261119_01/protocol.json",
+        "sha256": "2da8f6b78fe591e7607458186d01062a29b05c6c7a7a8e44b4eebc01652b309c"
+      },
+      "registry": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261119_01/source_registry.json.gz",
+        "sha256": "9dd4f0986b9749a9670498e6246a0cecbbf430e6190ee66ed8ba238f80ebbc11"
+      }
+    },
+    {
+      "protocol": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261119_02/protocol.json",
+        "sha256": "d6003d1dbb6be4fc23099001f01f83df61dab8d6f589f60281e0bcea8ba7a34a"
+      },
+      "registry": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261119_02/source_registry.json.gz",
+        "sha256": "75e0920b237b827bf7b7657966e43af4e85c808998c0467d32526b787442c973"
+      }
+    },
+    {
+      "protocol": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261119_03/protocol.json",
+        "sha256": "55f6cc66c513dd05a887a1bddd72745953dc1657144b8a7fdc013ac970d9512e"
+      },
+      "registry": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261119_03/source_registry.json.gz",
+        "sha256": "4f3104f38178ad4156c91ca8e46a363ef2c203fa0e9938279b8c78a7e080904e"
+      }
+    },
+    {
+      "protocol": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_04/protocol.json",
+        "sha256": "4ccfd03a515c718987208a2564b93ac9b4b2101fe07bc86a43c455388741c77d"
+      },
+      "registry": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_04/source_registry.json.gz",
+        "sha256": "691d54b05bc9197311ccdb067bc6000803429556abbf8ef4373993e524eb6e7b"
+      }
+    },
+    {
+      "protocol": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_05/protocol.json",
+        "sha256": "9aed0977e700c897d26ec0f76e03095890f7866607b1240655322e397613b2e6"
+      },
+      "registry": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_05/source_registry.json.gz",
+        "sha256": "8b2edcaf24b05ec82aae3602854d6cedcbbc51d5bc31f2232b605b4886caf932"
+      }
+    },
+    {
+      "protocol": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_06/protocol.json",
+        "sha256": "c2b0c0fbc83af63f314908e95dc34e15de39ed2d38fd2ccb8772a032e12b8e14"
+      },
+      "registry": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_06/source_registry.json.gz",
+        "sha256": "e1ec3caf23d1aae4d6a5d1c2e656ab4871602497c6d6e0d9d7268cf4795571e0"
+      }
+    },
+    {
+      "protocol": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_07/protocol.json",
+        "sha256": "8ab6d836bbc3dfd3c98e9b4f867e93582b356d12241a24e0a5c7cf424370a154"
+      },
+      "registry": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_07/source_registry.json.gz",
+        "sha256": "728c753d5284a93b7fdc972fdfa1ec4244920fc301e07f1f0febf7adc326e15e"
+      }
+    },
+    {
+      "protocol": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_08/protocol.json",
+        "sha256": "7f56d171edc489ec2e318468091cee1a770e3c3981cb845c43e6b134ad363642"
+      },
+      "registry": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_08/source_registry.json.gz",
+        "sha256": "f2825c89640e2763abd33f4a471231d24fdf0effab11e8a182f56c08e73a210e"
+      }
+    },
+    {
+      "protocol": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_09/protocol.json",
+        "sha256": "a1b9137f195a9ad8d95c9fe0badd116c4c1b82ae93dc8208c690f8f603f80c01"
+      },
+      "registry": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_09/source_registry.json.gz",
+        "sha256": "bfb0c110a4e761939f9b931183068212e66a8a3afad6e03026f3699715ade040"
+      }
+    },
+    {
+      "protocol": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_10/protocol.json",
+        "sha256": "de7d49f7bca0d7e73cea043d45e6c6efb18abb927560a0ad0d1de20f7bae203a"
+      },
+      "registry": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_10/source_registry.json.gz",
+        "sha256": "c00fc11ab8780a98e51b4093e11ed4435808bc06aa04e1e192a1c3529f6b8c85"
+      }
+    },
+    {
+      "protocol": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_11/protocol.json",
+        "sha256": "9144a9034a84898c4458f2217a1f2543e780df9e3aac7fdf0a473d3337cbd9aa"
+      },
+      "registry": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_11/source_registry.json.gz",
+        "sha256": "ba6aa4a1fa3871e490b453ccbfebad71ab469f9aa54c10a1b7d60cd005c0dffc"
+      }
+    },
+    {
+      "protocol": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_12/protocol.json",
+        "sha256": "a59335f703af004c9d1d9339155def99a596212f62058d57590921bf840ff400"
+      },
+      "registry": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_12/source_registry.json.gz",
+        "sha256": "ef2858322a2a4034677d0e5539fc96055e04a172964b7176c7611e6bfe6d6f72"
+      }
+    },
+    {
+      "protocol": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_13/protocol.json",
+        "sha256": "0461be3b91ec2def843f2e5974d8d68f6ad894699c22125333e68c6e0196dde7"
+      },
+      "registry": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_13/source_registry.json.gz",
+        "sha256": "fbdf1303260513c5fab375832aa88d2c8b062dac496b6d3404ef1482ce611d18"
+      }
+    },
+    {
+      "protocol": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_14/protocol.json",
+        "sha256": "5846167e60a22748bfa98d222d26af8e9022a654d44ffbfec4e1238cdd44583a"
+      },
+      "registry": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_14/source_registry.json.gz",
+        "sha256": "55a5cdd824cfb3d3ec2f09d47b42d3f0bcd3ab466a3ddabc312114de7755e8d2"
+      }
+    },
+    {
+      "protocol": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_15/protocol.json",
+        "sha256": "d7740deb5df8878e3433ec358f8998c0de6bf0f11bacd6510214573ca42fb90a"
+      },
+      "registry": {
+        "file": "Task 2/research/external_cases/btcpay_source_intake_20261120_15/source_registry.json.gz",
+        "sha256": "fdd0acee69353343420fd5da6c53e10c2e53aca6b9f387e164245c461925d42a"
+      }
+    }
+  ],
+  "frozen_models": {
+    "file": "Task 2/research/external_cases/pooled_incidents_20261119/models.json.gz",
+    "sha256": "5c663655e894fd2bf9ca14085660da6501303ee17615fbc58ddc7ba17a7d41c4"
+  },
+  "cutoff": "Confirmed block height strictly below the reference height.",
+  "target": "Observed membership in the source cohort at the reference payment.",
+  "candidate_pilot": {
+    "selection": "One candidate per reconciled reference block, ordered by salted address and TXID fingerprint.",
+    "salt": "btcpay_external_test_reference_pilot_20261120:",
+    "comparison_quota_per_selected_case": 2,
+    "purpose": "Coverage pilot before any external model evaluation."
+  }
+}
