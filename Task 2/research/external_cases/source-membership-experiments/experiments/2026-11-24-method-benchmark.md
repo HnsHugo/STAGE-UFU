@@ -2,7 +2,23 @@
 
 Compare the same 49 training and test combinations across Coldcard, CryptoBilis and BTCPay. All methods use the original source-cohort target, the same observations and the same reserved components. The predictors use confirmed histories strictly before the reference block.
 
-[Complete 49-cell benchmark CSV](2026-11-24-method-benchmark.csv)
+## Browse all 49 crossings
+
+Rows are training cohorts. Columns are test cohorts. Each link opens the 14-method results for that specific crossing.
+
+| Training / test | Coldcard | CryptoBilis | BTCPay | Coldcard + CryptoBilis | Coldcard + BTCPay | CryptoBilis + BTCPay | All three |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Coldcard** | [Internal](2026-11-24-method-benchmark-crossings.md#coldcard-to-coldcard) | [External](2026-11-24-method-benchmark-crossings.md#coldcard-to-cryptobilis) | [External](2026-11-24-method-benchmark-crossings.md#coldcard-to-btcpay) | [Mixed](2026-11-24-method-benchmark-crossings.md#coldcard-to-coldcard-and-cryptobilis) | [Mixed](2026-11-24-method-benchmark-crossings.md#coldcard-to-coldcard-and-btcpay) | [External](2026-11-24-method-benchmark-crossings.md#coldcard-to-cryptobilis-and-btcpay) | [Mixed](2026-11-24-method-benchmark-crossings.md#coldcard-to-coldcard-and-cryptobilis-and-btcpay) |
+| **CryptoBilis** | [External](2026-11-24-method-benchmark-crossings.md#cryptobilis-to-coldcard) | [Internal](2026-11-24-method-benchmark-crossings.md#cryptobilis-to-cryptobilis) | [External](2026-11-24-method-benchmark-crossings.md#cryptobilis-to-btcpay) | [Mixed](2026-11-24-method-benchmark-crossings.md#cryptobilis-to-coldcard-and-cryptobilis) | [External](2026-11-24-method-benchmark-crossings.md#cryptobilis-to-coldcard-and-btcpay) | [Mixed](2026-11-24-method-benchmark-crossings.md#cryptobilis-to-cryptobilis-and-btcpay) | [Mixed](2026-11-24-method-benchmark-crossings.md#cryptobilis-to-coldcard-and-cryptobilis-and-btcpay) |
+| **BTCPay** | [External](2026-11-24-method-benchmark-crossings.md#btcpay-to-coldcard) | [External](2026-11-24-method-benchmark-crossings.md#btcpay-to-cryptobilis) | [Internal](2026-11-24-method-benchmark-crossings.md#btcpay-to-btcpay) | [External](2026-11-24-method-benchmark-crossings.md#btcpay-to-coldcard-and-cryptobilis) | [Mixed](2026-11-24-method-benchmark-crossings.md#btcpay-to-coldcard-and-btcpay) | [Mixed](2026-11-24-method-benchmark-crossings.md#btcpay-to-cryptobilis-and-btcpay) | [Mixed](2026-11-24-method-benchmark-crossings.md#btcpay-to-coldcard-and-cryptobilis-and-btcpay) |
+| **Coldcard + CryptoBilis** | [Internal](2026-11-24-method-benchmark-crossings.md#coldcard-and-cryptobilis-to-coldcard) | [Internal](2026-11-24-method-benchmark-crossings.md#coldcard-and-cryptobilis-to-cryptobilis) | [External](2026-11-24-method-benchmark-crossings.md#coldcard-and-cryptobilis-to-btcpay) | [Internal](2026-11-24-method-benchmark-crossings.md#coldcard-and-cryptobilis-to-coldcard-and-cryptobilis) | [Mixed](2026-11-24-method-benchmark-crossings.md#coldcard-and-cryptobilis-to-coldcard-and-btcpay) | [Mixed](2026-11-24-method-benchmark-crossings.md#coldcard-and-cryptobilis-to-cryptobilis-and-btcpay) | [Mixed](2026-11-24-method-benchmark-crossings.md#coldcard-and-cryptobilis-to-coldcard-and-cryptobilis-and-btcpay) |
+| **Coldcard + BTCPay** | [Internal](2026-11-24-method-benchmark-crossings.md#coldcard-and-btcpay-to-coldcard) | [External](2026-11-24-method-benchmark-crossings.md#coldcard-and-btcpay-to-cryptobilis) | [Internal](2026-11-24-method-benchmark-crossings.md#coldcard-and-btcpay-to-btcpay) | [Mixed](2026-11-24-method-benchmark-crossings.md#coldcard-and-btcpay-to-coldcard-and-cryptobilis) | [Internal](2026-11-24-method-benchmark-crossings.md#coldcard-and-btcpay-to-coldcard-and-btcpay) | [Mixed](2026-11-24-method-benchmark-crossings.md#coldcard-and-btcpay-to-cryptobilis-and-btcpay) | [Mixed](2026-11-24-method-benchmark-crossings.md#coldcard-and-btcpay-to-coldcard-and-cryptobilis-and-btcpay) |
+| **CryptoBilis + BTCPay** | [External](2026-11-24-method-benchmark-crossings.md#cryptobilis-and-btcpay-to-coldcard) | [Internal](2026-11-24-method-benchmark-crossings.md#cryptobilis-and-btcpay-to-cryptobilis) | [Internal](2026-11-24-method-benchmark-crossings.md#cryptobilis-and-btcpay-to-btcpay) | [Mixed](2026-11-24-method-benchmark-crossings.md#cryptobilis-and-btcpay-to-coldcard-and-cryptobilis) | [Mixed](2026-11-24-method-benchmark-crossings.md#cryptobilis-and-btcpay-to-coldcard-and-btcpay) | [Internal](2026-11-24-method-benchmark-crossings.md#cryptobilis-and-btcpay-to-cryptobilis-and-btcpay) | [Mixed](2026-11-24-method-benchmark-crossings.md#cryptobilis-and-btcpay-to-coldcard-and-cryptobilis-and-btcpay) |
+| **All three** | [Internal](2026-11-24-method-benchmark-crossings.md#coldcard-and-cryptobilis-and-btcpay-to-coldcard) | [Internal](2026-11-24-method-benchmark-crossings.md#coldcard-and-cryptobilis-and-btcpay-to-cryptobilis) | [Internal](2026-11-24-method-benchmark-crossings.md#coldcard-and-cryptobilis-and-btcpay-to-btcpay) | [Internal](2026-11-24-method-benchmark-crossings.md#coldcard-and-cryptobilis-and-btcpay-to-coldcard-and-cryptobilis) | [Internal](2026-11-24-method-benchmark-crossings.md#coldcard-and-cryptobilis-and-btcpay-to-coldcard-and-btcpay) | [Internal](2026-11-24-method-benchmark-crossings.md#coldcard-and-cryptobilis-and-btcpay-to-cryptobilis-and-btcpay) | [Internal](2026-11-24-method-benchmark-crossings.md#coldcard-and-cryptobilis-and-btcpay-to-coldcard-and-cryptobilis-and-btcpay) |
+
+**External:** test incidents held out entirely. **Internal:** test groups held out by fold. **Mixed:** held-out groups and external incidents in the same test set.
+
+[All 49 crossings on one page](2026-11-24-method-benchmark-crossings.md) · [Complete 49-cell benchmark CSV](2026-11-24-method-benchmark.csv)
 
 ## External transfer results
 
@@ -25,7 +41,7 @@ Each row averages the nine external comparisons with a single target incident, a
 | Smaller decision tree | 0.568 | 28.0% | 6.9% | 4/9 |
 | Logistic, balance alone | 0.528 | 17.3% | 6.0% | 3/9 |
 
-## Selected matched comparisons
+## Two examples from the full matrix
 
 | Training → test | Method | Sources retrieved | False alerts | AP |
 | --- | --- | ---: | ---: | ---: |
