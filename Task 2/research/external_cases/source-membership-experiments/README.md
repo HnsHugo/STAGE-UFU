@@ -18,6 +18,7 @@ This registry follows the experiments that classify documented Bitcoin source-co
 | 2026-11-24 | Inactivity thresholds selected for training F1 | The rule outperformed both trees in seven of nine external transfers and tied the best tree in two. [Report and complete data](experiments/2026-11-24-inactivity-threshold.md) |
 | 2026-11-24 | Activity-feature ablation | Removing activity features changes the opening split toward balance. Average transfer F1 declines for the main tree and rises modestly for the smaller tree. [Report and complete data](experiments/2026-11-24-activity-ablation.md) |
 | 2026-11-24 | Logistic regression and false-alert budget | Inactivity plus balance is the current candidate for further validation. It improves Coldcard → CryptoBilis at fewer false alerts, with weaker results on BTCPay. [Report and complete data](experiments/2026-11-24-logistic-false-alert-budget.md) |
+| 2026-11-24 | Fourteen methods across the 49-cell matrix | Compared simple rules, trees, logistic variants, forest, boosting, Gaussian naive Bayes and RBF SVM. On Coldcard → CryptoBilis, Gaussian naive Bayes retrieves 109 of 122 sources with 4 false alerts. Inactivity has the best mean external AP. [Report and complete data](experiments/2026-11-24-method-benchmark.md) |
 
 ## Maintaining the registry
 
