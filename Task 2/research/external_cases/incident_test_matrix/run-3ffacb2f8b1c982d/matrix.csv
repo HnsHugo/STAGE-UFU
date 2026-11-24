@@ -1,0 +1,911 @@
+training,test,type,evaluation_population,training_rows,test_rows,sources,witnesses,groups,candidate_rows,excluded_rows,reference_chronology,limitations,method,tp,fp,fn,tn,precision,recall,f1,ap,auc
+coldcard,coldcard,internal,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,tree,496,7,4,964,0.9860834990059643,0.992,0.9890329012961117,0.983582413550371,0.9946549948506694
+coldcard,coldcard,internal,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,small_tree,496,7,4,964,0.9860834990059643,0.992,0.9890329012961117,0.9808995273880106,0.9940710607621009
+coldcard,coldcard,internal,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard,coldcard,internal,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard,coldcard,internal,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,constant,,,,,,,,0.3399048266485384,0.5
+coldcard,coldcard,internal,micro,1471,1471,500,971,,,,,,tree,496,7,4,964,0.9860834990059643,0.992,0.9890329012961117,0.983582413550371,0.9946549948506694
+coldcard,coldcard,internal,micro,1471,1471,500,971,,,,,,small_tree,496,7,4,964,0.9860834990059643,0.992,0.9890329012961117,0.9808995273880106,0.9940710607621009
+coldcard,coldcard,internal,micro,1471,1471,500,971,,,,,,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard,coldcard,internal,micro,1471,1471,500,971,,,,,,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard,coldcard,internal,micro,1471,1471,500,971,,,,,,constant,,,,,,,,0.3399048266485384,0.5
+coldcard,coldcard,internal,incident_macro,1471,,,,,,,,,tree,,,,,0.9860834990059643,0.992,0.9890329012961117,0.983582413550371,0.9946549948506694
+coldcard,coldcard,internal,incident_macro,1471,,,,,,,,,small_tree,,,,,0.9860834990059643,0.992,0.9890329012961117,0.9808995273880106,0.9940710607621009
+coldcard,coldcard,internal,incident_macro,1471,,,,,,,,,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard,coldcard,internal,incident_macro,1471,,,,,,,,,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard,coldcard,internal,incident_macro,1471,,,,,,,,,constant,,,,,,,,0.3399048266485384,0.5
+coldcard,cryptobilis,external,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.6631543020597446,0.6884115319389486
+coldcard,cryptobilis,external,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,small_tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.6981769886071946,0.5458168456755229
+coldcard,cryptobilis,external,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,inactivity,,,,,,,,0.8540256294798418,0.9472583380440928
+coldcard,cryptobilis,external,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,balance,,,,,,,,0.7656634350800109,0.8412662521198417
+coldcard,cryptobilis,external,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,constant,,,,,,,,0.45692883895131087,0.5
+coldcard,cryptobilis,external,micro,1471,267,122,145,,,,,,tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.6631543020597446,0.6884115319389486
+coldcard,cryptobilis,external,micro,1471,267,122,145,,,,,,small_tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.6981769886071946,0.5458168456755229
+coldcard,cryptobilis,external,micro,1471,267,122,145,,,,,,inactivity,,,,,,,,0.8540256294798418,0.9472583380440928
+coldcard,cryptobilis,external,micro,1471,267,122,145,,,,,,balance,,,,,,,,0.7656634350800109,0.8412662521198417
+coldcard,cryptobilis,external,micro,1471,267,122,145,,,,,,constant,,,,,,,,0.45692883895131087,0.5
+coldcard,cryptobilis,external,incident_macro,1471,,,,,,,,,tree,,,,,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.6631543020597446,0.6884115319389486
+coldcard,cryptobilis,external,incident_macro,1471,,,,,,,,,small_tree,,,,,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.6981769886071946,0.5458168456755229
+coldcard,cryptobilis,external,incident_macro,1471,,,,,,,,,inactivity,,,,,,,,0.8540256294798418,0.9472583380440928
+coldcard,cryptobilis,external,incident_macro,1471,,,,,,,,,balance,,,,,,,,0.7656634350800109,0.8412662521198417
+coldcard,cryptobilis,external,incident_macro,1471,,,,,,,,,constant,,,,,,,,0.45692883895131087,0.5
+coldcard,btcpay,external,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,tree,0,1,16,21,0.0,0.0,0.0,0.42105263157894735,0.4772727272727273
+coldcard,btcpay,external,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,small_tree,0,1,16,21,0.0,0.0,0.0,0.3789220647773279,0.3693181818181818
+coldcard,btcpay,external,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5709589537569414,0.6278409090909091
+coldcard,btcpay,external,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.35537051412663456,0.375
+coldcard,btcpay,external,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.42105263157894735,0.5
+coldcard,btcpay,external,micro,1471,38,16,22,,,,,,tree,0,1,16,21,0.0,0.0,0.0,0.42105263157894735,0.4772727272727273
+coldcard,btcpay,external,micro,1471,38,16,22,,,,,,small_tree,0,1,16,21,0.0,0.0,0.0,0.3789220647773279,0.3693181818181818
+coldcard,btcpay,external,micro,1471,38,16,22,,,,,,inactivity,,,,,,,,0.5709589537569414,0.6278409090909091
+coldcard,btcpay,external,micro,1471,38,16,22,,,,,,balance,,,,,,,,0.35537051412663456,0.375
+coldcard,btcpay,external,micro,1471,38,16,22,,,,,,constant,,,,,,,,0.42105263157894735,0.5
+coldcard,btcpay,external,incident_macro,1471,,,,,,,,,tree,,,,,0.0,0.0,0.0,0.42105263157894735,0.4772727272727273
+coldcard,btcpay,external,incident_macro,1471,,,,,,,,,small_tree,,,,,0.0,0.0,0.0,0.3789220647773279,0.3693181818181818
+coldcard,btcpay,external,incident_macro,1471,,,,,,,,,inactivity,,,,,,,,0.5709589537569414,0.6278409090909091
+coldcard,btcpay,external,incident_macro,1471,,,,,,,,,balance,,,,,,,,0.35537051412663456,0.375
+coldcard,btcpay,external,incident_macro,1471,,,,,,,,,constant,,,,,,,,0.42105263157894735,0.5
+coldcard,coldcard+cryptobilis,mixed,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,tree,496,7,4,964,0.9860834990059643,0.992,0.9890329012961117,0.983582413550371,0.9946549948506694
+coldcard,coldcard+cryptobilis,mixed,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,small_tree,496,7,4,964,0.9860834990059643,0.992,0.9890329012961117,0.9808995273880106,0.9940710607621009
+coldcard,coldcard+cryptobilis,mixed,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard,coldcard+cryptobilis,mixed,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard,coldcard+cryptobilis,mixed,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,constant,,,,,,,,0.3399048266485384,0.5
+coldcard,coldcard+cryptobilis,mixed,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.6631543020597446,0.6884115319389486
+coldcard,coldcard+cryptobilis,mixed,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,small_tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.6981769886071946,0.5458168456755229
+coldcard,coldcard+cryptobilis,mixed,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,inactivity,,,,,,,,0.8540256294798418,0.9472583380440928
+coldcard,coldcard+cryptobilis,mixed,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,balance,,,,,,,,0.7656634350800109,0.8412662521198417
+coldcard,coldcard+cryptobilis,mixed,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,constant,,,,,,,,0.45692883895131087,0.5
+coldcard,coldcard+cryptobilis,mixed,micro,1471,1738,622,1116,,,,,,tree,545,9,77,1107,0.983754512635379,0.8762057877813505,0.9268707482993197,0.910493520002587,0.9346519206168101
+coldcard,coldcard+cryptobilis,mixed,micro,1471,1738,622,1116,,,,,,small_tree,545,9,77,1107,0.983754512635379,0.8762057877813505,0.9268707482993197,0.9224516194785766,0.9362906107019788
+coldcard,coldcard+cryptobilis,mixed,micro,1471,1738,622,1116,,,,,,inactivity,,,,,,,,0.9284416798674384,0.9759735619864237
+coldcard,coldcard+cryptobilis,mixed,micro,1471,1738,622,1116,,,,,,balance,,,,,,,,0.7827671749934214,0.9277240431490509
+coldcard,coldcard+cryptobilis,mixed,micro,1471,1738,622,1116,,,,,,constant,,,,,,,,0.3578826237054085,0.5
+coldcard,coldcard+cryptobilis,mixed,incident_macro,1471,,,,,,,,,tree,,,,,0.9734339063657272,0.6968196721311475,0.777753444867709,0.8233683578050578,0.8415332633948089
+coldcard,coldcard+cryptobilis,mixed,incident_macro,1471,,,,,,,,,small_tree,,,,,0.9734339063657272,0.6968196721311475,0.777753444867709,0.8395382579976025,0.7699439532188119
+coldcard,coldcard+cryptobilis,mixed,incident_macro,1471,,,,,,,,,inactivity,,,,,,,,0.9046770431960761,0.9653408065091731
+coldcard,coldcard+cryptobilis,mixed,incident_macro,1471,,,,,,,,,balance,,,,,,,,0.7787729622855349,0.8937000673575521
+coldcard,coldcard+cryptobilis,mixed,incident_macro,1471,,,,,,,,,constant,,,,,,,,0.3984168327999246,0.5
+coldcard,coldcard+btcpay,mixed,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,tree,496,7,4,964,0.9860834990059643,0.992,0.9890329012961117,0.983582413550371,0.9946549948506694
+coldcard,coldcard+btcpay,mixed,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,small_tree,496,7,4,964,0.9860834990059643,0.992,0.9890329012961117,0.9808995273880106,0.9940710607621009
+coldcard,coldcard+btcpay,mixed,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard,coldcard+btcpay,mixed,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard,coldcard+btcpay,mixed,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,constant,,,,,,,,0.3399048266485384,0.5
+coldcard,coldcard+btcpay,mixed,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,tree,0,1,16,21,0.0,0.0,0.0,0.42105263157894735,0.4772727272727273
+coldcard,coldcard+btcpay,mixed,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,small_tree,0,1,16,21,0.0,0.0,0.0,0.3789220647773279,0.3693181818181818
+coldcard,coldcard+btcpay,mixed,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5709589537569414,0.6278409090909091
+coldcard,coldcard+btcpay,mixed,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.35537051412663456,0.375
+coldcard,coldcard+btcpay,mixed,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.42105263157894735,0.5
+coldcard,coldcard+btcpay,mixed,micro,1471,1509,516,993,,,,,,tree,496,8,20,985,0.9841269841269841,0.9612403100775194,0.9725490196078431,0.9636724362479255,0.9787660913214205
+coldcard,coldcard+btcpay,mixed,micro,1471,1509,516,993,,,,,,small_tree,496,8,20,985,0.9841269841269841,0.9612403100775194,0.9725490196078431,0.9665675725528139,0.9821209708267953
+coldcard,coldcard+btcpay,mixed,micro,1471,1509,516,993,,,,,,inactivity,,,,,,,,0.9469707752327575,0.9748754849840355
+coldcard,coldcard+btcpay,mixed,micro,1471,1509,516,993,,,,,,balance,,,,,,,,0.779627880419056,0.9252773288991936
+coldcard,coldcard+btcpay,mixed,micro,1471,1509,516,993,,,,,,constant,,,,,,,,0.341948310139165,0.5
+coldcard,coldcard+btcpay,mixed,incident_macro,1471,,,,,,,,,tree,,,,,0.49304174950298213,0.496,0.4945164506480558,0.7023175225646592,0.7359638610616983
+coldcard,coldcard+btcpay,mixed,incident_macro,1471,,,,,,,,,small_tree,,,,,0.49304174950298213,0.496,0.4945164506480558,0.6799107960826692,0.6816946212901414
+coldcard,coldcard+btcpay,mixed,incident_macro,1471,,,,,,,,,inactivity,,,,,,,,0.7631437053346259,0.8056320920325812
+coldcard,coldcard+btcpay,mixed,incident_macro,1471,,,,,,,,,balance,,,,,,,,0.5736265018088468,0.6605669412976314
+coldcard,coldcard+btcpay,mixed,incident_macro,1471,,,,,,,,,constant,,,,,,,,0.38047872911374286,0.5
+coldcard,cryptobilis+btcpay,external,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.6631543020597446,0.6884115319389486
+coldcard,cryptobilis+btcpay,external,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,small_tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.6981769886071946,0.5458168456755229
+coldcard,cryptobilis+btcpay,external,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,inactivity,,,,,,,,0.8540256294798418,0.9472583380440928
+coldcard,cryptobilis+btcpay,external,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,balance,,,,,,,,0.7656634350800109,0.8412662521198417
+coldcard,cryptobilis+btcpay,external,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,constant,,,,,,,,0.45692883895131087,0.5
+coldcard,cryptobilis+btcpay,external,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,tree,0,1,16,21,0.0,0.0,0.0,0.42105263157894735,0.4772727272727273
+coldcard,cryptobilis+btcpay,external,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,small_tree,0,1,16,21,0.0,0.0,0.0,0.3789220647773279,0.3693181818181818
+coldcard,cryptobilis+btcpay,external,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5709589537569414,0.6278409090909091
+coldcard,cryptobilis+btcpay,external,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.35537051412663456,0.375
+coldcard,cryptobilis+btcpay,external,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.42105263157894735,0.5
+coldcard,cryptobilis+btcpay,external,micro,1471,305,138,167,,,,,,tree,49,3,89,164,0.9423076923076923,0.35507246376811596,0.5157894736842106,0.6314075150318914,0.6635424802568776
+coldcard,cryptobilis+btcpay,external,micro,1471,305,138,167,,,,,,small_tree,49,3,89,164,0.9423076923076923,0.35507246376811596,0.5157894736842106,0.6517474587510845,0.5216523474789552
+coldcard,cryptobilis+btcpay,external,micro,1471,305,138,167,,,,,,inactivity,,,,,,,,0.8059264423792736,0.9029115681680118
+coldcard,cryptobilis+btcpay,external,micro,1471,305,138,167,,,,,,balance,,,,,,,,0.7291789402285737,0.7812201683589343
+coldcard,cryptobilis+btcpay,external,micro,1471,305,138,167,,,,,,constant,,,,,,,,0.4524590163934426,0.5
+coldcard,cryptobilis+btcpay,external,incident_macro,1471,,,,,,,,,tree,,,,,0.4803921568627451,0.20081967213114754,0.2832369942196532,0.542103466819346,0.5828421296058379
+coldcard,cryptobilis+btcpay,external,incident_macro,1471,,,,,,,,,small_tree,,,,,0.4803921568627451,0.20081967213114754,0.2832369942196532,0.5385495266922613,0.45756751374685234
+coldcard,cryptobilis+btcpay,external,incident_macro,1471,,,,,,,,,inactivity,,,,,,,,0.7124922916183916,0.7875496235675009
+coldcard,cryptobilis+btcpay,external,incident_macro,1471,,,,,,,,,balance,,,,,,,,0.5605169746033227,0.6081331260599209
+coldcard,cryptobilis+btcpay,external,incident_macro,1471,,,,,,,,,constant,,,,,,,,0.4389907352651291,0.5
+coldcard,coldcard+cryptobilis+btcpay,mixed,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,tree,496,7,4,964,0.9860834990059643,0.992,0.9890329012961117,0.983582413550371,0.9946549948506694
+coldcard,coldcard+cryptobilis+btcpay,mixed,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,small_tree,496,7,4,964,0.9860834990059643,0.992,0.9890329012961117,0.9808995273880106,0.9940710607621009
+coldcard,coldcard+cryptobilis+btcpay,mixed,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard,coldcard+cryptobilis+btcpay,mixed,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard,coldcard+cryptobilis+btcpay,mixed,coldcard,1471,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,constant,,,,,,,,0.3399048266485384,0.5
+coldcard,coldcard+cryptobilis+btcpay,mixed,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.6631543020597446,0.6884115319389486
+coldcard,coldcard+cryptobilis+btcpay,mixed,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,small_tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.6981769886071946,0.5458168456755229
+coldcard,coldcard+cryptobilis+btcpay,mixed,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,inactivity,,,,,,,,0.8540256294798418,0.9472583380440928
+coldcard,coldcard+cryptobilis+btcpay,mixed,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,balance,,,,,,,,0.7656634350800109,0.8412662521198417
+coldcard,coldcard+cryptobilis+btcpay,mixed,cryptobilis,1471,267,122,145,253,329,62,train references earlier,partial history overlap audit,constant,,,,,,,,0.45692883895131087,0.5
+coldcard,coldcard+cryptobilis+btcpay,mixed,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,tree,0,1,16,21,0.0,0.0,0.0,0.42105263157894735,0.4772727272727273
+coldcard,coldcard+cryptobilis+btcpay,mixed,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,small_tree,0,1,16,21,0.0,0.0,0.0,0.3789220647773279,0.3693181818181818
+coldcard,coldcard+cryptobilis+btcpay,mixed,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5709589537569414,0.6278409090909091
+coldcard,coldcard+cryptobilis+btcpay,mixed,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.35537051412663456,0.375
+coldcard,coldcard+cryptobilis+btcpay,mixed,btcpay,1471,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.42105263157894735,0.5
+coldcard,coldcard+cryptobilis+btcpay,mixed,micro,1471,1776,638,1138,,,,,,tree,545,10,93,1128,0.9819819819819819,0.85423197492163,0.9136630343671417,0.8967075254894068,0.9232766884651619
+coldcard,coldcard+cryptobilis+btcpay,mixed,micro,1471,1776,638,1138,,,,,,small_tree,545,10,93,1128,0.9819819819819819,0.85423197492163,0.9136630343671417,0.9111890877154029,0.9266242817239726
+coldcard,coldcard+cryptobilis+btcpay,mixed,micro,1471,1776,638,1138,,,,,,inactivity,,,,,,,,0.9216850456136216,0.9687663557580533
+coldcard,coldcard+cryptobilis+btcpay,mixed,micro,1471,1776,638,1138,,,,,,balance,,,,,,,,0.773356677853739,0.9114110164122284
+coldcard,coldcard+cryptobilis+btcpay,mixed,micro,1471,1776,638,1138,,,,,,constant,,,,,,,,0.35923423423423423,0.5
+coldcard,coldcard+cryptobilis+btcpay,mixed,incident_macro,1471,,,,,,,,,tree,,,,,0.6489559375771515,0.4645464480874317,0.5185022965784727,0.6892631157296877,0.7201130846874484
+coldcard,coldcard+cryptobilis+btcpay,mixed,incident_macro,1471,,,,,,,,,small_tree,,,,,0.6489559375771515,0.4645464480874317,0.5185022965784727,0.6859995269241776,0.6364020294186019
+coldcard,coldcard+cryptobilis+btcpay,mixed,incident_macro,1471,,,,,,,,,inactivity,,,,,,,,0.7934376800496978,0.8528408407030851
+coldcard,coldcard+cryptobilis+btcpay,mixed,incident_macro,1471,,,,,,,,,balance,,,,,,,,0.6376388128992349,0.7208000449050348
+coldcard,coldcard+cryptobilis+btcpay,mixed,incident_macro,1471,,,,,,,,,constant,,,,,,,,0.40596209905959885,0.5
+cryptobilis,coldcard,external,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,tree,499,87,0,493,0.8515358361774744,1.0,0.919815668202765,0.9390294800539517,0.9720682744799944
+cryptobilis,coldcard,external,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,small_tree,119,62,380,518,0.6574585635359116,0.23847695390781562,0.35,0.5089666580920406,0.5493780664777832
+cryptobilis,coldcard,external,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,inactivity,,,,,,,,0.9556909847543311,0.9726763872572731
+cryptobilis,coldcard,external,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,balance,,,,,,,,0.8239612478534298,0.9293241655725244
+cryptobilis,coldcard,external,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,constant,,,,,,,,0.46246524559777574,0.5
+cryptobilis,coldcard,external,micro,329,1079,499,580,,,,,,tree,499,87,0,493,0.8515358361774744,1.0,0.919815668202765,0.9390294800539517,0.9720682744799944
+cryptobilis,coldcard,external,micro,329,1079,499,580,,,,,,small_tree,119,62,380,518,0.6574585635359116,0.23847695390781562,0.35,0.5089666580920406,0.5493780664777832
+cryptobilis,coldcard,external,micro,329,1079,499,580,,,,,,inactivity,,,,,,,,0.9556909847543311,0.9726763872572731
+cryptobilis,coldcard,external,micro,329,1079,499,580,,,,,,balance,,,,,,,,0.8239612478534298,0.9293241655725244
+cryptobilis,coldcard,external,micro,329,1079,499,580,,,,,,constant,,,,,,,,0.46246524559777574,0.5
+cryptobilis,coldcard,external,incident_macro,329,,,,,,,,,tree,,,,,0.8515358361774744,1.0,0.919815668202765,0.9390294800539517,0.9720682744799944
+cryptobilis,coldcard,external,incident_macro,329,,,,,,,,,small_tree,,,,,0.6574585635359116,0.23847695390781562,0.35,0.5089666580920406,0.5493780664777832
+cryptobilis,coldcard,external,incident_macro,329,,,,,,,,,inactivity,,,,,,,,0.9556909847543311,0.9726763872572731
+cryptobilis,coldcard,external,incident_macro,329,,,,,,,,,balance,,,,,,,,0.8239612478534298,0.9293241655725244
+cryptobilis,coldcard,external,incident_macro,329,,,,,,,,,constant,,,,,,,,0.46246524559777574,0.5
+cryptobilis,cryptobilis,internal,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,tree,120,19,2,188,0.8633093525179856,0.9836065573770492,0.9195402298850575,0.8818939981311876,0.9580858477864893
+cryptobilis,cryptobilis,internal,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,small_tree,117,20,5,187,0.8540145985401459,0.9590163934426229,0.9034749034749034,0.8802650175077801,0.9531163380058605
+cryptobilis,cryptobilis,internal,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+cryptobilis,cryptobilis,internal,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+cryptobilis,cryptobilis,internal,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,constant,,,,,,,,0.3708206686930091,0.5
+cryptobilis,cryptobilis,internal,micro,329,329,122,207,,,,,,tree,120,19,2,188,0.8633093525179856,0.9836065573770492,0.9195402298850575,0.8818939981311876,0.9580858477864893
+cryptobilis,cryptobilis,internal,micro,329,329,122,207,,,,,,small_tree,117,20,5,187,0.8540145985401459,0.9590163934426229,0.9034749034749034,0.8802650175077801,0.9531163380058605
+cryptobilis,cryptobilis,internal,micro,329,329,122,207,,,,,,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+cryptobilis,cryptobilis,internal,micro,329,329,122,207,,,,,,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+cryptobilis,cryptobilis,internal,micro,329,329,122,207,,,,,,constant,,,,,,,,0.3708206686930091,0.5
+cryptobilis,cryptobilis,internal,incident_macro,329,,,,,,,,,tree,,,,,0.8633093525179856,0.9836065573770492,0.9195402298850575,0.8818939981311876,0.9580858477864893
+cryptobilis,cryptobilis,internal,incident_macro,329,,,,,,,,,small_tree,,,,,0.8540145985401459,0.9590163934426229,0.9034749034749034,0.8802650175077801,0.9531163380058605
+cryptobilis,cryptobilis,internal,incident_macro,329,,,,,,,,,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+cryptobilis,cryptobilis,internal,incident_macro,329,,,,,,,,,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+cryptobilis,cryptobilis,internal,incident_macro,329,,,,,,,,,constant,,,,,,,,0.3708206686930091,0.5
+cryptobilis,btcpay,external,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,tree,7,7,9,18,0.5,0.4375,0.4666666666666667,0.4382621951219512,0.57
+cryptobilis,btcpay,external,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,small_tree,6,6,10,19,0.5,0.375,0.42857142857142855,0.43140243902439024,0.5675
+cryptobilis,btcpay,external,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.559328663138164,0.645
+cryptobilis,btcpay,external,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.31183592006372246,0.3375
+cryptobilis,btcpay,external,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3902439024390244,0.5
+cryptobilis,btcpay,external,micro,329,41,16,25,,,,,,tree,7,7,9,18,0.5,0.4375,0.4666666666666667,0.4382621951219512,0.57
+cryptobilis,btcpay,external,micro,329,41,16,25,,,,,,small_tree,6,6,10,19,0.5,0.375,0.42857142857142855,0.43140243902439024,0.5675
+cryptobilis,btcpay,external,micro,329,41,16,25,,,,,,inactivity,,,,,,,,0.559328663138164,0.645
+cryptobilis,btcpay,external,micro,329,41,16,25,,,,,,balance,,,,,,,,0.31183592006372246,0.3375
+cryptobilis,btcpay,external,micro,329,41,16,25,,,,,,constant,,,,,,,,0.3902439024390244,0.5
+cryptobilis,btcpay,external,incident_macro,329,,,,,,,,,tree,,,,,0.5,0.4375,0.4666666666666667,0.4382621951219512,0.57
+cryptobilis,btcpay,external,incident_macro,329,,,,,,,,,small_tree,,,,,0.5,0.375,0.42857142857142855,0.43140243902439024,0.5675
+cryptobilis,btcpay,external,incident_macro,329,,,,,,,,,inactivity,,,,,,,,0.559328663138164,0.645
+cryptobilis,btcpay,external,incident_macro,329,,,,,,,,,balance,,,,,,,,0.31183592006372246,0.3375
+cryptobilis,btcpay,external,incident_macro,329,,,,,,,,,constant,,,,,,,,0.3902439024390244,0.5
+cryptobilis,coldcard+cryptobilis,mixed,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,tree,499,87,0,493,0.8515358361774744,1.0,0.919815668202765,0.9390294800539517,0.9720682744799944
+cryptobilis,coldcard+cryptobilis,mixed,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,small_tree,119,62,380,518,0.6574585635359116,0.23847695390781562,0.35,0.5089666580920406,0.5493780664777832
+cryptobilis,coldcard+cryptobilis,mixed,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,inactivity,,,,,,,,0.9556909847543311,0.9726763872572731
+cryptobilis,coldcard+cryptobilis,mixed,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,balance,,,,,,,,0.8239612478534298,0.9293241655725244
+cryptobilis,coldcard+cryptobilis,mixed,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,constant,,,,,,,,0.46246524559777574,0.5
+cryptobilis,coldcard+cryptobilis,mixed,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,tree,120,19,2,188,0.8633093525179856,0.9836065573770492,0.9195402298850575,0.8818939981311876,0.9580858477864893
+cryptobilis,coldcard+cryptobilis,mixed,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,small_tree,117,20,5,187,0.8540145985401459,0.9590163934426229,0.9034749034749034,0.8802650175077801,0.9531163380058605
+cryptobilis,coldcard+cryptobilis,mixed,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+cryptobilis,coldcard+cryptobilis,mixed,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+cryptobilis,coldcard+cryptobilis,mixed,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,constant,,,,,,,,0.3708206686930091,0.5
+cryptobilis,coldcard+cryptobilis,mixed,micro,329,1408,621,787,,,,,,tree,619,106,2,681,0.8537931034482759,0.9967793880837359,0.9197622585438335,0.9273605913943794,0.968022024565862
+cryptobilis,coldcard+cryptobilis,mixed,micro,329,1408,621,787,,,,,,small_tree,236,82,385,705,0.7421383647798742,0.38003220611916266,0.5026624068157615,0.5721441671491256,0.6317279380922274
+cryptobilis,coldcard+cryptobilis,mixed,micro,329,1408,621,787,,,,,,inactivity,,,,,,,,0.9288472794720247,0.9663881880886466
+cryptobilis,coldcard+cryptobilis,mixed,micro,329,1408,621,787,,,,,,balance,,,,,,,,0.8127154264124015,0.9180882169391091
+cryptobilis,coldcard+cryptobilis,mixed,micro,329,1408,621,787,,,,,,constant,,,,,,,,0.44105113636363635,0.5
+cryptobilis,coldcard+cryptobilis,mixed,incident_macro,329,,,,,,,,,tree,,,,,0.85742259434773,0.9918032786885246,0.9196779490439112,0.9104617390925697,0.9650770611332419
+cryptobilis,coldcard+cryptobilis,mixed,incident_macro,329,,,,,,,,,small_tree,,,,,0.7557365810380288,0.5987466736752193,0.6267374517374518,0.6946158377999103,0.7512472022418218
+cryptobilis,coldcard+cryptobilis,mixed,incident_macro,329,,,,,,,,,inactivity,,,,,,,,0.9048373603219462,0.9678460735684481
+cryptobilis,coldcard+cryptobilis,mixed,incident_macro,329,,,,,,,,,balance,,,,,,,,0.7862128444292817,0.8986131400445183
+cryptobilis,coldcard+cryptobilis,mixed,incident_macro,329,,,,,,,,,constant,,,,,,,,0.41664295714539246,0.5
+cryptobilis,coldcard+btcpay,external,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,tree,499,87,0,493,0.8515358361774744,1.0,0.919815668202765,0.9390294800539517,0.9720682744799944
+cryptobilis,coldcard+btcpay,external,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,small_tree,119,62,380,518,0.6574585635359116,0.23847695390781562,0.35,0.5089666580920406,0.5493780664777832
+cryptobilis,coldcard+btcpay,external,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,inactivity,,,,,,,,0.9556909847543311,0.9726763872572731
+cryptobilis,coldcard+btcpay,external,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,balance,,,,,,,,0.8239612478534298,0.9293241655725244
+cryptobilis,coldcard+btcpay,external,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,constant,,,,,,,,0.46246524559777574,0.5
+cryptobilis,coldcard+btcpay,external,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,tree,7,7,9,18,0.5,0.4375,0.4666666666666667,0.4382621951219512,0.57
+cryptobilis,coldcard+btcpay,external,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,small_tree,6,6,10,19,0.5,0.375,0.42857142857142855,0.43140243902439024,0.5675
+cryptobilis,coldcard+btcpay,external,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.559328663138164,0.645
+cryptobilis,coldcard+btcpay,external,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.31183592006372246,0.3375
+cryptobilis,coldcard+btcpay,external,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3902439024390244,0.5
+cryptobilis,coldcard+btcpay,external,micro,329,1120,515,605,,,,,,tree,506,94,9,511,0.8433333333333334,0.9825242718446602,0.9076233183856502,0.9276281751904576,0.9606804140255155
+cryptobilis,coldcard+btcpay,external,micro,329,1120,515,605,,,,,,small_tree,125,68,390,537,0.6476683937823834,0.24271844660194175,0.3531073446327684,0.5054153521663205,0.5495145631067961
+cryptobilis,coldcard+btcpay,external,micro,329,1120,515,605,,,,,,inactivity,,,,,,,,0.9483852670453313,0.9631308673674075
+cryptobilis,coldcard+btcpay,external,micro,329,1120,515,605,,,,,,balance,,,,,,,,0.8144710123112865,0.9106154216480783
+cryptobilis,coldcard+btcpay,external,micro,329,1120,515,605,,,,,,constant,,,,,,,,0.45982142857142855,0.5
+cryptobilis,coldcard+btcpay,external,incident_macro,329,,,,,,,,,tree,,,,,0.6757679180887373,0.71875,0.6932411674347159,0.6886458375879514,0.7710341372399971
+cryptobilis,coldcard+btcpay,external,incident_macro,329,,,,,,,,,small_tree,,,,,0.5787292817679558,0.3067384769539078,0.38928571428571423,0.4701845485582154,0.5584390332388915
+cryptobilis,coldcard+btcpay,external,incident_macro,329,,,,,,,,,inactivity,,,,,,,,0.7575098239462476,0.8088381936286366
+cryptobilis,coldcard+btcpay,external,incident_macro,329,,,,,,,,,balance,,,,,,,,0.5678985839585762,0.6334120827862622
+cryptobilis,coldcard+btcpay,external,incident_macro,329,,,,,,,,,constant,,,,,,,,0.42635457401840005,0.5
+cryptobilis,cryptobilis+btcpay,mixed,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,tree,120,19,2,188,0.8633093525179856,0.9836065573770492,0.9195402298850575,0.8818939981311876,0.9580858477864893
+cryptobilis,cryptobilis+btcpay,mixed,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,small_tree,117,20,5,187,0.8540145985401459,0.9590163934426229,0.9034749034749034,0.8802650175077801,0.9531163380058605
+cryptobilis,cryptobilis+btcpay,mixed,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+cryptobilis,cryptobilis+btcpay,mixed,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+cryptobilis,cryptobilis+btcpay,mixed,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,constant,,,,,,,,0.3708206686930091,0.5
+cryptobilis,cryptobilis+btcpay,mixed,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,tree,7,7,9,18,0.5,0.4375,0.4666666666666667,0.4382621951219512,0.57
+cryptobilis,cryptobilis+btcpay,mixed,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,small_tree,6,6,10,19,0.5,0.375,0.42857142857142855,0.43140243902439024,0.5675
+cryptobilis,cryptobilis+btcpay,mixed,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.559328663138164,0.645
+cryptobilis,cryptobilis+btcpay,mixed,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.31183592006372246,0.3375
+cryptobilis,cryptobilis+btcpay,mixed,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3902439024390244,0.5
+cryptobilis,cryptobilis+btcpay,mixed,micro,329,370,138,232,,,,,,tree,127,26,11,206,0.8300653594771242,0.9202898550724637,0.872852233676976,0.8380160253483413,0.91726011994003
+cryptobilis,cryptobilis+btcpay,mixed,micro,329,370,138,232,,,,,,small_tree,123,26,15,206,0.825503355704698,0.8913043478260869,0.8571428571428571,0.8293224098885206,0.9099044227886057
+cryptobilis,cryptobilis+btcpay,mixed,micro,329,370,138,232,,,,,,inactivity,,,,,,,,0.8020708130616154,0.9219452773613194
+cryptobilis,cryptobilis+btcpay,mixed,micro,329,370,138,232,,,,,,balance,,,,,,,,0.7060522733339061,0.8040354822588706
+cryptobilis,cryptobilis+btcpay,mixed,micro,329,370,138,232,,,,,,constant,,,,,,,,0.372972972972973,0.5
+cryptobilis,cryptobilis+btcpay,mixed,incident_macro,329,,,,,,,,,tree,,,,,0.6816546762589928,0.7105532786885246,0.693103448275862,0.6600780966265694,0.7640429238932447
+cryptobilis,cryptobilis+btcpay,mixed,incident_macro,329,,,,,,,,,small_tree,,,,,0.677007299270073,0.6670081967213115,0.666023166023166,0.6558337282660851,0.7603081690029303
+cryptobilis,cryptobilis+btcpay,mixed,incident_macro,329,,,,,,,,,inactivity,,,,,,,,0.7066561995138626,0.8040078799398116
+cryptobilis,cryptobilis+btcpay,mixed,incident_macro,329,,,,,,,,,balance,,,,,,,,0.530150180534428,0.6027010572582561
+cryptobilis,cryptobilis+btcpay,mixed,incident_macro,329,,,,,,,,,constant,,,,,,,,0.38053228556601676,0.5
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,tree,499,87,0,493,0.8515358361774744,1.0,0.919815668202765,0.9390294800539517,0.9720682744799944
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,small_tree,119,62,380,518,0.6574585635359116,0.23847695390781562,0.35,0.5089666580920406,0.5493780664777832
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,inactivity,,,,,,,,0.9556909847543311,0.9726763872572731
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,balance,,,,,,,,0.8239612478534298,0.9293241655725244
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,coldcard,329,1079,499,580,907,1471,392,train references later,partial history overlap audit,constant,,,,,,,,0.46246524559777574,0.5
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,tree,120,19,2,188,0.8633093525179856,0.9836065573770492,0.9195402298850575,0.8818939981311876,0.9580858477864893
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,small_tree,117,20,5,187,0.8540145985401459,0.9590163934426229,0.9034749034749034,0.8802650175077801,0.9531163380058605
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,cryptobilis,329,329,122,207,259,329,0,group-held-out,partial history overlap audit,constant,,,,,,,,0.3708206686930091,0.5
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,tree,7,7,9,18,0.5,0.4375,0.4666666666666667,0.4382621951219512,0.57
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,small_tree,6,6,10,19,0.5,0.375,0.42857142857142855,0.43140243902439024,0.5675
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.559328663138164,0.645
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.31183592006372246,0.3375
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,btcpay,329,41,16,25,40,48,7,train references earlier,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3902439024390244,0.5
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,micro,329,1449,637,812,,,,,,tree,626,113,11,699,0.8470906630581867,0.9827315541601256,0.9098837209302325,0.918036174986801,0.9589864744685294
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,micro,329,1449,637,812,,,,,,small_tree,242,88,395,724,0.7333333333333333,0.37990580847723704,0.500517063081696,0.56793610214201,0.6298594087123291
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,micro,329,1449,637,812,,,,,,inactivity,,,,,,,,0.9226165490898752,0.9585698432461276
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,micro,329,1449,637,812,,,,,,balance,,,,,,,,0.8046313897504991,0.903139524093078
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,micro,329,1449,637,812,,,,,,constant,,,,,,,,0.4396135265700483,0.5
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,incident_macro,329,,,,,,,,,tree,,,,,0.7382817295651534,0.807035519125683,0.7686741882514964,0.7530618911023635,0.8333847074221612
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,incident_macro,329,,,,,,,,,small_tree,,,,,0.6704910540253525,0.5241644491168128,0.5606821106821107,0.6068780382080703,0.6899981348278812
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,incident_macro,329,,,,,,,,,inactivity,,,,,,,,0.7896677945940188,0.8602307157122987
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,incident_macro,329,,,,,,,,,balance,,,,,,,,0.6280872029740953,0.7115754266963455
+cryptobilis,coldcard+cryptobilis+btcpay,mixed,incident_macro,329,,,,,,,,,constant,,,,,,,,0.40784327224326977,0.5
+btcpay,coldcard,external,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,tree,0,162,500,441,0.0,0.0,0.0,0.45330915684496825,0.3656716417910448
+btcpay,coldcard,external,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,small_tree,0,201,500,402,0.0,0.0,0.0,0.45330915684496825,0.3333333333333333
+btcpay,coldcard,external,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.9553799275069832,0.973363184079602
+btcpay,coldcard,external,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.8223425866795799,0.9308424543946932
+btcpay,coldcard,external,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.45330915684496825,0.5
+btcpay,coldcard,external,micro,48,1103,500,603,,,,,,tree,0,162,500,441,0.0,0.0,0.0,0.45330915684496825,0.3656716417910448
+btcpay,coldcard,external,micro,48,1103,500,603,,,,,,small_tree,0,201,500,402,0.0,0.0,0.0,0.45330915684496825,0.3333333333333333
+btcpay,coldcard,external,micro,48,1103,500,603,,,,,,inactivity,,,,,,,,0.9553799275069832,0.973363184079602
+btcpay,coldcard,external,micro,48,1103,500,603,,,,,,balance,,,,,,,,0.8223425866795799,0.9308424543946932
+btcpay,coldcard,external,micro,48,1103,500,603,,,,,,constant,,,,,,,,0.45330915684496825,0.5
+btcpay,coldcard,external,incident_macro,48,,,,,,,,,tree,,,,,0.0,0.0,0.0,0.45330915684496825,0.3656716417910448
+btcpay,coldcard,external,incident_macro,48,,,,,,,,,small_tree,,,,,0.0,0.0,0.0,0.45330915684496825,0.3333333333333333
+btcpay,coldcard,external,incident_macro,48,,,,,,,,,inactivity,,,,,,,,0.9553799275069832,0.973363184079602
+btcpay,coldcard,external,incident_macro,48,,,,,,,,,balance,,,,,,,,0.8223425866795799,0.9308424543946932
+btcpay,coldcard,external,incident_macro,48,,,,,,,,,constant,,,,,,,,0.45330915684496825,0.5
+btcpay,cryptobilis,external,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,tree,6,49,116,125,0.10909090909090909,0.04918032786885246,0.06779661016949153,0.397257018568494,0.3837855662332768
+btcpay,cryptobilis,external,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,small_tree,7,63,115,111,0.1,0.05737704918032787,0.07291666666666667,0.40236314607428236,0.35441398153382325
+btcpay,cryptobilis,external,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9560015074429998
+btcpay,cryptobilis,external,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.7551084302030417,0.8552854720180894
+btcpay,cryptobilis,external,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.41216216216216217,0.5
+btcpay,cryptobilis,external,micro,48,296,122,174,,,,,,tree,6,49,116,125,0.10909090909090909,0.04918032786885246,0.06779661016949153,0.397257018568494,0.3837855662332768
+btcpay,cryptobilis,external,micro,48,296,122,174,,,,,,small_tree,7,63,115,111,0.1,0.05737704918032787,0.07291666666666667,0.40236314607428236,0.35441398153382325
+btcpay,cryptobilis,external,micro,48,296,122,174,,,,,,inactivity,,,,,,,,0.8539837358895612,0.9560015074429998
+btcpay,cryptobilis,external,micro,48,296,122,174,,,,,,balance,,,,,,,,0.7551084302030417,0.8552854720180894
+btcpay,cryptobilis,external,micro,48,296,122,174,,,,,,constant,,,,,,,,0.41216216216216217,0.5
+btcpay,cryptobilis,external,incident_macro,48,,,,,,,,,tree,,,,,0.10909090909090909,0.04918032786885246,0.06779661016949153,0.397257018568494,0.3837855662332768
+btcpay,cryptobilis,external,incident_macro,48,,,,,,,,,small_tree,,,,,0.1,0.05737704918032787,0.07291666666666667,0.40236314607428236,0.35441398153382325
+btcpay,cryptobilis,external,incident_macro,48,,,,,,,,,inactivity,,,,,,,,0.8539837358895612,0.9560015074429998
+btcpay,cryptobilis,external,incident_macro,48,,,,,,,,,balance,,,,,,,,0.7551084302030417,0.8552854720180894
+btcpay,cryptobilis,external,incident_macro,48,,,,,,,,,constant,,,,,,,,0.41216216216216217,0.5
+btcpay,btcpay,internal,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,tree,16,32,0,0,0.3333333333333333,1.0,0.5,0.3333333333333333,0.5
+btcpay,btcpay,internal,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,small_tree,10,11,6,21,0.47619047619047616,0.625,0.5405405405405406,0.45828301193475307,0.7080078125
+btcpay,btcpay,internal,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5362488768546396,0.673828125
+btcpay,btcpay,internal,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.24455359179543706,0.275390625
+btcpay,btcpay,internal,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3333333333333333,0.5
+btcpay,btcpay,internal,micro,48,48,16,32,,,,,,tree,16,32,0,0,0.3333333333333333,1.0,0.5,0.3333333333333333,0.5
+btcpay,btcpay,internal,micro,48,48,16,32,,,,,,small_tree,10,11,6,21,0.47619047619047616,0.625,0.5405405405405406,0.45828301193475307,0.7080078125
+btcpay,btcpay,internal,micro,48,48,16,32,,,,,,inactivity,,,,,,,,0.5362488768546396,0.673828125
+btcpay,btcpay,internal,micro,48,48,16,32,,,,,,balance,,,,,,,,0.24455359179543706,0.275390625
+btcpay,btcpay,internal,micro,48,48,16,32,,,,,,constant,,,,,,,,0.3333333333333333,0.5
+btcpay,btcpay,internal,incident_macro,48,,,,,,,,,tree,,,,,0.3333333333333333,1.0,0.5,0.3333333333333333,0.5
+btcpay,btcpay,internal,incident_macro,48,,,,,,,,,small_tree,,,,,0.47619047619047616,0.625,0.5405405405405406,0.45828301193475307,0.7080078125
+btcpay,btcpay,internal,incident_macro,48,,,,,,,,,inactivity,,,,,,,,0.5362488768546396,0.673828125
+btcpay,btcpay,internal,incident_macro,48,,,,,,,,,balance,,,,,,,,0.24455359179543706,0.275390625
+btcpay,btcpay,internal,incident_macro,48,,,,,,,,,constant,,,,,,,,0.3333333333333333,0.5
+btcpay,coldcard+cryptobilis,external,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,tree,0,162,500,441,0.0,0.0,0.0,0.45330915684496825,0.3656716417910448
+btcpay,coldcard+cryptobilis,external,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,small_tree,0,201,500,402,0.0,0.0,0.0,0.45330915684496825,0.3333333333333333
+btcpay,coldcard+cryptobilis,external,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.9553799275069832,0.973363184079602
+btcpay,coldcard+cryptobilis,external,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.8223425866795799,0.9308424543946932
+btcpay,coldcard+cryptobilis,external,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.45330915684496825,0.5
+btcpay,coldcard+cryptobilis,external,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,tree,6,49,116,125,0.10909090909090909,0.04918032786885246,0.06779661016949153,0.397257018568494,0.3837855662332768
+btcpay,coldcard+cryptobilis,external,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,small_tree,7,63,115,111,0.1,0.05737704918032787,0.07291666666666667,0.40236314607428236,0.35441398153382325
+btcpay,coldcard+cryptobilis,external,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9560015074429998
+btcpay,coldcard+cryptobilis,external,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.7551084302030417,0.8552854720180894
+btcpay,coldcard+cryptobilis,external,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.41216216216216217,0.5
+btcpay,coldcard+cryptobilis,external,micro,48,1399,622,777,,,,,,tree,6,211,616,566,0.027649769585253458,0.00964630225080386,0.014302741358760428,0.44058122839913055,0.36904451534676613
+btcpay,coldcard+cryptobilis,external,micro,48,1399,622,777,,,,,,small_tree,7,264,615,513,0.025830258302583026,0.011254019292604502,0.015677491601343786,0.44037204873882235,0.33696673246512476
+btcpay,coldcard+cryptobilis,external,micro,48,1399,622,777,,,,,,inactivity,,,,,,,,0.9285773356998692,0.9656296167550187
+btcpay,coldcard+cryptobilis,external,micro,48,1399,622,777,,,,,,balance,,,,,,,,0.8116298062919877,0.9165590717037663
+btcpay,coldcard+cryptobilis,external,micro,48,1399,622,777,,,,,,constant,,,,,,,,0.44460328806290206,0.5
+btcpay,coldcard+cryptobilis,external,incident_macro,48,,,,,,,,,tree,,,,,0.05454545454545454,0.02459016393442623,0.03389830508474576,0.4252830877067311,0.3747286040121608
+btcpay,coldcard+cryptobilis,external,incident_macro,48,,,,,,,,,small_tree,,,,,0.05,0.028688524590163935,0.036458333333333336,0.4278361514596253,0.3438736574335783
+btcpay,coldcard+cryptobilis,external,incident_macro,48,,,,,,,,,inactivity,,,,,,,,0.9046818316982722,0.964682345761301
+btcpay,coldcard+cryptobilis,external,incident_macro,48,,,,,,,,,balance,,,,,,,,0.7887255084413108,0.8930639632063913
+btcpay,coldcard+cryptobilis,external,incident_macro,48,,,,,,,,,constant,,,,,,,,0.4327356595035652,0.5
+btcpay,coldcard+btcpay,mixed,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,tree,0,162,500,441,0.0,0.0,0.0,0.45330915684496825,0.3656716417910448
+btcpay,coldcard+btcpay,mixed,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,small_tree,0,201,500,402,0.0,0.0,0.0,0.45330915684496825,0.3333333333333333
+btcpay,coldcard+btcpay,mixed,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.9553799275069832,0.973363184079602
+btcpay,coldcard+btcpay,mixed,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.8223425866795799,0.9308424543946932
+btcpay,coldcard+btcpay,mixed,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.45330915684496825,0.5
+btcpay,coldcard+btcpay,mixed,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,tree,16,32,0,0,0.3333333333333333,1.0,0.5,0.3333333333333333,0.5
+btcpay,coldcard+btcpay,mixed,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,small_tree,10,11,6,21,0.47619047619047616,0.625,0.5405405405405406,0.45828301193475307,0.7080078125
+btcpay,coldcard+btcpay,mixed,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5362488768546396,0.673828125
+btcpay,coldcard+btcpay,mixed,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.24455359179543706,0.275390625
+btcpay,coldcard+btcpay,mixed,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3333333333333333,0.5
+btcpay,coldcard+btcpay,mixed,micro,48,1151,516,635,,,,,,tree,16,194,500,441,0.0761904761904762,0.031007751937984496,0.0440771349862259,0.4367673607202429,0.35879265091863516
+btcpay,coldcard+btcpay,mixed,micro,48,1151,516,635,,,,,,small_tree,10,212,506,423,0.04504504504504504,0.01937984496124031,0.02710027100271003,0.4391115988390106,0.3428630287493133
+btcpay,coldcard+btcpay,mixed,micro,48,1151,516,635,,,,,,inactivity,,,,,,,,0.9479114205216111,0.9640648843313191
+btcpay,coldcard+btcpay,mixed,micro,48,1151,516,635,,,,,,balance,,,,,,,,0.8105274125124837,0.9121497894158579
+btcpay,coldcard+btcpay,mixed,micro,48,1151,516,635,,,,,,constant,,,,,,,,0.4483058210251955,0.5
+btcpay,coldcard+btcpay,mixed,incident_macro,48,,,,,,,,,tree,,,,,0.16666666666666666,0.5,0.25,0.3933212450891508,0.4328358208955224
+btcpay,coldcard+btcpay,mixed,incident_macro,48,,,,,,,,,small_tree,,,,,0.23809523809523808,0.3125,0.2702702702702703,0.45579608438986063,0.5206705729166666
+btcpay,coldcard+btcpay,mixed,incident_macro,48,,,,,,,,,inactivity,,,,,,,,0.7458144021808114,0.823595654539801
+btcpay,coldcard+btcpay,mixed,incident_macro,48,,,,,,,,,balance,,,,,,,,0.5334480892375085,0.6031165396973466
+btcpay,coldcard+btcpay,mixed,incident_macro,48,,,,,,,,,constant,,,,,,,,0.3933212450891508,0.5
+btcpay,cryptobilis+btcpay,mixed,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,tree,6,49,116,125,0.10909090909090909,0.04918032786885246,0.06779661016949153,0.397257018568494,0.3837855662332768
+btcpay,cryptobilis+btcpay,mixed,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,small_tree,7,63,115,111,0.1,0.05737704918032787,0.07291666666666667,0.40236314607428236,0.35441398153382325
+btcpay,cryptobilis+btcpay,mixed,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9560015074429998
+btcpay,cryptobilis+btcpay,mixed,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.7551084302030417,0.8552854720180894
+btcpay,cryptobilis+btcpay,mixed,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.41216216216216217,0.5
+btcpay,cryptobilis+btcpay,mixed,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,tree,16,32,0,0,0.3333333333333333,1.0,0.5,0.3333333333333333,0.5
+btcpay,cryptobilis+btcpay,mixed,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,small_tree,10,11,6,21,0.47619047619047616,0.625,0.5405405405405406,0.45828301193475307,0.7080078125
+btcpay,cryptobilis+btcpay,mixed,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5362488768546396,0.673828125
+btcpay,cryptobilis+btcpay,mixed,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.24455359179543706,0.275390625
+btcpay,cryptobilis+btcpay,mixed,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3333333333333333,0.5
+btcpay,cryptobilis+btcpay,mixed,micro,48,344,138,206,,,,,,tree,22,81,116,125,0.21359223300970873,0.15942028985507245,0.1825726141078838,0.36671670220022484,0.37269593358660474
+btcpay,cryptobilis+btcpay,mixed,micro,48,344,138,206,,,,,,small_tree,17,74,121,132,0.18681318681318682,0.12318840579710146,0.14847161572052403,0.3831195962270803,0.39165611369072745
+btcpay,cryptobilis+btcpay,mixed,micro,48,344,138,206,,,,,,inactivity,,,,,,,,0.8030216535323766,0.9150133671028563
+btcpay,cryptobilis+btcpay,mixed,micro,48,344,138,206,,,,,,balance,,,,,,,,0.7052810080935159,0.7925636696214999
+btcpay,cryptobilis+btcpay,mixed,micro,48,344,138,206,,,,,,constant,,,,,,,,0.4011627906976744,0.5
+btcpay,cryptobilis+btcpay,mixed,incident_macro,48,,,,,,,,,tree,,,,,0.2212121212121212,0.5245901639344263,0.2838983050847458,0.36529517595091365,0.4418927831166384
+btcpay,cryptobilis+btcpay,mixed,incident_macro,48,,,,,,,,,small_tree,,,,,0.28809523809523807,0.3411885245901639,0.3067286036036036,0.4303230790045177,0.5312108970169116
+btcpay,cryptobilis+btcpay,mixed,incident_macro,48,,,,,,,,,inactivity,,,,,,,,0.6951163063721004,0.8149148162214999
+btcpay,cryptobilis+btcpay,mixed,incident_macro,48,,,,,,,,,balance,,,,,,,,0.49983101099923943,0.5653380485090447
+btcpay,cryptobilis+btcpay,mixed,incident_macro,48,,,,,,,,,constant,,,,,,,,0.37274774774774777,0.5
+btcpay,coldcard+cryptobilis+btcpay,mixed,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,tree,0,162,500,441,0.0,0.0,0.0,0.45330915684496825,0.3656716417910448
+btcpay,coldcard+cryptobilis+btcpay,mixed,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,small_tree,0,201,500,402,0.0,0.0,0.0,0.45330915684496825,0.3333333333333333
+btcpay,coldcard+cryptobilis+btcpay,mixed,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.9553799275069832,0.973363184079602
+btcpay,coldcard+cryptobilis+btcpay,mixed,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.8223425866795799,0.9308424543946932
+btcpay,coldcard+cryptobilis+btcpay,mixed,coldcard,48,1103,500,603,909,1471,368,train references later,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.45330915684496825,0.5
+btcpay,coldcard+cryptobilis+btcpay,mixed,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,tree,6,49,116,125,0.10909090909090909,0.04918032786885246,0.06779661016949153,0.397257018568494,0.3837855662332768
+btcpay,coldcard+cryptobilis+btcpay,mixed,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,small_tree,7,63,115,111,0.1,0.05737704918032787,0.07291666666666667,0.40236314607428236,0.35441398153382325
+btcpay,coldcard+cryptobilis+btcpay,mixed,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9560015074429998
+btcpay,coldcard+cryptobilis+btcpay,mixed,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.7551084302030417,0.8552854720180894
+btcpay,coldcard+cryptobilis+btcpay,mixed,cryptobilis,48,296,122,174,256,329,33,train references later,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.41216216216216217,0.5
+btcpay,coldcard+cryptobilis+btcpay,mixed,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,tree,16,32,0,0,0.3333333333333333,1.0,0.5,0.3333333333333333,0.5
+btcpay,coldcard+cryptobilis+btcpay,mixed,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,small_tree,10,11,6,21,0.47619047619047616,0.625,0.5405405405405406,0.45828301193475307,0.7080078125
+btcpay,coldcard+cryptobilis+btcpay,mixed,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5362488768546396,0.673828125
+btcpay,coldcard+cryptobilis+btcpay,mixed,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.24455359179543706,0.275390625
+btcpay,coldcard+cryptobilis+btcpay,mixed,btcpay,48,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3333333333333333,0.5
+btcpay,coldcard+cryptobilis+btcpay,mixed,micro,48,1447,638,809,,,,,,tree,22,243,616,566,0.0830188679245283,0.034482758620689655,0.048726467331118496,0.4280503691885794,0.36397154271498927
+btcpay,coldcard+cryptobilis+btcpay,mixed,micro,48,1447,638,809,,,,,,small_tree,17,275,621,534,0.05821917808219178,0.02664576802507837,0.03655913978494624,0.4303091313201284,0.34475880668498204
+btcpay,coldcard+cryptobilis+btcpay,mixed,micro,48,1447,638,809,,,,,,inactivity,,,,,,,,0.9223218329880915,0.9580163985879855
+btcpay,coldcard+cryptobilis+btcpay,mixed,micro,48,1447,638,809,,,,,,balance,,,,,,,,0.8018421442811294,0.9017431249539856
+btcpay,coldcard+cryptobilis+btcpay,mixed,micro,48,1447,638,809,,,,,,constant,,,,,,,,0.44091223220456116,0.5
+btcpay,coldcard+cryptobilis+btcpay,mixed,incident_macro,48,,,,,,,,,tree,,,,,0.14747474747474748,0.34972677595628415,0.18926553672316385,0.3946331695822652,0.4164857360081072
+btcpay,coldcard+cryptobilis+btcpay,mixed,incident_macro,48,,,,,,,,,small_tree,,,,,0.19206349206349205,0.22745901639344263,0.20448573573573575,0.4379851049513346,0.4652517091223855
+btcpay,coldcard+cryptobilis+btcpay,mixed,incident_macro,48,,,,,,,,,inactivity,,,,,,,,0.7818708467503946,0.8677309388408673
+btcpay,coldcard+cryptobilis+btcpay,mixed,incident_macro,48,,,,,,,,,balance,,,,,,,,0.6073348695593529,0.6871728504709275
+btcpay,coldcard+cryptobilis+btcpay,mixed,incident_macro,48,,,,,,,,,constant,,,,,,,,0.3996015507801546,0.5
+coldcard+cryptobilis,coldcard,internal,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,tree,498,64,2,907,0.8861209964412812,0.996,0.9378531073446328,0.9668427927120581,0.9903141091658084
+coldcard+cryptobilis,coldcard,internal,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,small_tree,498,27,2,944,0.9485714285714286,0.996,0.9717073170731707,0.9490284490107894,0.9840123583934088
+coldcard+cryptobilis,coldcard,internal,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+cryptobilis,coldcard,internal,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+cryptobilis,coldcard,internal,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+cryptobilis,coldcard,internal,micro,1800,1471,500,971,,,,,,tree,498,64,2,907,0.8861209964412812,0.996,0.9378531073446328,0.9668427927120581,0.9903141091658084
+coldcard+cryptobilis,coldcard,internal,micro,1800,1471,500,971,,,,,,small_tree,498,27,2,944,0.9485714285714286,0.996,0.9717073170731707,0.9490284490107894,0.9840123583934088
+coldcard+cryptobilis,coldcard,internal,micro,1800,1471,500,971,,,,,,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+cryptobilis,coldcard,internal,micro,1800,1471,500,971,,,,,,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+cryptobilis,coldcard,internal,micro,1800,1471,500,971,,,,,,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+cryptobilis,coldcard,internal,incident_macro,1800,,,,,,,,,tree,,,,,0.8861209964412812,0.996,0.9378531073446328,0.9668427927120581,0.9903141091658084
+coldcard+cryptobilis,coldcard,internal,incident_macro,1800,,,,,,,,,small_tree,,,,,0.9485714285714286,0.996,0.9717073170731707,0.9490284490107894,0.9840123583934088
+coldcard+cryptobilis,coldcard,internal,incident_macro,1800,,,,,,,,,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+cryptobilis,coldcard,internal,incident_macro,1800,,,,,,,,,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+cryptobilis,coldcard,internal,incident_macro,1800,,,,,,,,,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+cryptobilis,cryptobilis,internal,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,tree,98,7,24,200,0.9333333333333333,0.8032786885245902,0.8634361233480177,0.9157285859912967,0.9659063910667617
+coldcard+cryptobilis,cryptobilis,internal,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,small_tree,90,4,32,203,0.9574468085106383,0.7377049180327869,0.8333333333333334,0.9324837445433509,0.9669755286291281
+coldcard+cryptobilis,cryptobilis,internal,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+coldcard+cryptobilis,cryptobilis,internal,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+coldcard+cryptobilis,cryptobilis,internal,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,constant,,,,,,,,0.3708206686930091,0.5
+coldcard+cryptobilis,cryptobilis,internal,micro,1800,329,122,207,,,,,,tree,98,7,24,200,0.9333333333333333,0.8032786885245902,0.8634361233480177,0.9157285859912967,0.9659063910667617
+coldcard+cryptobilis,cryptobilis,internal,micro,1800,329,122,207,,,,,,small_tree,90,4,32,203,0.9574468085106383,0.7377049180327869,0.8333333333333334,0.9324837445433509,0.9669755286291281
+coldcard+cryptobilis,cryptobilis,internal,micro,1800,329,122,207,,,,,,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+coldcard+cryptobilis,cryptobilis,internal,micro,1800,329,122,207,,,,,,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+coldcard+cryptobilis,cryptobilis,internal,micro,1800,329,122,207,,,,,,constant,,,,,,,,0.3708206686930091,0.5
+coldcard+cryptobilis,cryptobilis,internal,incident_macro,1800,,,,,,,,,tree,,,,,0.9333333333333333,0.8032786885245902,0.8634361233480177,0.9157285859912967,0.9659063910667617
+coldcard+cryptobilis,cryptobilis,internal,incident_macro,1800,,,,,,,,,small_tree,,,,,0.9574468085106383,0.7377049180327869,0.8333333333333334,0.9324837445433509,0.9669755286291281
+coldcard+cryptobilis,cryptobilis,internal,incident_macro,1800,,,,,,,,,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+coldcard+cryptobilis,cryptobilis,internal,incident_macro,1800,,,,,,,,,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+coldcard+cryptobilis,cryptobilis,internal,incident_macro,1800,,,,,,,,,constant,,,,,,,,0.3708206686930091,0.5
+coldcard+cryptobilis,btcpay,external,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,tree,0,1,16,21,0.0,0.0,0.0,0.42880639097744355,0.5269886363636364
+coldcard+cryptobilis,btcpay,external,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,small_tree,0,1,16,21,0.0,0.0,0.0,0.45559210526315785,0.5497159090909091
+coldcard+cryptobilis,btcpay,external,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5709589537569414,0.6278409090909091
+coldcard+cryptobilis,btcpay,external,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.35537051412663456,0.375
+coldcard+cryptobilis,btcpay,external,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.42105263157894735,0.5
+coldcard+cryptobilis,btcpay,external,micro,1800,38,16,22,,,,,,tree,0,1,16,21,0.0,0.0,0.0,0.42880639097744355,0.5269886363636364
+coldcard+cryptobilis,btcpay,external,micro,1800,38,16,22,,,,,,small_tree,0,1,16,21,0.0,0.0,0.0,0.45559210526315785,0.5497159090909091
+coldcard+cryptobilis,btcpay,external,micro,1800,38,16,22,,,,,,inactivity,,,,,,,,0.5709589537569414,0.6278409090909091
+coldcard+cryptobilis,btcpay,external,micro,1800,38,16,22,,,,,,balance,,,,,,,,0.35537051412663456,0.375
+coldcard+cryptobilis,btcpay,external,micro,1800,38,16,22,,,,,,constant,,,,,,,,0.42105263157894735,0.5
+coldcard+cryptobilis,btcpay,external,incident_macro,1800,,,,,,,,,tree,,,,,0.0,0.0,0.0,0.42880639097744355,0.5269886363636364
+coldcard+cryptobilis,btcpay,external,incident_macro,1800,,,,,,,,,small_tree,,,,,0.0,0.0,0.0,0.45559210526315785,0.5497159090909091
+coldcard+cryptobilis,btcpay,external,incident_macro,1800,,,,,,,,,inactivity,,,,,,,,0.5709589537569414,0.6278409090909091
+coldcard+cryptobilis,btcpay,external,incident_macro,1800,,,,,,,,,balance,,,,,,,,0.35537051412663456,0.375
+coldcard+cryptobilis,btcpay,external,incident_macro,1800,,,,,,,,,constant,,,,,,,,0.42105263157894735,0.5
+coldcard+cryptobilis,coldcard+cryptobilis,internal,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,tree,498,64,2,907,0.8861209964412812,0.996,0.9378531073446328,0.9668427927120581,0.9903141091658084
+coldcard+cryptobilis,coldcard+cryptobilis,internal,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,small_tree,498,27,2,944,0.9485714285714286,0.996,0.9717073170731707,0.9490284490107894,0.9840123583934088
+coldcard+cryptobilis,coldcard+cryptobilis,internal,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+cryptobilis,coldcard+cryptobilis,internal,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+cryptobilis,coldcard+cryptobilis,internal,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+cryptobilis,coldcard+cryptobilis,internal,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,tree,98,7,24,200,0.9333333333333333,0.8032786885245902,0.8634361233480177,0.9157285859912967,0.9659063910667617
+coldcard+cryptobilis,coldcard+cryptobilis,internal,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,small_tree,90,4,32,203,0.9574468085106383,0.7377049180327869,0.8333333333333334,0.9324837445433509,0.9669755286291281
+coldcard+cryptobilis,coldcard+cryptobilis,internal,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+coldcard+cryptobilis,coldcard+cryptobilis,internal,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+coldcard+cryptobilis,coldcard+cryptobilis,internal,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,constant,,,,,,,,0.3708206686930091,0.5
+coldcard+cryptobilis,coldcard+cryptobilis,internal,micro,1800,1800,622,1178,,,,,,tree,596,71,26,1107,0.8935532233883059,0.9581993569131833,0.9247478665632273,0.9555996022605795,0.9843158877382233
+coldcard+cryptobilis,coldcard+cryptobilis,internal,micro,1800,1800,622,1178,,,,,,small_tree,588,31,34,1147,0.9499192245557351,0.9453376205787781,0.9476228847703465,0.944387685322686,0.9797834358741996
+coldcard+cryptobilis,coldcard+cryptobilis,internal,micro,1800,1800,622,1178,,,,,,inactivity,,,,,,,,0.9284383345463293,0.9772353817850299
+coldcard+cryptobilis,coldcard+cryptobilis,internal,micro,1800,1800,622,1178,,,,,,balance,,,,,,,,0.7821366324847533,0.9307351006392655
+coldcard+cryptobilis,coldcard+cryptobilis,internal,micro,1800,1800,622,1178,,,,,,constant,,,,,,,,0.34555555555555556,0.5
+coldcard+cryptobilis,coldcard+cryptobilis,internal,incident_macro,1800,,,,,,,,,tree,,,,,0.9097271648873073,0.8996393442622951,0.9006446153463252,0.9412856893516774,0.978110250116285
+coldcard+cryptobilis,coldcard+cryptobilis,internal,incident_macro,1800,,,,,,,,,small_tree,,,,,0.9530091185410334,0.8668524590163935,0.9025203252032521,0.9407560967770702,0.9754939435112684
+coldcard+cryptobilis,coldcard+cryptobilis,internal,incident_macro,1800,,,,,,,,,inactivity,,,,,,,,0.9046560964009358,0.9732195174269382
+coldcard+cryptobilis,coldcard+cryptobilis,internal,incident_macro,1800,,,,,,,,,balance,,,,,,,,0.7701734652480963,0.9070179985558875
+coldcard+cryptobilis,coldcard+cryptobilis,internal,incident_macro,1800,,,,,,,,,constant,,,,,,,,0.35536274767077375,0.5
+coldcard+cryptobilis,coldcard+btcpay,mixed,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,tree,498,64,2,907,0.8861209964412812,0.996,0.9378531073446328,0.9668427927120581,0.9903141091658084
+coldcard+cryptobilis,coldcard+btcpay,mixed,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,small_tree,498,27,2,944,0.9485714285714286,0.996,0.9717073170731707,0.9490284490107894,0.9840123583934088
+coldcard+cryptobilis,coldcard+btcpay,mixed,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+cryptobilis,coldcard+btcpay,mixed,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+cryptobilis,coldcard+btcpay,mixed,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+cryptobilis,coldcard+btcpay,mixed,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,tree,0,1,16,21,0.0,0.0,0.0,0.42880639097744355,0.5269886363636364
+coldcard+cryptobilis,coldcard+btcpay,mixed,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,small_tree,0,1,16,21,0.0,0.0,0.0,0.45559210526315785,0.5497159090909091
+coldcard+cryptobilis,coldcard+btcpay,mixed,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5709589537569414,0.6278409090909091
+coldcard+cryptobilis,coldcard+btcpay,mixed,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.35537051412663456,0.375
+coldcard+cryptobilis,coldcard+btcpay,mixed,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.42105263157894735,0.5
+coldcard+cryptobilis,coldcard+btcpay,mixed,micro,1800,1509,516,993,,,,,,tree,498,65,18,928,0.8845470692717584,0.9651162790697675,0.9230769230769231,0.9532335499579505,0.979080306330359
+coldcard+cryptobilis,coldcard+btcpay,mixed,micro,1800,1509,516,993,,,,,,small_tree,498,28,18,965,0.9467680608365019,0.9651162790697675,0.9558541266794626,0.9370644934710474,0.9683462532299741
+coldcard+cryptobilis,coldcard+btcpay,mixed,micro,1800,1509,516,993,,,,,,inactivity,,,,,,,,0.9469707752327575,0.9748754849840355
+coldcard+cryptobilis,coldcard+btcpay,mixed,micro,1800,1509,516,993,,,,,,balance,,,,,,,,0.779627880419056,0.9252773288991936
+coldcard+cryptobilis,coldcard+btcpay,mixed,micro,1800,1509,516,993,,,,,,constant,,,,,,,,0.341948310139165,0.5
+coldcard+cryptobilis,coldcard+btcpay,mixed,incident_macro,1800,,,,,,,,,tree,,,,,0.4430604982206406,0.498,0.4689265536723164,0.6978245918447508,0.7586513727647224
+coldcard+cryptobilis,coldcard+btcpay,mixed,incident_macro,1800,,,,,,,,,small_tree,,,,,0.4742857142857143,0.498,0.48585365853658535,0.7023102771369736,0.7668641337421589
+coldcard+cryptobilis,coldcard+btcpay,mixed,incident_macro,1800,,,,,,,,,inactivity,,,,,,,,0.7631437053346259,0.8056320920325812
+coldcard+cryptobilis,coldcard+btcpay,mixed,incident_macro,1800,,,,,,,,,balance,,,,,,,,0.5736265018088468,0.6605669412976314
+coldcard+cryptobilis,coldcard+btcpay,mixed,incident_macro,1800,,,,,,,,,constant,,,,,,,,0.38047872911374286,0.5
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,tree,98,7,24,200,0.9333333333333333,0.8032786885245902,0.8634361233480177,0.9157285859912967,0.9659063910667617
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,small_tree,90,4,32,203,0.9574468085106383,0.7377049180327869,0.8333333333333334,0.9324837445433509,0.9669755286291281
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,constant,,,,,,,,0.3708206686930091,0.5
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,tree,0,1,16,21,0.0,0.0,0.0,0.42880639097744355,0.5269886363636364
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,small_tree,0,1,16,21,0.0,0.0,0.0,0.45559210526315785,0.5497159090909091
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5709589537569414,0.6278409090909091
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.35537051412663456,0.375
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.42105263157894735,0.5
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,micro,1800,367,138,229,,,,,,tree,98,8,40,221,0.9245283018867925,0.7101449275362319,0.8032786885245902,0.8663152271626431,0.9241820137965951
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,micro,1800,367,138,229,,,,,,small_tree,90,5,48,224,0.9473684210526315,0.6521739130434783,0.7725321888412017,0.888551751375206,0.9135655971141067
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,micro,1800,367,138,229,,,,,,inactivity,,,,,,,,0.8028218289205662,0.9220618948167838
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,micro,1800,367,138,229,,,,,,balance,,,,,,,,0.7067748214662938,0.8035250933485223
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,micro,1800,367,138,229,,,,,,constant,,,,,,,,0.3760217983651226,0.5
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,incident_macro,1800,,,,,,,,,tree,,,,,0.4666666666666667,0.4016393442622951,0.43171806167400884,0.6722674884843701,0.746447513715199
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,incident_macro,1800,,,,,,,,,small_tree,,,,,0.4787234042553192,0.36885245901639346,0.4166666666666667,0.6940379249032544,0.7583457188600186
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,incident_macro,1800,,,,,,,,,inactivity,,,,,,,,0.7124713448232514,0.7954283344852661
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,incident_macro,1800,,,,,,,,,balance,,,,,,,,0.551917477565884,0.6214510572582561
+coldcard+cryptobilis,cryptobilis+btcpay,mixed,incident_macro,1800,,,,,,,,,constant,,,,,,,,0.39593665013597823,0.5
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,tree,498,64,2,907,0.8861209964412812,0.996,0.9378531073446328,0.9668427927120581,0.9903141091658084
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,small_tree,498,27,2,944,0.9485714285714286,0.996,0.9717073170731707,0.9490284490107894,0.9840123583934088
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,coldcard,1800,1471,500,971,911,1471,0,group-held-out,partial history overlap audit,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,tree,98,7,24,200,0.9333333333333333,0.8032786885245902,0.8634361233480177,0.9157285859912967,0.9659063910667617
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,small_tree,90,4,32,203,0.9574468085106383,0.7377049180327869,0.8333333333333334,0.9324837445433509,0.9669755286291281
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,cryptobilis,1800,329,122,207,259,329,0,group-held-out,partial history overlap audit,constant,,,,,,,,0.3708206686930091,0.5
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,tree,0,1,16,21,0.0,0.0,0.0,0.42880639097744355,0.5269886363636364
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,small_tree,0,1,16,21,0.0,0.0,0.0,0.45559210526315785,0.5497159090909091
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5709589537569414,0.6278409090909091
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.35537051412663456,0.375
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,btcpay,1800,38,16,22,38,48,10,train references earlier,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.42105263157894735,0.5
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,micro,1800,1838,638,1200,,,,,,tree,596,72,42,1128,0.8922155688622755,0.9341692789968652,0.9127105666156202,0.9447900863470136,0.9753435214211076
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,micro,1800,1838,638,1200,,,,,,small_tree,588,32,50,1168,0.9483870967741935,0.9216300940438872,0.9348171701112877,0.9348447357367738,0.9673341170323929
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,micro,1800,1838,638,1200,,,,,,inactivity,,,,,,,,0.9215672653862541,0.9700842476489028
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,micro,1800,1838,638,1200,,,,,,balance,,,,,,,,0.7724713102601922,0.914394592476489
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,micro,1800,1838,638,1200,,,,,,constant,,,,,,,,0.3471164309031556,0.5
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,incident_macro,1800,,,,,,,,,tree,,,,,0.6064847765915382,0.5997595628415301,0.6004297435642169,0.7704592565602661,0.8277363788654022
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,incident_macro,1800,,,,,,,,,small_tree,,,,,0.635339412360689,0.5779016393442623,0.601680216802168,0.7790347662724327,0.8335679320378153
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,incident_macro,1800,,,,,,,,,inactivity,,,,,,,,0.7934237155196043,0.8580933146482618
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,incident_macro,1800,,,,,,,,,balance,,,,,,,,0.6319058148742757,0.7296786657039249
+coldcard+cryptobilis,coldcard+cryptobilis+btcpay,mixed,incident_macro,1800,,,,,,,,,constant,,,,,,,,0.37725937564016493,0.5
+coldcard+btcpay,coldcard,internal,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,tree,496,6,4,965,0.9880478087649402,0.992,0.9900199600798403,0.9865161846806265,0.9963223480947477
+coldcard+btcpay,coldcard,internal,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,small_tree,496,7,4,964,0.9860834990059643,0.992,0.9890329012961117,0.9790105563984695,0.9933779608650876
+coldcard+btcpay,coldcard,internal,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+btcpay,coldcard,internal,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+btcpay,coldcard,internal,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+btcpay,coldcard,internal,micro,1519,1471,500,971,,,,,,tree,496,6,4,965,0.9880478087649402,0.992,0.9900199600798403,0.9865161846806265,0.9963223480947477
+coldcard+btcpay,coldcard,internal,micro,1519,1471,500,971,,,,,,small_tree,496,7,4,964,0.9860834990059643,0.992,0.9890329012961117,0.9790105563984695,0.9933779608650876
+coldcard+btcpay,coldcard,internal,micro,1519,1471,500,971,,,,,,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+btcpay,coldcard,internal,micro,1519,1471,500,971,,,,,,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+btcpay,coldcard,internal,micro,1519,1471,500,971,,,,,,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+btcpay,coldcard,internal,incident_macro,1519,,,,,,,,,tree,,,,,0.9880478087649402,0.992,0.9900199600798403,0.9865161846806265,0.9963223480947477
+coldcard+btcpay,coldcard,internal,incident_macro,1519,,,,,,,,,small_tree,,,,,0.9860834990059643,0.992,0.9890329012961117,0.9790105563984695,0.9933779608650876
+coldcard+btcpay,coldcard,internal,incident_macro,1519,,,,,,,,,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+btcpay,coldcard,internal,incident_macro,1519,,,,,,,,,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+btcpay,coldcard,internal,incident_macro,1519,,,,,,,,,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+btcpay,cryptobilis,external,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.739021595578622,0.598671565856416
+coldcard+btcpay,cryptobilis,external,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,small_tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.8617972807989946,0.9091294516676088
+coldcard+btcpay,cryptobilis,external,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.8540256294798418,0.9472583380440928
+coldcard+btcpay,cryptobilis,external,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.7656634350800109,0.8412662521198417
+coldcard+btcpay,cryptobilis,external,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.45692883895131087,0.5
+coldcard+btcpay,cryptobilis,external,micro,1519,267,122,145,,,,,,tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.739021595578622,0.598671565856416
+coldcard+btcpay,cryptobilis,external,micro,1519,267,122,145,,,,,,small_tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.8617972807989946,0.9091294516676088
+coldcard+btcpay,cryptobilis,external,micro,1519,267,122,145,,,,,,inactivity,,,,,,,,0.8540256294798418,0.9472583380440928
+coldcard+btcpay,cryptobilis,external,micro,1519,267,122,145,,,,,,balance,,,,,,,,0.7656634350800109,0.8412662521198417
+coldcard+btcpay,cryptobilis,external,micro,1519,267,122,145,,,,,,constant,,,,,,,,0.45692883895131087,0.5
+coldcard+btcpay,cryptobilis,external,incident_macro,1519,,,,,,,,,tree,,,,,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.739021595578622,0.598671565856416
+coldcard+btcpay,cryptobilis,external,incident_macro,1519,,,,,,,,,small_tree,,,,,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.8617972807989946,0.9091294516676088
+coldcard+btcpay,cryptobilis,external,incident_macro,1519,,,,,,,,,inactivity,,,,,,,,0.8540256294798418,0.9472583380440928
+coldcard+btcpay,cryptobilis,external,incident_macro,1519,,,,,,,,,balance,,,,,,,,0.7656634350800109,0.8412662521198417
+coldcard+btcpay,cryptobilis,external,incident_macro,1519,,,,,,,,,constant,,,,,,,,0.45692883895131087,0.5
+coldcard+btcpay,btcpay,internal,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,tree,0,1,16,31,0.0,0.0,0.0,0.45836158537081434,0.71484375
+coldcard+btcpay,btcpay,internal,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,small_tree,0,1,16,31,0.0,0.0,0.0,0.40880499049213187,0.634765625
+coldcard+btcpay,btcpay,internal,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5362488768546396,0.673828125
+coldcard+btcpay,btcpay,internal,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.24455359179543706,0.275390625
+coldcard+btcpay,btcpay,internal,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3333333333333333,0.5
+coldcard+btcpay,btcpay,internal,micro,1519,48,16,32,,,,,,tree,0,1,16,31,0.0,0.0,0.0,0.45836158537081434,0.71484375
+coldcard+btcpay,btcpay,internal,micro,1519,48,16,32,,,,,,small_tree,0,1,16,31,0.0,0.0,0.0,0.40880499049213187,0.634765625
+coldcard+btcpay,btcpay,internal,micro,1519,48,16,32,,,,,,inactivity,,,,,,,,0.5362488768546396,0.673828125
+coldcard+btcpay,btcpay,internal,micro,1519,48,16,32,,,,,,balance,,,,,,,,0.24455359179543706,0.275390625
+coldcard+btcpay,btcpay,internal,micro,1519,48,16,32,,,,,,constant,,,,,,,,0.3333333333333333,0.5
+coldcard+btcpay,btcpay,internal,incident_macro,1519,,,,,,,,,tree,,,,,0.0,0.0,0.0,0.45836158537081434,0.71484375
+coldcard+btcpay,btcpay,internal,incident_macro,1519,,,,,,,,,small_tree,,,,,0.0,0.0,0.0,0.40880499049213187,0.634765625
+coldcard+btcpay,btcpay,internal,incident_macro,1519,,,,,,,,,inactivity,,,,,,,,0.5362488768546396,0.673828125
+coldcard+btcpay,btcpay,internal,incident_macro,1519,,,,,,,,,balance,,,,,,,,0.24455359179543706,0.275390625
+coldcard+btcpay,btcpay,internal,incident_macro,1519,,,,,,,,,constant,,,,,,,,0.3333333333333333,0.5
+coldcard+btcpay,coldcard+cryptobilis,mixed,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,tree,496,6,4,965,0.9880478087649402,0.992,0.9900199600798403,0.9865161846806265,0.9963223480947477
+coldcard+btcpay,coldcard+cryptobilis,mixed,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,small_tree,496,7,4,964,0.9860834990059643,0.992,0.9890329012961117,0.9790105563984695,0.9933779608650876
+coldcard+btcpay,coldcard+cryptobilis,mixed,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+btcpay,coldcard+cryptobilis,mixed,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+btcpay,coldcard+cryptobilis,mixed,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+btcpay,coldcard+cryptobilis,mixed,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.739021595578622,0.598671565856416
+coldcard+btcpay,coldcard+cryptobilis,mixed,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,small_tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.8617972807989946,0.9091294516676088
+coldcard+btcpay,coldcard+cryptobilis,mixed,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.8540256294798418,0.9472583380440928
+coldcard+btcpay,coldcard+cryptobilis,mixed,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.7656634350800109,0.8412662521198417
+coldcard+btcpay,coldcard+cryptobilis,mixed,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.45692883895131087,0.5
+coldcard+btcpay,coldcard+cryptobilis,mixed,micro,1519,1738,622,1116,,,,,,tree,545,8,77,1108,0.9855334538878843,0.8762057877813505,0.9276595744680851,0.9347387454299051,0.9316662632967996
+coldcard+btcpay,coldcard+cryptobilis,mixed,micro,1519,1738,622,1116,,,,,,small_tree,545,9,77,1107,0.983754512635379,0.8762057877813505,0.9268707482993197,0.9629717404911673,0.9829900367642822
+coldcard+btcpay,coldcard+cryptobilis,mixed,micro,1519,1738,622,1116,,,,,,inactivity,,,,,,,,0.9284416798674384,0.9759735619864237
+coldcard+btcpay,coldcard+cryptobilis,mixed,micro,1519,1738,622,1116,,,,,,balance,,,,,,,,0.7827671749934214,0.9277240431490509
+coldcard+btcpay,coldcard+cryptobilis,mixed,micro,1519,1738,622,1116,,,,,,constant,,,,,,,,0.3578826237054085,0.5
+coldcard+btcpay,coldcard+cryptobilis,mixed,incident_macro,1519,,,,,,,,,tree,,,,,0.9744160612452153,0.6968196721311475,0.7782469742595733,0.8627688901296242,0.7974969569755819
+coldcard+btcpay,coldcard+cryptobilis,mixed,incident_macro,1519,,,,,,,,,small_tree,,,,,0.9734339063657272,0.6968196721311475,0.777753444867709,0.920403918598732,0.9512537062663482
+coldcard+btcpay,coldcard+cryptobilis,mixed,incident_macro,1519,,,,,,,,,inactivity,,,,,,,,0.9046770431960761,0.9653408065091731
+coldcard+btcpay,coldcard+cryptobilis,mixed,incident_macro,1519,,,,,,,,,balance,,,,,,,,0.7787729622855349,0.8937000673575521
+coldcard+btcpay,coldcard+cryptobilis,mixed,incident_macro,1519,,,,,,,,,constant,,,,,,,,0.3984168327999246,0.5
+coldcard+btcpay,coldcard+btcpay,internal,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,tree,496,6,4,965,0.9880478087649402,0.992,0.9900199600798403,0.9865161846806265,0.9963223480947477
+coldcard+btcpay,coldcard+btcpay,internal,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,small_tree,496,7,4,964,0.9860834990059643,0.992,0.9890329012961117,0.9790105563984695,0.9933779608650876
+coldcard+btcpay,coldcard+btcpay,internal,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+btcpay,coldcard+btcpay,internal,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+btcpay,coldcard+btcpay,internal,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+btcpay,coldcard+btcpay,internal,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,tree,0,1,16,31,0.0,0.0,0.0,0.45836158537081434,0.71484375
+coldcard+btcpay,coldcard+btcpay,internal,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,small_tree,0,1,16,31,0.0,0.0,0.0,0.40880499049213187,0.634765625
+coldcard+btcpay,coldcard+btcpay,internal,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5362488768546396,0.673828125
+coldcard+btcpay,coldcard+btcpay,internal,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.24455359179543706,0.275390625
+coldcard+btcpay,coldcard+btcpay,internal,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3333333333333333,0.5
+coldcard+btcpay,coldcard+btcpay,internal,micro,1519,1519,516,1003,,,,,,tree,496,7,20,996,0.9860834990059643,0.9612403100775194,0.9735034347399412,0.9805295103009489,0.9917389304953357
+coldcard+btcpay,coldcard+btcpay,internal,micro,1519,1519,516,1003,,,,,,small_tree,496,8,20,995,0.9841269841269841,0.9612403100775194,0.9725490196078431,0.966283025262409,0.9855211497291072
+coldcard+btcpay,coldcard+btcpay,internal,micro,1519,1519,516,1003,,,,,,inactivity,,,,,,,,0.946927785379174,0.9750486911358947
+coldcard+btcpay,coldcard+btcpay,internal,micro,1519,1519,516,1003,,,,,,balance,,,,,,,,0.7774178162384756,0.9249499563325527
+coldcard+btcpay,coldcard+btcpay,internal,micro,1519,1519,516,1003,,,,,,constant,,,,,,,,0.3396971691902567,0.5
+coldcard+btcpay,coldcard+btcpay,internal,incident_macro,1519,,,,,,,,,tree,,,,,0.4940239043824701,0.496,0.49500998003992014,0.7224388850257204,0.8555830490473739
+coldcard+btcpay,coldcard+btcpay,internal,incident_macro,1519,,,,,,,,,small_tree,,,,,0.49304174950298213,0.496,0.4945164506480558,0.6939077734453006,0.8140717929325438
+coldcard+btcpay,coldcard+btcpay,internal,incident_macro,1519,,,,,,,,,inactivity,,,,,,,,0.745788666883475,0.8286256999871267
+coldcard+btcpay,coldcard+btcpay,internal,incident_macro,1519,,,,,,,,,balance,,,,,,,,0.5182180406432481,0.6107622537976314
+coldcard+btcpay,coldcard+btcpay,internal,incident_macro,1519,,,,,,,,,constant,,,,,,,,0.3366190799909359,0.5
+coldcard+btcpay,cryptobilis+btcpay,mixed,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.739021595578622,0.598671565856416
+coldcard+btcpay,cryptobilis+btcpay,mixed,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,small_tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.8617972807989946,0.9091294516676088
+coldcard+btcpay,cryptobilis+btcpay,mixed,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.8540256294798418,0.9472583380440928
+coldcard+btcpay,cryptobilis+btcpay,mixed,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.7656634350800109,0.8412662521198417
+coldcard+btcpay,cryptobilis+btcpay,mixed,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.45692883895131087,0.5
+coldcard+btcpay,cryptobilis+btcpay,mixed,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,tree,0,1,16,31,0.0,0.0,0.0,0.45836158537081434,0.71484375
+coldcard+btcpay,cryptobilis+btcpay,mixed,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,small_tree,0,1,16,31,0.0,0.0,0.0,0.40880499049213187,0.634765625
+coldcard+btcpay,cryptobilis+btcpay,mixed,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5362488768546396,0.673828125
+coldcard+btcpay,cryptobilis+btcpay,mixed,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.24455359179543706,0.275390625
+coldcard+btcpay,cryptobilis+btcpay,mixed,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3333333333333333,0.5
+coldcard+btcpay,cryptobilis+btcpay,mixed,micro,1519,315,138,177,,,,,,tree,49,3,89,174,0.9423076923076923,0.35507246376811596,0.5157894736842106,0.7204761306072238,0.6233726357160403
+coldcard+btcpay,cryptobilis+btcpay,mixed,micro,1519,315,138,177,,,,,,small_tree,49,3,89,174,0.9423076923076923,0.35507246376811596,0.5157894736842106,0.8254342586473885,0.8810488823384918
+coldcard+btcpay,cryptobilis+btcpay,mixed,micro,1519,315,138,177,,,,,,inactivity,,,,,,,,0.8048304937109222,0.9064316711700647
+coldcard+btcpay,cryptobilis+btcpay,mixed,micro,1519,315,138,177,,,,,,balance,,,,,,,,0.7171134700977594,0.7794972570212069
+coldcard+btcpay,cryptobilis+btcpay,mixed,micro,1519,315,138,177,,,,,,constant,,,,,,,,0.4380952380952381,0.5
+coldcard+btcpay,cryptobilis+btcpay,mixed,incident_macro,1519,,,,,,,,,tree,,,,,0.4803921568627451,0.20081967213114754,0.2832369942196532,0.5986915904747182,0.656757657928208
+coldcard+btcpay,cryptobilis+btcpay,mixed,incident_macro,1519,,,,,,,,,small_tree,,,,,0.4803921568627451,0.20081967213114754,0.2832369942196532,0.6353011356455632,0.7719475383338044
+coldcard+btcpay,cryptobilis+btcpay,mixed,incident_macro,1519,,,,,,,,,inactivity,,,,,,,,0.6951372531672407,0.8105432315220464
+coldcard+btcpay,cryptobilis+btcpay,mixed,incident_macro,1519,,,,,,,,,balance,,,,,,,,0.505108513437724,0.5583284385599209
+coldcard+btcpay,cryptobilis+btcpay,mixed,incident_macro,1519,,,,,,,,,constant,,,,,,,,0.39513108614232206,0.5
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,tree,496,6,4,965,0.9880478087649402,0.992,0.9900199600798403,0.9865161846806265,0.9963223480947477
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,small_tree,496,7,4,964,0.9860834990059643,0.992,0.9890329012961117,0.9790105563984695,0.9933779608650876
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,coldcard,1519,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.739021595578622,0.598671565856416
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,small_tree,49,2,73,143,0.9607843137254902,0.4016393442622951,0.5664739884393064,0.8617972807989946,0.9091294516676088
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.8540256294798418,0.9472583380440928
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.7656634350800109,0.8412662521198417
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,cryptobilis,1519,267,122,145,253,329,62,train references straddle test,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.45692883895131087,0.5
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,tree,0,1,16,31,0.0,0.0,0.0,0.45836158537081434,0.71484375
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,small_tree,0,1,16,31,0.0,0.0,0.0,0.40880499049213187,0.634765625
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5362488768546396,0.673828125
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.24455359179543706,0.275390625
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,btcpay,1519,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3333333333333333,0.5
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,micro,1519,1786,638,1148,,,,,,tree,545,9,93,1139,0.983754512635379,0.85423197492163,0.9144295302013423,0.9307408938211623,0.9291694428363898
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,micro,1519,1786,638,1148,,,,,,small_tree,545,10,93,1138,0.9819819819819819,0.85423197492163,0.9136630343671417,0.9524955879037454,0.9765204307887235
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,micro,1519,1786,638,1148,,,,,,inactivity,,,,,,,,0.9216343888271944,0.9689674287025002
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,micro,1519,1786,638,1148,,,,,,balance,,,,,,,,0.7714934292814551,0.9111614310836346
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,micro,1519,1786,638,1148,,,,,,constant,,,,,,,,0.3572228443449048,0.5
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,incident_macro,1519,,,,,,,,,tree,,,,,0.6496107074968102,0.4645464480874317,0.5188313161730489,0.7279664552100209,0.7699458879837212
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,incident_macro,1519,,,,,,,,,small_tree,,,,,0.6489559375771515,0.4645464480874317,0.5185022965784727,0.7498709425631986,0.8457576791775655
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,incident_macro,1519,,,,,,,,,inactivity,,,,,,,,0.7818676544155972,0.868169912672782
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,incident_macro,1519,,,,,,,,,balance,,,,,,,,0.6006998387888356,0.6875969199050348
+coldcard+btcpay,coldcard+cryptobilis+btcpay,mixed,incident_macro,1519,,,,,,,,,constant,,,,,,,,0.3767223329777275,0.5
+cryptobilis+btcpay,coldcard,external,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,tree,499,86,0,493,0.852991452991453,1.0,0.9206642066420664,0.9390294800539517,0.9720200331578528
+cryptobilis+btcpay,coldcard,external,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,small_tree,499,86,0,493,0.852991452991453,1.0,0.9206642066420664,0.9257884972170687,0.9654576856649395
+cryptobilis+btcpay,coldcard,external,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.9556909847543311,0.9726291962162668
+cryptobilis+btcpay,coldcard,external,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.8239612478534298,0.92920210022809
+cryptobilis+btcpay,coldcard,external,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.46289424860853434,0.5
+cryptobilis+btcpay,coldcard,external,micro,377,1078,499,579,,,,,,tree,499,86,0,493,0.852991452991453,1.0,0.9206642066420664,0.9390294800539517,0.9720200331578528
+cryptobilis+btcpay,coldcard,external,micro,377,1078,499,579,,,,,,small_tree,499,86,0,493,0.852991452991453,1.0,0.9206642066420664,0.9257884972170687,0.9654576856649395
+cryptobilis+btcpay,coldcard,external,micro,377,1078,499,579,,,,,,inactivity,,,,,,,,0.9556909847543311,0.9726291962162668
+cryptobilis+btcpay,coldcard,external,micro,377,1078,499,579,,,,,,balance,,,,,,,,0.8239612478534298,0.92920210022809
+cryptobilis+btcpay,coldcard,external,micro,377,1078,499,579,,,,,,constant,,,,,,,,0.46289424860853434,0.5
+cryptobilis+btcpay,coldcard,external,incident_macro,377,,,,,,,,,tree,,,,,0.852991452991453,1.0,0.9206642066420664,0.9390294800539517,0.9720200331578528
+cryptobilis+btcpay,coldcard,external,incident_macro,377,,,,,,,,,small_tree,,,,,0.852991452991453,1.0,0.9206642066420664,0.9257884972170687,0.9654576856649395
+cryptobilis+btcpay,coldcard,external,incident_macro,377,,,,,,,,,inactivity,,,,,,,,0.9556909847543311,0.9726291962162668
+cryptobilis+btcpay,coldcard,external,incident_macro,377,,,,,,,,,balance,,,,,,,,0.8239612478534298,0.92920210022809
+cryptobilis+btcpay,coldcard,external,incident_macro,377,,,,,,,,,constant,,,,,,,,0.46289424860853434,0.5
+cryptobilis+btcpay,cryptobilis,internal,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,tree,115,18,7,189,0.8646616541353384,0.9426229508196722,0.9019607843137255,0.9458649895180569,0.9781222776589847
+cryptobilis+btcpay,cryptobilis,internal,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,small_tree,115,18,7,189,0.8646616541353384,0.9426229508196722,0.9019607843137255,0.9069297154837661,0.9582442385364695
+cryptobilis+btcpay,cryptobilis,internal,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+cryptobilis+btcpay,cryptobilis,internal,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+cryptobilis+btcpay,cryptobilis,internal,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3708206686930091,0.5
+cryptobilis+btcpay,cryptobilis,internal,micro,377,329,122,207,,,,,,tree,115,18,7,189,0.8646616541353384,0.9426229508196722,0.9019607843137255,0.9458649895180569,0.9781222776589847
+cryptobilis+btcpay,cryptobilis,internal,micro,377,329,122,207,,,,,,small_tree,115,18,7,189,0.8646616541353384,0.9426229508196722,0.9019607843137255,0.9069297154837661,0.9582442385364695
+cryptobilis+btcpay,cryptobilis,internal,micro,377,329,122,207,,,,,,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+cryptobilis+btcpay,cryptobilis,internal,micro,377,329,122,207,,,,,,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+cryptobilis+btcpay,cryptobilis,internal,micro,377,329,122,207,,,,,,constant,,,,,,,,0.3708206686930091,0.5
+cryptobilis+btcpay,cryptobilis,internal,incident_macro,377,,,,,,,,,tree,,,,,0.8646616541353384,0.9426229508196722,0.9019607843137255,0.9458649895180569,0.9781222776589847
+cryptobilis+btcpay,cryptobilis,internal,incident_macro,377,,,,,,,,,small_tree,,,,,0.8646616541353384,0.9426229508196722,0.9019607843137255,0.9069297154837661,0.9582442385364695
+cryptobilis+btcpay,cryptobilis,internal,incident_macro,377,,,,,,,,,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+cryptobilis+btcpay,cryptobilis,internal,incident_macro,377,,,,,,,,,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+cryptobilis+btcpay,cryptobilis,internal,incident_macro,377,,,,,,,,,constant,,,,,,,,0.3708206686930091,0.5
+cryptobilis+btcpay,btcpay,internal,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,tree,4,8,12,24,0.3333333333333333,0.25,0.2857142857142857,0.40762200974177454,0.65234375
+cryptobilis+btcpay,btcpay,internal,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,small_tree,3,8,13,24,0.2727272727272727,0.1875,0.2222222222222222,0.3617006288308616,0.556640625
+cryptobilis+btcpay,btcpay,internal,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5362488768546396,0.673828125
+cryptobilis+btcpay,btcpay,internal,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.24455359179543706,0.275390625
+cryptobilis+btcpay,btcpay,internal,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3333333333333333,0.5
+cryptobilis+btcpay,btcpay,internal,micro,377,48,16,32,,,,,,tree,4,8,12,24,0.3333333333333333,0.25,0.2857142857142857,0.40762200974177454,0.65234375
+cryptobilis+btcpay,btcpay,internal,micro,377,48,16,32,,,,,,small_tree,3,8,13,24,0.2727272727272727,0.1875,0.2222222222222222,0.3617006288308616,0.556640625
+cryptobilis+btcpay,btcpay,internal,micro,377,48,16,32,,,,,,inactivity,,,,,,,,0.5362488768546396,0.673828125
+cryptobilis+btcpay,btcpay,internal,micro,377,48,16,32,,,,,,balance,,,,,,,,0.24455359179543706,0.275390625
+cryptobilis+btcpay,btcpay,internal,micro,377,48,16,32,,,,,,constant,,,,,,,,0.3333333333333333,0.5
+cryptobilis+btcpay,btcpay,internal,incident_macro,377,,,,,,,,,tree,,,,,0.3333333333333333,0.25,0.2857142857142857,0.40762200974177454,0.65234375
+cryptobilis+btcpay,btcpay,internal,incident_macro,377,,,,,,,,,small_tree,,,,,0.2727272727272727,0.1875,0.2222222222222222,0.3617006288308616,0.556640625
+cryptobilis+btcpay,btcpay,internal,incident_macro,377,,,,,,,,,inactivity,,,,,,,,0.5362488768546396,0.673828125
+cryptobilis+btcpay,btcpay,internal,incident_macro,377,,,,,,,,,balance,,,,,,,,0.24455359179543706,0.275390625
+cryptobilis+btcpay,btcpay,internal,incident_macro,377,,,,,,,,,constant,,,,,,,,0.3333333333333333,0.5
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,tree,499,86,0,493,0.852991452991453,1.0,0.9206642066420664,0.9390294800539517,0.9720200331578528
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,small_tree,499,86,0,493,0.852991452991453,1.0,0.9206642066420664,0.9257884972170687,0.9654576856649395
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.9556909847543311,0.9726291962162668
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.8239612478534298,0.92920210022809
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.46289424860853434,0.5
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,tree,115,18,7,189,0.8646616541353384,0.9426229508196722,0.9019607843137255,0.9458649895180569,0.9781222776589847
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,small_tree,115,18,7,189,0.8646616541353384,0.9426229508196722,0.9019607843137255,0.9069297154837661,0.9582442385364695
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3708206686930091,0.5
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,micro,377,1407,621,786,,,,,,tree,614,104,7,682,0.8551532033426184,0.9887278582930756,0.9171023151605676,0.9388656214760415,0.9730929347313904
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,micro,377,1407,621,786,,,,,,small_tree,614,104,7,682,0.8551532033426184,0.9887278582930756,0.9171023151605676,0.9216764838885685,0.9638019200747379
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,micro,377,1407,621,786,,,,,,inactivity,,,,,,,,0.9288472794720247,0.9663454249691665
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,micro,377,1407,621,786,,,,,,balance,,,,,,,,0.8127154264124015,0.9179840034746551
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,micro,377,1407,621,786,,,,,,constant,,,,,,,,0.44136460554371004,0.5
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,incident_macro,377,,,,,,,,,tree,,,,,0.8588265535633957,0.9713114754098361,0.911312495477896,0.9424472347860042,0.9750711554084188
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,incident_macro,377,,,,,,,,,small_tree,,,,,0.8588265535633957,0.9713114754098361,0.911312495477896,0.9163591063504174,0.9618509621007045
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,incident_macro,377,,,,,,,,,inactivity,,,,,,,,0.9048373603219462,0.967822478047945
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,incident_macro,377,,,,,,,,,balance,,,,,,,,0.7862128444292817,0.8985521073723011
+cryptobilis+btcpay,coldcard+cryptobilis,mixed,incident_macro,377,,,,,,,,,constant,,,,,,,,0.41685745865077173,0.5
+cryptobilis+btcpay,coldcard+btcpay,mixed,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,tree,499,86,0,493,0.852991452991453,1.0,0.9206642066420664,0.9390294800539517,0.9720200331578528
+cryptobilis+btcpay,coldcard+btcpay,mixed,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,small_tree,499,86,0,493,0.852991452991453,1.0,0.9206642066420664,0.9257884972170687,0.9654576856649395
+cryptobilis+btcpay,coldcard+btcpay,mixed,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.9556909847543311,0.9726291962162668
+cryptobilis+btcpay,coldcard+btcpay,mixed,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.8239612478534298,0.92920210022809
+cryptobilis+btcpay,coldcard+btcpay,mixed,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.46289424860853434,0.5
+cryptobilis+btcpay,coldcard+btcpay,mixed,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,tree,4,8,12,24,0.3333333333333333,0.25,0.2857142857142857,0.40762200974177454,0.65234375
+cryptobilis+btcpay,coldcard+btcpay,mixed,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,small_tree,3,8,13,24,0.2727272727272727,0.1875,0.2222222222222222,0.3617006288308616,0.556640625
+cryptobilis+btcpay,coldcard+btcpay,mixed,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5362488768546396,0.673828125
+cryptobilis+btcpay,coldcard+btcpay,mixed,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.24455359179543706,0.275390625
+cryptobilis+btcpay,coldcard+btcpay,mixed,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3333333333333333,0.5
+cryptobilis+btcpay,coldcard+btcpay,mixed,micro,377,1126,515,611,,,,,,tree,503,94,12,517,0.8425460636515912,0.9766990291262136,0.9046762589928058,0.9317392377820662,0.9640792588943797
+cryptobilis+btcpay,coldcard+btcpay,mixed,micro,377,1126,515,611,,,,,,small_tree,502,94,13,517,0.8422818791946308,0.974757281553398,0.9036903690369037,0.9178577492715997,0.9538239079656142
+cryptobilis+btcpay,coldcard+btcpay,mixed,micro,377,1126,515,611,,,,,,inactivity,,,,,,,,0.9483482749703356,0.9634071155037898
+cryptobilis+btcpay,coldcard+btcpay,mixed,micro,377,1126,515,611,,,,,,balance,,,,,,,,0.8120819320545322,0.9098882938998618
+cryptobilis+btcpay,coldcard+btcpay,mixed,micro,377,1126,515,611,,,,,,constant,,,,,,,,0.4573712255772647,0.5
+cryptobilis+btcpay,coldcard+btcpay,mixed,incident_macro,377,,,,,,,,,tree,,,,,0.5931623931623932,0.625,0.603189246178176,0.6733257448978631,0.8121818915789264
+cryptobilis+btcpay,coldcard+btcpay,mixed,incident_macro,377,,,,,,,,,small_tree,,,,,0.5628593628593628,0.59375,0.5714432144321443,0.6437445630239651,0.7610491553324698
+cryptobilis+btcpay,coldcard+btcpay,mixed,incident_macro,377,,,,,,,,,inactivity,,,,,,,,0.7459699308044854,0.8232286606081334
+cryptobilis+btcpay,coldcard+btcpay,mixed,incident_macro,377,,,,,,,,,balance,,,,,,,,0.5342574198244334,0.602296362614045
+cryptobilis+btcpay,coldcard+btcpay,mixed,incident_macro,377,,,,,,,,,constant,,,,,,,,0.3981137909709338,0.5
+cryptobilis+btcpay,cryptobilis+btcpay,internal,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,tree,115,18,7,189,0.8646616541353384,0.9426229508196722,0.9019607843137255,0.9458649895180569,0.9781222776589847
+cryptobilis+btcpay,cryptobilis+btcpay,internal,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,small_tree,115,18,7,189,0.8646616541353384,0.9426229508196722,0.9019607843137255,0.9069297154837661,0.9582442385364695
+cryptobilis+btcpay,cryptobilis+btcpay,internal,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+cryptobilis+btcpay,cryptobilis+btcpay,internal,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+cryptobilis+btcpay,cryptobilis+btcpay,internal,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3708206686930091,0.5
+cryptobilis+btcpay,cryptobilis+btcpay,internal,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,tree,4,8,12,24,0.3333333333333333,0.25,0.2857142857142857,0.40762200974177454,0.65234375
+cryptobilis+btcpay,cryptobilis+btcpay,internal,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,small_tree,3,8,13,24,0.2727272727272727,0.1875,0.2222222222222222,0.3617006288308616,0.556640625
+cryptobilis+btcpay,cryptobilis+btcpay,internal,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5362488768546396,0.673828125
+cryptobilis+btcpay,cryptobilis+btcpay,internal,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.24455359179543706,0.275390625
+cryptobilis+btcpay,cryptobilis+btcpay,internal,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3333333333333333,0.5
+cryptobilis+btcpay,cryptobilis+btcpay,internal,micro,377,377,138,239,,,,,,tree,119,26,19,213,0.8206896551724138,0.8623188405797102,0.8409893992932862,0.9038390304817233,0.947395549087381
+cryptobilis+btcpay,cryptobilis+btcpay,internal,micro,377,377,138,239,,,,,,small_tree,118,26,20,213,0.8194444444444444,0.855072463768116,0.8368794326241135,0.8610163940514027,0.9196228245709781
+cryptobilis+btcpay,cryptobilis+btcpay,internal,micro,377,377,138,239,,,,,,inactivity,,,,,,,,0.8015874598219419,0.9235037293068946
+cryptobilis+btcpay,cryptobilis+btcpay,internal,micro,377,377,138,239,,,,,,balance,,,,,,,,0.6957504381227342,0.8013158692620217
+cryptobilis+btcpay,cryptobilis+btcpay,internal,micro,377,377,138,239,,,,,,constant,,,,,,,,0.3660477453580902,0.5
+cryptobilis+btcpay,cryptobilis+btcpay,internal,incident_macro,377,,,,,,,,,tree,,,,,0.5989974937343359,0.5963114754098361,0.5938375350140056,0.6767434996299158,0.8152330138294923
+cryptobilis+btcpay,cryptobilis+btcpay,internal,incident_macro,377,,,,,,,,,small_tree,,,,,0.5686944634313056,0.5650614754098361,0.5620915032679739,0.6343151721573139,0.7574424317682347
+cryptobilis+btcpay,cryptobilis+btcpay,internal,incident_macro,377,,,,,,,,,inactivity,,,,,,,,0.6951163063721004,0.8184219424398116
+cryptobilis+btcpay,cryptobilis+btcpay,internal,incident_macro,377,,,,,,,,,balance,,,,,,,,0.49650901640028533,0.5716463697582561
+cryptobilis+btcpay,cryptobilis+btcpay,internal,incident_macro,377,,,,,,,,,constant,,,,,,,,0.3520770010131712,0.5
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,tree,499,86,0,493,0.852991452991453,1.0,0.9206642066420664,0.9390294800539517,0.9720200331578528
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,small_tree,499,86,0,493,0.852991452991453,1.0,0.9206642066420664,0.9257884972170687,0.9654576856649395
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.9556909847543311,0.9726291962162668
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.8239612478534298,0.92920210022809
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,coldcard,377,1078,499,579,906,1471,393,train references later,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.46289424860853434,0.5
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,tree,115,18,7,189,0.8646616541353384,0.9426229508196722,0.9019607843137255,0.9458649895180569,0.9781222776589847
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,small_tree,115,18,7,189,0.8646616541353384,0.9426229508196722,0.9019607843137255,0.9069297154837661,0.9582442385364695
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,cryptobilis,377,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3708206686930091,0.5
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,tree,4,8,12,24,0.3333333333333333,0.25,0.2857142857142857,0.40762200974177454,0.65234375
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,small_tree,3,8,13,24,0.2727272727272727,0.1875,0.2222222222222222,0.3617006288308616,0.556640625
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5362488768546396,0.673828125
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.24455359179543706,0.275390625
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,btcpay,377,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3333333333333333,0.5
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,micro,377,1455,637,818,,,,,,tree,618,112,19,706,0.8465753424657534,0.9701726844583988,0.9041697147037308,0.9317551473636512,0.9666894404931429
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,micro,377,1455,637,818,,,,,,small_tree,617,112,20,706,0.8463648834019204,0.9686028257456829,0.9033674963396779,0.9136173364630544,0.9547312624504382
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,micro,377,1455,637,818,,,,,,inactivity,,,,,,,,0.9225885633278503,0.9588238342167786
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,micro,377,1455,637,818,,,,,,balance,,,,,,,,0.8026441975517441,0.9025488133940806
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,micro,377,1455,637,818,,,,,,constant,,,,,,,,0.43780068728522337,0.5
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,incident_macro,377,,,,,,,,,tree,,,,,0.6836621468200416,0.7308743169398907,0.7027797588900259,0.7641721597712611,0.8674953536056125
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,incident_macro,377,,,,,,,,,small_tree,,,,,0.6634601266180213,0.7100409836065574,0.6816157377260047,0.7314729471772321,0.826780849733803
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,incident_macro,377,,,,,,,,,inactivity,,,,,,,,0.7819745324995107,0.8698243603652966
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,incident_macro,377,,,,,,,,,balance,,,,,,,,0.6056597602180002,0.6908316132482007
+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,mixed,incident_macro,377,,,,,,,,,constant,,,,,,,,0.3890160835449589,0.5
+coldcard+cryptobilis+btcpay,coldcard,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,tree,498,66,2,905,0.8829787234042553,0.996,0.9360902255639098,0.9696924222934357,0.9919227600411946
+coldcard+cryptobilis+btcpay,coldcard,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,small_tree,498,58,2,913,0.89568345323741,0.996,0.9431818181818182,0.944900882483567,0.9831421215242019
+coldcard+cryptobilis+btcpay,coldcard,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+cryptobilis+btcpay,coldcard,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+cryptobilis+btcpay,coldcard,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+cryptobilis+btcpay,coldcard,internal,micro,1848,1471,500,971,,,,,,tree,498,66,2,905,0.8829787234042553,0.996,0.9360902255639098,0.9696924222934357,0.9919227600411946
+coldcard+cryptobilis+btcpay,coldcard,internal,micro,1848,1471,500,971,,,,,,small_tree,498,58,2,913,0.89568345323741,0.996,0.9431818181818182,0.944900882483567,0.9831421215242019
+coldcard+cryptobilis+btcpay,coldcard,internal,micro,1848,1471,500,971,,,,,,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+cryptobilis+btcpay,coldcard,internal,micro,1848,1471,500,971,,,,,,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+cryptobilis+btcpay,coldcard,internal,micro,1848,1471,500,971,,,,,,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+cryptobilis+btcpay,coldcard,internal,incident_macro,1848,,,,,,,,,tree,,,,,0.8829787234042553,0.996,0.9360902255639098,0.9696924222934357,0.9919227600411946
+coldcard+cryptobilis+btcpay,coldcard,internal,incident_macro,1848,,,,,,,,,small_tree,,,,,0.89568345323741,0.996,0.9431818181818182,0.944900882483567,0.9831421215242019
+coldcard+cryptobilis+btcpay,coldcard,internal,incident_macro,1848,,,,,,,,,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+cryptobilis+btcpay,coldcard,internal,incident_macro,1848,,,,,,,,,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+cryptobilis+btcpay,coldcard,internal,incident_macro,1848,,,,,,,,,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+cryptobilis+btcpay,cryptobilis,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,tree,96,10,26,197,0.9056603773584906,0.7868852459016393,0.8421052631578947,0.8951708312242581,0.9272392492278451
+coldcard+cryptobilis+btcpay,cryptobilis,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,small_tree,94,5,28,202,0.9494949494949495,0.7704918032786885,0.8506787330316742,0.9284703439817807,0.9697869644412767
+coldcard+cryptobilis+btcpay,cryptobilis,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+coldcard+cryptobilis+btcpay,cryptobilis,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+coldcard+cryptobilis+btcpay,cryptobilis,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3708206686930091,0.5
+coldcard+cryptobilis+btcpay,cryptobilis,internal,micro,1848,329,122,207,,,,,,tree,96,10,26,197,0.9056603773584906,0.7868852459016393,0.8421052631578947,0.8951708312242581,0.9272392492278451
+coldcard+cryptobilis+btcpay,cryptobilis,internal,micro,1848,329,122,207,,,,,,small_tree,94,5,28,202,0.9494949494949495,0.7704918032786885,0.8506787330316742,0.9284703439817807,0.9697869644412767
+coldcard+cryptobilis+btcpay,cryptobilis,internal,micro,1848,329,122,207,,,,,,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+coldcard+cryptobilis+btcpay,cryptobilis,internal,micro,1848,329,122,207,,,,,,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+coldcard+cryptobilis+btcpay,cryptobilis,internal,micro,1848,329,122,207,,,,,,constant,,,,,,,,0.3708206686930091,0.5
+coldcard+cryptobilis+btcpay,cryptobilis,internal,incident_macro,1848,,,,,,,,,tree,,,,,0.9056603773584906,0.7868852459016393,0.8421052631578947,0.8951708312242581,0.9272392492278451
+coldcard+cryptobilis+btcpay,cryptobilis,internal,incident_macro,1848,,,,,,,,,small_tree,,,,,0.9494949494949495,0.7704918032786885,0.8506787330316742,0.9284703439817807,0.9697869644412767
+coldcard+cryptobilis+btcpay,cryptobilis,internal,incident_macro,1848,,,,,,,,,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+coldcard+cryptobilis+btcpay,cryptobilis,internal,incident_macro,1848,,,,,,,,,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+coldcard+cryptobilis+btcpay,cryptobilis,internal,incident_macro,1848,,,,,,,,,constant,,,,,,,,0.3708206686930091,0.5
+coldcard+cryptobilis+btcpay,btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,tree,3,5,13,27,0.375,0.1875,0.25,0.3784548048020377,0.5703125
+coldcard+cryptobilis+btcpay,btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,small_tree,1,5,15,27,0.16666666666666666,0.0625,0.09090909090909091,0.38232650616067804,0.587890625
+coldcard+cryptobilis+btcpay,btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5362488768546396,0.673828125
+coldcard+cryptobilis+btcpay,btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.24455359179543706,0.275390625
+coldcard+cryptobilis+btcpay,btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3333333333333333,0.5
+coldcard+cryptobilis+btcpay,btcpay,internal,micro,1848,48,16,32,,,,,,tree,3,5,13,27,0.375,0.1875,0.25,0.3784548048020377,0.5703125
+coldcard+cryptobilis+btcpay,btcpay,internal,micro,1848,48,16,32,,,,,,small_tree,1,5,15,27,0.16666666666666666,0.0625,0.09090909090909091,0.38232650616067804,0.587890625
+coldcard+cryptobilis+btcpay,btcpay,internal,micro,1848,48,16,32,,,,,,inactivity,,,,,,,,0.5362488768546396,0.673828125
+coldcard+cryptobilis+btcpay,btcpay,internal,micro,1848,48,16,32,,,,,,balance,,,,,,,,0.24455359179543706,0.275390625
+coldcard+cryptobilis+btcpay,btcpay,internal,micro,1848,48,16,32,,,,,,constant,,,,,,,,0.3333333333333333,0.5
+coldcard+cryptobilis+btcpay,btcpay,internal,incident_macro,1848,,,,,,,,,tree,,,,,0.375,0.1875,0.25,0.3784548048020377,0.5703125
+coldcard+cryptobilis+btcpay,btcpay,internal,incident_macro,1848,,,,,,,,,small_tree,,,,,0.16666666666666666,0.0625,0.09090909090909091,0.38232650616067804,0.587890625
+coldcard+cryptobilis+btcpay,btcpay,internal,incident_macro,1848,,,,,,,,,inactivity,,,,,,,,0.5362488768546396,0.673828125
+coldcard+cryptobilis+btcpay,btcpay,internal,incident_macro,1848,,,,,,,,,balance,,,,,,,,0.24455359179543706,0.275390625
+coldcard+cryptobilis+btcpay,btcpay,internal,incident_macro,1848,,,,,,,,,constant,,,,,,,,0.3333333333333333,0.5
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,tree,498,66,2,905,0.8829787234042553,0.996,0.9360902255639098,0.9696924222934357,0.9919227600411946
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,small_tree,498,58,2,913,0.89568345323741,0.996,0.9431818181818182,0.944900882483567,0.9831421215242019
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,tree,96,10,26,197,0.9056603773584906,0.7868852459016393,0.8421052631578947,0.8951708312242581,0.9272392492278451
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,small_tree,94,5,28,202,0.9494949494949495,0.7704918032786885,0.8506787330316742,0.9284703439817807,0.9697869644412767
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3708206686930091,0.5
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,micro,1848,1800,622,1178,,,,,,tree,594,76,28,1102,0.8865671641791045,0.954983922829582,0.9195046439628483,0.9543706616037456,0.9781306809186643
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,micro,1848,1800,622,1178,,,,,,small_tree,592,63,30,1115,0.9038167938931297,0.9517684887459807,0.9271730618637432,0.9404043146674416,0.979794354156317
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,micro,1848,1800,622,1178,,,,,,inactivity,,,,,,,,0.9284383345463293,0.9772353817850299
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,micro,1848,1800,622,1178,,,,,,balance,,,,,,,,0.7821366324847533,0.9307351006392655
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,micro,1848,1800,622,1178,,,,,,constant,,,,,,,,0.34555555555555556,0.5
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,incident_macro,1848,,,,,,,,,tree,,,,,0.894319550381373,0.8914426229508197,0.8890977443609023,0.9324316267588468,0.9595810046345199
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,incident_macro,1848,,,,,,,,,small_tree,,,,,0.9225892013661798,0.8832459016393442,0.8969302756067462,0.9366856132326739,0.9764645429827392
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,incident_macro,1848,,,,,,,,,inactivity,,,,,,,,0.9046560964009358,0.9732195174269382
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,incident_macro,1848,,,,,,,,,balance,,,,,,,,0.7701734652480963,0.9070179985558875
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis,internal,incident_macro,1848,,,,,,,,,constant,,,,,,,,0.35536274767077375,0.5
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,tree,498,66,2,905,0.8829787234042553,0.996,0.9360902255639098,0.9696924222934357,0.9919227600411946
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,small_tree,498,58,2,913,0.89568345323741,0.996,0.9431818181818182,0.944900882483567,0.9831421215242019
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,tree,3,5,13,27,0.375,0.1875,0.25,0.3784548048020377,0.5703125
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,small_tree,1,5,15,27,0.16666666666666666,0.0625,0.09090909090909091,0.38232650616067804,0.587890625
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5362488768546396,0.673828125
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.24455359179543706,0.275390625
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3333333333333333,0.5
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,micro,1848,1519,516,1003,,,,,,tree,501,71,15,932,0.8758741258741258,0.9709302325581395,0.9209558823529411,0.9546775380020893,0.9799950922426519
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,micro,1848,1519,516,1003,,,,,,small_tree,499,63,17,940,0.8879003558718861,0.9670542635658915,0.9257884972170687,0.9307126358936932,0.9724537627427794
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,micro,1848,1519,516,1003,,,,,,inactivity,,,,,,,,0.946927785379174,0.9750486911358947
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,micro,1848,1519,516,1003,,,,,,balance,,,,,,,,0.7774178162384756,0.9249499563325527
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,micro,1848,1519,516,1003,,,,,,constant,,,,,,,,0.3396971691902567,0.5
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,incident_macro,1848,,,,,,,,,tree,,,,,0.6289893617021276,0.59175,0.5930451127819549,0.6740736135477366,0.7811176300205973
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,incident_macro,1848,,,,,,,,,small_tree,,,,,0.5311750599520384,0.52925,0.5170454545454546,0.6636136943221225,0.7855163732621009
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,incident_macro,1848,,,,,,,,,inactivity,,,,,,,,0.745788666883475,0.8286256999871267
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,incident_macro,1848,,,,,,,,,balance,,,,,,,,0.5182180406432481,0.6107622537976314
+coldcard+cryptobilis+btcpay,coldcard+btcpay,internal,incident_macro,1848,,,,,,,,,constant,,,,,,,,0.3366190799909359,0.5
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,tree,96,10,26,197,0.9056603773584906,0.7868852459016393,0.8421052631578947,0.8951708312242581,0.9272392492278451
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,small_tree,94,5,28,202,0.9494949494949495,0.7704918032786885,0.8506787330316742,0.9284703439817807,0.9697869644412767
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3708206686930091,0.5
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,tree,3,5,13,27,0.375,0.1875,0.25,0.3784548048020377,0.5703125
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,small_tree,1,5,15,27,0.16666666666666666,0.0625,0.09090909090909091,0.38232650616067804,0.587890625
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5362488768546396,0.673828125
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.24455359179543706,0.275390625
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3333333333333333,0.5
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,micro,1848,377,138,239,,,,,,tree,99,15,39,224,0.868421052631579,0.717391304347826,0.7857142857142857,0.8379981174994608,0.8896064520041235
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,micro,1848,377,138,239,,,,,,small_tree,95,10,43,229,0.9047619047619048,0.6884057971014492,0.7818930041152263,0.8715269567352573,0.9307955854708629
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,micro,1848,377,138,239,,,,,,inactivity,,,,,,,,0.801852443609118,0.9238675641258869
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,micro,1848,377,138,239,,,,,,balance,,,,,,,,0.6957504381227342,0.8013158692620217
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,micro,1848,377,138,239,,,,,,constant,,,,,,,,0.3660477453580902,0.5
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,incident_macro,1848,,,,,,,,,tree,,,,,0.6403301886792453,0.48719262295081966,0.5460526315789473,0.6368128180131479,0.7487758746139226
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,incident_macro,1848,,,,,,,,,small_tree,,,,,0.5580808080808081,0.41649590163934425,0.47079391197038256,0.6553984250712294,0.7788387947206383
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,incident_macro,1848,,,,,,,,,inactivity,,,,,,,,0.6951163063721004,0.8184219424398116
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,incident_macro,1848,,,,,,,,,balance,,,,,,,,0.49650901640028533,0.5716463697582561
+coldcard+cryptobilis+btcpay,cryptobilis+btcpay,internal,incident_macro,1848,,,,,,,,,constant,,,,,,,,0.3520770010131712,0.5
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,tree,498,66,2,905,0.8829787234042553,0.996,0.9360902255639098,0.9696924222934357,0.9919227600411946
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,small_tree,498,58,2,913,0.89568345323741,0.996,0.9431818181818182,0.944900882483567,0.9831421215242019
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.9553284569123104,0.9834232749742533
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.791882489491059,0.9461338825952627
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,coldcard,1848,1471,500,971,911,1471,0,group-held-out,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3399048266485384,0.5
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,tree,96,10,26,197,0.9056603773584906,0.7868852459016393,0.8421052631578947,0.8951708312242581,0.9272392492278451
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,small_tree,94,5,28,202,0.9494949494949495,0.7704918032786885,0.8506787330316742,0.9284703439817807,0.9697869644412767
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.8539837358895612,0.9630157598796231
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.7484644410051335,0.8679021145165122
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,cryptobilis,1848,329,122,207,259,329,0,group-held-out,BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3708206686930091,0.5
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,tree,3,5,13,27,0.375,0.1875,0.25,0.3784548048020377,0.5703125
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,small_tree,1,5,15,27,0.16666666666666666,0.0625,0.09090909090909091,0.38232650616067804,0.587890625
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,inactivity,,,,,,,,0.5362488768546396,0.673828125
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,balance,,,,,,,,0.24455359179543706,0.275390625
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,btcpay,1848,48,16,32,43,48,0,group-held-out,small class support / BTCPay pilot / partial history overlap audit,constant,,,,,,,,0.3333333333333333,0.5
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,micro,1848,1848,638,1210,,,,,,tree,597,81,41,1129,0.8805309734513275,0.9357366771159875,0.9072948328267477,0.9423490688081312,0.9688599445581492
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,micro,1848,1848,638,1210,,,,,,small_tree,593,68,45,1142,0.897125567322239,0.9294670846394985,0.9130100076982294,0.928913040244971,0.9712615611803415
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,micro,1848,1848,638,1210,,,,,,inactivity,,,,,,,,0.921517503627691,0.9702641260136273
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,micro,1848,1848,638,1210,,,,,,balance,,,,,,,,0.770615072078973,0.9141331381642012
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,micro,1848,1848,638,1210,,,,,,constant,,,,,,,,0.34523809523809523,0.5
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,incident_macro,1848,,,,,,,,,tree,,,,,0.7212130335875819,0.6567950819672131,0.6760651629072681,0.7477726861065772,0.8298248364230132
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,incident_macro,1848,,,,,,,,,small_tree,,,,,0.6706150231330087,0.6096639344262295,0.6282565473741945,0.7518992442086753,0.8469399036551595
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,incident_macro,1848,,,,,,,,,inactivity,,,,,,,,0.7818536898855037,0.8734223866179588
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,incident_macro,1848,,,,,,,,,balance,,,,,,,,0.5949668407638765,0.6964755407039249
+coldcard+cryptobilis+btcpay,coldcard+cryptobilis+btcpay,internal,incident_macro,1848,,,,,,,,,constant,,,,,,,,0.3480196095582936,0.5
