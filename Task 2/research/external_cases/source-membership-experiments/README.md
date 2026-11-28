@@ -20,6 +20,7 @@ This registry follows the experiments that classify documented Bitcoin source-co
 | 2026-11-24 | Logistic regression and false-alert budget | Inactivity plus balance is the current candidate for further validation. It improves Coldcard → CryptoBilis at fewer false alerts, with weaker results on BTCPay. [Report and complete data](experiments/2026-11-24-logistic-false-alert-budget.md) |
 | 2026-11-24 | Fourteen methods across the 49-cell matrix | Compared simple rules, trees, logistic variants, forest, boosting, Gaussian naive Bayes and RBF SVM. On Coldcard → CryptoBilis, Gaussian naive Bayes retrieves 109 of 122 sources with 4 false alerts. Inactivity has the best mean external AP. [Report and complete data](experiments/2026-11-24-method-benchmark.md) |
 | 2026-11-25 | Bitfinex 2016 retrospective pilot | The frozen Coldcard inactivity rule retrieved 3 of 5 sources with zero false alerts. Five of the 14 methods retrieved 4 sources with 1 false alert. [Report](experiments/2026-11-25-bitfinex-retrospective.md) |
+| 2026-11-28 | Bitfinex 2016 model evaluation | Seven retrospective transfers and 225 exploratory matrix cells. The primary comparison excludes observations and groups exposed to the pilot. [Report](experiments/2026-11-28-bitfinex-model-evaluation-7f5f68b6bbde/README.md) |
 
 ## Maintaining the registry
 
